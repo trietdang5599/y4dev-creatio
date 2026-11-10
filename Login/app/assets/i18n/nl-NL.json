@@ -1,0 +1,125 @@
+{
+    "Input": {
+        "HidePassword": "Verberg wachtwoord",
+        "ShowPassword": "Toon wachtwoord"
+    },
+    "PasswordChangedSuccessfully": "Het wachtwoord is succesvol gewijzigd",
+    "PasswordChangeError": "Er is een fout opgetreden tijdens de wachtwoordwijziging",
+    "PasswordAndConfirmationDoNotMatch": "Wachtwoord en bevestiging komen niet overeen",
+    "TotpSetupPage": {
+        "VerificationCode": "Verificatiecode",
+        "Secret": "Geheim",
+        "SubmitButton": "Verbinden",
+        "Success": "Authenticator-app verbonden",
+        "TokenExpired": "Uw token is verlopen.",
+        "InvalidTotp": "Ongeldige verificatiecode. Zorg ervoor dat u de juiste gegevens hebt ingevoerd of neem contact op met uw systeembeheerder.",
+        "Error": "Er is een fout opgetreden tijdens het instellen van de totp. Probeer het opnieuw of neem contact op met uw systeembeheerder",
+        "Header": "Verbind een authenticator-app met uw account",
+        "Step1": "1. Installeer een authenticatie-app, zoals Google Authenticator, op uw mobiele apparaat.",
+        "Step2": "2. Scan deze QR-code met de app:",
+        "Step2SecretDescription": "Of voer de sleutel handmatig in:",
+        "Step3": "3. Voer de 6-cijferige verificatiecode in die door uw authenticator-app is gegenereerd.",
+        "CancelButton": "Annuleer"
+    },
+    "ResetPasswordPage": {
+        "NewPassword": "Nieuw wachtwoord",
+        "NewPasswordConfirm": "Bevestig nieuw wachtwoord",
+        "SecondFactor": "Bevestiging code",
+        "SendCodeViaSMS": "Stuur code via SMS",
+        "ResetPasswordButtonCaption": "Reset wachtwoord",
+        "Error": "Er is een fout opgetreden tijdens het herstellen van het wachtwoord. Probeer het opnieuw of neem contact op met uw systeembeheerder"
+    },
+    "PasswordComplexity": {
+        "MinPasswordLength": {
+            "Message": "Karakters - {{minLength}}"
+        },
+        "MinPasswordUppercaseCharCount": {
+            "Message": "Hoofdletters - {{minCount}}"
+        },
+        "MinPasswordLowercaseCharCount": {
+            "Message": "Kleinletters - {{minCount}}"
+        },
+        "MinPasswordNumericCharCount": {
+            "Message": "Cijfers - {{minCount}}"
+        },
+        "MinPasswordSpecialCharCount": {
+            "Message": "Speciale tekens - {{minCount}}"
+        },
+        "PasswordStrength": {
+            "Message": "Het wachtwoord voldoet niet aan de vereisten"
+        },
+        "PasswordsDoNotMatch": {
+            "Message": "Wachtwoorden komen niet overeen"
+        },
+        "MfaEmpty": {
+            "Message": "Vul dit veld in"
+        }
+    },
+    "PasswordValidationTooltipCaption": "Minimale wachtwoordvereisten",
+    "BeginPasswordRecoveryPage": {
+        "Email": "Voer gebruikers-e-mail of login in",
+        "EmailSent": "Als er een account bestaat, ontvangt u een e-mail met instructies voor het herstel van uw wachtwoord. Als de e-mail niet aankomt, controleer dan uw spamfolder en neem contact op met uw systeembeheerder",
+        "Error": "Er is een fout opgetreden tijdens het verzenden van de e-mail",
+        "SendButtonCaption": "Verstuur e-mail",
+        "ResendButtonCaption": "E-mail opnieuw verzenden",
+        "OpenLoginPageButtonCaption": "Open inlogpagina",
+        "ResetLinkExpired": "De resetlink is verlopen of is al gebruikt"
+    },
+    "UseAnotherMethod": "Gebruik een andere methode",
+    "TwoFactorSubmitButton": "Verifiëren",
+    "TwoFactorBackButton": "Terug",
+    "SmsProvider": {
+        "SendSms": "Stuur een andere code",
+        "ResendSms": "Stuur SMS opnieuw"
+    },
+    "EmailProvider": {
+        "SendEmail": "Stuur een andere code"
+    },
+    "TwoFactor.SmsProviderNotAvailable": "Voer de verificatiecode in welke naar uw telefoonnummer is verzonden",
+    "TwoFactor.EnterSmsCode.Caption": "Voer de verificatiecode in welke naar uw telefoonnummer is verzonden",
+    "TwoFactor.EnterEmailCode.Caption": "Voer de verificatiecode in welke naar uw e-mailadres is verzonden",
+    "TwoFactor.EnterTOTPCode.Caption": "Voer de verificatiecode in die door de authenticator-app is gegenereerd",
+    "TwoFactor.VerificationCode.Caption": "Verificatiecode",
+    "TwoFactor.TOTPUnavailable.Caption": "Om de authenticator-app-methode te gebruiken, moet je deze eerst instellen. Je kunt dit doen op je profielpagina.",
+    "TwoFactor.UseAnotherMethod.Caption": "Gebruik een andere methode",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Ongeldige verificatiecode. Zorg ervoor dat u de juiste gegevens hebt ingevoerd of neem contact op met uw systeembeheerder",
+    "TwoFactor.ValidationCanceled": "Validatie van tweede factor is geannuleerd",
+    "ConsentPage": {
+        "AcceptButtonCaption": "Accepteren.",
+        "DiscardButtonCaption": "Afwijzen.",
+        "SwitchButton": "Schakelen.",
+        "DescriptionTextStart": "De {{oauthApplicationName}}-toepassing vraagt om toegang tot uw ",
+        "DescriptionTextEnd": " Creatio-account. Na uw toestemming heeft deze toegang tot de volgende bewerkingen:",
+        "CommonScopeText": "Mogelijkheid om alle bewerkingen met gegevens uit te voeren en elke functionaliteit te gebruiken die beschikbaar is voor uw account.",
+        "Footer1": "U kunt op elk moment toegang intrekken in uw gebruikersprofiel.",
+        "Footer2": "Leer meer in de ",
+        "Footer3": "Voor de applicaties die door Creatio zijn verstrekt, kunt u de relevante documentatie in de Academy vinden. Merk op dat Creatio geen integraties met externe applicaties beoordeelt. Uw gebruik van een dergelijke applicatie en integratie is onderworpen aan de voorwaarden van derden, het privacybeleid en de documentatie.",
+        "AcademyLink": "Academie",
+        "ConsentErrorInvalidRequest": {
+            "Title": "Fout bij het instellen van de integratie",
+            "Message": "Kan het autorisatieproces niet starten omdat de aanvraag niet correct is geconfigureerd. Een of meer vereiste parameters zijn onjuist of ontbreken.",
+            "Suggestion": "Neem contact op met uw systeembeheerder of Creatio-ondersteuning om de integratie-instellingen te verifiëren en ervoor te zorgen dat alle benodigde parameters zijn opgegeven."
+        },
+        "ConsentErrorInvalidClient": {
+            "Title": "De autorisatieaanvraag is verlopen.",
+            "Message": "Kan de autorisatie niet voltooien omdat de aanvraag is verlopen.",
+            "Suggestion": "Herstart het autorisatieproces van de integratie vanaf het begin om door te gaan."
+        },
+        "ConsentErrorInvalidUser": {
+            "Title": "Fout tijdens het instellen van de integratie.",
+            "Message": "Er is een fout opgetreden tijdens het verwerken van het verzoek. Probeer het later opnieuw.",
+            "Suggestion": "Neem contact op met uw systeembeheerder om de benodigde toegangsrechten aan te vragen en herhaal uw poging daarna."
+        },
+        "ConsentErrorInvalidConsentId": {
+            "Title": "Leer meer over OAuth-integratie-instellingen in Creatio op de ",
+            "Message": "Unable to complete the authorization because the request has expired.",
+            "Suggestion": "Integratie niet gevonden."
+        },
+        "ConsentErrorServerError": {
+            "Title": "Kan het autorisatieproces niet starten omdat er geen actieve integratie is geconfigureerd met de opgegeven client-ID en geautoriseerde redirect URI.",
+            "Message": "Neem contact op met uw systeembeheerder om de lijst van gebruikers die zijn gemachtigd om deze integratie te gebruiken bij te werken.",
+            "Suggestion": "Toegang tot integratie is niet toegestaan."
+        },
+        "ErrorFooter": "Kan de autorisatie niet voltooien omdat uw gebruikersaccount niet is toegestaan deze integratie te gebruiken."
+    }
+}

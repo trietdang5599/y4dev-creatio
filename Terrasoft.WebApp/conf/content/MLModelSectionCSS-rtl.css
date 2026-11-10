@@ -1,0 +1,11 @@
+﻿.ML.ts-messagebox-box {
+  width: 460px;
+}
+.ML.ts-messagebox-box .ts-messagebox-caption h3 {
+  color: #4e7bd8;
+  margin-top: 0;
+}
+.ML.ts-messagebox-box .t-btn-wrapper {
+  float: left;
+  margin-left: 0;
+}

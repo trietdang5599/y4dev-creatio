@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g transform="translate(1)">
+    <path d="M-2799.346,1196.853a1.446,1.446,0,0,0-1.446,1.446,1.446,1.446,0,0,0,1.446,1.446,1.447,1.447,0,0,0,1.446-1.446" transform="translate(2805.42 -1189.332)" fill="none" stroke="currentColor" stroke-width="1"/>
+    <path d="M-2799.853,1193.041a3.766,3.766,0,0,0-1.179-.188,3.759,3.759,0,0,0-3.76,3.76,3.76,3.76,0,0,0,3.76,3.76,3.76,3.76,0,0,0,3.76-3.76,3.747,3.747,0,0,0-.168-1.114" transform="translate(2807.106 -1187.646)" fill="none" stroke="currentColor" stroke-width="1"/>
+    <path d="M-2801.184,1189.124l-1.533-.271a6.072,6.072,0,0,0-6.074,6.075,6.073,6.073,0,0,0,6.074,6.074,6.073,6.073,0,0,0,6.074-6.074,6.74,6.74,0,0,0-.216-1.612" transform="translate(2808.792 -1185.96)" fill="none" stroke="currentColor" stroke-width="1"/>
+    <line x1="3" y2="3" transform="translate(6.5 5.5)" fill="none" stroke="currentColor" stroke-width="1"/>
+    <path d="M-2790.792,1186.853v3h3" transform="translate(2800.292 -1184.352)" fill="none" stroke="currentColor" stroke-width="1"/>
+    <path d="M-2786.792,1183.853v3h3" transform="translate(2798.293 -1183.353)" fill="none" stroke="currentColor" stroke-width="1"/>
+  </g>
+  <rect width="16" height="16" fill="none"/>
+</svg>

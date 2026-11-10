@@ -1,0 +1,130 @@
+﻿.duplicates-label {
+	color: #999999;
+	text-align: justify;
+	font-size: 21px;
+}
+.duplicates-header-label {
+	.duplicates-label;
+	margin-bottom: 15px;
+}
+
+.detail .duplicates-header-label {
+	.duplicates-label;
+	margin-bottom: 0;
+	font-size: 17px;
+	a {
+		font-size: 12px;
+		vertical-align: baseline;
+		cursor: pointer;
+		margin-left: 5px;
+		white-space: nowrap;
+	}
+}
+
+.duplicates-detail-buttons {
+	position: relative;
+}
+
+.duplicates-detail {
+	margin-bottom: 15px;
+}
+
+.duplicates-controls-container {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e1e8d2;
+}
+
+.default-center-panel-content,.center-panel-content {
+	.schema-wrap.one-el .duplicates-card-content-container {
+		max-width: 100%;
+		margin-left: -8px;
+		margin-top: -15px;
+
+		.empty-grid-message {
+			margin-bottom: 0;
+			padding-top: 45px;
+			width: 100%;
+			height: 100%;
+			.t-label {
+				font-size: 1em;
+			}
+			.title {
+				padding-left: 30px;
+			}
+			.title, .description {
+				width: 40%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		.empty-result-with-filters {
+			.title, .description {
+				width: 25%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		.duplicates-container-item {
+			.ts-controlgroup {
+				max-width: none;
+				.grid-captions {
+					display: flex;
+				}
+			}
+		}
+	}
+}
+
+body[OldUI=false] .center-panel .card-content-container.duplicates-content-wrap {
+	.actions-container {
+		z-index: 1000;
+		height: auto;
+		padding-bottom: 5px;
+		
+		.left-container-wrapClass {
+			float: unset;
+		}
+
+		.custom-filter-button-container {
+			.t-btn-wrapper {
+				padding-left: 0 !important;
+
+				.t-btn-image {
+					left: 0;
+				}
+				.t-btn-text {
+					padding-left: 1.7em;
+					padding-top: 0.2em;
+				}
+			}
+			
+			.t-btn-wrapper:not(.t-btn-no-text-padding) span.t-btn-image {
+				margin-top: 0.49em;
+			}
+		}
+	}
+
+	.detail-filter-container-style {
+		display: block;
+	}
+}
+
+.duplicate-summary-item-container {
+	display: inline-block;
+	margin: 5.5px 8px;
+}
+
+.duplicate-summary-item-label(@color, @size) {
+	color: @color;
+	font-size: @size;
+	display: inline;
+}
+
+.duplicate-summary-item-caption {
+	.duplicate-summary-item-label(#999, 1.3em);
+}
+.duplicate-summary-item-value {
+	.duplicate-summary-item-label(#88C658, 1.4em);
+	padding-left: 5px;
+}
+

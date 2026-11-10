@@ -1,0 +1,234 @@
+﻿.detail {
+
+	.load-more-button-class {
+		margin-left: 35%;
+	}
+
+	.ts-controlgroup-tools {
+		.t-btn-wrapper {
+
+			background-color: rgba(0, 0, 0, 0);
+
+			border: 1px solid #b4c1d2;
+			border-radius: 2px;
+
+			color: #4e7bd8;
+
+			font-size: 13px;
+
+			height: 1.923em;
+
+			padding-left: 0.769em;
+
+			flex-shrink: 0;
+			-webkit-flex-shrink: 0;
+
+			&:first-child {
+				margin-left: 0.462em;
+			}
+
+			&:not(:first-child) {
+				margin-left: 0.692em;
+			}
+
+			&.wrapper-with-centered-right-menu {
+				.t-btn-menu {
+					right: 0.769em;
+				}
+			}
+		}
+
+		.t-btn-wrapper[data-item-marker="ToolsButton"] {
+			border: none;
+			padding: 0;
+			height: 16px;
+			margin-top: 5px;
+
+			&:hover {
+				background: #fff;
+
+				.t-btn-image {
+					background-position: 0 -2px;
+				}
+			}
+
+			.t-btn-image {
+				width: 16px;
+				height: 16px;
+				background-position: 0 14px;
+			}
+		}
+
+		.t-btn-wrapper[data-item-marker="ProcessButton"],
+		.t-btn-wrapper[data-item-marker="AddTypedRecordButton"],
+		.t-btn-wrapper[data-item-marker="RedirectToNewDesignerButton"],
+		.t-btn-wrapper[data-item-marker="AddRecordButton"]:not(.padding-left-34px),
+		.t-btn-wrapper[data-item-marker="AddRecord"],
+		.t-btn-wrapper[data-item-marker="UpButton"],
+		.t-btn-wrapper[data-item-marker="DownButton"] {
+			border: none;
+			padding: 0;
+			height: 16px;
+			margin-top: 5px;
+
+			&:hover {
+				background: #fff;
+
+				.t-btn-image {
+					background-position: 0 0;
+				}
+			}
+
+			.t-btn-image {
+				width: 16px;
+				height: 16px;
+				background-position: 0 16px;
+			}
+
+			.t-btn-menu, .t-btn-menuWrap{
+				display: none;
+			}
+		}
+
+		.t-btn-disabled.t-btn-wrapper[data-item-marker="UpButton"],
+		.t-btn-disabled.t-btn-wrapper[data-item-marker="DownButton"] {
+			.t-btn-image {
+				background-position: 0 32px;
+			}
+		}
+		.t-btn-wrapper[data-item-marker="relationship"],
+		.t-btn-wrapper[data-item-marker="datagrid"],
+		.t-btn-wrapper[data-item-marker="tiled"],
+		.t-btn-wrapper[data-item-marker="listed"] {
+			border: none;
+			padding: 0;
+			height: 16px;
+			margin-top: 5px;
+
+			&.t-btn-pressed {
+				background: #fff;
+
+				.t-btn-image {
+					background-position: 0 16px;
+				}
+			}
+
+			.t-btn-image {
+				width: 16px;
+				height: 16px;
+				background-position: 0 0;
+			}
+		}
+
+		.detail-tools-button-wrapper {
+			padding-right: 0.462em;
+			padding-left: 0.385em;
+		}
+
+		.detail-tools-button-menu {
+			display: none;
+		}
+
+		.detail-relationship-button-wrapper {
+			padding-right: 0.462em;
+			padding-left: 0.385em;
+
+			.t-btn-image {
+				width: 1.16em;
+  				height: 1.16em;
+			}
+		}
+
+		.t-btn-pressed {
+  			background: #e4eaf9;
+		}
+
+		.t-btn-style-default {
+			min-height: auto;
+			text-transform: none;
+
+			.t-btn-image {
+				width: 1.235em;
+				height: 1.235em;
+			}
+		}
+	}
+}
+
+.ts-controlgroup-container {
+	padding-bottom: 2.6em;
+
+	.grid.grid-tiled {
+		padding-left: 24px;
+
+		.grid-pad {
+			padding-left: 0px;
+
+			&:first-child:before {
+				margin: 0;
+			}
+
+			&:after{
+				margin: 6px 0px 0px 0px;
+			}
+
+			.grid-module {
+				padding-left: 6px;
+			}
+		}
+	}
+
+	.grid.grid-tiled.grid-multiselect .grid-pad .grid-module {
+		padding-left: 32px;
+	}
+}
+
+.ts-controlgroup-container.ts-controlgroup-empty-caption {
+
+}
+
+.ts-controlgroup .grid-layout {
+	margin-bottom: 1px;
+}
+
+.detail-tools-filters-container {
+	display: flex;
+	padding-left: 15px;
+
+	.control-width-15 {
+
+		.label-wrap + .control-wrap{
+			margin-left: 0;
+			padding-left: 0;
+		}
+		.control-wrap {
+			float: left;
+			width: auto;
+		}
+		.t-checkboxedit-wrap {
+			margin-top: 5px;
+		}
+	}
+	.label-wrap {
+		width: 100%;
+		padding-left: 10px;
+
+		&.checkbox-label-wrap {
+			.t-label {
+				min-width: 128px;
+				text-align: left;
+			}
+		}
+		.t-label {
+			white-space: nowrap;
+			color: #444444;
+			width: auto;
+		}
+	}
+}
+
+html[dir="rtl"] {
+	.detail-tools-filters-container .control-width-15 .label-wrap{
+		width: auto;
+	}
+}

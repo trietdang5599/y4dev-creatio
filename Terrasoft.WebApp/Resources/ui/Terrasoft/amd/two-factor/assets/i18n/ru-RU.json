@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Другой метод",
+    "TwoFactorSubmitButton": "Подтвердить",
+    "TwoFactorBackButton": "Назад",
+    "SmsProvider": {
+        "SendSms": "Отправить новый код",
+        "ResendSms": "Отправить SMS повторно"
+    },
+    "EmailProvider": {
+        "SendEmail": "Отправить новый код"
+    },
+    "TwoFactor.AdditionalVerification": "Дополнительная проверка",
+    "TwoFactor.CancelButton.Caption": "Отмена",
+    "TwoFactor.EnterSmsCode.Caption": "Введите код подтверждения, который был отправлен в SMS на ваш номер телефона",
+    "TwoFactor.EnterEmailCode.Caption": "Введите код подтверждения, который был отправлен на ваш email-адрес",
+    "TwoFactor.EnterTOTPCode.Caption": "Введите код подтверждения из приложения-аутентификатора",
+    "TwoFactor.VerificationCode.Caption": "Код подтверждения",
+    "TwoFactor.TOTPUnavailable.Caption": "Для подтверждения входа через приложение-аутентификатор необходимо выполнить настройку. Вы можете это сделать в профиле пользователя.",
+    "TwoFactor.UseAnotherMethod.Caption": "Другой метод",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Вы ввели неправильный код подтверждения. Проверьте корректность введенных данных или обратитесь к системному администратору",
+    "TwoFactor.ValidationCanceled": "Валидация второго фактора отменена",
+    "TwoFactor.EnterRecoveryCode.Caption": "Введите резервный код",
+    "TwoFactor.RecoveryCodesNotAvailable": "Для подтверждения входа через резервные коды необходимо выполнить настройку. Вы можете это сделать в профиле пользователя",
+    "TwoFactor.SmsProviderNotAvailable": "Введите код подтверждения, который был отправлен в SMS на ваш номер телефона"
+}

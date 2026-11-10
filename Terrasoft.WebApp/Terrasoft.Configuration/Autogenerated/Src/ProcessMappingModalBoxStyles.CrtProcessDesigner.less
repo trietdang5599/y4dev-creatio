@@ -1,0 +1,435 @@
+﻿.formula-modal-box {
+	box-sizing: border-box;
+	width: calc(~"100% - 356px") !important;
+	height: 100% !important;
+	margin-left: 1px;
+	min-width: inherit !important;
+	min-height: inherit !important;
+	max-width: 1280px !important;
+	max-height: 800px !important;
+	display: block;
+
+	.grid-listed-row .grid-fixed-col {
+		margin-top: 8px;
+	}
+
+	.ts-modalbox-innerbox {
+		width: 100%;
+		height: 100%;
+		display: block;
+
+		& > .schema-wrap.one-el {
+			width: 100%;
+			height: 100%;
+			padding-left: 19px;
+			padding-right: 19px;
+			padding-bottom: 15px;
+		}
+
+		div[data-item-marker=ProcessParameterSelectionPageContainer] .controls-container-modal-page,
+		div[data-item-marker=DcmParameterSelectionPageContainer] .controls-container-modal-page {
+			padding-top: 0;
+		}
+	}
+
+	.modal-page-fixed-container {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		padding-top: 83px;
+
+		.header {
+			position: absolute;
+			top: 4px;
+
+			.header-name-container {
+				.t-label {
+					color: #00aeef;
+					font-size: 20px;
+					letter-spacing: inherit;
+				}
+			}
+		}
+
+		.close-btn-user-class {
+			position: absolute;
+			right: -12px;
+			top: 9px;
+		}
+
+		.utils-container-modal-page {
+			position: absolute;
+			top: 53px;
+			left: 0;
+		}
+
+		.utils-buttons {
+			margin: 0 9px 0 0;
+			height: 30px;
+
+			&.t-btn-style-blue {
+				line-height: 18px;
+			}
+		}
+
+		.formula-help-button {
+			position: absolute;
+			top: 53px;
+			right: 0;
+			padding: 0.33em;
+			padding-left: 3em !important;
+
+			.formula-help-button-text {
+				font-size: 14px;
+			}
+		}
+
+		.controls-container-modal-page {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			padding-top: 100px;
+
+			::-webkit-input-placeholder {
+				opacity: 1;
+			}
+
+			:-moz-placeholder {
+				opacity: 1;
+			}
+
+			::-moz-placeholder {
+				opacity: 1;
+			}
+
+			:-ms-input-placeholder {
+				opacity: 1;
+			}
+
+			.formula-edit-control {
+				position:absolute;
+				top: 20px;
+				width: 100%;
+				height: 89px;
+				border: 1px solid #ebebeb;
+
+				.control-wrap {
+					height: 100%;
+
+					.base-edit.memo-edit-core {
+						height: 100%;
+
+						&.base-edit:not(.base-edit-focus) {
+							border: 1px solid white;
+
+							&:hover {
+								border: 1px solid white;
+							}
+						}
+
+						.base-edit-input.memo-edit-area {
+							font-size: 13px;
+							padding-top: 9px;
+							padding-bottom: 3px;
+							overflow: auto;
+						}
+					}
+				}
+			}
+
+			.center-area-grid-container {
+				width: 100%;
+				height: 100%;
+				position: relative;
+				padding-top: 61px;
+
+				.ts-tabpanel {
+					position:absolute;
+					top: 29px;
+					width: 100%;
+					height: 2.3em;
+					font-size: 14px;
+
+					.ts-tabpanel-wrap {
+						.ts-tabpanel-items {
+							& > li {
+								font-family: inherit;
+								font-size: inherit;
+								margin-left: 30px;
+							}
+							& > li:first-child {
+								margin-left: 0;
+							}
+						}
+
+						.ts-tabpanel-scroll-left,
+						.ts-tabpanel-scroll-right {
+							width: 32px;
+						}
+					}
+				}
+
+				.grid {
+					font-family: inherit;
+				}
+
+				.mapping-tab {
+					width: 100%;
+					height: 100%;
+
+					&.tabs {
+						padding-left: inherit;
+						padding-right: inherit;
+					}
+
+					&.no-grid-caption {
+						padding-top: 10px;
+
+						.mapping-container {
+
+							.grid {
+								.grid-captions {
+									display: none;
+								}
+							}
+						}
+					}
+
+					&.elements-mapping-tab {
+						.elements-mapping-container {
+							.schema-wrap.one-el {
+								align-items: stretch;
+								padding: 0;
+								width: 100%;
+								height: 100%;
+
+								.grid-container {
+									height: auto !important;
+								}
+
+								.grid-empty {
+									position: absolute;
+
+									.t-label {
+										text-align: center;
+										margin-top: 15px;
+									}
+								}
+
+								.grid-container.right {
+									.grid-empty {
+										.t-label {
+											width: 50%;
+										}
+									}
+								}
+							}
+						}
+					}
+
+					&.value-mapping-tab {
+						padding-top: 38px;
+						position: relative;
+
+						.value-mapping-lookup-schema {
+							position: absolute;
+							top: 10px;
+							left: 0;
+							width: 100%;
+						}
+
+						.value-mapping-container {
+							position: relative;
+							padding-top: 52px;
+						}
+					}
+
+					&.sys-settings-mapping-tab {
+						.sys-settings-mapping-container {
+							padding-top: 52px;
+							position: relative;
+						}
+					}
+
+					&.datetime-mapping-tab {
+						::-webkit-input-placeholder {
+							opacity: 0;
+						}
+
+						:-moz-placeholder {
+							opacity: 0;
+						}
+
+						::-moz-placeholder {
+							opacity: 0;
+						}
+
+						:-ms-input-placeholder {
+							opacity: 0;
+						}
+					}
+
+					.mapping-container {
+						width: 100%;
+						height: 100%;
+						*[data-item-marker=ProcessParametersMappingPageContainer],
+						*[data-item-marker=ProcessElementParametersMappingPageContainer],
+						*[data-item-marker=CompositeObjectConfigurationPageContainer],
+						*[data-item-marker=DcmElementParametersMappingPageContainer] {
+							display: flex;
+
+							.grid-container {
+								width: 50%;
+								margin-top: 1em;
+								overflow-y: auto;
+							}
+
+							.left {
+								margin-right: 8px;
+							}
+
+							.grid-listed-icon-22x22 {
+								margin-top: 2px;
+								width: 24px;
+								height: 24px;
+							}
+
+							.grid-listed-icon-16x16 {
+								width: 16px;
+								height: 16px;
+							}
+						}
+
+						*[data-item-marker=ProcessParametersMappingPageContainer] {
+							.grid {
+								padding-top: 1em;
+							}
+						}
+
+						*[data-item-marker=LookupGridContainer] {
+							padding-top: 17px;
+							width: 100%;
+							height: 100%;
+						}
+
+						.containerLookupPage {
+							&.container-lookup-page-fixed {
+								min-width: inherit;
+								padding-left: 0;
+								width: 100%;
+								height: 52px;
+								position: absolute;
+								top: 0;
+							}
+
+							&.container-lookup-page-grid {
+								height: 100%;
+								position: static;
+								width: 100%;
+								max-height: none;
+								margin: 0;
+								padding-left: 4px;
+							}
+						}
+					}
+				}
+
+				.tab-parameters-mapping, .elements-mapping-tab {
+					.grid-listed-row {
+						min-height: 36px;
+
+						span {
+							line-height: 27px;
+						}
+					}
+				}
+
+				.grid-listed-icon-16x16{
+					padding-top: 6px;
+					padding-left: 7px;
+				}
+
+				.datetime-mapping-tab {
+					padding-top: 10px;
+
+					.grid-layout-column {
+						min-height: 34px;
+					}
+
+					.date-container {
+						display: flex;
+
+						.t-label {
+							line-height: 34px;
+							padding-left: 10px;
+						}
+					}
+
+					div[data-item-marker='selected-date-container'] {
+						background-color: #e4ebfa;
+
+						.t-label {
+							width: 50%;
+						}
+
+						.control-no-label .base-edit:not(.base-edit-focus) {
+							border-color: #D3D9E6;
+						}
+
+						input{
+							background-color: #e4ebfa;
+						}
+
+						.input-wrap {
+							width: 219px;
+							padding-top: 3px;
+
+							.datetime-timecontrol.time-edit {
+								width: 96px;
+							}
+						}
+					}
+
+					div[data-item-marker='date-container'] {
+						.t-btn-wrapper,
+						.base-edit {
+							display: none;
+						}
+					}
+
+					.control-no-label .base-edit:hover.base-edit-with-right-icon,
+					.control-no-label .base-edit-focus.base-edit-with-right-icon {
+						padding-right: 34px!important;
+					}
+
+					.t-btn-style-default {
+						padding-top: 0.45em;
+
+						&:hover {
+							background: inherit;
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//ProcessMappingModalBoxStyles.less: .formula-modal-box {max-width: 1280px}
+//process-schema-designer.css: .properties-ct {min-width: 356px}
+@media screen and (min-width: 1636px) { // 1280px + 356px
+	.formula-modal-box {
+		margin-left: calc(~"(100% - 1280px - 356px) / 2");
+	}
+}
+
+@media screen and (min-width: 1992px) { // 1280px + 356px + 356px
+	.formula-modal-box {
+		margin-left: auto;
+	}
+}
+
+#cke_ProcessMappingPageFormulaEditTextEdit-inline-text-edit-el {
+	display:none;
+}

@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Yükleniyor..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopyalandı"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Henüz gösterilecek bir şey yok",
+      "Subhead": "Lütfen önce veri ekleyin"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Sohbet başlatıldı: {0} tarafından",
+        "EndDate": "Sohbet tamamlandı: {0} tarafından"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Yükleniyor"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Hata",
+      "Default": "İpucu"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Yeni veya mevcut kayıt için sayfa yok. Sistem yöneticisi Freedom UI'daki düğme ayarlarını kontrol etmelidir.",
+    "GoToEntityDesignerMessage": "Sayfaları ayarlamak için şu URL'ye gidin: {0}"
+  }
+}

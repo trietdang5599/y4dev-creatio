@@ -1,0 +1,125 @@
+{
+    "Input": {
+        "HidePassword": "Sakrij lozinku",
+        "ShowPassword": "Prikaži lozinku"
+    },
+    "PasswordChangedSuccessfully": "Lozinka je uspješno promijenjena",
+    "PasswordChangeError": "Došlo je do pogreške prilikom promjene lozinke",
+    "PasswordAndConfirmationDoNotMatch": "Lozinka i njezina potvrda ne odgovaraju",
+    "TotpSetupPage": {
+        "VerificationCode": "Kod za verifikaciju",
+        "Secret": "Tajni",
+        "SubmitButton": "Poveži",
+        "Success": "Aplikacija autentifikatora povezana",
+        "TokenExpired": "Vaš token je istekao.",
+        "InvalidTotp": "Nevažeći verifikacijski kod. Provjerite jeste li unijeli točne podatke ili kontaktirajte svog administratora sustava.",
+        "Error": "Došlo je do pogreške tijekom postupka postavljanja totp-a. Molimo pokušajte ponovo ili kontaktirajte svog administratora sustava",
+        "Header": "Povežite aplikaciju za autentifikaciju s vašim računom",
+        "Step1": "1. Instalirajte aplikaciju za autentifikaciju, kao što je Google Authenticator, na svom mobilnom uređaju.",
+        "Step2": "2. Skenirajte ovaj QR kod s aplikacijom:",
+        "Step2SecretDescription": "Ili unesite ključ ručno:",
+        "Step3": "3. Unesite 6-cifreni verifikacijski kod generiran vašom aplikacijom za autentifikaciju.",
+        "CancelButton": "Odustani"
+    },
+    "ResetPasswordPage": {
+        "NewPassword": "Nova lozinka",
+        "NewPasswordConfirm": "Potvrdi novu lozinku",
+        "SecondFactor": "Kod za potvrdu",
+        "SendCodeViaSMS": "Pošalji kod putem SMS-a",
+        "ResetPasswordButtonCaption": "Resetiraj lozinku",
+        "Error": "Došlo je do pogreške tijekom postupka oporavka lozinke. Molimo pokušajte ponovo ili kontaktirajte svog administratora sustava"
+    },
+    "PasswordComplexity": {
+        "MinPasswordLength": {
+            "Message": "Znakovi - {{minLength}}"
+        },
+        "MinPasswordUppercaseCharCount": {
+            "Message": "Velika slova - {{minCount}}"
+        },
+        "MinPasswordLowercaseCharCount": {
+            "Message": "Mala slova - {{minCount}}"
+        },
+        "MinPasswordNumericCharCount": {
+            "Message": "Brojevi - {{minCount}}"
+        },
+        "MinPasswordSpecialCharCount": {
+            "Message": "Specijalni znakovi - {{minCount}}"
+        },
+        "PasswordStrength": {
+            "Message": "Lozinka ne ispunjava zahtjeve"
+        },
+        "PasswordsDoNotMatch": {
+            "Message": "Lozinka se ne podudara"
+        },
+        "MfaEmpty": {
+            "Message": "Molimo ispunite ovo polje"
+        }
+    },
+    "PasswordValidationTooltipCaption": "Minimalni zahtjevi za lozinku",
+    "BeginPasswordRecoveryPage": {
+        "Email": "Unesite korisničku e-poštu ili se prijavite",
+        "EmailSent": "Ako račun postoji, primit ćete e-mail koji sadrži upute za oporavak lozinke. Ako e-mail ne stigne, provjerite svoju mapu neželjene pošte i kontaktirajte svog sistemskog administratora",
+        "Error": "Došlo je do pogreške prilikom slanja e-pošte",
+        "SendButtonCaption": "Pošalji e-poštu",
+        "ResendButtonCaption": "Ponovno pošalji e-mail",
+        "OpenLoginPageButtonCaption": "Otvori stranicu za prijavu",
+        "ResetLinkExpired": "Veza za ponovni postupak je istekla ili je već korištena"
+    },
+    "UseAnotherMethod": "Upotrijebite drugu metodu",
+    "TwoFactorSubmitButton": "Potvrdi",
+    "TwoFactorBackButton": "Natrag",
+    "SmsProvider": {
+        "SendSms": "Pošaljite drugi kod",
+        "ResendSms": "Ponovno pošalji SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Pošaljite drugi kod"
+    },
+    "TwoFactor.SmsProviderNotAvailable": "Unesite verifikacijski kod koji je poslan putem SMS-a na vaš broj telefona",
+    "TwoFactor.EnterSmsCode.Caption": "Unesite verifikacijski kod koji je poslan putem SMS-a na vaš broj telefona",
+    "TwoFactor.EnterEmailCode.Caption": "Unesite verifikacijski kod koji je poslan na vašu adresu e-pošte",
+    "TwoFactor.EnterTOTPCode.Caption": "Unesite verifikacijski kod generiran vašom aplikacijom za autentifikaciju",
+    "TwoFactor.VerificationCode.Caption": "Kod za verifikaciju",
+    "TwoFactor.TOTPUnavailable.Caption": "Da biste koristili metodu aplikacije autentifikator, prvo je trebate postaviti. To možete učiniti na svojoj stranici profila.",
+    "TwoFactor.UseAnotherMethod.Caption": "Upotrijebite drugu metodu",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Nevažeći verifikacijski kod. Provjerite jeste li unijeli točne podatke ili kontaktirajte svog administratora sustava",
+    "TwoFactor.ValidationCanceled": "Validacija drugog faktora je otkazana",
+    "ConsentPage": {
+        "AcceptButtonCaption": "Prihvati",
+        "DiscardButtonCaption": "Odbaci",
+        "SwitchButton": "Zamijeni",
+        "DescriptionTextStart": "Aplikacija {{oauthApplicationName}} traži pristup vašem ",
+        "DescriptionTextEnd": "Račun Creatio. Nakon vašeg pristanka, imat će pristup sljedećim operacijama:",
+        "CommonScopeText": "Mogućnost izvođenja svih operacija s podacima i korištenja bilo koje funkcionalnosti dostupne za vaš račun",
+        "Footer1": "Možete opozvati pristup u bilo kojem trenutku u svom korisničkom profilu.",
+        "Footer2": "Saznajte više u",
+        "Footer3": "Za aplikacije koje pruža Creatio, relevantnu dokumentaciju možete pronaći u Akademiji. Imajte na umu da Creatio ne pregledava integracije s aplikacijama trećih strana. Vaša upotreba takve aplikacije i integracije podložna je Uvjetima pružanja usluge, Politici privatnosti i dokumentaciji treće strane.",
+        "AcademyLink": "Akademija",
+        "ConsentErrorInvalidRequest": {
+            "Title": "Pogreška u postavkama integracije",
+            "Message": "Nije moguće započeti proces autorizacije jer zahtjev nije pravilno konfiguriran. Jedan ili više obaveznih parametara su netočni ili nedostaju.",
+            "Suggestion": "Kontaktirajte svog sistemskog administratora ili Creatio podršku kako biste provjerili postavke integracije i osigurali da su svi potrebni parametri pruženi."
+        },
+        "ConsentErrorInvalidClient": {
+            "Title": "Integracija nije pronađena",
+            "Message": "Nije moguće započeti postupak autorizacije jer nije konfigurirana niti jedna aktivna integracija koristeći zadan ID klijenta i ovlašteni URI za preusmjeravanje.",
+            "Suggestion": "Kontaktirajte svog sistemskog administratora ili Creatio podršku kako biste provjerili postavke integracije i osigurali da su točni ID klijenta i URI za preusmjeravanje."
+        },
+        "ConsentErrorInvalidUser": {
+            "Title": "Pristup integraciji nije dopušten",
+            "Message": "Nije moguće nastaviti jer vaš korisnički račun nema dopuštenje za korištenje ove integracije.",
+            "Suggestion": "Kontaktirajte svog sistem administratora kako biste ažurirali popis korisnika ovlaštenih za korištenje ove integracije."
+        },
+        "ConsentErrorInvalidConsentId": {
+            "Title": "Zatražena autorizacija je istekla",
+            "Message": "Nije moguće završiti autorizaciju jer je zahtjev istekao.",
+            "Suggestion": "Ponovno pokrenite proces autorizacije integracije od početka kako biste nastavili."
+        },
+        "ConsentErrorServerError": {
+            "Title": "Pogreška tijekom postavljanja integracije",
+            "Message": "Došlo je do greške prilikom obrade zahtjeva. Molim pokušajte ponovno kasnije.",
+            "Suggestion": "Molimo kontaktirajte svog sistemskog administratora kako biste zatražili potrebna prava pristupa, te nakon toga pokušajte ponovno."
+        },
+        "ErrorFooter": "Saznajte više o postavkama OAuth integracije u Creatio na "
+    }
+}

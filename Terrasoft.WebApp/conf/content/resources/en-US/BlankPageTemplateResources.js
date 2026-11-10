@@ -1,0 +1,9 @@
+﻿define("BlankPageTemplateResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {};
+	var parametersLocalizableStrings = {};
+	var propertiesLocalizableStrings = {
+		Caption: "Blank page"
+	};
+	var localizableImages = {};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages, parametersLocalizableStrings: parametersLocalizableStrings, propertiesLocalizableStrings: propertiesLocalizableStrings};
+});

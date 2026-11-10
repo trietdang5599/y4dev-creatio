@@ -1,0 +1,22 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.creatio.mobileapp",
+      "sha256_cert_fingerprints": [
+        "5C:EF:A8:98:E7:55:83:C5:9C:EA:9D:C4:BA:06:0C:15:74:5F:B6:CF:AB:E9:F9:4F:94:BF:F8:D2:07:96:C1:6C"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.creatio.mobileapp.intune",
+      "sha256_cert_fingerprints": [
+        "5C:EF:A8:98:E7:55:83:C5:9C:EA:9D:C4:BA:06:0C:15:74:5F:B6:CF:AB:E9:F9:4F:94:BF:F8:D2:07:96:C1:6C"
+      ]
+    }
+  }
+]

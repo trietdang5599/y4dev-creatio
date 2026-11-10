@@ -1,0 +1,4386 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Betöltés..."
+  },
+  "CopyClipboard": {
+    "Copied": "Másolva"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Még nincs mit mutatni",
+      "Subhead": "Kérjük, először adja meg az adatokat"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "A csevegés kezdete: {0}",
+        "EndDate": "A csevegés befejeződött: {0}"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "The channel cannot be deleted, there are active chats or chats on distribution. Please complete the chats first and try again."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Betöltés"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Hiba",
+      "Default": "Elemleírás"
+    }
+  },
+  "ExpressionDesigner": {
+    "Title": "Formula designer",
+    "EmptyExpressionForbidden": "Cannot save an empty formula",
+    "Add": "Hozzáadás",
+    "ExpressionIsNotValid": "Unable to save the formula. Please address the validation errors and try again",
+    "Validation": {
+      "DivisionByZero": "Division by zero is not allowed",
+      "ExpressionTypeNotValid": "String literal can not be used in this expression",
+      "ColumnRemoved": "Oszlop eltávolítva"
+    },
+    "EmptyExpressionValidation": "Formula is empty",
+    "ValidationSuccess": "Validation successful",
+    "ExpressionDesignerError": "Something went wrong. Please, try again or contact your system administrator"
+  },
+  "Components": {
+    "SearchFilter": {
+      "Caption": "Keresés",
+      "Placeholder": "Keresés",
+      "Tooltip": "A Keresés összetevő csak szöveg, szám és keresési oszlopok alapján teszi lehetővé a keresést, közvetlen kapcsolattal a listaobjektumhoz."
+    },
+    "EncryptedInput": {
+      "Caption": "Titkosított karakterlánc",
+      "EyeButtonShowValueCaption": "Show value",
+      "ToggleMaskedValueHandler": {
+        "ErrorMessage": "Something went wrong. Please, try again or contact your system administrator."
+      },
+      "EyeButtonHideValueCaption": "Hide value",
+      "EyeButtonDisabledCaption": "Can’t show/hide value",
+      "UnmaskRecordParametersBuilder": {
+        "UnsupportedAttributeTypeError": "This type of attribute is not supported for this operation. Please check the field configuration or try a different data type.",
+        "CurrentRecordIdNotFoundError": "Unable to find the current record ID. This may happen if the current record has not been saved yet. Please make sure the record is saved before performing this action.",
+        "ReferenceRecordIdNotFoundError": "The referenced record ID is missing. This can occur if the reference points to a newly created record that hasn't been saved to the database yet. Please save the referenced record first.",
+        "ReferenceColumnSchemaNameNotFoundError": "The name of the referenced column schema is not found. Please check the configuration of the reference field."
+      }
+    },
+    "FolderTree": {
+      "Caption": "Mappák",
+      "Hint": "Lehetővé teszi a mappastruktúra konfigurálását a rekordok meghatározott szűrők szerinti rendszerezéséhez. Az összetevő rendeltetésszerű működésének biztosításához csatlakoztassa a Lista vagy az Adatforrás beállításai oldalon."
+    },
+    "FolderTreeActions": {
+      "Caption": "Mappakezelő menü",
+      "Hint": "Szükséges a Mappa összetevő. Lehetővé teszi az oldalmappák elrejtésének felfedését."
+    },
+    "QuickFilter": {
+      "Caption": "Gyors szűrő",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "Tegnap",
+          "Today": "Ma",
+          "Tomorrow": "Holnap",
+          "PreviousWeek": "Előző hét",
+          "CurrentWeek": "Jelenlegi hét",
+          "NextWeek": "Következő héten",
+          "PreviousMonth": "Előző hónap",
+          "CurrentMonth": "Aktuális hónap",
+          "NextMonth": "Következő hónap",
+          "PreviousQuarter": "Előző negyedév",
+          "CurrentQuarter": "Aktuális negyedév",
+          "NextQuarter": "Következő negyedév",
+          "PreviousFiscalWeek": "Previous fiscal week",
+          "CurrentFiscalWeek": "Current fiscal week",
+          "NextFiscalWeek": "Next fiscal week",
+          "FiscalQuarter1": "Q1",
+          "FiscalQuarter2": "Q2",
+          "FiscalQuarter3": "Q3",
+          "FiscalQuarter4": "Q4",
+          "FiscalHalfYear1": "First half year",
+          "FiscalHalfYear2": "Second half year",
+          "PreviousFiscalYear": "Előző év",
+          "CurrentFiscalYear": "Jelen év",
+          "NextFiscalYear": "Következő év"
+        }
+      }
+    },
+    "MessageComposer": {
+      "Caption": "Üzenetkészítő",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "E-mail"
+        },
+        "Feed": {
+          "Caption": "Hírfolyam"
+        },
+        "SelectChannelsCaption": "Válasszon csatornákat",
+        "Telegram": {
+          "Caption": "Telegram"
+        },
+        "FacebookMessenger": {
+          "Caption": "Facebook Messenger"
+        },
+        "WhatsApp": {
+          "Caption": "WhatsApp"
+        },
+        "SMS": {
+          "Caption": "SMS"
+        }
+      }
+    },
+    "Switch": {
+      "Caption": "Switch"
+    },
+    "ColorPicker": {
+      "SelectedColor": "Selected color",
+      "Readonly": "Nem szerkeszthető mező"
+    },
+    "NextBestOffer": {
+      "Caption": "Next best offers",
+      "EmptyValue": "N/A",
+      "Next": "Következő",
+      "Previous": "Előző"
+    },
+    "NextBestOfferDT": {
+      "Caption": "Next Best Offers"
+    },
+    "Approval": {
+      "Caption": "Engedélyek"
+    },
+    "ApprovalList": {
+      "Caption": "Jóváhagyások listája",
+      "RefreshCaption": "Frissítés",
+      "ProvideDataSource": "A jóváhagyások használata előtt adja meg az adatforrást"
+    },
+    "MultiSelect": {
+      "Caption": "Multiselect lookup",
+      "Label": "Multi-select",
+      "CreateRecordButtonCaption": "Create record",
+      "ExpanderIcon": "Expand dropdown",
+      "OpenModalIcon": "Open modal window",
+      "TooltipInfoIcon": "Information tooltip",
+      "ReadonlyIcon": "Nem szerkeszthető mező"
+    },
+    "BarcodeScanner": {
+      "Caption": "Barcode scanner"
+    },
+    "Sort": {
+      "Caption": "Rendezés"
+    }
+  },
+  "ExpressionDialog": {
+    "Validate": "Érvényesít",
+    "ValidateMessage": "Validation messages ({{count}})",
+    "Placeholder": "Select a data attribute from the list or start typing your formula. Basic arithmetic operations and parentheses are supported",
+    "MaxExpressionLength": "The maximum recommended number of characters has been reached",
+    "AggregationFormulaPlaceholder": "Set up a formula using aggregation functions and data attributes. Configure filters if needed, and combine results using basic arithmetic operations"
+  },
+  "DesktopSelector": {
+    "ShowDesktopSelector": "Válassza ki az asztalt",
+    "EditDesktop": "Asztal szerkesztése",
+    "UseHotkeys": "Use Ctrl+Shift+E to edit desktop"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "Nem érvényes paraméterek",
+    "ServiceResult": {
+      "ErrorMessage": "Hiba történt. Kérjük, lépjen kapcsolatba a rendszergazdával"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "Megjelölt {{ count }} elem(ek)",
+      "RemoveTagsMessage": "Megjelölés nélküli {{ count }} elem(ek)",
+      "AddTagsSuccessfulRunProcess": "A kiválasztott tétel(ek) tömeges címkézési folyamata elindult. Ez eltarthat egy ideig",
+      "RemoveTagsSuccessfulRunProcess": "A címkék tömeges eltávolítása elindult a kiválasztott elem(ek) esetében. Ez eltarthat egy ideig"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "Hozzáadott {{ count }} rekord(ok) a mappában (mappákban)",
+      "RemoveRecordsMessage": "Eltávolított {{ count }} rekord(ok) a mappából (mappákból)"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "The action has successfully started",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "This action needs at least one record to run. Please select the records you want to apply it to and try again"
+    },
+    "ProcessStarted": "Elindult a folyamat",
+    "StartingProcessAnnounceMessage": "Starting a process, please wait..."
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "Biztos benne, hogy törölni kívánja a kiválasztott rekordot?",
+    "DeleteRecordsConfirmation": "Biztos benne, hogy törölni szeretné a kiválasztott rekordokat?",
+    "SaveSummariesForAll": "Save summary settings for all users?",
+    "ResetSummaries": "Restore default summary settings?"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "Nincs elegendő jogosultság a '{0}' objektum rekordjainak törléséhez",
+    "UnableToDeleteSelectedRecord": "A kiválasztott rekord nem törölhető",
+    "SelectRecordsToDelete": "Select records to delete",
+    "SettingsErrorMessage": "Unable to execute the action.\n\rSystem administrator must check the button settings in the Freedom UI Designer.",
+    "ExportToExcel": {
+      "PermissionsErrorMessage": "You do not have permission to perform this operation.\nPlease contact your system administrator. Check access to the export object and permission to perform the system operation.",
+      "FileGenerationMessage": "Generating export file"
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "Insufficient permissions to access the change log. Contact your system administrator.",
+      "SourceIsNotSpecifiedMessage": "Object or data source is not specified for the action \"Open change log\". Contact your system administrator.",
+      "RecordIsNotSelectedMessage": "Select a record to open its change log.",
+      "ChangeLogIsNotTurnedOnTitle": "Turn on logging",
+      "ChangeLogIsNotTurnedOnMessage": "Logging is currently off for {0}. Do you want to turn logging on?",
+      "ChangeLogIsTurnedOffMessage": "Logging is currently off for {0}. Contact your system administrator.",
+      "RecordIsNotSavedMessage": "Save a record first to open its change log."
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "{0} MB maximum file size limit exceeded.\n\r\n\r Files:\n- {1}",
+      "NoConnectedFileList": "The file upload destination is not set.\n\rPlease choose the destination in the button settings.",
+      "InvalidRequestParams": "Unable to upload the file(s) as the page component has not been set up yet. The system administrator can finish the setup in the Freedom UI designer.",
+      "ChangeFileSizeInfoMessage": "You can increase the maximum file size in the \"Attachment max size\" system setting.",
+      "FileListHeader": "Fájlok",
+      "MaxFileSizeExceededExceptionMessage": "{0} MB maximális fájlméretkorlátját túllépte.",
+      "UnknownServerError": "Something went wrong.\n\rPlease try uploading the file again.",
+      "AttachedToUnsavedRecord": "Unable to attach the files to the record that has not been created yet. Please create the record before uploading the files",
+      "InvalidExtension": {
+        "Deny": "A [{0}] fájlkiterjesztést a biztonsági beállítások tiltják. Ha ilyen fájlokkal kell dolgoznia, forduljon a rendszergazdához, hogy távolítsa el a kiterjesztést a [File extensions DenyList] (FileExtensionsDenyList) rendszerbeállításból.",
+        "Allow": "A [{0}] fájlkiterjesztést a biztonsági beállítások tiltják. Ha ilyen fájlokkal kell dolgoznia, forduljon a rendszergazdához, hogy adja hozzá a kiterjesztést a [File extensions AllowList] (FileExtensionsAllowList) rendszerbeállításhoz.",
+        "NotSupported": "Some selected files are not supported for upload. Please choose files of supported types."
+      },
+      "EmptyFileMessage": "You are trying to upload empty files.\n\rPlease choose files with content.",
+      "SingleUploadInProgress": "The file {0} is still uploading. Please wait until the upload is complete.",
+      "MultipleUploadsInProgress": "Some files are still uploading. Please wait until the uploads are complete ({0} and {1} more)."
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "{0} MB maximális fájlméretkorlátját túllépte.",
+      "UnknownUploadError": "Unknown upload error. Please contact the system administrator.",
+      "Announcement": {
+        "Uploaded": "Image uploaded",
+        "Deleted": "Image deleted"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "Action error.\nContact your system administrator. Check the action settings in System Designer."
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "Action error.\nContact your system administrator. Check the action settings in System Designer."
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "Select records to add tags",
+      "SelectRecordsToRemoveRecordsMessage": "Select records to remove tags"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "Select records to add to the static folder",
+      "SelectRecordsToRemoveRecordsMessage": "Select records to remove from the static folder"
+    },
+    "FileAnnouncement": {
+      "Uploaded": "{0} file uploaded",
+      "Deleted": "{0} file deleted"
+    },
+    "FileDownload": {
+      "FileMismatchErrorMessage": "File '{0}' is not fully uploaded",
+      "FileDownloadErrorMessage": "File '{0}' could not be downloaded. It may have been deleted, is corrupted, or you do not have permission to access it."
+    },
+    "OK": "OK"
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "Címke hozzáadása",
+    "RemoveTagCaption": "Címke eltávolítása"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "The report can not be printed for unsaved record.",
+    "InvalidRequestCaption": "Action is not valid. Please check print settings.",
+    "SelectRecord": "Select record for printing report"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "It is not possible to move all selected records by this action, please select as many records as needed one by one"
+  },
+  "CancelRecordsChangesRequest": {
+    "SuccessMessage": "Changes discarded successfully"
+  },
+  "RecordDeletedRequest": {
+    "SuccessMessage": "Record deleted successfully"
+  },
+  "RecordsDeletedRequest": {
+    "SuccessMessage": "A rekordok sikeresen törölve"
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "Nincsenek elérhető jelentések",
+    "GoToPrintablesSetupCaption": "Lépjen a jelentés beállításához"
+  },
+  "SchemaOutlet": {
+    "BeforeSchemaChangeAnnounceMessage": "Loading, please wait...",
+    "AfterSchemaChangeAnnounceMessage": "Loading is completed",
+    "Caption": "Schema container",
+    "Hint": "The container displays a schema",
+    "SchemaNotFound": "<not found>"
+  },
+  "SaveRecordRequest": {
+    "SavingRecordAnnounceMessage": "Saving, please wait..."
+  },
+  "Deduplication": {
+    "RecordNotCreatedMessage": "The record has not been created",
+    "MergeStartedMessage": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete. Please reload the record afterward to retrieve the updated data."
+  },
+  "HierarchyCopy": {
+    "RecordIdRequiredMessage": "Record ID is required.",
+    "SchemaNameRequiredMessage": "Schema name is required.",
+    "CopyingErrorMessage": "Unexpected error while copying record."
+  },
+  "SchemaContextPart": {
+    "RecordTitle": "{{caption}}: {{value}}",
+    "ListTitle": "List: {{captions}}"
+  },
+  "DataGroupColumnsSubGroups": {
+    "NewColumn": "Új mező hozzáadása",
+    "ExistingColumns": "Data model attributes"
+  },
+  "ColumnAddedOnPage": "Column already added on the page",
+  "ColumnValidators": {
+    "ErrorMessages": {
+      "LookupReferenceSchemaNotSetError": "Data source is not set for lookup column"
+    }
+  },
+  "NewColumnSubGroup": {
+    "MEDIUM_TEXTColumn": "Szöveg",
+    "IntegerColumn": "Szám",
+    "BooleanColumn": "Jelölődoboz",
+    "ColorColumn": "Szín",
+    "DateTimeColumn": "Date/Time",
+    "LookupColumn": "Legördülő",
+    "RICH_TEXTColumn": "Rich text",
+    "AutonumberColumn": "Automatikus számozás",
+    "IMAGELOOKUPColumn": "Kép",
+    "PhoneColumn": "Telefon",
+    "LongPhoneColumn": "Telefonszám",
+    "WebColumn": "Web link",
+    "EmailColumn": "E-mail",
+    "LongEmailColumn": "Email cím",
+    "SECURE_TEXTColumn": "Titkosított karakterlánc",
+    "ToggleColumn": "Switcher",
+    "SwitchColumn": "Switch"
+  },
+  "ModalPageDesigner": {
+    "Defaults": {
+      "Caption": "New modal page",
+      "CaptionTemplate": "{{0}} new modal page",
+      "CaptionWithEntityTemplate": "{{0}} modal page"
+    }
+  },
+  "DataGroupParametersSubGroups": {
+    "NewParameter": "Add new parameter",
+    "ExistingParameters": "Meglévő paraméterek"
+  },
+  "NewParameterSubGroup": {
+    "MEDIUM_TEXTParameter": "Szöveg",
+    "IntegerParameter": "Szám",
+    "BooleanParameter": "Jelölődoboz",
+    "DateTimeParameter": "Date/Time",
+    "LookupParameter": "Legördülő",
+    "RICH_TEXTParameter": "Rich text",
+    "PhoneParameter": "Telefon",
+    "LongPhoneParameter": "Telefonszám",
+    "WebParameter": "Web link",
+    "EmailParameter": "E-mail",
+    "LongEmailParameter": "Email cím"
+  },
+  "CDK": {
+    "ChartsGroupCaption": "Widgetek",
+    "DataGroupCaption": "Adat",
+    "PageParametersDataGroupCaption": "Az oldal paraméterei",
+    "ComponentsGroupCaption": "Összetevők",
+    "LayoutElementsGroupCaption": "Layout elements",
+    "InputsGroupCaption": "Inputs",
+    "CustomElementsGroupCaption": "Custom components"
+  },
+  "CanvasPlaceholder": {
+    "Caption": "Nothing here yet",
+    "Description": "Drag and drop elements from \n the left panel",
+    "LinkDescription": "Read more about the designer in",
+    "LinkCaption": "Akadémia",
+    "LinkUrl": "https://academy.creatio.com/docs/8.x/no-code-customization/category/ui-and-business-logic-customization"
+  },
+  "DesignerTools": {
+    "SearchPlaceholder": "Search component",
+    "PlaceholderTitleWithFilters": "Nincsenek a szűrési feltételeknek megfelelő rekordok",
+    "PlaceholderDescriptionWithFilters": "Törölje ki a szűrőt, vagy módosítsa annak állapotát"
+  },
+  "LeftPanel": {
+    "ComponentsTabLabel": "Összetevők",
+    "StructureTabLabel": "Szerkezet"
+  },
+  "InfoPanel": {
+    "SafariInfoPanelMessage": "Kérjük, használja a Chrome-ot a legjobb élmény érdekében, mert előfordulhat, hogy a Safari nem támogatja az összes tervezői funkciót. Köszönöm!",
+    "UserLevelSchemaInfoPanelMessage": "The dashboard will be available in this environment only. If you need to migrate it to a different environment, include the dashboard in a package.",
+    "OpenInPackageButton": "Open in the package"
+  },
+  "Structure": {
+    "NodeMenu": {
+      "Settings": "Beállítások",
+      "Copy": "Másolás",
+      "Delete": "Törlés",
+      "AddComponent": "Add component",
+      "MoveTo": "Move to"
+    },
+    "Search": {
+      "PreviousMatch": "Previous match",
+      "NextMatch": "Next match",
+      "Clear": "Clear search"
+    }
+  },
+  "AddItemDialog": {
+    "Title": "Add component",
+    "Placeholder": "Component name",
+    "AddButton": "Hozzáadás",
+    "CancelButton": "Elvetés"
+  },
+  "MoveToDialog": {
+    "Title": "Move to",
+    "Placeholder": "Item name",
+    "MoveToButton": "Mozgatás",
+    "CancelButton": "Elvetés"
+  },
+  "InterfaceDesignerHeaderComponent": {
+    "SaveButtonCaption": "Mentés",
+    "CancelButtonCaption": "Elvetés",
+    "CloseButtonCaption": "Bezárás",
+    "UndoButtonTooltip": "Visszavonás",
+    "OpenSourceCodeTooltip": "Nyílt forráskód",
+    "SourceCodeCaption": "Forráskód",
+    "OpenPropertyTooltip": "Oldalbeállítások",
+    "ChangeParentTooltip": "Change parent",
+    "ActionsTooltip": "Műveletek",
+    "CopyCaption": "Másolás",
+    "ExportCaption": "Exportálás",
+    "OnlineHelpCaption": "Online segítség",
+    "OnlineHelpUrl": "https://academy.creatio.com/docs/8.x/no-code-customization/category/ui-and-business-logic-customization",
+    "SchemaOutdatedSaveButtonTooltip": "Schema outdated",
+    "RedoButtonTooltip": "Redo",
+    "FaviconButtonTooltip": "Open application management",
+    "BusinessRulesButtonTitle": "Nyitott üzleti szabályok",
+    "BusinessRulesButtonCaption": "Üzleti szabályok",
+    "PreviewButtonCaption": "Előnézet",
+    "PreviewButtonTitle": "Preview page",
+    "PreviewActiveLabel": "Preview active"
+  },
+  "InterfaceDesigner": {
+    "ExportSuccessMessage": "Schema exported successfully",
+    "ExportErrorMessage": "Failed to export schema",
+    "ExportMessage": "Do you want to save changes before export? If not, you will get a local version export.",
+    "ExportSuccess": "Schema exported successfully",
+    "PreviewOpenError": "Failed to open page preview.",
+    "PropertiesPages": {
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "Titkosított karakterlánc"
+      },
+      "DividerPropertiesPanel": {
+        "LayoutGroup": "Elrendezés",
+        "PaddingGroup": "Térköz",
+        "Padding": {
+          "Top": "Felső",
+          "Bottom": "Alul",
+          "Left": "Bal",
+          "Right": "Jobbra"
+        },
+        "Thickness": {
+          "Label": "Thickness"
+        },
+        "Sizes": {
+          "None": "Nincs",
+          "ExtraSmall": "Extra small",
+          "Small": "Kicsi",
+          "Medium": "Közepes",
+          "Large": "Nagy"
+        },
+        "PageCaption": "Divider settings"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "Összefoglalók beállításai",
+        "GeneralGroup": {
+          "Caption": "Általános",
+          "SelectDataSource": "Adatforrás"
+        }
+      },
+      "FolderTreePropertiesPage": {
+        "AppearanceGroup": "Megjelenés",
+        "BorderRadiusLabel": "Szegély rádiusz",
+        "GeneralLabel": "Általános",
+        "HeaderLabel": "Mappabeállítások",
+        "Sizes": {
+          "None": "Nincs",
+          "Small": "Kicsi",
+          "Medium": "Közepes",
+          "Large": "Nagy",
+          "ExtraLarge": "Extra nagy",
+          "2XLarge": "Double extra large",
+          "3XLarge": "Triple extra large"
+        },
+        "SourceSchemaLabel": "Mappa tárolási helye",
+        "RootSchemaLabel": "Mi lesz a mappák szűrése?",
+        "ButtonSizeFieldLabel": "Méret",
+        "ColorFieldLabel": "Stílus",
+        "Colors": {
+          "Primary": "Elsődleges",
+          "Accent": "Fókusz",
+          "Warn": "Figyelmeztetés",
+          "Default": "Plain",
+          "Secondary": "Secondary"
+        },
+        "IconPositionLabel": "Pozíció",
+        "IconPosition": {
+          "LeftIcon": "Ikon balra",
+          "OnlyIcon": "Csak ikon",
+          "RightIcon": "Ikon jobbra"
+        }
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "A mappakezelő menü beállításai",
+        "FolderTreeLabel": "Mappafa kiválasztása",
+        "GeneralCaption": "Általános"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "Gyors szűrőbeállítások",
+        "GeneralCaption": "Általános",
+        "AppearanceCaption": "Megjelenés",
+        "ChooseFilterTypeLabel": "Válasszon szűrőtípust",
+        "CaptionLabel": "Cím",
+        "HintLabel": "Tipp",
+        "CustomType": "Egyedi",
+        "DateRangeType": "Date/Time",
+        "LookupType": "Kereső"
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Idővonal beállításai",
+        "GeneralGroup": "Általános",
+        "ObjectsCaption": "Objektum",
+        "AddObject": "Objektum hozzáadása",
+        "EmptyDataSourceHint": "Az adatforrás nincs hozzáadva az oldalhoz. Kérjük, adjon hozzá meglévő adatforrást az összetevő beállításához",
+        "BindToDataSourceCaption": "Adatforrás",
+        "FiltrationCaption": "Szűrési lehetőségek",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "Rekordtípus szerint",
+          "TimelineFilter_Owner": "A tulajdonos által",
+          "TimelineFilter_Date": "Dátum szerint",
+          "TimelineFilter_SystemMessages": "Rendszerüzenetekkel"
+        },
+        "ContextMenu": {
+          "Edit": "Szerkesztés",
+          "Delete": "Törlés"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "Általános",
+        "FiltrationGroup": "Szűrési lehetőségek",
+        "CaptionLabel": "Cím",
+        "AppearanceGroup": "Megjelenés",
+        "LinkedColumn": "Kapcsolt oszlop",
+        "SortedByColumn": "Rendezés",
+        "OwnerColumn": "Oszlop a tulajdonos szűréséhez",
+        "IconPosition": {
+          "OnlyIcon": "Csak ikon"
+        },
+        "Feed": {
+          "ExternalUsersGroupCaption": "Külső felhasználók",
+          "AllowExternalPostCaption": "Közzététel engedélyezése külső felhasználók számára"
+        }
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Eszköztár megjelenítési mód",
+        "Inline": "Egysorban",
+        "Classic": "Klasszikus",
+        "AlwaysShowToolbar": "Always show formatting options"
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "Kommunikációs beállítások beállításai",
+        "GeneralGroup": "Általános",
+        "MasterRecordCaption": "Rögzítés a kommunikációs lehetőségek összekapcsolásához",
+        "DataSourceEntityColumn": "Adatforrás",
+        "Editability": "Szerkeszthetőség",
+        "EditabilityControls": {
+          "Readonly": "Csak olvasható"
+        },
+        "LabelPositionCaption": "Cím pozíciója",
+        "LabelPosition": {
+          "Auto": "Automatikus",
+          "Left": "Bal",
+          "Above": "Felül",
+          "Hidden": "Rejtett"
+        },
+        "ShowNoDataPlaceholder": "Helyőrző megjelenítése, ha nincs adat",
+        "AppearanceGroup": "Megjelenés",
+        "ColumnsCountLabel": "Oszlopok száma",
+        "ContactEntitySchemaName": "Kapcsolattartási lehetőségek",
+        "AccountEntitySchemaName": "Partner kommunikációs lehetőségek",
+        "EmptyDataSourceHint": "Az adatforrás nincs hozzáadva az oldalhoz. Kérjük, adjon hozzá meglévő adatforrást az összetevő beállításához"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "Fiókkompakt profilbeállítások",
+        "GeneralGroup": "Általános",
+        "AttributeForReferenceColumn": "Adatforrás",
+        "Editability": "Szerkeszthetőség",
+        "EmptyAccountDataSourceHint": "Az adatforrás nincs hozzáadva az oldalhoz. Kérjük, adjon hozzá meglévő adatforrást az összetevő beállításához",
+        "EditabilityControls": {
+          "Readonly": "Csak olvasható"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "Vegye fel a kapcsolatot a kompakt profilbeállításokkal",
+        "GeneralGroup": "Általános",
+        "AttributeForReferenceColumn": "Adatforrás",
+        "Editability": "Szerkeszthetőség",
+        "EmptyContactDataSourceHint": "Az adatforrás nincs hozzáadva az oldalhoz. Kérjük, adjon hozzá meglévő adatforrást az összetevő beállításához",
+        "EditabilityControls": {
+          "Readonly": "Csak olvasható"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "Felhasználói profil beállításai",
+        "GeneralGroup": "Általános",
+        "AttributeForReferenceColumn": "Adatforrás",
+        "Editability": "Szerkeszthetőség",
+        "EmptyUserProfileDataSourceHint": "Az adatforrás nincs hozzáadva az oldalhoz. Kérjük, adjon hozzá meglévő adatforrást az összetevő beállításához",
+        "EditabilityControls": {
+          "Readonly": "Csak olvasható"
+        }
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "Chat Beállítások",
+        "GeneralCaption": "Általános",
+        "TooltipCaption": "Ezt az elemet az oldal forráskódjában állíthatja be",
+        "OpenSourceCodeButtonCaption": "Nyílt forráskód"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "Conversation settings",
+        "GeneralCaption": "Általános"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "Message editor settings",
+        "GeneralCaption": "Általános"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Hírcsatorna beállításai",
+        "GeneralCaption": "Általános",
+        "FeedTypeCaption": "A rekordok szűrése",
+        "FeedChannel": "Csatorna",
+        "FeedTypeGeneral": "Általános",
+        "FeedTypeUser": "Felhasználóhoz kapcsolódik",
+        "FeedTypeChannel": "Csatorna",
+        "FeedTypeRecord": "A felvételhez kapcsolódik",
+        "FeedDataSourceCaption": "Adatforrás",
+        "FeedTypeRecordTooltipCaption": "A hírfolyam üzenetek az adott rekordkommunikáció alapján jelennek meg.",
+        "FeedTypeGeneralTooltipCaption": "Az aktuális felhasználóhoz kapcsolódó összes értesítés és említés. Ebben a módban a hírfolyam azokat a bejegyzéseket és megjegyzéseket jeleníti meg, ahol az aktuális felhasználó meg lett címkézve, vagy az általa követett szálak. Például ebben a módban a hírcsatorna hozzáadható a kezdőlaphoz, hogy ne maradjon le fontos információkról.",
+        "ExternalUsersGroupCaption": "Külső felhasználók",
+        "AllowExternalPostCaption": "Közzététel engedélyezése külső felhasználók számára",
+        "ShowBlankSlateCaption": "Üres lap megjelenítése"
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "Szerkesztés",
+          "Delete": "Törlés"
+        },
+        "ChannelsCaption": "Csatornák",
+        "AddNewItem": "Csatorna hozzáadása",
+        "PageCaption": "Üzenetkészítő",
+        "DefaultChannelCaption": "Alapértelmezett csatorna"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "E-mail zeneszerző",
+        "GeneralCaption": "Általános",
+        "DefaultSenderType": "Alapértelmezett feladó",
+        "DefaultMailbox": "Az alapértelmezett postafiók használata",
+        "CaseMailbox": "Esetforrás-postafiók használata"
+      },
+      "ChatComposerPropertiesPage": {
+        "PageCaption": "Chat composer",
+        "GeneralCaption": "Általános",
+        "ProviderIdCaption": "Csatorna szolgáltató"
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "Következő lépések beállítások"
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Mini oldal az előnézethez",
+        "TitleColumn": "Elsődleges megjelenítési mező",
+        "StartDateColumn": "Kezdő dátum oszlop",
+        "EndDateColumn": "Befejezés dátuma oszlop",
+        "NotesColumn": "Mező online értekezlet-információkkal",
+        "PageCaption": "Naptár beállítások",
+        "RequiredFieldError": "A mező kitöltése kötelező",
+        "SecondaryTileFields": "Másodlagos csempe mezők",
+        "AddSecondaryFieldCaption": "Add secondary field",
+        "DisabledAddSecondaryFieldCaption": "Legfeljebb 4 másodlagos mezőt adhat hozzá",
+        "AutoScrollToCurrentTime": "Görgessen automatikusan az aktuális időre",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Törlés"
+        },
+        "ColorizationType": {
+          "Default": "Alapértelmezett",
+          "ByField": "Automatikus",
+          "ByOwner": "Felhasználó által"
+        },
+        "ColorizationTypeCaption": "Csempe színezési mód",
+        "ColorizationColumnCaption": "Kereső"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "Next Best Offers settings",
+        "GeneralCaption": "Általános",
+        "DataSourceCaption": "Objektum",
+        "CaptionColumnField": "Felirat",
+        "DescriptionColumnField": "Leírás",
+        "InfoLabelColumnField": "Info lookup",
+        "ImageColumnField": "Kép",
+        "NumberTagColumnField": "Címke",
+        "SortingFieldTooltip": "The items will be sorted by value from this field in descending order.",
+        "AdditionalCaption": "További",
+        "SpecificPageLookupField": "Melyik oldalt kell megnyitni?",
+        "UseSpecificPageField": "Open specific page by clicking on the caption",
+        "SpecificPageRecordIdField": "Rekordazonosító",
+        "ViewModeCaption": "Megjelenítési mód",
+        "CarouselViewMode": "Carousel",
+        "GalleryViewMode": "Galéria"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Jóváhagyási beállítások",
+        "GeneralGroup": "Általános",
+        "SchemaNameLabel": "Mely rekordokat kell jóváhagyni?",
+        "AppearanceGroup": "Megjelenés",
+        "HiddenWhenNoData": "Rejtett, ha nincs adat"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Jóváhagyási lista beállításai",
+        "GeneralGroup": "Általános",
+        "SchemaNameLabel": "Objektum"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "Multiselect lookup settings",
+        "GeneralGroup": {
+          "General": "Általános",
+          "SelectLookup": "Válassza ki a keresést",
+          "MultiselectValueStorage": "Multiselect value storage",
+          "SelectColumn": "Column to display",
+          "Required": "Kötelező",
+          "RequirementTypeItems": {
+            "No": "Nem",
+            "Yes": "Igen"
+          }
+        },
+        "AppearanceCaption": "Megjelenés",
+        "LabelPositionVariants": {
+          "Auto": "Automatikus",
+          "Left": "Bal",
+          "Above": "Felül",
+          "Hidden": "Rejtett"
+        },
+        "TitleOnPage": "Cím az oldalon",
+        "Placeholder": "Megjelenő helyettesítő szöveg",
+        "Tooltip": "Elemleírás",
+        "LabelPosition": "Cím pozíciója",
+        "EnableAddRecordCaption": "Új értékek hozzáadásának engedélyezése",
+        "WrapCaption": "Wrapping items to the next line",
+        "Editability": "Szerkeszthetőség",
+        "EditabilityControls": {
+          "Readonly": "Csak olvasható"
+        },
+        "LookupStaticFilterLabel": "Apply static filter for lookup"
+      },
+      "MergeRecordsRequest": {
+        "Caption": "Merge data"
+      },
+      "MergeRecordsRequestPropertiesPanel": {
+        "SelectData": "Which data to merge?"
+      },
+      "MobileListPropertiesPanel": {
+        "PageCaption": "Lista",
+        "GeneralCaption": "Általános",
+        "DataSourceCaption": "Objektum",
+        "TitleColumnField": "Title column",
+        "ImageColumnField": "Kép",
+        "AppearanceGroup": "Megjelenés",
+        "Columns": {
+          "ColumnsGroup": "Oszlopok",
+          "AddNewItem": "Oszlop hozzáadása",
+          "ContextMenu": {
+            "Edit": "Szerkesztés",
+            "MoveUp": "Move up (Ctrl+Up)",
+            "MoveDown": "Move down (Ctrl+Down)",
+            "Delete": "Törlés"
+          }
+        },
+        "Scrollable": "Fit to available space"
+      }
+    }
+  },
+  "CanvasToolbar": {
+    "Rotate": "Rotate"
+  },
+  "Input": {
+    "Readonly": "Nem szerkeszthető mező",
+    "ShowPassword": "Mutasd a jelszót",
+    "HidePassword": "Jelszó elrejtése"
+  },
+  "Carousel": {
+    "NoData": "Nincs adat",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "Nem szerkeszthető mező",
+    "NoData": "Nincs adat",
+    "EmptyDisplayValue": "Nincs megjelenített érték",
+    "AddNewRecord": "Új hozzáadása",
+    "InvalidValueSyntax": "Kérjük, válassza ki az értéket a listából",
+    "IsGoToSourceAllowedTooltip": "Ugrás a rekordlistához",
+    "CheckAll": "Összes kiválasztása",
+    "ClearAll": "Összes törlése",
+    "SelectValue": "Válassza ki az értéket",
+    "ClearValue": "Érték ürítése",
+    "OpenSection": "Nyitott szakasz"
+  },
+  "DataGrid": {
+    "AddColumns": "Oszlopok hozzáadása",
+    "ColumnToolbar": {
+      "Hide": "Elrejtés",
+      "Freeze": "Lefagyasztás",
+      "Unfreeze": "Kiolvasztás",
+      "Rename": "Átnevezés",
+      "Edit": "Tulajdonságok",
+      "Title": "Oszlopműveletek",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "Title": "Műveletek listája",
+      "DataGridSettingsLabel": "General list settings",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Visszaállítja az alapértelmezett beállításokat",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Default list settings restored successfully"
+      },
+      "MultilineViewLabel": "Multiline view",
+      "RowHeightSettings": {
+        "Label": "Row height",
+        "Options": {
+          "Small": "Kicsi",
+          "Medium": "Közepes",
+          "Large": "Nagy",
+          "ExtraLarge": "Extra large"
+        }
+      }
+    },
+    "RowToolbar": {
+      "Open": "Megnyitás",
+      "Copy": "Másolás",
+      "Delete": "Törlés",
+      "RunBusinessProcess": "Futtassa az üzleti folyamatot",
+      "Title": "Sorműveletek"
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "BulkActions": {
+      "MoreActions": "Több akció",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "NoData": "Nincs adat",
+    "NoColumns": "Nincsenek oszlopok hozzáadva",
+    "Hints": {
+      "Sort": "Rendezés",
+      "StartEditing": "Szerkesztés",
+      "ReadonlyCell": "Nem szerkeszthető mező",
+      "CancelChanges": "Eldobás",
+      "AddItem": "Új rekord hozzáadása",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "RowControls": "Row controls"
+    },
+    "AddItem": "Új",
+    "SaveItemsChanges": "Összes mentése",
+    "CancelItemsChanges": "Eldobás",
+    "RowsSelection": {
+      "Selected": "kijelölve",
+      "SelectAll": "Összes kijelölése",
+      "ClearSelection": "Kijelölés törlése",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "Az oszlop nem található",
+    "ColumnSticky": "Fagyott oszlop",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Szélesség megváltoztatása",
+      "ChangeWidthOf": "Change width of {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Igen",
+    "No": "Nem",
+    "Save": "Mentés",
+    "DoNotSave": "Ne mentse",
+    "Cancel": "Mégsem",
+    "Delete": "Törlés",
+    "Close": "Bezárás",
+    "Notification": "Értesítő",
+    "Overwrite": "Overwrite",
+    "Clear": "Törlés",
+    "Restore": "Visszaállítás",
+    "ProcessSchemaSavedWithValidationError": "The process schema saved successfully, but validation errors prevent it from running."
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Vannak nem mentett módosításai, amelyek elvesznek. Folytatja?"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "Gallery": {
+    "NoData": "Nincs adat",
+    "MenuActions": "Műveletek",
+    "DateAdded": "Date added",
+    "SelectItem": "Csak 1 elemet választhatsz",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "WebInput": {
+    "LinkButtonHint": "Link megnyitása"
+  },
+  "EmailInput": {
+    "AddEmailHint": "E-mail elküldése"
+  },
+  "FileInput": {
+    "Delete": "Törlés",
+    "Cancel": "Mégsem",
+    "Attach": "Csatlakoztassa a  címet",
+    "FileIcon": "Fájl ikonra",
+    "EmptyFileName": "Üres fájlnév",
+    "MaxFileSizeLimitReached": "Elérte a maximális fájlméret-korlátot ({0} MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Dobja ide a fájlokat",
+      "Description": "vagy használja",
+      "Upload": "Feltöltés"
+    },
+    "RowToolbar": {
+      "Download": "Download"
+    }
+  },
+  "ImageInput": {
+    "Alt": "Field image",
+    "Upload": "Feltöltés",
+    "Change": "Változtatás",
+    "Clear": "Törlés",
+    "AltAbbreviation": "Abbreviation image",
+    "AltIcon": "Field empty placeholder"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Mentés",
+    "CancelButton": "Mégsem",
+    "ColumnProperties": "Oszlop tulajdonságai",
+    "Title": "Cím",
+    "FilterHeader": "A rekordok szűrése",
+    "SortingHeader": "Sort records",
+    "SortColumn": "Rendezés",
+    "WhatToDisplay": "Mit kell megjeleníteni",
+    "AggregationColumn": "Oszlop",
+    "SortOrder": "Rendezési sorrend",
+    "SetupFilters": "Szűrők beállítása",
+    "EditFilters": "Edit filters"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Igen",
+      "False": "Nem"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "ekkor:",
+    "TodayAt": "Ma {0}",
+    "YesterdayAt": "Tegnap, {0}",
+    "DayBeforeYesterdayAt": "Tegnapelőtt, {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Nincs megjelenített érték"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "hónap",
+    "DaysAbbreviation": "nap",
+    "HoursAbbreviation": "óra",
+    "MinutesAbbreviation": "perc"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Lap bezárása"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "Ugrás az asztalra"
+    },
+    "QuickRunProcess": {
+      "Title": "Folyamat futtatás",
+      "SuccessMessage": "A folyamat sikeresen lefutott",
+      "NotConfiguredQuickProcessesMessage": "A folyamatok gyors futtatása még nincs konfigurálva",
+      "OtherProcessesCaption": "Egyéb folyamatok"
+    },
+    "Settings": {
+      "Title": "Beállítások"
+    },
+    "UserProfile": {
+      "Title": "Az Ön profilja",
+      "MenuItems": {
+        "Profile": "Az Ön profilja",
+        "Logout": "Kilépés",
+        "OrganizationProfile": "Szervezeti profil"
+      }
+    },
+    "New": {
+      "Title": "Új",
+      "NoItemTitle": "A gyors rekordok létrehozása még nincs konfigurálva"
+    },
+    "Help": {
+      "Title": "Segítség",
+      "MenuItems": {
+        "OnlineHelp": "Online segítség",
+        "NeedHelp": "Kell segítség",
+        "ExternalAccess": "Biztosítson hozzáférést a támogatáshoz",
+        "ReleaseNotes": "Kiadási megjegyzések"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "SupportSubject": "Kérdés kb",
+      "AccessGrantedMessage": "Hozzáférés engedélyezése",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Kommunikációs panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Értesítési panel"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Konfiguráció"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Additions panel"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Compilation error",
+      "WorkspaceExplorerTemplate": "To view a list of compilation errors and fix them, visit <a href ='{0}' target='_blank'>Configuration section</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigációs panel"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Alkalmazás keresése..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Collapse navigation panel",
+      "ExpandCaption": "Expand navigation panel"
+    },
+    "SearchResultsCaption": "Keresési eredmények",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Bővebben"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} sikeres",
+    "timeBeforeCountStartTpl": "{0} a visszaszámlálás megkezdése előtt",
+    "overdueTpl": "{0} lejárt",
+    "timeLeftTpl": "{0} maradt",
+    "timeIsUpTpl": "Lejárt az idő",
+    "waitingForStartDateTpl": "Várakozás a kezdési dátumra",
+    "dateNotSet": "0 óra 0 perc"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "Keresés oszlop szerint",
+      "AllOption": "Összes",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Sikeresen mentve",
+      "ErrorOnSave": "Hiba történt a módosítások alkalmazásakor"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Biztosan törölni szeretné a(z) \"{0}\" asztalt?",
+        "Error": {
+          "Deletion": "Hiba az asztal törlése közben",
+          "Configuration": "Hiba a konfiguráció összeállítása során"
+        },
+        "Success": "A(z) \"{0}\" asztal sikeresen törölve"
+      },
+      "DeleteMobileHomePage": {
+        "ConfirmationDialogTitle": "Are you sure you want to delete \"{0}\" home page?",
+        "Error": {
+          "Deletion": "Error during home page deletion",
+          "Configuration": "Hiba a konfiguráció összeállítása során"
+        },
+        "Success": "Home page \"{0}\" was successfully deleted"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Keresés..."
+  },
+  "AllowedResults": {
+    "Caption": "Engedélyezett eredmények",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "Engedély szükséges"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Címke hozzáadása",
+    "CreateNewTagButtonCaption": "Hozzon létre egy új címkét"
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Rekord szerkesztése",
+    "DeleteItemActionButtonCaption": "Rekord törlése",
+    "NoData": "Nincs adat"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Nincs adat",
+      "CloseButtonTitle": "Bezárás"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "Eltávolítás"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "Példatár",
+    "Hint": "The component displays hints and instructions for users to access information from the knowledge base for specific dynamic case stages",
+    "Placeholder": {
+      "Title": "No relevant playbook articles are found",
+      "Description": "Please set up a relevant article for the current dynamic case stage in the Playbooks section"
+    },
+    "Actions": {
+      "Back": "Vissza",
+      "OpenInDialog": "Megnyitás felugró ablakban"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Bezárás",
+        "OpenPage": "Megnyitás új lapon"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    },
+    "InputPlaceholder": "Írjon be egy üzenetet",
+    "SendButtonHint": "Send Message (Enter)",
+    "Caption": "Message editor",
+    "ReadonlyInputPlaceholder": {
+      "ChatCompleted": "Chat completed",
+      "ChatTransferred": "Chat transferred"
+    },
+    "MaxFilesExceeded": "Maximum number of files you can add in one iteration: {{maxCount}}",
+    "SendMessageError": "Failed to send message. Please try again",
+    "SmsSplitWarning": "This message exceeds the standard SMS length and will be charged as multiple SMS messages. Current usage: {{segments}}/{{maxSegments}} messages ({{current}}/{{target}} characters)",
+    "SmsMaxLengthExceeded": "A maximális szöveghossz túllépve ({{current}}/{{target}})"
+  },
+  "SpecificationFilter": {
+    "NoData": "Nincs adat",
+    "Boolean": {
+      "Yes": "Igen",
+      "No": "Nem"
+    },
+    "String": {
+      "Placeholder": "Enter text"
+    },
+    "Numeric": {
+      "Placeholder": "Enter number",
+      "To": "up to",
+      "MaxValueError": "Value is above max value",
+      "MinValueError": "Value is below min value"
+    }
+  },
+  "Conversation": {
+    "Caption": "Beszélgetés",
+    "Copilot": {
+      "TypingMessage": "Generating response",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    },
+    "LoadPreviousChat": "Load previous chat",
+    "ChatIsCompleted": "Chat completed: {datePart}",
+    "ChatIsTransferred": "Chat transferred: {datePart} from {operatorPart} to {targetOperatorPart}",
+    "ChatTransferredToQueue": "Chat transferred: {datePart} from {operatorPart} to queue {queuePart}",
+    "ChatCompletedByAgent": "Chat completed: {datePart} by {operatorPart}"
+  },
+  "BulkActions": {
+    "Delete": "Törlés",
+    "Export": "Exportálás Excelbe",
+    "AddTag": "Címke hozzáadása",
+    "RemoveTag": "Címke eltávolítása",
+    "RowsSelection": {
+      "Selected": "kijelölve",
+      "SelectAll": "Összes kijelölése",
+      "ClearSelection": "Kijelölés törlése"
+    },
+    "Merge": "Egyesít"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Szám"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Összezár",
+    "Expand": "Kibontás"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Folyamatjelző sáv"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Csevegés állapota",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "Nincsenek a szűrési feltételeknek megfelelő rekordok",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "DataSource": {
+    "Hierarchical": {
+      "RowsLimitNotification": "Not all records are loaded in the hierarchical list due to the configured limit"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Kérjük, válassza ki az értéket a listából",
+      "SelectionWindowMessage": "Kérjük, válasszon értéket a listából, vagy keressen a keresőablak segítségével"
+    },
+    "Required": {
+      "Message": "Adj meg egy értéket"
+    },
+    "MaxLength": {
+      "Message": "A maximális szöveghossz túllépve ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Nem érte el a minimális szöveghosszt ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Érvénytelen dátum- és időformátum"
+    },
+    "DatePickerSyntax": {
+      "Message": "Érvénytelen dátumformátum"
+    },
+    "TimePickerSyntax": {
+      "Message": "Érvénytelen időformátum"
+    },
+    "RegExp": {
+      "Message": "Érvénytelen értékformátum"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code must start with the {{schemaNamePrefix}} prefix.",
+      "OnlySchemaNamePrefixMessage": "Enter at least one more symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Use symbols: a-z, A-Z, 0-9, underscore or dash. Only letters can be first."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Oszlop eltávolítva",
+    "ValidationErrorMessageSingleErrorField": "Mező: {0}. Hiba: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Mezők: {0}. Hiba: {1}",
+    "RefreshModelDataConflict": "A Creatio új adatokkal rendelkezik az aktuális oldalhoz. A megtekintéséhez mentse vagy vonja vissza a módosításokat, és frissítse az oldalt.",
+    "WarningModelsWithCircularDependencies": "Egyes modellek körkörös függőséggel rendelkeznek, és nincsenek betöltve",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "DigitalAdsContent": {
+    "PlatformInputCaption": "Platform",
+    "AppInputCaption": "Alkalmazás",
+    "AdPlatformLoginRequestTitle": "Csatlakoztassa a hirdetési platformot",
+    "NotEnoughPermissionsMessage": "Sajnáljuk, nem sikerült összekapcsolni hirdetési fiókját. Kérjük, adjon meg maximális engedélyt a Creatiónak, és próbálja újra.",
+    "PlatformUndefinedMessage": "Platform undefined, győződjön meg róla, hogy konfigurálja a platform ellenséget a gombbal",
+    "ApplicationUndefinedMessage": "Az alkalmazás nincs definiálva, ügyeljen arra, hogy konfigurálja a platform ellenséget a gombbal",
+    "ImportFromAdPlatformStartedMessage": "Data import from ad accounts has been started",
+    "NoConnectedAdAccountsFoundMessage": "There are no connected ad accounts for import",
+    "NoActiveAdAccountsFoundMessage": "Sorry, but we couldn’t find any ad accounts available to you. Make sure that you have access to the required accounts on the platform. Only active accounts can be connected."
+  },
+  "GoogleAnalytics": {
+    "PlatformCaption": "Platform",
+    "ApplicationCaption": "Alkalmazás",
+    "LoginRequestTitle": "Connect google analytics",
+    "NotEnoughPermissionsMessage": "Sorry, unable to connect your google analytics account. Please grant maximum permissions to Creatio and try again.",
+    "PlatformUndefinedMessage": "Platform undefined, győződjön meg róla, hogy konfigurálja a platform ellenséget a gombbal",
+    "ApplicationUndefinedMessage": "Az alkalmazás nincs definiálva, ügyeljen arra, hogy konfigurálja a platform ellenséget a gombbal",
+    "RefreshStreamSuccessMessage": "Google Analytics streams refreshed successfully",
+    "RefreshStreamErrorMessage": "Failed to refresh Google Analytics streams. Please try again later.",
+    "RefreshStreamConfirmationTitle": "Refresh data stream list?",
+    "RefreshStreamConfirmationMessage": "Refreshing may take a moment — the system will be unavailable while updating the list",
+    "RefreshStreamConfirmationCancel": "Mégsem",
+    "RefreshStreamConfirmationOk": "Frissítés"
+  },
+  "EnvironmentManagement": {
+    "PageTitle": "Creatio",
+    "WaitPageTitle": "Try Creatio",
+    "IdentityServiceNotConfigured": "Identity service is not configured. Please contact your administrator.",
+    "Users": {
+      "Profile": {
+        "InvalidValue": {
+          "Message": "Invalid value. Value must not contain <br><b>{0}</b> and must contain up to <br><b>{1}</b> characters"
+        }
+      }
+    }
+  },
+  "EnvironmentLoader": {
+    "PreparingEnvironment": "Preparing the environment",
+    "ThisMayTakeMoments": "This may take a few moments",
+    "EnvironmentNotUsed": "This environment was not used for a while - we need to re-enable it"
+  },
+  "EnvironmentToolbar": {
+    "Applications": "Alkalmazás központ ",
+    "Users": "Felhasználók",
+    "Subscriptions": "Subscriptions",
+    "HealthCenterCaption": "Health center"
+  },
+  "EnvironmentListItem": {
+    "SelectEnvironment": "Select environment",
+    "Site": "Webhely:",
+    "Action": {
+      "EnvironmentDetails": "Environment details",
+      "ManageApplications": "Manage applications",
+      "ManageEnvironment": "Manage environment",
+      "OpenConfiguration": "Open configuration",
+      "OpenEnvironment": "Open environment",
+      "CopyLink": "Copy link",
+      "LinkCopied": "Link copied",
+      "Restart": {
+        "ProcessResponseSuccess": "Restart process successfully started",
+        "ProcessResponseFailure": "Restart process failed"
+      }
+    },
+    "SiteIsNotRegisteredCaption": "The site is not registered on the portal, contact technical support."
+  },
+  "EnvironmentErrorPage": {
+    "HaveNotActiveSites": "You have no active sites",
+    "GetFreeTrial": "Get a free trial",
+    "TrialExpiredCaption": "Your trial environment has expired",
+    "CreateNewCaption": "New environment",
+    "Oops": "Ooops...",
+    "Description": "There was an error while trying to connect to the site:",
+    "Proposition": "You can try to",
+    "ErrorByTimeoutLoadingProposition": "Refresh the page. If problem persists, please",
+    "RestartSite": "Restart",
+    "ContactSupport": "Contact Creatio support",
+    "TryLaterMessage": "At the moment, all free trials are taken, please, try again in a few minutes."
+  },
+  "EnvironmentsExceeded": {
+    "Header": "The {0} product trials are waiting for you in the Application Hub",
+    "Description": "You have reached the trial limit.\nYou will be able to order a new trial after an active trial expires.",
+    "ButtonCaption": "Lépjen az Application Hub oldalra"
+  },
+  "AppDeploymentDialogComponent": {
+    "DialogTitle": "Deploy app",
+    "DestinationEnvironmentTitle": "Destination site",
+    "DestinationEnvironmentPlaceholder": "Choose an environment for app deploy",
+    "NoDestinationEnvironmentsAvailablePlaceholder": "Unable to find any websites ready for deployment",
+    "NoDestinationEnvironmentsAvailableTooltip": "More than one active website is required to deploy the app",
+    "DeployButtonCaption": "Telepítés",
+    "CancelButtonCaption": "Elvetés",
+    "HealthCheckErrorMessage": "{0} destination website is currently unavailable. Try again later",
+    "AttentionText": "Make sure that the app is compatible with the version and product of the destination website. Apps based on the Studio product are compatible with all Creatio products. We recommend installing apps based on Marketing, Sales, or Service products into websites that contain the corresponding product."
+  },
+  "AppDeploymentStatus": {
+    "DeploymentCaption": {
+      "Line11": "Deploying",
+      "Line12": "",
+      "Line13": "app",
+      "From": "ettől ",
+      "To": "-esnek"
+    }
+  },
+  "Subscriptions": {
+    "NoPermissionMessage": "Insufficient permissions to open the section. Contact the administrator of your organization."
+  },
+  "PageTools": {
+    "DesignButtonHint": "Oldal szerkesztése",
+    "ExpandButtonTitle": "Kibontás",
+    "CollapseButtonTitle": "Összezár"
+  },
+  "IndicatorWidget": {
+    "NoData": "N/A",
+    "AriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}.",
+    "NotClickableAriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}.",
+    "Caption": "Metric widget",
+    "Hint": "Metric allows you to display a single key value, such as a KPI, aggregated result, or formula-calculated value, to highlight performance.",
+    "AriaDrilldownInstruction": "Use the enter or white space keys to drill down the element.",
+    "AriaFullscreenInstruction": "Use the Escape key to collapse fullscreen.",
+    "NoChanges": "No changes",
+    "ComparisonSuffix": "(comparison)",
+    "WithComparison": {
+      "Caption": "Metric with comparison",
+      "Hint": "Comparison metric component allows you to display a primary value alongside a comparative value (e.g., previous period) to show trends or differences."
+    }
+  },
+  "ChartLegend": {
+    "Title": "Legend for {{chartTitle}} chart: use arrow keys to navigate and Enter key to open context menu."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} chart for \"{{chartTitle}}\" with {{groupsCount}} groups. The chart showing \"{{groupsNames}}\". X is \"{{xLabel}}\" from {{xMin}} to {{xMax}}. Y is \"{{yLabel}}\" from {{yMin}} to {{yMax}}. Use arrow keys to navigate.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Use Enter key to open context menu."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. The chart type is Gauge. Data ranges from {{ariaMin}} to {{ariaMax}}. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Expand fullscreen for \"{{title}}\" chart.",
+      "CollapseLabel": "Collapse fullscreen for \"{{title}}\" chart."
+    },
+    "Menu": {
+      "Caption": "Menu for \"{{title}}\" chart.",
+      "CreateDashboard": {
+        "Caption": "Create dashboard",
+        "UnableCreateMessage": "⚠️ Unable to create a dashboard. This page has no Dashboard component.\n\rYou can go to another page where the Dashboard component is already available.\n\r📘 Learn more about working with dashboards in the <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Academy</a>"
+      }
+    }
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {
+      "LoadErrorMessage": "Unsupported file type. This file can’t be previewed."
+    }
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "Összefoglaló",
+    "Title": "Cím",
+    "Column": "Oszlop",
+    "Function": "Funkció",
+    "CustomSummaryLabelTooltip": "Az elem előre konfigurált adatmegjelenítési logikát tartalmaz. Ha alternatív logikát kell megvalósítania, távolítsa el az elem értékét."
+  },
+  "Summaries": {
+    "Caption": "Összefoglalók",
+    "Actions": {
+      "CreateCount": "A rekordok számának megjelenítése",
+      "Title": "Summaries actions"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "Gyors beállítás",
+      "Count": "Számláló",
+      "Minimum": "Minimális",
+      "Maximum": "Maximum",
+      "Sum": "Összeg",
+      "Average": "Átlagos"
+    },
+    "Hints": {
+      "NoDataSource": "Nincs kiválasztva adatforrás",
+      "Collapse": "Collapse summaries",
+      "Expand": "Expand summaries"
+    },
+    "ProfileActions": {
+      "SaveForAll": "Save setting for all users",
+      "ResetToDefault": "Reset to default settings",
+      "SaveForAllSuccessfully": "Summary settings saved for all users successfully",
+      "ResetToDefaultSuccessfully": "Default summary settings restored successfully"
+    },
+    "AdvancedSetup": {
+      "Title": "Speciális beállítások",
+      "Actions": {
+        "AddCustomSummary": "Új összefoglaló hozzáadása"
+      }
+    }
+  },
+  "SummaryItem": {
+    "Actions": {
+      "Delete": "Törlés",
+      "Edit": "Szerkesztés"
+    },
+    "AriaLabel": "Summary item",
+    "Statuses": {
+      "Added": "Summary item added successfully",
+      "Deleted": "Summary item deleted successfully",
+      "Edited": "Summary item changed successfully",
+      "Error": "Hiba"
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "Hozzáadás",
+    "AddFilterHint": "Új mappa hozzáadása",
+    "BlankslateMessage": "Nincsenek mappák",
+    "CloseFolderTree": "Mappák elrejtése",
+    "SetUpFilter": "Állítsa be a szűrőt",
+    "DefaultFolderName": "Új mappa",
+    "CopyFolderSuffix": "Másolás",
+    "DeleteConfirmation": "Biztos benne, hogy törölni szeretné a kiválasztott mappát?",
+    "MenuActions": {
+      "AddFolder": "Könyvtár hozzáadása",
+      "AddStaticFolder": "Statikus mappa hozzáadása",
+      "RenameFolder": "Átnevezés",
+      "CopyFolder": "Másolás",
+      "DeleteFolder": "Törlés",
+      "AddToFavorite": "Kedvencekhez",
+      "RemoveFromFavorite": "Eltávolítás a kedvencek közül",
+      "ChangeFolderRights": "Hozzáférési jogok beállítása",
+      "ConvertToStaticFolder": "Átalakítás statikus mappává",
+      "MoveFolder": "Mozgatás"
+    },
+    "ShowMenuActions": "Műveletek megjelenítése",
+    "FavoritesNodeCaption": "Kedvencek",
+    "RootNodeCaption": "Összes",
+    "CopyRightsQuestion": "Másolja a(z) \"{0}\" mappa hozzáférési engedélyeit?",
+    "HasNotPermission": "Nincs hozzáférési jogosultsága ehhez a művelethez."
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "Mentés",
+    "CancelButton": "Mégsem",
+    "DialogTitle": "Szűrők beállítása"
+  },
+  "FolderTreeActions": {
+    "ClearButtonCaption": "Kijelölés törlése",
+    "FavoriteItemsMenuButtonAriaLabel": "Kedvenc mappák menü",
+    "FolderButtonAriaLabel": "Open/Close folder tree",
+    "MenuButton": "Mappák"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "Értesítjük Önt, ha az átalakítás befejeződött."
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "Elvetés",
+    "SelectFolderButtonCaption": "Kiválasztás",
+    "SelectFolderCaption": "Mappa kiválasztása"
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "Adjon hozzá összetevőket",
+    "Tooltip": "Kérjük, adjon hozzá összetevőket"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "Alapértelmezett érték",
+    "FilterColumnLabel": "Szűrőoszlop",
+    "ViewAttributeLabel": "Szűrő komponens"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "Szűrő szerkesztése",
+    "SetupFilterCaption": "Szűrő beállítása",
+    "FiltersDialogCaption": "Kézzel definiált szűrő",
+    "DefaultCheckBoxState": {
+      "Label": "Alapértelmezett jelölőnégyzet állapota",
+      "CheckedCaption": "Ellenőrizve",
+      "UncheckedCaption": "Nem ellenőrzött"
+    },
+    "FilteringApproachState": {
+      "Label": "Szűrési megközelítés",
+      "OnCheckedCaption": "Szűrőfeltétel alkalmazása, ha a jelölőnégyzet be van jelölve",
+      "OnUncheckedCaption": "Szűrőfeltétel alkalmazása, ha a jelölőnégyzet nincs bejelölve"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "Alapértelmezett időszak",
+    "ChooseFilteringMethodCaption": "Válasszon szűrési módot",
+    "ChooseFilteringMethodTooltip": "A szűrő képes megjeleníteni a megadott időszakra vonatkozó adatokat.\nHasználja a \"Szűrő beállítása egy dátum szerint\" feltételt a megadott napon létrehozott vagy módosított rekordok megjelenítéséhez. Beállíthatja például ezt a szűrőt úgy, hogy a potenciális ügyfeleket a létrehozás dátuma szerint, a lehetőségeket a bezárási dátum szerint vagy az eseteket a megoldás dátuma szerint jelenítse meg.\n\nHasználja a „Szűrő beállítása dátumtartomány szerint” feltételt azon rekordok megjelenítéséhez, amelyeknél egy dátumtartomány különösen releváns. Például beállíthatja ezt a szűrőt azokra a szerződésekre, amelyek kezdő és befejező dátuma a megadott dátumtartományon belül van.",
+    "SetUpByOneColumnTitle": "Szűrő beállítása egy dátum szerint",
+    "SetUpByTwoColumnsTitle": "Szűrő beállítása dátumtartomány szerint",
+    "FilterColumnStartCaption": "Oszlop szűrése Kezdő",
+    "FilterColumnEndCaption": "Oszlop szűrése ide",
+    "ShowTimeLabel": "Enable time",
+    "ShowFiscalPeriodsLabel": "Show fiscal periods"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "Jelenlegi felhasználói kapcsolat",
+    "CurrentUserAccountName": "Jelenlegi felhasználói fiók",
+    "EditFilterCaption": "Szűrő szerkesztése",
+    "SetupFilterCaption": "Szűrő beállítása",
+    "FiltersDialogCaption": "Kézzel definiált szűrő",
+    "TagVirtualColumnCaption": "Címke"
+  },
+  "TemplateGalleryItem": {
+    "RecommendationText": "AI-recommended"
+  },
+  "TemplateGallery": {
+    "Placeholder": {
+      "Title": "Nothing here yet",
+      "Description": "This environment hasn't saved any campaign templates so far. Be the first to fix that",
+      "ActionButtonText": "Design from scratch"
+    }
+  },
+  "HtmlEditor": {
+    "EditorAriaLabel": "HTML editor",
+    "Placeholder": "Compose your message...",
+    "CharactersCount": "{{count}} characters",
+    "Toolbar": {
+      "SelectMacro": "Select macro",
+      "SelectFieldMacro": "Select field macro",
+      "Preview": "Előnézet",
+      "Templates": "Sablonok",
+      "Variables": "Variables"
+    },
+    "TemplateReplacement": {
+      "Title": "Replace current content?",
+      "Message": "Inserting a template will replace the current editor content. Continue?"
+    },
+    "DefaultMacros": {
+      "SequenceActivityCategory": "Sequence activity",
+      "SenderName": "Küldő neve",
+      "SenderNameDescription": "Current sender full name",
+      "SenderEmail": "Küldő e-mail címe",
+      "SenderEmailDescription": "Current sender email",
+      "SenderPhone": "Sender phone",
+      "SenderPhoneDescription": "Current sender phone number",
+      "ContactLinkedInUrl": "LinkedIn URL",
+      "ContactLinkedInUrlDescription": "Inserts the recipient contact's LinkedIn profile URL"
+    },
+    "PreviewDialog": {
+      "Title": "HTML preview",
+      "ClosePreview": "Close preview",
+      "OriginalContent": "Original content",
+      "ResolvedContent": "Resolved content",
+      "CopyHtml": "Copy HTML",
+      "CopySuccess": "HTML copied to clipboard",
+      "CopyError": "Could not copy HTML to clipboard",
+      "Close": "Bezárás"
+    }
+  },
+  "QuickFilter": {
+    "MainTitle": "Gyors szűrő",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "Tegnap",
+        "Today": "Ma",
+        "Tomorrow": "Holnap",
+        "PreviousWeek": "Előző hét",
+        "CurrentWeek": "Jelenlegi hét",
+        "NextWeek": "Következő héten",
+        "PreviousMonth": "Előző hónap",
+        "CurrentMonth": "Aktuális hónap",
+        "NextMonth": "Következő hónap",
+        "PreviousQuarter": "Előző negyedév",
+        "CurrentQuarter": "Aktuális negyedév",
+        "NextQuarter": "Következő negyedév",
+        "PreviousFiscalWeek": "Előző hét",
+        "CurrentFiscalWeek": "Jelenlegi hét",
+        "NextFiscalWeek": "Következő héten",
+        "FiscalQuarter1": "Q1",
+        "FiscalQuarter2": "Q2",
+        "FiscalQuarter3": "Q3",
+        "FiscalQuarter4": "Q4",
+        "FiscalHalfYear1": "First half year",
+        "FiscalHalfYear2": "Second half year",
+        "PreviousFiscalYear": "Előző év",
+        "CurrentFiscalYear": "Jelen év",
+        "NextFiscalYear": "Következő év"
+      },
+      "RangeSeparator": "ig",
+      "SelectDatePlaceholder": "Dátumválasztás",
+      "EmptyDateRangeStartLabel": "<Kezdő dátum>",
+      "EmptyDateRangeEndLabel": "<Due date>",
+      "Header": {
+        "ArrowRight": "Következő hónap",
+        "ArrowLeft": "Előző hónap"
+      },
+      "RangeSelectedFrom": "Selected from",
+      "ClearIcon": "Clear selected range",
+      "ClearStartDatePlaceholder": "Clear selected start date",
+      "ClearEndDatePlaceholder": "Clear selected end date",
+      "EmptyDateRangeStartAriaLabel": "[No start date selected]",
+      "EmptyDateRangeEndAriaLabel": "[No end date selected]",
+      "CalendarMode": "Naptár",
+      "FiscalMode": "Fiscal",
+      "Fiscal": {
+        "PeriodNotFound": "We couldn’t load the fiscal period date ranges. Please check that fiscal periods are set up, or contact your administrator for assistance.",
+        "LoadError": "Error loading fiscal period data, contact your administrator for assistance"
+      },
+      "SelectTimePlaceholder": "Kérlek, válassz időt"
+    },
+    "Lookup": {
+      "NoData": "Nincs adat"
+    }
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "Hívott",
+        "Sec": "másodperc",
+        "DetailsLinkCaption": "Call details"
+      },
+      "Chat": {
+        "ChatWith": "vele csevegett",
+        "Show": "Chat megjelenítése",
+        "Hide": "Csevegés elrejtése",
+        "DetailsLinkCaption": "Chat details"
+      },
+      "Email": {
+        "MailedTo": "Postázva a címre",
+        "From": "Ettől:",
+        "To": "Nak nek:",
+        "CC": "CC:",
+        "Details": "Részletek",
+        "Hide": "Elrejtés"
+      },
+      "File": {
+        "AddedFile": "Fájl hozzáadva"
+      }
+    },
+    "NoDataMessage": "A múlt nem létezik",
+    "FillActionMessage": "Az idővonalon nincsenek megjeleníthető kapcsolódó rekordok",
+    "NoDataByFilterMessage": "Nincsenek a szűrési feltételeknek megfelelő rekordok",
+    "FillActionByFilterMessage": "Törölje ki a szűrőt, vagy módosítsa annak állapotát",
+    "EntityFilterCaption": "Összes",
+    "OwnerFilterCaption": "Tulajdonos",
+    "DateFilterCaption": "Válassza ki az időszakot",
+    "HideSystemMessagesCaption": "Rendszerüzenetek elrejtése",
+    "EntityFilterHint": "Válassza ki a rekord típusát",
+    "OwnerFilterHint": "Válassza ki a rekord tulajdonosát",
+    "DateFilterHint": "Válassza ki a rögzítési időszakot",
+    "HideSystemMessagesHint": "Automatizált e-mailek elrejtése",
+    "DateSort": "Dátum",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "E-mail"
+      },
+      "Feed": {
+        "Caption": "Hírfolyam"
+      },
+      "Task": {
+        "Caption": "Feladat"
+      },
+      "SysFile": {
+        "Caption": "Fájl"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "Sort by date button, currently sorted {0}",
+        "Descending": "csökkenő",
+        "Ascending": "növekvő"
+      }
+    }
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Formatting options (Alt+F10)",
+    "UploadAttachments": "Válassza ki a mellékleteket",
+    "SelectTemplate": "Sablon beszúrása",
+    "SelectionActions": {
+      "AskCopilot": "Ask Creatio.ai",
+      "Friendly": "Friendly",
+      "Formal": "Hivatalos",
+      "Shorten": "Shorten",
+      "Extend": "Extend",
+      "Rephrase": "Rephrase",
+      "RewriteCaption": "Rewrite text"
+    },
+    "TableOfContents": {
+      "Title": "Table of contents",
+      "Placeholder": "A table of contents based on the headings on this page will appear here once it has been published."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Mentés",
+    "OpenLinkButtonCaption": "Megnyitás új lapon",
+    "CloseLinkButtonCaption": "Bezárás",
+    "UnlinkLinkButtonCaption": "Link Törlése",
+    "LinkLabelCaption": "Link címe",
+    "TextLabelCaption": "Megjelenítendő szöveg"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Insert video",
+    "PasteUrlTab": "Paste url",
+    "UploadFileTab": "Fájl feltöltése",
+    "EmbedCodeTab": "Embed code",
+    "DialogDescription": "This video will be embedded at 640 pixels wide.<br>This embedded video will include a text link.",
+    "SaveButton": "Insert video",
+    "CancelButton": "Elvetés",
+    "UploadButton": "Fájl feltöltése",
+    "InputPlaceholder": "Paste here",
+    "DragAndDropPlaceholder": "Drag-and-drop file here or",
+    "NotVideoFile": "The inserted file is not a video, please select a file with a video type.",
+    "ConfirmMessage": "Ez az oldal nem mentett módosításokat tartalmaz. Elvesznek, ha bezárod az oldalt. Menti a változtatásokat?"
+  },
+  "CommunicationOptions": {
+    "DesignerPhoneLabel": "Telefonszám",
+    "DesignerEmailLabel": "Email cím",
+    "DesignerWebLabel": "Web link",
+    "Caption": "Kommunikációs lehetőségek",
+    "DeleteOption": "Törlés",
+    "Primary": "elsődleges",
+    "Invalid": "érvénytelen",
+    "MarkAsPrimary": "Beállítás elsődlegesként",
+    "MarkAsValid": "Jelölje meg érvényesnek",
+    "MarkAsInvalid": "Jelölje meg érvénytelenként",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} már létezik",
+      "ReadOnlyStateMessage": "A kommunikációs opció nem adható hozzá, mivel az összetevő írásvédett módban van",
+      "IncorrectSetupComponentMessage": "Nem sikerült hozzáadni a kommunikációs opciót, mivel az oldalösszetevő még nincs beállítva. A rendszergazda befejezheti a beállítást a Freedom UI tervezőben",
+      "EmptyMasterRecordColumnNameInRequestMessage": "A kommunikációs beállítás nem adható hozzá egy üres rekordhoz. Kérjük, először adja meg a rekord értékét"
+    },
+    "NoDataPlaceholderText": "Nincs adat",
+    "Announcement": {
+      "Option": {
+        "Added": "{0} added",
+        "Deleted": "{0} {1} deleted",
+        "SetAsPrimary": "{0} {1}  set as primary",
+        "MarkedAsValid": "{0} {1} marked as valid",
+        "MarkedAsInvalid": "{0} {1} marked as invalid"
+      }
+    },
+    "ToolsAriaLabel": "Műveletek"
+  },
+  "AccountCompactProfileDT": {
+    "DesignerNamePlaceholder": "Partner neve",
+    "AlternativeNamePlaceholder": "Más néven",
+    "CountryPlaceholder": "Ország"
+  },
+  "ContactCompactProfileDT": {
+    "DesignerNamePlaceholder": "Kapcsolattartó neve",
+    "DesignerBirthDatePlaceholder": "Születési dátum",
+    "CountryPlaceholder": "Ország"
+  },
+  "AccountCompactProfile": {
+    "Caption": "Fiókkompakt profil",
+    "DialogTitle": "Fiók szerkesztése",
+    "AlternativeNameFieldLabel": "Más néven",
+    "EmptyDisplayValue": "Nincs megjelenített érték",
+    "NamePlaceholder": "Adja hozzá a fiók nevét",
+    "EmptyRecord": {
+      "NamePlaceholder": "Partner neve",
+      "AlternativeNamePlaceholder": "Más néven",
+      "CountryPlaceholder": "Ország"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "Kapcsolat kompakt profil",
+    "DialogTitle": "Kapcsolat szerkesztése",
+    "EmptyDisplayValue": "Nincs megjelenített érték",
+    "NamePlaceholder": "Adja hozzá a névjegy nevét",
+    "BirthDatePlaceholder": "és születési dátum",
+    "EmptyRecord": {
+      "NamePlaceholder": "Kapcsolattartó neve",
+      "BirthDatePlaceholder": "Születési dátum",
+      "CountryPlaceholder": "Ország"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "Kompakt felhasználói profil",
+    "DialogTitle": "Név szerkesztése",
+    "EmptyDisplayValue": "Nincs megjelenített érték",
+    "NamePlaceholder": "Felhasználónév hozzáadása"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "Bezárás"
+  },
+  "WebchatPreview": {
+    "LoadError": {
+      "Title": "Preview unavailable",
+      "Subhead": "The widget could not be loaded from the service."
+    }
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "Agree"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "Fájl letöltése"
+    },
+    "System": {
+      "ChatStartedMessage": "Chat started: {chatStartedAt} by {chatStartedBy}"
+    },
+    "Feedback": {
+      "Like": "Tetszik",
+      "Dislike": "Dislike",
+      "HelpfulQuestion": "Was this helpful?",
+      "CommentPlaceholder": "Optional comment…",
+      "Send": "Küldés",
+      "Thanks": "Thanks!"
+    }
+  },
+  "ChatList": {
+    "NoDataMessage": "There are no recent chats yet",
+    "CreateChatButton": "Start new chat",
+    "DraftPreview": "<span class='draft-preview'>Draft: </span>",
+    "YourPreview": "Te: ",
+    "RenameChat": {
+      "LabelTitle": "Rename chat",
+      "InputTitle": "Cím",
+      "SaveButton": "Mentés",
+      "CancelButton": "Elvetés"
+    },
+    "ChatItem": {
+      "ActionsMenuCaption": "Műveletek"
+    },
+    "NoDataBySearchFilter": "Nincsenek a szűrési feltételeknek megfelelő rekordok",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions ",
+    "ARIA": {
+      "Label": "Csevegés",
+      "ChatItem": "Chat: {0}. Last message: {1}",
+      "LoadMoreTrigger": "Továbbiak betöltése"
+    },
+    "AlreadyAssignedChat": "A csevegés egy másik ügynökhöz lett rendelve"
+  },
+  "ChatTransfer": {
+    "ButtonCaption": "Csevegés átvitele",
+    "AgentTab": "Ügynök",
+    "QueueTab": "Feldolgozási sor",
+    "NoOperatorsAvailable": "No agents available",
+    "NoData": "Nincs adat",
+    "OperatorStatus": {
+      "0": "Inaktív",
+      "1": "Aktív",
+      "2": "A csevegések száma túllépve"
+    },
+    "InputPlaceholder": "Chat transferred",
+    "NoQueuesAvailable": "No queues available",
+    "ActiveAgentsCount": "{{count}} active agent(s)"
+  },
+  "ChatAttachmentTile": {
+    "AttachedFile": "Attached file: {{fileName}}",
+    "DeleteFile": "Delete {{fileName}}"
+  },
+  "ChatQuickActions": {
+    "ButtonCaption": "Run action",
+    "NoActionsTemplate": "No actions available. Please add chat actions on the ${link}.",
+    "ChatSettingsPage": "Chat setting page",
+    "ProcessExecutedSuccessfully": "A folyamat sikeresen végrehajtva",
+    "ProcessExecutionFailed": "Process execution failed. Please try again."
+  },
+  "MessageTemplates": {
+    "ButtonCaption": "Open templates (click or type //)",
+    "NotFound": "No templates found",
+    "NoAvailable": "No templates available",
+    "Group": {
+      "RecentlyUsed": "Recently used",
+      "Others": "Others"
+    }
+  },
+  "EmojiSelect": {
+    "ButtonCaption": "Add emoji",
+    "ButtonAriaLabel": "Open emoji picker",
+    "PickerAriaLabel": "Emoji picker"
+  },
+  "LinkChatToContact": {
+    "SelectContactCaption": "Válassza ki: Kapcsolat",
+    "ConfirmLinkMessage": "All chats of the current contact will be linked to the selected contact, and the current contact will then be deleted. Do you want to proceed?"
+  },
+  "Translations": {
+    "TargetLanguage": "target language",
+    "TranslatingTo": "Translating to {{language}}...",
+    "TranslatedTo": "Translated to {{language}}",
+    "TranslationFailedDialog": "Translation failed. Please try again."
+  },
+  "MessageComposer": {
+    "Chat": {
+      "ActiveChatExists": "There is already an active chat with the selected contact.",
+      "WhatsAppWindowExpired": "The message can't be sent outside the 24-hour messaging window.",
+      "WhatsAppWindowExpiredTooltip": "Learn more in the Academy <a href='https://academy.creatio.com/documents?id=2355' target='_blank' rel='noopener noreferrer'>article</a>",
+      "FacebookWindowExpired": "The message can't be sent outside the 24-hour messaging window. Facebook messenger only allows responses within 24 hours of the user's last message.",
+      "ChannelRestrictionError": "The message cannot be sent for the selected channel. Please check channel settings and try again.",
+      "Caption": "Chat composer",
+      "From": "Ettől",
+      "To": "Címzett",
+      "BodyPlaceholder": "Írjon be egy üzenetet",
+      "FromValidation": "“From” field cannot be blank. Please select a channel.",
+      "ToValidation": "“To” field cannot be blank. Please select a contact.",
+      "EmptyMessageValidation": "Message cannot be blank. Please type a message or attach a file.",
+      "ChatSent": "Chat message sent",
+      "SendError": "Failed to send a chat message. Please try again later."
+    },
+    "CancelButtonHint": "Eldobás",
+    "CancelButtonText": "Eldobás",
+    "SaveDraftButtonText": "Piszkozat mentése",
+    "SendButtonHint": "Üzenet küldése (Ctrl + Enter)",
+    "MessageSent": "Üzenet elküldve",
+    "SendButtonText": "Küldés",
+    "RemoveAttachmentHint": "Távolítsa el a mellékletet",
+    "Caption": "Üzenetkészítő",
+    "Email": {
+      "Caption": "E-mail zeneszerző",
+      "From": "Ettől",
+      "To": "Címzett",
+      "CC": "CC",
+      "BCC": "Titkos másolat",
+      "Subject": "Tárgy",
+      "PublishError": "Nem sikerült üzenetet küldeni. A következő hibaüzenet érkezett: {0}",
+      "SaveDraftError": "Nem sikerült menteni a piszkozatot. Kérlek, próbáld újra később",
+      "TemplateInsertError": "Nem sikerült hozzáadni a sablont. Kérlek, próbáld újra később.",
+      "AttachmentsSizeLimitReached": "A mellékletek teljes mérete meghaladja a megengedett {0} MB-ot. Kérjük, távolítson el néhány mellékletet.",
+      "FromValidationErrorMessage": "A „Feladó” mező nem lehet üres. Kérjük, válasszon egy postafiókot.",
+      "ToValidationErrorMessage": "A „Címzett” mező nem lehet üres. Kérjük, adjon meg legalább egy címzettet.",
+      "SubjectValidationErrorMessage": "A „Tárgy” mező nem lehet üres. Kérjük, adja meg az e-mail tárgyát.",
+      "Draft": "Vázlat",
+      "BodyPlaceholder": "Írjon be egy üzenetet",
+      "Reply": "Válasz",
+      "ReplyAll": "Válasz mindenkinek",
+      "Forward": "Előre",
+      "SentOn": "Elküldve",
+      "SubjectToggleCaption": "Tárgy",
+      "CcToggleCaption": "CC",
+      "BccToggleCaption": "Titkos másolat",
+      "NotContainsEmail": "nem tartalmaz e-mailt",
+      "ChangeReplyAction": "Válaszművelet módosítása",
+      "ShowTrimmedEmailTitle": "Vágott e-mail megjelenítése",
+      "EmailTemplatesLookupCaption": "Válassz egy sablont",
+      "EmailTemplatesDisplayColumnCaption": "Sablon neve",
+      "ContinueEditing": "Szerkesztés folytatása",
+      "SaveDraft": "Piszkozat mentése",
+      "DraftSaved": "Piszkozat mentve",
+      "EmailSent": "Az e-mail elküldve",
+      "RemoveRecipientLabel": "Remove recipient",
+      "ValidateUnhandledMacrosMessage": "There are no available values for some macros used in this email. We recommend removing the highlighted macros before sending. Send email now?",
+      "RemoveUnhandledMacros": "Remove unhandled macros",
+      "UnhandledMacrosRemovedConfirmation": "Unresolved macros were removed from the email. Send email now?",
+      "UnhandledMacrosRemoved": "Unhandled macros deleted successfully"
+    },
+    "Feed": {
+      "Caption": "Hírfolyam készítő"
+    },
+    "Selector": {
+      "Caption": "Üzenetkészítő"
+    },
+    "ComposerAreaLabel": "Message composer input area",
+    "AttachmentPreview": "Attachment preview",
+    "Attachment": {
+      "Added": "The attachment was added.",
+      "Removed": "The attachment was removed."
+    },
+    "SendEmailErrorMessage": "An unexpected error occurred while sending the email. Please try again later."
+  },
+  "Chat": {
+    "UnknownContact": "Unknown contact"
+  },
+  "ChannelChatPreview": {
+    "EmptyChannel": "Save the channel to start a preview conversation.",
+    "StartTyping": "Send a message to start the conversation.",
+    "ComposerAriaLabel": "Preview message",
+    "ComposerPlaceholder": "Írjon be egy üzenetet",
+    "Send": "Küldés",
+    "SendError": "Failed to send the message. Please try again.",
+    "StartError": "Could not start the preview session. Please try again."
+  },
+  "MessageDeliveryStatus": {
+    "Sending": "Küldés",
+    "Sent": "Elküldve",
+    "Delivered": "Kézbesítve",
+    "Read": "Olvasás",
+    "Failed": "The message could not be sent due to an unexpected error. Try again later or contact support if the issue continues."
+  },
+  "MessageDeliveryError": {
+    "Unknown": "The message could not be sent due to an unexpected error. Try again later or contact support if the issue continues.",
+    "FileSizeExceeded": "The message exceeds the maximum length allowed by this channel. Shorten the message or send it in multiple parts.",
+    "UnsupportedFileType": "This channel does not support the attachment used in the message. Remove the attachment or send a supported file type.",
+    "InvalidRecipient": "The recipient address appears to be invalid. Please check the contact details and try again.",
+    "AuthenticationFailed": "The messaging channel authentication is invalid or expired. Reconnect the integration to continue sending messages.",
+    "RateLimitExceeded": "Message sending is temporarily limited due to high activity. Please wait a moment and try again.",
+    "NetworkError": "The messaging service is temporarily unavailable. Try sending the message again later.",
+    "BotBlocked": "The user has blocked this account, so messages cannot be delivered. Ask the user to unblock the account and send a message first.",
+    "ChatNotFound": "The user has not started a conversation with this account yet. Ask the user to send the first message to begin the chat.",
+    "MessageTooLong": "The message exceeds the maximum length allowed by this channel. Shorten the message or send it in multiple parts.",
+    "ProviderError": "The messaging service is temporarily unavailable. Try sending the message again later.",
+    "AttachmentError": "This channel does not support the attachment used in the message. Remove the attachment or send a supported file type."
+  },
+  "Feed": {
+    "Caption": "Hírfolyam",
+    "SortByCreatedOn": "Rendezés üzenet dátuma szerint",
+    "SortByLastAction": "Rendezés az utolsó tevékenység dátuma szerint",
+    "ShowMoreThanOneNewSocialMessages": "{0} új üzenet megjelenítése",
+    "ShowNewSocialMessage": "1 új üzenet megjelenítése",
+    "ExternalUserTagCaption": "Külső",
+    "DraftItemTagCaption": "Vázlat",
+    "ExternalUserTagTooltip": "Hozzászólás külső felhasználók számára",
+    "Item": {
+      "Edit": "Szerkesztés",
+      "Delete": "Törlés",
+      "DeletionConfirmation": "Biztosan törli a rekordot? Ez a művelet nem visszavonható.",
+      "DeletionErrorMsg": "A rekordot nem törölték. Kérlek, próbáld újra később.",
+      "DownloadFile": "Download"
+    },
+    "Publisher": {
+      "DefaultInputPlaceholder": "Üzenet küldése…",
+      "DisabledInputPlaceholder": "Az új rekordoldalon nem hozhat létre új bejegyzéseket.",
+      "UserFeedInputPlaceholder": "A hírcsatorna felhasználói módban van. Ebben a módban nem hozhat létre új bejegyzéseket.",
+      "CommentInputPlaceholder": "Írj hozzászólást…",
+      "ShareWithPortal": "Ossza meg a portál felhasználójával",
+      "PostingErrorMsg": "Hiba a hírcsatorna bejegyzésének mentésekor",
+      "PostingEmptyMsg": "A folytatáshoz írjon be egy üzenetet.",
+      "SendButtonHint": "Üzenet küldése (Ctrl + Enter)",
+      "CancelButtonHint": "Elvetés",
+      "ExternalMessagesDisabled": "Kérjük, vegye figyelembe, hogy a külső felhasználó nem tudja elolvasni az üzenetet, mert ez az opció le van tiltva a komponens tervezési idején.",
+      "ConfirmMessageAccessLevelChange": "Kérjük, erősítse meg, hogy módosítani szeretné a bejegyzés láthatósági szintjét. Figyelem: a bejegyzés, a kapcsolódó megjegyzések és mellékletek láthatóvá válnak a külső felhasználók számára.",
+      "ConfirmCommentAccessLevelChange": "Kérjük, erősítse meg, hogy módosítani szeretné a megjegyzések láthatósági szintjét. Felhívjuk figyelmét, hogy a megjegyzés és a kapcsolódó mellékletek láthatóvá válnak a külső felhasználók számára."
+    },
+    "Post": {
+      "AddCommentButtonCaption": "Hozzászólás hozzáadása",
+      "CommentsButtonCaption": "Hozzászólások",
+      "CommentsButtonHint": "Mutassa a hozzászólásokat",
+      "ExpandedCommentsButtonHint": "Megjegyzések elrejtése",
+      "PostedInLabel": "közzétett itt:"
+    },
+    "Reactions": {
+      "Like": "Tetszik",
+      "ExtraReactionsTemplate": "és további {0}...",
+      "PostLiked": "The feed post was liked.",
+      "LikeRemoved": "Like was removed from the feed post."
+    },
+    "NoDataContainerLabel": "Olyan csendes!",
+    "SortButtonCaption": "Sort feed",
+    "ActionsButtonCaption": "Műveletek",
+    "FollowButtonCaption": "Follow feed",
+    "UnfollowButtonCaption": "Unfollow feed",
+    "Following": {
+      "ButtonCaption": {
+        "Follow": "Follow feed",
+        "Unfollow": "Unfollow feed"
+      },
+      "NotificationTemplate": {
+        "Follow": "You are following updates of the feed: {0}",
+        "Unfollow": "You have unfollowed updates of the feed: {0}"
+      }
+    },
+    "FollowNotificationTemplate": "Вы подписались на обновления ленты: {0}",
+    "UnfollowNotificationTemplate": "Вы отписались от обновлений ленты: {0}",
+    "AiGeneratedItemTagCaption": "AI-generated"
+  },
+  "Dashboards": {
+    "SelectDashboard": "Select dashboard",
+    "NoData": "No associated dashboards to display",
+    "NoData2": "Add a dashboard to make it look prettier",
+    "CreateNewDashboardButton": "Add new dashboard",
+    "AccessDenied": "You do not have permission to edit this item",
+    "DialogWindow": {
+      "DeleteDashboard": {
+        "ConfirmationMessage": "Are you sure that you want to delete the selected dashboard?",
+        "FailMessage": "Unfortunately, you cannot delete the selected dashboard"
+      }
+    },
+    "ActionsToolbar": {
+      "Title": "Műveletek",
+      "Edit": "Szerkesztés",
+      "Copy": "Másolás",
+      "Delete": "Törlés",
+      "Rights": "Hozzáférési jogok beállítása"
+    },
+    "All": "Összes",
+    "Favorites": "Kedvencek",
+    "AddToFavoritesButton": "Kedvencekhez",
+    "RemoveFromFavoritesButton": "Eltávolítás a kedvencek közül"
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "Dashboards settings",
+    "GeneralGroup": {
+      "Caption": "Általános",
+      "DataSource": "Adatforrás",
+      "DataSourceTooltip": "The data source will be set as primary data source for every dashboard created in this component",
+      "DataSourceDependenciesSettingTooltip": "Filter by page data lets you display connected data in a dashboard",
+      "DataSourceFilterElementsGroupTooltip": "A beállítás lehetővé teszi a mappákból vagy más adatszűrő elemekből előre konfigurált szűrők használatát oldalszűrőként"
+    },
+    "DashboardsGroup": {
+      "Caption": "Irányítópultok",
+      "AddDashboard": "Add new dashboard",
+      "InfoTooltip": "The list of dashboards displays only those items that are schemas in configuration",
+      "ContextMenu": {
+        "Copy": "Másolás",
+        "Delete": "Törlés",
+        "Edit": "Szerkesztés"
+      },
+      "DialogMessages": {
+        "DeleteDashboard": {
+          "Confirmation": {
+            "Default": "Are you sure you want to delete dashboard \"{{caption}}\"?",
+            "WithUserLevelSchema": "The dashboard you want to delete has a dependent dashboard: \"{{caption}}\" end-user schema. If you continue, both dashboards will be deleted. Continue?"
+          },
+          "UnableToDelete": {
+            "InReadOnlyPackage": "Unable to delete \"{{caption}}\" dashboard because it was either created by third-party publisher or installed from the file",
+            "DependsOnSchema": "Unable to delete \"{{caption}}\" dashboard because it has dependent configuration schema(s)"
+          }
+        }
+      }
+    },
+    "AdvancedSettingsGroup": {
+      "CannotRenameElementInfoTooltip": "You cannot rename the element because it has bound dashboards"
+    }
+  },
+  "Icon": {
+    "Caption": "Ikon",
+    "Hint": "A visual component that allows you to represent actions and states in a clear and intuitive way",
+    "PropertiesPanel": {
+      "Caption": "Ikon",
+      "General": {
+        "Caption": "Általános",
+        "Icon": {
+          "Label": "Ikon"
+        },
+        "Color": {
+          "Label": "Szín"
+        },
+        "Size": {
+          "Label": "Méret",
+          "Options": {
+            "Small": "Kicsi",
+            "Medium": "Közepes",
+            "Large": "Nagy",
+            "ExtraLarge": "Extra nagy"
+          }
+        },
+        "Spacing": {
+          "Label": "Padding",
+          "Tooltip": "Controls the space between the icon and the edges of the component",
+          "Options": {
+            "None": "Nincs",
+            "ExtraSmall": "Extra Small",
+            "Small": "Kicsi",
+            "Medium": "Közepes",
+            "Large": "Nagy",
+            "ExtraLarge": "Extra nagy",
+            "ExtraExtraLarge": "Extra Extra Large"
+          }
+        },
+        "Background": {
+          "TypeLabel": "Background type",
+          "ColorLabel": "Háttérszín",
+          "Options": {
+            "None": "Nincs",
+            "Square": "Square",
+            "Circle": "Circle"
+          }
+        },
+        "Accessibility": {
+          "NameLabel": "Accessible name",
+          "NameTooltip": "The text read by screen readers to describe the icon",
+          "TooltipLabel": "Elemleírás"
+        }
+      }
+    }
+  },
+  "IFrame": {
+    "PropertiesPanel": {
+      "Caption": "iFrame settings",
+      "GeneralSettings": {
+        "Caption": "Általános",
+        "ContentTypeLabel": "Tartalom típus",
+        "ContentValueLabel": "Content to display",
+        "UrlContentPlaceholder": "https://mysitename.com",
+        "UrlContentTooltip": "To ensure the content is displayed correctly, make sure the following is true: <ul><li>Source allows embedding in an iframe</li><li>Link uses the HTTPS protocol</li><li>Source domain is included in the trusted sources list of your Content Security Policy. We recommend adding at least two allowed directives to it: connect-src and frame-src</li></ul>"
+      },
+      "PermissionsSettings": {
+        "Caption": "Permissions",
+        "AllowLabel": "Allowed features",
+        "AllowTooltip": "Specifies which browser features the embedded content is allowed to use, for example, camera, microphone, fullscreen. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information.",
+        "SandboxLabel": "Sandbox permissions",
+        "SandboxTooltip": "Specifies which sandbox restrictions are removed for the embedded content. Grant only the permissions that are required. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information."
+      }
+    },
+    "Caption": "iFrame",
+    "Hint": "iFrame component allows to embed and display content in either HTML or URL format",
+    "Placeholder": {
+      "NothingToShow": "Nothing to show yet",
+      "NoContent": "No content available in this section"
+    },
+    "ContentUnavailable": {
+      "Title": "Content Unavailable",
+      "SubTitle": "Due to your network settings, browser security policies, or content restrictions",
+      "LinkTitle": "Read more in our Academy"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Következő hónap",
+    "AriaPrevMonthLabel": "Előző hónap",
+    "AriaNextYearLabel": "Következő év",
+    "AriaPrevYearLabel": "Előző év",
+    "Readonly": "Nem szerkeszthető mező",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Naptár",
+    "TimePickerIconTitle": "Idő",
+    "AriaTimeListLabel": "Time options"
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "Összes",
+    "NotFilledNode": "Not filled",
+    "SpecificationFilterCaption": "Open additional filtering",
+    "BackButtonCaption": "Vissza",
+    "ClearAllFiltersButtonCaption": "Összes törlése",
+    "NoDataCaption": "Nincs adat"
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Entity hierarchy filter",
+    "GeneralCaption": "Általános",
+    "SchemaNameCaption": "Select an object to build a hierarchy",
+    "HierarchySetup": "Hierarchy setup",
+    "SchemaNameSelectTooltip": "Select an object to build the hierarchy on. All system objects are displayed in the drop-down menu. After configuring the hierarchy, link it to the List component by specifying it as a pre-configured filter.",
+    "ApplyStaticFilter": "Alkalmazzon statikus szűrőt",
+    "EditStaticFilterAction": "Szűrő szerkesztése",
+    "FiltersDialogCaption": "Kézzel definiált szűrő",
+    "SetupStaticFilterAction": "Szűrő beállítása",
+    "DisplayModeCaption": "Hierarchy type",
+    "ManualDisplayMode": "Manual",
+    "ByParentDisplayMode": "By parent"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Add new hierarchy column",
+    "ContextMenu": {
+      "AddToSubmenu": "Add sub-hierarchy",
+      "Edit": "Szerkesztés",
+      "Delete": "Törlés"
+    }
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "Cserélje ki a DCM esetet. Ehhez az entitáshoz van egy relevánsabb konfiguráció.",
+    "ConfirmChangeCaseDialogMessage": "Le szeretné cserélni a tok jelenlegi verzióját?",
+    "SnackbarActualFilterCaseMessage": "Van relevánsabb eset is: \"{{caption}}\". Cserélni?",
+    "SnackbarIgnoreButtonCaption": "Kihagy",
+    "SnackbarReplaceButtonCaption": "Cserél",
+    "SnackbarEntityProcessChangedMessage": "Az esetet sikeresen megváltoztattuk."
+  },
+  "NextSteps": {
+    "Caption": "Következő lépések",
+    "CompleteButtonCaption": "Kész",
+    "AddNewStepMenuCaption": "Új lépés hozzáadása",
+    "CreateActivityButtonCaption": "Hozzon létre egy feladatot",
+    "CreateEmailButtonCaption": "Email létrehozása",
+    "NoDataContainerLabel": "Itt nincs mit mutatni!",
+    "NoDataContainerDescription": "Ehhez a szakaszhoz nincsenek hozzáadva lépések",
+    "OwnerHint": "Hozzárendelt felhasználó",
+    "OwnerRoleHint": "Hozzárendelt csoport",
+    "RequiredStepHint": "Kötelező lépés",
+    "ApprovalApprovedSnackbarCaption": "A kérést jóváhagyták",
+    "ApprovalRejectedSnackbarCaption": "A kérést elutasították",
+    "TypeFilterCaption": "Típus",
+    "TypeFilterHint": "Típus"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Színválasztó",
+        "AppearanceGroup": "Megjelenés",
+        "PickerModeRadioButtonCaption": "Palette",
+        "PickerMode": {
+          "Basic": "Basic palette",
+          "Extended": "Extended palette"
+        }
+      },
+      "AppearanceGroup": "Megjelenés",
+      "BindToDataSourceCaption": "Adatforrás",
+      "DataSourceAttributeNotFoundErrorMessage": "A(z) \"{0}\" elérési úttal rendelkező elem nem található",
+      "Editability": "Szerkeszthetőség",
+      "EditabilityControls": {
+        "Readonly": "Csak olvasható",
+        "Disabled": "Kikapcsolva"
+      },
+      "TitleOnPage": "Cím az oldalon",
+      "Multiline": "Többsoros szöveg",
+      "LabelPosition": "Cím pozíciója",
+      "LabelPositionVariants": {
+        "Auto": "Automatikus",
+        "Left": "Bal",
+        "Right": "Jobbra",
+        "Above": "Felül",
+        "Hidden": "Rejtett"
+      },
+      "Placeholder": "Megjelenő helyettesítő szöveg",
+      "Combobox": {
+        "IsAddAllowed": "Új értékek hozzáadásának engedélyezése",
+        "ShowValueAsLink": "Display value as link",
+        "IsGoToSourceAllowed": "Engedélyezze a rekordlista megnyitását",
+        "ValueDetailsLabel": "Field value details",
+        "ValueDetailsTooltip": "Field value details will be displayed based on the specific lookup record",
+        "SecondaryDisplayValueLabel": "Supplementary display value",
+        "SecondaryDisplayValueTooltip": "Supplementary information to be displayed in the dropdown list"
+      },
+      "Tooltip": "Elemleírás",
+      "DisplayPhoneMask": "Kijelző telefon maszk",
+      "FileEntitySchemaLabel": "Fájl tárolási helye",
+      "TooltipHint": "The tooltip supports both plain text and HTML content. Please ensure that your HTML content is concise and adaptive to the tooltip's size.",
+      "SelectDataSource": "Válassza ki az adatforrást"
+    },
+    "WidgetPropertiesPanel": {
+      "HeaderLabel": "Widget settings",
+      "GeneralLabel": "Általános",
+      "TitleLabel": "Cím",
+      "ColorLabel": "Szín",
+      "StyleLabel": "Stílus",
+      "Styles": {
+        "FullyColored": "Teljesen színes",
+        "PlainWhite": "Sima fehér",
+        "PartiallyColored": "Részben színes",
+        "Glassmorphism": "Üveg hatás",
+        "Transparent": "Átlátszó"
+      },
+      "ContextMenu": {
+        "Edit": "Szerkesztés"
+      },
+      "ChartSeries": "Diagram sorozat",
+      "SeriesControlLabel": "Cím",
+      "SetupBlockCaption": "Állítsa be a diagramot",
+      "SetupButtonLabel": "Diagram beállítások",
+      "FilterByActiveItemTooltip": "Jelölje be, ha a felhasználók szűrhetik a diagram adatait a csatolt adatforrás aktív sora szerint",
+      "SizeLabel": "Méret",
+      "Sizes": {
+        "ExtraSmall": "Extra small",
+        "Small": "Kicsi",
+        "Medium": "Közepes",
+        "Large": "Nagy",
+        "ExtraLarge": "Extra large"
+      },
+      "AppearanceGroup": {
+        "Caption": "Megjelenés"
+      },
+      "HideBorderLabel": "Hide border",
+      "HideTitleLabel": "Hide title",
+      "ProvidingSettings": {
+        "AggregationFunctions": {
+          "Sum": "Összeg",
+          "Avg": "Átlagos",
+          "Min": "Minimális",
+          "Max": "Maximum",
+          "Count": "Számláló",
+          "Label": "Funkció",
+          "Formula": "Képlet",
+          "SetupFormula": "Set up formula",
+          "ChangeFormula": "Change formula"
+        },
+        "Formula": {
+          "AggregationSetupDialog": {
+            "Title": "Formula element setup",
+            "TitlePlaceholder": "Enter a title to identify this element in the formula.",
+            "ObjectLabel": "Objektum",
+            "ColumnLabel": "Oszlop",
+            "TitleLabel": "Cím",
+            "StaticFilterTab": "Static filter",
+            "DynamicFilterTab": "Dynamic filter",
+            "Save": "Mentés",
+            "Cancel": "Elvetés"
+          },
+          "Toolbar": {
+            "Count": "Számláló",
+            "Sum": "Összeg",
+            "Avg": "Avg",
+            "Min": "Min",
+            "Max": "Max"
+          },
+          "Editor": {
+            "Count": "COUNT",
+            "Sum": "SUM",
+            "Avg": "AVG",
+            "Min": "MIN",
+            "Max": "MAX"
+          }
+        },
+        "ObjectLabel": "Objektum",
+        "ColumnLabel": "Oszlop"
+      },
+      "FormatSettings": {
+        "Format": "Formátum",
+        "Template": {
+          "Label": "Szöveg",
+          "Hint": "Enter the text accompanying the value. For example, \"{0} items\" or \"$ {0}\""
+        },
+        "LabelPosition": {
+          "Label": "Text position",
+          "AboveAndUnder": "Above and under value",
+          "BeforeAndAfter": "Before and after value"
+        },
+        "NumberOfDigits": {
+          "Label": "A tizedesvessző utáni számjegyek száma"
+        },
+        "ShowTime": "Show time"
+      },
+      "ComparisonSettings": {
+        "Title": "Comparison",
+        "CompareWithAnotherValue": "Compare with another value",
+        "InvalidDateMetric": "Comparison is not available for the selected date/time metric. Please change the aggregation function and column.",
+        "ConfigureHint": "Configure the comparison value to show the difference from the main metric",
+        "SetupComparison": "Set up comparison",
+        "EnableComparison": "Enable comparison",
+        "CopySettingsHint": "Reuse the configuration from Metric values and adjust it if needed.",
+        "CopySettingsLink": "Copy value settings",
+        "ApplyStaticFilter": "Alkalmazzon statikus szűrőt",
+        "SetupFilterButton": "Állítsa be a szűrőt",
+        "TrendIndicatorLabel": "Trend indicator",
+        "TrendVisualizationLabel": "Trend visualization",
+        "UpTrendColorLabel": "Up trend color",
+        "DownTrendColorLabel": "Down trend color",
+        "FormatSectionTitle": "Formátum",
+        "ComparisonTextLabel": "Comparison value text",
+        "ComparisonTextPlaceholder": "e.g., vs previous month",
+        "ChangeFormatLabel": "Change format",
+        "ComparisonTypes": {
+          "Absolute": "Absolute",
+          "Percent": "%"
+        },
+        "TrendIndicators": {
+          "Arrow": "Nyíl",
+          "Triangle": "Triangle",
+          "Circle": "Circle"
+        }
+      }
+    },
+    "SliderPropertiesPage": {
+      "ColorLabel": "Stílus",
+      "Colors": {
+        "Accent": "Fókusz",
+        "Primary": "Elsődleges",
+        "Warn": "Figyelmeztetés",
+        "Default": "Alapértelmezett"
+      },
+      "ReadonlyLabel": "Csak olvasható",
+      "StepLabel": "Lépésérték",
+      "MinValueLabel": "Legkisebb érték",
+      "MaxValueLabel": "Maximum érték",
+      "Validations": {
+        "GreaterThanZeroCaption": "Az értéknek 0-nál nagyobbnak kell lennie",
+        "MinValueLessThanMaxValueCaption": "A minimális értéknek kisebbnek kell lennie a maximális értéknél",
+        "MaxValueGreaterMinValueCaption": "A maximális értéknek nagyobbnak kell lennie a minimális értéknél",
+        "StyleIsInvalidCaption": "A stílus helytelen"
+      }
+    },
+    "ContainerPropertiesPage": {
+      "GeneralGroup": "Általános",
+      "AppearanceGroup": "Megjelenés",
+      "ColorLabel": "Szín",
+      "BorderRadiusLabel": "Szegély rádiusz",
+      "Sizes": {
+        "None": "Nincs",
+        "Small": "Kicsi",
+        "Medium": "Közepes",
+        "Large": "Nagy",
+        "ExtraSmall": "Extra small"
+      },
+      "PaddingGroup": "Térköz",
+      "Padding": {
+        "Top": "Felső",
+        "Bottom": "Alul",
+        "Left": "Bal",
+        "Right": "Jobbra"
+      },
+      "StretchLabel": "Nyújtás szülőtárolóra",
+      "FitContentLabel": "Kitöltő tartalom",
+      "AlignItemsLabel": "Elemek igazítása",
+      "AlignItems": {
+        "Stretch": "Nyújtás",
+        "Start": "Kezdés",
+        "Center": "Középre",
+        "End": "Vége"
+      },
+      "Grid": {
+        "PageCaption": "Rácstároló beállításai",
+        "ColumnsLabel": "Oszlopok száma",
+        "ColumnGapFieldLabel": "Oszlopköz",
+        "RowGapFieldLabel": "Sortávolság"
+      },
+      "Flex": {
+        "PageCaption": "Rugalmas tároló beállításai",
+        "Direction": "Irány",
+        "Row": "Sor",
+        "Column": "Oszlop",
+        "Gap": "Hézag",
+        "WrapLabel": "Burkolj elemeket",
+        "JustifyContentLabel": "Indokolja a tartalmat",
+        "JustifyContent": {
+          "Start": "Kezdés",
+          "Center": "Középre",
+          "End": "Vége",
+          "SpaceBetween": "Közötti tér"
+        }
+      },
+      "MobileGrid": {
+        "LayoutSetup": "Layout setup",
+        "UseAdaptiveLayout": "Use adaptive layout",
+        "ColumnsSmall": "Number of columns for phone",
+        "ColumnsMedium": "Number of columns for tablet (portrait)",
+        "ColumnsLarge": "Number of columns for tablet (landscape)",
+        "DisableAdaptiveConfirmation": "Disabling adaptive layout will remove breakpoint-specific configurations. The current layout will be used across all screen sizes. Continue?"
+      }
+    },
+    "PrintablesRequestPropertiesPanel": {
+      "ViewSelectCaption": "Milyen adatokat kell nyomtatni?",
+      "PrintablesSettingsCaption": "Nyomtatási beállítások",
+      "PrintOnRecord": "Jelentés nyomtatása az aktuális rekordhoz",
+      "PrintOnList": "Nyomtasson jelentést a rekordlistához"
+    },
+    "PageAddonsPropertiesPanel": {
+      "SidebarDesignDialog": {
+        "Title": "Sidebar parameters",
+        "Fields": {
+          "Title": "Cím",
+          "Code": "Kód",
+          "Icon": "Sidebar icon",
+          "Group": "Helyszín",
+          "Index": "Sidebar position",
+          "Enabled": "Engedélyezve",
+          "OperationPermission": "Operation permission code",
+          "AutoHideNotificationMark": "Hide notification mark automatically",
+          "AllowSizeAdjustment": "Allow sidebar width adjustment",
+          "Container": "Panel position"
+        },
+        "PredefinedGroups": {
+          "CommunicationPanel": "Kommunikációs panel",
+          "NotificationsPanel": "Értesítési panel"
+        },
+        "Validations": {
+          "CodePrefixTemplate": "A kódnak a „{0}” előtaggal kell kezdődnie",
+          "CodePattern": "Invalid or empty value. Use symbols: (a-z), (A-Z), (0-9), ( _ ). Symbols: a-z, A-Z must be first.",
+          "SidebarCodeAlreadyExists": "This sidebar code is already in use"
+        },
+        "Placeholders": {
+          "OperationPermission": "Sidebar is available for all employees",
+          "Group": "If empty, sidebar becomes a standalone panel",
+          "Container": "Choose panel position"
+        },
+        "Tooltips": {
+          "Group": "To make the sidebar a standalone panel at the top of the working area, leave the field empty.",
+          "Index": "Sidebar number determines its position in the panel. Out-of-the-box sidebar numbering is 1000, 2000, 3000, etc. Use the number lower than 1000 to place your sidebar higher or more than 1000, 2000, 3000 to place your sidebar between existing sidebars.",
+          "IndexWhenEmptyGroup": "Sidebar number determines its position at the top of the working area. Out-of-the-box panel numbering is 9000, 10000. Use the number lower than 9000 to place your panel to the left or more than 9000 to place your panel between existing panels.",
+          "OperationPermission": "Leave the field empty to display the sidebar for all employees. Specify the system operation code and set up access permissions by the operation to grant access to the sidebar to specific employees, user groups, or external users.",
+          "AutoHideNotificationMark": "Toggle on to hide the notification mark when a user clicks the sidebar, toggle off to code custom behavior.",
+          "AllowSizeAdjustment": "Enables manual sidebar width adjustment. This feature is only available for sidebars added as standalone panels.",
+          "Container": "This setting controls which side of the screen the sidebar panel appears on. The panel is shown on the right by default, but you can switch it to the left if needed."
+        },
+        "PredefinedContainers": {
+          "LeftContainer": "Left side of the screen",
+          "RightContainer": "Right side of the screen"
+        }
+      },
+      "UseSidebar": "Use the page as a sidebar",
+      "UseSidebarTooltip": "Sidebars are special pages you can view by clicking the buttons in the top right of the Creatio UI, for example, feed or chats. <a href ='{0}' target='_blank'>Learn more in the Academy</a>",
+      "ManageSidebarParameters": "Manage sidebar parameters"
+    },
+    "RunBusinessProcessRequestPropertiesPanel": {
+      "Validators": {
+        "SelectProcessWithParameters": "Select the process and assign at least a single parameter"
+      }
+    },
+    "PropertiesPanelAdvancedSettings": {
+      "AdvancedGroup": "Haladó",
+      "CodeLabel": "Elem kódja",
+      "DuplicateNameMessage": "Az azonos kóddal rendelkező elem már létezik",
+      "SaveButtonTitle": "Mentés",
+      "CancelButtonTitle": "Mégsem",
+      "NameValidationMsg": "Invalid or empty value. Use symbols: (a-z), (A-Z), (0-9), ( _ ). Symbols: a-z, A-Z must be first.",
+      "CodeChangeForbiddenText": "Element code cannot be changed because it was added in the parent page"
+    },
+    "TogglePanelAppearanceSettings": {
+      "ToggleViewModeLabel": "Toggle view mode",
+      "ToggleViewMode": {
+        "Dropdown": "Legördülő",
+        "Button": "Gomb"
+      },
+      "DefaultTabLabel": "Default tab"
+    },
+    "DashboardPagePropertiesPanel": {
+      "NoAccessToChangeNameTooltip": "You do not have permission to modify the schema code"
+    },
+    "TabPanelAppearanceSettings": {
+      "DefaultTabLabel": "Default tab",
+      "TabPanelColorSubGroup": "A lappanel színei",
+      "StyleTypeLabel": "Stílus",
+      "BodyBackgroundColor": "Szövegtörzs",
+      "SelectedTabCaptionColor": "Kiválasztva",
+      "TabCaptionColor": "Nincs kijelölés",
+      "HeaderBackgroundColor": "Fejléc",
+      "UnderlineSelectedTabColor": "Tabulátor aláhúzása",
+      "TabCaptionColorSubGroup": "A lap címének színe"
+    },
+    "TabPanelPropertiesPage": {
+      "GeneralCaption": "Általános",
+      "TabsPageCaption": "Lapok beállításai",
+      "TogglePageCaption": "Toggle panel settings",
+      "ItemsLabel": "Fülek",
+      "AddNewItem": "Lap hozzáadása",
+      "AppearanceGroup": "Megjelenés",
+      "TabStyleDefaultCaption": "Sima fehér",
+      "TabStylePartiallyColoredCaption": "Részben színes",
+      "TabStyleFullyColoredCaption": "Teljesen színes",
+      "ContextMenu": {
+        "Edit": "Szerkesztés",
+        "Copy": "Másolás",
+        "Remove": "Törlés"
+      },
+      "ModeLabel": "Mód",
+      "ModeTab": "Fülek",
+      "ModeToggle": "Lenyitható Doboz",
+      "Scrollable": "Fit to available space"
+    },
+    "PagePropertiesPage": {
+      "BusinessRulesGroup": "Üzleti szabályok",
+      "PageCaption": "Oldalbeállítások",
+      "GeneralLabel": "Általános",
+      "AppearanceGroup": "Megjelenés",
+      "NameLabel": "Kód",
+      "PackageLabel": "Csomag",
+      "ParentPageLabel": "Szülőoldal",
+      "OpenInterfaceDesigner": "Felülettervező megnyitása",
+      "ExtendParentPageLabel": "Replace parent page",
+      "DescriptionLabel": "Leírás",
+      "CaptionLabel": "Cím",
+      "BackToSettings": "Vissza a \"{{name}}\" beállításaihoz",
+      "AdvancedPanel": "Haladó",
+      "Validations": {
+        "RequiredNameMessage": "Adj meg egy értéket",
+        "PatternNameMessage": "Helytelen érték. Használjon szimbólumokat: a-z, A-Z, 0-9. Szimbólumok: 0-9 nem lehet első",
+        "PrefixNameMessage": "A kódnak a „{0}” előtaggal kell kezdődnie",
+        "DuplicateNameMessage": "Már létezik ilyen nevű elem",
+        "RequiredCaptionMessage": "Adj meg egy értéket"
+      },
+      "EntitySchemaNameLabel": "Adatforrás"
+    },
+    "ButtonPropertiesPage": {
+      "GeneralGroup": "Általános",
+      "CaptionLabel": "Cím",
+      "ColorFieldLabel": "Stílus",
+      "Colors": {
+        "Accent": "Fókusz",
+        "Primary": "Elsődleges",
+        "Warn": "Figyelmeztetés",
+        "Default": "Plain",
+        "Outline": "Outline",
+        "PlainWhite": "Sima fehér",
+        "OutlineWhite": "Outline white",
+        "Secondary": "Secondary"
+      },
+      "ActionLabel": "Művelet",
+      "MenuItemsLabel": "Menüpontok",
+      "AppearanceGroup": "Megjelenés",
+      "AddNewItem": "Új tétel hozzáadása",
+      "ButtonSizeFieldLabel": "Méret",
+      "Sizes": {
+        "Small": "Kicsi",
+        "Medium": "Közepes",
+        "Large": "Nagy",
+        "ExtraLarge": "Extra nagy",
+        "2XLarge": "Double extra large",
+        "3XLarge": "Triple extra large"
+      }
+    },
+    "ReorderContextMenu": {
+      "MoveUp": "Move up (Ctrl+Up)",
+      "MoveDown": "Move down (Ctrl+Down)"
+    },
+    "MenuItemsContainerPropertiesPanel": {
+      "AddNewItem": "Új tétel hozzáadása",
+      "MenuItemsLabel": "Menüpontok",
+      "ContextMenu": {
+        "AddToSubmenu": "Hozzáadás az almenühöz",
+        "Copy": "Másolás",
+        "Edit": "Szerkesztés",
+        "Delete": "Törlés"
+      },
+      "CopyPostfix": " - Másolás"
+    },
+    "ExecuteIntentUserTaskPropertiesPanel": {
+      "PageCaption": "Sub-agent",
+      "GeneralGroup": "Általános",
+      "CaptionLabel": "Cím",
+      "IntentSchemaLabel": "Which sub-agent to call?",
+      "ChangeSchemaWarningMessage": "Biztosan módosítani szeretné az elemsémát? Minden paraméter elveszik.",
+      "OpenDesignerButtonTitle": "Open sub-agent",
+      "SkillParametersGroup": "Sub-agent parameters",
+      "NoParameters": "No parameters",
+      "NoFiles": "No files",
+      "ParameterValueSource": {
+        "ProcessParameter": "Folyamat paraméter",
+        "SystemSetting": "Rendszerbeállítás",
+        "Formula": "Képlet"
+      },
+      "AdvancedGroup": "Haladó",
+      "CodeLabel": "Elem kódja",
+      "AddFilesGroup": "Fájlok hozzáadása",
+      "CreateFile": "Fájl hozzáadása",
+      "ParameterTitleLabel": "Cím",
+      "ParameterDescriptionLabel": "Leírás",
+      "ParameterCodeLabel": "Kód",
+      "ParameterDataTypeLabel": "Adattípus",
+      "ParameterValueLabel": "Érték"
+    },
+    "DrilldownConfigPropertiesPanel": {
+      "HeaderLabel": "Drilldown config",
+      "TitleLabel": "Title column",
+      "Columns": {
+        "ColumnsLabel": "Oszlopok",
+        "AddColumn": "Oszlop hozzáadása",
+        "EmptyState": "No columns selected. Use + to add columns shown in the mobile drilldown table.",
+        "ContextMenu": {
+          "MoveUp": "Move up (Ctrl+Up)",
+          "MoveDown": "Move down (Ctrl+Down)",
+          "Delete": "Törlés"
+        }
+      }
+    },
+    "BarcodeScannerPropertiesPanel": {
+      "PageCaption": "Barcode scanner settings",
+      "GeneralCaption": "Általános",
+      "FeaturesCaption": "Jellemzők",
+      "SizeCaption": "Méret",
+      "SizeSmall": "Kicsi",
+      "SizeMedium": "Közepes",
+      "SizeLarge": "Nagy",
+      "SizeMax": "Max",
+      "ScannedRequestCaption": "Which column to set result to?",
+      "CustomScannedRequestCaption": "Egyéni kód végrehajtása"
+    },
+    "MobileQuickFilterGroupPropertiesPanel": {
+      "PageCaption": "Filters settings",
+      "GeneralCaption": "Általános",
+      "ListComponentLabel": "Válassza ki a szűrni kívánt összetevőt"
+    },
+    "UpdateQuickFilterGroupRequestPropertiesPanel": {
+      "QuickFilterGroupLabel": "Válassza ki a szűrni kívánt összetevőt",
+      "FilterItemsCaption": "Filter items",
+      "FilterItemsPlaceholder": "Click + to add filter items"
+    },
+    "SortPropertiesPanel": {
+      "GeneralGroup": {
+        "Caption": "Általános",
+        "SelectDataSource": "Adatforrás"
+      },
+      "PageCaption": "Sort settings",
+      "ChooseTargetsCaption": "Choose component to sort",
+      "ChooseTargetsTooltip": "Select the list where to perform the sort. The drop-down menu displays lists that are present on the current page and have an object specified",
+      "ColorFieldLabel": "Stílus",
+      "ButtonSizeFieldLabel": "Méret",
+      "AppearanceGroup": "Megjelenés",
+      "IconPositionLabel": "Pozíció",
+      "Colors": {
+        "Primary": "Elsődleges",
+        "Accent": "Fókusz",
+        "Warn": "Figyelmeztetés",
+        "Default": "Plain",
+        "Secondary": "Secondary"
+      },
+      "Sizes": {
+        "Small": "Kicsi",
+        "Medium": "Közepes",
+        "Large": "Nagy",
+        "ExtraLarge": "Extra nagy",
+        "2XLarge": "Double extra large",
+        "3XLarge": "Triple extra large"
+      },
+      "IconPosition": {
+        "LeftIcon": "Ikon balra",
+        "RightIcon": "Ikon jobbra",
+        "OnlyIcon": "Csak ikon"
+      }
+    }
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "Itt nincs mit mutatni!",
+    "NoDataDescription": "Currently there are no items in your queue",
+    "AcceptButtonLabel": "Accept"
+  },
+  "AgentInbox": {
+    "NewItems": "New Items ({{number}})",
+    "InProgress": "In Progress ({{number}})",
+    "RealTime": "Real-time",
+    "QueuedTasks": "Queued tasks",
+    "WrappedUpCallTickTpl": "Call wrap-up ({{sec}}s left)",
+    "WrappedUpCallStoppedTpl": "Manual wrap-up",
+    "IncomingCallDescription": "Bejövő hívás:",
+    "OutgoingCallDescription": "Kimenő hívás:"
+  },
+  "CallConversation": {
+    "Call": "Make call",
+    "Duration": "Időtartam:",
+    "Search": "Keresés",
+    "JobTitle": "Job Title",
+    "Account": "Fiók",
+    "ClearIdentity": "Clear selected record",
+    "OutboundLine": {
+      "From": "Ettől",
+      "Type": "Outbound line"
+    },
+    "Buttons": {
+      "Hints": {
+        "Accept": "Accept call",
+        "CompleteTransfer": "Kattintson az átvitelhez",
+        "Hold": "Félretesz",
+        "Unhold": "Tartsa vissza",
+        "StartTransfer": "Transfer call",
+        "Mute": "Mute call",
+        "CancelTransfer": "Törölje az átvitelt",
+        "Drop": "Complete call",
+        "OpenDialPanel": "Open dial panel"
+      },
+      "Captions": {
+        "Accept": "Accept",
+        "Drop": "Elutasítás",
+        "Cancel": "Mégsem",
+        "CancelTransfer": "Vissza",
+        "CompleteTransfer": "Egyesít",
+        "EndMainCall": "Vége"
+      }
+    },
+    "OnHold": "Fizetésre vár:"
+  },
+  "SaveCallDetailsHandler": {
+    "UpdateSuccessMessage": "The call was updated"
+  },
+  "CallIdentityMenu": {
+    "ClearSelectedRecord": "Clear selected record",
+    "CallIdentityOptions": "Change/Set contact"
+  },
+  "RequeueQueueItemHandler": {
+    "SuccessfullyRequeued": "Sikeresen újra sorba állítás"
+  },
+  "CallAiContextService": {
+    "IncomingCallTitle": "Incoming call: {{counterparty}}",
+    "OutgoingCallTitle": "Outgoing call: {{counterparty}}",
+    "UnknownCounterparty": "ismeretlen"
+  },
+  "ForecastGrid": {
+    "PropertiesPanel": {
+      "HeaderLabel": "Forecast grid",
+      "GeneralGroup": {
+        "Caption": "Általános",
+        "ForecastSheetLabel": "Előrejelzési lap",
+        "BindingTooltip": "Bound to an attribute. Clear to pick a forecast sheet directly.",
+        "ClearBinding": "Clear attribute binding",
+        "InactiveSheetSuffix": "(inaktív)"
+      }
+    },
+    "FilterableOption": {
+      "Period": "Periódus",
+      "Hierarchy": "Hierarchy"
+    },
+    "Caption": "Forecast grid",
+    "Hint": "Hierarchical forecast grid",
+    "DefaultTitle": "New forecast grid",
+    "EmptyState": "No forecast data for this sheet.",
+    "PrimaryColumnCaption": "Név",
+    "SelfRowSuffix": "(self)",
+    "CellSaveFailed": "Couldn't save the cell value. Please try again.",
+    "CellSaveError": {
+      "PermissionDenied": "You don't have permission to edit this cell."
+    },
+    "LoadFailed": "Failed to load forecast data.",
+    "NoResponse": "No response from forecast service.",
+    "Placeholder": {
+      "NotConfigured": {
+        "Title": "Forecast grid is not configured.",
+        "Description": "An object must be selected in the component settings before this grid can display data."
+      },
+      "Inactive": {
+        "Title": "Forecast is not active.",
+        "Description": "An administrator needs to activate it in forecast configuration, before forecast data can be displayed."
+      },
+      "Error": {
+        "Title": "Hiba történt...",
+        "Description": "Please contact your system administrator."
+      }
+    },
+    "CalculateCaption": "Update metrics",
+    "CalculationInProgressCaption": "Update in progress",
+    "CalculationStartedMessage": "Update in progress. You can continue using the dashboard while new metrics are being prepared.",
+    "CalculationFailedMessage": "Couldn't start forecast calculation. Please try again.",
+    "LastCalculationCaption": "Legutóbbi módosítás",
+    "NextCalculationCaption": "Next update",
+    "NextCalculationDueCaption": "shortly",
+    "SubmissionStatus": {
+      "SubmittedBy": "Submitted by {{name}}",
+      "Submitted": "Submitted",
+      "LastSubmittedBy": "Last submitted by {{name}}",
+      "LastSubmitted": "Last submitted",
+      "NotSubmitted": "Not submitted",
+      "UpdateRequired": "update required"
+    }
+  },
+  "ListWidget": {
+    "DefaultTitle": "New list widget",
+    "PropertiesPanel": {
+      "HeaderLabel": "Widget settings",
+      "TitleLabel": "Cím",
+      "Styles": {
+        "FullyColored": "Teljesen színes",
+        "PlainWhite": "Sima fehér",
+        "PartiallyColored": "Részben színes",
+        "Glassmorphism": "Üveg hatás"
+      }
+    },
+    "Caption": "List widget",
+    "Hint": "A component that combines a fully functional list with a customizable colored frame, ensuring visual consistency when placed alongside other analytics widgets"
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} records have been loaded. Load more records?",
+    "ConfirmResendMeetingInvitationsQuestion": "Az értekezlet mentése után minden résztvevő értekezlet-frissítést kap. Akarod folytatni?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Az értekezletek némelyikének mentéséhez a mentés után változási értesítést kell küldenie minden résztvevőnek. Akarod folytatni? Találkozók listája:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "A találkozás a múltban történik. Biztos, hogy meghívót küld a résztvevőknek?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "A találkozás a múltban történik. Az értekezlet minden résztvevője frissítést kap. Akarod folytatni?",
+    "CanNotChangeMeetingMessage": "Csak az értekezlet szervezője módosíthatja az értekezlet résztvevőinek leírását, dátumát és listáját.",
+    "CanNotChangeMultipleMeetingsMessage": "A megváltozott értekezletek egy részét csak az értekezlet szervezője módosíthatja. Találkozók listája:",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "Az értekezleteket csak akkor törölheti, ha manuálisan választja ki a rekordokat.",
+    "ErrorSendingInvitationMessage": "A meghívókat nem küldték el. Lehet, hogy ez átmeneti probléma, kérjük, próbálja újra később.",
+    "SuccessSendingInvitationMessage": "A meghívók sikeresen elküldve.",
+    "JoinBtnCaption": "Csatlakozzon online találkozóhoz",
+    "UserAlreadyHasActiveCalendarAccount": "Már van egy aktív naptárad",
+    "LackOfLicenseMessage": "Calendar synchronization is not included into your current license. Please contact your system administrator for additional information.",
+    "DateRangeError": "The date range in the filter is too long. Please reduce the range in the filter."
+  },
+  "FilterBuilderDesigner": {
+    "TogglerCaption": "Advanced filters menu",
+    "TogglerHint": "Requires the Advanced filters component. Lets you show and hide page filters.",
+    "SourceCaption": "Advanced filters",
+    "SourceHint": "Add advanced filters panel",
+    "Properties": {
+      "Source": {
+        "HeaderLabel": "Advanced filters settings",
+        "GeneralCaption": "Általános",
+        "SchemaLabel": "What to filter?",
+        "HeaderTemplateLabel": "Header template"
+      },
+      "Toggler": {
+        "HeaderLabel": "Advanced filters menu",
+        "GeneralCaption": "Általános",
+        "ViewElementLabel": "Advanced filters"
+      }
+    }
+  },
+  "FilterBuilder": {
+    "EmptyValue": "bármely",
+    "EnterValuePlaceholder": "Érték megadása",
+    "Is": "egyenlő",
+    "Menu": {
+      "FiltersBadgeTooltip": "The filters are applied",
+      "CustomFiltersLabel": "Pre-defined filters",
+      "ColumnsLabel": "oszlopok",
+      "Caption": {
+        "AddCondition": "Szűrő hozzáadása",
+        "AddConditionManual": "Add new filter",
+        "AddGroup": "Add group",
+        "AddFilterGroup": "Add filter group",
+        "AddRelatedObject": "Explore related data",
+        "AddRelatedObjectManual": "Add new related object filter"
+      },
+      "Tooltip": {
+        "AddCondition": "Add a new filter condition",
+        "AddGroup": "Add a new group of filter conditions",
+        "AddRelatedObject": "Add a new filter condition by related objects"
+      }
+    },
+    "Group": {
+      "Caption": "Csoport",
+      "ShowAllRecordsThatMatch": "Show all records that match",
+      "OfTheseConditions": "of these conditions",
+      "DefaultHeaderTemplate": "Show all records that match {menuOperator} of these conditions"
+    },
+    "Lookup": {
+      "SelectPlaceholder": "Select {{caption}}"
+    },
+    "Segment": {
+      "SelectPlaceholder": "Select segments",
+      "Caption": {
+        "In": "Are in segment",
+        "NotIn": "Are not in segment"
+      }
+    },
+    "Preset": {
+      "ChangedWarning": "The filter references a preset that has been changed. The up-to-date version of the preset has been loaded"
+    },
+    "ColumnPath": {
+      "ButtonCaption": "Útvonal",
+      "DialogTitle": "Filter properties",
+      "PathLabel": "Attribute path",
+      "AttributeLabel": "Attribútum"
+    },
+    "LogicalOperator": {
+      "And": "összes",
+      "Or": "bármely"
+    },
+    "Toggler": {
+      "Caption": "Szűrők",
+      "Tooltip": "Open/Close filters panel"
+    },
+    "TextOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "Contains": "Tartalmazza",
+      "DoesNotContain": "Does not contain",
+      "StartsWith": "Kezdődik",
+      "DoesNotStartWith": "Does not start with",
+      "EndsWith": "Ends with",
+      "DoesNotEndWith": "Does not end with",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in"
+    },
+    "NumericOperators": {
+      "Is": "Egyenlő",
+      "IsNot": "Does not equal",
+      "GreaterThan": "Greater than",
+      "LessThan": "Less than",
+      "GreaterThanOrEqualTo": "At least",
+      "LessThanOrEqualTo": "At most",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in"
+    },
+    "AggregationNumericOperators": {
+      "Is": "Exactly",
+      "IsNot": "Exactly not",
+      "GreaterThan": "More than",
+      "LessThan": "Less than",
+      "GreaterThanOrEqualTo": "At least",
+      "LessThanOrEqualTo": "At most"
+    },
+    "LookupOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in",
+      "Macros": {
+        "CurrentUser": "Jelenlegi felhasználó",
+        "CurrentUserContact": "Aktuális kapcsolat",
+        "SelectContact": "Specific contact",
+        "SelectValue": "Specific value"
+      }
+    },
+    "BooleanOperators": {
+      "Yes": "Igen",
+      "No": "Nem"
+    },
+    "DateTimeOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "After": "Utána",
+      "Before": "Before",
+      "OnOrAfter": "Ettől",
+      "OnOrBefore": "Until",
+      "Between": "Between",
+      "And": "and",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in",
+      "PlaceholderStart": "Kezdés",
+      "PlaceholderEnd": "Vége",
+      "Placeholder": "Kiválasztás",
+      "PlaceholderDate": "Dátumválasztás",
+      "PlaceholderDateTime": "Válassza ki a dátumot és az időt",
+      "PlaceholderTime": "Kérlek, válassz időt",
+      "InputModes": {
+        "ExactDate": "Exact date",
+        "ExactDateTime": "Exact date & time",
+        "ExactTime": "Pontos időpont",
+        "Hour": "Óra",
+        "Day": "Nap",
+        "Week": "Hét",
+        "Month": "Hónap",
+        "Quarter": "Negyedéves",
+        "HalfYear": "Half-year",
+        "Year": "Év",
+        "EveryYear": "Minden évben"
+      },
+      "Macros": {
+        "PreviousHour": "Előző óra",
+        "CurrentHour": "Aktuális óra",
+        "NextHour": "Következő óra",
+        "ExactTime": "Exact time ...",
+        "PreviousNHours": "Előző órák ...",
+        "NextNHours": "Következő órák ...",
+        "Yesterday": "Tegnap",
+        "Today": "Ma",
+        "Tomorrow": "Holnap",
+        "DayOfMonth": "A hónap napja ...",
+        "DayOfWeek": "A hét napja ...",
+        "PreviousNDays": "Előző napok ...",
+        "NextNDays": "Következő napok ...",
+        "PreviousWeek": "Előző hét",
+        "CurrentWeek": "Aktuális hét",
+        "NextWeek": "Következő héten",
+        "PreviousMonth": "Előző hónap",
+        "CurrentMonth": "Aktuális hónap",
+        "NextMonth": "Következő hónap",
+        "Month": "Hónap ...",
+        "PreviousQuarter": "Előző negyedév",
+        "CurrentQuarter": "Aktuális negyedév",
+        "NextQuarter": "Következő negyedév",
+        "PreviousHalfYear": "Előző fél év",
+        "CurrentHalfYear": "Jelenlegi félév",
+        "NextHalfYear": "A következő fél évben",
+        "PreviousYear": "Előző év",
+        "CurrentYear": "Jelen év",
+        "NextYear": "Következő év",
+        "Year": "Year ...",
+        "DayOfYearToday": "Ma",
+        "DayOfYearTodayPlusDaysOffset": "Minden évben, pontosan be ...",
+        "NextNDaysOfYear": "Every year, within ... next days",
+        "NextNDaysOfYearSuffix": "next days",
+        "PreviousNDaysOfYear": "Every year, within ... previous days",
+        "PreviousNDaysOfYearSuffix": "előző napok",
+        "WeekDays": {
+          "Sunday": "Su",
+          "Monday": "Mo",
+          "Tuesday": "Tu",
+          "Wednesday": "We",
+          "Thursday": "Th",
+          "Friday": "Fr",
+          "Saturday": "Sa"
+        },
+        "Months": {
+          "January": "January",
+          "February": "February",
+          "March": "March",
+          "April": "April",
+          "May": "May",
+          "June": "June",
+          "July": "July",
+          "August": "August",
+          "September": "September",
+          "October": "October",
+          "November": "November",
+          "December": "December"
+        }
+      }
+    },
+    "Action": {
+      "Apply": "Alkalmaz",
+      "ApplyDisabledTooltip": "The filter has already been applied. Change the filter conditions to apply the filter again",
+      "ClearAll": "Összes törlése",
+      "Close": "Bezárás"
+    },
+    "EmptyState": {
+      "Title": "Nothing to show yet",
+      "Subhead": "Add your first filter to begin"
+    },
+    "OfTheBelowConditionsShouldMatch": "of the below conditions should match",
+    "Records": "rekordok",
+    "Where": "ahol",
+    "And": "and",
+    "Aggregation": {
+      "Type": {
+        "Count": "Számláló",
+        "Sum": "Összeg",
+        "Avg": "Átlagos",
+        "Min": "Minimális",
+        "Max": "Maximum"
+      },
+      "Caption": {
+        "Count": "Rekordok száma",
+        "Sum": "Sum of {{value}}",
+        "Avg": "Average of {{value}}",
+        "Min": "Minimum of {{value}}",
+        "Max": "Maximum of {{value}}",
+        "None": "{{value}}",
+        "TopOne": "Top one of {{value}}"
+      },
+      "Have": "Have",
+      "HaveRelated": "Have related",
+      "Related": "related",
+      "Of": "/"
+    },
+    "Exists": {
+      "Have": "Have",
+      "HaveNo": "Have no",
+      "Related": "related"
+    },
+    "AggregationOperators": {
+      "Sum": "Összeg",
+      "Avg": "Átlagos",
+      "Min": "Minimális",
+      "Max": "Maximum",
+      "TopOne": "TopOne",
+      "None": "Nincs"
+    }
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "Engedélyek",
+    "ComponentHeaderInactiveLabel": "Nincs szükség jóváhagyásra",
+    "RejectDialogHeaderLabel": "Biztosan elutasítja a jóváhagyást?",
+    "ApproveDialogHeaderLabel": "Megadja a jóváhagyást?",
+    "RejectInputLabel": "Jóváhagyó megjegyzés",
+    "RejectButtonLabel": "Elutasítás",
+    "DelegateButtonLabel": "Delegálás",
+    "ApproveButtonLabel": "Jóváhagyás",
+    "CancelButtonLabel": "Mégsem",
+    "PositiveMetricLabel": "Pozitív",
+    "NegativeMetricLabel": "Negatív",
+    "PendingMetricLabel": "Függőben",
+    "ComponentHeaderActiveLabel": "Várja jóváhagyását",
+    "ApprovalPurposeLabel": "Jóváhagyás célja",
+    "ApprovedPlaceholderLabel": "JÓVÁHAGYOTT",
+    "DesignTime": {
+      "ApprovalObjective": "Jóváhagyás szükséges"
+    },
+    "RejectedPlaceholderLabel": "ELUTASÍTVA"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "Elutasítás",
+    "ApproveButtonLabel": "Jóváhagyás"
+  },
+  "MultiSelectSaveRecordHandler": {
+    "ErrorMessageTemplate": "At least one value must be selected in: {0}"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "DataGridSettingsForFolderLabel": "List settings for folder",
+      "CreateDataGridSettingsForFolder": {
+        "Label": "Create custom settings for \"{0}\"",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "Save as new default settings for \"{0}\"",
+        "Confirmation": "New default list settings for the \"{0}\" folder will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "OverwriteDataGridSettingsForFolder": {
+        "Label": "Overwrite current settings for all users for \"{0}\"",
+        "Confirmation": "New default list settings will be saved for the \"{0}\" folder and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "ResetDataGridSettingsForFolder": {
+        "Label": "Restore default settings for \"{0}\"",
+        "Confirmation": "Default list settings will be restored for the \"{0}\" folder. Continue?",
+        "SuccessStatus": "Default list settings for the \"{0}\" folder restored successfully"
+      },
+      "ClearDataGridSettingsForFolder": {
+        "Label": "Clear custom settings for \"{0}\"",
+        "Confirmation": "Custom list settings for the \"{0}\" folder will be cleared for all users and general list setting will be applied. Continue?",
+        "SuccessStatus": "List settings for the \"{0}\" folder cleared successfully"
+      }
+    }
+  },
+  "MergingRecords": {
+    "ConflictsResolveDialog": {
+      "TitleTemplate": "Ismétlődések egyesítése ({0})",
+      "Actions": {
+        "Merge": "Egyesít"
+      }
+    },
+    "Handler": {
+      "Errors": {
+        "General": "Unable to merge selected records",
+        "NoRights": "Insufficient permissions to merge data",
+        "MinSelectedRecordsViolation": "Select at least two records to merge",
+        "SelectionAllModeUsingViolation": "Merging is not available when using \"Select all\". Select the records you want to merge manually."
+      },
+      "SuccessfulCompletionStatus": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete."
+    }
+  },
+  "ForecastHierarchyBuilder": {
+    "AddChildTitle": "Add child",
+    "RemoveTitle": "Eltávolítás",
+    "AddChildAriaLabel": "Add child to {{caption}}",
+    "RemoveAriaLabel": "Remove {{caption}}",
+    "DraggableAriaLabel": "{{caption}}. Draggable. Use Alt+Arrow keys to reorder.",
+    "EmptyStateWithEntity": "No hierarchy nodes yet.",
+    "EmptyStateNoEntity": "Select an object to start building the hierarchy.",
+    "LoadingAriaLabel": "Loading hierarchy…",
+    "ConfirmationTitle": "Megerősítés",
+    "ConfirmationMessage": "Do you want to rebuild the hierarchy automatically based on the selected field?",
+    "RemoveConfirmationMessage": "Do you want to remove this node and all its child nodes from the hierarchy?",
+    "RemoveConfirmButton": "Eltávolítás",
+    "CancelButton": "Mégsem",
+    "ContinueButton": "Folytatás",
+    "EnsureForecastEntityInCell": {
+      "NewObjectCaption": "Forecast by {{entityName}}",
+      "DialogTitle": "Forecast object creation failed",
+      "DialogOk": "OK",
+      "DialogGenericMessage": "Failed to create the forecast object schema.",
+      "SchemaSaveFailed": "Failed to save the forecast object schema."
+    }
+  },
+  "ChangeTracking": {
+    "EntitySchemaNotFoundMessage": "Entity schema '{{entitySchemaName}}' not found",
+    "UnselectedColumnsWillBeDeletedMessage": "Unselected columns will be deleted. Proceed?"
+  },
+  "Applications": "Alkalmazás központ ",
+  "ApplicationExplorer": {
+    "RunAppButton": "Alkalmazás futtatása",
+    "UpdateButton": "Frissítés",
+    "Structure": {
+      "NavigationItems": "Navigálás és szakaszok",
+      "GeneralInformation": "Általános információk",
+      "Pages": "Oldalak",
+      "ObjectModels": "Adatmodellek",
+      "BusinessProcesses": "Üzleti folyamatok",
+      "AdvancedSettings": "Package settings",
+      "WebService": "Integrációk",
+      "RestService": "REST szolgáltatás",
+      "SoapService": "SOAP szolgáltatás",
+      "CreatioAi": "Creatio.ai"
+    },
+    "AdvancedSettingsActions": {
+      "Delete": "Törlés",
+      "Deactivate": "Deaktiválás",
+      "Exclude": "Alkalmazásból való kizárás",
+      "Current": "Aktuális csomagként beállítás",
+      "ExcludeDialog": "Biztos, hogy ki akarja zárni a \"{0}\" csomagot az alkalmazásból?",
+      "PackageExcluded": "A {0} csomag kizárása az alkalmazásból",
+      "SetCurrentPackage": "A \"{0}\" csomagot sikeresen beállítja az aktuális alkalmazáscsomagként",
+      "CurrentPackageTooltip": "Alkalmazás jelenlegi csomagja",
+      "PackageCreated": "Hozzáadta a {0} csomagot",
+      "OnePackageAdded": "Hozzáadta a {0} csomagot az alkalmazáshoz",
+      "PackagesAdded": "Hozzáadta a {0} csomagokat az alkalmazáshoz",
+      "Create": "Új csomag létrehozása",
+      "AddExistingPackages": "Meglévő csomagok hozzáadása",
+      "PackageProperties": "Tulajdonságok",
+      "AddExistingPackagesDialog": {
+        "Caption": "Meglévő csomagok kiválasztása",
+        "PackageNameColumn": "Csomag neve",
+        "ErrorInfoAllPackagesNotAdded": "A csomagokat nem lehet felvenni az alkalmazásba: {0}",
+        "ErrorInfoSomePackagesNotAdded": "Hozzáadta a csomagokat az alkalmazáshoz: {0}\nNem sikerült felvenni a csomagokat az alkalmazásba: {1}"
+      },
+      "Activate": "Aktiválás"
+    },
+    "GeneralInformation": {
+      "CreatedOn": "Létrehozva",
+      "LastUpdate": "Legutóbbi módosítás",
+      "Developer": "Fejlesztő",
+      "CreateNewObjectCaption": "Új objektum létrehozása",
+      "UseExistingObjectCaption": "Meglévő objektumhoz csatolás",
+      "SelectObject": "Objektum",
+      "SelectObjectPlaceholder": "Meglévő objektum kiválasztása",
+      "CreateMobilePages": "Create pages for the mobile app"
+    },
+    "BackTooltip": "Vissza",
+    "PenTooltip": "Alkalmazás módosítása",
+    "EyeTooltip": "Alkalmazás részleteinek megtekintése"
+  },
+  "ApplicationSections": {
+    "ApplicationSectionItem": {
+      "FreedomUI": "Freedom UI"
+    },
+    "Menu": {
+      "Trigger": "Új",
+      "CreateFreedomUiSection": "Új Freedom UI szekció"
+    },
+    "ApplicationSectionEditDialog": {
+      "Title": {
+        "Create": "Új szekció",
+        "Update": "Szekció szerkesztése"
+      },
+      "HeaderCarouselCaption": "Ikon és szín választása",
+      "Fields": {
+        "Name": "Cím",
+        "NamePlaceholder": "Új alkalmazási szakasz elnevezése",
+        "Code": "Szekció kódja",
+        "CodePlaceholder": "Szekció kódjának beállítása",
+        "CodeTooltip": "Az új szakasz elemeinek kódjainak generálásakor használandó érték. Például objektum, ügyfélsémák",
+        "UseExistingObjectTooltip": "Válassza ki, hogy a szakaszt egy meglévő objektumhoz kapcsolja egy új objektum létrehozása helyett.",
+        "CreateMobilePagesTooltip": "Clear this option to create a web-only app"
+      },
+      "Buttons": {
+        "Create": "Létrehozás",
+        "Update": "Mentés",
+        "Cancel": "Elvetés"
+      },
+      "ColorPickerCaption": "Szín",
+      "AdvancedModeButtonCaption": "Haladó paraméterek"
+    }
+  },
+  "AppGetStarted": {
+    "CancelButtonCaption": "Kihagyás",
+    "SelectButtonCaption": "Kiválasztás",
+    "HeaderCaption": "Készen áll az alkalmazás készítésésre?",
+    "SubHeaderCaption": "Aknázza ki lehetőségeit népszerű sablonjainkkal a zökkenőmentes és hatékony fejlesztés érdekében."
+  },
+  "ApplicationManagementComponent": {
+    "NewAppButton": "Új alkalmazás",
+    "DeleteAppConfirmationMessage": "Biztos, hogy törölni szeretné az alkalmazást?",
+    "UpdateAppButton": "Frissítés",
+    "DeployAppButton": "Telepítés",
+    "ExportAppButton": "Exportálás",
+    "DeleteAppButton": "Törlés",
+    "SuccessfullyDeleted": "Alkalmazás törölve",
+    "NoAppsTitle": "Eddig nincs alkalmazás ebben a szekcióban",
+    "NoAppsText": "Hozzon létre egy alkalmazást, vagy telepítsen egy kész Piactérii megoldást, hogy ez a rész szebb legyen.",
+    "Update": "Frissítés",
+    "UpdateAvailableMessage": "Izgalmas híreink vannak! Az alkalmazás legújabb verziója már elérhető a Piactéren - kaparintsd meg most!",
+    "OpenAppButton": "Megnyitás"
+  },
+  "ApplicationTemplateLookupComponent": {
+    "CancelButtonCaption": "Elvetés",
+    "HeaderCaption": "Alkalmazás kiválasztása",
+    "SelectButtonCaption": "Kiválasztás"
+  },
+  "ApplicationBusinessProcesses": {
+    "Active": "Aktív",
+    "NotActive": "Inaktív",
+    "NewButtonCaption": "Új folyamat",
+    "NotActual": "(Not actual)",
+    "Version": "Verzió:",
+    "VersionsDialog": {
+      "ProcessVersions": "Folyamat verziók",
+      "Title": "Név",
+      "ModifiedOn": "Módosítva ekkor",
+      "Version": "Verzió",
+      "ActualVersion": "Valós verzió",
+      "IsActualValue": "Igen",
+      "IsNotActualValue": "Nem",
+      "SharedPackageValue": "Shared package",
+      "CloseButtonCaption": "Bezárás",
+      "Application": "Alkalmazás",
+      "Package": "Csomag"
+    }
+  },
+  "ApplicationEntities": {
+    "NewButtonCaption": "Új adatmodell"
+  },
+  "ApplicationWebServices": {
+    "NewButtonCaption": "Új integráció"
+  },
+  "GalleryToolbar": {
+    "NewPageButtonCaption": "Új oldal",
+    "SortByCaption": "Felirat szerint",
+    "SortByName": "Név szerint",
+    "SortByModifiedOn": "Módosítás dátuma szerint",
+    "SortByStatus": "Státusz szerint",
+    "SortByType": "Típus szerint",
+    "SortByUri": "Webcím URI szerint",
+    "SearchError": "A keresési beállításokhoz használt felirat nincs megadva az oszlophoz ",
+    "SpecifyMessage": "Kérjük, adja meg a keresési oszlopok leírásában vagy a tábla adatsémájában.",
+    "NewButtonCaption": "Új"
+  },
+  "ApplicationUploadPage": {
+    "SelectDropFileText": "kérjük válasszon fájlt",
+    "FileExtensionsRow1": "Válassza ki az alkalmazást telepíteni kívánt fájlt. Ez lehet",
+    "FileExtensionsRow2": "*.zip vagy *.gz archívum legyen",
+    "SelectFileButtonCaption": "fájl kiválasztása",
+    "InvalidFileSize": "Unable to upload the app. Maximum file size ({0} MB) was exceeded",
+    "ChangeMaxSize1": "You can change this parameter in the \"Max file size for installed app\"",
+    "ChangeMaxSize2": "(\"ApplicationInstallationMaxFileSize\" code) system setting",
+    "CorruptedFileMessage1": "Unable to open \"{0}\". The file is invalid or corrupted.",
+    "CorruptedFileMessage2": "Check the file integrity or download and reupload it."
+  },
+  "ApplicationInstallationStatus": {
+    "InstallationCaption": {
+      "Line1": "Alkalmazás telepítése",
+      "Line2": "Ez eltarhat néhány pillanatig"
+    },
+    "LicenseLoaded": "Az alkalmazás próbaverziója 14 napig aktív. Ezen időszak után az alkalmazás további használatához vásároljon licenceket. ",
+    "NeedRequestLicense": "A 14 napos próbaverzió használatának megkezdéséhez,",
+    "NeedRequestLicenseMailTo": "vegye fel a kapcsolatot az ügyfélszolgálattal, és rendeljen egy alkalmazási engedélyt.",
+    "MailToText": "Próbalicenc beszerzése a Creatio piactéri alkalmazáshoz - {0}.",
+    "LicenseLoadedInDemoMode": "Mostantól a demó verzió korlátozásokkal használható."
+  },
+  "MarketplaceInstallationService": {
+    "NoAppIdErrorCodeText": "Nem található alkalmazás a piactéren ezzel az azonosítóval",
+    "ErrorCodeText": "Nem sikerült betölteni az alkalmazás adatait a Piactérről"
+  },
+  "ApplicationExplorerToolbar": {
+    "ShowRelatedElementsCaption": "Show inherited elements",
+    "ShowRelatedElementsTooltip": "Show all elements from inherited applications so you can extend any locked element and store it in the current application"
+  },
+  "AppInstallInfoDialog": {
+    "ApplicationInstallation": "Alkalmazás telepítése",
+    "ApplicationsInstallation": "Applications installation",
+    "ApplicationUpdate": "Application update",
+    "Trial": "Fizetve",
+    "Free": "Free",
+    "Close": "Bezárás",
+    "Cancel": "Mégsem",
+    "Install": "Telepítés",
+    "InstallAll": "Install all",
+    "Update": "Frissítés",
+    "ErrorCodeText": "Nem találja az alkalmazást a piactéren.\nÚgy tűnik, mintha nem létező alkalmazást próbálna telepíteni.\nKattintson az OK gombra, és visszatér az Alkalmazásközpontba.",
+    "OutOfSyncNames": "The name of your *.gz archive does not match the name specified in the descriptor.json file.",
+    "Type": {
+      "Application": "Alkalmazás",
+      "Package": "Csomag"
+    },
+    "Licensing": {
+      "free": "Free",
+      "trial": "Fizetve"
+    },
+    "Columns": {
+      "Name": "Név",
+      "Type": "Típus",
+      "Version": "Verzió",
+      "Developer": "Fejlesztő",
+      "Licensing": "Licensing",
+      "RequiredVersion": "Required version",
+      "InstalledVersion": "Installed version"
+    },
+    "UnableLoadAppDetailsTitle": "Unable to load application details",
+    "UnableLoadAppDetailsMessage": "Couldn't retrieve application information from the Marketplace. Please try again later or contact support if the issue persists.",
+    "UnableLoadAppDetailsOkButtonCaption": "Return to Marketplace",
+    "DownloadLog": "Download validation log",
+    "GoToMarketplaceTooltip": "Go to Creatio Marketplace",
+    "InstallAnyway": "Install anyway",
+    "InstallAllAnyway": "Install all anyway",
+    "UpdateAnyway": "Update anyway"
+  },
+  "AppInstallAttentionInfo": {
+    "SingleAppFromMarketplaceMessage": "Ensure the application is compatible with your Creatio version. Check the Marketplace listing description for a list of compatible Creatio products, as guaranteed by the vendor. Avoid installing the application if your version of Creatio is not listed. For a first-hand experience with the application, consider installing it on a sandbox system or a 14-day trial version from the Creatio website. We recommend moving to your Creatio production environment only after thorough testing.",
+    "MultipleAppsFromMarketplaceMessage": "Ensure applications are compatible with your Creatio version. Check the Marketplace listing description for a list of compatible Creatio products, as guaranteed by the vendor. Avoid installing the application if your version of Creatio is not listed. For a first-hand experience with the application, consider installing it on a sandbox system or a 14-day trial version from the Creatio website. We recommend moving to your Creatio production environment only after thorough testing.",
+    "SingleAppFromZipMessage": "Make sure that the app is compatible with the version and product of the destination website. Apps based on the Studio product are compatible with all Creatio products. We recommend installing apps based on Marketing, Sales, or Service products into websites that contain the corresponding product.",
+    "MultipleAppsFromZipMessage": "Make sure that applications are compatible with the version and product of the destination website. Apps based on the Studio product are compatible with all Creatio products. We recommend installing apps based on Marketing, Sales, or Service products into websites that contain the corresponding product."
+  },
+  "AppInstallErrorInfo": {
+    "RequiredPlatformVersionErrorInfo": {
+      "Title": "Incompatible platform version",
+      "ApplicationsCaption": "The following applications are not compatible with your environment:",
+      "SingleAppMessage": "The application <b>\"{0}\"</b> is not compatible with your environment. <b>To install the application, update Creatio to version {1}.</b>",
+      "MultipleAppsMessage": "<b>To install applications, update Creatio to version {0}.</b>",
+      "ConflictingVersionsTitle": "Conflicting Creatio versions",
+      "ConflictingVersionsCaption": "The following applications cannot be used together because they require conflicting Creatio versions:",
+      "SingleAppMessageForVersionRange": "The application <b>\"{0}\"</b> is not compatible with your environment. <b>To install the application, update Creatio to a supported version in the range: {1}.</b>",
+      "MultipleAppsMessageForVersionRange": "<b>To install applications, update Creatio to a supported version in the range: {0}.</b>",
+      "ConflictingVersionsMessage": "<b>To resolve the issue, contact the developer of the conflicting applications.</b>",
+      "RequiredPlatformVersion": "required Creatio version:"
+    },
+    "MissedRequiredDependenciesErrorInfo": {
+      "Title": "Can't retrieve required dependencies",
+      "SingleAppMessage": "The application <b>\"{0}\"</b> cannot be installed in this environment.<br />Some required dependencies are missing and cannot be retrieved automatically from the application catalog.<br /><b>To install the application, manually install the required applications or packages listed below and try again.</b>",
+      "MultipleAppsMessage": "Some applications in the installation file cannot be installed in this environment.<br />Required dependencies are missing and cannot be retrieved automatically from the application catalog.<br /><b>To install the applications, manually install the required applications or packages listed below and try again.</b>",
+      "SinglePackageMessage": "The package <b>\"{0}\"</b> cannot be installed in this environment.<br />Some required dependencies are missing and cannot be retrieved automatically from the application catalog.<br /><b>To install the package, manually install the required packages listed below and try again.</b>",
+      "MultiplePackagesMessage": "Some packages in the installation file cannot be installed in this environment.<br />Required dependencies are missing and cannot be retrieved automatically from the application catalog.<br /><b>To install the packages, manually install the required packages listed below and try again.</b>",
+      "PlatformVersionErrorInfo": {
+        "SingleAppTitle": "Incompatible platform version",
+        "SingleAppMessage": "To install the application <b>\"{0}\"</b>, Creatio must also install required dependent applications. However, some of these applications are not compatible with your current Creatio version. <br/>Incompatible applications: {1} <br/>",
+        "SingleAppUpdateCreatio": "<b>To install the application, update Creatio to version {0}.</b>",
+        "MultipleAppsTitle": "Incompatible platform versions",
+        "MultipleAppsMessage": "To install the selected applications, Creatio must also install required dependent applications. However, some of these applications are not compatible with your current Creatio version. <br/>Incompatible applications: {0} <br/>",
+        "MultipleAppsUpdateCreatio": "<b>To install the applications, update Creatio to version {0}.</b>",
+        "SingleRequiredPlatformVersion": " (requires Creatio version: {0} or later)",
+        "RangeRequiredPlatformVersion": " (requires Creatio version: {0})"
+      },
+      "ConflictVersionsErrorInfo": {
+        "Title": "Conflicting application versions",
+        "AppSingleVersionCaption": "<b>{0}</b> (version <b>{1}</b>)",
+        "AppRequiresVersionOrLaterCaption": "<b>{0}</b> requires <b>{1}</b> version <b>{2} or later</b>",
+        "AppRequiresVersionInRangeCaption": "<b>{0}</b> requires <b>{1}</b> version <b>{2}</b>",
+        "BundleVersionsErrorInfo": {
+          "Message": "The following applications from the installation file are incompatible with each other due to version conflicts: <br/>{0}<br/>",
+          "InstalledAppsCaption": "The installed version of <b>{0}</b> does not meet the version requirement of <b>{1}</b>.<br/>",
+          "ResolveAppsCaption": "To resolve the issue, update the conflicting applications in the bundle or contact the developer."
+        },
+        "DepsVersionErrorInfo": {
+          "Message": "The following applications from the installation file cannot be used together due to conflicting version requirements for one or more dependent applications: <br/>{0}<br/>",
+          "InstalledAppsCaption": "These version requirements are incompatible with each other.<br/>",
+          "ResolveAppsCaption": "To resolve the issue, contact the developer of the conflicting applications."
+        }
+      },
+      "ConflictPlatformVersionErrorInfo": {
+        "Title": "Conflicting platform requirements",
+        "SingleAppMessage": "To install the application <b>\"{0}\"</b>, Creatio must also install required dependent applications. However, some of these applications require different and incompatible versions of the Creatio platform and cannot be used together in the same environment.<br/><br/>Conflicting applications: {1}",
+        "MultipleAppMessage": "To install the selected applications, Creatio must also install required dependent applications.However, some of the applications require incompatible versions of the Creatio platform and cannot be used together in the same environment.<br/><br/>Conflicting applications: {0}",
+        "AppRequiresVersionOrLaterCaption": "{0} (requires Creatio version {1} or later)",
+        "AppRequiresVersionInRangeCaption": "{0} (requires Creatio version {1})",
+        "ResolveConflictCaption": "Review the list of applications below or contact the developer to resolve the conflict."
+      }
+    },
+    "InvalidPackageContentErrorInfo": {
+      "InvalidPackageContentTitle": "Pre-installation check failed",
+      "SingleInvalidPackageContentMessage": "The application <b>\"{0}\"</b> cannot be installed because one or more validation errors were found during the pre-installation check.\nReview the list of issues below and resolve them in the environment before proceeding with installation.",
+      "MultiInvalidPackageContentMessage": "The applications cannot be installed because one or more validation errors were found during the pre-installation check.\nReview the list of issues below and resolve them in the environment before proceeding with installation."
+    },
+    "CompilationErrorsErrorInfo": {
+      "CompilationErrorsTitle": "Detected compilation errors",
+      "CompilationErrorsMessage": "<b>Previous system compilation completed with errors.</b> Compilation errors may prevent successful installation.<br/>To fix them, open the <a href ='{0}' target='_blank'>Configuration section</a>, correct the issues, and recompile the system."
+    },
+    "DependentAppsReqVersionConflictErrorInfo": {
+      "Title": "Installed application dependency conflict",
+      "ApplicationsCaption": "Installed applications causing the conflict:",
+      "AppWithRequiredVersion": "<b>{0}</b> requires <b>{1}</b> version <b>{2}</b>",
+      "NotCompatibleMessage": "These requirements are incompatible with the applications being installed. <b>Resolve the conflict to continue installation.</b>"
+    },
+    "DowngradeVersionConflictErrorInfo": {
+      "Title": "Version downgrade warning",
+      "SingleAppMessage": "Please review the version before continuing: a newer version of <b>\"{0}\"</b> is already installed in this environment.",
+      "MultipleAppsMessage": "Please review the versions before continuing: newer versions of some applications from the installation file are already installed in this environment.",
+      "AppVersionsInfo": "<b>{0}</b>: installed version <b>{1}</b>, version in the installation file <b>{2}</b>",
+      "ResolveConflictMessage": "<b>If you continue, the installed applications may be downgraded.</b>"
+    },
+    "SkipDueToDowngradeVersionErrorInfo": {
+      "Title": "Applications skipped",
+      "SingleAppMessage": "Some applications won't be installed because newer versions are already available in this environment.",
+      "MultipleAppsMessage": "Some applications won't be installed because newer versions are already available in this environment.",
+      "AppVersionsInfo": "<b>{0}</b> - installed version: <b>{1}</b>, version in this file: <b>{2}</b>",
+      "ResolveConflictMessage": ""
+    }
+  },
+  "AppInstallationGridInfoBlock": {
+    "PackagesTitleName": "Csomagok",
+    "Fields": {
+      "ApplicationName": "Név"
+    }
+  },
+  "ActionItem": {
+    "LoadingTitle": "Loading file..."
+  },
+  "AppInstallWithDependenciesInfo": {
+    "Title": "Detected missing application dependencies",
+    "SingleMessage": "The application \"{0}\" requires additional applications that are either not installed or have unsupported versions in the environment.<br><b>The dependencies listed below will be automatically installed or updated from the application catalog.</b>",
+    "MultipleMessage": "Some applications in the installation file require additional applications that are either not installed or have unsupported versions in the environment.<br><b>The dependencies listed below will be automatically installed or updated from the application catalog.</b>"
+  },
+  "ApplicationCreatioAi": {
+    "ModelCaption": "Modell",
+    "NewButtonCaption": "Új",
+    "AiAgentCaption": "Prompt agent",
+    "AiSkillCaption": "Sub-agent",
+    "AiWorkflowAgentCaption": "Workflow agent"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nincs oldal új vagy meglévő rekordhoz. A rendszergazdának ellenőriznie kell a gombbeállításokat a Freedom UI-ban",
+    "GoToEntityDesignerMessage": "Az oldalak beállításához lépjen a következő URL-re: {0}"
+  },
+  "Printables": {
+    "Caption": "Jelentés neve",
+    "ModuleName": "Szekció",
+    "EntityName": "Tárgy",
+    "TypeName": "Típus",
+    "ShowInSection": "Megjelenítés listanézetben",
+    "ShowInCard": "Megjelenítés a rekord oldalon",
+    "ShowInAnalytics": "Megjelenítés a szakaszelemzési nézetben",
+    "FilterPage": "Szűrő oldal",
+    "Section": {
+      "Title": "Jelentés beállítása",
+      "BlankslateTitle": "Nincsenek az aktuális keresési feltételeknek megfelelő rekordok.",
+      "BlankslateDescription": "Törölje vagy módosítsa a keresési paramétereket",
+      "Delete": "Törlés",
+      "Add": "Új jelentés",
+      "Copy": "Másolás",
+      "AddFastReport": "FastReport",
+      "AddMSWord": "Miss szó"
+    },
+    "Page": {
+      "NewReportCaption": "Új jelentés",
+      "CopyPostfixCaption": " - Másoljon",
+      "InfoBlock": {
+        "Title": "Megjegyzés",
+        "StepsTitle": "Jelentés beállításához:",
+        "Steps": {
+          "Step1": "Install the FastReport designer (the designer can be downloaded from the \"Documentation\" section in the <a href='{{academyLink}}' target='_blank'>{{academyLinkCaption}}</a>).",
+          "Step2": "Adja meg a jelentés adatforrását.",
+          "Step3": "Valósítsa meg a jelentésadatok feldolgozásának logikáját a Creatio konfigurációban.",
+          "Step4": "Töltse le a fájlt az adatforrással, és nyissa meg a FastReport Designerben.",
+          "Step5": "Tervezze meg a jelentést a FastReport Designerben.",
+          "Step6": "Mentse el a jelentésfájlt, és töltse fel a Creatióba."
+        },
+        "AcademyLink": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview",
+        "AcademyLinkCaption": "Akadémia"
+      },
+      "DataSource": {
+        "Caption": "Először válassza ki az adatforrást és az operátort",
+        "Custom": {
+          "Caption": "Adja meg a jelentés adatforrásait",
+          "Description": {
+            "Text": "Állítsa be a jelentés adatait, hogy Creatio adatokat adjon hozzá a jelentéshez. Jelölje meg az objektumok listáját, oszlopaikat, hivatkozásaikat json formátumban. Az adatforrás-leírások példái itt találhatók: {parameter:AcademyLink}.",
+            "Parameters": {
+              "AcademyLink": {
+                "Caption": "Akadémia",
+                "Value": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview"
+              }
+            }
+          }
+        }
+      },
+      "Template": {
+        "Download": {
+          "Caption": "Töltse le az adatforrásokat tartalmazó fájlt, és készítsen jelentést a FastReport Designerben",
+          "Description": "Nyissa meg a letöltött fájlt a FastReport Designerben, és állítsa be a jelentés elrendezését. A letöltött fájl tartalmazza a FastReport Designerben használható adatforrás-struktúrát.",
+          "ButtonCaption": "Fájl letöltése"
+        },
+        "Upload": {
+          "Caption": "Importáljon egy fájlt a jelentéssablonnal",
+          "Description": "A .frx fájl importálása után a jelentés megjelenik a szakasz „Nyomtatás” menüjében vagy a rögzítési oldalon a jelentés beállításai szerint.",
+          "ButtonCaption": "Fájl feltöltése",
+          "Error": {
+            "MessageBoxCaption": "Sikertelen feltöltési jelentéssablon"
+          },
+          "ReportUploadedMessage": "A jelentéssablon mentése sikeresen megtörtént"
+        }
+      },
+      "Validation": {
+        "required": "Adj meg egy értéket",
+        "noWhitespaces": "Adj meg egy értéket",
+        "isJson": "Adjon meg egy érvényes JSON-t",
+        "maxLength": "A maximális szöveghossz túllépve ({0}/{1})",
+        "dataSourceAbsentProviderNameProperty": "Az adatforrásnak „ProviderName” tulajdonsággal kell rendelkeznie",
+        "dataSourceAbsentSchemasProperty": "Az adatforrásnak „Sémák” tulajdonsággal kell rendelkeznie",
+        "dataSourceSchemasIsEmpty": "Az adatforrásnak nincs sémája",
+        "dataSourceSchemasHasNoColumns": "A(z) „{schemaName}” adatforrássémának rendelkeznie kell oszlopdefinícióval",
+        "dataSourceAbsentDataValueTypeProperty": "A(z) \"{schemaName}\" séma \"{columnName}\" oszlopának \"DataValueType\" tulajdonsággal kell rendelkeznie"
+      }
+    }
+  },
+  "DesignerPresenceNotificationHandler": {
+    "SchemaUpdated": "{0} just updated {1}. Please refresh the page to see changes.",
+    "Connections": "{0} connections",
+    "Reload": "Reload",
+    "Download": "Download"
+  },
+  "DesignerPresenceDisplay": {
+    "UserStartedEditing": "{0} started editing current {1}",
+    "ModeEditing": "Szerkesztés",
+    "TooltipFormat": "{0} ({1})",
+    "ModeViewing": "Viewing",
+    "ModeSaved": "Saved",
+    "ModeSavedTime": "Saved ({0} ago)",
+    "ModeSavedRecently": "Saved recently",
+    "ShowAllUsers": "Show all users",
+    "AllUsersDialog": {
+      "Title": "Active users",
+      "Close": "Bezárás",
+      "Columns": {
+        "ContactName": "Kapcsolattartó",
+        "Email": "E-mail",
+        "SchemaName": "Editing area",
+        "Mode": "Mód"
+      }
+    }
+  },
+  "SchemaTypeCaption": {
+    "Page": "oldal",
+    "Entity": "entitás",
+    "Addon": "bővítmény"
+  },
+  "AppInstallationInfoBlock": {
+    "Fields": {
+      "Name": "Név",
+      "LastUpdate": "Legutóbbi módosítás",
+      "Developer": "Fejlesztő",
+      "Version": "Verzió"
+    },
+    "AttentionCaption": "Figyelem",
+    "WhatsNewCaption": "What`s new",
+    "PublicOfferAgreementForSingleInstallation": "By continuing the app installation, you confirm that you accept the relevant T&C published on the App’s Creatio Marketplace page.",
+    "PublicOfferAgreementForBundleInstallation": "By continuing the app installation, you confirm that you accept the relevant T&C published on the Creatio Marketplace for all the apps you are installing.",
+    "GoToMarketplaceTitle": "Go to application page"
+  },
+  "AppProcessingStatus": {
+    "Stages": {
+      "InProgressCaptions": {
+        "Pending": "Starting app installation",
+        "DownloadAppFromMarketPlace": "Downloading the app from Marketplace",
+        "DownloadAppFromAppInstaller": "Downloading the app",
+        "Validate": "Checking app requirements before installation",
+        "CreateBackup": "Backing up the configuration. Just in case!",
+        "Install": "Installing the app to your Creatio environment",
+        "OrderAppLicense": "Adding the app license",
+        "RestartApp": "Restarting your Creatio environment",
+        "RestoreFromBackup": "Please wait until the operation is complete and do not close the page"
+      },
+      "ErrorTitles": {
+        "Pending": "App preparation error",
+        "DownloadAppFromMarketPlace": "App download error",
+        "Validate": "App validation error",
+        "CreateBackup": "Backup error",
+        "Install": "App installation error",
+        "RestoreFromBackup": "Backup restoration error",
+        "DownloadAppFromAppInstaller": "App preparation error"
+      },
+      "ErrorDescriptions": {
+        "Pending": "An error occurred while preparing the app, deployment aborted, configuration was not changed. Try again later, contact support if the issue persists",
+        "DownloadAppFromMarketPlace": "Unable to retrieve app files from the Marketplace. To view error details, download the operation log",
+        "Validate": "Package validation failed. Installation aborted. Configuration was not changed. To view error details, download the operation log",
+        "CreateBackup": "Configuration backup failed. Installation aborted. Configuration was not changed. To view error details, download the operation log",
+        "Install": "An error occurred while installing the app. To view error details, download the operation log",
+        "RestoreFromBackup": "Unable to restore the configuration from backup",
+        "DownloadAppFromAppInstaller": "An error occurred while preparing the application for installation. The installation file could not be downloaded or processed due to a connection or preparation issue. <br/><br/>Try to start the installation again. If the problem persists, download the installation log for more details and contact Creatio Support."
+      }
+    },
+    "Buttons": {
+      "GoToAppHub": "Open Application Hub",
+      "DownloadLogs": "Telepítési napló letöltése",
+      "RestoreFromBackup": "Restore from backup"
+    },
+    "RestoringFromBackupCaption": "Restoring configuration from backup",
+    "SuccessStatusCaption": "Sikeres",
+    "SuccessfullyRestoredFromBackupCaption": "The configuration has been restored from backup"
+  },
+  "SessionEndDialog": {
+    "StayLoggedIn": "Stay logged in",
+    "Exit": "Kijelentkezés",
+    "LogIn": "Bejelentkezés"
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Felhív"
+  },
+  "SalesEngagement": {
+    "StepBuilder": {
+      "EmptyState": {
+        "Title": "Nothing to show yet",
+        "Subtitle": "Kérjük, először adja meg az adatokat"
+      },
+      "UnexpectedReorderErrorMessage": "Unexpected error while reordering steps.",
+      "Actions": {
+        "AddStep": "Lépés hozzáadása",
+        "CollapseAll": "Collapse all",
+        "ExpandAll": "Expand all",
+        "Expand": "Expand step",
+        "Collapse": "Collapse step",
+        "Copy": "Másolás",
+        "Edit": "Szerkesztés",
+        "Delete": "Törlés",
+        "More": "Több akció"
+      }
+    },
+    "BaseStepTile": {
+      "Name": "Cím",
+      "Description": "Leírás",
+      "Priority": "Prioritás",
+      "Postpone": "Elhalaszt",
+      "Measurement": "Measurement",
+      "Activity": "Tevékenység",
+      "Step": "Lépés",
+      "PostponeMinZeroValidationMessage": "Value must be greater than or equal to zero"
+    },
+    "AddSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were added.",
+      "NoRecordsAddedMessage": "No participants were added.",
+      "PartialResultTitle": "Some participants were not added",
+      "PartialResultMessage": "Added: {{count}}\n\nIssues:\n{{errors}}",
+      "ErrorResultTitle": "Participants were not added",
+      "ErrorResultMessage": "Issues:\n{{errors}}",
+      "DialogOkCaption": "OK",
+      "UnexpectedErrorMessage": "Unexpected error while adding participants."
+    },
+    "ActivateSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were activated.",
+      "NoRecordsActivatedMessage": "No participants were activated."
+    },
+    "ReassignSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were reassigned.",
+      "NoRecordsReassignedMessage": "No participants were reassigned.",
+      "PickerTitle": "Select new sequencer"
+    },
+    "EmailStepTile": {
+      "Subject": "Tárgy",
+      "Body": "Szövegtörzs"
+    },
+    "StepMetrics": {
+      "Total": {
+        "Label": "Összesen",
+        "Hint": "All activities created for this step"
+      },
+      "Delivered": {
+        "Label": "Elküldve",
+        "Hint": "Emails successfully sent for this step"
+      },
+      "Replies": {
+        "Label": "Replies",
+        "Hint": "Replies received for this step"
+      },
+      "ReplyRate": {
+        "Label": "Reply rate",
+        "Hint": "Share of sent emails that received a reply (replies / sent)"
+      },
+      "NotStarted": {
+        "Label": "Kezdésre vár",
+        "Hint": "Activities not started yet"
+      },
+      "Completed": {
+        "Label": "Teljesítve",
+        "Hint": "Activities completed"
+      },
+      "Answered": {
+        "Label": "Answered",
+        "Hint": "Calls that reached the contact (meeting scheduled, not interested, or call later)"
+      },
+      "BadContact": {
+        "Label": "Bad contact",
+        "Hint": "Calls with a bad number or wrong contact"
+      },
+      "NoAnswer": {
+        "Label": "Nincs válasz",
+        "Hint": "Calls that were not answered"
+      }
+    },
+    "SequenceStepName": {
+      "StepLabel": "Lépés",
+      "DayLabel": "Nap"
+    }
+  },
+  "ClientUnitSchemaDesignerApi": {
+    "EntitySchemasCircularReferenceError": "Cyclic dependency error. New data sources reference each other through lookup columns. Remove one of the references and try again.",
+    "PackageDependenciesIsAbsentError": "Cannot save the page. {{schemaError}}",
+    "SchemaPackageDependencyIsAbsentError": "Please add dependency to the '{{missedPackageName}}' package for the '{{currentPackageName}}' package."
+  },
+  "CrtIconSelectorComponent": {
+    "Tooltip": "Ikon kiválasztása"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "The business rule is deactivated"
+  },
+  "DataSourceDependenciesSetting": {
+    "Title": "Szűrés alkalmazása oldaladatok szerint",
+    "Tooltip": "Az oldaladatok szerinti szűrés lehetővé teszi az összekapcsolt rekordok vagy részletes adatok megjelenítését egy további listában.",
+    "RelationsAndFilters": {
+      "Title": "Add relation criteria",
+      "Tooltip": "Set up the relation criteria that will be used to identify which record of this data source to show in the page fields."
+    }
+  },
+  "DataSourceDependency": {
+    "PageData": "Adatforrás",
+    "MatchDataSourceAttributes": "Egyezzen meg az adatforrás attribútumait",
+    "FilterByActiveItemLabel": "Szűrés aktív sor szerint",
+    "FilterByActiveItemTooltip": "Jelölje be, ha a felhasználók a listaadatokat a csatolt adatforrás aktív sora szerint szűrhetik",
+    "PageDataSourceRelationTitle": "Relates to"
+  },
+  "DataSourceFilterElementsGroup": {
+    "Title": "Előre konfigurált szűrő alkalmazása",
+    "Tooltip": "A beállítás lehetővé teszi a mappákból vagy más adatszűrő elemekből előre konfigurált szűrők használatát oldalszűrőként."
+  },
+  "DataSourceFilterElement": {
+    "Caption": "Szűrőbetét"
+  },
+  "EntitySchemaSelectComponent": {
+    "AddNewEntity": "Új objektum hozzáadása",
+    "CreatePageLabel": "Kérjük, hozzon létre egy oldalt, mert nincs olyan oldal, amely végrehajtaná ezt a műveletet.",
+    "CreatePageLink": "Lap létrehozása",
+    "EditPageLabel": "A(z) {0} 1 űrlapoldallal rendelkezik.",
+    "EditPagesLabel": "A(z) {0} több oldallal rendelkezik.",
+    "EditPageLink": "Szerkessze az oldalt",
+    "OpenPagesSetup": "Az oldalak beállításainak megtekintése",
+    "SaveConfirmationDialog": {
+      "Message": "Az oldal létrehozása előtt mentse az objektumot. Folytatni?"
+    },
+    "RelatedPagesCaptionWithEntityName": "{0} oldal beállítása"
+  },
+  "CrtLookupViewPropertiesComponent": {
+    "SelectionWindow": "Kiválasztó ablak",
+    "List": "Legördülő lista",
+    "Label": "Keresési nézet"
+  },
+  "LookupSchemaSelectComponent": {
+    "CreateLookupEntityButtonLabel": "Create lookup object",
+    "EditLookupEntityButtonLabel": "Edit lookup object"
+  },
+  "DataSourceSortElementsGroup": {
+    "SortLabelCaption": "Tulajdonság",
+    "Title": "Rendezés",
+    "Tooltip": "Define sorting rules to determine which record to select when multiple records in the {{dataSourceName}} meet the above criteria",
+    "Ascending": "Növekvő",
+    "Descending": "Csökkenő"
+  },
+  "CrtPropertiesPanelHeaderComponent": {
+    "CloseButtonTitle": "Bezárás"
+  },
+  "DataValueType": {
+    "DateCaption": "Dátum",
+    "TimeCaption": "Idő",
+    "DateTimeCaption": "Dátum/Idő",
+    "GuidCaption": "Egyedi azonosító",
+    "BooleanCaption": "Logikai",
+    "LongTextCaption": "Szöveg (500 karakter)",
+    "MaxSizeTextCaption": "Korlátlan hosszúságú szöveg",
+    "IntegerCaption": "Egész",
+    "FLOAT2Caption": "Decimális (0,01)",
+    "MoneyCaption": "Currency (0.01)"
+  },
+  "BusinessRule": {
+    "GenerateCaption": {
+      "EmptyActionsTranslation": "Üzleti szabály"
+    },
+    "EditProperties": {
+      "Applicabilities": {
+        "DataSource": "Adatobjektumhoz",
+        "Page": "Az oldalhoz"
+      },
+      "Name": "Név",
+      "Applicability": "Alkalmazza a szabályt",
+      "DataSource": "Tárgy",
+      "Enabled": "Engedélyezve",
+      "Caption": "Cím",
+      "Validators": {
+        "RequiredCaptionField": "Adj meg egy értéket"
+      },
+      "Code": "Kód"
+    },
+    "PropertiesPanel": {
+      "Header": {
+        "Title": "Üzleti szabályok beállításai"
+      },
+      "GeneralGroup": "Általános",
+      "AdvancedGroup": "Haladó"
+    },
+    "Mode": {
+      "Title": "Szabálykonfigurációs mód",
+      "ShowDesigner": "Tervező megjelenítése",
+      "ShowCodeEditor": "Metaadatok megjelenítése"
+    },
+    "BlankSlate": {
+      "AddNewRule": "Új szabály hozzáadása",
+      "NoBusinessRules": "Nincsenek szabályok"
+    }
+  },
+  "BusinessRules": {
+    "CancelChangesConfirmationDialog": {
+      "Message": "Ez az oldal nem mentett módosításokat tartalmaz. Elvesznek, ha bezárod az oldalt. Menti a változtatásokat?"
+    },
+    "PanelTitle": "Üzleti szabályok beállítása",
+    "List": {
+      "GroupName": "{{name}} Üzleti szabályok",
+      "PageBusinessRules": "Oldal üzleti szabályzata",
+      "AddRule": "Szabály hozzáadása",
+      "RemoveRule": "Törlés",
+      "CopyRule": "Másolás"
+    },
+    "Buttons": {
+      "SaveButtonCaption": "Mentés",
+      "CancelButtonCaption": "Mégsem",
+      "OpenPropertiesPanelButtonTooltip": "Üzleti szabályok beállításai"
+    },
+    "Errors": {
+      "BusinessRulesAddonsError": "Üzleti szabályok kiegészítő hiba!",
+      "InvalidRuleMessage": "A szabály beállítása nem fejeződött be. Ellenőrizze a címét, állapotát és műveleti paramétereit. A szabály címe vagy műveletei nem lehetnek üresek.",
+      "NotValidRules": "Nem sikerült menteni a szabályokat. Ellenőrizze az érvénytelen szabályok cím-, művelet- és feltételbeállításait.",
+      "MaxSizeInConditionLimitedWarningMessage": "Kérjük, vegye figyelembe, hogy a korlátlan hosszúságú szövegmező használata „egyenlő” és „nem egyenlő” feltételek esetén csak az első 500 karakterre korlátozódik.",
+      "NotSupportedInConditionTypesWarningMessage": "A \"formázott szöveg\" és a \"kép\" típusok nem támogatottak az \"egyenlő\" és \"nem egyenlő\" feltételekkel rendelkező üzleti szabályoknál"
+    },
+    "TooltipMessage": {
+      "DisabledRuleMessage": "The business rule is deactivated"
+    }
+  },
+  "DataSourceElementTypes": {
+    "Text": "Szöveg",
+    "Number": "Szám",
+    "Boolean": "Logikai",
+    "Lookup": "Lekérdezés",
+    "ColorPicker": "Szín",
+    "DateTime": "Dátum/Idő",
+    "ImageLink": "Képhivatkozás",
+    "EncryptedInput": "Titkosított karakterlánc"
+  },
+  "BusinessRuleDesigner": {
+    "Delete": "Törlés",
+    "DeleteConfirm": "Törölni szeretné az üzleti szabályt?",
+    "NoBusinessRules": "Nincsenek üzleti szabályok",
+    "TriggerCaptionDefault": "Page is opened or one of the attributes in conditions changed",
+    "SetValueAction": {
+      "TypeCaption": "Érték beállítása"
+    },
+    "SetValuesAction": {
+      "TypeCaption": "Állítsa be az értékeket",
+      "Groups": {
+        "Inputs": "Bevitel",
+        "DataSource": "Adatforrás"
+      }
+    },
+    "FilterLookupAction": {
+      "TypeCaption": "Szűrő alkalmazása",
+      "FilterFieldCaption": "Szűrő",
+      "ByFieldCaption": "írta",
+      "WhereFieldCaption": "Hol",
+      "SpecifyValuePlaceholder": "Adja meg az értéket",
+      "PopulateValue": "Népességi érték",
+      "PopulateRightExpressionPathElement": "Töltse ki a(z) {0} mezőt, ha a(z) {1} mező ki van töltve",
+      "ClearValue": "Érték ürítése",
+      "ClearLeftExpressionPathElement": "Törölje a(z) {0} mezőt, ha a(z) {1} mezőt módosították"
+    },
+    "SetFilterAction": {
+      "TypeCaption": "Alkalmazzon statikus szűrőt",
+      "FilterFieldCaption": "Szűrő",
+      "SpecifyValuePlaceholder": "Adja meg az értéket",
+      "SetupStaticFilterAction": "Szűrő beállítása",
+      "EditStaticFilterAction": "Szűrő szerkesztése",
+      "FiltersDialogCaption": "Szűrő beállítása"
+    },
+    "HideElementAction": {
+      "TypeCaption": "Elemek elrejtése"
+    },
+    "ShowElementAction": {
+      "TypeCaption": "Elemek megjelenítése"
+    },
+    "EditableElementAction": {
+      "TypeCaption": "Tedd szerkeszthetővé az elemeket"
+    },
+    "ReadOnlyElementAction": {
+      "TypeCaption": "Tegye csak olvashatóvá az elemeket"
+    },
+    "OptionalElementAction": {
+      "TypeCaption": "Legyenek opcionálisak az elemek"
+    },
+    "RequiredElementAction": {
+      "TypeCaption": "Készítse el a szükséges elemeket"
+    },
+    "Action": "Művelet",
+    "AddAction": "Művelet hozzáadása",
+    "DeleteAction": "Törlésnél",
+    "AddElement": "Elem hozzáadása",
+    "DeleteElement": "Modul torlese",
+    "CollapseConditionButton": "Összezár",
+    "ShowCodeEditor": "Kódszerkesztő megjelenítése",
+    "HideCodeEditor": "Kódszerkesztő elrejtése",
+    "ElementCode": "kód:",
+    "Formula": {
+      "ValuePicker": {
+        "SourceCaption": "Képlet",
+        "SetUpFormulaBtnCaption": "Set up formula",
+        "ChangeFormulaBtnCaption": "Change formula"
+      },
+      "EntityDataSourceExpressionValidator": {
+        "ColumnDoesNotExist": "Column {{column}} does not exist"
+      }
+    },
+    "TriggerCaptionForDynamicFilter": "Page is opened or one of the attributes in conditions or actions changed",
+    "TriggerCaptionForSetValueConst": "Record creation page is opened or one of the attributes in conditions changed",
+    "TriggerCaptionForSetValueFormula": "Record creation page is opened or one of the attributes in conditions or actions changed",
+    "TriggerTooltipText": "The business rule contains multiple different actions that may have different triggers. Learn more about the triggers in Creatio Academy."
+  },
+  "SysAdminUnits": {
+    "AllEmployees": "Minden dolgozó",
+    "ExternalUsers": "Külső felhasználók"
+  },
+  "SchemaDesigners": {
+    "EntityPagesDesigner": {
+      "HasTypeColumnLabel": "Használjon több oldalt egy adott mezőérték alapján",
+      "ClearTypedPagesConfirmation": {
+        "Message": "A tipizált oldalak beállításai törlődnek.",
+        "Buttons": {
+          "Continue": "Folytatás",
+          "Cancel": "Mégsem"
+        }
+      },
+      "TypeColumnLabel": "Az oldal elrendezését meghatározó mező",
+      "TypeColumnRemoved": "Oszlop eltávolítva",
+      "PageRemoved": "Az oldal eltávolítva",
+      "Columns": {
+        "Role": "Szerepkör",
+        "Type": "Típus",
+        "DefaultPage": "Alapértelmezett oldal",
+        "AddPage": "Oldal a rekord hozzáadásához"
+      },
+      "ToolsPanel": {
+        "Caption": "Oldallista",
+        "AddPageButtonTooltip": "Oldal hozzáadása"
+      },
+      "RowMenuItems": {
+        "Open": "Megnyitás",
+        "Copy": "Másolás",
+        "Delete": "Törlés"
+      }
+    }
+  },
+  "EntityPagesDesignerDialog": {
+    "Caption": "Oldalak beállítása"
+  },
+  "RelatedPageCombobox": {
+    "RelatedPageLabel": "Alapértelmezett oldal",
+    "AddPageLabel": "Oldal a rekord hozzáadásához",
+    "RelatedPagesCaption": "Oldalak beállítása",
+    "DefaultPagePlaceholder": "Használandó oldal, ha nincs más oldal megadva",
+    "AddPagePlaceholder": "Rekordok hozzáadásához használható oldal",
+    "DefaultPageSelectionTooltip": "Válassza ki vagy hozzon létre alapértelmezett oldalt a szerkesztéshez, olvasáshoz és rekordok létrehozásához.\nJavasoljuk, hogy használjon egy Freedom UI oldalt az aktuális objektummal adatforrásként.",
+    "AddPageTooltip": "Válasszon vagy hozzon létre egy adott oldalt, amelyet csak új rekord hozzáadásához használ."
+  },
+  "PagesGroupDialog": {
+    "RoleCaption": "Szerepkör",
+    "TypeCaption": "Típus",
+    "NewRecord": "Új oldalbeállítások",
+    "EditRecord": "Oldalbeállítások",
+    "EmptyTypeColumnTooltip": "Kérjük, válassza ki az oldal meghatározásához használandó mezőt."
+  },
+  "Tooltips": {
+    "TypeColumn": {
+      "Message": "Az oldalelrendezést meghatározó mező eltávolítva."
+    }
+  },
+  "QuickFilterGroup": {
+    "Caption": "Szűrők"
+  },
+  "Sidebar": {
+    "PredefinedSidebarGroups": {
+      "CommunicationPanel": "Kommunikációs panel",
+      "NotificationsPanel": "Értesítési panel"
+    }
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "Fordítás",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "ConstValuePickerProvider": {
+    "Caption": "Állandó érték",
+    "SourceCaption": "Állandó",
+    "ValuePickerComponent": {
+      "Placeholder": "Adja meg az értéket"
+    },
+    "ConstValuePickerDialogComponent": {
+      "Title": "Válassza ki az értéket",
+      "Label": "Érték",
+      "Actions": {
+        "OkButtonCaption": "OK",
+        "CancelButtonCaption": "Mégsem"
+      }
+    }
+  }
+}

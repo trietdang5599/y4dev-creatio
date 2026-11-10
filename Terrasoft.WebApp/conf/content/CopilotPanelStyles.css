@@ -1,0 +1,39 @@
+﻿copilotpanel div.copilot-panel-main-wrapper-container,
+aiembeddedpanel div.copilot-panel-main-wrapper-container {
+  height: 100%;
+}
+copilotpanel div.copilot-panel-main-container,
+aiembeddedpanel div.copilot-panel-main-container {
+  height: 100%;
+}
+copilotpanel crt-file-drop,
+aiembeddedpanel crt-file-drop {
+  height: 100%;
+  width: 100%;
+}
+copilotpanel crt-file-drop .file-drop-content,
+aiembeddedpanel crt-file-drop .file-drop-content {
+  align-items: stretch;
+}
+copilotpanel .message-editor-body-toolbar-dropzone,
+aiembeddedpanel .message-editor-body-toolbar-dropzone {
+  display: flex;
+  align-items: center;
+}
+copilotpanel #FlexContainer_Chat,
+aiembeddedpanel #FlexContainer_Chat {
+  height: 100%;
+}
+copilotpanel crt-template-list .copilot-actions-list,
+aiembeddedpanel crt-template-list .copilot-actions-list {
+  margin: 8px 0px;
+}
+copilotpanel crt-conversation .chat-panel-content-wrap .crt-placeholder,
+aiembeddedpanel crt-conversation .chat-panel-content-wrap .crt-placeholder {
+  margin: 16px 0 24px 0;
+}
+copilotpanel crt-conversation .actions-container crt-label,
+aiembeddedpanel crt-conversation .actions-container crt-label {
+  width: 300px;
+  flex-grow: 1;
+}

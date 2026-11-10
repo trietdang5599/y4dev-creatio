@@ -1,0 +1,155 @@
+﻿define("SysAdminUnitPageV2Resources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		ChiefsTabCaption: "Managers",
+		NameChiefRolesCaption: "Management role",
+		OperationExecutedWithError: "Error while performing operation",
+		HeaderCaption: "Organizational role",
+		DeletionErrorMessage: "Unable to delete organizational structure item connected to users.",
+		ExistChiefsRoleCaption: "Management role exists",
+		DependencyWarningMessage: "Selected items cannot be deleted because they are used in other objects.",
+		SessionGroupCaption: "Session settings",
+		SessionTimeoutTitle: "User session timeout, min",
+		AcademyDesignerUrl: "http://academy.bpmonline.com/documents/docs/product/bpm\u0027online%20sales/enterprise/7.8.0/BPMonlineHelp/chapter_section_wizard/section_wizard_page_fields_setup.htm#XREF_49522",
+		ActionButtonCaption: "Actions",
+		BeginProcessButtonMenuItemCaption: "Start process",
+		CancelButtonCaption: "Cancel",
+		CanCustomizeWarning: "Define {0} attribute instead of overriding function {1} to empty",
+		ChangeQueueItemDateButtonCaption: "",
+		ClearButtonHint: "Clear value",
+		CloseButtonCaption: "Close",
+		ColumnFilterInvalidFormatException: "Filtering by the {0} column is configured incorrectly",
+		ContinueProcessButtonMenuItemCaption: "Continue process",
+		DelayExecutionButtonCaption: "Perform later",
+		DeleteConfirmationMessage: "Are you sure that you want to delete the selected items?",
+		EditRightsCaption: "Set up access rights",
+		ESNTabCaption: "Feed",
+		FieldLockHint: "Non-editable field",
+		FieldsGroupCollapseButtonHint: "Collapse/expand",
+		FieldValidationError: "Field \u0022{0}\u0022: {1}",
+		HeaderTipAcademyBtnCaption: "Learn more at the Academy",
+		HeaderTipCaption: "Page appearance has been improved in Creatio 7.8",
+		HeaderTipContent: "The page field layout has changed. Only the fields that you configured for the previous version are displayed here. For your convenience, you can move these fields to the record profile (on the left) or to the tab array using the Page Designer.",
+		HeaderTipDesignerBtnCaption: "Set up now",
+		HeaderTipNotShowBtnCaption: "Do not show this message again",
+		IncrementMaskSuffix: "CodeMask",
+		IncrementNumberSuffix: "LastNumber",
+		IPRangeTabCaption: "Access rules",
+		LDAPElementCaption: "LDAP element",
+		LDAPElementHintCaption: "Select the Active Directory group that matches the current organizational role.",
+		LDAPExternalNotAvailableHintCaption: "LDAP synchronization is not available for external users.",
+		LDAPNotAvailableHintCaption: "LDAP synchronization is not available for Growth plan. Upgrade your subscription to Enterprise",
+		MultipleQueueItemsFoundError: "",
+		NewRecordPageCaptionSuffix: ": New record",
+		NotesAndFilesTabCaption: "Attachments and notes",
+		NotesGroupCaption: "Notes",
+		OpenChangeLogMenuCaption: "View change log",
+		OpenListSettingsCaption: "List setup",
+		OpenNewSectionDesignerButtonCaption: "Open new page designer",
+		OpenSectionDesignerButtonCaption: "Open page designer",
+		PageContainsUnsavedChanges: "You have unsaved changes that will be lost. Continue?",
+		PageHeaderTemplate: "{0} / {1}",
+		PostponeQueueItemButtonCaption: "",
+		PostponeQueueItemError: "",
+		PrintButtonCaption: "Print",
+		ProcessEntryPointButtonCaption: "Move down the process",
+		ProsessButtonCaption: "Run process",
+		QueueItemIsEmptyError: "",
+		QueueItemPostponeFailedMessage: "",
+		QueueItemPostponeSucceedMessage: "",
+		QuickAddButtonHint: "Add related activity",
+		RemoveButtonCaption: "Delete",
+		RequiredFieldIsEmptyCaption: "Fill in the required {0} field to save the record",
+		RolesTabCaption: "Functional roles",
+		SaveButtonCaption: "Save",
+		SaveEditButtonHint: "Save (Ctrl\u002BEnter)",
+		SubscribeCaption: "Follow the feed",
+		SubscribedInformationDialog: "You are now following feed: {0}",
+		SynchronizeWithLDAPCaption: "Synchronize with LDAP",
+		SynchronizeWithLDAPHintCaption: "Set to \u201CTrue\u201D to link the organizational structure element to a LDAP group and synchronize users.",
+		TabControlScrollLeftHint: "Scroll left",
+		TabControlScrollRightHint: "Scroll right",
+		TabVisaCaption: "Approvals",
+		TagButtonHint: "Tags",
+		TimelineTabCaption: "Timeline",
+		UnsubscribeCaption: "Unfollow the feed",
+		UnsubscribedInformationDialog: "You have stopped following feed: {0}",
+		UsersTabCaption: "Users",
+		ViewOptionsButtonCaption: "View"
+	};
+	var parametersLocalizableStrings = {};
+	var localizableImages = {
+		TagButtonIcon: {
+			source: 3,
+			params: {
+				schemaName: "SysAdminUnitPageV2",
+				resourceItemName: "TagButtonIcon",
+				hash: "749c444773b4d39e64c4f6938fdf6d76",
+				resourceItemExtension: ".svg"
+			}
+		},
+		BackButtonImage: {
+			source: 3,
+			params: {
+				schemaName: "SysAdminUnitPageV2",
+				resourceItemName: "BackButtonImage",
+				hash: "4d184b84a2c67d95553b4017a7154ad3",
+				resourceItemExtension: ".png"
+			}
+		},
+		CloseButtonImage: {
+			source: 3,
+			params: {
+				schemaName: "SysAdminUnitPageV2",
+				resourceItemName: "CloseButtonImage",
+				hash: "b8ed94f31f1b674db8c47c1cf439369c",
+				resourceItemExtension: ".png"
+			}
+		},
+		ProcessButtonImage: {
+			source: 3,
+			params: {
+				schemaName: "SysAdminUnitPageV2",
+				resourceItemName: "ProcessButtonImage",
+				hash: "b2718527a6bf360a3e641e9cb3a00904",
+				resourceItemExtension: ".svg"
+			}
+		},
+		QuickAddButtonImage: {
+			source: 3,
+			params: {
+				schemaName: "SysAdminUnitPageV2",
+				resourceItemName: "QuickAddButtonImage",
+				hash: "5e12a5f2ab5d04c2b8107f4b4e671176",
+				resourceItemExtension: ".png"
+			}
+		},
+		AnalyticsDataIcon: {
+			source: 3,
+			params: {
+				schemaName: "SysAdminUnitPageV2",
+				resourceItemName: "AnalyticsDataIcon",
+				hash: "797f9955cfd47e5ca74c16a682de6853",
+				resourceItemExtension: ".svg"
+			}
+		},
+		GridSettingsIcon: {
+			source: 3,
+			params: {
+				schemaName: "SysAdminUnitPageV2",
+				resourceItemName: "GridSettingsIcon",
+				hash: "c4949763b4bc893604fbb2d5d458a028",
+				resourceItemExtension: ".svg"
+			}
+		},
+		OpenChangeLogBtnImage: {
+			source: 3,
+			params: {
+				schemaName: "SysAdminUnitPageV2",
+				resourceItemName: "OpenChangeLogBtnImage",
+				hash: "cbebcb32589828e1055caf62150ff717",
+				resourceItemExtension: ".svg"
+			}
+		}
+	};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages, parametersLocalizableStrings: parametersLocalizableStrings};
+});

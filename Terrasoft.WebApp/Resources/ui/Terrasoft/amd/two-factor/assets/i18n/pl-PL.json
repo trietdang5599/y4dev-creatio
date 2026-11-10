@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Użyj innej metody",
+    "TwoFactorSubmitButton": "Zweryfikuj",
+    "TwoFactorBackButton": "Powrót",
+    "SmsProvider": {
+        "SendSms": "Wyślij inny kod",
+        "ResendSms": "Wyślij ponownie SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Wyślij inny kod"
+    },
+    "TwoFactor.AdditionalVerification": "Dodatkowa weryfikacja",
+    "TwoFactor.CancelButton.Caption": "Anuluj",
+    "TwoFactor.SmsProviderNotAvailable": "Wprowadź kod weryfikacyjny, który został wysłany SMS-em na Twój numer telefonu",
+    "TwoFactor.EnterSmsCode.Caption": "Wprowadź kod weryfikacyjny, który został wysłany SMS-em na Twój numer telefonu",
+    "TwoFactor.EnterEmailCode.Caption": "Wprowadź kod weryfikacyjny, który został wysłany na Twój adres e-mail",
+    "TwoFactor.EnterTOTPCode.Caption": "Wprowadź kod weryfikacyjny z aplikacji uwierzytelniającej",
+    "TwoFactor.VerificationCode.Caption": "Kod weryfikacji",
+    "TwoFactor.TOTPUnavailable.Caption": "Aby użyć metody aplikacji uwierzytelniającej, najpierw musisz ją skonfigurować. Możesz to zrobić na swojej stronie profilu.",
+    "TwoFactor.UseAnotherMethod.Caption": "Użyj innej metody",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Nieprawidłowy kod weryfikacyjny. Upewnij się, że wprowadziłeś poprawne dane lub skontaktuj się z administratorem systemu",
+    "TwoFactor.ValidationCanceled": "Anulowano weryfikację drugiego czynnika",
+    "TwoFactor.EnterRecoveryCode.Caption": "Wpisz kod odzyskiwania",
+    "TwoFactor.RecoveryCodesNotAvailable": "Aby użyć kodów odzyskiwania, najpierw musisz je skonfigurować. Możesz to zrobić na swojej stronie profilu"
+}

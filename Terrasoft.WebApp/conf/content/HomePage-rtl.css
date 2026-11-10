@@ -1,0 +1,79 @@
+﻿html[dir="rtl"] body[OldUI=false].home-page .main-header .left-header-container-class {
+  border-radius: 0 8px 8px 0;
+}
+html[dir="rtl"] body[OldUI=false].home-page .main-header .left-header-container-class .caption-class.fix-width {
+  flex-basis: inherit;
+  position: inherit;
+}
+html[dir="rtl"] body[OldUI=false].home-page .main-header .left-header-container-class .header-section-caption-class {
+  position: inherit;
+}
+html[dir="rtl"] body[OldUI=false].home-page .main-header .right-header-container-class {
+  border-radius: 8px 0 0 8px;
+}
+.home-page .center-panel {
+  background: #ebeeef;
+  padding-top: 0;
+  padding-right: 0;
+  margin-top: 0;
+  min-height: 100vh;
+  padding-bottom: 8px;
+}
+.home-page .center-panel.opened-right-panel {
+  padding-left: 41px;
+}
+.home-page.scroll .main-header {
+  box-shadow: 0 3px 3px -2px #d8d9d9;
+}
+.home-page.scroll .main-header .left-header-container-class {
+  border-bottom-right-radius: 0 !important;
+}
+.home-page.scroll .main-header .right-header-container-class {
+  border-bottom-left-radius: 0 !important;
+}
+@media screen and (max-width: 1439px) {
+  body[OldUI=false].home-page .right-panel {
+    margin-top: initial;
+    box-shadow: none;
+  }
+  body[OldUI=false].home-page .opened-right-panel .inner-context-right-image-class {
+    box-shadow: none;
+  }
+}
+body[OldUI=false].home-page .left-panel {
+  border-left: 8px solid #ebeeef;
+}
+body[OldUI=false].home-page .right-panel {
+  border: 9px solid #ebeeef;
+  border-top-right-radius: 14px;
+  border-left: none;
+  border-bottom: none;
+}
+body[OldUI=false].home-page .main-header.fixed {
+  border-top: 8px solid #ebeeef;
+}
+body[OldUI=false].home-page:not(.x-ie) .left-panel:after {
+  display: none;
+}
+body[OldUI=false].home-page :not(.x-ie) .communication-panel:after {
+  display: none;
+}
+body[OldUI=false].home-page div.center-panel {
+  padding-top: 72px;
+}
+body[OldUI=false].home-page .main-header .left-header-container-class {
+  border: 1px solid #e6e6e6;
+  border-radius: 8px 0 0 8px;
+  border-left: none;
+}
+body[OldUI=false].home-page .main-header .right-header-container-class {
+  border: 1px solid #e6e6e6;
+  border-radius: 0 8px 8px 0;
+  border-right: none;
+}
+body[OldUI=false].home-page .main-header[is-main-menu-header=true] {
+  height: 78px;
+}
+body[OldUI=false].home-page .main-header.opened-right-panel .right-header-container-class {
+  margin-left: 424px;
+}

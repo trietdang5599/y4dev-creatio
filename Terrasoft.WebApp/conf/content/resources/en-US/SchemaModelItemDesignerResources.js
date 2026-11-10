@@ -1,0 +1,48 @@
+﻿define("SchemaModelItemDesignerResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		HideLabelCaption: "Hide caption",
+		TextSizeCaption: "Text size",
+		StylePropertiesControlGroupCaption: "Style",
+		EnabledPropetyCaption: "Read-only",
+		DefaultTextSizeCaption: "Default",
+		LargeTextSizeCaption: "Title",
+		StandardTextSizeCaption: "Text",
+		LabelCaption: "Title on page",
+		LabelCaptionHint: "If the value is not specified, the field title will be the same as the column title in DB",
+		IsRequiredOnPageLabel: "Required on page",
+		CancelButtonCaption: "Cancel",
+		CaptionLabel: "Title",
+		ColumnCaption: "Title in DB",
+		CreateNewLookupCaption: "Add new lookup",
+		DataValueTypeLabel: "Data type",
+		DescriptionLabel: "Description",
+		DesignerCaption: "Column",
+		DropDownTypeLabel: "List",
+		DuplicateColumnNameMessage: "Column with this name already exists",
+		DuplicateSchemaNameMessage: "Schema with this name already exists",
+		isCascadeLabel: "Cascade connection",
+		isMultilineTextLabel: "Multiline text",
+		isRequiredLabel: "Is required in DB",
+		IsValueCloneableHint: "Select the checkbox if you need to copy the values in the columns to the new record when copying",
+		isValueCloneableLabel: "Make copy",
+		isVirtualLabel: "Read-only",
+		LookupCaption: "Lookup",
+		LookupSchemaDoesNotHavePrimaryDisplayColumnMsg: "Property \u0022Displayed value\u0022 is not set in the selected lookup. You cannot select values from this lookup without this property. Set this property in \u0022Advanced settings\u0022 section and try again.",
+		LookupTypeCaption: "Lookup view:",
+		LookupTypeLabel: "Pop-up window",
+		NameLabel: "Name in DB",
+		NewColumnCaption: "New column",
+		NewSchemaCaptionFieldCaption: "Title",
+		NewSchemaNameFieldCaption: "Name",
+		referenceSchemaUIdLabel: "Lookup",
+		SaveButtonCaption: "Save",
+		UseExistingLookupCaption: "Select existing lookup",
+		WrongColumnNameMessage: "Invalid value. Use symbols: a-z, A-Z, 0-9.  Symbol: 0-9 cannot be first.",
+		WrongPrefixMessage: "Name must contain prefix \u0022{0}\u0022",
+		WrongSchemaNameLengthMessage: "Code cannot be longer than {0} characters",
+		WrongSchemaNameMessage: "Invalid value. Use symbols: a-z, A-Z, 0-9.  Symbol: 0-9 cannot be first."
+	};
+	var parametersLocalizableStrings = {};
+	var localizableImages = {};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages, parametersLocalizableStrings: parametersLocalizableStrings};
+});

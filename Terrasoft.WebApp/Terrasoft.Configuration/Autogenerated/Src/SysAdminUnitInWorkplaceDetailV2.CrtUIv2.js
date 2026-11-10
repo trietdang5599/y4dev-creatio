@@ -1,0 +1,232 @@
+﻿define("SysAdminUnitInWorkplaceDetailV2", ["ConfigurationConstants"],
+	function(ConfigurationConstants) {
+		return {
+			entitySchemaName: "SysAdminUnitInWorkplace",
+
+			messages: {
+				"GetWorkplaceTypeCode": {
+					mode: Terrasoft.MessageMode.PTP,
+					direction: Terrasoft.MessageDirectionType.PUBLISH
+				}
+			},
+
+			methods: {
+
+				/**
+				 * ########## ######### ###### ########## ######
+				 * @overridden
+				 */
+				getAddRecordButtonVisible: function() {
+					return this.getToolsVisible();
+				},
+
+				/**
+				 * @overridden
+				 */
+				onCardSaved: function() {
+					this.openSysAdminLookup();
+				},
+
+				/**
+				 * @overridden
+				 **/
+				addRecord: function() {
+					this.sandbox.publish("SaveRecord", {
+						isSilent: true,
+						messageTags: [this.sandbox.id]
+					}, [this.sandbox.id]);
+				},
+
+				/**
+				 * Open administration objects directories.
+				 * @private
+				 */
+				openSysAdminLookup: function() {
+					this._getSysAdminLookupConfig(function openLookupByConfig(config) {
+						this.openLookup(config, this.addCallBack, this);
+					}, this);
+				},
+
+				/**
+				 * Creates a config to open a directory.
+				 * @private
+				 * @param {Function} callback Callback function.
+				 * @param {Object} scope Callback execution context.
+				 * @return {Object} Configuration object.
+				 */
+				_getSysAdminLookupConfig: function(callback, scope) {
+					var config = {
+						entitySchemaName: "SysAdminUnit",
+						multiSelect: true,
+						hideActions: true
+					};
+					config.filters = this._getSysAdminUnitFilter();
+					Ext.callback(callback, scope || this, [config]);
+				},
+
+				/**
+				 * @private
+				 */
+				_getSysAdminUnitFilter: function() {
+					const filterGroup = this.Terrasoft.createFilterGroup();
+					const workplaceId = this.get("MasterRecordId");
+					const notExistsFilter = this.Terrasoft.createNotExistsFilter("[SysAdminUnitInWorkplace:SysAdminUnit].Id");
+					notExistsFilter.subFilters.addItem(Terrasoft.createColumnFilterWithParameter(
+						Terrasoft.ComparisonType.EQUAL, "SysWorkplace.Id", workplaceId));
+					filterGroup.add("notExistsUsersFilter", notExistsFilter);
+					const workplaceTypeCode = this.sandbox.publish("GetWorkplaceTypeCode", null, [this.sandbox.id]);
+					if (workplaceTypeCode !== ConfigurationConstants.WorkplaceTypesCodes.LIMITED_INTERNAL) {
+						return filterGroup;
+					}
+					const connectionTypeFilter = this.Terrasoft.createColumnFilterWithParameter(
+						this.Terrasoft.ComparisonType.EQUAL, "ConnectionType",
+						ConfigurationConstants.SysAdminUnit.ConnectionType.AllEmployees);
+					filterGroup.add("connectionTypeFilter", connectionTypeFilter);
+					return filterGroup;
+				},
+
+				/**
+				 * Gets the filter by SysAdminUnit.
+				 * @private
+				 * @param {Array} sysAdminUnits Admin units in workplace.
+				 * @return {Object} Filter group.
+				 */
+				_getFilterBySysAdminUnitsInWorkplace: function(sysAdminUnits) {
+					var filterGroup = this.Terrasoft.createFilterGroup();
+					if (sysAdminUnits.length > 0) {
+						var existsFilter =
+								this.Terrasoft.createColumnInFilterWithParameters("Id", sysAdminUnits);
+						existsFilter.comparisonType = this.Terrasoft.ComparisonType.NOT_EQUAL;
+						filterGroup.addItem(existsFilter);
+					}
+					filterGroup.add("roleFilter", this._gerSysAdminUnitTypeFilter());
+					return filterGroup;
+				},
+
+				/**
+				 * Gets the filter by admin unit type.
+				 * @private
+				 * @return {Object} Filter group SysAdminUnit by type.
+				 */
+				_gerSysAdminUnitTypeFilter: function() {
+					var typeRolesFilter = this.Terrasoft.createFilterGroup();
+					var rolesFilter1 = this.Terrasoft.createColumnFilterWithParameter(
+							this.Terrasoft.ComparisonType.LESS, "SysAdminUnitTypeValue",
+							ConfigurationConstants.SysAdminUnit.Type.User);
+					typeRolesFilter.logicalOperation = this.Terrasoft.LogicalOperatorType.OR;
+					var rolesFilter2 = this.Terrasoft.createColumnFilterWithParameter(
+							this.Terrasoft.ComparisonType.EQUAL, "SysAdminUnitTypeValue",
+							ConfigurationConstants.SysAdminUnit.Type.FuncRole);
+					typeRolesFilter.addItem(rolesFilter1);
+					typeRolesFilter.add("functionalRoleFilter", rolesFilter2);
+					return typeRolesFilter;
+				},
+
+				/**
+				 * callBack function openLookup
+				 * @private
+				 * @param {Object} args
+				 */
+				addCallBack: function(args) {
+					var bq = Ext.create("Terrasoft.BatchQuery");
+					this.selectedRows = args.selectedRows.getItems();
+					this.selectedItems = [];
+					this.selectedRows.forEach(function(item) {
+						bq.add(this.getInsertQuery(item));
+						this.selectedItems.push(item.value);
+					}, this);
+					if (bq.queries.length) {
+						bq.execute(this.onItemInsert, this);
+					}
+				},
+
+				/**
+				* ########## ###### ## ########## ####### #################
+				* @param  {Object} item ######### # ########### ###### {SysWorkplaceId, value}
+				* @private
+				* @return Object
+				 **/
+				getInsertQuery: function(item) {
+					var insert = Ext.create("Terrasoft.InsertQuery", {
+						rootSchemaName: "SysAdminUnitInWorkplace"
+					});
+					insert.setParameterValue("SysAdminUnit", item.value, Terrasoft.DataValueType.GUID);
+					insert.setParameterValue("SysWorkplace", this.get("MasterRecordId"), Terrasoft.DataValueType.GUID);
+					return insert;
+				},
+
+				/**
+				 * ######## ########## ######## # ######
+				 * @private
+				 * @param {Object} response
+				 **/
+				onItemInsert: function(response) {
+					if (response && response.success) {
+						var queryResult = response.queryResults;
+						var rowIds = [];
+						this.Terrasoft.each(queryResult, function(item) {
+							if (item.id) {
+								rowIds.push(item.id);
+							}
+						});
+						var esq = this.Ext.create("Terrasoft.EntitySchemaQuery", {
+							rootSchema: this.entitySchema
+						});
+						this.initQueryColumns(esq);
+						var filter = this.Terrasoft.createColumnInFilterWithParameters("Id", rowIds);
+						filter.comparisonType = this.Terrasoft.ComparisonType.EQUAL;
+						esq.filters.add("id", filter);
+						esq.getEntityCollection(function(response) {
+							this.onGridDataLoaded(response);
+						}, this);
+					}
+				},
+
+				/**
+				 * @inheritdoc Terrasoft.BaseGridDetailV2#getEditRecordMenuItem
+				 * @overridden
+				 */
+				getEditRecordMenuItem: Terrasoft.emptyFn
+
+			},
+			diff: /**SCHEMA_DIFF*/[
+				{
+					"operation": "merge",
+					"name": "Detail",
+					"values": {
+						"wrapClass": ["hide-grid-caption-wrapClass"]
+					}
+				},
+				{
+					"operation": "merge",
+					"name": "DataGrid",
+					"values": {
+						"type": "listed",
+						"listedConfig": {
+							"name": "DataGridListedConfig",
+							"items": [
+								{
+									"name": "NameListedGridColumn",
+									"bindTo": "SysAdminUnit.Name",
+									"position": { "column": 1, "colSpan": 24 }
+								}
+							]
+						},
+						"tiledConfig": {
+							"name": "DataGridTiledConfig",
+							"grid": { "columns": 24, "rows": 1 },
+							"items": [
+								{
+									"name": "NameTiledGridColumn",
+									"bindTo": "SysAdminUnit.Name",
+									"type": "text",
+									"position": { "row": 1, "column": 0, "colSpan": 20 }
+								}
+							]
+						}
+					}
+				}
+			]/**SCHEMA_DIFF*/
+		};
+	}
+);

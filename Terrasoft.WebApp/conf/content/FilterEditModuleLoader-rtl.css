@@ -1,0 +1,47 @@
+﻿.menu .menu-item[data-tag="delete"],
+.menu .menu-item[data-tag="edit"],
+.menu .menu-item[data-tag="copy"],
+.menu .menu-item[data-tag="open-grid-settings-page"] {
+  display: none;
+}
+.controlsContainerLookupPage .main-buttons[data-tag="add"] {
+  display: none;
+}
+.firefox-hide-scroll {
+  scrollbar-color: transparent transparent;
+}
+.firefox-hide-scroll .ts-modalbox {
+  scrollbar-color: lightgray whitesmoke;
+}
+body.modalbox-top-position {
+  background: none;
+  direction: rtl;
+}
+body.modalbox-top-position .ts-modalbox {
+  margin-top: 0;
+  max-width: 80% !important;
+  transform: translate(-10.5%);
+}
+body.modalbox-top-position .ts-modalbox-cover {
+  background: none;
+}
+body.modalbox-top-position:not(.modalbox-design-rtl) .ts-modalbox {
+  direction: ltr;
+}
+body.modalbox-top-position:not(.modalbox-design-rtl) .main-content-wrapper,
+body.modalbox-top-position:not(.modalbox-design-rtl) .menu,
+body.modalbox-top-position:not(.modalbox-design-rtl) .listview-scroll {
+  direction: ltr;
+}
+body.modalbox-top-position.modalbox-rtl {
+  direction: ltr;
+}
+body.modalbox-top-position.modalbox-rtl .ts-modalbox {
+  direction: rtl;
+  transform: translate(10.5%);
+}
+body.modalbox-top-position.modalbox-rtl .main-content-wrapper,
+body.modalbox-top-position.modalbox-rtl .menu,
+body.modalbox-top-position.modalbox-rtl .listview-scroll {
+  direction: rtl;
+}

@@ -1,0 +1,11 @@
+﻿.select-deselect-container {
+  display: inline-flex;
+}
+.select-deselect-container .t-checkbox-control {
+  width: 45px;
+  padding: 6px 20px 5px 5px;
+}
+.select-deselect-container .t-label {
+  width: auto;
+  padding-top: 6px;
+}

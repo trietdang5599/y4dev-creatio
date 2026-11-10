@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g transform="translate(0 2)" fill="none" stroke="currentColor" stroke-width="1">
+    <rect width="16" height="14" stroke="none"/>
+    <rect x="0.5" y="0.5" width="15" height="13" fill="none"/>
+  </g>
+  <line x2="16" transform="translate(0 6.5)" fill="none" stroke="currentColor" stroke-width="1"/>
+  <g transform="translate(2)" fill="none" stroke="currentColor" stroke-width="1">
+    <rect width="3" height="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="2" height="4" fill="none"/>
+  </g>
+  <g transform="translate(11)" fill="none" stroke="currentColor" stroke-width="1">
+    <rect width="3" height="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="2" height="4" fill="none"/>
+  </g>
+</svg>

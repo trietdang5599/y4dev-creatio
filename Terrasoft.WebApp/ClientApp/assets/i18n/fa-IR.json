@@ -1,0 +1,2873 @@
+{
+    "ConfirmationDialog": {
+        "YES": "YES",
+        "NO": "خیر",
+        "DELETE": "DELETE",
+        "CANCEL": "CANCEL"
+    },
+    "InfoDialog": {
+        "OK": "بسیار خوب"
+    },
+    "AddRecordRightsDialog": {
+        "Add": "متمم",
+        "Cancel": "انصراف",
+        "RecordAuthor": "Record author",
+        "RightsRecipient": "User or role who obtains permissions",
+        "Title": "Add permissions based on the record author"
+    },
+    "AdministratedObjectPage": {
+        "AccessPermissions": "دسترسی ها",
+        "InfoBlockText": "System operations \"Add any data\", \"View any data\", \"Edit any data\", \"Delete any data\" granted to roles or users have higher priority than permissions that you configure in this section.",
+        "InfoBlockTitle": "Note",
+        "InfoBlockLink1": "How permission priorities work",
+        "InfoBlockLink2": "How permissions are inherited",
+        "InfoBlockLink3": "How to set up permissions for details",
+        "InfoBlockLink4": "How to apply new record permission setting to all existing records",
+        "InfoBlockLink5": "Access permission setup examples",
+        "NameFieldName": "نام",
+        "RightsByColumnDetail": "Use column permissions",
+        "RightsByColumnDetailTooltip": "Permission settings for specific columns (fields) of the object",
+        "RightsByOperationDetail": "Use operation permissions",
+        "RightsByOperationDetailTooltip": "Permission settings for create, read, edit and delete operations",
+        "RightsByRecordDetail": "Use record permissions",
+        "RightsByRecordDetailTooltip": "Permission settings for reading, editing and deleting specific records",
+        "TitleFieldName": "معلق",
+        "TitleFormat": "{0} object permissions",
+        "UpdatePermissions": "Update record permissions",
+        "OneEmptyRecordDefRightMessageTemplate": "Rule “{0}” contains no access permissions other than “Not set” and will not affect actual access settings in any way. When applying the new permissions, Creatio will delete this rule. Do you wish to proceed?",
+        "SeveralEmptyRecordDefRightsMessageTemplate": "Rules “{0}” contain no access permissions other than “Not set” and will not affect actual access settings in any way. When applying the new permissions, Creatio will delete these rules. Do you wish to proceed?",
+        "ProposalActualizationRights": "Record permission settings have been modified. Current permissions for existing {0} records must be updated. This may affect system performance for all users. \n Do you wish to update record permissions now?",
+        "EntityOperations": "ADVANCED OPERATIONS",
+        "AdditionalOperationPermissions": "Additional permissions",
+        "Operation": "عملیات",
+        "UserOrRole": "User or role",
+        "UserOrRoleWhoObtainsPermission": "User or role who obtains permissions",
+        "InfoBlockEntityOperationsText": "System operations \"CanExportGrid\" granted to roles or users have higher priority than permissions that you configure in this section.",
+        "RightsByEntityOperationDetail": "Use entity operation permissions",
+        "RightsByEntityOperationDetailTitle": "Additional permissions",
+        "RightsByEntityOperationDetailTooltip": "Permission settings for data export from current object based on role or user"
+    },
+    "AdministratedObjectSection": {
+        "BusinessLogicPermissions": "Record permissions enabled",
+        "Close": "بستن",
+        "ColumnPermissions": "Column permissions enabled",
+        "Name": "نام",
+        "ObjectPermissions": "Operation permissions enabled",
+        "Search": "جستجو",
+        "Title": "مجوزها",
+        "TitleColumn": "معلق",
+        "UpdatePermissions": "Update record permissions"
+    },
+    "BasePageComponent": {
+        "Close": "بستن",
+        "Apply": "اعمال",
+        "Cancel": "انصراف",
+        "Save": "ذخیره",
+        "Actions": "عملیات",
+        "Check": "Validation",
+        "Publish": "انتشار",
+        "PublishAndCompile": "Publish and compile"
+    },
+    "ClearChangeLogSettingsDialog": {
+        "AllObjects": "تمام موارد",
+        "AllPeriod": "All available data",
+        "Cancel": "انصراف",
+        "ChooseDate": "Choose date",
+        "ChooseObject": "Choose object",
+        "Clear": "پاک سازی",
+        "ObjectSettingsTitle": "Clear log data for the following objects",
+        "OnlySelectedObject": "Specific object",
+        "PeriodSettingsTitle": "Clear log data for the following period",
+        "Title": "Clear the change log",
+        "ToDatePeriod": "Only data older than"
+    },
+    "ChangeLogCleanerService": {
+        "SuccessLaunch": "System has begun clearing change log. You will receive a notification in the Communication panel when the process is complete"
+    },
+    "ChangeLogPage": {
+        "Close": "بستن",
+        "TitleFormat": "{0} change log",
+        "ViewLog": "VIEW LOG"
+    },
+    "ChangeLogSection": {
+        "Title": "تغییر گزارش",
+        "TitleColumn": "معلق",
+        "NameColumn": "نام",
+        "LoggingEnabledColumn": "Logging enabled",
+        "ClearChangeLog": "حذف گزارش"
+    },
+    "ChangeLogComponent": {
+        "Blankslate": "There are no records for this object in the Change log",
+        "InsertedTooltip": "رکورد افزوده شد",
+        "UpdatedTooltip": "رکورد اصلاح شد",
+        "DeletedTooltip": "رکورد حذف شد",
+        "ShowMore": "نمایش بیشتر",
+        "ShowLess": "Show less",
+        "ChangeType": "Change type",
+        "ChangeTrackedOn": "Change made on",
+        "ChangeTrackedBy": "Change made by",
+        "ChangeTracked": "رکورد",
+        "ColumnName": "ستون",
+        "ColumnOldValue": "Old value",
+        "ColumnNewValue": "افزودن مقادیر",
+        "Yes": "بلی",
+        "No": "No"
+    },
+    "LicenseManager": {
+        "PackageNameColumn": "نام",
+        "TypeColumn": "نوع",
+        "StartDateColumn": "تاریخ شروع",
+        "DueDateColumn": "انجام",
+        "StatusColumn": "وضعیت",
+        "CountColumn": "مجموع",
+        "LicenseIsActive": "فعال است",
+        "LicenseIsNotActive": "غیرفعال",
+        "TypePersonal": "شخصی",
+        "TypeConcurrent": "رقیب",
+        "TypeServer": "Server"
+    },
+    "LicenseSection": {
+        "Title": "License manager",
+        "BlankslateTitle": "This section has no records so far.",
+        "BlankslateDescription": "Your licenses will display here once you upload a license file",
+        "ServerLicenseTooltip": "Server and concurrent licenses are distributed from the user page",
+        "ConcurrentLicenseTooltip": "Server and concurrent licenses are distributed from the user page",
+        "UploadButtonCaption": "Upload",
+        "UploadLicensesCompleteMessage": "Licenses have been successfully uploaded",
+        "UploadLicensesErrorMessage": "Invalid file format",
+        "RequestLicensesButtonCaption": "درخواست",
+        "DeleteLicensesButtonCaption": "حذف",
+        "DeleteLicensesConfirmation": "Licenses will be deleted. Do you wish to proceed?",
+        "DeleteLicensesSuccess": "All licenses have been deleted successfully."
+    },
+    "LicensePage": {
+        "TitleFormat": "Product {0}"
+    },
+    "LicenseDetail": {
+        "Title": "لایسنس ها"
+    },
+    "LicensedUsersDetail": {
+        "Title": "Licensed users",
+        "UsersDialogCaption": "کاربران",
+        "UserNameColumn": "کاربر",
+        "EmailColumn": "ایمیل",
+        "JobTitleColumn": "عنوان شغلی",
+        "Delete": "Recall",
+        "Blankslate": "These licenses have not been distributed to any users yet"
+    },
+    "ObjectRecordRightsActualizationService": {
+        "SuccessLaunch": "System has begun updating record permissions based on the current settings. You will receive a notification in the Communication panel when the process is complete"
+    },
+    "ObjectChangeLogPage": {
+        "TitleFormat": "Change log for the {0} object",
+        "SettingsTabCaption": "Log settings",
+        "ViewChangeLogTabCaption": "Log data",
+        "EnableObjectTracking": "فعال سازی ورود"
+    },
+    "ObjectTypeFilter": {
+        "AllObjects": "تمام موارد",
+        "Lookups": "جستجوها",
+        "Sections": "بخشها"
+    },
+    "SearchInput": {
+        "Placeholder": "جستجو",
+        "Settings": {
+            "Cancel": "انصراف",
+            "Apply": "اعمال",
+            "SearchColumnTemplate": "Search by column \"{0}\"",
+            "StartsWith": "شروع با",
+            "Contains": "شامل می شود",
+            "Equals": "Equals"
+        }
+    },
+    "DeleteButtonTableCell": {
+        "Tooltip": "حذف"
+    },
+    "RightLevelSelect": {
+        "Granted": "اعطا شده",
+        "GrantedDelegate": "Granted with right to delegate",
+        "NotSet": "Not set"
+    },
+    "RightsByColumnDetail": {
+        "Add": "متمم",
+        "Blankslate": "Access to all columns is not restricted",
+        "Column": "ستون",
+        "ColumnBlankslate": "Add roles or users to manage their access to this column",
+        "DenyReadEdit": "Deny reading and editing",
+        "Drag": "Drag to change priority",
+        "PermitRead": "Permit reading",
+        "PermitReadEdit": "Permit reading and editing",
+        "Priority": "اولویت",
+        "Remove": "حذف",
+        "RightLevel": "سطح دسترسی",
+        "User": "User or role",
+        "ValidationMessage": "A rule for selected role already exists. Please choose another role to proceed",
+        "WarningDowngradingRights": "The permission restrictions in this rule can override other rules that are lower in the list"
+    },
+    "RightsByRecordDetail": {
+        "Add": "متمم",
+        "Blankslate": "Author-based permission rules are not set",
+        "Delete": "حذف",
+        "Edit": "انتشار",
+        "Read": "خواندن",
+        "RecordAuthor": "Record author",
+        "Remove": "حذف",
+        "RightsRecipient": "User or role who obtains permissions",
+        "Title": "Grant permissions based on the record author",
+        "TitleTooltip": "Permissions will be granted based on the record author, whenever a new record is created",
+        "ValidationMessage": "A rule for selected roles already exists. Please choose other roles to proceed"
+    },
+    "RightsByOperationsDetail": {
+        "Drag": "Drag to change priority",
+        "Priority": "اولویت",
+        "User": "User or role",
+        "Create": "قرارداد جدید",
+        "Read": "خواندن",
+        "Edit": "انتشار",
+        "Delete": "حذف",
+        "Remove": "حذف",
+        "Add": "متمم",
+        "Blankslate": "Add users or roles to grant them access to object data",
+        "ValidationMessage": "A rule for selected role already exists. Please choose another role to proceed",
+        "WarningDowngradingRights": "The permission restrictions in this rule can override other rules that are lower in the list",
+        "Allowed": "اعطا شده",
+        "Denied": "رد شد"
+    },
+    "SelectEntitySchemaColumnDialog": {
+        "Cancel": "انصراف",
+        "Select": "تنظیم",
+        "SelectFieldPlaceholder": "انتخاب ستون",
+        "Title": "انتخاب ستون"
+    },
+    "SelectSysAdminUnitDialog": {
+        "Cancel": "انصراف",
+        "FunctionalRoles": "نقش های وابسته",
+        "OrganizationalRoles": "نقش های سازمانی",
+        "Search": "جستجو",
+        "Select": "تنظیم",
+        "Title": "Select user or role",
+        "Users": "کاربران"
+    },
+    "SysAdminUnitTree": {},
+    "TrackedColumns": {
+        "TitleTooltip": "Set up the list of columns whose values will be recorded when a record is modified",
+        "Title": "ستونهای گزارش شده",
+        "CaptionColumn": "معلق",
+        "NameColumn": "نام",
+        "Add": "متمم",
+        "Remove": "حذف",
+        "Blankslate": "Logged columns are not selected"
+    },
+    "BaseSection": {
+        "BlankslateTitleWithFilters": "There are no records matching current search criteria.",
+        "BlankslateDescriptionWithFilters": "Clear or modify search parameters",
+        "DeleteRecordConfirmation": "رکورد منتخب حذف گردد؟?",
+        "AbsentDataErrorMessage": "Record has been deleted or you do not have access rights to it"
+    },
+    "BaseTableDetail": {
+        "BlankslateWithFilters": "There are no records matching current search criteria. Clear or modify search parameters",
+        "Add": "متمم"
+    },
+    "MultiselectDialog": {
+        "Select": "تنظیم",
+        "Selected": "Selected:",
+        "Cancel": "انصراف",
+        "Blankslate": "There are no records for this object",
+        "BlankslateWithFilters": "There are no records matching current search criteria. Clear or modify search parameters"
+    },
+    "DateRange": {
+        "To": "به"
+    },
+    "MailServerTableComponent": {
+        "AdditionalSettings": "تنظیمات اضافی",
+        "AddMailServer": "Add service",
+        "AllowEmailDownloading": "دریافت ایمیل ها",
+        "AllowEmailSending": "ارسال ایمیل ها",
+        "Copy": "کپی",
+        "DeleteConfirmation": "رکورد منتخب حذف گردد؟?",
+        "Delete": "حذف",
+        "Edit": "انتشار",
+        "Empty": "No mail services available",
+        "ExchangeMenuItem": "تبادل",
+        "IMAPIncomingSettingsDescription": "Email service settings for receiving emails. Specify mail server address, port and security settings",
+        "IMAPIncomingSettingsHeader": "Inbound mail server (IMAP)",
+        "ImapMenuItem": "IMAP/SMTP",
+        "LoginFormat": "Login format",
+        "MailServerAddress": "آدرس سرویس",
+        "MailServer": "Mail service",
+        "MailServerName": "Service name",
+        "MailServerSettings": "Service settings",
+        "MailServerType": "نوع سرویس",
+        "MailServiceRemoveToolTip": "Creatio is unable to delete the mail service because several mailboxes of this service exist in the application",
+        "None": "None",
+        "Port": "پورت",
+        "RequiredMailServiceActions": "Enable downloading or sending emails to set up the service",
+        "Section": {
+            "Add": "متمم",
+            "GoToDiagnostic": "Diagnostic tool"
+        },
+        "Security": "قابل اطمینان",
+        "AuthenticationType": "نوع احراز هویت",
+        "ApplicationId": "Application (client) ID",
+        "ClientSecret": "رمز محرمانه کلاینت",
+        "Server": "آدرس سرور",
+        "SMTPOutgoingSettingsDescription": "Email service settings for sending emails. Specify mail server address, port and security settings",
+        "SMTPOutgoingSettingsHeader": "Outgoing mail server (SMTP)",
+        "SuccessfulAddOperation": "You have successfully added a new email service. Users can now add mailboxes using this service",
+        "SuccessfulEditOperation": "Creatio has successfully updated the mail service settings",
+        "SuccessfulOperation": "Successful operation",
+        "Type": "نوع",
+        "UseEmailAddressAsLogin": "Use email address",
+        "UseLogin": "Use manual entry",
+        "UseUserNameAsLogin": "Use mailbox name",
+        "WarningTitle": "⚠ Warning",
+        "BasicAuthWarningMessage": "Please note, Basic Authentication is outdated and potentially unsafe. It is officially <a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online\" {0}>deprecated by Microsoft</a>. For production usage please consider switching to modern OAuth authentication. Configuration instructions are available in <a href=\"{1}\" {0}>Creatio Academy</a>."
+    },
+    "MailboxSettings": {
+        "AdditionalSettingsTabCaption": "تنظیمات اضافی",
+        "MailboxesTabCaption": "Mailboxes",
+        "MailServicesTabCaption": "Mailbox services",
+        "Title": "Mailbox settings"
+    },
+    "ValidationErrorDialogComponent": {
+        "Cancel": "انصراف",
+        "Close": "بستن"
+    },
+    "AddEntityOperationGranteeDialog": {
+        "Add": "متمم",
+        "Cancel": "انصراف",
+        "Operation": "عملیات",
+        "UserOrRole": "User or role who obtains permissions",
+        "Title": "Add permissions based on role or user"
+    },
+    "LocalizableStringsDialog": {
+        "Title": "Localizable Strings",
+        "NameTitle": "کد",
+        "ValueTitle": "مقدار",
+        "Add": "متمم",
+        "Cancel": "انصراف",
+        "Apply": "اعمال",
+        "ShowAllLanguages": "نمایش همه زبانها",
+        "HideInactiveLanguages": "Hide inactive languages",
+        "Validations": {
+            "RequiredNameCaption": "یک مقدار وارد کنید",
+            "PatternNameCaption": "مقدار نامعتبراست. از نمادهای: a-z، A-Z، 0-9 استفاده نمایید. نماد: 0-9 نمی تواند اول باشد",
+            "DuplicateNameCaption": "Localizable string with the same code already exists"
+        }
+    },
+    "OrderDirectionStrict": {
+        "Ascending": "صعودی",
+        "Descending": "نزولی"
+    },
+    "UsedLicensesCounterChart": {
+        "ActiveLicensesTitle": "Active licenses",
+        "ConcurrentLicenseTitle": "Concurrent licenses",
+        "UsedLicensesCountTitle": "Licensed",
+        "UsedLicensesCountSeparatorLabel": "از",
+        "DistributedLicensesLegend": "Licenses assigned to users",
+        "AvailableLicensesLegend": "Limit for concurrent user sessions",
+        "UnlimitedCountLabel": "of unlimited users",
+        "LimitOfLicensesLabel": "Limit of licenses"
+    },
+    "LicenseRequestDialog": {
+        "Title": "Company Id for licensing",
+        "LicenseVersionTitle": "License version",
+        "InputFieldDescription": "Your unique Company Id is stored in the “Licensing company Id” system setting. Changing the Company Id in this field will automatically update the value of the system setting.",
+        "LicenseVersionDescription": "Version of Creatio that you plan upload licenses to.",
+        "InvalidVersionFormat": "Please input the version in the form of three numbers divided with dots. For example, 7.18.1",
+        "RequestButtonCaption": "Generate a license request file"
+    },
+    "RightsByEntityOperationsDetail": {
+        "Add": "متمم",
+        "Title": "Additional permissions",
+        "Blankslate": "Add users or roles to grant them access to additional operations",
+        "Operation": "عملیات",
+        "UserOrRole": "User or role who obtains permissions",
+        "ValidationMessage": "Fields are not filled"
+    },
+    "SelectEntityOperationDialog": {
+        "Cancel": "انصراف",
+        "Search": "جستجو",
+        "Operations": "عملیات",
+        "Select": "تنظیم",
+        "Title": "Entity operation",
+        "Users": "کاربران",
+        "SelectFieldPlaceholder": "Select entity operation"
+    },
+    "LookupDialog": {
+        "TitleTemplate": "Select: {0}",
+        "Selected": "Selected:",
+        "SelectButton": "تنظیم",
+        "CancelButton": "انصراف",
+        "Blankslate": "There are no records for this object",
+        "AllPagesSelectionWarning": "The operation may take some time. Continue?"
+    },
+    "QuickEntityFilter": {
+        "NonGuidMessage": "Guid should contain 32 symbols with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)."
+    },
+    "EntitySchemaDesignerPage": {
+        "NameFieldName": "نام",
+        "CaptionFieldName": "معلق"
+    },
+    "SqlScriptDesignerPage": {
+        "Name": "نام",
+        "Caption": "معلق"
+    },
+    "SchemaDataDesignerPage": {
+        "ActualizeData": "Actualize data",
+        "Fields": {
+            "Name": "نام",
+            "Object": "هدف",
+            "InstallType": "نوع تنظیم",
+            "Package": "پکیج"
+        },
+        "InfoBlockText1": "نوع تنظیم",
+        "InfoBlockText2": "The installation type determines the method of adding the application data upon the installation of the package.",
+        "InfoBlockText3": "• Installation - the data is added on the first installation of the package and is updated along with the package updates. This is the most versatile type and is used by default.",
+        "InfoBlockText4": "• Update existing - the data is added during the first installation of the package. Updating the package modifies only the data in the columns where the “Forced update” checkbox is selected on the “Column setup” tab. Use this type to deliver “hotfix” updates and other similar cases.",
+        "InfoBlockText5": "• Initial installation - the data is added only on the first installation of the package. This type is enabled only when installing packages via the WorkspaceConsole utility. Using “Initial installation” is generally not recommended.",
+        "ColumnsSettingTabCaption": "Columns setting",
+        "BoundDataTabCaption": "Bound data",
+        "InstallType": {
+            "Install": "تنظیم",
+            "FirstInstall": "تنظیم اولیه",
+            "Update": "به روز رسانی های موجود"
+        },
+        "ColumnsDetail": {
+            "Title": "Columns setting",
+            "Blankslate": "Select an object, then set up the columns",
+            "ErrorDeletePrimaryColumn": "Deleting the primary column \"{0}\" is forbidden",
+            "ColumnsAreNotAvailableInPackageMessage": "These columns are not available in current package and can not be added: {0}",
+            "Columns": {
+                "Caption": "معلق",
+                "Name": "نام",
+                "ForcedUpdate": "بروزرسانی اجباری شده است",
+                "Key": "کلید"
+            },
+            "Tooltips": {
+                "ForcedUpdate": "The checkbox indicates that the data in this column will update whenever the corresponding package is updated. This checkbox is used for the “Update existing” data installation type only.",
+                "Key": "The checkbox is set for the object's primary column by default. If the database uses composite keys, select this checkbox for all composite key columns. An object's primary column cannot be a composite key column."
+            }
+        },
+        "BoundDataDetail": {
+            "Title": "اطلاعات",
+            "Blankslate": "Select records to bind",
+            "ActualDataWasLoaded": "Current data has been loaded"
+        }
+    },
+    "WorkspaceExplorer": {
+        "Section": {
+            "ActionButtonCaption": "عملیات",
+            "Title": "پیکربندی",
+            "WorkspaceItemMoveService": {
+                "NameColumn": "نام",
+                "SelectPackageDialogTitle": "Move the {0} element to package",
+                "MultiselectElementsPackageDialogTitle": "Move {0} element(s) to package",
+                "MoveElementsWebServiceSuccessMessage": "Elements successfully moved",
+                "NoPackagesMessage": "No available packages",
+                "MoveAllPackageElementsWebServiceSuccessMessage": "Elements successfully moved",
+                "MoveAllPackageElementsDialogTitle": "Move the {0} package elements to package",
+                "SpecifyDependenciesConfirmationDialog": "The {0} package lacks dependencies required for correct migration. Do you wish to install the missing dependencies automatically?"
+            },
+            "WorkspaceItemMoveValidateDialog": {
+                "ErrorMessageTitle": "Elements move error",
+                "WithoutValidationConfirmationMessage": "This action disrupts the configuration integrity due to the current dependencies between the transferred package elements. To restore the integrity, move the remaining elements required by the current dependencies or modify the dependencies.\nUnless you plan on doing any of the above, we do not recommend to proceed.\nProceed with moving the package elements?\n\n",
+                "MoveButtonCaption": "Move elements"
+            },
+            "PackageStorageValidationMessageDialog": {
+                "Title": "Configuration errors",
+                "MessageColumn": "شرح",
+                "ItemNameColumn": "Element",
+                "ItemTypeColumn": "نوع",
+                "PackageNameColumn": "پکیج",
+                "ConfirmationTitle": "Elements move error",
+                "WithoutValidationConfirmationMessage": "This action disrupts the configuration integrity due to the current dependencies between the transferred package elements. To restore the integrity, move the remaining elements required by the current dependencies or modify the dependencies.\nUnless you plan on doing any of the above, we do not recommend to proceed.\nProceed with moving the package elements?\n\n",
+                "MoveButtonCaption": "Move elements"
+            },
+            "ValidateWorkspaceDialog": {
+                "ErrorMessageTitle": "Configuration errors",
+                "ValidationSuccess": "The configuration validated successfully. No errors found"
+            },
+            "Packages": {
+                "InstallPackageDialog": {
+                    "Title": "Install package from repository",
+                    "InputFieldPackageName": "پکیج",
+                    "InputFieldRepositoryAddress": "Version control system repository",
+                    "InputFieldVersion": "نسخه",
+                    "Cancel": "انصراف",
+                    "Install": "تنظیم"
+                },
+                "CreatePackageDialog": {
+                    "Title": "پکیج",
+                    "InputFieldName": "نام",
+                    "InputFieldDescription": "شرح",
+                    "InputFieldRepositoryAddress": "Version control system repository",
+                    "InputFieldVersion": "نسخه",
+                    "SaveButtonCaption": "ذخیره",
+                    "Cancel": "انصراف",
+                    "OpenPackagePage": "Create and add dependencies",
+                    "Validation": {
+                        "PackageNameNotSpecified": "Package name is not specified",
+                        "PackageVersionNotSpecified": "Package version is not specified",
+                        "NotAllowedFormat": "Wrong format for repository version",
+                        "MaximumLengthExeeded": "Maximum text length exceeded"
+                    }
+                },
+                "SourceControl": {
+                    "CommitResult": {
+                        "Success": "Changes successfully committed to repository",
+                        "CustomPackage": "Unable to commit custom package to repository",
+                        "PackageUpdateNeed": "Changes have been detected in the repository. Workspace update is required",
+                        "PackageHasForeignLock": "Unable to save changes: the package where the item is saved is locked by another user"
+                    },
+                    "CommitChangesDialog": {
+                        "Title": "Commit package to repository",
+                        "LogMessageFieldCaption": "شرح",
+                        "CommitButtonCaption": "Commit changes",
+                        "Cancel": "انصراف",
+                        "NoChanges": "No items to be committed"
+                    },
+                    "Update": {
+                        "ConfirmMessage": "Do you wish to update this package from the repository?",
+                        "NoChanges": "No changes found"
+                    },
+                    "Install": {
+                        "ConfirmMessage": "Installed packages found. The package structure can be completely changed when installing for the next time. Continue?",
+                        "NoChanges": "No changes found"
+                    },
+                    "Restore": {
+                        "ConfirmMessage": "Workspace will be updated to the latest revision. All your changes will be lost. Continue?",
+                        "Success": "Workspace successfully restored from the repository"
+                    }
+                },
+                "PackageCreated": "Successfully created new package: {0}",
+                "PackageDeleted": "Successfully deleted the package: {0}",
+                "PackageLocked": "Successfully locked package: {0} in SVN",
+                "PackageUnlocked": "Successfully unlocked package: {0} in SVN",
+                "SearchPlaceholder": "Search by package",
+                "AllPackagesCaption": "All packages",
+                "DeleteConfirmation": "Are you sure you want to delete the selected package?",
+                "BlankslateTitle": "No packages found",
+                "InstallFromRepository": {
+                    "NoRepositories": "Creatio could not find any saved repositories. Do you wish to save a new repository?",
+                    "NoActiveRepository": "Creatio could not find any active repositories. Do you wish to go to the list of repositories?"
+                }
+            },
+            "Items": {
+                "ImportSuccessMessage": "The \"{0}\" item is successfully imported to the \"{1}\" package",
+                "UpdateDBStructureConfirmMessage": "This will update the database structure for the selected object. Do you wish to proceed?",
+                "GenerateSchemasSourcesConfirmMessage": "This will generate source code for the selected element. Do you wish to proceed?",
+                "InstallSqlScriptsConfirmMessage": "This will install the selected SQL script to the database. Do you wish to proceed?",
+                "InstallDataConfirmMessage": "This will install the data for the selected item. Do you wish to proceed?",
+                "DeleteConfirmMessage": "Do you wish to permanently delete the selected item?",
+                "RevertChangesMessage": "All changes in selected items will be lost. Continue?",
+                "RecordLockedInSVNSuccessfully": "Record locked in SVN successfully",
+                "RecordUnlockedInSVNSuccessfully": "Record unlocked in SVN successfully",
+                "MultiItemActionButton": "Multi actions",
+                "Columns": {
+                    "UId": "UID",
+                    "Name": "نام",
+                    "Title": "معلق",
+                    "Status": "وضعیت",
+                    "Type": "نوع",
+                    "Object": "هدف",
+                    "ModifiedOn": "ویرایش شده در",
+                    "Package": "پکیج"
+                },
+                "Add": {
+                    "Caption": "متمم",
+                    "Sql": "SQL script",
+                    "SourceCode": "کد منبع",
+                    "Entity": "هدف",
+                    "ReplacingEntity": "Replacing object",
+                    "ClientUnit": {
+                        "Module": "بخش",
+                        "EditViewModelSchema": "Page view model",
+                        "AngularSchema": "Freedom UI page",
+                        "ModuleViewModelSchema": "Section view model",
+                        "GridDetailViewModelSchema": "Detail (list) view model",
+                        "EditControlsDetailViewModelSchema": "Detail (fields) view model",
+                        "ExtendedClientUnitSchema": "Replacing view model",
+                        "ExtendedAngularSchema": "Angular replacing view model"
+                    },
+                    "UserTask": "وظیفه کاربر",
+                    "BusinessProcess": "فرایند تجاری",
+                    "DataBinding": "اطلاعات",
+                    "Import": "ورودی",
+                    "RestService": "Rest service",
+                    "SoapService": "Soap service"
+                },
+                "Types": {
+                    "SqlScript": "SQL script",
+                    "SchemaData": "اطلاعات",
+                    "Assembly": "Reference assembly",
+                    "EntitySchema": "هدف",
+                    "ClientUnitSchema": "Client module",
+                    "SourceCodeSchema": "کد منبع",
+                    "ProcessSchema": "فرایندهای تجاری",
+                    "DcmSchema": "دولت",
+                    "ProcessUserTaskSchema": "وظیفه کاربر",
+                    "CampaignSchema": "Marketing campaign",
+                    "ServiceSchema": "وب سرویس",
+                    "AddonSchema": "Addon"
+                },
+                "Status": {
+                    "NeedInstall": "موارد مورد نیاز در دیتابیس تنظیم خواهد شد",
+                    "NeedUpdateSourceCode": "نیازمند برزورسانی کد منبع",
+                    "NeedUpdateStructure": "Database update required",
+                    "LockedInSVN": "Locked in SVN",
+                    "UnlockedInSVN": "Unlocked in SVN"
+                },
+                "Filters": {
+                    "Types": {
+                        "AllItems": "All items",
+                        "Placeholder": "نوع"
+                    },
+                    "States": {
+                        "AllItems": "All items",
+                        "Placeholder": "فیلترها",
+                        "Locked": "قفل شده",
+                        "NeedActualization": "Need actualization",
+                        "Error": "Has error"
+                    }
+                },
+                "DetailsDialog": {
+                    "Close": "بستن",
+                    "PageTitle": "خصوصیات",
+                    "Title": "معلق",
+                    "Name": "نام",
+                    "FullQualifiedName": "Full qualified assembly name",
+                    "DataObjectName": "هدف",
+                    "CreatedBy": "ایجاد شده توسط",
+                    "CreatedOn": "ایجادشده در",
+                    "PackageName": "پکیج",
+                    "ParentCaption": "مرجع",
+                    "ReplaceParent": "جابجایی منبع",
+                    "IsChanged": "اصلاح شده",
+                    "UId": "UId",
+                    "ModifiedBy": "ویرایش شده توسط",
+                    "Id": "شناسه",
+                    "ModifiedOn": "ویرایش شده در",
+                    "ManagerName": "نام مدیر",
+                    "MetaDataModifiedOn": "Metadata modified on",
+                    "Description": "شرح",
+                    "IsLocked": "قفل شده",
+                    "NeedUpdateDBStructure": "Database update required",
+                    "NeedInstall": "موارد مورد نیاز در دیتابیس تنظیم خواهد شد",
+                    "LastErrorText": "Last error message",
+                    "LockedBy": "قفل شده توسط",
+                    "DbStructureModifiedOn": "Database structure modified on",
+                    "IsNetStandard": "IsNetStandard",
+                    "LoadOnAppStart": "LoadOnAppStart",
+                    "UIdTooltip": "Configuration element unique Id. The configuration element Id will always remain the same in any application",
+                    "IdTooltip": "This column is the primary key in the database tables. A record Id may be different in different applications"
+                }
+            },
+            "Actions": {
+                "Move": "Move to another package",
+                "MovePackageAllElements": "Move all elements",
+                "Blocks": {
+                    "SourceCode": "کد منبع",
+                    "Actualization": "Actualize items",
+                    "DevInFileSystem": "File system development mode",
+                    "VersionControl": "SVN repositories",
+                    "Packages": "پکیج ها",
+                    "Validation": "پیکربندی"
+                },
+                "Compile": "Compile",
+                "CompileAll": "Compile all",
+                "Edit": "انتشار",
+                "Delete": "حذف",
+                "MultiDelete": "Delete ({0})",
+                "MultiExport": "Export ({0})",
+                "Export": "خروجی",
+                "Update": "Update from repository",
+                "Commit": "Commit to repository",
+                "Properties": "خصوصیات",
+                "UpdateDBStructure": "Update database structure",
+                "MultiUpdateDBStructure": "Update objects DB structure",
+                "EditProcess": "Edit process",
+                "GenerateSchemasSources": "Generate source code",
+                "InstallSqlScripts": "تنظیم",
+                "MultiInstallSqlScripts": "Install SQL scripts",
+                "InstallData": "تنظیم",
+                "MultiInstallData": "Install data",
+                "RevertChanges": "لغو تغییرات",
+                "InstallRequiredSqlScripts": "Install SQL scripts where it is needed",
+                "InstallRequiredData": "Install data where it is needed",
+                "InstallRequiredSchemasDBStructure": "Update DB structure where it is needed",
+                "OperationSuccessMessage": "Operation was successful",
+                "GenerateRequiredSchemasSources": "Generate where it is needed",
+                "GenerateModifiedSchemasSources": "Generate for modified schemas",
+                "GenerateAllSchemasSources": "Generate for all schemas",
+                "GenerateAllSchemasSourcesWasStarted": "System has begun generating source code for all schemas. You will receive a notification in the Communication panel when the process is complete",
+                "LoadPackagesToFileSystem": "Download packages to file system",
+                "LoadPackagesToDB": "Update packages from file system",
+                "OpenRepositoriesList": "Open list of repositories",
+                "RestoreFromRepository": "Restore from repository",
+                "InstallPackageFromRepository": "Install package from repository",
+                "PackageDependenciesDiagram": "Package dependencies diagram",
+                "ValidateWorkspace": "Validate configuration",
+                "FileDesignModeInfo": "To activate, set in the application config file:\n - true to the enabled attribute of the fileDesignMode element;\n - false for the UseStaticFileContent flag.",
+                "Confirmation": {
+                    "InstallRequiredSqlScripts": "All items requiring installation will be installed to database. Continue?",
+                    "InstallRequiredData": "All items requiring installation will be installed to database. Continue?",
+                    "InstallRequiredSchemasDBStructure": "Database structure will be updated for all schemas that require update. Continue?",
+                    "Compile": "The workspace will be compiled. Do you wish to proceed?",
+                    "CompileAll": "The workspace will be recompiled. Do you wish to proceed?",
+                    "GenerateRequiredSchemasSources": "Generate source codes for all schemas where it is needed?",
+                    "GenerateModifiedSchemasSources": "Generate source codes for modified schemas?",
+                    "GenerateAllSchemasSources": "Generate source codes for all schemas? The operation’s result will be sent to the communication panel",
+                    "ThirdPartyPublisher": "The \"{0}\" item is either created by third-party publisher or installed from the file archive. \n Changes for this item cannot be saved. Continue?",
+                    "ValidateWorkspace": "The operation may take some time. Continue?",
+                    "ExportItems": "The operation may take some time. Continue?"
+                },
+                "OpenMetaData": "Open metadata",
+                "OpenSourceCode": "Open source code",
+                "LockPackageElement": "Lock element in SVN",
+                "UnLockPackageElement": "Unlock element in SVN",
+                "LockPackage": "Lock package in SVN",
+                "UnLockPackage": "Unlock package in SVN",
+                "GenerateAllSchemasSourcesSuccess": "Source code for all schemas has been successfully generated",
+                "GenerateAllSchemasSourcesError": "Source code generation for some schemas finished with an error. Error messages for each schema can be accessed in the configuration items list after reloading. Do you wish to reload configuration items?"
+            },
+            "WorkspaceSyncResultDialog": {
+                "Close": "بستن",
+                "Title": "تغییرات",
+                "Error": "خطا",
+                "ShowOnlyErrors": "Show only errors",
+                "Columns": {
+                    "Name": "نام",
+                    "Type": "نوع",
+                    "Status": "وضعیت",
+                    "ErrorText": "Error text"
+                }
+            }
+        },
+        "PackagePage": {
+            "Title": "Package properties",
+            "Name": "نام",
+            "Description": "شرح",
+            "Maintainer": "نگاه دارنده",
+            "MaintainerTooltip": "Package developer",
+            "PackageType": "Compile into a separate assembly",
+            "RepositoryAddress": "Repository address",
+            "RepositoryVersion": "Repository version",
+            "PackageVersion": "Package version",
+            "DependenciesTab": "Dependencies",
+            "SysInformationTab": "System Information",
+            "PackageDependencyDetail": {
+                "DependsOnPackagesTitle": "Depends on Packages",
+                "DependentPackagesTitle": "Dependent Packages",
+                "DependsOnPackagesTooltip": "Packages that the current package depends on",
+                "DependentPackagesTooltip": "Packages that depend on the current package",
+                "PackagesDialogCaption": "Select package",
+                "NameColumn": "نام",
+                "Maintainer": "نگاه دارنده",
+                "Remove": "حذف",
+                "Blankslate": "There are no packages",
+                "Add": "متمم"
+            },
+            "SysInformation": {
+                "CreatedBy": "ایجاد شده توسط",
+                "ModifiedBy": "ویرایش شده توسط",
+                "CreatedOn": "ایجادشده در",
+                "ModifiedOn": "ویرایش شده در",
+                "UIDTooltip": "Package unique Id. The package Id will always remain the same in any application",
+                "IDTooltip": "This column is the primary key in the database tables. A record Id may be different in different applications"
+            },
+            "RepositoryAuthorizationRequired": "Operation terminated. Authentication required. Log in now?",
+            "CompilationRequired": "Compile the configuration to apply the changes",
+            "InstallationFlow": "Installation steps",
+            "InstallationFlowTab": {
+                "BeforePackageInstall": "Before package installation",
+                "BeforePackageInstallTooltip": "Actions to execute before package installation",
+                "AfterPackageInstall": "After package installation",
+                "AfterPackageInstallTooltip": "Actions to execute after package installation",
+                "BeforePackageUninstall": "Before package deletion",
+                "BeforePackageUninstallTooltip": "Actions to execute before package deletion",
+                "Blankslate": "There are no steps"
+            },
+            "InstallFlowPackageDetail": {
+                "Add": "متمم",
+                "ScriptsDialogCaption": "Select schemas",
+                "ColumnNameCaption": "نام",
+                "ColumnTitleCaption": "معلق",
+                "ColumnPositionCaption": "درخواست",
+                "ColumnModifiedOnCaption": "Modified On",
+                "Install": "Run manually",
+                "Success": "Operation was sucsessful"
+            }
+        },
+        "Errors": {
+            "AssemblyIsNotInitialized": "Please compile the configuration before resuming your work with Creatio. \n Do you wish to compile now?"
+        },
+        "PageTemplateLookup": {
+            "HeaderCaption": "Select template",
+            "Cancel": "انصراف",
+            "Select": "تنظیم"
+        }
+    },
+    "TableDialog": {
+        "Close": "بستن",
+        "Cancel": "انصراف"
+    },
+    "ErrorListDialogService": {
+        "CodeErrorListDialogCaption": "Compilation result",
+        "FileNameColumn": "نام فایل",
+        "ErrorTextColumn": "شرح",
+        "ErrorNumberColumn": "کد",
+        "LineColumn": "خط",
+        "CodeValidationErrorListDialogCaption": "Error while saving package dependencies",
+        "SourceColumn": "منبع",
+        "ReferenceColumn": "Reference",
+        "PackageColumn": "پکیج",
+        "AcademyHelpUrlCaption": " Learn more in the Academy"
+    },
+    "SchemaDesigners": {
+        "BaseDesignerPage": {
+            "SaveSuccessMessage": "Record saved successfully",
+            "PublishSuccessMessage": "Record published successfully",
+            "ChangeParentSchemaMessage": "Use \"{0}\" as parent object for current object?",
+            "DeleteParentSchemaMessage": "Delete parent object for current object?"
+        },
+        "BaseDesignerStructureService": {
+            "MiniPage": {
+                "NameTitle": "کد",
+                "PackageTitle": "پکیج",
+                "Apply": "اعمال",
+                "Cancel": "انصراف",
+                "Ok": "بسیار خوب",
+                "Caption": "معلق",
+                "Description": "شرح",
+                "Validations": {
+                    "RequiredNameCaption": "یک مقدار وارد کنید",
+                    "PatternNameCaption": "مقدار نامعتبراست. از نمادهای: a-z، A-Z، 0-9 استفاده نمایید. نماد: 0-9 نمی تواند اول باشد",
+                    "PatternPrefixTemplate": "Code must start with the \"{0}\" prefix"
+                }
+            }
+        },
+        "SchemaParameterMiniPage": {
+            "CardTitle": "پارامترها",
+            "Title": "کد",
+            "Caption": "معلق",
+            "Lookup": "جستجو",
+            "Value": "مقدار",
+            "Schema": "چارت",
+            "Create": "قرارداد جدید",
+            "Cancel": "انصراف",
+            "Resulting": "هدف نائل شده",
+            "Required": "ضروری است",
+            "ContainsPerformerId": "Contains performer Id",
+            "LazyLoad": "Lazy load",
+            "Serializable": "Serializable",
+            "CopyValue": "Copy value",
+            "Type": "نوع",
+            "Save": "ذخیره",
+            "ProperyExistMessage": "This property is already checked in another parameter. It can only be used in 1 parameter.",
+            "Validations": {
+                "RequiredNameCaption": "یک مقدار وارد کنید",
+                "PatternNameCaption": "مقدار نامعتبراست. از نمادهای: a-z، A-Z، 0-9 استفاده نمایید. نماد: 0-9 نمی تواند اول باشد",
+                "DataValueTypeListContainsMessage": "Please select value from the list"
+            }
+        },
+        "SqlSchemaDesignerPage": {
+            "Caption": "SQL",
+            "DependentScriptsCaption": "Dependent SQL Scripts",
+            "DependsOnScriptCaption": "Depends on SQL Scripts",
+            "SqlScriptValidateCaption": "SQL script validation completed"
+        },
+        "SqlSchemaDesignerMiniPage": {
+            "Title": "Sql script",
+            "DbmsType": "نوع DBMS",
+            "InstallationType": "نوع تنظیم",
+            "BackwardCompatibilityConfirmed": "Backward compatible",
+            "BackwardCompatibilityConfirmedLabelBeforeLink": "Backwards compatible SQL scripts are those that comply with recommendations ",
+            "BackwardCompatibilityConfirmedLabelAfterLink": ". Select this checkbox only if your script complies with every recommendation",
+            "AcademyHelpUrlCaption": "specified in a separate article"
+        },
+        "MultiSelectSqlSchemasMiniPage": {
+            "Title": "Select SQL script",
+            "TableColumn": {
+                "Name": "کد",
+                "Package": "پکیج"
+            }
+        },
+        "EntitySchemaDesigner": {
+            "EntitySchemaDesignerStructure": {
+                "InheritedColumnsCaption": "Inherited columns",
+                "ColumnsCaption": "ستونها",
+                "IndexesCaption": "Indexes",
+                "EventsCaption": "رویدادها",
+                "SourceCodeCaption": "کد منبع"
+            },
+            "Actions": {
+                "OpenEmbeddedProcess": "Open process"
+            },
+            "EntityEditor": {
+                "GeneralGroup": {
+                    "Caption": "عمومی",
+                    "NameCaption": "کد",
+                    "TitleCaption": "معلق",
+                    "PackageCaption": "پکیج",
+                    "DescriptionCaption": "شرح"
+                },
+                "ObjectSettings": {
+                    "Caption": "Object settings",
+                    "IdCaption": "شناسه",
+                    "DisplayedValueCaption": "مقادیر نمایش داده شده",
+                    "ParentInHierarchyCaption": "Parent In Hierarchy",
+                    "ChangeLogObjectNameCaption": "Change Log Object Name",
+                    "LocalizationObjectNameCaption": "Localization Object Name",
+                    "ImageCaption": "عکس",
+                    "SortingInListsCaption": "Sorting In Lists",
+                    "OwnerCaption": "ایجاد کننده",
+                    "PermissionObjectNameCaption": "Permission Object Name",
+                    "ColorCaption": "رنگ"
+                },
+                "InheritanceGroup": {
+                    "Caption": "Inheritance",
+                    "ParentObjectCaption": "مورد منبع",
+                    "ExtendParent": "جابجایی منبع"
+                },
+                "BehaviorGroup": {
+                    "Caption": "Behavior",
+                    "isDBViewCaption": "Represents Structure of Database View",
+                    "isVirtualCaption": "Virtual",
+                    "isTrackChangesInDBCaption": "بروزرسانی تغییرات گزارش",
+                    "isSSPAvailable": "Is object available as section on SSP",
+                    "useRecordDeactivationCaption": "Allow records deactivation",
+                    "showInAdvancedModeCaption": "Show in advanced mode only"
+                },
+                "AccessRights": {
+                    "Caption": "دسترسی ها",
+                    "OperationsCaption": "عملیات",
+                    "ColumnsCaption": "ستونها",
+                    "RecordsCaption": "Records",
+                    "MasterRecordCaption": "Object to inherit access permissions from"
+                },
+                "HistoryColumns": {
+                    "Caption": "History columns",
+                    "CreatedByCaption": "ایجاد شده توسط",
+                    "CreatedOnCaption": "ایجادشده در",
+                    "ModifiedByCaption": "ویرایش شده توسط",
+                    "ModifiedOnCaption": "ویرایش شده در"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "یک مقدار وارد کنید",
+                    "PatternNameCaption": "مقدار نامعتبراست. از نمادهای: a-z، A-Z، 0-9 استفاده نمایید. نماد: 0-9 نمی تواند اول باشد.",
+                    "PatternPrefixTemplate": "Code must start with the \"{0}\" prefix",
+                    "DuplicateNameCaption": "Object with the same code already exists"
+                },
+                "EntityBusinessRules": {
+                    "OpenBusinessRulesButtonCaption": "Open business rules",
+                    "BusinessRulesDialogTitle": "قوانین تجاری",
+                    "BusinessRulesDialogCancelButton": "انصراف",
+                    "BusinessRulesDialogApplyButton": "اعمال"
+                }
+            },
+            "ColumnEditor": {
+                "GeneralGroup": {
+                    "Caption": "عمومی",
+                    "NameCaption": "کد",
+                    "EnglishNameCaption": "کد",
+                    "TitleCaption": "معلق",
+                    "DataTypeCaption": "نوع اطلاعات",
+                    "FormatCaption": "فرمت",
+                    "ReferenceSchemaCaption": "جستجو",
+                    "DescriptionCaption": "شرح",
+                    "RequiredCaption": "ضروری است",
+                    "DefaultValueCaption": "مقدار پیش فرض",
+                    "CanMakeCopyCaption": "Copy this value when copying records",
+                    "IsMultiLineTextCaption": "Multi-line text",
+                    "IsLocalizableTextCaption": "Localizable text",
+                    "IsCascadeCaption": "On lookup value deletion:",
+                    "IsMaskedCaption": "Display input mask",
+                    "IsFormatValidationCaption": "Validate format",
+                    "isAutonumber": "Autonumber"
+                },
+                "BehaviorGroup": {
+                    "Caption": "Behavior",
+                    "UsageModeCaption": "مد استفاده",
+                    "UpdateChangeLogCaption": "بروزرسانی تغییرات گزارش",
+                    "IndexedCaption": "Indexed",
+                    "SensitiveDataCaption": "Сontains personal data"
+                },
+                "RequirementType": {
+                    "NoCaption": "خیر",
+                    "YesCaption": "بلی"
+                },
+                "UsageType": {
+                    "GeneralCaption": "عمومی",
+                    "AdvancedCaption": "Advanced",
+                    "NoneCaption": "None"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "یک مقدار وارد کنید",
+                    "PatternNameCaption": "مقدار نامعتبراست. از نمادهای: a-z، A-Z، 0-9 استفاده نمایید. نماد: 0-9 نمی تواند اول باشد",
+                    "DuplicateNameCaption": "Column with the same code already exists",
+                    "PatternPrefixTemplate": "Code must start with the \"{0}\" prefix"
+                },
+                "DataSourceGroup": {
+                    "DoNotControlIntegrityCaption": "Do not control integrity"
+                },
+                "DefaultValueTypes": {
+                    "None": "None",
+                    "Const": "Constant",
+                    "Settings": "تنظیمات سیستم",
+                    "SystemValue": "متغیر سیستم",
+                    "Sequence": "Autonumber"
+                },
+                "DefaultValueDialog": {
+                    "Title": "مقدار پیش فرض",
+                    "ValueTypeCaption": "Default value type",
+                    "ValueCaption": "مقدار",
+                    "LookupValueRecordDeletedCaption": "the lookup value was deleted",
+                    "Cancel": "انصراف",
+                    "Ok": "Ok",
+                    "sequencePrefix": "Prefix",
+                    "sequenceNumberOfChars": "Number of characters"
+                }
+            },
+            "IndexEditor": {
+                "GeneralGroup": {
+                    "Caption": "عمومی",
+                    "NameCaption": "کد",
+                    "UniqueCaption": "Unique",
+                    "GenerateNameAutomaticallyCaption": "Generate Name Automatically"
+                },
+                "IndexColumns": {
+                    "Caption": "Index Columns",
+                    "AddIndexColumnsDialogCaption": "انتخاب ستون",
+                    "TitleCaption": "معلق",
+                    "ColumnName": "کد",
+                    "SortingOrder": "مرتب سازی سفارش",
+                    "Blankslate": "There are no columns in index"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "یک مقدار وارد کنید",
+                    "PatternNameCaption": "مقدار نامعتبراست. از نمادهای: a-z، A-Z، 0-9 استفاده نمایید. نماد: 0-9 نمی تواند اول باشد",
+                    "DuplicateNameCaption": "Image with the same code already exists"
+                }
+            },
+            "EntityColumnTypes": {
+                "TextCaption": "معلق",
+                "NumberCaption": "عدد",
+                "OtherCaption": "سایر موارد",
+                "DateTimeCaption": "Date/Time"
+            },
+            "EventsEditor": {
+                "EventGroupType": {
+                    "Add": "افزودن جدید",
+                    "Saving": "ذخیره",
+                    "Updating": "Updating",
+                    "Delete": "Deleting",
+                    "Loading": "لود",
+                    "ColumnValues": "Column values"
+                },
+                "Events": {
+                    "Inserting": "Before record added",
+                    "Inserted": "After record added",
+                    "Validating": "Validating",
+                    "Saving": "Before record saved",
+                    "Saved": "After record saved",
+                    "SaveError": "Error saving record",
+                    "Updating": "Before record updated",
+                    "Updated": "After record updated",
+                    "Deleting": "Before record deleted",
+                    "Deleted": "After record deleted",
+                    "DefColumnValuesSet": "Default values field",
+                    "Loading": "Before data loaded",
+                    "Loaded": "After data loaded",
+                    "ColumnValueChanging": "Before column value changed",
+                    "ColumnValueChanged": "After column value changed",
+                    "ColumnBinaryValuePackageLoading": "Binary Value Stream Loading"
+                }
+            },
+            "Addons": {
+                "BusinessRule": "قوانین تجاری",
+                "RelatedPage": "صفحات",
+                "TimelineEntity": "تایم لاین",
+                "UseSchemaInTimelineCheckbox": "Show in Timeline component by default"
+            },
+            "SaveConfirmationDialog": {
+                "Save": "ذخیره",
+                "DoNotSave": "Don't save",
+                "Cancel": "انصراف",
+                "Message": "تمام تغییرات ذخیره خواهد شد. ادامه می دهید؟?"
+            }
+        },
+        "ClientUnitSchemaDesigner": {
+            "ClientUnitSchemaDesignerPage": {
+                "JsCaption": "JS",
+                "LessCaption": "LESS",
+                "LocalizableStringsCaption": "Localizable strings",
+                "MessagesCaption": "پیام ها",
+                "ImagesCaption": "Images",
+                "ParametersCaption": "پارامترها",
+                "Addons": {
+                    "BusinessRule": "قوانین تجاری"
+                }
+            },
+            "ClientUnitDesignerMiniPage": {
+                "Title": "ماژول",
+                "CaptionTitle": "معلق",
+                "ParentCaption": "مورد منبع",
+                "Validations": {
+                    "RequiredNameCaption": "یک مقدار وارد کنید"
+                }
+            },
+            "ClientUnitCaptionsMiniPage": {
+                "Title": "Captions",
+                "Apply": "اعمال",
+                "Cancel": "انصراف"
+            },
+            "ClientUnitMessagesMiniPage": {
+                "Title": "پیام",
+                "NameCaption": "کد",
+                "DirectionCaption": "مسیر",
+                "BroadcastCaption": "Broadcast",
+                "AddressCaption": "عنوان",
+                "ModeCaption": "Mode",
+                "SubscribeCaption": "Subscribe",
+                "PublishCaption": "انتشار",
+                "Add": "متمم",
+                "Apply": "اعمال",
+                "Cancel": "انصراف",
+                "Validations": {
+                    "RequiredNameCaption": "یک مقدار وارد کنید",
+                    "PatternNameCaption": "مقدار نامعتبراست. از نمادهای: a-z، A-Z، 0-9 استفاده نمایید. نماد: 0-9 نمی تواند اول باشد",
+                    "DuplicateNameCaption": "Message with the same code already exists"
+                }
+            },
+            "ClientUnitImagesMiniPage": {
+                "Title": "عکس",
+                "NameTitle": "کد",
+                "CaptionTitle": "معلق",
+                "ImageTitle": "عکس",
+                "UidTitle": "شناسه",
+                "Add": "متمم",
+                "Apply": "اعمال",
+                "Cancel": "انصراف",
+                "Validations": {
+                    "RequiredNameCaption": "یک مقدار وارد کنید",
+                    "PatternNameCaption": "مقدار نامعتبراست. از نمادهای: a-z، A-Z، 0-9 استفاده نمایید. نماد: 0-9 نمی تواند اول باشد",
+                    "DuplicateNameCaption": "Image with the same code already exists"
+                }
+            }
+        },
+        "SourceCodeSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "Localizable strings",
+            "MetadataCaption": "متادیتا",
+            "MetadataReadCaption": "Metadata (read)",
+            "ModifiedPackageCaption": "Modified package",
+            "RunButtonCaption": "Run as install script",
+            "RunSourceCodeCaption": "Operation was sucsessful"
+        },
+        "SourceCodeDesignerMiniPage": {
+            "Title": "کد منبع",
+            "Description": "شرح"
+        },
+        "SourceCodeCaptionsMiniPage": {
+            "Title": "Captions",
+            "Apply": "اعمال",
+            "Cancel": "انصراف"
+        },
+        "UserTaskCaptionsMiniPage": {
+            "Title": "Captions",
+            "Apply": "اعمال",
+            "Cancel": "انصراف",
+            "UserTask": "وظیفه کاربر",
+            "WithCustomEventHandler": "With custom handlers for events",
+            "Partial": "Partial",
+            "Serialize": "Serialize in DB",
+            "ParametersEditPage": "Parameters edit page",
+            "DcmParametersEditPage": "Dcm parameters edit page",
+            "Color": "رنگ",
+            "SmallSvgImage": "Small vector image",
+            "LargeSvgImage": "Large vector image",
+            "TitleSvgImage": "Title vector image",
+            "DcmSmallSvgImage": "Small vector image for DCM",
+            "PageInaccessibleFromPackageInfo": "Selected page is inaccessible from current user task package. Please complete package dependencies or select the other page to ensure proper user task execution"
+        },
+        "UserTaskDesignerMiniPage": {
+            "Title": "وظیفه کاربر"
+        },
+        "UserTaskSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "Localizable strings",
+            "ParametersCaption": "پارامترها",
+            "MetadataCaption": "متادیتا",
+            "MetadataReadCaption": "Metadata (read)",
+            "ModifiedPackageCaption": "Modified package",
+            "InvalidClassNameConfirmationMessage": "User task property \"Code\" doesn't match class name in the source code. The user task cannot be executed with the current settings. Do you want to continue saving?"
+        },
+        "MetaDataSchemaDesigner": {
+            "MetaDataCaption": "متادیتا",
+            "HumanReadableMetaDataCaption": "Metadata (Read-Only)",
+            "PackageDifferenceMetaDataCaption": "Modifications package"
+        }
+    },
+    "Tracking": {
+        "ValidationMessage": {
+            "InvalidValue": "مقدار نامعتبر",
+            "RequiredFieldValue": "یک مقدار وارد کنید",
+            "LongFieldValue": "Maximum text length exceeded (255)",
+            "InvalidNumberValue": "Number format is invalid"
+        },
+        "BaseItemMenuComponent": {
+            "Delete": "حذف",
+            "Edit": "انتشار"
+        },
+        "ConnectionDescription": {
+            "Checking": "درحال بررسی",
+            "Connected": "متصل",
+            "Disconnected": "متصل نیست",
+            "Warning": "اخطار"
+        },
+        "ProjectsSection": {
+            "Add": "پروژه جدید",
+            "Title": "Event tracking settings (Projects)",
+            "Columns": {
+                "Name": "Project name",
+                "Owner": "ایجاد کننده",
+                "Description": "شرح",
+                "CreatedOn": "ایجادشده در",
+                "ModifiedOn": "Last update"
+            },
+            "BlankSlate": {
+                "Title": "این بخش رکوردی ندارد.",
+                "Description": "یک رکورد جدید اضافه کنید تا آن را زیباتر ببینید."
+            }
+        },
+        "ProjectPage": {
+            "Detail": {
+                "Name": "Project name",
+                "Owner": "ایجاد کننده",
+                "Description": "شرح",
+                "CreatedOn": "ایجادشده در",
+                "ModifiedOn": "Last update",
+                "TotalEvents": "Total events",
+                "ConversionRate": "Conversion rate",
+                "DefaultValues": {
+                    "Name": "New project",
+                    "Description": "New description"
+                }
+            },
+            "ResourceDetail": {
+                "Header": "Tracking resources",
+                "Columns": {
+                    "Name": "Resource name",
+                    "Status": {
+                        "Caption": "وضعیت",
+                        "Active": "فعال است",
+                        "Inactive": "غیرفعال"
+                    },
+                    "Source": "منبع",
+                    "CreatedOn": "ایجادشده در",
+                    "ModifiedOn": "Last update"
+                }
+            }
+        },
+        "ResourcePage": {
+            "CreatedOn": "ایجادشده در",
+            "ModifiedOn": "ویرایش شده در",
+            "Name": "نام",
+            "Source": "ID (URL for web-site)",
+            "Active": "فعال است",
+            "DefaultName": "New resource",
+            "DefaultSource": "https://example.com",
+            "Tabs": {
+                "TrackingCode": "Tracking code",
+                "GoalSettings": "Goal settings"
+            },
+            "BasicCodeTitle": "Basic tracking code",
+            "CustomEventTab": "Custom event",
+            "GoalDetail": {
+                "Header": "Tracking goals",
+                "Columns": {
+                    "Name": "Goal name",
+                    "EventTypeFilter": "Event type filter",
+                    "Status": {
+                        "Caption": "وضعیت",
+                        "Active": "فعال است",
+                        "Inactive": "غیرفعال"
+                    },
+                    "Cost": "Goal cost"
+                }
+            },
+            "GoalEditiDialog": {
+                "Header": "Goal settings",
+                "Name": "Goal Name",
+                "UseEventCost": "Use event cost",
+                "Cost": "Goal Cost",
+                "Active": "فعال است",
+                "FilterSettings": "Goal filter settings",
+                "EventTypeFilter": "Event type filter",
+                "EventNameFilter": "Event name filter",
+                "EventValueFilter": "Event value filter",
+                "EventCostFilter": "Event cost filter",
+                "Actions": {
+                    "Save": "ذخیره",
+                    "Cancel": "انصراف"
+                },
+                "StringCondition": {
+                    "Equal": "Equal",
+                    "Contains": "شامل می شود",
+                    "BeginWith": "شروع با",
+                    "EndWith": "End with"
+                },
+                "NumberCondition": {
+                    "Equal": "Equal",
+                    "LessOrEqual": "Less or equal",
+                    "MoreOrEqual": "More or equal"
+                }
+            }
+        },
+        "CodePane": {
+            "CopyToClipboard": "Copy to clipboard",
+            "OnCopiedToClipboard": "Successfully copied"
+        },
+        "BaseTrackingCode": {
+            "Header": "Base tracking code",
+            "Loading": "Loading...",
+            "InfoBlock": {
+                "Title": "Important",
+                "Content": "The basic tracking code for this resource must be placed on all pages of the site.",
+                "LinkText": "Details on setting up the basic tracking code"
+            },
+            "NotReady": "Save resource before get tracking code."
+        },
+        "EventCodeGenerator": {
+            "Header": "Event's tracking code",
+            "Form": {
+                "EventType": "نوع رویداد قابل توجه",
+                "EventName": "Event name",
+                "EventValue": "Event value",
+                "EventCost": "Event cost"
+            },
+            "FormValidators": {
+                "EmptyForm": "Empty...",
+                "InvalidForm": "Check form for any errors..."
+            }
+        }
+    },
+    "SocialLeadgen": {
+        "ValidationMessage": {
+            "InvalidValue": "مقدار نامعتبر",
+            "RequiredFieldValue": "یک مقدار وارد کنید",
+            "LongFieldValue": "Maximum text length exceeded (255)",
+            "InvalidNumberValue": "Number format is invalid"
+        },
+        "IntegrationTypes": {
+            "LinkedIn": "LinkedIn",
+            "Facebook": "Facebook / Instagram",
+            "Undefined": "نامشخص"
+        },
+        "IntegrationSettings": {
+            "Header": {
+                "Title": "تنظیمات"
+            },
+            "Detail": {
+                "Url": "Url to get leads",
+                "Group": "Role for receiving notifications"
+            },
+            "Notes": {
+                "Header": "Note",
+                "Text": "<p>Url to get leads – a Creatio URL that will receive the leads from the connected ad accounts.The Creatio website must be accessible to be able to receive the incoming requests. If you use a proxy server, specify the proxy URL instead of the Creatio URL. If your Creatio instance is a part of a restricted access network, whitelist the lead generation service IPs.</p><p>Role for receiving notifications — Creatio will notify the users within this role in case of any failures, such as errors when connecting ad accounts or creating leads.</p><p>The “Connection” tab displays the list of ad accounts and pages connected to Creatio. The list includes the current connection statuses on page, account, and token levels. You can manage the connections, for example, delete or reset them.</p><p>The “Logs” tab displays the lead generation functionality change log.</p>"
+            },
+            "Tabs": {
+                "Connection": "Connection",
+                "Logs": "Logs"
+            },
+            "AutorouteMessage": "To proceed with the work, you must fill in the \"Url to get leads\" field. By default, the field was filled with the current address of the application from the browser. Make sure you entered the correct application address and save the settings. These settings are made once when you open the section for the first time.",
+            "Error": {
+                "FormValidation": "Error when trying to save the settings. Please check all fields for any errors.",
+                "Save": "Failed to save the value entered in the \"Url to get leads\" field. Make sure to enter the correct, externally accessible address for the application."
+            },
+            "Logs": {
+                "IntegrationFilter": {
+                    "PlaceholderCaption": "یکپارچگی",
+                    "EmptyOptionCaption": "All items"
+                },
+                "DateColumnCaption": "تاریخ",
+                "IntegrationColumnCaption": "یکپارچگی",
+                "DetailsColumnCaption": "جزییات",
+                "IntegrationNotFound": "یافت نشد",
+                "GetIntegrationListError": "Failure has occurred while loading list of integrations. Loading has been aborted.",
+                "NoLogsMessage": "There are currently no logs to display"
+            },
+            "FacebookPagesConnections": {
+                "Header": "Facebook pages",
+                "Blankslate": "Connections to pages have not been configured yet."
+            },
+            "LinkedInAdAccountsConnections": {
+                "Header": "LinkedIn Ad accounts",
+                "Blankslate": "Connections to ad accounts have not been configured yet.",
+                "AdAccountsTable": {
+                    "DeleteConfirmation": "Are you sure you want to delete the ad account?",
+                    "DeleteError": "This ad account is connected to an integration. Delete the integration and try again",
+                    "Headers": {
+                        "Name": "نام طرف حساب",
+                        "Link": "لینک",
+                        "ConnectionStatus": "وضعیت اتصال",
+                        "ExpirationDate": "تاریخ اتمام"
+                    },
+                    "ConnectionStatuses": {
+                        "Active": "فعال است",
+                        "Inactive": "غیرفعال"
+                    },
+                    "ConnectionStatusErrorMessage": {
+                        "Inactive": "Unable to access the ad account. Sign in to LinkedIn and set up permissions to accounts you need to integrate."
+                    },
+                    "UsersTable": {
+                        "DeleteConfirmation": "Are you sure you want to delete the token? This may cause issues with ad account access and lead retrieval",
+                        "Headers": {
+                            "UserName": "Network user",
+                            "TokenStatus": "Token status",
+                            "ExpirationDate": "تاریخ اتمام",
+                            "HasAdAccountAccess": "Provides access to acount"
+                        },
+                        "TokenStatuses": {
+                            "Active": "فعال است",
+                            "Expired": "تاخیری",
+                            "Revoked": "Revoked",
+                            "Unknown": "ناشناخته"
+                        },
+                        "HasAdAccountAccess": {
+                            "Yes": "بلی",
+                            "No": "خیر"
+                        },
+                        "TokenStatusErrorMessage": {
+                            "Expired": "Sign in to LinkedIn and grant permissions to ad accounts on behalf of the user whose token expired.",
+                            "Revoked": "The token was revoked.\nPossible reasons:\n- This account was used to log in to a different Creatio instance.\n- The lead generation app was disconnected on LinkedIn’s end.\nTo resolve this issue, sign in to LinkedIn one more time and grant permissions to ad accounts on behalf of the user whose token was revoked.",
+                            "Unknown": "Unable to retrieve the token status due to one or more errors during the request. Please refresh the page."
+                        },
+                        "MenuCell": {
+                            "Delete": "حذف",
+                            "Reconnect": "Reconnect"
+                        }
+                    }
+                }
+            }
+        },
+        "IntegrationSection": {
+            "DeleteConfirmation": "Are you sure you want to delete this integration? Creatio will not be able to retrieve new leads from it",
+            "DeleteError": "Unable to delete the integration, access to ad account denied. Grant access to the corresponding ad account and try again",
+            "Header": {
+                "Title": "Social leadgen integrations",
+                "Buttons": {
+                    "New": "قرارداد جدید",
+                    "Logs": "Logs",
+                    "Settings": "تنظیمات"
+                }
+            },
+            "Columns": {
+                "Name": "نام",
+                "Type": "نوع",
+                "IsActive": "فعال است",
+                "IntegrationSectionItemMenu": {
+                    "Delete": "حذف",
+                    "Activate": "فعالسازی",
+                    "Deactivate": "معلق"
+                }
+            },
+            "BlankSlate": {
+                "Description": "You don't have any integrations configured."
+            }
+        },
+        "IntegrationPage": {
+            "ToggleStateCaptions": {
+                "Active": "فعال است",
+                "Inactive": "غیرفعال"
+            },
+            "Header": {
+                "Buttons": {
+                    "Logs": "Logs",
+                    "Settings": "تنظیمات"
+                }
+            },
+            "Error": {
+                "Save": "Unable to modify settings. Make sure the required object fields are mapped and the \"Unmapped form fields\" macro settings are specified.",
+                "FormSelection": "Unable to modify settings. Make sure the required object fields are mapped and the \"Unmapped form fields\" macro settings are specified."
+            },
+            "BlankSlate": {
+                "Title": "We were unable to find active forms in the selected ad account.",
+                "Description": "Please create a lead form or choose another account to setup."
+            },
+            "BlankSlateError": {
+                "Title": "Unable to access the account.",
+                "Description": "Try to sign in and grant access again."
+            },
+            "Detail": {
+                "Name": "نام",
+                "FacebookPage": "Facebook page",
+                "LinkedinAdAccount": "LinkedIn account",
+                "DeactivateConfirmationQuestion": "Are you sure you want to deactivate your subscription? Lead transfer from all forms will be stopped. The new status will take effect after the changes are saved at the integration card level."
+            },
+            "IntegrationSettings": {
+                "FacebookIsNotSet": "Facebook integration is not set.",
+                "LinkedInIsNotSet": "LinkedIn integration is not set.",
+                "Create": "Setup integration",
+                "DefaultIntegrationRecordName": "New social lead generation integration"
+            },
+            "InfoBlock": {
+                "Title": "Note",
+                "Text": "All forms for the selected page are connected to the Creatio. Make the default settings for all forms on the \"Default Settings\" tab. Unique settingsfor each form can be made on the \"Forms\" tab."
+            },
+            "ColumnMapping": {
+                "ExpansionPanelCaption": "Default mapping",
+                "Object": "هدف",
+                "AddMapping": "متمم",
+                "Hint": "Creatio applies the default mapping to all ad account forms.\nThe settings only apply to the form columns with the user profile information.\nYou can map custom questions, custom checkboxes, and hidden fields on the form record page. Select the “Custom mapping” checkbox to enable this feature.\n“Not mapped fields” macro lets you pass the values of all columns to a single object column.",
+                "DataTypes": {
+                    "Lookup": "جستجوها",
+                    "Text": "معلق",
+                    "Boolean": "Boolean",
+                    "DateTime": "Date time",
+                    "Date": "تاریخ",
+                    "Time": "زمان",
+                    "Number": "عدد",
+                    "Macro": "Macro"
+                },
+                "FieldMenuCaptions": {
+                    "FormField": "Form field",
+                    "Text": "مقادیر متنی",
+                    "Boolean": "Boolean value",
+                    "Lookup": "مقادیر جستجو",
+                    "Other": "سایر موارد"
+                },
+                "LinkedIn": "LinkedIn",
+                "BooleanValue": {
+                    "True": "صحیح",
+                    "False": "غلط"
+                },
+                "UnmappedMacroValue": "Unmapped form fields",
+                "LookupValueUnknown": "<not found>",
+                "ModalBox": {
+                    "SetButtonCaption": "تنظیم",
+                    "CancelButtonCaption": "انصراف",
+                    "SelectFormCaption": "Select form field",
+                    "EnterTextValueCaption": "یک مقدار وارد کنید"
+                }
+            },
+            "Logs": {
+                "ExpansionPanelCaption": "Logs",
+                "NoLogsForIntegrationMessage": "There are no logs for this integration",
+                "ShowMoreButtonCaption": "نمایش بیشتر",
+                "Types": {
+                    "Info": "اطلاعات",
+                    "Warning": "اخطار",
+                    "Error": "خطا"
+                }
+            },
+            "FormsList": {
+                "Header": "Forms",
+                "LinkedInStatus": "LinkedIn status",
+                "Hint": "Custom mapping settings override the default mapping settings. Map each form separately.\nIf you deactivate custom mapping, Creatio will apply the default mapping settings to the form.",
+                "FormStatus": {
+                    "Archived": "آرشیو شده",
+                    "Pending": "در انتظار",
+                    "Approved": "Approved",
+                    "Preapproved": "Preapproved",
+                    "Rejected": "رد شد",
+                    "NeedsReview": "Needs review",
+                    "AutoApproved": "Auto approved",
+                    "AutoRejected": "Auto rejected",
+                    "Undefined": "نامشخص",
+                    "NotActive": "غیرفعال"
+                },
+                "MappingType": {
+                    "DefaultMapping": "Default mapping",
+                    "CustomMapping": "Custom mapping"
+                },
+                "BlankSlate": {
+                    "Description": "For this form the default mapping settings are applied."
+                },
+                "DeactivateFormConfirmationQuestion": "Are you sure you want to unsubscribe from receiving leads from this form in Creatio? The new status will take effect after the changes are saved at the integration card level.",
+                "ObjectsTitle": {
+                    "Lead": "سرنخ"
+                }
+            },
+            "IntegrationSyncInfo": {
+                "Header": "Lead sync information",
+                "UnableToAdAccountAccess": "Unable to access the account. Lead synchronization stopped.",
+                "SaveIntegration": "Please save the integration and refresh the page to receive notifications on the status of lead sync.",
+                "SubscriptionInactive": "Lead subscription is inactive for the selected ad account. Lead sync has been stopped. Subscription activation will restore the receipt of leads in Creatio.",
+                "SubscriptionActive": "Lead subscription is active for the selected ad account. Leads created on the LinkedIn side will be transferred to Creatio."
+            },
+            "DownloadLeads": {
+                "ForForm": {
+                    "ButtonCaption": "Sync leads",
+                    "ModalBoxTitle": "Click “Sync” to upload the form’s leads for the period. The period is calculated regardless of the form’s lead subscription status at the time."
+                },
+                "ForAdAccount": {
+                    "ButtonCaption": "Sync all leads",
+                    "ModalBoxTitle": "Click “Sync” to upload the ad account’s leads for the period. The period is calculated regardless of the account’s lead subscription status at the time. Creatio will not reupload the leads you have already synchronized."
+                },
+                "ModalBox": {
+                    "InformationText": "LinkedIn stores leads for 90 days.",
+                    "CancelButtonCaption": "انصراف",
+                    "DownloadButtonCaption": "Sync",
+                    "SuccessRunBusinessProcessInfoText": "The lead upload process started. It may take some time until the process is finished.",
+                    "UnknownFailedRunBusinessProcessInfoText": "Failed to start the lead upload process. Please try again later. If the startup error persists, contact technical support."
+                }
+            }
+        },
+        "SocialMediaProvider": {
+            "New": "New integration",
+            "RestoreAccess": "Restore access"
+        },
+        "IntegrationError": {
+            "InvalidScope": "Unable to connect to the lead generation service. The lead generation service’s user account lacks essential permissions. Please contact Creatio support to fix this issue.",
+            "InvalidClient": "Unable to connect to the lead generation service. Unexpected values in the “Identity server client id” and “Identity server client secret” system settings. Please contact Creatio support to fix this issue.",
+            "InvalidSettings": "Unable to connect to the lead generation service. The following system settings are empty: “Identity server URL”, “Identity server client id”, “Identity server client secret”.",
+            "GeneralError": "Unable to connect to the lead generation service. Please refresh the page or contact Creatio support if the problem persists."
+        }
+    },
+    "QueueSorting": {
+        "QueueSectionHeader": "Queue sorting settings",
+        "AddQueueObjectCaption": "Add queue object",
+        "QueueObjectCaption": "مورد صف",
+        "QueueTypeCaption": "نوع صف",
+        "BlindQueue": "Blind queue",
+        "RegularQueue": "Regular queue",
+        "AddQueueSortObjectCaption": "Add Sort Object",
+        "Empty": "تهی",
+        "RequiredFieldValue": "Select queue object",
+        "QueueObjectLookup": {
+            "NameColumnCaption": "معلق",
+            "Title": "Queue object lookup"
+        },
+        "QueueObjectColumnLookup": {
+            "NameColumnCaption": "معلق",
+            "Title": "Queue object sorting column lookup"
+        },
+        "QueueObjectColumnPage": {
+            "AddQueueObjectColumn": "افزودن ستون",
+            "SortDirection": "Sorting order",
+            "SelectColumn": "ستون",
+            "RequiredFieldValue": "Required fields are not filled"
+        },
+        "QueueObjectTable": {
+            "Actions": {
+                "Delete": "حذف",
+                "Edit": "تنظیمات"
+            },
+            "RemoveToolTip": "Creatio cannot delete a sort object because existing queues use it"
+        },
+        "QueueObjectColumnTable": {
+            "Caption": "Sort columns",
+            "ColumnCaption": "معلق",
+            "SortDirection": "Sort direction",
+            "Position": "اولویت",
+            "Empty": "Sort columns not added",
+            "Actions": {
+                "Delete": "حذف",
+                "Edit": "انتشار"
+            }
+        },
+        "OrderDirection": {
+            "Ascending": "صعودی",
+            "Descending": "نزولی",
+            "None": "None"
+        }
+    },
+    "ChatSettings": {
+        "ChatSettingsPageHeader": "Chats",
+        "ChannelDetail": {
+            "DeleteAction": "حذف",
+            "DeleteRecordErrorMessage": "Unable to delete selected record",
+            "Title": "کانالها",
+            "Columns": {
+                "Name": "نام",
+                "Status": {
+                    "Caption": "فعال است"
+                },
+                "Queue": "صف",
+                "Provider": "منبع"
+            },
+            "FacebookSettings": {
+                "InvalidSettings": {
+                    "Message": "Unable to add channel. You can find the setup requirements in the",
+                    "Link": {
+                        "Text": "مقاله"
+                    }
+                }
+            }
+        },
+        "ChannelPage": {
+            "Name": "نام",
+            "Token": "رمز",
+            "WebhookUrl": "لینک",
+            "Status": "وضعیت",
+            "Queue": "صف",
+            "Language": "زبان",
+            "ChannelProcessingGroup": "Channel processing",
+            "NewChannelCaption": "New '{0}' channel",
+            "InactiveChannelMessage": "To receive messages, you must activate the channel and specify the queue for processing. Are you sure you want to add an inactive channel?",
+            "FacebookPageLinkCaption": "Facebook page",
+            "ActiveChannelCaption": "فعال است",
+            "Telegram": {
+                "TelegramPageLinkCaption": "Telegram channel",
+                "InvalidTelegramToken": "Enter a correct token to create a channel",
+                "TelegramTokenAlreadyExists": "The channel already exists for the entered token"
+            },
+            "Tips": {
+                "Language": "Creatio will set selected language as preferred language of contacts created through this channel. You can select only active languages. Go to the Languages lookup to activate/deactivate",
+                "WhatsAppToken": "Enter the AUTH TOKEN of your Twilio account.",
+                "WhatsAppId": "Enter your Twilio account SID.",
+                "WhatsAppTestPhoneNumber": "The phone number to which a test message will be send to confirm the channel."
+            },
+            "WhatsApp": {
+                "PageLinkCaption": "WhatsApp channel",
+                "ApplicationId": "Application Id",
+                "ChannelPhoneNumber": "شماره تلفن",
+                "IntegrationPhoneNumber": "Verification phone number",
+                "Connect": "Connect",
+                "InvalidPhoneNumber": "Allow only numbers",
+                "ChannelDuplicatedErrorMessage": "The channel already exists for the entered phone number",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "You entered an invalid Twilio account SID",
+                    "InvalidAccountPhoneNumberException": "You entered an invalid WhatsApp phone number",
+                    "AuthenticateException": "You entered an invalid Token"
+                }
+            },
+            "ValidationMessage": {
+                "required": "یک مقدار وارد کنید",
+                "wrongValue": "Wrong value"
+            }
+        },
+        "ChatQueueDetail": {
+            "Title": "Chat queues",
+            "Columns": {
+                "Name": "نام",
+                "Routing": {
+                    "Caption": "قاعده مسیریابی"
+                },
+                "Simultaneous": "Simultaneous chats",
+                "Timeout": "Chat timeout, minutes"
+            }
+        },
+        "ChatActionsDetail": {
+            "Title": "Chat actions",
+            "Columns": {
+                "Caption": "معلق",
+                "Process": "فرایند",
+                "Queue": "صف"
+            },
+            "Actions": {
+                "Delete": "حذف"
+            }
+        },
+        "ChatQueuePage": {
+            "Title": "صف",
+            "Name": "نام",
+            "OperatorRoutingRule": "قاعده مسیریابی",
+            "SimultaneousChats": "Simultaneous chats",
+            "TimeToWaitInQueue": "Time to wait in queue",
+            "Timeout": "Chat completion timeout, minutes",
+            "Tips": {
+                "SimultaneousChats": "Maximum number of chats per operator",
+                "Timeout": "Maximum waiting time before the chat will be automatically completed"
+            },
+            "ValidationMessage": {
+                "required": "یک مقدار وارد کنید",
+                "wrongValue": "Wrong value",
+                "nonNegativeValue": "Can't supply negative value",
+                "nonNumericValue": "Can't supply non-numeric value"
+            }
+        },
+        "ChatActionPage": {
+            "Title": "Chat action",
+            "Caption": "معلق",
+            "Process": "فرایند",
+            "ChatQueue": "Chat queue",
+            "ValidationMessage": {
+                "required": "یک مقدار وارد کنید"
+            }
+        },
+        "ChatQueueOperatorDetail": {
+            "Title": "Queue agents",
+            "Columns": {
+                "Operator": {
+                    "Caption": "نقش کاربر"
+                }
+            },
+            "DuplicationMessage": "A role already exists. Please choose another operator/role to proceed"
+        }
+    },
+    "IntegrationDiagnostics": {
+        "EmailListener": {
+            "Header": "Email Listener service diagnostics",
+            "MailBoxAvailabilityCheck": "Checking mailbox health",
+            "ExchangeListenerAvaibilityCheck": "Service availability verification",
+            "GetSubscriberInfo": "Receiving subscription information",
+            "StartDiagnosticButtonCaption": "Run diagnostics",
+            "StartFullDiagnosticButtonCaption": "Run full diagnostics",
+            "MailBoxLookupCaption": "صندوق پست الکترونیک",
+            "SuccessfulOperation": "Successful operation",
+            "UnSuccessfulOperation": "خطا",
+            "ELAvailabilityDescription": "Email Listener service is available for this site",
+            "ELNotAvailabilityDescription": "Email Listener service is currently not available for this site",
+            "ValidateCreatioExchangeEndpoint": "Validation of correctness of filling in the system setting BpmonlineExchangeEventsEndpointUrl",
+            "CreatioExchangeEndpontErrorValidationInfoTemplate": "Endpoint is not valid\nExpected value: {0}/NewEmail\nActual value: {1}\nCheck the system setup BpmonlineExchangeEventsEndpointUrl is full!",
+            "CreatioExchangeEndpontSuccessValidationInfoTemplate": "Endpoint {0} is valid",
+            "SendTestEmail": "ارسال ایمیل تست",
+            "MailboxAvailabilityDiagnosticTooltip": "Need to fill in the mailbox",
+            "MailboxDiagnosticSuccessDescriptor": "This mailbox has been verified successfully",
+            "NameCaption": "نام",
+            "FeaturesStateLabel": "Features state",
+            "ExchangeListenerEnabledFeatureCaption": "Exchange mailbox synchronization (ExchangeListenerEnabled)",
+            "EmailIntegrationV2FeatureCaption": "Exchange and IMAP mailboxes synchronization (EmailIntegrationV2)",
+            "SendEmailsV2FeatureCaption": "Sending emails (SendEmailsV2)",
+            "OldEmailIntegrationFeatureCaption": "Old email integration (OldEmailIntegrationFeature, state disabled)",
+            "IsMailboxSyncSettingsCachedFeatureCaption": "Mailbox sync settings cache (IsMailboxSyncSettingsCached)",
+            "ExchangeListenerAvailabilityCheck": "Creatio availability verification",
+            "ApplicationAvailabilityDescription": "Email Listener was able to reach Creatio",
+            "DiagnosticWasNotStarted": "Diagnostic was not started"
+        }
+    },
+    "StructureExplorerDialog": {
+        "NoData": "No data",
+        "Title": "Select field",
+        "CancelButtonCaption": "انصراف",
+        "SelectButtonCaption": "تنظیم",
+        "RelatedObjectsTabCaption": "Related objects{0}",
+        "FieldsTabCaption": "{0} fields{1}",
+        "SearchPlaceHolder": "جستجو"
+    },
+    "EntityColumnValuePickerProvider": {
+        "ValueFromFieldCaption": "Value from another field"
+    },
+    "FormulaValuePickerProvider": {
+        "ValueFromFieldCaption": "فرمول",
+        "CancelButtonCaption": "انصراف",
+        "SelectButtonCaption": "ذخیره",
+        "DialogTitleCaption": "Formula expression"
+    },
+    "RepositorySection": {
+        "Title": "SVN repository list",
+        "Actions": {
+            "Add": "متمم",
+            "Edit": "انتشار",
+            "Authorize": "Authenticate",
+            "Delete": "حذف"
+        },
+        "Messages": {
+            "SuccessAuthorize": "You successfully authenticated in repository"
+        },
+        "Columns": {
+            "Name": "نام",
+            "Address": "SVN storage address",
+            "IsActive": "فعال است",
+            "Login": "Login",
+            "Password": "رمز"
+        },
+        "InfoBlock": {
+            "Title": "Important to know",
+            "TextPart1": "Transferring changes via SVN is intended for development environments only. Use the ",
+            "TextPart2": " section to transfer changes to a production environment.",
+            "InstallAppsLink": "https://academy.creatio.com/docs/user/no-code_customization/apps_and_extensions/install_applications_from_the_marketplace",
+            "InstallAppsLinkText": "برنامه تنظیم شده",
+            "LinksMessage": "Learn more about SVN at the Creatio Academy:",
+            "DeploymentInCreatioIDEInfoLinkText": "Deployment in Creatio IDE",
+            "SetupVersionControlInfoLinkText": "Setup version control",
+            "DeploymentInCreatioIDEInfoLink": "https://academy.creatio.com/docs/developer/development_tools/deployment/transferring_solutions_in_creatio_ide",
+            "SetupVersionControlInfoLink": "https://academy.creatio.com/docs/node/1164"
+        },
+        "Page": {
+            "Title": "SVN storage",
+            "Actions": {
+                "Add": "متمم",
+                "Apply": "اعمال",
+                "Cancel": "انصراف",
+                "Authorize": "Authenticate"
+            },
+            "Validation": {
+                "Required": "یک مقدار وارد کنید",
+                "MaxLength": "Maximum text length exceeded ({0}/{1})",
+                "NameField": {
+                    "Pattern": "Invalid name format"
+                }
+            }
+        }
+    },
+    "dataSource": "منبع اطلاعات",
+    "lookup": "جستجوها",
+    "lookupValueDeletion": "On lookup value deletion:",
+    "blockDeletionCaption": "Block deletion if there are connected records in current object with this value",
+    "DeleteRecordsCaption": "Delete records from current object with this value",
+    "lookupView": "نمایش جستجو",
+    "selectionWindow": "Selection window",
+    "list": "لیست",
+    "columnFormat": "نوع اطلاعات",
+    "columnNumberFormat": "نوع اطلاعات",
+    "selectValueCaption": "یک مقدار وارد کنید",
+    "DataValueType": {
+        "TextCaption": "معلق",
+        "ShortTextCaption": "متن (50 کاراکتر)",
+        "PhoneTextCaption": "شماره تلفن",
+        "MediumTextCaption": "متن (250 کاراکتر)",
+        "LongTextCaption": "متن (500 کاراکتر)",
+        "MaxSizeTextCaption": "طول متن نامحدود",
+        "SecureTextCaption": "ردیف رمزگذاری شده",
+        "HashTextCaption": "CRC",
+        "IntegerCaption": "عدد صحیح",
+        "FLOAT1Caption": "Decimal (0.1)",
+        "FLOAT2Caption": "Decimal (0.01)",
+        "FLOAT3Caption": "Decimal (0.001)",
+        "FLOAT4Caption": "Decimal (0.0001)",
+        "FLOAT8Caption": "Decimal (0.00000001)",
+        "MoneyCaption": "ارز",
+        "DateTimeCaption": "Date/Time",
+        "DateCaption": "تاریخ",
+        "TimeCaption": "زمان",
+        "BooleanCaption": "Boolean",
+        "ImageCaption": "عکس",
+        "ImageLookupCaption": "Image Link",
+        "FileCaption": "فایل",
+        "ColorCaption": "رنگ",
+        "GuidCaption": "شناسه منحصر بفرد",
+        "BlobCaption": "BLOB",
+        "LookupCaption": "جستجوها",
+        "Entity": "Object (Entity)",
+        "EntityCollection": "Collection of Objects (EntityCollection)",
+        "EntityColumnMappingCollection": "Object Column Values",
+        "CustomObject": "هدف",
+        "Collection": "لیست",
+        "LocalizableString": "Localizable String",
+        "MetaDataText": "Not Localizable String",
+        "ObjectList": "Serializable list of values",
+        "CompositeObjectList": "Serializable list of composite values",
+        "FloatCaption": "اعشاری",
+        "RichCaption": "Rich text",
+        "PhoneTextShortenedCaption": "تلفن",
+        "WebTextCaption": "Web link",
+        "EmailTextCaption": "آدرس ایمیل",
+        "EmailTextShortenedCaption": "ایمیل",
+        "TimerCaption": "Timer",
+        "LocalTimeCaption": "Local time"
+    },
+    "CodeMirror": {
+        "HotkeysDescription": "Hot keys:",
+        "SelectAll": "Ctrl-A Select all",
+        "Undo": "Ctrl-Z Undo",
+        "Redo": "Shift-Ctrl-Z Redo",
+        "Find": "Ctrl-F Find",
+        "FindNext": "F3 Find next",
+        "FindPrev": "Shift-F3 Find previous",
+        "Replace": "Shift-Ctrl-F Replace",
+        "ReplaceAll": "Shift-Ctrl-R Replace all",
+        "DeleteLine": "Ctrl-Y Delete line",
+        "GoLineStart": "Alt-Left Go to line start",
+        "GoLineEnd": "Alt-Right Go to line end",
+        "JmpToLine": "Alt-G Jump to line",
+        "Fullscreen": "F11 Fullscreen code editor",
+        "FullscreenExit": "Esc Exit fullscreen mode",
+        "Autocomplete": "Ctrl-Space Call autocomplete"
+    },
+    "CDK": {
+        "IndicatorWidget": {
+            "Caption": "شاخص"
+        },
+        "ChartWidget": {
+            "Line": {
+                "Caption": "خط"
+            },
+            "Spline": {
+                "Caption": "خطی باریک"
+            },
+            "Area": {
+                "Caption": "منطقه"
+            },
+            "Scatter": {
+                "Caption": "نقطه"
+            },
+            "Bar": {
+                "Caption": "ستون"
+            },
+            "HorizontalBar": {
+                "Caption": "بار"
+            },
+            "Pie": {
+                "Caption": "دایره"
+            },
+            "Doughnut": {
+                "Caption": "Doughnut"
+            },
+            "Tsfunnel": {
+                "Caption": "قیف"
+            },
+            "Common": {
+                "EmptyValue": "مقادیر تعریف نشده است",
+                "ShowSeriesDataCaption": "Show data by series",
+                "ShowDataCaption": "نمایش اطلاعات",
+                "DrillDownCaption": "تمرین کردن آیتم",
+                "ExportDataBtnCaption": "خروجی به اکسل",
+                "HideSeries": "پنهان سازی",
+                "ShowDataForSelectedSeriesCaption": "Show data for this series",
+                "ShowSeries": "Show",
+                "BooleanTrueValue": "بلی",
+                "BooleanFalseValue": "No"
+            },
+            "ChangeChartType": {
+                "Caption": "تغییر نوع چارت"
+            },
+            "With": {
+                "Caption": "with"
+            },
+            "Series": {
+                "Caption": "سری"
+            }
+        },
+        "FunnelWidget": {
+            "OpportunityFunnel": {
+                "Caption": "قیف فروش",
+                "ByCountLabelTemplate": "{0}",
+                "StageConversionLabelTemplate": "{0}%",
+                "ToFirstStageLabelTemplate": "{0}%",
+                "ByCountBtnLabel": "تعداد فرصت ها",
+                "StageConversionBtnLabel": "Stage Conversion Rate",
+                "ToFirstStageBtnLabel": "Pipeline Conversion",
+                "DefaultTitle": "New pipeline"
+            },
+            "FullPipelineFunnel": {
+                "Caption": "Full pipeline",
+                "ByCountBtnLabel": "تعداد رکورد",
+                "StageConversionBtnLabel": "Stage Conversion Rate",
+                "ToFirstStageBtnLabel": "Pipeline Conversion",
+                "DefaultTitle": "New pipeline"
+            },
+            "Tooltip": {
+                "CountInStage": "شمردن",
+                "CountInStageValue": "{0}",
+                "Amount": "مبلغ،",
+                "AmountValue": "{0} {1}",
+                "ConversionToStage": "تبدیل",
+                "ConversionToStageValue": "{0}%",
+                "ConversionToFirstStage": "تبدیل",
+                "ConversionToFirstStageValue": "{0}%",
+                "ConversionToStageCount": "شمردن",
+                "ConversionToStageCountValue": "{0}",
+                "ConversionToFirstStageCount": "شمردن",
+                "ConversionToFirstStageCountValue": "{0}"
+            }
+        },
+        "GaugeWidget": {
+            "Caption": "اندازه"
+        },
+        "HeaderWidget": {
+            "Fullscreen": {
+                "ExpandLabel": "Expand fullscreen",
+                "CollapseLabel": "Collapse fullscreen"
+            },
+            "Direction": {
+                "Menu": {
+                    "Caption": "Chart position"
+                },
+                "Column": {
+                    "Caption": "Above"
+                },
+                "Row": {
+                    "Caption": "چپ"
+                },
+                "RowReverse": {
+                    "Caption": "راست"
+                }
+            }
+        },
+        "ByCaption": "توسط",
+        "ByColumnCaption": "توسط ستون",
+        "WhereColumnCaption": "where",
+        "IsColumnCaption": "is"
+    },
+    "Components": {
+        "Input": {
+            "Caption": "معلق"
+        },
+        "NumberInput": {
+            "Caption": "عدد"
+        },
+        "Button": {
+            "Caption": "Button"
+        },
+        "Checkbox": {
+            "Caption": "چک باکس"
+        },
+        "Combobox": {
+            "Caption": "Dropdown",
+            "AddNewRecord": "افزودن جدید",
+            "IsGoToSourceAllowedTooltip": "Go to record list"
+        },
+        "DataGrid": {
+            "Caption": "لیست"
+        },
+        "DateTimePicker": {
+            "Caption": "Date/Time"
+        },
+        "Gallery": {
+            "Caption": "Gallery"
+        },
+        "ColorPicker": {
+            "Caption": "Color picker"
+        },
+        "Label": {
+            "Caption": "معلق"
+        },
+        "ExpansionPanel": {
+            "Caption": "Expansion panel"
+        },
+        "TabPanel": {
+            "Caption": "Tabs",
+            "AddTab": "Add tab",
+            "DeleteTab": "Delete tab",
+            "DefaultTab1Name": "Tab 1",
+            "DefaultTab2Name": "Tab 2",
+            "NewTabName": "New tab",
+            "DeleteTabConfirmation": "Delete the \"{0}\" tab and all items inside?",
+            "DefaultLabel1Name": "Label 1",
+            "DefaultLabel2Name": "Label 2",
+            "NewLabelName": "New label"
+        },
+        "Slider": {
+            "Caption": "Slider"
+        },
+        "ExpandedList": {
+            "Caption": "Expanded list",
+            "Hint": "The Expanded list includes a list, a expandable group, and an add entry button. Recommended to use on pages to display related information.",
+            "AddBtnCaption": "قرارداد جدید",
+            "RefreshBtnCaption": "Refresh",
+            "SettingsBtnCaption": "عملیات",
+            "ExportDataBtnCaption": "خروجی به اکسل",
+            "ImportDataBtnCaption": "ورودی اطلاعات"
+        },
+        "ActionDashboard": {
+            "Caption": "Action dashboard",
+            "Hint": "Displays information about the current state of a record using the workflow bar and the action panel. It is recommended to use the component on the form page."
+        },
+        "MenuItem": {
+            "Caption": "آیتم منو"
+        },
+        "FileInput": {
+            "Caption": "فایل",
+            "LabelCaption": "File to upload",
+            "Placeholder": "Choose file"
+        },
+        "Breadcrumbs": {
+            "Back": "بازگشت"
+        },
+        "File": {
+            "Caption": "فایل",
+            "Label": "File to upload",
+            "Placeholder": "Choose file"
+        },
+        "Attachment": {
+            "Caption": "ضمیمه ها",
+            "Hint": "The Attachments component includes a file list, an expandable group, an upload file button, a refresh button. Recommended to use on a form page to display related attachments.",
+            "AddBtnCaption": "Upload",
+            "RefreshBtnCaption": "Refresh"
+        },
+        "RichTextEditor": {
+            "Caption": "Rich text"
+        },
+        "TogglePanel": {
+            "Caption": "Toggle panel"
+        },
+        "Timeline": {
+            "Caption": "تایم لاین",
+            "AddObject": "+ Add object",
+            "ProvideDataSource": "Provide data source before using timeline",
+            "Tile": {
+                "TileObjectTitle": "Object: "
+            },
+            "DesignerCustomEntities": {
+                "Email": {
+                    "Caption": "ایمیل"
+                },
+                "Feed": {
+                    "Caption": "فید"
+                },
+                "Task": {
+                    "Caption": "وظیفه"
+                },
+                "SysFile": {
+                    "Caption": "فایل"
+                }
+            }
+        },
+        "ImageInput": {
+            "Caption": "عکس",
+            "LabelCaption": "Image to upload"
+        },
+        "SearchFilter": {
+            "Caption": "جستجو",
+            "Placeholder": "جستجو",
+            "Tooltip": "The Search component allows to search only by text, number and lookup columns with direct connections to list object."
+        },
+        "Approval": {
+            "Caption": "تائیدیه"
+        },
+        "ApprovalList": {
+            "Caption": "Approvals list",
+            "RefreshCaption": "Refresh",
+            "ProvideDataSource": "Provide data source before using approvals"
+        }
+    },
+    "LayoutElements": {
+        "GridArea1": {
+            "Caption": "منطقه"
+        },
+        "GridColumn1": {
+            "Caption": "1 column"
+        },
+        "GridColumn2": {
+            "Caption": "2 columns"
+        },
+        "GridColumn3": {
+            "Caption": "3 columns"
+        },
+        "GridColumn4": {
+            "Caption": "4 columns"
+        },
+        "FlexRow": {
+            "Caption": "Flex row",
+            "Hint": "Lines up several elements horizontally. Creatio may resize the elements depending on the content. For example, place two buttons or a field and a button next to each other. Learn more in the Academy."
+        },
+        "FlexColumn": {
+            "Caption": "Flex column",
+            "Hint": "Lines up several elements vertically. Creatio may resize the elements depending on the content. For example, create a column with two blocks. Learn more in the Academy."
+        }
+    },
+    "HomePage": {
+        "DialogMessages": {
+            "RequiredFieldsAreNotFilled": "Required fields are not filled in, or the page has validation errors"
+        }
+    },
+    "DesignerSettingsComponent": {
+        "HeaderCaption": "تنظیم چارت"
+    },
+    "InterfaceDesigner": {
+        "AddMenu": {
+            "NewDataSource": "New data source",
+            "ExistingDataSource": "Existing data source",
+            "AddDataSource": "Add data source"
+        },
+        "DataSourceActions": {
+            "Edit": "انتشار"
+        },
+        "SetupDataSourceDialog": {
+            "SetupDataSourceTitle": "Set up data source",
+            "CancelButtonDialog": "انصراف",
+            "SelectButtonDialog": "تنظیم",
+            "Object": "هدف",
+            "SelectDataSource": "Select data source"
+        },
+        "SetupEntityProperties": {
+            "NameColumnCaption": "نام"
+        },
+        "SetupEntityPropertiesDialog": {
+            "Name": "نام",
+            "Description": "شرح",
+            "SaveButton": "ذخیره",
+            "CancelButton": "انصراف"
+        },
+        "CopyPostfixCaption": "کپی",
+        "DesignElementSetting": {
+            "SettingsTitle": "تنظیمات",
+            "DuplicateTitle": "کپی",
+            "DeleteTitle": "حذف"
+        },
+        "Messages": {
+            "SuccessfullySaved": "با موفقیت ذخیره شد"
+        },
+        "PropertiesPages": {
+            "EntityDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "عمومی"
+            },
+            "EntityDataSourcePropertiesPanel": {
+                "GeneralGroup": "عمومی",
+                "PrimaryDataSource": "Primary data source",
+                "PrimaryDataSourceChangeConfirm": "The primary data source for this page will be changed. Do you want to save changes?",
+                "BusinessRulesGroup": "قوانین تجاری"
+            },
+            "ExpansionPanelPropertiesPage": {
+                "PageCaption": "Expansion panel settings",
+                "GeneralCaption": "عمومی",
+                "TitleLabel": "معلق",
+                "ToggleTypeLabel": "استایل",
+                "TogglePositionLabel": "Button position",
+                "ColorLabel": "Title color",
+                "DefaultToggleTypeLabel": "پیش فرض",
+                "MaterialToggleTypeLabel": "Accordion",
+                "BeforeTogglePositionLabel": "چپ",
+                "AfterTogglePositionLabel": "راست",
+                "FullWidthHeaderCaption": "Full width header",
+                "TitleWidthCaption": "Title width",
+                "PaddingGroup": "Spacing",
+                "Padding": {
+                    "Top": "Top",
+                    "Bottom": "زمینه",
+                    "Left": "چپ",
+                    "Right": "راست"
+                }
+            },
+            "LabelPropertiesPage": {
+                "PageCaption": "Label settings",
+                "GeneralCaption": "عمومی",
+                "TitleLabel": "معلق",
+                "TypeLabel": "استایل",
+                "TextAlignLabel": "Align",
+                "ThicknessLabel": "فرمت",
+                "FontSizeLabel": "Size, px",
+                "FontColorLabel": "Text color",
+                "BackgroundColorLabel": "Background color",
+                "AlignLeftCaption": "چپ",
+                "AlignCenterCaption": "Center",
+                "AlignRightCaption": "راست",
+                "AlignJustifyCaption": "Justify",
+                "TypeH1Caption": "H1",
+                "TypeH2Caption": "H2",
+                "TypeH3Caption": "H3",
+                "TypeH4Caption": "H4",
+                "TypeH5Caption": "H5",
+                "TypeBody1Caption": "Body text",
+                "TypeCaptionCaption": "معلق",
+                "TypeBlankslateCaption": "Blankslate",
+                "ThicknessLightCaption": "Light",
+                "ThicknessNormalCaption": "عادی",
+                "ThicknessSemiboldCaption": "Semibold",
+                "ThicknessBoldCaption": "Bold",
+                "ThicknessDefaultCaption": "پیش فرض ",
+                "TypeLarge1Caption": "Large 1",
+                "TypeLarge2Caption": "Large 2",
+                "TypeLarge3Caption": "Large 3",
+                "TypeLarge4Caption": "Large 4",
+                "TypeHeadline1Caption": "Headline 1",
+                "TypeHeadline1SmallCaption": "Headline 1 small",
+                "TypeHeadline2Caption": "Headline 2",
+                "TypeHeadline3Caption": "Headline 3",
+                "TypeHeadline4Caption": "Headline 4",
+                "TypeBodyLargeCaption": "Body large",
+                "TypeBodyCaption": "معلق",
+                "TypeCaptionLargeCaption": "Caption large",
+                "TypePlaceholderLargeCaption": "Placeholder large",
+                "TypePlaceholderCaption": "Placeholder",
+                "TypeButtonCaption": "Button",
+                "TypeButtonSmallCaption": "Button small",
+                "AttributeBindingCaption": "Attribute value used"
+            },
+            "DataGridPropertiesPage": {
+                "PageCaption": "List settings",
+                "GeneralCaption": "عمومی",
+                "DataSourceCaption": "هدف",
+                "ChangeFilters": "Change filter",
+                "ApplyStaticFilter": "Apply static filter",
+                "SetupStaticFilterAction": "Setup filter",
+                "EditStaticFilterAction": "Edit filter",
+                "Appearance": {
+                    "AppearanceGroup": "Appearance",
+                    "Editable": "Make the list editable"
+                }
+            },
+            "ViewElementEventPropertiesPanel": {
+                "EventFieldLabel": "اقدام",
+                "Requests": {
+                    "RunBusinessProcessRequest": "فرایند اجرا شود؟",
+                    "ClosePageRequest": "Close page",
+                    "SaveRecordRequest": "Save data",
+                    "CancelRecordChangesRequest": "Cancel changes",
+                    "OpenPageRequest": "Open specific page",
+                    "CreateRecordRequest": "Open new record",
+                    "UpdateRecordRequest": "Open existing record",
+                    "LoadDataRequest": "Refresh data",
+                    "ExportDataGridToExcelRequest": "خروجی به اکسل",
+                    "ImportDataRequest": "ورودی اطلاعات",
+                    "UploadFileRequest": "بارگذاری فایل",
+                    "SetRecordRightsRequest": "تنظیم دسترسی ها"
+                },
+                "RunBusinessProcessRequest": {
+                    "WhichProcessRunQuestion": "کدام فرایند اجرا شود?",
+                    "AddNewBusinessProcessButton": "فرایند جدید اضافه کنید",
+                    "SelectBusinessProcessButton": "بازکردن طراح فرایند",
+                    "HowProcessRunQuestion": "How to run the process?",
+                    "HowProcessRunLabel": "Process parameter where the record is passed",
+                    "HowRunProcessOptions": {
+                        "ForTheSelectedPage": "For the selected page",
+                        "RegardlessOfThePage": "Regardless of the page"
+                    }
+                },
+                "OpenPageRequest": {
+                    "Title": "کدام صفحه باز شود؟?",
+                    "OpenPageInDesignerTitle": "Open interface designer",
+                    "AddNewPage": "افرودن صفحه جدید"
+                },
+                "CreateRecordRequest": {
+                    "WhichRecordToCreateLabel": "Which record to create?",
+                    "DefaultAttributeValuesLabel": "ارزش کدام ستون باید تعیین شود؟?"
+                },
+                "UpdateRecordRequest": {
+                    "WhichObjectToOpenRecordOfLabel": "Which object to open record of?",
+                    "WhichRecordToOpenLabel": "Which record to open?"
+                },
+                "LoadDataRequest": {},
+                "ExecuteCustomCode": "Execute custom code"
+            },
+            "DefaultAttributeValues": {
+                "AddAttribute": "افزودن فیلد"
+            },
+            "ActionDashboardPropertiesPage": {
+                "PageCaption": "Action dashboard settings",
+                "GeneralCaption": "عمومی",
+                "DataSource": "Data source",
+                "GoToCasesButtonCaption": "Set up cases",
+                "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+                "ChannelsCaption": "کانالها",
+                "CallAction": "تماس",
+                "EmailAction": "ایمیل",
+                "FeedAction": "Feed message",
+                "ActivityAction": "وظیفه",
+                "CasesDisabledTitle": "Cases cannot be set up for the data source"
+            },
+            "PropertiesPanelIconSettings": {
+                "UseIcon": "Use icon",
+                "IconPositionLabel": "موقعیت",
+                "IconPosition": {
+                    "LeftIcon": "Icon left",
+                    "RightIcon": "Icon right",
+                    "OnlyIcon": "Only icon",
+                    "OnlyText": "Only text"
+                },
+                "IconLabel": "آیکون"
+            },
+            "TabItemPropertiesPage": {
+                "GeneralGroup": "عمومی",
+                "CaptionLabel": "معلق",
+                "AppearanceGroup": "Appearance",
+                "IconPosition": {
+                    "LeftIcon": "Icon left",
+                    "OnlyIcon": "Only icon",
+                    "OnlyText": "Only text"
+                }
+            },
+            "MenuItemPropertiesPanel": {
+                "GeneralGroup": "عمومی",
+                "CaptionLabel": "معلق",
+                "ActionLabel": "اقدام",
+                "AppearanceGroup": "Appearance"
+            },
+            "GalleryPropertiesPanel": {
+                "PageCaption": "Gallery settings",
+                "GeneralCaption": "عمومی",
+                "AdditionalCaption": "اضافی",
+                "DataSourceCaption": "هدف",
+                "CaptionColumnField": "معلق",
+                "DescriptionColumnField": "شرح",
+                "ImageColumnField": "عکس",
+                "SelectableConfigField": "Selectable"
+            },
+            "FilePropertiesPage": {
+                "General": "عمومی",
+                "AllowedExtensions": "File extensions",
+                "AllowedExtensionsEmptyMessage": "If not set, all file types from File extensions AllowList system setting are allowed",
+                "MaxSize": "Maximum file size, MB",
+                "MaxSizeEmptyMessage": "If not set, default value from Attachment max size system setting is applied",
+                "LabelPosition": "Title position",
+                "LabelPositionVariants": {
+                    "Auto": "Auto",
+                    "Left": "چپ",
+                    "Right": "راست",
+                    "Above": "Above",
+                    "Hidden": "Hidden"
+                },
+                "Placeholder": "Placeholder",
+                "DataSource": "منبع اطلاعات",
+                "Editability": "تغییرات",
+                "TitleOnPage": "Title on page",
+                "EditabilityControls": {
+                    "Readonly": "فقط خواندنی"
+                },
+                "AppearanceGroup": "Appearance"
+            },
+            "FileListPropertiesPage": {
+                "PageCaption": " Attachment list settings",
+                "GeneralGroup": "عمومی",
+                "FileGroupLabel": "File group",
+                "FileGroups": {
+                    "Attachments": "ضمیمه ها"
+                },
+                "AttributeToAttachFiles": "Record to attach files",
+                "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+                "TagLabel": "File tag",
+                "TagPlaceholder": "Show all record files by default",
+                "TagHint": "Use tag to filter record files, e.g., \"application documents\"",
+                "FileEntitySchemaLabel": "File storage location",
+                "AppearanceGroup": "Appearance",
+                "ViewTypeLabel": "پیشنهاد",
+                "TileSizeFieldLabel": "Gallery item size",
+                "Sizes": {
+                    "Small": "Small",
+                    "Medium": "میانگین",
+                    "Large": "بزرگ",
+                    "ExtraLarge": "Extra Large"
+                },
+                "ViewTypeOption": {
+                    "List": "لیست",
+                    "Gallery": "Gallery"
+                }
+            },
+            "BaseCustomPropertiesPanel": {
+                "PageCaption": "Custom element settings",
+                "GeneralCaption": "عمومی",
+                "Description": "You can set up this element in page source code",
+                "OpenSourceCodeButtonCaption": "Open source code"
+            },
+            "ImportDataRequestPropertiesPanel": {
+                "EntitySchemaSelectCaption": "Which data to import"
+            },
+            "ExportDataGridToExcelRequestPropertiesPanel": {
+                "ViewSelectCaption": "Which data to export"
+            },
+            "UploadFileRequestPropertiesPanel": {
+                "ViewSelectCaption": "Where upload files to?",
+                "AllowedExtensions": "What file extensions are allowed to upload?",
+                "AllowedExtensionsEmptyMessage": "If not set, all file types from \"File extensions AllowList\" system setting are allowed",
+                "MaxSize": "What is the maximum allowed file size in MB?",
+                "MaxSizeEmptyMessage": "If not set, default value from \"Attachment max size\" system setting is applied",
+                "FileTypesPlaceholder": "For example, .pdf, .png",
+                "MaxSizePlaceholder": "{0} MB by default"
+            },
+            "PropertiesPanelVisibilitySettings": {
+                "VisibilityGroup": "Visibility",
+                "Visible": "Visible",
+                "NotVisible": "Not visible",
+                "SetupConditions": "Setup conditions",
+                "DefaultValueNotSupported": "This element does not support default values for visibility"
+            },
+            "ApprovalPropertiesPage": {
+                "HeaderLabel": "Approvals settings",
+                "SchemaNameLabel": "Which records to approve?",
+                "GeneralGroup": "عمومی",
+                "AppearanceGroup": "Appearance",
+                "HiddenWhenNoData": "Hidden when no data"
+            },
+            "ImageInputPropertiesPage": {
+                "SizeFieldLabel": "اندازه",
+                "Sizes": {
+                    "None": "None",
+                    "Small": "Small",
+                    "Medium": "میانگین",
+                    "Large": "بزرگ",
+                    "ExtraLarge": "Extra Large"
+                },
+                "BorderRadiusLabel": "Border radius",
+                "PositioningLabel": "Image position",
+                "Positioning": {
+                    "Cover": "Fill",
+                    "ScaleDown": "Fit"
+                },
+                "MaxSize": "Maximum file size, MB",
+                "MaxSizeEmptyMessage": "If not set, default value from \"Image max size\" system setting is applied",
+                "MaxSizePlaceholder": "{0} MB by default",
+                "TooltipLabel": "اشاره",
+                "AppearanceGroup": "Appearance",
+                "Editability": "تغییرات",
+                "EditabilityControls": {
+                    "Readonly": "فقط خواندنی"
+                }
+            },
+            "TimerPropertiesPage": {
+                "PageCaption": "Timer settings",
+                "TimerType": "نوع",
+                "TargetDateTimeColumn": "Target date time column",
+                "StartDateTimeColumn": "Start date time column",
+                "FromDateTimerType": "Timer from date",
+                "CountdownToSpecificDateTimerType": "Countdown to specific date",
+                "ShowNegativeCountDownValue": "Show negative countdown value",
+                "TextColorForNegativeValues": "Text color for negative values",
+                "TextForPositiveValues": "Text for positive values",
+                "TextForNegativeValues": "Text for negative values",
+                "ValueTextTooltip": "Please use [#timer#] macros and text strings to create detailed timer labels. For example, Positive value - [#timer#] left to complete task;  Negative value - [#timer#] overdue."
+            },
+            "ApprovalListPropertiesPage": {
+                "HeaderLabel": "Approvals list settings",
+                "GeneralGroup": "عمومی",
+                "SchemaNameLabel": "هدف"
+            },
+            "SearchFilterPropertiesPanel": {
+                "PageCaption": "Search settings",
+                "GeneralCaption": "عمومی",
+                "ChooseTargetsCaption": "Choose component to filter",
+                "ChooseTargetsTooltip": "Select the list where to perform the search. The drop-down menu displays lists that are present on the current page and have an object specified",
+                "Placeholder": "Placeholder",
+                "DirectConnection": "The Search component allows to search only by text, number and lookup columns with <a href='https://academy.creatio.com/docs/developer/back_end_development/data_operations/orm/overview#title-1263-1' target='_blank'>direct connections</a> to list object.",
+                "AppearanceGroup": "Appearance",
+                "IconOnlyCaption": "Icon only"
+            },
+            "LocalTimePropertiesPage": {
+                "PageCaption": "Local time settings",
+                "TimeZoneColumn": "Time zone column"
+            }
+        },
+        "SaveMessage": "تمام تغییرات ذخیره خواهد شد. ادامه می دهید؟?",
+        "MainHeader": {
+            "Title": "معلق",
+            "CommandLinePlaceholder": "از من کمک بخواهید?"
+        },
+        "LookupEntityDialog": {
+            "CancelButtonDialog": "انصراف",
+            "SelectButtonDialog": "ذخیره",
+            "TitleControl": "معلق",
+            "NameControl": "کد",
+            "Validations": {
+                "RequiredNameCaption": "یک مقدار وارد کنید",
+                "DuplicateNameCaption": "Object with the same code already exists",
+                "PatternPrefixTemplate": "Code must start with the \"{0}\" prefix",
+                "PatternNameCaption": "مقدار نامعتبراست. از نمادهای: a-z، A-Z، 0-9 استفاده نمایید. نماد: 0-9 نمی تواند اول باشد."
+            },
+            "CreateOrEditLookupEntityTitle": "جستجوی جدید"
+        },
+        "SaveConfirmationDialog": {
+            "Message": "This page contains unsaved changes. They will be lost if you close the page. Save the changes?",
+            "Save": "ذخیره",
+            "DoNotSave": "Don't save",
+            "Cancel": "انصراف"
+        },
+        "SetupEntityDialog": {
+            "Title": "New object"
+        },
+        "Caption": "طراح"
+    },
+    "ApplicationManagement": {
+        "CreateApplicationComponent": {
+            "WaitTitle": "Adding default content to your application"
+        },
+        "ApplicationInfoDialogComponent": {
+            "HeaderCaption": "New application",
+            "InputNameCaption": "Please name your application",
+            "InputDescriptionCaption": "Describe what it’s for (optional)",
+            "InputDescriptionPlaceholder": "Write a few words about your application",
+            "CancelButtonCaption": "انصراف",
+            "CreateButtonCaption": "قرارداد جدید",
+            "HeaderEditCaption": "Edit application",
+            "ApplicationCodeCaption": "Application code",
+            "SaveButtonCaption": "ذخیره",
+            "HeaderCarouselCaption": "Select icon"
+        },
+        "ApplicationValidatorService": {
+            "InvalidCharactersForName": "Only the characters \"- _\" are allowed in the name",
+            "FirstSymbolIsNotLetterAndNotDigit": "The name must start with a letter or digit",
+            "InvalidCharactersForCode": "Only Latin letters and numbers are allowed in the application code",
+            "ApplicationNameAlreadyExists": "Application with name \"{0}\" already exists",
+            "ApplicationCodeAlreadyExists": "This application code or package name is already in use",
+            "InvalidApplicationCodePrefix": "Application code must start with the \"{0}\" prefix"
+        }
+    },
+    "Validators": {
+        "Autocomplete": {
+            "Message": "Please select value from the list"
+        },
+        "Required": {
+            "Message": "یک مقدار وارد کنید"
+        },
+        "MaxLength": {
+            "Message": "Maximum text length exceeded ({{actualLength}}/{{maxLength}})"
+        },
+        "MinLength": {
+            "Message": "Minimum text length not reached ({{actualLength}}/{{minLength}})"
+        },
+        "Min": {
+            "Message": "Minimum number value is {{min}}"
+        },
+        "Max": {
+            "Message": "Maximum number value is {{max}}"
+        },
+        "GridColumnsCount": {
+            "Message": "Columns that contain elements cannot be deleted. To reduce the column number, delete the elements or move them to other columns."
+        },
+        "Email": {
+            "Message": "فرمت ایمیل نامعتبر است"
+        },
+        "ColorPicker": {
+            "Message": "Action error. Invalid HEX format was selected"
+        },
+        "Link": {
+            "Message": "Invalid url format"
+        }
+    },
+    "UserProfile": {
+        "Profile": "پروفایل کاربر",
+        "FirstLastName": "نام کامل",
+        "Organization": "سازمان",
+        "Language": "زبان",
+        "TimeZone": "منظقه زمانی",
+        "DateTimeFormat": "فرمت تاریخ و زمان",
+        "Email": "ایمیل",
+        "ChangeEmail": "Change email",
+        "EmailChanged": "Your email was successfully changed",
+        "ResendConfirmEmailSuccess": "Confirmation email was sent",
+        "ResendConfirmEmailError": "Confirmation email wasn't sent",
+        "NotConfirmedEmail": "Please check your email to confirm registration",
+        "Password": "رمز",
+        "ChangePassword": "تغییر رمز",
+        "ChangePasswordError": "An error occurred while change password",
+        "ResetPasswordValidationError": "There are no users that go by this email",
+        "ConnectedAccounts": "Connected accounts",
+        "DeleteProfile": "Delete profile",
+        "ChangesSaved": "Changes were saved",
+        "SavingError": "An error occurred while save the data",
+        "ApplyChanges": "ذخیره",
+        "ReloginError": "Changes wasn't applied. Please relogin to apply changes",
+        "NewEmail": "ایمیل جدید",
+        "CurrentPassword": "رمز فعلی",
+        "WrongPassword": "Wrong password",
+        "ExistsEmailError": "This email is already used",
+        "ChangeEmailError": "Internal error. Email wasn't changed. Try again later",
+        "EmailNotConfirmed": "Email not confirmed",
+        "ResendConfirm": "Resend confirmation",
+        "ConnectedAccountsSectionCaption": "Connected third-party accounts",
+        "Logins": {
+            "AddNewLogin": "متمم",
+            "LoginAlreadyAssociated": "The account is connected to another user",
+            "DefaultConnectionErrorMessage": "Could not connect social network",
+            "DisconnectAccount": "متصل نیست"
+        },
+        "Photo": "عکس",
+        "Role": "نقش",
+        "Active": "فعال است",
+        "Status": "وضعیت",
+        "Invited": "Invited",
+        "Back": "بازگشت",
+        "ChangeEmailButton": "Change and logout",
+        "DisconnectAccountError": "Unable to disconnect selected account"
+    },
+    "UserProfileActionComponent": {
+        "YourProfileActionCaption": "پروفایل شما",
+        "LogoutActionCaption": "لغو اشتراک"
+    },
+    "EnvironmentManagement": {
+        "WaitTrialPage": {
+            "DemoDataToggleCaption": "Fill in the system with demo data",
+            "Description": "This account will be used to login",
+            "Continue": "آزاد کردن",
+            "ConfirmRegistration": {
+                "RegistrationSuccessful": "Your registration is successful!",
+                "CreateFirstApp": "Do you want to create your first app right now?",
+                "GuideMeButtonCaption": "Yes, create new app",
+                "ManageButtonCaption": "No, I`ll do it later"
+            },
+            "WaitPage": {
+                "StudioEnterpriseMessage": "You’ll be able to create<br />your <strong>first app</strong> in a few moments!",
+                "CRMMessage": "You’ll be able to try full-fledged <strong>marketing, sales, and service</strong> products integrated into one no-code platform in a few moments!",
+                "CreatioIsHotMessage": "Creatio<br />is hot!",
+                "TrialTimeoutMessage": "We are working on it! But due to high demand,<br />there might be a delay in your trial delivery.",
+                "SendTrialEmail": "We appreciate your time and will send an email<br />when the trial is ready.",
+                "GoToApplications": "Go to Application Hub"
+            }
+        }
+    },
+    "OrganizationUserSection": {
+        "GridColumns": {
+            "id": "شناسه",
+            "fullName": "First and last name",
+            "email": "ایمیل",
+            "status": "وضعیت",
+            "role": "نقش",
+            "lastActivity": "Last activity"
+        },
+        "GridActions": {
+            "Activate": "فعالسازی",
+            "Deactivate": "معلق",
+            "Edit": "انتشار",
+            "Resend": "Resend invitation",
+            "Cancel": "Cancel invitation"
+        },
+        "UserStatus": {
+            "Active": "فعال است",
+            "Inactive": "غیرفعال",
+            "Invited": "Invitation sent"
+        },
+        "AddUser": "+ Add user",
+        "ChangeStatusMessage": {
+            "activate": "User has been activated",
+            "deactivate": "User has been deactivated"
+        },
+        "InvitationSent": "Invitation is sent",
+        "InviteUsersPage": {
+            "NewUser": "New user",
+            "Back": "بازگشت",
+            "Role": "نقش",
+            "Email": "Business email",
+            "Collaborators": "Invited users",
+            "SendInvite": "دعوت نامه",
+            "InviteSuccess": "Invitation sent",
+            "EmailExists": "User {0} has already been invited to organization",
+            "GoToProfile": "Go to profile"
+        }
+    },
+    "DataSourceAttributeValuePickerProvider": {
+        "ValueFromFieldCaption": "Value from another field"
+    },
+    "OperationPermissionsErrorDialog": {
+        "ErrorTemplate": "You do not have permission to perform this operation.\nPlease contact your system administrator and request permission to perform the following system operation with code: «{0}». Permissions to system operations are managed in the “Operation permissions” section of the System designer."
+    },
+    "ViewElementGroup": {
+        "ChartsGroupCaption": "چارت",
+        "ComponentsGroupCaption": "اجزاء",
+        "LayoutElementsGroupCaption": "Layout element",
+        "InputsGroupCaption": "Input",
+        "CustomElementsGroupCaption": "Custom element"
+    },
+    "AggregationNames": {
+        "Count": "تعداد رکورد",
+        "Sum": "مجموع مقادیر",
+        "Avg": "مقادیر میانگین",
+        "MinValue": "حداقل مقدار",
+        "MaxValue": "حداکثر مقدار",
+        "MinDate": "Minimum date",
+        "MaxDate": "Maximum date",
+        "TopOne": "First record value"
+    },
+    "TypeCaptions": {
+        "GridContainer": "Grid container",
+        "FlexContainer": "Flex container",
+        "TabContainer": "Tab",
+        "MenuItem": "آیتم منو",
+        "ChartWidget": "چارت",
+        "TimelineTile": "Tile"
+    },
+    "DialogComponent": {
+        "CancelButtonDialog": "انصراف",
+        "SaveButtonDialog": "ذخیره"
+    },
+    "SsoSettings": {
+        "Validators": {
+            "AdfsTenant": {
+                "Message": "Value should not be empty or start with http:// or https://"
+            },
+            "StringUrl": {
+                "Message": "Value should be valid URL"
+            }
+        },
+        "SsoIdentityProvider": {
+            "DuplicationError": "This provider already exists. Please check the entered information."
+        }
+    },
+    "BusinessRuleAction": {
+        "StructureExplorer": {
+            "Title": "Select elements",
+            "ElementsTab": "{0}Elements{1}"
+        }
+    },
+    "FileSizeUnit": {
+        "Byte": "bytes",
+        "Bytes": "bytes",
+        "Kilobyte": "KB",
+        "Megabyte": "MB",
+        "Gigabyte": "GB"
+    },
+    "Approvals": {
+        "ComponentHeaderLabel": "تایید مورد نیاز است"
+    }
+}

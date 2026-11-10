@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Використати інший метод",
+    "TwoFactorSubmitButton": "Підтвердити",
+    "TwoFactorBackButton": "Назад",
+    "SmsProvider": {
+        "SendSms": "Надіслати інший код",
+        "ResendSms": "Повторно надіслати СМС"
+    },
+    "EmailProvider": {
+        "SendEmail": "Надіслати інший код"
+    },
+    "TwoFactor.AdditionalVerification": "Додаткова перевірка",
+    "TwoFactor.CancelButton.Caption": "Скасувати",
+    "TwoFactor.SmsProviderNotAvailable": "Введіть код підтвердження, який був надісланий через SMS на ваш номер телефону",
+    "TwoFactor.EnterSmsCode.Caption": "Введіть код підтвердження, який був надісланий через SMS на ваш номер телефону",
+    "TwoFactor.EnterEmailCode.Caption": "Введіть код підтвердження, який був надісланий на вашу електронну адресу",
+    "TwoFactor.EnterTOTPCode.Caption": "Введіть код перевірки з застосунку автентифікації",
+    "TwoFactor.VerificationCode.Caption": "Код підтвердження",
+    "TwoFactor.TOTPUnavailable.Caption": "Щоб використовувати метод програми-автентифікатора, спочатку потрібно його налаштувати. Це можна зробити на вашій сторінці профіля.",
+    "TwoFactor.UseAnotherMethod.Caption": "Використати інший метод",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Код підтвердження недійсний. Перевірте, що ви ввели правильні дані або зверніться до вашого системного адміністратора",
+    "TwoFactor.ValidationCanceled": "Скасовано підтвердження другого фактора",
+    "TwoFactor.EnterRecoveryCode.Caption": "Введіть код відновлення",
+    "TwoFactor.RecoveryCodesNotAvailable": "Щоб скористатися кодами відновлення, спочатку потрібно їх налаштувати. Це можна зробити на вашій сторінці профілю"
+}

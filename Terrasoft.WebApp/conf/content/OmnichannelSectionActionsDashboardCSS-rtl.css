@@ -1,0 +1,21 @@
+﻿#omnichannel-contacts-tooltip-wrapEl .tip-border {
+  padding: 0;
+}
+#omnichannel-contacts-tooltip-wrapEl .tip-border .tip-panel .tip-content {
+  padding: 16px;
+  margin-left: 0;
+}
+#omnichannel-contacts-tooltip-wrapEl .tip-border .tip-panel .tip-content:empty {
+  padding: 0;
+}
+#omnichannel-contacts-tooltip-wrapEl .tip-border .tip-panel .tip-items {
+  margin: 0;
+}
+#omnichannel-contacts-tooltip-wrapEl .tip-border .tip-panel .tip-items .ad-tooltip-menu {
+  overflow-x: scroll;
+  position: static !important;
+}
+#omnichannel-contacts-tooltip-wrapEl .tip-border .tip-panel .tip-items .menu-item-image {
+  background-size: contain;
+  border-radius: 50%;
+}

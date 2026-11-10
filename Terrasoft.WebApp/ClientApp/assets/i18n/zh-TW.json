@@ -1,0 +1,3740 @@
+{
+    "ConfirmationDialog": {
+        "YES": "是的",
+        "NO": "不",
+        "DELETE": "刪除",
+        "CANCEL": "取消"
+    },
+    "InfoDialog": {
+        "OK": "確定"
+    },
+    "OperationPermissionsErrorDialog": {
+        "ErrorTemplate": "您沒有權限執行此操作。\n請聯絡您的系統管理員，並請求執行代碼為「{0}」的系統操作權限。系統操作的權限管理在系統設計器的「操作權限」部分。"
+    },
+    "ValidationErrorDialogComponent": {
+        "Cancel": "取消",
+        "Close": "關閉"
+    },
+    "AddRecordRightsDialog": {
+        "Add": "添加",
+        "Cancel": "取消",
+        "RecordAuthor": "記錄作者",
+        "RightsRecipient": "取得權限的使用者或角色",
+        "Title": "根據記錄作者新增權限"
+    },
+    "AddEntityOperationGranteeDialog": {
+        "Add": "添加",
+        "Cancel": "取消",
+        "Operation": "操作",
+        "UserOrRole": "取得權限的使用者或角色",
+        "Title": "根據角色或使用者新增權限"
+    },
+    "LocalizableStringsDialog": {
+        "Title": "可本地化的字串",
+        "NameTitle": "程式碼",
+        "ValueTitle": "數值",
+        "Add": "添加",
+        "Cancel": "取消",
+        "Apply": "申請",
+        "ShowAllLanguages": "顯示所有語言",
+        "HideInactiveLanguages": "隱藏非活動語言",
+        "Validations": {
+            "RequiredNameCaption": "輸入一個值",
+            "PatternNameCaption": "無效值。使用符號：a-z、A-Z、0-9。符號：0-9 不能為首",
+            "DuplicateNameCaption": "已存在具有相同代碼的可本地化字串"
+        },
+        "AcademyUrl": "https://academy.creatio.com/docs/8.x/",
+        "AcademyUrlTitle": "了解更多。"
+    },
+    "OrderDirectionStrict": {
+        "Ascending": "升序",
+        "Descending": "降序"
+    },
+    "AdministratedObjectPage": {
+        "EntityOperations": "進階操作",
+        "AdditionalOperationPermissions": "額外權限",
+        "Operation": "操作",
+        "UserOrRole": "使用者或角色",
+        "UserOrRoleWhoObtainsPermission": "取得權限的使用者或角色",
+        "AccessPermissions": "許可",
+        "InfoBlockText": "授予角色或使用者的系統作業「新增任何資料」、「檢視任何資料」、「編輯任何資料」、「刪除任何資料」比您在本節中設定的權限具有更高的優先順序。",
+        "InfoBlockEntityOperationsText": "授予角色或使用者的系統作業「CanExportGrid」比您在本節中設定的權限具有更高的優先順序。",
+        "InfoBlockTitle": "筆記",
+        "InfoBlockLink1": "權限優先順序如何運作",
+        "InfoBlockLink2": "權限如何繼承",
+        "InfoBlockLink3": "如何設定詳細資料的權限",
+        "InfoBlockLink4": "如何將新記錄權限設定套用至所有現有記錄",
+        "InfoBlockLink5": "存取權限設定範例",
+        "NameFieldName": "名稱",
+        "RightsByColumnDetail": "使用欄位權限",
+        "RightsByColumnDetailTooltip": "物件特定欄位（欄位）的權限設定",
+        "RightsByOperationDetail": "使用操作權限",
+        "RightsByOperationDetailTooltip": "建立、讀取、編輯和刪除作業的權限設定",
+        "RightsByEntityOperationDetail": "使用實體操作權限",
+        "RightsByEntityOperationDetailTitle": "額外權限",
+        "RightsByEntityOperationDetailTooltip": "根據角色或使用者從目前物件匯出資料的權限設定",
+        "RightsByRecordDetail": "使用記錄權限",
+        "RightsByRecordDetailTooltip": "讀取、編輯和刪除特定記錄的權限設定",
+        "TitleFieldName": "標題",
+        "TitleFormat": "{0} 物件權限",
+        "UpdatePermissions": "更新記錄權限",
+        "OneEmptyRecordDefRightMessageTemplate": "Rule “{0}” contains no access permissions other than “Not set” and will not affect actual access settings in any way. When applying the new permissions, Creatio will delete this rule. Do you wish to proceed?",
+        "SeveralEmptyRecordDefRightsMessageTemplate": "Rules “{0}” contain no access permissions other than “Not set” and will not affect actual access settings in any way. When applying the new permissions, Creatio will delete these rules. Do you wish to proceed?",
+        "ProposalActualizationRights": "記錄的權限設置已被修改。當前對現有 {0} 記錄的權限必須更新。這可能會影響所有使用者的系統性能。 \n 您希望現在更新記錄權限嗎？",
+        "InfoAboutOperationPermissionsTitle": "重要",
+        "InfoAboutOperationPermissions": "停用物件的操作權限。在這種情況下：",
+        "InfoAboutOperationPermissions1": "公司員工可以完全存取對象的所有操作，下面清單中顯示的設定會被忽略。",
+        "InfoAboutOperationPermissions2": "外部使用者無法存取對象的任何操作。",
+        "InfoAboutOperationPermissions3": "技術使用者可根據下列清單中的設定進行存取。",
+        "InfoAboutOperationPermissions4": "瞭解有關物件權限設定的更多資訊，請參閱",
+        "InfoAboutOperationPermissionsLinkCaption": "學習資源",
+        "InfoAboutOperationPermissionsAcademyLink": "https://academy.creatio.com/documents?id=250"
+    },
+    "AdministratedObjectSection": {
+        "BusinessLogicPermissions": "記錄權限已啟用",
+        "Close": "關閉",
+        "ColumnPermissions": "已啟用欄位權限",
+        "Name": "名稱",
+        "ObjectPermissions": "啟用操作權限",
+        "Search": "搜尋",
+        "Title": "物件權限",
+        "TitleColumn": "標題",
+        "UpdatePermissions": "更新記錄權限"
+    },
+    "BasePageComponent": {
+        "Close": "關閉",
+        "Apply": "申請",
+        "Cancel": "取消",
+        "Save": "儲存",
+        "Actions": "動作",
+        "Check": "驗證",
+        "Publish": "發布",
+        "PublishAndCompile": "出版與編譯",
+        "SaveAndPublish": "儲存並發佈"
+    },
+    "ClearChangeLogSettingsDialog": {
+        "AllObjects": "所有對象",
+        "AllPeriod": "所有可用資料",
+        "Cancel": "取消",
+        "ChooseDate": "選擇日期",
+        "ChooseObject": "選擇物件",
+        "Clear": "清除",
+        "ObjectSettingsTitle": "清除下列物件的記錄資料",
+        "OnlySelectedObject": "特定物件",
+        "PeriodSettingsTitle": "清除下列期間的記錄資料",
+        "Title": "清除變更記錄",
+        "ToDatePeriod": "只有比"
+    },
+    "ChangeLogCleanerService": {
+        "SuccessLaunch": "系統已開始清除變更記錄。當程序完成時，您會在通訊面板中收到通知。"
+    },
+    "ChangeLogPage": {
+        "Close": "關閉",
+        "TitleFormat": "{0} 變更記錄",
+        "ViewLog": "檢視記錄"
+    },
+    "ChangeLogSection": {
+        "Title": "變更日誌",
+        "TitleColumn": "標題",
+        "NameColumn": "名稱",
+        "LoggingEnabledColumn": "已啟用記錄",
+        "ClearChangeLog": "清除日誌"
+    },
+    "ChangeLogComponent": {
+        "Blankslate": "變更記錄中沒有此物件的記錄",
+        "InsertedTooltip": "已新增記錄",
+        "UpdatedTooltip": "記錄已修改",
+        "DeletedTooltip": "記錄已刪除",
+        "ShowMore": "顯示更多",
+        "ShowLess": "顯示較少",
+        "ChangeType": "變更類型",
+        "ChangeTrackedOn": "變更於",
+        "ChangeTrackedBy": "變更方式",
+        "ChangeTracked": "記錄",
+        "ColumnName": "柱狀圖",
+        "ColumnOldValue": "舊值",
+        "ColumnNewValue": "新數值",
+        "Yes": "是的",
+        "No": "不"
+    },
+    "LicenseManager": {
+        "PackageNameColumn": "名稱",
+        "TypeColumn": "類型",
+        "StartDateColumn": "開始日期",
+        "DueDateColumn": "到期日",
+        "StatusColumn": "狀態",
+        "CountColumn": "全部的",
+        "LicenseIsActive": "積極的",
+        "LicenseIsNotActive": "未激活",
+        "TypePersonal": "個人的",
+        "TypeConcurrent": "同時進行",
+        "TypeServer": "伺服器"
+    },
+    "LicenseSection": {
+        "Title": "授權管理器",
+        "BlankslateTitle": "本節目前沒有任何記錄。",
+        "BlankslateDescription": "一旦您上傳授權帳號檔案，您的帳號即會顯示在這裡",
+        "ServerLicenseTooltip": "伺服器和並發授權從使用者頁面分發",
+        "ConcurrentLicenseTooltip": "伺服器和並發授權從使用者頁面分發",
+        "UploadButtonCaption": "上傳",
+        "UploadLicensesCompleteMessage": "授權已成功上傳",
+        "UploadLicensesErrorMessage": "文件格式無效",
+        "RequestLicensesButtonCaption": "要求",
+        "DeleteLicensesButtonCaption": "刪除",
+        "DeleteLicensesConfirmation": "申請帳號將被刪除。您是否要繼續？",
+        "DeleteLicensesSuccess": "已成功刪除所有帳號。",
+        "AllTypesCaption": "所有帳號",
+        "PersonalTypeCaption": "個人的",
+        "ServerTypeCaption": "伺服器",
+        "UploadLicensesCryptographicExceptionMessage": "Invalid file format. If your license was generated for 8.3.0 or earlier Creatio versions, creating a new license request may resolve the issue."
+    },
+    "LicensePage": {
+        "TitleFormat": "產品 {0}"
+    },
+    "UsedLicensesCounterChart": {
+        "ActiveLicensesTitle": "有效授權",
+        "ConcurrentLicenseTitle": "同時使用授權",
+        "UsedLicensesCountTitle": "授權",
+        "UsedLicensesCountSeparatorLabel": "的",
+        "DistributedLicensesLegend": "指派給使用者的授權",
+        "AvailableLicensesLegend": "使用者同時連線的限制",
+        "UnlimitedCountLabel": "的無限制使用者",
+        "LimitOfLicensesLabel": "帳號的限制"
+    },
+    "LicenseDetail": {
+        "Title": "授權"
+    },
+    "LicensedUsersDetail": {
+        "Title": "授權使用者",
+        "UsersDialogCaption": "用戶",
+        "UserNameColumn": "使用者",
+        "EmailColumn": "電子郵件",
+        "JobTitleColumn": "職稱",
+        "Delete": "召回",
+        "Blankslate": "這些授權尚未分發給任何使用者",
+        "SourceTitleColumn": "發行方式",
+        "UserLicensesSourceManual": "手動",
+        "UserLicensesSourceSystem": "自動",
+        "UserLicensesSourceRoleBased": "根據角色"
+    },
+    "LicenseRequestDialog": {
+        "Title": "用於授權的公司 ID",
+        "LicenseVersionTitle": "授權版本",
+        "InputFieldDescription": "Your unique Company Id is stored in the “Licensing company Id” system setting. Changing the Company Id in this field will automatically update the value of the system setting.",
+        "LicenseVersionDescription": "您打算上傳授權的 Creatio 版本。",
+        "InvalidVersionFormat": "請以三個數字加點的形式輸入版本。例如：7.18.1",
+        "RequestButtonCaption": "產生授權申請檔案"
+    },
+    "ObjectRecordRightsActualizationService": {
+        "SuccessLaunch": "系統已開始根據目前的設定更新記錄權限。當程序完成時，您將會在「通訊」面板中收到通知。"
+    },
+    "ViewElementGroup": {
+        "ChartsGroupCaption": "圖表",
+        "ComponentsGroupCaption": "元件",
+        "LayoutElementsGroupCaption": "佈局元素",
+        "InputsGroupCaption": "輸入",
+        "CustomElementsGroupCaption": "自訂元素"
+    },
+    "ObjectChangeLogPage": {
+        "TitleFormat": "{0} 物件的變更記錄",
+        "SettingsTabCaption": "日誌設定",
+        "ViewChangeLogTabCaption": "日誌資料",
+        "EnableObjectTracking": "啟用日誌記錄"
+    },
+    "ObjectTypeFilter": {
+        "AllObjects": "所有對象",
+        "Lookups": "查詢值",
+        "Sections": "區段"
+    },
+    "SearchInput": {
+        "Placeholder": "搜尋",
+        "Settings": {
+            "Cancel": "取消",
+            "Apply": "申請",
+            "SearchColumnTemplate": "依列 \"{0}\" 搜尋",
+            "StartsWith": "開始於",
+            "Contains": "包含",
+            "Equals": "相等"
+        }
+    },
+    "DeleteButtonTableCell": {
+        "Tooltip": "消除"
+    },
+    "RightLevelSelect": {
+        "Granted": "授予",
+        "GrantedDelegate": "授予委託權",
+        "NotSet": "未設定"
+    },
+    "RightsByColumnDetail": {
+        "Add": "添加",
+        "Blankslate": "存取所有欄位不受限制",
+        "Column": "柱狀圖",
+        "ColumnBlankslate": "新增角色或使用者，以管理他們對此列的存取權限",
+        "DenyReadEdit": "拒絕讀取和編輯",
+        "Drag": "拖曳以變更優先順序",
+        "PermitRead": "許可讀取",
+        "PermitReadEdit": "許可讀取和編輯",
+        "Priority": "優先事項",
+        "Remove": "消除",
+        "RightLevel": "存取級別",
+        "User": "使用者或角色",
+        "ValidationMessage": "已存在所選角色的規則。請選擇其他角色繼續",
+        "WarningDowngradingRights": "此規則中的權限限制可凌駕清單中較低的其他規則"
+    },
+    "RightsByRecordDetail": {
+        "Add": "添加",
+        "Blankslate": "未設定基於作者的權限規則",
+        "Delete": "刪除",
+        "Edit": "編輯",
+        "Read": "讀",
+        "RecordAuthor": "記錄作者",
+        "Remove": "消除",
+        "RightsRecipient": "取得權限的使用者或角色",
+        "Title": "根據記錄作者授予權限",
+        "TitleTooltip": "每當建立新記錄時，會根據記錄作者授予權限",
+        "ValidationMessage": "已存在所選角色的規則。請選擇其他角色繼續",
+        "DoNotApplyForManager": "Do not apply for manager",
+        "DoNotApplyForManagerTooltip": "Do not apply this rule if the author obtained the role only as a manager of that role. If the role is obtained through hierarchy from underlying roles, including manager roles of subordinate groups, the rule should still be applied."
+    },
+    "RightsByOperationsDetail": {
+        "Drag": "拖曳以變更優先順序",
+        "Priority": "優先事項",
+        "User": "使用者或角色",
+        "Create": "創造",
+        "Read": "讀",
+        "Edit": "編輯",
+        "Delete": "刪除",
+        "Remove": "消除",
+        "Add": "添加",
+        "Blankslate": "新增使用者或角色，以授予他們存取物件資料的權限",
+        "ValidationMessage": "已存在所選角色的規則。請選擇其他角色繼續",
+        "WarningDowngradingRights": "此規則中的權限限制可凌駕清單中較低的其他規則",
+        "Allowed": "授予",
+        "Denied": "被拒絕"
+    },
+    "RightsByEntityOperationsDetail": {
+        "Add": "添加",
+        "Title": "額外權限",
+        "Blankslate": "新增使用者或角色，以授予他們存取其他作業的權限",
+        "Operation": "操作",
+        "UserOrRole": "取得權限的使用者或角色",
+        "ValidationMessage": "欄位未填寫"
+    },
+    "SelectEntitySchemaColumnDialog": {
+        "Cancel": "取消",
+        "Select": "選擇",
+        "SelectFieldPlaceholder": "選擇欄",
+        "Title": "選擇欄"
+    },
+    "SelectSysAdminUnitDialog": {
+        "Cancel": "取消",
+        "FunctionalRoles": "功能角色",
+        "OrganizationalRoles": "組織角色",
+        "Search": "搜尋",
+        "Select": "選擇",
+        "Title": "選擇使用者或角色",
+        "Users": "用戶"
+    },
+    "SelectEntityOperationDialog": {
+        "Cancel": "取消",
+        "Search": "搜尋",
+        "Operations": "營運",
+        "Select": "選擇",
+        "Title": "個體經營",
+        "Users": "用戶",
+        "SelectFieldPlaceholder": "選擇實體作業"
+    },
+    "SysAdminUnitTree": {},
+    "TrackedColumns": {
+        "TitleTooltip": "設定列清單，記錄修改時會記錄其值",
+        "Title": "已記錄的欄",
+        "CaptionColumn": "標題",
+        "NameColumn": "名稱",
+        "Add": "添加",
+        "Remove": "消除",
+        "Blankslate": "未選擇記錄列"
+    },
+    "BaseSection": {
+        "BlankslateTitleWithFilters": "沒有符合目前搜尋條件的記錄。",
+        "BlankslateDescriptionWithFilters": "清除或修改搜尋參數",
+        "DeleteRecordConfirmation": "您確定要刪除所選記錄嗎？",
+        "AbsentDataErrorMessage": "記錄已刪除或您沒有存取權限"
+    },
+    "BaseTableDetail": {
+        "Add": "添加",
+        "BlankslateWithFilters": "沒有符合目前搜尋準則的記錄。清除或修改搜尋參數"
+    },
+    "MultiselectDialog": {
+        "Select": "選擇",
+        "Selected": "已選取：",
+        "Cancel": "取消",
+        "Blankslate": "此物件沒有記錄",
+        "BlankslateWithFilters": "沒有符合目前搜尋準則的記錄。清除或修改搜尋參數"
+    },
+    "LookupDialog": {
+        "TitleTemplate": "選擇：{0}",
+        "Selected": "已選取：",
+        "SelectButton": "選擇",
+        "CancelButton": "取消",
+        "Blankslate": "此物件沒有記錄",
+        "AllPagesSelectionWarning": "手術可能需要一些時間。繼續嗎？"
+    },
+    "QuickEntityFilter": {
+        "NonGuidMessage": "Guid 應該包含 32 個符號與 4 個破折號 (xxxxxxxx-xxxxxx-xxxxxx-xxxxxx-xxxxxxxxxx)。"
+    },
+    "DateRange": {
+        "To": "到"
+    },
+    "MailServerTableComponent": {
+        "AdditionalSettings": "附加設定",
+        "AddMailServer": "新增服務",
+        "AllowEmailDownloading": "接收電子郵件",
+        "AllowEmailSending": "傳送電子郵件",
+        "Copy": "複製",
+        "DeleteConfirmation": "您確定要刪除所選記錄嗎？",
+        "Delete": "刪除",
+        "Edit": "編輯",
+        "Empty": "無郵件服務",
+        "ExchangeMenuItem": "交換",
+        "IMAPIncomingSettingsDescription": "接收電子郵件的電子郵件服務設定。指定郵件伺服器位址、連接埠和安全性設定",
+        "IMAPIncomingSettingsHeader": "入站郵件伺服器 (IMAP)",
+        "ImapMenuItem": "IMAP/SMTP",
+        "LoginFormat": "登入格式",
+        "MailServerAddress": "服務地址",
+        "MailServer": "郵件服務",
+        "MailServerName": "服務名稱",
+        "MailServerSettings": "服務設定",
+        "MailServerType": "服務類型",
+        "MailServiceRemoveToolTip": "Creatio 無法刪除郵件服務，因為應用程式中存在此服務的多個信箱",
+        "None": "無",
+        "Port": "港口",
+        "RequiredMailServiceActions": "啟用下載或傳送電子郵件以設定服務",
+        "Section": {
+            "Add": "添加",
+            "GoToDiagnostic": "診斷工具"
+        },
+        "Security": "安全",
+        "AuthenticationType": "認證類型",
+        "ApplicationId": "應用程式 (用戶端) ID",
+        "ClientSecret": "客戶秘密",
+        "Server": "伺服器位址",
+        "SMTPOutgoingSettingsDescription": "傳送電子郵件的電子郵件服務設定。指定郵件伺服器位址、連接埠和安全性設定",
+        "SMTPOutgoingSettingsHeader": "外寄郵件伺服器 (SMTP)",
+        "SuccessfulAddOperation": "您已成功新增電子郵件服務。使用者現在可以使用此服務新增信箱",
+        "SuccessfulEditOperation": "Creatio 已成功更新郵件服務設定",
+        "SuccessfulOperation": "成功運作",
+        "WarningTitle": "⚠ 警告",
+        "Type": "類型",
+        "UseEmailAddressAsLogin": "使用電子郵件地址",
+        "UseLogin": "使用手動輸入",
+        "UseUserNameAsLogin": "使用信箱名稱",
+        "BasicAuthWarningMessage": "請注意，Basic Authentication 已經過時，而且可能不安全。它已被 Microsoft 正式<a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online\" {0}>廢棄</a>。對於生產用途，請考慮改用現代的 OAuth 驗證。配置說明在<a href=\"{1}\" {0}>Creatio Academy</a>中提供。",
+        "TenantId": "租戶 ID",
+        "AllowApplicationLevelAccess": "Allow application-level access"
+    },
+    "MailboxSettings": {
+        "AdditionalSettingsTabCaption": "附加設定",
+        "MailboxesTabCaption": "信箱",
+        "MailServicesTabCaption": "信箱服務",
+        "Title": "信箱設定"
+    },
+    "EntitySchemaDesignerPage": {
+        "NameFieldName": "名稱",
+        "CaptionFieldName": "標題"
+    },
+    "SqlScriptDesignerPage": {
+        "Name": "名稱",
+        "Caption": "標題"
+    },
+    "SchemaDataDesignerPage": {
+        "ActualizeData": "實現資料",
+        "Fields": {
+            "Name": "名稱",
+            "Object": "物件",
+            "InstallType": "安裝類型",
+            "Package": "套件"
+        },
+        "InfoBlockText1": "安裝類型",
+        "InfoBlockText2": "安裝類型決定安裝套件時新增應用程式資料的方法。",
+        "InfoBlockText3": "• Installation — data is added during the first installation of the package and is updated with the package updates. New records are always added. Existing records are updated only if the “Forced update” checkbox is selected on the “Columns setting” tab. This is the default and most flexible type.",
+        "InfoBlockText4": "• Update existing — deprecated type. We recommend using the Installation type instead because this type has similar behaviour.",
+        "InfoBlockText5": "• Initial package installation — data is added only during the first installation of the package. Data is not updated or added during subsequent package updates.",
+        "ColumnsSettingTabCaption": "欄位設定",
+        "BoundDataTabCaption": "綁定資料",
+        "InstallType": {
+            "Install": "安裝",
+            "FirstInstall": "Initial package installation",
+            "Update": "更新現有的",
+            "InstallIfNotExists": "Initial data installation"
+        },
+        "ColumnsDetail": {
+            "Title": "欄位設定",
+            "Blankslate": "選取物件，然後設定欄位",
+            "ErrorDeletePrimaryColumn": "禁止刪除主列「{0}」。",
+            "ColumnsAreNotAvailableInPackageMessage": "目前套件中沒有這些欄位，因此無法新增： {0}",
+            "Columns": {
+                "Caption": "標題",
+                "Name": "名稱",
+                "ForcedUpdate": "強制更新",
+                "Key": "鑰匙"
+            },
+            "Tooltips": {
+                "ForcedUpdate": "The checkbox indicates that the data in this column will update whenever the corresponding package is updated.",
+                "Key": "該核取方塊預設為物件的主列。如果資料庫使用複合鍵，請為所有複合鍵列選擇此核取方塊。物件的主列不能是複合鍵列。"
+            }
+        },
+        "BoundDataDetail": {
+            "Title": "數據",
+            "Blankslate": "選擇要綁定的記錄",
+            "ActualDataWasLoaded": "已載入目前的資料"
+        },
+        "InfoBlockText6": "• Initial data installation — data binding is installed during the first package installation or subsequent updates only if the same binding does not already exist. Use this type to avoid unintended overwrites."
+    },
+    "WorkspaceExplorer": {
+        "Section": {
+            "ActionButtonCaption": "動作",
+            "Title": "配置",
+            "WorkspaceItemMoveService": {
+                "NameColumn": "名稱",
+                "SelectPackageDialogTitle": "將 {0} 元件移至套件",
+                "MultiselectElementsPackageDialogTitle": "移動 {0} 元素到套件",
+                "MoveElementsWebServiceSuccessMessage": "成功移動的元件",
+                "NoPackagesMessage": "無可用套裝",
+                "MoveAllPackageElementsWebServiceSuccessMessage": "成功移動的元件",
+                "MoveAllPackageElementsDialogTitle": "將 {0} 套件元素移至套件",
+                "SpecifyDependenciesConfirmationDialog": "{0} 套件缺少正確轉換所需的相依性。您希望自動安裝缺失的相依性嗎？"
+            },
+            "WorkspaceItemMoveValidateDialog": {
+                "ErrorMessageTitle": "元件移動錯誤",
+                "WithoutValidationConfirmationMessage": "此操作會因為轉移包裹元件之間的當前依賴關係，而破壞配置完整性。要恢復完整性，請移動當前依賴關係所需的其餘元件或修改依賴關係。\n除非您計劃進行上述任一操作，否則我們建議不要繼續。\n要繼續移動包裹元件嗎？\n\n",
+                "MoveButtonCaption": "移動元素"
+            },
+            "PackageStorageValidationMessageDialog": {
+                "Title": "組態錯誤",
+                "MessageColumn": "描述",
+                "ItemNameColumn": "元素",
+                "ItemTypeColumn": "類型",
+                "PackageNameColumn": "套件",
+                "ConfirmationTitle": "元件移動錯誤",
+                "WithoutValidationConfirmationMessage": "此操作由於轉移的包裹元件之間的當前依賴關係而破壞了配置的完整性。要恢復完整性，請移動當前依賴關係所需的其餘元素或修改依賴關係。\n除非您打算執行上述任何操作，否則我們不建議繼續。\n是否繼續移動包裹元件？\n\n",
+                "MoveButtonCaption": "移動元素"
+            },
+            "ValidateWorkspaceDialog": {
+                "ErrorMessageTitle": "組態錯誤",
+                "ValidationSuccess": "配置驗證成功。未發現錯誤"
+            },
+            "Packages": {
+                "InstallPackageDialog": {
+                    "Title": "從套件庫安裝套件",
+                    "InputFieldPackageName": "套件",
+                    "InputFieldRepositoryAddress": "版本控制系統儲存庫",
+                    "InputFieldVersion": "版本",
+                    "Cancel": "取消",
+                    "Install": "安裝"
+                },
+                "CreatePackageDialog": {
+                    "Title": "套件",
+                    "InputFieldName": "名稱",
+                    "InputFieldDescription": "描述",
+                    "InputFieldRepositoryAddress": "版本控制系統儲存庫",
+                    "InputFieldVersion": "版本",
+                    "SaveButtonCaption": "儲存",
+                    "Cancel": "取消",
+                    "OpenPackagePage": "建立和新增依賴",
+                    "Validation": {
+                        "PackageNameNotSpecified": "未指定套件名稱",
+                        "PackageVersionNotSpecified": "套件版本未指定",
+                        "NotAllowedFormat": "儲存庫版本格式錯誤",
+                        "MaximumLengthExeeded": "超出最大文字長度"
+                    }
+                },
+                "SourceControl": {
+                    "CommitResult": {
+                        "Success": "成功提交至儲存庫的變更",
+                        "CustomPackage": "無法將自訂套件提交至儲存庫",
+                        "PackageUpdateNeed": "已在儲存庫中偵測到變更。需要更新工作區",
+                        "PackageHasForeignLock": "無法儲存變更：儲存項目所在的套件已被其他使用者鎖定"
+                    },
+                    "CommitChangesDialog": {
+                        "Title": "將套件提交至儲存庫",
+                        "LogMessageFieldCaption": "描述",
+                        "CommitButtonCaption": "承諾變更",
+                        "Cancel": "取消",
+                        "NoChanges": "無承諾項目"
+                    },
+                    "Update": {
+                        "ConfirmMessage": "您希望從儲存庫更新此套件嗎？",
+                        "NoChanges": "未發現任何變更"
+                    },
+                    "Install": {
+                        "ConfirmMessage": "找到已安裝的套件。下次安裝時可以完全改變套件結構。繼續嗎？",
+                        "NoChanges": "未發現任何變更"
+                    },
+                    "Restore": {
+                        "ConfirmMessage": "工作區將會更新至最新版本。您所有的變更將會遺失。繼續嗎？",
+                        "Success": "成功從儲存庫還原工作區"
+                    }
+                },
+                "PackageCreated": "成功建立新套件: {0}",
+                "PackageDeleted": "成功刪除套件: {0}",
+                "PackageLocked": "成功在 SVN 鎖定套件: {0}",
+                "PackageUnlocked": "成功解鎖 SVN 中的套件: {0}",
+                "SearchPlaceholder": "依套件搜尋",
+                "AllPackagesCaption": "所有套裝",
+                "DeleteConfirmation": "您確定要刪除選取的套件嗎？",
+                "BlankslateTitle": "未找到套件",
+                "InstallFromRepository": {
+                    "NoRepositories": "Creatio 找不到任何已儲存的儲存庫。您是否希望儲存新的儲存庫？",
+                    "NoActiveRepository": "Creatio 找不到任何作用中的套件庫。您是否希望前往套件庫清單？"
+                },
+                "ConnectedApplications": {
+                    "DeleteConfirmation": "該套件也將從下列應用程式中移除：\n{0}\n套件移除可能使這些應用程式失去功能或變得無法運作。您確定要繼續嗎？",
+                    "DeactivateConfirmation": "該套件也將從下列應用程式中移除：\n{0}\n套件移除可能使這些應用程式失去功能或變得無法運作。您確定要繼續嗎？"
+                },
+                "CreatePackage": "建立套件",
+                "PackageDeactivated": "成功停用套件： {0}",
+                "ActivateConfirmation": "您確定要啟動選取的套件嗎？",
+                "DeactivateConfirmation": "您確定要停用選取的套件嗎？",
+                "EndUserSchemas": "Environment schemas",
+                "NewSearchPlaceholder": "搜尋",
+                "PackagesCaption": "套裝",
+                "EndUserSchemaPackageTooltip": "Environment schemas exist only in this environment. To transfer them, move the schema to a package.",
+                "ConfigurationRootCaption": "組態"
+            },
+            "Items": {
+                "ImportSuccessMessage": "{0}「項目已成功匯入到」{1}\"套件中",
+                "UpdateDBStructureConfirmMessage": "這將更新所選物件的資料庫結構。您是否要繼續？",
+                "GenerateSchemasSourcesConfirmMessage": "這將為選取的元素產生原始碼。您是否要繼續？",
+                "InstallSqlScriptsConfirmMessage": "這將把選定的 SQL 腳本安裝到資料庫。您是否要繼續？",
+                "InstallDataConfirmMessage": "這將安裝所選項目的資料。您是否要繼續？",
+                "DeleteConfirmMessage": "您是否希望永久刪除選取的項目？",
+                "RevertChangesMessage": "所選項目的所有變更都會遺失。繼續嗎？",
+                "RecordLockedInSVNSuccessfully": "在 SVN 中成功鎖定記錄",
+                "RecordUnlockedInSVNSuccessfully": "在 SVN 中成功解鎖記錄",
+                "MultiItemActionButton": "多重行動",
+                "Columns": {
+                    "UId": "UID",
+                    "Name": "名稱",
+                    "Title": "標題",
+                    "Status": "狀態",
+                    "Type": "類型",
+                    "Object": "物件",
+                    "ModifiedOn": "修改於",
+                    "Package": "套件",
+                    "CreatedOn": "建立於",
+                    "CreatedBy": "建立者",
+                    "ModifiedBy": "修改者"
+                },
+                "Add": {
+                    "Caption": "添加",
+                    "Sql": "SQL腳本",
+                    "SourceCode": "原始碼",
+                    "Entity": "物件",
+                    "ReplacingEntity": "更換物件",
+                    "ClientUnit": {
+                        "Module": "模組",
+                        "EditViewModelSchema": "頁面檢視模型",
+                        "AngularSchema": "自由使用者介面頁面",
+                        "ModuleViewModelSchema": "部分檢視模型",
+                        "GridDetailViewModelSchema": "詳細 (清單) 檢視模型",
+                        "EditControlsDetailViewModelSchema": "詳細資料（欄位）檢視模型",
+                        "ExtendedClientUnitSchema": "取代視圖模型",
+                        "ExtendedAngularSchema": "Angular 取代視圖模型"
+                    },
+                    "UserTask": "用戶任務",
+                    "BusinessProcess": "業務流程",
+                    "DataBinding": "數據",
+                    "Import": "匯入",
+                    "RestService": "REST 服務",
+                    "SoapService": "SOAP 服務"
+                },
+                "Types": {
+                    "SqlScript": "SQL腳本",
+                    "SchemaData": "數據",
+                    "Assembly": "參考組裝",
+                    "EntitySchema": "物件",
+                    "ClientUnitSchema": "用戶端模組",
+                    "SourceCodeSchema": "原始碼",
+                    "ProcessSchema": "業務流程",
+                    "DcmSchema": "個案",
+                    "ProcessUserTaskSchema": "用戶任務",
+                    "CampaignSchema": "行銷活動",
+                    "ServiceSchema": "網路服務",
+                    "AddonSchema": "附加元件",
+                    "CopilotIntentSchema": "Creatio.ai 代理人",
+                    "LocalizationSchema": "本地化"
+                },
+                "Status": {
+                    "NeedInstall": "需要安裝在資料庫中",
+                    "NeedUpdateSourceCode": "需要更新原始碼",
+                    "NeedUpdateStructure": "需要更新資料庫",
+                    "LockedInSVN": "鎖定在 SVN",
+                    "UnlockedInSVN": "已在 SVN 中解鎖"
+                },
+                "Filters": {
+                    "Types": {
+                        "AllItems": "所有項目",
+                        "Placeholder": "類型"
+                    },
+                    "States": {
+                        "AllItems": "所有項目",
+                        "Placeholder": "篩選器",
+                        "Locked": "鎖定",
+                        "NeedActualization": "需求實現",
+                        "Error": "有錯誤"
+                    }
+                },
+                "DetailsDialog": {
+                    "Close": "關閉",
+                    "PageTitle": "特性",
+                    "Title": "標題",
+                    "Name": "名稱",
+                    "FullQualifiedName": "完整的合格組件名稱",
+                    "DataObjectName": "物件",
+                    "CreatedBy": "建立者",
+                    "CreatedOn": "建立於",
+                    "PackageName": "套件",
+                    "ParentCaption": "父級",
+                    "ReplaceParent": "取代父級",
+                    "IsChanged": "修改的",
+                    "UId": "UId",
+                    "ModifiedBy": "修改者",
+                    "Id": "同上",
+                    "ModifiedOn": "修改於",
+                    "ManagerName": "經理姓名",
+                    "MetaDataModifiedOn": "元資料於",
+                    "Description": "描述",
+                    "IsLocked": "鎖定",
+                    "NeedUpdateDBStructure": "需要更新資料庫",
+                    "NeedInstall": "需要安裝在資料庫中",
+                    "LastErrorText": "最後錯誤訊息",
+                    "LockedBy": "鎖定者",
+                    "DbStructureModifiedOn": "資料庫結構於",
+                    "IsNetStandard": "IsNetStandard",
+                    "LoadOnAppStart": "開始載入應用程式",
+                    "UIdTooltip": "配置元素唯一 ID。在任何應用程式中，組態元素 Id 都會保持相同。",
+                    "IdTooltip": "此列是資料庫表中的主索引鍵。記錄 ID 在不同的應用程式中可能不同"
+                },
+                "InstallLocalizationConfirmMessage": "This action will install data localizations for records and overwrite the current runtime values. Do you want to proceed?"
+            },
+            "Actions": {
+                "Move": "移至其他套件",
+                "MovePackageAllElements": "移動所有元素",
+                "Blocks": {
+                    "SourceCode": "原始碼",
+                    "Actualization": "Actualize items",
+                    "DevInFileSystem": "檔案系統開發模式",
+                    "VersionControl": "SVN 套件庫",
+                    "Packages": "套裝",
+                    "Validation": "配置",
+                    "CacheManagement": "Cache Management"
+                },
+                "Compile": "編譯",
+                "CompileAll": "編譯所有",
+                "Edit": "編輯",
+                "Delete": "刪除",
+                "MultiDelete": "刪除 ({0})",
+                "MultiExport": "輸出 ({0})",
+                "Export": "匯出",
+                "Update": "從儲存庫更新",
+                "Commit": "提交至儲存庫",
+                "Properties": "特性",
+                "UpdateDBStructure": "更新資料庫結構",
+                "MultiUpdateDBStructure": "更新物件的 DB 結構",
+                "EditProcess": "編輯流程",
+                "GenerateSchemasSources": "產生原始碼",
+                "InstallSqlScripts": "安裝",
+                "MultiInstallSqlScripts": "安裝 SQL 腳本",
+                "InstallData": "安裝",
+                "MultiInstallData": "安裝資料",
+                "RevertChanges": "放棄更改",
+                "InstallRequiredSqlScripts": "在需要的地方安裝 SQL 腳本",
+                "InstallRequiredData": "在需要的地方安裝資料",
+                "InstallRequiredSchemasDBStructure": "在需要的地方更新 DB 結構",
+                "OperationSuccessMessage": "手術成功",
+                "GenerateRequiredSchemasSources": "在需要的地方產生",
+                "GenerateModifiedSchemasSources": "為修改後的模式產生",
+                "GenerateAllSchemasSources": "為所有模式產生",
+                "GenerateAllSchemasSourcesWasStarted": "系統已開始為所有模式產生原始碼。當程序完成時，您會在通訊面板中收到通知。",
+                "GenerateAllSchemasSourcesSuccess": "已成功產生所有模式的原始碼",
+                "GenerateAllSchemasSourcesError": "某些模式的原始碼產生完成時出現錯誤。每個模式的錯誤訊息可在重新載入後的配置項目清單中查閱。您是否希望重新載入配置項目？",
+                "LoadPackagesToFileSystem": "下載套件到檔案系統",
+                "LoadPackagesToDB": "從檔案系統更新套件",
+                "OpenRepositoriesList": "開啟套件庫清單",
+                "RestoreFromRepository": "從儲存庫還原",
+                "InstallPackageFromRepository": "從套件庫安裝套件",
+                "PackageDependenciesDiagram": "套件相依性圖表",
+                "ValidateWorkspace": "驗證組態",
+                "FileDesignModeInfo": "<p>取得潛在客戶的網址 - 一個 Creatio 網址，將接收來自已連接廣告帳戶的潛在客戶。為了能夠接收傳入請求，必須能訪問 Creatio 網站。如果您使用代理伺服器，請指定代理網址而不是 Creatio 網址。如果您的 Creatio 實例是受限訪問網絡的一部分，請將潛在客戶生成服務的 IP 列入白名單。</p><p>接收通知的角色 - Creatio 會在發生任何故障時通知該角色的用戶，例如連接廣告帳戶或創建潛在客戶時出現錯誤。</p><p>“連接”標籤顯示與 Creatio 連接的廣告帳戶和頁面列表。該列表包括當前在頁面、帳戶和令牌級別上的連接狀態。您可以管理這些連接，例如刪除或重置它們。</p><p>“日誌”標籤顯示潛在客戶生成功能的變更日誌。</p>",
+                "Confirmation": {
+                    "InstallRequiredSqlScripts": "所有需要安裝的項目都會安裝到資料庫。繼續嗎？",
+                    "InstallRequiredData": "所有需要安裝的項目都會安裝到資料庫。繼續嗎？",
+                    "InstallRequiredSchemasDBStructure": "所有需要更新的模式都會更新資料庫結構。繼續嗎？",
+                    "Compile": "工作區將會被編譯。您是否要繼續？",
+                    "CompileAll": "工作區將會重新編譯。您是否要繼續？",
+                    "GenerateRequiredSchemasSources": "為所有需要的模式產生原始碼？",
+                    "GenerateModifiedSchemasSources": "為修改後的模式產生原始碼？",
+                    "GenerateAllSchemasSources": "Generate source codes for all schemas? The operation’s result will be sent to the communication panel",
+                    "ThirdPartyPublisher": "「{0}」項目是由第三方發布者創建或從文件存檔安裝的。\n 無法保存此項目的更改。要繼續嗎？",
+                    "ValidateWorkspace": "手術可能需要一些時間。繼續嗎？",
+                    "ExportItems": "手術可能需要一些時間。繼續嗎？",
+                    "StartHotfix": "此選項用於關鍵且緊急的變更。封包將在 {0} 分鐘後自動鎖定。請確保在熱修改hotfix後將變更交付到開發環境。\n\n您確定要對封包進行熱修改hotfix嗎？",
+                    "FinishHotfix": "請確保在熱修復hotfix之後將更改發送到開發環境。\n您確定要鎖定此包裹嗎？",
+                    "Cache": {
+                        "Message": "This action will remove data from the IndexedDB cache storage for all users. This caching helps applications and pages load faster. After clearing, some pages may temporary load slower at first while the cache is rebuilt.",
+                        "Cancel": "取消",
+                        "Clear": "清除"
+                    }
+                },
+                "OpenMetaData": "開放元資料",
+                "OpenSourceCode": "開放原始碼",
+                "LockPackageElement": "在 SVN 中鎖定元素",
+                "UnLockPackageElement": "在 SVN 中解鎖元素",
+                "LockPackage": "在 SVN 中鎖定套件",
+                "UnLockPackage": "在 SVN 中解鎖套件",
+                "Deactivate": "停用",
+                "Activate": "啟用設定",
+                "CompilationCompletedSuccessfully": "編譯成功完成",
+                "CompilationCompletedWithErrors": "編譯完成時有錯誤",
+                "OperationCompleted": "操作完成",
+                "StartHotfix": "解鎖修補程式",
+                "FinishHotfix": "修補程式後的鎖定",
+                "ClearAllCache": "Clear IndexedDB cache for all users",
+                "InstallLocalizationInBackgroundSuccess": "Localization installation has started. You’ll receive a notification when it is complete",
+                "InstallLocalization": "安裝"
+            },
+            "WorkspaceSyncResultDialog": {
+                "Close": "關閉",
+                "Title": "變更",
+                "Error": "錯誤",
+                "ShowOnlyErrors": "僅顯示錯誤",
+                "Columns": {
+                    "Name": "名稱",
+                    "Type": "類型",
+                    "Status": "狀態",
+                    "ErrorText": "錯誤文字"
+                }
+            },
+            "HotKey": "熱鍵",
+            "NoDataTitle": "該套件目前未激活。",
+            "NoDataText": "您可以手動啟動它。這將啟用其內容，並使其功能可供使用者使用。",
+            "CompilationErrorsButton": {
+                "Title": "編譯錯誤"
+            }
+        },
+        "PackagePage": {
+            "Title": "套件屬性",
+            "Name": "名稱",
+            "Description": "描述",
+            "Maintainer": "維護者",
+            "MaintainerTooltip": "套件開發人員",
+            "PackageType": "編譯成獨立的程序集",
+            "RepositoryAddress": "儲存庫地址",
+            "RepositoryVersion": "儲存庫版本",
+            "PackageVersion": "套件版本",
+            "DependenciesTab": "依賴",
+            "InstallationFlow": "安裝步驟",
+            "SysInformationTab": "系統資訊",
+            "CompilationRequired": "編譯組態以套用變更",
+            "PackageDependencyDetail": {
+                "DependsOnPackagesTitle": "視套件而定",
+                "DependentPackagesTitle": "依附套件",
+                "DependsOnPackagesTooltip": "目前套件所依賴的套件",
+                "DependentPackagesTooltip": "依賴於目前套件的套件",
+                "PackagesDialogCaption": "選擇套件",
+                "NameColumn": "名稱",
+                "Maintainer": "維護者",
+                "Remove": "消除",
+                "Blankslate": "沒有套件",
+                "Add": "添加"
+            },
+            "InstallationFlowTab": {
+                "BeforePackageInstall": "套件安裝前",
+                "BeforePackageInstallTooltip": "套件安裝前執行的動作",
+                "AfterPackageInstall": "安裝套件後",
+                "AfterPackageInstallTooltip": "套件安裝後執行的動作",
+                "BeforePackageUninstall": "套件刪除前",
+                "BeforePackageUninstallTooltip": "刪除套件前要執行的動作",
+                "Blankslate": "沒有步驟"
+            },
+            "InstallFlowPackageDetail": {
+                "Add": "添加",
+                "ScriptsDialogCaption": "選擇模式",
+                "ColumnNameCaption": "名稱",
+                "ColumnTitleCaption": "標題",
+                "ColumnPositionCaption": "訂單",
+                "ColumnModifiedOnCaption": "修改於",
+                "Install": "手動執行",
+                "Success": "手術成功"
+            },
+            "SysInformation": {
+                "CreatedBy": "建立者",
+                "ModifiedBy": "修改者",
+                "CreatedOn": "建立於",
+                "ModifiedOn": "修改於",
+                "UIDTooltip": "套件唯一 ID。在任何應用程式中，套件 ID 永遠保持相同。",
+                "IDTooltip": "此列是資料庫表中的主索引鍵。記錄 ID 在不同的應用程式中可能不同"
+            },
+            "RepositoryAuthorizationRequired": "操作已終止。需要驗證。現在登入？",
+            "InstallBehavior": "使用智慧型啟動",
+            "InstallBehaviorInfo": "套件會安裝在環境中，並在其所有相依性可用時自動啟動。缺少的相依性不會干擾包含套件的套件/應用程式的安裝。一旦所有的相依性都可用，套件就會自動啟動，並開始供使用者存取。如果相依性不再可用，套件會自動停用。"
+        },
+        "Errors": {
+            "AssemblyIsNotInitialized": "請在繼續使用 Creatio 之前編譯配置。\n您希望現在編譯嗎？"
+        },
+        "PageTemplateLookup": {
+            "HeaderCaption": "選擇模板",
+            "Cancel": "取消",
+            "Select": "選擇",
+            "WebPages": "Web pages",
+            "MobilePages": "Mobile app pages"
+        },
+        "DetailedMessageDialog": {
+            "Title": "注意力",
+            "OperationTitleMessage": "您即將啟動「{0}」作業，此作業可能導致使用者暫時無法使用本網站。請確認此操作的必要性。",
+            "InternalBlockTitle": "潛在後果：",
+            "InternalBlockFirstMessage": "暫時限制存取特定功能或整個網站",
+            "InternalBlockSecondMessage": "可能會中斷其他使用者正在進行的程序和活動",
+            "AdviseMessage": "如果在生產環境中執行此作業是不可避免的，我們強烈建議將其排程在指定的維護視窗中，以盡量減少對使用者的影響。",
+            "ProceedActionQuestion": "您想現在繼續這個手術嗎？",
+            "ExecuteOperationCaption": "執行操作",
+            "GenerateAllSchemasSourcesAction": "為所有模式產生原始碼",
+            "GenerateRequiredSchemasSourcesAction": "在需要的地方產生原始碼",
+            "GenerateModifiedSchemasSourcesAction": "為修改後的模式產生原始碼",
+            "DeleteAction": {
+                "WithConnectedApplications": {
+                    "Message": "該套件也將從以下應用程式中移除：\n{0}",
+                    "InternalBlockMessage": "套件移除會使這些應用程式失去功能或無法運作。"
+                }
+            },
+            "DeactivateAction": {
+                "WithConnectedApplications": {
+                    "Message": "該套件也將在以下應用程式中停用：\n{0}",
+                    "InternalBlockMessage": "停用套件會使這些應用程式失去功能或無法運作。"
+                }
+            }
+        }
+    },
+    "TableDialog": {
+        "Close": "關閉",
+        "Cancel": "取消"
+    },
+    "ErrorListDialogService": {
+        "CodeErrorListDialogCaption": "編譯結果",
+        "FileNameColumn": "檔案名稱",
+        "ErrorTextColumn": "描述",
+        "ErrorNumberColumn": "程式碼",
+        "LineColumn": "線",
+        "CodeValidationErrorListDialogCaption": "Cyclic dependencies detected",
+        "SourceColumn": "Element that references",
+        "ReferenceColumn": "Element being referenced",
+        "PackageColumn": "套件",
+        "AcademyHelpUrlCaption": " 在學習資源了解更多信息",
+        "PackagePropertiesErrorDialogCaption": "Package dependency validation error",
+        "PackagePropertiesErrorMessage": "One or more validation issues prevent modifying the dependency list for this package. Review the list of issues below and resolve them before making changes.",
+        "ItemTypeColumn": "類型",
+        "ItemNameColumn": "名稱",
+        "DescriptionColumn": "說明",
+        "PackageNameColumn": "包裝",
+        "TypeColumn": "元素類型"
+    },
+    "SchemaDesigners": {
+        "BaseDesignerPage": {
+            "SaveSuccessMessage": "記錄已成功儲存",
+            "PublishSuccessMessage": "記錄已成功出版",
+            "ChangeParentSchemaMessage": "使用「{0}」作為目前物件的父物件？",
+            "DeleteParentSchemaMessage": "刪除目前物件的父物件？"
+        },
+        "BaseDesignerStructureService": {
+            "MiniPage": {
+                "NameTitle": "程式碼",
+                "PackageTitle": "套件",
+                "Apply": "申請",
+                "Cancel": "取消",
+                "Ok": "好的",
+                "Caption": "標題",
+                "Description": "描述",
+                "Validations": {
+                    "RequiredNameCaption": "輸入一個值",
+                    "PatternNameCaption": "無效值。使用符號：a-z、A-Z、0-9。符號：0-9 不能為首",
+                    "PatternPrefixTemplate": "代碼必須以\"{0}\"前綴開頭"
+                }
+            }
+        },
+        "SchemaParameterMiniPage": {
+            "CardTitle": "參數",
+            "Title": "程式碼",
+            "Caption": "標題",
+            "Lookup": "查找",
+            "Value": "數值",
+            "Schema": "模式",
+            "Create": "創造",
+            "Cancel": "取消",
+            "Resulting": "結果",
+            "Required": "必填",
+            "ContainsPerformerId": "包含表演者 ID",
+            "LazyLoad": "懶惰載入",
+            "Serializable": "可序列化",
+            "CopyValue": "複製值",
+            "Type": "類型",
+            "Save": "儲存",
+            "ProperyExistMessage": "此屬性已在另一個參數中檢查。只能在 1 個參數中使用。",
+            "Validations": {
+                "RequiredNameCaption": "輸入一個值",
+                "PatternNameCaption": "無效值。使用符號：a-z、A-Z、0-9。符號：0-9 不能為首",
+                "DataValueTypeListContainsMessage": "請從清單中選擇值"
+            }
+        },
+        "SqlSchemaDesignerPage": {
+            "Caption": "SQL",
+            "DependentScriptsCaption": "從屬 SQL 腳本",
+            "DependsOnScriptCaption": "取決於 SQL 腳本",
+            "SqlScriptValidateCaption": "SQL 腳本驗證完成",
+            "Install": "安裝",
+            "ShouldSaveFirstTitle": "Save the script before installing",
+            "InstallSqlScriptsConfirmMessage": "This will install SQL script to the database. Do you wish to proceed?",
+            "InstallSuccessMessage": "手術成功"
+        },
+        "SqlSchemaDesignerMiniPage": {
+            "Title": "Sql 腳本",
+            "DbmsType": "資料庫管理系統類型",
+            "InstallationType": "安裝類型",
+            "BackwardCompatibilityConfirmed": "向後相容",
+            "BackwardCompatibilityConfirmedLabelBeforeLink": "向後相容的 SQL 指令碼是指符合下列建議的指令碼",
+            "BackwardCompatibilityConfirmedLabelAfterLink": ".僅當您的指令碼符合所有建議時，才選取此核取方塊。",
+            "AcademyHelpUrlCaption": "另文規定"
+        },
+        "MultiSelectSqlSchemasMiniPage": {
+            "Title": "選擇 SQL 指令碼",
+            "TableColumn": {
+                "Name": "程式碼",
+                "Package": "套件"
+            }
+        },
+        "EntitySchemaDesigner": {
+            "EntitySchemaDesignerStructure": {
+                "InheritedColumnsCaption": "繼承列",
+                "ColumnsCaption": "欄位",
+                "IndexesCaption": "索引",
+                "EventsCaption": "事件",
+                "SourceCodeCaption": "原始碼"
+            },
+            "Actions": {
+                "OpenEmbeddedProcess": "打開流程"
+            },
+            "EntityEditor": {
+                "GeneralGroup": {
+                    "Caption": "一般的",
+                    "NameCaption": "程式碼",
+                    "TitleCaption": "標題",
+                    "PackageCaption": "套件",
+                    "DescriptionCaption": "描述",
+                    "NameTooltip": "Unique system name of the object schema.",
+                    "TitleTooltip": "Localizable object title displayed in the UI.",
+                    "PackageTooltip": "Package containing the object schema.",
+                    "DescriptionTooltip": "Localizable description of the object."
+                },
+                "ObjectSettings": {
+                    "Caption": "物件設定",
+                    "IdCaption": "同上",
+                    "DisplayedValueCaption": "顯示值",
+                    "ParentInHierarchyCaption": "階層架構中的父層",
+                    "ChangeLogObjectNameCaption": "變更記錄物件名稱",
+                    "LocalizationObjectNameCaption": "本地化物件名稱",
+                    "ImageCaption": "圖像",
+                    "SortingInListsCaption": "在清單中排序",
+                    "OwnerCaption": "擁有者",
+                    "PermissionObjectNameCaption": "權限物件名稱",
+                    "ColorCaption": "顏色",
+                    "IdTooltip": "Primary key column that uniquely identifies object records.",
+                    "ImageTooltip": "Column that stores an image or icon for object records.",
+                    "DisplayedValueTooltip": "Column used as a record title when other objects reference the record.",
+                    "ParentInHierarchyTooltip": "Column that references the parent record for hierarchical structures.",
+                    "ChangeLogObjectNameTooltip": "Name of the object that stores the change log for this entity.",
+                    "LocalizationObjectNameTooltip": "Name of the object that stores localized values for this entity.",
+                    "OwnerTooltip": "Column used to automatically grant access rights to a record.",
+                    "PermissionObjectNameTooltip": "Name of the object that stores permission settings for this entity.",
+                    "ColorTooltip": "Column that stores the color for object records."
+                },
+                "EntityBusinessRules": {
+                    "OpenBusinessRulesButtonCaption": "開放式業務規則",
+                    "BusinessRulesDialogTitle": "業務規則",
+                    "BusinessRulesDialogCancelButton": "取消",
+                    "BusinessRulesDialogApplyButton": "申請"
+                },
+                "InheritanceGroup": {
+                    "Caption": "繼承",
+                    "ParentObjectCaption": "父級物件",
+                    "ExtendParent": "取代父級",
+                    "ParentObjectTooltip": "Parent object whose structure and behavior the current object inherits.",
+                    "ExtendParentTooltip": "Marks the schema as a replacing object that overrides the parent on the current inheritance level."
+                },
+                "BehaviorGroup": {
+                    "Caption": "行為",
+                    "isDBViewCaption": "代表資料庫檢視的結構",
+                    "isVirtualCaption": "虛擬的",
+                    "isTrackChangesInDBCaption": "更新變更日誌",
+                    "isSSPAvailable": "物件是否可作為 SSP 的部分",
+                    "useRecordDeactivationCaption": "允許停用記錄",
+                    "showInAdvancedModeCaption": "僅在進階模式中顯示",
+                    "useLiveEditingCaption": "啟用即時資料更新",
+                    "isDBViewTooltip": "Indicates that the object is based on a database view instead of a regular table.",
+                    "isVirtualTooltip": "Indicates that the object does not store data in a physical database table and is dynamically obtained from some alternative data sources.",
+                    "isSSPAvailableTooltip": "Makes the object accessible as a section for portal (SSP) users.",
+                    "useLiveEditingTooltip": "The record change automatically generates signals to all currently opened pages of the record, and they auto-refresh.",
+                    "useRecordDeactivationTooltip": "Lets users deactivate records without deleting them.",
+                    "isTrackChangesInDBTooltip": "Enables logging of object record changes.",
+                    "showInAdvancedModeTooltip": "Hides rarely used objects from the standard Studio view."
+                },
+                "AccessRights": {
+                    "Caption": "存取權",
+                    "OperationsCaption": "營運",
+                    "ColumnsCaption": "欄位",
+                    "RecordsCaption": "記錄",
+                    "MasterRecordCaption": "繼承存取權限的物件",
+                    "OperationsTooltip": "Enables access rights restrictions for record operations.",
+                    "ColumnsTooltip": "Enables access rights restrictions at the column level.",
+                    "RecordsTooltip": "Enables access rights restrictions at the individual record level.",
+                    "MasterRecordTooltip": "Object whose access permissions are inherited."
+                },
+                "HistoryColumns": {
+                    "Caption": "歷史欄位",
+                    "CreatedByCaption": "建立者",
+                    "CreatedOnCaption": "建立於",
+                    "ModifiedByCaption": "修改者",
+                    "ModifiedOnCaption": "修改於",
+                    "CreatedByTooltip": "Column that stores the user who created the record.",
+                    "CreatedOnTooltip": "Column that stores the record creation date and time.",
+                    "ModifiedByTooltip": "Column that stores the user who last modified the record.",
+                    "ModifiedOnTooltip": "Column that stores the date and time of the last modification."
+                },
+                "Validations": {
+                    "RequiredNameCaption": "輸入一個值",
+                    "PatternNameCaption": "無效值。使用符號：a-z、A-Z、0-9。符號：0-9不能為首位。",
+                    "PatternPrefixTemplate": "代碼必須以\"{0}\"前綴開頭",
+                    "DuplicateNameCaption": "具有相同代碼的物件已經存在"
+                }
+            },
+            "ColumnEditor": {
+                "GeneralGroup": {
+                    "Caption": "一般的",
+                    "NameCaption": "程式碼",
+                    "EnglishNameCaption": "程式碼",
+                    "TitleCaption": "標題",
+                    "DataTypeCaption": "資料類型",
+                    "FormatCaption": "格式",
+                    "ReferenceSchemaCaption": "查找",
+                    "DescriptionCaption": "描述",
+                    "RequiredCaption": "必填",
+                    "DefaultValueCaption": "預設值",
+                    "CanMakeCopyCaption": "複製記錄時複製該值",
+                    "IsMultiLineTextCaption": "多行文字",
+                    "IsMaskedCaption": "顯示輸入遮罩",
+                    "IsLocalizableTextCaption": "可本地化的文字",
+                    "IsCascadeCaption": "關於查找值刪除：",
+                    "IsFormatValidationCaption": "驗證格式",
+                    "isAutonumber": "自動編號",
+                    "EditCodeInfoIconCaption": "變更代碼可能會導致相關元件的行為不正確。請謹慎使用",
+                    "MaskTypeCaption": "Mask type",
+                    "MaskOperationCaption": "操作許可",
+                    "UseSecondsCaption": "Show seconds",
+                    "IsAccentInsensitiveCaption": "Accent insensitive search (PostgreSQL only)",
+                    "NameTooltip": "Unique system name of the column.",
+                    "TitleTooltip": "Localizable column title shown in the UI.",
+                    "DataTypeTooltip": "Type of data stored in the column.",
+                    "DescriptionTooltip": "Localizable description of the column.",
+                    "RequiredTooltip": "Specifies that the column must not be empty.",
+                    "DefaultValueTooltip": "Value assigned automatically if no value is provided.",
+                    "CanMakeCopyTooltip": "Copies the column value when a record is copied.",
+                    "IsMultiLineTextTooltip": "Allows entering and displaying text in multiple lines.",
+                    "IsAccentInsensitiveTooltip": "Enables search without considering accent marks.",
+                    "IsLocalizableTextTooltip": "Lets the column store values in multiple languages.",
+                    "IsMaskedTooltip": "Shows an input mask for guided value entry.",
+                    "IsFormatValidationTooltip": "Validates the entered value against the expected format.",
+                    "IsCascadeTooltip": "Defines what happens to records in the current object when the referenced lookup value is deleted.",
+                    "UseSecondsTooltip": "Displays seconds in time values.",
+                    "ReferenceSchemaTooltip": "Object that provides values for the lookup column."
+                },
+                "BehaviorGroup": {
+                    "Caption": "行為",
+                    "UsageModeCaption": "使用方式",
+                    "UpdateChangeLogCaption": "更新變更日誌",
+                    "IndexedCaption": "索引",
+                    "SensitiveDataCaption": "Сontains personal data",
+                    "IndexedTooltip": "Creates an index for the column to improve search and filtering performance.",
+                    "SensitiveDataTooltip": "Marks the column as containing personal data.",
+                    "UpdateChangeLogTooltip": "Enables logging of changes for this column.",
+                    "UsageModeTooltip": "Controls the column availability mode in the application."
+                },
+                "RequirementType": {
+                    "NoCaption": "不",
+                    "YesCaption": "是的"
+                },
+                "UsageType": {
+                    "GeneralCaption": "一般的",
+                    "AdvancedCaption": "進階",
+                    "NoneCaption": "無"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "輸入一個值",
+                    "PatternNameCaption": "無效值。使用符號：a-z、A-Z、0-9。符號：0-9 不能為首",
+                    "DuplicateNameCaption": "已存在具有相同代碼的欄位",
+                    "PatternPrefixTemplate": "代碼必須以\"{0}\"前綴開頭"
+                },
+                "DataSourceGroup": {
+                    "DoNotControlIntegrityCaption": "不控制完整性",
+                    "DoNotControlIntegrityTooltip": "Disables integrity control for the lookup relationship."
+                },
+                "DefaultValueTypes": {
+                    "None": "無",
+                    "Const": "持續的",
+                    "Settings": "系統設定",
+                    "SystemValue": "系統變數",
+                    "Sequence": "自動編號"
+                },
+                "DefaultValueDialog": {
+                    "Title": "預設值",
+                    "ValueTypeCaption": "預設值類型",
+                    "ValueCaption": "數值",
+                    "LookupValueRecordDeletedCaption": "查詢值已刪除",
+                    "sequencePrefix": "前綴",
+                    "sequenceNumberOfChars": "位數",
+                    "Cancel": "取消",
+                    "Ok": "好的"
+                }
+            },
+            "IndexEditor": {
+                "GeneralGroup": {
+                    "Caption": "一般的",
+                    "NameCaption": "程式碼",
+                    "UniqueCaption": "獨特",
+                    "GenerateNameAutomaticallyCaption": "自動產生名稱",
+                    "NameTooltip": "Unique name of the index.",
+                    "UniqueTooltip": "Prevents duplicate combinations of values in indexed columns."
+                },
+                "IndexColumns": {
+                    "Caption": "索引欄",
+                    "AddIndexColumnsDialogCaption": "選擇欄",
+                    "TitleCaption": "標題",
+                    "ColumnName": "程式碼",
+                    "SortingOrder": "排序順序",
+                    "Blankslate": "索引中沒有欄位"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "輸入一個值",
+                    "PatternNameCaption": "無效值。使用符號：a-z、A-Z、0-9。符號：0-9 不能為首",
+                    "DuplicateNameCaption": "具有相同代碼的圖片已經存在"
+                }
+            },
+            "EntityColumnTypes": {
+                "TextCaption": "文字",
+                "NumberCaption": "數位",
+                "OtherCaption": "其他",
+                "DateTimeCaption": "日期/時間"
+            },
+            "EventsEditor": {
+                "EventGroupType": {
+                    "Add": "新增",
+                    "Saving": "儲存",
+                    "Updating": "更新",
+                    "Delete": "刪除",
+                    "Loading": "載入中",
+                    "ColumnValues": "列值"
+                },
+                "Events": {
+                    "Inserting": "新增記錄前",
+                    "Inserted": "新增記錄後",
+                    "Validating": "驗證",
+                    "Saving": "儲存記錄前",
+                    "Saved": "記錄儲存後",
+                    "SaveError": "儲存記錄錯誤",
+                    "Updating": "記錄更新前",
+                    "Updated": "記錄更新後",
+                    "Deleting": "記錄刪除前",
+                    "Deleted": "記錄刪除後",
+                    "DefColumnValuesSet": "預設值欄位",
+                    "Loading": "資料載入前",
+                    "Loaded": "資料載入後",
+                    "ColumnValueChanging": "欄位值變更前",
+                    "ColumnValueChanged": "列值變更後",
+                    "ColumnBinaryValuePackageLoading": "二進制數值流載入",
+                    "InsertingTooltip": "Triggered before a new record is added to the database.",
+                    "InsertedTooltip": "Triggered after a new record is successfully added to the database.",
+                    "ValidatingTooltip": "Triggered when record data is being validated before saving.",
+                    "SavingTooltip": "Triggered before any record changes are saved to the database.",
+                    "SavedTooltip": "Triggered after record changes are successfully saved to the database.",
+                    "SaveErrorTooltip": "Triggered when an error occurs while saving a record.",
+                    "UpdatingTooltip": "Triggered before an existing record is updated in the database.",
+                    "UpdatedTooltip": "Triggered after an existing record is successfully updated in the database.",
+                    "DeletingTooltip": "Triggered before a record is deleted from the database.",
+                    "DeletedTooltip": "Triggered after a record is successfully deleted from the database.",
+                    "DefColumnValuesSetTooltip": "Triggered when default values are assigned to record columns.",
+                    "LoadingTooltip": "Triggered before record data is loaded from the database.",
+                    "LoadedTooltip": "Triggered after record data is successfully loaded from the database."
+                }
+            },
+            "Addons": {
+                "BusinessRule": "業務規則",
+                "RelatedPage": "Web pages",
+                "TimelineEntity": "時間軸",
+                "UseSchemaInTimelineCheckbox": "預設顯示在 Timeline 元件中",
+                "RelatedPagesCaption": "頁面設定",
+                "Timeline": {
+                    "NoDisplayColumnNotify": "在 Timeline 元件中顯示物件時，必須指定顯示值。"
+                },
+                "MobileRelatedPage": "Mobile app pages",
+                "PredefinedFilters": "Pre-defined filters",
+                "UseSchemaInTimelineCheckboxTooltip": "Displays records of this object in the Timeline component on related pages by default."
+            },
+            "SaveConfirmationDialog": {
+                "Save": "儲存",
+                "DoNotSave": "不要儲存",
+                "Cancel": "取消",
+                "Message": "所有變更都將被儲存。繼續？"
+            },
+            "DeleteConfirmationDialog": {
+                "BusinessRule": "您是否希望刪除業務規則？"
+            },
+            "DisableAddonEditBeforeSchemaSaveTooltipText": "儲存新物件後，設定就會生效。"
+        },
+        "ClientUnitSchemaDesigner": {
+            "ClientUnitSchemaDesignerPage": {
+                "JsCaption": "JS",
+                "LessCaption": "更少",
+                "LocalizableStringsCaption": "可本地化字串",
+                "MessagesCaption": "留言",
+                "ImagesCaption": "圖片",
+                "ParametersCaption": "參數",
+                "Addons": {
+                    "BusinessRule": "業務規則"
+                },
+                "OpenInterfaceDesigner": "開放式介面設計器",
+                "CantSaveSchemaWithErrors": "Unable to save due to a syntax error."
+            },
+            "ClientUnitDesignerMiniPage": {
+                "Title": "模組",
+                "CaptionTitle": "標題",
+                "ParentCaption": "父級物件",
+                "Validations": {
+                    "RequiredNameCaption": "輸入一個值"
+                },
+                "OpenDesigner": "打開設計器"
+            },
+            "ClientUnitCaptionsMiniPage": {
+                "Title": "標題",
+                "Apply": "申請",
+                "Cancel": "取消"
+            },
+            "ClientUnitMessagesMiniPage": {
+                "Title": "訊息",
+                "NameCaption": "程式碼",
+                "DirectionCaption": "方向",
+                "BroadcastCaption": "廣播",
+                "AddressCaption": "地址",
+                "ModeCaption": "模式",
+                "SubscribeCaption": "訂閱",
+                "PublishCaption": "發布",
+                "Add": "添加",
+                "Apply": "申請",
+                "Cancel": "取消",
+                "Validations": {
+                    "RequiredNameCaption": "輸入一個值",
+                    "PatternNameCaption": "無效值。使用符號：a-z、A-Z、0-9。符號：0-9 不能為首",
+                    "DuplicateNameCaption": "已存在相同代碼的訊息"
+                }
+            },
+            "ClientUnitImagesMiniPage": {
+                "Title": "圖像",
+                "NameTitle": "程式碼",
+                "CaptionTitle": "標題",
+                "ImageTitle": "圖像",
+                "UidTitle": "同上",
+                "Add": "添加",
+                "Apply": "申請",
+                "Cancel": "取消",
+                "Validations": {
+                    "RequiredNameCaption": "輸入一個值",
+                    "PatternNameCaption": "無效值。使用符號：a-z、A-Z、0-9。符號：0-9 不能為首",
+                    "DuplicateNameCaption": "具有相同代碼的圖片已經存在"
+                }
+            }
+        },
+        "SourceCodeSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "可本地化字串",
+            "MetadataCaption": "元數據",
+            "MetadataReadCaption": "元資料 (讀取)",
+            "ModifiedPackageCaption": "修正套件",
+            "RunButtonCaption": "以安裝腳本執行",
+            "RunSourceCodeCaption": "手術成功"
+        },
+        "SourceCodeDesignerMiniPage": {
+            "Title": "原始碼",
+            "Description": "描述"
+        },
+        "SourceCodeCaptionsMiniPage": {
+            "Title": "標題",
+            "Apply": "申請",
+            "Cancel": "取消"
+        },
+        "UserTaskCaptionsMiniPage": {
+            "Title": "標題",
+            "Apply": "申請",
+            "Cancel": "取消",
+            "UserTask": "用戶任務",
+            "WithCustomEventHandler": "使用自訂事件處理程式",
+            "Partial": "部分",
+            "Serialize": "在資料庫中序列化",
+            "ParametersEditPage": "參數編輯頁面",
+            "DcmParametersEditPage": "Dcm 參數編輯頁面",
+            "Color": "顏色",
+            "SmallSvgImage": "小型向量影像",
+            "LargeSvgImage": "大型向量影像",
+            "TitleSvgImage": "標題向量影像",
+            "DcmSmallSvgImage": "用於 DCM 的小型向量影像",
+            "PageInaccessibleFromPackageInfo": "當前使用者任務套件無法存取所選頁面。請完成套件相依性或選擇其他頁面，以確保正確執行使用者工作。"
+        },
+        "UserTaskDesignerMiniPage": {
+            "Title": "用戶任務"
+        },
+        "UserTaskSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "可本地化字串",
+            "ParametersCaption": "參數",
+            "MetadataCaption": "元數據",
+            "MetadataReadCaption": "元資料 (讀取)",
+            "ModifiedPackageCaption": "修正套件",
+            "InvalidClassNameConfirmationMessage": "使用者任務屬性「Code」與原始碼中的類別名稱不符。以目前的設定無法執行使用者工作。您要繼續儲存嗎？"
+        },
+        "MetaDataSchemaDesigner": {
+            "MetaDataCaption": "元數據",
+            "HumanReadableMetaDataCaption": "元資料 (唯讀)",
+            "PackageDifferenceMetaDataCaption": "修改套件"
+        },
+        "RelatedPagesDesigner": {
+            "RelatedPageLabel": "預設頁面",
+            "AddPageLabel": "新增頁面",
+            "ExternalPageCaption": "外部使用者的頁面設定",
+            "RelatedPagesCaption": "頁面設定",
+            "DefaultPagePlaceholder": "如果未指定其他頁面，則使用該頁面",
+            "AddPagePlaceholder": "用於新增記錄的頁面",
+            "DefaultPageSelectionTooltip": "選擇或創建默認頁面以進行記錄的編輯、讀取和創建。\n我們建議使用 Freedom UI 頁面，並將當前對象用作數據來源。",
+            "AddPageTooltip": "選擇或建立僅用於新增記錄的特定頁面。",
+            "RelatedPageCombobox": {
+                "AddNewPage": "新增頁面",
+                "OpenPageInDesignerTitle": "開放式介面設計器"
+            }
+        }
+    },
+    "Tracking": {
+        "ValidationMessage": {
+            "InvalidValue": "無效值",
+            "RequiredFieldValue": "輸入一個值",
+            "LongFieldValue": "超出最大文字長度 (255)",
+            "InvalidNumberValue": "數字格式無效"
+        },
+        "BaseItemMenuComponent": {
+            "Delete": "刪除",
+            "Edit": "編輯"
+        },
+        "ConnectionDescription": {
+            "Checking": "檢查",
+            "Connected": "已連接",
+            "Disconnected": "已斷開連接",
+            "Warning": "警告"
+        },
+        "ProjectsSection": {
+            "Add": "新專案",
+            "Title": "事件追蹤設定 (專案)",
+            "Columns": {
+                "Name": "項目名稱",
+                "Owner": "擁有者",
+                "Description": "描述",
+                "CreatedOn": "已建立",
+                "ModifiedOn": "最後更新"
+            },
+            "BlankSlate": {
+                "Title": "本區段無記錄。",
+                "Description": "新增一筆記錄，使其看起來更漂亮。"
+            }
+        },
+        "ProjectPage": {
+            "Detail": {
+                "Name": "項目名稱",
+                "Owner": "擁有者",
+                "Description": "描述",
+                "CreatedOn": "已建立",
+                "ModifiedOn": "最後更新",
+                "TotalEvents": "活動總數",
+                "ConversionRate": "轉換率",
+                "DefaultValues": {
+                    "Name": "新專案",
+                    "Description": "新描述"
+                }
+            },
+            "ResourceDetail": {
+                "Header": "追蹤資源",
+                "Columns": {
+                    "Name": "資源名稱",
+                    "Status": {
+                        "Caption": "狀態",
+                        "Active": "積極的",
+                        "Inactive": "不活躍"
+                    },
+                    "Source": "來源",
+                    "CreatedOn": "已建立",
+                    "ModifiedOn": "最後更新"
+                }
+            }
+        },
+        "ResourcePage": {
+            "CreatedOn": "建立於",
+            "ModifiedOn": "修改於",
+            "Name": "名稱",
+            "Source": "ID (網站的 URL)",
+            "Active": "積極的",
+            "DefaultName": "新資源",
+            "DefaultSource": "https://example.com",
+            "Tabs": {
+                "TrackingCode": "追蹤代碼",
+                "GoalSettings": "目標設定"
+            },
+            "BasicCodeTitle": "基本追蹤代碼",
+            "CustomEventTab": "自訂活動",
+            "GoalDetail": {
+                "Header": "追蹤目標",
+                "Columns": {
+                    "Name": "目標名稱",
+                    "EventTypeFilter": "事件類型篩選器",
+                    "Status": {
+                        "Caption": "狀態",
+                        "Active": "積極的",
+                        "Inactive": "不活躍"
+                    },
+                    "Cost": "目標成本"
+                }
+            },
+            "GoalEditiDialog": {
+                "Header": "目標設定",
+                "Name": "目標名稱",
+                "UseEventCost": "使用事件成本",
+                "Cost": "目標成本",
+                "Active": "積極的",
+                "FilterSettings": "目標篩選器設定",
+                "EventTypeFilter": "事件類型篩選器",
+                "EventNameFilter": "事件名稱篩選",
+                "EventValueFilter": "事件值過濾器",
+                "EventCostFilter": "事件成本篩選器",
+                "Actions": {
+                    "Save": "儲存",
+                    "Cancel": "取消"
+                },
+                "StringCondition": {
+                    "Equal": "平等",
+                    "Contains": "包含",
+                    "BeginWith": "從",
+                    "EndWith": "以"
+                },
+                "NumberCondition": {
+                    "Equal": "平等",
+                    "LessOrEqual": "少於或等於",
+                    "MoreOrEqual": "更多或相等"
+                }
+            }
+        },
+        "CodePane": {
+            "CopyToClipboard": "複製到剪貼簿",
+            "OnCopiedToClipboard": "成功複製"
+        },
+        "BaseTrackingCode": {
+            "Header": "基本追蹤代碼",
+            "Loading": "載入中...",
+            "InfoBlock": {
+                "Title": "重要",
+                "Content": "此資源的基本追蹤代碼必須放置在網站的所有頁面上。",
+                "LinkText": "設定基本追蹤代碼的詳細資訊"
+            },
+            "NotReady": "在取得追蹤代碼前先儲存資源。"
+        },
+        "EventCodeGenerator": {
+            "Header": "事件的追蹤代碼",
+            "Form": {
+                "EventType": "事件類型",
+                "EventName": "活動名稱",
+                "EventValue": "事件值",
+                "EventCost": "活動成本"
+            },
+            "FormValidators": {
+                "EmptyForm": "空...",
+                "InvalidForm": "檢查表格是否有任何錯誤..."
+            }
+        }
+    },
+    "SocialLeadgen": {
+        "ValidationMessage": {
+            "InvalidValue": "無效值",
+            "RequiredFieldValue": "輸入一個值",
+            "LongFieldValue": "超出最大文字長度 (255)",
+            "InvalidNumberValue": "數字格式無效"
+        },
+        "IntegrationTypes": {
+            "LinkedIn": "LinkedIn",
+            "Facebook": "Facebook / Instagram",
+            "Undefined": "未定義的"
+        },
+        "IntegrationSettings": {
+            "Header": {
+                "Title": "設定"
+            },
+            "Detail": {
+                "Url": "獲取線索的 Url",
+                "Group": "接收通知的角色"
+            },
+            "Notes": {
+                "Header": "筆記",
+                "Text": "<p>取得潛在客戶的網址 - 一個 Creatio 網址，將接收來自已連接廣告帳戶的潛在客戶。為了能夠接收傳入請求，必須能訪問 Creatio 網站。如果您使用代理伺服器，請指定代理網址而不是 Creatio 網址。如果您的 Creatio 實例是受限訪問網絡的一部分，請將潛在客戶生成服務的 IP 列入白名單。</p><p>接收通知的角色 - Creatio 會在發生任何故障時通知該角色的用戶，例如連接廣告帳戶或創建潛在客戶時出現錯誤。</p><p>“連接”標籤顯示與 Creatio 連接的廣告帳戶和頁面列表。該列表包括當前在頁面、帳戶和令牌級別上的連接狀態。您可以管理這些連接，例如刪除或重置它們。</p><p>“日誌”標籤顯示潛在客戶生成功能的變更日誌。</p>"
+            },
+            "Tabs": {
+                "Connection": "連接",
+                "Logs": "紀錄"
+            },
+            "AutorouteMessage": "若要繼續工作，您必須填入「獲得線索的 Url」欄位。預設情況下，欄位填入的是瀏覽器中應用程式的目前位址。請確認您輸入了正確的應用程式位址，然後儲存設定。這些設定會在您第一次開啟該部分時進行一次。",
+            "Error": {
+                "FormValidation": "嘗試儲存設定時發生錯誤。請檢查所有欄位是否有錯誤。",
+                "Save": "未能保存在 「獲取線索的 Url 」欄位中輸入的值。確保輸入正確的外部可存取的應用程式位址。"
+            },
+            "Logs": {
+                "IntegrationFilter": {
+                    "PlaceholderCaption": "整合",
+                    "EmptyOptionCaption": "所有項目"
+                },
+                "DateColumnCaption": "日期",
+                "IntegrationColumnCaption": "整合",
+                "DetailsColumnCaption": "細節",
+                "IntegrationNotFound": "未找到",
+                "GetIntegrationListError": "載入整合清單時發生故障。載入已中止。",
+                "NoLogsMessage": "目前沒有記錄要顯示"
+            },
+            "FacebookPagesConnections": {
+                "Header": "Facebook 頁面",
+                "Blankslate": "與頁面的連線尚未設定。"
+            },
+            "LinkedInAdAccountsConnections": {
+                "Header": "LinkedIn 廣告帳戶",
+                "Blankslate": "尚未設定與廣告帳戶的連線。",
+                "AdAccountsTable": {
+                    "DeleteConfirmation": "您確定要刪除廣告帳戶嗎？",
+                    "DeleteError": "此廣告帳戶連接到一個整合。刪除整合後再試一次",
+                    "Headers": {
+                        "Name": "企業名稱",
+                        "Link": "關聯",
+                        "ConnectionStatus": "連線狀態",
+                        "ExpirationDate": "截止日期"
+                    },
+                    "ConnectionStatuses": {
+                        "Active": "積極的",
+                        "Inactive": "不活躍"
+                    },
+                    "ConnectionStatusErrorMessage": {
+                        "Inactive": "無法存取廣告帳戶。登入 LinkedIn 並設定需要整合的帳戶權限。"
+                    },
+                    "UsersTable": {
+                        "DeleteConfirmation": "您確定要刪除標記嗎？這可能會導致廣告帳戶存取和線索擷取的問題",
+                        "Headers": {
+                            "UserName": "網路使用者",
+                            "TokenStatus": "token狀態",
+                            "ExpirationDate": "截止日期",
+                            "HasAdAccountAccess": "提供存取帳戶"
+                        },
+                        "TokenStatuses": {
+                            "Active": "積極的",
+                            "Expired": "已到期",
+                            "Revoked": "已撤銷",
+                            "Unknown": "未知"
+                        },
+                        "HasAdAccountAccess": {
+                            "Yes": "是的",
+                            "No": "不"
+                        },
+                        "TokenStatusErrorMessage": {
+                            "Expired": "登入 LinkedIn 並代表令牌過期的使用者授予廣告帳戶權限。",
+                            "Revoked": "token已被撤銷。\n可能的原因：\n- 此帳戶被用來登錄到不同的 Creatio 實例。\n- 潛在的引導生成應用在 LinkedIn 的端被斷開。\n要解決此問題，請再次登錄 LinkedIn 並授予該用戶被撤銷的token所屬的廣告帳戶的權限。",
+                            "Unknown": "由於在請求過程中出現一個或多個錯誤，因此無法檢索令牌狀態。請刷新頁面。"
+                        },
+                        "MenuCell": {
+                            "Delete": "刪除",
+                            "Reconnect": "重新連接"
+                        }
+                    }
+                }
+            }
+        },
+        "IntegrationSection": {
+            "DeleteConfirmation": "您確定要刪除此整合嗎？Creatio 將無法從中擷取新線索",
+            "DeleteError": "無法刪除整合，拒絕存取廣告帳戶。授予相應廣告帳戶的訪問權並再試一次",
+            "Header": {
+                "Title": "社交網路整合",
+                "Buttons": {
+                    "New": "新的",
+                    "Logs": "紀錄",
+                    "Settings": "設定"
+                }
+            },
+            "Columns": {
+                "Name": "名稱",
+                "Type": "類型",
+                "IsActive": "積極的",
+                "IntegrationSectionItemMenu": {
+                    "Delete": "刪除",
+                    "Activate": "啟用設定",
+                    "Deactivate": "停用"
+                }
+            },
+            "BlankSlate": {
+                "Description": "您沒有設定任何整合。"
+            }
+        },
+        "IntegrationPage": {
+            "ToggleStateCaptions": {
+                "Active": "積極的",
+                "Inactive": "不活躍"
+            },
+            "Header": {
+                "Buttons": {
+                    "Logs": "紀錄",
+                    "Settings": "設定"
+                }
+            },
+            "Error": {
+                "Save": "無法修改設定。確定已對應所需的物件欄位，並指定「未對應的表單欄位」巨集設定。",
+                "FormSelection": "無法修改設定。確定已對應所需的物件欄位，並指定「未對應的表單欄位」巨集設定。"
+            },
+            "BlankSlate": {
+                "Title": "我們無法在選取的廣告帳戶中找到作用中的表單。",
+                "Description": "請建立線索表單或選擇其他帳戶進行設定。"
+            },
+            "BlankSlateError": {
+                "Title": "無法存取帳戶。",
+                "Description": "嘗試登入並再次授予存取權。"
+            },
+            "Detail": {
+                "Name": "名稱",
+                "FacebookPage": "臉書頁面",
+                "LinkedinAdAccount": "LinkedIn 帳戶",
+                "DeactivateConfirmationQuestion": "您確定要停用您的訂閱？所有表單的線索傳輸將會停止。新狀態會在整合卡層級儲存變更後生效。"
+            },
+            "IntegrationSettings": {
+                "FacebookIsNotSet": "未設定 Facebook 整合。",
+                "LinkedInIsNotSet": "LinkedIn 整合未設定。",
+                "Create": "設定整合",
+                "DefaultIntegrationRecordName": "新的社交領導力整合"
+            },
+            "InfoBlock": {
+                "Title": "筆記",
+                "Text": "選取頁面的所有表單都連接到 Creatio。在「預設設定」標籤上為所有表單設定預設值。每個表單的獨特設定可在「表單」標籤上進行。"
+            },
+            "ColumnMapping": {
+                "ExpansionPanelCaption": "預設映射",
+                "Object": "物件",
+                "AddMapping": "添加",
+                "Hint": "Creatio 將預設映射應用於所有廣告帳戶表單。\n該設置僅適用於包含用戶資料信息的表單欄位。\n您可以在表單記錄頁面映射自定義問題、自定義核取方塊和隱藏欄位。選擇「自定義映射」核取方塊以啟用此功能。\n「未映射欄位」巨集允許您將所有欄位的值傳遞到單一物件欄位。",
+                "DataTypes": {
+                    "Lookup": "查找",
+                    "Text": "文字",
+                    "Boolean": "布林值",
+                    "DateTime": "日期時間",
+                    "Date": "日期",
+                    "Time": "時間",
+                    "Number": "數位",
+                    "Macro": "巨集"
+                },
+                "FieldMenuCaptions": {
+                    "FormField": "表格欄位",
+                    "Text": "文字值",
+                    "Boolean": "布林值",
+                    "Lookup": "查詢值值",
+                    "Other": "其他"
+                },
+                "LinkedIn": "LinkedIn",
+                "BooleanValue": {
+                    "True": "正確",
+                    "False": "錯誤"
+                },
+                "UnmappedMacroValue": "未對應的表格欄位",
+                "LookupValueUnknown": "<未找到>",
+                "ModalBox": {
+                    "SetButtonCaption": "設定",
+                    "CancelButtonCaption": "取消",
+                    "SelectFormCaption": "選擇表格欄位",
+                    "EnterTextValueCaption": "輸入值"
+                }
+            },
+            "Logs": {
+                "ExpansionPanelCaption": "紀錄",
+                "NoLogsForIntegrationMessage": "此整合沒有記錄",
+                "ShowMoreButtonCaption": "顯示更多",
+                "Types": {
+                    "Info": "資訊",
+                    "Warning": "警告",
+                    "Error": "錯誤"
+                }
+            },
+            "FormsList": {
+                "Header": "表格",
+                "LinkedInStatus": "LinkedIn 狀態",
+                "Hint": "自訂映射設定將覆蓋預設映射設定。請分別映射每個表單。\n如果您停用自訂映射，Creatio 將對該表單應用預設映射設定。",
+                "FormStatus": {
+                    "Archived": "已存檔",
+                    "Pending": "待辦的",
+                    "Approved": "得到正式認可的",
+                    "Preapproved": "預先核准",
+                    "Rejected": "被拒絕",
+                    "NeedsReview": "需要審核",
+                    "AutoApproved": "自動認證",
+                    "AutoRejected": "自動拒絕",
+                    "Undefined": "未定義的",
+                    "NotActive": "未激活"
+                },
+                "MappingType": {
+                    "DefaultMapping": "預設映射",
+                    "CustomMapping": "自訂映射"
+                },
+                "BlankSlate": {
+                    "Description": "對於此表格，會套用預設的對應設定。"
+                },
+                "DeactivateFormConfirmationQuestion": "您確定要在 Creatio 中取消接收來自此表單的線索？新狀態將在整合卡層級儲存變更後生效。",
+                "ObjectsTitle": {
+                    "Lead": "潛在客戶"
+                }
+            },
+            "IntegrationSyncInfo": {
+                "Header": "潛在商機同步資訊",
+                "UnableToAdAccountAccess": "無法存取帳戶。潛在商機同步停止。",
+                "SaveIntegration": "請儲存整合並刷新頁面，以接收線索同步狀態的通知。",
+                "SubscriptionInactive": "所選廣告帳戶的線索訂閱已停用。線索同步已停止。啟動訂閱將恢復在 Creatio 中接收線索。",
+                "SubscriptionActive": "所選廣告帳戶的潛在客戶訂閱已啟用。在 LinkedIn 端建立的潛在客戶將會轉移到 Creatio。"
+            },
+            "DownloadLeads": {
+                "ForForm": {
+                    "ButtonCaption": "同步導線",
+                    "ModalBoxTitle": "Click “Sync” to upload the form’s leads for the period. The period is calculated regardless of the form’s lead subscription status at the time."
+                },
+                "ForAdAccount": {
+                    "ButtonCaption": "同步所有線路",
+                    "ModalBoxTitle": "Click “Sync” to upload the ad account’s leads for the period. The period is calculated regardless of the account’s lead subscription status at the time. Creatio will not reupload the leads you have already synchronized."
+                },
+                "ModalBox": {
+                    "InformationText": "LinkedIn 會儲存線索 90 天。",
+                    "CancelButtonCaption": "取消",
+                    "DownloadButtonCaption": "同步",
+                    "SuccessRunBusinessProcessInfoText": "線索上傳程序開始。該過程可能需要一些時間才能完成。",
+                    "UnknownFailedRunBusinessProcessInfoText": "開始上傳線索程序失敗。請稍後再試。如果啟動錯誤仍然存在，請聯絡技術支援。"
+                }
+            }
+        },
+        "SocialMediaProvider": {
+            "New": "新整合",
+            "RestoreAccess": "還原存取權限"
+        },
+        "IntegrationError": {
+            "InvalidSettings": "Unable to connect to the lead generation service. The following system settings are empty: “Identity server URL”, “Identity server client id”, “Identity server client secret”.",
+            "InvalidScope": "Unable to connect to the lead generation service. The lead generation service’s user account lacks essential permissions. Please contact Creatio support to fix this issue.",
+            "InvalidClient": "Unable to connect to the lead generation service. Unexpected values in the “Identity server client id” and “Identity server client secret” system settings. Please contact Creatio support to fix this issue.",
+            "GeneralError": "無法連線到潛在客戶生成服務。如果問題仍然存在，請重新整理頁面或聯絡 Creatio 支援。"
+        }
+    },
+    "QueueSorting": {
+        "QueueSectionHeader": "佇列排序設定",
+        "AddQueueObjectCaption": "新增佇列物件",
+        "QueueObjectCaption": "佇列物件",
+        "QueueTypeCaption": "佇列類型",
+        "BlindQueue": "盲排隊",
+        "RegularQueue": "常規排隊",
+        "AddQueueSortObjectCaption": "新增排序物件",
+        "Empty": "空",
+        "RequiredFieldValue": "選擇佇列物件",
+        "QueueObjectLookup": {
+            "NameColumnCaption": "標題",
+            "Title": "佇列物件查詢"
+        },
+        "QueueObjectColumnLookup": {
+            "NameColumnCaption": "標題",
+            "Title": "佇列物件排序欄位查詢"
+        },
+        "QueueObjectColumnPage": {
+            "AddQueueObjectColumn": "新增欄",
+            "SortDirection": "排序順序",
+            "SelectColumn": "柱狀圖",
+            "RequiredFieldValue": "未填寫必填欄位"
+        },
+        "QueueObjectTable": {
+            "Actions": {
+                "Delete": "刪除",
+                "Edit": "設定"
+            },
+            "RemoveToolTip": "Creatio 不能刪除排序物件，因為現有的佇列會使用它"
+        },
+        "QueueObjectColumnTable": {
+            "Caption": "排序列",
+            "ColumnCaption": "標題",
+            "SortDirection": "排序方向",
+            "Position": "優先事項",
+            "Empty": "未新增排序列",
+            "Actions": {
+                "Delete": "刪除",
+                "Edit": "編輯"
+            }
+        },
+        "OrderDirection": {
+            "Ascending": "升序",
+            "Descending": "降序",
+            "None": "無"
+        }
+    },
+    "ChatSettings": {
+        "ChatSettingsPageHeader": "聊天記錄",
+        "ChannelDetail": {
+            "DeleteAction": "刪除",
+            "DeleteRecordErrorMessage": "無法刪除選取的記錄",
+            "Title": "通路",
+            "Columns": {
+                "Name": "名稱",
+                "Status": {
+                    "Caption": "積極的"
+                },
+                "Queue": "佇列",
+                "Provider": "提供者"
+            },
+            "FacebookSettings": {
+                "InvalidSettings": {
+                    "Message": "無法新增頻道。您可以在",
+                    "Link": {
+                        "Text": "文章."
+                    }
+                }
+            }
+        },
+        "ChannelPage": {
+            "Name": "名稱",
+            "Token": "token",
+            "WebhookUrl": "網址",
+            "Status": "狀態",
+            "Queue": "佇列",
+            "Language": "語言",
+            "ChannelProcessingGroup": "通道處理",
+            "NewChannelCaption": "新增「{0}」頻道",
+            "InactiveChannelMessage": "若要接收訊息，您必須啟動頻道，並指定處理的佇列。您確定要新增一個非活動頻道嗎？",
+            "FacebookPageLinkCaption": "臉書頁面",
+            "ActiveChannelCaption": "積極的",
+            "Telegram": {
+                "TelegramPageLinkCaption": "Telegram 頻道",
+                "InvalidTelegramToken": "輸入正確的代號以建立頻道",
+                "TelegramTokenAlreadyExists": "輸入的代號已存在通道",
+                "ActiveWebhookErrorMessageForCreating": "由於 Telegram 殭屍已設定 webhook 整合，因此無法建立頻道。請刪除 webhook 整合以新增頻道。"
+            },
+            "Tips": {
+                "Language": "Creatio 會將選取的語言設定為透過此頻道建立的聯絡人的首選語言。您可以僅選擇使用中的語言。前往「語言」查詢以啟用/停用",
+                "WhatsAppToken": "輸入您 Twilio 帳戶的 AUTH TOKEN。",
+                "WhatsAppId": "輸入您的 Twilio 企業 SID.",
+                "WhatsAppTestPhoneNumber": "將傳送測試訊息以確認頻道的電話號碼。"
+            },
+            "WhatsApp": {
+                "PageLinkCaption": "WhatsApp 通路",
+                "ApplicationId": "應用程式 ID",
+                "ChannelPhoneNumber": "電話號碼",
+                "IntegrationPhoneNumber": "驗證電話號碼",
+                "Connect": "連接",
+                "InvalidPhoneNumber": "只允許數字",
+                "ChannelDuplicatedErrorMessage": "輸入的電話號碼已存在頻道",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "您輸入了無效的 Twilio 帳戶 SID",
+                    "InvalidAccountPhoneNumberException": "您輸入了無效的 WhatsApp 電話號碼",
+                    "AuthenticateException": "您輸入了無效的令牌"
+                }
+            },
+            "ValidationMessage": {
+                "required": "輸入值",
+                "wrongValue": "錯誤值"
+            },
+            "ErrorCodes": {
+                "ActiveWebhook": "The “{{channelName}}” chat channel is not receiving messages because a webhook integration is set up for the Telegram bot. Please delete the webhook integration and activate this channel to enable message reception.",
+                "PollingConflict": "The “{{channelName}}” chat channel is not receiving messages because another Telegram bot instance is configured. Please delete the duplicate instance to enable message reception."
+            },
+            "Sms": {
+                "ChannelDuplicatedErrorMessage": "輸入的電話號碼已存在頻道",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "您輸入了無效的 Twilio 帳戶 SID",
+                    "InvalidAccountPhoneNumberException": "You entered an invalid phone number",
+                    "AuthenticateException": "您輸入了無效的令牌"
+                }
+            },
+            "Twilio": {
+                "ErrorMessages": {
+                    "ValidationException": "Unable to connect to Twilio. Please check that your account SID and token are correct and try again."
+                }
+            }
+        },
+        "ChatQueueDetail": {
+            "Title": "聊天佇列",
+            "Columns": {
+                "Name": "名稱",
+                "Routing": {
+                    "Caption": "路由規則"
+                },
+                "Simultaneous": "同步聊天",
+                "Timeout": "聊天超時，分鐘"
+            }
+        },
+        "ChatActionsDetail": {
+            "Title": "聊天動作",
+            "Columns": {
+                "Caption": "標題",
+                "Process": "流程",
+                "Queue": "佇列"
+            },
+            "Actions": {
+                "Delete": "刪除"
+            }
+        },
+        "ChatQueuePage": {
+            "Title": "佇列",
+            "Name": "名稱",
+            "OperatorRoutingRule": "路由規則",
+            "SimultaneousChats": "同步聊天",
+            "TimeToWaitInQueue": "排隊等候時間",
+            "Timeout": "聊天完成逾時，分鐘",
+            "Tips": {
+                "SimultaneousChats": "每位操作員的最大聊天次數",
+                "Timeout": "聊天自動完成前的最長等待時間"
+            },
+            "ValidationMessage": {
+                "required": "輸入值",
+                "wrongValue": "錯誤值",
+                "nonNegativeValue": "無法提供負值",
+                "nonNumericValue": "無法提供非數值"
+            }
+        },
+        "ChatActionPage": {
+            "Title": "聊天動作",
+            "Caption": "標題",
+            "Process": "流程",
+            "ChatQueue": "聊天佇列",
+            "ValidationMessage": {
+                "required": "輸入值"
+            }
+        },
+        "ChatQueueOperatorDetail": {
+            "Title": "佇列代理",
+            "Columns": {
+                "Operator": {
+                    "Caption": "用戶/角色"
+                }
+            },
+            "DuplicationMessage": "已存在一個角色。請選擇其他操作員/角色繼續"
+        }
+    },
+    "IntegrationDiagnostics": {
+        "EmailListener": {
+            "Header": "電子郵件監聽器服務診斷",
+            "MailBoxAvailabilityCheck": "檢查信箱健康狀況",
+            "ExchangeListenerAvaibilityCheck": "服務可用性驗證",
+            "ExchangeListenerAvailabilityCheck": "Creatio 可用性驗證",
+            "GetSubscriberInfo": "接收訂閱資訊",
+            "StartDiagnosticButtonCaption": "執行診斷",
+            "StartFullDiagnosticButtonCaption": "執行完整診斷",
+            "MailBoxLookupCaption": "信箱",
+            "SuccessfulOperation": "成功運作",
+            "DiagnosticWasNotStarted": "診斷未啟動",
+            "UnSuccessfulOperation": "錯誤",
+            "ELAvailabilityDescription": "本網站提供電子郵件監聽器服務",
+            "ApplicationAvailabilityDescription": "電子郵件收聽者能夠與 Creatio",
+            "ELNotAvailabilityDescription": "此網站目前不提供電子郵件監聽器服務",
+            "ValidateCreatioExchangeEndpoint": "驗證系統設定 BpmonlineExchangeEventsEndpointUrl 填寫的正確性",
+            "CreatioExchangeEndpontErrorValidationInfoTemplate": "端點無效\n預期值：{0}/NewEmail\n實際值：{1}\n檢查系統設置 BpmonlineExchangeEventsEndpointUrl 是完整的！",
+            "CreatioExchangeEndpontSuccessValidationInfoTemplate": "端點 {0} 有效",
+            "SendTestEmail": "發送測試電子郵件",
+            "MailboxAvailabilityDiagnosticTooltip": "需要填寫信箱",
+            "MailboxDiagnosticSuccessDescriptor": "此郵箱已成功驗證",
+            "NameCaption": "名稱",
+            "FeaturesStateLabel": "功能狀態",
+            "ExchangeListenerEnabledFeatureCaption": "Exchange 信箱同步 (ExchangeListenerEnabled)",
+            "EmailIntegrationV2FeatureCaption": "Exchange 和 IMAP 信箱同步 (EmailIntegrationV2)",
+            "SendEmailsV2FeatureCaption": "傳送電子郵件 (SendEmailsV2)",
+            "OldEmailIntegrationFeatureCaption": "舊的電子郵件整合 (OldEmailIntegrationFeature，狀態為停用)",
+            "IsMailboxSyncSettingsCachedFeatureCaption": "郵箱同步設定快取 (IsMailboxSyncSettingsCached)"
+        }
+    },
+    "StructureExplorerDialog": {
+        "NoData": "無數據",
+        "Title": "選擇欄位",
+        "CancelButtonCaption": "取消",
+        "SelectButtonCaption": "選擇",
+        "RelatedObjectsTabCaption": "相關對象{0}",
+        "FieldsTabCaption": "{0} 個欄位{1}",
+        "SearchPlaceHolder": "搜尋",
+        "SearchClearIconTitle": "清除搜尋"
+    },
+    "AggregationNames": {
+        "Count": "",
+        "Sum": "值的總和",
+        "Avg": "平均值",
+        "MinValue": "最小值",
+        "MaxValue": "最大值",
+        "MinDate": "最短日期",
+        "MaxDate": "最長日期",
+        "TopOne": "第一筆記錄值",
+        "AtLeastOneRecord": "At least one record",
+        "NoRecords": "No records"
+    },
+    "EntityColumnValuePickerProvider": {
+        "ValueFromFieldCaption": "來自另一個欄位的數值"
+    },
+    "DataSourceAttributeValuePickerProvider": {
+        "ValueFromFieldCaption": "來自另一個欄位的數值"
+    },
+    "FormulaValuePickerProvider": {
+        "ValueFromFieldCaption": "公式",
+        "CancelButtonCaption": "取消",
+        "SelectButtonCaption": "儲存",
+        "DialogTitleCaption": "公式表達"
+    },
+    "RepositorySection": {
+        "Title": "SVN 儲存庫清單",
+        "Actions": {
+            "Add": "添加",
+            "Edit": "編輯",
+            "Authorize": "驗證",
+            "Delete": "刪除"
+        },
+        "Messages": {
+            "SuccessAuthorize": "您已成功驗證儲存庫"
+        },
+        "Columns": {
+            "Name": "名稱",
+            "Address": "SVN 儲存位址",
+            "IsActive": "積極的",
+            "Login": "登入",
+            "Password": "密碼"
+        },
+        "InfoBlock": {
+            "Title": "重要資訊",
+            "TextPart1": "透過 SVN 傳輸變更僅適用於開發環境。使用",
+            "TextPart2": "章節，將變更轉移到生產環境。",
+            "InstallAppsLink": "https://academy.creatio.com/docs/user/no-code_customization/apps_and_extensions/install_applications_from_the_marketplace",
+            "InstallAppsLinkText": "已安裝的應用程式",
+            "LinksMessage": "在 Creatio 學院進一步了解 SVN：",
+            "DeploymentInCreatioIDEInfoLinkText": "在 Creatio IDE 中部署",
+            "SetupVersionControlInfoLinkText": "設定版本控制",
+            "DeploymentInCreatioIDEInfoLink": "https://academy.creatio.com/docs/developer/development_tools/deployment/transferring_solutions_in_creatio_ide",
+            "SetupVersionControlInfoLink": "https://academy.creatio.com/docs/node/1164"
+        },
+        "Page": {
+            "Title": "SVN 儲存",
+            "Actions": {
+                "Add": "添加",
+                "Apply": "申請",
+                "Cancel": "取消",
+                "Authorize": "驗證"
+            },
+            "Validation": {
+                "Required": "輸入一個值",
+                "MaxLength": "超出最大文字長度 ({0}/{1})",
+                "NameField": {
+                    "Pattern": "無效的名稱格式"
+                }
+            }
+        }
+    },
+    "dataSource": "資料來源",
+    "lookup": "查找",
+    "lookupValueDeletion": "關於查找值刪除：",
+    "blockDeletionCaption": "如果當前物件中有此值的連線記錄，就會阻斷刪除。",
+    "DeleteRecordsCaption": "刪除目前物件中此值的記錄",
+    "lookupView": "尋找視圖",
+    "selectionWindow": "選擇視窗",
+    "list": "清單",
+    "columnFormat": "資料類型",
+    "columnNumberFormat": "資料類型",
+    "selectValueCaption": "輸入一個值",
+    "DataValueType": {
+        "TextCaption": "文字",
+        "ShortTextCaption": "文字（50 個字元）",
+        "PhoneTextCaption": "電話號碼",
+        "PhoneTextShortenedCaption": "電話",
+        "WebTextCaption": "網站連結",
+        "EmailTextCaption": "電子郵件",
+        "EmailTextShortenedCaption": "電子郵件",
+        "MediumTextCaption": "文字（250 個字元）",
+        "LongTextCaption": "文字（500 個字元）",
+        "MaxSizeTextCaption": "無限長度的文本",
+        "SecureTextCaption": "加密字串",
+        "HashTextCaption": "CRC",
+        "IntegerCaption": "整數",
+        "FLOAT1Caption": "十進制 (0.1)",
+        "FLOAT2Caption": "小數 (0.01)",
+        "FLOAT3Caption": "小數 (0.001)",
+        "FLOAT4Caption": "十進制 (0.0001)",
+        "FLOAT8Caption": "十進位 (0.00000001)",
+        "MoneyCaption": "Currency (0.01)",
+        "DateTimeCaption": "日期/時間",
+        "DateCaption": "日期",
+        "TimeCaption": "時間",
+        "BooleanCaption": "布林值",
+        "ImageCaption": "圖像",
+        "ImageLookupCaption": "圖片連結",
+        "FileCaption": "文件",
+        "ColorCaption": "顏色",
+        "RichCaption": "富文本",
+        "GuidCaption": "唯一識別符",
+        "BlobCaption": "BLOB",
+        "LookupCaption": "查找",
+        "Entity": "物件 (實體)",
+        "EntityCollection": "物件集合 (EntityCollection)",
+        "EntityColumnMappingCollection": "物件欄位值",
+        "CustomObject": "物件",
+        "Collection": "枚舉",
+        "LocalizableString": "可本地化字串",
+        "MetaDataText": "不可本地化字串",
+        "ObjectList": "可序列化的值清單",
+        "CompositeObjectList": "可序列化的複合值清單",
+        "FloatCaption": "十進位",
+        "TimerCaption": "定時器",
+        "LocalTimeCaption": "當地時間",
+        "CompositeObject": "複合值",
+        "FLOAT0Caption": "十進制 (0)",
+        "Money0Caption": "Currency (0)",
+        "Money1Caption": "Currency (0.1)",
+        "Money3Caption": "Currency (0.001)"
+    },
+    "CodeMirror": {
+        "HotkeysDescription": "熱鍵：",
+        "SelectAll": "Ctrl-A 全選",
+        "Undo": "Ctrl-Z 復原",
+        "Redo": "Shift-Ctrl-Z 重做",
+        "Find": "Ctrl-F 尋找",
+        "FindNext": "F3 尋找下一個",
+        "FindPrev": "Shift-F3 尋找前一個",
+        "Replace": "Shift-Ctrl-F 取代",
+        "ReplaceAll": "Shift-Ctrl-R 全部取代",
+        "DeleteLine": "Ctrl-Y 刪除行",
+        "GoLineStart": "Alt-Left 移至直線起點",
+        "GoLineEnd": "Alt-Right 移至行尾",
+        "JmpToLine": "Alt-G 跳至行",
+        "Fullscreen": "F11 全螢幕程式碼編輯器",
+        "FullscreenExit": "Esc 退出全螢幕模式",
+        "Autocomplete": "Ctrl-Space 呼叫自動完成"
+    },
+    "CDK": {
+        "ByCaption": "經過",
+        "ByColumnCaption": "按欄",
+        "WhereColumnCaption": "何處",
+        "IsColumnCaption": "是",
+        "IndicatorWidget": {
+            "Caption": "公制"
+        },
+        "GaugeWidget": {
+            "Caption": "測量"
+        },
+        "HeaderWidget": {
+            "Fullscreen": {
+                "ExpandLabel": "展開全螢幕",
+                "CollapseLabel": "折疊全屏"
+            },
+            "Direction": {
+                "Menu": {
+                    "Caption": "排行榜位置"
+                },
+                "Column": {
+                    "Caption": "以上"
+                },
+                "Row": {
+                    "Caption": "剩餘"
+                },
+                "RowReverse": {
+                    "Caption": "正確"
+                }
+            }
+        },
+        "ChartWidget": {
+            "ChangeChartType": {
+                "Caption": "更改圖表類型"
+            },
+            "Line": {
+                "Caption": "折線"
+            },
+            "Spline": {
+                "Caption": "曲線圖"
+            },
+            "Area": {
+                "Caption": "區域"
+            },
+            "Scatter": {
+                "Caption": "散點圖"
+            },
+            "Bar": {
+                "Caption": "柱狀圖"
+            },
+            "HorizontalBar": {
+                "Caption": "長條圖"
+            },
+            "Pie": {
+                "Caption": "派"
+            },
+            "Doughnut": {
+                "Caption": "圓形圖"
+            },
+            "Tsfunnel": {
+                "Caption": "銷售漏斗圖"
+            },
+            "Common": {
+                "DrillDownCaption": "深入了解該項目",
+                "EmptyValue": "值未定義",
+                "BooleanTrueValue": "是的",
+                "BooleanFalseValue": "不",
+                "ExportDataBtnCaption": "匯出到 Excel",
+                "HideSeries": "隱藏",
+                "ShowDataCaption": "顯示數據",
+                "ShowDataForSelectedSeriesCaption": "顯示此系列的資料",
+                "ShowSeries": "顯示",
+                "ShowSeriesDataCaption": "依系列顯示資料",
+                "ShowDataAsTableCaption": "以表格顯示資料"
+            },
+            "With": {
+                "Caption": "與"
+            },
+            "Series": {
+                "Caption": "系列"
+            },
+            "ScreenReader": {
+                "AnnounceChartTypeChange": "圖表類型已更改為 {{chartType}}"
+            }
+        },
+        "FunnelWidget": {
+            "OpportunityFunnel": {
+                "Caption": "銷售通路",
+                "ByCountLabelTemplate": "{0}",
+                "StageConversionLabelTemplate": "{0}%",
+                "ToFirstStageLabelTemplate": "您需要在查詢值中為這些元素設定觸發器：_x000D_%\n",
+                "ByCountBtnLabel": "機會數量",
+                "StageConversionBtnLabel": "階段轉換率",
+                "ToFirstStageBtnLabel": "管道轉換",
+                "DefaultTitle": "新管道"
+            },
+            "FullPipelineFunnel": {
+                "Caption": "全管道",
+                "ByCountBtnLabel": "紀錄數量",
+                "StageConversionBtnLabel": "階段轉換率",
+                "ToFirstStageBtnLabel": "管道轉換",
+                "DefaultTitle": "新管道"
+            },
+            "Tooltip": {
+                "CountInStage": "計數",
+                "CountInStageValue": "{0}",
+                "Amount": "數量",
+                "AmountValue": "{0} {1}",
+                "ConversionToStage": "轉換",
+                "ConversionToStageValue": "{0}%",
+                "ConversionToFirstStage": "轉換",
+                "ConversionToFirstStageValue": "{0}%",
+                "ConversionToStageCount": "計數",
+                "ConversionToStageCountValue": "{0}",
+                "ConversionToFirstStageCount": "計數",
+                "ConversionToFirstStageCountValue": "{0}"
+            }
+        },
+        "ListWidget": {
+            "Caption": "List widget",
+            "Hint": "A component that combines a fully functional list with a customizable colored frame, ensuring visual consistency when placed alongside other analytics widgets"
+        },
+        "WaterfallWidget": {
+            "Caption": "Waterfall pipeline",
+            "DefaultTitle": "New waterfall pipeline"
+        },
+        "SalesWaterfallWidget": {
+            "Caption": "Sales waterfall pipeline",
+            "DefaultTitle": "New sales waterfall pipeline"
+        }
+    },
+    "Components": {
+        "Input": {
+            "Caption": "文字"
+        },
+        "Slider": {
+            "Caption": "滑桿"
+        },
+        "NumberInput": {
+            "Caption": "數位"
+        },
+        "FileInput": {
+            "Caption": "文件",
+            "LabelCaption": "要上傳的檔案",
+            "Placeholder": "選擇檔案"
+        },
+        "Button": {
+            "Caption": "按鈕",
+            "DefaultActionNotificationMessageText": ""
+        },
+        "Checkbox": {
+            "Caption": "複選框"
+        },
+        "Combobox": {
+            "Caption": "下拉式選單",
+            "AddNewRecord": "新增",
+            "IsGoToSourceAllowedTooltip": "前往記錄清單"
+        },
+        "DataGrid": {
+            "Caption": "清單",
+            "Hint": "A customizable data display component that allows users to view and interact with structured information"
+        },
+        "ExpandedList": {
+            "Caption": "擴充列表",
+            "Hint": "擴充清單包括清單、可擴充群組和新增項目按鈕。建議在頁面中使用，以顯示相關資訊。",
+            "AddBtnCaption": "新的",
+            "RefreshBtnCaption": "重新整理",
+            "SettingsBtnCaption": "動作",
+            "ExportDataBtnCaption": "匯出到 Excel",
+            "ImportDataBtnCaption": "資料匯入"
+        },
+        "Attachment": {
+            "Caption": "附件",
+            "Hint": "附件元件包括檔案清單、可擴充群組、上傳檔案按鈕、刷新按鈕。建議在表單頁面中使用，以顯示相關附件。",
+            "AddBtnCaption": "上傳",
+            "RefreshBtnCaption": "重新整理"
+        },
+        "DateTimePicker": {
+            "Caption": "日期/時間"
+        },
+        "Gallery": {
+            "Caption": "畫廊"
+        },
+        "ColorPicker": {
+            "Caption": "顏色選擇器"
+        },
+        "Label": {
+            "Caption": "標籤"
+        },
+        "ActionDashboard": {
+            "Caption": "操作儀錶板",
+            "Hint": "使用工作流程列和操作面板顯示記錄目前狀態的相關資訊。建議在表格頁面上使用該元件。"
+        },
+        "ExpansionPanel": {
+            "Caption": "擴充面板"
+        },
+        "TabPanel": {
+            "Caption": "標籤",
+            "DefaultTab1Name": "選項卡1",
+            "DefaultTab2Name": "選項卡2",
+            "DefaultLabel1Name": "標籤1",
+            "DefaultLabel2Name": "標籤2",
+            "NewTabName": "新分頁",
+            "NewLabelName": "新標籤",
+            "AddTab": "新增索引標籤",
+            "DeleteTab": "刪除索引標籤",
+            "DeleteTabConfirmation": "刪除「{0}」標籤和裡面所有的項目？"
+        },
+        "TogglePanel": {
+            "Caption": "切換面板",
+            "Hint": "容器包括一個可摺疊的標籤容器和一個按鈕區塊，可讓您控制標籤的顯示。您可以將容器和按鈕獨立放置在頁面的不同部分。"
+        },
+        "MenuItem": {
+            "Caption": "選單項目"
+        },
+        "Breadcrumbs": {
+            "Back": "返回"
+        },
+        "Timeline": {
+            "Caption": "時間軸",
+            "AddObject": "+ 新增物件",
+            "ProvideDataSource": "使用時間軸之前提供資料來源",
+            "Tile": {
+                "TileObjectTitle": "物件: "
+            },
+            "DesignerCustomEntities": {
+                "Email": {
+                    "Caption": "電子郵件"
+                },
+                "Feed": {
+                    "Caption": "資訊流"
+                },
+                "Task": {
+                    "Caption": "任務"
+                },
+                "SysFile": {
+                    "Caption": "文件"
+                }
+            },
+            "Hint": "The component displays communication history and related records in chronological order"
+        },
+        "File": {
+            "Caption": "文件",
+            "Label": "要上傳的檔案",
+            "Placeholder": "選擇檔案"
+        },
+        "RichTextEditor": {
+            "Caption": "Rich text"
+        },
+        "ImageInput": {
+            "Caption": "圖像",
+            "LabelCaption": "要上傳的圖片"
+        },
+        "SearchFilter": {
+            "Caption": "搜尋",
+            "Placeholder": "搜尋",
+            "Tooltip": "搜尋元件允許僅以文字、數字和查詢列進行搜尋，並與列表物件直接連線。",
+            "ComparisonType": {
+                "StartsWith": "Search matches values that start with your input.",
+                "Contains": "Search matches values that contain your input."
+            }
+        },
+        "Approval": {
+            "Caption": "核准"
+        },
+        "ApprovalList": {
+            "Caption": "核准清單",
+            "RefreshCaption": "重新整理",
+            "ProvideDataSource": "使用核准前提供資料來源"
+        },
+        "Summaries": {
+            "Caption": "摘要"
+        },
+        "CampaignViewer": {
+            "Caption": "行銷活動檢視器",
+            "Hint": "顯示活動模式"
+        },
+        "ProgressBar": {
+            "Caption": "進度列",
+            "Hint": "階段執行指標",
+            "ProvideDataSource": "使用進度列前先提供資料來源"
+        },
+        "CommunicationOptions": {
+            "Caption": "通訊選項",
+            "Hint": "元件顯示聯絡人或帳戶通訊選項",
+            "AddBtnCaption": "新增通訊選項"
+        },
+        "TagSelect": {
+            "Caption": "標籤"
+        },
+        "CalendarCaption": "日曆",
+        "EntityHierarchyFilter": {
+            "Caption": "層級",
+            "AllCaption": "全部",
+            "Hint": "層級檢視可讓您透過查詢列設定層級結構，以組織記錄。為了確保元件能如預期般運作，請在頁面的清單或資料來源設定中連接元件。"
+        },
+        "IndicatorWidget": {
+            "Caption": "新指標"
+        },
+        "Chat": {
+            "Caption": "聊天",
+            "Hint": "即時聊天和顯示先前對話的元件"
+        },
+        "ChartWidget": {
+            "Caption": "新圖表"
+        },
+        "GaugeWidget": {
+            "Caption": "新規"
+        },
+        "Dashboards": {
+            "Caption": "儀表板",
+            "Hint": "儀表板組件讓您配置數據來源，將組件連接到組件放置的頁面，並創建新的儀表板或更改現有儀表板"
+        },
+        "Toggle": {
+            "Caption": "Switcher"
+        },
+        "DataGridHierarchical": {
+            "Caption": "Hierarchical list",
+            "Hint": "A data display component that allows users to view and interact with structured information organized in a multi-level hierarchy"
+        },
+        "Feed": {
+            "Caption": "資訊流"
+        },
+        "Divider": {
+            "Caption": "分割器"
+        },
+        "Switch": {
+            "Caption": "Switch"
+        }
+    },
+    "LayoutElements": {
+        "GridArea1": {
+            "Caption": "區域"
+        },
+        "GridColumn1": {
+            "Caption": "1 欄"
+        },
+        "GridColumn2": {
+            "Caption": "2 列"
+        },
+        "GridColumn3": {
+            "Caption": "3 列"
+        },
+        "GridColumn4": {
+            "Caption": "4 列"
+        },
+        "FlexRow": {
+            "Caption": "彈性排",
+            "Hint": "將多個元素水平排成一行。Creatio 可根據內容調整元素的大小。例如，將兩個按鈕或一個欄位和一個按鈕相鄰放置。在學院中學習更多。"
+        },
+        "FlexColumn": {
+            "Caption": "軟柱",
+            "Hint": "將多個元素垂直排成一行。Creatio 可根據內容調整元素的大小。例如，以兩個區塊建立一列。在學院中學習更多。"
+        }
+    },
+    "TypeCaptions": {
+        "GridContainer": "網格容器",
+        "FlexContainer": "彈性容器",
+        "TabContainer": "標籤",
+        "MenuItem": "選單項目",
+        "ChartWidget": "圖表",
+        "TimelineTile": "時間軸"
+    },
+    "DialogComponent": {
+        "CancelButtonDialog": "取消",
+        "SaveButtonDialog": "儲存",
+        "CloseButtonDialog": "關閉"
+    },
+    "HomePage": {
+        "DialogMessages": {
+            "RequiredFieldsAreNotFilled": "未填寫必填欄位，或頁面出現驗證錯誤"
+        }
+    },
+    "DesignerSettingsComponent": {
+        "HeaderCaption": "圖表設定"
+    },
+    "InterfaceDesigner": {
+        "Caption": "設計師",
+        "AddMenu": {
+            "AddDataSource": "新增資料來源",
+            "NewDataSource": "新資料來源",
+            "ExistingDataSource": "現有資料來源"
+        },
+        "DataSourceActions": {
+            "Edit": "編輯",
+            "RemoveAttribute": "刪除",
+            "Remove": "刪除",
+            "RemoveExistingDataSourceMessage": "Are you sure you want to remove the data source? Any unsaved changes to its object will be lost.",
+            "RemoveNewDataSourceMessage": "Are you sure you want to remove the data source? This will permanently delete the new object as it hasn’t been saved yet.",
+            "RemoveDataSourceWithReferencesMessage": "Remove the referenced elements before deleting the data source",
+            "RemoveDataSourceSuccessMessage": "The data source has been deleted"
+        },
+        "SetupEntityDialog": {
+            "Title": "新物件"
+        },
+        "SetupDataSourceDialog": {
+            "SetupDataSourceTitle": "設定資料來源",
+            "CancelButtonDialog": "取消",
+            "SelectButtonDialog": "選擇",
+            "Object": "物件",
+            "SelectDataSource": "選擇資料來源"
+        },
+        "SetupEntityProperties": {
+            "NameColumnCaption": "名稱"
+        },
+        "SetupEntityPropertiesDialog": {
+            "Name": "名稱",
+            "Description": "描述",
+            "SaveButton": "儲存",
+            "CancelButton": "取消",
+            "Code": "程式碼",
+            "Validations": {
+                "RequiredNameCaption": "輸入一個值"
+            }
+        },
+        "LookupEntityDialog": {
+            "CreateOrEditLookupEntityTitle": "新查詢值",
+            "CancelButtonDialog": "取消",
+            "SelectButtonDialog": "儲存",
+            "TitleControl": "標題",
+            "NameControl": "程式碼",
+            "Validations": {
+                "RequiredNameCaption": "輸入一個值",
+                "DuplicateNameCaption": "具有相同代碼的物件已經存在",
+                "PatternPrefixTemplate": "代碼必須以\"{0}\"前綴開頭",
+                "PatternNameCaption": "無效值。使用符號：a-z、A-Z、0-9。符號：0-9不能為首位。"
+            }
+        },
+        "CopyPostfixCaption": "複製",
+        "DesignElementSetting": {
+            "SettingsTitle": "設定",
+            "DuplicateTitle": "複製",
+            "DeleteTitle": "刪除"
+        },
+        "Messages": {
+            "SuccessfullySaved": "儲存成功"
+        },
+        "PropertiesPages": {
+            "EntityDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "一般的"
+            },
+            "EntityDataSourcePropertiesPanel": {
+                "GeneralGroup": "一般的",
+                "PrimaryDataSource": "主要資料來源",
+                "PrimaryDataSourceChangeConfirm": "此頁面的主要資料來源將會變更。您要儲存變更嗎？",
+                "BusinessRulesGroup": "業務規則",
+                "Relations": "",
+                "FiltersAndSorting": "篩選和排序",
+                "isIndependentDataSource": "",
+                "isIndependentDataSourceTooltip": "如果啟用，此資料來源將始終僅根據其靜態篩選器和排序標準加載資料，而不受主要記錄的影響",
+                "ApplyStaticFilter": "套用靜態過濾器",
+                "EditStaticFilterAction": "編輯篩選",
+                "SetupStaticFilterAction": "設定篩選器",
+                "FiltersDialogCaption": "手動定義過濾器",
+                "DoNotCreateEmptyRecordsLabel": "請勿創建空白記錄",
+                "DoNotCreateEmptyRecordsTooltip": "如果啟用，當用戶未對此數據源的任何字段（包括在對象層級上設置的默認值）進行更改時，將不會生成空記錄",
+                "KeepValuesOnCopy": "",
+                "KeepValuesOnCopyTooltip": "",
+                "SchemaHasChanged": "如果新的資料來源尚未儲存，則無法設置靜態篩選器。請儲存該頁面並重試"
+            },
+            "FilePropertiesPage": {
+                "General": "一般的",
+                "AllowedExtensions": "檔案副檔名",
+                "AllowedExtensionsEmptyMessage": "如果未設定，則允許使用 File extensions AllowList 系統設定中的所有檔案類型。",
+                "MaxSize": "最大檔案大小，MB",
+                "MaxSizeEmptyMessage": "如果未設定，則採用附件最大尺寸系統設定的預設值",
+                "LabelPosition": "標題位置",
+                "LabelPositionVariants": {
+                    "Auto": "自動",
+                    "Left": "剩餘",
+                    "Right": "正確",
+                    "Above": "以上",
+                    "Hidden": "隱藏"
+                },
+                "Placeholder": "提示文字",
+                "AppearanceGroup": "外觀",
+                "DataSource": "資料來源",
+                "Editability": "可編輯性",
+                "TitleOnPage": "頁面標題",
+                "EditabilityControls": {
+                    "Readonly": "只讀"
+                }
+            },
+            "FileListPropertiesPage": {
+                "PageCaption": "附件清單設定",
+                "GeneralGroup": "一般的",
+                "FileGroupLabel": "文件組",
+                "TagLabel": "檔案標籤",
+                "TagPlaceholder": "預設顯示所有記錄檔",
+                "TagHint": "使用標籤篩選記錄檔案，例如 「申請文件」",
+                "FileEntitySchemaLabel": "檔案儲存位置",
+                "FileGroups": {
+                    "Attachments": "附件"
+                },
+                "AttributeToAttachFiles": "記錄附加檔案",
+                "EmptyDataSourceHint": "資料來源未加入頁面。請新增現有資料來源以設定元件",
+                "AppearanceGroup": "外觀",
+                "ViewTypeLabel": "檢視",
+                "TileSizeFieldLabel": "圖庫項目尺寸",
+                "Sizes": {
+                    "Small": "小型",
+                    "Medium": "中等的",
+                    "Large": "大的",
+                    "ExtraLarge": "特大號"
+                },
+                "ViewTypeOption": {
+                    "List": "清單",
+                    "Gallery": "畫廊"
+                }
+            },
+            "ImageInputPropertiesPage": {
+                "SizeFieldLabel": "尺寸",
+                "Sizes": {
+                    "None": "無",
+                    "Small": "小型",
+                    "Medium": "中等的",
+                    "Large": "大的",
+                    "ExtraLarge": "特大號"
+                },
+                "BorderRadiusLabel": "邊界半徑",
+                "PositioningLabel": "影像位置",
+                "Positioning": {
+                    "Cover": "填寫",
+                    "ScaleDown": "合身"
+                },
+                "MaxSize": "最大檔案大小，MB",
+                "MaxSizeEmptyMessage": "如果未設定，則採用「影像最大尺寸」系統設定的預設值",
+                "MaxSizePlaceholder": "預設為 {0} MB",
+                "TooltipLabel": "工具提示",
+                "AppearanceGroup": "外觀",
+                "Editability": "可編輯性",
+                "EditabilityControls": {
+                    "Readonly": "只讀"
+                },
+                "TooltipHint": "工具提示支援純文字和 HTML 內容。請確保您的 HTML 內容簡潔，並適應工具提示的大小。"
+            },
+            "PropertiesPanelIconSettings": {
+                "UseIcon": "使用圖示",
+                "IconPositionLabel": "位置",
+                "IconPosition": {
+                    "LeftIcon": "圖示左側",
+                    "RightIcon": "圖示右側",
+                    "OnlyIcon": "僅圖示",
+                    "OnlyText": "僅文字"
+                },
+                "IconLabel": "圖示"
+            },
+            "PropertiesPanelVisibilitySettings": {
+                "VisibilityGroup": "能見度",
+                "Visible": "可見",
+                "NotVisible": "看不見",
+                "SetupConditions": "Set up conditions",
+                "DefaultValueNotSupported": "此元素不支援可視性的預設值"
+            },
+            "ViewElementEventPropertiesPanel": {
+                "EventFieldLabel": "動作",
+                "Requests": {
+                    "CancelRecordChangesRequest": "取消變更",
+                    "ClosePageRequest": "關閉頁面",
+                    "CreateRecordRequest": "開啟新記錄",
+                    "ExportDataGridToExcelRequest": "匯出到 Excel",
+                    "ImportDataRequest": "資料匯入",
+                    "LoadDataRequest": "刷新資料",
+                    "OpenPageRequest": "開啟特定頁面",
+                    "RunBusinessProcessRequest": "運行進程",
+                    "SaveRecordRequest": "儲存資料",
+                    "SetRecordRightsRequest": "設定存取權限",
+                    "UpdateRecordRequest": "開啟現有記錄",
+                    "UploadFileRequest": "上傳文件",
+                    "ShowRelationshipsRequest": "顯示記錄的關係",
+                    "DeleteRecordsRequest": "刪除數據",
+                    "ContinueInOtherPageRequest": "在其他頁面繼續",
+                    "OpenDuplicatesPageRequest": "開啟重複頁面",
+                    "AddСommunicationOptionsRequest": "新增通訊選項",
+                    "SelectLookupPageRequest": "選擇資料",
+                    "AddTagsInRecordsRequest": "新增標籤",
+                    "RemoveTagsInRecordsRequest": "移除標籤",
+                    "PrintablesRequest": "列印報告",
+                    "SetCalendarTimeScaleRequest": "設定日曆時間刻度",
+                    "AddCalendarSyncAccountRequest": "新增行事曆同步帳戶",
+                    "AddRecordsInStaticFoldersRequest": "將記錄新增至靜態資料夾",
+                    "RemoveRecordsInStaticFoldersRequest": "從靜態資料夾中移除記錄",
+                    "CreateEmailRequest": "建立電子郵件",
+                    "SendInvitesForActivityRequest": "發送邀請",
+                    "MoveSelectedItemsRequest": "移動選取的記錄",
+                    "CopilotActionRequest": "Creatio.ai 行動",
+                    "OpenChangeLogRequest": "開啟變更記錄",
+                    "SetupCalendarSyncAccountRequest": "設定行事曆同步帳戶",
+                    "ToggleFollowFeedRequest": "Follow/Unfollow Feed",
+                    "DeleteRecordRequest": "刪除記錄",
+                    "SetAttributeFromBarcodeRequest": "Open Barcode scanner",
+                    "SetAttributeFromNfcRequest": "Open NFC reader",
+                    "UpdateQuickFilterGroupRequest": "設定篩選器"
+                },
+                "RunBusinessProcessRequest": {
+                    "WhichProcessRunQuestion": "運行哪個進程？",
+                    "AddNewBusinessProcessButton": "新增流程",
+                    "SelectBusinessProcessButton": "打開流程設計器",
+                    "HowProcessRunQuestion": "如何執行程序？",
+                    "HowProcessRunLabel": "記錄傳遞的流程參數",
+                    "HowRunProcessOptions": {
+                        "ForTheSelectedPage": "對於選取的頁面",
+                        "RegardlessOfThePage": "不論頁面",
+                        "ForTheSelectedRecords": "對於清單中的選取記錄"
+                    },
+                    "DataSourceFieldCaption": "要為哪些清單執行程序？",
+                    "SaveAtProcessStart": "在程序開始前儲存資料",
+                    "AnnounceProcessStart": "Show notification for process start",
+                    "NotificationTextFieldName": "Notification text",
+                    "DefaultNotificationText": "製程開始"
+                },
+                "OpenPageRequest": {
+                    "Title": "要開啟哪個頁面？",
+                    "OpenPageInDesignerTitle": "開放式介面設計器",
+                    "AddNewPage": "新增頁面",
+                    "PageParameters": "頁面參數"
+                },
+                "CreateRecordRequest": {
+                    "WhichRecordToCreateLabel": "要建立哪一條記錄？",
+                    "DefaultAttributeValuesLabel": "要設定哪些欄值？"
+                },
+                "UpdateRecordRequest": {
+                    "WhichObjectToOpenRecordOfLabel": "要開啟哪個物件的記錄？",
+                    "WhichRecordToOpenLabel": "要打開哪個記錄？"
+                },
+                "LoadDataRequest": {
+                    "DataRefreshModeLabel": "Data refresh mode",
+                    "DataRefreshModeOptions": {
+                        "RefreshAll": "Refresh all",
+                        "RefreshSpecific": "Refresh specific data sources"
+                    },
+                    "DataSourcesSelection": {
+                        "DataSourceLabel": "資料來源",
+                        "RefreshAll": {
+                            "Title": "Which data sources to exclude?",
+                            "Tooltip": "In “Refresh all” mode, all page data sources will be refreshed — including those added after this action is configured. Use this list to exclude specific data sources from being refreshed."
+                        },
+                        "RefreshSpecific": {
+                            "Title": "Which data sources to refresh?",
+                            "Tooltip": "Select the data sources that should be refreshed when the button is clicked."
+                        }
+                    }
+                },
+                "ExecuteCustomCode": "執行自訂程式碼",
+                "ShowRelationshipsRequest": {
+                    "SelectEntityLabel": "使用哪個物件？",
+                    "SelectRecordIdLabel": "透過哪一列連接？"
+                },
+                "OpenDuplicatesPageRequest": {
+                    "WhichObjectToOpenDuplicatesOfLabel": "應該開啟哪些應用程式複本？"
+                },
+                "SetCalendarTimeScaleRequest": {
+                    "Calendar": "要控制的元件",
+                    "TimeScale": "時間刻度",
+                    "FiveMinutes": "5分鐘",
+                    "TenMinutes": "10分鐘",
+                    "FifteenMinutes": "15分鐘",
+                    "ThirtyMinutes": "30分鐘",
+                    "OneHour": "1小時"
+                },
+                "SendInvitesForActivityRequest": {
+                    "ActivityColumn": "活動欄位",
+                    "RequiredFieldError": "此欄位必須填寫"
+                },
+                "MoveSelectedItemsRequest": {
+                    "SourceDataGridComboBoxLabel": "將資料從",
+                    "TargetDataGridComboBoxLabel": "將資料移至",
+                    "DefaultValuesLabel": "選擇要移動的欄位",
+                    "DefaultValuesHint": "選擇要從初始資料來源移動值到目標資料來源的欄位。"
+                },
+                "OpenChangeLogRequest": {
+                    "LogDisplaySettings": "日誌顯示設定",
+                    "OpenLogForRecord": "開啟選取記錄的日誌",
+                    "OpenLogForObject": "開啟物件的日誌",
+                    "WhichDataSourceOpenLog": "使用哪個資料來源開啟日誌？",
+                    "WhichObjectOpenLog": "要為哪個物件開啟日誌？"
+                },
+                "SetFollowFeedRequest": {
+                    "Feed": "Feed component to control"
+                },
+                "SetAttributeFromBarcodeRequest": {
+                    "ColumnNameControl": {
+                        "Label": "Which column to set result to?",
+                        "RequiredFieldError": "此欄位必須填寫"
+                    },
+                    "LookupFilterColumn": {
+                        "Label": "Search column name"
+                    }
+                }
+            },
+            "ExpansionPanelPropertiesPage": {
+                "PageCaption": "擴充面板設定",
+                "GeneralCaption": "一般的",
+                "TitleLabel": "標題",
+                "ToggleTypeLabel": "風格",
+                "TogglePositionLabel": "按鈕位置",
+                "ColorLabel": "標題顏色",
+                "DefaultToggleTypeLabel": "預設",
+                "MaterialToggleTypeLabel": "手風琴",
+                "BeforeTogglePositionLabel": "剩餘",
+                "AfterTogglePositionLabel": "正確",
+                "FullWidthHeaderCaption": "全寬標頭",
+                "TitleWidthCaption": "標題寬度",
+                "PaddingGroup": "間距",
+                "Padding": {
+                    "Top": "頂部",
+                    "Bottom": "底部",
+                    "Left": "剩餘",
+                    "Right": "正確"
+                }
+            },
+            "LabelPropertiesPage": {
+                "PageCaption": "標籤設定",
+                "GeneralCaption": "一般的",
+                "AttributeBindingCaption": "該元素包含預先設定的資料顯示邏輯。如果您需要實作其他邏輯，請移除該元素值。",
+                "TitleLabel": "文字",
+                "TypeLabel": "風格",
+                "TextAlignLabel": "對齊",
+                "ThicknessLabel": "格式",
+                "FontSizeLabel": "尺寸，像素",
+                "FontColorLabel": "文字顏色",
+                "BackgroundColorLabel": "背景顏色",
+                "AlignLeftCaption": "剩餘",
+                "AlignCenterCaption": "中心",
+                "AlignRightCaption": "正確",
+                "AlignJustifyCaption": "證明",
+                "TypeH1Caption": "H1",
+                "TypeH2Caption": "H2",
+                "TypeH3Caption": "H3",
+                "TypeH4Caption": "H4",
+                "TypeH5Caption": "H5",
+                "TypeBody1Caption": "正文",
+                "TypeCaptionCaption": "標題",
+                "TypeBlankslateCaption": "空白",
+                "ThicknessLightCaption": "燈光",
+                "ThicknessNormalCaption": "普通的",
+                "ThicknessSemiboldCaption": "半粗體",
+                "ThicknessBoldCaption": "粗體",
+                "ThicknessDefaultCaption": "預設",
+                "TypeLarge1Caption": "大型 1",
+                "TypeLarge2Caption": "大型 2",
+                "TypeLarge3Caption": "大型 3",
+                "TypeLarge4Caption": "大型 4",
+                "TypeHeadline1Caption": "標題 1",
+                "TypeHeadline1SmallCaption": "標題 1 小",
+                "TypeHeadline2Caption": "標題 2",
+                "TypeHeadline3Caption": "標題 3",
+                "TypeHeadline4Caption": "標題 4",
+                "TypeBodyLargeCaption": "大身體",
+                "TypeBodyCaption": "主體",
+                "TypeCaptionLargeCaption": "大字標題",
+                "TypePlaceholderLargeCaption": "大提示文字",
+                "TypePlaceholderCaption": "提示文字",
+                "TypeButtonCaption": "按鈕",
+                "TypeButtonSmallCaption": "小鈕扣",
+                "ClearAttributeBinding": "清晰的數值",
+                "HeadingLevelCaption": "標題層級",
+                "HeadingLevelInfo": "標題級別有助於更好地組織頁面上的內容並改善其可達性"
+            },
+            "TimerPropertiesPage": {
+                "PageCaption": "計時器設定",
+                "TimerType": "模式",
+                "TargetDateTimeColumn": "目標日期/時間列",
+                "StartDateTimeColumn": "開始日期時間列",
+                "FromDateTimerType": "計時器",
+                "CountdownToSpecificDateTimerType": "特定日期倒數",
+                "ShowNegativeCountDownValue": "顯示負倒數值",
+                "TextColorForNegativeValues": "負值的文字顏色",
+                "TextForPositiveValues": "正值的文字",
+                "TextForNegativeValues": "負值的文字",
+                "ValueTextTooltip": "請使用 [#timer#] 巨集和文字字串來建立詳細的計時器標籤。例如，正值 - [#timer#] 距離完成任務的時間；負值 - [#timer#] 逾期。"
+            },
+            "LocalTimePropertiesPage": {
+                "PageCaption": "本地時間設定",
+                "TimeZoneColumn": "時區欄"
+            },
+            "BaseCustomPropertiesPanel": {
+                "PageCaption": "自訂元素設定",
+                "GeneralCaption": "一般的",
+                "Description": "您可以在頁面原始碼中設定此元素",
+                "OpenSourceCodeButtonCaption": "開放原始碼"
+            },
+            "DataGridPropertiesPage": {
+                "PageCaption": "清單設定",
+                "GeneralCaption": "一般的",
+                "DataSourceCaption": "物件",
+                "ChangeFilters": "更換過濾器",
+                "AttributeBindingUsage": "使用的屬性值",
+                "MassActions": "大量行動",
+                "ApplyStaticFilter": "套用靜態過濾器",
+                "SetupStaticFilterAction": "設定篩選器",
+                "EditStaticFilterAction": "編輯篩選",
+                "Appearance": {
+                    "AppearanceGroup": "外觀",
+                    "Editable": "線上編輯",
+                    "ItemsCreation": "內嵌新增記錄",
+                    "FloatingEditPanel": "浮動編輯面板",
+                    "FloatingEditPanelHint": "允許使用者使用浮動編輯面板來儲存或取消可編輯清單中的變更。清除時，使用者仍可使用「儲存」和「取消」頁面按鈕來達到此目的。",
+                    "RowsNumeration": "行數",
+                    "RowsMultiSelection": "多重選擇",
+                    "RowsLimit": "Limit number of rows",
+                    "RowsLimitPlaceholder": "Enter maximum number of rows",
+                    "RowsLimitTooltip": "設置要顯示在列表中的最大記錄數。這在您想要顯示特定數量的項目時非常有用 - 例如，「前 5 位客戶」。</br>當設置了限制時，「全選」選項將不可用。",
+                    "Header": "List header",
+                    "ColumnsSorting": "分類",
+                    "ColumnsResizing": "Resizable columns",
+                    "ColumnsDragAndDrop": "Draggable columns"
+                },
+                "RowsNumeration": "行數",
+                "StyleLabel": "風格",
+                "Styles": {
+                    "PlainWhite": "純白色",
+                    "Glassmorphism": "玻璃效果"
+                }
+            },
+            "TabItemPropertiesPage": {
+                "GeneralGroup": "一般的",
+                "CaptionLabel": "標題",
+                "AppearanceGroup": "外觀",
+                "IconPosition": {
+                    "LeftIcon": "圖示左側",
+                    "OnlyIcon": "僅圖示",
+                    "OnlyText": "僅文字"
+                },
+                "PaddingGroup": "間距",
+                "Padding": {
+                    "Top": "回頂端",
+                    "Bottom": "底部",
+                    "Left": "剩餘",
+                    "Right": "對"
+                }
+            },
+            "ActionDashboardPropertiesPage": {
+                "PageCaption": "動作儀表板設定",
+                "GeneralCaption": "一般的",
+                "DataSource": "資料來源",
+                "GoToCasesButtonCaption": "設定個案",
+                "EmptyDataSourceHint": "資料來源未加入頁面。請新增現有資料來源以設定元件",
+                "ChannelsCaption": "通路",
+                "CallAction": "通話",
+                "EmailAction": "電子郵件",
+                "FeedAction": "傳送訊息",
+                "ActivityAction": "任務",
+                "CasesDisabledTitle": "無法為資料來源設定個案"
+            },
+            "DefaultAttributeValues": {
+                "AddAttribute": "新增欄位"
+            },
+            "ApprovalPropertiesPage": {
+                "HeaderLabel": "核准設定",
+                "GeneralGroup": "一般的",
+                "SchemaNameLabel": "要核准哪些記錄？",
+                "AppearanceGroup": "外觀",
+                "HiddenWhenNoData": "無資料時隱藏"
+            },
+            "ApprovalListPropertiesPage": {
+                "HeaderLabel": "核准清單設定",
+                "GeneralGroup": "一般的",
+                "SchemaNameLabel": "物件"
+            },
+            "MenuItemPropertiesPanel": {
+                "GeneralGroup": "一般的",
+                "CaptionLabel": "標題",
+                "ActionLabel": "動作",
+                "AppearanceGroup": "外觀"
+            },
+            "GalleryPropertiesPanel": {
+                "PageCaption": "圖庫設定",
+                "GeneralCaption": "一般的",
+                "AdditionalCaption": "額外的",
+                "DataSourceCaption": "物件",
+                "CaptionColumnField": "標題",
+                "DescriptionColumnField": "描述",
+                "ImageColumnField": "圖像",
+                "SelectableConfigField": "可選擇",
+                "AppearanceGroup": "外觀",
+                "MultiselectConfigField": "多重選擇",
+                "UseSpecificPageField": "按一下標題開啟特定頁面",
+                "SpecificPageLookupField": "要開啟哪個頁面？",
+                "DefaultSizeFieldLabel": "圖庫項目尺寸",
+                "Sizes": {
+                    "Small": "小型",
+                    "Medium": "中等的",
+                    "Large": "大的",
+                    "ExtraLarge": "特大號"
+                },
+                "MassActions": "大量行動"
+            },
+            "ImportDataRequestPropertiesPanel": {
+                "EntitySchemaSelectCaption": "匯入哪些資料"
+            },
+            "ExportDataGridToExcelRequestPropertiesPanel": {
+                "ViewSelectCaption": "要匯出哪些資料？"
+            },
+            "UploadFileRequestPropertiesPanel": {
+                "ViewSelectCaption": "將檔案上傳到哪裡？",
+                "AllowedExtensions": "允許上傳哪些檔案副檔名？",
+                "AllowedExtensionsEmptyMessage": "如果未設定，則允許使用「檔案副檔名允許清單」系統設定中的所有檔案類型",
+                "MaxSize": "允許的最大檔案大小（MB）是多少？",
+                "MaxSizeEmptyMessage": "如果未設定，則採用「附件最大尺寸」系統設定的預設值",
+                "FileTypesPlaceholder": "例如，.pdf、.png",
+                "MaxSizePlaceholder": "預設為 {0} MB",
+                "UploadFileSourceCaption": "Upload a file from source",
+                "Camera": "Camera",
+                "Gallery": "畫廊",
+                "Files": "檔案"
+            },
+            "SearchFilterPropertiesPanel": {
+                "PageCaption": "搜尋設定",
+                "GeneralCaption": "一般的",
+                "ChooseTargetsCaption": "選擇要篩選的元件",
+                "ChooseTargetsTooltip": "選擇要執行搜尋的清單。下拉式功能表會顯示目前頁面上存在且已指定物件的清單。",
+                "Placeholder": "提示文字",
+                "DirectConnection": "搜尋元件允許僅以文字、數字和查詢列進行搜尋，並與列表物件直接連線。",
+                "AppearanceGroup": "外觀",
+                "IconOnlyCaption": "僅圖示"
+            },
+            "DataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "一般的",
+                "RequirementType": {
+                    "NoCaption": "不",
+                    "YesCaption": "是的"
+                },
+                "Validators": {
+                    "UniqueName": "名稱「{0}」已存在",
+                    "InvalidCharacter": "無效值。使用符號：a-z、A-Z、0-9。符號：0-9 不能為首",
+                    "InvalidPrefix": "值必須以\"{0}\"前綴開頭"
+                }
+            },
+            "PageParametersDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "一般的",
+                "TitleCaption": "標題",
+                "NameCaption": "程式碼"
+            },
+            "AppearanceSettingsPropertyPanel": {
+                "ButtonSizeFieldLabel": "模態視窗大小"
+            },
+            "ActivityColumnsMapingComponent": {
+                "EmailLinksCaption": "電子郵件連結",
+                "ActivityColumn": "活動欄位",
+                "PageColumn": "資料屬性",
+                "EmailLinksBlankSlate": "電子郵件將僅連結至 PDS。請使用「加號」按鈕設定與其他實體的連結。"
+            },
+            "DeleteRecordsRequestPropertiesPanel": {
+                "SelectDataToDelete": "要刪除哪些資料？"
+            },
+            "SelectLookupPageRequestPropertiesPanel": {
+                "ViewSelectCaption": "選擇哪些資料？",
+                "InfoMessage": "選取的記錄會在自訂程式碼中處理。"
+            },
+            "SetRecordRightsRequestPropertiesPanel": {
+                "OpenInModalWindowCaption": "在模式視窗中開啟"
+            },
+            "TagSelectPropertiesPanelComponent": {
+                "PageCaption": "標籤設定",
+                "GeneralCaption": "一般的",
+                "AppearanceCaption": "外觀",
+                "CaptionLabel": "標題",
+                "CaptionPlaceholder": "標籤",
+                "RecordLabel": "記錄至標籤項目",
+                "TagInRecordSourceSchemaName": "標籤儲存位置",
+                "LabelPosition": "標題位置",
+                "LabelPositionVariants": {
+                    "Auto": "自動",
+                    "Left": "剩餘",
+                    "Above": "以上",
+                    "Hidden": "隱藏"
+                }
+            },
+            "EntityStagePropertiesPanel": {
+                "HeaderLabel": "進度列",
+                "GeneralGroup": "一般的",
+                "SchemaNameLabel": "資料來源",
+                "CasesCaption": "設定個案",
+                "EmptyDataSourceHint": "資料來源未加入頁面。請新增現有資料來源以設定元件",
+                "SaveOnChange": "舞台變更時儲存記錄",
+                "AskUserToChangeSchema": "顯示案件更新的小吃店通知",
+                "SaveEntityConfirmationDialog": {
+                    "Save": "Save entity",
+                    "Message": "{0} entity was modified, and saving the entity is required to continue."
+                }
+            },
+            "EntityHierarchyFilterPropertiesPanel": {
+                "HeaderLabel": "實體層級過濾器",
+                "GeneralCaption": "一般的",
+                "SchemaNameCaption": "選取物件建立層級結構",
+                "HierarchySetup": "層級設定",
+                "SchemaNameSelectTooltip": "選擇要建立階層結構的物件。所有系統物件都會顯示在下拉式功能表中。設定階層結構後，將其指定為預先設定的篩選器，以連結至 List 元件。",
+                "ApplyStaticFilter": "套用靜態過濾器",
+                "EditStaticFilterAction": "編輯篩選",
+                "FiltersDialogCaption": "手動定義過濾器",
+                "SetupStaticFilterAction": "設定篩選器"
+            },
+            "EntityHierarchySetupContainerPropertiesPanel": {
+                "AddNewItem": "新增層級欄",
+                "ContextMenu": {
+                    "AddToSubmenu": "新增子層級",
+                    "Edit": "編輯",
+                    "Delete": "刪除"
+                }
+            },
+            "AddCommunicationOptionsRequestPropertiesPanel": {
+                "ViewSelectCaption": "在哪裡新增通訊選項？"
+            },
+            "AllowedResultsPropertiesPage": {
+                "PageCaption": "允許的結果"
+            },
+            "SchemaOutletPropertiesPage": {
+                "PageCaption": "模式容器設定"
+            },
+            "BaseTagsInRecordsRequestPropertiesPanel": {
+                "TagInRecordSourceSchemaName": "標籤儲存位置"
+            },
+            "AddTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToAddTagsCaption": "哪些資料要加入標籤？"
+            },
+            "RemoveTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToRemoveTagsCaption": "哪些資料要移除標籤？"
+            },
+            "AddRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToAddInStaticFoldersCaption": "要在靜態資料夾中加入哪些記錄？"
+            },
+            "RemoveRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToRemoveInStaticFoldersCaption": "要從靜態資料夾中移除哪些記錄？"
+            },
+            "PlaybookPropertiesPage": {
+                "PageCaption": "技術手冊設定",
+                "GeneralGroup": {
+                    "Caption": "一般的",
+                    "EmptyDataSourceHint": "資料來源未加入頁面。請新增現有資料來源以設定元件",
+                    "Tooltip": "該元件會顯示提示和說明，讓使用者可針對特定動態個案階段，從知識庫存取資訊。您可以在 Playbooks 區段設定相關文章。讀取更多",
+                    "AcademyLink": "<a href=\"https://academy.creatio.com/docs/8.x/\" target=\"_blank\">學院</a>。",
+                    "OpenPlaybookButton": "開放式技術手冊"
+                },
+                "SelectDataSource": "資料來源"
+            },
+            "CopilotActionRequestPropertiesPanelComponent": {
+                "PromptLabel": "Creatio.ai 提示",
+                "PromptTooltip": "輸入按鈕時將會執行的 Creatio.ai 提示。回應將在 Creatio.ai 側邊欄中傳送。"
+            },
+            "LookupAttributePropertiesPanel": {
+                "RefSchemaNoDisplayValueValidationMessage": "沒有顯示值的物件無法用作查詢。請在設定中設定物件的顯示值。"
+            },
+            "SaveRecordRequestPropertiesPanel": {
+                "PreventCardCloseInNewRecord": "建立記錄後留在頁面上",
+                "ReloadSavedRecord": "Reload saved record",
+                "ReloadSavedRecordHint": "After saving, reloads the record from the server so any server-side changes (e.g., legacy autonumbering) appear instantly. Not needed for the new Autonumber field."
+            },
+            "ActionNotificationPropertiesPanel": {
+                "MessageText": "留言內容",
+                "ShowSuccessMessage": "完成後顯示成功訊息"
+            },
+            "DataGridHierarchicalPropertiesPage": {
+                "PageCaption": "Hierarchical list settings",
+                "ParentColumnLabel": "Parent defining column",
+                "MaxRecordsLabel": "Maximum number of records",
+                "MaxRecordsTooltip": "Specifies the maximum number of records to load into the hierarchical list. If available records exceed this limit, only the specified number of records is loaded. If not specified, the value is taken from the \"Maximum number of records in hierarchical list\" (HierarchicalListMaxRecordsCount code) system setting, or 5,000 records by default when that setting is not configured.",
+                "InfoHint": "This component is designed for small data sets. Limit maximum number of records using the \"Maximum number of records\" field and narrow the data scope using the \"Apply filter by page data\" block."
+            }
+        },
+        "SaveMessage": "所有變更都將被儲存。繼續？",
+        "MainHeader": {
+            "Title": "標題",
+            "CommandLinePlaceholder": "我能為你做什麼？"
+        },
+        "SaveConfirmationDialog": {
+            "Message": "本頁面包含未儲存的變更。如果關閉頁面，這些變更將丟失。儲存變更嗎？",
+            "Save": "儲存",
+            "DoNotSave": "不要儲存",
+            "Cancel": "取消"
+        },
+        "ModelDependencyCycleDetectedError": "偵測到模型 {0} 之間的循環依賴關係",
+        "NotFoundDataSourceObject": {
+            "GroupObjectCaption": "資料來源錯誤",
+            "ErrorMessage": "{1}「資料來源中引用的」{0}'物件已被重新命名或移除。請在繼續使用頁面設計器之前，將物件代碼變更為 '{0}' 或更新頁面源代碼 (元資料)。",
+            "BusinessRulesOpenDialogMessage": "{1}「資料來源中引用的」{0}'物件已被重新命名或移除。請變更物件代碼為 '{0}' 或更新頁面源代碼 (元資料)，以便使用業務規則設計器"
+        },
+        "Commands": {
+            "RemoveDataSourceItem": {
+                "SuccessfullyRemoved": "參數 \"{{parameterCaption}}\" 已被刪除"
+            }
+        },
+        "Components": {
+            "DataSourceAttributeCommonPropertiesComponent": {
+                "TitleCaption": "標題",
+                "NameCaption": "程式碼",
+                "FormatCaption": "格式",
+                "ReferenceSchemaCaption": "查找",
+                "RequiredCaption": "必填",
+                "Validations": {
+                    "RequiredNameMessage": "輸入一個值"
+                }
+            },
+            "CollectionSortingComponent": {
+                "SortAscendingTitle": "升序排序",
+                "SortDescendingTitle": "降冪排序",
+                "SortingColumnLabel": "Sort by column"
+            },
+            "StaticFilterSelectComponent": {
+                "ApplyStaticFilter": "套用靜態過濾器",
+                "EditStaticFilterAction": "編輯篩選",
+                "FiltersDialogCaption": "手動定義過濾器",
+                "SetupStaticFilterAction": "設定篩選器"
+            }
+        },
+        "UnableCopySchemaError": "無法複製模式。它不是由第三方出版商建立，就是從檔案存檔中安裝。",
+        "Operation": {
+            "Copy": "複製"
+        },
+        "ModelDependencyNotFoundError": "The relation criteria for the {{names}} data source are not set",
+        "ModelDependencyNotFoundErrorMultiple": "The relation criteria for the {{names}} data sources are not set",
+        "MissingDependenciesDialog": {
+            "Title": "Missing dependencies detected",
+            "Intro": "This page includes elements from packages that are not listed as dependencies of the current package.",
+            "Reason": "Such configurations are no longer supported to prevent circular dependencies and ensure a maintainable application structure.",
+            "InstructionTemplate": {
+                "Prefix": "Please",
+                "ActionLink": "add dependencies",
+                "PackageContext": "in the '{{ missedPackageName }}' package",
+                "Suffix": "to the following packages before editing this page"
+            }
+        },
+        "MissingDependenciesNotification": {
+            "Description": "Cannot save the page. Please add the required dependencies before making further changes to page.",
+            "Action": {
+                "Caption": "檢視詳細資訊"
+            }
+        },
+        "SaveOutdatedConfirmation": {
+            "Header": "Newer version available",
+            "Message": "{0} saved changes to this page {1} ago. Saving now will replace their version with yours.",
+            "CancelButton": "取消",
+            "SaveButton": "儲存"
+        },
+        "SaveOverwriteConfirmation": {
+            "Header": "Replace a newer version?",
+            "Message": "You're about to replace {0}'s recent changes with your version.",
+            "CancelButton": "取消",
+            "ConfirmButton": "Overwrite anyway"
+        }
+    },
+    "ApplicationManagement": {
+        "CreateApplicationComponent": {
+            "WaitTitle": "為應用程式新增預設內容",
+            "WaitTitleGenAI": "產生您的應用程式"
+        },
+        "ApplicationInfoDialogComponent": {
+            "HeaderCaption": "新應用",
+            "HeaderEditCaption": "編輯應用程式",
+            "InputNameCaption": "應用名稱",
+            "ApplicationCodeCaption": "應用程式碼",
+            "InputDescriptionCaption": "Describe what it’s for (optional)",
+            "InputDescriptionPlaceholder": "寫幾句關於您的申請",
+            "CancelButtonCaption": "取消",
+            "CreateButtonCaption": "創造",
+            "SaveButtonCaption": "儲存",
+            "HeaderCarouselCaption": "選擇圖示和顏色",
+            "DisclaimerCaption": "點選「使用 AI 生成」按鈕，即表示您同意您的請求將由 OpenAI 模型處理。檢視條款與政策 <a class=\"document-link\" href=\"https://openai.com/policies\" target=\"_blank\">here</a>.Creatio 以代理人的身份行事，對於 OpenAI 所產生的任何結果概不負責。",
+            "HeaderViewCaption": "應用資訊",
+            "InputAIDescriptionCaption": "Describe what it’s for",
+            "InputAIDescriptionPlaceholder": "寫幾句關於您的申請，我們就會自動建立。",
+            "CloseButtonCaption": "關閉",
+            "GenerateWithAIButtonCaption": "使用 AI 生成",
+            "UseExistingObjectTooltip": "選擇將區段連結至現有物件，而不是建立新物件",
+            "AdvancedModeButtonCaption": "進階參數",
+            "NamePlaceholder": "為您的申請命名",
+            "CodePlaceholder": "建立唯一的應用程式 ID",
+            "CodeTooltip": "當應用程式安裝到另一個環境時，應用程式代碼會被用作唯一的識別碼。此外，該代碼可用於在模板中有方案的情況下產生部分元素代碼。",
+            "VersionInputCaption": "版本",
+            "VersionInputPlaceholder": "0.0.0",
+            "AppStartPageCaption": "應用程式預設頁面",
+            "AppStartPageTooltip": "按一下「執行應用程式」按鈕開啟的應用程式頁面。這可以是應用程式的首頁或部分清單頁面。",
+            "AppStartPageAutoItem": "自動",
+            "CreateMobilePagesTooltip": "Clear this option to create a web-only app"
+        },
+        "ApplicationValidatorService": {
+            "InvalidCharactersForName": "名稱中只允許使用「- _」字元",
+            "InvalidCharactersForCode": "代碼中只允許使用拉丁字母和數字，且符號 0-9 不能作為第一個字符",
+            "ApplicationNameAlreadyExists": "名稱為 \"{0}\" 的應用程式已經存在",
+            "ApplicationCodeAlreadyExists": "此應用程式碼或套件名稱已被使用",
+            "InvalidApplicationCodePrefix": "代碼必須以\"{0}\"前綴開頭",
+            "FirstSymbolIsNotLetterAndNotDigit": "名稱必須以字母或數位開頭",
+            "EntityNameAlreadyExists": "具有此代碼的物件已經存在",
+            "InvalidVersion": "以 X.Y 或 X.Y.Z 格式輸入版本號碼。例如，1.0、1.2、1.0.0、1.2.0 等。",
+            "InvalidRequiredPlatformVersion": "Enter a valid Creatio version in the X.Y.Z format or version range X.Y.Z - X.Y.Z. For example, 8.3.0 or 8.3.0 - 8.4.3.",
+            "InvalidRequiredPlatformVersionRange": "The maximum version must be greater than the minimum version.",
+            "InvalidAppDependencyVersion": "Please use one of the following formats:\n- Minimal required version: X.Y or X.Y.Z\n- Version range: X.Y - X.Y or X.Y.Z - X.Y.Z",
+            "InvalidAppDependencyVersionRange": "The maximum version must be greater than the minimum version."
+        },
+        "ApplicationManagementDialogComponent": {
+            "DialogHeaderCaption": "應用程式屬性",
+            "PropertiesTabCaption": "一般的",
+            "DependenciesTabCaption": "依賴",
+            "Properties": {
+                "IconCaption": "圖示",
+                "ColorCaption": "顏色",
+                "InputNameCaption": "應用名稱",
+                "NamePlaceholder": "為您的申請命名",
+                "DefaultAppPageCaption": "預設應用程式頁面",
+                "AppStartPageTooltip": "按一下「執行應用程式」按鈕開啟的應用程式頁面。這可以是應用程式的首頁或部分清單頁面。",
+                "ApplicationCodeCaption": "應用程式碼",
+                "Developer": "開發商",
+                "InputDescriptionCaption": "Describe what it’s for (optional)",
+                "InputDescriptionPlaceholder": "寫幾句關於您的申請",
+                "CreatedOn": "建立於",
+                "LastUpdate": "最後更新",
+                "Created": "創建"
+            },
+            "Dependencies": {
+                "AddDependencyCaption": "增加依賴性",
+                "ApplicationNameCaption": "名稱",
+                "DeleteCaption": "刪除",
+                "RequiredPlatformVersionCaption": "所需的 Creatio 版本",
+                "RequiredPlatformVersionTooltip": "If you specify only one required version, the application can be installed on that version and later versions of Creatio. You can also specify a compatible version range using a hyphen, for example: \"8.3.0 - 8.4.3\".",
+                "RequiredPlatformVersionSubCaption": "Minimum required Creatio version or compatible version range for the \"{0}\" application. The current Creatio version is {1}.",
+                "RequiredDependenciesCaption": "Required dependencies",
+                "RequiredDependenciesSubCaption": "Configure dependencies to extend the application using elements from other applications or packages. The application cannot be installed in environments where required dependencies are missing, their versions are lower than the minimum required, or do not fall within the supported version range. The \"{0}\" application depends on the following applications or packages:",
+                "AddCaption": "新增",
+                "TypeCaption": "類型",
+                "DeveloperCaption": "開發人員",
+                "VersionCaption": "Required version",
+                "ApplicationVersionTooltip": "If you specify a single version, the application \"{0}\" can be installed only if the environment has the dependent application installed with that version or a newer one.\nYou can also specify a version range using a hyphen, for example: 1.0 - 2.0 or 1.0.0 - 2.0.0.",
+                "PackageVersionTooltip": "Version can be specified only for dependencies with type \"Application\""
+            },
+            "CancelButtonCaption": "取消",
+            "SaveButtonCaption": "儲存",
+            "CloseButtonCaption": "關閉",
+            "DependenciesValidationError": "儲存應用程式相依性時發生錯誤",
+            "VersionTabCaption": "版本",
+            "Version": {
+                "VersionInputCaption": "Application Version",
+                "VersionInputPlaceholder": "0.0.0",
+                "VersionInputTooltip": "A version number follows the format <b>Major.Minor.Patch</b>, where each component has the following meaning:<ul><li><b>Major</b> – breaking changes</li><li><b>Minor</b> – new features that are backward compatible</li><li><b>Patch</b> – backward-compatible bug fixes only</li></ul>For example: 2.1.4. <a href='https://academy.creatio.com/documents?id=2584' target='_blank' rel='noopener noreferrer'>Learn more in the Academy</a>.",
+                "VersionInputHint1": "We recommend releasing any changes to the application using a new version number. Based on your current version {0}, consider using one of the following versioning options, depending on the significance of the changes: ",
+                "VersionInputHint2": " or ",
+                "VersionInputHint3": ", depending on the significance of the changes.",
+                "VersionMajorPart": "Major {0}",
+                "VersionMinorPart": "Minor {0}",
+                "VersionPatchPart": "Patch {0}"
+            }
+        }
+    },
+    "Validators": {
+        "Autocomplete": {
+            "Message": "請從清單中選擇值"
+        },
+        "ColorPicker": {
+            "Message": "動作錯誤。選擇了無效的 HEX 格式"
+        },
+        "Required": {
+            "Message": "輸入一個值"
+        },
+        "MaxLength": {
+            "Message": "超出最大文字長度 ({{actualLength}}/{{maxLength}})"
+        },
+        "MinLength": {
+            "Message": "未達到最小文字長度 ({{actualLength}}/{{minLength}})"
+        },
+        "Min": {
+            "Message": "最小數字值為 {{min}}"
+        },
+        "Max": {
+            "Message": "最大數字值為 {{max}}"
+        },
+        "GridColumnsCount": {
+            "Message": "包含元素的欄不能刪除。若要減少欄數，請刪除元素或將它們移至其他欄。"
+        },
+        "Email": {
+            "Message": "電子郵件格式無效"
+        },
+        "Link": {
+            "Message": "無效的 URL 格式"
+        }
+    },
+    "UserProfile": {
+        "Profile": "使用者檔案",
+        "Photo": "照片",
+        "FirstLastName": "姓名",
+        "Organization": "組織",
+        "Language": "語言",
+        "TimeZone": "時區",
+        "DateTimeFormat": "日期和時間格式",
+        "Role": "角色",
+        "Active": "積極的",
+        "Status": "狀態",
+        "Invited": "受邀",
+        "Email": "電子郵件",
+        "ChangeEmail": "變更電子郵件",
+        "ChangeEmailButton": "變更與登出",
+        "EmailChanged": "您的電子郵件已成功變更",
+        "ResendConfirmEmailSuccess": "已發送確認電子郵件",
+        "ResendConfirmEmailError": "未發送確認電子郵件",
+        "NotConfirmedEmail": "請檢查您的電子郵件以確認註冊",
+        "Password": "密碼",
+        "ChangePassword": "更改密碼",
+        "ChangePasswordError": "變更密碼時發生錯誤",
+        "ResetPasswordValidationError": "沒有使用者使用此電子郵件",
+        "ConnectedAccounts": "連線帳戶",
+        "DisconnectAccountError": "無法中斷選取的帳戶",
+        "DeleteProfile": "刪除個人資料",
+        "ChangesSaved": "變更已儲存",
+        "SavingError": "儲存資料時發生錯誤",
+        "ApplyChanges": "儲存",
+        "ReloginError": "變更未套用。請重新登入以套用變更",
+        "NewEmail": "新電子郵件",
+        "CurrentPassword": "目前密碼",
+        "WrongPassword": "密碼錯誤",
+        "ExistsEmailError": "此電子郵件已被使用",
+        "ChangeEmailError": "內部錯誤。電子郵件未變更。稍後再試",
+        "EmailNotConfirmed": "電子郵件未確認",
+        "ResendConfirm": "重新傳送確認",
+        "ConnectedAccountsSectionCaption": "連接的第三方帳戶",
+        "Back": "返回",
+        "Logins": {
+            "AddNewLogin": "添加",
+            "DisconnectAccount": "斷開",
+            "LoginAlreadyAssociated": "帳號連接到其他使用者",
+            "DefaultConnectionErrorMessage": "無法連接社交網路"
+        },
+        "FirstName": "名",
+        "LastName": "姓",
+        "OrganizationWebsite": "網站",
+        "PasswordResetIsNotAllowed": "Password reset for this account was requested lately. Please wait few minutes to try again."
+    },
+    "OrganizationUserSection": {
+        "GridColumns": {
+            "id": "同上",
+            "fullName": "名和姓",
+            "email": "電子郵件",
+            "status": "狀態",
+            "role": "角色",
+            "lastActivity": "最後一次活動"
+        },
+        "GridActions": {
+            "Activate": "啟用設定",
+            "Deactivate": "停用",
+            "Edit": "編輯",
+            "Resend": "重新傳送邀請函",
+            "Cancel": "取消邀請"
+        },
+        "UserStatus": {
+            "Active": "積極的",
+            "Inactive": "不活躍",
+            "Invited": "發送邀請函"
+        },
+        "AddUser": "+ 新增用戶",
+        "ChangeStatusMessage": {
+            "activate": "使用者已啟用",
+            "deactivate": "使用者已停用"
+        },
+        "InvitationSent": "發送邀請函",
+        "InviteUsersPage": {
+            "NewUser": "新使用者",
+            "Back": "返回",
+            "Role": "角色",
+            "Email": "商業電子郵件",
+            "Collaborators": "受邀使用者",
+            "SendInvite": "邀請",
+            "InviteSuccess": "發送邀請函",
+            "EmailExists": "使用者 {0} 已受邀參加組織",
+            "GoToProfile": "前往個人資料"
+        }
+    },
+    "UserProfileActionComponent": {
+        "YourProfileActionCaption": "您的個人資料",
+        "LogoutActionCaption": "登出"
+    },
+    "EnvironmentManagement": {
+        "WaitTrialPage": {
+            "DemoDataToggleCaption": "在系統中填入示範資料",
+            "Description": "此帳號將用於登入",
+            "Continue": "繼續",
+            "ConfirmRegistration": {
+                "RegistrationSuccessful": "您註冊成功！",
+                "CreateFirstApp": "您想馬上建立您的第一個應用程式嗎？",
+                "GuideMeButtonCaption": "是，建立新應用程式",
+                "ManageButtonCaption": "不，我晚點再做"
+            },
+            "WaitPage": {
+                "StudioEnterpriseMessage": "You’ll be able to create<br />your <strong>first app</strong> in a few moments!",
+                "CRMMessage": "You’ll be able to try full-fledged <strong>marketing, sales, and service</strong> products integrated into one no-code platform in a few moments!",
+                "CreatioIsHotMessage": "Creatio<br />炙手可熱！",
+                "TrialTimeoutMessage": "我們正在努力！但由於需求量大，<br />您的試用版可能會延遲送達。",
+                "SendTrialEmail": "我們感謝您的時間，並會在試用準備就緒時發送電子郵件<br />。",
+                "GoToApplications": "前往應用程式集線器"
+            }
+        }
+    },
+    "SsoSettings": {
+        "Validators": {
+            "AdfsTenant": {
+                "Message": "值不應為空或以 http:// 或 https:// 開始"
+            },
+            "StringUrl": {
+                "Message": "值應該是有效的 URL"
+            },
+            "IsJsonValidator": {
+                "Message": "值應該是有效的 JSON"
+            }
+        },
+        "SsoIdentityProvider": {
+            "DuplicationError": "此提供商已經存在。請檢查輸入的資訊。",
+            "SigningSettingsError": "SAML 簽署設定不正確。請檢查輸入的資訊。"
+        }
+    },
+    "BusinessRuleAction": {
+        "StructureExplorer": {
+            "Title": "選擇元素",
+            "ElementsTab": "{0}元素{1}"
+        }
+    },
+    "FileSizeUnit": {
+        "Byte": "位元組",
+        "Bytes": "位元組",
+        "Kilobyte": "KB",
+        "Megabyte": "MB",
+        "Gigabyte": "GB"
+    },
+    "Approvals": {
+        "ComponentHeaderLabel": "需要批准"
+    },
+    "pageParametersDataSource": "頁面參數",
+    "RelationshipDesignerModal": {
+        "Caption": "{{schemaName}}關係"
+    },
+    "RelationshipDesigner": {
+        "DeleteItemMessage": "您確定要刪除該項目嗎？",
+        "RequiredControlErrorMessage": "請輸入數值"
+    },
+    "RelationshipDiagram": {
+        "NoAccess": "無存取權限更改關係",
+        "Tools": {
+            "FitToView": "適合查看",
+            "ResetView": "重置視圖",
+            "ZoomIn": "放大",
+            "ZoomOut": "縮小",
+            "MiniMapClose": "小地圖關閉",
+            "MiniMapOpen": "小地圖打開"
+        }
+    },
+    "GroupsPropertiesPage": {
+        "Title": "團體",
+        "Search": "搜尋"
+    },
+    "GroupPropertiesDialog": {
+        "Cancel": "取消",
+        "Comment": "評論",
+        "EditGroup": "編輯群組",
+        "Name": "名稱",
+        "NewGroup": "新組",
+        "Save": "儲存"
+    },
+    "EntityInGroupPropertiesDialog": {
+        "AddToGroup": "新增到群組",
+        "Cancel": "取消",
+        "Comment": "評論",
+        "Edit": "編輯",
+        "Group": "團體",
+        "Save": "儲存"
+    },
+    "ConnectionPropertiesPage": {
+        "Comment": "評論",
+        "Relations": "關係",
+        "RelationshipType": "關係類型",
+        "Title": "關係"
+    },
+    "ContainerPropertiesPage": {
+        "Address": "地址",
+        "Email": "電子郵件",
+        "GeneralInformation": "一般資訊",
+        "Groups": "團體",
+        "Phone": "電話",
+        "RelationshipsWith": "相關條文 ({0})",
+        "Type": "類型",
+        "Web": "網站"
+    },
+    "ObjectPermissions": {
+        "Warning": "警告! ",
+        "OperationsPoint": "本節頁面的查詢欄位所使用的物件未設定。根據目前的存取權限，外部使用者無法存取下列物件：",
+        "RecordsPoint": "本節頁面中查詢欄位使用的物件不安全。根據目前的存取權限，任何外部使用者都可以完全存取下列物件的所有記錄：",
+        "SetProperPermissionsBegin": "若要設定適當的存取權限，請在\" \"中開啟這些物件的操作和記錄權限。",
+        "ObjectPermissions": "物件權限",
+        "SetProperPermissionsEnd": "系統設計器的 \" 區段。",
+        "Link": "立即更新物件權限",
+        "End": "注意：您可能需要單獨設定現有記錄的存取權限，以便其他用戶可以使用它們。",
+        "UpdateObjectPermissionsMessage": "目前的權限設定將會修改。這可能會影響所有使用者的系統效能。您希望現在更新物件權限嗎？"
+    },
+    "LocalizableTextInput": {
+        "ButtonTitle": "多語言配置"
+    },
+    "ExpansionButton": {
+        "ExpandTooltip": "展開面板",
+        "CollapseTooltip": "折疊面板"
+    },
+    "MultilanguageEmailTemplates": {
+        "TranslateHeadersTitle": "為多語言模板設定標題",
+        "TranslateDescription": "為您的多語言模板新增特定語言標頭。若要包含更多語言，請更新範本設定.",
+        "AcademyUrl": "https://academy.creatio.com/documents?id=2571"
+    },
+    "isValueMaskedCaption": "Mask displayed value",
+    "maskTypeCaption": "Mask type",
+    "maskOperationCaption": "操作許可",
+    "ValueMaskingSettings": {
+        "HideAllMaskTitle": "Hide All Characters",
+        "ShowOnlyLast4CharsMaskTitle": "Show Only Last 4 Characters",
+        "BankCardMaskTitle": "Bank Card",
+        "SSNMaskTitle": "SSN",
+        "SINMaskTitle": "SIN"
+    },
+    "blockDeletionTooltip": "Prevents deleting the lookup value if it is referenced by records in the current object.",
+    "DeleteRecordsTooltip": "Deletes related records in the current object when the lookup value is deleted.",
+    "selectionWindowTooltip": "Opens a separate selection window to choose a lookup value.",
+    "listTooltip": "Lets users select a lookup value directly from a dropdown list."
+}

@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Utilizați o altă metodă",
+    "TwoFactorSubmitButton": "Verificați",
+    "TwoFactorBackButton": "Înapoi",
+    "SmsProvider": {
+        "SendSms": "Trimite un alt cod",
+        "ResendSms": "Retrimite SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Trimite un alt cod"
+    },
+    "TwoFactor.AdditionalVerification": "Verificare suplimentară",
+    "TwoFactor.CancelButton.Caption": "Anulare",
+    "TwoFactor.SmsProviderNotAvailable": "Introduceți codul de verificare care a fost trimis prin SMS pe numărul dvs. de telefon",
+    "TwoFactor.EnterSmsCode.Caption": "Introduceți codul de verificare care a fost trimis prin SMS pe numărul dvs. de telefon",
+    "TwoFactor.EnterEmailCode.Caption": "Introduceți codul de verificare care a fost trimis la adresa dvs. de email",
+    "TwoFactor.EnterTOTPCode.Caption": "Introduce codul de verificare din aplicația de autentificare",
+    "TwoFactor.VerificationCode.Caption": "Cod de verificare",
+    "TwoFactor.TOTPUnavailable.Caption": "Pentru a folosi metoda aplicației de autentificare, trebuie mai întâi să o configurati. Puteți face acest lucru pe pagina dvs. de profil.",
+    "TwoFactor.UseAnotherMethod.Caption": "Utilizați o altă metodă",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Cod de verificare invalid. Asigurați-vă că ați introdus datele corecte sau contactați administratorul sistemului",
+    "TwoFactor.ValidationCanceled": "Validarea unui al doilea factor a fost anulată",
+    "TwoFactor.EnterRecoveryCode.Caption": "Introduceți codul de recuperare",
+    "TwoFactor.RecoveryCodesNotAvailable": "Pentru a folosi codurile de recuperare, trebuie mai întâi să le configurați. Puteți face acest lucru pe pagina dvs. de profil"
+}

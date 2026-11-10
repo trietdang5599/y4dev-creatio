@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>
+        The clean-up of the browser caching has been launched. The IndexDB and
+        Session storage data will be reset.
+    </title>
+</head>
+<body>
+The clean-up of the browser caching has been launched. The IndexDB and
+Session storage data will be reset.
+<script>
+    (async () => {
+        if (indexedDB && indexedDB.databases) {
+            const dbs = await indexedDB.databases();
+            dbs.forEach((db) => {
+                if (db.name) {
+                    indexedDB.deleteDatabase(db.name);
+                }
+            });
+        } else {
+            console.warn(
+                "indexedDB.databases() is not supported in this browser"
+            );
+        }
+        try {
+            localStorage.clear();
+        } catch (e) {
+            console.warn("Error while clearing localStorage:", e);
+        }
+        try {
+            sessionStorage.clear();
+        } catch (e) {
+            console.warn("Error while clearing sessionStorage:", e);
+        }
+        try {
+            document.cookie.split(";").forEach((cookie) => {
+                const eqPos = cookie.indexOf("=");
+                const name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+                document.cookie =
+                    name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/";
+            });
+        } catch (e) {
+            console.warn("Error while clearing cookies:", e);
+        }
+        document.location.href = "../";
+    })();
+</script>
+</body>
+</html>

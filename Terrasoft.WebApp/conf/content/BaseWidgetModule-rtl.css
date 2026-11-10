@@ -1,0 +1,21 @@
+﻿.default-chart-wrapper .dashboard-loading-mask,
+.dashboard-grid-container .dashboard-loading-mask,
+.indicator-module-wraper .dashboard-loading-mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.default-chart-wrapper .dashboard-loading-mask .animation-spinner,
+.dashboard-grid-container .dashboard-loading-mask .animation-spinner,
+.indicator-module-wraper .dashboard-loading-mask .animation-spinner {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 34px;
+  height: 34px;
+}

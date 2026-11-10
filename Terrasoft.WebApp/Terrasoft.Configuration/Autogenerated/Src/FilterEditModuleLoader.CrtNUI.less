@@ -1,0 +1,66 @@
+﻿.menu {
+	.menu-item[data-tag="delete"],
+	.menu-item[data-tag="edit"],
+	.menu-item[data-tag="copy"],
+	.menu-item[data-tag="open-grid-settings-page"] {
+		display: none;
+	}
+}
+
+.controlsContainerLookupPage {
+    .main-buttons[data-tag="add"] {
+        display: none;
+    }
+}
+
+.firefox-hide-scroll {
+	scrollbar-color: transparent transparent;
+
+	.ts-modalbox {
+		scrollbar-color: lightgray whitesmoke;
+	}
+}
+
+body.modalbox-top-position {
+	background: none;
+	direction: rtl;
+
+	.ts-modalbox {
+		margin-top: 0;
+		max-width: 80% !important;
+		transform: translate(-10.5%);
+	}
+	
+	.ts-modalbox-cover {
+		background: none;
+	}
+
+	&:not(.modalbox-design-rtl) { 
+		.ts-modalbox {
+			direction: ltr;
+		}
+
+		.main-content-wrapper,
+		.menu,
+		.listview-scroll
+		{
+			direction: ltr;
+		}
+	}
+
+	&.modalbox-rtl {
+		direction: ltr;
+
+		.ts-modalbox {
+			direction: rtl;
+			transform: translate(10.5%);
+		}
+
+		.main-content-wrapper,
+		.menu,
+		.listview-scroll
+		{
+			direction: rtl;
+		}
+	}
+}

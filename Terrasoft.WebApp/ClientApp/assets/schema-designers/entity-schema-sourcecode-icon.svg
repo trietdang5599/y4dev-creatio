@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+	<g fill="#8095b3">
+		<path d="M3 1v14h10V5H9V1H3 M2 0h8v4h4v12H2V0Z"/>
+		<path d="m10 0 4 4H10Z"/>
+		<rect x="1" y="6" width="14" height="6" rx="1"/>
+	</g>
+	<text fill="#f2f5ff" font-size="6" font-family="Segoe UI" font-weight="700" letter-spacing=".135em">
+		<tspan x="4" y="11">С#</tspan>
+	</text>
+</svg>

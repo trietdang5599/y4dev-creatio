@@ -1,0 +1,9 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/IntegrationV2/Schemas/ActivityParticipant/ActivityParticipant.cs" Condition="Exists('$(PkgPath)/IntegrationV2/Schemas/ActivityParticipant/ActivityParticipant.cs')" />
+		<Compile Include="$(PkgPath)/IntegrationV2/Schemas/EmailSyncQueue/EmailSyncQueue.cs" Condition="Exists('$(PkgPath)/IntegrationV2/Schemas/EmailSyncQueue/EmailSyncQueue.cs')" />
+		<Compile Include="$(PkgPath)/IntegrationV2/Schemas/MeetingServiceLink/MeetingServiceLink.cs" Condition="Exists('$(PkgPath)/IntegrationV2/Schemas/MeetingServiceLink/MeetingServiceLink.cs')" />
+		<Compile Include="$(PkgPath)/IntegrationV2/Schemas/OAuthApplications/OAuthApplications.cs" Condition="Exists('$(PkgPath)/IntegrationV2/Schemas/OAuthApplications/OAuthApplications.cs')" />
+		<Compile Include="$(PkgPath)/IntegrationV2/Schemas/SocialAccount/SocialAccount.cs" Condition="Exists('$(PkgPath)/IntegrationV2/Schemas/SocialAccount/SocialAccount.cs')" />
+	</ItemGroup>
+</Project>

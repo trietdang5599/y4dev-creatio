@@ -47,6 +47,22 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+
+
+# Creatio local runtime database and database backups
+/Terrasoft.WebApp/conf/runtime-data/db.sqlite
+/db/*.backup
+
+# Environment-specific credentials and local database files
+ConnectionStrings.config
+*.sqlite
+*.backup
+*.bak
+
+# Local source-control metadata and installed service bundle
+.svn/
+/IdentityService.zip
+
 # Build results on 'Bin' directories
 **/[Bb]in/*
 # Uncomment if you have tasks that rely on *.refresh files to move binaries

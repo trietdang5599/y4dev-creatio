@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "別の方法を使用する",
+    "TwoFactorSubmitButton": "確認する",
+    "TwoFactorBackButton": "戻る",
+    "SmsProvider": {
+        "SendSms": "別のコードを送信",
+        "ResendSms": "SMSを再送信する"
+    },
+    "EmailProvider": {
+        "SendEmail": "別のコードを送信"
+    },
+    "TwoFactor.AdditionalVerification": "追加認証",
+    "TwoFactor.CancelButton.Caption": "キャンセル",
+    "TwoFactor.SmsProviderNotAvailable": "SMS経由であなたの電話番号に送信された確認コードを入力してください",
+    "TwoFactor.EnterSmsCode.Caption": "SMS経由であなたの電話番号に送信された確認コードを入力してください",
+    "TwoFactor.EnterEmailCode.Caption": "SMS経由であなたの電話番号に送信された確認コードを入力してください",
+    "TwoFactor.EnterTOTPCode.Caption": "認証アプリから認証コードを入力してください",
+    "TwoFactor.VerificationCode.Caption": "アプリケーションコード",
+    "TwoFactor.TOTPUnavailable.Caption": "認証アプリメソッドを使用するには、まず設定する必要があります。プロファイルページで設定できます。",
+    "TwoFactor.UseAnotherMethod.Caption": "別の方法を使用する",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "無効な認証コードです。正しいデータを入力したことを確認するか、システム管理者に連絡してください",
+    "TwoFactor.ValidationCanceled": "第2要素の検証がキャンセルされました",
+    "TwoFactor.EnterRecoveryCode.Caption": "リカバリーコードを入力してください",
+    "TwoFactor.RecoveryCodesNotAvailable": "リカバリーコードを使用するには、まず設定する必要があります。プロフィールページで設定できます。"
+}

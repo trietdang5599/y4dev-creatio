@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Factory="System.ServiceModel.Activation.WebServiceHostFactory" Service="Terrasoft.WebApp.ServiceModel.TotpResetService" CodeBehind="TotpResetService.svc.cs" %>

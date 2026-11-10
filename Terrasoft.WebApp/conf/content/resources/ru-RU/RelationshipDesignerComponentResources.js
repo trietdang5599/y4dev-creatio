@@ -1,0 +1,45 @@
+﻿define("RelationshipDesignerComponentResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		ConfirmationDialogYes: "\u0414\u0410",
+		ConfirmationDialogNo: "\u041D\u0415\u0422",
+		ConnectionPropertiesPageComment: "\u041A\u043E\u043C\u043C\u0435\u043D\u0442\u0430\u0440\u0438\u0439",
+		ConnectionPropertiesPageRelations: "\u0421\u0432\u044F\u0437\u0438",
+		ConnectionPropertiesPageRelationshipType: "\u0422\u0438\u043F \u0441\u0432\u044F\u0437\u0438",
+		ConnectionPropertiesPageTitle: "\u0421\u0432\u044F\u0437\u044C",
+		ContainerPropertiesPageAddress: "\u0410\u0434\u0440\u0435\u0441",
+		ContainerPropertiesPageEmail: "Email \u0440\u0430\u0441\u0441\u044B\u043B\u043A\u0430",
+		ContainerPropertiesPageGeneralInformation: "\u041E\u0441\u043D\u043E\u0432\u043D\u0430\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F",
+		ContainerPropertiesPageGroups: "\u0413\u0440\u0443\u043F\u043F\u044B",
+		ContainerPropertiesPagePhone: "\u0422\u0435\u043B\u0435\u0444\u043E\u043D",
+		ContainerPropertiesPageRelationshipsWith: "\u0421\u0432\u044F\u0437\u0430\u043D\u043D\u044B\u0435 \u0437\u0430\u043F\u0438\u0441\u0438 ({0})",
+		ContainerPropertiesPageType: "\u0422\u0438\u043F",
+		ContainerPropertiesPageWeb: "\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442",
+		EntityInGroupPropertiesDialogAddToGroup: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0432 \u0433\u0440\u0443\u043F\u043F\u0443",
+		EntityInGroupPropertiesDialogCancel: "\u041E\u0442\u043C\u0435\u043D\u0430",
+		EntityInGroupPropertiesDialogComment: "\u041A\u043E\u043C\u043C\u0435\u043D\u0442\u0430\u0440\u0438\u0439",
+		EntityInGroupPropertiesDialogEdit: "\u0420\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C",
+		EntityInGroupPropertiesDialogGroup: "\u0413\u0440\u0443\u043F\u043F\u0430",
+		EntityInGroupPropertiesDialogSave: "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C",
+		GroupPropertiesDialogCancel: "\u041E\u0442\u043C\u0435\u043D\u0430",
+		GroupPropertiesDialogComment: "\u041A\u043E\u043C\u043C\u0435\u043D\u0442\u0430\u0440\u0438\u0439",
+		GroupPropertiesDialogEditGroup: "\u0420\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0433\u0440\u0443\u043F\u043F\u0443",
+		GroupPropertiesDialogName: "\u0418\u043C\u044F",
+		GroupPropertiesDialogNewGroup: "\u041D\u043E\u0432\u0430\u044F \u0433\u0440\u0443\u043F\u043F\u0430",
+		GroupPropertiesDialogSave: "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C",
+		GroupsPropertiesPageTitle: "\u0413\u0440\u0443\u043F\u043F\u044B",
+		GroupsPropertiesPageSearch: "\u041F\u043E\u0438\u0441\u043A",
+		InfoDialogOk: "\u041E\u041A",
+		RelationshipDesignerDeleteItemMessage: "\u0412\u044B \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E \u0445\u043E\u0442\u0438\u0442\u0435 \u0443\u0434\u0430\u043B\u0438\u0442\u044C \u044D\u043B\u0435\u043C\u0435\u043D\u0442?",
+		RelationshipDesignerRequiredControlErrorMessage: "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435",
+		RelationshipDiagramNoAccess: "\u041D\u0435\u0442 \u043F\u0440\u0430\u0432 \u0434\u043B\u044F \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F",
+		RelationshipDiagramToolsFitToView: "\u041F\u043E \u0440\u0430\u0437\u043C\u0435\u0440\u0443 \u044D\u043A\u0440\u0430\u043D\u0430",
+		RelationshipDiagramToolsResetView: "\u0421\u0431\u0440\u043E\u0441\u0438\u0442\u044C \u0432\u0438\u0434",
+		RelationshipDiagramToolsZoomIn: "\u041F\u0440\u0438\u0431\u043B\u0438\u0437\u0438\u0442\u044C",
+		RelationshipDiagramToolsZoomOut: "\u0423\u0434\u0430\u043B\u0438\u0442\u044C",
+		RelationshipDiagramToolsMiniMapClose: "\u0417\u0430\u043A\u0440\u044B\u0442\u044C \u043C\u0438\u043D\u0438 \u043A\u0430\u0440\u0442\u0443",
+		RelationshipDiagramToolsMiniMapOpen: "\u041E\u0442\u043A\u0440\u044B\u0442\u044C \u043C\u0438\u043D\u0438 \u043A\u0430\u0440\u0442\u0443"
+	};
+	var parametersLocalizableStrings = {};
+	var localizableImages = {};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages, parametersLocalizableStrings: parametersLocalizableStrings};
+});

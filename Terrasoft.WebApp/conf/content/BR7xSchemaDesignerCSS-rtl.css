@@ -1,0 +1,47 @@
+﻿.business-rule-island-container {
+  display: flex;
+}
+.business-rule-island-container .reorderable-container {
+  padding: 0 2px;
+}
+.business-rule-case-add-condition-button-wrapper {
+  padding-top: 10px;
+}
+.t-btn-wrapper .t-btn-marker {
+  display: none;
+}
+.t-btn-wrapper:hover .t-btn-marker {
+  display: block;
+}
+.base-edit {
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.base-edit:not(.base-edit-focus):hover {
+  border-bottom-style: solid;
+}
+.base-edit.base-edit-focus {
+  outline: none;
+  border-color: #fff;
+  border-bottom: 1px solid #00aeef;
+  box-shadow: none;
+}
+.base-edit .base-edit-right-icon {
+  display: none;
+}
+.base-edit:hover .base-edit-right-icon {
+  display: block;
+}
+.business-rule-case-element-tagger .t-btn-wrapper {
+  border-radius: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+}
+.business-rule-case-element-tagger .t-btn-wrapper:hover {
+  background: #e0eafa;
+}
+.business-rule-case-element-tagger .t-btn-wrapper .t-btn-text {
+  color: #0D2E4E;
+  font-family: 'Open Sans', serif;
+}

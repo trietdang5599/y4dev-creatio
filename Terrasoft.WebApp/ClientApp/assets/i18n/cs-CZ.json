@@ -1,0 +1,3740 @@
+{
+    "ConfirmationDialog": {
+        "YES": "ANO",
+        "NO": "NE",
+        "DELETE": "DELETE",
+        "CANCEL": "CANCEL"
+    },
+    "InfoDialog": {
+        "OK": "Převzít"
+    },
+    "AddRecordRightsDialog": {
+        "Add": "Přidat",
+        "Cancel": "Zrušit",
+        "RecordAuthor": "Autor záznamu",
+        "RightsRecipient": "Uživatel nebo role, která získává oprávnění",
+        "Title": "Přidejte oprávnění na základě autora záznamu"
+    },
+    "AdministratedObjectPage": {
+        "AccessPermissions": "OPRÁVNĚNÍ",
+        "InfoBlockText": "Systémové operace \"Přidat jakákoli data\", \"Zobrazit jakákoli data\", \"Upravit jakákoli data\", \"Smazat všechna data\" udělené rolím nebo uživatelům mají vyšší prioritu než oprávnění, která konfigurujete v této sekci.",
+        "InfoBlockTitle": "Poznámka",
+        "InfoBlockLink1": "Jak fungují priority oprávnění",
+        "InfoBlockLink2": "Jak se dědí oprávnění",
+        "InfoBlockLink3": "Jak nastavit oprávnění pro podrobnosti",
+        "InfoBlockLink4": "Jak použít nové nastavení oprávnění k záznamu na všechny existující záznamy",
+        "InfoBlockLink5": "Příklady nastavení přístupových oprávnění",
+        "NameFieldName": "Jméno",
+        "RightsByColumnDetail": "Použít oprávnění sloupců",
+        "RightsByColumnDetailTooltip": "Nastavení oprávnění pro konkrétní sloupce (pole) objektu",
+        "RightsByOperationDetail": "Použít oprávnění k provozu",
+        "RightsByOperationDetailTooltip": "Nastavení oprávnění pro operace vytváření, čtení, úpravy a mazání",
+        "RightsByRecordDetail": "Použijte oprávnění k záznamu",
+        "RightsByRecordDetailTooltip": "Nastavení oprávnění pro čtení, úpravy a mazání konkrétních záznamů",
+        "TitleFieldName": "Nadpis",
+        "TitleFormat": "{0} oprávnění k objektu",
+        "UpdatePermissions": "Aktualizujte oprávnění k záznamu",
+        "OneEmptyRecordDefRightMessageTemplate": "Pravidlo „{0}“ neobsahuje žádná přístupová oprávnění kromě „Nenastaveno“ a žádným způsobem neovlivní skutečné nastavení přístupu. Při použití nových oprávnění Creatio toto pravidlo smaže. Přejete si pokračovat?",
+        "SeveralEmptyRecordDefRightsMessageTemplate": "Pravidla „{0}“ neobsahují žádná přístupová oprávnění kromě „Nenastaveno“ a žádným způsobem neovlivní skutečná nastavení přístupu. Při použití nových oprávnění Creatio tato pravidla smaže. Přejete si pokračovat?",
+        "ProposalActualizationRights": "Nastavení oprávnění k nahrávání byla změněna. Aktuální oprávnění pro existující záznamy {0} musí být aktualizovány. To může ovlivnit výkon systému pro všechny uživatele.\n Chcete nyní aktualizovat oprávnění k nahrávání?",
+        "EntityOperations": "POKROČILÉ OPERACE",
+        "AdditionalOperationPermissions": "Další oprávnění",
+        "Operation": "Úkon",
+        "UserOrRole": "Uživatel nebo role",
+        "UserOrRoleWhoObtainsPermission": "Uživatel nebo role, která získává oprávnění",
+        "InfoBlockEntityOperationsText": "Systémové operace „CanExportGrid“ udělené rolím nebo uživatelům mají vyšší prioritu než oprávnění, která konfigurujete v této části.",
+        "RightsByEntityOperationDetail": "Použijte oprávnění pro operace s entity",
+        "RightsByEntityOperationDetailTitle": "Další oprávnění",
+        "RightsByEntityOperationDetailTooltip": "Nastavení oprávnění pro export dat z aktuálního objektu na základě role nebo uživatele",
+        "InfoAboutOperationPermissionsTitle": "Important",
+        "InfoAboutOperationPermissions": "Operation permissions for the object are deactivated. When this is the case:",
+        "InfoAboutOperationPermissions1": "Company employees have full access to all operations with the object, settings that are displayed in the list below are ignored.",
+        "InfoAboutOperationPermissions2": "External users do not have access to any operations with the object.",
+        "InfoAboutOperationPermissions3": "Technical users have access according to the settings in the list below.",
+        "InfoAboutOperationPermissions4": "Learn more about object permissions settings in the",
+        "InfoAboutOperationPermissionsLinkCaption": "Akademie",
+        "InfoAboutOperationPermissionsAcademyLink": "https://academy.creatio.com/documents?id=250"
+    },
+    "AdministratedObjectSection": {
+        "BusinessLogicPermissions": "Oprávnění k nahrávání povoleno",
+        "Close": "Zavřít",
+        "ColumnPermissions": "Column permissions enabled\nOprávnění sloupců povoleno",
+        "Name": "Jméno",
+        "ObjectPermissions": "Oprávnění operace povolena",
+        "Search": "Vyhledávání",
+        "Title": "Oprávnění k objektu",
+        "TitleColumn": "Nadpis",
+        "UpdatePermissions": "Aktualizujte oprávnění k záznamu"
+    },
+    "BasePageComponent": {
+        "Close": "Zavřít",
+        "Apply": "Aplikovat",
+        "Cancel": "Zrušit",
+        "Save": "Uložit",
+        "Actions": "Akce",
+        "Check": "Ověření",
+        "Publish": "Publikovat",
+        "PublishAndCompile": "Publikovat a kompilovat",
+        "SaveAndPublish": "Save and publish"
+    },
+    "ClearChangeLogSettingsDialog": {
+        "AllObjects": "Všechny objekty",
+        "AllPeriod": "Všechna dostupná data",
+        "Cancel": "Zrušit",
+        "ChooseDate": "Vyberte datum",
+        "ChooseObject": "Vyberte objekt",
+        "Clear": "Vymazat",
+        "ObjectSettingsTitle": "Vymazání data logu pro následující objekty",
+        "OnlySelectedObject": "Specifický objekt",
+        "PeriodSettingsTitle": "Vymazání data logu za následující období",
+        "Title": "Vymazat log změn",
+        "ToDatePeriod": "Pouze data starší než"
+    },
+    "ChangeLogCleanerService": {
+        "SuccessLaunch": "Systém začal vymazávat log změn. Po dokončení procesu se na komunikačním panelu zobrazí oznámení."
+    },
+    "ChangeLogPage": {
+        "Close": "Zavřít",
+        "TitleFormat": "{0} log změn",
+        "ViewLog": "ZOBRAZIT LOG"
+    },
+    "ChangeLogSection": {
+        "Title": "Změnit log",
+        "TitleColumn": "Nadpis",
+        "NameColumn": "Jméno",
+        "LoggingEnabledColumn": "Povolení přihlašování",
+        "ClearChangeLog": "Vymazat log"
+    },
+    "ChangeLogComponent": {
+        "Blankslate": "V logu změn nejsou pro tento objekt žádné záznamy.",
+        "InsertedTooltip": "Záznam přidán",
+        "UpdatedTooltip": "Záznam upraven",
+        "DeletedTooltip": "Záznam smazán",
+        "ShowMore": "Zobrazit více",
+        "ShowLess": "Zobrazit méně",
+        "ChangeType": "Změnit typ",
+        "ChangeTrackedOn": "Změna provedena dne",
+        "ChangeTrackedBy": "Změnu provedl",
+        "ChangeTracked": "Záznam",
+        "ColumnName": "Sloupec",
+        "ColumnOldValue": "Stará hodnota",
+        "ColumnNewValue": "Nová hodnota",
+        "Yes": "Ano",
+        "No": "Ne"
+    },
+    "LicenseManager": {
+        "PackageNameColumn": "Jméno",
+        "TypeColumn": "Typ",
+        "StartDateColumn": "Datum zahájení",
+        "DueDateColumn": "Datum splatnosti",
+        "StatusColumn": "Stav",
+        "CountColumn": "Celkem",
+        "LicenseIsActive": "Aktivní",
+        "LicenseIsNotActive": "Není aktivní",
+        "TypePersonal": "Osobní",
+        "TypeConcurrent": "Souběžný",
+        "TypeServer": "Server"
+    },
+    "LicenseSection": {
+        "Title": "Správce licencí",
+        "BlankslateTitle": "V této sekci zatím nejsou žádné záznamy.",
+        "BlankslateDescription": "Vaše licence se zde zobrazí, jakmile nahrajete licenční soubor.",
+        "ServerLicenseTooltip": "Serverové a souběžné licence jsou distribuovány ze stránky uživatele.",
+        "ConcurrentLicenseTooltip": "Serverové a souběžné licence jsou distribuovány ze stránky uživatele",
+        "UploadButtonCaption": "Nahrát",
+        "UploadLicensesCompleteMessage": "Licence byly úspěšně nahrány",
+        "UploadLicensesErrorMessage": "Nesprávný formát souboru",
+        "RequestLicensesButtonCaption": "Žádost",
+        "DeleteLicensesButtonCaption": "Vymazat",
+        "DeleteLicensesConfirmation": "Licence budou smazány. Chcete pokračovat?",
+        "DeleteLicensesSuccess": "Všechny licence byly úspěšně odstraněny.",
+        "AllTypesCaption": "All licenses",
+        "PersonalTypeCaption": "Osobní",
+        "ServerTypeCaption": "Server",
+        "UploadLicensesCryptographicExceptionMessage": "Invalid file format. If your license was generated for 8.3.0 or earlier Creatio versions, creating a new license request may resolve the issue."
+    },
+    "LicensePage": {
+        "TitleFormat": "Produkt {0}"
+    },
+    "LicenseDetail": {
+        "Title": "Licence"
+    },
+    "LicensedUsersDetail": {
+        "Title": "Licencovaní uživatelé",
+        "UsersDialogCaption": "Uživatelé",
+        "UserNameColumn": "Uživatel",
+        "EmailColumn": "E-mail",
+        "JobTitleColumn": "Název práce",
+        "Delete": "Odvolat",
+        "Blankslate": "Tyto licence zatím nebyly distribuovány žádným uživatelům.",
+        "SourceTitleColumn": "Issue method",
+        "UserLicensesSourceManual": "Manually",
+        "UserLicensesSourceSystem": "Automatically",
+        "UserLicensesSourceRoleBased": "Based on role"
+    },
+    "ObjectRecordRightsActualizationService": {
+        "SuccessLaunch": "Systém začal aktualizovat oprávnění záznamů na základě aktuálního nastavení. Po dokončení procesu se na komunikačním panelu zobrazí oznámení."
+    },
+    "ObjectChangeLogPage": {
+        "TitleFormat": "Log změn pro objekt {0}",
+        "SettingsTabCaption": "Nastavení logu",
+        "ViewChangeLogTabCaption": "Data logu",
+        "EnableObjectTracking": "Povolit přihlašování"
+    },
+    "ObjectTypeFilter": {
+        "AllObjects": "Všechny objekty",
+        "Lookups": "Vyhledávání",
+        "Sections": "Sekce"
+    },
+    "SearchInput": {
+        "Placeholder": "Vyhledávání",
+        "Settings": {
+            "Cancel": "Zrušit",
+            "Apply": "Aplikovat",
+            "SearchColumnTemplate": "Hledat podle sloupce „{0}“",
+            "StartsWith": "Začíná s",
+            "Contains": "Obsahuje",
+            "Equals": "Rovná se"
+        }
+    },
+    "DeleteButtonTableCell": {
+        "Tooltip": "Odstranit"
+    },
+    "RightLevelSelect": {
+        "Granted": "Uděleno",
+        "GrantedDelegate": "Uděleno s právem pověřit",
+        "NotSet": "Není nastaveno"
+    },
+    "RightsByColumnDetail": {
+        "Add": "Přidat",
+        "Blankslate": "Přístup ke všem sloupcům není omezen",
+        "Column": "Sloupec",
+        "ColumnBlankslate": "Přidání rolí nebo uživatelů pro správu jejich přístupu k tomuto sloupci",
+        "DenyReadEdit": "Odmítnutí čtení a úprav",
+        "Drag": "Přetažením změníte prioritu",
+        "PermitRead": "Povolení ke čtení",
+        "PermitReadEdit": "Povolení ke čtení a úpravám",
+        "Priority": "Priorita",
+        "Remove": "Odstranit",
+        "RightLevel": "Úroveň přístupu",
+        "User": "Uživatel nebo role",
+        "ValidationMessage": "Pravidlo pro vybranou roli již existuje. Pro pokračování vyberte jinou roli",
+        "WarningDowngradingRights": "Omezení oprávnění v tomto pravidle mohou přepsat jiná pravidla, která jsou v seznamu níže."
+    },
+    "RightsByRecordDetail": {
+        "Add": "Přidat",
+        "Blankslate": "Pravidla oprávnění založená na autorovi nejsou nastavena",
+        "Delete": "Vymazat",
+        "Edit": "Upravit",
+        "Read": "Přečtěte si",
+        "RecordAuthor": "Autor záznamu",
+        "Remove": "Odstranit",
+        "RightsRecipient": "Uživatel nebo role, která získává oprávnění",
+        "Title": "Udělování oprávnění na základě autora záznamu",
+        "TitleTooltip": "Oprávnění budou udělena na základě autora záznamu, kdykoli bude vytvořen nový záznam.",
+        "ValidationMessage": "Pravidlo pro vybrané role již existuje. Pro pokračování vyberte jiné role",
+        "DoNotApplyForManager": "Do not apply for manager",
+        "DoNotApplyForManagerTooltip": "Do not apply this rule if the author obtained the role only as a manager of that role. If the role is obtained through hierarchy from underlying roles, including manager roles of subordinate groups, the rule should still be applied."
+    },
+    "RightsByOperationsDetail": {
+        "Drag": "Přetažením změníte prioritu",
+        "Priority": "Priorita",
+        "User": "Uživatel nebo role",
+        "Create": "Vytvořit",
+        "Read": "Přečtěte si",
+        "Edit": "Upravit",
+        "Delete": "Vymazat",
+        "Remove": "Odstranit",
+        "Add": "Přidat",
+        "Blankslate": "Přidání uživatelů nebo rolí a udělení přístupu k datům objektů",
+        "ValidationMessage": "Pravidlo pro vybranou roli již existuje. Pro pokračování vyberte jinou roli",
+        "WarningDowngradingRights": "Omezení oprávnění v tomto pravidle mohou přepsat jiná pravidla, která jsou v seznamu níže",
+        "Allowed": "Uděleno",
+        "Denied": "Odmítnuto"
+    },
+    "SelectEntitySchemaColumnDialog": {
+        "Cancel": "Zrušit",
+        "Select": "Vybrat",
+        "SelectFieldPlaceholder": "Vybrat sloupec",
+        "Title": "Vybrat sloupec"
+    },
+    "SelectSysAdminUnitDialog": {
+        "Cancel": "Zrušit",
+        "FunctionalRoles": "Funkční role",
+        "OrganizationalRoles": "Organizační role",
+        "Search": "Vyhledávání",
+        "Select": "Vybrat",
+        "Title": "Výběr uživatele nebo role",
+        "Users": "Uživatelé"
+    },
+    "SysAdminUnitTree": {},
+    "TrackedColumns": {
+        "TitleTooltip": "Nastavte seznam sloupců, jejichž hodnoty budou zaznamenány při změně záznamu",
+        "Title": "Zaznamenané sloupce",
+        "CaptionColumn": "Nadpis",
+        "NameColumn": "Jméno",
+        "Add": "Přidat",
+        "Remove": "Odstranit",
+        "Blankslate": "Zaznamenané sloupce nejsou vybrány"
+    },
+    "BaseSection": {
+        "BlankslateTitleWithFilters": "Neexistují žádné záznamy odpovídající aktuálním kritériím vyhledávání.",
+        "BlankslateDescriptionWithFilters": "Vymažte nebo upravte parametry vyhledávání",
+        "DeleteRecordConfirmation": "Opravdu chcete smazat vybraný záznam?",
+        "AbsentDataErrorMessage": "Záznam byl smazán nebo k němu nemáte přístupová práva"
+    },
+    "BaseTableDetail": {
+        "BlankslateWithFilters": "Neexistují žádné záznamy odpovídající aktuálním kritériím vyhledávání. Vymažte nebo upravte parametry vyhledávání",
+        "Add": "Přidat"
+    },
+    "MultiselectDialog": {
+        "Select": "Vybrat",
+        "Selected": "Vybraný:",
+        "Cancel": "Zrušit",
+        "Blankslate": "Pro tento objekt nejsou žádné záznamy",
+        "BlankslateWithFilters": "Neexistují žádné záznamy odpovídající aktuálním kritériím vyhledávání. Vymažte nebo upravte parametry vyhledávání"
+    },
+    "DateRange": {
+        "To": "na"
+    },
+    "MailServerTableComponent": {
+        "AdditionalSettings": "Další nastavení",
+        "AddMailServer": "Přidat službu",
+        "AllowEmailDownloading": "Přijímání e-mailů",
+        "AllowEmailSending": "Odesílání e-mailů",
+        "Copy": "Kopírovat",
+        "DeleteConfirmation": "Opravdu chcete smazat vybraný záznam?",
+        "Delete": "Vymazat",
+        "Edit": "Upravit",
+        "Empty": "Nejsou k dispozici žádné poštovní služby",
+        "ExchangeMenuItem": "Výměna",
+        "IMAPIncomingSettingsDescription": "Nastavení e-mailové služby pro příjem e-mailů. Zadejte adresu poštovního serveru, port a nastavení zabezpečení.",
+        "IMAPIncomingSettingsHeader": "Server příchozí pošty (IMAP)",
+        "ImapMenuItem": "IMAP/SMTP",
+        "LoginFormat": "Formát přihlášení",
+        "MailServerAddress": "Adresa služby",
+        "MailServer": "Poštovní služba",
+        "MailServerName": "Název služby",
+        "MailServerSettings": "Nastavení služby",
+        "MailServerType": "Typ služby",
+        "MailServiceRemoveToolTip": "Creatio nemůže odstranit poštovní službu, protože v aplikaci existuje několik poštovních schránek této služby.",
+        "None": "Žádné",
+        "Port": "Port",
+        "RequiredMailServiceActions": "Povolení stahování nebo odesílání e-mailů pro nastavení služby",
+        "Section": {
+            "Add": "Přidat",
+            "GoToDiagnostic": "Diagnostic tool"
+        },
+        "Security": "Zabezpečení",
+        "AuthenticationType": "Typ ověření",
+        "ApplicationId": "ID aplikace (klienta)",
+        "ClientSecret": "Tajemství klienta",
+        "Server": "Adresa serveru",
+        "SMTPOutgoingSettingsDescription": "Nastavení e-mailové služby pro odesílání e-mailů. Zadejte adresu poštovního serveru, port a nastavení zabezpečení.",
+        "SMTPOutgoingSettingsHeader": "Server odchozí pošty (SMTP)",
+        "SuccessfulAddOperation": "Úspěšně jste přidali novou e-mailovou službu. Uživatelé nyní mohou přidávat poštovní schránky pomocí této služby.",
+        "SuccessfulEditOperation": "Společnost Creatio úspěšně aktualizovala nastavení poštovní služby",
+        "SuccessfulOperation": "Úspěšná operace",
+        "Type": "Typ",
+        "UseEmailAddressAsLogin": "Použijte e-mailovou adresu",
+        "UseLogin": "Použijte ruční zadávání",
+        "UseUserNameAsLogin": "Použití názvu poštovní schránky",
+        "WarningTitle": "⚠ Varování",
+        "BasicAuthWarningMessage": "Please note, Basic Authentication is outdated and potentially unsafe. It is officially <a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online\" {0}>deprecated by Microsoft</a>. For production usage please consider switching to modern OAuth authentication. Configuration instructions are available in <a href=\"{1}\" {0}>Creatio Academy</a>.",
+        "TenantId": "Tenant ID",
+        "AllowApplicationLevelAccess": "Allow application-level access"
+    },
+    "MailboxSettings": {
+        "AdditionalSettingsTabCaption": "Další nastavení",
+        "MailboxesTabCaption": "E-mailové schránky",
+        "MailServicesTabCaption": "Služby poštovní schránky",
+        "Title": "Nastavení poštovní schránky"
+    },
+    "ValidationErrorDialogComponent": {
+        "Cancel": "Zrušit",
+        "Close": "Zavřít"
+    },
+    "AddEntityOperationGranteeDialog": {
+        "Add": "Přidat",
+        "Cancel": "Zrušit",
+        "Operation": "Úkon",
+        "UserOrRole": "Uživatel nebo role, která získává oprávnění",
+        "Title": "Přidejte oprávnění na základě role nebo uživatele"
+    },
+    "LocalizableStringsDialog": {
+        "Title": "Lokalizovatelné řetězce",
+        "NameTitle": "Kód",
+        "ValueTitle": "Hodnota",
+        "Add": "Přidat",
+        "Cancel": "Zrušit",
+        "Apply": "Aplikovat",
+        "ShowAllLanguages": "Zobrazit všechny jazyky",
+        "HideInactiveLanguages": "Skrýt neaktivní jazyky",
+        "Validations": {
+            "RequiredNameCaption": "Zadejte hodnotu",
+            "PatternNameCaption": "Neplatná hodnota. Použijte symboly: a-z, A-Z, 0-9. Symbol: 0-9 nemůže být na prvním místě",
+            "DuplicateNameCaption": "Lokalizovatelný řetězec se stejným kódem již existuje"
+        },
+        "AcademyUrl": "https://academy.creatio.com/docs/8.x/",
+        "AcademyUrlTitle": "Dozvíte se více."
+    },
+    "OrderDirectionStrict": {
+        "Ascending": "Vzestupně",
+        "Descending": "Sestupně"
+    },
+    "UsedLicensesCounterChart": {
+        "ActiveLicensesTitle": "Aktivní licence",
+        "ConcurrentLicenseTitle": "Souběžné licence",
+        "UsedLicensesCountTitle": "Licencované",
+        "UsedLicensesCountSeparatorLabel": "z",
+        "DistributedLicensesLegend": "Licence přiřazené uživatelům",
+        "AvailableLicensesLegend": "Limit pro souběžné uživatelské relace",
+        "UnlimitedCountLabel": "neomezených uživatelů",
+        "LimitOfLicensesLabel": "Limit licencí"
+    },
+    "LicenseRequestDialog": {
+        "Title": "Identifikace společnosti pro udělování licencí",
+        "LicenseVersionTitle": "Verze licence",
+        "InputFieldDescription": "Vaše jedinečné ID společnosti je uloženo v systémovém nastavení \"Licensing company Id\". Změna Id společnosti v tomto poli automaticky aktualizuje hodnotu systémového nastavení.",
+        "LicenseVersionDescription": "Verze aplikace Creatio, do které plánujete nahrát licence.",
+        "InvalidVersionFormat": "Zadejte verzi ve tvaru tří čísel rozdělených tečkami. Například 7.18.1",
+        "RequestButtonCaption": "Generování souboru žádosti o licenci"
+    },
+    "RightsByEntityOperationsDetail": {
+        "Add": "Přidat",
+        "Title": "Další oprávnění",
+        "Blankslate": "Přidání uživatelů nebo rolí, které jim umožní přístup k dalším operacím.",
+        "Operation": "Úkon",
+        "UserOrRole": "Uživatel nebo role, která získává oprávnění",
+        "ValidationMessage": "Pole nejsou vyplněna"
+    },
+    "SelectEntityOperationDialog": {
+        "Cancel": "Zrušit",
+        "Search": "Vyhledávání",
+        "Operations": "Provoz",
+        "Select": "Vybrat",
+        "Title": "Operace subjektu",
+        "Users": "Uživatelé",
+        "SelectFieldPlaceholder": "Vybrat operaci subjektu"
+    },
+    "LookupDialog": {
+        "TitleTemplate": "Vyberte: {0}",
+        "Selected": "Vybraný:",
+        "SelectButton": "Vybrat",
+        "CancelButton": "Zrušit",
+        "Blankslate": "Pro tento objekt nejsou žádné záznamy",
+        "AllPagesSelectionWarning": "Operace může nějakou dobu trvat. Pokračovat?"
+    },
+    "QuickEntityFilter": {
+        "NonGuidMessage": "Guid by měl obsahovat 32 symbolů se 4 pomlčkami (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx)."
+    },
+    "EntitySchemaDesignerPage": {
+        "NameFieldName": "Jméno",
+        "CaptionFieldName": "Nadpis"
+    },
+    "SqlScriptDesignerPage": {
+        "Name": "Jméno",
+        "Caption": "Nadpis"
+    },
+    "SchemaDataDesignerPage": {
+        "ActualizeData": "Aktualizovat data",
+        "Fields": {
+            "Name": "Jméno",
+            "Object": "Objekt",
+            "InstallType": "Typ instalace",
+            "Package": "Balíček"
+        },
+        "InfoBlockText1": "Typ instalace",
+        "InfoBlockText2": "Typ instalace určuje způsob přidání dat aplikace při instalaci balíčku.",
+        "InfoBlockText3": "• Installation — data is added during the first installation of the package and is updated with the package updates. New records are always added. Existing records are updated only if the “Forced update” checkbox is selected on the “Columns setting” tab. This is the default and most flexible type.",
+        "InfoBlockText4": "• Update existing — deprecated type. We recommend using the Installation type instead because this type has similar behaviour.",
+        "InfoBlockText5": "• Initial package installation — data is added only during the first installation of the package. Data is not updated or added during subsequent package updates.",
+        "ColumnsSettingTabCaption": "Nastavení sloupců",
+        "BoundDataTabCaption": "Vázaná data",
+        "InstallType": {
+            "Install": "Instalace",
+            "FirstInstall": "Initial package installation",
+            "Update": "Aktualizovat stávající",
+            "InstallIfNotExists": "Initial data installation"
+        },
+        "ColumnsDetail": {
+            "Title": "Nastavení sloupců",
+            "Blankslate": "Vyberte objekt a nastavte sloupce.",
+            "ErrorDeletePrimaryColumn": "Odstranění primárního sloupce \"{0}\" je zakázáno",
+            "ColumnsAreNotAvailableInPackageMessage": "Tyto sloupce nejsou v aktuálním balíčku k dispozici a nelze je přidat: {0}",
+            "Columns": {
+                "Caption": "Nadpis",
+                "Name": "Jméno",
+                "ForcedUpdate": "Vynucená aktualizace",
+                "Key": "Klíč"
+            },
+            "Tooltips": {
+                "ForcedUpdate": "The checkbox indicates that the data in this column will update whenever the corresponding package is updated.",
+                "Key": "Zaškrtávací políčko je ve výchozím nastavení nastaveno pro primární sloupec objektu. Pokud databáze používá složené klíče, zaškrtněte toto políčko pro všechny sloupce složeného klíče. Primární sloupec objektu nemůže být sloupcem složeného klíče."
+            }
+        },
+        "BoundDataDetail": {
+            "Title": "Data",
+            "Blankslate": "Výběr záznamů, které chcete svázat",
+            "ActualDataWasLoaded": "Byla načtena aktuální data"
+        },
+        "InfoBlockText6": "• Initial data installation — data binding is installed during the first package installation or subsequent updates only if the same binding does not already exist. Use this type to avoid unintended overwrites."
+    },
+    "WorkspaceExplorer": {
+        "Section": {
+            "ActionButtonCaption": "Akce",
+            "Title": "Konfigurace",
+            "WorkspaceItemMoveService": {
+                "NameColumn": "Jméno",
+                "SelectPackageDialogTitle": "Přesun prvku {0} do balíčku",
+                "MultiselectElementsPackageDialogTitle": "Přesunutí prvku (prvků) {0} do balíčku",
+                "MoveElementsWebServiceSuccessMessage": "Prvky byly úspěšně přesunuty",
+                "NoPackagesMessage": "Nejsou dostupné žádné balíčky",
+                "MoveAllPackageElementsWebServiceSuccessMessage": "Prvky byly úspěšně přesunuty",
+                "MoveAllPackageElementsDialogTitle": "Přesunutí prvků balíčku {0} do balíčku",
+                "SpecifyDependenciesConfirmationDialog": "Balíček {0} neobsahuje závislosti potřebné pro správnou migraci. Chcete chybějící závislosti nainstalovat automaticky?"
+            },
+            "WorkspaceItemMoveValidateDialog": {
+                "ErrorMessageTitle": "Chyba při přesunu prvků",
+                "WithoutValidationConfirmationMessage": "Tato akce naruší integritu konfigurace vzhledem k aktuálním závislostem mezi přenášenými prvky balíčku. Chcete-li integritu obnovit, přesuňte zbývající prvky vyžadované aktuálními závislostmi nebo závislosti upravte.\nUnless you plan on doing any of the above, we do not recommend to proceed.\nProceed with moving the package elements?\n\n",
+                "MoveButtonCaption": "Přesunout prvky"
+            },
+            "PackageStorageValidationMessageDialog": {
+                "Title": "Chyby v konfiguraci",
+                "MessageColumn": "Popis",
+                "ItemNameColumn": "Prvek",
+                "ItemTypeColumn": "Typ",
+                "PackageNameColumn": "Balíček",
+                "ConfirmationTitle": "Chyba při přesunu prvků",
+                "WithoutValidationConfirmationMessage": "Tato akce naruší integritu konfigurace vzhledem k aktuálním závislostem mezi přenášenými prvky balíčku. Chcete-li integritu obnovit, přesuňte zbývající prvky vyžadované aktuálními závislostmi nebo závislosti upravte.\nUnless you plan on doing any of the above, we do not recommend to proceed.\nProceed with moving the package elements?\n\n",
+                "MoveButtonCaption": "Přesunout prvky"
+            },
+            "ValidateWorkspaceDialog": {
+                "ErrorMessageTitle": "Chyby v konfiguraci",
+                "ValidationSuccess": "Konfigurace byla úspěšně ověřena. Nebyly nalezeny žádné chyby"
+            },
+            "Packages": {
+                "InstallPackageDialog": {
+                    "Title": "Instalace balíčku z úložiště",
+                    "InputFieldPackageName": "Balíček",
+                    "InputFieldRepositoryAddress": "Úložiště systému správy verzí",
+                    "InputFieldVersion": "Verze",
+                    "Cancel": "Zrušit",
+                    "Install": "Instalace"
+                },
+                "CreatePackageDialog": {
+                    "Title": "Balíček",
+                    "InputFieldName": "Jméno",
+                    "InputFieldDescription": "Popis",
+                    "InputFieldRepositoryAddress": "Úložiště systému správy verzí",
+                    "InputFieldVersion": "Verze",
+                    "SaveButtonCaption": "Uložit",
+                    "Cancel": "Zrušit",
+                    "OpenPackagePage": "Vytvářejte a přidávejte závislosti",
+                    "Validation": {
+                        "PackageNameNotSpecified": "Název balíčku není zadán",
+                        "PackageVersionNotSpecified": "Verze balíčku není uvedena",
+                        "NotAllowedFormat": "Nesprávný formát verze úložiště",
+                        "MaximumLengthExeeded": "Překročena maximální délka textu"
+                    }
+                },
+                "SourceControl": {
+                    "CommitResult": {
+                        "Success": "Změny úspěšně zapsané do úložiště",
+                        "CustomPackage": "Nelze odevzdat vlastní balíček do úložiště",
+                        "PackageUpdateNeed": "V úložišti byly zjištěny změny. Je vyžadována aktualizace pracovního prostoru",
+                        "PackageHasForeignLock": "Nelze uložit změny: balíček, ve kterém je položka uložena, je uzamčen jiným uživatelem."
+                    },
+                    "CommitChangesDialog": {
+                        "Title": "Odevzdat balíček do úložiště",
+                        "LogMessageFieldCaption": "Popis",
+                        "CommitButtonCaption": "Odevzdat změny",
+                        "Cancel": "Zrušit",
+                        "NoChanges": "Žádné položky, které by měly být odevzdány"
+                    },
+                    "Update": {
+                        "ConfirmMessage": "Chcete tento balíček z úložiště aktualizovat?",
+                        "NoChanges": "Nebyly nalezeny žádné změny"
+                    },
+                    "Install": {
+                        "ConfirmMessage": "Nalezeny nainstalované balíčky. Při příští instalaci lze strukturu balíčků zcela změnit. Pokračovat?",
+                        "NoChanges": "Nebyly nalezeny žádné změny"
+                    },
+                    "Restore": {
+                        "ConfirmMessage": "Pracovní prostor bude aktualizován na nejnovější verzi. Všechny vaše změny budou ztraceny. Pokračovat?",
+                        "Success": "Pracovní prostor úspěšně obnoven z úložiště"
+                    }
+                },
+                "PackageCreated": "Nový balíček byl úspěšně vytvořen: {0}",
+                "PackageDeleted": "Balíček byl úspěšně smazán: {0}",
+                "PackageLocked": "Úspěšně uzamčený balíček: {0} v SVN",
+                "PackageUnlocked": "Úspěšně odemčený balíček: {0} v SVN",
+                "SearchPlaceholder": "Hledat podle balíčku",
+                "AllPackagesCaption": "Všechny balíčky",
+                "DeleteConfirmation": "Opravdu chcete smazat vybraný balíček?",
+                "BlankslateTitle": "Nebyly nalezeny žádné balíčky",
+                "InstallFromRepository": {
+                    "NoRepositories": "Creatio nemohlo najít žádná uložená úložiště. Přejete si uložit nové úložiště?",
+                    "NoActiveRepository": "Creatio nemohlo najít žádné aktivní úložiště. Přejete si přejít na seznam úložišť?"
+                },
+                "ConnectedApplications": {
+                    "DeleteConfirmation": "The package will also be removed from the following apps:\n{0}\nPackage removal can make these apps lose functionality or become inoperative. Are you sure you want to proceed?",
+                    "DeactivateConfirmation": "The package will also be deactivated in the following apps:\n{0}\nPackage deactivation can make these apps lose functionality or become inoperative. Are you sure you want to proceed?"
+                },
+                "CreatePackage": "Create package",
+                "PackageDeactivated": "Successfully deactivated the package: {0}",
+                "DeactivateConfirmation": "Are you sure you want to deactivate the selected package?",
+                "ActivateConfirmation": "Are you sure you want to activate the selected package?",
+                "EndUserSchemas": "Environment schemas",
+                "NewSearchPlaceholder": "Vyhledávání",
+                "PackagesCaption": "Packages",
+                "EndUserSchemaPackageTooltip": "Environment schemas exist only in this environment. To transfer them, move the schema to a package.",
+                "ConfigurationRootCaption": "Konfigurace"
+            },
+            "Items": {
+                "ImportSuccessMessage": "Položka „{0}“ byla úspěšně importována do balíčku „{1}“.",
+                "UpdateDBStructureConfirmMessage": "Tímto se aktualizuje struktura databáze pro vybraný objekt. Přejete si pokračovat?",
+                "GenerateSchemasSourcesConfirmMessage": "Tímto se vygeneruje zdrojový kód pro vybraný prvek. Přejete si pokračovat?",
+                "InstallSqlScriptsConfirmMessage": "Tímto se nainstaluje vybraný SQL skript do databáze. Přejete si pokračovat?",
+                "InstallDataConfirmMessage": "Tímto se nainstalují data pro vybranou položku. Přejete si pokračovat?",
+                "DeleteConfirmMessage": "Přejete si trvale smazat vybranou položku?",
+                "RevertChangesMessage": "Všechny změny ve vybraných položkách budou ztraceny. Pokračovat?",
+                "RecordLockedInSVNSuccessfully": "Záznam byl úspěšně uzamčen v SVN",
+                "RecordUnlockedInSVNSuccessfully": "Záznam byl úspěšně odemčen v SVN",
+                "MultiItemActionButton": "Více akcí",
+                "Columns": {
+                    "UId": "UID",
+                    "Name": "Jméno",
+                    "Title": "Nadpis",
+                    "Status": "Stav",
+                    "Type": "Typ",
+                    "Object": "Objekt",
+                    "ModifiedOn": "Upraveno dne",
+                    "Package": "Balíček",
+                    "CreatedOn": "Vytvořeno dne",
+                    "CreatedBy": "Vytvořil",
+                    "ModifiedBy": "Upravil"
+                },
+                "Add": {
+                    "Caption": "Přidat",
+                    "Sql": "SQL skript",
+                    "SourceCode": "Zdrojový kód",
+                    "Entity": "Objekt",
+                    "ReplacingEntity": "Nahrazení objektu",
+                    "ClientUnit": {
+                        "Module": "Modul",
+                        "EditViewModelSchema": "Model zobrazení stránky",
+                        "AngularSchema": "Freedom UI page",
+                        "ModuleViewModelSchema": "Model zobrazení sekce",
+                        "GridDetailViewModelSchema": "Model zobrazení Detail (seznam)",
+                        "EditControlsDetailViewModelSchema": "Model zobrazení Detail (pole)",
+                        "ExtendedClientUnitSchema": "Nahrazení modelu zobrazení",
+                        "ExtendedAngularSchema": "Angular replacing view model"
+                    },
+                    "UserTask": "Úloha uživatele",
+                    "BusinessProcess": "Obchodní proces",
+                    "DataBinding": "Data",
+                    "Import": "Data import",
+                    "RestService": "Služba REST",
+                    "SoapService": "Služba SOAP"
+                },
+                "Types": {
+                    "SqlScript": "SQL skript",
+                    "SchemaData": "Data",
+                    "Assembly": "Referenční sestava",
+                    "EntitySchema": "Objekt",
+                    "ClientUnitSchema": "Klientský modul",
+                    "SourceCodeSchema": "Zdrojový kód",
+                    "ProcessSchema": "Obchodní proces",
+                    "DcmSchema": "Případ",
+                    "ProcessUserTaskSchema": "Úloha uživatele",
+                    "CampaignSchema": "Marketingová kampaň",
+                    "ServiceSchema": "Webová služba",
+                    "AddonSchema": "Addon",
+                    "CopilotIntentSchema": "Creatio.ai agent",
+                    "LocalizationSchema": "Lokalizace"
+                },
+                "Status": {
+                    "NeedInstall": "Musí být nainstalován v databázi",
+                    "NeedUpdateSourceCode": "Je vyžadována aktualizace zdrojového kódu",
+                    "NeedUpdateStructure": "Vyžadována aktualizace databáze",
+                    "LockedInSVN": "Uzamčeno v SVN",
+                    "UnlockedInSVN": "Odemčeno v SVN"
+                },
+                "Filters": {
+                    "Types": {
+                        "AllItems": "Všechny položky",
+                        "Placeholder": "Typ"
+                    },
+                    "States": {
+                        "AllItems": "Všechny položky",
+                        "Placeholder": "Filtry",
+                        "Locked": "Uzamčeno",
+                        "NeedActualization": "Potřeba aktualizace",
+                        "Error": "Má chybu"
+                    }
+                },
+                "DetailsDialog": {
+                    "Close": "Zavřít",
+                    "PageTitle": "Vlastnosti",
+                    "Title": "Nadpis",
+                    "Name": "Jméno",
+                    "FullQualifiedName": "Úplný kvalifikovaný název sestavy",
+                    "DataObjectName": "Objekt",
+                    "CreatedBy": "Vytvořil",
+                    "CreatedOn": "Vytvořeno dne",
+                    "PackageName": "Balíček",
+                    "ParentCaption": "Rodič",
+                    "ReplaceParent": "Nahradit nadřízeného",
+                    "IsChanged": "Upraveno",
+                    "UId": "UId",
+                    "ModifiedBy": "Upraveno podle",
+                    "Id": "Id",
+                    "ModifiedOn": "Upraveno dne",
+                    "ManagerName": "Jméno manažera",
+                    "MetaDataModifiedOn": "Metadata upravená dne",
+                    "Description": "Popis",
+                    "IsLocked": "Uzamčeno",
+                    "NeedUpdateDBStructure": "Vyžadována aktualizace databáze",
+                    "NeedInstall": "Musí být nainstalován v databázi",
+                    "LastErrorText": "Poslední chybová zpráva",
+                    "LockedBy": "Uzamčeno",
+                    "DbStructureModifiedOn": "Struktura databáze upravena dne",
+                    "IsNetStandard": "IsNetStandard",
+                    "LoadOnAppStart": "LoadOnAppStart",
+                    "UIdTooltip": "Jedinečné ID konfiguračního prvku. Id konfiguračního prvku zůstane v každé aplikaci vždy stejné.",
+                    "IdTooltip": "Tento sloupec je primárním klíčem v databázových tabulkách. Id záznamu se může v různých aplikacích lišit"
+                },
+                "InstallLocalizationConfirmMessage": "This action will install data localizations for records and overwrite the current runtime values. Do you want to proceed?"
+            },
+            "Actions": {
+                "Move": "Přesun do jiného balíčku",
+                "MovePackageAllElements": "Přesunutí všech prvků",
+                "Blocks": {
+                    "SourceCode": "Zdrojový kód",
+                    "Actualization": "Aktualizovat položky",
+                    "DevInFileSystem": "Režim vývoje souborového systému",
+                    "VersionControl": "SVN úložiště",
+                    "Packages": "Balíčky",
+                    "Validation": "Konfigurace",
+                    "CacheManagement": "Cache Management"
+                },
+                "Compile": "Zkompilovat",
+                "CompileAll": "Zkompilovat všechny",
+                "Edit": "Upravit",
+                "Delete": "Vymazat",
+                "MultiDelete": "Smazat ({0})",
+                "MultiExport": "Exportovat ({0})",
+                "Export": "Exportovat",
+                "Update": "Aktualizovat z úložiště",
+                "Commit": "Odevzdat do úložiště",
+                "Properties": "Vlastnosti",
+                "UpdateDBStructure": "Aktualizace struktury databáze",
+                "MultiUpdateDBStructure": "Aktualizace objektů struktury DB",
+                "EditProcess": "Úprava procesu",
+                "GenerateSchemasSources": "Generovat zdrojový kód",
+                "InstallSqlScripts": "Instalace",
+                "MultiInstallSqlScripts": "Instalace skriptů SQL",
+                "InstallData": "Instalace",
+                "MultiInstallData": "Instalace dat",
+                "RevertChanges": "Vyřazení změn",
+                "InstallRequiredSqlScripts": "Instalace skriptů SQL tam, kde je to potřeba",
+                "InstallRequiredData": "Instalace dat tam, kde jsou potřeba",
+                "InstallRequiredSchemasDBStructure": "Aktualizace struktury DB tam, kde je to potřeba",
+                "OperationSuccessMessage": "Operace byla úspěšná",
+                "GenerateRequiredSchemasSources": "Generovat tam, kde je to potřeba",
+                "GenerateModifiedSchemasSources": "Generování pro upravená schémata",
+                "GenerateAllSchemasSources": "Generovat pro všechna schémata",
+                "GenerateAllSchemasSourcesWasStarted": "Systém začal generovat zdrojový kód pro všechna schémata. Po dokončení procesu obdržíte oznámení v komunikačním panelu.",
+                "LoadPackagesToFileSystem": "Stažení balíčků do souborového systému",
+                "LoadPackagesToDB": "Aktualizace balíčků ze souborového systému",
+                "OpenRepositoriesList": "Otevřít seznam úložišť",
+                "RestoreFromRepository": "Obnovení z úložiště",
+                "InstallPackageFromRepository": "Instalace balíčku z úložiště",
+                "PackageDependenciesDiagram": "Diagram závislostí balíčků",
+                "ValidateWorkspace": "Ověřit konfiguraci",
+                "FileDesignModeInfo": "Pro aktivaci nastavte v konfiguračním souboru aplikace:\n - pravdivé pro atribut povoleno prvku fileDesignMode;\n - nepravdivé pro příznak UseStaticFileContent",
+                "Confirmation": {
+                    "InstallRequiredSqlScripts": "Všechny položky vyžadující instalaci budou nainstalovány do databáze. Pokračovat?",
+                    "InstallRequiredData": "Všechny položky vyžadující instalaci budou nainstalovány do databáze. Pokračovat?",
+                    "InstallRequiredSchemasDBStructure": "Struktura databáze bude aktualizována pro všechna schémata, která vyžadují aktualizaci. Pokračovat?",
+                    "Compile": "Pracovní plocha bude sestavena. Přejete si pokračovat?",
+                    "CompileAll": "Pracovní plocha bude znovu zkompilována. Přejete si pokračovat?",
+                    "GenerateRequiredSchemasSources": "Generovat zdrojové kódy pro všechna schémata tam, kde je to potřeba?",
+                    "GenerateModifiedSchemasSources": "Generovat zdrojové kódy pro upravená schémata?",
+                    "GenerateAllSchemasSources": "Generovat zdrojové kódy pro všechna schémata? Výsledek operace bude odeslán do komunikačního panelu",
+                    "ThirdPartyPublisher": "Položka „{0}“ je buď vytvořena vydavatelem třetí strany, nebo je nainstalována z archivu souboru.\n Změny pro tuto položku nelze uložit. Pokračovat?",
+                    "ValidateWorkspace": "Operace může nějakou dobu trvat. Pokračovat?",
+                    "ExportItems": "Operace může nějakou dobu trvat. Pokračovat?",
+                    "StartHotfix": "This option is designed for critical and urgent changes. The package will be locked back automatically after {0} minutes. Make sure to deliver changes to the development environment after the hotfix.\n\nAre you sure you want to make a hotfix in the package?",
+                    "FinishHotfix": "Make sure to deliver changes to the development environment after the hotfix.\nAre you sure you want to lock the package?",
+                    "Cache": {
+                        "Message": "This action will remove data from the IndexedDB cache storage for all users. This caching helps applications and pages load faster. After clearing, some pages may temporary load slower at first while the cache is rebuilt.",
+                        "Cancel": "Zrušit",
+                        "Clear": "Vyčistit"
+                    }
+                },
+                "OpenMetaData": "Otevřít metadata",
+                "OpenSourceCode": "Otevřený zdrojový kód",
+                "LockPackageElement": "Uzamknout prvek v SVN",
+                "UnLockPackageElement": "Unlock element in SVN\nOdemknout prvek v SVN",
+                "LockPackage": "Uzamknout balíček v SVN",
+                "UnLockPackage": "Odemknout balíček v SVN",
+                "GenerateAllSchemasSourcesSuccess": "Source code for all schemas has been successfully generated",
+                "GenerateAllSchemasSourcesError": "Source code generation for some schemas finished with an error. Error messages for each schema can be accessed in the configuration items list after reloading. Do you wish to reload configuration items?",
+                "Deactivate": "Deaktivovat",
+                "Activate": "Zapnout",
+                "CompilationCompletedSuccessfully": "Compilation completed successfully",
+                "CompilationCompletedWithErrors": "Compilation completed with errors",
+                "OperationCompleted": "Operation completed",
+                "StartHotfix": "Unlock for hotfix",
+                "FinishHotfix": "Lock after hotfix",
+                "ClearAllCache": "Clear IndexedDB cache for all users",
+                "InstallLocalizationInBackgroundSuccess": "Localization installation has started. You’ll receive a notification when it is complete",
+                "InstallLocalization": "Install"
+            },
+            "WorkspaceSyncResultDialog": {
+                "Close": "Zavřít",
+                "Title": "Změny",
+                "Error": "Chyba",
+                "ShowOnlyErrors": "Zobrazit pouze chyby",
+                "Columns": {
+                    "Name": "Jméno",
+                    "Type": "Typ",
+                    "Status": "Stav",
+                    "ErrorText": "Error text\nChybový text"
+                }
+            },
+            "HotKey": "Hotkey",
+            "NoDataTitle": "The package is inactive currently.",
+            "NoDataText": "You can activate it manually. This will enable its contents and make its functionality available for users.",
+            "CompilationErrorsButton": {
+                "Title": "Kompilační chyby"
+            }
+        },
+        "PackagePage": {
+            "Title": "Vlastnosti balíčku",
+            "Name": "Jméno",
+            "Description": "Popis",
+            "Maintainer": "Správce",
+            "MaintainerTooltip": "Vývojář balíčku",
+            "PackageType": "Zkompilovat do samostatné sestavy",
+            "RepositoryAddress": "Adresa úložiště",
+            "RepositoryVersion": "Verze úložiště",
+            "PackageVersion": "Verze balíčku",
+            "DependenciesTab": "Závislosti",
+            "SysInformationTab": "Systémové informace",
+            "PackageDependencyDetail": {
+                "DependsOnPackagesTitle": "Závisí na balíčcích",
+                "DependentPackagesTitle": "Závislé balíčky",
+                "DependsOnPackagesTooltip": "Balíčky, na kterých aktuální balíček závisí",
+                "DependentPackagesTooltip": "Balíčky závislé na aktuálním balíčku",
+                "PackagesDialogCaption": "Vybrat balíček",
+                "NameColumn": "Jméno",
+                "Maintainer": "Správce",
+                "Remove": "Odstranit",
+                "Blankslate": "Neexistují žádné balíčky",
+                "Add": "Přidat"
+            },
+            "SysInformation": {
+                "CreatedBy": "Vytvořil",
+                "ModifiedBy": "Upraveno podle",
+                "CreatedOn": "Vytvořeno dne",
+                "ModifiedOn": "Upraveno dne",
+                "UIDTooltip": "Jedinečné ID balíčku. Id balíčku zůstane v každé aplikaci vždy stejné.",
+                "IDTooltip": "Tento sloupec je primárním klíčem v databázových tabulkách. Id záznamu se může v různých aplikacích lišit"
+            },
+            "RepositoryAuthorizationRequired": "Operace byla ukončena. Je vyžadováno ověření. Přihlásit se nyní?",
+            "CompilationRequired": "Compile the configuration to apply the changes",
+            "InstallationFlow": "Installation steps",
+            "InstallationFlowTab": {
+                "BeforePackageInstall": "Before package installation",
+                "BeforePackageInstallTooltip": "Actions to execute before package installation",
+                "AfterPackageInstall": "After package installation",
+                "AfterPackageInstallTooltip": "Actions to execute after package installation",
+                "BeforePackageUninstall": "Before package deletion",
+                "BeforePackageUninstallTooltip": "Actions to execute before package deletion",
+                "Blankslate": "Nebyly žádné kroky"
+            },
+            "InstallFlowPackageDetail": {
+                "Add": "Nová",
+                "ScriptsDialogCaption": "Select schemas",
+                "ColumnNameCaption": "Název",
+                "ColumnTitleCaption": "Popisek",
+                "ColumnPositionCaption": "Objednávka",
+                "ColumnModifiedOnCaption": "Modified On",
+                "Install": "Run manually",
+                "Success": "Operation was successful"
+            },
+            "InstallBehavior": "Use smart activation",
+            "InstallBehaviorInfo": "The package is installed on the environment and activated automatically when all its dependencies are available. Missing dependencies do not interfere with the installation of the package/application that includes the package. Once all dependencies are available, the package is automatically activated and becomes accessible to the user. If the dependencies are no longer available, the package is automatically deactivated."
+        },
+        "Errors": {
+            "AssemblyIsNotInitialized": "Před pokračováním v práci s aplikací Creatio zkompilujte konfiguraci. \n Přejete si nyní provést kompilaci?"
+        },
+        "PageTemplateLookup": {
+            "HeaderCaption": "Vyberte šablonu",
+            "Cancel": "Zrušit",
+            "Select": "Zvolit",
+            "WebPages": "Web pages",
+            "MobilePages": "Mobile app pages"
+        },
+        "DetailedMessageDialog": {
+            "Title": "Attention",
+            "OperationTitleMessage": "You are about to initiate an operation \"{0}\" that may result in temporary unavailability of the site for users. Please ensure the necessity of this action.",
+            "InternalBlockTitle": "Potential consequences:",
+            "InternalBlockFirstMessage": "Temporary restriction of access to specific features or the entire site",
+            "InternalBlockSecondMessage": "Possible disruption of ongoing processes and activities of other users",
+            "AdviseMessage": "If performing this operation in the production environment is unavoidable, we strongly recommend scheduling it during a designated maintenance window to minimize its impact on users.",
+            "ProceedActionQuestion": "Do you want to proceed with this operation now?",
+            "ExecuteOperationCaption": "Execute operation",
+            "GenerateAllSchemasSourcesAction": "Generate source code for all schemas",
+            "GenerateRequiredSchemasSourcesAction": "Generate source code where it is needed",
+            "GenerateModifiedSchemasSourcesAction": "Generate source code for modified schemas",
+            "DeleteAction": {
+                "WithConnectedApplications": {
+                    "Message": "The package will also be removed from the following apps:\n{0}",
+                    "InternalBlockMessage": "Package removal can make these apps lose functionality or become inoperative."
+                }
+            },
+            "DeactivateAction": {
+                "WithConnectedApplications": {
+                    "Message": "The package will also be deactivated in the following apps:\n{0}",
+                    "InternalBlockMessage": "Package deactivation can make these apps lose functionality or become inoperative."
+                }
+            }
+        }
+    },
+    "TableDialog": {
+        "Close": "Zavřít",
+        "Cancel": "Zrušit"
+    },
+    "ErrorListDialogService": {
+        "CodeErrorListDialogCaption": "Výsledek kompilace",
+        "FileNameColumn": "Název souboru",
+        "ErrorTextColumn": "Popis",
+        "ErrorNumberColumn": "Kód",
+        "LineColumn": "Řádek",
+        "CodeValidationErrorListDialogCaption": "Cyclic dependencies detected",
+        "SourceColumn": "Element that references",
+        "ReferenceColumn": "Element being referenced",
+        "PackageColumn": "Balíček",
+        "AcademyHelpUrlCaption": " Learn more in the Academy",
+        "PackagePropertiesErrorDialogCaption": "Package dependency validation error",
+        "PackagePropertiesErrorMessage": "One or more validation issues prevent modifying the dependency list for this package. Review the list of issues below and resolve them before making changes.",
+        "ItemTypeColumn": "Typ",
+        "ItemNameColumn": "Název",
+        "DescriptionColumn": "Popis",
+        "PackageNameColumn": "Balíček",
+        "TypeColumn": "Typ prvku"
+    },
+    "SchemaDesigners": {
+        "BaseDesignerPage": {
+            "SaveSuccessMessage": "Záznam byl úspěšně uložen",
+            "PublishSuccessMessage": "Úspěšně zveřejněný záznam",
+            "ChangeParentSchemaMessage": "Použít \"{0}\" jako nadřazený objekt pro aktuální objekt?",
+            "DeleteParentSchemaMessage": "Smazat nadřazený objekt pro aktuální objekt?"
+        },
+        "BaseDesignerStructureService": {
+            "MiniPage": {
+                "NameTitle": "Kód",
+                "PackageTitle": "Balíček",
+                "Apply": "Aplikovat",
+                "Cancel": "Zrušit",
+                "Ok": "Ok",
+                "Caption": "Nadpis",
+                "Description": "Popis",
+                "Validations": {
+                    "RequiredNameCaption": "Zadejte hodnotu",
+                    "PatternNameCaption": "Neplatná hodnota. Použijte symboly: a-z, A-Z, 0-9. Symbol: 0-9 nemůže být na prvním místě",
+                    "PatternPrefixTemplate": "Kód musí začínat předponou \"{0}\"."
+                }
+            }
+        },
+        "SchemaParameterMiniPage": {
+            "CardTitle": "Parametr",
+            "Title": "Kód",
+            "Caption": "Nadpis",
+            "Lookup": "Vyhledat",
+            "Value": "Hodnota",
+            "Schema": "Schéma",
+            "Create": "Vytvořit",
+            "Cancel": "Zrušit",
+            "Resulting": "Výsledek",
+            "Required": "Požadované",
+            "ContainsPerformerId": "Obsahuje ID interpreta",
+            "LazyLoad": "Líné načítání",
+            "Serializable": "Serializovatelné",
+            "CopyValue": "Kopírovat hodnotu",
+            "Type": "Typ",
+            "Save": "Uložit",
+            "ProperyExistMessage": "Tato vlastnost je již zkontrolována v jiném parametru. Lze ji použít pouze v 1 parametru.",
+            "Validations": {
+                "RequiredNameCaption": "Zadejte hodnotu",
+                "PatternNameCaption": "Neplatná hodnota. Použijte symboly: a-z, A-Z, 0-9. Symbol: 0-9 nemůže být na prvním místě",
+                "DataValueTypeListContainsMessage": "Vyberte hodnotu ze seznamu"
+            }
+        },
+        "SqlSchemaDesignerPage": {
+            "Caption": "SQL",
+            "DependentScriptsCaption": "Závislé skripty SQL",
+            "DependsOnScriptCaption": "Závisí na skriptech SQL",
+            "SqlScriptValidateCaption": "Ověření skriptu SQL dokončeno",
+            "Install": "Install",
+            "ShouldSaveFirstTitle": "Save the script before installing",
+            "InstallSqlScriptsConfirmMessage": "This will install SQL script to the database. Do you wish to proceed?",
+            "InstallSuccessMessage": "Operation was successful"
+        },
+        "SqlSchemaDesignerMiniPage": {
+            "Title": "Skript Sql",
+            "DbmsType": "Typ DBMS",
+            "InstallationType": "Typ instalace",
+            "BackwardCompatibilityConfirmed": "Backward compatible",
+            "BackwardCompatibilityConfirmedLabelBeforeLink": "Backwards compatible SQL scripts are those that comply with recommendations ",
+            "BackwardCompatibilityConfirmedLabelAfterLink": ". Select this checkbox only if your script complies with every recommendation",
+            "AcademyHelpUrlCaption": "specified in a separate article"
+        },
+        "MultiSelectSqlSchemasMiniPage": {
+            "Title": "Vybrat skript SQL",
+            "TableColumn": {
+                "Name": "Kód",
+                "Package": "Balíček"
+            }
+        },
+        "EntitySchemaDesigner": {
+            "EntitySchemaDesignerStructure": {
+                "InheritedColumnsCaption": "Dědičné sloupce",
+                "ColumnsCaption": "Sloupce",
+                "IndexesCaption": "Indexy",
+                "EventsCaption": "Události",
+                "SourceCodeCaption": "Zdrojový kód"
+            },
+            "Actions": {
+                "OpenEmbeddedProcess": "Otevřený proces"
+            },
+            "EntityEditor": {
+                "GeneralGroup": {
+                    "Caption": "Obecné",
+                    "NameCaption": "Kód",
+                    "TitleCaption": "Nadpis",
+                    "PackageCaption": "Balíček",
+                    "DescriptionCaption": "Popis",
+                    "NameTooltip": "Unique system name of the object schema.",
+                    "TitleTooltip": "Localizable object title displayed in the UI.",
+                    "PackageTooltip": "Package containing the object schema.",
+                    "DescriptionTooltip": "Localizable description of the object."
+                },
+                "ObjectSettings": {
+                    "Caption": "Nastavení objektu",
+                    "IdCaption": "Id",
+                    "DisplayedValueCaption": "Zobrazená hodnota",
+                    "ParentInHierarchyCaption": "Nadřízený v hierarchii",
+                    "ChangeLogObjectNameCaption": "Název objektu logu změn",
+                    "LocalizationObjectNameCaption": "Název lokalizačního objektu",
+                    "ImageCaption": "Obrázek",
+                    "SortingInListsCaption": "Třídění v seznamech",
+                    "OwnerCaption": "Vlastník",
+                    "PermissionObjectNameCaption": "Název objektu oprávnění",
+                    "ColorCaption": "Barva",
+                    "IdTooltip": "Primary key column that uniquely identifies object records.",
+                    "ImageTooltip": "Column that stores an image or icon for object records.",
+                    "DisplayedValueTooltip": "Column used as a record title when other objects reference the record.",
+                    "ParentInHierarchyTooltip": "Column that references the parent record for hierarchical structures.",
+                    "ChangeLogObjectNameTooltip": "Name of the object that stores the change log for this entity.",
+                    "LocalizationObjectNameTooltip": "Name of the object that stores localized values for this entity.",
+                    "OwnerTooltip": "Column used to automatically grant access rights to a record.",
+                    "PermissionObjectNameTooltip": "Name of the object that stores permission settings for this entity.",
+                    "ColorTooltip": "Column that stores the color for object records."
+                },
+                "InheritanceGroup": {
+                    "Caption": "Dědictví",
+                    "ParentObjectCaption": "Nadřazený objekt",
+                    "ExtendParent": "Nahradit nadřízeného",
+                    "ParentObjectTooltip": "Parent object whose structure and behavior the current object inherits.",
+                    "ExtendParentTooltip": "Marks the schema as a replacing object that overrides the parent on the current inheritance level."
+                },
+                "BehaviorGroup": {
+                    "Caption": "Chování",
+                    "isDBViewCaption": "Reprezentuje strukturu zobrazení databáze",
+                    "isVirtualCaption": "Virtuální",
+                    "isTrackChangesInDBCaption": "Aktualizace logu změn",
+                    "isSSPAvailable": "Je objekt k dispozici jako sekce v SSP",
+                    "useRecordDeactivationCaption": "Povolení deaktivace záznamů",
+                    "showInAdvancedModeCaption": "Show in advanced mode only",
+                    "useLiveEditingCaption": "Enable live data update",
+                    "isDBViewTooltip": "Indicates that the object is based on a database view instead of a regular table.",
+                    "isVirtualTooltip": "Indicates that the object does not store data in a physical database table and is dynamically obtained from some alternative data sources.",
+                    "isSSPAvailableTooltip": "Makes the object accessible as a section for portal (SSP) users.",
+                    "useLiveEditingTooltip": "The record change automatically generates signals to all currently opened pages of the record, and they auto-refresh.",
+                    "useRecordDeactivationTooltip": "Lets users deactivate records without deleting them.",
+                    "isTrackChangesInDBTooltip": "Enables logging of object record changes.",
+                    "showInAdvancedModeTooltip": "Hides rarely used objects from the standard Studio view."
+                },
+                "AccessRights": {
+                    "Caption": "Přístupová práva",
+                    "OperationsCaption": "Provoz",
+                    "ColumnsCaption": "Sloupce",
+                    "RecordsCaption": "Záznamy",
+                    "MasterRecordCaption": "Objekt, od kterého se dědí přístupová oprávnění",
+                    "OperationsTooltip": "Enables access rights restrictions for record operations.",
+                    "ColumnsTooltip": "Enables access rights restrictions at the column level.",
+                    "RecordsTooltip": "Enables access rights restrictions at the individual record level.",
+                    "MasterRecordTooltip": "Object whose access permissions are inherited."
+                },
+                "HistoryColumns": {
+                    "Caption": "Sloupce historie",
+                    "CreatedByCaption": "Vytvořil",
+                    "CreatedOnCaption": "Vytvořeno dne",
+                    "ModifiedByCaption": "Upraveno podle",
+                    "ModifiedOnCaption": "Upraveno dne",
+                    "CreatedByTooltip": "Column that stores the user who created the record.",
+                    "CreatedOnTooltip": "Column that stores the record creation date and time.",
+                    "ModifiedByTooltip": "Column that stores the user who last modified the record.",
+                    "ModifiedOnTooltip": "Column that stores the date and time of the last modification."
+                },
+                "Validations": {
+                    "RequiredNameCaption": "Zadejte hodnotu",
+                    "PatternNameCaption": "Neplatná hodnota. Použijte symboly: a-z, A-Z, 0-9. Symbol: 0-9 nemůže být na prvním místě.",
+                    "PatternPrefixTemplate": "Kód musí začínat předponou \"{0}\"",
+                    "DuplicateNameCaption": "Objekt se stejným kódem již existuje"
+                },
+                "EntityBusinessRules": {
+                    "OpenBusinessRulesButtonCaption": "Open business rules",
+                    "BusinessRulesDialogTitle": "Byznys pravidla",
+                    "BusinessRulesDialogCancelButton": "Zrušit",
+                    "BusinessRulesDialogApplyButton": "Použít"
+                }
+            },
+            "ColumnEditor": {
+                "GeneralGroup": {
+                    "Caption": "Obecné",
+                    "NameCaption": "Kód",
+                    "EnglishNameCaption": "Kód",
+                    "TitleCaption": "Nadpis",
+                    "DataTypeCaption": "Datový typ",
+                    "FormatCaption": "Formát",
+                    "ReferenceSchemaCaption": "Vyhledat",
+                    "DescriptionCaption": "Popis",
+                    "RequiredCaption": "Požadované",
+                    "DefaultValueCaption": "Výchozí hodnota",
+                    "CanMakeCopyCaption": "Kopírovat tuto hodnotu při kopírování záznamů",
+                    "IsMultiLineTextCaption": "Víceřádkový text",
+                    "IsLocalizableTextCaption": "Lokalizovatelný text",
+                    "IsCascadeCaption": "Při smazání vyhledávací hodnoty:",
+                    "IsMaskedCaption": "Display input mask",
+                    "IsFormatValidationCaption": "Validate format",
+                    "isAutonumber": "Autonumber",
+                    "EditCodeInfoIconCaption": "Changing the code may cause incorrect behavior of related components. Please use it with caution",
+                    "MaskTypeCaption": "Mask type",
+                    "MaskOperationCaption": "Oprávnění k operaci",
+                    "UseSecondsCaption": "Show seconds",
+                    "IsAccentInsensitiveCaption": "Accent insensitive search (PostgreSQL only)",
+                    "NameTooltip": "Unique system name of the column.",
+                    "TitleTooltip": "Localizable column title shown in the UI.",
+                    "DataTypeTooltip": "Type of data stored in the column.",
+                    "DescriptionTooltip": "Localizable description of the column.",
+                    "RequiredTooltip": "Specifies that the column must not be empty.",
+                    "DefaultValueTooltip": "Value assigned automatically if no value is provided.",
+                    "CanMakeCopyTooltip": "Copies the column value when a record is copied.",
+                    "IsMultiLineTextTooltip": "Allows entering and displaying text in multiple lines.",
+                    "IsAccentInsensitiveTooltip": "Enables search without considering accent marks.",
+                    "IsLocalizableTextTooltip": "Lets the column store values in multiple languages.",
+                    "IsMaskedTooltip": "Shows an input mask for guided value entry.",
+                    "IsFormatValidationTooltip": "Validates the entered value against the expected format.",
+                    "IsCascadeTooltip": "Defines what happens to records in the current object when the referenced lookup value is deleted.",
+                    "UseSecondsTooltip": "Displays seconds in time values.",
+                    "ReferenceSchemaTooltip": "Object that provides values for the lookup column."
+                },
+                "BehaviorGroup": {
+                    "Caption": "Chování",
+                    "UsageModeCaption": "Režim použití",
+                    "UpdateChangeLogCaption": "Aktualizace logu změn",
+                    "IndexedCaption": "Indexované",
+                    "SensitiveDataCaption": "Сontains personal data",
+                    "IndexedTooltip": "Creates an index for the column to improve search and filtering performance.",
+                    "SensitiveDataTooltip": "Marks the column as containing personal data.",
+                    "UpdateChangeLogTooltip": "Enables logging of changes for this column.",
+                    "UsageModeTooltip": "Controls the column availability mode in the application."
+                },
+                "RequirementType": {
+                    "NoCaption": "Ne",
+                    "YesCaption": "Ano"
+                },
+                "UsageType": {
+                    "GeneralCaption": "Obecné",
+                    "AdvancedCaption": "Pokročilé",
+                    "NoneCaption": "Žádné"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "Zadejte hodnotu",
+                    "PatternNameCaption": "Neplatná hodnota. Použijte symboly: a-z, A-Z, 0-9. Symbol: 0-9 nemůže být na prvním místě",
+                    "DuplicateNameCaption": "Sloupec se stejným kódem již existuje",
+                    "PatternPrefixTemplate": "Kód musí začínat předponou \"{0}\""
+                },
+                "DataSourceGroup": {
+                    "DoNotControlIntegrityCaption": "Nekontrolujte integritu",
+                    "DoNotControlIntegrityTooltip": "Disables integrity control for the lookup relationship."
+                },
+                "DefaultValueTypes": {
+                    "None": "Žádné",
+                    "Const": "Konstantní",
+                    "Settings": "Nastavení systému",
+                    "SystemValue": "Systémová proměnná",
+                    "Sequence": "Autonumber"
+                },
+                "DefaultValueDialog": {
+                    "Title": "Výchozí hodnota",
+                    "ValueTypeCaption": "Výchozí typ hodnoty",
+                    "ValueCaption": "Hodnota",
+                    "LookupValueRecordDeletedCaption": "hodnota vyhledávání byla odstraněna",
+                    "Cancel": "Zrušit",
+                    "Ok": "Ok",
+                    "sequencePrefix": "Prefix",
+                    "sequenceNumberOfChars": "Number of digits"
+                }
+            },
+            "IndexEditor": {
+                "GeneralGroup": {
+                    "Caption": "Obecné",
+                    "NameCaption": "Kód",
+                    "UniqueCaption": "Unikátní",
+                    "GenerateNameAutomaticallyCaption": "Automatické generování názvu",
+                    "NameTooltip": "Unique name of the index.",
+                    "UniqueTooltip": "Prevents duplicate combinations of values in indexed columns."
+                },
+                "IndexColumns": {
+                    "Caption": "Sloupce indexu",
+                    "AddIndexColumnsDialogCaption": "Vybrat sloupec",
+                    "TitleCaption": "Nadpis",
+                    "ColumnName": "Kód",
+                    "SortingOrder": "Pořadí řazení",
+                    "Blankslate": "V indexu nejsou žádné sloupce"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "Zadejte hodnotu",
+                    "PatternNameCaption": "Neplatná hodnota. Použijte symboly: a-z, A-Z, 0-9. Symbol: 0-9 nemůže být na prvním místě",
+                    "DuplicateNameCaption": "Obrázek se stejným kódem již existuje"
+                }
+            },
+            "EntityColumnTypes": {
+                "TextCaption": "lCaption",
+                "NumberCaption": "Číslo",
+                "OtherCaption": "Další",
+                "DateTimeCaption": "Datum/čas"
+            },
+            "EventsEditor": {
+                "EventGroupType": {
+                    "Add": "Přidání",
+                    "Saving": "Ukládání",
+                    "Updating": "Aktualizování",
+                    "Delete": "Odstranění",
+                    "Loading": "Načítání",
+                    "ColumnValues": "Hodnoty sloupců"
+                },
+                "Events": {
+                    "Inserting": "Před přidáním záznamu",
+                    "Inserted": "Po přidání záznamu",
+                    "Validating": "Ověřování",
+                    "Saving": "Před uložením záznamu",
+                    "Saved": "After record saved",
+                    "SaveError": "Chyba při ukládání záznamu",
+                    "Updating": "Před aktualizací záznamu",
+                    "Updated": "Po aktualizaci záznamu",
+                    "Deleting": "Před vymazáním záznamu",
+                    "Deleted": "Po vymazání záznamu",
+                    "DefColumnValuesSet": "After deleting an entry",
+                    "Loading": "Před načtením dat",
+                    "Loaded": "Po načtení dat",
+                    "ColumnValueChanging": "Před změnou hodnoty sloupce",
+                    "ColumnValueChanged": "Po změně hodnoty sloupce",
+                    "ColumnBinaryValuePackageLoading": "Binární načítání hodnotového toku",
+                    "InsertingTooltip": "Triggered before a new record is added to the database.",
+                    "InsertedTooltip": "Triggered after a new record is successfully added to the database.",
+                    "ValidatingTooltip": "Triggered when record data is being validated before saving.",
+                    "SavingTooltip": "Triggered before any record changes are saved to the database.",
+                    "SavedTooltip": "Triggered after record changes are successfully saved to the database.",
+                    "SaveErrorTooltip": "Triggered when an error occurs while saving a record.",
+                    "UpdatingTooltip": "Triggered before an existing record is updated in the database.",
+                    "UpdatedTooltip": "Triggered after an existing record is successfully updated in the database.",
+                    "DeletingTooltip": "Triggered before a record is deleted from the database.",
+                    "DeletedTooltip": "Triggered after a record is successfully deleted from the database.",
+                    "DefColumnValuesSetTooltip": "Triggered when default values are assigned to record columns.",
+                    "LoadingTooltip": "Triggered before record data is loaded from the database.",
+                    "LoadedTooltip": "Triggered after record data is successfully loaded from the database."
+                }
+            },
+            "Addons": {
+                "BusinessRule": "Byznys pravidla",
+                "RelatedPage": "Web pages",
+                "TimelineEntity": "Časová osa",
+                "UseSchemaInTimelineCheckbox": "Show in Timeline component by default",
+                "RelatedPagesCaption": "Pages setup",
+                "Timeline": {
+                    "NoDisplayColumnNotify": "A display value should be specified to display object in the Timeline component"
+                },
+                "MobileRelatedPage": "Mobile app pages",
+                "PredefinedFilters": "Pre-defined filters",
+                "UseSchemaInTimelineCheckboxTooltip": "Displays records of this object in the Timeline component on related pages by default."
+            },
+            "SaveConfirmationDialog": {
+                "Save": "Uložit",
+                "DoNotSave": "Don't save",
+                "Cancel": "Zrušit",
+                "Message": "Změny budou uloženy. Pokračovat?"
+            },
+            "DeleteConfirmationDialog": {
+                "BusinessRule": "Do you wish to delete business rule?"
+            },
+            "DisableAddonEditBeforeSchemaSaveTooltipText": "The settings will be available after saving new object"
+        },
+        "ClientUnitSchemaDesigner": {
+            "ClientUnitSchemaDesignerPage": {
+                "JsCaption": "JS",
+                "LessCaption": "LESS",
+                "LocalizableStringsCaption": "Lokalizovatelné řetězce",
+                "MessagesCaption": "Zprávy",
+                "ImagesCaption": "Obrázky",
+                "ParametersCaption": "Parametry",
+                "Addons": {
+                    "BusinessRule": "Byznys pravidla"
+                },
+                "OpenInterfaceDesigner": "Open interface designer",
+                "CantSaveSchemaWithErrors": "Unable to save due to a syntax error."
+            },
+            "ClientUnitDesignerMiniPage": {
+                "Title": "Modul",
+                "CaptionTitle": "Nadpis",
+                "ParentCaption": "Nadřazený objekt",
+                "Validations": {
+                    "RequiredNameCaption": "Zadejte hodnotu"
+                },
+                "OpenDesigner": "Otevřít návrhář"
+            },
+            "ClientUnitCaptionsMiniPage": {
+                "Title": "Titulky",
+                "Apply": "Aplikovat",
+                "Cancel": "Zrušit"
+            },
+            "ClientUnitMessagesMiniPage": {
+                "Title": "Zpráva",
+                "NameCaption": "Kód",
+                "DirectionCaption": "Směr",
+                "BroadcastCaption": "Vysílání",
+                "AddressCaption": "Adresa",
+                "ModeCaption": "Režim",
+                "SubscribeCaption": "Přihlaste se k odběru",
+                "PublishCaption": "Publikovat",
+                "Add": "Přidat",
+                "Apply": "Aplikovat",
+                "Cancel": "Zrušit",
+                "Validations": {
+                    "RequiredNameCaption": "Zadejte hodnotu",
+                    "PatternNameCaption": "Neplatná hodnota. Použijte symboly: a-z, A-Z, 0-9. Symbol: 0-9 nemůže být na prvním místě",
+                    "DuplicateNameCaption": "Zpráva se stejným kódem již existuje"
+                }
+            },
+            "ClientUnitImagesMiniPage": {
+                "Title": "Obrázek",
+                "NameTitle": "Kód",
+                "CaptionTitle": "Nadpis",
+                "ImageTitle": "Obrázek",
+                "UidTitle": "Id",
+                "Add": "Přidat",
+                "Apply": "Aplikovat",
+                "Cancel": "Zrušit",
+                "Validations": {
+                    "RequiredNameCaption": "Zadejte hodnotu",
+                    "PatternNameCaption": "Neplatná hodnota. Použijte symboly: a-z, A-Z, 0-9. Symbol: 0-9 nemůže být na prvním místě",
+                    "DuplicateNameCaption": "Obrázek se stejným kódem již existuje"
+                }
+            }
+        },
+        "SourceCodeSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "Lokalizovatelné řetězce",
+            "MetadataCaption": "Metadata",
+            "MetadataReadCaption": "Metadata (ke čtení)",
+            "ModifiedPackageCaption": "Upravený balíček",
+            "RunButtonCaption": "Run as install script",
+            "RunSourceCodeCaption": "Operation was successful"
+        },
+        "SourceCodeDesignerMiniPage": {
+            "Title": "Zdrojový kód",
+            "Description": "Popis"
+        },
+        "SourceCodeCaptionsMiniPage": {
+            "Title": "Titulky",
+            "Apply": "Aplikovat",
+            "Cancel": "Zrušit"
+        },
+        "UserTaskCaptionsMiniPage": {
+            "Title": "Titulky",
+            "Apply": "Aplikovat",
+            "Cancel": "Zrušit",
+            "UserTask": "Úloha uživatele",
+            "WithCustomEventHandler": "S vlastními obsluhami událostí",
+            "Partial": "Částečně",
+            "Serialize": "Serializace v DB",
+            "ParametersEditPage": "Stránka pro úpravu parametrů",
+            "DcmParametersEditPage": "Stránka pro úpravu parametrů Dcm",
+            "Color": "Barva",
+            "SmallSvgImage": "Malý vektorový obrázek",
+            "LargeSvgImage": "Velký vektorový obrázek",
+            "TitleSvgImage": "Titulní vektorový obrázek",
+            "DcmSmallSvgImage": "Malý vektorový obrázek pro DCM",
+            "PageInaccessibleFromPackageInfo": "Vybraná stránka je z aktuálního balíčku uživatelských úloh nedostupná. Doplňte prosím závislosti balíčku nebo vyberte jinou stránku, abyste zajistili správné provedení uživatelské úlohy."
+        },
+        "UserTaskDesignerMiniPage": {
+            "Title": "Úloha uživatele"
+        },
+        "UserTaskSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "Lokalizovatelné řetězce",
+            "ParametersCaption": "Parametry",
+            "MetadataCaption": "Metadata",
+            "MetadataReadCaption": "Metadata (ke čtení)",
+            "ModifiedPackageCaption": "Upravený balíček",
+            "InvalidClassNameConfirmationMessage": "Vlastnost \"Code\" uživatelské úlohy neodpovídá názvu třídy ve zdrojovém kódu. Uživatelskou úlohu nelze s aktuálním nastavením spustit. Chcete pokračovat v ukládání?"
+        },
+        "MetaDataSchemaDesigner": {
+            "MetaDataCaption": "Metadata",
+            "HumanReadableMetaDataCaption": "Metadata (pouze pro čtení)",
+            "PackageDifferenceMetaDataCaption": "Balíček úprav"
+        },
+        "RelatedPagesDesigner": {
+            "RelatedPageLabel": "Default page",
+            "AddPageLabel": "Nová stránka",
+            "ExternalPageCaption": "Pages setup for external users",
+            "RelatedPagesCaption": "Pages setup",
+            "DefaultPageSelectionTooltip": "Select or create default page for editing, reading, and creating records.\nWe recommend using a Freedom UI page with the current object used as data source.",
+            "AddPageTooltip": "Select or create a specific page that will be only used for adding a new record.",
+            "RelatedPageCombobox": {
+                "AddNewPage": "Add new page",
+                "OpenPageInDesignerTitle": "Open interface designer"
+            },
+            "DefaultPagePlaceholder": "Page to use if no other page is specified",
+            "AddPagePlaceholder": "Page to use for adding records"
+        }
+    },
+    "Tracking": {
+        "ValidationMessage": {
+            "InvalidValue": "Neplatná hodnota",
+            "RequiredFieldValue": "Zadejte hodnotu",
+            "LongFieldValue": "Překročena maximální délka textu (255)",
+            "InvalidNumberValue": "Formát čísla je neplatný"
+        },
+        "BaseItemMenuComponent": {
+            "Delete": "Vymazat",
+            "Edit": "Upravit"
+        },
+        "ConnectionDescription": {
+            "Checking": "Kontrola",
+            "Connected": "Připojeno",
+            "Disconnected": "Odpojeno",
+            "Warning": "Varování"
+        },
+        "ProjectsSection": {
+            "Add": "Nový projekt",
+            "Title": "Nastavení sledování událostí (Projekty)",
+            "Columns": {
+                "Name": "Název projektu",
+                "Owner": "Vlastník",
+                "Description": "Popis",
+                "CreatedOn": "Vytvořeno",
+                "ModifiedOn": "Poslední aktualizace"
+            },
+            "BlankSlate": {
+                "Title": "V této sekci nejsou žádné záznamy.",
+                "Description": "Přidejte nový záznam, aby vypadal hezčí."
+            }
+        },
+        "ProjectPage": {
+            "Detail": {
+                "Name": "Název projektu",
+                "Owner": "Vlastník",
+                "Description": "Popis",
+                "CreatedOn": "Vytvořeno",
+                "ModifiedOn": "Poslední aktualizace",
+                "TotalEvents": "Události celkem",
+                "ConversionRate": "Konverzní poměr",
+                "DefaultValues": {
+                    "Name": "Nový projekt",
+                    "Description": "Nový popis"
+                }
+            },
+            "ResourceDetail": {
+                "Header": "Sledování zdrojů",
+                "Columns": {
+                    "Name": "Název zdroje",
+                    "Status": {
+                        "Caption": "Stav",
+                        "Active": "Aktivní",
+                        "Inactive": "Neaktivní"
+                    },
+                    "Source": "Zdroj",
+                    "CreatedOn": "Vytvořeno",
+                    "ModifiedOn": "Poslední aktualizace"
+                }
+            }
+        },
+        "ResourcePage": {
+            "CreatedOn": "Vytvořeno dne",
+            "ModifiedOn": "Upraveno dne",
+            "Name": "Jméno",
+            "Source": "ID (adresa URL webové stránky)",
+            "Active": "Aktivní",
+            "DefaultName": "Nový zdroj",
+            "DefaultSource": "https://příklad.com",
+            "Tabs": {
+                "TrackingCode": "Sledovací kód",
+                "GoalSettings": "Nastavení cílů"
+            },
+            "BasicCodeTitle": "Základní sledovací kód",
+            "CustomEventTab": "Vlastní událost",
+            "GoalDetail": {
+                "Header": "Sledování cílů",
+                "Columns": {
+                    "Name": "Název cíle",
+                    "EventTypeFilter": "Filtr typu události",
+                    "Status": {
+                        "Caption": "Stav",
+                        "Active": "Aktivní",
+                        "Inactive": "Neaktivní"
+                    },
+                    "Cost": "Cílové náklady"
+                }
+            },
+            "GoalEditiDialog": {
+                "Header": "Nastavení cílů",
+                "Name": "Název cíle",
+                "UseEventCost": "Použít náklady na událost",
+                "Cost": "Cílové náklady",
+                "Active": "Aktivní",
+                "FilterSettings": "Nastavení filtru cílů",
+                "EventTypeFilter": "Filtr typu události",
+                "EventNameFilter": "Filtr názvu události",
+                "EventValueFilter": "Filtr hodnot událostí",
+                "EventCostFilter": "Filtr nákladů na událost",
+                "Actions": {
+                    "Save": "Uložit",
+                    "Cancel": "Zrušit"
+                },
+                "StringCondition": {
+                    "Equal": "Stejné",
+                    "Contains": "Obsahuje",
+                    "BeginWith": "Začněte s",
+                    "EndWith": "Zakončete s"
+                },
+                "NumberCondition": {
+                    "Equal": "Stejné",
+                    "LessOrEqual": "Méně nebo stejně",
+                    "MoreOrEqual": "Více nebo stejně"
+                }
+            }
+        },
+        "CodePane": {
+            "CopyToClipboard": "Kopírovat do schránky",
+            "OnCopiedToClipboard": "Úspěšně zkopírováno"
+        },
+        "BaseTrackingCode": {
+            "Header": "Základní sledovací kód",
+            "Loading": "Načítání...",
+            "InfoBlock": {
+                "Title": "Důležité",
+                "Content": "Základní sledovací kód tohoto zdroje musí být umístěn na všech stránkách webu.",
+                "LinkText": "Podrobnosti o nastavení základního sledovacího kódu"
+            },
+            "NotReady": "Před získáním sledovacího kódu uložte zdroj."
+        },
+        "EventCodeGenerator": {
+            "Header": "Kód sledování události",
+            "Form": {
+                "EventType": "Typ události",
+                "EventName": "Název události",
+                "EventValue": "Hodnota události",
+                "EventCost": "Náklady na událost"
+            },
+            "FormValidators": {
+                "EmptyForm": "Prázdné...",
+                "InvalidForm": "Zkontrolujte, zda formulář neobsahuje chyby..."
+            }
+        }
+    },
+    "SocialLeadgen": {
+        "ValidationMessage": {
+            "InvalidValue": "Neplatná hodnota",
+            "RequiredFieldValue": "Zadejte hodnotu",
+            "LongFieldValue": "Překročena maximální délka textu (255)",
+            "InvalidNumberValue": "Formát čísla je neplatný"
+        },
+        "IntegrationTypes": {
+            "LinkedIn": "LinkedIn",
+            "Facebook": "Facebook / Instagram",
+            "Undefined": "Nedefinované"
+        },
+        "IntegrationSettings": {
+            "Header": {
+                "Title": "Nastavení"
+            },
+            "Detail": {
+                "Url": "Adresa URL pro získání potenciálních zákazníků",
+                "Group": "Role pro příjem oznámení"
+            },
+            "Notes": {
+                "Header": "Poznámka",
+                "Text": "<p>Adresa URL pro získání potenciálních zákazníků – adresa URL Creatio, která bude přijímat potenciální zákazníky z připojených reklamních účtů. Web Creatio musí být přístupný, aby bylo možné přijímat příchozí požadavky. Pokud používáte proxy server, zadejte proxy URL místo Creatio URL. Pokud je vaše instance Creatio součástí sítě s omezeným přístupem, přidejte na seznam povolených IP adres služby generování potenciálních zákazníků.</p><p>Role pro přijímání upozornění – Creatio upozorní uživatele v rámci této role v případě jakýchkoli selhání, jako jsou chyby při propojování reklamních účtů nebo vytváření potenciálních zákazníků.</p><p>Záložka „Připojení“ zobrazuje seznam reklamních účtů a stránek připojených k Creatio. Seznam obsahuje aktuální stavy připojení na úrovni stránky, účtu a tokenu. Připojení můžete spravovat, například je mazat nebo resetovat.</p><p>Na kartě „Logy“ se zobrazuje log změn funkce generování potenciálních zákazníků.</p>"
+            },
+            "Tabs": {
+                "Connection": "Připojení",
+                "Logs": "Logy"
+            },
+            "AutorouteMessage": "Chcete-li pokračovat v práci, musíte vyplnit pole \"Adresa URL pro získání potenciálních zákazníků\". Ve výchozím nastavení bylo pole vyplněno aktuální adresou aplikace z prohlížeče. Ujistěte se, že jste zadali správnou adresu aplikace, a uložte nastavení. Tato nastavení se provedou jednorázově při prvním otevření sekce.",
+            "Error": {
+                "FormValidation": "Chyba při pokusu o uložení nastavení. Zkontrolujte prosím všechna pole, zda neobsahují chyby.",
+                "Save": "Nepodařilo se uložit hodnotu zadanou v poli \"Adresa URL pro získání potenciálních zákazníků\". Ujistěte se, že jste zadali správnou, externě přístupnou adresu aplikace.\nChyba při pokusu o uložení nastavení. Zkontrolujte prosím všechna pole, zda neobsahují chyby."
+            },
+            "Logs": {
+                "IntegrationFilter": {
+                    "PlaceholderCaption": "Integrace",
+                    "EmptyOptionCaption": "Všechny položky"
+                },
+                "DateColumnCaption": "Datum",
+                "IntegrationColumnCaption": "Integrace",
+                "DetailsColumnCaption": "Podrobnosti",
+                "IntegrationNotFound": "Nenalezeno",
+                "GetIntegrationListError": "Při načítání seznamu integrací došlo k chybě. Načítání bylo přerušeno.",
+                "NoLogsMessage": "Momentálně nejsou k dispozici žádné logy k zobrazení"
+            },
+            "FacebookPagesConnections": {
+                "Header": "Stránky na Facebooku",
+                "Blankslate": "Připojení ke stránkám zatím nebyla nakonfigurována."
+            },
+            "LinkedInAdAccountsConnections": {
+                "Header": "Reklamní účty LinkedIn",
+                "Blankslate": "řipojení k reklamním účtům zatím nebyla nakonfigurována.",
+                "AdAccountsTable": {
+                    "DeleteConfirmation": "Jste si jisti, že chcete reklamní účet odstranit?",
+                    "DeleteError": "Tento reklamní účet je propojen s integrací. Odstraňte integraci a zkuste to znovu",
+                    "Headers": {
+                        "Name": "Název účtu",
+                        "Link": "Odkaz",
+                        "ConnectionStatus": "Status připojení",
+                        "ExpirationDate": "Datum vypršení platnosti"
+                    },
+                    "ConnectionStatuses": {
+                        "Active": "Aktivní",
+                        "Inactive": "Neaktivní"
+                    },
+                    "ConnectionStatusErrorMessage": {
+                        "Inactive": "Nelze získat přístup k reklamnímu účtu. Přihlaste se do sítě LinkedIn a nastavte oprávnění k účtům, které potřebujete integrovat."
+                    },
+                    "UsersTable": {
+                        "DeleteConfirmation": "Opravdu chcete odstranit token? To může způsobit problémy s přístupem k účtu reklamy a získáváním potenciálních zákazníků",
+                        "Headers": {
+                            "UserName": "Uživatel sítě",
+                            "TokenStatus": "Status tokenu",
+                            "ExpirationDate": "Datum vypršení platnosti",
+                            "HasAdAccountAccess": "Poskytuje přístup k účtu"
+                        },
+                        "TokenStatuses": {
+                            "Active": "Aktivní",
+                            "Expired": "Platnost vypršela",
+                            "Revoked": "Odvoláno",
+                            "Unknown": "Neznámý"
+                        },
+                        "HasAdAccountAccess": {
+                            "Yes": "Ano",
+                            "No": "Ne"
+                        },
+                        "TokenStatusErrorMessage": {
+                            "Expired": "Přihlaste se do sítě LinkedIn a udělte oprávnění k reklamním účtům jménem uživatele, jehož token vypršel.",
+                            "Revoked": "Token byl odvolán.\nMožné důvody:\n- Tento účet byl použit k přihlášení do jiné instance Creatio.\n- Aplikace pro generování potenciálních zákazníků byla na konci LinkedIn odpojena.\nChcete-li tento problém vyřešit, přihlaste se k LinkedIn ještě jednou a udělte oprávnění reklamním účtům jménem uživatele, jehož token byl odvolán.",
+                            "Unknown": "Nelze načíst stav tokenu kvůli jedné nebo více chybám během požadavku. Obnovte prosím stránku."
+                        },
+                        "MenuCell": {
+                            "Delete": "Vymazat",
+                            "Reconnect": "Znovu připojit"
+                        }
+                    }
+                }
+            }
+        },
+        "IntegrationSection": {
+            "DeleteConfirmation": "Opravdu chcete tuto integraci odstranit? Creatio z ní nebude moci načítat nové potenciální zákazníky.",
+            "DeleteError": "Integraci nelze odstranit, přístup k reklamnímu účtu byl odepřen. Udělte přístup k příslušnému reklamnímu účtu a zkuste to znovu.",
+            "Header": {
+                "Title": "Sociální integrace potenciálních zákazníků",
+                "Buttons": {
+                    "New": "Nový",
+                    "Logs": "Logy",
+                    "Settings": "Nastavení"
+                }
+            },
+            "Columns": {
+                "Name": "Jméno",
+                "Type": "Typ",
+                "IsActive": "Aktivní",
+                "IntegrationSectionItemMenu": {
+                    "Delete": "Vymazat",
+                    "Activate": "Aktivace",
+                    "Deactivate": "Deaktivace"
+                }
+            },
+            "BlankSlate": {
+                "Description": "Nemáte nakonfigurovány žádné integrace."
+            }
+        },
+        "IntegrationPage": {
+            "ToggleStateCaptions": {
+                "Active": "Aktivní",
+                "Inactive": "Neaktivní"
+            },
+            "Header": {
+                "Buttons": {
+                    "Logs": "Logy",
+                    "Settings": "Nastavení"
+                }
+            },
+            "Error": {
+                "Save": "Nelze upravit nastavení. Ujistěte se, že jsou namapována požadovaná pole objektů a že je zadáno nastavení makra \"Unmapped form fields\".",
+                "FormSelection": "Nelze upravit nastavení. Ujistěte se, že jsou namapována požadovaná pole objektů a že je zadáno nastavení makra \"Unmapped form fields\"."
+            },
+            "BlankSlate": {
+                "Title": "Ve vybraném reklamním účtu se nám nepodařilo najít aktivní formuláře.",
+                "Description": "Vytvořte si prosím hlavní formulář nebo si vyberte jiný účet, který chcete nastavit."
+            },
+            "BlankSlateError": {
+                "Title": "Nelze získat přístup k účtu.",
+                "Description": "Zkuste se přihlásit a znovu povolit přístup."
+            },
+            "Detail": {
+                "Name": "Jméno",
+                "FacebookPage": "facebooková stránka",
+                "LinkedinAdAccount": "LinkedIn účet",
+                "DeactivateConfirmationQuestion": "Opravdu chcete deaktivovat své předplatné? Přenos potenciálních zákazníků ze všech formulářů bude zastaven. Nový stav se projeví po uložení změn na úrovni integrační karty."
+            },
+            "IntegrationSettings": {
+                "FacebookIsNotSet": "Integrace s Facebookem není nastavena.",
+                "LinkedInIsNotSet": "Integrace LinkedIn není nastavena.",
+                "Create": "Nastavení integrace",
+                "DefaultIntegrationRecordName": "Nová integrace generování kontaktů na sociálních sítích"
+            },
+            "InfoBlock": {
+                "Title": "Poznámka",
+                "Text": "Všechny formuláře pro vybranou stránku jsou připojeny k aplikaci Creatio. Na kartě \"Výchozí nastavení\" proveďte výchozí nastavení všech formulářů. Unikátní nastavení pro každý formulář lze provést na kartě \"Formuláře\"."
+            },
+            "ColumnMapping": {
+                "ExpansionPanelCaption": "Výchozí mapování",
+                "Object": "Objekt",
+                "AddMapping": "Přidat",
+                "Hint": "Creatio použije výchozí mapování na všechny formuláře reklamních účtů.\nNastavení se vztahuje pouze na sloupce formuláře s informacemi o profilu uživatele.\nNa stránce záznamu formuláře můžete mapovat vlastní otázky, vlastní zaškrtávací políčka a skrytá pole. Chcete-li tuto funkci povolit, zaškrtněte políčko \"Vlastní mapování\".\nMakro \"Nemapovaná pole\" umožňuje předat hodnoty všech sloupců jednomu sloupci objektu.\n\nTranslated with www.DeepL.com/Translator (free version)",
+                "DataTypes": {
+                    "Lookup": "Vyhledat",
+                    "Text": "lCaption",
+                    "Boolean": "Logický",
+                    "DateTime": "Datum čas",
+                    "Date": "Datum",
+                    "Time": "Čas",
+                    "Number": "Číslo",
+                    "Macro": "Makro"
+                },
+                "FieldMenuCaptions": {
+                    "FormField": "Pole formuláře",
+                    "Text": "Hodnota textu",
+                    "Boolean": "Boolean hodnota",
+                    "Lookup": "Hodnota vyhledávání",
+                    "Other": "Další"
+                },
+                "LinkedIn": "LinkedIn",
+                "BooleanValue": {
+                    "True": "Pravda",
+                    "False": "Falešný"
+                },
+                "UnmappedMacroValue": "Nezmapovaná pole formuláře",
+                "LookupValueUnknown": "<nebylo nalezeno>",
+                "ModalBox": {
+                    "SetButtonCaption": "Nastavit",
+                    "CancelButtonCaption": "Zrušit",
+                    "SelectFormCaption": "Vyberte pole formuláře",
+                    "EnterTextValueCaption": "Zadejte hodnotu"
+                }
+            },
+            "Logs": {
+                "ExpansionPanelCaption": "Logy",
+                "NoLogsForIntegrationMessage": "Pro tuto integraci nejsou k dispozici žádné logy",
+                "ShowMoreButtonCaption": "Zobrazit více",
+                "Types": {
+                    "Info": "Informace",
+                    "Warning": "Varování",
+                    "Error": "Chyba"
+                }
+            },
+            "FormsList": {
+                "Header": "Formuláře",
+                "LinkedInStatus": "LinkedIn status",
+                "Hint": "Vlastní nastavení mapování potlačí výchozí nastavení mapování. Mapujte každý formulář zvlášť.\nPokud vlastní mapování deaktivujete, použije Creatio na formulář výchozí nastavení mapování.",
+                "FormStatus": {
+                    "Archived": "Archivováno",
+                    "Pending": "Čeká na vyřízení",
+                    "Approved": "ApprovedSchváleno",
+                    "Preapproved": "Předběžně schválené",
+                    "Rejected": "Zamítnuto",
+                    "NeedsReview": "Potřebuje přezkoumání",
+                    "AutoApproved": "Schváleno automaticky",
+                    "AutoRejected": "Automaticky zamítnuto",
+                    "Undefined": "Nedefinované",
+                    "NotActive": "Není aktivní"
+                },
+                "MappingType": {
+                    "DefaultMapping": "Výchozí mapování",
+                    "CustomMapping": "Vlastní mapování"
+                },
+                "BlankSlate": {
+                    "Description": "Pro tento formulář se použije výchozí nastavení mapování."
+                },
+                "DeactivateFormConfirmationQuestion": "Jste si jisti, že se chcete odhlásit z odběru kontaktů z tohoto formuláře v aplikaci Creatio? Nový stav se projeví po uložení změn na úrovni integrační karty.",
+                "ObjectsTitle": {
+                    "Lead": "Vedení"
+                }
+            },
+            "IntegrationSyncInfo": {
+                "Header": "Informace o synchronizaci potenciálních zákazníků",
+                "UnableToAdAccountAccess": "Nelze získat přístup k účtu. Synchronizace potenciálních zákazníků byla zastavena.",
+                "SaveIntegration": "Uložte prosím integraci a obnovte stránku, abyste dostávali oznámení o stavu synchronizace potenciálních zákazníků.",
+                "SubscriptionInactive": "Předplatné potenciálních zákazníků je pro vybraný reklamní účet neaktivní. Synchronizace potenciálních zákazníků byla zastavena. Aktivace předplatného obnoví příjem potenciálních zákazníků v Creatio.",
+                "SubscriptionActive": "Pro vybraný reklamní účet je aktivní odběr potenciálních zákazníků. Potenciální zákazníci vytvoření na straně LinkedIn budou převedeni do Creatio."
+            },
+            "DownloadLeads": {
+                "ForForm": {
+                    "ButtonCaption": "Synchronizovat potenciální zákazníky",
+                    "ModalBoxTitle": "Kliknutím na „Synchronizovat“ nahrajete zájemce z formuláře za dané období. Období se počítá bez ohledu na aktuální stav předplatného formuláře."
+                },
+                "ForAdAccount": {
+                    "ButtonCaption": "Synchronizujte všechny zájemce",
+                    "ModalBoxTitle": "Kliknutím na „Synchronizovat“ nahrajete potenciální zákazníky reklamního účtu za dané období. Období se počítá bez ohledu na aktuální stav předplatného účtu. Creatio nebude znovu nahrávat zájemce, které jste již synchronizovali."
+                },
+                "ModalBox": {
+                    "InformationText": "LinkedIn ukládá potenciální zákazníky po dobu 90 dní.",
+                    "CancelButtonCaption": "Zrušit",
+                    "DownloadButtonCaption": "Synchronizovat",
+                    "SuccessRunBusinessProcessInfoText": "Byl zahájen proces nahrávání potenciálních zákazníků. Než bude proces dokončen, může to nějakou dobu trvat.",
+                    "UnknownFailedRunBusinessProcessInfoText": "Nepodařilo se spustit proces nahrávání potenciálních zákazníků. Zkuste to prosím později. Pokud chyba při spouštění přetrvává, kontaktujte technickou podporu."
+                }
+            }
+        },
+        "SocialMediaProvider": {
+            "New": "Nová integrace¨",
+            "RestoreAccess": "Obnovit přístup"
+        },
+        "IntegrationError": {
+            "InvalidScope": "Unable to connect to the lead generation service. The lead generation service’s user account lacks essential permissions. Please contact Creatio support to fix this issue.",
+            "InvalidClient": "Unable to connect to the lead generation service. Unexpected values in the “Identity server client id” and “Identity server client secret” system settings. Please contact Creatio support to fix this issue.",
+            "InvalidSettings": "Unable to connect to the lead generation service. The following system settings are empty: “Identity server URL”, “Identity server client id”, “Identity server client secret”.",
+            "GeneralError": "Unable to connect to the lead generation service. Please refresh the page or contact Creatio support if the problem persists."
+        }
+    },
+    "QueueSorting": {
+        "QueueSectionHeader": "Nastavení řazení fronty",
+        "AddQueueObjectCaption": "Přidání objektu fronty",
+        "QueueObjectCaption": "Objekt fronty",
+        "QueueTypeCaption": "Typ fronty",
+        "BlindQueue": "Slepá fronta",
+        "RegularQueue": "Běžná fronta",
+        "AddQueueSortObjectCaption": "Přidat objekt třídění",
+        "Empty": "Prázdný",
+        "RequiredFieldValue": "Vybrat objekt fronty",
+        "QueueObjectLookup": {
+            "NameColumnCaption": "Nadpis",
+            "Title": "Vyhledávání objektů fronty"
+        },
+        "QueueObjectColumnLookup": {
+            "NameColumnCaption": "Nadpis",
+            "Title": "Vyhledávání sloupců řazení objektu fronty"
+        },
+        "QueueObjectColumnPage": {
+            "AddQueueObjectColumn": "Přidat sloupec",
+            "SortDirection": "Pořadí řazení",
+            "SelectColumn": "Sloupec",
+            "RequiredFieldValue": "Povinná pole nejsou vyplněna"
+        },
+        "QueueObjectTable": {
+            "Actions": {
+                "Delete": "Vymazat",
+                "Edit": "Nastavení"
+            },
+            "RemoveToolTip": "Creatio nemůže odstranit objekt třídění, protože jej používají existující fronty."
+        },
+        "QueueObjectColumnTable": {
+            "Caption": "Řazení sloupců",
+            "ColumnCaption": "Nadpis",
+            "SortDirection": "Směr třídění",
+            "Position": "Priorita",
+            "Empty": "Nepřidané sloupce třídění",
+            "Actions": {
+                "Delete": "Vymazat",
+                "Edit": "Upravit"
+            }
+        },
+        "OrderDirection": {
+            "Ascending": "Vzestupně",
+            "Descending": "Sestupně",
+            "None": "Žádné"
+        }
+    },
+    "ChatSettings": {
+        "ChatSettingsPageHeader": "Chaty",
+        "ChannelDetail": {
+            "DeleteAction": "Vymazat",
+            "DeleteRecordErrorMessage": "Nelze odstranit vybraný záznam",
+            "Title": "Kanály",
+            "Columns": {
+                "Name": "Jméno",
+                "Status": {
+                    "Caption": "Aktivní"
+                },
+                "Queue": "Fronta",
+                "Provider": "Poskytovatel"
+            },
+            "FacebookSettings": {
+                "InvalidSettings": {
+                    "Message": "Nelze přidat kanál. Požadavky na nastavení naleznete v",
+                    "Link": {
+                        "Text": "článek."
+                    }
+                }
+            }
+        },
+        "ChannelPage": {
+            "Name": "Jméno",
+            "Token": "Token",
+            "WebhookUrl": "Url",
+            "Status": "Stav",
+            "Queue": "Fronta",
+            "Language": "Jazyk",
+            "ChannelProcessingGroup": "Zpracování kanálů",
+            "NewChannelCaption": "Nový '{0}' kanál",
+            "InactiveChannelMessage": "Chcete-li přijímat zprávy, musíte kanál aktivovat a zadat frontu pro zpracování. Jste si jisti, že chcete přidat neaktivní kanál?",
+            "FacebookPageLinkCaption": "facebooková stránka",
+            "ActiveChannelCaption": "Aktivní",
+            "Telegram": {
+                "TelegramPageLinkCaption": "Telegramový kanál",
+                "InvalidTelegramToken": "Zadejte správný token pro vytvoření kanálu",
+                "TelegramTokenAlreadyExists": "Pro zadaný token již kanál existuje",
+                "ActiveWebhookErrorMessageForCreating": "Unable to create the channel because a webhook integration is set up for the Telegram bot. Please delete the webhook integration to add the channel."
+            },
+            "Tips": {
+                "Language": "Creatio nastaví vybraný jazyk jako preferovaný jazyk kontaktů vytvořených prostřednictvím tohoto kanálu. Můžete vybrat pouze aktivní jazyky. Pro aktivaci/deaktivaci přejděte na vyhledávání jazyků.",
+                "WhatsAppToken": "Zadejte AUTH TOKEN svého účtu Twilio.",
+                "WhatsAppId": "Zadejte SID svého účtu Twilio.",
+                "WhatsAppTestPhoneNumber": "Telefonní číslo, na které bude odeslána testovací zpráva pro potvrzení kanálu."
+            },
+            "WhatsApp": {
+                "PageLinkCaption": "WhatsApp kanál",
+                "ApplicationId": "ID aplikace",
+                "ChannelPhoneNumber": "Telefonní číslo",
+                "IntegrationPhoneNumber": "Ověřovací telefonní číslo",
+                "Connect": "Připojit",
+                "InvalidPhoneNumber": "Povolit pouze čísla",
+                "ChannelDuplicatedErrorMessage": "Pro zadané telefonní číslo již kanál existuje",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "Zadali jste neplatný identifikátor SID účtu Twilio",
+                    "InvalidAccountPhoneNumberException": "Zadali jste neplatné telefonní číslo aplikace WhatsApp",
+                    "AuthenticateException": "Zadali jste neplatný token"
+                }
+            },
+            "ValidationMessage": {
+                "required": "Zadejte hodnotu",
+                "wrongValue": "Špatná hodnota"
+            },
+            "ErrorCodes": {
+                "ActiveWebhook": "The “{{channelName}}” chat channel is not receiving messages because a webhook integration is set up for the Telegram bot. Please delete the webhook integration and activate this channel to enable message reception.",
+                "PollingConflict": "The “{{channelName}}” chat channel is not receiving messages because another Telegram bot instance is configured. Please delete the duplicate instance to enable message reception."
+            },
+            "Sms": {
+                "ChannelDuplicatedErrorMessage": "The channel already exists for the entered phone number",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "You entered an invalid Twilio account SID",
+                    "InvalidAccountPhoneNumberException": "You entered an invalid phone number",
+                    "AuthenticateException": "You entered an invalid Token"
+                }
+            },
+            "Twilio": {
+                "ErrorMessages": {
+                    "ValidationException": "Unable to connect to Twilio. Please check that your account SID and token are correct and try again."
+                }
+            }
+        },
+        "ChatQueueDetail": {
+            "Title": "Fronty chatu",
+            "Columns": {
+                "Name": "Jméno",
+                "Routing": {
+                    "Caption": "Pravidlo směrování"
+                },
+                "Simultaneous": "Souběžné chaty",
+                "Timeout": "Časový limit chatu, minuty"
+            }
+        },
+        "ChatActionsDetail": {
+            "Title": "Akce chatu",
+            "Columns": {
+                "Caption": "Nadpis",
+                "Process": "Proces",
+                "Queue": "Fronta"
+            },
+            "Actions": {
+                "Delete": "Vymazat"
+            }
+        },
+        "ChatQueuePage": {
+            "Title": "Fronta",
+            "Name": "Jméno",
+            "OperatorRoutingRule": "Pravidlo směrování",
+            "SimultaneousChats": "Souběžné chaty",
+            "TimeToWaitInQueue": "Doba čekání ve frontě",
+            "Timeout": "Časový limit pro dokončení chatu, minuty",
+            "Tips": {
+                "SimultaneousChats": "Maximální počet chatů na jednoho operátora",
+                "Timeout": "Maximální doba čekání před automatickým dokončením chatu"
+            },
+            "ValidationMessage": {
+                "required": "Zadejte hodnotu",
+                "wrongValue": "Špatná hodnota",
+                "nonNegativeValue": "Nelze zadat zápornou hodnotu",
+                "nonNumericValue": "Nelze zadat jinou než číselnou hodnotu"
+            }
+        },
+        "ChatActionPage": {
+            "Title": "Akce chatu",
+            "Caption": "Nadpis",
+            "Process": "Proces",
+            "ChatQueue": "Fronta chatu",
+            "ValidationMessage": {
+                "required": "Zadejte hodnotu"
+            }
+        },
+        "ChatQueueOperatorDetail": {
+            "Title": "Agenti ve frontě",
+            "Columns": {
+                "Operator": {
+                    "Caption": "Uživatel/role"
+                }
+            },
+            "DuplicationMessage": "Úloha již existuje. Chcete-li pokračovat, zvolte prosím jiného operátora/roli"
+        }
+    },
+    "IntegrationDiagnostics": {
+        "EmailListener": {
+            "Header": "Email Listener service diagnostics",
+            "MailBoxAvailabilityCheck": "Kontrola stavu poštovní schránky",
+            "ExchangeListenerAvaibilityCheck": "Ověření dostupnosti služby",
+            "GetSubscriberInfo": "Příjem informací o předplatném",
+            "StartDiagnosticButtonCaption": "Spusťte diagnostiku",
+            "StartFullDiagnosticButtonCaption": "Spusťte úplnou diagnostiku",
+            "MailBoxLookupCaption": "E-mailová schránka",
+            "SuccessfulOperation": "Úspěšná operace",
+            "UnSuccessfulOperation": "Chyba",
+            "ELAvailabilityDescription": "Email Listener service is available for this site",
+            "ELNotAvailabilityDescription": "Email Listener service is currently not available for this site",
+            "ValidateCreatioExchangeEndpoint": "Ověření správnosti vyplnění systémového nastavení BpmonlineExchangeEventsEndpointUrl",
+            "CreatioExchangeEndpontErrorValidationInfoTemplate": "Koncový bod není platný\nOčekávaná hodnota: {0}/NewEmail\nSkutečná hodnota: {1}\nZkontrolujte nastavení systému BpmonlineExchangeEventsEndpointUrl je plný!",
+            "CreatioExchangeEndpontSuccessValidationInfoTemplate": "Koncový bod {0} je platný",
+            "SendTestEmail": "Odeslat testový e-mail",
+            "MailboxAvailabilityDiagnosticTooltip": "Nutno vyplnit emailovou schránku",
+            "MailboxDiagnosticSuccessDescriptor": "Tato emailová schránka byla úspěšně ověřena",
+            "NameCaption": "Název",
+            "FeaturesStateLabel": "Stav funkcí",
+            "ExchangeListenerEnabledFeatureCaption": "Synchronizace poštovní schránky Exchange (ExchangeListenerEnabled)",
+            "EmailIntegrationV2FeatureCaption": "Synchronizace emailových schránek Exchange a IMAP (EmailIntegrationV2)",
+            "SendEmailsV2FeatureCaption": "Odesílání e-mailů (SendEmailsV2)",
+            "OldEmailIntegrationFeatureCaption": "Stará e-mailová integrace (OldEmailIntegrationFeature, stav vypnuto)",
+            "IsMailboxSyncSettingsCachedFeatureCaption": "Mezipaměť nastavení synchronizace poštovní schránky (IsMailboxSyncSettingsCached)",
+            "ExchangeListenerAvailabilityCheck": "Creatio availability verification",
+            "ApplicationAvailabilityDescription": "Email Listener was able to reach Creatio",
+            "DiagnosticWasNotStarted": "Diagnostic was not started"
+        }
+    },
+    "StructureExplorerDialog": {
+        "NoData": "Žádná data",
+        "Title": "Vyberte pole",
+        "CancelButtonCaption": "Zrušit",
+        "SelectButtonCaption": "Vybrat",
+        "RelatedObjectsTabCaption": "Související objekty{0}",
+        "FieldsTabCaption": "{0} pole{1}",
+        "SearchPlaceHolder": "Vyhledávání",
+        "SearchClearIconTitle": "Clear search"
+    },
+    "EntityColumnValuePickerProvider": {
+        "ValueFromFieldCaption": "Hodnota z jiného pole"
+    },
+    "FormulaValuePickerProvider": {
+        "ValueFromFieldCaption": "Vzorec",
+        "CancelButtonCaption": "Zrušit",
+        "SelectButtonCaption": "Uložit",
+        "DialogTitleCaption": "Vyjádření vzorce"
+    },
+    "RepositorySection": {
+        "Title": "Seznam úložišť SVN",
+        "Actions": {
+            "Add": "Přidat",
+            "Edit": "Upravit",
+            "Authorize": "Ověřování",
+            "Delete": "Vymazat"
+        },
+        "Messages": {
+            "SuccessAuthorize": "Úspěšně jste se ověřili v úložišti"
+        },
+        "Columns": {
+            "Name": "Jméno",
+            "Address": "Adresa úložiště SVN",
+            "IsActive": "Aktivní",
+            "Login": "Přihlášovací jméno",
+            "Password": "Heslo"
+        },
+        "InfoBlock": {
+            "Title": "Důležité informace",
+            "TextPart1": "Přenos změn prostřednictvím SVN je určen pouze pro vývojová prostředí. Použijte ",
+            "TextPart2": " přenést změny do produkčního prostředí.",
+            "InstallAppsLink": "https://academy.creatio.com/docs/user/no-code_customization/apps_and_extensions/install_applications_from_the_marketplace",
+            "InstallAppsLinkText": "Nainstalovaná aplikace",
+            "LinksMessage": "Další informace o SVN najdete v Creatio Academy:",
+            "DeploymentInCreatioIDEInfoLinkText": "Nasazení v prostředí Creatio IDE",
+            "SetupVersionControlInfoLinkText": "Nastavení správy verzí",
+            "DeploymentInCreatioIDEInfoLink": "https://academy.creatio.com/docs/developer/development_tools/deployment/transferring_solutions_in_creatio_ide",
+            "SetupVersionControlInfoLink": "https://academy.creatio.com/docs/node/1164"
+        },
+        "Page": {
+            "Title": "Úložiště SVN",
+            "Actions": {
+                "Add": "Přidat",
+                "Apply": "Aplikovat",
+                "Cancel": "Zrušit",
+                "Authorize": "Ověřování"
+            },
+            "Validation": {
+                "Required": "Zadejte hodnotu",
+                "MaxLength": "Překročena maximální délka textu ({0}/{1})",
+                "NameField": {
+                    "Pattern": "Nesprávný formát názvu"
+                }
+            }
+        }
+    },
+    "dataSource": "Zdroj dat",
+    "lookup": "Vyhledat",
+    "lookupValueDeletion": "Při smazání vyhledávací hodnoty:",
+    "blockDeletionCaption": "Smazání bloku, pokud jsou v aktuálním objektu připojeny záznamy s touto hodnotou",
+    "DeleteRecordsCaption": "Smazat záznamy z aktuálního objektu s touto hodnotou",
+    "lookupView": "Vyhledávací náhled",
+    "selectionWindow": "Okno výběru",
+    "list": "Seznam",
+    "columnFormat": "Datový typ",
+    "columnNumberFormat": "Datový typ",
+    "selectValueCaption": "Zadejte hodnotu",
+    "DataValueType": {
+        "TextCaption": "lCaption",
+        "ShortTextCaption": "Text (50 znaků)",
+        "PhoneTextCaption": "Telefonní číslo",
+        "MediumTextCaption": "Text (250 znaků)",
+        "LongTextCaption": "Text (500 znaků)",
+        "MaxSizeTextCaption": "Neomezená délka textu",
+        "SecureTextCaption": "Šifrovaný řetězec",
+        "HashTextCaption": "CRC",
+        "IntegerCaption": "Celé číslo",
+        "FLOAT1Caption": "Desetinné číslo (0,1)",
+        "FLOAT2Caption": "Desetinné číslo (0,01)",
+        "FLOAT3Caption": "Desetinné číslo (000,1)",
+        "FLOAT4Caption": "Desetinné číslo (0.0001)",
+        "FLOAT8Caption": "Desetinné číslo (0.00000001)",
+        "MoneyCaption": "Currency (0.01)",
+        "DateTimeCaption": "Datum/čas",
+        "DateCaption": "Datum",
+        "TimeCaption": "Čas",
+        "BooleanCaption": "Logický",
+        "ImageCaption": "Obrázek",
+        "ImageLookupCaption": "Odkaz na obrázek",
+        "FileCaption": "Soubor",
+        "ColorCaption": "Barva",
+        "GuidCaption": "Unikátní identifikátor",
+        "BlobCaption": "BLOB",
+        "LookupCaption": "Vyhledat",
+        "Entity": "Objekt (Entita)",
+        "EntityCollection": "Kolekce objektů (EntityCollection)",
+        "EntityColumnMappingCollection": "Hodnoty sloupců objektu",
+        "CustomObject": "Objekt",
+        "Collection": "Výčet",
+        "LocalizableString": "Lokalizovatelný řetězec",
+        "MetaDataText": "Nelokalizovatelný řetězec",
+        "ObjectList": "Serializovatelný seznam hodnot",
+        "CompositeObjectList": "Serializovatelný seznam složených hodnot",
+        "FloatCaption": "Desetinné číslo",
+        "RichCaption": "Rich text",
+        "PhoneTextShortenedCaption": "Telefon",
+        "WebTextCaption": "Web link",
+        "EmailTextCaption": "E-mailová adresa",
+        "EmailTextShortenedCaption": "E-mail",
+        "TimerCaption": "Časovač",
+        "LocalTimeCaption": "Local time",
+        "CompositeObject": "Composite value",
+        "FLOAT0Caption": "Decimal (0)",
+        "Money0Caption": "Currency (0)",
+        "Money1Caption": "Currency (0.1)",
+        "Money3Caption": "Currency (0.001)"
+    },
+    "CodeMirror": {
+        "HotkeysDescription": "Klávesnicové zkratky:",
+        "SelectAll": "Ctrl-A Vybrat vše",
+        "Undo": "Ctrl-Z Vrátit",
+        "Redo": "Shift-Ctrl-Z Redo",
+        "Find": "Ctrl-F Nalézt",
+        "FindNext": "F3 Find next",
+        "FindPrev": "Shift-F3 Find previous",
+        "Replace": "Shift-Ctrl-F Nahradit",
+        "ReplaceAll": "Shift-Ctrl-R Nahradit vše",
+        "DeleteLine": "Ctrl-Y Delete line",
+        "GoLineStart": "Alt-Left Přejít na začátek řádku",
+        "GoLineEnd": "Alt-Right Přejít na konec řádku",
+        "JmpToLine": "Alt-G \nPřejít na řádek",
+        "Fullscreen": "F11 Editor kódu na celou obrazovku",
+        "FullscreenExit": "Esc Ukončení celoobrazovkového režimu",
+        "Autocomplete": "Ctrl-Space Vyvolání automatického dokončování"
+    },
+    "CDK": {
+        "IndicatorWidget": {
+            "Caption": "Metrický"
+        },
+        "ChartWidget": {
+            "Line": {
+                "Caption": "Řádek"
+            },
+            "Spline": {
+                "Caption": "Křivka"
+            },
+            "Area": {
+                "Caption": "Plocha"
+            },
+            "Scatter": {
+                "Caption": "Rozptyl"
+            },
+            "Bar": {
+                "Caption": "Sloupec"
+            },
+            "HorizontalBar": {
+                "Caption": "Bar"
+            },
+            "Pie": {
+                "Caption": "Koláč"
+            },
+            "Doughnut": {
+                "Caption": "Kobliha"
+            },
+            "Tsfunnel": {
+                "Caption": "Pipeline"
+            },
+            "Common": {
+                "EmptyValue": "Hodnota není definována",
+                "ShowSeriesDataCaption": "Show data by series",
+                "ShowDataCaption": "Zobrazit data",
+                "DrillDownCaption": "Rozbalit položku",
+                "ExportDataBtnCaption": "Export do Excelu",
+                "HideSeries": "Skryt",
+                "ShowDataForSelectedSeriesCaption": "Show data for this series",
+                "ShowSeries": "Show",
+                "BooleanTrueValue": "Ano",
+                "BooleanFalseValue": "Ne",
+                "ShowDataAsTableCaption": "Show data as table"
+            },
+            "ChangeChartType": {
+                "Caption": "Upravit typ grafu"
+            },
+            "With": {
+                "Caption": "with"
+            },
+            "Series": {
+                "Caption": "řady"
+            },
+            "ScreenReader": {
+                "AnnounceChartTypeChange": "Chart type changed to {{chartType}}"
+            }
+        },
+        "FunnelWidget": {
+            "OpportunityFunnel": {
+                "Caption": "Prodejní pipeline",
+                "ByCountLabelTemplate": "{0}",
+                "StageConversionLabelTemplate": "{0}%",
+                "ToFirstStageLabelTemplate": "{0}%",
+                "ByCountBtnLabel": "Počet příležitostí",
+                "StageConversionBtnLabel": "Stupeň konverze",
+                "ToFirstStageBtnLabel": "Pipeline Konverze",
+                "DefaultTitle": "Nová pipeline"
+            },
+            "FullPipelineFunnel": {
+                "Caption": "Kompletní pipeline",
+                "ByCountBtnLabel": "Počet záznamů",
+                "StageConversionBtnLabel": "Stupeň konverze",
+                "ToFirstStageBtnLabel": "Pipeline Konverze",
+                "DefaultTitle": "Nová pipeline"
+            },
+            "Tooltip": {
+                "CountInStage": "Počet",
+                "CountInStageValue": "{0}",
+                "Amount": "Množství",
+                "AmountValue": "{0} {1}",
+                "ConversionToStage": "Konverze",
+                "ConversionToStageValue": "{0}%",
+                "ConversionToFirstStage": "Konverze",
+                "ConversionToFirstStageValue": "{0}%",
+                "ConversionToStageCount": "Počet",
+                "ConversionToStageCountValue": "{0}",
+                "ConversionToFirstStageCount": "Počet",
+                "ConversionToFirstStageCountValue": "{0}"
+            }
+        },
+        "GaugeWidget": {
+            "Caption": "Šklála"
+        },
+        "HeaderWidget": {
+            "Fullscreen": {
+                "ExpandLabel": "Expand fullscreen",
+                "CollapseLabel": "Collapse fullscreen"
+            },
+            "Direction": {
+                "Menu": {
+                    "Caption": "Chart position"
+                },
+                "Column": {
+                    "Caption": "Above"
+                },
+                "Row": {
+                    "Caption": "Vlevo"
+                },
+                "RowReverse": {
+                    "Caption": "Vpravo"
+                }
+            }
+        },
+        "ByCaption": "pro",
+        "ByColumnCaption": "by column",
+        "WhereColumnCaption": "where",
+        "IsColumnCaption": "is",
+        "ListWidget": {
+            "Caption": "List widget",
+            "Hint": "A component that combines a fully functional list with a customizable colored frame, ensuring visual consistency when placed alongside other analytics widgets"
+        },
+        "WaterfallWidget": {
+            "Caption": "Waterfall pipeline",
+            "DefaultTitle": "New waterfall pipeline"
+        },
+        "SalesWaterfallWidget": {
+            "Caption": "Sales waterfall pipeline",
+            "DefaultTitle": "New sales waterfall pipeline"
+        }
+    },
+    "Components": {
+        "Input": {
+            "Caption": "lCaption"
+        },
+        "NumberInput": {
+            "Caption": "Číslo"
+        },
+        "Button": {
+            "Caption": "Tlačítko",
+            "DefaultActionNotificationMessageText": "Data saved successfully"
+        },
+        "Checkbox": {
+            "Caption": "Zaškrtávací pole"
+        },
+        "Combobox": {
+            "Caption": "Rozbalovací nabídka",
+            "AddNewRecord": "Přidat nový",
+            "IsGoToSourceAllowedTooltip": "Go to record list"
+        },
+        "DataGrid": {
+            "Caption": "Seznam",
+            "Hint": "A customizable data display component that allows users to view and interact with structured information"
+        },
+        "DateTimePicker": {
+            "Caption": "Datum/čas"
+        },
+        "Gallery": {
+            "Caption": "Galerie"
+        },
+        "ColorPicker": {
+            "Caption": "Výběr barev"
+        },
+        "Label": {
+            "Caption": "Označení"
+        },
+        "ExpansionPanel": {
+            "Caption": "Rozšiřující panel"
+        },
+        "TabPanel": {
+            "Caption": "Karty",
+            "AddTab": "Přidat kartu",
+            "DeleteTab": "Smazat Kartu",
+            "DefaultTab1Name": "Tab 1",
+            "DefaultTab2Name": "Tab 2",
+            "NewTabName": "Nová záložka",
+            "DeleteTabConfirmation": "Delete the \"{0}\" tab and all items inside?",
+            "DefaultLabel1Name": "Label 1",
+            "DefaultLabel2Name": "Label 2",
+            "NewLabelName": "New label"
+        },
+        "Slider": {
+            "Caption": "Slider"
+        },
+        "ExpandedList": {
+            "Caption": "Expanded list",
+            "Hint": "The Expanded list includes a list, a expandable group, and an add entry button. Recommended to use on pages to display related information.",
+            "AddBtnCaption": "Nový",
+            "RefreshBtnCaption": "Obnovit",
+            "SettingsBtnCaption": "Akce",
+            "ExportDataBtnCaption": "Export do Excelu",
+            "ImportDataBtnCaption": "Import dat"
+        },
+        "ActionDashboard": {
+            "Caption": "Action dashboard",
+            "Hint": "Displays information about the current state of a record using the workflow bar and the action panel. It is recommended to use the component on the form page."
+        },
+        "MenuItem": {
+            "Caption": "Položka menu"
+        },
+        "FileInput": {
+            "Caption": "Soubor",
+            "LabelCaption": "File to upload",
+            "Placeholder": "Choose file"
+        },
+        "Breadcrumbs": {
+            "Back": "Zpět"
+        },
+        "File": {
+            "Caption": "Soubor",
+            "Label": "File to upload",
+            "Placeholder": "Choose file"
+        },
+        "Attachment": {
+            "Caption": "Přílohy",
+            "Hint": "The Attachments component includes a file list, an expandable group, an upload file button, a refresh button. Recommended to use on a form page to display related attachments.",
+            "AddBtnCaption": "Nahrát",
+            "RefreshBtnCaption": "Obnovit"
+        },
+        "RichTextEditor": {
+            "Caption": "Rich text"
+        },
+        "TogglePanel": {
+            "Caption": "Toggle panel",
+            "Hint": "The container includes a collapsible tab container and a button block that allows you to control the display of tabs. You can place containers and buttons in different parts of the page independently of each other."
+        },
+        "Timeline": {
+            "Caption": "Časová osa",
+            "AddObject": "+ Add object",
+            "ProvideDataSource": "Provide data source before using timeline",
+            "Tile": {
+                "TileObjectTitle": "Objekt: "
+            },
+            "DesignerCustomEntities": {
+                "Email": {
+                    "Caption": "E-mail"
+                },
+                "Feed": {
+                    "Caption": "Sociální síť"
+                },
+                "Task": {
+                    "Caption": "Úkol"
+                },
+                "SysFile": {
+                    "Caption": "Soubor"
+                }
+            },
+            "Hint": "The component displays communication history and related records in chronological order"
+        },
+        "ImageInput": {
+            "Caption": "Obrázek",
+            "LabelCaption": "Image to upload"
+        },
+        "SearchFilter": {
+            "Caption": "Hledat",
+            "Placeholder": "Hledat",
+            "Tooltip": "The Search component allows to search only by text, number and lookup columns with direct connections to list object.",
+            "ComparisonType": {
+                "StartsWith": "Search matches values that start with your input.",
+                "Contains": "Search matches values that contain your input."
+            }
+        },
+        "Approval": {
+            "Caption": "Schvalování"
+        },
+        "ApprovalList": {
+            "Caption": "Approvals list",
+            "RefreshCaption": "Obnovit",
+            "ProvideDataSource": "Provide data source before using approvals"
+        },
+        "ProgressBar": {
+            "Caption": "Progress bar",
+            "Hint": "Stages execution indicator",
+            "ProvideDataSource": "Provide data source before using Progress bar"
+        },
+        "CommunicationOptions": {
+            "Caption": "Možnosti komunikace",
+            "Hint": "The  component displays Contact or Account communication options",
+            "AddBtnCaption": "Add communication option"
+        },
+        "CampaignViewer": {
+            "Caption": "Campaign viewer",
+            "Hint": "Displays campaign schema"
+        },
+        "TagSelect": {
+            "Caption": "Štítky"
+        },
+        "Summaries": {
+            "Caption": "Summaries"
+        },
+        "CalendarCaption": "Kalendář",
+        "EntityHierarchyFilter": {
+            "Caption": "Hierarchy",
+            "AllCaption": "Vše",
+            "Hint": "Hierarchy view lets you configure the hierarchy structure by lookup columns to organize records. To ensure the component operates as intended, connect it in the page List or Data source settings"
+        },
+        "IndicatorWidget": {
+            "Caption": "Nový ukazatel"
+        },
+        "Chat": {
+            "Caption": "Chat",
+            "Hint": "The component for real-time chatting and displaying previous conversations"
+        },
+        "ChartWidget": {
+            "Caption": "Nový graf"
+        },
+        "GaugeWidget": {
+            "Caption": "Nová škála"
+        },
+        "Dashboards": {
+            "Caption": "Dashboardy",
+            "Hint": "The Dashboards component lets you configure the data source, connect the component to the page where the component is placed, and create a new or change an existing dashboard"
+        },
+        "Toggle": {
+            "Caption": "Switcher"
+        },
+        "DataGridHierarchical": {
+            "Caption": "Hierarchical list",
+            "Hint": "A data display component that allows users to view and interact with structured information organized in a multi-level hierarchy"
+        },
+        "Feed": {
+            "Caption": "Kanál"
+        },
+        "Divider": {
+            "Caption": "Oddělovač"
+        },
+        "Switch": {
+            "Caption": "Switch"
+        }
+    },
+    "LayoutElements": {
+        "GridArea1": {
+            "Caption": "Plocha"
+        },
+        "GridColumn1": {
+            "Caption": "1 sloupec"
+        },
+        "GridColumn2": {
+            "Caption": "2 sloupce"
+        },
+        "GridColumn3": {
+            "Caption": "3 sloupce"
+        },
+        "GridColumn4": {
+            "Caption": "4 sloupce"
+        },
+        "FlexRow": {
+            "Caption": "Řádek Flex",
+            "Hint": "Lines up several elements horizontally. Creatio may resize the elements depending on the content. For example, place two buttons or a field and a button next to each other. Learn more in the Academy."
+        },
+        "FlexColumn": {
+            "Caption": "Sloupec Flex",
+            "Hint": "Lines up several elements vertically. Creatio may resize the elements depending on the content. For example, create a column with two blocks. Learn more in the Academy."
+        }
+    },
+    "HomePage": {
+        "DialogMessages": {
+            "RequiredFieldsAreNotFilled": "Nejsou vyplněna povinná pole nebo stránka obsahuje chyby ověření."
+        }
+    },
+    "DesignerSettingsComponent": {
+        "HeaderCaption": "Nastavení grafu"
+    },
+    "InterfaceDesigner": {
+        "AddMenu": {
+            "NewDataSource": "Nový zdroj dat",
+            "ExistingDataSource": "Stávající zdroj dat",
+            "AddDataSource": "Přidat datový zdroj"
+        },
+        "DataSourceActions": {
+            "Edit": "Upravit",
+            "RemoveAttribute": "Vymazat",
+            "Remove": "Vymazat",
+            "RemoveExistingDataSourceMessage": "Are you sure you want to remove the data source? Any unsaved changes to its object will be lost.",
+            "RemoveNewDataSourceMessage": "Are you sure you want to remove the data source? This will permanently delete the new object as it hasn’t been saved yet.",
+            "RemoveDataSourceWithReferencesMessage": "Remove the referenced elements before deleting the data source",
+            "RemoveDataSourceSuccessMessage": "The data source has been deleted"
+        },
+        "SetupDataSourceDialog": {
+            "SetupDataSourceTitle": "Nastavení zdroje dat",
+            "CancelButtonDialog": "Zrušit",
+            "SelectButtonDialog": "Vybrat",
+            "Object": "Objekt",
+            "SelectDataSource": "Select data source"
+        },
+        "SetupEntityProperties": {
+            "NameColumnCaption": "Název"
+        },
+        "SetupEntityPropertiesDialog": {
+            "Name": "Název",
+            "Description": "Poznámky",
+            "SaveButton": "Uložit",
+            "CancelButton": "Zrušit",
+            "Code": "Kód",
+            "Validations": {
+                "RequiredNameCaption": "Zadejte hodnotu"
+            }
+        },
+        "CopyPostfixCaption": "Kopírovat",
+        "DesignElementSetting": {
+            "SettingsTitle": "Nastavení",
+            "DuplicateTitle": "Kopírovat",
+            "DeleteTitle": "Vymazat"
+        },
+        "Messages": {
+            "SuccessfullySaved": "Úspěšně uloženo"
+        },
+        "PropertiesPages": {
+            "EntityDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "Obecné"
+            },
+            "EntityDataSourcePropertiesPanel": {
+                "GeneralGroup": "Obecné",
+                "PrimaryDataSource": "Primary data source",
+                "PrimaryDataSourceChangeConfirm": "The primary data source for this page will be changed. Do you want to save changes?",
+                "BusinessRulesGroup": "Byznys pravidla",
+                "Relations": "Relations setup",
+                "FiltersAndSorting": "Filters and sorting",
+                "isIndependentDataSource": "Independent data source",
+                "isIndependentDataSourceTooltip": "If enabled, this data source will always load data based only on its static filter and sorting criteria, regardless of the main record",
+                "ApplyStaticFilter": "Apply static filter",
+                "EditStaticFilterAction": "Edit filter",
+                "SetupStaticFilterAction": "Nastavit filtr",
+                "FiltersDialogCaption": "Manually defined filter",
+                "DoNotCreateEmptyRecordsLabel": "Do not create empty records",
+                "DoNotCreateEmptyRecordsTooltip": "If enabled, empty records will not be generated when the user has not changed any fields (including the default values set on object level) of this data source",
+                "KeepValuesOnCopy": "Keep values on copy",
+                "KeepValuesOnCopyTooltip": "If enabled, the record of this data source will be copied when copying the record of the main data source using this page",
+                "SchemaHasChanged": "Cannot set up a static filter if the new data source is not saved yet. Save the page and try again"
+            },
+            "ExpansionPanelPropertiesPage": {
+                "PageCaption": "Nastavení rozšiřujícího panelu",
+                "GeneralCaption": "Obecné",
+                "TitleLabel": "Nadpis",
+                "ToggleTypeLabel": "Styl",
+                "TogglePositionLabel": "Poloha tlačítka",
+                "ColorLabel": "Barva názvu",
+                "DefaultToggleTypeLabel": "Výchozí",
+                "MaterialToggleTypeLabel": "Akordeon",
+                "BeforeTogglePositionLabel": "Vlevo",
+                "AfterTogglePositionLabel": "Vpravo",
+                "FullWidthHeaderCaption": "Full width header",
+                "TitleWidthCaption": "Title width",
+                "PaddingGroup": "Spacing",
+                "Padding": {
+                    "Top": "Hlavička",
+                    "Bottom": "Dole",
+                    "Left": "Vlevo",
+                    "Right": "Vpravo"
+                }
+            },
+            "LabelPropertiesPage": {
+                "PageCaption": "Nastavení štítků",
+                "GeneralCaption": "Obecné",
+                "TitleLabel": "lCaption",
+                "TypeLabel": "Styl",
+                "TextAlignLabel": "Zarovnat",
+                "ThicknessLabel": "Formát",
+                "FontSizeLabel": "Velikost, px",
+                "FontColorLabel": "Barva textu",
+                "BackgroundColorLabel": "Barva pozadí",
+                "AlignLeftCaption": "Vlevo",
+                "AlignCenterCaption": "Střed",
+                "AlignRightCaption": "Vpravo",
+                "AlignJustifyCaption": "Odůvodnit",
+                "TypeH1Caption": "H1",
+                "TypeH2Caption": "H2",
+                "TypeH3Caption": "H3",
+                "TypeH4Caption": "H4",
+                "TypeH5Caption": "H5",
+                "TypeBody1Caption": "Hlavní text",
+                "TypeCaptionCaption": "Nadpis",
+                "TypeBlankslateCaption": "Blankslate",
+                "ThicknessLightCaption": "Lehké",
+                "ThicknessNormalCaption": "Normální",
+                "ThicknessSemiboldCaption": "Polotučné",
+                "ThicknessBoldCaption": "Tučně",
+                "ThicknessDefaultCaption": "Výchozí",
+                "TypeLarge1Caption": "Large 1",
+                "TypeLarge2Caption": "Large 2",
+                "TypeLarge3Caption": "Large 3",
+                "TypeLarge4Caption": "Large 4",
+                "TypeHeadline1Caption": "Headline 1",
+                "TypeHeadline1SmallCaption": "Headline 1 small",
+                "TypeHeadline2Caption": "Headline 2",
+                "TypeHeadline3Caption": "Headline 3",
+                "TypeHeadline4Caption": "Headline 4",
+                "TypeBodyLargeCaption": "Body large",
+                "TypeBodyCaption": "Text",
+                "TypeCaptionLargeCaption": "Caption large",
+                "TypePlaceholderLargeCaption": "Placeholder large",
+                "TypePlaceholderCaption": "Placeholder",
+                "TypeButtonCaption": "Tlačítko",
+                "TypeButtonSmallCaption": "Button small",
+                "AttributeBindingCaption": "The element contains preconfigured data display logic. If you need to implement alternative logic, then remove the element value.",
+                "ClearAttributeBinding": "Vyčistit hodnotu",
+                "HeadingLevelCaption": "Heading level",
+                "HeadingLevelInfo": "The heading level helps better organize content on the page and improves its accessibility"
+            },
+            "DataGridPropertiesPage": {
+                "PageCaption": "Nastavení seznamu",
+                "GeneralCaption": "Základní",
+                "DataSourceCaption": "Objekt",
+                "ChangeFilters": "Change filter",
+                "AttributeBindingUsage": "Attribute value used",
+                "MassActions": "Bulk actions",
+                "ApplyStaticFilter": "Apply static filter",
+                "SetupStaticFilterAction": "Nastavit filtr",
+                "EditStaticFilterAction": "Edit filter",
+                "Appearance": {
+                    "AppearanceGroup": "Appearance",
+                    "Editable": "Inline editing",
+                    "ItemsCreation": "Inline adding records",
+                    "FloatingEditPanel": "Floating edit panel",
+                    "FloatingEditPanelHint": "Enables users to use the floating edit panel to save or cancel changes in the editable list. When cleared, users can still use Save and Cancel page buttons for that purpose",
+                    "RowsNumeration": "Row numbers",
+                    "RowsMultiSelection": "Multiselect",
+                    "RowsLimit": "Limit number of rows",
+                    "RowsLimitPlaceholder": "Enter maximum number of rows",
+                    "RowsLimitTooltip": "Set a maximum number of records to display in the list. This is useful when you want to show a specific number of items — for example, \"Top 5 customers\".</br>When a limit is set, the “Select all” option is not available.",
+                    "Header": "List header",
+                    "ColumnsSorting": "Sorting",
+                    "ColumnsResizing": "Resizable columns",
+                    "ColumnsDragAndDrop": "Draggable columns"
+                },
+                "RowsNumeration": "Row numbers",
+                "StyleLabel": "Styl",
+                "Styles": {
+                    "PlainWhite": "Obyčejná bílá",
+                    "Glassmorphism": "Glass effect"
+                }
+            },
+            "ViewElementEventPropertiesPanel": {
+                "EventFieldLabel": "Akce",
+                "Requests": {
+                    "RunBusinessProcessRequest": "Spustit proces",
+                    "ClosePageRequest": "Close page",
+                    "SaveRecordRequest": "Save data",
+                    "CancelRecordChangesRequest": "Cancel changes",
+                    "OpenPageRequest": "Open specific page",
+                    "CreateRecordRequest": "Open new record",
+                    "UpdateRecordRequest": "Open existing record",
+                    "LoadDataRequest": "Refresh data",
+                    "ExportDataGridToExcelRequest": "Export do Excelu",
+                    "ImportDataRequest": "Import dat",
+                    "UploadFileRequest": "Nahrát soubor",
+                    "SetRecordRightsRequest": "Nastavit oprávnění",
+                    "ShowRelationshipsRequest": "Show record's relationships",
+                    "OpenDuplicatesPageRequest": "Open duplicates page",
+                    "AddСommunicationOptionsRequest": "Add communication option",
+                    "DeleteRecordsRequest": "Delete data",
+                    "ContinueInOtherPageRequest": "Continue in other page",
+                    "SelectLookupPageRequest": "Select data",
+                    "AddTagsInRecordsRequest": "Add tags",
+                    "RemoveTagsInRecordsRequest": "Remove tags",
+                    "PrintablesRequest": "Print report",
+                    "SetCalendarTimeScaleRequest": "Set calendar time scale",
+                    "AddCalendarSyncAccountRequest": "Add calendar synchronization account",
+                    "AddRecordsInStaticFoldersRequest": "Add records to static folder",
+                    "RemoveRecordsInStaticFoldersRequest": "Remove records from static folder",
+                    "CreateEmailRequest": "Create an email",
+                    "SendInvitesForActivityRequest": "Send invite",
+                    "MoveSelectedItemsRequest": "Move selected records",
+                    "CopilotActionRequest": "Creatio.ai action",
+                    "OpenChangeLogRequest": "Open change log",
+                    "SetupCalendarSyncAccountRequest": "Set up calendar synchronization account",
+                    "ToggleFollowFeedRequest": "Follow/Unfollow Feed",
+                    "DeleteRecordRequest": "Smazat záznam",
+                    "SetAttributeFromBarcodeRequest": "Open Barcode scanner",
+                    "SetAttributeFromNfcRequest": "Open NFC reader",
+                    "UpdateQuickFilterGroupRequest": "Setup filters"
+                },
+                "RunBusinessProcessRequest": {
+                    "WhichProcessRunQuestion": "Který proces chcete spustit?",
+                    "AddNewBusinessProcessButton": "Přidat nový proces",
+                    "SelectBusinessProcessButton": "Otevřít návrhář procesů",
+                    "HowProcessRunQuestion": "Jak spustit tento proces?",
+                    "HowProcessRunLabel": "Procesní parametr, do něhož se promítá záznam",
+                    "HowRunProcessOptions": {
+                        "ForTheSelectedPage": "Pro vybranou stránku",
+                        "RegardlessOfThePage": "Bez ohledu na stránku",
+                        "ForTheSelectedRecords": "For the selected records in list"
+                    },
+                    "DataSourceFieldCaption": "Which list to run process for?",
+                    "SaveAtProcessStart": "Save data before process start",
+                    "AnnounceProcessStart": "Show notification for process start",
+                    "NotificationTextFieldName": "Notification text",
+                    "DefaultNotificationText": "Process started"
+                },
+                "OpenPageRequest": {
+                    "Title": "Jakou stránku otevřít?",
+                    "OpenPageInDesignerTitle": "Open interface designer",
+                    "AddNewPage": "Přídat novou kartu",
+                    "PageParameters": "Parametry stránky"
+                },
+                "CreateRecordRequest": {
+                    "WhichRecordToCreateLabel": "Which record to create?",
+                    "DefaultAttributeValuesLabel": "Jaké hodnoty sloupců nastavit?"
+                },
+                "UpdateRecordRequest": {
+                    "WhichObjectToOpenRecordOfLabel": "Which object to open record of?",
+                    "WhichRecordToOpenLabel": "Which record to open?"
+                },
+                "LoadDataRequest": {
+                    "DataRefreshModeLabel": "Data refresh mode",
+                    "DataRefreshModeOptions": {
+                        "RefreshAll": "Refresh all",
+                        "RefreshSpecific": "Refresh specific data sources"
+                    },
+                    "DataSourcesSelection": {
+                        "DataSourceLabel": "Datový zdroj",
+                        "RefreshAll": {
+                            "Title": "Which data sources to exclude?",
+                            "Tooltip": "In “Refresh all” mode, all page data sources will be refreshed — including those added after this action is configured. Use this list to exclude specific data sources from being refreshed."
+                        },
+                        "RefreshSpecific": {
+                            "Title": "Which data sources to refresh?",
+                            "Tooltip": "Select the data sources that should be refreshed when the button is clicked."
+                        }
+                    }
+                },
+                "ExecuteCustomCode": "Execute custom code",
+                "OpenDuplicatesPageRequest": {
+                    "WhichObjectToOpenDuplicatesOfLabel": "Which application duplicates should be opened?"
+                },
+                "ShowRelationshipsRequest": {
+                    "SelectEntityLabel": "Which object to use?",
+                    "SelectRecordIdLabel": "By which column to connect?"
+                },
+                "SetCalendarTimeScaleRequest": {
+                    "Calendar": "Component to control",
+                    "TimeScale": "Time scale",
+                    "FiveMinutes": "5 minut",
+                    "TenMinutes": "10 minut",
+                    "FifteenMinutes": "15 minut",
+                    "ThirtyMinutes": "30 minut",
+                    "OneHour": "1 hod"
+                },
+                "SendInvitesForActivityRequest": {
+                    "ActivityColumn": "Activity column",
+                    "RequiredFieldError": "This field is required"
+                },
+                "MoveSelectedItemsRequest": {
+                    "SourceDataGridComboBoxLabel": "Move data from",
+                    "TargetDataGridComboBoxLabel": "Move data to",
+                    "DefaultValuesLabel": "Select which columns should be moved",
+                    "DefaultValuesHint": "Select columns which values should be moved from the initial data source to the target data source."
+                },
+                "OpenChangeLogRequest": {
+                    "LogDisplaySettings": "Log display settings",
+                    "OpenLogForRecord": "Open the log for a selected record",
+                    "OpenLogForObject": "Open the log for an object",
+                    "WhichDataSourceOpenLog": "Which data source to open the log with?",
+                    "WhichObjectOpenLog": "Which object to open the log for?"
+                },
+                "SetFollowFeedRequest": {
+                    "Feed": "Feed component to control"
+                },
+                "SetAttributeFromBarcodeRequest": {
+                    "ColumnNameControl": {
+                        "Label": "Which column to set result to?",
+                        "RequiredFieldError": "This field is required"
+                    },
+                    "LookupFilterColumn": {
+                        "Label": "Search column name"
+                    }
+                }
+            },
+            "DefaultAttributeValues": {
+                "AddAttribute": "Nové pole"
+            },
+            "ActionDashboardPropertiesPage": {
+                "PageCaption": "Action dashboard settings",
+                "GeneralCaption": "Základní",
+                "DataSource": "Datový zdroj",
+                "GoToCasesButtonCaption": "Set up cases",
+                "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+                "ChannelsCaption": "Kanály",
+                "CallAction": "Hovor",
+                "EmailAction": "E-mail",
+                "FeedAction": "Feed message",
+                "ActivityAction": "Úkol",
+                "CasesDisabledTitle": "Cases cannot be set up for the data source"
+            },
+            "PropertiesPanelIconSettings": {
+                "UseIcon": "Use icon",
+                "IconPositionLabel": "Umístění",
+                "IconPosition": {
+                    "LeftIcon": "Icon left",
+                    "RightIcon": "Icon right",
+                    "OnlyIcon": "Only icon",
+                    "OnlyText": "Only text"
+                },
+                "IconLabel": "Ikona"
+            },
+            "TabItemPropertiesPage": {
+                "GeneralGroup": "Základní",
+                "CaptionLabel": "Popisek",
+                "AppearanceGroup": "Vzhled",
+                "IconPosition": {
+                    "LeftIcon": "Icon left",
+                    "OnlyIcon": "Only icon",
+                    "OnlyText": "Only text"
+                },
+                "PaddingGroup": "Spacing",
+                "Padding": {
+                    "Top": "Hlavička",
+                    "Bottom": "Dole",
+                    "Left": "Vlevo",
+                    "Right": "Vpravo"
+                }
+            },
+            "MenuItemPropertiesPanel": {
+                "GeneralGroup": "Základní",
+                "CaptionLabel": "Popisek",
+                "ActionLabel": "Akce",
+                "AppearanceGroup": "Vzhled"
+            },
+            "GalleryPropertiesPanel": {
+                "PageCaption": "Gallery settings",
+                "GeneralCaption": "Základní",
+                "AdditionalCaption": "Dodatečné",
+                "DataSourceCaption": "Objekt",
+                "CaptionColumnField": "Titulek",
+                "DescriptionColumnField": "Poznámky",
+                "ImageColumnField": "Obrázek",
+                "SelectableConfigField": "Selectable",
+                "AppearanceGroup": "Appearance",
+                "MultiselectConfigField": "Multiselect",
+                "UseSpecificPageField": "Open specific page by clicking on the caption",
+                "SpecificPageLookupField": "Jakou stránku otevřít?",
+                "DefaultSizeFieldLabel": "Gallery item size",
+                "Sizes": {
+                    "Small": "Small",
+                    "Medium": "Střední",
+                    "Large": "Velký",
+                    "ExtraLarge": "Extra Large"
+                },
+                "MassActions": "Bulk actions"
+            },
+            "FilePropertiesPage": {
+                "General": "Základní",
+                "AllowedExtensions": "File extensions",
+                "AllowedExtensionsEmptyMessage": "If not set, all file types from File extensions AllowList system setting are allowed",
+                "MaxSize": "Maximum file size, MB",
+                "MaxSizeEmptyMessage": "If not set, default value from Attachment max size system setting is applied",
+                "LabelPosition": "Title position",
+                "LabelPositionVariants": {
+                    "Auto": "Auto",
+                    "Left": "Vlevo",
+                    "Right": "Vpravo",
+                    "Above": "Above",
+                    "Hidden": "Hidden"
+                },
+                "Placeholder": "Placeholder",
+                "DataSource": "Datový zdroj",
+                "Editability": "Možnost úprav",
+                "TitleOnPage": "Nadpis na stránce",
+                "EditabilityControls": {
+                    "Readonly": "Pouze pro čtení"
+                },
+                "AppearanceGroup": "Vzhled"
+            },
+            "FileListPropertiesPage": {
+                "PageCaption": "Attachment list settings",
+                "GeneralGroup": "Základní",
+                "FileGroupLabel": "File group",
+                "FileGroups": {
+                    "Attachments": "Přílohy"
+                },
+                "AttributeToAttachFiles": "Record to attach files",
+                "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+                "TagLabel": "File tag",
+                "TagPlaceholder": "Show all record files by default",
+                "TagHint": "Use tag to filter record files, e.g., \"application documents\"",
+                "FileEntitySchemaLabel": "File storage location",
+                "AppearanceGroup": "Vzhled",
+                "ViewTypeLabel": "Vzhled",
+                "TileSizeFieldLabel": "Gallery item size",
+                "Sizes": {
+                    "Small": "Malé",
+                    "Medium": "Střední",
+                    "Large": "Velký",
+                    "ExtraLarge": "Extra Large"
+                },
+                "ViewTypeOption": {
+                    "List": "Evidence",
+                    "Gallery": "Galerie"
+                }
+            },
+            "BaseCustomPropertiesPanel": {
+                "PageCaption": "Custom element settings",
+                "GeneralCaption": "Základní",
+                "Description": "You can set up this element in page source code",
+                "OpenSourceCodeButtonCaption": "Otevřený zdrojový kód"
+            },
+            "ImportDataRequestPropertiesPanel": {
+                "EntitySchemaSelectCaption": "Which data to import"
+            },
+            "ExportDataGridToExcelRequestPropertiesPanel": {
+                "ViewSelectCaption": "Which data to export?"
+            },
+            "UploadFileRequestPropertiesPanel": {
+                "ViewSelectCaption": "Where upload files to?",
+                "AllowedExtensions": "What file extensions are allowed to upload?",
+                "AllowedExtensionsEmptyMessage": "If not set, all file types from \"File extensions AllowList\" system setting are allowed",
+                "MaxSize": "What is the maximum allowed file size in MB?",
+                "MaxSizeEmptyMessage": "If not set, default value from \"Attachment max size\" system setting is applied",
+                "FileTypesPlaceholder": "For example, .pdf, .png",
+                "MaxSizePlaceholder": "{0} MB by default",
+                "UploadFileSourceCaption": "Upload a file from source",
+                "Camera": "Camera",
+                "Gallery": "Gallery",
+                "Files": "Soubory"
+            },
+            "PropertiesPanelVisibilitySettings": {
+                "VisibilityGroup": "Visibility",
+                "Visible": "Visible",
+                "NotVisible": "Not visible",
+                "SetupConditions": "Set up conditions",
+                "DefaultValueNotSupported": "This element does not support default values for visibility"
+            },
+            "ApprovalPropertiesPage": {
+                "HeaderLabel": "Approvals settings",
+                "SchemaNameLabel": "Which records to approve?",
+                "GeneralGroup": "Základní",
+                "AppearanceGroup": "Vzhled",
+                "HiddenWhenNoData": "Hidden when no data"
+            },
+            "ImageInputPropertiesPage": {
+                "SizeFieldLabel": "Velikost",
+                "Sizes": {
+                    "None": "Žádný",
+                    "Small": "Malé",
+                    "Medium": "Střední",
+                    "Large": "Velký",
+                    "ExtraLarge": "Extra Large"
+                },
+                "BorderRadiusLabel": "Border radius",
+                "PositioningLabel": "Image position",
+                "Positioning": {
+                    "Cover": "Vyplnit",
+                    "ScaleDown": "Fit"
+                },
+                "MaxSize": "Maximum file size, MB",
+                "MaxSizeEmptyMessage": "If not set, default value from \"Image max size\" system setting is applied",
+                "MaxSizePlaceholder": "{0} MB by default",
+                "TooltipLabel": "Tooltip",
+                "AppearanceGroup": "Vzhled",
+                "Editability": "Možnost úprav",
+                "EditabilityControls": {
+                    "Readonly": "Pouze pro čtení"
+                },
+                "TooltipHint": "The tooltip supports both plain text and HTML content. Please ensure that your HTML content is concise and adaptive to the tooltip's size."
+            },
+            "TimerPropertiesPage": {
+                "PageCaption": "Timer settings",
+                "TimerType": "Režim",
+                "TargetDateTimeColumn": "Target Date/Time column",
+                "StartDateTimeColumn": "Start date time column",
+                "FromDateTimerType": "Count up timer",
+                "CountdownToSpecificDateTimerType": "Countdown to specific date",
+                "ShowNegativeCountDownValue": "Show negative countdown value",
+                "TextColorForNegativeValues": "Text color for negative values",
+                "TextForPositiveValues": "Text for positive values",
+                "TextForNegativeValues": "Text for negative values",
+                "ValueTextTooltip": "Please use [#timer#] macros and text strings to create detailed timer labels. For example, Positive value - [#timer#] left to complete task;  Negative value - [#timer#] overdue."
+            },
+            "ApprovalListPropertiesPage": {
+                "HeaderLabel": "Approvals list settings",
+                "GeneralGroup": "Základní",
+                "SchemaNameLabel": "Objekt"
+            },
+            "SearchFilterPropertiesPanel": {
+                "PageCaption": "Search settings",
+                "GeneralCaption": "Základní",
+                "ChooseTargetsCaption": "Choose component to filter",
+                "ChooseTargetsTooltip": "Select the list where to perform the search. The drop-down menu displays lists that are present on the current page and have an object specified",
+                "Placeholder": "Placeholder",
+                "DirectConnection": "The Search component allows to search only by text, number and lookup columns with direct connections to list object.",
+                "AppearanceGroup": "Appearance",
+                "IconOnlyCaption": "Icon only"
+            },
+            "LocalTimePropertiesPage": {
+                "PageCaption": "Local time settings",
+                "TimeZoneColumn": "Time zone column"
+            },
+            "DataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "Základní",
+                "RequirementType": {
+                    "NoCaption": "Ne",
+                    "YesCaption": "Ano"
+                },
+                "Validators": {
+                    "UniqueName": "Name \"{0}\" has already exists",
+                    "InvalidCharacter": "Neplatná hodnota. Použijte symboly: a-z, A-Z, 0-9. Symbol: 0-9 nemůže být na prvním místě",
+                    "InvalidPrefix": "Value must start with the \"{0}\" prefix"
+                }
+            },
+            "PageParametersDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "Obecné",
+                "TitleCaption": "Nadpis",
+                "NameCaption": "Kód"
+            },
+            "EntityStagePropertiesPanel": {
+                "HeaderLabel": "Progress bar",
+                "GeneralGroup": "Obecné",
+                "SchemaNameLabel": "Datový zdroj",
+                "CasesCaption": "Set up cases",
+                "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+                "SaveOnChange": "Save record on stage change",
+                "AskUserToChangeSchema": "Show snack bar notification for case update",
+                "SaveEntityConfirmationDialog": {
+                    "Save": "Save entity",
+                    "Message": "{0} entity was modified, and saving the entity is required to continue."
+                }
+            },
+            "AddCommunicationOptionsRequestPropertiesPanel": {
+                "ViewSelectCaption": "Where to add communication option?"
+            },
+            "AllowedResultsPropertiesPage": {
+                "PageCaption": "Allowed results"
+            },
+            "AppearanceSettingsPropertyPanel": {
+                "ButtonSizeFieldLabel": "Modal window size"
+            },
+            "DeleteRecordsRequestPropertiesPanel": {
+                "SelectDataToDelete": "Which data to delete?"
+            },
+            "TagSelectPropertiesPanelComponent": {
+                "PageCaption": "Tags settings",
+                "GeneralCaption": "Základní",
+                "AppearanceCaption": "Appearance",
+                "CaptionLabel": "Popisek",
+                "CaptionPlaceholder": "Štítky",
+                "RecordLabel": "Record to tag item",
+                "TagInRecordSourceSchemaName": "Tag storage location",
+                "LabelPosition": "Title position",
+                "LabelPositionVariants": {
+                    "Auto": "Auto",
+                    "Left": "Vlevo",
+                    "Above": "Above",
+                    "Hidden": "Hidden"
+                }
+            },
+            "SchemaOutletPropertiesPage": {
+                "PageCaption": "Schema container settings"
+            },
+            "ActivityColumnsMapingComponent": {
+                "EmailLinksCaption": "Email links",
+                "ActivityColumn": "Activity column",
+                "PageColumn": "Data attribute",
+                "EmailLinksBlankSlate": "Email will be linked to PDS only. Please use the plus button to set up linking with other entities."
+            },
+            "SelectLookupPageRequestPropertiesPanel": {
+                "ViewSelectCaption": "Which data to select?",
+                "InfoMessage": "Selected records are processed in custom code."
+            },
+            "SetRecordRightsRequestPropertiesPanel": {
+                "OpenInModalWindowCaption": "Open in modal window"
+            },
+            "BaseTagsInRecordsRequestPropertiesPanel": {
+                "TagInRecordSourceSchemaName": "Tag storage location"
+            },
+            "AddTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToAddTagsCaption": "Which data to add tags?"
+            },
+            "RemoveTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToRemoveTagsCaption": "Which data to remove tags?"
+            },
+            "AddRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToAddInStaticFoldersCaption": "Which records to add in the static folder?"
+            },
+            "RemoveRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToRemoveInStaticFoldersCaption": "Which records to remove from the static folder?"
+            },
+            "EntityHierarchyFilterPropertiesPanel": {
+                "HeaderLabel": "Entity hierarchy filter",
+                "GeneralCaption": "Základní",
+                "SchemaNameCaption": "Select an object to build a hierarchy",
+                "HierarchySetup": "Hierarchy setup",
+                "SchemaNameSelectTooltip": "Select an object to build the hierarchy on. All system objects are displayed in the drop-down menu. After configuring the hierarchy, link it to the List component by specifying it as a pre-configured filter.",
+                "ApplyStaticFilter": "Apply static filter",
+                "EditStaticFilterAction": "Edit filter",
+                "FiltersDialogCaption": "Manually defined filter",
+                "SetupStaticFilterAction": "Nastavit filtr"
+            },
+            "EntityHierarchySetupContainerPropertiesPanel": {
+                "AddNewItem": "Add new hierarchy column",
+                "ContextMenu": {
+                    "AddToSubmenu": "Add sub-hierarchy",
+                    "Edit": "Upravit",
+                    "Delete": "Vymazat"
+                }
+            },
+            "PlaybookPropertiesPage": {
+                "PageCaption": "Playbook settings",
+                "GeneralGroup": {
+                    "Caption": "Základní",
+                    "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+                    "Tooltip": "The component displays hints and instructions for users to access information from the knowledge base for specific dynamic case stages. You can set up related articles in Playbooks section. Read more on ",
+                    "AcademyLink": "<a href=\"https://academy.creatio.com/docs/8.x/\" target=\"_blank\">academy</a>.",
+                    "OpenPlaybookButton": "Open playbook"
+                },
+                "SelectDataSource": "Datový zdroj"
+            },
+            "CopilotActionRequestPropertiesPanelComponent": {
+                "PromptLabel": "Creatio.ai prompt",
+                "PromptTooltip": "Enter the Creatio.ai prompt that will be executed when the button is clicked. The response will be sent in the Creatio.ai sidebar."
+            },
+            "LookupAttributePropertiesPanel": {
+                "RefSchemaNoDisplayValueValidationMessage": "Objects with no display value cannot be used as a lookup. Please set the object display value in configuration."
+            },
+            "SaveRecordRequestPropertiesPanel": {
+                "PreventCardCloseInNewRecord": "Stay on page after record is created",
+                "ReloadSavedRecord": "Reload saved record",
+                "ReloadSavedRecordHint": "After saving, reloads the record from the server so any server-side changes (e.g., legacy autonumbering) appear instantly. Not needed for the new Autonumber field."
+            },
+            "ActionNotificationPropertiesPanel": {
+                "MessageText": "Text zprávy",
+                "ShowSuccessMessage": "Show success message after completion"
+            },
+            "DataGridHierarchicalPropertiesPage": {
+                "PageCaption": "Hierarchical list settings",
+                "ParentColumnLabel": "Parent defining column",
+                "MaxRecordsLabel": "Maximum number of records",
+                "MaxRecordsTooltip": "Specifies the maximum number of records to load into the hierarchical list. If available records exceed this limit, only the specified number of records is loaded. If not specified, the value is taken from the \"Maximum number of records in hierarchical list\" (HierarchicalListMaxRecordsCount code) system setting, or 5,000 records by default when that setting is not configured.",
+                "InfoHint": "This component is designed for small data sets. Limit maximum number of records using the \"Maximum number of records\" field and narrow the data scope using the \"Apply filter by page data\" block."
+            }
+        },
+        "SaveMessage": "Všechny změny se uloží. Pokračovat?",
+        "MainHeader": {
+            "Title": "Nadpis",
+            "CommandLinePlaceholder": "Co pro vás mohu udělat?"
+        },
+        "LookupEntityDialog": {
+            "CancelButtonDialog": "Zrušit",
+            "SelectButtonDialog": "Uložit",
+            "TitleControl": "Popisek",
+            "NameControl": "Kód",
+            "Validations": {
+                "RequiredNameCaption": "Zadejte hodnotu",
+                "DuplicateNameCaption": "Objekt se stejným kódem již existuje",
+                "PatternPrefixTemplate": "Kód musí začínat předponou \"{0}\"",
+                "PatternNameCaption": "Neplatná hodnota. Použijte symboly: a-z, A-Z, 0-9. Symbol: 0-9 nemůže být na prvním místě."
+            },
+            "CreateOrEditLookupEntityTitle": "Nový číselník"
+        },
+        "SaveConfirmationDialog": {
+            "Message": "This page contains unsaved changes. They will be lost if you close the page. Save the changes?",
+            "Save": "Uložit",
+            "DoNotSave": "Don't save",
+            "Cancel": "Zrušit"
+        },
+        "SetupEntityDialog": {
+            "Title": "New object"
+        },
+        "Caption": "Návrhář",
+        "ModelDependencyCycleDetectedError": "Detected circular dependencies between models {0}",
+        "Commands": {
+            "RemoveDataSourceItem": {
+                "SuccessfullyRemoved": "Parameter \"{{parameterCaption}}\" has been deleted"
+            }
+        },
+        "Components": {
+            "DataSourceAttributeCommonPropertiesComponent": {
+                "TitleCaption": "Název",
+                "NameCaption": "Kód",
+                "FormatCaption": "Formát",
+                "ReferenceSchemaCaption": "Číselník",
+                "RequiredCaption": "Povinné",
+                "Validations": {
+                    "RequiredNameMessage": "Zadejte hodnotu"
+                }
+            },
+            "CollectionSortingComponent": {
+                "SortAscendingTitle": "Sort ascending",
+                "SortDescendingTitle": "Sort descending",
+                "SortingColumnLabel": "Sort by column"
+            },
+            "StaticFilterSelectComponent": {
+                "ApplyStaticFilter": "Apply static filter",
+                "EditStaticFilterAction": "Edit filter",
+                "FiltersDialogCaption": "Manually defined filter",
+                "SetupStaticFilterAction": "Nastavit filtr"
+            }
+        },
+        "NotFoundDataSourceObject": {
+            "GroupObjectCaption": "Data source error",
+            "ErrorMessage": "The '{0}' object referenced in '{1}' data source has been either renamed or removed. Please change the object code to '{0}' or update the page source code (metadata) before continuing working with the page designer.",
+            "BusinessRulesOpenDialogMessage": "The '{0}' object referenced in '{1}' data source has been either renamed or removed. Please change the object code to '{0}' or update the page source code (metadata) in order to use the business rules designer"
+        },
+        "UnableCopySchemaError": "Unable to copy schema. It is either created by third-party publisher or installed from the file archive",
+        "Operation": {
+            "Copy": "Kopie"
+        },
+        "ModelDependencyNotFoundError": "The relation criteria for the {{names}} data source are not set",
+        "ModelDependencyNotFoundErrorMultiple": "The relation criteria for the {{names}} data sources are not set",
+        "MissingDependenciesDialog": {
+            "Title": "Missing dependencies detected",
+            "Intro": "This page includes elements from packages that are not listed as dependencies of the current package.",
+            "Reason": "Such configurations are no longer supported to prevent circular dependencies and ensure a maintainable application structure.",
+            "InstructionTemplate": {
+                "Prefix": "Please",
+                "ActionLink": "add dependencies",
+                "PackageContext": "in the '{{ missedPackageName }}' package",
+                "Suffix": "to the following packages before editing this page"
+            }
+        },
+        "MissingDependenciesNotification": {
+            "Description": "Cannot save the page. Please add the required dependencies before making further changes to page.",
+            "Action": {
+                "Caption": "Přehled detailů"
+            }
+        },
+        "SaveOutdatedConfirmation": {
+            "Header": "Newer version available",
+            "Message": "{0} saved changes to this page {1} ago. Saving now will replace their version with yours.",
+            "CancelButton": "Zrušit",
+            "SaveButton": "Uložit"
+        },
+        "SaveOverwriteConfirmation": {
+            "Header": "Replace a newer version?",
+            "Message": "You're about to replace {0}'s recent changes with your version.",
+            "CancelButton": "Zrušit",
+            "ConfirmButton": "Overwrite anyway"
+        }
+    },
+    "ApplicationManagement": {
+        "CreateApplicationComponent": {
+            "WaitTitle": "Adding default content to your application",
+            "WaitTitleGenAI": "Generating your application"
+        },
+        "ApplicationInfoDialogComponent": {
+            "HeaderCaption": "Nová aplikace",
+            "InputNameCaption": "Application name",
+            "InputDescriptionCaption": "Popište, k čemu slouží (volitelné)",
+            "InputDescriptionPlaceholder": "Write a few words about your application",
+            "CancelButtonCaption": "Zrušit",
+            "CreateButtonCaption": "Vytvořit",
+            "HeaderEditCaption": "Edit application",
+            "ApplicationCodeCaption": "Application code",
+            "SaveButtonCaption": "Uložit",
+            "DisclaimerCaption": "By clicking the \"Generate with AI\" button, you agree that your request will be handled by the OpenAI model. View terms and policies <a class=\"document-link\" href=\"https://openai.com/policies\" target=\"_blank\">here</a>. Creatio is acting as an agent and cannot be held responsible for any outcomes generated by the OpenAI.",
+            "HeaderCarouselCaption": "Select icon and color",
+            "InputAIDescriptionCaption": "Describe what it’s for",
+            "InputAIDescriptionPlaceholder": "Write a few words about your application and we will create it automatically.",
+            "GenerateWithAIButtonCaption": "Generate with AI",
+            "UseExistingObjectTooltip": "Select to link the section to an existing object instead of creating a new object",
+            "AdvancedModeButtonCaption": "Advanced parameters",
+            "NamePlaceholder": "Name your application",
+            "CodePlaceholder": "Create a unique application ID",
+            "CodeTooltip": "The application code is used as a unique identifier when the application is installed to another environment. Also, the code can be used to generate section element codes in case there are schemes in the template",
+            "HeaderViewCaption": "Application info",
+            "CloseButtonCaption": "Zavřít",
+            "VersionInputCaption": "Verze",
+            "VersionInputPlaceholder": "0.0.0",
+            "AppStartPageCaption": "App default page",
+            "AppStartPageTooltip": "The app page to open by clicking the Run App button. This can be the app's homepage or section list page.",
+            "AppStartPageAutoItem": "Auto",
+            "CreateMobilePagesTooltip": "Clear this option to create a web-only app"
+        },
+        "ApplicationValidatorService": {
+            "InvalidCharactersForName": "V názvu jsou povoleny pouze znaky \"- _\".",
+            "FirstSymbolIsNotLetterAndNotDigit": "Název musí začínat písmenem nebo číslicí",
+            "InvalidCharactersForCode": "Only Latin letters and numbers are allowed in the code, and the symbol 0-9 cannot be the first character",
+            "ApplicationNameAlreadyExists": "Application with name \"{0}\" already exists",
+            "ApplicationCodeAlreadyExists": "This application code or package name is already in use",
+            "InvalidApplicationCodePrefix": "Kód musí začínat předponou \"{0}\"",
+            "EntityNameAlreadyExists": "Object with this code already exists",
+            "InvalidVersion": "Enter the version number in X.Y or X.Y.Z format. For example, 1.0, 1.2, 1.0.0, 1.2.0, etc.",
+            "InvalidRequiredPlatformVersion": "Enter a valid Creatio version in the X.Y.Z format or version range X.Y.Z - X.Y.Z. For example, 8.3.0 or 8.3.0 - 8.4.3.",
+            "InvalidRequiredPlatformVersionRange": "The maximum version must be greater than the minimum version.",
+            "InvalidAppDependencyVersion": "Please use one of the following formats:\n- Minimal required version: X.Y or X.Y.Z\n- Version range: X.Y - X.Y or X.Y.Z - X.Y.Z",
+            "InvalidAppDependencyVersionRange": "The maximum version must be greater than the minimum version."
+        },
+        "ApplicationManagementDialogComponent": {
+            "DialogHeaderCaption": "App properties",
+            "PropertiesTabCaption": "Obecné",
+            "DependenciesTabCaption": "Dependencies",
+            "Properties": {
+                "IconCaption": "Ikona",
+                "ColorCaption": "Barva",
+                "InputNameCaption": "Application name",
+                "NamePlaceholder": "Name your application",
+                "DefaultAppPageCaption": "Default app page",
+                "AppStartPageTooltip": "The app page to open by clicking the Run App button. This can be the app's homepage or section list page.",
+                "ApplicationCodeCaption": "Application code",
+                "Developer": "Vývojář",
+                "InputDescriptionCaption": "Describe what it’s for (optional)",
+                "InputDescriptionPlaceholder": "Write a few words about your application",
+                "CreatedOn": "Vytvořeno",
+                "LastUpdate": "Last update",
+                "Created": "Vytvořeno"
+            },
+            "Dependencies": {
+                "AddDependencyCaption": "Add dependency",
+                "ApplicationNameCaption": "Název",
+                "DeleteCaption": "Odstranit",
+                "RequiredPlatformVersionCaption": "Required Creatio version",
+                "RequiredPlatformVersionTooltip": "If you specify only one required version, the application can be installed on that version and later versions of Creatio. You can also specify a compatible version range using a hyphen, for example: \"8.3.0 - 8.4.3\".",
+                "RequiredPlatformVersionSubCaption": "Minimum required Creatio version or compatible version range for the \"{0}\" application. The current Creatio version is {1}.",
+                "RequiredDependenciesCaption": "Required dependencies",
+                "RequiredDependenciesSubCaption": "Configure dependencies to extend the application using elements from other applications or packages. The application cannot be installed in environments where required dependencies are missing, their versions are lower than the minimum required, or do not fall within the supported version range. The \"{0}\" application depends on the following applications or packages:",
+                "AddCaption": "Přidat",
+                "TypeCaption": "Typ",
+                "DeveloperCaption": "Vývojář",
+                "VersionCaption": "Required version",
+                "ApplicationVersionTooltip": "If you specify a single version, the application \"{0}\" can be installed only if the environment has the dependent application installed with that version or a newer one.\nYou can also specify a version range using a hyphen, for example: 1.0 - 2.0 or 1.0.0 - 2.0.0.",
+                "PackageVersionTooltip": "Version can be specified only for dependencies with type \"Application\""
+            },
+            "CancelButtonCaption": "Zrušit",
+            "SaveButtonCaption": "Uložit",
+            "CloseButtonCaption": "Zavřít",
+            "DependenciesValidationError": "Error while saving application dependencies",
+            "VersionTabCaption": "Verze",
+            "Version": {
+                "VersionInputCaption": "Application Version",
+                "VersionInputPlaceholder": "0.0.0",
+                "VersionInputTooltip": "A version number follows the format <b>Major.Minor.Patch</b>, where each component has the following meaning:<ul><li><b>Major</b> – breaking changes</li><li><b>Minor</b> – new features that are backward compatible</li><li><b>Patch</b> – backward-compatible bug fixes only</li></ul>For example: 2.1.4. <a href='https://academy.creatio.com/documents?id=2584' target='_blank' rel='noopener noreferrer'>Learn more in the Academy</a>.",
+                "VersionInputHint1": "We recommend releasing any changes to the application using a new version number. Based on your current version {0}, consider using one of the following versioning options, depending on the significance of the changes: ",
+                "VersionInputHint2": " or ",
+                "VersionInputHint3": ", depending on the significance of the changes.",
+                "VersionMajorPart": "Major {0}",
+                "VersionMinorPart": "Minor {0}",
+                "VersionPatchPart": "Patch {0}"
+            }
+        }
+    },
+    "Validators": {
+        "Autocomplete": {
+            "Message": "Vyberte hodnotu ze seznamu"
+        },
+        "Required": {
+            "Message": "Zadejte hodnotu"
+        },
+        "MaxLength": {
+            "Message": "Překročena maximální délka textu ({{aktuálníDélka}}/{{maxDélka}})"
+        },
+        "MinLength": {
+            "Message": "Minimální délka textu nebyla dosažena ({{aktuálníDélka}}/{{minálníDélka}})"
+        },
+        "Min": {
+            "Message": "Minimální hodnota čísla je {{min}}"
+        },
+        "Max": {
+            "Message": "Maximální hodnota čísla je {{max}}"
+        },
+        "GridColumnsCount": {
+            "Message": "Sloupce, které obsahují prvky, nelze odstranit. Chcete-li snížit počet sloupců, odstraňte prvky nebo je přesuňte do jiných sloupců."
+        },
+        "Email": {
+            "Message": "Chybný formát e-mailu"
+        },
+        "ColorPicker": {
+            "Message": "Action error. Invalid HEX format was selected"
+        },
+        "Link": {
+            "Message": "Invalid url format"
+        }
+    },
+    "UserProfile": {
+        "Profile": "Profil uživatele",
+        "FirstLastName": "Celé jméno",
+        "Organization": "Organizace",
+        "Language": "Jazyk",
+        "TimeZone": "Časové pásmo",
+        "DateTimeFormat": "Formát data a času",
+        "Email": "E-mail",
+        "ChangeEmail": "Změna e-mailu",
+        "EmailChanged": "Váš e-mail byl úspěšně změněn",
+        "ResendConfirmEmailSuccess": "Potvrzující e-mail byl odeslán",
+        "ResendConfirmEmailError": "Potvrzovací e-mail nebyl odeslán",
+        "NotConfirmedEmail": "Zkontrolujte prosím svůj e-mail pro potvrzení registrace",
+        "Password": "Heslo",
+        "ChangePassword": "Změna hesla",
+        "ChangePasswordError": "Při změně hesla došlo k chybě",
+        "ResetPasswordValidationError": "Neexistují žádní uživatelé, kteří by používali tento e-mail\nPři změně hesla došlo k chybě",
+        "ConnectedAccounts": "Připojené účty",
+        "DeleteProfile": "Smazat profil",
+        "ChangesSaved": "Změny byly uloženy",
+        "SavingError": "Při ukládání dat došlo k chybě",
+        "ApplyChanges": "Uložit",
+        "ReloginError": "Změny nebyly použity. Pro uplatnění změn se znovu přihlaste",
+        "NewEmail": "Nový e-mail",
+        "CurrentPassword": "Aktuální heslo",
+        "WrongPassword": "Špatné heslo",
+        "ExistsEmailError": "This email is already used",
+        "ChangeEmailError": "Interní chyba. E-mail nebyl změněn. Zkuste to později",
+        "EmailNotConfirmed": "E-mail není potvrzen",
+        "ResendConfirm": "Opětovné odeslání potvrzení",
+        "ConnectedAccountsSectionCaption": "Connected third-party accounts",
+        "Logins": {
+            "AddNewLogin": "Nová",
+            "LoginAlreadyAssociated": "The account is connected to another user",
+            "DefaultConnectionErrorMessage": "Could not connect social network",
+            "DisconnectAccount": "Disconnect"
+        },
+        "Photo": "Foto",
+        "Role": "Role uživatele",
+        "Active": "Aktivní",
+        "Status": "Stav",
+        "Invited": "Invited",
+        "Back": "Zpět",
+        "ChangeEmailButton": "Change and logout",
+        "DisconnectAccountError": "Unable to disconnect selected account",
+        "FirstName": "Křestní jméno",
+        "LastName": "Příjmení",
+        "OrganizationWebsite": "Web",
+        "PasswordResetIsNotAllowed": "Password reset for this account was requested lately. Please wait few minutes to try again."
+    },
+    "UserProfileActionComponent": {
+        "YourProfileActionCaption": "Váš profil",
+        "LogoutActionCaption": "Odhlášení"
+    },
+    "EnvironmentManagement": {
+        "WaitTrialPage": {
+            "DemoDataToggleCaption": "Vyplňte systém ukázkovými údaji",
+            "Description": "Tento účet se bude používat k přihlášení",
+            "Continue": "Pokračovat",
+            "ConfirmRegistration": {
+                "RegistrationSuccessful": "Your registration is successful!",
+                "CreateFirstApp": "Do you want to create your first app right now?",
+                "GuideMeButtonCaption": "Yes, create new app",
+                "ManageButtonCaption": "No, I`ll do it later"
+            },
+            "WaitPage": {
+                "StudioEnterpriseMessage": "You’ll be able to create<br />your <strong>first app</strong> in a few moments!",
+                "CRMMessage": "You’ll be able to try full-fledged <strong>marketing, sales, and service</strong> products integrated into one no-code platform in a few moments!",
+                "CreatioIsHotMessage": "Creatio<br />is hot!",
+                "TrialTimeoutMessage": "We are working on it! But due to high demand,<br />there might be a delay in your trial delivery.",
+                "SendTrialEmail": "We appreciate your time and will send an email<br />when the trial is ready.",
+                "GoToApplications": "Go to Application Hub"
+            }
+        }
+    },
+    "OrganizationUserSection": {
+        "GridColumns": {
+            "id": "Id",
+            "fullName": "First and last name",
+            "email": "E-mail",
+            "status": "Stav",
+            "role": "Role uživatele",
+            "lastActivity": "Poslední aktivita"
+        },
+        "GridActions": {
+            "Activate": "Zapnout",
+            "Deactivate": "Deaktivovat",
+            "Edit": "Upravit",
+            "Resend": "Resend invitation",
+            "Cancel": "Cancel invitation"
+        },
+        "UserStatus": {
+            "Active": "Aktivní",
+            "Inactive": "Neaktivní",
+            "Invited": "Invitation sent"
+        },
+        "AddUser": "+ Nový uživatel",
+        "ChangeStatusMessage": {
+            "activate": "User has been activated",
+            "deactivate": "User has been deactivated"
+        },
+        "InvitationSent": "Invitation is sent",
+        "InviteUsersPage": {
+            "NewUser": "New user",
+            "Back": "Zpět",
+            "Role": "Role uživatele",
+            "Email": "Business email",
+            "Collaborators": "Invited users",
+            "SendInvite": "Invite",
+            "InviteSuccess": "Invitation sent",
+            "EmailExists": "User {0} has already been invited to organization",
+            "GoToProfile": "Go to profile"
+        }
+    },
+    "DataSourceAttributeValuePickerProvider": {
+        "ValueFromFieldCaption": "Hodnota z jiného pole"
+    },
+    "OperationPermissionsErrorDialog": {
+        "ErrorTemplate": "You do not have permission to perform this operation.\nPlease contact your system administrator and request permission to perform the following system operation with code: «{0}». Permissions to system operations are managed in the “Operation permissions” section of the System designer."
+    },
+    "ViewElementGroup": {
+        "ChartsGroupCaption": "Graf",
+        "ComponentsGroupCaption": "Komponenty",
+        "LayoutElementsGroupCaption": "Layout element",
+        "InputsGroupCaption": "Input",
+        "CustomElementsGroupCaption": "Custom element"
+    },
+    "AggregationNames": {
+        "Count": "Počet záznamů",
+        "Sum": "Suma",
+        "Avg": "Průměrná hodnota",
+        "MinValue": "Minimum",
+        "MaxValue": "Maximum",
+        "MinDate": "Minimum date",
+        "MaxDate": "Maximum date",
+        "TopOne": "First record value",
+        "AtLeastOneRecord": "At least one record",
+        "NoRecords": "No records"
+    },
+    "TypeCaptions": {
+        "GridContainer": "Grid container",
+        "FlexContainer": "Flex container",
+        "TabContainer": "Karta",
+        "MenuItem": "Položka menu",
+        "ChartWidget": "Graf",
+        "TimelineTile": "Časová osa"
+    },
+    "DialogComponent": {
+        "CancelButtonDialog": "Zrušit",
+        "SaveButtonDialog": "Uložit",
+        "CloseButtonDialog": "Zavřít"
+    },
+    "SsoSettings": {
+        "Validators": {
+            "AdfsTenant": {
+                "Message": "Value should not be empty or start with http:// or https://"
+            },
+            "StringUrl": {
+                "Message": "Value should be valid URL"
+            },
+            "IsJsonValidator": {
+                "Message": "Value should be valid JSON"
+            }
+        },
+        "SsoIdentityProvider": {
+            "DuplicationError": "This provider already exists. Please check the entered information.",
+            "SigningSettingsError": "SAML signing settings are not correct. Please check the entered information."
+        }
+    },
+    "BusinessRuleAction": {
+        "StructureExplorer": {
+            "Title": "Select elements",
+            "ElementsTab": "{0}Elements{1}"
+        }
+    },
+    "FileSizeUnit": {
+        "Byte": "bytes",
+        "Bytes": "bytes",
+        "Kilobyte": "KB",
+        "Megabyte": "MB",
+        "Gigabyte": "GB"
+    },
+    "Approvals": {
+        "ComponentHeaderLabel": "Potřebuje se schválení"
+    },
+    "pageParametersDataSource": "Parametry stránky",
+    "RelationshipDesignerModal": {
+        "Caption": "{{schemaName}} relations"
+    },
+    "RelationshipDesigner": {
+        "DeleteItemMessage": "Opravdu chcete položku smazat?",
+        "RequiredControlErrorMessage": "Zadejte prosím hodnotu"
+    },
+    "RelationshipDiagram": {
+        "NoAccess": "Žádný přístup ke změně vztahu",
+        "Tools": {
+            "FitToView": "Vhodné k zobrazení",
+            "ResetView": "Resetovat zobrazení",
+            "ZoomIn": "Přiblížit",
+            "ZoomOut": "Zvětšit",
+            "MiniMapClose": "Mini mapa zavřít",
+            "MiniMapOpen": "Mini mapa otevřít"
+        }
+    },
+    "GroupsPropertiesPage": {
+        "Title": "Skupiny",
+        "Search": "Hledat"
+    },
+    "GroupPropertiesDialog": {
+        "Cancel": "Zrušit",
+        "Comment": "Komentář",
+        "EditGroup": "Upravit skupinu",
+        "Name": "Název",
+        "NewGroup": "Nová skupina",
+        "Save": "Uložit"
+    },
+    "EntityInGroupPropertiesDialog": {
+        "AddToGroup": "Přidat do skupiny",
+        "Cancel": "Zrušit",
+        "Comment": "Komentář",
+        "Edit": "Upravit",
+        "Group": "Skupina",
+        "Save": "Uložit"
+    },
+    "ConnectionPropertiesPage": {
+        "Comment": "Komentář",
+        "Relations": "Vztahy",
+        "RelationshipType": "Typ vztahu",
+        "Title": "Vztah"
+    },
+    "ContainerPropertiesPage": {
+        "Address": "Adresa",
+        "Email": "E-mail",
+        "GeneralInformation": "Základní informace",
+        "Groups": "Skupiny",
+        "Phone": "Telefon",
+        "RelationshipsWith": "Související záznamy ({0})",
+        "Type": "Typ",
+        "Web": "Webová stránka"
+    },
+    "ObjectPermissions": {
+        "Warning": "Varování! ",
+        "OperationsPoint": "Objects used by lookup fields on this section page are not configured. According to the current access permissions, objects listed below are not available to external users:",
+        "RecordsPoint": "Objects used by lookup fields on this section page are not secure. According to the current access permissions, all records from the objects listed below are fully available to any external user:",
+        "SetProperPermissionsBegin": "To set proper access permissions, turn on operation and record permissions for these objects in the \"",
+        "ObjectPermissions": "Oprávnění k objektům",
+        "SetProperPermissionsEnd": "\" section of the System designer.",
+        "Link": "Aktualizovat oprávnění k objektu nyní",
+        "End": "Poznámka: Možná potřebujete nastavit oprávnění k existujícím objektům individuálně, aby je jiní uživatelé mohli s nimi pracovat.",
+        "UpdateObjectPermissionsMessage": "Current permission settings will be modified. This may affect system performance for all users. Do you wish to update object permissions now?"
+    },
+    "LocalizableTextInput": {
+        "ButtonTitle": "Multilanguage configuration"
+    },
+    "ExpansionButton": {
+        "ExpandTooltip": "Expand panel",
+        "CollapseTooltip": "Sbalit panel"
+    },
+    "MultilanguageEmailTemplates": {
+        "TranslateHeadersTitle": "Set headers for multilingual templates",
+        "TranslateDescription": "Add language-specific headers for your multilingual template. To include more languages, update the template settings.",
+        "AcademyUrl": "https://academy.creatio.com/documents?id=2571"
+    },
+    "isValueMaskedCaption": "Mask displayed value",
+    "maskTypeCaption": "Mask type",
+    "maskOperationCaption": "Oprávnění k operaci",
+    "ValueMaskingSettings": {
+        "HideAllMaskTitle": "Hide All Characters",
+        "ShowOnlyLast4CharsMaskTitle": "Show Only Last 4 Characters",
+        "BankCardMaskTitle": "Bank Card",
+        "SSNMaskTitle": "SSN",
+        "SINMaskTitle": "SIN"
+    },
+    "blockDeletionTooltip": "Prevents deleting the lookup value if it is referenced by records in the current object.",
+    "DeleteRecordsTooltip": "Deletes related records in the current object when the lookup value is deleted.",
+    "selectionWindowTooltip": "Opens a separate selection window to choose a lookup value.",
+    "listTooltip": "Lets users select a lookup value directly from a dropdown list."
+}

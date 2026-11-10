@@ -1,0 +1,73 @@
+﻿.business-rule-designer-container-wrapClass {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 502;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass {
+  min-height: calc(100vh - 138px);
+  right: 6px;
+  left: 6px;
+  top: 132px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass .grid-listed-row {
+  padding: 5px 30px;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass .grid.grid-listed .grid-row-actions {
+  padding-right: 0;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass .grid-captions {
+  padding: 2px 30px;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass .grid-captions:after {
+  content: "";
+  display: block;
+  margin-top: 25px;
+  margin-bottom: -30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass .ts-image-edit-container img {
+  background-color: #fff;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass .empty-grid-message > .description:last-child {
+  margin-top: 0;
+}
+.schema-wrap .invalid-business-rule-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: calc(100vh - 52px);
+  margin-top: 40px;
+  background-color: #fff;
+}
+.schema-wrap .invalid-business-rule-section-container .ts-image-edit-wrap {
+  margin-left: 0px;
+}
+.schema-wrap .invalid-business-rule-section-container .ts-image-edit-wrap img {
+  width: 135px;
+  height: 139px;
+}
+.schema-wrap .invalid-business-rule-section-container .invalid-business-rule-section-label-container {
+  box-shadow: -3px 0 0 0 #ff7a64;
+  padding-right: 16px;
+  margin-top: 20px;
+  width: 450px;
+}
+.schema-wrap .invalid-business-rule-section-container .invalid-business-rule-section-label-container label {
+  font-family: "Segoe UI Light";
+  font-size: 28px;
+  color: #999;
+}
+.wizard-container.page-wizard .schema-wrap .invalid-business-rule-section-container {
+  padding-top: 70px;
+}
+.wizard-container .schema-wrap .invalid-business-rule-section-container {
+  padding-top: 160px;
+}

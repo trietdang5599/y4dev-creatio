@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<g transform="translate(2212.313 -207.727)">
+		<g transform="translate(-2211.313 219.726)" fill="none" stroke="currentColor" stroke-width="1">
+			<rect width="3" height="3" stroke="none"/>
+			<rect x="0.5" y="0.5" width="2" height="2" fill="none"/>
+		</g>
+		<g transform="translate(-2205.313 219.726)" fill="none" stroke="currentColor" stroke-width="1">
+			<rect width="3" height="3" stroke="none"/>
+			<rect x="0.5" y="0.5" width="2" height="2" fill="none"/>
+		</g>
+		<g transform="translate(-2199.313 219.726)" fill="none" stroke="currentColor" stroke-width="1">
+			<rect width="3" height="3" stroke="none"/>
+			<rect x="0.5" y="0.5" width="2" height="2" fill="none"/>
+		</g>
+		<g transform="translate(-2205.313 208.726)" fill="none" stroke="currentColor" stroke-width="1">
+			<rect width="3" height="3" stroke="none"/>
+			<rect x="0.5" y="0.5" width="2" height="2" fill="none"/>
+		</g>
+		<path d="M-2209.813,219.59v-4.864h12v4.864" transform="translate(0 0.5)" fill="none" stroke="currentColor" stroke-width="1"/>
+		<line y2="9" transform="translate(-2203.813 211.226)" fill="none" stroke="currentColor" stroke-width="1"/>
+	</g>
+	<rect width="16" height="16" fill="none"/>
+</svg>

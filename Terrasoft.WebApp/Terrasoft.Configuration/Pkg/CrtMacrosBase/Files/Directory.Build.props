@@ -1,0 +1,5 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtMacrosBase/Schemas/HtmlEditorMacros/HtmlEditorMacros.cs" Condition="Exists('$(PkgPath)/CrtMacrosBase/Schemas/HtmlEditorMacros/HtmlEditorMacros.cs')" />
+	</ItemGroup>
+</Project>

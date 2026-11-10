@@ -1,0 +1,81 @@
+﻿Terrasoft.configuration.Structures["CreatioModel_FormPage"] = {innerHierarchyStack: ["CreatioModel_FormPage"], structureParent: "CreatioAIModels_FormPage"};
+define('CreatioModel_FormPageStructure', ['CreatioModel_FormPageResources'], function(resources) {return {schemaUId:'bacee6b7-9f82-4448-91de-966ca98e1f3a',schemaCaption: "CreatioModel_FormPage", parentSchemaName: "CreatioAIModels_FormPage", packageName: "CrtCopilot", schemaName:'CreatioModel_FormPage',parentSchemaUId:'9ba7314e-6fc8-4f89-9826-62a5b6afbe7a',extendParent:false,type:Terrasoft.SchemaType.ANGULAR_SCHEMA,entitySchema:'',name:'',extend:'Terrasoft.model.BaseViewModel',schema:{leftPanel:[],rightPanel:[],actions:[],analytics:[]},methods:{},controlsConfig:{},customBindings:{},bindings:{},parameters:{},schemaVersion:1,optionalProperties:[],schemaDifferences:function(){
+
+}};});
+define("CreatioModel_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/()/**SCHEMA_ARGS*/ {
+	return {
+		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
+			{
+				"operation": "merge",
+				"name": "GeneralInfoTabContainer",
+				"values": {
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"visible": true,
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "medium",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"alignItems": "stretch"
+				}
+			},
+			{
+				"operation": "merge",
+				"name": "ConnectionSettingsExpansionPanel",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 2,
+						"row": 3,
+						"rowSpan": 1
+					}
+				}
+			},
+			{
+				"operation": "remove",
+				"name": "GridContainer_tnkb5tt"
+			},
+			{
+				"operation": "remove",
+				"name": "FlexContainer_lm3t0k3"
+			},
+			{
+				"operation": "insert",
+				"name": "CreatioProvidedLLMDescriptionLabel",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 2,
+						"row": 1,
+						"rowSpan": 2
+					},
+					"type": "crt.Label",
+					"caption": "#MacrosTemplateString(#ResourceString(CreatioProvidedLLMDescriptionLabel_caption)#)#",
+					"labelType": "body-large",
+					"labelThickness": "normal",
+					"labelEllipsis": false,
+					"labelColor": "auto",
+					"labelBackgroundColor": "transparent",
+					"labelTextAlign": "start",
+					"headingLevel": "label",
+					"visible": true
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 0
+			}
+		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
+		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[]/**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/,
+		modelConfigDiff: /**SCHEMA_MODEL_CONFIG_DIFF*/[]/**SCHEMA_MODEL_CONFIG_DIFF*/,
+		handlers: /**SCHEMA_HANDLERS*/[]/**SCHEMA_HANDLERS*/,
+		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
+		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
+	};
+});
+

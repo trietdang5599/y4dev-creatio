@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<g transform="translate(2.5 1.5)">
+		<line x2="12" fill="none" stroke-miterlimit="10" stroke="currentColor" transform="translate(0 7)"/>
+		<line y1="12" fill="none" stroke-miterlimit="10" stroke="currentColor" transform="translate(6 1)"/>
+	</g>
+	<rect fill="none" width="16"  height="16"/>
+</svg>

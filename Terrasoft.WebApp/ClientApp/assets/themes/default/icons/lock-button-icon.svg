@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <path fill="none" d="M0 0h16v16H0z"/>
+  <rect width="11" height="9" fill="none" stroke="currentColor" stroke-miterlimit="10" transform="translate(2.5 5.5)"/>
+  <g fill="none" stroke="currentColor" stroke-miterlimit="10">
+    <path stroke="none" d="M7 9h2v2H7z"/>
+    <path d="M7.5 9.5h1v1h-1z"/>
+  </g>
+  <path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M5.5 5.5V3A1.5 1.5 0 0 1 7 1.5h2A1.5 1.5 0 0 1 10.5 3v2.5"/>
+</svg>

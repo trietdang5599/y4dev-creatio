@@ -1,0 +1,17 @@
+﻿.web-services {
+  padding-left: 1em;
+  padding-top: 1em;
+}
+.web-services .web-service-card-content-container {
+  width: 100%;
+}
+.web-services .card-content-container {
+  margin-bottom: 6em;
+}
+.web-services .card-content-container .actions-container {
+  left: 0;
+  right: 0;
+}
+.web-services .toggle-section-button {
+  display: none !important;
+}

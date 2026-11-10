@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<g transform="translate(0)">
+		<path d="M-315.146,864.292h-9.5v-9h13V860.2" transform="translate(325.146 -853.792)" fill="none" stroke="currentColor" stroke-width="1"/>
+		<path d="M-322.146,855.292a2.5,2.5,0,0,1-2.5,2.5" transform="translate(325.146 -853.292)" fill="none" stroke="currentColor" stroke-width="1"/>
+		<path d="M-311.746,857.792a2.5,2.5,0,0,1-2.5-2.5" transform="translate(325.146 -853.292)" fill="none" stroke="currentColor" stroke-width="1"/>
+		<path d="M-324.646,861.692a2.5,2.5,0,0,1,2.5,2.5" transform="translate(325.146 -854.192)" fill="none" stroke="currentColor" stroke-width="1"/>
+		<g transform="translate(5 4)" fill="none" stroke="currentColor" stroke-width="1">
+			<circle cx="2" cy="2" r="2" stroke="none"/>
+			<circle cx="2" cy="2" r="1.5" fill="none"/>
+		</g>
+		<path d="M-309.846,861.592c0,.829-1.343,1.5-3,1.5s-3-.671-3-1.5,1.343-1.5,3-1.5S-309.846,860.764-309.846,861.592Z" transform="translate(325.346 -853.592)" fill="none" stroke="currentColor" stroke-width="1"/>
+		<path d="M-309.846,863.292c0,.663-1.343,1.5-3,1.5s-3-.837-3-1.5" transform="translate(325.346 -852.792)" fill="none" stroke="currentColor" stroke-width="1"/>
+		<path d="M-309.846,864.892c0,.662-1.343,1.5-3,1.5s-3-.838-3-1.5" transform="translate(325.346 -851.892)" fill="none" stroke="currentColor" stroke-width="1"/>
+		<rect width="16" height="16" fill="none"/>
+	</g>
+</svg>

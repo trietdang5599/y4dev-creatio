@@ -1,0 +1,87 @@
+﻿body {
+	background-color: #ebeeef;
+
+	.main-content-wrapper {
+		height: 100%;
+
+		#ViewModuleContainer {
+			height: 100%;
+
+			.default-center-panel-content {
+				margin-left: 0.6em;
+				margin-right: 0.6em;
+				height: 100%;
+
+				.schema-wrap.one-el {
+					padding-top: 120px;
+					height: 100%;
+
+					.card-content-container {
+						&.word-printable-card-content-container {
+							margin-top: 0;
+							display: flex;
+							flex-direction: row;
+							align-items: flex-start;
+							height: 100%;
+
+							.center-main-container {
+								min-height: 100%;
+								flex-basis: 100%
+							}
+
+							.word-printable-card-main-header-wrap-container {
+								position: fixed;
+								top: 0;
+								left: 0;
+								right: 0;
+								border: 6px solid #ebeeef;
+								border-bottom-width: 0;
+								z-index: 30;
+
+								.word-printable-card-main-header-container {
+									background-color: #fff;
+									min-height: 55px;
+									border-top-left-radius: 3px;
+									border-top-right-radius: 3px;
+									padding: 8px 21px;
+
+									.t-label {
+										line-height: 36px;
+										font-size: 26px;
+										text-overflow: ellipsis;
+										text-align: left;
+										font-family: "Bpmonline Open Sans Light";
+									}
+								}
+							}
+
+							.actions-container {
+								top: 60px;
+								left: 6px;
+								right: 6px;
+								margin-top: 0;
+								margin-right: 0;
+								margin-bottom: 0;
+								padding: 4px 21px 21px;
+								border-bottom-left-radius: 3px;
+								border-bottom-right-radius: 3px;
+							}
+
+							.left-modules-container {
+								flex-basis: 338px;
+								flex-shrink: 0;
+							}
+						}
+					}
+				}
+
+				.column-settings-container {
+					background-color: white;
+					padding: 20px;
+					border-top: 5px solid #ebeeef;
+					height: 100%;
+				}
+			}
+		}
+	}
+}

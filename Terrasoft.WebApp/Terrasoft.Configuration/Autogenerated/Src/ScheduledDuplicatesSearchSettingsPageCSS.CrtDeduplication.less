@@ -1,0 +1,63 @@
+﻿.search-settings-wrap {
+	.t-btn-wrapper {
+		margin-right: 10px;
+	}
+	.search-settings-time-caption {
+		font-size: 18px;
+	}
+	.search-settings-days {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 125px;
+		max-height: 125px;
+		.checkbox-control-item {
+			width: 50%;
+			.control-wrap {
+				float: left;
+				width: auto;
+				padding: 0;
+				margin: 0;
+			}
+			.checkbox-label-wrap {
+				min-width: 0;
+				max-width: none;
+				width: auto;
+				margin-left: 10px;
+			}
+		}
+	}
+	.search-settings-grid-wrap {
+		margin-top: 20px;
+		display: flex;
+		> div {
+			width: 50%;
+			&:first-child {
+				margin-right: 20px;
+			}
+		}
+		.t-label {
+			color: #444;
+		}
+		.search-settings-time {
+			display: flex;
+			.control-width-15 {
+				width: 180px;
+				.label-wrap {
+					min-width: auto;
+					width: 15px;
+					.t-label {
+						text-align: left;
+					}
+				}
+				.label-wrap + .control-wrap {
+					margin-left: -30px;
+					padding-left: 30px;
+				}
+			}
+			.control-width-15 + .t-label {
+				margin-top: 5px;
+			}
+		}
+	}
+}

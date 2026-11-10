@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Usa un altro metodo",
+    "TwoFactorSubmitButton": "Verifica",
+    "TwoFactorBackButton": "Indietro",
+    "SmsProvider": {
+        "SendSms": "Invia un altro codice",
+        "ResendSms": "Reinvia SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Invia un altro codice"
+    },
+    "TwoFactor.AdditionalVerification": "Verifica aggiuntiva",
+    "TwoFactor.CancelButton.Caption": "Annulla",
+    "TwoFactor.SmsProviderNotAvailable": "Inserisci il codice di verifica che è stato inviato via SMS al tuo numero di telefono",
+    "TwoFactor.EnterSmsCode.Caption": "Inserisci il codice di verifica che è stato inviato via SMS al tuo numero di telefono",
+    "TwoFactor.EnterEmailCode.Caption": "Inserisci il codice di verifica che è stato inviato al tuo indirizzo email",
+    "TwoFactor.EnterTOTPCode.Caption": "Inserisci il codice di verifica dall'app di autenticazione",
+    "TwoFactor.VerificationCode.Caption": "Codice di verifica",
+    "TwoFactor.TOTPUnavailable.Caption": "Per utilizzare il metodo dell'app di autenticazione, devi prima impostarlo. Puoi farlo nella pagina del tuo profilo.",
+    "TwoFactor.UseAnotherMethod.Caption": "Usa un altro metodo",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Codice di verifica non valido. Assicurati di aver inserito dati corretti o contatta l'amministratore di sistema",
+    "TwoFactor.ValidationCanceled": "La convalida del secondo fattore è stata annullata",
+    "TwoFactor.EnterRecoveryCode.Caption": "Inserisci il codice di recupero",
+    "TwoFactor.RecoveryCodesNotAvailable": "Per utilizzare i codici di recupero, devi prima impostarli. Puoi farlo nella pagina del tuo profilo"
+}

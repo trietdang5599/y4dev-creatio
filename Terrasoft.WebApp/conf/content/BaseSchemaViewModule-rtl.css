@@ -1,0 +1,9 @@
+﻿.crt-section .main-content-wrapper .main-header .left-header-container-class {
+  border-radius: 8px 0 0 0;
+}
+.crt-section .main-content-wrapper .main-header .right-header-container-class {
+  border-radius: 0 8px 0 0;
+}
+.crt-section .main-content-wrapper .center-panel {
+  padding-right: 0;
+}

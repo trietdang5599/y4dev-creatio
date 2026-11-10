@@ -1,0 +1,33 @@
+﻿@header-height: 126px;
+
+body {
+	background-color: #ebeeef;
+}
+.detail-properties-control-group-container {
+	padding: 20px 180px 30px 20px;
+	background-color: white;
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+}
+.top-control-group-label {
+	display: block;
+	margin-bottom: 0.5em;
+	color: #444167;
+	font-family: 'Segoe UI Light', 'Segoe UI';
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: normal;
+	text-align: left;
+}
+#DetailMainSettingsContainer {
+	width: 730px;
+	padding-top: @header-height;
+}
+
+.wizard-container.detail-wizard {
+	.design-container-wrapClass .draggable-items-list {
+		height: calc(~"100vh" - 132px);
+		position: fixed;
+		top: 132px !important;
+	}
+}

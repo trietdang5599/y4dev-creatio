@@ -1,0 +1,41 @@
+﻿body[OldUI=false] .main-header.angular-shell {
+  width: 100%;
+}
+body[OldUI=false] .main-header.angular-shell .right-header-container-class {
+  margin-left: 0px;
+}
+body[OldUI=false] .main-header.angular-shell .left-header-container-class,
+body[OldUI=false] .main-header.angular-shell .right-header-container-class {
+  border: none;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] #mainHeader.module-container {
+  height: 56px;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header.angular-shell .left-header-container-class {
+  margin-left: 8px;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header.angular-shell .left-header-container-class,
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header.angular-shell .right-header-container-class {
+  border-top: none;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header.angular-shell .left-header-container-class {
+  border-inline-start: none;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header.angular-shell .right-header-container-class {
+  border-inline-end: none;
+}
+body[OldUI=false][is-card-opened=true] .main-header {
+  height: 56px;
+}
+body[OldUI=false][is-card-opened=true] .main-header .right-header-container-class .page-header-container,
+body[OldUI=false][is-card-opened=true] .main-header .right-header-container-class .caption-class {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 16px 24px 0px 0px;
+}
+body[OldUI=false][is-card-opened=true] .main-header .right-header-container-class .page-header-container .t-label,
+body[OldUI=false][is-card-opened=true] .main-header .right-header-container-class .caption-class .t-label {
+  font-size: inherit;
+  line-height: inherit;
+}

@@ -1,0 +1,3740 @@
+{
+    "ConfirmationDialog": {
+        "YES": "是",
+        "NO": "否",
+        "DELETE": "删除",
+        "CANCEL": "取消"
+    },
+    "InfoDialog": {
+        "OK": "确定"
+    },
+    "OperationPermissionsErrorDialog": {
+        "ErrorTemplate": "您无权执行此操作。\n请联系您的系统管理员并请求权限：“{0}”。 具体在管理员角色的系统设计器的“操作权限”进行设置"
+    },
+    "ValidationErrorDialogComponent": {
+        "Cancel": "取消",
+        "Close": "关闭"
+    },
+    "AddRecordRightsDialog": {
+        "Add": "添加",
+        "Cancel": "取消",
+        "RecordAuthor": "记录作者",
+        "RightsRecipient": "获得权限的用户或角色",
+        "Title": "基于记录作者添加权限"
+    },
+    "AddEntityOperationGranteeDialog": {
+        "Add": "添加",
+        "Cancel": "取消",
+        "Operation": "运作",
+        "UserOrRole": "获得权限的用户或角色",
+        "Title": "基于角色或用户添加权限"
+    },
+    "LocalizableStringsDialog": {
+        "Title": "本地化的字符串",
+        "NameTitle": "代码",
+        "ValueTitle": "值",
+        "Add": "添加",
+        "Cancel": "取消",
+        "Apply": "应用",
+        "ShowAllLanguages": "显示所有语言",
+        "HideInactiveLanguages": "隐藏未激活语言",
+        "Validations": {
+            "RequiredNameCaption": "输入值",
+            "PatternNameCaption": "无效值。使用符号: a-z, A-Z, 0-9. 其中0-9不能放在首位",
+            "DuplicateNameCaption": "本地化字符串已经存在"
+        },
+        "AcademyUrl": "https://academy.creatio.com/docs/8.x/",
+        "AcademyUrlTitle": "Learn more."
+    },
+    "OrderDirectionStrict": {
+        "Ascending": "升序",
+        "Descending": "降序"
+    },
+    "AdministratedObjectPage": {
+        "EntityOperations": "高级操作",
+        "AdditionalOperationPermissions": "附加权限",
+        "Operation": "操作",
+        "UserOrRole": "用户或角色",
+        "UserOrRoleWhoObtainsPermission": "获得权限的用户或角色",
+        "AccessPermissions": "权限",
+        "InfoBlockText": "角色或用户的“添加任何数据”、“查看任何数据”、“编辑任何数据”， “删除任何数据”的权限高于您在本部分配置的权限。",
+        "InfoBlockEntityOperationsText": "“ CanExportGrid”的权限高于您在本部分配置的权限。",
+        "InfoBlockTitle": "注释",
+        "InfoBlockLink1": "权限优先级如何工作",
+        "InfoBlockLink2": "权限如何继承",
+        "InfoBlockLink3": "如何设置详细权限",
+        "InfoBlockLink4": "如何对现有记录应用新的记录权限",
+        "InfoBlockLink5": "访问权限设置实例",
+        "NameFieldName": "名称",
+        "RightsByColumnDetail": "使用列权限",
+        "RightsByColumnDetailTooltip": "对象特定列(字段) 的权限设置",
+        "RightsByOperationDetail": "使用操作权限",
+        "RightsByOperationDetailTooltip": "创建、阅读、编辑和删除操作的权限设置",
+        "RightsByEntityOperationDetail": "使用实体操作权限",
+        "RightsByEntityOperationDetailTitle": "额外权限",
+        "RightsByEntityOperationDetailTooltip": "基于角色或用户设置当前对象导出数据的权限",
+        "RightsByRecordDetail": "使用记录权限",
+        "RightsByRecordDetailTooltip": "设置读取、编辑和删除特定记录的权限",
+        "TitleFieldName": "标题",
+        "TitleFormat": "{0} 对象权限",
+        "UpdatePermissions": "更新记录权限",
+        "OneEmptyRecordDefRightMessageTemplate": "规则 \"{0}\" 除“未设置”外没有其他访问权限，并且不会影响实际访问设置。 应用新的权限时，Creatio会删除此规则。您想要继续吗？",
+        "SeveralEmptyRecordDefRightsMessageTemplate": "规则 \"{0}\" 除“未设置”外没有其他访问权限，并且不会影响实际访问设置。 应用新的权限时，Creatio会删除这些规则。您想要继续吗？",
+        "ProposalActualizationRights": "记录权限设置已修改成功。现有记录 {0} 的当前权限必须更新。 这可能会影响到所有用户。 \n 您想现在更新记录权限吗？",
+        "InfoAboutOperationPermissionsTitle": "Important",
+        "InfoAboutOperationPermissions": "Operation permissions for the object are deactivated. When this is the case:",
+        "InfoAboutOperationPermissions1": "Company employees have full access to all operations with the object, settings that are displayed in the list below are ignored.",
+        "InfoAboutOperationPermissions2": "External users do not have access to any operations with the object.",
+        "InfoAboutOperationPermissions3": "Technical users have access according to the settings in the list below.",
+        "InfoAboutOperationPermissions4": "Learn more about object permissions settings in the",
+        "InfoAboutOperationPermissionsLinkCaption": "Academy",
+        "InfoAboutOperationPermissionsAcademyLink": "https://academy.creatio.com/documents?id=250"
+    },
+    "AdministratedObjectSection": {
+        "BusinessLogicPermissions": "记录权限已启用",
+        "Close": "关闭",
+        "ColumnPermissions": "列权限已启用",
+        "Name": "名称",
+        "ObjectPermissions": "操作权限已启用",
+        "Search": "搜索",
+        "Title": "对象权限",
+        "TitleColumn": "标题",
+        "UpdatePermissions": "更新记录权限"
+    },
+    "BasePageComponent": {
+        "Close": "关闭",
+        "Apply": "应用",
+        "Cancel": "取消",
+        "Save": "保存",
+        "Actions": "操作",
+        "Check": "验证",
+        "Publish": "发布",
+        "PublishAndCompile": "发布并编译",
+        "SaveAndPublish": "Save and publish"
+    },
+    "ClearChangeLogSettingsDialog": {
+        "AllObjects": "所有对象",
+        "AllPeriod": "所有可用数据",
+        "Cancel": "取消",
+        "ChooseDate": "选择日期",
+        "ChooseObject": "选择对象",
+        "Clear": "清空",
+        "ObjectSettingsTitle": "清除以下对象的日志数据",
+        "OnlySelectedObject": "指定对象",
+        "PeriodSettingsTitle": "清除下一个期间的日志数据",
+        "Title": "清除更改日志",
+        "ToDatePeriod": "只有数据大于"
+    },
+    "ChangeLogCleanerService": {
+        "SuccessLaunch": "系统已经开始清理更改日志。完成后，您将在通信面板中收到通知"
+    },
+    "ChangeLogPage": {
+        "Close": "关闭",
+        "TitleFormat": "{0} 更改日志",
+        "ViewLog": "查看日志"
+    },
+    "ChangeLogSection": {
+        "Title": "更改日志",
+        "TitleColumn": "标题",
+        "NameColumn": "名称",
+        "LoggingEnabledColumn": "日志已启用",
+        "ClearChangeLog": "清除日志"
+    },
+    "ChangeLogComponent": {
+        "Blankslate": "更改日志中没有此对象的记录",
+        "InsertedTooltip": "记录已添加",
+        "UpdatedTooltip": "记录已修改",
+        "DeletedTooltip": "记录已删除",
+        "ShowMore": "显示更多",
+        "ShowLess": "显示更少",
+        "ChangeType": "改变类型",
+        "ChangeTrackedOn": "更改于",
+        "ChangeTrackedBy": "更改由",
+        "ChangeTracked": "记录",
+        "ColumnName": "列",
+        "ColumnOldValue": "旧值",
+        "ColumnNewValue": "新值",
+        "Yes": "确认",
+        "No": "否"
+    },
+    "LicenseManager": {
+        "PackageNameColumn": "名称",
+        "TypeColumn": "类型",
+        "StartDateColumn": "开始日期",
+        "DueDateColumn": "到期日",
+        "StatusColumn": "状态",
+        "CountColumn": "总计",
+        "LicenseIsActive": "激活",
+        "LicenseIsNotActive": "未激活",
+        "TypePersonal": "个人",
+        "TypeConcurrent": "并发的",
+        "TypeServer": "服务器"
+    },
+    "LicenseSection": {
+        "Title": "许可证管理",
+        "BlankslateTitle": "本节迄今还没有记录。",
+        "BlankslateDescription": "许可证文件上传后，将显示在这里",
+        "ServerLicenseTooltip": "服务器和并行许可证从用户页面分配",
+        "ConcurrentLicenseTooltip": "服务器和并行许可证从用户页面分配",
+        "UploadButtonCaption": "上传",
+        "UploadLicensesCompleteMessage": "许可证已成功上传",
+        "UploadLicensesErrorMessage": "无效的文件格式",
+        "RequestLicensesButtonCaption": "请求",
+        "DeleteLicensesButtonCaption": "刪除",
+        "DeleteLicensesConfirmation": "许可证将被删除。你想要继续吗？",
+        "DeleteLicensesSuccess": "所有许可已成功删除。",
+        "AllTypesCaption": "All licenses",
+        "PersonalTypeCaption": "个人",
+        "ServerTypeCaption": "服务器",
+        "UploadLicensesCryptographicExceptionMessage": "Invalid file format. If your license was generated for 8.3.0 or earlier Creatio versions, creating a new license request may resolve the issue."
+    },
+    "LicensePage": {
+        "TitleFormat": "产品 {0}"
+    },
+    "UsedLicensesCounterChart": {
+        "ActiveLicensesTitle": "激活的许可证",
+        "ConcurrentLicenseTitle": "并行许可证",
+        "UsedLicensesCountTitle": "已授权",
+        "UsedLicensesCountSeparatorLabel": "在",
+        "DistributedLicensesLegend": "授权给用户",
+        "AvailableLicensesLegend": "限制并行用户会话",
+        "UnlimitedCountLabel": "无限制用户",
+        "LimitOfLicensesLabel": "授权限制"
+    },
+    "LicenseDetail": {
+        "Title": "许可证"
+    },
+    "LicensedUsersDetail": {
+        "Title": "授权用户",
+        "UsersDialogCaption": "用户",
+        "UserNameColumn": "用户",
+        "EmailColumn": "邮件",
+        "JobTitleColumn": "职位",
+        "Delete": "召回！",
+        "Blankslate": "这些许可证尚未分发给任何用户",
+        "SourceTitleColumn": "Issue method",
+        "UserLicensesSourceManual": "Manually",
+        "UserLicensesSourceSystem": "Automatically",
+        "UserLicensesSourceRoleBased": "Based on role"
+    },
+    "LicenseRequestDialog": {
+        "Title": "公司许可协Id",
+        "LicenseVersionTitle": "许可版本",
+        "InputFieldDescription": "您的公司ID存储在“许可公司Id”系统设置。 更改公司ID将自动更新系统设置的值。",
+        "LicenseVersionDescription": "您计划上传许可证的 Creatio 版本。",
+        "InvalidVersionFormat": "请输入用点号分隔的三个数字的版本号。例如，7.18.1",
+        "RequestButtonCaption": "生成请求文件的许可证"
+    },
+    "ObjectRecordRightsActualizationService": {
+        "SuccessLaunch": "系统已经开始根据当前设置更新记录权限。完成后，您将在通信面板中收到通知"
+    },
+    "ViewElementGroup": {
+        "ChartsGroupCaption": "图",
+        "ComponentsGroupCaption": "组件",
+        "LayoutElementsGroupCaption": "布局元素",
+        "InputsGroupCaption": "输入",
+        "CustomElementsGroupCaption": "自定义元素"
+    },
+    "ObjectChangeLogPage": {
+        "TitleFormat": "更改对象 {0} 的日志",
+        "SettingsTabCaption": "日志设置",
+        "ViewChangeLogTabCaption": "日志数据",
+        "EnableObjectTracking": "启用日志"
+    },
+    "ObjectTypeFilter": {
+        "AllObjects": "所有对象",
+        "Lookups": "查询",
+        "Sections": "部分"
+    },
+    "SearchInput": {
+        "Placeholder": "搜索",
+        "Settings": {
+            "Cancel": "取消",
+            "Apply": "应用",
+            "SearchColumnTemplate": "按列 \"{0} \" 搜索",
+            "StartsWith": "开始于",
+            "Contains": "包含",
+            "Equals": "等于"
+        }
+    },
+    "DeleteButtonTableCell": {
+        "Tooltip": "删除"
+    },
+    "RightLevelSelect": {
+        "Granted": "批准",
+        "GrantedDelegate": "授予委派权",
+        "NotSet": "未设置"
+    },
+    "RightsByColumnDetail": {
+        "Add": "添加",
+        "Blankslate": "所有列的访问权限不受限制",
+        "Column": "列",
+        "ColumnBlankslate": "添加角色或用户来管理他们对该列的访问",
+        "DenyReadEdit": "拒绝读取和编辑",
+        "Drag": "拖动以更改优先级",
+        "PermitRead": "允许读取",
+        "PermitReadEdit": "拒绝读取和编辑",
+        "Priority": "优先级",
+        "Remove": "删除",
+        "RightLevel": "访问级别",
+        "User": "用户或角色",
+        "ValidationMessage": "选定角色的规则已经存在。请选择另一个角色继续。",
+        "WarningDowngradingRights": "此规则中的权限限制可以覆盖列表中级别较低的其他规则"
+    },
+    "RightsByRecordDetail": {
+        "Add": "添加",
+        "Blankslate": "未设置基于作者的权限规则",
+        "Delete": "删除",
+        "Edit": "编辑",
+        "Read": "已读",
+        "RecordAuthor": "录制作者",
+        "Remove": "移除",
+        "RightsRecipient": "获得权限的用户或角色",
+        "Title": "基于记录作者授予权限",
+        "TitleTooltip": "当创建新记录时，将根据记录作者授予权限",
+        "ValidationMessage": "选定角色的规则已经存在。请选择另一个角色继续。",
+        "DoNotApplyForManager": "Do not apply for manager",
+        "DoNotApplyForManagerTooltip": "Do not apply this rule if the author obtained the role only as a manager of that role. If the role is obtained through hierarchy from underlying roles, including manager roles of subordinate groups, the rule should still be applied."
+    },
+    "RightsByOperationsDetail": {
+        "Drag": "拖动以更改优先级",
+        "Priority": "优先级",
+        "User": "用户或角色",
+        "Create": "创建",
+        "Read": "阅读",
+        "Edit": "编辑",
+        "Delete": "删除",
+        "Remove": "移除",
+        "Add": "添加",
+        "Blankslate": "添加用户或角色以授权他们访问对象数据",
+        "ValidationMessage": "选定角色的规则已经存在。请选择另一个角色继续。",
+        "WarningDowngradingRights": "此规则中的权限限制可以覆盖列表中级别较低的其他规则",
+        "Allowed": "批准",
+        "Denied": "拒绝"
+    },
+    "RightsByEntityOperationsDetail": {
+        "Add": "添加",
+        "Title": "附加权限",
+        "Blankslate": "添加用户或角色以允许他们访问额外的操作",
+        "Operation": "操作",
+        "UserOrRole": "获得权限的用户或角色",
+        "ValidationMessage": "字段未填写"
+    },
+    "SelectEntitySchemaColumnDialog": {
+        "Cancel": "取消",
+        "Select": "选择",
+        "SelectFieldPlaceholder": "选择栏",
+        "Title": "选择栏"
+    },
+    "SelectSysAdminUnitDialog": {
+        "Cancel": "取消",
+        "FunctionalRoles": "职能角色",
+        "OrganizationalRoles": "组织角色",
+        "Search": "搜索",
+        "Select": "选择",
+        "Title": "选择用户或角色",
+        "Users": "用户"
+    },
+    "SelectEntityOperationDialog": {
+        "Cancel": "取消",
+        "Search": "搜索",
+        "Operations": "运行",
+        "Select": "选择",
+        "Title": "实体操作",
+        "Users": "用户",
+        "SelectFieldPlaceholder": "选择实体操作"
+    },
+    "SysAdminUnitTree": {},
+    "TrackedColumns": {
+        "TitleTooltip": "设置当记录被修改时将记录的列列表",
+        "Title": "日志列",
+        "CaptionColumn": "名称",
+        "NameColumn": "名称",
+        "Add": "添加",
+        "Remove": "移除",
+        "Blankslate": "未选择日志列"
+    },
+    "BaseSection": {
+        "BlankslateTitleWithFilters": "没有符合当前搜索条件的记录。",
+        "BlankslateDescriptionWithFilters": "清除或修改搜索参数",
+        "DeleteRecordConfirmation": "是否确定删除您选择的内容？?",
+        "AbsentDataErrorMessage": "记录已被删除或您没有权限读取"
+    },
+    "BaseTableDetail": {
+        "Add": "添加",
+        "BlankslateWithFilters": "没有匹配当前搜索条件的记录。清除或修改搜索参数"
+    },
+    "MultiselectDialog": {
+        "Select": "选择",
+        "Selected": "已选：",
+        "Cancel": "取消",
+        "Blankslate": "没有此对象的记录",
+        "BlankslateWithFilters": "没有匹配当前搜索条件的记录。清除或修改搜索参数"
+    },
+    "LookupDialog": {
+        "TitleTemplate": "选择: {0}",
+        "Selected": "已选：",
+        "SelectButton": "选择",
+        "CancelButton": "取消",
+        "Blankslate": "没有此对象的记录",
+        "AllPagesSelectionWarning": "操作可能需要很长时间。继续吗?"
+    },
+    "QuickEntityFilter": {
+        "NonGuidMessage": "指南应含有32个符号，含有4种破折号(xxxxxxxxx-xxxxxx-xxxx-xxxxxxxxxxxx)"
+    },
+    "DateRange": {
+        "To": "给"
+    },
+    "MailServerTableComponent": {
+        "AdditionalSettings": "附加设置",
+        "AddMailServer": "添加服务",
+        "AllowEmailDownloading": "接收邮件",
+        "AllowEmailSending": "发送邮件",
+        "Copy": "复制",
+        "DeleteConfirmation": "是否确定删除您选择的记录?",
+        "Delete": "删除",
+        "Edit": "编辑",
+        "Empty": "没有可用的邮件服务",
+        "ExchangeMenuItem": "交易",
+        "IMAPIncomingSettingsDescription": "接收电子邮件的电子邮件服务设置。指定邮件服务器地址、端口和安全设置",
+        "IMAPIncomingSettingsHeader": "接收邮件服务器 (IMAP)",
+        "ImapMenuItem": "IMAP/SMTP",
+        "LoginFormat": "登录格式",
+        "MailServerAddress": "服务地址",
+        "MailServer": "邮件服务",
+        "MailServerName": "服务名称",
+        "MailServerSettings": "服务设置",
+        "MailServerType": "服务类型",
+        "MailServiceRemoveToolTip": "Creatio 无法删除邮件服务，因为该服务的几个邮箱存在于应用程序",
+        "None": "无",
+        "Port": "端口",
+        "RequiredMailServiceActions": "启用下载或发送电子邮件以设置服务",
+        "Section": {
+            "Add": "添加",
+            "GoToDiagnostic": "诊断工具"
+        },
+        "Security": "安全",
+        "AuthenticationType": "认证类型",
+        "ApplicationId": "应用程序 (客户端) ID",
+        "ClientSecret": "客户端密钥",
+        "Server": "服务器地址",
+        "SMTPOutgoingSettingsDescription": "接收电子邮件的电子邮件服务设置。指定邮件服务器地址、端口和安全设置",
+        "SMTPOutgoingSettingsHeader": "发送邮件服务器 (SMTP)",
+        "SuccessfulAddOperation": "您已成功添加了一个新的电子邮件服务。用户现在可以使用此服务添加邮箱。",
+        "SuccessfulEditOperation": "Creatio 已成功更新邮件服务设置",
+        "SuccessfulOperation": "操作成功",
+        "WarningTitle": "⚠ 警告",
+        "Type": "类型",
+        "UseEmailAddressAsLogin": "使用电子邮件地址",
+        "UseLogin": "使用手动输入",
+        "UseUserNameAsLogin": "使用邮箱名称",
+        "BasicAuthWarningMessage": "请注意，基本身份验证已经过时并且可能不安全。微软</a>已正式弃用<a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online\"{0}>。对于生产使用，请考虑切换到现代OAuth身份验证。配置说明可在<a href=\"{1}\" {0}>Creatio Academy</a>中找到。\n\n",
+        "TenantId": "Tenant ID",
+        "AllowApplicationLevelAccess": "Allow application-level access"
+    },
+    "MailboxSettings": {
+        "AdditionalSettingsTabCaption": "附加设置",
+        "MailboxesTabCaption": "邮箱",
+        "MailServicesTabCaption": "邮箱服务",
+        "Title": "邮箱设置"
+    },
+    "EntitySchemaDesignerPage": {
+        "NameFieldName": "名称",
+        "CaptionFieldName": "标题"
+    },
+    "SqlScriptDesignerPage": {
+        "Name": "名称",
+        "Caption": "标题"
+    },
+    "SchemaDataDesignerPage": {
+        "ActualizeData": "更新数据",
+        "Fields": {
+            "Name": "名称",
+            "Object": "对象",
+            "InstallType": "安装类型",
+            "Package": "包"
+        },
+        "InfoBlockText1": "安装类型",
+        "InfoBlockText2": "安装类型决定软件包安装后添加应用程序数据的方法。",
+        "InfoBlockText3": "• Installation — data is added during the first installation of the package and is updated with the package updates. New records are always added. Existing records are updated only if the “Forced update” checkbox is selected on the “Columns setting” tab. This is the default and most flexible type.",
+        "InfoBlockText4": "• Update existing — deprecated type. We recommend using the Installation type instead because this type has similar behaviour.",
+        "InfoBlockText5": "• Initial package installation — data is added only during the first installation of the package. Data is not updated or added during subsequent package updates.",
+        "ColumnsSettingTabCaption": "栏设置",
+        "BoundDataTabCaption": "绑定数据",
+        "InstallType": {
+            "Install": "安装",
+            "FirstInstall": "Initial package installation",
+            "Update": "更新已存在",
+            "InstallIfNotExists": "Initial data installation"
+        },
+        "ColumnsDetail": {
+            "Title": "栏设置",
+            "Blankslate": "选择对象，然后设置列数",
+            "ErrorDeletePrimaryColumn": "禁止删除主列 \"{0}\"",
+            "ColumnsAreNotAvailableInPackageMessage": "这些列在当前软件包中不可用，无法添加： {0}",
+            "Columns": {
+                "Caption": "标题",
+                "Name": "名称",
+                "ForcedUpdate": "强制更新",
+                "Key": "密钥"
+            },
+            "Tooltips": {
+                "ForcedUpdate": "The checkbox indicates that the data in this column will update whenever the corresponding package is updated.",
+                "Key": "默认为对象的主列设置复选框。 如果数据库使用复合密钥，为所有复合密钥列选择此复选框。对象的主列不能是复合密钥列。"
+            }
+        },
+        "BoundDataDetail": {
+            "Title": "数据",
+            "Blankslate": "选择要绑定的记录",
+            "ActualDataWasLoaded": "当前数据已加载"
+        },
+        "InfoBlockText6": "• Initial data installation — data binding is installed during the first package installation or subsequent updates only if the same binding does not already exist. Use this type to avoid unintended overwrites."
+    },
+    "WorkspaceExplorer": {
+        "Section": {
+            "ActionButtonCaption": "操作",
+            "Title": "配置",
+            "WorkspaceItemMoveService": {
+                "NameColumn": "名称",
+                "SelectPackageDialogTitle": "将 {0} 元素移动到包",
+                "MultiselectElementsPackageDialogTitle": "将 {0} 元素移动到包",
+                "MoveElementsWebServiceSuccessMessage": "元素已成功移除",
+                "NoPackagesMessage": "没有可用的软件包",
+                "MoveAllPackageElementsWebServiceSuccessMessage": "元素已成功移除",
+                "MoveAllPackageElementsDialogTitle": "将 {0} 元素移动到包",
+                "SpecifyDependenciesConfirmationDialog": "{0} 软件包缺少正确迁移所需的依赖关系。您想要自动安装缺失的依赖关系吗？"
+            },
+            "WorkspaceItemMoveValidateDialog": {
+                "ErrorMessageTitle": "元素移动时出错",
+                "WithoutValidationConfirmationMessage": "这将破坏配置的完整性，因为传输的包元素之间存在当前的依赖关系。要恢复完整性，请迁移当前依赖项所需的其他元素或修改依赖项。\n除非您计划执行上述任何一种操作，否则不建议继续进行。\n继续迁移包元素?",
+                "MoveButtonCaption": "移动元素"
+            },
+            "PackageStorageValidationMessageDialog": {
+                "Title": "编译错误",
+                "MessageColumn": "描述",
+                "ItemNameColumn": "元素",
+                "ItemTypeColumn": "类型",
+                "PackageNameColumn": "包",
+                "ConfirmationTitle": "元素移动时出错",
+                "WithoutValidationConfirmationMessage": "这将破坏配置的完整性，因为传输的包元素之间存在当前的依赖关系。要恢复完整性，请迁移当前依赖项所需的其他元素或修改依赖项。\n除非您计划执行上述任何一种操作，否则不建议继续进行。\n继续迁移包元素?",
+                "MoveButtonCaption": "移动元素"
+            },
+            "ValidateWorkspaceDialog": {
+                "ErrorMessageTitle": "编译错误",
+                "ValidationSuccess": "配置验证成功。未发现错误"
+            },
+            "Packages": {
+                "InstallPackageDialog": {
+                    "Title": "从资源库中安装包",
+                    "InputFieldPackageName": "包",
+                    "InputFieldRepositoryAddress": "版本控制系统存储库",
+                    "InputFieldVersion": "版本",
+                    "Cancel": "取消",
+                    "Install": "安装"
+                },
+                "CreatePackageDialog": {
+                    "Title": "包",
+                    "InputFieldName": "名称",
+                    "InputFieldDescription": "描述",
+                    "InputFieldRepositoryAddress": "版本控制系统存储库",
+                    "InputFieldVersion": "版本",
+                    "SaveButtonCaption": "保存",
+                    "Cancel": "取消",
+                    "OpenPackagePage": "创建和添加依赖关系",
+                    "Validation": {
+                        "PackageNameNotSpecified": "未指定软件包版本",
+                        "PackageVersionNotSpecified": "未指定软件包版本",
+                        "NotAllowedFormat": "版本库格式错误",
+                        "MaximumLengthExeeded": "超过最大文本长度"
+                    }
+                },
+                "SourceControl": {
+                    "CommitResult": {
+                        "Success": "更改成功提交到存储库",
+                        "CustomPackage": "无法从存储库更新自定义包",
+                        "PackageUpdateNeed": "在数据库中检测到更改。需要更新工作台",
+                        "PackageHasForeignLock": "无法保存更改:保存项目的包被另一个用户锁定"
+                    },
+                    "CommitChangesDialog": {
+                        "Title": "提交更改到版本库",
+                        "LogMessageFieldCaption": "描述",
+                        "CommitButtonCaption": "提交更改",
+                        "Cancel": "取消",
+                        "NoChanges": "没有项目需要提交"
+                    },
+                    "Update": {
+                        "ConfirmMessage": "您想要从资源库中更新这个软件包吗？",
+                        "NoChanges": "未找到更改"
+                    },
+                    "Install": {
+                        "ConfirmMessage": "找到已安装的软件包。下次安装时会完全更改软件包结构。是否继续？",
+                        "NoChanges": "未发现改动"
+                    },
+                    "Restore": {
+                        "ConfirmMessage": "工作台将更新到最新版本。所有的更改都将丢失。继续吗?",
+                        "Success": "成功地从存储库中恢复工作台"
+                    }
+                },
+                "PackageCreated": "成功创建新软件包： {0}",
+                "PackageDeleted": "成功删除包： {0}",
+                "PackageLocked": "成功锁定包： {0} 在 SVN 中",
+                "PackageUnlocked": "成功解锁包： {0} 在 SVN 中",
+                "SearchPlaceholder": "按软件包搜索",
+                "AllPackagesCaption": "所有软件包",
+                "DeleteConfirmation": "确定删除所选项目？?",
+                "BlankslateTitle": "未找到软件包",
+                "InstallFromRepository": {
+                    "NoRepositories": "Creatio 找不到任何已保存的储存库。您想要保存一个新的储存库吗？",
+                    "NoActiveRepository": "Creatio 找不到任何可用储存库。您想要保存一个新的储存库吗？"
+                },
+                "ConnectedApplications": {
+                    "DeleteConfirmation": "The package will also be removed from the following apps:\n{0}\nPackage removal can make these apps lose functionality or become inoperative. Are you sure you want to proceed?",
+                    "DeactivateConfirmation": "The package will also be deactivated in the following apps:\n{0}\nPackage deactivation can make these apps lose functionality or become inoperative. Are you sure you want to proceed?"
+                },
+                "CreatePackage": "Create package",
+                "PackageDeactivated": "Successfully deactivated the package: {0}",
+                "DeactivateConfirmation": "Are you sure you want to deactivate the selected package?",
+                "ActivateConfirmation": "Are you sure you want to activate the selected package?",
+                "EndUserSchemas": "Environment schemas",
+                "NewSearchPlaceholder": "搜索",
+                "PackagesCaption": "Packages",
+                "EndUserSchemaPackageTooltip": "Environment schemas exist only in this environment. To transfer them, move the schema to a package.",
+                "ConfigurationRootCaption": "配置"
+            },
+            "Items": {
+                "ImportSuccessMessage": "“{0}”项导入到“{1}”包成功",
+                "UpdateDBStructureConfirmMessage": "这将更新所选对象的数据库结构。你想要继续吗？",
+                "GenerateSchemasSourcesConfirmMessage": "这将生成所选元素的源代码。你想要继续吗？",
+                "InstallSqlScriptsConfirmMessage": "这将会将所选的 SQL 脚本安装到数据库。您想要继续吗？",
+                "InstallDataConfirmMessage": "这将为所选项目安装数据。您想要继续吗？",
+                "DeleteConfirmMessage": "您想永久删除选定的项目吗？",
+                "RevertChangesMessage": "所选项目中的所有更改都将丢失。继续吗?",
+                "RecordLockedInSVNSuccessfully": "成功锁定在 SVN 中记录",
+                "RecordUnlockedInSVNSuccessfully": "成功解锁在 SVN 中的记录",
+                "MultiItemActionButton": "多重操作",
+                "Columns": {
+                    "UId": "UID",
+                    "Name": "名称",
+                    "Title": "标题",
+                    "Status": "状态",
+                    "Type": "类型",
+                    "Object": "对象",
+                    "ModifiedOn": "在..上修改",
+                    "Package": "包",
+                    "CreatedOn": "创造于",
+                    "CreatedBy": "被创建",
+                    "ModifiedBy": "修改人"
+                },
+                "Add": {
+                    "Caption": "添加",
+                    "Sql": "SQL 脚本",
+                    "SourceCode": "源代码",
+                    "Entity": "对象",
+                    "ReplacingEntity": "替换对象",
+                    "ClientUnit": {
+                        "Module": "模块",
+                        "EditViewModelSchema": "页面视图模型",
+                        "AngularSchema": "自由界面页面",
+                        "ModuleViewModelSchema": "节视图模型",
+                        "GridDetailViewModelSchema": "详细信息(列表) 视图模型",
+                        "EditControlsDetailViewModelSchema": "详细信息(字段) 视图模型",
+                        "ExtendedClientUnitSchema": "替换视图模型",
+                        "ExtendedAngularSchema": "角度替换视图模型"
+                    },
+                    "UserTask": "用户任务",
+                    "BusinessProcess": "业务流程",
+                    "DataBinding": "数据",
+                    "Import": "导入",
+                    "RestService": "REST service",
+                    "SoapService": "SOAP service"
+                },
+                "Types": {
+                    "SqlScript": "SQL 脚本",
+                    "SchemaData": "数据",
+                    "Assembly": "参考资料集",
+                    "EntitySchema": "对象",
+                    "ClientUnitSchema": "客户端模块",
+                    "SourceCodeSchema": "源代码",
+                    "ProcessSchema": "业务流程",
+                    "DcmSchema": "案例",
+                    "ProcessUserTaskSchema": "用户任务",
+                    "CampaignSchema": "营销活动",
+                    "ServiceSchema": "网络服务",
+                    "AddonSchema": "Addon",
+                    "CopilotIntentSchema": "Creatio.ai agent",
+                    "LocalizationSchema": "Localization"
+                },
+                "Status": {
+                    "NeedInstall": "需要安装在数据库中",
+                    "NeedUpdateSourceCode": "需要更新源代码",
+                    "NeedUpdateStructure": "数据更新要求",
+                    "LockedInSVN": "已锁定到 SVN",
+                    "UnlockedInSVN": "在 SVN 中解锁"
+                },
+                "Filters": {
+                    "Types": {
+                        "AllItems": "所有项目",
+                        "Placeholder": "类型"
+                    },
+                    "States": {
+                        "AllItems": "所有项目",
+                        "Placeholder": "筛选",
+                        "Locked": "已锁定",
+                        "NeedActualization": "需要实现",
+                        "Error": "出错了"
+                    }
+                },
+                "DetailsDialog": {
+                    "Close": "关闭",
+                    "PageTitle": "属性",
+                    "Title": "标题",
+                    "Name": "名称",
+                    "FullQualifiedName": "完全合格的装配体名称",
+                    "DataObjectName": "对象",
+                    "CreatedBy": "被创建",
+                    "CreatedOn": "创造于",
+                    "PackageName": "包",
+                    "ParentCaption": "母本",
+                    "ReplaceParent": "更改母本",
+                    "IsChanged": "已修改",
+                    "UId": "UId",
+                    "ModifiedBy": "根据..修改",
+                    "Id": "Id",
+                    "ModifiedOn": "在..上修改",
+                    "ManagerName": "管理器名称",
+                    "MetaDataModifiedOn": "元数据修改于",
+                    "Description": "描述",
+                    "IsLocked": "已锁定",
+                    "NeedUpdateDBStructure": "数据更新要求",
+                    "NeedInstall": "需要安装在数据库中",
+                    "LastErrorText": "上一错误信息",
+                    "LockedBy": "被..锁定",
+                    "DbStructureModifiedOn": "数据库结构修改为",
+                    "IsNetStandard": "IsNetStandard",
+                    "LoadOnAppStart": "LoadOnAppStart",
+                    "UIdTooltip": "配置元素唯一的ID。配置元素Id 在任何应用程序中都将始终保持相同",
+                    "IdTooltip": "此列是数据库表中的主键。在不同的应用程序中，记录ID可能是不同的"
+                },
+                "InstallLocalizationConfirmMessage": "This action will install data localizations for records and overwrite the current runtime values. Do you want to proceed?"
+            },
+            "Actions": {
+                "Move": "移动到另一个包",
+                "MovePackageAllElements": "移动元素",
+                "Blocks": {
+                    "SourceCode": "源代码",
+                    "Actualization": "实际化项",
+                    "DevInFileSystem": "文件系统开发模式",
+                    "VersionControl": "SVN 存储库",
+                    "Packages": "包",
+                    "Validation": "配置",
+                    "CacheManagement": "Cache Management"
+                },
+                "Compile": "编辑",
+                "CompileAll": "编译所有",
+                "Edit": "编辑",
+                "Delete": "删除",
+                "MultiDelete": "删除 ({0})",
+                "MultiExport": "导出 ({0})",
+                "Export": "导出",
+                "Update": "从版本库中升级",
+                "Commit": "提交到版本库",
+                "Properties": "属性",
+                "UpdateDBStructure": "更新数据库结构",
+                "MultiUpdateDBStructure": "更新对象DB结构",
+                "EditProcess": "编辑进程",
+                "GenerateSchemasSources": "生成源代码",
+                "InstallSqlScripts": "安装",
+                "MultiInstallSqlScripts": "安装SQL脚本",
+                "InstallData": "安装",
+                "MultiInstallData": "装载数据",
+                "RevertChanges": "放弃更改",
+                "InstallRequiredSqlScripts": "安装需要的 SQL 脚本",
+                "InstallRequiredData": "在需要时安装",
+                "InstallRequiredSchemasDBStructure": "需要时更新数据库结构",
+                "OperationSuccessMessage": "操作成功",
+                "GenerateRequiredSchemasSources": "在需要时生成",
+                "GenerateModifiedSchemasSources": "为修改后的项目生成",
+                "GenerateAllSchemasSources": "为所有项目生成",
+                "GenerateAllSchemasSourcesWasStarted": "系统已经开始为所有方案生成源代码。当过程完成后，您将在通信面板中收到通知",
+                "GenerateAllSchemasSourcesSuccess": "已成功生成所有模块的源代码",
+                "GenerateAllSchemasSourcesError": "某些方案的源代码生成完成时出现错误。 重新加载后在配置项列表中可以访问每个方案的错误消息。你想要重新加载配置项吗？",
+                "LoadPackagesToFileSystem": "下载包到文件系统",
+                "LoadPackagesToDB": "从文件系统更新包",
+                "OpenRepositoriesList": "打开资源库列",
+                "RestoreFromRepository": "从存储库恢复",
+                "InstallPackageFromRepository": "从资源库中安装包",
+                "PackageDependenciesDiagram": "软件包依赖关系图",
+                "ValidateWorkspace": "验证配置",
+                "FileDesignModeInfo": "要激活，请在应用程序配置文件中设置：\n - 真为文件设计模式元素启用的属性；\n - 用于 UseStaticFileContent 标志的虚拟。",
+                "Confirmation": {
+                    "InstallRequiredSqlScripts": "所有需要安装的项目将被安装到数据库。继续吗?",
+                    "InstallRequiredData": "所有需要安装的项目将被安装到数据库。继续吗?",
+                    "InstallRequiredSchemasDBStructure": "数据库结构将为所有需要更新的模式进行更新。继续吗?",
+                    "Compile": "将编译工作区。你想要继续吗？",
+                    "CompileAll": "将重新编译工作区。你想要继续吗？",
+                    "GenerateRequiredSchemasSources": "为需要的所有模式生成源代码?",
+                    "GenerateModifiedSchemasSources": "为修改方案生成源代码？",
+                    "GenerateAllSchemasSources": "为所有方案生成源代码吗？操作的结果将发送到通信面板",
+                    "ThirdPartyPublisher": "“{0}”项要么由第三方发布者创建，要么从文件归档中安装。无法保存该项的更改。继续吗?",
+                    "ValidateWorkspace": "操作可能需要很长时间。继续吗?",
+                    "ExportItems": "操作可能需要很长时间。继续吗?",
+                    "StartHotfix": "This option is designed for critical and urgent changes. The package will be locked back automatically after {0} minutes. Make sure to deliver changes to the development environment after the hotfix.\n\nAre you sure you want to make a hotfix in the package?",
+                    "FinishHotfix": "Make sure to deliver changes to the development environment after the hotfix.\nAre you sure you want to lock the package?",
+                    "Cache": {
+                        "Message": "This action will remove data from the IndexedDB cache storage for all users. This caching helps applications and pages load faster. After clearing, some pages may temporary load slower at first while the cache is rebuilt.",
+                        "Cancel": "取消",
+                        "Clear": "Clear"
+                    }
+                },
+                "OpenMetaData": "开放的元数据",
+                "OpenSourceCode": "打开源代码",
+                "LockPackageElement": "在 SVN 中锁定元素",
+                "UnLockPackageElement": "在 SVN 中解锁元素",
+                "LockPackage": "在SVN中锁定软件包",
+                "UnLockPackage": "在 SVN 中解锁软件包",
+                "Deactivate": "Deactivate",
+                "Activate": "Activate",
+                "CompilationCompletedSuccessfully": "Compilation completed successfully",
+                "CompilationCompletedWithErrors": "Compilation completed with errors",
+                "OperationCompleted": "Operation completed",
+                "StartHotfix": "Unlock for hotfix",
+                "FinishHotfix": "Lock after hotfix",
+                "ClearAllCache": "Clear IndexedDB cache for all users",
+                "InstallLocalizationInBackgroundSuccess": "Localization installation has started. You’ll receive a notification when it is complete",
+                "InstallLocalization": "Install"
+            },
+            "WorkspaceSyncResultDialog": {
+                "Close": "关闭",
+                "Title": "更改",
+                "Error": "错误",
+                "ShowOnlyErrors": "只显示错误",
+                "Columns": {
+                    "Name": "名称",
+                    "Type": "类型",
+                    "Status": "状态",
+                    "ErrorText": "错误文本"
+                }
+            },
+            "HotKey": "Hotkey",
+            "NoDataTitle": "The package is inactive currently.",
+            "NoDataText": "You can activate it manually. This will enable its contents and make its functionality available for users.",
+            "CompilationErrorsButton": {
+                "Title": "Compilation errors"
+            }
+        },
+        "PackagePage": {
+            "Title": "包属性",
+            "Name": "名称",
+            "Description": "描述",
+            "Maintainer": "维护者",
+            "MaintainerTooltip": "软件包开发者",
+            "PackageType": "编译成单独的程序集",
+            "RepositoryAddress": "存储库地址",
+            "RepositoryVersion": "存储库版本",
+            "PackageVersion": "软件包版本",
+            "DependenciesTab": "独立性",
+            "InstallationFlow": "安装步骤",
+            "SysInformationTab": "系统信息",
+            "CompilationRequired": "编译配置以应用更改",
+            "PackageDependencyDetail": {
+                "DependsOnPackagesTitle": "取决于包",
+                "DependentPackagesTitle": "依赖文件夹",
+                "DependsOnPackagesTooltip": "当前文件夹依赖的文件夹",
+                "DependentPackagesTooltip": "依赖当前软件包的软件包",
+                "PackagesDialogCaption": "选择软件包",
+                "NameColumn": "名称",
+                "Maintainer": "维护者",
+                "Remove": "移除",
+                "Blankslate": "没有软件包",
+                "Add": "添加"
+            },
+            "InstallationFlowTab": {
+                "BeforePackageInstall": "开始软件包安装",
+                "BeforePackageInstallTooltip": "在软件包安装前执行的操作",
+                "AfterPackageInstall": "开始软件包安装",
+                "AfterPackageInstallTooltip": "在软件包安装前执行的操作",
+                "BeforePackageUninstall": "在删除软件包前",
+                "BeforePackageUninstallTooltip": "删除软件包之前要执行的操作",
+                "Blankslate": "没有步骤"
+            },
+            "InstallFlowPackageDetail": {
+                "Add": "添加",
+                "ScriptsDialogCaption": "选择模式",
+                "ColumnNameCaption": "名称",
+                "ColumnTitleCaption": "标题",
+                "ColumnPositionCaption": "顺序",
+                "ColumnModifiedOnCaption": "在..上修改",
+                "Install": "手动运行",
+                "Success": "Operation was successful"
+            },
+            "SysInformation": {
+                "CreatedBy": "被创建",
+                "ModifiedBy": "修改人",
+                "CreatedOn": "创造于",
+                "ModifiedOn": "在..上修改",
+                "UIDTooltip": "包唯一的ID。包ID在任何应用程序中将始终保持相同",
+                "IDTooltip": "此列是数据库表中的主键。在不同的应用程序中，记录ID可能是不同的"
+            },
+            "RepositoryAuthorizationRequired": "操作已终止。需要身份验证。现在登录吗？",
+            "InstallBehavior": "Use smart activation",
+            "InstallBehaviorInfo": "The package is installed on the environment and activated automatically when all its dependencies are available. Missing dependencies do not interfere with the installation of the package/application that includes the package. Once all dependencies are available, the package is automatically activated and becomes accessible to the user. If the dependencies are no longer available, the package is automatically deactivated."
+        },
+        "Errors": {
+            "AssemblyIsNotInitialized": "请先编译配置才能恢复您的 Creatio。 \n 您想要现在编译吗？"
+        },
+        "PageTemplateLookup": {
+            "HeaderCaption": "选择模板",
+            "Cancel": "取消",
+            "Select": "选择",
+            "WebPages": "Web pages",
+            "MobilePages": "Mobile app pages"
+        },
+        "DetailedMessageDialog": {
+            "Title": "Attention",
+            "OperationTitleMessage": "You are about to initiate an operation \"{0}\" that may result in temporary unavailability of the site for users. Please ensure the necessity of this action.",
+            "InternalBlockTitle": "Potential consequences:",
+            "InternalBlockFirstMessage": "Temporary restriction of access to specific features or the entire site",
+            "InternalBlockSecondMessage": "Possible disruption of ongoing processes and activities of other users",
+            "AdviseMessage": "If performing this operation in the production environment is unavoidable, we strongly recommend scheduling it during a designated maintenance window to minimize its impact on users.",
+            "ProceedActionQuestion": "Do you want to proceed with this operation now?",
+            "ExecuteOperationCaption": "Execute operation",
+            "GenerateAllSchemasSourcesAction": "Generate source code for all schemas",
+            "GenerateRequiredSchemasSourcesAction": "Generate source code where it is needed",
+            "GenerateModifiedSchemasSourcesAction": "Generate source code for modified schemas",
+            "DeleteAction": {
+                "WithConnectedApplications": {
+                    "Message": "The package will also be removed from the following apps:\n{0}",
+                    "InternalBlockMessage": "Package removal can make these apps lose functionality or become inoperative."
+                }
+            },
+            "DeactivateAction": {
+                "WithConnectedApplications": {
+                    "Message": "The package will also be deactivated in the following apps:\n{0}",
+                    "InternalBlockMessage": "Package deactivation can make these apps lose functionality or become inoperative."
+                }
+            }
+        }
+    },
+    "TableDialog": {
+        "Close": "关闭",
+        "Cancel": "取消"
+    },
+    "ErrorListDialogService": {
+        "CodeErrorListDialogCaption": "编译结果",
+        "FileNameColumn": "文件名",
+        "ErrorTextColumn": "描述",
+        "ErrorNumberColumn": "密码",
+        "LineColumn": "行",
+        "CodeValidationErrorListDialogCaption": "Cyclic dependencies detected",
+        "SourceColumn": "Element that references",
+        "ReferenceColumn": "Element being referenced",
+        "PackageColumn": "包",
+        "AcademyHelpUrlCaption": " 在学院学习更多",
+        "PackagePropertiesErrorDialogCaption": "Package dependency validation error",
+        "PackagePropertiesErrorMessage": "One or more validation issues prevent modifying the dependency list for this package. Review the list of issues below and resolve them before making changes.",
+        "ItemTypeColumn": "类型",
+        "ItemNameColumn": "姓名",
+        "DescriptionColumn": "描述",
+        "PackageNameColumn": "包",
+        "TypeColumn": "元素代码"
+    },
+    "SchemaDesigners": {
+        "BaseDesignerPage": {
+            "SaveSuccessMessage": "记录保存成功",
+            "PublishSuccessMessage": "记录已成功发布",
+            "ChangeParentSchemaMessage": "使用“{0}”作为当前对象的父对象?",
+            "DeleteParentSchemaMessage": "删除当前对象的父对象?"
+        },
+        "BaseDesignerStructureService": {
+            "MiniPage": {
+                "NameTitle": "编码",
+                "PackageTitle": "包",
+                "Apply": "应用",
+                "Cancel": "取消",
+                "Ok": "确定",
+                "Caption": "标题",
+                "Description": "描述",
+                "Validations": {
+                    "RequiredNameCaption": "输入值",
+                    "PatternNameCaption": "无效值。使用符号: a-z, A-Z, 0-9. 其中0-9不能放在首位",
+                    "PatternPrefixTemplate": "代码必须以“{0}”为前缀"
+                }
+            }
+        },
+        "SchemaParameterMiniPage": {
+            "CardTitle": "参数",
+            "Title": "密码",
+            "Caption": "标题",
+            "Lookup": "查阅",
+            "Value": "值",
+            "Schema": "模式",
+            "Create": "创建",
+            "Cancel": "取消",
+            "Resulting": "结果",
+            "Required": "必需",
+            "ContainsPerformerId": "包含执行者 Id",
+            "LazyLoad": "懒加载",
+            "Serializable": "序列化",
+            "CopyValue": "复制值",
+            "Type": "类型",
+            "Save": "保存",
+            "ProperyExistMessage": "此属性已在另一个参数中被选中，仅限 1 个参数中使用。",
+            "Validations": {
+                "RequiredNameCaption": "输入值",
+                "PatternNameCaption": "无效值。使用符号: a-z, A-Z, 0-9. 其中0-9不能放在首位",
+                "DataValueTypeListContainsMessage": "请从列表中选择值"
+            }
+        },
+        "SqlSchemaDesignerPage": {
+            "Caption": "SQL",
+            "DependentScriptsCaption": "依赖的 SQL 脚本",
+            "DependsOnScriptCaption": "依赖于SQL脚本",
+            "SqlScriptValidateCaption": "SQL脚本验证完成",
+            "Install": "Install",
+            "ShouldSaveFirstTitle": "Save the script before installing",
+            "InstallSqlScriptsConfirmMessage": "This will install SQL script to the database. Do you wish to proceed?",
+            "InstallSuccessMessage": "Operation was successful"
+        },
+        "SqlSchemaDesignerMiniPage": {
+            "Title": "Sql 脚本",
+            "DbmsType": "DBMS类型",
+            "InstallationType": "安装类型",
+            "BackwardCompatibilityConfirmed": "后向兼容性",
+            "BackwardCompatibilityConfirmedLabelBeforeLink": "向后兼容的 SQL 脚本是符合建议的脚本 ",
+            "BackwardCompatibilityConfirmedLabelAfterLink": "。仅当您的脚本符合每项建议时选择此复选框",
+            "AcademyHelpUrlCaption": "在单独条款中指定"
+        },
+        "MultiSelectSqlSchemasMiniPage": {
+            "Title": "选择 SQL 脚本",
+            "TableColumn": {
+                "Name": "编码",
+                "Package": "包"
+            }
+        },
+        "RelatedPagesDesigner": {
+            "RelatedPageLabel": "默认页面",
+            "AddPageLabel": "添加页面",
+            "ExternalPageCaption": "外部用户页面设置",
+            "RelatedPagesCaption": "页面设置",
+            "DefaultPageSelectionTooltip": "编辑、阅读和创建记录的默认页面。\n我们建议使用自由界面页面，以当前对象作为数据源。",
+            "AddPageTooltip": "选择或创建一个只用于添加新记录的特定页面。",
+            "RelatedPageCombobox": {
+                "AddNewPage": "添加新页面",
+                "OpenPageInDesignerTitle": "打开接口设计"
+            },
+            "DefaultPagePlaceholder": "Page to use if no other page is specified",
+            "AddPagePlaceholder": "Page to use for adding records"
+        },
+        "EntitySchemaDesigner": {
+            "EntitySchemaDesignerStructure": {
+                "InheritedColumnsCaption": "继承列",
+                "ColumnsCaption": "列",
+                "IndexesCaption": "索引",
+                "EventsCaption": "事件",
+                "SourceCodeCaption": "源代码"
+            },
+            "Actions": {
+                "OpenEmbeddedProcess": "开放过程"
+            },
+            "EntityEditor": {
+                "GeneralGroup": {
+                    "Caption": "通用",
+                    "NameCaption": "编码",
+                    "TitleCaption": "标题",
+                    "PackageCaption": "包",
+                    "DescriptionCaption": "描述",
+                    "NameTooltip": "Unique system name of the object schema.",
+                    "TitleTooltip": "Localizable object title displayed in the UI.",
+                    "PackageTooltip": "Package containing the object schema.",
+                    "DescriptionTooltip": "Localizable description of the object."
+                },
+                "ObjectSettings": {
+                    "Caption": "对象设置",
+                    "IdCaption": "Id",
+                    "DisplayedValueCaption": "显示值",
+                    "ParentInHierarchyCaption": "上级层次结构",
+                    "ChangeLogObjectNameCaption": "改变日志对象名称",
+                    "LocalizationObjectNameCaption": "本土化对象名称",
+                    "ImageCaption": "图像",
+                    "SortingInListsCaption": "排序的列表",
+                    "OwnerCaption": "所有者",
+                    "PermissionObjectNameCaption": "许可对象名称",
+                    "ColorCaption": "颜色",
+                    "IdTooltip": "Primary key column that uniquely identifies object records.",
+                    "ImageTooltip": "Column that stores an image or icon for object records.",
+                    "DisplayedValueTooltip": "Column used as a record title when other objects reference the record.",
+                    "ParentInHierarchyTooltip": "Column that references the parent record for hierarchical structures.",
+                    "ChangeLogObjectNameTooltip": "Name of the object that stores the change log for this entity.",
+                    "LocalizationObjectNameTooltip": "Name of the object that stores localized values for this entity.",
+                    "OwnerTooltip": "Column used to automatically grant access rights to a record.",
+                    "PermissionObjectNameTooltip": "Name of the object that stores permission settings for this entity.",
+                    "ColorTooltip": "Column that stores the color for object records."
+                },
+                "EntityBusinessRules": {
+                    "OpenBusinessRulesButtonCaption": "打开业务规则",
+                    "BusinessRulesDialogTitle": "业务规则",
+                    "BusinessRulesDialogCancelButton": "取消",
+                    "BusinessRulesDialogApplyButton": "应用"
+                },
+                "InheritanceGroup": {
+                    "Caption": "遗产",
+                    "ParentObjectCaption": "父对象",
+                    "ExtendParent": "更改母本",
+                    "ParentObjectTooltip": "Parent object whose structure and behavior the current object inherits.",
+                    "ExtendParentTooltip": "Marks the schema as a replacing object that overrides the parent on the current inheritance level."
+                },
+                "BehaviorGroup": {
+                    "Caption": "性能",
+                    "isDBViewCaption": "表示数据库视图的结构",
+                    "isVirtualCaption": "虚拟的",
+                    "isTrackChangesInDBCaption": "上传日志更改",
+                    "isSSPAvailable": "对象是否可作为SSP部分",
+                    "useRecordDeactivationCaption": "允许记录失活",
+                    "useLiveEditingCaption": "启用实时数据更新",
+                    "showInAdvancedModeCaption": "仅在高级模式下显示",
+                    "isDBViewTooltip": "Indicates that the object is based on a database view instead of a regular table.",
+                    "isVirtualTooltip": "Indicates that the object does not store data in a physical database table and is dynamically obtained from some alternative data sources.",
+                    "isSSPAvailableTooltip": "Makes the object accessible as a section for portal (SSP) users.",
+                    "useLiveEditingTooltip": "The record change automatically generates signals to all currently opened pages of the record, and they auto-refresh.",
+                    "useRecordDeactivationTooltip": "Lets users deactivate records without deleting them.",
+                    "isTrackChangesInDBTooltip": "Enables logging of object record changes.",
+                    "showInAdvancedModeTooltip": "Hides rarely used objects from the standard Studio view."
+                },
+                "AccessRights": {
+                    "Caption": "通过权限",
+                    "OperationsCaption": "运行",
+                    "ColumnsCaption": "列",
+                    "RecordsCaption": "记录",
+                    "MasterRecordCaption": "继承访问权限的对象",
+                    "OperationsTooltip": "Enables access rights restrictions for record operations.",
+                    "ColumnsTooltip": "Enables access rights restrictions at the column level.",
+                    "RecordsTooltip": "Enables access rights restrictions at the individual record level.",
+                    "MasterRecordTooltip": "Object whose access permissions are inherited."
+                },
+                "HistoryColumns": {
+                    "Caption": "历史列",
+                    "CreatedByCaption": "创建者",
+                    "CreatedOnCaption": "创造于",
+                    "ModifiedByCaption": "修改人",
+                    "ModifiedOnCaption": "修改于",
+                    "CreatedByTooltip": "Column that stores the user who created the record.",
+                    "CreatedOnTooltip": "Column that stores the record creation date and time.",
+                    "ModifiedByTooltip": "Column that stores the user who last modified the record.",
+                    "ModifiedOnTooltip": "Column that stores the date and time of the last modification."
+                },
+                "Validations": {
+                    "RequiredNameCaption": "输入值",
+                    "PatternNameCaption": "无效的值。使用符号:a-z, a-z, 0-9。符号:0 ~ 9不能在第一位。",
+                    "PatternPrefixTemplate": "代码必须以“{0}”为前缀",
+                    "DuplicateNameCaption": "相名对象已经存在"
+                }
+            },
+            "ColumnEditor": {
+                "GeneralGroup": {
+                    "Caption": "通用",
+                    "NameCaption": "代码",
+                    "EnglishNameCaption": "密码",
+                    "TitleCaption": "标题",
+                    "DataTypeCaption": "数据类型",
+                    "FormatCaption": "格式",
+                    "ReferenceSchemaCaption": "查找",
+                    "DescriptionCaption": "描述",
+                    "RequiredCaption": "必需",
+                    "DefaultValueCaption": "默认值",
+                    "CanMakeCopyCaption": "复制记录时复制此值",
+                    "IsMultiLineTextCaption": "多行文本",
+                    "IsMaskedCaption": "显示输入掩码",
+                    "IsLocalizableTextCaption": "本土化文本",
+                    "IsCascadeCaption": "查找值删除时：",
+                    "IsFormatValidationCaption": "验证格式",
+                    "isAutonumber": "自动编号",
+                    "EditCodeInfoIconCaption": "Changing the code may cause incorrect behavior of related components. Please use it with caution",
+                    "MaskTypeCaption": "Mask type",
+                    "MaskOperationCaption": "Operation permission",
+                    "UseSecondsCaption": "Show seconds",
+                    "IsAccentInsensitiveCaption": "Accent insensitive search (PostgreSQL only)",
+                    "NameTooltip": "Unique system name of the column.",
+                    "TitleTooltip": "Localizable column title shown in the UI.",
+                    "DataTypeTooltip": "Type of data stored in the column.",
+                    "DescriptionTooltip": "Localizable description of the column.",
+                    "RequiredTooltip": "Specifies that the column must not be empty.",
+                    "DefaultValueTooltip": "Value assigned automatically if no value is provided.",
+                    "CanMakeCopyTooltip": "Copies the column value when a record is copied.",
+                    "IsMultiLineTextTooltip": "Allows entering and displaying text in multiple lines.",
+                    "IsAccentInsensitiveTooltip": "Enables search without considering accent marks.",
+                    "IsLocalizableTextTooltip": "Lets the column store values in multiple languages.",
+                    "IsMaskedTooltip": "Shows an input mask for guided value entry.",
+                    "IsFormatValidationTooltip": "Validates the entered value against the expected format.",
+                    "IsCascadeTooltip": "Defines what happens to records in the current object when the referenced lookup value is deleted.",
+                    "UseSecondsTooltip": "Displays seconds in time values.",
+                    "ReferenceSchemaTooltip": "Object that provides values for the lookup column."
+                },
+                "BehaviorGroup": {
+                    "Caption": "性能",
+                    "UsageModeCaption": "使用方式",
+                    "UpdateChangeLogCaption": "上传日志更改",
+                    "IndexedCaption": "有索引的",
+                    "SensitiveDataCaption": "输入个人数据",
+                    "IndexedTooltip": "Creates an index for the column to improve search and filtering performance.",
+                    "SensitiveDataTooltip": "Marks the column as containing personal data.",
+                    "UpdateChangeLogTooltip": "Enables logging of changes for this column.",
+                    "UsageModeTooltip": "Controls the column availability mode in the application."
+                },
+                "RequirementType": {
+                    "NoCaption": "否",
+                    "YesCaption": "是"
+                },
+                "UsageType": {
+                    "GeneralCaption": "通用",
+                    "AdvancedCaption": "高级",
+                    "NoneCaption": "无"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "输入值",
+                    "PatternNameCaption": "无效值。使用符号: a-z, A-Z, 0-9. 其中0-9不能放在首位",
+                    "DuplicateNameCaption": "相同代码的列已存在",
+                    "PatternPrefixTemplate": "代码必须以“{0}”前缀"
+                },
+                "DataSourceGroup": {
+                    "DoNotControlIntegrityCaption": "不要控制完整性",
+                    "DoNotControlIntegrityTooltip": "Disables integrity control for the lookup relationship."
+                },
+                "DefaultValueTypes": {
+                    "None": "无",
+                    "Const": "恒量",
+                    "Settings": "系统设置",
+                    "SystemValue": "系统变量",
+                    "Sequence": "自动编号"
+                },
+                "DefaultValueDialog": {
+                    "Title": "默认值",
+                    "ValueTypeCaption": "默认值类型",
+                    "ValueCaption": "值",
+                    "LookupValueRecordDeletedCaption": "查询值已删除",
+                    "sequencePrefix": "前缀",
+                    "sequenceNumberOfChars": "位数",
+                    "Cancel": "取消",
+                    "Ok": "确定"
+                }
+            },
+            "IndexEditor": {
+                "GeneralGroup": {
+                    "Caption": "通用",
+                    "NameCaption": "密码",
+                    "UniqueCaption": "唯一",
+                    "GenerateNameAutomaticallyCaption": "自动生成的名字",
+                    "NameTooltip": "Unique name of the index.",
+                    "UniqueTooltip": "Prevents duplicate combinations of values in indexed columns."
+                },
+                "IndexColumns": {
+                    "Caption": "指数列",
+                    "AddIndexColumnsDialogCaption": "选择栏",
+                    "TitleCaption": "标题",
+                    "ColumnName": "密码",
+                    "SortingOrder": "排序顺序",
+                    "Blankslate": "索引中没有列"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "输入值",
+                    "PatternNameCaption": "无效值。使用符号: a-z, A-Z, 0-9. 其中0-9不能放在首位",
+                    "DuplicateNameCaption": "具有相同代码的图像已存在"
+                }
+            },
+            "EntityColumnTypes": {
+                "TextCaption": "文本",
+                "NumberCaption": "数量",
+                "OtherCaption": "其他",
+                "DateTimeCaption": "日期/时间"
+            },
+            "EventsEditor": {
+                "EventGroupType": {
+                    "Add": "添加中",
+                    "Saving": "保存中",
+                    "Updating": "升级中",
+                    "Delete": "删除中",
+                    "Loading": "加载中",
+                    "ColumnValues": "列值"
+                },
+                "Events": {
+                    "Inserting": "添加记录前",
+                    "Inserted": "记录更新后",
+                    "Validating": "验证",
+                    "Saving": "添加记录前",
+                    "Saved": "保存记录后",
+                    "SaveError": "保存记录错误",
+                    "Updating": "记录更新前",
+                    "Updated": "记录更新后",
+                    "Deleting": "删除记录前",
+                    "Deleted": "删除记录后",
+                    "DefColumnValuesSet": "默认值域",
+                    "Loading": "数据加载前",
+                    "Loaded": "数据加载后",
+                    "ColumnValueChanging": "列值改变前",
+                    "ColumnValueChanged": "列值改变后",
+                    "ColumnBinaryValuePackageLoading": "加载二进制值流",
+                    "InsertingTooltip": "Triggered before a new record is added to the database.",
+                    "InsertedTooltip": "Triggered after a new record is successfully added to the database.",
+                    "ValidatingTooltip": "Triggered when record data is being validated before saving.",
+                    "SavingTooltip": "Triggered before any record changes are saved to the database.",
+                    "SavedTooltip": "Triggered after record changes are successfully saved to the database.",
+                    "SaveErrorTooltip": "Triggered when an error occurs while saving a record.",
+                    "UpdatingTooltip": "Triggered before an existing record is updated in the database.",
+                    "UpdatedTooltip": "Triggered after an existing record is successfully updated in the database.",
+                    "DeletingTooltip": "Triggered before a record is deleted from the database.",
+                    "DeletedTooltip": "Triggered after a record is successfully deleted from the database.",
+                    "DefColumnValuesSetTooltip": "Triggered when default values are assigned to record columns.",
+                    "LoadingTooltip": "Triggered before record data is loaded from the database.",
+                    "LoadedTooltip": "Triggered after record data is successfully loaded from the database."
+                }
+            },
+            "Addons": {
+                "BusinessRule": "业务规则",
+                "RelatedPage": "Web pages",
+                "RelatedPagesCaption": "页面设置",
+                "TimelineEntity": "时间线",
+                "UseSchemaInTimelineCheckbox": "默认在时间线组件中显示",
+                "Timeline": {
+                    "NoDisplayColumnNotify": "A display value should be specified to display object in the Timeline component"
+                },
+                "MobileRelatedPage": "Mobile app pages",
+                "PredefinedFilters": "Pre-defined filters",
+                "UseSchemaInTimelineCheckboxTooltip": "Displays records of this object in the Timeline component on related pages by default."
+            },
+            "SaveConfirmationDialog": {
+                "Save": "保存",
+                "DoNotSave": "不保存",
+                "Cancel": "取消",
+                "Message": "将保存所有更改。是否继续？"
+            },
+            "DeleteConfirmationDialog": {
+                "BusinessRule": "Do you wish to delete business rule?"
+            },
+            "DisableAddonEditBeforeSchemaSaveTooltipText": "The settings will be available after saving new object"
+        },
+        "ClientUnitSchemaDesigner": {
+            "ClientUnitSchemaDesignerPage": {
+                "JsCaption": "JS",
+                "LessCaption": "LESS",
+                "LocalizableStringsCaption": "本土化字符串",
+                "MessagesCaption": "消息",
+                "ImagesCaption": "图像",
+                "ParametersCaption": "参数",
+                "Addons": {
+                    "BusinessRule": "业务规则"
+                },
+                "OpenInterfaceDesigner": "Open interface designer",
+                "CantSaveSchemaWithErrors": "Unable to save due to a syntax error."
+            },
+            "ClientUnitDesignerMiniPage": {
+                "Title": "模块",
+                "CaptionTitle": "标题",
+                "ParentCaption": "上级对象",
+                "Validations": {
+                    "RequiredNameCaption": "输入值"
+                },
+                "OpenDesigner": "开放与设计师"
+            },
+            "ClientUnitCaptionsMiniPage": {
+                "Title": "标题",
+                "Apply": "应用",
+                "Cancel": "取消"
+            },
+            "ClientUnitMessagesMiniPage": {
+                "Title": "消息",
+                "NameCaption": "密码",
+                "DirectionCaption": "指示",
+                "BroadcastCaption": "广播",
+                "AddressCaption": "地址",
+                "ModeCaption": "模式",
+                "SubscribeCaption": "签署",
+                "PublishCaption": "公开",
+                "Add": "添加",
+                "Apply": "应用",
+                "Cancel": "取消",
+                "Validations": {
+                    "RequiredNameCaption": "输入值",
+                    "PatternNameCaption": "无效值。使用符号: a-z, A-Z, 0-9. 其中0-9不能放在首位",
+                    "DuplicateNameCaption": "已经存在具有相同代码的消息"
+                }
+            },
+            "ClientUnitImagesMiniPage": {
+                "Title": "图像",
+                "NameTitle": "密码",
+                "CaptionTitle": "标题",
+                "ImageTitle": "图像",
+                "UidTitle": "Id",
+                "Add": "添加",
+                "Apply": "应用",
+                "Cancel": "取消",
+                "Validations": {
+                    "RequiredNameCaption": "输入值",
+                    "PatternNameCaption": "无效值。使用符号: a-z, A-Z, 0-9. 其中0-9不能放在首位",
+                    "DuplicateNameCaption": "具有相同代码的图像已存在"
+                }
+            }
+        },
+        "SourceCodeSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "本土化字符串",
+            "MetadataCaption": "元数据",
+            "MetadataReadCaption": "元数据 (只读)",
+            "ModifiedPackageCaption": "修改的软件包",
+            "RunButtonCaption": "作为安装脚本运行",
+            "RunSourceCodeCaption": "Operation was successful"
+        },
+        "SourceCodeDesignerMiniPage": {
+            "Title": "源代码",
+            "Description": "描述"
+        },
+        "SourceCodeCaptionsMiniPage": {
+            "Title": "标题",
+            "Apply": "应用",
+            "Cancel": "取消"
+        },
+        "UserTaskCaptionsMiniPage": {
+            "Title": "标题",
+            "Apply": "应用",
+            "Cancel": "取消",
+            "UserTask": "用户任务",
+            "WithCustomEventHandler": "使用自定义事件处理程序",
+            "Partial": "部分",
+            "Serialize": "在DB序列化",
+            "ParametersEditPage": "参数编辑页",
+            "DcmParametersEditPage": "Dcm 参数编辑页面",
+            "Color": "颜色",
+            "SmallSvgImage": "小矢量图",
+            "LargeSvgImage": "大矢量图",
+            "TitleSvgImage": "标题矢量图像",
+            "DcmSmallSvgImage": "小矢量图的DCM",
+            "PageInaccessibleFromPackageInfo": "所选页面无法从当前用户任务包访问。请完成包依赖或选择其他页面以确保正确的用户任务执行"
+        },
+        "UserTaskDesignerMiniPage": {
+            "Title": "用户任务"
+        },
+        "UserTaskSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "本土化字符串",
+            "ParametersCaption": "参数",
+            "MetadataCaption": "元数据",
+            "MetadataReadCaption": "元数据 (只读)",
+            "ModifiedPackageCaption": "修改的软件包",
+            "InvalidClassNameConfirmationMessage": "用户任务属性“代码”与源代码中的类名称不匹配。 用户任务无法在当前设置中执行。您想要继续保存吗？"
+        },
+        "MetaDataSchemaDesigner": {
+            "MetaDataCaption": "元数据",
+            "HumanReadableMetaDataCaption": "元数据 (只读)",
+            "PackageDifferenceMetaDataCaption": "修改方案"
+        }
+    },
+    "Tracking": {
+        "ValidationMessage": {
+            "InvalidValue": "无效值",
+            "RequiredFieldValue": "输入值",
+            "LongFieldValue": "文本长度超过 最大限度(255)",
+            "InvalidNumberValue": "数字格式无效"
+        },
+        "BaseItemMenuComponent": {
+            "Delete": "删除",
+            "Edit": "编辑"
+        },
+        "ConnectionDescription": {
+            "Checking": "检查中",
+            "Connected": "已连接",
+            "Disconnected": "已断开连接",
+            "Warning": "警告"
+        },
+        "ProjectsSection": {
+            "Add": "新项目",
+            "Title": "事件追踪设置 (项目)",
+            "Columns": {
+                "Name": "项目名称",
+                "Owner": "所有者",
+                "Description": "描述",
+                "CreatedOn": "已创建",
+                "ModifiedOn": "上次更新"
+            },
+            "BlankSlate": {
+                "Title": "此部分没有记录。",
+                "Description": "添加新记录以便美化"
+            }
+        },
+        "ProjectPage": {
+            "Detail": {
+                "Name": "项目名称",
+                "Owner": "所有者",
+                "Description": "描述",
+                "CreatedOn": "被创建",
+                "ModifiedOn": "上次更新",
+                "TotalEvents": "全部事件",
+                "ConversionRate": "换算率",
+                "DefaultValues": {
+                    "Name": "新项目",
+                    "Description": "新描述"
+                }
+            },
+            "ResourceDetail": {
+                "Header": "跟踪资源",
+                "Columns": {
+                    "Name": "资源名称",
+                    "Status": {
+                        "Caption": "状态",
+                        "Active": "激活",
+                        "Inactive": "未激活"
+                    },
+                    "Source": "源",
+                    "CreatedOn": "被创建",
+                    "ModifiedOn": "上次更新"
+                }
+            }
+        },
+        "ResourcePage": {
+            "CreatedOn": "创造于",
+            "ModifiedOn": "修改于",
+            "Name": "名称",
+            "Source": "ID (网址URL)",
+            "Active": "激活",
+            "DefaultName": "新资源",
+            "DefaultSource": "https://example.com",
+            "Tabs": {
+                "TrackingCode": "跟踪代码",
+                "GoalSettings": "目标设置"
+            },
+            "BasicCodeTitle": "基本跟踪代码",
+            "CustomEventTab": "自定义事件",
+            "GoalDetail": {
+                "Header": "跟踪目标",
+                "Columns": {
+                    "Name": "目标名称",
+                    "EventTypeFilter": "事件类型过滤器",
+                    "Status": {
+                        "Caption": "状态",
+                        "Active": "激活",
+                        "Inactive": "未激活"
+                    },
+                    "Cost": "目标成本"
+                }
+            },
+            "GoalEditiDialog": {
+                "Header": "目标设置",
+                "Name": "目标名称",
+                "UseEventCost": "使用事件费用",
+                "Cost": "目标费用",
+                "Active": "激活",
+                "FilterSettings": "目标过滤设置",
+                "EventTypeFilter": "事件类型过滤",
+                "EventNameFilter": "事件名称过滤",
+                "EventValueFilter": "事件值滤镜",
+                "EventCostFilter": "事件费用过滤",
+                "Actions": {
+                    "Save": "保存",
+                    "Cancel": "取消"
+                },
+                "StringCondition": {
+                    "Equal": "等于",
+                    "Contains": "包含",
+                    "BeginWith": "开始",
+                    "EndWith": "以……结束"
+                },
+                "NumberCondition": {
+                    "Equal": "等于",
+                    "LessOrEqual": "小于或等于",
+                    "MoreOrEqual": "大于或等于"
+                }
+            }
+        },
+        "CodePane": {
+            "CopyToClipboard": "复制到剪贴板",
+            "OnCopiedToClipboard": "成功粘贴"
+        },
+        "BaseTrackingCode": {
+            "Header": "基本跟踪代码",
+            "Loading": "加载中...",
+            "InfoBlock": {
+                "Title": "重要的",
+                "Content": "此资源的基本跟踪代码必须放在站点的所有页面上。",
+                "LinkText": "设置基本跟踪代码的详细信息"
+            },
+            "NotReady": "在获取跟踪代码之前保存资源。"
+        },
+        "EventCodeGenerator": {
+            "Header": "事件跟踪代码",
+            "Form": {
+                "EventType": "事件类型",
+                "EventName": "事件名称",
+                "EventValue": "日期时间",
+                "EventCost": "事件费用"
+            },
+            "FormValidators": {
+                "EmptyForm": "空...",
+                "InvalidForm": "检查任何错误的表单..."
+            }
+        }
+    },
+    "SocialLeadgen": {
+        "ValidationMessage": {
+            "InvalidValue": "无效值",
+            "RequiredFieldValue": "输入值",
+            "LongFieldValue": "文本长度超过 最大限度(255)",
+            "InvalidNumberValue": "数字格式无效"
+        },
+        "IntegrationTypes": {
+            "LinkedIn": "LinkedIn",
+            "Facebook": "Facebook / Instagram",
+            "Undefined": "未定义"
+        },
+        "IntegrationSettings": {
+            "Header": {
+                "Title": "系统设置"
+            },
+            "Detail": {
+                "Url": "获取线索的Url地址",
+                "Group": "接收通知的角色"
+            },
+            "Notes": {
+                "Header": "注释",
+                "Text": "<p>获取线索的 url - 一个 Creatio URL，它将从已连接的广告账户接收线索。 他必须能够访问Creatio网站，以便能够接收收到的请求。 如果您使用代理服务器，请指定代理URL代替Creatio URL。 如果您的 Creatio 实例是受限制的访问网络的一部分，请将领先的生成服务IP列入白名单。</p><p>接收通知的角色 — 如果出现任何故障，Creatio 会通知此角色中的用户。 例如连接广告帐户或创建线索时出现错误。</p><p>“连接”选项卡显示广告账户和连接到Creatio的页面列表。 列表包括当前页面、账户和令牌级别上的连接状态。您可以管理连接，例如删除或重置它们。</p><p>“日志”标签显示前一代功能更改日志。</p>"
+            },
+            "Tabs": {
+                "Connection": "连接",
+                "Logs": "日志"
+            },
+            "AutorouteMessage": "要继续工作，您必须填写\"Url以获取线索\"字段。 默认情况下，字段由浏览器填充应用程序的当前地址。 请确保您输入正确的应用程序地址并保存设置。 当您首次打开部分时，这些设置会被创建一次。",
+            "Error": {
+                "FormValidation": "保存设置时出错。请检查所有字段是否有任何错误。",
+                "Save": "无法保存在 \"Url 获取线条\"字段中输入的值。请确保输入应用程序的正确的外部访问地址。"
+            },
+            "Logs": {
+                "IntegrationFilter": {
+                    "PlaceholderCaption": "整合",
+                    "EmptyOptionCaption": "所有项目"
+                },
+                "DateColumnCaption": "日期",
+                "IntegrationColumnCaption": "集成",
+                "DetailsColumnCaption": "详情",
+                "IntegrationNotFound": "未找到",
+                "GetIntegrationListError": "加载集成列表失败。加载中止。",
+                "NoLogsMessage": "当前没有要显示的日志"
+            },
+            "FacebookPagesConnections": {
+                "Header": "Facebook页面",
+                "Blankslate": "页面连接尚未配置。"
+            },
+            "LinkedInAdAccountsConnections": {
+                "Header": "LinkedIn广告账户",
+                "Blankslate": "尚未配置广告账户的连接。",
+                "AdAccountsTable": {
+                    "DeleteConfirmation": "您确定要删除广告帐户吗？",
+                    "DeleteError": "此广告帐户已集成。请先删除集成后再试",
+                    "Headers": {
+                        "Name": "帐户名称",
+                        "Link": "链接",
+                        "ConnectionStatus": "連接状态",
+                        "ExpirationDate": "过期日期"
+                    },
+                    "ConnectionStatuses": {
+                        "Active": "激活",
+                        "Inactive": "离线的"
+                    },
+                    "ConnectionStatusErrorMessage": {
+                        "Inactive": "无法访问广告帐户。登录到LinkedIn并设置您需要整合的帐户的权限。"
+                    },
+                    "UsersTable": {
+                        "DeleteConfirmation": "您确定要删除该标记吗？这可能会导致广告帐户访问和检索的问题",
+                        "Headers": {
+                            "UserName": "网络用户",
+                            "TokenStatus": "令牌状态",
+                            "ExpirationDate": "过期日期",
+                            "HasAdAccountAccess": "提供对休息的访问权限"
+                        },
+                        "TokenStatuses": {
+                            "Active": "活跃",
+                            "Expired": "已过期",
+                            "Revoked": "已取消",
+                            "Unknown": "未知的"
+                        },
+                        "HasAdAccountAccess": {
+                            "Yes": "是",
+                            "No": "否"
+                        },
+                        "TokenStatusErrorMessage": {
+                            "Expired": "登录到 LinkedIn，并代表令牌过期的用户授予广告账户权限。",
+                            "Revoked": "已吊销令牌。\n可能的原因：\n- 该帐户被用于登录到一个不同的 Creatio 实例。\n- 在LinkedIn结束时，前台生成应用程序已断开连接。\n解决这个问题 登录到 LinkedIn 再一次，并代表标记已被吊销的用户授予广告帐户权限。",
+                            "Unknown": "由于请求中的一个或多个错误，无法检索令牌状态。请刷新页面。"
+                        },
+                        "MenuCell": {
+                            "Delete": "删除",
+                            "Reconnect": "重新连接"
+                        }
+                    }
+                }
+            }
+        },
+        "IntegrationSection": {
+            "DeleteConfirmation": "您确定要删除这个集成吗？Creatio将无法从中获取新线索。",
+            "DeleteError": "无法删除集成，访问广告帐户被拒绝。允许访问相应的广告帐户并重试",
+            "Header": {
+                "Title": "社会市场推介集合",
+                "Buttons": {
+                    "New": "新的",
+                    "Logs": "日志",
+                    "Settings": "系统设置"
+                }
+            },
+            "Columns": {
+                "Name": "名称",
+                "Type": "类型",
+                "IsActive": "激活",
+                "IntegrationSectionItemMenu": {
+                    "Delete": "删除",
+                    "Activate": "激活",
+                    "Deactivate": "停用"
+                }
+            },
+            "BlankSlate": {
+                "Description": "您没有配置任何集成。"
+            }
+        },
+        "IntegrationPage": {
+            "ToggleStateCaptions": {
+                "Active": "在线的",
+                "Inactive": "离线的"
+            },
+            "Header": {
+                "Buttons": {
+                    "Logs": "日志",
+                    "Settings": "系统设置"
+                }
+            },
+            "Error": {
+                "Save": "无法修改设置。请确保映射所需对象字段并指定“未映射的表单字段”宏设置。",
+                "FormSelection": "无法修改设置。请确保映射所需对象字段并指定“未映射的表单字段”宏设置。"
+            },
+            "BlankSlate": {
+                "Title": "我们无法在所选广告账户中找到活动表单。",
+                "Description": "请创建一个牵头表单或选择另一个账户进行设置。"
+            },
+            "BlankSlateError": {
+                "Title": "无法访问该帐户。",
+                "Description": "尝试登录并再次授予访问权限。"
+            },
+            "Detail": {
+                "Name": "名称",
+                "FacebookPage": "Facebook页面",
+                "LinkedinAdAccount": "LinkedIn帐户",
+                "DeactivateConfirmationQuestion": "您确定要停用您的订阅吗？来自所有表格的潜在转移将被停止。 新状态将在将更改保存到集成卡级别后生效。"
+            },
+            "IntegrationSettings": {
+                "FacebookIsNotSet": "未设置 Facebook 集成。",
+                "LinkedInIsNotSet": "LinkedIn集成未设置。",
+                "Create": "集成设置",
+                "DefaultIntegrationRecordName": "新的社交线索生成整合"
+            },
+            "InfoBlock": {
+                "Title": "注释",
+                "Text": "所选页面的所有表单都连接到Creatio。在“默认设置”选项卡上设置所有表单的默认设置。 可以在“表单”选项卡上为每个表单设置唯一的设置。"
+            },
+            "ColumnMapping": {
+                "ExpansionPanelCaption": "默认映射",
+                "Object": "对象",
+                "AddMapping": "添加",
+                "Hint": "Creatio 将默认映射到所有广告账户表单。\n设置只适用于带有用户资料的表格列。\n您可以在表单记录页面映射自定义问题、自定义复选框和隐藏字段。 选择“自定义映射”复选框以启用此功能。\n“未映射字段”宏允许您将所有列的值传递到单个对象列。",
+                "DataTypes": {
+                    "Lookup": "查询",
+                    "Text": "文本",
+                    "Boolean": "布尔值",
+                    "DateTime": "日期 时间",
+                    "Date": "日期",
+                    "Time": "时间",
+                    "Number": "数量",
+                    "Macro": "宏模式"
+                },
+                "FieldMenuCaptions": {
+                    "FormField": "表单字段",
+                    "Text": "文本值",
+                    "Boolean": "布林值",
+                    "Lookup": "查找值",
+                    "Other": "其他"
+                },
+                "LinkedIn": "LinkedIn",
+                "BooleanValue": {
+                    "True": "真",
+                    "False": "错误"
+                },
+                "UnmappedMacroValue": "未映射的表单字段",
+                "LookupValueUnknown": "<未找到>",
+                "ModalBox": {
+                    "SetButtonCaption": "设置",
+                    "CancelButtonCaption": "取消",
+                    "SelectFormCaption": "选择表单字段",
+                    "EnterTextValueCaption": "输入值"
+                }
+            },
+            "Logs": {
+                "ExpansionPanelCaption": "日志",
+                "NoLogsForIntegrationMessage": "没有此集成的日志",
+                "ShowMoreButtonCaption": "显示更多",
+                "Types": {
+                    "Info": "信息",
+                    "Warning": "警告",
+                    "Error": "错误"
+                }
+            },
+            "FormsList": {
+                "Header": "表单",
+                "LinkedInStatus": "领英状态",
+                "Hint": "自定义映射设置覆盖默认映射设置。每个表单单独映射。\n如果您停用自定义映射，Creatio将在表单中应用默认映射设置。",
+                "FormStatus": {
+                    "Archived": "已存档",
+                    "Pending": "待定",
+                    "Approved": "已批准",
+                    "Preapproved": "预批准",
+                    "Rejected": "已拒绝",
+                    "NeedsReview": "需要审查",
+                    "AutoApproved": "自动批准",
+                    "AutoRejected": "自动拒绝",
+                    "Undefined": "未定义",
+                    "NotActive": "未激活"
+                },
+                "MappingType": {
+                    "DefaultMapping": "默认映射",
+                    "CustomMapping": "自定义映射"
+                },
+                "BlankSlate": {
+                    "Description": "对于此表单，将应用默认映射设置。"
+                },
+                "DeactivateFormConfirmationQuestion": "您确定要取消订阅此表单中的线索吗？ 新状态将在将更改保存到集成卡级别后生效。",
+                "ObjectsTitle": {
+                    "Lead": "线索"
+                }
+            },
+            "IntegrationSyncInfo": {
+                "Header": "潜在客户同步信息",
+                "UnableToAdAccountAccess": "无法访问帐户。潜在客户同步已停止。",
+                "SaveIntegration": "请保存集成并刷新页面以接收关于铅同步状态的通知。",
+                "SubscriptionInactive": "所选广告帐户的潜在订阅已停止。潜在客户同步已停止。订阅激活将恢复接收Creatio中的线索。",
+                "SubscriptionActive": "所选广告帐户的潜在客户端已激活。在LinkedIn侧创建的潜在客户端将会被转移到Creatio。"
+            },
+            "DownloadLeads": {
+                "ForForm": {
+                    "ButtonCaption": "同步线索",
+                    "ModalBoxTitle": "单击“同步”上传表单在此期间的线索。这段时间不论表单当时的领先订阅状态如何。"
+                },
+                "ForAdAccount": {
+                    "ButtonCaption": "同步所有线索",
+                    "ModalBoxTitle": "单击“同步”上传广告账户在此期间的线索。这段时间的计算不论该账户当时的领先订阅状态。 Creatio 不会重新上传您已经同步的线索。"
+                },
+                "ModalBox": {
+                    "InformationText": "LinkedIn商店开通了90天。",
+                    "CancelButtonCaption": "取消",
+                    "DownloadButtonCaption": "同步",
+                    "SuccessRunBusinessProcessInfoText": "上传进程开始。可能需要一些时间才能完成。",
+                    "UnknownFailedRunBusinessProcessInfoText": "启动上传进程失败。请稍后再试。如果启动错误仍然存在，请联系技术支持。"
+                }
+            }
+        },
+        "SocialMediaProvider": {
+            "New": "新建集成",
+            "RestoreAccess": "恢复访问权限"
+        },
+        "IntegrationError": {
+            "InvalidSettings": "无法连接到前台生成服务。以下系统设置为空：“身份服务器URL”、“身份服务器客户端id”、“身份服务器客户端机密”。",
+            "InvalidScope": "无法连接到前一代服务。前一代服务的用户帐户缺少必要的权限。请联系Creatio支持来解决这个问题。",
+            "InvalidClient": "无法连接到前一代服务。在“身份服务器客户端id”和“身份服务器客户端机密”系统设置中出现意外值。 请联系 Creatio 支持解决这个问题。",
+            "GeneralError": "无法连接到前一代服务。如果问题仍然存在，请刷新页面或联系Creatio支持。"
+        }
+    },
+    "QueueSorting": {
+        "QueueSectionHeader": "队列排序设置",
+        "AddQueueObjectCaption": "添加队列对象",
+        "QueueObjectCaption": "队列对象",
+        "QueueTypeCaption": "队列类型",
+        "BlindQueue": "Blind队列",
+        "RegularQueue": "常规队列",
+        "AddQueueSortObjectCaption": "添加排序对象",
+        "Empty": "空",
+        "RequiredFieldValue": "选择队列对象",
+        "QueueObjectLookup": {
+            "NameColumnCaption": "标题",
+            "Title": "队列对象查询"
+        },
+        "QueueObjectColumnLookup": {
+            "NameColumnCaption": "名称",
+            "Title": "队列排序查询"
+        },
+        "QueueObjectColumnPage": {
+            "AddQueueObjectColumn": "添加列",
+            "SortDirection": "排序顺序",
+            "SelectColumn": "列",
+            "RequiredFieldValue": "未填写必填项"
+        },
+        "QueueObjectTable": {
+            "Actions": {
+                "Delete": "删除",
+                "Edit": "设置"
+            },
+            "RemoveToolTip": "Creatio 不能删除排序对象，因为现有队列使用它"
+        },
+        "QueueObjectColumnTable": {
+            "Caption": "排序列",
+            "ColumnCaption": "标题",
+            "SortDirection": "排序方式",
+            "Position": "优先级",
+            "Empty": "排序列没有添加",
+            "Actions": {
+                "Delete": "删除",
+                "Edit": "编辑"
+            }
+        },
+        "OrderDirection": {
+            "Ascending": "升序",
+            "Descending": "降序",
+            "None": "无"
+        }
+    },
+    "ChatSettings": {
+        "ChatSettingsPageHeader": "聊天",
+        "ChannelDetail": {
+            "DeleteAction": "删除",
+            "DeleteRecordErrorMessage": "无法删除选定的记录",
+            "Title": "频道",
+            "Columns": {
+                "Name": "姓名",
+                "Status": {
+                    "Caption": "在线的"
+                },
+                "Queue": "队列",
+                "Provider": "提供商"
+            },
+            "FacebookSettings": {
+                "InvalidSettings": {
+                    "Message": "无法添加频道。您可以在设置中找到相应的要求。",
+                    "Link": {
+                        "Text": "文章."
+                    }
+                }
+            }
+        },
+        "ChannelPage": {
+            "Name": "名称",
+            "Token": "令牌",
+            "WebhookUrl": "Url",
+            "Status": "状态",
+            "Queue": "队列",
+            "Language": "语言",
+            "ChannelProcessingGroup": "通道处理",
+            "NewChannelCaption": "新的{0}频道：",
+            "InactiveChannelMessage": "要接收消息，您必须激活频道并指定处理队列。您确定要添加一个非活动频道吗？",
+            "FacebookPageLinkCaption": "Facebook页面",
+            "ActiveChannelCaption": "激活",
+            "Telegram": {
+                "TelegramPageLinkCaption": "Telegram 頻道",
+                "InvalidTelegramToken": "输入正确的令牌来创建频道",
+                "TelegramTokenAlreadyExists": "频道已经存在于输入的令牌中",
+                "ActiveWebhookErrorMessageForCreating": "Unable to create the channel because a webhook integration is set up for the Telegram bot. Please delete the webhook integration to add the channel."
+            },
+            "Tips": {
+                "Language": "Creatio 将选择的语言设置为通过此频道创建的联系人首选语言。 您只能选择活动语言。转到语言查找以激活/停用",
+                "WhatsAppToken": "请输入您的Twilio 帐户的AUTH TOKEN。",
+                "WhatsAppId": "请输入您的 Twilio 帐号ID。",
+                "WhatsAppTestPhoneNumber": "测试消息将发送到的电话号码确认通道。"
+            },
+            "WhatsApp": {
+                "PageLinkCaption": "WhatsApp 频道",
+                "ApplicationId": "应用",
+                "ChannelPhoneNumber": "电话号码\n",
+                "IntegrationPhoneNumber": "验证电话号码\n",
+                "Connect": "连接",
+                "InvalidPhoneNumber": "只允许会员",
+                "ChannelDuplicatedErrorMessage": "频道已经存在于输入的电话号码",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "您输入了无效的 Twilio 账户 SID",
+                    "InvalidAccountPhoneNumberException": "您输入了无效的 WhatsApp 电话号码",
+                    "AuthenticateException": "您输入了一个无效的令牌"
+                }
+            },
+            "ValidationMessage": {
+                "required": "输入值",
+                "wrongValue": "错误的值"
+            },
+            "ErrorCodes": {
+                "ActiveWebhook": "The “{{channelName}}” chat channel is not receiving messages because a webhook integration is set up for the Telegram bot. Please delete the webhook integration and activate this channel to enable message reception.",
+                "PollingConflict": "The “{{channelName}}” chat channel is not receiving messages because another Telegram bot instance is configured. Please delete the duplicate instance to enable message reception."
+            },
+            "Sms": {
+                "ChannelDuplicatedErrorMessage": "The channel already exists for the entered phone number",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "You entered an invalid Twilio account SID",
+                    "InvalidAccountPhoneNumberException": "You entered an invalid phone number",
+                    "AuthenticateException": "You entered an invalid Token"
+                }
+            },
+            "Twilio": {
+                "ErrorMessages": {
+                    "ValidationException": "Unable to connect to Twilio. Please check that your account SID and token are correct and try again."
+                }
+            }
+        },
+        "ChatQueueDetail": {
+            "Title": "聊天队列",
+            "Columns": {
+                "Name": "名称",
+                "Routing": {
+                    "Caption": "路由规则"
+                },
+                "Simultaneous": "同步聊天",
+                "Timeout": "聊天超时，分钟"
+            }
+        },
+        "ChatActionsDetail": {
+            "Title": "聊天操作",
+            "Columns": {
+                "Caption": "标题",
+                "Process": "流程",
+                "Queue": "队列"
+            },
+            "Actions": {
+                "Delete": "删除"
+            }
+        },
+        "ChatQueuePage": {
+            "Title": "队列",
+            "Name": "名称",
+            "OperatorRoutingRule": "路由规则",
+            "SimultaneousChats": "同步聊天",
+            "TimeToWaitInQueue": "等待队列中的时间",
+            "Timeout": "聊天完成超时，分钟",
+            "Tips": {
+                "SimultaneousChats": "每位操作员的最多聊天数",
+                "Timeout": "聊天自动完成前的最长等待时间"
+            },
+            "ValidationMessage": {
+                "required": "输入值",
+                "wrongValue": "错误的值",
+                "nonNegativeValue": "无法提供负值",
+                "nonNumericValue": "无法提供非数字值"
+            }
+        },
+        "ChatActionPage": {
+            "Title": "聊天操作",
+            "Caption": "标题",
+            "Process": "流程",
+            "ChatQueue": "聊天队列",
+            "ValidationMessage": {
+                "required": "输入值"
+            }
+        },
+        "ChatQueueOperatorDetail": {
+            "Title": "队列代理",
+            "Columns": {
+                "Operator": {
+                    "Caption": "用户/角色"
+                }
+            },
+            "DuplicationMessage": "角色已经存在。请选择另一个运营商/角色继续。"
+        }
+    },
+    "IntegrationDiagnostics": {
+        "EmailListener": {
+            "Header": "电子邮件侦听服务检测",
+            "MailBoxAvailabilityCheck": "正在检查邮箱",
+            "ExchangeListenerAvaibilityCheck": "服务可用性验证",
+            "ExchangeListenerAvailabilityCheck": "Creatio 可用性验证",
+            "GetSubscriberInfo": "接收订阅信息",
+            "StartDiagnosticButtonCaption": "运行诊断程序",
+            "StartFullDiagnosticButtonCaption": "运行完整的诊断程序",
+            "MailBoxLookupCaption": "邮箱",
+            "SuccessfulOperation": "操作成功",
+            "DiagnosticWasNotStarted": "诊断未启动",
+            "UnSuccessfulOperation": "错误",
+            "ELAvailabilityDescription": "此站点可用电子邮件监听服务",
+            "ApplicationAvailabilityDescription": "电子邮件监听器能够连接到Creatio",
+            "ELNotAvailabilityDescription": "电子邮件监听服务目前不能用于此网站",
+            "ValidateCreatioExchangeEndpoint": "验证填充系统设置 BpmonlineExchangeEventsEndpointUrl 的正确性",
+            "CreatioExchangeEndpontErrorValidationInfoTemplate": "端点无效\n预期值： {0}/ NewEmail\n实际值： {1}\n请检查系统设置 BpmonlineExchangeEventsEndpointUrl 已满！",
+            "CreatioExchangeEndpontSuccessValidationInfoTemplate": "端点 {0} 有效",
+            "SendTestEmail": "发送测试电子邮件",
+            "MailboxAvailabilityDiagnosticTooltip": "需要填写邮箱",
+            "MailboxDiagnosticSuccessDescriptor": "此邮箱已成功验证",
+            "NameCaption": "名称",
+            "FeaturesStateLabel": "特征状态",
+            "ExchangeListenerEnabledFeatureCaption": "交换邮箱同步(交换监听器已启用)",
+            "EmailIntegrationV2FeatureCaption": "Exchange and IMAP mailbox 同步(E-mailIntegrationV2)",
+            "SendEmailsV2FeatureCaption": "正在发送电子邮件 (SendEmailsV2)",
+            "OldEmailIntegrationFeatureCaption": "旧邮件集成(OldEmailIntegrationFeature, state已禁用)",
+            "IsMailboxSyncSettingsCachedFeatureCaption": "邮箱同步设置缓存 (IsMailboxSyncSettingsCached)"
+        }
+    },
+    "StructureExplorerDialog": {
+        "NoData": "无数据",
+        "Title": "选择表单字段",
+        "CancelButtonCaption": "取消",
+        "SelectButtonCaption": "选择",
+        "RelatedObjectsTabCaption": "相关对象{0}",
+        "FieldsTabCaption": "{0} 欄位{1}",
+        "SearchPlaceHolder": "搜索",
+        "SearchClearIconTitle": "Clear search"
+    },
+    "AggregationNames": {
+        "Count": "记录数目",
+        "Sum": "总值",
+        "Avg": "平均价值",
+        "MinValue": "最小值",
+        "MaxValue": "最大值",
+        "MinDate": "最小日期",
+        "MaxDate": "最大日期",
+        "TopOne": "第一个记录值",
+        "AtLeastOneRecord": "At least one record",
+        "NoRecords": "No records"
+    },
+    "EntityColumnValuePickerProvider": {
+        "ValueFromFieldCaption": "来自另一个字段的值"
+    },
+    "DataSourceAttributeValuePickerProvider": {
+        "ValueFromFieldCaption": "来自另一个字段的值"
+    },
+    "FormulaValuePickerProvider": {
+        "ValueFromFieldCaption": "公式",
+        "CancelButtonCaption": "取消",
+        "SelectButtonCaption": "保存",
+        "DialogTitleCaption": "公式表达式"
+    },
+    "RepositorySection": {
+        "Title": "SVN 仓库列表",
+        "Actions": {
+            "Add": "添加",
+            "Edit": "编辑",
+            "Authorize": "验证",
+            "Delete": "删除"
+        },
+        "Messages": {
+            "SuccessAuthorize": "您已成功在资源库进行身份验证"
+        },
+        "Columns": {
+            "Name": "名称",
+            "Address": "SVN 存储地址",
+            "IsActive": "激活",
+            "Login": "登录",
+            "Password": "密码"
+        },
+        "InfoBlock": {
+            "Title": "要知道的重要信息",
+            "TextPart1": "通过 SVN 传输更改仅用于开发环境。使用 ",
+            "TextPart2": " 向生产环境传输变化的部分。",
+            "InstallAppsLink": "https://academy.creatio.com/docs/user/no-code_customization/apps_and_extensions/install_applications_from_the_marketplace",
+            "InstallAppsLinkText": "已安装的应用程序",
+            "LinksMessage": "在Creatio学院了解更多关于SVN的信息：",
+            "DeploymentInCreatioIDEInfoLinkText": "在 Creatio IDE 中部署",
+            "SetupVersionControlInfoLinkText": "设置版本控制",
+            "DeploymentInCreatioIDEInfoLink": "https://academy.creatio.com/docs/developer/development_tools/deployment/transferring_solutions_in_creatio_ide",
+            "SetupVersionControlInfoLink": "https://academy.creatio.com/docs/node/1164"
+        },
+        "Page": {
+            "Title": "SVN 存储",
+            "Actions": {
+                "Add": "添加",
+                "Apply": "应用",
+                "Cancel": "取消",
+                "Authorize": "验证"
+            },
+            "Validation": {
+                "Required": "输入值",
+                "MaxLength": "超过最大文本长度({}/{})",
+                "NameField": {
+                    "Pattern": "无效的名称格式"
+                }
+            }
+        }
+    },
+    "dataSource": "数据源",
+    "pageParametersDataSource": "页面参数",
+    "lookup": "查询",
+    "lookupValueDeletion": "查找值删除时：",
+    "blockDeletionCaption": "如果当前对象中有此值的已连接记录，阻止删除",
+    "DeleteRecordsCaption": "从当前对象中删除具有此值的记录",
+    "lookupView": "查找视图",
+    "selectionWindow": "选择窗口",
+    "list": "列表",
+    "columnFormat": "数据类型",
+    "columnNumberFormat": "数据类型",
+    "selectValueCaption": "输入值",
+    "DataValueType": {
+        "TextCaption": "文本",
+        "ShortTextCaption": "文本（50字）",
+        "PhoneTextCaption": "电话号码\n",
+        "PhoneTextShortenedCaption": "电话",
+        "WebTextCaption": "网页链接",
+        "EmailTextCaption": "邮件地址",
+        "EmailTextShortenedCaption": "邮件",
+        "MediumTextCaption": "文本 (250字)",
+        "LongTextCaption": "文本(500 字)",
+        "MaxSizeTextCaption": "无限长度的文本",
+        "SecureTextCaption": "加密的字符串\n",
+        "HashTextCaption": "CRC",
+        "IntegerCaption": "整数",
+        "FLOAT1Caption": "小数(0.1)",
+        "FLOAT2Caption": "小数(0.01)",
+        "FLOAT3Caption": "小数(0.001)",
+        "FLOAT4Caption": "小数(0.0001)",
+        "FLOAT8Caption": "十进制 (0.00000001)",
+        "MoneyCaption": "Currency (0.01)",
+        "DateTimeCaption": "日期/事件",
+        "DateCaption": "日期",
+        "TimeCaption": "时间",
+        "BooleanCaption": "布尔值",
+        "ImageCaption": "图像",
+        "ImageLookupCaption": "图像链接",
+        "FileCaption": "文档",
+        "ColorCaption": "颜色",
+        "RichCaption": "大文本",
+        "GuidCaption": "唯一识别符",
+        "BlobCaption": "博客",
+        "LookupCaption": "查找",
+        "Entity": "对象(实体)",
+        "EntityCollection": "对象集合(实体集合)",
+        "EntityColumnMappingCollection": "对象的列值",
+        "CustomObject": "对象",
+        "Collection": "枚举",
+        "LocalizableString": "本地化的字符串",
+        "MetaDataText": "不在字符串",
+        "ObjectList": "可序列化的值列表",
+        "CompositeObjectList": "可序列化的组合值列表",
+        "FloatCaption": "小数",
+        "TimerCaption": "计时器",
+        "LocalTimeCaption": "局部状态",
+        "CompositeObject": "Composite value",
+        "FLOAT0Caption": "Decimal (0)",
+        "Money0Caption": "Currency (0)",
+        "Money1Caption": "Currency (0.1)",
+        "Money3Caption": "Currency (0.001)"
+    },
+    "CodeMirror": {
+        "HotkeysDescription": "热键：",
+        "SelectAll": "全部选择 Ctrl-A",
+        "Undo": "Ctrl-Z 撤消操作",
+        "Redo": "Shift-Ctrl-Z 重做\n",
+        "Find": "Ctrl-F 查找",
+        "FindNext": "F3 查找下一个",
+        "FindPrev": "Shift-F3 查找上一个",
+        "Replace": "Shift-Ctrl-F 替换",
+        "ReplaceAll": "Shift-Ctrl-R 替换所有",
+        "DeleteLine": "Ctrl-Y 删除行",
+        "GoLineStart": "Alt-Left 转到行首页",
+        "GoLineEnd": "Alt-Right 转到行尾",
+        "JmpToLine": "Alt-G 跳转到行\n",
+        "Fullscreen": "F11 全屏代码编辑器",
+        "FullscreenExit": "Esc 退出全屏模式",
+        "Autocomplete": "Ctrl-Space 通话自动完成"
+    },
+    "CDK": {
+        "ByCaption": "由",
+        "ByColumnCaption": "按列",
+        "WhereColumnCaption": "位置",
+        "IsColumnCaption": "是",
+        "IndicatorWidget": {
+            "Caption": "公制"
+        },
+        "GaugeWidget": {
+            "Caption": "高亮"
+        },
+        "HeaderWidget": {
+            "Fullscreen": {
+                "ExpandLabel": "展开至全屏",
+                "CollapseLabel": "折叠全屏"
+            },
+            "Direction": {
+                "Menu": {
+                    "Caption": "图表位置"
+                },
+                "Column": {
+                    "Caption": "上方"
+                },
+                "Row": {
+                    "Caption": "左"
+                },
+                "RowReverse": {
+                    "Caption": "右"
+                }
+            }
+        },
+        "ChartWidget": {
+            "ChangeChartType": {
+                "Caption": "更改图表类型"
+            },
+            "Line": {
+                "Caption": "行"
+            },
+            "Spline": {
+                "Caption": "分割线"
+            },
+            "Area": {
+                "Caption": "区域"
+            },
+            "Scatter": {
+                "Caption": "散点图"
+            },
+            "Bar": {
+                "Caption": "列"
+            },
+            "HorizontalBar": {
+                "Caption": "条"
+            },
+            "Pie": {
+                "Caption": "饼状图"
+            },
+            "Doughnut": {
+                "Caption": "坚固的"
+            },
+            "Tsfunnel": {
+                "Caption": "流线"
+            },
+            "Common": {
+                "DrillDownCaption": "下拉项目",
+                "EmptyValue": "未定义值\n",
+                "BooleanTrueValue": "是",
+                "BooleanFalseValue": "否",
+                "ExportDataBtnCaption": "导出到 表格",
+                "HideSeries": "隐藏",
+                "ShowDataCaption": "显示数据",
+                "ShowDataForSelectedSeriesCaption": "显示此系列的数据",
+                "ShowSeries": "展示",
+                "ShowSeriesDataCaption": "按系列显示数据",
+                "ShowDataAsTableCaption": "Show data as table"
+            },
+            "With": {
+                "Caption": "与"
+            },
+            "Series": {
+                "Caption": "系列"
+            },
+            "ScreenReader": {
+                "AnnounceChartTypeChange": "Chart type changed to {{chartType}}"
+            }
+        },
+        "FunnelWidget": {
+            "OpportunityFunnel": {
+                "Caption": "销售流线",
+                "ByCountLabelTemplate": "{0}",
+                "StageConversionLabelTemplate": "{0}%",
+                "ToFirstStageLabelTemplate": "{0}%",
+                "ByCountBtnLabel": "商机数量",
+                "StageConversionBtnLabel": "阶段转换率",
+                "ToFirstStageBtnLabel": "管道转换",
+                "DefaultTitle": "销售流线"
+            },
+            "FullPipelineFunnel": {
+                "Caption": "销售流线",
+                "ByCountBtnLabel": "记录数",
+                "StageConversionBtnLabel": "阶段转换率",
+                "ToFirstStageBtnLabel": "流水线转换",
+                "DefaultTitle": "销售流线"
+            },
+            "Tooltip": {
+                "CountInStage": "计数",
+                "CountInStageValue": "{0}",
+                "Amount": "量",
+                "AmountValue": "{0} {1}",
+                "ConversionToStage": "转换",
+                "ConversionToStageValue": "{0}%",
+                "ConversionToFirstStage": "转换",
+                "ConversionToFirstStageValue": "{0}%",
+                "ConversionToStageCount": "计数",
+                "ConversionToStageCountValue": "{0}",
+                "ConversionToFirstStageCount": "计数",
+                "ConversionToFirstStageCountValue": "{0}"
+            }
+        },
+        "ListWidget": {
+            "Caption": "List widget",
+            "Hint": "A component that combines a fully functional list with a customizable colored frame, ensuring visual consistency when placed alongside other analytics widgets"
+        },
+        "WaterfallWidget": {
+            "Caption": "Waterfall pipeline",
+            "DefaultTitle": "New waterfall pipeline"
+        },
+        "SalesWaterfallWidget": {
+            "Caption": "Sales waterfall pipeline",
+            "DefaultTitle": "New sales waterfall pipeline"
+        }
+    },
+    "Components": {
+        "Input": {
+            "Caption": "文本"
+        },
+        "Slider": {
+            "Caption": "滑块"
+        },
+        "NumberInput": {
+            "Caption": "数量"
+        },
+        "FileInput": {
+            "Caption": "文档",
+            "LabelCaption": "要上传的文件",
+            "Placeholder": "选择文件"
+        },
+        "Button": {
+            "Caption": "按钮",
+            "DefaultActionNotificationMessageText": "Data saved successfully"
+        },
+        "Checkbox": {
+            "Caption": "复选框"
+        },
+        "Combobox": {
+            "Caption": "下拉列表",
+            "AddNewRecord": "添加新项",
+            "IsGoToSourceAllowedTooltip": "转至记录列表"
+        },
+        "DataGrid": {
+            "Caption": "列举",
+            "Hint": "A customizable data display component that allows users to view and interact with structured information"
+        },
+        "ExpandedList": {
+            "Caption": "扩展列表",
+            "Hint": "扩展列表包括一个列表、一个可扩展组和一个添加条目按钮。建议在页面上使用以显示相关信息。",
+            "AddBtnCaption": "新建",
+            "RefreshBtnCaption": "刷新",
+            "SettingsBtnCaption": "操作",
+            "ExportDataBtnCaption": "导出到 表格",
+            "ImportDataBtnCaption": "数据导入"
+        },
+        "Attachment": {
+            "Caption": "附件",
+            "Hint": "附件组件包括文件列表、可扩展组、上传文件按钮、刷新按钮。 建议在表格页面上显示相关附件。",
+            "AddBtnCaption": "上传",
+            "RefreshBtnCaption": "刷新"
+        },
+        "DateTimePicker": {
+            "Caption": "日期/时间"
+        },
+        "Gallery": {
+            "Caption": "图库"
+        },
+        "ColorPicker": {
+            "Caption": "颜色选择器"
+        },
+        "Label": {
+            "Caption": "标签"
+        },
+        "ActionDashboard": {
+            "Caption": "操作仪表板",
+            "Hint": "使用工作流程条和操作面板显示记录当前状态的信息。 建议在表格页面上使用组件。"
+        },
+        "ExpansionPanel": {
+            "Caption": "扩展面板"
+        },
+        "TabPanel": {
+            "Caption": "制表符",
+            "DefaultTab1Name": "按键1",
+            "DefaultTab2Name": "按键2",
+            "DefaultLabel1Name": "标签",
+            "DefaultLabel2Name": "标签 2",
+            "NewTabName": "新按键",
+            "NewLabelName": "新标签",
+            "AddTab": "添加标签",
+            "DeleteTab": "删除标签",
+            "DeleteTabConfirmation": "删除\"{0}\"标签页和所有项目？"
+        },
+        "TogglePanel": {
+            "Caption": "切换面板",
+            "Hint": "容器包含一个可折叠标签容器和一个允许您控制标签显示的按钮块。 您可以在页面的不同部分单独放置容器和按钮。"
+        },
+        "MenuItem": {
+            "Caption": "菜单项"
+        },
+        "Breadcrumbs": {
+            "Back": "后退"
+        },
+        "Timeline": {
+            "Caption": "时间线",
+            "AddObject": "+ 添加对象",
+            "ProvideDataSource": "在使用进度条前提供数据源",
+            "Tile": {
+                "TileObjectTitle": "对象: "
+            },
+            "DesignerCustomEntities": {
+                "Email": {
+                    "Caption": "邮件"
+                },
+                "Feed": {
+                    "Caption": "订阅"
+                },
+                "Task": {
+                    "Caption": "任务"
+                },
+                "SysFile": {
+                    "Caption": "文档"
+                }
+            },
+            "Hint": "The component displays communication history and related records in chronological order"
+        },
+        "File": {
+            "Caption": "文档",
+            "Label": "要上传的文件",
+            "Placeholder": "选择文件"
+        },
+        "RichTextEditor": {
+            "Caption": "大文本"
+        },
+        "ImageInput": {
+            "Caption": "图像",
+            "LabelCaption": "1"
+        },
+        "SearchFilter": {
+            "Caption": "搜索",
+            "Placeholder": "搜索",
+            "Tooltip": "搜索组件只允许通过文本、数字和查找具有直接连接的列来列出对象。",
+            "ComparisonType": {
+                "StartsWith": "Search matches values that start with your input.",
+                "Contains": "Search matches values that contain your input."
+            }
+        },
+        "Approval": {
+            "Caption": "审核"
+        },
+        "ApprovalList": {
+            "Caption": "审批列表",
+            "RefreshCaption": "刷新",
+            "ProvideDataSource": "在使用批准前提供数据源"
+        },
+        "ProgressBar": {
+            "Caption": "进度条",
+            "Hint": "执行阶段指示器",
+            "ProvideDataSource": "在使用进度条前提供数据源"
+        },
+        "CommunicationOptions": {
+            "Caption": "通讯选项\n",
+            "Hint": "组件显示联系人或账户通信选项",
+            "AddBtnCaption": "通讯选项"
+        },
+        "CampaignViewer": {
+            "Caption": "Campaign viewer",
+            "Hint": "Displays campaign schema"
+        },
+        "TagSelect": {
+            "Caption": "标签"
+        },
+        "Summaries": {
+            "Caption": "Summaries"
+        },
+        "CalendarCaption": "日历",
+        "EntityHierarchyFilter": {
+            "Caption": "Hierarchy",
+            "AllCaption": "全部",
+            "Hint": "Hierarchy view lets you configure the hierarchy structure by lookup columns to organize records. To ensure the component operates as intended, connect it in the page List or Data source settings"
+        },
+        "IndicatorWidget": {
+            "Caption": "New metric"
+        },
+        "Chat": {
+            "Caption": "聊天",
+            "Hint": "The component for real-time chatting and displaying previous conversations"
+        },
+        "ChartWidget": {
+            "Caption": "New chart"
+        },
+        "GaugeWidget": {
+            "Caption": "新建仪表"
+        },
+        "Dashboards": {
+            "Caption": "仪表板",
+            "Hint": "The Dashboards component lets you configure the data source, connect the component to the page where the component is placed, and create a new or change an existing dashboard"
+        },
+        "Toggle": {
+            "Caption": "Switcher"
+        },
+        "DataGridHierarchical": {
+            "Caption": "Hierarchical list",
+            "Hint": "A data display component that allows users to view and interact with structured information organized in a multi-level hierarchy"
+        },
+        "Feed": {
+            "Caption": "馈送"
+        },
+        "Divider": {
+            "Caption": "分隔符"
+        },
+        "Switch": {
+            "Caption": "Switch"
+        }
+    },
+    "LayoutElements": {
+        "GridArea1": {
+            "Caption": "区域"
+        },
+        "GridColumn1": {
+            "Caption": "列"
+        },
+        "GridColumn2": {
+            "Caption": "2 列"
+        },
+        "GridColumn3": {
+            "Caption": "3列"
+        },
+        "GridColumn4": {
+            "Caption": "4 列"
+        },
+        "FlexRow": {
+            "Caption": "弹性行",
+            "Hint": "水平行数个元素。Creatio可以根据内容调整元素的大小。 例如，将两个按钮或一个领域和一个按钮相邻。在学院学习更多信息。"
+        },
+        "FlexColumn": {
+            "Caption": "弹性体列",
+            "Hint": "垂直排列几个元素。Creatio可以根据内容调整元素的大小。 例如，用两个块创建一列。在学院了解更多信息。"
+        }
+    },
+    "TypeCaptions": {
+        "GridContainer": "网格容器",
+        "FlexContainer": "Flex容器",
+        "TabContainer": "标签",
+        "MenuItem": "菜单项",
+        "ChartWidget": "图",
+        "TimelineTile": "时间线"
+    },
+    "DialogComponent": {
+        "CancelButtonDialog": "取消",
+        "SaveButtonDialog": "保存",
+        "CloseButtonDialog": "关闭"
+    },
+    "HomePage": {
+        "DialogMessages": {
+            "RequiredFieldsAreNotFilled": "所需字段未填写，或者页面有验证错误"
+        }
+    },
+    "DesignerSettingsComponent": {
+        "HeaderCaption": "图表设置"
+    },
+    "InterfaceDesigner": {
+        "Caption": "设计师",
+        "AddMenu": {
+            "AddDataSource": "添加数据源",
+            "NewDataSource": "新建数据源",
+            "ExistingDataSource": "现有数据源"
+        },
+        "ModelDependencyCycleDetectedError": "检测到模型 {0}之间的循环依赖关系",
+        "DataSourceActions": {
+            "Edit": "编辑\n",
+            "RemoveAttribute": "删除",
+            "Remove": "删除",
+            "RemoveExistingDataSourceMessage": "Are you sure you want to remove the data source? Any unsaved changes to its object will be lost.",
+            "RemoveNewDataSourceMessage": "Are you sure you want to remove the data source? This will permanently delete the new object as it hasn’t been saved yet.",
+            "RemoveDataSourceWithReferencesMessage": "Remove the referenced elements before deleting the data source",
+            "RemoveDataSourceSuccessMessage": "The data source has been deleted"
+        },
+        "SetupEntityDialog": {
+            "Title": "新建对象"
+        },
+        "SetupDataSourceDialog": {
+            "SetupDataSourceTitle": "数据源路径",
+            "CancelButtonDialog": "取消",
+            "SelectButtonDialog": "选择",
+            "Object": "对象",
+            "SelectDataSource": "新建数据源"
+        },
+        "SetupEntityProperties": {
+            "NameColumnCaption": "名称"
+        },
+        "SetupEntityPropertiesDialog": {
+            "Name": "姓名",
+            "Description": "描述",
+            "SaveButton": "保存",
+            "CancelButton": "取消",
+            "Code": "密码",
+            "Validations": {
+                "RequiredNameCaption": "输入值"
+            }
+        },
+        "LookupEntityDialog": {
+            "CreateOrEditLookupEntityTitle": "新建查询",
+            "CancelButtonDialog": "取消",
+            "SelectButtonDialog": "保存",
+            "TitleControl": "标题",
+            "NameControl": "编码",
+            "Validations": {
+                "RequiredNameCaption": "输入值",
+                "DuplicateNameCaption": "相名对象已经存在",
+                "PatternPrefixTemplate": "代码必须以“{0}”为前缀",
+                "PatternNameCaption": "无效的值。使用符号:a-z, a-z, 0-9。符号:0 ~ 9不能在第一位。"
+            }
+        },
+        "CopyPostfixCaption": "复制",
+        "DesignElementSetting": {
+            "SettingsTitle": "系统设置",
+            "DuplicateTitle": "复制",
+            "DeleteTitle": "删除"
+        },
+        "Messages": {
+            "SuccessfullySaved": "成功保存"
+        },
+        "Commands": {
+            "RemoveDataSourceItem": {
+                "SuccessfullyRemoved": "参数 \"{{parameterCaption}}已删除"
+            }
+        },
+        "Components": {
+            "DataSourceAttributeCommonPropertiesComponent": {
+                "TitleCaption": "名称",
+                "NameCaption": "编码",
+                "FormatCaption": "格式",
+                "ReferenceSchemaCaption": "查询",
+                "RequiredCaption": "必需",
+                "Validations": {
+                    "RequiredNameMessage": "输入值"
+                }
+            },
+            "CollectionSortingComponent": {
+                "SortAscendingTitle": "Sort ascending",
+                "SortDescendingTitle": "Sort descending",
+                "SortingColumnLabel": "Sort by column"
+            },
+            "StaticFilterSelectComponent": {
+                "ApplyStaticFilter": "Apply static filter",
+                "EditStaticFilterAction": "Edit filter",
+                "FiltersDialogCaption": "Manually defined filter",
+                "SetupStaticFilterAction": "Set up filter"
+            }
+        },
+        "PropertiesPages": {
+            "EntityDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "通用"
+            },
+            "DataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "A. 概况",
+                "RequirementType": {
+                    "NoCaption": "否",
+                    "YesCaption": "是"
+                },
+                "Validators": {
+                    "UniqueName": "名称 \"{0}已存在",
+                    "InvalidCharacter": "无效值。使用符号: a-z, A-Z, 0-9. 其中0-9不能放在首位",
+                    "InvalidPrefix": "代码必须以“{0}”为前缀"
+                }
+            },
+            "PageParametersDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "通用",
+                "TitleCaption": "名称",
+                "NameCaption": "编码"
+            },
+            "EntityDataSourcePropertiesPanel": {
+                "GeneralGroup": "通用",
+                "PrimaryDataSource": "主要数据源",
+                "PrimaryDataSourceChangeConfirm": "此页面的原始数据源将被更改。您想要保存更改吗？",
+                "BusinessRulesGroup": "业务规则",
+                "Relations": "Relations setup",
+                "FiltersAndSorting": "Filters and sorting",
+                "isIndependentDataSource": "Independent data source",
+                "isIndependentDataSourceTooltip": "If enabled, this data source will always load data based only on its static filter and sorting criteria, regardless of the main record",
+                "ApplyStaticFilter": "Apply static filter",
+                "EditStaticFilterAction": "Edit filter",
+                "SetupStaticFilterAction": "Set up filter",
+                "FiltersDialogCaption": "Manually defined filter",
+                "DoNotCreateEmptyRecordsLabel": "Do not create empty records",
+                "DoNotCreateEmptyRecordsTooltip": "If enabled, empty records will not be generated when the user has not changed any fields (including the default values set on object level) of this data source",
+                "KeepValuesOnCopy": "Keep values on copy",
+                "KeepValuesOnCopyTooltip": "If enabled, the record of this data source will be copied when copying the record of the main data source using this page",
+                "SchemaHasChanged": "Cannot set up a static filter if the new data source is not saved yet. Save the page and try again"
+            },
+            "FilePropertiesPage": {
+                "General": "通用",
+                "AllowedExtensions": "文件扩展名",
+                "AllowedExtensionsEmptyMessage": "如果未设置，允许文件扩展名允许的所有文件类型",
+                "MaxSize": "最大文件大小，MB",
+                "MaxSizeEmptyMessage": "如果未设置，将应用附件最大大小系统设置的默认值",
+                "LabelPosition": "标题位置",
+                "LabelPositionVariants": {
+                    "Auto": "自动",
+                    "Left": "左",
+                    "Right": "右",
+                    "Above": "上方",
+                    "Hidden": "已隐藏"
+                },
+                "Placeholder": "占位符",
+                "AppearanceGroup": "外观",
+                "DataSource": "数据源",
+                "Editability": "编辑性",
+                "TitleOnPage": "页面标题",
+                "EditabilityControls": {
+                    "Readonly": "只读"
+                }
+            },
+            "FileListPropertiesPage": {
+                "PageCaption": "附件列表设置",
+                "GeneralGroup": "通用",
+                "FileGroupLabel": "文件组",
+                "TagLabel": "文件标签",
+                "TagPlaceholder": "默认情况下显示所有记录",
+                "TagHint": "使用标签过滤记录文件，例如“应用文档”",
+                "FileEntitySchemaLabel": "文件存储位置",
+                "FileGroups": {
+                    "Attachments": "附件"
+                },
+                "AttributeToAttachFiles": "要附加文件的记录",
+                "EmptyDataSourceHint": "数据源未添加到页面。请添加现有数据源以设置组件",
+                "AppearanceGroup": "外观",
+                "ViewTypeLabel": "视图",
+                "TileSizeFieldLabel": "相册项目大小",
+                "Sizes": {
+                    "Small": "小的",
+                    "Medium": "中度",
+                    "Large": "大的",
+                    "ExtraLarge": "超大"
+                },
+                "ViewTypeOption": {
+                    "List": "列举",
+                    "Gallery": "图库"
+                }
+            },
+            "ImageInputPropertiesPage": {
+                "SizeFieldLabel": "尺度",
+                "Sizes": {
+                    "None": "无",
+                    "Small": "小的",
+                    "Medium": "中度",
+                    "Large": "大的",
+                    "ExtraLarge": "超大"
+                },
+                "BorderRadiusLabel": "边境利润率",
+                "PositioningLabel": "标题位置",
+                "Positioning": {
+                    "Cover": "填充",
+                    "ScaleDown": "符合"
+                },
+                "MaxSize": "最大文件大小，MB",
+                "MaxSizeEmptyMessage": "如果未设置，将应用附件最大大小系统设置的默认值",
+                "MaxSizePlaceholder": "{0} MB 默认",
+                "TooltipLabel": "工具提示",
+                "AppearanceGroup": "外观",
+                "Editability": "编辑性",
+                "EditabilityControls": {
+                    "Readonly": "只读"
+                },
+                "TooltipHint": "The tooltip supports both plain text and HTML content. Please ensure that your HTML content is concise and adaptive to the tooltip's size."
+            },
+            "PropertiesPanelIconSettings": {
+                "UseIcon": "使用图标",
+                "IconPositionLabel": "地址",
+                "IconPosition": {
+                    "LeftIcon": "左图标",
+                    "RightIcon": "右图标\n",
+                    "OnlyIcon": "仅图标",
+                    "OnlyText": "仅文本\n"
+                },
+                "IconLabel": "图标"
+            },
+            "PropertiesPanelVisibilitySettings": {
+                "VisibilityGroup": "可见性",
+                "Visible": "可见",
+                "NotVisible": "不可见",
+                "SetupConditions": "Set up conditions",
+                "DefaultValueNotSupported": "此元素不支持默认可见性值"
+            },
+            "ViewElementEventPropertiesPanel": {
+                "EventFieldLabel": "操作",
+                "Requests": {
+                    "CancelRecordChangesRequest": "取消更改",
+                    "ClosePageRequest": "关闭标签",
+                    "CreateRecordRequest": "添加新记录",
+                    "ExportDataGridToExcelRequest": "导出到 表格",
+                    "ImportDataRequest": "数据导入",
+                    "LoadDataRequest": "刷新数据",
+                    "OpenPageRequest": "打开特定页面",
+                    "RunBusinessProcessRequest": "运行程序",
+                    "SaveRecordRequest": "保存草稿",
+                    "SetRecordRightsRequest": "1",
+                    "UpdateRecordRequest": "打开现有记录",
+                    "UploadFileRequest": "上传文件",
+                    "ShowRelationshipsRequest": "显示记录的关系",
+                    "OpenDuplicatesPageRequest": "打开重复页面",
+                    "AddСommunicationOptionsRequest": "通讯选项",
+                    "DeleteRecordsRequest": "Delete data",
+                    "ContinueInOtherPageRequest": "Continue in other page",
+                    "SelectLookupPageRequest": "Select data",
+                    "AddTagsInRecordsRequest": "Add tags",
+                    "RemoveTagsInRecordsRequest": "Remove tags",
+                    "PrintablesRequest": "Print report",
+                    "SetCalendarTimeScaleRequest": "Set calendar time scale",
+                    "AddCalendarSyncAccountRequest": "Add calendar synchronization account",
+                    "AddRecordsInStaticFoldersRequest": "Add records to static folder",
+                    "RemoveRecordsInStaticFoldersRequest": "Remove records from static folder",
+                    "CreateEmailRequest": "Create an email",
+                    "SendInvitesForActivityRequest": "Send invite",
+                    "MoveSelectedItemsRequest": "Move selected records",
+                    "CopilotActionRequest": "Creatio.ai action",
+                    "OpenChangeLogRequest": "Open change log",
+                    "SetupCalendarSyncAccountRequest": "Set up calendar synchronization account",
+                    "ToggleFollowFeedRequest": "Follow/Unfollow Feed",
+                    "DeleteRecordRequest": "选中记录",
+                    "SetAttributeFromBarcodeRequest": "Open Barcode scanner",
+                    "SetAttributeFromNfcRequest": "Open NFC reader",
+                    "UpdateQuickFilterGroupRequest": "Setup filters"
+                },
+                "OpenDuplicatesPageRequest": {
+                    "WhichObjectToOpenDuplicatesOfLabel": "应该打开哪个应用程序重复？"
+                },
+                "RunBusinessProcessRequest": {
+                    "WhichProcessRunQuestion": "要运行哪个进程？",
+                    "AddNewBusinessProcessButton": "添加新进程",
+                    "SelectBusinessProcessButton": "进程设计器",
+                    "HowProcessRunQuestion": "如何运行进程？",
+                    "HowProcessRunLabel": "记录传递的过程参数",
+                    "HowRunProcessOptions": {
+                        "ForTheSelectedPage": "所选页面",
+                        "RegardlessOfThePage": "不管该页面有多大",
+                        "ForTheSelectedRecords": "For the selected records in list"
+                    },
+                    "DataSourceFieldCaption": "Which list to run process for?",
+                    "SaveAtProcessStart": "Save data before process start",
+                    "AnnounceProcessStart": "Show notification for process start",
+                    "NotificationTextFieldName": "Notification text",
+                    "DefaultNotificationText": "Process started"
+                },
+                "OpenPageRequest": {
+                    "Title": "要打开哪个页面？",
+                    "OpenPageInDesignerTitle": "打开接口设计",
+                    "AddNewPage": "添加新页面",
+                    "PageParameters": "页面参数"
+                },
+                "CreateRecordRequest": {
+                    "WhichRecordToCreateLabel": "要创建哪条记录？",
+                    "DefaultAttributeValuesLabel": "要设置哪个列值？"
+                },
+                "UpdateRecordRequest": {
+                    "WhichObjectToOpenRecordOfLabel": "哪些对象要打开记录？",
+                    "WhichRecordToOpenLabel": "要打开哪个页面？"
+                },
+                "LoadDataRequest": {
+                    "DataRefreshModeLabel": "Data refresh mode",
+                    "DataRefreshModeOptions": {
+                        "RefreshAll": "Refresh all",
+                        "RefreshSpecific": "Refresh specific data sources"
+                    },
+                    "DataSourcesSelection": {
+                        "DataSourceLabel": "数据源",
+                        "RefreshAll": {
+                            "Title": "Which data sources to exclude?",
+                            "Tooltip": "In “Refresh all” mode, all page data sources will be refreshed — including those added after this action is configured. Use this list to exclude specific data sources from being refreshed."
+                        },
+                        "RefreshSpecific": {
+                            "Title": "Which data sources to refresh?",
+                            "Tooltip": "Select the data sources that should be refreshed when the button is clicked."
+                        }
+                    }
+                },
+                "ExecuteCustomCode": "执行自定义代码",
+                "ShowRelationshipsRequest": {
+                    "SelectEntityLabel": "使用哪个对象？",
+                    "SelectRecordIdLabel": "通过哪一列连接？"
+                },
+                "SetCalendarTimeScaleRequest": {
+                    "Calendar": "Component to control",
+                    "TimeScale": "Time scale",
+                    "FiveMinutes": "5 minutes",
+                    "TenMinutes": "10 minutes",
+                    "FifteenMinutes": "15 minutes",
+                    "ThirtyMinutes": "30 minutes",
+                    "OneHour": "1 hour"
+                },
+                "SendInvitesForActivityRequest": {
+                    "ActivityColumn": "Activity column",
+                    "RequiredFieldError": "This field is required"
+                },
+                "MoveSelectedItemsRequest": {
+                    "SourceDataGridComboBoxLabel": "Move data from",
+                    "TargetDataGridComboBoxLabel": "Move data to",
+                    "DefaultValuesLabel": "Select which columns should be moved",
+                    "DefaultValuesHint": "Select columns which values should be moved from the initial data source to the target data source."
+                },
+                "OpenChangeLogRequest": {
+                    "LogDisplaySettings": "Log display settings",
+                    "OpenLogForRecord": "Open the log for a selected record",
+                    "OpenLogForObject": "Open the log for an object",
+                    "WhichDataSourceOpenLog": "Which data source to open the log with?",
+                    "WhichObjectOpenLog": "Which object to open the log for?"
+                },
+                "SetFollowFeedRequest": {
+                    "Feed": "Feed component to control"
+                },
+                "SetAttributeFromBarcodeRequest": {
+                    "ColumnNameControl": {
+                        "Label": "Which column to set result to?",
+                        "RequiredFieldError": "This field is required"
+                    },
+                    "LookupFilterColumn": {
+                        "Label": "Search column name"
+                    }
+                }
+            },
+            "ExpansionPanelPropertiesPage": {
+                "PageCaption": "扩展面板设置",
+                "GeneralCaption": "通用",
+                "TitleLabel": "名称",
+                "ToggleTypeLabel": "设计",
+                "TogglePositionLabel": "按钮位置",
+                "ColorLabel": "标签标题颜色",
+                "DefaultToggleTypeLabel": "默认",
+                "MaterialToggleTypeLabel": "Accordion",
+                "BeforeTogglePositionLabel": "左",
+                "AfterTogglePositionLabel": "右",
+                "FullWidthHeaderCaption": "全宽标题",
+                "TitleWidthCaption": "标题宽度",
+                "PaddingGroup": "间距",
+                "Padding": {
+                    "Top": "顶端",
+                    "Bottom": "底部",
+                    "Left": "左",
+                    "Right": "右"
+                }
+            },
+            "LabelPropertiesPage": {
+                "PageCaption": "页面设置",
+                "GeneralCaption": "通用",
+                "AttributeBindingCaption": "The element contains preconfigured data display logic. If you need to implement alternative logic, then remove the element value.",
+                "TitleLabel": "文本",
+                "TypeLabel": "设计",
+                "TextAlignLabel": "Align",
+                "ThicknessLabel": "格式",
+                "FontSizeLabel": "大小，px",
+                "FontColorLabel": "文本颜色",
+                "BackgroundColorLabel": "Freedom UI Background Config",
+                "AlignLeftCaption": "左",
+                "AlignCenterCaption": "中间",
+                "AlignRightCaption": "右",
+                "AlignJustifyCaption": "对齐",
+                "TypeH1Caption": "H1",
+                "TypeH2Caption": "H2",
+                "TypeH3Caption": "H3",
+                "TypeH4Caption": "H4",
+                "TypeH5Caption": "H5",
+                "TypeBody1Caption": "正文文本",
+                "TypeCaptionCaption": "标题",
+                "TypeBlankslateCaption": "空白的",
+                "ThicknessLightCaption": "亮色的",
+                "ThicknessNormalCaption": "普通的",
+                "ThicknessSemiboldCaption": "Semibold",
+                "ThicknessBoldCaption": "Bold",
+                "ThicknessDefaultCaption": "默认",
+                "TypeLarge1Caption": "第一行",
+                "TypeLarge2Caption": "第二行",
+                "TypeLarge3Caption": "第三行",
+                "TypeLarge4Caption": "第四行",
+                "TypeHeadline1Caption": "标题1",
+                "TypeHeadline1SmallCaption": "标题1小",
+                "TypeHeadline2Caption": "标题2",
+                "TypeHeadline3Caption": "标题3",
+                "TypeHeadline4Caption": "标题4",
+                "TypeBodyLargeCaption": "体积大",
+                "TypeBodyCaption": "主体",
+                "TypeCaptionLargeCaption": "大标题",
+                "TypePlaceholderLargeCaption": "占位符大",
+                "TypePlaceholderCaption": "占位符",
+                "TypeButtonCaption": "按钮",
+                "TypeButtonSmallCaption": "小按钮",
+                "ClearAttributeBinding": "清除缓存",
+                "HeadingLevelCaption": "Heading level",
+                "HeadingLevelInfo": "The heading level helps better organize content on the page and improves its accessibility"
+            },
+            "TimerPropertiesPage": {
+                "PageCaption": "页面设置",
+                "TimerType": "模式",
+                "TargetDateTimeColumn": "Target Date/Time column",
+                "StartDateTimeColumn": "开始日期时间列",
+                "FromDateTimerType": "计数计时器\n",
+                "CountdownToSpecificDateTimerType": "倒计时到指定日期",
+                "ShowNegativeCountDownValue": "显示负倒计时值",
+                "TextColorForNegativeValues": "负值的文本颜色",
+                "TextForPositiveValues": "正值文本",
+                "TextForNegativeValues": "正值文本",
+                "ValueTextTooltip": "请使用 [#timer#] 宏和文本字符串来创建详细的计时器标签。 例如，正值 - [#timer#] 留待完成任务； 负值 - [#timer#] 逾期未提交。\n"
+            },
+            "LocalTimePropertiesPage": {
+                "PageCaption": "本地时间设置",
+                "TimeZoneColumn": "时区列"
+            },
+            "BaseCustomPropertiesPanel": {
+                "PageCaption": "自定义元素设置",
+                "GeneralCaption": "通用",
+                "Description": "您可以在页面源代码中设置此元素",
+                "OpenSourceCodeButtonCaption": "打开源代码"
+            },
+            "DataGridPropertiesPage": {
+                "PageCaption": "列表设置",
+                "GeneralCaption": "通用",
+                "DataSourceCaption": "对象",
+                "ChangeFilters": "更改过滤器",
+                "AttributeBindingUsage": "Attribute value used",
+                "MassActions": "Bulk actions",
+                "ApplyStaticFilter": "应用静态过滤器",
+                "SetupStaticFilterAction": "Set up filter",
+                "EditStaticFilterAction": "编辑过滤器",
+                "Appearance": {
+                    "AppearanceGroup": "Appearance",
+                    "Editable": "Inline editing",
+                    "ItemsCreation": "Inline adding records",
+                    "FloatingEditPanel": "Floating edit panel",
+                    "FloatingEditPanelHint": "Enables users to use the floating edit panel to save or cancel changes in the editable list. When cleared, users can still use Save and Cancel page buttons for that purpose",
+                    "RowsNumeration": "Row numbers",
+                    "RowsMultiSelection": "Multiselect",
+                    "RowsLimit": "Limit number of rows",
+                    "RowsLimitPlaceholder": "Enter maximum number of rows",
+                    "RowsLimitTooltip": "Set a maximum number of records to display in the list. This is useful when you want to show a specific number of items — for example, \"Top 5 customers\".</br>When a limit is set, the “Select all” option is not available.",
+                    "Header": "List header",
+                    "ColumnsSorting": "Sorting",
+                    "ColumnsResizing": "Resizable columns",
+                    "ColumnsDragAndDrop": "Draggable columns"
+                },
+                "RowsNumeration": "Row numbers",
+                "StyleLabel": "设计",
+                "Styles": {
+                    "PlainWhite": "Plain white",
+                    "Glassmorphism": "Glass effect"
+                }
+            },
+            "TabItemPropertiesPage": {
+                "GeneralGroup": "通用",
+                "CaptionLabel": "名称",
+                "AppearanceGroup": "外观",
+                "IconPosition": {
+                    "LeftIcon": "左图标",
+                    "OnlyIcon": "仅图标",
+                    "OnlyText": "仅文本\n"
+                },
+                "PaddingGroup": "Spacing",
+                "Padding": {
+                    "Top": "顶端",
+                    "Bottom": "底部",
+                    "Left": "左",
+                    "Right": "右"
+                }
+            },
+            "ActionDashboardPropertiesPage": {
+                "PageCaption": "操作仪表盘设置",
+                "GeneralCaption": "通用",
+                "DataSource": "数据源",
+                "GoToCasesButtonCaption": "设置案件",
+                "EmptyDataSourceHint": "数据源未添加到页面。请添加现有数据源以设置组件",
+                "ChannelsCaption": "频道\n",
+                "CallAction": "呼叫",
+                "EmailAction": "邮件",
+                "FeedAction": "新闻源消息",
+                "ActivityAction": "任务",
+                "CasesDisabledTitle": "无法为数据源设置案例"
+            },
+            "DefaultAttributeValues": {
+                "AddAttribute": "添加字段"
+            },
+            "ApprovalPropertiesPage": {
+                "HeaderLabel": "审批设置",
+                "GeneralGroup": "通用",
+                "SchemaNameLabel": "哪些记录需要批准？",
+                "AppearanceGroup": "外观",
+                "HiddenWhenNoData": "没有数据时隐藏"
+            },
+            "ApprovalListPropertiesPage": {
+                "HeaderLabel": "审批列表设置",
+                "GeneralGroup": "通用",
+                "SchemaNameLabel": "对象"
+            },
+            "MenuItemPropertiesPanel": {
+                "GeneralGroup": "通用",
+                "CaptionLabel": "标题",
+                "ActionLabel": "操作",
+                "AppearanceGroup": "外观"
+            },
+            "GalleryPropertiesPanel": {
+                "PageCaption": "相册设置",
+                "GeneralCaption": "通用",
+                "AdditionalCaption": "附加",
+                "DataSourceCaption": "对象",
+                "CaptionColumnField": "标题",
+                "DescriptionColumnField": "描述",
+                "ImageColumnField": "图像",
+                "SelectableConfigField": "可选择",
+                "AppearanceGroup": "Appearance",
+                "MultiselectConfigField": "Multiselect",
+                "UseSpecificPageField": "Open specific page by clicking on the caption",
+                "SpecificPageLookupField": "Which page to open?",
+                "DefaultSizeFieldLabel": "Gallery item size",
+                "Sizes": {
+                    "Small": "Small",
+                    "Medium": "中度",
+                    "Large": "Large",
+                    "ExtraLarge": "Extra Large"
+                },
+                "MassActions": "Bulk actions"
+            },
+            "ImportDataRequestPropertiesPanel": {
+                "EntitySchemaSelectCaption": "要导入哪个数据"
+            },
+            "ExportDataGridToExcelRequestPropertiesPanel": {
+                "ViewSelectCaption": "Which data to export?"
+            },
+            "UploadFileRequestPropertiesPanel": {
+                "ViewSelectCaption": "上传文件到哪里？",
+                "AllowedExtensions": "允许上传哪个文件扩展名？",
+                "AllowedExtensionsEmptyMessage": "如果未设置，允许文件扩展名允许的所有文件类型",
+                "MaxSize": "最大允许文件大小为 MB？",
+                "MaxSizeEmptyMessage": "如果未设置，将应用附件最大大小系统设置的默认值",
+                "FileTypesPlaceholder": "例如, .pdf, .png",
+                "MaxSizePlaceholder": "{0} MB 默认",
+                "UploadFileSourceCaption": "Upload a file from source",
+                "Camera": "Camera",
+                "Gallery": "Gallery",
+                "Files": "文件"
+            },
+            "SearchFilterPropertiesPanel": {
+                "PageCaption": "搜索设置",
+                "GeneralCaption": "通用",
+                "ChooseTargetsCaption": "要过滤的组件",
+                "ChooseTargetsTooltip": "选择要在哪里进行搜索的列表。下拉菜单显示当前页面上存在并指定对象的列表",
+                "Placeholder": "占位符",
+                "DirectConnection": "The Search component allows to search only by text, number and lookup columns with direct connections to list object.",
+                "AppearanceGroup": "外观",
+                "IconOnlyCaption": "仅图标"
+            },
+            "EntityStagePropertiesPanel": {
+                "HeaderLabel": "进度条",
+                "GeneralGroup": "通用",
+                "SchemaNameLabel": "数据源",
+                "CasesCaption": "设置案件",
+                "EmptyDataSourceHint": "数据源未添加到页面。请添加现有数据源以设置组件",
+                "SaveOnChange": "阶段更改时保存记录",
+                "AskUserToChangeSchema": "在大小写更新时显示快餐栏通知",
+                "SaveEntityConfirmationDialog": {
+                    "Save": "Save entity",
+                    "Message": "{0} entity was modified, and saving the entity is required to continue."
+                }
+            },
+            "AddCommunicationOptionsRequestPropertiesPanel": {
+                "ViewSelectCaption": "记录以绑定通讯选项?"
+            },
+            "AllowedResultsPropertiesPage": {
+                "PageCaption": "允许的结果"
+            },
+            "AppearanceSettingsPropertyPanel": {
+                "ButtonSizeFieldLabel": "Modal window size"
+            },
+            "DeleteRecordsRequestPropertiesPanel": {
+                "SelectDataToDelete": "Which data to delete?"
+            },
+            "TagSelectPropertiesPanelComponent": {
+                "PageCaption": "Tags settings",
+                "GeneralCaption": "A. 概况",
+                "AppearanceCaption": "Appearance",
+                "CaptionLabel": "标题",
+                "CaptionPlaceholder": "标签",
+                "RecordLabel": "Record to tag item",
+                "TagInRecordSourceSchemaName": "Tag storage location",
+                "LabelPosition": "Title position",
+                "LabelPositionVariants": {
+                    "Auto": "自动",
+                    "Left": "左",
+                    "Above": "Above",
+                    "Hidden": "Hidden"
+                }
+            },
+            "SchemaOutletPropertiesPage": {
+                "PageCaption": "Schema container settings"
+            },
+            "ActivityColumnsMapingComponent": {
+                "EmailLinksCaption": "Email links",
+                "ActivityColumn": "Activity column",
+                "PageColumn": "Data attribute",
+                "EmailLinksBlankSlate": "Email will be linked to PDS only. Please use the plus button to set up linking with other entities."
+            },
+            "SelectLookupPageRequestPropertiesPanel": {
+                "ViewSelectCaption": "Which data to select?",
+                "InfoMessage": "Selected records are processed in custom code."
+            },
+            "SetRecordRightsRequestPropertiesPanel": {
+                "OpenInModalWindowCaption": "Open in modal window"
+            },
+            "BaseTagsInRecordsRequestPropertiesPanel": {
+                "TagInRecordSourceSchemaName": "Tag storage location"
+            },
+            "AddTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToAddTagsCaption": "Which data to add tags?"
+            },
+            "RemoveTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToRemoveTagsCaption": "Which data to remove tags?"
+            },
+            "AddRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToAddInStaticFoldersCaption": "Which records to add in the static folder?"
+            },
+            "RemoveRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToRemoveInStaticFoldersCaption": "Which records to remove from the static folder?"
+            },
+            "EntityHierarchyFilterPropertiesPanel": {
+                "HeaderLabel": "Entity hierarchy filter",
+                "GeneralCaption": "A. 概况",
+                "SchemaNameCaption": "Select an object to build a hierarchy",
+                "HierarchySetup": "Hierarchy setup",
+                "SchemaNameSelectTooltip": "Select an object to build the hierarchy on. All system objects are displayed in the drop-down menu. After configuring the hierarchy, link it to the List component by specifying it as a pre-configured filter.",
+                "ApplyStaticFilter": "Apply static filter",
+                "EditStaticFilterAction": "Edit filter",
+                "FiltersDialogCaption": "Manually defined filter",
+                "SetupStaticFilterAction": "Set up filter"
+            },
+            "EntityHierarchySetupContainerPropertiesPanel": {
+                "AddNewItem": "Add new hierarchy column",
+                "ContextMenu": {
+                    "AddToSubmenu": "Add sub-hierarchy",
+                    "Edit": "编辑",
+                    "Delete": "删除"
+                }
+            },
+            "PlaybookPropertiesPage": {
+                "PageCaption": "Playbook settings",
+                "GeneralGroup": {
+                    "Caption": "A. 概况",
+                    "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+                    "Tooltip": "The component displays hints and instructions for users to access information from the knowledge base for specific dynamic case stages. You can set up related articles in Playbooks section. Read more on ",
+                    "AcademyLink": "<a href=\"https://academy.creatio.com/docs/8.x/\" target=\"_blank\">academy</a>.",
+                    "OpenPlaybookButton": "Open playbook"
+                },
+                "SelectDataSource": "数据源"
+            },
+            "CopilotActionRequestPropertiesPanelComponent": {
+                "PromptLabel": "Creatio.ai prompt",
+                "PromptTooltip": "Enter the Creatio.ai prompt that will be executed when the button is clicked. The response will be sent in the Creatio.ai sidebar."
+            },
+            "LookupAttributePropertiesPanel": {
+                "RefSchemaNoDisplayValueValidationMessage": "Objects with no display value cannot be used as a lookup. Please set the object display value in configuration."
+            },
+            "SaveRecordRequestPropertiesPanel": {
+                "PreventCardCloseInNewRecord": "Stay on page after record is created",
+                "ReloadSavedRecord": "Reload saved record",
+                "ReloadSavedRecordHint": "After saving, reloads the record from the server so any server-side changes (e.g., legacy autonumbering) appear instantly. Not needed for the new Autonumber field."
+            },
+            "ActionNotificationPropertiesPanel": {
+                "MessageText": "消息文本",
+                "ShowSuccessMessage": "Show success message after completion"
+            },
+            "DataGridHierarchicalPropertiesPage": {
+                "PageCaption": "Hierarchical list settings",
+                "ParentColumnLabel": "Parent defining column",
+                "MaxRecordsLabel": "Maximum number of records",
+                "MaxRecordsTooltip": "Specifies the maximum number of records to load into the hierarchical list. If available records exceed this limit, only the specified number of records is loaded. If not specified, the value is taken from the \"Maximum number of records in hierarchical list\" (HierarchicalListMaxRecordsCount code) system setting, or 5,000 records by default when that setting is not configured.",
+                "InfoHint": "This component is designed for small data sets. Limit maximum number of records using the \"Maximum number of records\" field and narrow the data scope using the \"Apply filter by page data\" block."
+            }
+        },
+        "SaveMessage": "将保存所有更改。是否继续？",
+        "MainHeader": {
+            "Title": "标题",
+            "CommandLinePlaceholder": "我可以为你做什么？"
+        },
+        "SaveConfirmationDialog": {
+            "Message": "此页面包含未保存的更改。如果您关闭此页面，这些更改将丢失。是否保存更改？",
+            "Save": "保存",
+            "DoNotSave": "不保存",
+            "Cancel": "取消"
+        },
+        "NotFoundDataSourceObject": {
+            "GroupObjectCaption": "Data source error",
+            "ErrorMessage": "The '{0}' object referenced in '{1}' data source has been either renamed or removed. Please change the object code to '{0}' or update the page source code (metadata) before continuing working with the page designer.",
+            "BusinessRulesOpenDialogMessage": "The '{0}' object referenced in '{1}' data source has been either renamed or removed. Please change the object code to '{0}' or update the page source code (metadata) in order to use the business rules designer"
+        },
+        "UnableCopySchemaError": "Unable to copy schema. It is either created by third-party publisher or installed from the file archive",
+        "Operation": {
+            "Copy": "复制"
+        },
+        "ModelDependencyNotFoundError": "The relation criteria for the {{names}} data source are not set",
+        "ModelDependencyNotFoundErrorMultiple": "The relation criteria for the {{names}} data sources are not set",
+        "MissingDependenciesDialog": {
+            "Title": "Missing dependencies detected",
+            "Intro": "This page includes elements from packages that are not listed as dependencies of the current package.",
+            "Reason": "Such configurations are no longer supported to prevent circular dependencies and ensure a maintainable application structure.",
+            "InstructionTemplate": {
+                "Prefix": "Please",
+                "ActionLink": "add dependencies",
+                "PackageContext": "in the '{{ missedPackageName }}' package",
+                "Suffix": "to the following packages before editing this page"
+            }
+        },
+        "MissingDependenciesNotification": {
+            "Description": "Cannot save the page. Please add the required dependencies before making further changes to page.",
+            "Action": {
+                "Caption": "View details"
+            }
+        },
+        "SaveOutdatedConfirmation": {
+            "Header": "Newer version available",
+            "Message": "{0} saved changes to this page {1} ago. Saving now will replace their version with yours.",
+            "CancelButton": "取消",
+            "SaveButton": "保存"
+        },
+        "SaveOverwriteConfirmation": {
+            "Header": "Replace a newer version?",
+            "Message": "You're about to replace {0}'s recent changes with your version.",
+            "CancelButton": "取消",
+            "ConfirmButton": "Overwrite anyway"
+        }
+    },
+    "ApplicationManagement": {
+        "CreateApplicationComponent": {
+            "WaitTitle": "将默认内容添加到您的应用程序",
+            "WaitTitleGenAI": "Generating your application"
+        },
+        "ApplicationInfoDialogComponent": {
+            "DisclaimerCaption": "点击“使用 AI生成”按钮，您同意您的请求将由 OpenAI 模型处理。 在这里查看术语和策略 <a class=\"document-link\" href=\"https://openai.com/policies\" target=\"_blank\"></a>。 Creatio 是代理，不能对OpenAI生成的任何结果负责。",
+            "HeaderCaption": "新的应用程序",
+            "HeaderEditCaption": "编辑应用程序",
+            "HeaderCarouselCaption": "选择图标和颜色",
+            "InputNameCaption": "Application name",
+            "ApplicationCodeCaption": "应用",
+            "InputDescriptionCaption": "描述它是什么(可选)",
+            "InputDescriptionPlaceholder": "撰写关于您的应用程序的一些单词",
+            "InputAIDescriptionCaption": "描述它是什么的",
+            "InputAIDescriptionPlaceholder": "Write a few words about your application and we will create it automatically.",
+            "CancelButtonCaption": "取消",
+            "CreateButtonCaption": "创建",
+            "SaveButtonCaption": "保存",
+            "GenerateWithAIButtonCaption": "使用 AI 生成",
+            "UseExistingObjectTooltip": "选择链接到一个现有对象，而不是创建一个新对象",
+            "AdvancedModeButtonCaption": "高级参数",
+            "NamePlaceholder": "请命名您的应用程序",
+            "CodePlaceholder": "创建唯一的应用程序 ID",
+            "CodeTooltip": "The application code is used as a unique identifier when the application is installed to another environment. Also, the code can be used to generate section element codes in case there are schemes in the template",
+            "HeaderViewCaption": "Application info",
+            "CloseButtonCaption": "关闭",
+            "VersionInputCaption": "版本",
+            "VersionInputPlaceholder": "0.0.0",
+            "AppStartPageCaption": "App default page",
+            "AppStartPageTooltip": "The app page to open by clicking the Run App button. This can be the app's homepage or section list page.",
+            "AppStartPageAutoItem": "自动",
+            "CreateMobilePagesTooltip": "Clear this option to create a web-only app"
+        },
+        "ApplicationValidatorService": {
+            "InvalidCharactersForName": "名称中只允许使用 \"- _\"符号",
+            "InvalidCharactersForCode": "Only Latin letters and numbers are allowed in the code, and the symbol 0-9 cannot be the first character",
+            "ApplicationNameAlreadyExists": "名为 \"{0}\" 的应用已存在",
+            "ApplicationCodeAlreadyExists": "此应用程序代码或软件包名称已被使用",
+            "InvalidApplicationCodePrefix": "代码必须以“{0}”为前缀",
+            "FirstSymbolIsNotLetterAndNotDigit": "名称必须以字母或数字开头",
+            "EntityNameAlreadyExists": "Object with this code already exists",
+            "InvalidVersion": "Enter the version number in X.Y or X.Y.Z format. For example, 1.0, 1.2, 1.0.0, 1.2.0, etc.",
+            "InvalidRequiredPlatformVersion": "Enter a valid Creatio version in the X.Y.Z format or version range X.Y.Z - X.Y.Z. For example, 8.3.0 or 8.3.0 - 8.4.3.",
+            "InvalidRequiredPlatformVersionRange": "The maximum version must be greater than the minimum version.",
+            "InvalidAppDependencyVersion": "Please use one of the following formats:\n- Minimal required version: X.Y or X.Y.Z\n- Version range: X.Y - X.Y or X.Y.Z - X.Y.Z",
+            "InvalidAppDependencyVersionRange": "The maximum version must be greater than the minimum version."
+        },
+        "ApplicationManagementDialogComponent": {
+            "DialogHeaderCaption": "App properties",
+            "PropertiesTabCaption": "A. 概况",
+            "DependenciesTabCaption": "Dependencies",
+            "Properties": {
+                "IconCaption": "图标",
+                "ColorCaption": "颜色 ",
+                "InputNameCaption": "Application name",
+                "NamePlaceholder": "Name your application",
+                "DefaultAppPageCaption": "Default app page",
+                "AppStartPageTooltip": "The app page to open by clicking the Run App button. This can be the app's homepage or section list page.",
+                "ApplicationCodeCaption": "Application code",
+                "Developer": "开发人员",
+                "InputDescriptionCaption": "Describe what it’s for (optional)",
+                "InputDescriptionPlaceholder": "Write a few words about your application",
+                "CreatedOn": "创造于",
+                "LastUpdate": "Last update",
+                "Created": "被创建"
+            },
+            "Dependencies": {
+                "AddDependencyCaption": "Add dependency",
+                "ApplicationNameCaption": "姓名",
+                "DeleteCaption": "删除",
+                "RequiredPlatformVersionCaption": "Required Creatio version",
+                "RequiredPlatformVersionTooltip": "If you specify only one required version, the application can be installed on that version and later versions of Creatio. You can also specify a compatible version range using a hyphen, for example: \"8.3.0 - 8.4.3\".",
+                "RequiredPlatformVersionSubCaption": "Minimum required Creatio version or compatible version range for the \"{0}\" application. The current Creatio version is {1}.",
+                "RequiredDependenciesCaption": "Required dependencies",
+                "RequiredDependenciesSubCaption": "Configure dependencies to extend the application using elements from other applications or packages. The application cannot be installed in environments where required dependencies are missing, their versions are lower than the minimum required, or do not fall within the supported version range. The \"{0}\" application depends on the following applications or packages:",
+                "AddCaption": "添加",
+                "TypeCaption": "类型",
+                "DeveloperCaption": "开发人员",
+                "VersionCaption": "Required version",
+                "ApplicationVersionTooltip": "If you specify a single version, the application \"{0}\" can be installed only if the environment has the dependent application installed with that version or a newer one.\nYou can also specify a version range using a hyphen, for example: 1.0 - 2.0 or 1.0.0 - 2.0.0.",
+                "PackageVersionTooltip": "Version can be specified only for dependencies with type \"Application\""
+            },
+            "CancelButtonCaption": "取消",
+            "SaveButtonCaption": "保存",
+            "CloseButtonCaption": "关闭",
+            "DependenciesValidationError": "Error while saving application dependencies",
+            "VersionTabCaption": "版本",
+            "Version": {
+                "VersionInputCaption": "Application Version",
+                "VersionInputPlaceholder": "0.0.0",
+                "VersionInputTooltip": "A version number follows the format <b>Major.Minor.Patch</b>, where each component has the following meaning:<ul><li><b>Major</b> – breaking changes</li><li><b>Minor</b> – new features that are backward compatible</li><li><b>Patch</b> – backward-compatible bug fixes only</li></ul>For example: 2.1.4. <a href='https://academy.creatio.com/documents?id=2584' target='_blank' rel='noopener noreferrer'>Learn more in the Academy</a>.",
+                "VersionInputHint1": "We recommend releasing any changes to the application using a new version number. Based on your current version {0}, consider using one of the following versioning options, depending on the significance of the changes: ",
+                "VersionInputHint2": " or ",
+                "VersionInputHint3": ", depending on the significance of the changes.",
+                "VersionMajorPart": "Major {0}",
+                "VersionMinorPart": "Minor {0}",
+                "VersionPatchPart": "Patch {0}"
+            }
+        }
+    },
+    "Validators": {
+        "Autocomplete": {
+            "Message": "请从列表中选择值"
+        },
+        "ColorPicker": {
+            "Message": "操作错误。选定无效的十六进制格式"
+        },
+        "Required": {
+            "Message": "输入值"
+        },
+        "MaxLength": {
+            "Message": "超过文本长度限制({{actualLength}}/{{maxLength}})"
+        },
+        "MinLength": {
+            "Message": "未达文本最小限制({{actualLength}}/{{minLength}})"
+        },
+        "Min": {
+            "Message": "最小数字值为 {{min}}"
+        },
+        "Max": {
+            "Message": "最大数字值为 {{max}}"
+        },
+        "GridColumnsCount": {
+            "Message": "不能删除包含元素的列。要减少列数，请删除元素或将它们移动到其他列。"
+        },
+        "Email": {
+            "Message": "无效的名称格式"
+        },
+        "Link": {
+            "Message": "无效的文件格式"
+        }
+    },
+    "UserProfile": {
+        "Profile": "个人资料",
+        "Photo": "照片",
+        "FirstLastName": "全名",
+        "Organization": "组织",
+        "Language": "语言",
+        "TimeZone": "时区",
+        "DateTimeFormat": "日期和事件值",
+        "Role": "任务",
+        "Active": "激活",
+        "Status": "身份",
+        "Invited": "已邀请",
+        "Email": "邮件",
+        "ChangeEmail": "更改电子邮件",
+        "ChangeEmailButton": "更改并注销",
+        "EmailChanged": "您的电子邮件已成功更改",
+        "ResendConfirmEmailSuccess": "确认邮件已发送",
+        "ResendConfirmEmailError": "确认邮件未发送",
+        "NotConfirmedEmail": "请检查您的电子邮件以确认注册",
+        "Password": "密码",
+        "ChangePassword": "更改密码",
+        "ChangePasswordError": "更改密码时出错",
+        "ResetPasswordValidationError": "没有用户通过此电子邮件",
+        "ConnectedAccounts": "已连接的帐户",
+        "DisconnectAccountError": "无法断开选中的账户",
+        "DeleteProfile": "删除配置文件",
+        "ChangesSaved": "更改已保存",
+        "SavingError": "保存数据时出错",
+        "ApplyChanges": "保存",
+        "ReloginError": "更改未应用。请重新登录以应用更改",
+        "NewEmail": "新邮件",
+        "CurrentPassword": "当前密码",
+        "WrongPassword": "更改密码",
+        "ExistsEmailError": "此电子邮件已被使用",
+        "ChangeEmailError": "内部错误。电子邮件未更改。请稍后再试",
+        "EmailNotConfirmed": "电子邮件未确认\n\n",
+        "ResendConfirm": "重新发送确认",
+        "ConnectedAccountsSectionCaption": "已连接的第三方账户",
+        "Back": "后退",
+        "Logins": {
+            "AddNewLogin": "添加",
+            "DisconnectAccount": "已断开连接",
+            "LoginAlreadyAssociated": "帐户已连接到另一个用户",
+            "DefaultConnectionErrorMessage": "无法连接社交网络"
+        },
+        "FirstName": "名",
+        "LastName": "姓",
+        "OrganizationWebsite": "网址",
+        "PasswordResetIsNotAllowed": "Password reset for this account was requested lately. Please wait few minutes to try again."
+    },
+    "OrganizationUserSection": {
+        "GridColumns": {
+            "id": "Id",
+            "fullName": "名字和姓氏",
+            "email": "邮件",
+            "status": "身份",
+            "role": "任务",
+            "lastActivity": "上次活动"
+        },
+        "GridActions": {
+            "Activate": "激活",
+            "Deactivate": "停用",
+            "Edit": "编辑\n",
+            "Resend": "重新发送邀请",
+            "Cancel": "取消邀请"
+        },
+        "UserStatus": {
+            "Active": "激活",
+            "Inactive": "未激活",
+            "Invited": "邀请已发送"
+        },
+        "AddUser": "+ 添加用户",
+        "ChangeStatusMessage": {
+            "activate": "用户已激活",
+            "deactivate": "用户已停用"
+        },
+        "InvitationSent": "邀请已发送",
+        "InviteUsersPage": {
+            "NewUser": "新用户",
+            "Back": "后退",
+            "Role": "角色",
+            "Email": "企业电子邮件",
+            "Collaborators": "邀请用户",
+            "SendInvite": "已邀请",
+            "InviteSuccess": "邀请已发送",
+            "EmailExists": "用户 {0} 已被邀请加入组织",
+            "GoToProfile": "转到个人资料"
+        }
+    },
+    "UserProfileActionComponent": {
+        "YourProfileActionCaption": "个人资料",
+        "LogoutActionCaption": "注销"
+    },
+    "EnvironmentManagement": {
+        "WaitTrialPage": {
+            "DemoDataToggleCaption": "用演示数据填充系统",
+            "Description": "此帐户将用于登录",
+            "Continue": "继续",
+            "ConfirmRegistration": {
+                "RegistrationSuccessful": "您的注册成功！",
+                "CreateFirstApp": "您想要现在创建您的第一个应用吗？",
+                "GuideMeButtonCaption": "是的，创建新应用",
+                "ManageButtonCaption": "不，请稍后再试"
+            },
+            "WaitPage": {
+                "StudioEnterpriseMessage": "您将能够在一些时间内创建<br />您的 <strong>第一个应用程序</strong>！",
+                "CRMMessage": "您将能够尝试全面的 <strong>营销、销售和服务</strong> 产品在几个时间内融入一个无代码平台！",
+                "CreatioIsHotMessage": "Creatio<br />是热门的！",
+                "TrialTimeoutMessage": "我们正在解决这个问题！但是由于需求高，<br />您的试用可能会被延迟。",
+                "SendTrialEmail": "我们感谢您的时间并将在试用准备就绪时发送电子邮件<br />。",
+                "GoToApplications": "转到应用程序中心"
+            }
+        }
+    },
+    "SsoSettings": {
+        "Validators": {
+            "AdfsTenant": {
+                "Message": "值不应为空或以 http:// 或 https://开始"
+            },
+            "StringUrl": {
+                "Message": "值应该为有效的url"
+            },
+            "IsJsonValidator": {
+                "Message": "Value should be valid JSON"
+            }
+        },
+        "SsoIdentityProvider": {
+            "DuplicationError": "此提供商已经存在。请检查输入的信息。",
+            "SigningSettingsError": "SAML signing settings are not correct. Please check the entered information."
+        }
+    },
+    "BusinessRuleAction": {
+        "StructureExplorer": {
+            "Title": "删除元素",
+            "ElementsTab": "{0}Elements{1}"
+        }
+    },
+    "FileSizeUnit": {
+        "Byte": "字节",
+        "Bytes": "字节",
+        "Kilobyte": "KB",
+        "Megabyte": "MB",
+        "Gigabyte": "GB"
+    },
+    "Approvals": {
+        "ComponentHeaderLabel": "需要审核"
+    },
+    "RelationshipDesignerModal": {
+        "Caption": "{{schemaName}} 关系"
+    },
+    "RelationshipDesigner": {
+        "DeleteItemMessage": "是否确定删除您选择的内容？?",
+        "RequiredControlErrorMessage": "请输入值"
+    },
+    "RelationshipDiagram": {
+        "NoAccess": "没有更改关系的权限",
+        "Tools": {
+            "FitToView": "适合视图",
+            "ResetView": "重置视图",
+            "ZoomIn": "放大",
+            "ZoomOut": "缩小",
+            "MiniMapClose": "迷你地图关闭",
+            "MiniMapOpen": "迷你地图打开"
+        }
+    },
+    "GroupsPropertiesPage": {
+        "Title": "组别",
+        "Search": "搜索"
+    },
+    "GroupPropertiesDialog": {
+        "Cancel": "取消",
+        "Comment": "评论",
+        "EditGroup": "编辑组",
+        "Name": "名称",
+        "NewGroup": "新建组",
+        "Save": "保存"
+    },
+    "EntityInGroupPropertiesDialog": {
+        "AddToGroup": "添加到组",
+        "Cancel": "取消",
+        "Comment": "评论",
+        "Edit": "编辑\n",
+        "Group": "组别",
+        "Save": "保存"
+    },
+    "ConnectionPropertiesPage": {
+        "Comment": "评论",
+        "Relations": "关系",
+        "RelationshipType": "关联类型",
+        "Title": "关系"
+    },
+    "ContainerPropertiesPage": {
+        "Address": "地址",
+        "Email": "邮件",
+        "GeneralInformation": "通告周知",
+        "Groups": "组别",
+        "Phone": "电话",
+        "RelationshipsWith": "相关条目 ({0})",
+        "Type": "类型",
+        "Web": "网址"
+    },
+    "ObjectPermissions": {
+        "Warning": "警告! ",
+        "OperationsPoint": "Objects used by lookup fields on this section page are not configured. According to the current access permissions, objects listed below are not available to external users:",
+        "RecordsPoint": "Objects used by lookup fields on this section page are not secure. According to the current access permissions, all records from the objects listed below are fully available to any external user:",
+        "SetProperPermissionsBegin": "To set proper access permissions, turn on operation and record permissions for these objects in the \"",
+        "ObjectPermissions": "Object permissions",
+        "SetProperPermissionsEnd": "\" section of the System designer.",
+        "Link": "Update object permissions now",
+        "End": "Note: You may need to set access permissions for existing records individually, so that other users could work with them.",
+        "UpdateObjectPermissionsMessage": "Current permission settings will be modified. This may affect system performance for all users. Do you wish to update object permissions now?"
+    },
+    "LocalizableTextInput": {
+        "ButtonTitle": "Multilanguage configuration"
+    },
+    "ExpansionButton": {
+        "ExpandTooltip": "Expand panel",
+        "CollapseTooltip": "Collapse panel"
+    },
+    "MultilanguageEmailTemplates": {
+        "TranslateHeadersTitle": "Set headers for multilingual templates",
+        "TranslateDescription": "Add language-specific headers for your multilingual template. To include more languages, update the template settings.",
+        "AcademyUrl": "https://academy.creatio.com/documents?id=2571"
+    },
+    "isValueMaskedCaption": "Mask displayed value",
+    "maskTypeCaption": "Mask type",
+    "maskOperationCaption": "Operation permission",
+    "ValueMaskingSettings": {
+        "HideAllMaskTitle": "Hide All Characters",
+        "ShowOnlyLast4CharsMaskTitle": "Show Only Last 4 Characters",
+        "BankCardMaskTitle": "Bank Card",
+        "SSNMaskTitle": "SSN",
+        "SINMaskTitle": "SIN"
+    },
+    "blockDeletionTooltip": "Prevents deleting the lookup value if it is referenced by records in the current object.",
+    "DeleteRecordsTooltip": "Deletes related records in the current object when the lookup value is deleted.",
+    "selectionWindowTooltip": "Opens a separate selection window to choose a lookup value.",
+    "listTooltip": "Lets users select a lookup value directly from a dropdown list."
+}

@@ -1,0 +1,21 @@
+﻿.duplicates-detail .load-more-btn {
+  display: block;
+  margin: auto;
+  max-width: 200px;
+}
+.duplicates-detail .duplicates-controls-container [select-all-group-enabled="false"] a {
+  cursor: default;
+  color: #aeaeae;
+  text-decoration: none;
+}
+.duplicates-detail .duplicates-controls-container .duplicates-header-caption {
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 20px;
+  color: #444;
+}
+.duplicates-detail .duplicates-controls-container .t-btn-wrapper.t-information-btn {
+  margin: 0 10px;
+}

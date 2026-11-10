@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Izmantojiet citu metodi",
+    "TwoFactorSubmitButton": "Pārbaudīt",
+    "TwoFactorBackButton": "Atpakaļ",
+    "SmsProvider": {
+        "SendSms": "Nosūtīt citu kodu",
+        "ResendSms": "Atkārtoti nosūtīt SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Nosūtīt citu kodu"
+    },
+    "TwoFactor.AdditionalVerification": "Papildu verifikācija",
+    "TwoFactor.CancelButton.Caption": "Atcelt",
+    "TwoFactor.SmsProviderNotAvailable": "Ievadiet verifikācijas kodu, kas tika nosūtīts pa SMS uz jūsu tālruņa numuru",
+    "TwoFactor.EnterSmsCode.Caption": "Ievadiet verifikācijas kodu, kas tika nosūtīts pa SMS uz jūsu tālruņa numuru",
+    "TwoFactor.EnterEmailCode.Caption": "Ievadiet verifikācijas kodu, kas tika nosūtīts uz jūsu e-pasta adresi",
+    "TwoFactor.EnterTOTPCode.Caption": "Ievadiet verifikācijas kodu no autentifikatora lietotnes",
+    "TwoFactor.VerificationCode.Caption": "Verifikācijas kods",
+    "TwoFactor.TOTPUnavailable.Caption": "Lai izmantotu autentifikatora lietotnes metodi, vispirms jums jāiestata tā. Jūs to varat izdarīt savā profilā.",
+    "TwoFactor.UseAnotherMethod.Caption": "Izmantojiet citu metodi",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Nederīgs verifikācijas kods. Pārliecinieties, ka esat ievadījis pareizos datus vai sazinieties ar savu sistēmas administratoru",
+    "TwoFactor.ValidationCanceled": "Otrā faktora validācija tika atcelta",
+    "TwoFactor.EnterRecoveryCode.Caption": "Ievadiet atjaunošanas kodu",
+    "TwoFactor.RecoveryCodesNotAvailable": "Lai izmantotu atjaunošanas kodus, vispirms tas jākonfigurē. To varat izdarīt savā profila lapā"
+}

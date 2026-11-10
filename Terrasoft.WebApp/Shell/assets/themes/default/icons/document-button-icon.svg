@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <path fill="none" d="M0 0h16v16H0z"/>
+  <g fill="none">
+    <path d="M2 1h7v5h5v9H2Z"/>
+    <path fill="currentColor" d="M3 2v12h10V7H8V2H3M2 1h7v5h5v9H2V1Z"/>
+  </g>
+  <path fill="none" stroke="currentColor" d="M5 5.5h2"/>
+  <path fill="none" stroke="currentColor" d="M5 7.5h2"/>
+  <path fill="none" stroke="currentColor" d="M5 9.5h6"/>
+  <path fill="none" stroke="currentColor" d="m8.5 1.366 5.118 5.151"/>
+  <path fill="none" stroke="currentColor" d="M5 11.5h6"/>
+</svg>

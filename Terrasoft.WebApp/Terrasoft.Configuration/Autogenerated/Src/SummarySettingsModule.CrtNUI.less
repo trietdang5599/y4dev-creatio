@@ -1,0 +1,150 @@
+﻿//buttons-classes
+.image-size(@width, @height) {
+  width: @width;
+  height: @height;
+}
+
+.image-size(@size) {
+  width: @size;
+  height: @size;
+}
+
+.main-buttons {
+  float: left;
+  margin: 0 9px 0 0;
+}
+
+.delete-button-wrapperEl {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.delete-button-image-size {
+  .image-size(7px, 8px);
+}
+
+.edit-button-wrapperEl {
+  font-size: 0.825em;
+  margin-left: 9px;
+}
+
+.edit-button-image-size {
+  .image-size(16px);
+}
+
+.function-button {
+  font-size: 1em;
+  margin-left: -15px;
+  margin-top: -4px;
+}
+
+//container-classes
+.container-mixin(none, @float) {
+}
+
+.container-mixin(inline-block, @float) {
+  display: inline-block;
+}
+
+.container-mixin(@_, @float) {
+  float: @float;
+}
+
+.top-container {
+  .container-mixin(inline-block, left);
+  width: 100%;
+}
+
+.check-box-container {
+  .container-mixin(inline-block, none);
+  width: 100%;
+  margin: 30px 0 18px 0;
+}
+
+.edit-caption-container {
+  position: relative;
+}
+
+.display-caption-container {
+  position: relative;
+  padding-top: 4.5px;
+}
+
+.edit-buttons-caption-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.edit-text-caption-container {
+  padding-right: 96px;
+}
+.grid-cols-summary
+.label-grid-listed-row {
+  padding: 5.5px 6px;
+}
+
+.grid-cols-summary {
+  padding-top: 4.5px;
+}
+
+.grid-captions-summary {
+  margin: 3px 0px 6px;
+  padding: 7px 6px 10px;
+}
+
+//label-classes
+.label(@color, @size) {
+  color: @color;
+  font-size: @size;
+}
+
+.row-label(@right: 10px) {
+  margin-right: @right;
+}
+
+.page-caption-label {
+  .label(#444, 3.5em);
+  margin-bottom: 30px;
+  font-family: "Segoe UI Light";
+  letter-spacing: -0.01em;
+}
+
+.check-box-label {
+  .label(#444, 1.6em);
+  padding-left: 15px;
+  vertical-align: top;
+}
+
+.grid label.row-label-column {
+  .row-label();
+  .label(#000, 1em);
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 35px;
+}
+
+.grid label.caption-label-column {
+  margin-right: 0px;
+}
+
+//edit classes
+.caption-edit {
+  font-size: 0.725em;
+}
+
+.grid-cols-summary-button {
+	line-height: 0.8em;
+}
+
+#main-summary-settings-view .grid-listed-row.label-grid-listed-row {
+	padding-bottom: 0;
+	padding-top: 4px;
+}

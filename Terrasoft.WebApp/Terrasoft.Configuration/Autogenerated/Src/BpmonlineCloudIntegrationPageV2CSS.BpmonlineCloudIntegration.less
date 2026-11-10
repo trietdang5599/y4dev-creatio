@@ -1,0 +1,146 @@
+﻿.cloudintegration-control-group .ts-controlgroup-container {
+	padding-left: 20px;
+}
+
+.cloudintegration-label-small {
+	min-width: 8em !important;
+}
+
+.cloudintegration-code {
+	color: rgba(153, 153, 153, 1);
+}
+
+.cloudintegration-regular-text {
+	margin: 0 0 5px 0;
+}
+
+.cloudintegration-footnote-label {
+	margin: 5px 0 5px 0;
+}
+
+.cloudintegration-script-text-box {
+	[id$="-scroll"] {
+		border: 1px solid rgba(200, 200, 200, 1) !important;
+	}
+	font: 10px "Courier New", monospace
+}
+
+.cloudintegration-refresh-button {
+	border: 1px solid #b4c1d2;
+	border-radius: 2px;
+	color: #4e7bd8;
+	font-size: 13px;
+	height: 1.923em;
+	padding-top: 0.231em;
+	padding-bottom: 0;
+	padding-left: 0.769em;
+	margin-right: 0.231em;
+	flex-shrink: 0;
+	webkit-flex-shrink: 0;
+}
+
+.cloudintegration-status-label:before,
+.system-email-status:before {
+	width: 11px;
+	height: 11px;
+	display:inline-block;
+	content:"";
+	border-radius: 6px;
+	margin-right: 7px;
+	margin-top: 10px;
+}
+
+[check-email-status="checked"].system-email-status:before,
+[data-connection-status="connected"].cloudintegration-status-label:before {
+	background: #8ecb60;
+}
+
+[check-email-status="check-failed"].system-email-status:before,
+[data-connection-status="disconnected"].cloudintegration-status-label:before {
+	background: #ff7043;
+}
+
+[check-email-status="waiting-for-verification"].system-email-status:before {
+	background: #ffc107;
+}
+
+.base-edit.ts-box-sizing.cloudintegration-status-label,
+.base-edit.ts-box-sizing.cloudintegration-status-label:hover,
+.base-edit.ts-box-sizing.system-email-status,
+.base-edit.ts-box-sizing.system-email-status:hover {
+	display: flex;
+	border: none;
+	background: rgba(255, 255, 255, 1);
+}
+
+.base-edit.ts-box-sizing.cloudintegration-status-label > input,
+.base-edit.ts-box-sizing.system-email-status > input {
+	background: rgba(255, 255, 255, 1);
+}
+
+.info-area-label {
+	background-color: #f9f9f9;
+	color: #444444;
+	font: 14px "Courier New", monospace;
+	border: 1px solid #c8c8c8 !important;
+	padding: 6px;
+	word-wrap: break-word;
+}
+
+.ts-controlgroup-tools .info-button-providers-detail {
+	border: 0px !important;
+	margin-top: 0px;
+	margin-left: -5px !important;
+}
+
+.blank-slate-message {
+	color: #999999;
+	text-align: center;
+	width: 100%;
+	height: 21px;
+	display: block;
+	font-size: 14px;
+}
+
+.provider-list-inner-container {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		border: 1px solid #dedede;
+		@left-sidebar-width: 200px;
+
+		.provider-list-left-container {
+			width: @left-sidebar-width;
+			overflow-y: auto;
+			overflow-x: hidden;
+			border-right: 1px solid #dedede;
+
+			.provider-item-wrapper-container {
+				padding: 11px 20px 12px 20px;
+				display: flex;
+				flex-direction: column;
+
+				.t-label {
+					font-family: "Bpmonline Open Sans";
+					font-size: 14px;
+					color: #444444;
+					display: contents;
+					width: 100%;
+					word-wrap: normal;
+				}
+			}
+
+			.selected {
+				background-color: #e4ebfa;
+			}
+		}
+
+		.provider-list-right-container {
+			width: 100%;
+			position: relative;
+			overflow: auto;
+			overflow-y: hidden;
+		}
+	}
+
+

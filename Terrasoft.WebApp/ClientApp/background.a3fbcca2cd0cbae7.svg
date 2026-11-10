@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88" height="88" viewBox="0 0 88 88">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0" cy="1.041" r="1.492" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#09f"/>
+      <stop offset="0.584" stop-color="#a033ff"/>
+      <stop offset="0.894" stop-color="#ff5280"/>
+      <stop offset="1" stop-color="#ff7061"/>
+    </radialGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_23161" data-name="Rectangle 23161" width="88" height="88" rx="8" transform="translate(0.015)" fill="url(#radial-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_10391" data-name="Group 10391" transform="translate(-5549 16466)" opacity="0.1">
+    <g id="Mask_Group_324" data-name="Mask Group 324" transform="translate(5548.985 -16466)" clip-path="url(#clip-path)">
+      <g id="Rectangle_23160" data-name="Rectangle 23160" transform="translate(56.015 3)" fill="none" stroke="#fff" stroke-width="17" opacity="1">
+        <rect width="81" height="80" stroke="none"/>
+        <rect x="8.5" y="8.5" width="64" height="63" fill="none"/>
+      </g>
+      <g id="Ellipse_2059" data-name="Ellipse 2059" transform="translate(-41.985 -32)" fill="none" stroke="#fff" stroke-width="17" opacity="1">
+        <ellipse cx="41" cy="41.5" rx="41" ry="41.5" stroke="none"/>
+        <ellipse cx="41" cy="41.5" rx="32.5" ry="33" fill="none"/>
+      </g>
+      <g id="Polygon_126" data-name="Polygon 126" transform="translate(40.015 52.361) rotate(90)" fill="none" opacity="1">
+        <path d="M35.638,0,71.277,61.815H0Z" stroke="none"/>
+        <path d="M 35.63842010498047 34.0362663269043 L 29.42396926879883 44.81531524658203 L 41.85287475585938 44.81531524658203 L 35.63842010498047 34.0362663269043 M 35.63842010498047 0 L 71.27684020996094 61.81531524658203 L 0 61.81531524658203 L 35.63842010498047 0 Z" stroke="none" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

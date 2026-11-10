@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "1bcedd1d-46eb-4a88-bbfd-54d5e86df351",
+    "Name": "CreatioAI",
+    "ModifiedOnUtc": "\/Date(1753520294000)\/",
+    "Parent": {
+      "UId": "7439e0df-4e1a-7a35-641d-9a2907b0b8e3",
+      "Name": "CreatioAI"
+    },
+    "ExtendParent": true,
+    "ManagerName": "CopilotIntentSchemaManager",
+    "Caption": "Creatio.ai Agent",
+    "DependsOn": []
+  }
+}

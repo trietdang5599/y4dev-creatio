@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <g fill="none" stroke="currentColor" stroke-miterlimit="10" transform="translate(1 1)">
+    <rect width="14" height="14" stroke="none" rx="2"/>
+    <rect width="13" height="13" x=".5" y=".5" rx="1.5"/>
+  </g>
+  <path fill="none" stroke="currentColor" stroke-miterlimit="10" d="m11.529 4.43-7.554 7.503"/>
+  <path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M5.606 4.429h5.923v5.923"/>
+  <path fill="none" d="M0 0h16v16H0z"/>
+</svg>

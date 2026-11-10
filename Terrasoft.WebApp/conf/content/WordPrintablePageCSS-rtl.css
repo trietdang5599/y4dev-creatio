@@ -1,0 +1,236 @@
+﻿body .word-printable-card-content-container .left-modules-container {
+  margin-left: 5px;
+}
+body .word-printable-card-content-container .left-modules-container .profile-container .checkbox-control-item {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+body .word-printable-card-content-container .left-modules-container .profile-container .checkbox-control-item .control-wrap {
+  flex-basis: auto;
+  margin-left: 4px;
+  width: auto;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone {
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-empty-file-ct {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-empty-file-ct .file-import-upload-file-ct {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-empty-file-ct .file-import-upload-file-ct .file-import-upload-caption {
+  font-size: 1.6em;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+  width: auto;
+  color: #6e6e70;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-empty-file-ct .file-import-error-file-ct {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-empty-file-ct .file-import-error-file-ct .file-import-error-caption {
+  font-size: 1.6em;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+  color: #ff7a64;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-empty-file-ct .file-import-upload-button {
+  align-self: center;
+  border: 1px solid #b4c1d2;
+  color: #4e7bd8;
+  cursor: pointer;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-template-file-ct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-template-file-ct .file-import-template-file-caption {
+  width: auto;
+  text-align: center;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-template-file-ct .file-import-template-file-name-ct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-template-file-ct .file-import-template-file-name-ct .t-btn-style-transparent {
+  padding: 0;
+  cursor: pointer;
+  max-width: 200px;
+  text-overflow: ellipsis;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-template-file-ct .file-import-template-file-name-ct .file-import-delete-template-button {
+  padding: 3px 8px 0 0;
+  cursor: pointer;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-template-file-ct .file-import-template-file-actions-ct {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-template-file-ct .file-import-template-file-actions-ct .file-import-template-file-download-action-button {
+  padding: 0;
+  cursor: pointer;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-template-file-ct .file-import-template-file-actions-ct .file-import-template-file-download-action-button .t-btn-image.t-btn-image-top {
+  background-size: contain;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-template-file-ct .file-import-template-file-actions-ct .file-import-template-file-upload-action-button {
+  padding: 0;
+  cursor: pointer;
+}
+body .word-printable-card-content-container .left-modules-container .file-import-block-ct .file-import-dropzone .file-import-template-file-ct .file-import-template-file-actions-ct .file-import-template-file-upload-action-button .t-btn-image.t-btn-image-top {
+  background-size: contain;
+}
+body .word-printable-card-content-container .left-modules-container .info-block-ct .info-block-caption-ct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+body .word-printable-card-content-container .left-modules-container .info-block-ct .info-block-caption-ct .info-block-icon {
+  margin-left: 12px;
+}
+body .word-printable-card-content-container .left-modules-container .info-block-ct .info-block-caption-ct .info-block-caption {
+  color: #22ac14;
+  font-size: 1.9em;
+  line-height: 1em;
+}
+body .word-printable-card-content-container .left-modules-container .info-block-ct .info-block-steps-caption {
+  margin-top: 15px;
+}
+body .word-printable-card-content-container .left-modules-container .info-block-ct .info-block-steps-ct {
+  list-style: decimal;
+  padding-right: 15px;
+}
+body .word-printable-card-content-container .left-modules-container .info-block-ct .info-block-steps-ct .info-block-step {
+  display: list-item;
+  overflow: visible;
+  width: auto;
+}
+body .word-printable-card-content-container .left-modules-container .info-block-ct .info-block-steps-ct .info-block-step a {
+  color: #4e7bd8;
+  cursor: pointer;
+  text-decoration: none;
+}
+body .word-printable-card-content-container .left-modules-container .info-block-ct .info-block-steps-ct .info-block-step a:hover {
+  text-decoration: underline;
+}
+body .word-printable-card-content-container .left-modules-container .info-block-ct .info-block-description {
+  margin-top: 15px;
+}
+body .word-printable-card-content-container .center-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts {
+  max-width: none;
+  line-height: 31px;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .ts-controlgroup-tools .info-button {
+  margin: 0;
+  padding-top: 4px;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .ts-controlgroup-tools .add-macros {
+  padding-top: 8px;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .ts-controlgroup-tools .add-table-part {
+  padding-top: 8px;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .ts-controlgroup-container {
+  margin-top: 6px;
+  margin-right: 24px;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .container-list-header {
+  display: flex;
+  flex-direction: row;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .container-list-header label {
+  flex-basis: 35%;
+  font-size: 1.3em;
+  color: #999999;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .container-list {
+  border-top: 1px solid;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #e0e0e0;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .container-list.container-list-empty {
+  border: none;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .table-part-ct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 31px;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .table-part-ct:nth-child(even) {
+  background-color: #f7f7f7;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .table-part-ct .table-part-link {
+  width: auto;
+  flex-shrink: 0;
+  padding-left: 5px;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .table-part-ct .spacer {
+  flex-basis: 100%;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .table-part-ct .table-part-item.caption {
+  flex-basis: 100%;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .table-part-ct .table-part-item.action-item {
+  flex-shrink: 0;
+  width: 31px;
+  align-self: stretch;
+  cursor: pointer;
+  display: none;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .table-part-ct .table-part-item:last-child {
+  margin-left: 15px;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .table-part-ct:hover .table-part-item.action-item {
+  display: inline-block;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .empty-message-ct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+body .word-printable-card-content-container .center-main-container .ts-controlgroup.table-parts .empty-message-ct .empty-message {
+  color: #999999;
+  font-family: "Bpmonline Open Sans";
+  vertical-align: middle;
+  width: auto;
+}

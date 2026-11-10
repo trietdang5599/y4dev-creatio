@@ -1,0 +1,87 @@
+﻿.dashboard-grid-container, .dashboard-grid-container:not(.dashboard-listed-grid) {
+	height: 100%;
+	.empty-container-list-message {
+		font-size: 18px;
+	}
+	.portal-dashboard-grid-list {
+		padding: 45px 14px 12px 14px;
+		background: white;
+		height: 100%;
+		overflow: hidden;
+		margin-top: 5px;
+		.grid-layout-column {
+			min-height: 14px;
+			.t-label {
+				font-size: 16px;
+			}
+			.t-label.grid-number {
+				text-align: right;
+				font-weight: bold;
+			}
+			.t-label.grid-header {
+				font-size: 14px;
+				color: #444;
+			}
+		}
+		.grid-layout-row {
+			min-height: 34px;
+		}
+	}
+	.default-widget-header {
+		padding-top: 2px;
+	}
+}
+
+.dashboard-grid-container.widget-green {
+	.portal-dashboard-grid-list {
+		.grid-layout-column {
+			.t-label.grid-header {
+				color: #444;
+			}
+		}
+	}
+}
+
+.dashboard-grid-container.widget-turquoise {
+	.portal-dashboard-grid-list {
+		.grid-layout-column {
+			.t-label.grid-header {
+				color: #444;
+			}
+		}
+	}
+}
+
+.dashboard-grid-createbutton, .dashboard-grid-gotobutton {
+	float: right;
+	background-color: transparent;
+	border: 1px solid #FFF;
+	margin: 1px 4px 0px 0px;
+	font-size: 18px;
+	color: #FFF;
+	padding-top: 0.1em;
+    padding-bottom: 0em;
+}
+
+.t-btn-style-default.dashboard-grid-createbutton {
+	background: #20c964;
+	&:hover {
+		background: #20c964;
+	}
+}
+
+.t-btn-style-default.dashboard-grid-gotobutton {
+	background: #00bfa5;
+	&:hover {
+		background: #00bfa5;
+	}
+}
+
+#PortalCasePageNumberLabel{
+	font-size: 1.5em;
+	text-align: right;
+}
+
+.portal-dashboard-grid-list {
+	position: static;
+}

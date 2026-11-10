@@ -1,0 +1,52 @@
+.t-radio {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	outline: none;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: 0;
+}
+
+.t-radio.ie {
+	width: 0;
+	height: 0;
+}
+
+.t-radio-wrap {
+	height: 16px;
+	width: 16px;
+	margin: 4px;
+	display: inline-block;
+	overflow: hidden;
+	border: none;
+	background-image: url(images/Radiobutton_empty.svg);
+	background-repeat: no-repeat;
+}
+.t-radio-wrap.t-radio-focus {
+	background-image: url(images/Radiobutton_empty_focused.svg);
+}
+.t-radio-wrap.t-radio-checked {
+	background-image: url(images/Radiobutton_checked.svg);
+}
+.t-radio-wrap.t-radio-checked.t-radio-focus {
+	background-image: url(images/Radiobutton_checked_focused.svg);
+}
+.t-radio-wrap.t-radio-disabled {
+	background-image: url(images/Radiobutton_disabled.svg);
+}
+.t-radio-wrap.t-radio-disabled.t-radio-checked {
+	background-image: url(images/Radiobutton_disabled_checked.svg);
+}
+.t-radio-wrap.t-radio-disabled.t-radio-checked.t-radio-focus {
+	background-image: url(images/Radiobutton_disabled_checked_focused.svg);
+}
+.t-radio-wrap.t-radio-disabled.t-radio-focus {
+	background-image: url(images/Radiobutton_disabled_focused.svg);
+}
+
+html[dir="rtl"] {
+	.t-radio-wrap + .t-label {
+		text-align: left;
+	}
+}

@@ -1,0 +1,8 @@
+﻿.playbook-action-button {
+  height: 30px;
+  margin: 6px;
+  transition: all 0.2s;
+}
+.playbook-action-text {
+  padding: 2px 0;
+}

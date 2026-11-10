@@ -1,0 +1,187 @@
+﻿.ml-model-card-content-container .faq-header {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.ml-model-card-content-container .label-green-color {
+  color: #8ecb60;
+}
+.ml-model-card-content-container .t-btn-wrapper.ml-model-page-info-button-control-group {
+  border: 0 !important;
+  margin: 0;
+}
+.ml-model-card-content-container .t-btn-wrapper.faq-button {
+  padding: 0;
+  text-decoration: none;
+  color: #4e7bd8;
+  outline: none;
+  overflow: hidden;
+  font-size: 1.4em;
+  text-align: left;
+  margin-bottom: 6px;
+}
+.ml-model-card-content-container .t-btn-wrapper.faq-button:hover {
+  text-decoration: underline;
+}
+.ml-model-card-content-container .root-schema-control-container .tip-label-wrap,
+.ml-model-card-content-container .prediction-enabled-control-container .tip-label-wrap {
+  text-align: left;
+}
+.ml-model-card-content-container #MLModelPageAdvancedModelParametersGroupControlGroup .base-edit {
+  width: 50%;
+}
+.ml-model-card-content-container #ModelSettingsTab #MetaData-wrap,
+.ml-model-card-content-container #AdvancedModelSettingsTab #MetaData-wrap {
+  height: 300px;
+  margin-bottom: 10px;
+}
+.ml-model-card-content-container #ModelSettingsTab #TrainingSetQuery-wrap,
+.ml-model-card-content-container #AdvancedModelSettingsTab #TrainingSetQuery-wrap,
+.ml-model-card-content-container #ModelSettingsTab #BatchPredictionQuery-wrap,
+.ml-model-card-content-container #AdvancedModelSettingsTab #BatchPredictionQuery-wrap {
+  height: 200px;
+}
+.ml-model-card-content-container #ModelSettingsTab .memo-label,
+.ml-model-card-content-container #AdvancedModelSettingsTab .memo-label {
+  color: #999999;
+  font-size: 1.3em;
+  margin: 4px 0 0 4px;
+}
+.ml-model-card-content-container #ModelSettingsTab .add-columns-menu-button .t-btn-menu,
+.ml-model-card-content-container #AdvancedModelSettingsTab .add-columns-menu-button .t-btn-menu {
+  display: none;
+}
+.ml-model-card-content-container #ModelSettingsTab .target-column.base-edit-focus,
+.ml-model-card-content-container #AdvancedModelSettingsTab .target-column.base-edit-focus,
+.ml-model-card-content-container #ModelSettingsTab .predicted-result-column.base-edit-focus,
+.ml-model-card-content-container #AdvancedModelSettingsTab .predicted-result-column.base-edit-focus {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.ml-model-card-content-container #ModelSettingsTab .placeholder-label,
+.ml-model-card-content-container #AdvancedModelSettingsTab .placeholder-label {
+  color: #999999;
+  text-align: center;
+  margin-top: 10px;
+}
+.ml-model-card-content-container #ModelSettingsTab .toggle-edit,
+.ml-model-card-content-container #AdvancedModelSettingsTab .toggle-edit {
+  display: inline-block;
+}
+.ml-model-card-content-container #ModelSettingsTab .toggle-edit-label,
+.ml-model-card-content-container #AdvancedModelSettingsTab .toggle-edit-label {
+  display: inline;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.ml-model-card-content-container #ModelSettingsTab .ts-controlgroup-caption-wrap,
+.ml-model-card-content-container #AdvancedModelSettingsTab .ts-controlgroup-caption-wrap {
+  height: auto;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.ml-model-card-content-container #ModelSettingsTab .ts-controlgroup-caption-wrap .ts-controlgroup-tools,
+.ml-model-card-content-container #AdvancedModelSettingsTab .ts-controlgroup-caption-wrap .ts-controlgroup-tools {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+}
+.ml-model-card-content-container #ModelSettingsTab .ts-controlgroup-caption-wrap > span,
+.ml-model-card-content-container #AdvancedModelSettingsTab .ts-controlgroup-caption-wrap > span {
+  min-height: 2.5em;
+  height: auto;
+}
+.ml-model-card-content-container #ModelSettingsTab .ts-controlgroup-container,
+.ml-model-card-content-container #AdvancedModelSettingsTab .ts-controlgroup-container,
+.ml-model-card-content-container #ModelSettingsTab .batch-prediction-filters-container,
+.ml-model-card-content-container #AdvancedModelSettingsTab .batch-prediction-filters-container,
+.ml-model-card-content-container #ModelSettingsTab .batch-prediction-filters-label,
+.ml-model-card-content-container #AdvancedModelSettingsTab .batch-prediction-filters-label {
+  margin-left: 24px;
+}
+.ml-model-card-content-container #ModelSettingsTab .training-settings-control-group .toggle-edit,
+.ml-model-card-content-container #AdvancedModelSettingsTab .training-settings-control-group .toggle-edit {
+  margin-bottom: 10px;
+}
+.ml-model-card-content-container #ModelSettingsTab .batch-prediction-filters-label,
+.ml-model-card-content-container #AdvancedModelSettingsTab .batch-prediction-filters-label {
+  margin-top: 10px;
+}
+.ml-model-card-content-container #ModelSettingsTab .t-information-btn.t-btn-image,
+.ml-model-card-content-container #AdvancedModelSettingsTab .t-information-btn.t-btn-image {
+  width: 26px;
+  height: 26px;
+}
+.ml-model-card-content-container .ml-explanation-widget {
+  height: 320px;
+}
+.ml-model-card-content-container .ml-explanation-widget .empty-training-data-message {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999999;
+  text-align: center;
+}
+.ml-model-card-content-container .ml-explanation-widget .empty-training-data-message .ts-image-edit-wrap {
+  margin-right: 0;
+  margin-bottom: 14px;
+}
+.ml-model-card-content-container #MLConsultationBannerContainer {
+  padding: 0 0 0 0;
+  height: 128px;
+  position: relative;
+}
+.ml-model-card-content-container #MLConsultationBannerContainer .ml-consultation-banner {
+  position: absolute;
+  z-index: 10;
+  width: 296px;
+  height: 100%;
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: flex-end;
+  background: transparent linear-gradient(81deg, #22AC14 0%, #8BCF00 100%) 0 0 no-repeat padding-box;
+  border: 1px solid #E6E6E6;
+  opacity: 1;
+  border-radius: 3px;
+}
+.ml-model-card-content-container #MLConsultationBannerContainer .ml-consultation-banner img {
+  opacity: 0.7;
+  mix-blend-mode: darken;
+}
+.ml-model-card-content-container #MLConsultationBannerContainer label,
+.ml-model-card-content-container #MLConsultationBannerContainer span {
+  position: absolute;
+  z-index: 15;
+  left: 24px;
+}
+.ml-model-card-content-container #MLConsultationBannerContainer .ml-consultation-banner-text {
+  top: 24px;
+  width: 90%;
+  color: white;
+  opacity: 1;
+}
+.ml-model-card-content-container #MLConsultationBannerContainer .ml-consultation-banner-button {
+  top: 74px;
+  color: white;
+  border: solid 1px;
+  text-transform: uppercase;
+  opacity: 1;
+  line-height: 19px;
+}
+.ml-model-card-content-container #MLFilterForTrainingGroup {
+  display: flex;
+}
+.ml-model-card-content-container #MLFilterForTrainingGroup #TrainErrorText {
+  flex-basis: 30%;
+  overflow-wrap: break-word;
+  text-align: justify;
+  padding-left: 5px;
+}
+.ml-model-card-content-container #MLFilterForTrainingGroup #TrainErrorText h3 {
+  color: #EA7356;
+}

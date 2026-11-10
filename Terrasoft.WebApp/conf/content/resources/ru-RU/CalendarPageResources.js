@@ -1,0 +1,82 @@
+﻿define("CalendarPageResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		WorkingWeekTabCaption: "\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B \u0440\u0430\u0431\u043E\u0447\u0435\u0439 \u043D\u0435\u0434\u0435\u043B\u0438",
+		DaysOffTabCaption: "\u041F\u0440\u0430\u0437\u0434\u043D\u0438\u0447\u043D\u044B\u0435 \u0438 \u0441\u043E\u043A\u0440\u0430\u0449\u0435\u043D\u043D\u044B\u0435 \u0434\u043D\u0438"
+	};
+	var parametersLocalizableStrings = {};
+	var localizableImages = {
+		TagButtonIcon: {
+			source: 3,
+			params: {
+				schemaName: "CalendarPage",
+				resourceItemName: "TagButtonIcon",
+				hash: "749c444773b4d39e64c4f6938fdf6d76",
+				resourceItemExtension: ".svg"
+			}
+		},
+		BackButtonImage: {
+			source: 3,
+			params: {
+				schemaName: "CalendarPage",
+				resourceItemName: "BackButtonImage",
+				hash: "4d184b84a2c67d95553b4017a7154ad3",
+				resourceItemExtension: ".png"
+			}
+		},
+		CloseButtonImage: {
+			source: 3,
+			params: {
+				schemaName: "CalendarPage",
+				resourceItemName: "CloseButtonImage",
+				hash: "b8ed94f31f1b674db8c47c1cf439369c",
+				resourceItemExtension: ".png"
+			}
+		},
+		ProcessButtonImage: {
+			source: 3,
+			params: {
+				schemaName: "CalendarPage",
+				resourceItemName: "ProcessButtonImage",
+				hash: "b2718527a6bf360a3e641e9cb3a00904",
+				resourceItemExtension: ".svg"
+			}
+		},
+		QuickAddButtonImage: {
+			source: 3,
+			params: {
+				schemaName: "CalendarPage",
+				resourceItemName: "QuickAddButtonImage",
+				hash: "5e12a5f2ab5d04c2b8107f4b4e671176",
+				resourceItemExtension: ".png"
+			}
+		},
+		AnalyticsDataIcon: {
+			source: 3,
+			params: {
+				schemaName: "CalendarPage",
+				resourceItemName: "AnalyticsDataIcon",
+				hash: "797f9955cfd47e5ca74c16a682de6853",
+				resourceItemExtension: ".svg"
+			}
+		},
+		GridSettingsIcon: {
+			source: 3,
+			params: {
+				schemaName: "CalendarPage",
+				resourceItemName: "GridSettingsIcon",
+				hash: "c4949763b4bc893604fbb2d5d458a028",
+				resourceItemExtension: ".svg"
+			}
+		},
+		OpenChangeLogBtnImage: {
+			source: 3,
+			params: {
+				schemaName: "CalendarPage",
+				resourceItemName: "OpenChangeLogBtnImage",
+				hash: "cbebcb32589828e1055caf62150ff717",
+				resourceItemExtension: ".svg"
+			}
+		}
+	};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages, parametersLocalizableStrings: parametersLocalizableStrings};
+});

@@ -1,0 +1,75 @@
+﻿.base-element-properties-page {
+	.ts-modalbox-innerbox {
+		height: 100%;
+		width: 100%;
+		display: block;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.schema-wrap.one-el {
+		min-width: 0;
+	}
+
+	.modal-box-title {
+		color: #64b8df;
+		font-size: 22px;
+		margin-bottom: 14px;
+	}
+
+	.buttons-container {
+		margin-bottom: 25px;
+	}
+
+	.main-grid-container {
+		.label-wrap {
+
+			label {
+				text-align: left;
+			}
+
+			.t-label-disabled {
+				color: #bbbbbb !important;
+			}
+		}
+	}
+
+	&.button-properties-page {
+		.buttons-container {
+			margin-bottom: 10px;
+		}
+
+		.grid-layout {
+			.control-width-15 {
+				flex-direction: column;
+
+				&.control-left.control-right {
+					& > .label-wrap {
+						margin-top: 14px;
+					}
+
+					.control-wrap {
+						min-height: 28px;
+					}
+
+					&.checkbox-left-position {
+						flex-direction: row;
+						margin-top: 10px;
+
+						.control-wrap {
+							order: 1;
+							flex-basis: 32px;
+						}
+
+						.label-wrap {
+							order: 2;
+							margin-top: 6px;
+							width: 100%;
+							max-width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}

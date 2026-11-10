@@ -1,0 +1,125 @@
+{
+    "Input": {
+        "HidePassword": "Ocultar contraseña",
+        "ShowPassword": "Mostrar contraseña"
+    },
+    "PasswordChangedSuccessfully": "La contraseña ha sido cambiada con éxito",
+    "PasswordChangeError": "Ocurrió un error durante el cambio de contraseña",
+    "PasswordAndConfirmationDoNotMatch": "Contraseña y confirmación no coinciden",
+    "TotpSetupPage": {
+        "VerificationCode": "Código de verificación",
+        "Secret": "Secreto",
+        "SubmitButton": "Conectar",
+        "Success": "Aplicación de autenticación conectada",
+        "TokenExpired": "Su token ha expirado.",
+        "InvalidTotp": "El código de verificación no es válido. Asegúrese de haber ingresado los datos correctos o comuníquese con su administrador del sistema.",
+        "Error": "Ocurrió un error durante la configuración de totp. Por favor, inténtalo de nuevo o comunícate con tu administrador del sistema",
+        "Header": "Conecte una aplicación de autenticación a su cuenta",
+        "Step1": "1. Instale una aplicación de autenticación, como Google Authenticator, en su dispositivo móvil.",
+        "Step2": "2. Escanee este código QR con la aplicación:",
+        "Step2SecretDescription": "O ingrese la clave manualmente:",
+        "Step3": "3. Ingrese el código de verificación de 6 dígitos generados por su aplicación de autenticación.",
+        "CancelButton": "Cancelar"
+    },
+    "ResetPasswordPage": {
+        "NewPassword": "Nueva contraseña",
+        "NewPasswordConfirm": "Confirmar nueva contraseña",
+        "SecondFactor": "Código de confirmación",
+        "SendCodeViaSMS": "Enviar código vía SMS",
+        "ResetPasswordButtonCaption": "Restablecer contraseña",
+        "Error": "Ocurrió un error durante el proceso de recuperación de la contraseña. Por favor, inténtelo de nuevo o comuníquese con su administrador del sistema"
+    },
+    "PasswordComplexity": {
+        "MinPasswordLength": {
+            "Message": "Caracteres - {{minLength}}"
+        },
+        "MinPasswordUppercaseCharCount": {
+            "Message": "Letras mayúsculas - {{minCount}}"
+        },
+        "MinPasswordLowercaseCharCount": {
+            "Message": "Letra minúscula - {{minCount}}"
+        },
+        "MinPasswordNumericCharCount": {
+            "Message": "Dígitos - {{minCount}}"
+        },
+        "MinPasswordSpecialCharCount": {
+            "Message": "Caracteres especiales - {{minCount}}"
+        },
+        "PasswordStrength": {
+            "Message": "La contraseña no cumple con los requisitos"
+        },
+        "PasswordsDoNotMatch": {
+            "Message": "Las contraseñas no coinciden"
+        },
+        "MfaEmpty": {
+            "Message": "Por favor, complete el campo"
+        }
+    },
+    "PasswordValidationTooltipCaption": "Requisitos mínimos de contraseña",
+    "BeginPasswordRecoveryPage": {
+        "Email": "Ingrese un correo electrónico de usuario o inicie sesión",
+        "EmailSent": "Si existe una cuenta, recibirá un correo electrónico que contiene instrucciones de recuperación de contraseña. Si el correo electrónico no llega, consulte su carpeta de spam y comuníquese con su administrador del sistema",
+        "Error": "Se produjo un error durante el envío del correo electrónico",
+        "SendButtonCaption": "Enviar email",
+        "ResendButtonCaption": "Reenviar correo electrónico",
+        "OpenLoginPageButtonCaption": "Abrir página de inicio de sesión",
+        "ResetLinkExpired": "El enlace de restablecimiento ha expirado o ya se ha utilizado"
+    },
+    "UseAnotherMethod": "Utilice otro método",
+    "TwoFactorSubmitButton": "Verificar",
+    "TwoFactorBackButton": "Atrás",
+    "SmsProvider": {
+        "SendSms": "Enviar otro código",
+        "ResendSms": "Reenviar SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Enviar otro código"
+    },
+    "TwoFactor.SmsProviderNotAvailable": "Ingrese el código de verificación que fue enviado por SMS a su número de teléfono",
+    "TwoFactor.EnterSmsCode.Caption": "Ingrese el código de verificación que fue enviado por SMS a su número de teléfono",
+    "TwoFactor.EnterEmailCode.Caption": "Ingrese el código de verificación que fue enviado a su dirección de correo electrónico",
+    "TwoFactor.EnterTOTPCode.Caption": "Introduzca el código de verificación de la aplicación de autenticación",
+    "TwoFactor.VerificationCode.Caption": "Código de verificación",
+    "TwoFactor.TOTPUnavailable.Caption": "Para usar el método de la aplicación autenticadora, primero necesitas configurarlo. Puedes hacer esto en tu perfil.",
+    "TwoFactor.UseAnotherMethod.Caption": "Utilice otro método",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "El código de verificación no es válido. Asegúrese de haber ingresado los datos correctos o comuníquese con su administrador del sistema",
+    "TwoFactor.ValidationCanceled": "La validación del segundo factor fue cancelada",
+    "ConsentPage": {
+        "AcceptButtonCaption": "Accept",
+        "DiscardButtonCaption": "Descartar",
+        "SwitchButton": "Switch",
+        "DescriptionTextStart": "{{oauthApplicationName}} application is requesting access to your ",
+        "DescriptionTextEnd": " Creatio account.  After your consent it will have access to the following operations:",
+        "CommonScopeText": "Ability to perform all operations with data and use any functionality available for your account",
+        "Footer1": "You will be able to revoke access at any time in your user profile.",
+        "Footer2": "Aprenda más en el ",
+        "Footer3": "For the applications provided by Creatio, you can find the relevant documentation in the Academy. Note that Creatio does not review integrations with third-party applications. Your use of such an application and integration is subject to the third-party Terms of Service, Privacy Policy and Documentation.",
+        "AcademyLink": "Academia",
+        "ConsentErrorInvalidRequest": {
+            "Title": "Integration setup error",
+            "Message": "Unable to start the authorization process because the request is not configured correctly. One or more required parameters are incorrect or missing.",
+            "Suggestion": "Contact your system administrator or Creatio support to verify the integration settings and ensure that all necessary parameters are provided."
+        },
+        "ConsentErrorInvalidClient": {
+            "Title": "Integration not found",
+            "Message": "Unable to start the authorization process because no active integration is configured using the provided client ID and authorized redirect URI.",
+            "Suggestion": "Contact your system administrator or Creatio support to check the integration settings and ensure that the correct client ID and redirect URI are used."
+        },
+        "ConsentErrorInvalidUser": {
+            "Title": "Access to integration is not permitted",
+            "Message": "Unable to continue because your user account is not permitted to use this integration.",
+            "Suggestion": "Contact your system administrator to update the list of users authorized to use this integration."
+        },
+        "ConsentErrorInvalidConsentId": {
+            "Title": "Authorization request expired",
+            "Message": "Unable to complete the authorization because the request has expired.",
+            "Suggestion": "Restart the integration authorization process from the beginning to continue."
+        },
+        "ConsentErrorServerError": {
+            "Title": "Error during integration setup",
+            "Message": "An error occurred while processing the request. Please try again later.",
+            "Suggestion": "Please contact your system administrator to request the necessary access rights and repeat your attempt after that."
+        },
+        "ErrorFooter": "Learn more about OAuth integration settings in Creatio on the "
+    }
+}

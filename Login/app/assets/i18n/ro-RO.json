@@ -1,0 +1,125 @@
+{
+    "Input": {
+        "HidePassword": "Ascunde parola",
+        "ShowPassword": "Afișare parolă"
+    },
+    "PasswordChangedSuccessfully": "Parola a fost schimbată cu succes",
+    "PasswordChangeError": "A aparut o eroare la schimbarea parolei",
+    "PasswordAndConfirmationDoNotMatch": "Parola și confirmarea nu se potrivesc",
+    "TotpSetupPage": {
+        "VerificationCode": "Cod de verificare",
+        "Secret": "Secret",
+        "SubmitButton": "Conectează",
+        "Success": "Aplicația de autentificare conectată",
+        "TokenExpired": "Tokenul tău a expirat.",
+        "InvalidTotp": "Cod de verificare invalid. Asigurați-vă că ați introdus datele corecte sau contactați administratorul sistemului.",
+        "Error": "A apărut o eroare în timpul procesului de configurare complet. Vă rugăm să încercați din nou sau să contactați administratorul sistemului",
+        "Header": "Conectați o aplicație de autentificare la contul dvs.",
+        "Step1": "1. Instalați o aplicație de autentificare, cum ar fi Google Authenticator, pe dispozitivul dvs. mobil.",
+        "Step2": "2. Scanați acest cod QR cu aplicația:",
+        "Step2SecretDescription": "Sau introduceți manual cheia:",
+        "Step3": "3. Introdu codul de verificare din 6 cifre generat de aplicația de autentificare.",
+        "CancelButton": "Anulați"
+    },
+    "ResetPasswordPage": {
+        "NewPassword": "Parola nouă",
+        "NewPasswordConfirm": "Confirmă parola nouă",
+        "SecondFactor": "Cod de confirmare",
+        "SendCodeViaSMS": "Trimite cod prin SMS",
+        "ResetPasswordButtonCaption": "Resetează parola",
+        "Error": "A apărut o eroare în timpul procesului de recuperare a parolei. Încercați din nou sau contactați administratorul sistemului"
+    },
+    "PasswordComplexity": {
+        "MinPasswordLength": {
+            "Message": "Caractere - {{minLength}}"
+        },
+        "MinPasswordUppercaseCharCount": {
+            "Message": "Litere mari - {{minCount}}"
+        },
+        "MinPasswordLowercaseCharCount": {
+            "Message": "Literă mică - {{minCount}}"
+        },
+        "MinPasswordNumericCharCount": {
+            "Message": "Cifre - {{minCount}}"
+        },
+        "MinPasswordSpecialCharCount": {
+            "Message": "Caractere speciale - {{minCount}}"
+        },
+        "PasswordStrength": {
+            "Message": "Parola nu îndeplinește cerințele"
+        },
+        "PasswordsDoNotMatch": {
+            "Message": "Parolele nu se potrivesc"
+        },
+        "MfaEmpty": {
+            "Message": "Vă rugăm să completați acest câmp"
+        }
+    },
+    "PasswordValidationTooltipCaption": "Cerințe minime pentru parolă",
+    "BeginPasswordRecoveryPage": {
+        "Email": "Introduceți e-mailul utilizatorului sau autentificați-vă",
+        "EmailSent": "Dacă există un cont, veți primi un e-mail care conține instrucțiuni de recuperare a parolei. În cazul în care e-mailul nu sosește, verificați folderul spam și contactați administratorul de sistem",
+        "Error": "A apărut o eroare în timpul trimiterii e-mailului",
+        "SendButtonCaption": "Trimite email",
+        "ResendButtonCaption": "Trimite din nou emailul",
+        "OpenLoginPageButtonCaption": "Deschide pagina de autentificare",
+        "ResetLinkExpired": "Linkul de resetare a expirat sau a fost deja utilizat"
+    },
+    "UseAnotherMethod": "Utilizați o altă metodă",
+    "TwoFactorSubmitButton": "Verificați",
+    "TwoFactorBackButton": "Înapoi",
+    "SmsProvider": {
+        "SendSms": "Trimite un alt cod",
+        "ResendSms": "Retrimite SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Trimite un alt cod"
+    },
+    "TwoFactor.SmsProviderNotAvailable": "Introduceți codul de verificare care a fost trimis prin SMS pe numărul dvs. de telefon",
+    "TwoFactor.EnterSmsCode.Caption": "Introduceți codul de verificare care a fost trimis prin SMS pe numărul dvs. de telefon",
+    "TwoFactor.EnterEmailCode.Caption": "Introduceți codul de verificare care a fost trimis la adresa dvs. de email",
+    "TwoFactor.EnterTOTPCode.Caption": "Introduce codul de verificare din aplicația de autentificare",
+    "TwoFactor.VerificationCode.Caption": "Cod de verificare",
+    "TwoFactor.TOTPUnavailable.Caption": "Pentru a folosi metoda aplicației de autentificare, trebuie mai întâi să o configurati. Puteți face acest lucru pe pagina dvs. de profil.",
+    "TwoFactor.UseAnotherMethod.Caption": "Utilizați o altă metodă",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Cod de verificare invalid. Asigurați-vă că ați introdus datele corecte sau contactați administratorul sistemului",
+    "TwoFactor.ValidationCanceled": "Validarea unui al doilea factor a fost anulată",
+    "ConsentPage": {
+        "AcceptButtonCaption": "Accept",
+        "DiscardButtonCaption": "Renunțați",
+        "SwitchButton": "Schimbă",
+        "DescriptionTextStart": "{{oauthApplicationName}} aplicația solicită acces la dvs. ",
+        "DescriptionTextEnd": "Contul Creatio. După consimțământul dvs., veți avea acces la următoarele operațiuni:",
+        "CommonScopeText": "Capacitatea de a efectua toate operațiunile cu date și de a utiliza orice funcționalitate disponibilă pentru contul dvs.",
+        "Footer1": "Veți putea revoca accesul în orice moment în profilul dvs. de utilizator.",
+        "Footer2": "Află mai multe în ",
+        "Footer3": "Pentru aplicațiile furnizate de Creatio, puteți găsi documentația relevantă în Academy. Rețineți că Creatio nu revizuiește integrarea cu aplicații terțe. Utilizarea unei astfel de aplicații și integrarea sunt supuse Termenilor de utilizare, Politicii de Confidențialitate și Documentației terților.",
+        "AcademyLink": "Academy",
+        "ConsentErrorInvalidRequest": {
+            "Title": "Eroare de configurare a integrării",
+            "Message": "Nu se poate începe procesul de autorizare deoarece cererea nu este configurată corect. Unul sau mai mulți parametri necesari sunt incorecți sau lipsesc.",
+            "Suggestion": "Contactați administratorul de sistem sau suportul Creatio pentru a verifica setările de integrare și pentru a vă asigura că toți parametrii necesari sunt furnizați."
+        },
+        "ConsentErrorInvalidClient": {
+            "Title": "Integrarea nu a fost găsită",
+            "Message": "Nu s-a putut începe procesul de autorizare deoarece nu este configurată nicio integrare activă utilizând ID-ul clientului și URI-ul de redirecționare autorizat furnizate.",
+            "Suggestion": "Contactați administratorul de sistem sau suportul Creatio pentru a verifica setările de integrare și pentru a vă asigura că ID-ul clientului și URI-ul de redirectare corecte sunt utilizate."
+        },
+        "ConsentErrorInvalidUser": {
+            "Title": "Accesul la integrare nu este permis",
+            "Message": "Nu se poate continua deoarece contul dvs. de utilizator nu are permisiunea de a folosi această integrare.",
+            "Suggestion": "Contactați administratorul sistemului pentru a actualiza lista utilizatorilor autorizați să folosească această integrare."
+        },
+        "ConsentErrorInvalidConsentId": {
+            "Title": "Cererea de autorizare a expirat",
+            "Message": "Nu am putut finaliza autorizarea deoarece cererea a expirat.",
+            "Suggestion": "Reporniți procesul de autorizare a integrării de la început pentru a continua."
+        },
+        "ConsentErrorServerError": {
+            "Title": "Eroare în timpul configurării integrării",
+            "Message": "A apărut o eroare în timpul procesării cererii. Vă rugăm să încercați din nou mai târziu.",
+            "Suggestion": "Vă rugăm să contactați administratorul sistemului pentru a solicita drepturile de acces necesare și repetați încercarea după aceea."
+        },
+        "ErrorFooter": "Aflați mai multe despre setările de integrare OAuth în Creatio pe "
+    }
+}

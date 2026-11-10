@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Използвай друг метод",
+    "TwoFactorSubmitButton": "Провери",
+    "TwoFactorBackButton": "Назад",
+    "SmsProvider": {
+        "SendSms": "Изпрати друг код",
+        "ResendSms": "Повторно изпрати SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Изпрати друг код"
+    },
+    "TwoFactor.AdditionalVerification": "Допълнителна верификация",
+    "TwoFactor.CancelButton.Caption": "Анулирай",
+    "TwoFactor.SmsProviderNotAvailable": "Въведи кода за потвърждение, изпратен със SMS на твоя телефонен номер",
+    "TwoFactor.EnterSmsCode.Caption": "Въведи кода за потвърждение, изпратен със SMS на твоя телефонен номер",
+    "TwoFactor.EnterEmailCode.Caption": "Въведи кода за потвърждение, изпратен на твоя имейл адрес",
+    "TwoFactor.EnterTOTPCode.Caption": "Въведи кода за потвърждение от приложението за удостоверяване",
+    "TwoFactor.VerificationCode.Caption": "Код за потвърждение",
+    "TwoFactor.TOTPUnavailable.Caption": "За да използваш метода на приложението за удостоверяване, първо трябва да го настроиш. Може да направиш това на страницата на твоя профил.",
+    "TwoFactor.UseAnotherMethod.Caption": "Използвай друг метод",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Невалиден код за потвърждение. Увери се, че си въвел правилни данни или се свържи с твоя системен администратор",
+    "TwoFactor.ValidationCanceled": "Валидацията на втора факторна беше анулирана",
+    "TwoFactor.EnterRecoveryCode.Caption": "Въведи кода за възстановяване",
+    "TwoFactor.RecoveryCodesNotAvailable": "За да използваш кодовете за възстановяване, първо трябва да ги настроиш. Може да направиш това на страницата на профила си"
+}

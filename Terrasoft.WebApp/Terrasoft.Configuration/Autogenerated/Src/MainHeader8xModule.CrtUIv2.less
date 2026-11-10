@@ -1,0 +1,62 @@
+﻿body[OldUI=false] {
+  .main-header {
+    &.angular-shell {
+      width: 100%;
+
+      .right-header-container-class {
+        margin-right: 0px;
+      }
+      
+      .left-header-container-class,
+      .right-header-container-class {
+        border: none;
+      }
+    }
+  }
+  
+  &[is-card-opened=true] {
+    &[is-main-header-visible=true] {
+      #mainHeader.module-container {
+        height: 56px;
+      }
+
+      .main-header.angular-shell {
+        .left-header-container-class {
+          margin-right: 8px;
+        }
+
+        .left-header-container-class,
+        .right-header-container-class {
+          border-top: none;
+        }
+
+        .left-header-container-class {
+          border-inline-start: none;
+        }
+
+        .right-header-container-class {
+          border-inline-end: none;
+        }
+      }
+    }
+    
+    .main-header {
+      height: 56px;
+      
+      .right-header-container-class {
+        .page-header-container,
+        .caption-class {
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 26px;
+          padding: 16px 0px 0px 24px;
+
+          .t-label {
+            font-size: inherit;
+            line-height: inherit;
+          }
+        }
+      }
+    }
+  }
+}

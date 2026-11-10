@@ -1,0 +1,3 @@
+﻿crt-button .custom-toggle-active-button {
+  background-color: var(--crt-button-default-hover-color) !important;
+}

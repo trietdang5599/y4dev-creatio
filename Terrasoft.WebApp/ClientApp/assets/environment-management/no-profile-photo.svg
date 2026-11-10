@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="110px" height="110px" viewBox="6 3 110 110" enable-background="new 6 3 110 110" xml:space="preserve">
+<g id="Group_16221" transform="translate(-602 -141)">
+	
+		<linearGradient id="Rectangle_42352-2_1_" gradientUnits="userSpaceOnUse" x1="267.2163" y1="500.1777" x2="267.2163" y2="499.1201" gradientTransform="matrix(104 0 0 -104 -27127.5 52162.5)">
+		<stop  offset="0" style="stop-color:#03A9F4"/>
+		<stop  offset="1" style="stop-color:#0075EA"/>
+	</linearGradient>
+	<path id="Rectangle_42352-2" fill="url(#Rectangle_42352-2_1_)" d="M616.461,144h93.077c4.673,0,8.462,3.788,8.462,8.461v93.077
+		c0,4.673-3.789,8.462-8.462,8.462h-93.077c-4.673,0-8.461-3.789-8.461-8.462v-93.077C608,147.788,611.788,144,616.461,144z"/>
+	<g id="Group_3818" transform="translate(643 175)">
+		<path id="Path_2732" fill="none" stroke="#FFFFFF" stroke-width="2" d="M26.232,28.311c-2.382,1.192-3.482,1.988-6.232,1.988
+			s-3.849-0.796-6.233-1.988c-2.76,0.096-5.389,1.193-7.398,3.089c-3.164,2.61-5.711,7.654-6.534,12.617
+			c-0.358,1.916,0.904,3.761,2.82,4.118c0.159,0.03,0.319,0.05,0.48,0.057h33.73c1.946-0.093,3.449-1.746,3.355-3.692
+			c-0.007-0.161-0.025-0.322-0.057-0.482C38.882,36.263,33.38,28.311,26.232,28.311z"/>
+		<path id="Path_2733" fill="none" stroke="#FFFFFF" stroke-width="2" d="M29.146,14.538c0,6.163-3.977,11.333-9.146,11.333
+			c-5.17,0-9.146-4.971-9.146-11.333"/>
+		<path id="Path_2734" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" d="M10.561,39.444
+			c-1.465,2.464-2.222,5.285-2.188,8.151"/>
+		<path id="Path_2735" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" d="M29.257,39.444
+			c1.465,2.464,2.222,5.285,2.188,8.151"/>
+		<path id="Path_2736" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" d="M11.433,17.105
+			C6.86,6.568,16.204-2.379,24.555,2.191c4.175-0.398,7.355,7.555,4.175,14.514c-1.034-3.27-2.577-6.357-4.573-9.146
+			C21.975,8.953,12.426,8.754,11.433,17.105z"/>
+		<line id="Line_554" fill="none" stroke="#FFFFFF" stroke-width="2" x1="20" y1="29.305" x2="20" y2="47.596"/>
+		<rect id="Rectangle_2234" x="-1.154" y="-1.385" fill="none" width="42.308" height="50.77"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,9 @@
+{
+	"profiles": {
+		"IIS Express": {
+			"commandName": "Executable",
+			"executablePath": "C:\\Program Files\\IIS Express\\iisexpress.exe",
+			"commandLineArgs": "/config:\"..\\..\\.vs\\config\\applicationhost.config\" /site:\"Terrasoft.WebApp-Site\" /apppool:\"Clr4IntegratedAppPool"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+﻿#ChatCommPanelContainer:not([data-item-marker="DisabledState"]) {
+
+	.communication-panel-menu-images-class {
+		border-radius: 50%;
+		width: 34px;
+		height: 34px;
+		border: 2px solid white;
+
+		div[data-item-marker="Active"]& {
+			box-shadow: 0 0 0 2px #22AC14;
+		}
+		
+		div[data-item-marker="Inactive"]& {
+			box-shadow: 0 0 0 2px #DF1F26;
+		}
+
+	}
+
+	span[data-item-marker="OmniChat"] {
+		padding-right: 2px;
+	}
+}

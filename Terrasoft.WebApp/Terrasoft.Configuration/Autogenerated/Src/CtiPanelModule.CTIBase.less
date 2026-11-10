@@ -1,0 +1,629 @@
+﻿@EditBorderColor: #C8C8C8;
+@SubscriberDataCaptionColor: #999;
+@SubscriberDataColor: #444;
+@CommunicationHistoryItemNameColor: #4e7bd8;
+@CommunicationHistoryItemNameLinkVerticatOffset: -4px; // вертикальное смещение ссылки, чтобы верхняя часть текста была вровень с верхней точкой окружности фото
+@CommunicationHistoryPanelsInterval: 20px;
+@CommunicationHistoryDataLeftMargin: 11px;
+@EntityRelationEditIndent: 3px;
+@SubscriberNameHoverColor: #0E84CF;
+@CallDurationColor: #0E84CF;
+@GreyBackgroundColor: #EEE;
+@DtmfContainerBackgroundColor: #FAFAFA;
+@ListItemBorderBottom: 1px solid #E1E8F2;
+@HistoryItemBorder: 1px solid #C5C5C5;
+@DtmfContainerBorder: 1px solid #E5E5E5;
+@DtmfContainerWidth: 140px;
+@DtmfContainerHeight: 198px;
+@ButtonShortSize: 32px;
+@ButtonMiddleSize: 61px;
+@ButtonLongSize: 128px;
+@ButtonsInterval: 9px;
+@IdentificationFontFamily: "Segoe UI", serif;
+@IdentificationPanelHoverOffset: 10px;
+@IdentificationPanelPhotoSize: 43px;
+@SubsciberMenuButtonSize: 30px;
+@PhoneNumberRightIconSize: 16px;
+@PhoneNumberRightIconMarginRight: 8px;
+@EmptySearchResultFontFamily: "Segoe UI Light";
+@PanelsMarginTop: 30px;
+@ContainerListEmptyDescriptionFontSize: 18px;
+@ContainerListEmptyFontSize: 17px;
+@ContainerListEmptyDescriptionPadding: 15px;
+
+.centerContainer {
+	position: absolute;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	left: 50%;
+	white-space: nowrap;
+}
+.subscriberItem(@width, @color: @SubscriberDataColor, @fontSize: 12px, @margin: 0) {
+	width: @width;
+	margin: @margin;
+	padding: 0;
+	color: @color;
+	font-family: @IdentificationFontFamily;
+	font-size: @fontSize;
+	text-align: left;
+}
+.singleLineItem {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.subscriberPhotoImage {
+	width: @IdentificationPanelPhotoSize;
+	height: @IdentificationPanelPhotoSize;
+	border-radius: @IdentificationPanelPhotoSize;
+	background-size: cover;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-repeat: no-repeat;
+}
+.listItemContainer {
+	position: relative;
+	left: -@IdentificationPanelHoverOffset;
+	padding-left: @IdentificationPanelHoverOffset;
+	padding-top: 10px;
+	border-bottom: @ListItemBorderBottom;
+}
+html[dir="rtl"] .ctiPanelMain {
+	.empty-search-result-container {
+		.image-container {
+			transform: translateX(50%);
+		}
+	}
+}
+#rightPanel #rightSideBarContainer {
+	.ctiPanelHeader {
+		display: none;
+	}
+}
+.ctiPanelHeader {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 16px;
+	.settings-button {
+		&.operator-status-button-wrapper {
+			padding-inline-start: 0;
+		}
+		&.cti-settings-btn-wrapper {
+			padding-inline-end: 0;
+		}
+		.t-btn-image {
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	}
+}
+.operator-status-menu {
+	.menu-item-image {
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+.ctiPanelMain {
+	.no-connection-msg {
+		background-color: rgb(255, 234, 231);
+		box-sizing: border-box;
+		margin: 10px 0 5px 0;
+		padding: 10px;
+	}
+	.label-caption {
+		vertical-align: top;
+		.subscriberItem(107px, @color: @SubscriberDataCaptionColor, @margin: 0 8px 0 17px);
+	}
+	.call-duration-container {
+		.call-duration {
+			.subscriberItem(141px, @color: @CallDurationColor);
+		}
+	}
+	.control-no-label .base-edit:not(.base-edit-focus) {
+		border: 1px solid @EditBorderColor;
+	}
+	.ts-mask-container {
+		width: 16px;
+		right: 30px;
+		top: -2px;
+		left: auto;
+	}
+	.phone-number-edit {
+		border: 1px solid @EditBorderColor;
+		padding: 0 33px 0 10px;
+		.base-edit-input {
+			cursor: text !important;
+		}
+		.base-edit-right-icon .ts-mask-container .ts-mask-spinner-wrap {
+			padding-bottom: 20px;
+			left: -@PhoneNumberRightIconSize - @PhoneNumberRightIconMarginRight;
+		}
+	}
+	.buttons-panel {
+		height: @ButtonShortSize;
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		display: flex;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		flex-direction: row;
+		-ms-flex-direction: row;
+		-webkit-flex-direction: row;
+		justify-content: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		.t-btn-wrapper {
+			width: @ButtonShortSize;
+			margin-right: @ButtonsInterval;
+			padding: 0;
+			.t-btn-image {
+				height: @ButtonShortSize;
+				width: 100%
+			}
+		}
+		.call-drop-button {
+			margin-right: 0;
+		}
+		.t-btn-style-call-button-short {
+			width: @ButtonShortSize;
+		}
+		.t-btn-style-call-button-middle {
+			width: @ButtonMiddleSize;
+		}
+		.t-btn-style-call-button-long {
+			width: @ButtonLongSize;
+		}
+		.ts-component-tooltip:hover:before {
+			left: 16px;
+			width: 17px;
+		}
+		.ts-component-tooltip:hover:after {
+			left: -7px;
+			width: 104px;
+		}
+	}
+	.dtmf-buttons-container {
+		position: absolute;
+		width: @DtmfContainerWidth;
+		height: @DtmfContainerHeight;
+		margin-top: 36px;
+		padding: 2px 3px 0 3px;
+		left: 75px;
+		border: @DtmfContainerBorder;
+		background-color: @DtmfContainerBackgroundColor;
+		z-index: 1;
+		.t-btn-text {
+			width: @ButtonShortSize;
+			height: @ButtonShortSize;
+			border: 1px solid;
+			border-radius: @ButtonShortSize;
+			padding: 0;
+			margin: 9px 0 0 9px;
+			background-color: #FFF;
+			font-size: 17px;
+			color: @SubscriberDataCaptionColor;
+			text-align: center;
+			line-height: 28px;
+		}
+		.dtmf-digits-label {
+			width: 100%;
+			margin: 8px 0 0 0;
+			color: @SubscriberDataCaptionColor;
+			font-size: 12px;
+			text-align: center;
+		}
+	}
+	.identification-panel {
+		position: relative;
+		display: flex;
+		display: -ms-flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+		.identification-panel-left {
+			width: @IdentificationPanelPhotoSize;
+			float: left;
+		}
+		.identification-panel-right {
+			float: left;
+			width: 273px;
+		}
+		.subsciber-menu-button {
+			.subscriberItem(257px, @color: @SubscriberNameHoverColor, @fontSize: 18px, @margin: 0 0 0 17px);
+			height: @SubsciberMenuButtonSize;
+			padding: 4px 0 0 0;
+			.t-btn-text {
+				overflow: hidden;
+				width: 227px;
+				text-align: left;
+				.singleLineItem;
+			}
+			.t-btn-menuWrap {
+				width: @SubsciberMenuButtonSize;
+				height: @SubsciberMenuButtonSize;
+			}
+			.t-btn-menu {
+				width: @SubsciberMenuButtonSize;
+				height: @SubsciberMenuButtonSize;
+				right: 0;
+				.t-btn-marker {
+					right: 10px;
+				}
+			}
+		}
+		.subsciber-menu-button:hover {
+			text-decoration: underline;
+		}
+		.subscriber-info {
+			.subscriberItem(141px);
+		}
+		.subscriber-photo {
+			padding: 0;
+			cursor: auto;
+			z-index: 2;
+			.t-btn-image {
+				.subscriberPhotoImage;
+			}
+		}
+		.subscriber-job-container, .account-city-container {
+			margin-top: 2px;
+		}
+		.t-label {
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+	}
+	.primary-call-info {
+		.subscriberItem(220px, @fontSize: 18px, @margin: 8px 8px 8px 17px);
+		text-align: left;
+	}
+	.ts-controlgroup {
+		margin-top: 15px;
+		overflow: visible;
+		.ts-controlgroup-container {
+			padding-bottom: 1.2em;
+		}
+	}
+	.identification-items-list-container {
+		.list-item-container {
+			.listItemContainer;
+			.subscriber-data-container {
+				height: 37px;
+			}
+			.subscriber-number-container {
+				margin-top: 19px;
+				padding-bottom: 12px;
+			}
+			.subscriber-name {
+				.subscriberItem(intrinsic, @color: @SubscriberDataColor, @fontSize: 14px, @margin: 0px 8px 0px 11px);
+				.singleLineItem;
+				display: block;
+				padding-left: 10px;
+				width: auto;
+				width: -moz-max-content;
+				width: -webkit-max-content;
+				width: intrinsic;
+			}
+			.subscriber-number {
+				.subscriberItem(120px, @color: @SubscriberDataColor, @fontSize: 12px, @margin: 3px 5px 0px 26px);
+				.singleLineItem;
+				font-weight: bold;
+			}
+			.subscriber-communication-type-name {
+				.subscriberItem(140px, @color: @SubscriberDataCaptionColor, @fontSize: 12px, @margin: 3px 6px 0px 11px);
+				.singleLineItem;
+			}
+			.subscriber-data {
+				.subscriberItem(115px, @color: @SubscriberDataCaptionColor, @fontSize: 12px, @margin: 3px 6px 0px 11px);
+				.singleLineItem;
+			}
+			.subscriber-photo {
+				padding: 0;
+				cursor: auto;
+				z-index: 2;
+				float: left;
+				.t-btn-image {
+					.subscriberPhotoImage;
+				}
+			}
+		}
+		.list-item-container:last-child {
+			border: none;
+		}
+		.list-item-container:hover {
+			background-color: @GreyBackgroundColor;
+		}
+	}
+	.consult-identification-panel {
+		margin-top: @PanelsMarginTop;
+	}
+	.transferring-arrows {
+		position: absolute;
+		top: calc(@IdentificationPanelPhotoSize / 2);
+		left: 0;
+		height: calc(100% + @PanelsMarginTop);
+		padding: 0;
+		cursor: auto;
+		background-color: #edf1f8;
+		z-index: 1;
+		.t-btn-image {
+			width: @IdentificationPanelPhotoSize;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-position: center calc(50% + @PanelsMarginTop / 2 - @IdentificationPanelPhotoSize / 4);
+		}
+	}
+	.communication-history-items-list-container {
+		> .list-item-container {
+			padding: @CommunicationHistoryPanelsInterval 0 @CommunicationHistoryPanelsInterval 0;
+			border-top: @HistoryItemBorder;
+			&:first-child {
+				border: none;
+			}
+			&:hover .call-button, &:hover .create-link-button {
+				display: inline-block;
+			}
+		}
+		.call-button, .create-link-button {
+			display: none;
+			float: right;
+		}
+		.call-button {
+			padding: 0;
+		}
+		.create-link-button {
+			padding-top: 0;
+			padding-bottom: 0;
+			padding-left: 0;
+			margin-left: 20px;
+			margin-right: 0;
+		}
+		.photo {
+			float: left;
+			padding: 0;
+			cursor: auto;
+			margin-bottom: 10px;
+			.t-btn-image {
+				.subscriberPhotoImage;
+			}
+		}
+		.communication-history-name-container {
+			width: auto;
+			margin: 0 0 0 @CommunicationHistoryDataLeftMargin;
+			display: inline-block;
+			.communication-history-name {
+				.subscriberItem(auto, @color: @CommunicationHistoryItemNameColor, @fontSize: 13px, @margin: @CommunicationHistoryItemNameLinkVerticatOffset 0 0 0);
+				.singleLineItem;
+				max-width: 178px;
+			}
+		}
+		.data-container {
+			padding: 0 0 0 @IdentificationPanelPhotoSize;
+		}
+		.data {
+			.subscriberItem(calc(100% - @CommunicationHistoryDataLeftMargin), @color: @SubscriberDataCaptionColor, @fontSize: 13px, @margin: 0 0 -2px @CommunicationHistoryDataLeftMargin);
+			.singleLineItem;
+		}
+		.number-container {
+			padding: 0 32px 0 @IdentificationPanelPhotoSize;
+			.call-type {
+				padding: 0;
+				height: 9px;
+				width: 9px;
+				top: 5px;
+				margin-left: 12px;
+				cursor: auto;
+			}
+			.call-date {
+				.subscriberItem(100%, @color: #999, @fontSize: 13px, @margin: 0 0 0 3px);
+				display: inline;
+			}
+			.call-number {
+				.subscriberItem(auto, @color: @CommunicationHistoryItemNameColor, @fontSize: 13px, @margin: 0 0 0 8px);
+				.singleLineItem;
+				line-height: 18px;
+				vertical-align: top;
+				cursor: pointer;
+			}
+		}
+		.entity-relation-container {
+			display: block;
+			margin-top: 20px;
+			.control-wrap {
+				float: none;
+				width: 82%;
+				.base-edit {
+					padding-left: @CommunicationHistoryDataLeftMargin - @EntityRelationEditIndent;
+				}
+			}
+			.entity-relation-button-wrapper {
+				width: @IdentificationPanelPhotoSize + @EntityRelationEditIndent;
+			}
+			.wrapper-with-centered-right-menu {
+				width: @IdentificationPanelPhotoSize + @EntityRelationEditIndent;
+			}
+			.t-btn-no-text-padding {
+				width: @IdentificationPanelPhotoSize + @EntityRelationEditIndent;
+			}
+		}
+		.entity-item-relation-container:nth-last-child(1) {
+			padding-right: 0px;
+			.control-wrap {
+				.base-edit {
+					margin-left: 0px;
+				}
+			}
+			.base-edit-right-icon {
+				display: block;
+			}
+		}
+		.communication-history-item-container {
+			min-height: @IdentificationPanelPhotoSize;
+		}
+	}
+	.search-result-items-list-container {
+		padding-top: 10px;
+		width: 328px;
+		>.list-item-container:hover {
+			background-color: @GreyBackgroundColor;
+		}
+		>.list-item-container:last-child {
+			border: none;
+		}
+		>.list-item-container {
+			.listItemContainer;
+		}
+		.subscriber-photo {
+			padding: 0;
+			cursor: auto;
+			z-index: 2;
+			float: left;
+			.t-btn-image {
+				.subscriberPhotoImage;
+			}
+		}
+		.subscriber-data-container {
+			height: 37px;
+		}
+		.subscriber-name {
+			.subscriberItem(intrinsic, @color: @SubscriberNameHoverColor, @fontSize: 14px, @margin: 0px 8px 0px 11px);
+			.singleLineItem;
+			cursor: pointer;
+			display: block;
+			padding-left: 10px;
+			width: 248px;
+		}
+		.subscriber-data {
+			.subscriberItem(115px, @color: @SubscriberDataCaptionColor, @fontSize: 12px, @margin: 3px 6px 0px 11px);
+			.singleLineItem;
+		}
+		.communications-control-group {
+			margin-top: 19px;
+			padding-bottom: 9px;
+			.list-item-container {
+				.label-caption {
+					.subscriberItem(125px, @color: @SubscriberDataCaptionColor, @fontSize: 12px, @margin: 2px 9px 0px 0px);
+					.singleLineItem;
+				}
+				.communication-number {
+					.subscriberItem(143px, @color: @SubscriberDataColor, @fontSize: 12px, @margin: 2px 0px 0px 9px);
+					.singleLineItem;
+				}
+				.communication-call-button {
+					padding: 0;
+					margin: 0 10px 0 0;
+					float: right;
+				}
+			}
+		}
+	}
+	.empty-search-result-container {
+		font-family: @EmptySearchResultFontFamily;
+		font-size: @ContainerListEmptyFontSize;
+		color: @SubscriberDataCaptionColor;
+		margin-top: @PanelsMarginTop;
+		.image-container {
+			transform: translateX(-50%);
+			left: 50%;
+			width: 135px;
+			height: 139px;
+		}
+		.description-label {
+			box-shadow: -2px 0 0 0 #64b8df;
+			width: auto;
+			margin-top: 50px;
+			margin-left: 50px;
+			padding-left: 20px;
+		}
+	}
+	.empty-grid-message {
+		display: none;
+	}
+	.container-list-empty,
+	.academy-message-container {
+		font-family: @EmptySearchResultFontFamily;
+		font-size: @ContainerListEmptyFontSize;
+		color: @SubscriberDataCaptionColor;
+		margin-top: @PanelsMarginTop;
+		.empty-grid-message,
+		.academy-grid-message {
+			display: block;
+			font-family: @EmptySearchResultFontFamily;
+			font-size: @ContainerListEmptyFontSize;
+			color: @SubscriberDataCaptionColor;
+			width: 318px;
+			.image-container {
+				transform: translateX(-50%);
+				left: 50%;
+				width: 135px;
+				height: 139px;
+				margin-left: 0;
+				margin-right: 37px;
+			}
+			.title {
+				width: auto;
+				margin-top: 50px;
+				margin-left: 50px;
+				padding-left: 20px;
+				font-size: @ContainerListEmptyFontSize;
+				.t-label {
+					font-size: @ContainerListEmptyFontSize;
+				}
+			}
+			.description {
+				box-shadow: -2px 0 0 0 #64b8df;
+				width: auto;
+				margin-top: 30px;
+				margin-left: 50px;
+				padding-left: 20px;
+				font-size: @ContainerListEmptyDescriptionFontSize;
+				padding-top: @ContainerListEmptyDescriptionPadding;
+  				padding-bottom: @ContainerListEmptyDescriptionPadding;
+			}
+		}
+	}
+	.academy-message-container {
+		.academy-grid-message {
+			.description {
+				border-left: 2px solid #64b8df;
+				margin: 0 auto auto 50px;
+				padding: 15px 50px 15px 20px;
+			}
+			a {
+				cursor: pointer;
+				color: #4e7bd8;
+			}
+		}
+	}
+	.ctiPanelVideo {
+		video {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		video:not([class|="useVideo"]) {
+			display: none !important;
+		}
+	}
+	.video-hidden {
+		display: none;
+	}
+	.subscriber-name-text {
+		.subscriberItem(intrinsic, @color: @SubscriberDataColor, @fontSize: 13px);
+		.singleLineItem;
+		display: block;
+		width: auto;
+		width: -moz-max-content;
+		width: -webkit-max-content;
+		width: intrinsic;
+	}
+	.subscriber-name-text-search {
+		padding-left: 10px;
+		font-size: 14px;
+		width: 248px!important;
+	}
+}
+.demo-no-connection-message-link {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	display: inline;
+}

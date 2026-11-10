@@ -1,0 +1,63 @@
+﻿define("UndeliveredWebhooks_MiniPageResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		SaveButton_caption: "Receive",
+		CancelButton_caption: "\u0421ancel",
+		PageTitle_caption: "Undelivered webhooks",
+		UndeliveredOtherWebhookResendThirdLabel_caption: "to retry the delivery.",
+		UndeliveredOtherWebhookResendSecondLabel_caption: "Receive",
+		UndeliveredOtherWebhookResendFirstLabel_caption: "Once it has been fixed, select",
+		UndeliveredOtherWebhookBodySecondLabel_caption: "Contact support for assistance.",
+		UndeliveredOtherWebhookBodyFirstLabel_caption: "Webhooks could not be processed due to an unexpected system error.",
+		UndeliveredOtherWebhookIndicatorLabel_caption: "Webhooks were not received because of unexpected system error",
+		UndeliveredCreatioWebhookResendThirdLabel_caption: "to retry the delivery of unprocessed webhooks.",
+		UndeliveredCreatioWebhookResendSecondLabel_caption: "Receive",
+		UndeliveredCreatioWebhookResendFirstLabel_caption: "Select",
+		UndeliveredCreatioWebhookBodyLabel_caption: "Webhooks were not processed because the instance was unreachable or experienced a temporary outage.",
+		UndeliveredCreatioWebhookIndicatorLabel_caption: "Webhooks were not received as the Creatio instance was temporarily unavailable",
+		UndeliveredPermissionWebhookResendThirdLabel_caption: "to retry the delivery.",
+		UndeliveredPermissionWebhookResendSecondLabel_caption: "Receive",
+		UndeliveredPermissionWebhookResendFirstLabel_caption: "After updating the permissions, select ",
+		UndeliveredPermissionWebhookBodySecondLabel_caption: "To resolve this, please grant the necessary object permissions to the \u0027Creatio Webhook Service\u0027 user. Alternatively, ensure the custom user associated with the \u0027Webhook Account Service Identity\u0027 integration has the required permissions.",
+		UndeliveredPermissionWebhookBodyFirstLabel_caption: "Webhooks could not be processed because the technical user  Webhook Service does not have the necessary access rights to the \u2018Webhook\u2019 object.",
+		UndeliveredPermissionWebhookIndicatorLabel_caption: "Webhook Service technical user lacks the required permissions to process incoming webhooks",
+		UndeliveredIntegrationWebhookResendThirdLabel_caption: "",
+		UndeliveredIntegrationWebhookResendSecondLabel_caption: "",
+		UndeliveredIntegrationWebhookResendFirstLabel_caption: "",
+		UndeliveredIntegrationWebhookBodyItem4Label_caption: "",
+		UndeliveredIntegrationWebhookBodyItem3Label_caption: "",
+		UndeliveredIntegrationWebhookBodyItem2Label_caption: "",
+		UndeliveredIntegrationWebhookBodyItem1Label_caption: "",
+		UndeliveredIntegrationWebhookBodyLabel_caption: "",
+		UndeliveredIntegrationWebhookIndicatorLabel_caption: "",
+		UndeliveredIdentityWebhookResendThirdLabel_caption: "to retry the delivery.",
+		UndeliveredIdentityWebhookResendSecondLabel_caption: "Receive",
+		UndeliveredIdentityWebhookResendFirstLabel_caption: "Once Identity Service connectivity is restored, select",
+		UndeliveredIdentityWebhookBodyLabel_caption: "Connection to Identity Service is not configured or not configured properly. Contact support for assistance.",
+		UndeliveredIdentityWebhookIndicatorLabel_caption: "Webhooks cannot be received as Identity Service is not working as expected",
+		UndeliveredRestrictedWebhookResendThirdLabel_caption: "to retry the delivery.",
+		UndeliveredRestrictedWebhookResendSecondLabel_caption: "Receive",
+		UndeliveredRestrictedWebhookResendFirstLabel_caption: "After making these changes, select ",
+		UndeliveredRestrictedWebhookBodyLabel_caption: "Webhooks cannot be processed because the target entity is not allowed. Ensure an object with the same name exists in the system and is added to the \u0027Webhook entities\u0027 lookup to enable processing.",
+		UndeliveredRestrictedWebhookIndicatorLabel_caption: "The webhook target object is not in the list of allowed ones",
+		UndeliveredAccountWebhookResendThirdLabel_caption: "to retry the delivery.",
+		UndeliveredAccountWebhookResendSecondLabel_caption: "Receive",
+		UndeliveredAccountWebhookResendFirstLabel_caption: "Once the integration is correctly configured, select",
+		UndeliveredAccountWebhookBodyThirdLabel_caption: "article for a detailed review of the steps.",
+		UndeliveredAccountWebhookBodySecondLabel_caption: "Academy",
+		UndeliveredAccountWebhookBodyFirstLabel_caption: "Please refer to the ",
+		UndeliveredAccountWebhookIndicatorLabel_caption: "Webhooks cannot be received as Webhook integration has not been set up properly",
+		CancelButton: "Cancel",
+		CloseButton: "Close",
+		ContinueInOtherPageButton_caption: "Continue in other page",
+		DefaultHeaderCaption: "Title",
+		NewRecord: "New record",
+		Record: "Record",
+		SaveButton: "Save"
+	};
+	var parametersLocalizableStrings = {};
+	var propertiesLocalizableStrings = {
+		Caption: "Undelivered webhooks mini page"
+	};
+	var localizableImages = {};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages, parametersLocalizableStrings: parametersLocalizableStrings, propertiesLocalizableStrings: propertiesLocalizableStrings};
+});

@@ -1,0 +1,3740 @@
+{
+    "ConfirmationDialog": {
+        "YES": "ĐỒNG Ý",
+        "NO": "KHÔNG",
+        "DELETE": "DELETE",
+        "CANCEL": "CANCEL"
+    },
+    "InfoDialog": {
+        "OK": "Ok"
+    },
+    "AddRecordRightsDialog": {
+        "Add": "Thêm",
+        "Cancel": "Hủy",
+        "RecordAuthor": "Tác giả bản ghi",
+        "RightsRecipient": "Người dùng hoặc vai trò có được quyền",
+        "Title": "Thêm quyền dựa trên người tạo bản ghi"
+    },
+    "LocalizableStringsDialog": {
+        "Title": "Chuỗi bản địa hóa",
+        "NameTitle": "Mã",
+        "ValueTitle": "Giá trị",
+        "Add": "Thêm",
+        "Cancel": "Hủy",
+        "Apply": "Áp dụng",
+        "ShowAllLanguages": "Hiển thị tất cả ngôn ngữ",
+        "HideInactiveLanguages": "Ẩn ngôn ngữ không hoạt động",
+        "Validations": {
+            "RequiredNameCaption": "Nhập một giá trị",
+            "PatternNameCaption": "Giá trị không hợp lệ. Sử dụng các ký hiệu: a-z, A-Z, 0-9. Ký hiệu: 0-9 không được đứng đầu",
+            "DuplicateNameCaption": "Chuỗi có thể bản địa hóa với cùng một mã đã tồn tại"
+        },
+        "AcademyUrl": "https://academy.creatio.com/docs/8.x/",
+        "AcademyUrlTitle": "Tìm hiểu thêm."
+    },
+    "OrderDirectionStrict": {
+        "Ascending": "Tăng dần",
+        "Descending": "Giảm dần"
+    },
+    "AdministratedObjectPage": {
+        "AccessPermissions": "CHO PHÉP",
+        "InfoBlockText": "Hoạt động của hệ thống \"Thêm bất kỳ dữ liệu nào\", \"Xem bất kỳ dữ liệu nào\", \"Chỉnh sửa bất kỳ dữ liệu nào\", \"Xóa bất kỳ dữ liệu nào\" được cấp cho các vai trò hoặc người dùng có mức độ ưu tiên cao hơn các quyền mà bạn định cấu hình trong phần này.",
+        "InfoBlockTitle": "Ghi chú",
+        "InfoBlockLink1": "Làm thế nào ưu tiên cho phép làm việc",
+        "InfoBlockLink2": "Cách thức quyền được kế thừa",
+        "InfoBlockLink3": "Cách thiết lập quyền cho chi tiết",
+        "InfoBlockLink4": "Cách áp dụng cài đặt quyền bản ghi mới cho tất cả các bản ghi hiện có",
+        "InfoBlockLink5": "Ví dụ thiết lập quyền truy cập",
+        "NameFieldName": "Tên",
+        "RightsByColumnDetail": "Sử dụng quyền cho cột",
+        "RightsByColumnDetailTooltip": "Cài đặt quyền cho các cột (trường) cụ thể của đối tượng",
+        "RightsByOperationDetail": "Sử dụng quyền hoạt động",
+        "RightsByOperationDetailTooltip": "Cài đặt quyền để tạo, đọc, chỉnh sửa và xóa các hoạt động",
+        "RightsByRecordDetail": "Sử dụng quyền bản ghi",
+        "RightsByRecordDetailTooltip": "Cài đặt quyền để đọc, chỉnh sửa và xóa các bản ghi cụ thể",
+        "TitleFieldName": "Chức danh",
+        "TitleFormat": "{0} quyền đối tượng",
+        "UpdatePermissions": "Cập nhật quyền bản ghi",
+        "OneEmptyRecordDefRightMessageTemplate": "Rule “{0}” contains no access permissions other than “Not set” and will not affect actual access settings in any way. When applying the new permissions, Creatio will delete this rule. Do you wish to proceed?",
+        "SeveralEmptyRecordDefRightsMessageTemplate": "Rules “{0}” contain no access permissions other than “Not set” and will not affect actual access settings in any way. When applying the new permissions, Creatio will delete these rules. Do you wish to proceed?",
+        "ProposalActualizationRights": "Cài đặt quyền bản ghi đã được sửa đổi. Quyền hiện tại cho các bản ghi {0} hiện tại phải được cập nhật. Điều này có thể ảnh hưởng đến hiệu suất hệ thống cho tất cả người dùng.\n  Bạn có muốn cập nhật quyền bản ghi ngay bây giờ?",
+        "EntityOperations": "ADVANCED OPERATIONS",
+        "AdditionalOperationPermissions": "Additional permissions",
+        "Operation": "Vận hành",
+        "UserOrRole": "Người dùng hoặc vai trò",
+        "UserOrRoleWhoObtainsPermission": "Người dùng hoặc vai trò có được quyền",
+        "InfoBlockEntityOperationsText": "System operations \"CanExportGrid\" granted to roles or users have higher priority than permissions that you configure in this section.",
+        "RightsByEntityOperationDetail": "Use entity operation permissions",
+        "RightsByEntityOperationDetailTitle": "Additional permissions",
+        "RightsByEntityOperationDetailTooltip": "Permission settings for data export from current object based on role or user",
+        "InfoAboutOperationPermissionsTitle": "Important",
+        "InfoAboutOperationPermissions": "Operation permissions for the object are deactivated. When this is the case:",
+        "InfoAboutOperationPermissions1": "Company employees have full access to all operations with the object, settings that are displayed in the list below are ignored.",
+        "InfoAboutOperationPermissions2": "External users do not have access to any operations with the object.",
+        "InfoAboutOperationPermissions3": "Technical users have access according to the settings in the list below.",
+        "InfoAboutOperationPermissions4": "Learn more about object permissions settings in the",
+        "InfoAboutOperationPermissionsLinkCaption": "Học viện",
+        "InfoAboutOperationPermissionsAcademyLink": "https://academy.creatio.com/documents?id=250"
+    },
+    "AdministratedObjectSection": {
+        "BusinessLogicPermissions": "Cho phép quyền bản ghi",
+        "Close": "Đóng",
+        "ColumnPermissions": "Mở quyền cho cột",
+        "Name": "Tên",
+        "ObjectPermissions": "Cho phép quyền hoạt động",
+        "Search": "Tìm kiếm",
+        "Title": "Sự cho phép đối tượng",
+        "TitleColumn": "Chức danh",
+        "UpdatePermissions": "Cập nhật quyền bản ghi"
+    },
+    "BasePageComponent": {
+        "Close": "Đóng",
+        "Apply": "Áp dụng",
+        "Cancel": "Hủy",
+        "Save": "Lưu",
+        "Actions": "Các hành động",
+        "Check": "Sự cho phép",
+        "Publish": "Phát hành",
+        "PublishAndCompile": "Publish and compile",
+        "SaveAndPublish": "Save and publish"
+    },
+    "ClearChangeLogSettingsDialog": {
+        "AllObjects": "Tất cả những đối tượng",
+        "AllPeriod": "Tất cả dữ liệu có sẵn",
+        "Cancel": "Hủy",
+        "ChooseDate": "Chọn ngày",
+        "ChooseObject": "Chọn đối tượng",
+        "Clear": "Dọn",
+        "ObjectSettingsTitle": "Xóa dữ liệu nhật ký cho các đối tượng sau",
+        "OnlySelectedObject": "Đối tượng cụ thể",
+        "PeriodSettingsTitle": "Xóa dữ liệu nhật ký cho giai đoạn sau",
+        "Title": "óa nhật ký thay đổi",
+        "ToDatePeriod": "Chỉ dữ liệu cũ hơn"
+    },
+    "ChangeLogCleanerService": {
+        "SuccessLaunch": "Hệ thống đã bắt đầu xóa nhật ký thay đổi. Bạn sẽ nhận được thông báo trong bảng Giao tiếp khi quá trình hoàn tất"
+    },
+    "ChangeLogPage": {
+        "Close": "Đóng",
+        "TitleFormat": "{0} nhật ký thay đổi",
+        "ViewLog": "XEM NHẬT KÝ"
+    },
+    "ChangeLogSection": {
+        "Title": "Thay đổi nhật kí",
+        "TitleColumn": "Chức danh",
+        "NameColumn": "Tên",
+        "LoggingEnabledColumn": "Kích hoạt ghi nhật ký",
+        "ClearChangeLog": "Xóa nhật kí"
+    },
+    "ChangeLogComponent": {
+        "Blankslate": "Không có bản ghi cho đối tượng này trong Nhật ký thay đổi",
+        "InsertedTooltip": "Bản ghi đã được thêm",
+        "UpdatedTooltip": "Bản ghi đã được sửa đổi",
+        "DeletedTooltip": "Bản ghi đã được xóa",
+        "ShowMore": "Hiển thị thêm",
+        "ShowLess": "Hiển thị ít hơn",
+        "ChangeType": "Loại thay đổi",
+        "ChangeTrackedOn": "Thay đổi đã thực hiện vào",
+        "ChangeTrackedBy": "Thay đổi đã thực hiện bởi",
+        "ChangeTracked": "Bản ghi",
+        "ColumnName": "Cột",
+        "ColumnOldValue": "Giá trị cũ",
+        "ColumnNewValue": "Giá trị mới",
+        "Yes": "Đồng ý",
+        "No": "Không"
+    },
+    "LicenseManager": {
+        "PackageNameColumn": "Tên",
+        "TypeColumn": "Loại",
+        "StartDateColumn": "Ngày bắt đầu",
+        "DueDateColumn": "Ngày đáo hạn",
+        "StatusColumn": "Trạng thái",
+        "CountColumn": "Tổng cộng",
+        "LicenseIsActive": "Kích hoạt",
+        "LicenseIsNotActive": "Không kích hoạt",
+        "TypePersonal": "Cá nhân",
+        "TypeConcurrent": "Đồng thời",
+        "TypeServer": "Máy chủ"
+    },
+    "LicenseSection": {
+        "Title": "Quản lý cấp phép",
+        "BlankslateTitle": "Phần này không có bản ghi cho đến nay.",
+        "BlankslateDescription": "Giấy phép của bạn sẽ hiển thị ở đây khi bạn tải lên tập tin giấy phép",
+        "ServerLicenseTooltip": "Máy chủ và giấy phép đồng thời được phân phối từ trang người dùng",
+        "ConcurrentLicenseTooltip": "Máy chủ và giấy phép đồng thời được phân phối từ trang người dùng",
+        "UploadButtonCaption": "Upload",
+        "UploadLicensesCompleteMessage": "Giấy phép đã được tải lên thành công",
+        "UploadLicensesErrorMessage": "Định dạng tập tin không hợp lệ",
+        "RequestLicensesButtonCaption": "Yêu cầu",
+        "DeleteLicensesButtonCaption": "Xóa",
+        "DeleteLicensesConfirmation": "Licenses will be deleted. Do you wish to proceed?",
+        "DeleteLicensesSuccess": "All licenses have been deleted successfully.",
+        "AllTypesCaption": "All licenses",
+        "PersonalTypeCaption": "Cá nhân",
+        "ServerTypeCaption": "Máy chủ",
+        "UploadLicensesCryptographicExceptionMessage": "Invalid file format. If your license was generated for 8.3.0 or earlier Creatio versions, creating a new license request may resolve the issue."
+    },
+    "LicensePage": {
+        "TitleFormat": "Sản phẩm {0}"
+    },
+    "LicenseDetail": {
+        "Title": "Giấy phép"
+    },
+    "LicensedUsersDetail": {
+        "Title": "Người dùng có giấy phép",
+        "UsersDialogCaption": "Các người dùng",
+        "UserNameColumn": "Người dùng",
+        "EmailColumn": "Email",
+        "JobTitleColumn": "Tên công việc",
+        "Delete": "Xóa bỏ",
+        "Blankslate": "Các giấy phép này chưa được phân phối cho bất kỳ người dùng nào",
+        "SourceTitleColumn": "Issue method",
+        "UserLicensesSourceManual": "Manually",
+        "UserLicensesSourceSystem": "Automatically",
+        "UserLicensesSourceRoleBased": "Based on role"
+    },
+    "LicenseRequestDialog": {
+        "Title": "Id công ty cấp phép",
+        "InputFieldDescription": "Id công ty duy nhất của bạn được lưu trữ trong cài đặt hệ thống \"Id công ty cấp phép\". Thay đổi Id công ty trong trường này sẽ tự động cập nhật giá trị của cài đặt hệ thống.",
+        "RequestButtonCaption": "Tạo một tập tin yêu cầu giấy phép",
+        "LicenseVersionTitle": "Phiên bản giấy phép",
+        "LicenseVersionDescription": "Version of Creatio that you plan upload licenses to.",
+        "InvalidVersionFormat": "Please input the version in the form of three numbers divided with dots. For example, 7.18.1"
+    },
+    "ObjectRecordRightsActualizationService": {
+        "SuccessLaunch": "Hệ thống đã bắt đầu cập nhật quyền truy cập hồ sơ dựa trên các cài đặt hiện tại. Bạn sẽ nhận được thông báo trong bảng Giao tiếp khi quá trình hoàn tất"
+    },
+    "ObjectChangeLogPage": {
+        "TitleFormat": "Nhật ký thay đổi cho {0} đối tượng",
+        "SettingsTabCaption": "Cài đặt nhật ký",
+        "ViewChangeLogTabCaption": "Dữ liệu nhật ký",
+        "EnableObjectTracking": "Cho phép đăng nhập"
+    },
+    "ObjectTypeFilter": {
+        "AllObjects": "Tất cả những đối tượng",
+        "Lookups": "Các tra cứu",
+        "Sections": "Các phần"
+    },
+    "SearchInput": {
+        "Placeholder": "Tìm kiếm",
+        "Settings": {
+            "Cancel": "Hủy",
+            "Apply": "Áp dụng",
+            "SearchColumnTemplate": "Tìm kiếm theo cột \"{0}\"",
+            "StartsWith": "Bắt đầu với",
+            "Contains": "Bao gồm",
+            "Equals": "Bằng"
+        }
+    },
+    "DeleteButtonTableCell": {
+        "Tooltip": "Gỡ"
+    },
+    "RightLevelSelect": {
+        "Granted": "Được cấp",
+        "GrantedDelegate": "Cho phép ủy quyền cấp quyền",
+        "NotSet": "Không được thiết lập"
+    },
+    "RightsByColumnDetail": {
+        "Add": "Thêm",
+        "Blankslate": "Truy cập vào tất cả các cột không bị hạn chế",
+        "Column": "Cột",
+        "ColumnBlankslate": "Add roles oThêm vai trò hoặc người dùng để quản lý quyền truy cập vào cột nàyr users to manage their access to this column",
+        "DenyReadEdit": "Từ chối đọc và chỉnh sửa",
+        "Drag": "Kéo để thay đổi mức độ ưu tiên",
+        "PermitRead": "Cho phép đọc",
+        "PermitReadEdit": "Cho phép đọc và chỉnh sửa",
+        "Priority": "Ưu tiên",
+        "Remove": "Gỡ",
+        "RightLevel": "Mức độ truy cập",
+        "User": "Người dùng hoặc vai trò",
+        "ValidationMessage": "Một quy tắc cho vai trò đã chọn đã tồn tại. Vui lòng chọn một vai trò khác để tiếp tục",
+        "WarningDowngradingRights": "Các hạn chế quyền trong quy tắc này có thể ghi đè các quy tắc khác thấp hơn trong danh sách"
+    },
+    "RightsByRecordDetail": {
+        "Add": "Thêm",
+        "Blankslate": "Quy tắc cấp phép dựa trên tác giả không được đặt",
+        "Delete": "Xóa",
+        "Edit": "Chỉnh sửa",
+        "Read": "Đọc",
+        "RecordAuthor": "Tác giả bản ghi",
+        "Remove": "Gỡ",
+        "RightsRecipient": "Người dùng hoặc vai trò có được quyền",
+        "Title": "Cấp quyền dựa trên tác giả bản ghi",
+        "TitleTooltip": "Quyền sẽ được cấp dựa trên tác giả bản ghi, bất cứ khi nào bản ghi mới được tạo",
+        "ValidationMessage": "Một quy tắc cho vai trò đã chọn đã tồn tại. Vui lòng chọn một vai trò khác để tiếp tục",
+        "DoNotApplyForManager": "Do not apply for manager",
+        "DoNotApplyForManagerTooltip": "Do not apply this rule if the author obtained the role only as a manager of that role. If the role is obtained through hierarchy from underlying roles, including manager roles of subordinate groups, the rule should still be applied."
+    },
+    "RightsByOperationsDetail": {
+        "Drag": "Kéo để thay đổi mức độ ưu tiên",
+        "Priority": "Ưu tiên",
+        "User": "Người dùng hoặc vai trò",
+        "Create": "Tạo",
+        "Read": "Đọc",
+        "Edit": "Chỉnh sửa",
+        "Delete": "Xóa",
+        "Remove": "Gỡ",
+        "Add": "Thêm",
+        "Blankslate": "Thêm người dùng hoặc vai trò để cấp cho họ quyền truy cập vào dữ liệu đối tượng",
+        "ValidationMessage": "Một quy tắc cho vai trò đã chọn đã tồn tại. Vui lòng chọn một vai trò khác để tiếp tục",
+        "WarningDowngradingRights": "Các hạn chế quyền trong quy tắc này có thể ghi đè các quy tắc khác thấp hơn trong danh sách",
+        "Allowed": "Được cấp",
+        "Denied": "Bị từ chối"
+    },
+    "SelectEntitySchemaColumnDialog": {
+        "Cancel": "Hủy",
+        "Select": "Chọn",
+        "SelectFieldPlaceholder": "Chọn cột",
+        "Title": "Chọn cột"
+    },
+    "SelectSysAdminUnitDialog": {
+        "Cancel": "Hủy",
+        "FunctionalRoles": "Các vai trò có chức năng",
+        "OrganizationalRoles": "Các vai trò có tổ chức",
+        "Search": "Tìm kiếm",
+        "Select": "Chọn",
+        "Title": "Chọn người dùng hoặc vai trò",
+        "Users": "Các người dùng"
+    },
+    "SysAdminUnitTree": {},
+    "TrackedColumns": {
+        "TitleTooltip": "Thiết lập danh sách các cột có giá trị sẽ được ghi lại khi bản ghi được sửa đổi",
+        "Title": "Những cột được lưu vào nhật kí",
+        "CaptionColumn": "Chức danh",
+        "NameColumn": "Tên",
+        "Add": "Thêm",
+        "Remove": "Gỡ",
+        "Blankslate": "Cột nhật ký không được chọn"
+    },
+    "BaseSection": {
+        "BlankslateTitleWithFilters": "Không có bản ghi phù hợp với tiêu chí tìm kiếm hiện tại.",
+        "BlankslateDescriptionWithFilters": "Xóa hoặc sửa đổi các tham số tìm kiếm",
+        "DeleteRecordConfirmation": "Bạn có muốn xóa bản ghi đã chọn?",
+        "AbsentDataErrorMessage": "Bản ghi đã bị xóa hoặc bạn không có quyền truy cập vào nó"
+    },
+    "BaseTableDetail": {
+        "Add": "Thêm",
+        "BlankslateWithFilters": "Không có bản ghi phù hợp với tiêu chí tìm kiếm hiện tại. Xóa hoặc sửa đổi các tham số tìm kiếm"
+    },
+    "MultiselectDialog": {
+        "Select": "Chọn",
+        "Selected": "Đã chọn:",
+        "Cancel": "Hủy",
+        "Blankslate": "Không có bản ghi cho đối tượng này",
+        "BlankslateWithFilters": "Không có bản ghi phù hợp với tiêu chí tìm kiếm hiện tại. Xóa hoặc sửa đổi các tham số tìm kiếm"
+    },
+    "LookupDialog": {
+        "TitleTemplate": "Chọn: {0}",
+        "Selected": "Đã chọn:",
+        "SelectButton": "Chọn",
+        "CancelButton": "Hủy",
+        "Blankslate": "Không có bản ghi cho đối tượng này",
+        "AllPagesSelectionWarning": "The operation may take some time. Continue?"
+    },
+    "DateRange": {
+        "To": "đến"
+    },
+    "MailServerTableComponent": {
+        "AdditionalSettings": "Các cài đặt bổ sung",
+        "AddMailServer": "Thêm dịch vụ",
+        "AllowEmailDownloading": "Nhận emails",
+        "AllowEmailSending": "Gửi email",
+        "Copy": "Sao chép",
+        "DeleteConfirmation": "Bạn có muốn xóa bản ghi đã chọn?",
+        "Delete": "Xóa",
+        "Edit": "Chỉnh sửa",
+        "Empty": "Không có dịch vụ mail sẳn sàng",
+        "ExchangeMenuItem": "Đổi",
+        "IMAPIncomingSettingsDescription": "Cài đặt dịch vụ email để nhận email. Chỉ định địa chỉ máy chủ mail, cổng và cài đặt bảo mật",
+        "IMAPIncomingSettingsHeader": "Máy chủ mail trong nước (IMAP)",
+        "ImapMenuItem": "IMAP/SMTP",
+        "LoginFormat": "Định dạng đăng nhập",
+        "MailServerAddress": "Địa chỉ dịch vụ",
+        "MailServer": "Dịch vụ mail",
+        "MailServerName": "Tên dịch vụ",
+        "MailServerSettings": "Cài đặt dịch vụ",
+        "MailServerType": "Loại dịch vụ",
+        "MailServiceRemoveToolTip": "Creatio không thể xóa dịch vụ mail vì một số hộp thư của dịch vụ này tồn tại trong ứng dụng",
+        "None": "Không",
+        "Port": "Cổng",
+        "RequiredMailServiceActions": "Cho phép tải xuống hoặc gửi email để thiết lập dịch vụ",
+        "Section": {
+            "Add": "Thêm",
+            "GoToDiagnostic": "Diagnostic tool"
+        },
+        "Security": "Bảo mật",
+        "AuthenticationType": "Kiểu xác thực",
+        "ApplicationId": "ID ứng dụng (máy trạm)",
+        "ClientSecret": "Bí mật khách hàng",
+        "Server": "Địa chỉ máy chủ",
+        "SMTPOutgoingSettingsDescription": "Cài đặt dịch vụ email để gửi email. Chỉ định địa chỉ máy chủ mail, cổng và cài đặt bảo mật",
+        "SMTPOutgoingSettingsHeader": "Máy chủ mail đi (SMTP)",
+        "SuccessfulAddOperation": "Bạn đã thêm thành công một dịch vụ email mới. Người dùng hiện có thể thêm hộp thư bằng dịch vụ này",
+        "SuccessfulEditOperation": "Creatio đã cập nhật thành công cài đặt dịch vụ mail",
+        "SuccessfulOperation": "Hoạt động thành công",
+        "Type": "Loại",
+        "UseEmailAddressAsLogin": "Sử dụng địa chỉ email",
+        "UseLogin": "Sử dụng nhập thủ công",
+        "UseUserNameAsLogin": "Sử dụng tên hộp thư",
+        "WarningTitle": "⚠ Cảnh báo",
+        "BasicAuthWarningMessage": "Please note, Basic Authentication is outdated and potentially unsafe. It is officially <a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online\" {0}>deprecated by Microsoft</a>. For production usage please consider switching to modern OAuth authentication. Configuration instructions are available in <a href=\"{1}\" {0}>Creatio Academy</a>.",
+        "TenantId": "Tenant ID",
+        "AllowApplicationLevelAccess": "Allow application-level access"
+    },
+    "MailboxSettings": {
+        "AdditionalSettingsTabCaption": "Các cài đặt bổ sung",
+        "MailboxesTabCaption": "Hộp thư",
+        "MailServicesTabCaption": "Dịch vụ hộp thư",
+        "Title": "Cài đặt hộp thư"
+    },
+    "EntitySchemaDesignerPage": {
+        "NameFieldName": "Tên",
+        "CaptionFieldName": "Tiêu đề"
+    },
+    "SqlScriptDesignerPage": {
+        "Name": "Tên",
+        "Caption": "Tiêu đề"
+    },
+    "SchemaDataDesignerPage": {
+        "ActualizeData": "Thực tế hóa dữ liệu",
+        "Fields": {
+            "Name": "Tên",
+            "Object": "Đối tượng",
+            "InstallType": "Kiểu cài đặt",
+            "Package": "Gói"
+        },
+        "InfoBlockText1": "Kiểu cài đặt",
+        "InfoBlockText2": "Kiểu cài đặt xác định phương pháp thêm dữ liệu ứng dụng khi cài đặt gói.",
+        "InfoBlockText3": "• Installation — data is added during the first installation of the package and is updated with the package updates. New records are always added. Existing records are updated only if the “Forced update” checkbox is selected on the “Columns setting” tab. This is the default and most flexible type.",
+        "InfoBlockText4": "• Update existing — deprecated type. We recommend using the Installation type instead because this type has similar behaviour.",
+        "InfoBlockText5": "• Initial package installation — data is added only during the first installation of the package. Data is not updated or added during subsequent package updates.",
+        "ColumnsSettingTabCaption": "Cài đặt cột",
+        "BoundDataTabCaption": "Dữ liệu ràng buộc",
+        "InstallType": {
+            "Install": "Cài đặt",
+            "FirstInstall": "Initial package installation",
+            "Update": "Cập nhật những cái đang có",
+            "InstallIfNotExists": "Initial data installation"
+        },
+        "ColumnsDetail": {
+            "Title": "Cài đặt cột",
+            "Blankslate": "Chọn một đối tượng, sau đó thiết lập các cột",
+            "ErrorDeletePrimaryColumn": "Việc xóa cột chính \"{0}\" bị cấm",
+            "Columns": {
+                "Caption": "Tiêu đề",
+                "Name": "Tên",
+                "ForcedUpdate": "Cập nhật bị bắt buộc",
+                "Key": "Chìa khóa"
+            },
+            "Tooltips": {
+                "ForcedUpdate": "The checkbox indicates that the data in this column will update whenever the corresponding package is updated.",
+                "Key": "Hộp kiểm được đặt cho cột chính của đối tượng theo mặc định. Nếu cơ sở dữ liệu sử dụng khóa tổng hợp, hãy chọn hộp kiểm này cho tất cả các cột khóa tổng hợp. Cột chính của một đối tượng không được là cột khóa tổng hợp."
+            },
+            "ColumnsAreNotAvailableInPackageMessage": "These columns are not available in current package and can not be added: {0}"
+        },
+        "BoundDataDetail": {
+            "Title": "Dữ liệu",
+            "Blankslate": "Chọn bản ghi để liên kết",
+            "ActualDataWasLoaded": "Dữ liệu hiện tại đã được tải"
+        },
+        "InfoBlockText6": "• Initial data installation — data binding is installed during the first package installation or subsequent updates only if the same binding does not already exist. Use this type to avoid unintended overwrites."
+    },
+    "WorkspaceExplorer": {
+        "Section": {
+            "Title": "Cấu hình",
+            "Packages": {
+                "InstallPackageDialog": {
+                    "Title": "Cài đặt gói từ kho",
+                    "InputFieldPackageName": "Gói",
+                    "InputFieldRepositoryAddress": "Kho lưu trữ hệ thống kiểm soát phiên bản",
+                    "InputFieldVersion": "Phiên bản",
+                    "Cancel": "Hủy",
+                    "Install": "Cài đặt"
+                },
+                "CreatePackageDialog": {
+                    "Title": "Gói",
+                    "InputFieldName": "Tên",
+                    "InputFieldDescription": "Mô tả",
+                    "InputFieldRepositoryAddress": "Kho lưu trữ hệ thống kiểm soát phiên bản",
+                    "InputFieldVersion": "Phiên bản",
+                    "SaveButtonCaption": "Lưu",
+                    "Cancel": "Hủy",
+                    "OpenPackagePage": "Tạo và thêm phụ thuộc",
+                    "Validation": {
+                        "PackageNameNotSpecified": "Tên gói không được chỉ định",
+                        "PackageVersionNotSpecified": "Phiên bản gói không được chỉ định",
+                        "NotAllowedFormat": "Định dạng sai cho phiên bản kho lưu trữ",
+                        "MaximumLengthExeeded": "Đã vượt quá độ dài văn bản tối đa"
+                    }
+                },
+                "SourceControl": {
+                    "CommitResult": {
+                        "Success": "Các thay đổi thành công chuyển vào kho lưu trữ",
+                        "CustomPackage": "Không thể chuyển gói tùy biến vào kho lưu trữ",
+                        "PackageUpdateNeed": "Các thay đổi đã được phát hiện trong kho lưu trữ. Cập nhật không gian làm việc là bắt buộc",
+                        "PackageHasForeignLock": "Không thể lưu thay đổi: gói mà mục lưu được lưu bị khóa bởi người dùng khác"
+                    },
+                    "CommitChangesDialog": {
+                        "Title": "Chuyển gói vào kho lưu trữ",
+                        "LogMessageFieldCaption": "Mô tả",
+                        "CommitButtonCaption": "Chuyển thay đổi",
+                        "Cancel": "Hủy",
+                        "NoChanges": "Không có mục nào được chuyển"
+                    },
+                    "Update": {
+                        "ConfirmMessage": "Bạn có muốn cập nhật gói này từ kho lưu trữ?",
+                        "NoChanges": "Không tìm thấy thay đổi"
+                    },
+                    "Install": {
+                        "ConfirmMessage": "Đã tìm thấy các gói đã cài đặt. Cấu trúc gói hoàn toàn có thể thay đổi khi cài đặt cho lần sau. Tiếp tục?",
+                        "NoChanges": "Không tìm thấy thay đổi"
+                    },
+                    "Restore": {
+                        "ConfirmMessage": "Không gian làm việc sẽ được cập nhật bản sửa đổi mới nhất. Tất cả các thay đổi của bạn sẽ bị mất. Tiếp tục?",
+                        "Success": "Không gian làm việc được khôi phục thành công từ kho lưu trữ"
+                    }
+                },
+                "PackageCreated": "Đã tạo thành công gói mới: {0}",
+                "PackageDeleted": "Đã xóa thành công gói mới: {0}",
+                "SearchPlaceholder": "Tìm kiếm theo gói",
+                "AllPackagesCaption": "Tất cả gói",
+                "DeleteConfirmation": "Bạn có muốn xóa gói đã chọn?",
+                "BlankslateTitle": "Không tìm thấy gói nào",
+                "InstallFromRepository": {
+                    "NoRepositories": "Creatio không thể tìm thấy bất kỳ kho lưu trữ đã lưu nào. Bạn có muốn lưu một kho lưu trữ mới không?",
+                    "NoActiveRepository": "Creatio không thể tìm thấy bất kỳ kho lưu trữ hoạt động nào. Bạn có muốn đi đến danh sách các kho lưu trữ?"
+                },
+                "PackageLocked": "Successfully locked package: {0} in SVN",
+                "PackageUnlocked": "Successfully unlocked package: {0} in SVN",
+                "ConnectedApplications": {
+                    "DeleteConfirmation": "The package will also be removed from the following apps:\n{0}\nPackage removal can make these apps lose functionality or become inoperative. Are you sure you want to proceed?",
+                    "DeactivateConfirmation": "The package will also be deactivated in the following apps:\n{0}\nPackage deactivation can make these apps lose functionality or become inoperative. Are you sure you want to proceed?"
+                },
+                "CreatePackage": "Create package",
+                "PackageDeactivated": "Successfully deactivated the package: {0}",
+                "DeactivateConfirmation": "Are you sure you want to deactivate the selected package?",
+                "ActivateConfirmation": "Are you sure you want to activate the selected package?",
+                "EndUserSchemas": "Environment schemas",
+                "NewSearchPlaceholder": "Tìm kiếm",
+                "PackagesCaption": "Packages",
+                "EndUserSchemaPackageTooltip": "Environment schemas exist only in this environment. To transfer them, move the schema to a package.",
+                "ConfigurationRootCaption": "Cấu hình"
+            },
+            "Items": {
+                "ImportSuccessMessage": "Mục \"{0}\" được nhập thành công vào gói \"{1}\"",
+                "UpdateDBStructureConfirmMessage": "Điều này sẽ cập nhật cấu trúc cơ sở dữ liệu cho đối tượng được chọn. Bạn có muốn tiếp tục?",
+                "GenerateSchemasSourcesConfirmMessage": "Điều này sẽ tạo mã nguồn cho phần tử được chọn. Bạn có muốn tiếp tục?",
+                "InstallSqlScriptsConfirmMessage": "Điều này sẽ cài đặt tập lệnh SQL đã chọn vào cơ sở dữ liệu. Bạn có muốn tiếp tục?",
+                "InstallDataConfirmMessage": "Thao tác này sẽ cài đặt dữ liệu cho mục đã chọn. Bạn có muốn tiếp tục?",
+                "DeleteConfirmMessage": "Bạn có muốn xóa vĩnh viễn các mục đã chọn?",
+                "RevertChangesMessage": "Tất cả các thay đổi trong các mục đã chọn sẽ bị mất. Tiếp tục?",
+                "Columns": {
+                    "UId": "UID",
+                    "Name": "Tên",
+                    "Title": "Chức danh",
+                    "Status": "Trạng thái",
+                    "Type": "Loại",
+                    "Object": "Đối tượng",
+                    "ModifiedOn": "Điều chỉnh vào ngày",
+                    "Package": "Gói",
+                    "CreatedOn": "Tạo",
+                    "CreatedBy": "Được tạo bởi",
+                    "ModifiedBy": "Chỉnh sửa bởi"
+                },
+                "Add": {
+                    "Caption": "Thêm",
+                    "Sql": "Tập lệnh SQL",
+                    "SourceCode": "Mã nguồn",
+                    "Entity": "Đối tượng",
+                    "ReplacingEntity": "Thay thế đối tượng",
+                    "ClientUnit": {
+                        "Module": "Mô-đun",
+                        "EditViewModelSchema": "Mô hình xem trang",
+                        "ModuleViewModelSchema": "Mô hình xem phần",
+                        "GridDetailViewModelSchema": "Mô hình xem chi tiết (danh sách)",
+                        "EditControlsDetailViewModelSchema": "Mô hình xem chi tiết (trường)",
+                        "ExtendedClientUnitSchema": "Thay thế mô hình chế độ xem",
+                        "AngularSchema": "Freedom UI page",
+                        "ExtendedAngularSchema": "Angular replacing view model"
+                    },
+                    "UserTask": "Thao tác người dùng",
+                    "BusinessProcess": "Quy trình nghiệp vụ",
+                    "DataBinding": "Dữ liệu",
+                    "Import": "Nhập liệu",
+                    "RestService": "Dịch vụ REST",
+                    "SoapService": "Dịch vụ SOAP"
+                },
+                "Types": {
+                    "SqlScript": "Tập lệnh SQL",
+                    "SchemaData": "Dữ liệu",
+                    "Assembly": "Tổ hợp tài liệu tham khảo",
+                    "EntitySchema": "Đối tượng",
+                    "ClientUnitSchema": "Mô-đun máy trạm",
+                    "SourceCodeSchema": "Mã nguồn",
+                    "ProcessSchema": "Quy trình-Kinh doanh",
+                    "DcmSchema": "Trường hợp",
+                    "ProcessUserTaskSchema": "Thao tác người dùng",
+                    "CampaignSchema": "Chiến dịch quảng cáo",
+                    "ServiceSchema": "Dịch vụ Web",
+                    "AddonSchema": "Addon",
+                    "CopilotIntentSchema": "Creatio.ai agent",
+                    "LocalizationSchema": "Bản địa hóa"
+                },
+                "Status": {
+                    "NeedInstall": "Cần đwọc cài đặt trong database",
+                    "NeedUpdateSourceCode": "Yêu cầu cập nhật mã nguồn",
+                    "NeedUpdateStructure": "Yêu cầu cập nhật cơ sở dữ liệu",
+                    "LockedInSVN": "Locked in SVN",
+                    "UnlockedInSVN": "Unlocked in SVN"
+                },
+                "Filters": {
+                    "Types": {
+                        "AllItems": "Tất cả các mục",
+                        "Placeholder": "Loại"
+                    },
+                    "States": {
+                        "AllItems": "Tất cả các mục",
+                        "Placeholder": "Bộ lọc",
+                        "Locked": "Đã bị khóa",
+                        "NeedActualization": "Cần hiện thực hóa",
+                        "Error": "Có lỗi"
+                    }
+                },
+                "DetailsDialog": {
+                    "Close": "Đóng",
+                    "PageTitle": "Các đặc tính",
+                    "Title": "Chức danh",
+                    "Name": "Tên",
+                    "FullQualifiedName": "Tên tập hợp đủ điều kiện",
+                    "DataObjectName": "Đối tượng",
+                    "CreatedBy": "Được tạo bởi",
+                    "CreatedOn": "Được tạo vào",
+                    "PackageName": "Gói",
+                    "ParentCaption": "Lớp cha",
+                    "ReplaceParent": "Thay thế cha",
+                    "IsChanged": "Đã được sửa",
+                    "UId": "UId",
+                    "ModifiedBy": "Chỉnh sửa bởi",
+                    "Id": "Id",
+                    "ModifiedOn": "Điều chỉnh vào ngày",
+                    "ManagerName": "Tên giám đốc",
+                    "MetaDataModifiedOn": "Đã sửa đổi siêu dữ liệu vào",
+                    "Description": "Mô tả",
+                    "IsLocked": "Đã bị khóa",
+                    "NeedUpdateDBStructure": "Yêu cầu cập nhật cơ sở dữ liệu",
+                    "NeedInstall": "Cần đwọc cài đặt trong database",
+                    "LastErrorText": "Tin nhắn lỗi cuối cùng",
+                    "LockedBy": "Bị khóa bởi",
+                    "DbStructureModifiedOn": "Cấu trúc cơ sở dữ liệu được sửa đổi vào",
+                    "IsNetStandard": "IsNetStandard",
+                    "LoadOnAppStart": "LoadOnAppStart",
+                    "UIdTooltip": "Id duy nhất của yếu tố cấu hình. Id phần tử cấu hình sẽ luôn giữ nguyên trong bất kỳ ứng dụng nào",
+                    "IdTooltip": "Cột này là khóa chính trong các bảng cơ sở dữ liệu. Id bản ghi có thể khác nhau trong các ứng dụng khác nhau"
+                },
+                "RecordLockedInSVNSuccessfully": "Record locked in SVN successfully",
+                "RecordUnlockedInSVNSuccessfully": "Record unlocked in SVN successfully",
+                "MultiItemActionButton": "Multi actions",
+                "InstallLocalizationConfirmMessage": "This action will install data localizations for records and overwrite the current runtime values. Do you want to proceed?"
+            },
+            "Actions": {
+                "Blocks": {
+                    "SourceCode": "Mã nguồn",
+                    "Actualization": "Các mục thực tế",
+                    "DevInFileSystem": "Chế độ phát triển tập tin hệ thống",
+                    "VersionControl": "Kho lưu trữ SVN",
+                    "Packages": "Các gói",
+                    "Validation": "Cấu hình",
+                    "CacheManagement": "Cache Management"
+                },
+                "Compile": "Biên dịch",
+                "CompileAll": "Biên dịch tất cả",
+                "Edit": "Chỉnh sửa",
+                "Delete": "Xóa",
+                "Export": "Xuất liệu",
+                "Update": "Cập nhật từ kho lưu trữ",
+                "Commit": "Chuyển vào kho lưu trữ",
+                "Properties": "Các đặc tính",
+                "UpdateDBStructure": "Cập nhật cấu trúc cơ sơ dữ liệu",
+                "EditProcess": "Sửa quy trình",
+                "GenerateSchemasSources": "Tạo mã nguồn",
+                "InstallSqlScripts": "Cài đặt",
+                "InstallData": "Cài đặt",
+                "RevertChanges": "Bỏ các thay đổi",
+                "InstallRequiredSqlScripts": "Các tập lệnh SQL. Cài đặt ở nơi cần thiết",
+                "InstallRequiredData": "Cài đặt dữ liệu ở những nơi cần thiết",
+                "InstallRequiredSchemasDBStructure": "Cấu trúc cơ sở dữ liệu. Cập nhật nơi cần thiết",
+                "OperationSuccessMessage": "Hoạt động đã thành công",
+                "GenerateRequiredSchemasSources": "Tạo nơi cần thiết",
+                "GenerateModifiedSchemasSources": "Tạo cho tất cả schemas sửa đổi",
+                "GenerateAllSchemasSources": "Tạo cho tất cả schemas",
+                "LoadPackagesToFileSystem": "Tải xuống gói tập tin hệ thống",
+                "LoadPackagesToDB": "Cập nhật gói từ tập tin hệ thống",
+                "OpenRepositoriesList": "Mở danh sách kho lưu trữ",
+                "RestoreFromRepository": "Khôi phục từ kho lưu trữ",
+                "InstallPackageFromRepository": "Cài đặt gói từ kho",
+                "PackageDependenciesDiagram": "Sơ đồ phụ thuộc gói",
+                "FileDesignModeInfo": "To activate, set in the application config file:\n - true to the enabled attribute of the fileDesignMode element;\n - false for the UseStaticFileContent flag.",
+                "Confirmation": {
+                    "InstallRequiredSqlScripts": "Tất cả các mục yêu cầu cài đặt sẽ được cài đặt vào cơ sở dữ liệu. Tiếp tục?",
+                    "InstallRequiredData": "Tất cả các mục yêu cầu cài đặt sẽ được cài đặt vào cơ sở dữ liệu. Tiếp tục?",
+                    "InstallRequiredSchemasDBStructure": "Cấu trúc cơ sở dữ liệu sẽ được cập nhật cho tất cả schema yêu cầu cập nhật. Tiếp tục?",
+                    "Compile": "Không gian làm việc sẽ được biên dịch. Bạn có muốn tiếp tục?",
+                    "CompileAll": "Không gian làm việc sẽ được biên dịch lại. Bạn có muốn tiếp tục?",
+                    "GenerateRequiredSchemasSources": "Tạo mã nguồn cho tất cả các schema nơi cần thiết?",
+                    "GenerateModifiedSchemasSources": "Tạo mã nguồn cho tất cả các schema sửa đổi?",
+                    "GenerateAllSchemasSources": "Generate source codes for all schemas? The operation’s result will be sent to the communication panel",
+                    "ThirdPartyPublisher": "Mục \"{0}\" do nhà xuất bản bên thứ ba tạo hoặc được cài đặt từ kho lưu trữ tệp.\n  Không thể lưu các thay đổi cho mục này. Tiếp tục?",
+                    "ValidateWorkspace": "The operation may take some time. Continue?",
+                    "ExportItems": "The operation may take some time. Continue?",
+                    "StartHotfix": "This option is designed for critical and urgent changes. The package will be locked back automatically after {0} minutes. Make sure to deliver changes to the development environment after the hotfix.\n\nAre you sure you want to make a hotfix in the package?",
+                    "FinishHotfix": "Make sure to deliver changes to the development environment after the hotfix.\nAre you sure you want to lock the package?",
+                    "Cache": {
+                        "Message": "This action will remove data from the IndexedDB cache storage for all users. This caching helps applications and pages load faster. After clearing, some pages may temporary load slower at first while the cache is rebuilt.",
+                        "Cancel": "Hủy",
+                        "Clear": "Dọn"
+                    }
+                },
+                "Move": "Move to another package",
+                "MovePackageAllElements": "Move all elements",
+                "MultiDelete": "Delete ({0})",
+                "MultiExport": "Export ({0})",
+                "MultiUpdateDBStructure": "Update objects DB structure",
+                "MultiInstallSqlScripts": "Install SQL scripts",
+                "MultiInstallData": "Install data",
+                "GenerateAllSchemasSourcesWasStarted": "System has begun generating source code for all schemas. You will receive a notification in the Communication panel when the process is complete",
+                "ValidateWorkspace": "Validate configuration",
+                "OpenMetaData": "Open metadata",
+                "OpenSourceCode": "Open source code",
+                "LockPackageElement": "Lock element in SVN",
+                "UnLockPackageElement": "Unlock element in SVN",
+                "LockPackage": "Lock package in SVN",
+                "UnLockPackage": "Unlock package in SVN",
+                "GenerateAllSchemasSourcesSuccess": "Source code for all schemas has been successfully generated",
+                "GenerateAllSchemasSourcesError": "Source code generation for some schemas finished with an error. Error messages for each schema can be accessed in the configuration items list after reloading. Do you wish to reload configuration items?",
+                "Deactivate": "Hoãn",
+                "Activate": "Cho phép",
+                "CompilationCompletedSuccessfully": "Compilation completed successfully",
+                "CompilationCompletedWithErrors": "Compilation completed with errors",
+                "OperationCompleted": "Operation completed",
+                "StartHotfix": "Unlock for hotfix",
+                "FinishHotfix": "Lock after hotfix",
+                "ClearAllCache": "Clear IndexedDB cache for all users",
+                "InstallLocalizationInBackgroundSuccess": "Localization installation has started. You’ll receive a notification when it is complete",
+                "InstallLocalization": "Install"
+            },
+            "WorkspaceSyncResultDialog": {
+                "Close": "Đóng",
+                "Title": "Các thay đổi",
+                "Error": "Lỗi",
+                "Columns": {
+                    "Name": "Tên",
+                    "Type": "Loại",
+                    "Status": "Trạng thái",
+                    "ErrorText": "Lỗi văn bản"
+                },
+                "ShowOnlyErrors": "Show only errors"
+            },
+            "ActionButtonCaption": "Các hành động",
+            "WorkspaceItemMoveService": {
+                "NameColumn": "Tên",
+                "SelectPackageDialogTitle": "Move the {0} element to package",
+                "MultiselectElementsPackageDialogTitle": "Move {0} element(s) to package",
+                "MoveElementsWebServiceSuccessMessage": "Elements successfully moved",
+                "NoPackagesMessage": "No available packages",
+                "MoveAllPackageElementsWebServiceSuccessMessage": "Elements successfully moved",
+                "MoveAllPackageElementsDialogTitle": "Move the {0} package elements to package",
+                "SpecifyDependenciesConfirmationDialog": "The {0} package lacks dependencies required for correct migration. Do you wish to install the missing dependencies automatically?"
+            },
+            "WorkspaceItemMoveValidateDialog": {
+                "ErrorMessageTitle": "Elements move error",
+                "WithoutValidationConfirmationMessage": "This action disrupts the configuration integrity due to the current dependencies between the transferred package elements. To restore the integrity, move the remaining elements required by the current dependencies or modify the dependencies.\nUnless you plan on doing any of the above, we do not recommend to proceed.\nProceed with moving the package elements?\n\n",
+                "MoveButtonCaption": "Move elements"
+            },
+            "PackageStorageValidationMessageDialog": {
+                "Title": "Configuration errors",
+                "MessageColumn": "Mô tả",
+                "ItemNameColumn": "Thành phần",
+                "ItemTypeColumn": "Loại",
+                "PackageNameColumn": "Gói",
+                "ConfirmationTitle": "Elements move error",
+                "WithoutValidationConfirmationMessage": "This action disrupts the configuration integrity due to the current dependencies between the transferred package elements. To restore the integrity, move the remaining elements required by the current dependencies or modify the dependencies.\nUnless you plan on doing any of the above, we do not recommend to proceed.\nProceed with moving the package elements?\n\n",
+                "MoveButtonCaption": "Move elements"
+            },
+            "ValidateWorkspaceDialog": {
+                "ErrorMessageTitle": "Configuration errors",
+                "ValidationSuccess": "The configuration validated successfully. No errors found"
+            },
+            "HotKey": "Hotkey",
+            "NoDataTitle": "The package is inactive currently.",
+            "NoDataText": "You can activate it manually. This will enable its contents and make its functionality available for users.",
+            "CompilationErrorsButton": {
+                "Title": "Có lỗi biên soạn"
+            }
+        },
+        "PackagePage": {
+            "Title": "Đặc tính gói",
+            "Name": "Tên",
+            "Description": "Mô tả",
+            "Maintainer": "Chức năng duy trì",
+            "MaintainerTooltip": "Người phát triển gói",
+            "RepositoryAddress": "Địa chỉ kho lưu trữ",
+            "RepositoryVersion": "Phiên bản kho lưu trữ",
+            "PackageVersion": "Phiên bản gói",
+            "DependenciesTab": "Phụ thuộc",
+            "SysInformationTab": "Hệ thống thông tin",
+            "PackageDependencyDetail": {
+                "DependsOnPackagesTitle": "Phụ thuộc vào gói",
+                "DependentPackagesTitle": "Phụ thuộc của gói",
+                "DependsOnPackagesTooltip": "Các gói mà gói hiện tại phụ thuộc vào",
+                "DependentPackagesTooltip": "Các gói phụ thuộc vào gói hiện tại",
+                "PackagesDialogCaption": "Chọn gói",
+                "NameColumn": "Tên",
+                "Maintainer": "Chức năng duy trì",
+                "Remove": "Gỡ",
+                "Blankslate": "Không có gói",
+                "Add": "Thêm"
+            },
+            "SysInformation": {
+                "CreatedBy": "Được tạo bởi",
+                "ModifiedBy": "Chỉnh sửa bởi",
+                "CreatedOn": "Được tạo vào",
+                "ModifiedOn": "Điều chỉnh vào ngày",
+                "UIDTooltip": "Id gói duy nhất. Id gói sẽ luôn giữ nguyên trong mọi ứng dụng",
+                "IDTooltip": "Cột này là khóa chính trong các bảng cơ sở dữ liệu. Id bản ghi có thể khác nhau trong các ứng dụng khác nhau"
+            },
+            "RepositoryAuthorizationRequired": "Hoạt động đã kết thúc. Yêu cầu xác thực. Đăng nhập ngay bây giờ?",
+            "PackageType": "Compile into a separate assembly",
+            "CompilationRequired": "Compile the configuration to apply the changes",
+            "InstallationFlow": "Installation steps",
+            "InstallationFlowTab": {
+                "BeforePackageInstall": "Before package installation",
+                "BeforePackageInstallTooltip": "Actions to execute before package installation",
+                "AfterPackageInstall": "After package installation",
+                "AfterPackageInstallTooltip": "Actions to execute after package installation",
+                "BeforePackageUninstall": "Before package deletion",
+                "BeforePackageUninstallTooltip": "Actions to execute before package deletion",
+                "Blankslate": "There are no steps"
+            },
+            "InstallFlowPackageDetail": {
+                "Add": "Thêm",
+                "ScriptsDialogCaption": "Select schemas",
+                "ColumnNameCaption": "Tên",
+                "ColumnTitleCaption": "Chức danh",
+                "ColumnPositionCaption": "Đơn hàng",
+                "ColumnModifiedOnCaption": "Modified On",
+                "Install": "Run manually",
+                "Success": "Operation was successful"
+            },
+            "InstallBehavior": "Use smart activation",
+            "InstallBehaviorInfo": "The package is installed on the environment and activated automatically when all its dependencies are available. Missing dependencies do not interfere with the installation of the package/application that includes the package. Once all dependencies are available, the package is automatically activated and becomes accessible to the user. If the dependencies are no longer available, the package is automatically deactivated."
+        },
+        "Errors": {
+            "AssemblyIsNotInitialized": "Vui lòng biên dịch cấu hình trước khi tiếp tục công việc của bạn với Creatio.\n  Bạn có muốn biên dịch ngay bây giờ?"
+        },
+        "PageTemplateLookup": {
+            "HeaderCaption": "Chọn mẫu",
+            "Cancel": "Hủy",
+            "Select": "Chọn",
+            "WebPages": "Web pages",
+            "MobilePages": "Mobile app pages"
+        },
+        "DetailedMessageDialog": {
+            "Title": "Attention",
+            "OperationTitleMessage": "You are about to initiate an operation \"{0}\" that may result in temporary unavailability of the site for users. Please ensure the necessity of this action.",
+            "InternalBlockTitle": "Potential consequences:",
+            "InternalBlockFirstMessage": "Temporary restriction of access to specific features or the entire site",
+            "InternalBlockSecondMessage": "Possible disruption of ongoing processes and activities of other users",
+            "AdviseMessage": "If performing this operation in the production environment is unavoidable, we strongly recommend scheduling it during a designated maintenance window to minimize its impact on users.",
+            "ProceedActionQuestion": "Do you want to proceed with this operation now?",
+            "ExecuteOperationCaption": "Execute operation",
+            "GenerateAllSchemasSourcesAction": "Generate source code for all schemas",
+            "GenerateRequiredSchemasSourcesAction": "Generate source code where it is needed",
+            "GenerateModifiedSchemasSourcesAction": "Generate source code for modified schemas",
+            "DeleteAction": {
+                "WithConnectedApplications": {
+                    "Message": "The package will also be removed from the following apps:\n{0}",
+                    "InternalBlockMessage": "Package removal can make these apps lose functionality or become inoperative."
+                }
+            },
+            "DeactivateAction": {
+                "WithConnectedApplications": {
+                    "Message": "The package will also be deactivated in the following apps:\n{0}",
+                    "InternalBlockMessage": "Package deactivation can make these apps lose functionality or become inoperative."
+                }
+            }
+        }
+    },
+    "TableDialog": {
+        "Close": "Đóng",
+        "Cancel": "Hủy"
+    },
+    "ErrorListDialogService": {
+        "CodeErrorListDialogCaption": "Compilation result",
+        "FileNameColumn": "Tên tập tin",
+        "ErrorTextColumn": "Mô tả",
+        "ErrorNumberColumn": "Mã",
+        "LineColumn": "Dòng",
+        "CodeValidationErrorListDialogCaption": "Cyclic dependencies detected",
+        "SourceColumn": "Element that references",
+        "ReferenceColumn": "Element being referenced",
+        "PackageColumn": "Gói",
+        "AcademyHelpUrlCaption": " Learn more in the Academy",
+        "PackagePropertiesErrorDialogCaption": "Package dependency validation error",
+        "PackagePropertiesErrorMessage": "One or more validation issues prevent modifying the dependency list for this package. Review the list of issues below and resolve them before making changes.",
+        "ItemTypeColumn": "Loại",
+        "ItemNameColumn": "Tên",
+        "DescriptionColumn": "Mô tả",
+        "PackageNameColumn": "Gói",
+        "TypeColumn": "Loại phần tử"
+    },
+    "SchemaDesigners": {
+        "BaseDesignerPage": {
+            "SaveSuccessMessage": "Ban ghi được lưu thành công",
+            "PublishSuccessMessage": "Bản ghi được công bố thành công",
+            "ChangeParentSchemaMessage": "Use \"{0}\" as parent object for current object?",
+            "DeleteParentSchemaMessage": "Delete parent object for current object?"
+        },
+        "BaseDesignerStructureService": {
+            "MiniPage": {
+                "NameTitle": "Mã",
+                "PackageTitle": "Gói",
+                "Apply": "Áp dụng",
+                "Cancel": "Hủy",
+                "Ok": "Ok",
+                "Caption": "Chức danh",
+                "Description": "Mô tả",
+                "Validations": {
+                    "RequiredNameCaption": "Nhập một giá trị",
+                    "PatternNameCaption": "Giá trị không hợp lệ. Sử dụng các ký hiệu: a-z, A-Z, 0-9. Ký hiệu: 0-9 không được đứng đầu",
+                    "PatternPrefixTemplate": "Code must start with the \"{0}\" prefix"
+                }
+            }
+        },
+        "SchemaParameterMiniPage": {
+            "CardTitle": "Tham số",
+            "Title": "Mã",
+            "Caption": "Chức danh",
+            "Lookup": "Tra cứu",
+            "Value": "Giá trị",
+            "Schema": "Lược đồ",
+            "Create": "Tạo",
+            "Cancel": "Hủy",
+            "Resulting": "Kết quả",
+            "Required": "Được yêu cầu",
+            "ContainsPerformerId": "Id chứa người thực hiện",
+            "LazyLoad": "Tải từng phần",
+            "Serializable": "Tuần tự hóa",
+            "CopyValue": "Sao lưu giá trị",
+            "Type": "Loại",
+            "Save": "Lưu",
+            "ProperyExistMessage": "Thuộc tính này đã được kiểm tra trong một tham số khác. Nó chỉ có thể được sử dụng trong 1 tham số.",
+            "Validations": {
+                "RequiredNameCaption": "Nhập một giá trị",
+                "PatternNameCaption": "Giá trị không hợp lệ. Sử dụng các ký hiệu: a-z, A-Z, 0-9. Ký hiệu: 0-9 không được đứng đầu",
+                "DataValueTypeListContainsMessage": "Vui lòng chọn giá trị từ danh sách"
+            }
+        },
+        "SqlSchemaDesignerPage": {
+            "Caption": "SQL",
+            "DependentScriptsCaption": "Tập lệnh SQL phụ thuộc",
+            "DependsOnScriptCaption": "Phụ thuộc vào tập lệnh SQL",
+            "SqlScriptValidateCaption": "Xác thực tập lệnh SQL đã hoàn tất",
+            "Install": "Install",
+            "ShouldSaveFirstTitle": "Save the script before installing",
+            "InstallSqlScriptsConfirmMessage": "This will install SQL script to the database. Do you wish to proceed?",
+            "InstallSuccessMessage": "Operation was successful"
+        },
+        "SqlSchemaDesignerMiniPage": {
+            "Title": "Tập lệnh Sql",
+            "DbmsType": "Kiểu DBMS",
+            "InstallationType": "Kiểu cài đặt",
+            "BackwardCompatibilityConfirmed": "Backward compatible",
+            "BackwardCompatibilityConfirmedLabelBeforeLink": "Backwards compatible SQL scripts are those that comply with recommendations ",
+            "BackwardCompatibilityConfirmedLabelAfterLink": ". Select this checkbox only if your script complies with every recommendation",
+            "AcademyHelpUrlCaption": "specified in a separate article"
+        },
+        "MultiSelectSqlSchemasMiniPage": {
+            "Title": "Chọn tập lệnh SQL",
+            "TableColumn": {
+                "Name": "Mã",
+                "Package": "Gói"
+            }
+        },
+        "EntitySchemaDesigner": {
+            "Actions": {
+                "OpenEmbeddedProcess": "Mở quy trình"
+            },
+            "EntityEditor": {
+                "GeneralGroup": {
+                    "Caption": "Tổng quát",
+                    "NameCaption": "Mã",
+                    "TitleCaption": "Chức danh",
+                    "PackageCaption": "Gói",
+                    "DescriptionCaption": "Mô tả",
+                    "NameTooltip": "Unique system name of the object schema.",
+                    "TitleTooltip": "Localizable object title displayed in the UI.",
+                    "PackageTooltip": "Package containing the object schema.",
+                    "DescriptionTooltip": "Localizable description of the object."
+                },
+                "ObjectSettings": {
+                    "Caption": "Cài đặt đối tượng",
+                    "IdCaption": "Id",
+                    "DisplayedValueCaption": "Giá trị được hiển thị",
+                    "ParentInHierarchyCaption": "Cha trong hệ thống phân cấp",
+                    "ChangeLogObjectNameCaption": "Nhật ký thay đổi tên đối tượng",
+                    "LocalizationObjectNameCaption": "Tên đối tượng bản địa hóa",
+                    "ImageCaption": "Hình ảnh",
+                    "SortingInListsCaption": "Sắp xếp trong danh sách",
+                    "OwnerCaption": "Người phụ trách",
+                    "PermissionObjectNameCaption": "Tên đối tượng cho phép",
+                    "ColorCaption": "Màu sắc",
+                    "IdTooltip": "Primary key column that uniquely identifies object records.",
+                    "ImageTooltip": "Column that stores an image or icon for object records.",
+                    "DisplayedValueTooltip": "Column used as a record title when other objects reference the record.",
+                    "ParentInHierarchyTooltip": "Column that references the parent record for hierarchical structures.",
+                    "ChangeLogObjectNameTooltip": "Name of the object that stores the change log for this entity.",
+                    "LocalizationObjectNameTooltip": "Name of the object that stores localized values for this entity.",
+                    "OwnerTooltip": "Column used to automatically grant access rights to a record.",
+                    "PermissionObjectNameTooltip": "Name of the object that stores permission settings for this entity.",
+                    "ColorTooltip": "Column that stores the color for object records."
+                },
+                "InheritanceGroup": {
+                    "Caption": "Thừa kế",
+                    "ParentObjectCaption": "Đối tượng cha",
+                    "ExtendParent": "Thay thế cha",
+                    "ParentObjectTooltip": "Parent object whose structure and behavior the current object inherits.",
+                    "ExtendParentTooltip": "Marks the schema as a replacing object that overrides the parent on the current inheritance level."
+                },
+                "BehaviorGroup": {
+                    "Caption": "Hành vi",
+                    "isDBViewCaption": "Trình bày cấu trúc của chế độ xem dữ liệu",
+                    "isVirtualCaption": "Ảo hóa",
+                    "isTrackChangesInDBCaption": "Cập nhật nhật kí thay đổi",
+                    "isSSPAvailable": "Là đối tượng có sẵn như là phần trên SSP",
+                    "useRecordDeactivationCaption": "Cho phép hủy kích hoạt bản ghi",
+                    "showInAdvancedModeCaption": "Show in advanced mode only",
+                    "useLiveEditingCaption": "Enable live data update",
+                    "isDBViewTooltip": "Indicates that the object is based on a database view instead of a regular table.",
+                    "isVirtualTooltip": "Indicates that the object does not store data in a physical database table and is dynamically obtained from some alternative data sources.",
+                    "isSSPAvailableTooltip": "Makes the object accessible as a section for portal (SSP) users.",
+                    "useLiveEditingTooltip": "The record change automatically generates signals to all currently opened pages of the record, and they auto-refresh.",
+                    "useRecordDeactivationTooltip": "Lets users deactivate records without deleting them.",
+                    "isTrackChangesInDBTooltip": "Enables logging of object record changes.",
+                    "showInAdvancedModeTooltip": "Hides rarely used objects from the standard Studio view."
+                },
+                "AccessRights": {
+                    "Caption": "Các quyền truy cập",
+                    "OperationsCaption": "Các hoạt động",
+                    "ColumnsCaption": "Columns",
+                    "RecordsCaption": "Các bản ghi",
+                    "MasterRecordCaption": "Đối tượng kế thừa quyền truy cập từ",
+                    "OperationsTooltip": "Enables access rights restrictions for record operations.",
+                    "ColumnsTooltip": "Enables access rights restrictions at the column level.",
+                    "RecordsTooltip": "Enables access rights restrictions at the individual record level.",
+                    "MasterRecordTooltip": "Object whose access permissions are inherited."
+                },
+                "HistoryColumns": {
+                    "Caption": "Cột lịch sử",
+                    "CreatedByCaption": "Được tạo bởi",
+                    "CreatedOnCaption": "Được tạo vào",
+                    "ModifiedByCaption": "Chỉnh sửa bởi",
+                    "ModifiedOnCaption": "Điều chỉnh vào ngày",
+                    "CreatedByTooltip": "Column that stores the user who created the record.",
+                    "CreatedOnTooltip": "Column that stores the record creation date and time.",
+                    "ModifiedByTooltip": "Column that stores the user who last modified the record.",
+                    "ModifiedOnTooltip": "Column that stores the date and time of the last modification."
+                },
+                "Validations": {
+                    "RequiredNameCaption": "Nhập một giá trị",
+                    "PatternNameCaption": "Giá trị không hợp lệ. Dùng các ký tự: a-z, A-Z, 0-9. Ký tự: 0-9 không được ghi trước.",
+                    "PatternPrefixTemplate": "Code must start with the \"{0}\" prefix",
+                    "DuplicateNameCaption": "Object with the same code already exists"
+                },
+                "EntityBusinessRules": {
+                    "OpenBusinessRulesButtonCaption": "Open business rules",
+                    "BusinessRulesDialogTitle": "Các quy tắc nghiệp vụ",
+                    "BusinessRulesDialogCancelButton": "Hủy",
+                    "BusinessRulesDialogApplyButton": "Áp dụng"
+                }
+            },
+            "ColumnEditor": {
+                "GeneralGroup": {
+                    "Caption": "Tổng quát",
+                    "NameCaption": "Mã",
+                    "TitleCaption": "Chức danh",
+                    "DataTypeCaption": "Loại dữ liệu",
+                    "DescriptionCaption": "Mô tả",
+                    "RequiredCaption": "Được yêu cầu",
+                    "DefaultValueCaption": "Giá trị mặc định",
+                    "CanMakeCopyCaption": "Sao chép giá trị này khi sao chép bản ghi",
+                    "IsMultiLineTextCaption": "Văn bản đa dòng",
+                    "IsLocalizableTextCaption": "Văn bản bản địa hóa",
+                    "EnglishNameCaption": "Mã",
+                    "FormatCaption": "Hình thức",
+                    "ReferenceSchemaCaption": "Tra cứu",
+                    "IsCascadeCaption": "Khi xóa giá trị tra cứu:",
+                    "IsMaskedCaption": "Display input mask",
+                    "IsFormatValidationCaption": "Validate format",
+                    "isAutonumber": "Autonumber",
+                    "EditCodeInfoIconCaption": "Changing the code may cause incorrect behavior of related components. Please use it with caution",
+                    "MaskTypeCaption": "Mask type",
+                    "MaskOperationCaption": "Sự cho phép vận hành",
+                    "UseSecondsCaption": "Show seconds",
+                    "IsAccentInsensitiveCaption": "Accent insensitive search (PostgreSQL only)",
+                    "NameTooltip": "Unique system name of the column.",
+                    "TitleTooltip": "Localizable column title shown in the UI.",
+                    "DataTypeTooltip": "Type of data stored in the column.",
+                    "DescriptionTooltip": "Localizable description of the column.",
+                    "RequiredTooltip": "Specifies that the column must not be empty.",
+                    "DefaultValueTooltip": "Value assigned automatically if no value is provided.",
+                    "CanMakeCopyTooltip": "Copies the column value when a record is copied.",
+                    "IsMultiLineTextTooltip": "Allows entering and displaying text in multiple lines.",
+                    "IsAccentInsensitiveTooltip": "Enables search without considering accent marks.",
+                    "IsLocalizableTextTooltip": "Lets the column store values in multiple languages.",
+                    "IsMaskedTooltip": "Shows an input mask for guided value entry.",
+                    "IsFormatValidationTooltip": "Validates the entered value against the expected format.",
+                    "IsCascadeTooltip": "Defines what happens to records in the current object when the referenced lookup value is deleted.",
+                    "UseSecondsTooltip": "Displays seconds in time values.",
+                    "ReferenceSchemaTooltip": "Object that provides values for the lookup column."
+                },
+                "BehaviorGroup": {
+                    "Caption": "Hành vi",
+                    "UsageModeCaption": "Chế độ dùng",
+                    "UpdateChangeLogCaption": "Cập nhật nhật kí thay đổi",
+                    "IndexedCaption": "Lập chỉ mục",
+                    "SensitiveDataCaption": "Сontains personal data",
+                    "IndexedTooltip": "Creates an index for the column to improve search and filtering performance.",
+                    "SensitiveDataTooltip": "Marks the column as containing personal data.",
+                    "UpdateChangeLogTooltip": "Enables logging of changes for this column.",
+                    "UsageModeTooltip": "Controls the column availability mode in the application."
+                },
+                "RequirementType": {
+                    "NoCaption": "Không",
+                    "YesCaption": "Đồng ý"
+                },
+                "UsageType": {
+                    "GeneralCaption": "Tổng quát",
+                    "AdvancedCaption": "Nâng cao",
+                    "NoneCaption": "Không"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "Nhập một giá trị",
+                    "PatternNameCaption": "Giá trị không hợp lệ. Sử dụng các ký hiệu: a-z, A-Z, 0-9. Ký hiệu: 0-9 không được đứng đầu",
+                    "DuplicateNameCaption": "Column with the same code already exists",
+                    "PatternPrefixTemplate": "Code must start with the \"{0}\" prefix"
+                },
+                "DataSourceGroup": {
+                    "DoNotControlIntegrityCaption": "Không kiểm soát tính toàn vẹn",
+                    "DoNotControlIntegrityTooltip": "Disables integrity control for the lookup relationship."
+                },
+                "DefaultValueTypes": {
+                    "None": "Không",
+                    "Const": "Hằng số",
+                    "Settings": "Cài đặt hệ thống",
+                    "SystemValue": "Biến hệ thống",
+                    "Sequence": "Autonumber"
+                },
+                "DefaultValueDialog": {
+                    "Title": "Giá trị mặc định",
+                    "ValueTypeCaption": "Loại giá trị mặc định",
+                    "ValueCaption": "Giá trị",
+                    "LookupValueRecordDeletedCaption": "the lookup value was deleted",
+                    "Cancel": "Hủy",
+                    "Ok": "Ok",
+                    "sequencePrefix": "Prefix",
+                    "sequenceNumberOfChars": "Number of digits"
+                }
+            },
+            "IndexEditor": {
+                "GeneralGroup": {
+                    "Caption": "Tổng quát",
+                    "NameCaption": "Mã",
+                    "UniqueCaption": "Duy nhất",
+                    "GenerateNameAutomaticallyCaption": "Tạo tên tự động",
+                    "NameTooltip": "Unique name of the index.",
+                    "UniqueTooltip": "Prevents duplicate combinations of values in indexed columns."
+                },
+                "IndexColumns": {
+                    "Caption": "Cột chỉ mục",
+                    "AddIndexColumnsDialogCaption": "Chọn cột",
+                    "TitleCaption": "Chức danh",
+                    "ColumnName": "Mã",
+                    "SortingOrder": "Đang sắp xếp thứ tự",
+                    "Blankslate": "Không có cột nào trong chỉ mục"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "Nhập một giá trị",
+                    "PatternNameCaption": "Giá trị không hợp lệ. Sử dụng các ký hiệu: a-z, A-Z, 0-9. Ký hiệu: 0-9 không được đứng đầu",
+                    "DuplicateNameCaption": "Hình ảnh có cùng mã đã tồn tại"
+                }
+            },
+            "EntityColumnTypes": {
+                "TextCaption": "Văn bản",
+                "NumberCaption": "Số",
+                "OtherCaption": "Khác",
+                "DateTimeCaption": "Ngày/Thời gian"
+            },
+            "EventsEditor": {
+                "EventGroupType": {
+                    "Add": "Adding",
+                    "Saving": "Đang lưu",
+                    "Updating": "Đang cập nhật",
+                    "Delete": "Deleting",
+                    "Loading": "Đang tải",
+                    "ColumnValues": "Các giá trị cột"
+                },
+                "Events": {
+                    "Inserting": "Before record added",
+                    "Inserted": "After record added",
+                    "Validating": "Validating",
+                    "Saving": "Before record saved",
+                    "Saved": "After record saved",
+                    "SaveError": "Lỗi lưu bản ghi",
+                    "Updating": "Before record updated",
+                    "Updated": "After record updated",
+                    "Deleting": "Before record deleted",
+                    "Deleted": "After record deleted",
+                    "DefColumnValuesSet": "Trường giá trị mặc định",
+                    "Loading": "Before data loaded",
+                    "Loaded": "After data loaded",
+                    "ColumnValueChanging": "Before column value changed",
+                    "ColumnValueChanged": "After column value changed",
+                    "ColumnBinaryValuePackageLoading": "Binary Value Stream Loading",
+                    "InsertingTooltip": "Triggered before a new record is added to the database.",
+                    "InsertedTooltip": "Triggered after a new record is successfully added to the database.",
+                    "ValidatingTooltip": "Triggered when record data is being validated before saving.",
+                    "SavingTooltip": "Triggered before any record changes are saved to the database.",
+                    "SavedTooltip": "Triggered after record changes are successfully saved to the database.",
+                    "SaveErrorTooltip": "Triggered when an error occurs while saving a record.",
+                    "UpdatingTooltip": "Triggered before an existing record is updated in the database.",
+                    "UpdatedTooltip": "Triggered after an existing record is successfully updated in the database.",
+                    "DeletingTooltip": "Triggered before a record is deleted from the database.",
+                    "DeletedTooltip": "Triggered after a record is successfully deleted from the database.",
+                    "DefColumnValuesSetTooltip": "Triggered when default values are assigned to record columns.",
+                    "LoadingTooltip": "Triggered before record data is loaded from the database.",
+                    "LoadedTooltip": "Triggered after record data is successfully loaded from the database."
+                }
+            },
+            "EntitySchemaDesignerStructure": {
+                "InheritedColumnsCaption": "Inherited columns",
+                "ColumnsCaption": "Columns",
+                "IndexesCaption": "Indexes",
+                "EventsCaption": "Các sự kiện",
+                "SourceCodeCaption": "Mã nguồn"
+            },
+            "Addons": {
+                "BusinessRule": "Các quy tắc nghiệp vụ",
+                "RelatedPage": "Web pages",
+                "TimelineEntity": "Mốc thời gian",
+                "UseSchemaInTimelineCheckbox": "Show in Timeline component by default",
+                "RelatedPagesCaption": "Pages setup",
+                "Timeline": {
+                    "NoDisplayColumnNotify": "A display value should be specified to display object in the Timeline component"
+                },
+                "MobileRelatedPage": "Mobile app pages",
+                "PredefinedFilters": "Pre-defined filters",
+                "UseSchemaInTimelineCheckboxTooltip": "Displays records of this object in the Timeline component on related pages by default."
+            },
+            "SaveConfirmationDialog": {
+                "Save": "Lưu",
+                "DoNotSave": "Don't save",
+                "Cancel": "Hủy",
+                "Message": "Tất cả các thay đổi sẽ được lưu. Tiếp tục?"
+            },
+            "DeleteConfirmationDialog": {
+                "BusinessRule": "Do you wish to delete business rule?"
+            },
+            "DisableAddonEditBeforeSchemaSaveTooltipText": "The settings will be available after saving new object"
+        },
+        "ClientUnitSchemaDesigner": {
+            "ClientUnitSchemaDesignerPage": {
+                "JsCaption": "JS",
+                "LessCaption": "LESS",
+                "LocalizableStringsCaption": "Chuỗi bản địa hóa",
+                "MessagesCaption": "Tin nhắn",
+                "ImagesCaption": "Ảnh",
+                "ParametersCaption": "Các tham số",
+                "Addons": {
+                    "BusinessRule": "Các quy tắc nghiệp vụ"
+                },
+                "OpenInterfaceDesigner": "Open interface designer",
+                "CantSaveSchemaWithErrors": "Unable to save due to a syntax error."
+            },
+            "ClientUnitDesignerMiniPage": {
+                "Title": "Mô-đun",
+                "CaptionTitle": "Tiêu đề",
+                "ParentCaption": "Đối tượng cha",
+                "Validations": {
+                    "RequiredNameCaption": "Nhập một giá trị"
+                },
+                "OpenDesigner": "Mở designer"
+            },
+            "ClientUnitCaptionsMiniPage": {
+                "Title": "Các tiêu đề",
+                "Apply": "Áp dụng",
+                "Cancel": "Hủy"
+            },
+            "ClientUnitMessagesMiniPage": {
+                "Title": "Tin nhắn",
+                "NameCaption": "Mã",
+                "DirectionCaption": "Hướng",
+                "BroadcastCaption": "Broadcast",
+                "AddressCaption": "Địa chỉ",
+                "ModeCaption": "Chế độ",
+                "SubscribeCaption": "Đăng ký",
+                "PublishCaption": "Phát hành",
+                "Add": "Thêm",
+                "Apply": "Áp dụng",
+                "Cancel": "Hủy",
+                "Validations": {
+                    "RequiredNameCaption": "Nhập một giá trị",
+                    "PatternNameCaption": "Giá trị không hợp lệ. Sử dụng các ký hiệu: a-z, A-Z, 0-9. Ký hiệu: 0-9 không được đứng đầu",
+                    "DuplicateNameCaption": "Tin nhắn có cùng mã đã tồn tại"
+                }
+            },
+            "ClientUnitImagesMiniPage": {
+                "Title": "Hình ảnh",
+                "NameTitle": "Mã",
+                "CaptionTitle": "Tiêu đề",
+                "ImageTitle": "Hình ảnh",
+                "UidTitle": "Id",
+                "Add": "Thêm",
+                "Apply": "Áp dụng",
+                "Cancel": "Hủy",
+                "Validations": {
+                    "RequiredNameCaption": "Nhập một giá trị",
+                    "PatternNameCaption": "Giá trị không hợp lệ. Sử dụng các ký hiệu: a-z, A-Z, 0-9. Ký hiệu: 0-9 không được đứng đầu",
+                    "DuplicateNameCaption": "Hình ảnh có cùng mã đã tồn tại"
+                }
+            }
+        },
+        "SourceCodeSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "Chuỗi bản địa hóa",
+            "MetadataCaption": "Metadata",
+            "MetadataReadCaption": "Siêu dữ liệu (đọc)",
+            "ModifiedPackageCaption": "Sửa đổi gói",
+            "RunButtonCaption": "Run as install script",
+            "RunSourceCodeCaption": "Operation was successful"
+        },
+        "SourceCodeDesignerMiniPage": {
+            "Title": "Mã nguồn",
+            "Description": "Mô tả"
+        },
+        "SourceCodeCaptionsMiniPage": {
+            "Title": "Các tiêu đề",
+            "Apply": "Áp dụng",
+            "Cancel": "Hủy"
+        },
+        "UserTaskCaptionsMiniPage": {
+            "Title": "Các tiêu đề",
+            "Apply": "Áp dụng",
+            "Cancel": "Hủy",
+            "UserTask": "Thao tác người dùng",
+            "WithCustomEventHandler": "Với trình xử lý tùy chỉnh cho các sự kiện",
+            "Partial": "Một phần",
+            "Serialize": "Nối tiếp trong DB",
+            "ParametersEditPage": "Trang chỉnh sửa thông số",
+            "DcmParametersEditPage": "Trang chỉnh sửa thông số dcm",
+            "Color": "Màu sắc",
+            "SmallSvgImage": "Hình ảnh vector nhỏ",
+            "LargeSvgImage": "Hình ảnh vector lớn",
+            "TitleSvgImage": "Tiêu đề hình ảnh vector",
+            "DcmSmallSvgImage": "Hình ảnh vector nhỏ cho DCM",
+            "PageInaccessibleFromPackageInfo": "Selected page is inaccessible from current user task package. Please complete package dependencies or select the other page to ensure proper user task execution"
+        },
+        "UserTaskDesignerMiniPage": {
+            "Title": "Thao tác người dùng"
+        },
+        "UserTaskSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "Chuỗi bản địa hóa",
+            "ParametersCaption": "Các tham số",
+            "MetadataCaption": "Metadata",
+            "MetadataReadCaption": "Siêu dữ liệu (đọc)",
+            "ModifiedPackageCaption": "Sửa đổi gói",
+            "InvalidClassNameConfirmationMessage": "User task property \"Code\" doesn't match class name in the source code. The user task cannot be executed with the current settings. Do you want to continue saving?"
+        },
+        "MetaDataSchemaDesigner": {
+            "MetaDataCaption": "Metadata",
+            "HumanReadableMetaDataCaption": "Metadata (Read-Only)",
+            "PackageDifferenceMetaDataCaption": "Modifications package"
+        },
+        "RelatedPagesDesigner": {
+            "RelatedPageLabel": "Default page",
+            "AddPageLabel": "Thêm trang",
+            "ExternalPageCaption": "Pages setup for external users",
+            "RelatedPagesCaption": "Pages setup",
+            "DefaultPageSelectionTooltip": "Select or create default page for editing, reading, and creating records.\nWe recommend using a Freedom UI page with the current object used as data source.",
+            "AddPageTooltip": "Select or create a specific page that will be only used for adding a new record.",
+            "RelatedPageCombobox": {
+                "AddNewPage": "Thêm trang mới",
+                "OpenPageInDesignerTitle": "Open interface designer"
+            },
+            "DefaultPagePlaceholder": "Page to use if no other page is specified",
+            "AddPagePlaceholder": "Page to use for adding records"
+        }
+    },
+    "Tracking": {
+        "ValidationMessage": {
+            "InvalidValue": "Giá trị không hợp lệ",
+            "RequiredFieldValue": "Nhập một giá trị",
+            "LongFieldValue": "Vượt quá độ dài văn bản tối đa (255)",
+            "InvalidNumberValue": "Định dạng số không hợp lệ"
+        },
+        "BaseItemMenuComponent": {
+            "Delete": "Xóa",
+            "Edit": "Chỉnh sửa"
+        },
+        "ConnectionDescription": {
+            "Checking": "Đang kiểm tra",
+            "Connected": "Đã được kết nối",
+            "Disconnected": "Ngắt kết nối",
+            "Warning": "Cảnh báo"
+        },
+        "ProjectsSection": {
+            "Add": "Dự án mới",
+            "Title": "Cài đặt theo dõi sự kiện (Dự án)",
+            "Columns": {
+                "Name": "Tên dự án",
+                "Owner": "Người phụ trách",
+                "Description": "Mô tả",
+                "CreatedOn": "Tạo",
+                "ModifiedOn": "Cập nhật cuối cùng"
+            },
+            "BlankSlate": {
+                "Title": "Phần này không có bản ghi nào.",
+                "Description": "Thêm một bản ghi mới để khiến nó đẹp hơn."
+            }
+        },
+        "ProjectPage": {
+            "Detail": {
+                "Name": "Tên dự án",
+                "Owner": "Người phụ trách",
+                "Description": "Mô tả",
+                "CreatedOn": "Tạo",
+                "ModifiedOn": "Cập nhật cuối cùng",
+                "TotalEvents": "Tổng số sự kiện",
+                "ConversionRate": "Tỷ lệ chuyển đổi",
+                "DefaultValues": {
+                    "Name": "Dự án mới",
+                    "Description": "Mô tả mới"
+                }
+            },
+            "ResourceDetail": {
+                "Header": "Đang kiểm tra nguồn lực",
+                "Columns": {
+                    "Name": "Tên nguồn lực",
+                    "Status": {
+                        "Caption": "Trạng thái",
+                        "Active": "Kích hoạt",
+                        "Inactive": "Không còn hoạt động"
+                    },
+                    "Source": "Nguồn",
+                    "CreatedOn": "Tạo",
+                    "ModifiedOn": "Cập nhật cuối cùng"
+                }
+            }
+        },
+        "ResourcePage": {
+            "CreatedOn": "Được tạo vào",
+            "ModifiedOn": "Điều chỉnh vào ngày",
+            "Name": "Tên",
+            "Source": "ID (URL cho trang web)",
+            "Active": "Kích hoạt",
+            "DefaultName": "Nguồn lực mới",
+            "DefaultSource": "https://example.com",
+            "Tabs": {
+                "TrackingCode": "Đang kiểm tra mã",
+                "GoalSettings": "Cài đặt mục tiêu"
+            },
+            "BasicCodeTitle": "Mã kiểm tra cơ bản",
+            "CustomEventTab": "Sự kiện tùy chỉnh",
+            "GoalDetail": {
+                "Header": "Đang kiểm tra mục tiêu",
+                "Columns": {
+                    "Name": "Tên mục tiêu",
+                    "EventTypeFilter": "Bộ lọc loại sự kiện",
+                    "Status": {
+                        "Caption": "Trạng thái",
+                        "Active": "Kích hoạt",
+                        "Inactive": "Không còn hoạt động"
+                    },
+                    "Cost": "Chi phí mục tiêu"
+                }
+            },
+            "GoalEditiDialog": {
+                "Header": "Cài đặt mục tiêu",
+                "Name": "Tên mục tiêu",
+                "UseEventCost": "Sử dụng chi phí sự kiện",
+                "Cost": "Chi phí Mục tiêu",
+                "Active": "Kích hoạt",
+                "FilterSettings": "Cài đặt bộ lọc mục tiêu",
+                "EventTypeFilter": "Bộ lọc loại sự kiện",
+                "EventNameFilter": "Bộ lọc tên sự kiện",
+                "EventValueFilter": "Bộ lọc giá trị sự kiện",
+                "EventCostFilter": "Bộ lọc chi phí sự kiện",
+                "Actions": {
+                    "Save": "Lưu",
+                    "Cancel": "Hủy"
+                },
+                "StringCondition": {
+                    "Equal": "Bằng",
+                    "Contains": "Bao gồm",
+                    "BeginWith": "Bắt đầu với",
+                    "EndWith": "Kết thúc với"
+                },
+                "NumberCondition": {
+                    "Equal": "Bằng",
+                    "LessOrEqual": "Ít hoặc bằng",
+                    "MoreOrEqual": "Lớn hơn hoặc bằng"
+                }
+            }
+        },
+        "CodePane": {
+            "CopyToClipboard": "Sao chép vào clipboard",
+            "OnCopiedToClipboard": "Sao chép thành công"
+        },
+        "BaseTrackingCode": {
+            "Header": "Mã kiểm tra cơ sở",
+            "Loading": "Đang tải...",
+            "InfoBlock": {
+                "Title": "Quan trọng",
+                "Content": "Mã theo dõi cơ bản cho tài nguyên này phải được đặt trên tất cả các trang của trang web.",
+                "LinkText": "Chi tiết về cách thiết lập mã theo dõi cơ bản"
+            },
+            "NotReady": "Lưu tài nguyên trước khi nhận mã theo dõi."
+        },
+        "EventCodeGenerator": {
+            "Header": "Mã kiểm tra sự kiện",
+            "Form": {
+                "EventType": "Loại sự kiện",
+                "EventName": "Tên sự kiện",
+                "EventValue": "Giá trị sự kiện",
+                "EventCost": "Chi phí sự kiện"
+            },
+            "FormValidators": {
+                "EmptyForm": "Rỗng...",
+                "InvalidForm": "Kiểm tra mẫu cho bất kỳ lỗi..."
+            }
+        }
+    },
+    "QueueSorting": {
+        "QueueSectionHeader": "Cài đặt sắp xếp hàng đợi",
+        "AddQueueObjectCaption": "Thêm đối tượng hàng đợi",
+        "QueueObjectCaption": "Đối tượng hàng chờ",
+        "QueueTypeCaption": "Loại hàng chờ",
+        "BlindQueue": "Ẩn hàng chờ",
+        "RegularQueue": "Hàng đợi thường xuyên",
+        "AddQueueSortObjectCaption": "Thêm đối tượng xắp xếp",
+        "Empty": "Trống",
+        "RequiredFieldValue": "Chọn đối tượng hàng đợi",
+        "QueueObjectLookup": {
+            "NameColumnCaption": "Chức danh",
+            "Title": "Tra cứu đối tượng trong hàng đợi"
+        },
+        "QueueObjectColumnLookup": {
+            "NameColumnCaption": "Chức danh",
+            "Title": "Tra cứu cột sắp xếp đối tượng"
+        },
+        "QueueObjectColumnPage": {
+            "AddQueueObjectColumn": "Thêm cột",
+            "SortDirection": "Đang sắp xếp thứ tự",
+            "SelectColumn": "Cột",
+            "RequiredFieldValue": "Các trường bắt buộc không được điền"
+        },
+        "QueueObjectTable": {
+            "Actions": {
+                "Delete": "Xóa",
+                "Edit": "Cài đặt"
+            },
+            "RemoveToolTip": "Creatio không thể xóa một đối tượng sắp xếp vì hàng đợi hiện có sử dụng nó"
+        },
+        "QueueObjectColumnTable": {
+            "Caption": "Sắp xếp cột",
+            "ColumnCaption": "Tiêu đề",
+            "SortDirection": "Sắp xếp hướng",
+            "Position": "Ưu tiên",
+            "Empty": "Sắp xếp các cột không được thêm vào",
+            "Actions": {
+                "Delete": "Xóa",
+                "Edit": "Chỉnh sửa"
+            }
+        },
+        "OrderDirection": {
+            "Ascending": "Tăng dần",
+            "Descending": "Giảm dần",
+            "None": "Không"
+        }
+    },
+    "ChatSettings": {
+        "ChatSettingsPageHeader": "Trò chuyện",
+        "ChannelDetail": {
+            "DeleteAction": "Xóa",
+            "DeleteRecordErrorMessage": "Không thể xóa bản ghi đã chọn",
+            "Title": "Các kênh",
+            "Columns": {
+                "Name": "Tên",
+                "Status": {
+                    "Caption": "Kích hoạt"
+                },
+                "Queue": "Hàng chờ",
+                "Provider": "Nhà cung cấp"
+            },
+            "FacebookSettings": {
+                "InvalidSettings": {
+                    "Message": "Unable to add channel. You can find the setup requirements in the",
+                    "Link": {
+                        "Text": "mục."
+                    }
+                }
+            }
+        },
+        "ChannelPage": {
+            "Name": "Tên",
+            "Token": "Token",
+            "WebhookUrl": "Url",
+            "Status": "Trạng thái",
+            "Queue": "Hàng chờ",
+            "ChannelProcessingGroup": "Kênh xử lý",
+            "NewChannelCaption": "Kênh '{0}' mới",
+            "InactiveChannelMessage": "Để nhận tin nhắn, bạn phải kích hoạt kênh và chỉ định hàng đợi để xử lý. Bạn có chắc chắn muốn thêm một kênh không hoạt động không?",
+            "FacebookPageLinkCaption": "Trang Facebook",
+            "ActiveChannelCaption": "Kích hoạt",
+            "Language": "Ngôn ngữ",
+            "Telegram": {
+                "TelegramPageLinkCaption": "Telegram channel",
+                "InvalidTelegramToken": "Enter a correct token to create a channel",
+                "TelegramTokenAlreadyExists": "The channel already exists for the entered token",
+                "ActiveWebhookErrorMessageForCreating": "Unable to create the channel because a webhook integration is set up for the Telegram bot. Please delete the webhook integration to add the channel."
+            },
+            "Tips": {
+                "Language": "Creatio will set selected language as preferred language of contacts created through this channel. You can select only active languages. Go to the Languages lookup to activate/deactivate",
+                "WhatsAppToken": "Enter the AUTH TOKEN of your Twilio account.",
+                "WhatsAppId": "Enter your Twilio account SID.",
+                "WhatsAppTestPhoneNumber": "The phone number to which a test message will be send to confirm the channel."
+            },
+            "WhatsApp": {
+                "PageLinkCaption": "WhatsApp channel",
+                "ApplicationId": "Application Id",
+                "ChannelPhoneNumber": "Số điện thoại",
+                "IntegrationPhoneNumber": "Verification phone number",
+                "Connect": "Connect",
+                "InvalidPhoneNumber": "Allow only numbers",
+                "ChannelDuplicatedErrorMessage": "The channel already exists for the entered phone number",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "You entered an invalid Twilio account SID",
+                    "InvalidAccountPhoneNumberException": "You entered an invalid WhatsApp phone number",
+                    "AuthenticateException": "You entered an invalid Token"
+                }
+            },
+            "ValidationMessage": {
+                "required": "Nhập giá trị",
+                "wrongValue": "Giá trị sai"
+            },
+            "ErrorCodes": {
+                "ActiveWebhook": "The “{{channelName}}” chat channel is not receiving messages because a webhook integration is set up for the Telegram bot. Please delete the webhook integration and activate this channel to enable message reception.",
+                "PollingConflict": "The “{{channelName}}” chat channel is not receiving messages because another Telegram bot instance is configured. Please delete the duplicate instance to enable message reception."
+            },
+            "Sms": {
+                "ChannelDuplicatedErrorMessage": "The channel already exists for the entered phone number",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "You entered an invalid Twilio account SID",
+                    "InvalidAccountPhoneNumberException": "You entered an invalid phone number",
+                    "AuthenticateException": "You entered an invalid Token"
+                }
+            },
+            "Twilio": {
+                "ErrorMessages": {
+                    "ValidationException": "Unable to connect to Twilio. Please check that your account SID and token are correct and try again."
+                }
+            }
+        },
+        "ChatQueueDetail": {
+            "Title": "Hàng đợi trò chuyện",
+            "Columns": {
+                "Name": "Tên",
+                "Routing": {
+                    "Caption": "Quy tắc định tuyến"
+                },
+                "Simultaneous": "Trò chuyện đồng thời",
+                "Timeout": "Thời gian chờ trò chuyện, phút"
+            }
+        },
+        "ChatActionsDetail": {
+            "Title": "Các hành động trò chuyện",
+            "Columns": {
+                "Caption": "Tiêu đề",
+                "Process": "Xử lý",
+                "Queue": "Hàng chờ"
+            },
+            "Actions": {
+                "Delete": "Xóa"
+            }
+        },
+        "ChatQueuePage": {
+            "Title": "Hàng chờ",
+            "Name": "Tên",
+            "OperatorRoutingRule": "Quy tắc định tuyến",
+            "SimultaneousChats": "Trò chuyện đồng thời",
+            "TimeToWaitInQueue": "Thời gian để chờ đợi trong hàng đợi",
+            "Timeout": "Hết thời gian chờ hoàn thành cuộc trò chuyện, phút",
+            "Tips": {
+                "SimultaneousChats": "Số lượng cuộc trò chuyện tối đa cho mỗi nhân viên phân phối",
+                "Timeout": "Thời gian chờ tối đa trước khi trò chuyện sẽ tự động hoàn thành"
+            },
+            "ValidationMessage": {
+                "required": "Nhập giá trị",
+                "wrongValue": "Giá trị sai",
+                "nonNegativeValue": "Không thể cung cấp giá trị âm",
+                "nonNumericValue": "Không thể cung cấp giá trị không phải số"
+            }
+        },
+        "ChatActionPage": {
+            "Title": "Hành động trò chuyện",
+            "Caption": "Tiêu đề",
+            "Process": "Xử lý",
+            "ChatQueue": "Xếp hàng trò chuyện",
+            "ValidationMessage": {
+                "required": "Nhập giá trị"
+            }
+        },
+        "ChatQueueOperatorDetail": {
+            "Title": "Hàng đợi agent",
+            "Columns": {
+                "Operator": {
+                    "Caption": "Người dùng/vai trò"
+                }
+            },
+            "DuplicationMessage": "Một vai trò đã tồn tại. Vui lòng chọn điều hành / vai trò khác để tiếp tục"
+        }
+    },
+    "IntegrationDiagnostics": {
+        "EmailListener": {
+            "Header": "Email Listener service diagnostics",
+            "MailBoxAvailabilityCheck": "Kiểm tra sức khỏe hộp thư",
+            "ExchangeListenerAvaibilityCheck": "Xác minh tính khả dụng của dịch vụ",
+            "GetSubscriberInfo": "Nhận thông tin đăng ký",
+            "StartDiagnosticButtonCaption": "Chạy chẩn đoán",
+            "StartFullDiagnosticButtonCaption": "Chạy chẩn đoán đầy đủ",
+            "MailBoxLookupCaption": "Hộp thư",
+            "SuccessfulOperation": "Hoạt động thành công",
+            "UnSuccessfulOperation": "Lỗi",
+            "ELAvailabilityDescription": "Email Listener service is available for this site",
+            "ELNotAvailabilityDescription": "Email Listener service is currently not available for this site",
+            "ValidateCreatioExchangeEndpoint": "Validation of correctness of filling in the system setting BpmonlineExchangeEventsEndpointUrl",
+            "CreatioExchangeEndpontErrorValidationInfoTemplate": "Endpoint is not valid\nExpected value: {0}/NewEmail\nActual value: {1}\nCheck the system setup BpmonlineExchangeEventsEndpointUrl is full!",
+            "CreatioExchangeEndpontSuccessValidationInfoTemplate": "Điểm cuối {0} hợp lệ",
+            "SendTestEmail": "Gửi email thử nghiệm",
+            "MailboxAvailabilityDiagnosticTooltip": "Cần điền vào hộp thư",
+            "MailboxDiagnosticSuccessDescriptor": "Hộp thư này đã được xác minh thành công",
+            "NameCaption": "Tên",
+            "FeaturesStateLabel": "Trạng thái tính năng",
+            "ExchangeListenerEnabledFeatureCaption": "Đồng bộ hóa hộp thư Exchange (ExchangeListenerEnabled)",
+            "EmailIntegrationV2FeatureCaption": "Đồng bộ hóa hộp thư Exchange và IMAP (EmailIntegrationV2)",
+            "SendEmailsV2FeatureCaption": "Đang gửi emails (SendEmailsV2)",
+            "OldEmailIntegrationFeatureCaption": "Old email integration (OldEmailIntegrationFeature, state disabled)",
+            "IsMailboxSyncSettingsCachedFeatureCaption": "Mailbox sync settings cache (IsMailboxSyncSettingsCached)",
+            "ExchangeListenerAvailabilityCheck": "Creatio availability verification",
+            "ApplicationAvailabilityDescription": "Email Listener was able to reach Creatio",
+            "DiagnosticWasNotStarted": "Diagnostic was not started"
+        }
+    },
+    "StructureExplorerDialog": {
+        "NoData": "Không có dữ liệu",
+        "Title": "Chọn trường",
+        "CancelButtonCaption": "Hủy",
+        "SelectButtonCaption": "Chọn",
+        "RelatedObjectsTabCaption": "Các đối tượng liên quan {0}",
+        "FieldsTabCaption": "{0} các trường{1}",
+        "SearchPlaceHolder": "Tìm kiếm",
+        "SearchClearIconTitle": "Clear search"
+    },
+    "EntityColumnValuePickerProvider": {
+        "ValueFromFieldCaption": "Giá trị từ trường khác"
+    },
+    "FormulaValuePickerProvider": {
+        "ValueFromFieldCaption": "Công thức",
+        "CancelButtonCaption": "Hủy",
+        "SelectButtonCaption": "Lưu",
+        "DialogTitleCaption": "Biểu thức công thức"
+    },
+    "RepositorySection": {
+        "Title": "Danh sách kho lưu trữ SVN",
+        "Actions": {
+            "Add": "Thêm",
+            "Edit": "Chỉnh sửa",
+            "Authorize": "Authenticate",
+            "Delete": "Xóa"
+        },
+        "Messages": {
+            "SuccessAuthorize": "You successfully authenticated in repository"
+        },
+        "Columns": {
+            "Name": "Tên",
+            "Address": "Địa chỉ lưu trữ SVN",
+            "IsActive": "Kích hoạt",
+            "Login": "Đăng nhập",
+            "Password": "Mật khẩu"
+        },
+        "Page": {
+            "Title": "Lưu trữ SVN",
+            "Actions": {
+                "Add": "Thêm",
+                "Apply": "Áp dụng",
+                "Cancel": "Hủy",
+                "Authorize": "Authenticate"
+            },
+            "Validation": {
+                "Required": "Nhập một giá trị",
+                "MaxLength": "Độ dài văn bản tối đa vượt quá ({0} / {1})",
+                "NameField": {
+                    "Pattern": "Định dạng tên không hợp lệ"
+                }
+            }
+        },
+        "InfoBlock": {
+            "Title": "Important to know",
+            "TextPart1": "Transferring changes via SVN is intended for development environments only. Use the ",
+            "TextPart2": " section to transfer changes to a production environment.",
+            "InstallAppsLink": "https://academy.creatio.com/docs/user/no-code_customization/apps_and_extensions/install_applications_from_the_marketplace",
+            "InstallAppsLinkText": "Ứng dụng đã cài đặt",
+            "LinksMessage": "Learn more about SVN at the Creatio Academy:",
+            "DeploymentInCreatioIDEInfoLinkText": "Deployment in Creatio IDE",
+            "SetupVersionControlInfoLinkText": "Setup version control",
+            "DeploymentInCreatioIDEInfoLink": "https://academy.creatio.com/docs/developer/development_tools/deployment/transferring_solutions_in_creatio_ide",
+            "SetupVersionControlInfoLink": "https://academy.creatio.com/docs/node/1164"
+        }
+    },
+    "dataSource": "Nguồn dữ liệu",
+    "lookup": "Tra cứu",
+    "lookupValueDeletion": "Khi xóa giá trị tra cứu:",
+    "blockDeletionCaption": "Chặn xóa nếu có các bản ghi được kết nối trong đối tượng hiện tại với giá trị này",
+    "DeleteRecordsCaption": "Xóa bản ghi khỏi đối tượng hiện tại với giá trị này",
+    "lookupView": "Xem tra cứu",
+    "selectionWindow": "Chọn cửa sổ",
+    "list": "Danh sách",
+    "columnFormat": "Loại dữ liệu",
+    "columnNumberFormat": "Loại dữ liệu",
+    "selectValueCaption": "Nhập một giá trị",
+    "DataValueType": {
+        "TextCaption": "Văn bản",
+        "ShortTextCaption": "Văn bản (50 kí tự)",
+        "PhoneTextCaption": "Số điện thoại",
+        "MediumTextCaption": "Văn bản (250 kí tự)",
+        "LongTextCaption": "Văn bản (500 kí tự)",
+        "MaxSizeTextCaption": "Văn bản không có giới  hạn độ dài",
+        "SecureTextCaption": "Chuỗi được mã hóa",
+        "HashTextCaption": "CRC",
+        "IntegerCaption": "Số nguyên",
+        "FLOAT1Caption": "Số thập phân (0.1)",
+        "FLOAT2Caption": "Số thập phân (0.01)",
+        "FLOAT3Caption": "Số thập phân (0.001)",
+        "FLOAT4Caption": "Số thập phân (0.0001)",
+        "FLOAT8Caption": "Số thập phân (0.00000001)",
+        "MoneyCaption": "Currency (0.01)",
+        "DateTimeCaption": "Ngày/Thời gian",
+        "DateCaption": "Ngày",
+        "TimeCaption": "Thời gian",
+        "BooleanCaption": "Boolean",
+        "ImageCaption": "Hình ảnh",
+        "ImageLookupCaption": "Đường dẫn hình ảnh",
+        "FileCaption": "Tập tin",
+        "ColorCaption": "Màu sắc",
+        "GuidCaption": "Định danh duy nhất",
+        "BlobCaption": "BLOB",
+        "LookupCaption": "Tra cứu",
+        "Entity": "Đối tượng (Thực thể)",
+        "EntityCollection": "Bộ sưu tập các đối tượng (EntityCollection)",
+        "CustomObject": "Đối tượng",
+        "Collection": "Sự liệt kê",
+        "LocalizableString": "Chuỗi bản địa hóa",
+        "MetaDataText": "Không chuỗi bản địa hóa",
+        "ObjectList": "Danh sách giá trị có thể tuần tự hóa",
+        "CompositeObjectList": "Danh sách có thể tuần tự hóa các giá trị tổng hợp",
+        "FloatCaption": "Số thập phân",
+        "EntityColumnMappingCollection": "Object Column Values",
+        "RichCaption": "Rich text",
+        "PhoneTextShortenedCaption": "Điện thoại",
+        "WebTextCaption": "Web link",
+        "EmailTextCaption": "Địa chỉ Email",
+        "EmailTextShortenedCaption": "Email",
+        "TimerCaption": "Bộ bấm giờ",
+        "LocalTimeCaption": "Local time",
+        "CompositeObject": "Composite value",
+        "FLOAT0Caption": "Decimal (0)",
+        "Money0Caption": "Currency (0)",
+        "Money1Caption": "Currency (0.1)",
+        "Money3Caption": "Currency (0.001)"
+    },
+    "ValidationErrorDialogComponent": {
+        "Cancel": "Hủy",
+        "Close": "Đóng"
+    },
+    "AddEntityOperationGranteeDialog": {
+        "Add": "Thêm",
+        "Cancel": "Hủy",
+        "Operation": "Vận hành",
+        "UserOrRole": "Người dùng hoặc vai trò có được quyền",
+        "Title": "Add permissions based on role or user"
+    },
+    "UsedLicensesCounterChart": {
+        "ActiveLicensesTitle": "Kích hoạt giấy phép",
+        "ConcurrentLicenseTitle": "Concurrent licenses",
+        "UsedLicensesCountTitle": "Được cấp phép",
+        "UsedLicensesCountSeparatorLabel": "của",
+        "DistributedLicensesLegend": "Licenses assigned to users",
+        "AvailableLicensesLegend": "Limit for concurrent user sessions",
+        "UnlimitedCountLabel": "of unlimited users",
+        "LimitOfLicensesLabel": "Limit of licenses"
+    },
+    "RightsByEntityOperationsDetail": {
+        "Add": "Thêm",
+        "Title": "Additional permissions",
+        "Blankslate": "Add users or roles to grant them access to additional operations",
+        "Operation": "Vận hành",
+        "UserOrRole": "Người dùng hoặc vai trò có được quyền",
+        "ValidationMessage": "Fields are not filled"
+    },
+    "SelectEntityOperationDialog": {
+        "Cancel": "Hủy",
+        "Search": "Tìm kiếm",
+        "Operations": "Các hoạt động",
+        "Select": "Chọn",
+        "Title": "Entity operation",
+        "Users": "Các người dùng",
+        "SelectFieldPlaceholder": "Select entity operation"
+    },
+    "QuickEntityFilter": {
+        "NonGuidMessage": "Guid should contain 32 symbols with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)."
+    },
+    "SocialLeadgen": {
+        "ValidationMessage": {
+            "InvalidValue": "Giá trị không hợp lệ",
+            "RequiredFieldValue": "Nhập một giá trị",
+            "LongFieldValue": "Vượt quá độ dài văn bản tối đa (255)",
+            "InvalidNumberValue": "Định dạng số không hợp lệ"
+        },
+        "IntegrationTypes": {
+            "LinkedIn": "LinkedIn",
+            "Facebook": "Facebook / Instagram",
+            "Undefined": "Không xác định"
+        },
+        "IntegrationSettings": {
+            "Header": {
+                "Title": "Cài đặt"
+            },
+            "Detail": {
+                "Url": "Url to get leads",
+                "Group": "Role for receiving notifications"
+            },
+            "Notes": {
+                "Header": "Ghi chú",
+                "Text": "<p>Url to get leads – a Creatio URL that will receive the leads from the connected ad accounts.The Creatio website must be accessible to be able to receive the incoming requests. If you use a proxy server, specify the proxy URL instead of the Creatio URL. If your Creatio instance is a part of a restricted access network, whitelist the lead generation service IPs.</p><p>Role for receiving notifications — Creatio will notify the users within this role in case of any failures, such as errors when connecting ad accounts or creating leads.</p><p>The “Connection” tab displays the list of ad accounts and pages connected to Creatio. The list includes the current connection statuses on page, account, and token levels. You can manage the connections, for example, delete or reset them.</p><p>The “Logs” tab displays the lead generation functionality change log.</p>"
+            },
+            "Tabs": {
+                "Connection": "Connection",
+                "Logs": "Logs"
+            },
+            "AutorouteMessage": "To proceed with the work, you must fill in the \"Url to get leads\" field. By default, the field was filled with the current address of the application from the browser. Make sure you entered the correct application address and save the settings. These settings are made once when you open the section for the first time.",
+            "Error": {
+                "FormValidation": "Error when trying to save the settings. Please check all fields for any errors.",
+                "Save": "Failed to save the value entered in the \"Url to get leads\" field. Make sure to enter the correct, externally accessible address for the application."
+            },
+            "Logs": {
+                "IntegrationFilter": {
+                    "PlaceholderCaption": "Tích hợp",
+                    "EmptyOptionCaption": "Tất cả các mục"
+                },
+                "DateColumnCaption": "Ngày",
+                "IntegrationColumnCaption": "Tích hợp",
+                "DetailsColumnCaption": "Các chi tiết",
+                "IntegrationNotFound": "Không tìm thấy",
+                "GetIntegrationListError": "Failure has occurred while loading list of integrations. Loading has been aborted.",
+                "NoLogsMessage": "There are currently no logs to display"
+            },
+            "FacebookPagesConnections": {
+                "Header": "Facebook pages",
+                "Blankslate": "Connections to pages have not been configured yet."
+            },
+            "LinkedInAdAccountsConnections": {
+                "Header": "LinkedIn Ad accounts",
+                "Blankslate": "Connections to ad accounts have not been configured yet.",
+                "AdAccountsTable": {
+                    "DeleteConfirmation": "Are you sure you want to delete the ad account?",
+                    "DeleteError": "This ad account is connected to an integration. Delete the integration and try again",
+                    "Headers": {
+                        "Name": "Tên tổ chức",
+                        "Link": "Đường dẫn",
+                        "ConnectionStatus": "Trạng thái kết nối",
+                        "ExpirationDate": "Ngày hết hạn"
+                    },
+                    "ConnectionStatuses": {
+                        "Active": "Kích hoạt",
+                        "Inactive": "Không còn hoạt động"
+                    },
+                    "ConnectionStatusErrorMessage": {
+                        "Inactive": "Unable to access the ad account. Sign in to LinkedIn and set up permissions to accounts you need to integrate."
+                    },
+                    "UsersTable": {
+                        "DeleteConfirmation": "Are you sure you want to delete the token? This may cause issues with ad account access and lead retrieval",
+                        "Headers": {
+                            "UserName": "Network user",
+                            "TokenStatus": "Token status",
+                            "ExpirationDate": "Ngày hết hạn",
+                            "HasAdAccountAccess": "Provides access to acount"
+                        },
+                        "TokenStatuses": {
+                            "Active": "Kích hoạt",
+                            "Expired": "Đã hết hạn",
+                            "Revoked": "Revoked",
+                            "Unknown": "Không biết"
+                        },
+                        "HasAdAccountAccess": {
+                            "Yes": "Đồng ý",
+                            "No": "Không"
+                        },
+                        "TokenStatusErrorMessage": {
+                            "Expired": "Sign in to LinkedIn and grant permissions to ad accounts on behalf of the user whose token expired.",
+                            "Revoked": "The token was revoked.\nPossible reasons:\n- This account was used to log in to a different Creatio instance.\n- The lead generation app was disconnected on LinkedIn’s end.\nTo resolve this issue, sign in to LinkedIn one more time and grant permissions to ad accounts on behalf of the user whose token was revoked.",
+                            "Unknown": "Unable to retrieve the token status due to one or more errors during the request. Please refresh the page."
+                        },
+                        "MenuCell": {
+                            "Delete": "Xóa",
+                            "Reconnect": "Reconnect"
+                        }
+                    }
+                }
+            }
+        },
+        "IntegrationSection": {
+            "DeleteConfirmation": "Are you sure you want to delete this integration? Creatio will not be able to retrieve new leads from it",
+            "DeleteError": "Unable to delete the integration, access to ad account denied. Grant access to the corresponding ad account and try again",
+            "Header": {
+                "Title": "Social leadgen integrations",
+                "Buttons": {
+                    "New": "Mới",
+                    "Logs": "Logs",
+                    "Settings": "Cài đặt"
+                }
+            },
+            "Columns": {
+                "Name": "Tên",
+                "Type": "Loại",
+                "IsActive": "Kích hoạt",
+                "IntegrationSectionItemMenu": {
+                    "Delete": "Xóa",
+                    "Activate": "Kích hoạt",
+                    "Deactivate": "Hủy kích hoạt"
+                }
+            },
+            "BlankSlate": {
+                "Description": "You don't have any integrations configured."
+            }
+        },
+        "IntegrationPage": {
+            "ToggleStateCaptions": {
+                "Active": "Kích hoạt",
+                "Inactive": "Không còn hoạt động"
+            },
+            "Header": {
+                "Buttons": {
+                    "Logs": "Logs",
+                    "Settings": "Cài đặt"
+                }
+            },
+            "Error": {
+                "Save": "Unable to modify settings. Make sure the required object fields are mapped and the \"Unmapped form fields\" macro settings are specified.",
+                "FormSelection": "Unable to modify settings. Make sure the required object fields are mapped and the \"Unmapped form fields\" macro settings are specified."
+            },
+            "BlankSlate": {
+                "Title": "We were unable to find active forms in the selected ad account.",
+                "Description": "Please create a lead form or choose another account to setup."
+            },
+            "BlankSlateError": {
+                "Title": "Unable to access the account.",
+                "Description": "Try to sign in and grant access again."
+            },
+            "Detail": {
+                "Name": "Tên",
+                "FacebookPage": "Trang Facebook",
+                "LinkedinAdAccount": "LinkedIn account",
+                "DeactivateConfirmationQuestion": "Are you sure you want to deactivate your subscription? Lead transfer from all forms will be stopped. The new status will take effect after the changes are saved at the integration card level."
+            },
+            "IntegrationSettings": {
+                "FacebookIsNotSet": "Facebook integration is not set.",
+                "LinkedInIsNotSet": "LinkedIn integration is not set.",
+                "Create": "Setup integration",
+                "DefaultIntegrationRecordName": "New social lead generation integration"
+            },
+            "InfoBlock": {
+                "Title": "Ghi chú",
+                "Text": "All forms for the selected page are connected to the Creatio. Make the default settings for all forms on the \"Default Settings\" tab. Unique settingsfor each form can be made on the \"Forms\" tab."
+            },
+            "ColumnMapping": {
+                "ExpansionPanelCaption": "Default mapping",
+                "Object": "Đối tượng",
+                "AddMapping": "Thêm",
+                "Hint": "Creatio applies the default mapping to all ad account forms.\nThe settings only apply to the form columns with the user profile information.\nYou can map custom questions, custom checkboxes, and hidden fields on the form record page. Select the “Custom mapping” checkbox to enable this feature.\n“Not mapped fields” macro lets you pass the values of all columns to a single object column.",
+                "DataTypes": {
+                    "Lookup": "Tra cứu",
+                    "Text": "Văn bản",
+                    "Boolean": "Boolean",
+                    "DateTime": "Date time",
+                    "Date": "Ngày",
+                    "Time": "Thời gian",
+                    "Number": "Số",
+                    "Macro": "Macro"
+                },
+                "FieldMenuCaptions": {
+                    "FormField": "Form field",
+                    "Text": "Giá trị văn bản",
+                    "Boolean": "Giá trị Boolean",
+                    "Lookup": "Giá trị tra cứu",
+                    "Other": "Khác"
+                },
+                "LinkedIn": "LinkedIn",
+                "BooleanValue": {
+                    "True": "Đúng",
+                    "False": "Sai"
+                },
+                "UnmappedMacroValue": "Unmapped form fields",
+                "LookupValueUnknown": "<not found>",
+                "ModalBox": {
+                    "SetButtonCaption": "Thiết lập",
+                    "CancelButtonCaption": "Hủy",
+                    "SelectFormCaption": "Select form field",
+                    "EnterTextValueCaption": "Nhập giá trị"
+                }
+            },
+            "Logs": {
+                "ExpansionPanelCaption": "Logs",
+                "NoLogsForIntegrationMessage": "There are no logs for this integration",
+                "ShowMoreButtonCaption": "Hiển thị thêm",
+                "Types": {
+                    "Info": "Thông tin",
+                    "Warning": "Cảnh báo",
+                    "Error": "Lỗi"
+                }
+            },
+            "FormsList": {
+                "Header": "Forms",
+                "LinkedInStatus": "LinkedIn status",
+                "Hint": "Custom mapping settings override the default mapping settings. Map each form separately.\nIf you deactivate custom mapping, Creatio will apply the default mapping settings to the form.",
+                "FormStatus": {
+                    "Archived": "Đã lưu trữ",
+                    "Pending": "Đang chờ xử lý",
+                    "Approved": "Đã duyệt",
+                    "Preapproved": "Preapproved",
+                    "Rejected": "Bị từ chối",
+                    "NeedsReview": "Needs review",
+                    "AutoApproved": "Auto approved",
+                    "AutoRejected": "Auto rejected",
+                    "Undefined": "Không xác định",
+                    "NotActive": "Không kích hoạt"
+                },
+                "MappingType": {
+                    "DefaultMapping": "Default mapping",
+                    "CustomMapping": "Custom mapping"
+                },
+                "BlankSlate": {
+                    "Description": "For this form the default mapping settings are applied."
+                },
+                "DeactivateFormConfirmationQuestion": "Are you sure you want to unsubscribe from receiving leads from this form in Creatio? The new status will take effect after the changes are saved at the integration card level.",
+                "ObjectsTitle": {
+                    "Lead": "Lead"
+                }
+            },
+            "IntegrationSyncInfo": {
+                "Header": "Lead sync information",
+                "UnableToAdAccountAccess": "Unable to access the account. Lead synchronization stopped.",
+                "SaveIntegration": "Please save the integration and refresh the page to receive notifications on the status of lead sync.",
+                "SubscriptionInactive": "Lead subscription is inactive for the selected ad account. Lead sync has been stopped. Subscription activation will restore the receipt of leads in Creatio.",
+                "SubscriptionActive": "Lead subscription is active for the selected ad account. Leads created on the LinkedIn side will be transferred to Creatio."
+            },
+            "DownloadLeads": {
+                "ForForm": {
+                    "ButtonCaption": "Sync leads",
+                    "ModalBoxTitle": "Click “Sync” to upload the form’s leads for the period. The period is calculated regardless of the form’s lead subscription status at the time."
+                },
+                "ForAdAccount": {
+                    "ButtonCaption": "Sync all leads",
+                    "ModalBoxTitle": "Click “Sync” to upload the ad account’s leads for the period. The period is calculated regardless of the account’s lead subscription status at the time. Creatio will not reupload the leads you have already synchronized."
+                },
+                "ModalBox": {
+                    "InformationText": "LinkedIn stores leads for 90 days.",
+                    "CancelButtonCaption": "Hủy",
+                    "DownloadButtonCaption": "Sync",
+                    "SuccessRunBusinessProcessInfoText": "The lead upload process started. It may take some time until the process is finished.",
+                    "UnknownFailedRunBusinessProcessInfoText": "Failed to start the lead upload process. Please try again later. If the startup error persists, contact technical support."
+                }
+            }
+        },
+        "SocialMediaProvider": {
+            "New": "New integration",
+            "RestoreAccess": "Restore access"
+        },
+        "IntegrationError": {
+            "InvalidScope": "Unable to connect to the lead generation service. The lead generation service’s user account lacks essential permissions. Please contact Creatio support to fix this issue.",
+            "InvalidClient": "Unable to connect to the lead generation service. Unexpected values in the “Identity server client id” and “Identity server client secret” system settings. Please contact Creatio support to fix this issue.",
+            "InvalidSettings": "Unable to connect to the lead generation service. The following system settings are empty: “Identity server URL”, “Identity server client id”, “Identity server client secret”.",
+            "GeneralError": "Unable to connect to the lead generation service. Please refresh the page or contact Creatio support if the problem persists."
+        }
+    },
+    "CodeMirror": {
+        "HotkeysDescription": "Hot keys:",
+        "SelectAll": "Ctrl-A Select all",
+        "Undo": "Ctrl-Z Undo",
+        "Redo": "Shift-Ctrl-Z Redo",
+        "Find": "Ctrl-F Find",
+        "FindNext": "F3 Find next",
+        "FindPrev": "Shift-F3 Find previous",
+        "Replace": "Shift-Ctrl-F Replace",
+        "ReplaceAll": "Shift-Ctrl-R Replace all",
+        "DeleteLine": "Ctrl-Y Delete line",
+        "GoLineStart": "Alt-Left Go to line start",
+        "GoLineEnd": "Alt-Right Go to line end",
+        "JmpToLine": "Alt-G Jump to line",
+        "Fullscreen": "F11 Fullscreen code editor",
+        "FullscreenExit": "Esc Exit fullscreen mode",
+        "Autocomplete": "Ctrl-Space Call autocomplete"
+    },
+    "CDK": {
+        "IndicatorWidget": {
+            "Caption": "Số liệu"
+        },
+        "ChartWidget": {
+            "Line": {
+                "Caption": "Dòng"
+            },
+            "Spline": {
+                "Caption": "Spline"
+            },
+            "Area": {
+                "Caption": "Vùng"
+            },
+            "Scatter": {
+                "Caption": "Rải rác"
+            },
+            "Bar": {
+                "Caption": "Cột"
+            },
+            "HorizontalBar": {
+                "Caption": "Thanh"
+            },
+            "Pie": {
+                "Caption": "Bánh"
+            },
+            "Doughnut": {
+                "Caption": "Doughnut"
+            },
+            "Tsfunnel": {
+                "Caption": "Pipeline"
+            },
+            "Common": {
+                "EmptyValue": "Giá trị không xác định",
+                "ShowSeriesDataCaption": "Show data by series",
+                "ShowDataCaption": "Hiển thị dữ liệu",
+                "DrillDownCaption": "Tra thêm về mục",
+                "BooleanTrueValue": "Đồng ý",
+                "BooleanFalseValue": "Không",
+                "ExportDataBtnCaption": "Xuất ra Excel",
+                "HideSeries": "Ẩn",
+                "ShowDataForSelectedSeriesCaption": "Show data for this series",
+                "ShowSeries": "Show",
+                "ShowDataAsTableCaption": "Show data as table"
+            },
+            "ChangeChartType": {
+                "Caption": "Thay đổi kiểu biểu đồ"
+            },
+            "With": {
+                "Caption": "with"
+            },
+            "Series": {
+                "Caption": "series"
+            },
+            "ScreenReader": {
+                "AnnounceChartTypeChange": "Chart type changed to {{chartType}}"
+            }
+        },
+        "FunnelWidget": {
+            "OpportunityFunnel": {
+                "Caption": "Pipeline bán hàng",
+                "ByCountLabelTemplate": "{0}",
+                "StageConversionLabelTemplate": "{0}%",
+                "ToFirstStageLabelTemplate": "{0}%",
+                "ByCountBtnLabel": "Số các cơ hội",
+                "StageConversionBtnLabel": "Stage Conversion Rate",
+                "ToFirstStageBtnLabel": "Pipeline Conversion",
+                "DefaultTitle": "Pipeline mới"
+            },
+            "FullPipelineFunnel": {
+                "Caption": "Pipeline đầy đủ",
+                "ByCountBtnLabel": "Số lượng các bản ghi",
+                "StageConversionBtnLabel": "Stage Conversion Rate",
+                "ToFirstStageBtnLabel": "Pipeline Conversion",
+                "DefaultTitle": "Pipeline mới"
+            },
+            "Tooltip": {
+                "CountInStage": "Đếm",
+                "CountInStageValue": "{0}",
+                "Amount": "Số tiền",
+                "AmountValue": "{0} {1}",
+                "ConversionToStage": "Quá trình chuyển đổi",
+                "ConversionToStageValue": "{0}%",
+                "ConversionToFirstStage": "Quá trình chuyển đổi",
+                "ConversionToFirstStageValue": "{0}%",
+                "ConversionToStageCount": "Đếm",
+                "ConversionToStageCountValue": "{0}",
+                "ConversionToFirstStageCount": "Đếm",
+                "ConversionToFirstStageCountValue": "{0}"
+            }
+        },
+        "GaugeWidget": {
+            "Caption": "Máy đo"
+        },
+        "HeaderWidget": {
+            "Fullscreen": {
+                "ExpandLabel": "Expand fullscreen",
+                "CollapseLabel": "Collapse fullscreen"
+            },
+            "Direction": {
+                "Menu": {
+                    "Caption": "Chart position"
+                },
+                "Column": {
+                    "Caption": "Above"
+                },
+                "Row": {
+                    "Caption": "Trái"
+                },
+                "RowReverse": {
+                    "Caption": "Phải"
+                }
+            }
+        },
+        "ByCaption": "bởi",
+        "ByColumnCaption": "theo cột",
+        "WhereColumnCaption": "where",
+        "IsColumnCaption": "is",
+        "ListWidget": {
+            "Caption": "List widget",
+            "Hint": "A component that combines a fully functional list with a customizable colored frame, ensuring visual consistency when placed alongside other analytics widgets"
+        },
+        "WaterfallWidget": {
+            "Caption": "Waterfall pipeline",
+            "DefaultTitle": "New waterfall pipeline"
+        },
+        "SalesWaterfallWidget": {
+            "Caption": "Sales waterfall pipeline",
+            "DefaultTitle": "New sales waterfall pipeline"
+        }
+    },
+    "Components": {
+        "Input": {
+            "Caption": "Văn bản"
+        },
+        "NumberInput": {
+            "Caption": "Số"
+        },
+        "Button": {
+            "Caption": "Nút",
+            "DefaultActionNotificationMessageText": "Data saved successfully"
+        },
+        "Checkbox": {
+            "Caption": "Hộp kiểm"
+        },
+        "Combobox": {
+            "Caption": "Dropdown",
+            "AddNewRecord": "Thêm mới",
+            "IsGoToSourceAllowedTooltip": "Go to record list"
+        },
+        "DataGrid": {
+            "Caption": "Danh sách",
+            "Hint": "A customizable data display component that allows users to view and interact with structured information"
+        },
+        "DateTimePicker": {
+            "Caption": "Ngày/Thời gian"
+        },
+        "Gallery": {
+            "Caption": "Gallery"
+        },
+        "ColorPicker": {
+            "Caption": "Color picker"
+        },
+        "Label": {
+            "Caption": "Hoãn"
+        },
+        "ExpansionPanel": {
+            "Caption": "Expansion panel"
+        },
+        "TabPanel": {
+            "Caption": "Tabs",
+            "AddTab": "Add tab",
+            "DeleteTab": "Delete tab",
+            "DefaultTab1Name": "Tab 1",
+            "DefaultTab2Name": "Tab 2",
+            "NewTabName": "Tab mới",
+            "DeleteTabConfirmation": "Delete the \"{0}\" tab and all items inside?",
+            "DefaultLabel1Name": "Label 1",
+            "DefaultLabel2Name": "Label 2",
+            "NewLabelName": "New label"
+        },
+        "Slider": {
+            "Caption": "Slider"
+        },
+        "ExpandedList": {
+            "Caption": "Expanded list",
+            "Hint": "The Expanded list includes a list, a expandable group, and an add entry button. Recommended to use on pages to display related information.",
+            "AddBtnCaption": "Mới",
+            "RefreshBtnCaption": "Làm mới",
+            "SettingsBtnCaption": "Các hành động",
+            "ExportDataBtnCaption": "Xuất ra Excel",
+            "ImportDataBtnCaption": "Nhập dữ liệu"
+        },
+        "ActionDashboard": {
+            "Caption": "Action dashboard",
+            "Hint": "Displays information about the current state of a record using the workflow bar and the action panel. It is recommended to use the component on the form page."
+        },
+        "MenuItem": {
+            "Caption": "Mục menu"
+        },
+        "FileInput": {
+            "Caption": "Tập tin",
+            "LabelCaption": "File to upload",
+            "Placeholder": "Choose file"
+        },
+        "Attachment": {
+            "Caption": "Các đính kèm",
+            "Hint": "The Attachments component includes a file list, an expandable group, an upload file button, a refresh button. Recommended to use on a form page to display related attachments.",
+            "AddBtnCaption": "Upload",
+            "RefreshBtnCaption": "Làm mới"
+        },
+        "Breadcrumbs": {
+            "Back": "Trờ lại"
+        },
+        "File": {
+            "Caption": "Tập tin",
+            "Label": "File to upload",
+            "Placeholder": "Choose file"
+        },
+        "RichTextEditor": {
+            "Caption": "Rich text"
+        },
+        "TogglePanel": {
+            "Caption": "Toggle panel",
+            "Hint": "The container includes a collapsible tab container and a button block that allows you to control the display of tabs. You can place containers and buttons in different parts of the page independently of each other."
+        },
+        "Timeline": {
+            "Caption": "Mốc thời gian",
+            "AddObject": "+ Add object",
+            "ProvideDataSource": "Provide data source before using timeline",
+            "Tile": {
+                "TileObjectTitle": "Đối tượng: "
+            },
+            "DesignerCustomEntities": {
+                "Email": {
+                    "Caption": "Email"
+                },
+                "Feed": {
+                    "Caption": "Tin tức"
+                },
+                "Task": {
+                    "Caption": "Tác vụ"
+                },
+                "SysFile": {
+                    "Caption": "Tập tin"
+                }
+            },
+            "Hint": "The component displays communication history and related records in chronological order"
+        },
+        "ImageInput": {
+            "Caption": "Hình ảnh",
+            "LabelCaption": "Image to upload"
+        },
+        "SearchFilter": {
+            "Caption": "Tìm kiếm",
+            "Placeholder": "Tìm kiếm",
+            "Tooltip": "The Search component allows to search only by text, number and lookup columns with direct connections to list object.",
+            "ComparisonType": {
+                "StartsWith": "Search matches values that start with your input.",
+                "Contains": "Search matches values that contain your input."
+            }
+        },
+        "Approval": {
+            "Caption": "Các phê duyệt"
+        },
+        "ApprovalList": {
+            "Caption": "Approvals list",
+            "RefreshCaption": "Làm mới",
+            "ProvideDataSource": "Provide data source before using approvals"
+        },
+        "ProgressBar": {
+            "Caption": "Progress bar",
+            "Hint": "Stages execution indicator",
+            "ProvideDataSource": "Provide data source before using Progress bar"
+        },
+        "CommunicationOptions": {
+            "Caption": "Tùy chỉnh cho giao tiếp",
+            "Hint": "The  component displays Contact or Account communication options",
+            "AddBtnCaption": "Add communication option"
+        },
+        "CampaignViewer": {
+            "Caption": "Campaign viewer",
+            "Hint": "Displays campaign schema"
+        },
+        "TagSelect": {
+            "Caption": "Các nhãn"
+        },
+        "Summaries": {
+            "Caption": "Summaries"
+        },
+        "CalendarCaption": "Lịch",
+        "EntityHierarchyFilter": {
+            "Caption": "Hierarchy",
+            "AllCaption": "Tất cả",
+            "Hint": "Hierarchy view lets you configure the hierarchy structure by lookup columns to organize records. To ensure the component operates as intended, connect it in the page List or Data source settings"
+        },
+        "IndicatorWidget": {
+            "Caption": "Số liệu mới"
+        },
+        "Chat": {
+            "Caption": "Trò chuyện",
+            "Hint": "The component for real-time chatting and displaying previous conversations"
+        },
+        "ChartWidget": {
+            "Caption": "Đồ thị mới"
+        },
+        "GaugeWidget": {
+            "Caption": "Đo mới"
+        },
+        "Dashboards": {
+            "Caption": "Bảng điều khiển",
+            "Hint": "The Dashboards component lets you configure the data source, connect the component to the page where the component is placed, and create a new or change an existing dashboard"
+        },
+        "Toggle": {
+            "Caption": "Switcher"
+        },
+        "DataGridHierarchical": {
+            "Caption": "Hierarchical list",
+            "Hint": "A data display component that allows users to view and interact with structured information organized in a multi-level hierarchy"
+        },
+        "Feed": {
+            "Caption": "Tin tức"
+        },
+        "Divider": {
+            "Caption": "Phân chia"
+        },
+        "Switch": {
+            "Caption": "Switch"
+        }
+    },
+    "LayoutElements": {
+        "GridArea1": {
+            "Caption": "Vùng"
+        },
+        "GridColumn1": {
+            "Caption": "1 column"
+        },
+        "GridColumn2": {
+            "Caption": "2 columns"
+        },
+        "GridColumn3": {
+            "Caption": "3 columns"
+        },
+        "GridColumn4": {
+            "Caption": "4 columns"
+        },
+        "FlexRow": {
+            "Caption": "Flex row",
+            "Hint": "Lines up several elements horizontally. Creatio may resize the elements depending on the content. For example, place two buttons or a field and a button next to each other. Learn more in the Academy."
+        },
+        "FlexColumn": {
+            "Caption": "Flex column",
+            "Hint": "Lines up several elements vertically. Creatio may resize the elements depending on the content. For example, create a column with two blocks. Learn more in the Academy."
+        }
+    },
+    "HomePage": {
+        "DialogMessages": {
+            "RequiredFieldsAreNotFilled": "Required fields are not filled in, or the page has validation errors"
+        }
+    },
+    "DesignerSettingsComponent": {
+        "HeaderCaption": "Thiết lập đồ thị"
+    },
+    "InterfaceDesigner": {
+        "AddMenu": {
+            "NewDataSource": "New data source",
+            "ExistingDataSource": "Existing data source",
+            "AddDataSource": "Thêm nguồn dữ liệu"
+        },
+        "DataSourceActions": {
+            "Edit": "Chỉnh sửa",
+            "RemoveAttribute": "Xóa",
+            "Remove": "Xóa",
+            "RemoveExistingDataSourceMessage": "Are you sure you want to remove the data source? Any unsaved changes to its object will be lost.",
+            "RemoveNewDataSourceMessage": "Are you sure you want to remove the data source? This will permanently delete the new object as it hasn’t been saved yet.",
+            "RemoveDataSourceWithReferencesMessage": "Remove the referenced elements before deleting the data source",
+            "RemoveDataSourceSuccessMessage": "The data source has been deleted"
+        },
+        "SetupDataSourceDialog": {
+            "SetupDataSourceTitle": "Set up data source",
+            "CancelButtonDialog": "Hủy",
+            "SelectButtonDialog": "Chọn",
+            "Object": "Đối tượng",
+            "SelectDataSource": "Select data source"
+        },
+        "SetupEntityProperties": {
+            "NameColumnCaption": "Tên"
+        },
+        "SetupEntityPropertiesDialog": {
+            "Name": "Tên",
+            "Description": "Mô tả",
+            "SaveButton": "Lưu",
+            "CancelButton": "Hủy",
+            "Code": "Mã",
+            "Validations": {
+                "RequiredNameCaption": "Nhập giá trị"
+            }
+        },
+        "CopyPostfixCaption": "Sao chép",
+        "DesignElementSetting": {
+            "SettingsTitle": "Cài đặt",
+            "DuplicateTitle": "Sao chép",
+            "DeleteTitle": "Xóa"
+        },
+        "Messages": {
+            "SuccessfullySaved": "Đã lưu thành công"
+        },
+        "PropertiesPages": {
+            "EntityDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "Tổng quát"
+            },
+            "EntityDataSourcePropertiesPanel": {
+                "GeneralGroup": "Tổng quát",
+                "PrimaryDataSource": "Primary data source",
+                "PrimaryDataSourceChangeConfirm": "The primary data source for this page will be changed. Do you want to save changes?",
+                "BusinessRulesGroup": "Các quy tắc nghiệp vụ",
+                "Relations": "Relations setup",
+                "FiltersAndSorting": "Filters and sorting",
+                "isIndependentDataSource": "Independent data source",
+                "isIndependentDataSourceTooltip": "If enabled, this data source will always load data based only on its static filter and sorting criteria, regardless of the main record",
+                "ApplyStaticFilter": "Apply static filter",
+                "EditStaticFilterAction": "Edit filter",
+                "SetupStaticFilterAction": "Thiết lập bộ lọc",
+                "FiltersDialogCaption": "Manually defined filter",
+                "DoNotCreateEmptyRecordsLabel": "Do not create empty records",
+                "DoNotCreateEmptyRecordsTooltip": "If enabled, empty records will not be generated when the user has not changed any fields (including the default values set on object level) of this data source",
+                "KeepValuesOnCopy": "Keep values on copy",
+                "KeepValuesOnCopyTooltip": "If enabled, the record of this data source will be copied when copying the record of the main data source using this page",
+                "SchemaHasChanged": "Cannot set up a static filter if the new data source is not saved yet. Save the page and try again"
+            },
+            "ExpansionPanelPropertiesPage": {
+                "PageCaption": "Expansion panel settings",
+                "GeneralCaption": "Tổng quát",
+                "TitleLabel": "Chức danh",
+                "ToggleTypeLabel": "Kiểu",
+                "TogglePositionLabel": "Button position",
+                "ColorLabel": "Title color",
+                "DefaultToggleTypeLabel": "Mặc định",
+                "MaterialToggleTypeLabel": "Accordion",
+                "BeforeTogglePositionLabel": "Trái",
+                "AfterTogglePositionLabel": "Phải",
+                "FullWidthHeaderCaption": "Full width header",
+                "TitleWidthCaption": "Title width",
+                "PaddingGroup": "Spacing",
+                "Padding": {
+                    "Top": "Bên trên",
+                    "Bottom": "Bên dưới",
+                    "Left": "Trái",
+                    "Right": "Phải"
+                }
+            },
+            "LabelPropertiesPage": {
+                "PageCaption": "Label settings",
+                "GeneralCaption": "Tổng quát",
+                "TitleLabel": "Văn bản",
+                "TypeLabel": "Kiểu",
+                "TextAlignLabel": "Căn lề",
+                "ThicknessLabel": "Hình thức",
+                "FontSizeLabel": "Kích thước, px",
+                "FontColorLabel": "Màu chữ",
+                "BackgroundColorLabel": "Màu hình nền",
+                "AlignLeftCaption": "Trái",
+                "AlignCenterCaption": "Center",
+                "AlignRightCaption": "Phải",
+                "AlignJustifyCaption": "Justify",
+                "TypeH1Caption": "H1",
+                "TypeH2Caption": "H2",
+                "TypeH3Caption": "H3",
+                "TypeH4Caption": "H4",
+                "TypeH5Caption": "H5",
+                "TypeBody1Caption": "Body text",
+                "TypeCaptionCaption": "Tiêu đề",
+                "TypeBlankslateCaption": "Blankslate",
+                "ThicknessLightCaption": "Light",
+                "ThicknessNormalCaption": "Bình thường",
+                "ThicknessSemiboldCaption": "Semibold",
+                "ThicknessBoldCaption": "Bold",
+                "ThicknessDefaultCaption": "mặc định",
+                "TypeLarge1Caption": "Large 1",
+                "TypeLarge2Caption": "Large 2",
+                "TypeLarge3Caption": "Large 3",
+                "TypeLarge4Caption": "Large 4",
+                "TypeHeadline1Caption": "Headline 1",
+                "TypeHeadline1SmallCaption": "Headline 1 small",
+                "TypeHeadline2Caption": "Headline 2",
+                "TypeHeadline3Caption": "Headline 3",
+                "TypeHeadline4Caption": "Headline 4",
+                "TypeBodyLargeCaption": "Body large",
+                "TypeBodyCaption": "Thân",
+                "TypeCaptionLargeCaption": "Caption large",
+                "TypePlaceholderLargeCaption": "Placeholder large",
+                "TypePlaceholderCaption": "Placeholder",
+                "TypeButtonCaption": "Nút",
+                "TypeButtonSmallCaption": "Button small",
+                "AttributeBindingCaption": "The element contains preconfigured data display logic. If you need to implement alternative logic, then remove the element value.",
+                "ClearAttributeBinding": "Xóa giá trị",
+                "HeadingLevelCaption": "Heading level",
+                "HeadingLevelInfo": "The heading level helps better organize content on the page and improves its accessibility"
+            },
+            "DataGridPropertiesPage": {
+                "PageCaption": "List settings",
+                "GeneralCaption": "Tổng quát",
+                "DataSourceCaption": "Đối tượng",
+                "ChangeFilters": "Change filter",
+                "AttributeBindingUsage": "Attribute value used",
+                "MassActions": "Bulk actions",
+                "ApplyStaticFilter": "Apply static filter",
+                "SetupStaticFilterAction": "Thiết lập bộ lọc",
+                "EditStaticFilterAction": "Edit filter",
+                "Appearance": {
+                    "AppearanceGroup": "Appearance",
+                    "Editable": "Inline editing",
+                    "ItemsCreation": "Inline adding records",
+                    "FloatingEditPanel": "Floating edit panel",
+                    "FloatingEditPanelHint": "Enables users to use the floating edit panel to save or cancel changes in the editable list. When cleared, users can still use Save and Cancel page buttons for that purpose",
+                    "RowsNumeration": "Row numbers",
+                    "RowsMultiSelection": "Multiselect",
+                    "RowsLimit": "Limit number of rows",
+                    "RowsLimitPlaceholder": "Enter maximum number of rows",
+                    "RowsLimitTooltip": "Set a maximum number of records to display in the list. This is useful when you want to show a specific number of items — for example, \"Top 5 customers\".</br>When a limit is set, the “Select all” option is not available.",
+                    "Header": "List header",
+                    "ColumnsSorting": "Sorting",
+                    "ColumnsResizing": "Resizable columns",
+                    "ColumnsDragAndDrop": "Draggable columns"
+                },
+                "RowsNumeration": "Row numbers",
+                "StyleLabel": "Kiểu",
+                "Styles": {
+                    "PlainWhite": "Plain white",
+                    "Glassmorphism": "Glass effect"
+                }
+            },
+            "ViewElementEventPropertiesPanel": {
+                "EventFieldLabel": "Hành động",
+                "Requests": {
+                    "RunBusinessProcessRequest": "Chạy quy trình",
+                    "ClosePageRequest": "Close page",
+                    "SaveRecordRequest": "Save data",
+                    "CancelRecordChangesRequest": "Cancel changes",
+                    "OpenPageRequest": "Open specific page",
+                    "CreateRecordRequest": "Open new record",
+                    "UpdateRecordRequest": "Open existing record",
+                    "LoadDataRequest": "Refresh data",
+                    "ExportDataGridToExcelRequest": "Xuất ra Excel",
+                    "ImportDataRequest": "Nhập dữ liệu",
+                    "SetRecordRightsRequest": "Thiết lập các quyền truy cập",
+                    "UploadFileRequest": "Tải lên file",
+                    "ShowRelationshipsRequest": "Show record's relationships",
+                    "OpenDuplicatesPageRequest": "Open duplicates page",
+                    "AddСommunicationOptionsRequest": "Add communication option",
+                    "DeleteRecordsRequest": "Xóa dữ liệu",
+                    "ContinueInOtherPageRequest": "Continue in other page",
+                    "SelectLookupPageRequest": "Select data",
+                    "AddTagsInRecordsRequest": "Add tags",
+                    "RemoveTagsInRecordsRequest": "Remove tags",
+                    "PrintablesRequest": "Print report",
+                    "SetCalendarTimeScaleRequest": "Set calendar time scale",
+                    "AddCalendarSyncAccountRequest": "Add calendar synchronization account",
+                    "AddRecordsInStaticFoldersRequest": "Add records to static folder",
+                    "RemoveRecordsInStaticFoldersRequest": "Remove records from static folder",
+                    "CreateEmailRequest": "Create an email",
+                    "SendInvitesForActivityRequest": "Send invite",
+                    "MoveSelectedItemsRequest": "Move selected records",
+                    "CopilotActionRequest": "Creatio.ai action",
+                    "OpenChangeLogRequest": "Open change log",
+                    "SetupCalendarSyncAccountRequest": "Set up calendar synchronization account",
+                    "ToggleFollowFeedRequest": "Follow/Unfollow Feed",
+                    "DeleteRecordRequest": "Xóa bản ghi",
+                    "SetAttributeFromBarcodeRequest": "Open Barcode scanner",
+                    "SetAttributeFromNfcRequest": "Open NFC reader",
+                    "UpdateQuickFilterGroupRequest": "Setup filters"
+                },
+                "RunBusinessProcessRequest": {
+                    "WhichProcessRunQuestion": "Cần chạy quá trình nào?",
+                    "AddNewBusinessProcessButton": "Thêm quá trình mới",
+                    "SelectBusinessProcessButton": "Mở trình thiết kế quá trình",
+                    "HowProcessRunQuestion": "How to run the process?",
+                    "HowProcessRunLabel": "Xử lý tham số ở nơi bản ghi được thông qua",
+                    "HowRunProcessOptions": {
+                        "ForTheSelectedPage": "For the selected page",
+                        "RegardlessOfThePage": "Regardless of the page",
+                        "ForTheSelectedRecords": "For the selected records in list"
+                    },
+                    "DataSourceFieldCaption": "Which list to run process for?",
+                    "SaveAtProcessStart": "Save data before process start",
+                    "AnnounceProcessStart": "Show notification for process start",
+                    "NotificationTextFieldName": "Notification text",
+                    "DefaultNotificationText": "Process started"
+                },
+                "OpenPageRequest": {
+                    "Title": "Cần mở trang nào?",
+                    "OpenPageInDesignerTitle": "Open interface designer",
+                    "AddNewPage": "Thêm trang mới",
+                    "PageParameters": "Các tham số trang"
+                },
+                "CreateRecordRequest": {
+                    "WhichRecordToCreateLabel": "Which record to create?",
+                    "DefaultAttributeValuesLabel": "Cần cài đặt giá trị cột nào?"
+                },
+                "UpdateRecordRequest": {
+                    "WhichObjectToOpenRecordOfLabel": "Which object to open record of?",
+                    "WhichRecordToOpenLabel": "Which record to open?"
+                },
+                "LoadDataRequest": {
+                    "DataRefreshModeLabel": "Data refresh mode",
+                    "DataRefreshModeOptions": {
+                        "RefreshAll": "Refresh all",
+                        "RefreshSpecific": "Refresh specific data sources"
+                    },
+                    "DataSourcesSelection": {
+                        "DataSourceLabel": "Nguồn dữ liệu",
+                        "RefreshAll": {
+                            "Title": "Which data sources to exclude?",
+                            "Tooltip": "In “Refresh all” mode, all page data sources will be refreshed — including those added after this action is configured. Use this list to exclude specific data sources from being refreshed."
+                        },
+                        "RefreshSpecific": {
+                            "Title": "Which data sources to refresh?",
+                            "Tooltip": "Select the data sources that should be refreshed when the button is clicked."
+                        }
+                    }
+                },
+                "ExecuteCustomCode": "Execute custom code",
+                "OpenDuplicatesPageRequest": {
+                    "WhichObjectToOpenDuplicatesOfLabel": "Which application duplicates should be opened?"
+                },
+                "ShowRelationshipsRequest": {
+                    "SelectEntityLabel": "Which object to use?",
+                    "SelectRecordIdLabel": "By which column to connect?"
+                },
+                "SetCalendarTimeScaleRequest": {
+                    "Calendar": "Component to control",
+                    "TimeScale": "Time scale",
+                    "FiveMinutes": "5 phút",
+                    "TenMinutes": "10 phút",
+                    "FifteenMinutes": "15 phút",
+                    "ThirtyMinutes": "30 phút",
+                    "OneHour": "1 giờ"
+                },
+                "SendInvitesForActivityRequest": {
+                    "ActivityColumn": "Cột hoạt động",
+                    "RequiredFieldError": "This field is required"
+                },
+                "MoveSelectedItemsRequest": {
+                    "SourceDataGridComboBoxLabel": "Move data from",
+                    "TargetDataGridComboBoxLabel": "Move data to",
+                    "DefaultValuesLabel": "Select which columns should be moved",
+                    "DefaultValuesHint": "Select columns which values should be moved from the initial data source to the target data source."
+                },
+                "OpenChangeLogRequest": {
+                    "LogDisplaySettings": "Log display settings",
+                    "OpenLogForRecord": "Open the log for a selected record",
+                    "OpenLogForObject": "Open the log for an object",
+                    "WhichDataSourceOpenLog": "Which data source to open the log with?",
+                    "WhichObjectOpenLog": "Which object to open the log for?"
+                },
+                "SetFollowFeedRequest": {
+                    "Feed": "Feed component to control"
+                },
+                "SetAttributeFromBarcodeRequest": {
+                    "ColumnNameControl": {
+                        "Label": "Which column to set result to?",
+                        "RequiredFieldError": "This field is required"
+                    },
+                    "LookupFilterColumn": {
+                        "Label": "Search column name"
+                    }
+                }
+            },
+            "DefaultAttributeValues": {
+                "AddAttribute": "Thêm trường"
+            },
+            "ActionDashboardPropertiesPage": {
+                "PageCaption": "Action dashboard settings",
+                "GeneralCaption": "Tổng quát",
+                "DataSource": "Nguồn dữ liệu",
+                "GoToCasesButtonCaption": "Set up cases",
+                "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+                "ChannelsCaption": "Các kênh",
+                "CallAction": "Gọi",
+                "EmailAction": "Email",
+                "FeedAction": "Feed message",
+                "ActivityAction": "Tác vụ",
+                "CasesDisabledTitle": "Cases cannot be set up for the data source"
+            },
+            "PropertiesPanelIconSettings": {
+                "UseIcon": "Use icon",
+                "IconPositionLabel": "Vị trí",
+                "IconPosition": {
+                    "LeftIcon": "Icon left",
+                    "RightIcon": "Icon right",
+                    "OnlyIcon": "Only icon",
+                    "OnlyText": "Only text"
+                },
+                "IconLabel": "Biểu tượng"
+            },
+            "TabItemPropertiesPage": {
+                "GeneralGroup": "Tổng quát",
+                "CaptionLabel": "Chức danh",
+                "AppearanceGroup": "Appearance",
+                "IconPosition": {
+                    "LeftIcon": "Icon left",
+                    "OnlyIcon": "Only icon",
+                    "OnlyText": "Only text"
+                },
+                "PaddingGroup": "Spacing",
+                "Padding": {
+                    "Top": "Bên trên",
+                    "Bottom": "Bên dưới",
+                    "Left": "Trái",
+                    "Right": "Phải"
+                }
+            },
+            "MenuItemPropertiesPanel": {
+                "GeneralGroup": "Tổng quát",
+                "CaptionLabel": "Chức danh",
+                "ActionLabel": "Hành động",
+                "AppearanceGroup": "Appearance"
+            },
+            "GalleryPropertiesPanel": {
+                "PageCaption": "Gallery settings",
+                "GeneralCaption": "Tổng quát",
+                "AdditionalCaption": "Bổ sung",
+                "DataSourceCaption": "Đối tượng",
+                "CaptionColumnField": "Tiêu đề",
+                "DescriptionColumnField": "Mô tả",
+                "ImageColumnField": "Hình ảnh",
+                "SelectableConfigField": "Selectable",
+                "AppearanceGroup": "Appearance",
+                "MultiselectConfigField": "Multiselect",
+                "UseSpecificPageField": "Open specific page by clicking on the caption",
+                "SpecificPageLookupField": "Cần mở trang nào?",
+                "DefaultSizeFieldLabel": "Gallery item size",
+                "Sizes": {
+                    "Small": "Small",
+                    "Medium": "Trung bình",
+                    "Large": "Lớn",
+                    "ExtraLarge": "Extra Large"
+                },
+                "MassActions": "Bulk actions"
+            },
+            "FilePropertiesPage": {
+                "General": "Tổng quát",
+                "AllowedExtensions": "File extensions",
+                "AllowedExtensionsEmptyMessage": "If not set, all file types from File extensions AllowList system setting are allowed",
+                "MaxSize": "Maximum file size, MB",
+                "MaxSizeEmptyMessage": "If not set, default value from Attachment max size system setting is applied",
+                "LabelPosition": "Title position",
+                "LabelPositionVariants": {
+                    "Auto": "Tự động",
+                    "Left": "Trái",
+                    "Right": "Phải",
+                    "Above": "Above",
+                    "Hidden": "Hidden"
+                },
+                "Placeholder": "Placeholder",
+                "AppearanceGroup": "Appearance",
+                "DataSource": "Nguồn dữ liệu",
+                "Editability": "Khả năng chỉnh sửa",
+                "TitleOnPage": "Tiêu đê trên trang",
+                "EditabilityControls": {
+                    "Readonly": "Chỉ-đọc"
+                }
+            },
+            "FileListPropertiesPage": {
+                "PageCaption": "Attachment list settings",
+                "GeneralGroup": "Tổng quát",
+                "FileGroupLabel": "File group",
+                "TagLabel": "File tag",
+                "TagPlaceholder": "Show all record files by default",
+                "TagHint": "Use tag to filter record files, e.g., \"application documents\"",
+                "FileEntitySchemaLabel": "File storage location",
+                "FileGroups": {
+                    "Attachments": "Các đính kèm"
+                },
+                "AttributeToAttachFiles": "Record to attach files",
+                "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+                "AppearanceGroup": "Appearance",
+                "ViewTypeLabel": "Khung nhìn",
+                "TileSizeFieldLabel": "Gallery item size",
+                "Sizes": {
+                    "Small": "Small",
+                    "Medium": "Mức vừa",
+                    "Large": "Lớn",
+                    "ExtraLarge": "Extra Large"
+                },
+                "ViewTypeOption": {
+                    "List": "Danh sách",
+                    "Gallery": "Gallery"
+                }
+            },
+            "PropertiesPanelVisibilitySettings": {
+                "VisibilityGroup": "Visibility",
+                "Visible": "Visible",
+                "NotVisible": "Not visible",
+                "SetupConditions": "Set up conditions",
+                "DefaultValueNotSupported": "This element does not support default values for visibility"
+            },
+            "BaseCustomPropertiesPanel": {
+                "PageCaption": "Custom element settings",
+                "GeneralCaption": "Tổng quát",
+                "Description": "You can set up this element in page source code",
+                "OpenSourceCodeButtonCaption": "Open source code"
+            },
+            "ApprovalPropertiesPage": {
+                "HeaderLabel": "Approvals settings",
+                "SchemaNameLabel": "Which records to approve?",
+                "GeneralGroup": "Tổng quát",
+                "AppearanceGroup": "Appearance",
+                "HiddenWhenNoData": "Hidden when no data"
+            },
+            "ImportDataRequestPropertiesPanel": {
+                "EntitySchemaSelectCaption": "Which data to import"
+            },
+            "ExportDataGridToExcelRequestPropertiesPanel": {
+                "ViewSelectCaption": "Which data to export?"
+            },
+            "UploadFileRequestPropertiesPanel": {
+                "ViewSelectCaption": "Where upload files to?",
+                "AllowedExtensions": "What file extensions are allowed to upload?",
+                "AllowedExtensionsEmptyMessage": "If not set, all file types from \"File extensions AllowList\" system setting are allowed",
+                "MaxSize": "What is the maximum allowed file size in MB?",
+                "MaxSizeEmptyMessage": "If not set, default value from \"Attachment max size\" system setting is applied",
+                "FileTypesPlaceholder": "For example, .pdf, .png",
+                "MaxSizePlaceholder": "{0} MB by default",
+                "UploadFileSourceCaption": "Upload a file from source",
+                "Camera": "Camera",
+                "Gallery": "Gallery",
+                "Files": "Các tập tin"
+            },
+            "ImageInputPropertiesPage": {
+                "SizeFieldLabel": "Kích thước",
+                "Sizes": {
+                    "None": "Không",
+                    "Small": "Small",
+                    "Medium": "Mức vừa",
+                    "Large": "Lớn",
+                    "ExtraLarge": "Extra Large"
+                },
+                "BorderRadiusLabel": "Border radius",
+                "PositioningLabel": "Image position",
+                "Positioning": {
+                    "Cover": "Điền",
+                    "ScaleDown": "Fit"
+                },
+                "MaxSize": "Maximum file size, MB",
+                "MaxSizeEmptyMessage": "If not set, default value from Image max size system setting is applied",
+                "MaxSizePlaceholder": "{0} MB by default",
+                "TooltipLabel": "Tooltip",
+                "AppearanceGroup": "Appearance",
+                "Editability": "Khả năng chỉnh sửa",
+                "EditabilityControls": {
+                    "Readonly": "Chỉ-đọc"
+                },
+                "TooltipHint": "The tooltip supports both plain text and HTML content. Please ensure that your HTML content is concise and adaptive to the tooltip's size."
+            },
+            "TimerPropertiesPage": {
+                "PageCaption": "Timer settings",
+                "TimerType": "Chế độ",
+                "TargetDateTimeColumn": "Target Date/Time column",
+                "StartDateTimeColumn": "Start date time column",
+                "FromDateTimerType": "Count up timer",
+                "CountdownToSpecificDateTimerType": "Countdown to specific date",
+                "ShowNegativeCountDownValue": "Show negative countdown value",
+                "TextColorForNegativeValues": "Text color for negative values",
+                "TextForPositiveValues": "Text for positive values",
+                "TextForNegativeValues": "Text for negative values",
+                "ValueTextTooltip": "Please use [#timer#] macros and text strings to create detailed timer labels. For example, Positive value - [#timer#] left to complete task;  Negative value - [#timer#] overdue."
+            },
+            "ApprovalListPropertiesPage": {
+                "HeaderLabel": "Approvals list settings",
+                "GeneralGroup": "Tổng quát",
+                "SchemaNameLabel": "Đối tượng"
+            },
+            "SearchFilterPropertiesPanel": {
+                "PageCaption": "Search settings",
+                "GeneralCaption": "Tổng quát",
+                "ChooseTargetsCaption": "Choose component to filter",
+                "ChooseTargetsTooltip": "Select the list where to perform the search. The drop-down menu displays lists that are present on the current page and have an object specified",
+                "Placeholder": "Placeholder",
+                "DirectConnection": "The Search component allows to search only by text, number and lookup columns with direct connections to list object.",
+                "AppearanceGroup": "Appearance",
+                "IconOnlyCaption": "Icon only"
+            },
+            "LocalTimePropertiesPage": {
+                "PageCaption": "Local time settings",
+                "TimeZoneColumn": "Time zone column"
+            },
+            "DataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "Công khai",
+                "RequirementType": {
+                    "NoCaption": "KHÔNG",
+                    "YesCaption": "Đồng ý"
+                },
+                "Validators": {
+                    "UniqueName": "Name \"{0}\" has already exists",
+                    "InvalidCharacter": "Giá trị không hợp lệ. Dùng các ký tự: a-z, A-Z, 0-9. Ký tự: 0-9 không được ghi trước",
+                    "InvalidPrefix": "Value must start with the \"{0}\" prefix"
+                }
+            },
+            "PageParametersDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "Tổng quát",
+                "TitleCaption": "Chức danh",
+                "NameCaption": "Mã"
+            },
+            "EntityStagePropertiesPanel": {
+                "HeaderLabel": "Progress bar",
+                "GeneralGroup": "Tổng quát",
+                "SchemaNameLabel": "Nguồn dữ liệu",
+                "CasesCaption": "Set up cases",
+                "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+                "SaveOnChange": "Save record on stage change",
+                "AskUserToChangeSchema": "Show snack bar notification for case update",
+                "SaveEntityConfirmationDialog": {
+                    "Save": "Save entity",
+                    "Message": "{0} entity was modified, and saving the entity is required to continue."
+                }
+            },
+            "AddCommunicationOptionsRequestPropertiesPanel": {
+                "ViewSelectCaption": "Where to add communication option?"
+            },
+            "AllowedResultsPropertiesPage": {
+                "PageCaption": "Allowed results"
+            },
+            "AppearanceSettingsPropertyPanel": {
+                "ButtonSizeFieldLabel": "Modal window size"
+            },
+            "DeleteRecordsRequestPropertiesPanel": {
+                "SelectDataToDelete": "Which data to delete?"
+            },
+            "TagSelectPropertiesPanelComponent": {
+                "PageCaption": "Tags settings",
+                "GeneralCaption": "Công khai",
+                "AppearanceCaption": "Appearance",
+                "CaptionLabel": "Chức danh",
+                "CaptionPlaceholder": "Các nhãn",
+                "RecordLabel": "Record to tag item",
+                "TagInRecordSourceSchemaName": "Tag storage location",
+                "LabelPosition": "Title position",
+                "LabelPositionVariants": {
+                    "Auto": "Tự động",
+                    "Left": "Trái",
+                    "Above": "Above",
+                    "Hidden": "Hidden"
+                }
+            },
+            "SchemaOutletPropertiesPage": {
+                "PageCaption": "Schema container settings"
+            },
+            "ActivityColumnsMapingComponent": {
+                "EmailLinksCaption": "Email links",
+                "ActivityColumn": "Cột hoạt động",
+                "PageColumn": "Data attribute",
+                "EmailLinksBlankSlate": "Email will be linked to PDS only. Please use the plus button to set up linking with other entities."
+            },
+            "SelectLookupPageRequestPropertiesPanel": {
+                "ViewSelectCaption": "Which data to select?",
+                "InfoMessage": "Selected records are processed in custom code."
+            },
+            "SetRecordRightsRequestPropertiesPanel": {
+                "OpenInModalWindowCaption": "Open in modal window"
+            },
+            "BaseTagsInRecordsRequestPropertiesPanel": {
+                "TagInRecordSourceSchemaName": "Tag storage location"
+            },
+            "AddTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToAddTagsCaption": "Which data to add tags?"
+            },
+            "RemoveTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToRemoveTagsCaption": "Which data to remove tags?"
+            },
+            "AddRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToAddInStaticFoldersCaption": "Which records to add in the static folder?"
+            },
+            "RemoveRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToRemoveInStaticFoldersCaption": "Which records to remove from the static folder?"
+            },
+            "EntityHierarchyFilterPropertiesPanel": {
+                "HeaderLabel": "Entity hierarchy filter",
+                "GeneralCaption": "Công khai",
+                "SchemaNameCaption": "Select an object to build a hierarchy",
+                "HierarchySetup": "Hierarchy setup",
+                "SchemaNameSelectTooltip": "Select an object to build the hierarchy on. All system objects are displayed in the drop-down menu. After configuring the hierarchy, link it to the List component by specifying it as a pre-configured filter.",
+                "ApplyStaticFilter": "Apply static filter",
+                "EditStaticFilterAction": "Edit filter",
+                "FiltersDialogCaption": "Manually defined filter",
+                "SetupStaticFilterAction": "Thiết lập bộ lọc"
+            },
+            "EntityHierarchySetupContainerPropertiesPanel": {
+                "AddNewItem": "Add new hierarchy column",
+                "ContextMenu": {
+                    "AddToSubmenu": "Add sub-hierarchy",
+                    "Edit": "Chỉnh sửa",
+                    "Delete": "Xóa"
+                }
+            },
+            "PlaybookPropertiesPage": {
+                "PageCaption": "Playbook settings",
+                "GeneralGroup": {
+                    "Caption": "Công khai",
+                    "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+                    "Tooltip": "The component displays hints and instructions for users to access information from the knowledge base for specific dynamic case stages. You can set up related articles in Playbooks section. Read more on ",
+                    "AcademyLink": "<a href=\"https://academy.creatio.com/docs/8.x/\" target=\"_blank\">academy</a>.",
+                    "OpenPlaybookButton": "Open playbook"
+                },
+                "SelectDataSource": "Nguồn dữ liệu"
+            },
+            "CopilotActionRequestPropertiesPanelComponent": {
+                "PromptLabel": "Creatio.ai prompt",
+                "PromptTooltip": "Enter the Creatio.ai prompt that will be executed when the button is clicked. The response will be sent in the Creatio.ai sidebar."
+            },
+            "LookupAttributePropertiesPanel": {
+                "RefSchemaNoDisplayValueValidationMessage": "Objects with no display value cannot be used as a lookup. Please set the object display value in configuration."
+            },
+            "SaveRecordRequestPropertiesPanel": {
+                "PreventCardCloseInNewRecord": "Stay on page after record is created",
+                "ReloadSavedRecord": "Reload saved record",
+                "ReloadSavedRecordHint": "After saving, reloads the record from the server so any server-side changes (e.g., legacy autonumbering) appear instantly. Not needed for the new Autonumber field."
+            },
+            "ActionNotificationPropertiesPanel": {
+                "MessageText": "Tin nhắn văn bản",
+                "ShowSuccessMessage": "Show success message after completion"
+            },
+            "DataGridHierarchicalPropertiesPage": {
+                "PageCaption": "Hierarchical list settings",
+                "ParentColumnLabel": "Parent defining column",
+                "MaxRecordsLabel": "Maximum number of records",
+                "MaxRecordsTooltip": "Specifies the maximum number of records to load into the hierarchical list. If available records exceed this limit, only the specified number of records is loaded. If not specified, the value is taken from the \"Maximum number of records in hierarchical list\" (HierarchicalListMaxRecordsCount code) system setting, or 5,000 records by default when that setting is not configured.",
+                "InfoHint": "This component is designed for small data sets. Limit maximum number of records using the \"Maximum number of records\" field and narrow the data scope using the \"Apply filter by page data\" block."
+            }
+        },
+        "SaveMessage": "Tất cả các thay đổi sẽ được lưu. Tiếp tục?",
+        "MainHeader": {
+            "Title": "Chức danh",
+            "CommandLinePlaceholder": "Tôi có thể giúp gì cho bạn?"
+        },
+        "LookupEntityDialog": {
+            "CancelButtonDialog": "Hủy",
+            "SelectButtonDialog": "Lưu",
+            "TitleControl": "Chức danh",
+            "NameControl": "Mã",
+            "Validations": {
+                "RequiredNameCaption": "Nhập một giá trị",
+                "DuplicateNameCaption": "Object with the same code already exists",
+                "PatternPrefixTemplate": "Code must start with the \"{0}\" prefix",
+                "PatternNameCaption": "Giá trị không hợp lệ. Dùng các ký tự: a-z, A-Z, 0-9. Ký tự: 0-9 không được ghi trước."
+            },
+            "CreateOrEditLookupEntityTitle": "Lookup mới"
+        },
+        "SaveConfirmationDialog": {
+            "Message": "This page contains unsaved changes. They will be lost if you close the page. Save the changes?",
+            "Save": "Lưu",
+            "DoNotSave": "Don't save",
+            "Cancel": "Hủy"
+        },
+        "SetupEntityDialog": {
+            "Title": "New object"
+        },
+        "Caption": "Trình thiết kế",
+        "ModelDependencyCycleDetectedError": "Detected circular dependencies between models {0}",
+        "Commands": {
+            "RemoveDataSourceItem": {
+                "SuccessfullyRemoved": "Parameter \"{{parameterCaption}}\" has been deleted"
+            }
+        },
+        "Components": {
+            "DataSourceAttributeCommonPropertiesComponent": {
+                "TitleCaption": "Chức danh",
+                "NameCaption": "Mã",
+                "FormatCaption": "Hình thức",
+                "ReferenceSchemaCaption": "Tra cứu",
+                "RequiredCaption": "Được yêu cầu",
+                "Validations": {
+                    "RequiredNameMessage": "Nhập giá trị"
+                }
+            },
+            "CollectionSortingComponent": {
+                "SortAscendingTitle": "Sort ascending",
+                "SortDescendingTitle": "Sort descending",
+                "SortingColumnLabel": "Sort by column"
+            },
+            "StaticFilterSelectComponent": {
+                "ApplyStaticFilter": "Apply static filter",
+                "EditStaticFilterAction": "Edit filter",
+                "FiltersDialogCaption": "Manually defined filter",
+                "SetupStaticFilterAction": "Thiết lập bộ lọc"
+            }
+        },
+        "NotFoundDataSourceObject": {
+            "GroupObjectCaption": "Data source error",
+            "ErrorMessage": "The '{0}' object referenced in '{1}' data source has been either renamed or removed. Please change the object code to '{0}' or update the page source code (metadata) before continuing working with the page designer.",
+            "BusinessRulesOpenDialogMessage": "The '{0}' object referenced in '{1}' data source has been either renamed or removed. Please change the object code to '{0}' or update the page source code (metadata) in order to use the business rules designer"
+        },
+        "UnableCopySchemaError": "Unable to copy schema. It is either created by third-party publisher or installed from the file archive",
+        "Operation": {
+            "Copy": "Sao chép"
+        },
+        "ModelDependencyNotFoundError": "The relation criteria for the {{names}} data source are not set",
+        "ModelDependencyNotFoundErrorMultiple": "The relation criteria for the {{names}} data sources are not set",
+        "MissingDependenciesDialog": {
+            "Title": "Missing dependencies detected",
+            "Intro": "This page includes elements from packages that are not listed as dependencies of the current package.",
+            "Reason": "Such configurations are no longer supported to prevent circular dependencies and ensure a maintainable application structure.",
+            "InstructionTemplate": {
+                "Prefix": "Please",
+                "ActionLink": "add dependencies",
+                "PackageContext": "in the '{{ missedPackageName }}' package",
+                "Suffix": "to the following packages before editing this page"
+            }
+        },
+        "MissingDependenciesNotification": {
+            "Description": "Cannot save the page. Please add the required dependencies before making further changes to page.",
+            "Action": {
+                "Caption": "Xem chi tiết"
+            }
+        },
+        "SaveOutdatedConfirmation": {
+            "Header": "Newer version available",
+            "Message": "{0} saved changes to this page {1} ago. Saving now will replace their version with yours.",
+            "CancelButton": "Hủy",
+            "SaveButton": "Lưu"
+        },
+        "SaveOverwriteConfirmation": {
+            "Header": "Replace a newer version?",
+            "Message": "You're about to replace {0}'s recent changes with your version.",
+            "CancelButton": "Hủy",
+            "ConfirmButton": "Overwrite anyway"
+        }
+    },
+    "ApplicationManagement": {
+        "CreateApplicationComponent": {
+            "WaitTitle": "Adding default content to your application",
+            "WaitTitleGenAI": "Generating your application"
+        },
+        "ApplicationInfoDialogComponent": {
+            "HeaderCaption": "New application",
+            "InputNameCaption": "Application name",
+            "InputDescriptionCaption": "Describe what it’s for (optional)",
+            "InputDescriptionPlaceholder": "Write a few words about your application",
+            "CancelButtonCaption": "Hủy",
+            "CreateButtonCaption": "Tạo",
+            "HeaderEditCaption": "Edit application",
+            "ApplicationCodeCaption": "Application code",
+            "SaveButtonCaption": "Lưu",
+            "DisclaimerCaption": "By clicking the \"Generate with AI\" button, you agree that your request will be handled by the OpenAI model. View terms and policies <a class=\"document-link\" href=\"https://openai.com/policies\" target=\"_blank\">here</a>. Creatio is acting as an agent and cannot be held responsible for any outcomes generated by the OpenAI.",
+            "HeaderCarouselCaption": "Select icon and color",
+            "InputAIDescriptionCaption": "Describe what it’s for",
+            "InputAIDescriptionPlaceholder": "Write a few words about your application and we will create it automatically.",
+            "GenerateWithAIButtonCaption": "Generate with AI",
+            "UseExistingObjectTooltip": "Select to link the section to an existing object instead of creating a new object",
+            "AdvancedModeButtonCaption": "Advanced parameters",
+            "NamePlaceholder": "Name your application",
+            "CodePlaceholder": "Create a unique application ID",
+            "CodeTooltip": "The application code is used as a unique identifier when the application is installed to another environment. Also, the code can be used to generate section element codes in case there are schemes in the template",
+            "HeaderViewCaption": "Application info",
+            "CloseButtonCaption": "Đóng",
+            "VersionInputCaption": "Phiên bản",
+            "VersionInputPlaceholder": "0.0.0",
+            "AppStartPageCaption": "App default page",
+            "AppStartPageTooltip": "The app page to open by clicking the Run App button. This can be the app's homepage or section list page.",
+            "AppStartPageAutoItem": "Tự động",
+            "CreateMobilePagesTooltip": "Clear this option to create a web-only app"
+        },
+        "ApplicationValidatorService": {
+            "InvalidCharactersForName": "Only the characters \"- _\" are allowed in the name",
+            "FirstSymbolIsNotLetterAndNotDigit": "The name must start with a letter or digit",
+            "InvalidCharactersForCode": "Only Latin letters and numbers are allowed in the code, and the symbol 0-9 cannot be the first character",
+            "ApplicationNameAlreadyExists": "Application with name \"{0}\" already exists",
+            "ApplicationCodeAlreadyExists": "This application code or package name is already in use",
+            "InvalidApplicationCodePrefix": "Code must start with the \"{0}\" prefix",
+            "EntityNameAlreadyExists": "Object with this code already exists",
+            "InvalidVersion": "Enter the version number in X.Y or X.Y.Z format. For example, 1.0, 1.2, 1.0.0, 1.2.0, etc.",
+            "InvalidRequiredPlatformVersion": "Enter a valid Creatio version in the X.Y.Z format or version range X.Y.Z - X.Y.Z. For example, 8.3.0 or 8.3.0 - 8.4.3.",
+            "InvalidRequiredPlatformVersionRange": "The maximum version must be greater than the minimum version.",
+            "InvalidAppDependencyVersion": "Please use one of the following formats:\n- Minimal required version: X.Y or X.Y.Z\n- Version range: X.Y - X.Y or X.Y.Z - X.Y.Z",
+            "InvalidAppDependencyVersionRange": "The maximum version must be greater than the minimum version."
+        },
+        "ApplicationManagementDialogComponent": {
+            "DialogHeaderCaption": "App properties",
+            "PropertiesTabCaption": "Công khai",
+            "DependenciesTabCaption": "Dependencies",
+            "Properties": {
+                "IconCaption": "Biểu tượng",
+                "ColorCaption": "Màu sắc",
+                "InputNameCaption": "Application name",
+                "NamePlaceholder": "Name your application",
+                "DefaultAppPageCaption": "Default app page",
+                "AppStartPageTooltip": "The app page to open by clicking the Run App button. This can be the app's homepage or section list page.",
+                "ApplicationCodeCaption": "Application code",
+                "Developer": "Lập trình viên",
+                "InputDescriptionCaption": "Describe what it’s for (optional)",
+                "InputDescriptionPlaceholder": "Write a few words about your application",
+                "CreatedOn": "Tạo",
+                "LastUpdate": "Last update",
+                "Created": "Tạo"
+            },
+            "Dependencies": {
+                "AddDependencyCaption": "Add dependency",
+                "ApplicationNameCaption": "Tên",
+                "DeleteCaption": "Xóa",
+                "RequiredPlatformVersionCaption": "Required Creatio version",
+                "RequiredPlatformVersionTooltip": "If you specify only one required version, the application can be installed on that version and later versions of Creatio. You can also specify a compatible version range using a hyphen, for example: \"8.3.0 - 8.4.3\".",
+                "RequiredPlatformVersionSubCaption": "Minimum required Creatio version or compatible version range for the \"{0}\" application. The current Creatio version is {1}.",
+                "RequiredDependenciesCaption": "Required dependencies",
+                "RequiredDependenciesSubCaption": "Configure dependencies to extend the application using elements from other applications or packages. The application cannot be installed in environments where required dependencies are missing, their versions are lower than the minimum required, or do not fall within the supported version range. The \"{0}\" application depends on the following applications or packages:",
+                "AddCaption": "Phụ lục",
+                "TypeCaption": "Loại",
+                "DeveloperCaption": "Lập trình viên",
+                "VersionCaption": "Required version",
+                "ApplicationVersionTooltip": "If you specify a single version, the application \"{0}\" can be installed only if the environment has the dependent application installed with that version or a newer one.\nYou can also specify a version range using a hyphen, for example: 1.0 - 2.0 or 1.0.0 - 2.0.0.",
+                "PackageVersionTooltip": "Version can be specified only for dependencies with type \"Application\""
+            },
+            "CancelButtonCaption": "Hủy",
+            "SaveButtonCaption": "Lưu",
+            "CloseButtonCaption": "Đóng",
+            "DependenciesValidationError": "Error while saving application dependencies",
+            "VersionTabCaption": "Phiên bản",
+            "Version": {
+                "VersionInputCaption": "Application Version",
+                "VersionInputPlaceholder": "0.0.0",
+                "VersionInputTooltip": "A version number follows the format <b>Major.Minor.Patch</b>, where each component has the following meaning:<ul><li><b>Major</b> – breaking changes</li><li><b>Minor</b> – new features that are backward compatible</li><li><b>Patch</b> – backward-compatible bug fixes only</li></ul>For example: 2.1.4. <a href='https://academy.creatio.com/documents?id=2584' target='_blank' rel='noopener noreferrer'>Learn more in the Academy</a>.",
+                "VersionInputHint1": "We recommend releasing any changes to the application using a new version number. Based on your current version {0}, consider using one of the following versioning options, depending on the significance of the changes: ",
+                "VersionInputHint2": " or ",
+                "VersionInputHint3": ", depending on the significance of the changes.",
+                "VersionMajorPart": "Major {0}",
+                "VersionMinorPart": "Minor {0}",
+                "VersionPatchPart": "Patch {0}"
+            }
+        }
+    },
+    "Validators": {
+        "Autocomplete": {
+            "Message": "Vui lòng chọn giá trị từ danh sách"
+        },
+        "Required": {
+            "Message": "Nhập một giá trị"
+        },
+        "MaxLength": {
+            "Message": "Độ dài văn bản tối đa vượt quá ({{actualLength}} / {{maxLength}})"
+        },
+        "MinLength": {
+            "Message": "Minimum text length not reached ({{actualLength}}/{{minLength}})"
+        },
+        "Min": {
+            "Message": "Minimum number value is {{min}}"
+        },
+        "Max": {
+            "Message": "Maximum number value is {{max}}"
+        },
+        "GridColumnsCount": {
+            "Message": "Columns that contain elements cannot be deleted. To reduce the column number, delete the elements or move them to other columns."
+        },
+        "Email": {
+            "Message": "Định dạng email không hợp lệ"
+        },
+        "ColorPicker": {
+            "Message": "Action error. Invalid HEX format was selected"
+        },
+        "Link": {
+            "Message": "Invalid url format"
+        }
+    },
+    "UserProfile": {
+        "Profile": "Hồ sơ người dùng",
+        "FirstLastName": "Tên đầy đủ",
+        "Organization": "Tổ chức",
+        "Language": "Ngôn ngữ",
+        "TimeZone": "Múi giờ",
+        "DateTimeFormat": "Hình thức ngày và thời gian",
+        "Email": "Email",
+        "ChangeEmail": "Change email",
+        "EmailChanged": "Your email was successfully changed",
+        "ResendConfirmEmailSuccess": "Confirmation email was sent",
+        "ResendConfirmEmailError": "Confirmation email wasn't sent",
+        "NotConfirmedEmail": "Please check your email to confirm registration",
+        "Password": "Mật khẩu",
+        "ChangePassword": "Thay đổi mật khẩu",
+        "ChangePasswordError": "An error occurred while change password",
+        "ResetPasswordValidationError": "There are no users that go by this email",
+        "ConnectedAccounts": "Connected accounts",
+        "DeleteProfile": "Delete profile",
+        "ChangesSaved": "Changes were saved",
+        "SavingError": "An error occurred while save the data",
+        "ApplyChanges": "Lưu",
+        "ReloginError": "Changes wasn't applied. Please relogin to apply changes",
+        "NewEmail": "Email mới",
+        "CurrentPassword": "Mật khẩu hiện tại",
+        "WrongPassword": "Wrong password",
+        "ExistsEmailError": "This email is already used",
+        "ChangeEmailError": "Internal error. Email wasn't changed. Try again later",
+        "EmailNotConfirmed": "Email not confirmed",
+        "ResendConfirm": "Resend confirmation",
+        "ConnectedAccountsSectionCaption": "Connected third-party accounts",
+        "Logins": {
+            "AddNewLogin": "Thêm",
+            "LoginAlreadyAssociated": "The account is connected to another user",
+            "DefaultConnectionErrorMessage": "Could not connect social network",
+            "DisconnectAccount": "Disconnect"
+        },
+        "Photo": "Ảnh",
+        "Role": "Vai trò",
+        "Active": "Kích hoạt",
+        "Status": "Trạng thái",
+        "Invited": "Invited",
+        "Back": "Trờ lại",
+        "ChangeEmailButton": "Change and logout",
+        "DisconnectAccountError": "Unable to disconnect selected account",
+        "FirstName": "Namespaces",
+        "LastName": "Họ",
+        "OrganizationWebsite": "Vị trí",
+        "PasswordResetIsNotAllowed": "Password reset for this account was requested lately. Please wait few minutes to try again."
+    },
+    "UserProfileActionComponent": {
+        "YourProfileActionCaption": "Hồ sơ của bạn",
+        "LogoutActionCaption": "Log out"
+    },
+    "EnvironmentManagement": {
+        "WaitTrialPage": {
+            "DemoDataToggleCaption": "Fill in the system with demo data",
+            "Description": "This account will be used to login",
+            "Continue": "Tiếp tục",
+            "ConfirmRegistration": {
+                "RegistrationSuccessful": "Your registration is successful!",
+                "CreateFirstApp": "Do you want to create your first app right now?",
+                "GuideMeButtonCaption": "Yes, create new app",
+                "ManageButtonCaption": "No, I`ll do it later"
+            },
+            "WaitPage": {
+                "StudioEnterpriseMessage": "You’ll be able to create<br />your <strong>first app</strong> in a few moments!",
+                "CRMMessage": "You’ll be able to try full-fledged <strong>marketing, sales, and service</strong> products integrated into one no-code platform in a few moments!",
+                "CreatioIsHotMessage": "Creatio<br />is hot!",
+                "TrialTimeoutMessage": "We are working on it! But due to high demand,<br />there might be a delay in your trial delivery.",
+                "SendTrialEmail": "We appreciate your time and will send an email<br />when the trial is ready.",
+                "GoToApplications": "Go to Application Hub"
+            }
+        }
+    },
+    "OrganizationUserSection": {
+        "GridColumns": {
+            "id": "Id",
+            "fullName": "First and last name",
+            "email": "Email",
+            "status": "Trạng thái",
+            "role": "Vai trò",
+            "lastActivity": "Hoạt động cuối cùng"
+        },
+        "GridActions": {
+            "Activate": "Kích hoạt",
+            "Deactivate": "Hủy kích hoạt",
+            "Edit": "Chỉnh sửa",
+            "Resend": "Resend invitation",
+            "Cancel": "Cancel invitation"
+        },
+        "UserStatus": {
+            "Active": "Kích hoạt",
+            "Inactive": "Không còn hoạt động",
+            "Invited": "Invitation sent"
+        },
+        "AddUser": "+ Thêm người dùng",
+        "ChangeStatusMessage": {
+            "activate": "User has been activated",
+            "deactivate": "User has been deactivated"
+        },
+        "InvitationSent": "Invitation is sent",
+        "InviteUsersPage": {
+            "NewUser": "New user",
+            "Back": "Trờ lại",
+            "Role": "Vai trò",
+            "Email": "Business email",
+            "Collaborators": "Invited users",
+            "SendInvite": "Invite",
+            "InviteSuccess": "Invitation sent",
+            "EmailExists": "User {0} has already been invited to organization",
+            "GoToProfile": "Go to profile"
+        }
+    },
+    "DataSourceAttributeValuePickerProvider": {
+        "ValueFromFieldCaption": "Giá trị từ trường khác"
+    },
+    "OperationPermissionsErrorDialog": {
+        "ErrorTemplate": "You do not have permission to perform this operation.\nPlease contact your system administrator and request permission to perform the following system operation with code: «{0}». Permissions to system operations are managed in the “Operation permissions” section of the System designer."
+    },
+    "ViewElementGroup": {
+        "ChartsGroupCaption": "Biểu đồ",
+        "ComponentsGroupCaption": "Thành phần",
+        "LayoutElementsGroupCaption": "Layout element",
+        "InputsGroupCaption": "Input",
+        "CustomElementsGroupCaption": "Custom element"
+    },
+    "AggregationNames": {
+        "Count": "Số lượng các bản ghi",
+        "Sum": "Tổng giá trị",
+        "Avg": "Giá trị trung bình",
+        "MinValue": "Giá trị nhỏ nhất",
+        "MaxValue": "Giá trị lớn nhất",
+        "MinDate": "Minimum date",
+        "MaxDate": "Maximum date",
+        "TopOne": "First record value",
+        "AtLeastOneRecord": "At least one record",
+        "NoRecords": "No records"
+    },
+    "TypeCaptions": {
+        "GridContainer": "Grid container",
+        "FlexContainer": "Flex container",
+        "TabContainer": "Tab",
+        "MenuItem": "Mục menu",
+        "ChartWidget": "Biểu đồ",
+        "TimelineTile": "Mốc thời gian"
+    },
+    "DialogComponent": {
+        "CancelButtonDialog": "Hủy",
+        "SaveButtonDialog": "Lưu",
+        "CloseButtonDialog": "Đóng"
+    },
+    "SsoSettings": {
+        "Validators": {
+            "AdfsTenant": {
+                "Message": "Value should not be empty or start with http:// or https://"
+            },
+            "StringUrl": {
+                "Message": "Value should be valid URL"
+            },
+            "IsJsonValidator": {
+                "Message": "Value should be valid JSON"
+            }
+        },
+        "SsoIdentityProvider": {
+            "DuplicationError": "This provider already exists. Please check the entered information.",
+            "SigningSettingsError": "SAML signing settings are not correct. Please check the entered information."
+        }
+    },
+    "BusinessRuleAction": {
+        "StructureExplorer": {
+            "Title": "Select elements",
+            "ElementsTab": "{0}Elements{1}"
+        }
+    },
+    "FileSizeUnit": {
+        "Byte": "bytes",
+        "Bytes": "bytes",
+        "Kilobyte": "KB",
+        "Megabyte": "MB",
+        "Gigabyte": "GB"
+    },
+    "Approvals": {
+        "ComponentHeaderLabel": "Phê duyệt bắt buộc"
+    },
+    "pageParametersDataSource": "Các tham số trang",
+    "RelationshipDesignerModal": {
+        "Caption": "{{schemaName}} relations"
+    },
+    "RelationshipDesigner": {
+        "DeleteItemMessage": "Bạn có chắc muốn xóa các mục này không?",
+        "RequiredControlErrorMessage": "Vui lòng nhập giá trị"
+    },
+    "RelationshipDiagram": {
+        "NoAccess": "Không có quyền truy cập để thay đổi mối quan hệ",
+        "Tools": {
+            "FitToView": "Vừa vặn để xem",
+            "ResetView": "Đặt lại chế độ xem",
+            "ZoomIn": "Phóng to",
+            "ZoomOut": "Thu nhỏ",
+            "MiniMapClose": "Đóng bản đồ thu nhỏ",
+            "MiniMapOpen": "Mở bản đồ thu nhỏ"
+        }
+    },
+    "GroupsPropertiesPage": {
+        "Title": "Các nhóm",
+        "Search": "Tìm kiếm"
+    },
+    "GroupPropertiesDialog": {
+        "Cancel": "Hủy",
+        "Comment": "Hoãn",
+        "EditGroup": "Chỉnh sửa nhóm",
+        "Name": "Tên",
+        "NewGroup": "Nhóm mới",
+        "Save": "Lưu"
+    },
+    "EntityInGroupPropertiesDialog": {
+        "AddToGroup": "Thêm vào nhóm",
+        "Cancel": "Hủy",
+        "Comment": "Hoãn",
+        "Edit": "Chỉnh sửa",
+        "Group": "Nhóm",
+        "Save": "Lưu"
+    },
+    "ConnectionPropertiesPage": {
+        "Comment": "Hoãn",
+        "Relations": "Quan hệ",
+        "RelationshipType": "Loại quan hệ",
+        "Title": "Mối quan hệ"
+    },
+    "ContainerPropertiesPage": {
+        "Address": "Chức danh",
+        "Email": "Email",
+        "GeneralInformation": "Thông tin chung",
+        "Groups": "Các nhóm",
+        "Phone": "Điện thoại",
+        "RelationshipsWith": "Thực thể liên quan ({0})",
+        "Type": "Loại",
+        "Web": "Web"
+    },
+    "ObjectPermissions": {
+        "Warning": "Cảnh báo! ",
+        "OperationsPoint": "Objects used by lookup fields on this section page are not configured. According to the current access permissions, objects listed below are not available to external users:",
+        "RecordsPoint": "Objects used by lookup fields on this section page are not secure. According to the current access permissions, all records from the objects listed below are fully available to any external user:",
+        "SetProperPermissionsBegin": "To set proper access permissions, turn on operation and record permissions for these objects in the \"",
+        "ObjectPermissions": "Sự cho phép đối tượng",
+        "SetProperPermissionsEnd": "\" section of the System designer.",
+        "Link": "Cập nhật quyền đối tượng ngay bây giờ",
+        "End": "Lưu ý: Bạn có thể cần đặt quyền truy cập cho từng bản ghi hiện có để người dùng khác có thể làm việc với chúng.",
+        "UpdateObjectPermissionsMessage": "Current permission settings will be modified. This may affect system performance for all users. Do you wish to update object permissions now?"
+    },
+    "LocalizableTextInput": {
+        "ButtonTitle": "Multilanguage configuration"
+    },
+    "ExpansionButton": {
+        "ExpandTooltip": "Expand panel",
+        "CollapseTooltip": "Thu gọn bảng"
+    },
+    "MultilanguageEmailTemplates": {
+        "TranslateHeadersTitle": "Set headers for multilingual templates",
+        "TranslateDescription": "Add language-specific headers for your multilingual template. To include more languages, update the template settings.",
+        "AcademyUrl": "https://academy.creatio.com/documents?id=2571"
+    },
+    "isValueMaskedCaption": "Mask displayed value",
+    "maskTypeCaption": "Mask type",
+    "maskOperationCaption": "Sự cho phép vận hành",
+    "ValueMaskingSettings": {
+        "HideAllMaskTitle": "Hide All Characters",
+        "ShowOnlyLast4CharsMaskTitle": "Show Only Last 4 Characters",
+        "BankCardMaskTitle": "Bank Card",
+        "SSNMaskTitle": "SSN",
+        "SINMaskTitle": "SIN"
+    },
+    "blockDeletionTooltip": "Prevents deleting the lookup value if it is referenced by records in the current object.",
+    "DeleteRecordsTooltip": "Deletes related records in the current object when the lookup value is deleted.",
+    "selectionWindowTooltip": "Opens a separate selection window to choose a lookup value.",
+    "listTooltip": "Lets users select a lookup value directly from a dropdown list."
+}

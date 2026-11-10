@@ -1,0 +1,125 @@
+{
+    "Input": {
+        "HidePassword": "Slēpt paroli",
+        "ShowPassword": "Parādīt paroli"
+    },
+    "PasswordChangedSuccessfully": "Parole veiksmīgi nomainīta",
+    "PasswordChangeError": "Paroles maiņas laikā notika kļūda",
+    "PasswordAndConfirmationDoNotMatch": "Parole un apstiprinājums nesakrīt",
+    "TotpSetupPage": {
+        "VerificationCode": "Verifikācijas kods",
+        "Secret": "Slepenā atslēga",
+        "SubmitButton": "Savienot",
+        "Success": "Autentifikatora lietotne ir savienota",
+        "TokenExpired": "Jūsu tokena termiņš ir beidzies.",
+        "InvalidTotp": "Nederīgs verifikācijas kods. Pārliecinieties, ka esat ievadījis pareizos datus vai sazinieties ar savu sistēmas administratoru.",
+        "Error": "Notika kļūda, mēģinot iestatīt totp. Lūdzu, mēģiniet vēlreiz vai sazinieties ar savu sistēmas administratoru",
+        "Header": "Pievienot autentifikatora lietotni savam profilam",
+        "Step1": "1. Instalējiet autentifikatora lietotni, piemēram, Google Authenticator, mobilajā ierīcē.",
+        "Step2": "2. Nolasiet šo QR kodu ar lietotni:",
+        "Step2SecretDescription": "Vai ievadiet atslēgu manuāli:",
+        "Step3": "3. Ievadiet 6 ciparu verifikācijas kodu, ko radījusi jūsu autentifikatora lietotne.",
+        "CancelButton": "Atcelt"
+    },
+    "ResetPasswordPage": {
+        "NewPassword": "Jauna parole",
+        "NewPasswordConfirm": "Apstipriniet jauno paroli",
+        "SecondFactor": "Apstiprinājuma kods",
+        "SendCodeViaSMS": "Nosūtīt kodu, izmantojot SMS",
+        "ResetPasswordButtonCaption": "Atjaunot paroli",
+        "Error": "Notika kļūda paroles atjaunošanas procesa laikā. Lūdzu, mēģiniet vēlreiz vai sazinieties ar savu sistēmas administratoru"
+    },
+    "PasswordComplexity": {
+        "MinPasswordLength": {
+            "Message": "Rakstzīmes - {{minLength}}"
+        },
+        "MinPasswordUppercaseCharCount": {
+            "Message": "Lielie burti - {{minCount}}"
+        },
+        "MinPasswordLowercaseCharCount": {
+            "Message": "Mazais burts - {{minCount}}"
+        },
+        "MinPasswordNumericCharCount": {
+            "Message": "Cipari - {{{minCount}}"
+        },
+        "MinPasswordSpecialCharCount": {
+            "Message": "Īpaši simboli - {{minCount}}"
+        },
+        "PasswordStrength": {
+            "Message": "Parole nav atbilstoša prasībām"
+        },
+        "PasswordsDoNotMatch": {
+            "Message": "Paroles nesakrīt"
+        },
+        "MfaEmpty": {
+            "Message": "Lūdzu, aizpildiet šo lauku"
+        }
+    },
+    "PasswordValidationTooltipCaption": "Minimalās paroles prasības",
+    "BeginPasswordRecoveryPage": {
+        "Email": "Ievadiet lietotāja e-pastu vai pieteikšanās vārdu",
+        "EmailSent": "Ja profils pastāv, jūs saņemsiet e-pastu, kas satur paroles atjaunošanas norādījumus. Ja e-pasts nenonāk, pārbaudiet savu surogātpasta mapi un sazinieties ar savu sistēmas administratoru",
+        "Error": "Radās kļūda, nosūtot e-pastu",
+        "SendButtonCaption": "Nosūtīt e-pastu",
+        "ResendButtonCaption": "Atkārtoti nosūtīt e-pastu",
+        "OpenLoginPageButtonCaption": "Atvērt ielogšanās lapu",
+        "ResetLinkExpired": "Atjaunošanas saite ir beigusies vai jau ir izmantota"
+    },
+    "UseAnotherMethod": "Izmantojiet citu metodi",
+    "TwoFactorSubmitButton": "Pārbaudīt",
+    "TwoFactorBackButton": "Atpakaļ",
+    "SmsProvider": {
+        "SendSms": "Nosūtīt citu kodu",
+        "ResendSms": "Atkārtoti nosūtīt SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Nosūtīt citu kodu"
+    },
+    "TwoFactor.SmsProviderNotAvailable": "Ievadiet verifikācijas kodu, kas tika nosūtīts pa SMS uz jūsu tālruņa numuru",
+    "TwoFactor.EnterSmsCode.Caption": "Ievadiet verifikācijas kodu, kas tika nosūtīts pa SMS uz jūsu tālruņa numuru",
+    "TwoFactor.EnterEmailCode.Caption": "Ievadiet verifikācijas kodu, kas tika nosūtīts uz jūsu e-pasta adresi",
+    "TwoFactor.EnterTOTPCode.Caption": "Ievadiet verifikācijas kodu no autentifikatora lietotnes",
+    "TwoFactor.VerificationCode.Caption": "Verifikācijas kods",
+    "TwoFactor.TOTPUnavailable.Caption": "Lai izmantotu autentifikatora lietotnes metodi, vispirms jums jāiestata tā. Jūs to varat izdarīt savā profilā.",
+    "TwoFactor.UseAnotherMethod.Caption": "Izmantojiet citu metodi",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Nederīgs verifikācijas kods. Pārliecinieties, ka esat ievadījis pareizos datus vai sazinieties ar savu sistēmas administratoru",
+    "TwoFactor.ValidationCanceled": "Otrā faktora validācija tika atcelta",
+    "ConsentPage": {
+        "AcceptButtonCaption": "Pieņemt",
+        "DiscardButtonCaption": "Izmest",
+        "SwitchButton": "Pārslēgt",
+        "DescriptionTextStart": "{{oauthApplicationName}} lietotne pieprasa piekļuvi jūsu",
+        "DescriptionTextEnd": "Persona Creatio. Pēc jūsu piekrišanas tai būs pieejamas šādas darbības:",
+        "CommonScopeText": "Iespēja veikt visas operācijas ar datiem un izmantot visas personai pieejamās funkcijas.",
+        "Footer1": "Jūs varēsiet jebkurā laikā atsaukt piekļuvi savā lietotāja profilā.",
+        "Footer2": "Uzziniet vairāk ",
+        "Footer3": "Attiecīgo dokumentāciju par Creatio piedāvātajām lietotnēm var atrast Akadēmijā. Ņemiet vērā, ka Creatio nepārbauda integrāciju ar trešo pušu lietotnēm. Uz šādas lietotnes un integrācijas izmantošanu attiecas trešās puses pakalpojumu sniegšanas noteikumi, privātuma politika un dokumentācija.",
+        "AcademyLink": "Akadēmija",
+        "ConsentErrorInvalidRequest": {
+            "Title": "Integrācijas iestatījumu kļūda",
+            "Message": "Nevar sākt autorizācijas procesu, jo pieprasījums nav pareizi konfigurēts. Viens vai vairāki nepieciešamie parametri ir nepareizi vai to nav.",
+            "Suggestion": "Sazinieties ar sistēmas administratoru vai Creatio atbalsta dienestu, lai pārbaudītu integrācijas iestatījumus un pārliecinātos, ka ir nodrošināti visi nepieciešamie parametri."
+        },
+        "ConsentErrorInvalidClient": {
+            "Title": "Integrācija nav atrasta",
+            "Message": "Nav iespējams uzsākt autorizācijas procesu, jo nav konfigurēta aktīva integrācija, izmantojot nodrošināto klienta ID un autorizēto pāradresācijas URI.",
+            "Suggestion": "Sazinieties ar sistēmas administratoru vai Creatio atbalsta dienestu, lai pārbaudītu integrācijas iestatījumus un pārliecinātos, ka tiek izmantots pareizais klienta ID un pāradresācijas URI."
+        },
+        "ConsentErrorInvalidUser": {
+            "Title": "Piekļuve integrācijai nav atļauta",
+            "Message": "Nevar turpināt, jo jūsu lietotāja profilam nav atļauts izmantot šo integrāciju.",
+            "Suggestion": "Sazinieties ar savu sistēmas administratoru, lai atjaunotu autorizēto lietotāju sarakstu, kas var izmantot šo integrāciju."
+        },
+        "ConsentErrorInvalidConsentId": {
+            "Title": "Autorizācijas pieprasījuma derīguma termiņš beidzies",
+            "Message": "Nevar pabeigt autorizāciju, jo pieprasījuma termiņš ir beidzies.",
+            "Suggestion": "Lai turpinātu integrācijas autorizācijas procesu, sāciet to no sākuma."
+        },
+        "ConsentErrorServerError": {
+            "Title": "Kļūda integrācijas iestatīšanā",
+            "Message": "Pieprasījuma apstrādes laikā radās kļūda. Lūdzu, mēģiniet vēlreiz vēlāk.",
+            "Suggestion": "Lūdzu, sazinieties ar sistēmas administratoru, lai pieprasītu nepieciešamās piekļuves tiesības, un pēc tam atkārtojiet mēģinājumu."
+        },
+        "ErrorFooter": "Uzziniet vairāk par OAuth integrācijas iestatījumiem Creatio "
+    }
+}

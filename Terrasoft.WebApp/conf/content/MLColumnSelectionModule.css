@@ -1,0 +1,56 @@
+﻿.column-selector > div {
+  display: inline-block;
+  vertical-align: top;
+}
+.t-btn-wrapper.column-selector-info-button-control-group {
+  border: 0 !important;
+  margin: 0;
+}
+.column-selector {
+  white-space: nowrap;
+}
+.column-selector .columns-container-list {
+  width: 100%;
+  line-height: 31px;
+  border-top: 1px outset;
+  margin-top: 10px;
+}
+.column-selector .columns-container-list .column-item-container {
+  height: 31px;
+  position: relative;
+}
+.column-selector .columns-container-list .column-item-container .column-type-icon {
+  margin-left: 10px;
+  height: 16px;
+  width: 16px;
+}
+.column-selector .columns-container-list .column-item-container .column-link {
+  margin-left: 19px;
+  max-width: 350px;
+  text-overflow: ellipsis;
+}
+.column-selector .columns-container-list .column-item-container .column-link:focus {
+  outline: none;
+}
+.column-selector .columns-container-list .column-item-container .remove-column-icon {
+  display: none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  right: 3px;
+}
+.column-selector .columns-container-list .column-item-container .remove-column-icon:hover {
+  cursor: pointer;
+}
+.column-selector .column-item-container > * {
+  vertical-align: middle;
+}
+.column-selector .column-item-container:nth-child(even) {
+  background-color: #f7f7f7;
+}
+.column-selector .column-item-container:hover .remove-column-icon {
+  display: inline !important;
+}

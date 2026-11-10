@@ -1,0 +1,48 @@
+﻿.profile-container {
+
+	.photo-timezone-container.enrichment {
+
+		display: flex;
+
+		.timezone-enrichment-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			flex-basis: 100%;
+			margin-left: 45px;
+
+			.enrich-contact-cloud {
+				padding: 0;
+				height: 16px;
+				min-height: 16px;
+				display: flex;
+				width: 100%;
+				justify-content: center;
+				margin-top: 20px;
+				
+				.t-btn-image {
+					width: 24px;
+					background-repeat: no-repeat;
+				}
+			}
+
+			.enrich-contact-cloud-caption {
+					font-size: 13px;
+					color: #4e7bd8;
+			}
+
+			.timezone-container {
+				justify-content: center;
+				width: 100%;
+
+				.timezone-label.timezone-city {
+					font-size: 13px;
+					line-height: 1.1;
+				}
+			}
+		}
+	}
+}
+body[OldUI=false] .left-modules-container .profile-container .grid-layout-row .photo-timezone-container.enrichment .timezone-container {
+	margin: 0;
+}

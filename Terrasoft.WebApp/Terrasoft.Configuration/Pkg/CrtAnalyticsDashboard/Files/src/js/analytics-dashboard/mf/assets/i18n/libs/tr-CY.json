@@ -1,0 +1,95 @@
+{
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Yeni veya mevcut kayıt için sayfa yok. Sistem yöneticisi Freedom UI'daki düğme ayarlarını kontrol etmelidir.",
+    "GoToEntityDesignerMessage": "Sayfaları ayarlamak için şu URL'ye gidin: {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "İşlem şeması başarıyla kaydedildi, ancak doğrulama hataları çalışmasını engelliyor."
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Lütfen listeden değer seçin.",
+      "SelectionWindowMessage": "Lütfen listeden bir değer seçin veya arama penceresini kullanarak arama yapın."
+    },
+    "Required": {
+      "Message": "Bir değer girin"
+    },
+    "MaxLength": {
+      "Message": "Maksimum metin uzunluğu aşıldı ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum metin uzunluğuna ulaşılamadı ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Geçersiz tarih ve saat biçimi."
+    },
+    "DatePickerSyntax": {
+      "Message": "Geçersiz tarih biçimi."
+    },
+    "TimePickerSyntax": {
+      "Message": "Geçersiz zaman biçimi"
+    },
+    "RegExp": {
+      "Message": "Geçersiz değer biçimi"
+    },
+    "PhoneNumber": {
+      "Message": "Geçersiz telefon numarası"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kod, {{schemaNamePrefix}} ön eki ile başlamalıdır.",
+      "OnlySchemaNamePrefixMessage": "En az bir sembol daha girin."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Şu sembolleri kullanın: a-z, A-Z, 0-9, alt çizgi veya kısa çizgi. Yalnızca harfler ilk olabilir."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "'{{controlValue}}' değeri 'Kod' sütununda zaten mevcut."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Sütun kaldırıldı.",
+    "ValidationErrorMessageSingleErrorField": "Alan: {0}. Hata: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Alanlar: {0}. Hata: {1}",
+    "RefreshModelDataConflict": "Creatio'da mevcut sayfa için yeni veriler var. Görüntülemek için değişikliklerinizi kaydedin veya iptal edin ve sayfayı yenileyin.",
+    "WarningModelsWithCircularDependencies": "Bazı modellerde döngüsel bağımlılıklar var ve yüklenemedi",
+    "LoadingModelErrorMessage": "Sorgu yürütme sırasında hata oluştu",
+    "ErrorMessageOnEmptyRelationColumn": "Sayfa kaydedilemiyor. Sayfayı kaydetmek için {{caption}} alanını doldurun veya ilgili alanlardaki verileri temizleyin."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Veriler yenilendi"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Kullanıcının hedefini açık ve öz bir şekilde açıklayın. Kullanıcının hedefine ulaşmak için gereken adımları detaylandırın. LLM'den beklenen sonucu özetleyin. Bu, LLM'nin bilmesi gereken tüm gerekli bağlamı veya bilgiyi içermelidir.\n\n## Genel Kurallar\n1. Kullanıcıyla açıkça onaylamadan yeni nesneler oluşturamazsınız.\n2. Kural 2: ...\n3. ...\n\n## Genel Kısıtlamalar\n1. Kullanıcının amacına dair varsayımlarda bulunmaktan kaçının; gerektiğinde istekleri netleştirin.\n2. Kısıtlama 2: ...\n3. ...\n\n## Çıktı Gereksinimleri\n1. Çıktı 300 karakterden az ve 2-3 cümleden fazla olmamalıdır.\n2. Gereksinim 2: ...\n3. ...\n\n## İş Akışı\n1. Sayfa verilerini ve alanlarını okumak için mevcut sayfa bağlamını kullanın. Bu bilgilere dayanarak...\n2. Adım 2: ...\n3. ..."
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Yükleniyor..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopyalandı"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Henüz gösterilecek bir şey yok",
+      "Subhead": "Lütfen önce veri ekleyin"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Sohbet başlatıldı: {0} tarafından",
+        "EndDate": "Sohbet tamamlandı: {0} tarafından"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Yükleniyor"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Hata",
+      "Default": "İpucu"
+    }
+  }
+}

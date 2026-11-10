@@ -1,0 +1,102 @@
+﻿body {
+	background-color: #ebeeef;
+}
+
+.ts-mask-container.wizard-mask {
+	z-index: 2020;
+}
+
+.page-wizard {
+	.wizard-header {
+		border: none;
+		left: 0px;
+		right: 0px;
+		border-radius: 0px;
+		box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+	}
+	.wizard-header-container {
+		border: none;
+		height: 40px;
+		.wizard-container {
+			.header {
+				display: none;
+			}
+		}
+		.wizard-header {
+			padding: 7px 16px;
+			height: 40px;
+		}
+	}
+	.schema-wrap {
+		.base-grid-dataview-container-wrapClass {
+			top: 46px;
+			min-height: calc(~"100vh" - 52px);
+		}
+	}
+	.utils {
+		display: flex;
+		justify-content: space-between;
+
+		.utils-left {
+			left: 16px;
+
+			[data-item-marker="CancelButton"] {
+				margin-right: 0;
+			}
+			.t-btn-style-default {
+				min-height: auto;
+			}
+			.t-btn-text {
+				line-height: 16px;
+			}
+			.t-btn-wrapper {
+				padding-top: 4px;
+				padding-bottom: 4px;
+			}
+		}
+		.utils-right {
+			margin-left: 0;
+
+			.t-btn-style-default {
+				border-bottom: 3px solid transparent;
+				&.t-btn-pressed {
+					background: transparent;
+					border-bottom: 3px solid #f49d56 !important;
+					color: #444444;
+				}
+				&:not(.t-btn-disabled):hover {
+					background: transparent;
+					border-bottom: 3px solid rgba(244, 157, 86, 0.19);
+				}
+			}
+		}
+		.t-btn-wrapper {
+			padding-top: 3px;
+			padding-bottom: 3px;
+		}
+		span[data-item-marker="PreviousButton"],
+		span[data-item-marker="NextButton"] {
+			display: none;
+		}
+		span[data-item-marker="StepButton"] {
+			padding-bottom: 8px;
+		}
+
+		.schema-properties-button {
+			width: 26px;
+			height: 26px;
+			-moz-user-select: none;
+			padding: 0;
+
+			.t-btn-image {
+				width: 26px;
+				height: 26px;
+				background-position-y: -46px;
+
+				&:hover {
+					background-position-y: -7px;
+				}
+			}
+		}
+	}
+}

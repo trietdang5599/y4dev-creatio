@@ -1,0 +1,23 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "CEXMT7WP8F.org.bpmonline.mobile70",
+          "CEXMT7WP8F.com.creatio.mobileapp.intune",
+          "CEXMT7WP8F.com.creatio.mobileapp"
+        ],
+        "components": [
+          { "/": "/Nui/ViewModule.aspx*" },
+          { "/": "/Navigation/Navigation.aspx*" },
+          { "/": "/Shell/*" },
+          { "/": "/0/Nui/ViewModule.aspx*" },
+          { "/": "/0/Navigation/Navigation.aspx*" },
+          { "/": "/0/Shell/*" },
+          { "/": "/oauth2redirect/mobile" }
+        ]
+      }
+    ]
+  }
+}

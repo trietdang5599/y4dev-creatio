@@ -1,0 +1,16 @@
+﻿.grid .participant-name-container .name-label {
+  display: inline;
+  font-family: "bpmonline UI", serif;
+  font-size: inherit;
+}
+.grid .participant-name-container .invitation-state {
+  padding: 0px;
+  margin-right: 8px;
+  margin-top: 2px;
+  cursor: default;
+  float: left;
+}
+.grid .participant-name-container .invitation-state .t-btn-image {
+  width: 16px;
+  height: 16px;
+}

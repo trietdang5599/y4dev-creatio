@@ -1,0 +1,562 @@
+﻿@separatorLineColor: #e2e0e0;
+@hyperlinkColor: #4e7bd8;
+@columnMatchingRowEvenColor: #f7f7f7;
+@dropzoneHoverBorderColor: #4b7fc7;
+@destinationButtonGreenColor: #94de35;
+@destinationButtonRedColor: #ff7a64;
+@buttonBackgroundColor: #fff;
+@buttonBorderColor: #b4c1d2;
+@lightgreenColor: #eefcda;
+@greenColor: #94de35;
+@grayColor: #444;
+@lightgrayColor: #999;
+@errorCaptionColor: #ff7a64;
+@uploadCaptionColor: #6e6e70;
+@congratulationImageSize: 100px;
+@excelImageSize: 80px;
+@center-container-width: 100em;
+@import-column-mapping-info-block-width: 30em;
+
+.flex {
+	display: flex;
+}
+.flex-center {
+	.flex;
+	align-items: center;
+	justify-content: center;
+}
+.flex-vertical-center {
+	.flex-center;
+	flex-direction: column;
+}
+.green-border {
+	border: 1px solid @greenColor;
+}
+
+.wizard-header {
+	.wizard-container[data-item-marker*="ResultPage"] {
+		.utils {
+			display: none;
+		}
+	}
+	.wizard-container[data-item-marker*="ProcessingPage"] {
+		.utils {
+			[data-item-marker="PreviousButton"],
+			[data-item-marker="NextButton"] {
+				display: none;
+			}
+		}
+	}
+}
+
+.main-container {
+	width: @center-container-width;
+
+	.header-container {
+		.header-label {
+			font-family: segoe ui light;
+			font-size: 2.5em;
+			color: #000;
+			width: auto;
+		}
+
+		&.columns-mapping {
+			.flex-vertical-center;
+
+			.columns-header-container {
+				.flex;
+				width: 100%;
+				margin-top: 1.1em;
+
+				.ts-image-edit-wrap {
+					margin: auto !important;
+					height: auto !important;
+					width: auto !important;
+
+					.ts-image-edit-inner-container {
+						width: 14.5em;
+						height: 6.8em;
+					}
+				}
+			}
+		}
+
+		&.duplicates {
+			.flex-center;
+		}
+
+		&.processing {
+			.flex-center;
+		}
+
+		&.results {
+			.flex;
+			padding-top: 38px;
+
+			.header-label-container {
+				padding-top: 10px;
+			}
+
+			.header-label {
+				color: @greenColor;
+				font-size: 36px;
+			}
+
+			.description-label {
+				color: @grayColor;
+				font-family: segoe ui light;
+				font-size: 26px;
+				margin-top: -4px;
+			}
+
+			.congratulation-image-wrapper {
+				margin-left: 150px !important;
+				margin-right: 30px !important;
+				width: auto !important;
+				height: auto !important;
+
+				&.ts-image-edit-wrap {
+
+					.ts-image-edit-inner-container {
+						width: @congratulationImageSize;
+						height: @congratulationImageSize;
+					}
+				}
+			}
+		}
+
+	}
+
+	.center-container {
+
+		.column-list-container {
+			width: 100em;
+			border-top: solid @separatorLineColor 0.1em;
+			margin-bottom: 4em;
+
+			.column-matching-row-container {
+				padding-left: 2em;
+				min-height: 4.4em;
+
+				&:nth-child(even) {
+					background-color: @columnMatchingRowEvenColor;
+				}
+
+				.column-matching-container {
+					width: 50%;
+					display: inline-block;
+					vertical-align: top;
+
+					&.source-column-container {
+						margin-top: 1.1em;
+					}
+
+					.label-link {
+						display: inline-block;
+						margin-top: 0.8em;
+						vertical-align: top;
+						width: auto;
+					}
+
+					.destination-image-wrapper {
+						padding: 0;
+						width: 28px;
+						height: 28px;
+						display: inline-block;
+						border-radius: 2px;
+						margin-right: 10px;
+						margin-top: 8px;
+
+						.destination-image {
+							width: 28px;
+							height: 28px;
+							background-position: -1px -1px;
+						}
+					}
+
+					.select-column-button {
+						margin-top: 0.557em;
+						margin-right: 2em;
+						padding-left: 0;
+						padding-right: 0;
+						color: @hyperlinkColor;
+
+						&:hover {
+							text-decoration: underline;
+						}
+
+						&.connected-entity-button {
+							margin-top: 0.6em;
+							margin-right: 0;
+						}
+					}
+
+					.select-column-menu {
+						padding-left: 0;
+
+						.t-btn-menu {
+							margin-top: 14px;
+
+							.t-btn-marker {
+								border-top-color: @hyperlinkColor;
+							}
+						}
+					}
+
+					.destinations-list-container {
+						display: inline-block;
+
+						.destinations-container-list {
+							& > div {
+								margin-top: 0.5em;
+								margin-bottom: 0.5em;
+
+								.delete-button-wrapper {
+									padding: 0.65em 0 0 0;
+									margin-left: 0.25em;
+								}
+
+								&:not(:hover) {
+									.delete-button-wrapper {
+										visibility: hidden;
+									}
+								}
+							}
+
+							.destination-image-wrapper {
+								padding: 0;
+								width: 28px;
+								height: 28px;
+								display: inline-block;
+								border-radius: 2px;
+								margin-right: 10px;
+								margin-top: 3px;
+
+								.destination-image {
+									width: 28px;
+									height: 28px;
+									background-size: contain;
+								}
+							}
+
+							.t-label {
+								width: auto;
+								vertical-align: top;
+								margin-top: 0.4em;
+							}
+						}
+					}
+
+					.t-btn-style-green {
+						background-color: @destinationButtonGreenColor;
+					}
+
+					.t-btn-style-red {
+						background-color: @destinationButtonRedColor;
+					}
+				}
+			}
+		}
+
+		&.results {
+
+			.description-wrapper {
+				margin: 19px 0 91px 280px;
+				width: 520px;
+
+				.status-label {
+					color: @lightgrayColor;
+					font-family: segoe ui;
+					font-size: 14px;
+				}
+
+				.read-more {
+					display: none;
+				}
+
+				.details-label {
+					margin-top: 18px;
+					width: auto;
+				}
+
+				.import-log-link {
+					display: block;
+					width: auto;
+				}
+			}
+
+			.buttons-wrapper {
+				.flex-center;
+			}
+
+			.button {
+				.flex-center;
+				.green-border;
+				color: @grayColor;
+				font-family: segoe ui;
+				font-size: 14px;
+				justify-content: flex-start;
+				background-color: @buttonBackgroundColor;
+				height: 84px;
+				width: 240px;
+				padding: 0 !important;
+			}
+
+			.button-image {
+				width: 72px;
+				height: 72px;
+				position: static;
+			}
+		}
+
+		&.processing {
+			.processing-label {
+				.flex-center;
+				padding-top: 1em;
+			}
+
+			.thanks-label {
+				.flex-center;
+				color: @lightgrayColor;
+				padding-top: 2em;
+			}
+		}
+
+		&.duplicates {
+			margin-top: 21px;
+
+			.duplicate-columns-group-wrap {
+				.grid-captions {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.dropzone {
+		border: 0.1em dashed @lightgrayColor;
+		border-radius: 1em;
+		padding: 3em;
+
+		.empty-file-image-wrapper {
+			width: auto !important;
+			height: auto !important;
+
+			.ts-image-edit-inner-container {
+				width: 139px;
+				height: 139px;
+			}
+		}
+
+		.empty-file-caption {
+			font-size: 1.6em;
+			margin-bottom: 1em;
+			margin-top: 1.5em;
+			width: auto;
+		}
+
+		.error-caption {
+			.empty-file-caption;
+			color: @errorCaptionColor;
+		}
+
+		.error-link-caption {
+			.empty-file-caption;
+			margin-top: -1em;
+			width: 100%;
+		}
+
+		.upload-caption {
+			.empty-file-caption;
+			color: @uploadCaptionColor;
+		}
+
+		.upload-button {
+			border: 1px solid #b4c1d2;
+			color: @hyperlinkColor;
+		}
+
+		.excel-file-caption {
+			font-family: segoe ui;
+			font-size: 2em;
+			color: @lightgrayColor;
+			margin-top: 0.875em;
+			width: auto;
+		}
+
+		.excel-file-image-wrapper {
+			width: auto !important;
+			height: auto !important;
+
+			.ts-image-edit-inner-container {
+				width: @excelImageSize;
+				height: @excelImageSize;
+				margin-top: 45px;
+			}
+		}
+
+		.excel-file-name-wrapper {
+			margin-top: 15px;
+			margin-bottom: 24px;
+
+			.excel-file-name-caption {
+				font-family: segoe ui;
+				font-size: 1.6em;
+				color: @grayColor;
+				padding: 0;
+			}
+
+			.excel-file-delete-button-wrapper {
+				padding: 3px 0 0 8px;
+			}
+		}
+	}
+
+	.dropzone-hover {
+		border-color: @dropzoneHoverBorderColor;
+	}
+
+	.import-object-wrap {
+		.flex-vertical-center;
+		padding: 3em;
+
+		label {
+			font-size: 1.6em;
+			width: auto;
+			height: 2em;
+		}
+
+		.import-object-buttons-wrap {
+			.flex-center;
+		}
+
+		.import-object-button {
+			.flex-center;
+			justify-content: flex-start;
+			background-color: @buttonBackgroundColor;
+			border: 1px solid @buttonBorderColor;
+			height: 100px;
+			min-width: 193px;
+			max-width: 250px;
+			border-radius: 10px;
+			font-family: segoe ui light;
+			font-size: 20px;
+			color: @grayColor;
+			padding: 0 !important;
+			margin: 0 5px;
+
+			&.t-btn-pressed {
+				.green-border;
+				background-color: @lightgreenColor;
+			}
+
+			.t-btn-text {
+				padding-right: 1.2em;
+			}
+		}
+
+		.import-object-button-image {
+			width: 100px;
+			height: 100px;
+			position: static;
+			margin: 0;
+		}
+	}
+
+	.import-template-selector-wrap {
+		text-align: center;
+		padding-top: 2.6em;
+
+		.import-template-selector-label {
+			display: inline;
+			padding-right: 1em;
+			font-size: 1.6em;
+			color: #6e6e70;
+		}
+
+		.upload-template-button {
+			display: inline;
+			border: 1px solid #b4c1d2;
+		}
+	}
+
+	.import-template-inform-wrap {
+		text-align: center;
+		padding-bottom: 0.25em;
+
+		.import-template-inform-label, .import-template-inform-name {
+			display: inline;
+			padding-left: 0.5em;
+			font-size: 1.6em;
+			color: #6e6e70;
+		}
+
+		.import-template-inform-unselect-button {
+			padding: 0.38em;
+		}
+	}
+
+	.footer-container {
+		.flex-center;
+		padding: 2em;
+
+		.is-need-to-save-container {
+			margin-left: 32px;
+			position: relative;
+
+			.control-no-label {
+				display: inline;
+				position: absolute;
+			}
+
+			.t-label {
+				padding-left: 32px;
+			}
+		}
+	}
+}
+
+.save-import-template-message-box, .new-import-template-message-box {
+
+	.button-margin-right {
+		margin-right: 10px;
+	}
+
+}
+
+.save-import-template-message-box {
+
+	.inner-content-group {
+		padding-bottom: 15px;
+	}
+
+}
+
+.new-import-template-message-box {
+
+	.inner-content-group {
+		padding-bottom: 24px;
+
+		.control-caption {
+			color: #999999;
+			font-size: 1.3em;
+		}
+	}
+
+}
+
+.file-import-wizard-wrap {
+	#FileImportColumnsMappingPageContainer .center-container {
+		display: flex;
+		width: @center-container-width + @import-column-mapping-info-block-width;
+	}
+
+	#ImportColumnMappingInfoBlock {
+		margin-left: 1em;
+		width: @import-column-mapping-info-block-width;
+
+		.import-column-mapping-info-item {
+			list-style-type: none;
+		}
+	}
+}

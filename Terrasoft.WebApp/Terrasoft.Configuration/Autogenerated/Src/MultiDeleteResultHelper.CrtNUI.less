@@ -1,0 +1,124 @@
+﻿.constraints-item-container {
+	margin-bottom: 5px;
+	.constraint-details-hide {
+		display: none;
+	}
+	.constraints-item-details-container {
+		margin-left: 36px;
+		padding-bottom: 6px;
+		padding-top: 14px;
+		.multi-delete-detail-module {
+			margin-bottom: 26px;
+		}
+		.constraints-item-container.selectable {
+			margin-bottom: 0;
+			.grid {
+				label {
+					font-size: 0.928em;
+				}
+			}
+			.ts-controlgroup-container.no-line {
+				padding-bottom: 0;
+			}
+		}
+	}
+	>label {
+		width: auto;
+	}
+	>.label-link.t-label {
+		font-size: 1.7em;
+		margin-left: 17px;
+	}
+	>.constraints-item-tools-container {
+		display: inline-block;
+		position: relative;
+		top: -11px;
+		margin-left: 10px;
+	}
+	>.constraints-icon-hierarchical {
+		border: 1px solid #CCC;
+		width: 18px;
+		height: 17px;
+		padding: 0px 0 3px 0;
+		text-align: center;
+		cursor: pointer;
+	}
+	>.subject-text-labelClass {
+		font-size: 1.5em;
+		position: relative;
+		margin-left: 6px;
+		top: -1px;
+	}
+}
+#MultiDeleteResultPageV2Container {
+	.page-header-container,
+	.header-container-margin-bottom {
+		display: none;
+	}
+	.resultsContainerCollapsed {
+		display: none
+	}
+}
+#MultiDeleteResultPageV2ByConstraintsContainerContainer,
+#MultiDeleteResultPageV2ByRightsContainerContainer{
+	flex-grow: unset;
+	padding-bottom: 14px;
+	position: relative;
+	.container-multi-delete-caption-labelClass {
+		font-size: 2.5em;
+		margin: -7px 0 0 27px;
+		width: auto;
+	}
+	#ByConstraintsContainerListContainerList {
+		margin-top: 19px;
+	}
+	#grid-MultiDeleteResultPageV2DataGridGrid-wrap {
+		margin-top: 16px;
+	}
+	.multi-delete-type-image-wrapClass {
+		width: 16px;
+		height: 17px;
+		padding: 0;
+		margin: 0;
+		display: inline-block;
+		position: absolute;
+		top: 23px;
+		left: 19px;
+		>span {
+			width: 16px;
+			height: 17px;
+			background-position-y: 0;
+		}
+	}
+	.multi-delete-type-image-wrapClass.multi-delete-type-image-wrapClass-rights {
+		>span {
+			background-position-y: 17px;
+		}
+	}
+	.multi-delete-collapsed-wrapClass, .multi-delete-expand-wrapClass {
+		width: 32px;
+		height: 32px;
+		display: inline-block;
+		padding: 0;
+		position: absolute;
+		left: 100%;
+		top: 16px;
+		margin-left: -46px;
+		>span {
+			width: 32px;
+			height: 32px;
+			background-position: left top;
+			&:Hover {
+				background-position-y: center;
+			}
+			&:active {
+				background-position-y: bottom;
+			}
+		}
+	}
+	.multi-delete-expand-wrapClass {
+		>span {
+			background-position-x: right;
+		}
+	}
+}

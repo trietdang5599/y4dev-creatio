@@ -1,0 +1,4386 @@
+{
+  "ExpressionDesigner": {
+    "Title": "方程式設計師",
+    "EmptyExpressionForbidden": "無法儲存空公式",
+    "Add": "添加",
+    "ExpressionIsNotValid": "無法儲存公式。請處理驗證錯誤並再試一次",
+    "Validation": {
+      "DivisionByZero": "不允許除以 0",
+      "ExpressionTypeNotValid": "此表達式中不能使用字串字面意義",
+      "ColumnRemoved": "移除欄位"
+    },
+    "EmptyExpressionValidation": "公式為空",
+    "ValidationSuccess": "驗證成功",
+    "ExpressionDesignerError": "出錯了。請重試或聯絡您的系統管理員。"
+  },
+  "Components": {
+    "SearchFilter": {
+      "Caption": "搜尋",
+      "Placeholder": "搜尋",
+      "Tooltip": "搜尋元件允許僅以文字、數字和查詢列進行搜尋，並與列表物件直接連線。"
+    },
+    "EncryptedInput": {
+      "Caption": "加密字串",
+      "EyeButtonShowValueCaption": "顯示數值",
+      "ToggleMaskedValueHandler": {
+        "ErrorMessage": "Something went wrong. Please, try again or contact your system administrator."
+      },
+      "EyeButtonHideValueCaption": "Hide value",
+      "EyeButtonDisabledCaption": "Can’t show/hide value",
+      "UnmaskRecordParametersBuilder": {
+        "UnsupportedAttributeTypeError": "This type of attribute is not supported for this operation. Please check the field configuration or try a different data type.",
+        "CurrentRecordIdNotFoundError": "Unable to find the current record ID. This may happen if the current record has not been saved yet. Please make sure the record is saved before performing this action.",
+        "ReferenceRecordIdNotFoundError": "The referenced record ID is missing. This can occur if the reference points to a newly created record that hasn't been saved to the database yet. Please save the referenced record first.",
+        "ReferenceColumnSchemaNameNotFoundError": "The name of the referenced column schema is not found. Please check the configuration of the reference field."
+      }
+    },
+    "FolderTree": {
+      "Caption": "資料夾",
+      "Hint": "讓您設定資料夾結構，以指定的篩選條件組織記錄。為了確保元件能如預期般運作，請在頁面清單或資料來源設定中連接元件。"
+    },
+    "FolderTreeActions": {
+      "Caption": "資料夾管理選單",
+      "Hint": "需要 Folders 元件。讓您取消隱藏頁面資料夾。"
+    },
+    "QuickFilter": {
+      "Caption": "快速篩選",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "昨天",
+          "Today": "今天",
+          "Tomorrow": "明天",
+          "PreviousWeek": "上週",
+          "CurrentWeek": "本週",
+          "NextWeek": "下週",
+          "PreviousMonth": "上個月",
+          "CurrentMonth": "本月",
+          "NextMonth": "下個月",
+          "PreviousQuarter": "上一季",
+          "CurrentQuarter": "目前季度",
+          "NextQuarter": "下個季度",
+          "PreviousFiscalWeek": "Previous fiscal week",
+          "CurrentFiscalWeek": "Current fiscal week",
+          "NextFiscalWeek": "Next fiscal week",
+          "FiscalQuarter1": "Q1",
+          "FiscalQuarter2": "Q2",
+          "FiscalQuarter3": "Q3",
+          "FiscalQuarter4": "Q4",
+          "FiscalHalfYear1": "First half year",
+          "FiscalHalfYear2": "Second half year",
+          "PreviousFiscalYear": "前一年",
+          "CurrentFiscalYear": "本年度",
+          "NextFiscalYear": "下一年"
+        }
+      }
+    },
+    "MessageComposer": {
+      "Caption": "訊息撰寫人",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "電子郵件"
+        },
+        "Feed": {
+          "Caption": "資訊流"
+        },
+        "SelectChannelsCaption": "選擇頻道",
+        "Telegram": {
+          "Caption": "電報"
+        },
+        "FacebookMessenger": {
+          "Caption": "Facebook 信使"
+        },
+        "WhatsApp": {
+          "Caption": "WhatsApp"
+        },
+        "SMS": {
+          "Caption": "簡訊"
+        }
+      }
+    },
+    "ColorPicker": {
+      "SelectedColor": "選取的顏色",
+      "Readonly": "不可編輯欄位"
+    },
+    "Switch": {
+      "Caption": "Switch"
+    },
+    "NextBestOffer": {
+      "Caption": "下一個最佳優惠",
+      "EmptyValue": "不適用",
+      "Next": "下一個",
+      "Previous": "以前"
+    },
+    "NextBestOfferDT": {
+      "Caption": "Next Best Offers"
+    },
+    "Approval": {
+      "Caption": "核准"
+    },
+    "ApprovalList": {
+      "Caption": "核准清單",
+      "RefreshCaption": "重新整理",
+      "ProvideDataSource": "使用核准前提供資料來源"
+    },
+    "MultiSelect": {
+      "Caption": "多選查詢",
+      "Label": "多重選擇",
+      "CreateRecordButtonCaption": "建立記錄",
+      "ExpanderIcon": "展開下拉式選單",
+      "OpenModalIcon": "開啟模式視窗",
+      "TooltipInfoIcon": "資訊工具提示",
+      "ReadonlyIcon": "不可編輯欄位"
+    },
+    "BarcodeScanner": {
+      "Caption": "Barcode scanner"
+    },
+    "Sort": {
+      "Caption": "分類"
+    }
+  },
+  "ExpressionDialog": {
+    "Validate": "驗證",
+    "ValidateMessage": "驗證訊息 ({{count}})",
+    "Placeholder": "從清單中選取資料屬性，或開始輸入公式。支援基本算術運算和括號",
+    "MaxExpressionLength": "已達到建議的最大字元數",
+    "AggregationFormulaPlaceholder": "Set up a formula using aggregation functions and data attributes. Configure filters if needed, and combine results using basic arithmetic operations"
+  },
+  "SkeletonLoader": {
+    "Loading": "載入中..."
+  },
+  "CopyClipboard": {
+    "Copied": "複製"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "尚未有任何顯示",
+      "Subhead": "請先新增資料"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "聊天開始：{0}由",
+        "EndDate": "聊天完成：{0}由"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "通路無法刪除，有活躍聊天或聊天正在分發。請先完成聊天，然後再試一次。"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "載入中"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "錯誤",
+      "Default": "工具提示"
+    }
+  },
+  "DataGroupColumnsSubGroups": {
+    "NewColumn": "新增欄位",
+    "ExistingColumns": "Data model attributes"
+  },
+  "ColumnAddedOnPage": "Column already added on the page",
+  "ColumnValidators": {
+    "ErrorMessages": {
+      "LookupReferenceSchemaNotSetError": "Data source is not set for lookup column"
+    }
+  },
+  "NewColumnSubGroup": {
+    "MEDIUM_TEXTColumn": "正文",
+    "IntegerColumn": "數量",
+    "BooleanColumn": "複選框",
+    "ColorColumn": "顏色",
+    "DateTimeColumn": "Date/Time",
+    "LookupColumn": "下拉式",
+    "RICH_TEXTColumn": "Rich text",
+    "AutonumberColumn": "自動編號",
+    "IMAGELOOKUPColumn": "圖片",
+    "PhoneColumn": "電話",
+    "LongPhoneColumn": "電話號碼",
+    "WebColumn": "網站連結",
+    "EmailColumn": "電子郵件",
+    "LongEmailColumn": "電子郵件地址",
+    "SECURE_TEXTColumn": "加密字串",
+    "ToggleColumn": "Switcher",
+    "SwitchColumn": "Switch"
+  },
+  "ModalPageDesigner": {
+    "Defaults": {
+      "Caption": "New modal page",
+      "CaptionTemplate": "{{0}} new modal page",
+      "CaptionWithEntityTemplate": "{{0}} modal page"
+    }
+  },
+  "DataGroupParametersSubGroups": {
+    "NewParameter": "Add new parameter",
+    "ExistingParameters": "現有參數"
+  },
+  "NewParameterSubGroup": {
+    "MEDIUM_TEXTParameter": "正文",
+    "IntegerParameter": "數量",
+    "BooleanParameter": "複選框",
+    "DateTimeParameter": "Date/Time",
+    "LookupParameter": "下拉式",
+    "RICH_TEXTParameter": "Rich text",
+    "PhoneParameter": "電話",
+    "LongPhoneParameter": "電話號碼",
+    "WebParameter": "網站連結",
+    "EmailParameter": "電子郵件",
+    "LongEmailParameter": "電子郵件地址"
+  },
+  "CDK": {
+    "ChartsGroupCaption": "小工具",
+    "DataGroupCaption": "資料",
+    "PageParametersDataGroupCaption": "頁面參數",
+    "ComponentsGroupCaption": "組件",
+    "LayoutElementsGroupCaption": "Layout elements",
+    "InputsGroupCaption": "Inputs",
+    "CustomElementsGroupCaption": "Custom components"
+  },
+  "SchemaOutlet": {
+    "Caption": "Schema container",
+    "Hint": "The container displays a schema",
+    "SchemaNotFound": "<not found>",
+    "BeforeSchemaChangeAnnounceMessage": "Loading, please wait...",
+    "AfterSchemaChangeAnnounceMessage": "Loading is completed"
+  },
+  "CanvasPlaceholder": {
+    "Caption": "Nothing here yet",
+    "Description": "Drag and drop elements from \n the left panel",
+    "LinkDescription": "Read more about the designer in",
+    "LinkCaption": "學院",
+    "LinkUrl": "https://academy.creatio.com/docs/8.x/no-code-customization/category/ui-and-business-logic-customization"
+  },
+  "DesignerTools": {
+    "SearchPlaceholder": "搜尋元件",
+    "PlaceholderTitleWithFilters": "沒有符合篩選條件的記錄",
+    "PlaceholderDescriptionWithFilters": "清除篩選器或更改其條件"
+  },
+  "LeftPanel": {
+    "ComponentsTabLabel": "組件",
+    "StructureTabLabel": "結構"
+  },
+  "InfoPanel": {
+    "SafariInfoPanelMessage": "請使用 Chrome 瀏覽器以獲得最佳體驗，因為 Safari 可能不支援所有設計師功能。謝謝！",
+    "UserLevelSchemaInfoPanelMessage": "The dashboard will be available in this environment only. If you need to migrate it to a different environment, include the dashboard in a package.",
+    "OpenInPackageButton": "Open in the package"
+  },
+  "Structure": {
+    "NodeMenu": {
+      "Settings": "設定",
+      "Copy": "複製",
+      "Delete": "刪除",
+      "AddComponent": "Add component",
+      "MoveTo": "Move to"
+    },
+    "Search": {
+      "PreviousMatch": "Previous match",
+      "NextMatch": "Next match",
+      "Clear": "清除搜尋"
+    }
+  },
+  "AddItemDialog": {
+    "Title": "Add component",
+    "Placeholder": "Component name",
+    "AddButton": "新增",
+    "CancelButton": "取消"
+  },
+  "MoveToDialog": {
+    "Title": "Move to",
+    "Placeholder": "Item name",
+    "MoveToButton": "移動",
+    "CancelButton": "取消"
+  },
+  "InterfaceDesignerHeaderComponent": {
+    "SaveButtonCaption": "儲存",
+    "CancelButtonCaption": "取消",
+    "CloseButtonCaption": "關閉",
+    "UndoButtonTooltip": "撤銷",
+    "OpenSourceCodeTooltip": "開放原始碼",
+    "SourceCodeCaption": "原始碼",
+    "OpenPropertyTooltip": "頁面設定",
+    "ChangeParentTooltip": "改變父級",
+    "ActionsTooltip": "行動",
+    "CopyCaption": "複製",
+    "ExportCaption": "匯出",
+    "OnlineHelpCaption": "線上協助",
+    "OnlineHelpUrl": "https://academy.creatio.com/docs/8.x/no-code-customization/category/ui-and-business-logic-customization",
+    "SchemaOutdatedSaveButtonTooltip": "Schema outdated",
+    "RedoButtonTooltip": "Redo",
+    "FaviconButtonTooltip": "Open application management",
+    "BusinessRulesButtonTitle": "開放式業務規則",
+    "BusinessRulesButtonCaption": "業務規則",
+    "PreviewButtonCaption": "預覽",
+    "PreviewButtonTitle": "預覽頁面",
+    "PreviewActiveLabel": "Preview active"
+  },
+  "InterfaceDesigner": {
+    "ExportSuccessMessage": "Schema exported successfully",
+    "ExportErrorMessage": "Failed to export schema",
+    "ExportMessage": "Do you want to save changes before export? If not, you will get a local version export.",
+    "ExportSuccess": "Schema exported successfully",
+    "PreviewOpenError": "Failed to open page preview.",
+    "PropertiesPages": {
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "加密字串"
+      },
+      "DividerPropertiesPanel": {
+        "LayoutGroup": "佈局",
+        "PaddingGroup": "間距",
+        "Padding": {
+          "Top": "回頂端",
+          "Bottom": "底部",
+          "Left": "剩餘",
+          "Right": "對"
+        },
+        "Thickness": {
+          "Label": "Thickness"
+        },
+        "Sizes": {
+          "None": "無",
+          "ExtraSmall": "超小型",
+          "Small": "小型",
+          "Medium": "中型",
+          "Large": "大型"
+        },
+        "PageCaption": "Divider settings"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "摘要設定",
+        "GeneralGroup": {
+          "Caption": "一般的",
+          "SelectDataSource": "資料來源"
+        }
+      },
+      "FolderTreePropertiesPage": {
+        "GeneralLabel": "一般的",
+        "HeaderLabel": "資料夾設定",
+        "SourceSchemaLabel": "資料夾儲存位置",
+        "RootSchemaLabel": "資料夾會過濾哪些內容？",
+        "AppearanceGroup": "外觀",
+        "BorderRadiusLabel": "邊界半徑",
+        "Sizes": {
+          "None": "無",
+          "Small": "小型",
+          "Medium": "中等的",
+          "Large": "大的",
+          "ExtraLarge": "特大號",
+          "2XLarge": "Double extra large",
+          "3XLarge": "Triple extra large"
+        },
+        "ButtonSizeFieldLabel": "尺寸",
+        "ColorFieldLabel": "風格",
+        "Colors": {
+          "Primary": "初級",
+          "Accent": "焦點",
+          "Warn": "警告",
+          "Default": "Plain",
+          "Secondary": "Secondary"
+        },
+        "IconPositionLabel": "職位",
+        "IconPosition": {
+          "LeftIcon": "圖示左側",
+          "OnlyIcon": "僅圖示",
+          "RightIcon": "圖示右側"
+        }
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "資料夾管理功能表的設定",
+        "FolderTreeLabel": "資料夾樹狀選擇",
+        "GeneralCaption": "一般的"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "快速篩選器設定",
+        "GeneralCaption": "一般的",
+        "AppearanceCaption": "外觀",
+        "ChooseFilterTypeLabel": "選擇篩選器類型",
+        "CaptionLabel": "標題",
+        "HintLabel": "暗示",
+        "CustomType": "訂製的",
+        "DateRangeType": "日期/時間",
+        "LookupType": "查找"
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "時間軸設定",
+        "ObjectsCaption": "物件",
+        "AddObject": "新增物件",
+        "ContextMenu": {
+          "Edit": "編輯",
+          "Delete": "刪除"
+        },
+        "GeneralGroup": "一般的",
+        "EmptyDataSourceHint": "資料來源未加入頁面。請新增現有資料來源以設定元件",
+        "BindToDataSourceCaption": "資料來源",
+        "FiltrationCaption": "過濾選項",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "依記錄類型",
+          "TimelineFilter_Owner": "由擁有者提供",
+          "TimelineFilter_Date": "依日期",
+          "TimelineFilter_SystemMessages": "按系統訊息"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "一般的",
+        "CaptionLabel": "標題",
+        "AppearanceGroup": "外觀",
+        "LinkedColumn": "連結欄",
+        "SortedByColumn": "排序方式",
+        "IconPosition": {
+          "OnlyIcon": "僅圖示"
+        },
+        "FiltrationGroup": "過濾選項",
+        "OwnerColumn": "擁有者篩選欄位",
+        "Feed": {
+          "ExternalUsersGroupCaption": "外部用戶",
+          "AllowExternalPostCaption": "允許外部使用者出版"
+        }
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "工具列顯示模式",
+        "Inline": "內嵌",
+        "Classic": "經典",
+        "AlwaysShowToolbar": "總是顯示格式化選項"
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "通訊選項設定",
+        "GeneralGroup": "一般的",
+        "MasterRecordCaption": "記錄綁定通訊選項",
+        "DataSourceEntityColumn": "資料來源",
+        "Editability": "可編輯性",
+        "EditabilityControls": {
+          "Readonly": "只讀"
+        },
+        "LabelPositionCaption": "標題位置",
+        "LabelPosition": {
+          "Auto": "自動",
+          "Left": "剩餘",
+          "Above": "以上",
+          "Hidden": "隱藏"
+        },
+        "ShowNoDataPlaceholder": "無資料時顯示占位符",
+        "AppearanceGroup": "外觀",
+        "ColumnsCountLabel": "列數",
+        "ContactEntitySchemaName": "聯絡通訊選項",
+        "AccountEntitySchemaName": "企業通訊選項",
+        "EmptyDataSourceHint": "資料來源未加入頁面。請新增現有資料來源以設定元件"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "帳戶精簡設定檔設定",
+        "GeneralGroup": "一般的",
+        "AttributeForReferenceColumn": "資料來源",
+        "Editability": "可編輯性",
+        "EmptyAccountDataSourceHint": "資料來源未加入頁面。請新增現有資料來源以設定元件",
+        "EditabilityControls": {
+          "Readonly": "只讀"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "觸點精簡設定檔設定",
+        "GeneralGroup": "一般的",
+        "AttributeForReferenceColumn": "資料來源",
+        "Editability": "可編輯性",
+        "EmptyContactDataSourceHint": "資料來源未加入頁面。請新增現有資料來源以設定元件",
+        "EditabilityControls": {
+          "Readonly": "只讀"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "使用者設定檔設定",
+        "GeneralGroup": "一般的",
+        "AttributeForReferenceColumn": "資料來源",
+        "Editability": "可編輯性",
+        "EmptyUserProfileDataSourceHint": "資料來源未加入頁面。請新增現有資料來源以設定元件",
+        "EditabilityControls": {
+          "Readonly": "只讀"
+        }
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "聊天設定",
+        "GeneralCaption": "一般的",
+        "TooltipCaption": "您可以在頁面原始碼中設定此元素",
+        "OpenSourceCodeButtonCaption": "開放原始碼"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "對話設定",
+        "GeneralCaption": "一般的"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "訊息編輯器設定",
+        "GeneralCaption": "一般的"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "進紙設定",
+        "GeneralCaption": "一般的",
+        "FeedTypeCaption": "如何篩選記錄",
+        "FeedChannel": "通路",
+        "FeedTypeGeneral": "一般的",
+        "FeedTypeUser": "與使用者相關",
+        "FeedTypeChannel": "通路",
+        "FeedTypeRecord": "與記錄相關",
+        "FeedDataSourceCaption": "資料來源",
+        "FeedTypeRecordTooltipCaption": "Feed 訊息會根據特定的記錄通訊顯示。",
+        "FeedTypeGeneralTooltipCaption": "與目前使用者相關的所有通知和提及。在此模式下，Feed 會顯示目前使用者被標籤的文章和評論，或他正在追蹤的主題。舉例來說，此模式的 feed 可以加入首頁，以免錯過重要資訊。",
+        "ExternalUsersGroupCaption": "外部用戶",
+        "AllowExternalPostCaption": "允許外部使用者出版",
+        "ShowBlankSlateCaption": "顯示白板"
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "編輯",
+          "Delete": "刪除"
+        },
+        "ChannelsCaption": "通路",
+        "AddNewItem": "新增頻道",
+        "PageCaption": "訊息撰寫人",
+        "DefaultChannelCaption": "預設通路"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "電子郵件作曲家",
+        "GeneralCaption": "一般的",
+        "DefaultSenderType": "預設寄件者",
+        "DefaultMailbox": "使用預設信箱",
+        "CaseMailbox": "用例來源信箱"
+      },
+      "ChatComposerPropertiesPage": {
+        "PageCaption": "Chat composer",
+        "GeneralCaption": "一般",
+        "ProviderIdCaption": "通路供應商"
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "下一步設定"
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "預覽迷你頁面",
+        "TitleColumn": "主要顯示欄位",
+        "StartDateColumn": "開始日期欄",
+        "EndDateColumn": "結束日期欄",
+        "NotesColumn": "具有線上會議資訊的領域",
+        "PageCaption": "行事曆設定",
+        "RequiredFieldError": "此欄位必須填寫",
+        "SecondaryTileFields": "次要磁磚區域",
+        "AddSecondaryFieldCaption": "新增次要欄位",
+        "DisabledAddSecondaryFieldCaption": "您最多可以新增 4 個輔助欄位",
+        "AutoScrollToCurrentTime": "自動捲動到目前時間",
+        "SecondaryFieldContextMenu": {
+          "Delete": "刪除"
+        },
+        "ColorizationType": {
+          "Default": "預設",
+          "ByField": "自動",
+          "ByOwner": "使用者"
+        },
+        "ColorizationTypeCaption": "磁磚著色模式",
+        "ColorizationColumnCaption": "查找"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "下一個最佳優惠設定",
+        "GeneralCaption": "一般的",
+        "DataSourceCaption": "物件",
+        "CaptionColumnField": "標題",
+        "DescriptionColumnField": "描述",
+        "InfoLabelColumnField": "資訊查詢",
+        "ImageColumnField": "圖像",
+        "NumberTagColumnField": "標籤",
+        "SortingFieldTooltip": "項目將依此欄位的值以降序排序。",
+        "AdditionalCaption": "額外的",
+        "SpecificPageLookupField": "要開啟哪個頁面？",
+        "UseSpecificPageField": "按一下標題開啟特定頁面",
+        "SpecificPageRecordIdField": "記錄標識符",
+        "ViewModeCaption": "顯示方式",
+        "CarouselViewMode": "旋轉木馬",
+        "GalleryViewMode": "畫廊"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "核准設定",
+        "GeneralGroup": "一般的",
+        "SchemaNameLabel": "要核准哪些記錄？",
+        "AppearanceGroup": "外觀",
+        "HiddenWhenNoData": "無資料時隱藏"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "核准清單設定",
+        "GeneralGroup": "一般的",
+        "SchemaNameLabel": "物件"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "多選查找設定",
+        "GeneralGroup": {
+          "General": "一般的",
+          "SelectLookup": "選擇查詢值",
+          "MultiselectValueStorage": "多選值儲存",
+          "SelectColumn": "要顯示的欄位",
+          "Required": "必須",
+          "RequirementTypeItems": {
+            "No": "沒有",
+            "Yes": "是"
+          }
+        },
+        "AppearanceCaption": "外觀",
+        "LabelPositionVariants": {
+          "Auto": "自動",
+          "Left": "剩餘",
+          "Above": "以上",
+          "Hidden": "隱藏"
+        },
+        "TitleOnPage": "頁面標題",
+        "Placeholder": "提示文字",
+        "Tooltip": "工具提示",
+        "LabelPosition": "標題位置",
+        "EnableAddRecordCaption": "啟用新增數值",
+        "WrapCaption": "將項目包裝到下一行",
+        "Editability": "可編輯性",
+        "EditabilityControls": {
+          "Readonly": "只讀"
+        },
+        "LookupStaticFilterLabel": "Apply static filter for lookup"
+      },
+      "MergeRecordsRequest": {
+        "Caption": "Merge data"
+      },
+      "MergeRecordsRequestPropertiesPanel": {
+        "SelectData": "Which data to merge?"
+      },
+      "MobileListPropertiesPanel": {
+        "PageCaption": "清單",
+        "GeneralCaption": "一般",
+        "DataSourceCaption": "物件",
+        "TitleColumnField": "Title column",
+        "ImageColumnField": "圖片",
+        "AppearanceGroup": "外觀",
+        "Columns": {
+          "ColumnsGroup": "欄位",
+          "AddNewItem": "新增欄位",
+          "ContextMenu": {
+            "Edit": "編輯",
+            "MoveUp": "Move up (Ctrl+Up)",
+            "MoveDown": "Move down (Ctrl+Down)",
+            "Delete": "刪除"
+          }
+        },
+        "Scrollable": "Fit to available space"
+      }
+    }
+  },
+  "CanvasToolbar": {
+    "Rotate": "Rotate"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "請從清單中選擇值",
+      "SelectionWindowMessage": "請從清單中選擇數值或使用查詢視窗進行搜尋"
+    },
+    "Required": {
+      "Message": "輸入一個值"
+    },
+    "MaxLength": {
+      "Message": "超出最大文字長度 ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "未達到最小文字長度 ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "無效的日期和時間格式"
+    },
+    "DatePickerSyntax": {
+      "Message": "無效日期格式"
+    },
+    "TimePickerSyntax": {
+      "Message": "無效的時間格式"
+    },
+    "RegExp": {
+      "Message": "無效值格式"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "程式碼必須以 {{schemaNamePrefix}} 前綴開頭。",
+      "OnlySchemaNamePrefixMessage": "至少再輸入一個符號。"
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "使用符號：a-z、A-Z、0-9、底線或破折號。只能將字母放在第一位。"
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "值 '{{controlValue}}' 已經存在於 'Code' 欄中。"
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "移除欄位",
+    "ValidationErrorMessageSingleErrorField": "欄位：{0}.錯誤：{1}",
+    "ValidationErrorMessageSeveralErrorFields": "欄位：{0}.錯誤：{1}",
+    "RefreshModelDataConflict": "Creatio 有目前頁面的新資料。若要檢視，請儲存或取消變更，然後重新整理頁面。",
+    "WarningModelsWithCircularDependencies": "某些模型具有循環依賴性，且尚未載入",
+    "LoadingModelErrorMessage": "查詢執行時發生錯誤",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "數據已刷新"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "DesktopSelector": {
+    "ShowDesktopSelector": "選擇桌面",
+    "EditDesktop": "編輯桌面",
+    "UseHotkeys": "使用 Ctrl+Shift+E 編輯桌面"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "非有效參數",
+    "ServiceResult": {
+      "ErrorMessage": "發生錯誤。請聯絡系統管理員"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "標籤 {{ 數量 }} 項目",
+      "RemoveTagsMessage": "未標記的 {{ 數目 }} 項目",
+      "AddTagsSuccessfulRunProcess": "所選項目的大量標籤程序開始。這可能需要一些時間",
+      "RemoveTagsSuccessfulRunProcess": "針對所選項目開始大量移除標籤程序。這可能需要一些時間"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "在資料夾中新增 {{ 數目 }} 記錄",
+      "RemoveRecordsMessage": "從資料夾中移除 {{ 計數 }} 記錄"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "動作已成功啟動",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "此動作至少需要一條記錄才能執行。請選擇您要套用的記錄，然後再試一次"
+    },
+    "ProcessStarted": "製程開始",
+    "StartingProcessAnnounceMessage": "Starting a process, please wait..."
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "您確定要刪除所選記錄嗎？",
+    "DeleteRecordsConfirmation": "您確定要刪除所選記錄嗎？",
+    "SaveSummariesForAll": "為所有使用者儲存摘要設定？",
+    "ResetSummaries": "還原預設摘要設定？"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "沒有足夠的權限刪除“{0}”物件中的記錄",
+    "UnableToDeleteSelectedRecord": "無法刪除選取的記錄",
+    "SelectRecordsToDelete": "選擇要刪除的記錄",
+    "SettingsErrorMessage": "無法執行動作。\n\n系統管理員必須檢查自由UI設計功能中的按鈕設置。",
+    "ExportToExcel": {
+      "PermissionsErrorMessage": "您無權執行此操作。\n請聯繫您的系統管理員。檢查對導出對象的訪問權限以及執行系統操作的權限。",
+      "FileGenerationMessage": "正在生成匯出檔案"
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "存取變更記錄的權限不足。請聯絡您的系統管理員。",
+      "SourceIsNotSpecifiedMessage": "未為動作「開啟變更記錄」指定物件或資料來源。請聯絡您的系統管理員。",
+      "RecordIsNotSelectedMessage": "選取記錄以開啟其變更記錄。",
+      "ChangeLogIsNotTurnedOnTitle": "開啟記錄",
+      "ChangeLogIsNotTurnedOnMessage": "目前 {0} 的記錄已關閉。您要開啟記錄嗎？",
+      "ChangeLogIsTurnedOffMessage": "目前 {0} 的記錄已關閉。請聯絡您的系統管理員。",
+      "RecordIsNotSavedMessage": "先儲存記錄，才能開啟其變更記錄。"
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "超出了 {0} MB 最大檔案的大小限制。\n\n\n 檔案：\n- {1}",
+      "NoConnectedFileList": "檔案上傳目的地未設定。\n\n請在按鈕設定中選擇目的地。",
+      "InvalidRequestParams": "由於尚未設定頁面元件，因此無法上傳檔案。系統管理員可在 Freedom UI 設計器中完成設定。",
+      "ChangeFileSizeInfoMessage": "您可以在「附件最大大小」系統設定中增加最大檔案大小。",
+      "FileListHeader": "文件",
+      "MaxFileSizeExceededExceptionMessage": "超出了 {0} MB 最大檔案的大小限制。",
+      "UnknownServerError": "出錯了。\n\n請再次嘗試上傳該檔案。",
+      "AttachedToUnsavedRecord": "無法將檔案附加到尚未建立的記錄。請先建立記錄，再上傳檔案",
+      "InvalidExtension": {
+        "Deny": "安全設定禁止使用 [{0}] 檔案副檔名。如果您需要處理此類檔案，請聯絡您的系統管理員，將此副檔名從 [File extensions DenyList] (FileExtensionsDenyList) 系統設定中移除。",
+        "Allow": "安全設定禁止使用 [{0}] 檔案副檔名。如果您需要處理此類檔案，請聯絡您的系統管理員，將此副檔名加入 [File extensions AllowList] (FileExtensionsAllowList) 系統設定中。",
+        "NotSupported": "Some selected files are not supported for upload. Please choose files of supported types."
+      },
+      "EmptyFileMessage": "您嘗試上傳空文件。\n\n請選擇包含內容的文件。",
+      "SingleUploadInProgress": "The file {0} is still uploading. Please wait until the upload is complete.",
+      "MultipleUploadsInProgress": "Some files are still uploading. Please wait until the uploads are complete ({0} and {1} more)."
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "超出了 {0} MB 最大檔案的大小限制。",
+      "UnknownUploadError": "未知上傳錯誤。請聯絡系統管理員。",
+      "Announcement": {
+        "Uploaded": "圖片已上傳",
+        "Deleted": "圖片已刪除"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "動作錯誤。\n聯繫您的系統管理員。檢查系統設計功能中的操作設置。"
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "動作錯誤。\n聯繫您的系統管理員。檢查系統設計器中的操作設置。"
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "選擇要新增標籤的記錄",
+      "SelectRecordsToRemoveRecordsMessage": "選擇要移除標籤的記錄"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "選擇要新增到靜態資料夾的記錄",
+      "SelectRecordsToRemoveRecordsMessage": "選擇要從靜態資料夾中移除的記錄"
+    },
+    "FileAnnouncement": {
+      "Uploaded": "{0} 檔案已上傳",
+      "Deleted": "{0}已刪除"
+    },
+    "FileDownload": {
+      "FileMismatchErrorMessage": "File '{0}' is not fully uploaded",
+      "FileDownloadErrorMessage": "File '{0}' could not be downloaded. It may have been deleted, is corrupted, or you do not have permission to access it."
+    },
+    "OK": "確定"
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "添加標籤",
+    "RemoveTagCaption": "刪除標籤"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "未儲存的記錄無法列印報告。",
+    "InvalidRequestCaption": "動作無效。請檢查列印設定。",
+    "SelectRecord": "選擇要列印報告的記錄"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "此動作不可能移動所有選取的記錄，請依需要逐一選取記錄。"
+  },
+  "CancelRecordsChangesRequest": {
+    "SuccessMessage": "變更已成功放棄"
+  },
+  "RecordDeletedRequest": {
+    "SuccessMessage": "Record deleted successfully"
+  },
+  "RecordsDeletedRequest": {
+    "SuccessMessage": "記錄刪除成功"
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "沒有可用的報告",
+    "GoToPrintablesSetupCaption": "前往報告設定"
+  },
+  "SaveRecordRequest": {
+    "SavingRecordAnnounceMessage": "Saving, please wait..."
+  },
+  "Deduplication": {
+    "RecordNotCreatedMessage": "The record has not been created",
+    "MergeStartedMessage": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete. Please reload the record afterward to retrieve the updated data."
+  },
+  "HierarchyCopy": {
+    "RecordIdRequiredMessage": "Record ID is required.",
+    "SchemaNameRequiredMessage": "Schema name is required.",
+    "CopyingErrorMessage": "Unexpected error while copying record."
+  },
+  "SchemaContextPart": {
+    "RecordTitle": "{{caption}}: {{value}}",
+    "ListTitle": "List: {{captions}}"
+  },
+  "DigitalAdsContent": {
+    "PlatformInputCaption": "平台",
+    "AppInputCaption": "應用程式",
+    "AdPlatformLoginRequestTitle": "連接廣告平台",
+    "NotEnoughPermissionsMessage": "抱歉，無法連接您的廣告帳戶。請授予 Creatio 最大權限，然後再試一次。",
+    "PlatformUndefinedMessage": "平台未定義，請確認已設定按鈕的平台",
+    "ApplicationUndefinedMessage": "應用程式未定義，請確認已設定按鈕的平台",
+    "ImportFromAdPlatformStartedMessage": "已開始從廣告帳戶匯入資料",
+    "NoConnectedAdAccountsFoundMessage": "沒有連接的廣告帳戶可供匯入",
+    "NoActiveAdAccountsFoundMessage": "Sorry, but we couldn’t find any ad accounts available to you. Make sure that you have access to the required accounts on the platform. Only active accounts can be connected."
+  },
+  "Input": {
+    "Readonly": "不可編輯欄位",
+    "ShowPassword": "顯示密碼",
+    "HidePassword": "隱藏密碼"
+  },
+  "Carousel": {
+    "NoData": "無數據",
+    "PrevButtonCaption": "前一項",
+    "NextButtonCaption": "下一項"
+  },
+  "ComboBox": {
+    "Readonly": "不可編輯欄位",
+    "NoData": "無數據",
+    "EmptyDisplayValue": "無顯示值",
+    "AddNewRecord": "新增",
+    "InvalidValueSyntax": "請從清單中選擇值",
+    "IsGoToSourceAllowedTooltip": "前往記錄清單",
+    "CheckAll": "全部檢查",
+    "ClearAll": "全部清除",
+    "SelectValue": "選擇值",
+    "ClearValue": "清晰的數值",
+    "OpenSection": "打開區段"
+  },
+  "DataGrid": {
+    "AddColumns": "新增欄位",
+    "ColumnToolbar": {
+      "Hide": "隱藏",
+      "Freeze": "凍結",
+      "Unfreeze": "解凍",
+      "Rename": "重新命名",
+      "Edit": "特性",
+      "Title": "欄位動作",
+      "SortAscending": "升序排序",
+      "SortDescending": "降冪排序",
+      "ClearSorting": "清除排序",
+      "AriaLabel": "欄位動作為"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "列出以下行動",
+      "DataGridSettingsLabel": "一般清單設定",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "所有用戶的新預設列表設置將被保存。是否繼續？",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "所有用戶的新預設列表設置將被保存。是否繼續？",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "還原預設設定",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "成功還原預設清單設定"
+      },
+      "Title": "列出行動",
+      "MultilineViewLabel": "Multiline view",
+      "RowHeightSettings": {
+        "Label": "Row height",
+        "Options": {
+          "Small": "小型",
+          "Medium": "中型",
+          "Large": "大型",
+          "ExtraLarge": "特大號"
+        }
+      }
+    },
+    "RowToolbar": {
+      "Open": "打開",
+      "Copy": "複製",
+      "Delete": "刪除",
+      "RunBusinessProcess": "執行業務流程",
+      "Title": "行動"
+    },
+    "AddColumnsTo": "新增欄位至",
+    "Title": "清單 {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "欄位成功新增",
+      "ColumnsAddedSuccessfully": "欄位成功新增",
+      "ColumnHiddenSuccessfully": "欄位隱藏成功",
+      "ColumnFrozenSuccessfully": "欄位凍結成功",
+      "ColumnUnfrozenSuccessfully": "成功解鎖欄位",
+      "ColumnChangedSuccessfully": "欄位更改成功"
+    }
+  },
+  "DataTable": {
+    "NoData": "無數據",
+    "NoColumns": "沒有新增欄位",
+    "Hints": {
+      "Sort": "分類",
+      "StartEditing": "編輯",
+      "ReadonlyCell": "不可編輯欄位",
+      "CancelChanges": "丟棄",
+      "AddItem": "新增記錄",
+      "SortWithCaption": "排序 {0}",
+      "NotSorted": "目前尚未排序",
+      "SortedAscending": "目前以升序排序",
+      "SortedDescending": "目前排序為降序",
+      "SortAscending": "升序排序",
+      "SortDescending": "降冪排序",
+      "RowControls": "行控制"
+    },
+    "SaveItemsChanges": "儲存所有",
+    "CancelItemsChanges": "丟棄",
+    "BulkActions": {
+      "MoreActions": "更多行動",
+      "AriaLabel": "針對 {0} 的大量行動"
+    },
+    "AddItem": "新的",
+    "RowsSelection": {
+      "Selected": "選定",
+      "SelectAll": "選擇全部",
+      "ClearSelection": "清除選擇",
+      "SelectRow": "選擇行",
+      "RowsSelected": "已選取的行數：{0}"
+    },
+    "NotFoundColumn": "未找到欄位",
+    "ColumnSticky": "冷凍柱",
+    "StatusBar": {
+      "AriaLabel": "編輯 {0} 的動作"
+    },
+    "Columns": {
+      "ChangeWidth": "改變寬度",
+      "ChangeWidthOf": "變更 {0} 的寬度"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "是的",
+    "No": "不",
+    "Save": "儲存",
+    "DoNotSave": "不要儲存",
+    "Cancel": "取消",
+    "Delete": "刪除",
+    "Close": "關閉",
+    "Notification": "通知",
+    "Overwrite": "覆蓋",
+    "Clear": "清除",
+    "Restore": "還原",
+    "ProcessSchemaSavedWithValidationError": "流程模式已成功儲存，但驗證錯誤導致無法執行。"
+  },
+  "Gallery": {
+    "NoData": "無數據",
+    "MenuActions": "動作",
+    "DateAdded": "新增日期",
+    "SelectItem": "選擇項目",
+    "Item": {
+      "ActionsButtonCaption": "項目操作"
+    }
+  },
+  "WebInput": {
+    "LinkButtonHint": "開啟連結"
+  },
+  "EmailInput": {
+    "AddEmailHint": "傳送電子郵件"
+  },
+  "FileInput": {
+    "Delete": "刪除",
+    "Cancel": "取消",
+    "Attach": "附加",
+    "FileIcon": "檔案圖示",
+    "EmptyFileName": "空檔名稱",
+    "MaxFileSizeLimitReached": "達到最大檔案大小限制 ({0}MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "將檔案丟到這裡",
+      "Description": "或使用",
+      "Upload": "上傳"
+    },
+    "RowToolbar": {
+      "Download": "下載"
+    }
+  },
+  "ImageInput": {
+    "Alt": "現場影像",
+    "Upload": "上傳",
+    "Change": "變更",
+    "Clear": "刪除",
+    "AltAbbreviation": "縮寫圖像",
+    "AltIcon": "欄位為空的占位符"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "儲存",
+    "CancelButton": "取消",
+    "ColumnProperties": "欄屬性",
+    "Title": "標題",
+    "FilterHeader": "如何篩選記錄",
+    "SortingHeader": "排序記錄",
+    "SortColumn": "排序方式",
+    "WhatToDisplay": "顯示內容",
+    "AggregationColumn": "柱狀圖",
+    "SortOrder": "排序順序",
+    "SetupFilters": "設定篩選器",
+    "EditFilters": "編輯篩選條件"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "是的",
+      "False": "不"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "在",
+    "TodayAt": "今天在 {0}",
+    "YesterdayAt": "昨天{0}",
+    "DayBeforeYesterdayAt": "前天{0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "無顯示值"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "月",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hr",
+    "MinutesAbbreviation": "分分鐘"
+  },
+  "TabPanel": {
+    "CloseTabHint": "關閉標籤"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "前往桌面"
+    },
+    "QuickRunProcess": {
+      "Title": "運行進程",
+      "SuccessMessage": "程序已成功執行",
+      "NotConfiguredQuickProcessesMessage": "尚未設定快速程序運行",
+      "OtherProcessesCaption": "其他流程"
+    },
+    "Settings": {
+      "Title": "設定"
+    },
+    "UserProfile": {
+      "Title": "您的個人資料",
+      "MenuItems": {
+        "Profile": "您的個人資料",
+        "Logout": "離開",
+        "OrganizationProfile": "組織簡介"
+      }
+    },
+    "New": {
+      "Title": "新的",
+      "NoItemTitle": "尚未設定快速建立記錄"
+    },
+    "Help": {
+      "Title": "幫助",
+      "MenuItems": {
+        "OnlineHelp": "線上幫助",
+        "NeedHelp": "需要幫助",
+        "ExternalAccess": "授予支援存取權限",
+        "ReleaseNotes": "發行說明"
+      },
+      "SupportSubject": "問題關於",
+      "AccessGrantedMessage": "已授予存取權限",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite:{0}%0D%0ACustomer ID: {1}%0D%0AProduct：{2}%0D%0AVersion：{3}%0D%0螢幕大小：{4}%0D%0ALocalization：{5}%0D%0頁面：{6}",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "通訊面板"
+    },
+    "NotificationsPanelButton": {
+      "Title": "通知面板"
+    },
+    "LegacySidePanelButton": {
+      "Title": "新增面板"
+    },
+    "WorkspaceExplorer": {
+      "Title": "配置"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "編譯錯誤",
+      "WorkspaceExplorerTemplate": "若要檢視編譯錯誤清單並修復錯誤，請造訪 <a href ='{0}' target='_blank'>設定部分</a>。"
+    },
+    "NavigationPanelButton": {
+      "Title": "導覽面板"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "搜尋應用程式..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "折疊導覽面板",
+      "ExpandCaption": "展開導覽面板"
+    },
+    "SearchResultsCaption": "搜尋結果",
+    "EmptySearchResult": {
+      "Title": "沒有符合搜尋條件的項目。",
+      "Subhead": "清除或變更搜尋準則。"
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "讀取更多"
+  },
+  "Timer": {
+    "timePassedTpl": "{0}通過",
+    "timeBeforeCountStartTpl": "倒數開始前 {0}",
+    "overdueTpl": "{0} 逾期",
+    "timeLeftTpl": "{0} 剩餘",
+    "timeIsUpTpl": "時間到了",
+    "waitingForStartDateTpl": "等待開始日期",
+    "dateNotSet": "0 小時 0 分鐘"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "依欄位搜尋",
+      "AllOption": "全部",
+      "Title": "選擇篩選列"
+    },
+    "ClearIconTitle": "清除搜尋"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "儲存成功",
+      "ErrorOnSave": "嘗試套用變更時發生錯誤"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "您確定要刪除「{0}」桌面嗎？",
+        "Error": {
+          "Deletion": "桌面刪除時發生錯誤",
+          "Configuration": "組態建立時出錯"
+        },
+        "Success": "桌面「{0}」已成功刪除"
+      },
+      "DeleteMobileHomePage": {
+        "ConfirmationDialogTitle": "Are you sure you want to delete \"{0}\" home page?",
+        "Error": {
+          "Deletion": "Error during home page deletion",
+          "Configuration": "組態建立時出錯"
+        },
+        "Success": "Home page \"{0}\" was successfully deleted"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "搜尋..."
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "您有未儲存的更改，這些更改將會遺失。繼續？"
+    },
+    "List": {
+      "Message": "清單中包含未儲存的變更。如果您繼續操作，這些變更將會遺失。儲存變更嗎？"
+    },
+    "Page": {
+      "Message": "該頁面包含未保存的變更。如果繼續操作，這些變更將丟失。儲存變更嗎？"
+    }
+  },
+  "AllowedResults": {
+    "Caption": "允許的結果",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "需要執照"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "添加標籤",
+    "CreateNewTagButtonCaption": "建立新標籤"
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "編輯記錄",
+    "DeleteItemActionButtonCaption": "刪除記錄",
+    "NoData": "無數據"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "無數據",
+      "CloseButtonTitle": "關閉"
+    },
+    "AriaLabel": "精選項目",
+    "Chip": {
+      "RemoveButtonCaption": "消除"
+    },
+    "AriaLabelFor": "精選項目"
+  },
+  "Playbook": {
+    "Caption": "遊戲手冊",
+    "Hint": "該元件會顯示提示和指示，讓使用者從知識庫中存取特定動態個案階段的資訊",
+    "Placeholder": {
+      "Title": "未找到相關的技術手冊文章",
+      "Description": "請在 Playbooks 區塊中為目前的動態個案階段設定相關文章"
+    },
+    "Actions": {
+      "Back": "返回",
+      "OpenInDialog": "在模式視窗中開啟"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "關閉",
+        "OpenPage": "在新標籤中開啟"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "授權失敗。請稍後再試，或向管理員尋求協助。",
+      "FormatError": "請求中的格式無效。確保輸入的結構正確，並檢查動作的輸出參數。",
+      "LimitError": "已達到token上限，無法繼續使用 Creatio.ai。請聯絡您的管理員補充 Creatio.ai token。",
+      "ServiceAvailabilityError": "服務暫時無法使用。請稍後再試。",
+      "ExecutionError": "處理您的請求時發生錯誤。請再試一次或向管理員尋求協助。",
+      "ConfigurationError": "偵測到設定問題。驗證系統設定或向管理員尋求協助。",
+      "UnknownError": "發生未知錯誤。請稍後再試，或向管理員尋求協助。",
+      "CharacterLimitExceededError": "用戶的查詢字符限制已達到。請驗證系統設定或向管理員尋求幫助。",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    },
+    "InputPlaceholder": "輸入訊息",
+    "SendButtonHint": "傳送訊息 (輸入)",
+    "Caption": "訊息編輯器",
+    "ReadonlyInputPlaceholder": {
+      "ChatCompleted": "Chat completed",
+      "ChatTransferred": "Chat transferred"
+    },
+    "MaxFilesExceeded": "Maximum number of files you can add in one iteration: {{maxCount}}",
+    "SendMessageError": "Failed to send message. Please try again",
+    "SmsSplitWarning": "This message exceeds the standard SMS length and will be charged as multiple SMS messages. Current usage: {{segments}}/{{maxSegments}} messages ({{current}}/{{target}} characters)",
+    "SmsMaxLengthExceeded": "超出最大文字長度 ({{current}}/{{target}})"
+  },
+  "SpecificationFilter": {
+    "NoData": "無數據",
+    "Boolean": {
+      "Yes": "是的",
+      "No": "不"
+    },
+    "String": {
+      "Placeholder": "輸入文字"
+    },
+    "Numeric": {
+      "Placeholder": "輸入號碼",
+      "To": "到",
+      "MaxValueError": "值高於最大值",
+      "MinValueError": "值低於最小值"
+    }
+  },
+  "Conversation": {
+    "Caption": "對話",
+    "Copilot": {
+      "TypingMessage": "產生回應",
+      "Action": {
+        "Replace": "替換選擇",
+        "InsertAbove": "插入上方",
+        "InsertBelow": "插入下方"
+      }
+    },
+    "LoadPreviousChat": "載入先前的聊天紀錄",
+    "ChatIsCompleted": "聊天已完成：{datePart}__。",
+    "ChatIsTransferred": "聊天轉移：從 {operatorPart} 到 {targetOperatorPart} 的 {datePart}",
+    "ChatTransferredToQueue": "Chat transferred: {datePart} from {operatorPart} to queue {queuePart}",
+    "ChatCompletedByAgent": "聊天已完成：{datePart}由{operatorPart}完成"
+  },
+  "BulkActions": {
+    "Delete": "刪除",
+    "Export": "匯出到 Excel",
+    "AddTag": "添加標籤",
+    "RemoveTag": "刪除標籤",
+    "RowsSelection": {
+      "Selected": "選定",
+      "SelectAll": "選擇全部",
+      "ClearSelection": "清除選擇"
+    },
+    "Merge": "合併"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "麵包屑"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "包含通知"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "數位"
+  },
+  "ExpansionPanel": {
+    "Collapse": "坍塌",
+    "Expand": "擴張"
+  },
+  "ProgressBar": {
+    "AriaLabel": "進度列"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "聊天狀態",
+    "CtiStatesMenuCaption": "電話狀態"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "沒有符合篩選條件的記錄",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "DataSource": {
+    "Hierarchical": {
+      "RowsLimitNotification": "Not all records are loaded in the hierarchical list due to the configured limit"
+    }
+  },
+  "GoogleAnalytics": {
+    "PlatformCaption": "平台",
+    "ApplicationCaption": "應用程式",
+    "LoginRequestTitle": "連接 Google 分析",
+    "NotEnoughPermissionsMessage": "抱歉，無法連接您的 Google 分析帳戶。請授予 Creatio 最大權限，然後再試一次。",
+    "PlatformUndefinedMessage": "平台未定義，請確認已設定按鈕的平台",
+    "ApplicationUndefinedMessage": "應用程式未定義，請確認已設定按鈕的平台",
+    "RefreshStreamSuccessMessage": "Google Analytics streams refreshed successfully",
+    "RefreshStreamErrorMessage": "Failed to refresh Google Analytics streams. Please try again later.",
+    "RefreshStreamConfirmationTitle": "Refresh data stream list?",
+    "RefreshStreamConfirmationMessage": "Refreshing may take a moment — the system will be unavailable while updating the list",
+    "RefreshStreamConfirmationCancel": "取消",
+    "RefreshStreamConfirmationOk": "刷新"
+  },
+  "EnvironmentManagement": {
+    "PageTitle": "創意",
+    "WaitPageTitle": "Try Creatio",
+    "IdentityServiceNotConfigured": "Identity service is not configured. Please contact your administrator.",
+    "Users": {
+      "Profile": {
+        "InvalidValue": {
+          "Message": "Invalid value. Value must not contain <br><b>{0}</b> and must contain up to <br><b>{1}</b> characters"
+        }
+      }
+    }
+  },
+  "EnvironmentLoader": {
+    "PreparingEnvironment": "Preparing the environment",
+    "ThisMayTakeMoments": "This may take a few moments",
+    "EnvironmentNotUsed": "This environment was not used for a while - we need to re-enable it"
+  },
+  "EnvironmentToolbar": {
+    "Applications": "應用中心",
+    "Users": "使用者",
+    "Subscriptions": "訂閱",
+    "HealthCenterCaption": "Health center"
+  },
+  "EnvironmentListItem": {
+    "SelectEnvironment": "Select environment",
+    "Site": "網站:",
+    "Action": {
+      "EnvironmentDetails": "Environment details",
+      "ManageApplications": "Manage applications",
+      "ManageEnvironment": "Manage environment",
+      "OpenConfiguration": "Open configuration",
+      "OpenEnvironment": "Open environment",
+      "CopyLink": "Copy link",
+      "LinkCopied": "Link copied",
+      "Restart": {
+        "ProcessResponseSuccess": "Restart process successfully started",
+        "ProcessResponseFailure": "Restart process failed"
+      }
+    },
+    "SiteIsNotRegisteredCaption": "The site is not registered on the portal, contact technical support."
+  },
+  "EnvironmentErrorPage": {
+    "HaveNotActiveSites": "You have no active sites",
+    "GetFreeTrial": "Get a free trial",
+    "TrialExpiredCaption": "Your trial environment has expired",
+    "CreateNewCaption": "New environment",
+    "Oops": "Ooops...",
+    "Description": "There was an error while trying to connect to the site:",
+    "Proposition": "You can try to",
+    "ErrorByTimeoutLoadingProposition": "Refresh the page. If problem persists, please",
+    "RestartSite": "Restart",
+    "ContactSupport": "Contact Creatio support",
+    "TryLaterMessage": "At the moment, all free trials are taken, please, try again in a few minutes."
+  },
+  "EnvironmentsExceeded": {
+    "Header": "The {0} product trials are waiting for you in the Application Hub",
+    "Description": "You have reached the trial limit.\nYou will be able to order a new trial after an active trial expires.",
+    "ButtonCaption": "前往應用程式集線器"
+  },
+  "AppDeploymentDialogComponent": {
+    "DialogTitle": "Deploy app",
+    "DestinationEnvironmentTitle": "Destination site",
+    "DestinationEnvironmentPlaceholder": "Choose an environment for app deploy",
+    "NoDestinationEnvironmentsAvailablePlaceholder": "Unable to find any websites ready for deployment",
+    "NoDestinationEnvironmentsAvailableTooltip": "More than one active website is required to deploy the app",
+    "DeployButtonCaption": "部署",
+    "CancelButtonCaption": "取消",
+    "HealthCheckErrorMessage": "{0} destination website is currently unavailable. Try again later",
+    "AttentionText": "確保應用程式與目標網站的版本和產品相容。基於 Studio 產品的應用程式與所有 Creatio 產品相容。我們建議將基於行銷、銷售或服務產品的應用程式安裝到包含相應產品的網站中。"
+  },
+  "AppDeploymentStatus": {
+    "DeploymentCaption": {
+      "Line11": "Deploying",
+      "Line12": "",
+      "Line13": "app",
+      "From": "來自 ",
+      "To": "收件 "
+    }
+  },
+  "Subscriptions": {
+    "NoPermissionMessage": "Insufficient permissions to open the section. Contact the administrator of your organization."
+  },
+  "PageTools": {
+    "DesignButtonHint": "編輯頁面",
+    "ExpandButtonTitle": "擴張",
+    "CollapseButtonTitle": "坍塌"
+  },
+  "IndicatorWidget": {
+    "NoData": "不適用",
+    "AriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}.",
+    "NotClickableAriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}.",
+    "Caption": "Metric widget",
+    "Hint": "Metric allows you to display a single key value, such as a KPI, aggregated result, or formula-calculated value, to highlight performance.",
+    "AriaDrilldownInstruction": "Use the enter or white space keys to drill down the element.",
+    "AriaFullscreenInstruction": "Use the Escape key to collapse fullscreen.",
+    "NoChanges": "No changes",
+    "ComparisonSuffix": "(comparison)",
+    "WithComparison": {
+      "Caption": "Metric with comparison",
+      "Hint": "Comparison metric component allows you to display a primary value alongside a comparative value (e.g., previous period) to show trends or differences."
+    }
+  },
+  "ChartLegend": {
+    "Title": "{{chartTitle}} 圖表的圖例：使用方向鍵瀏覽，並使用 Enter 鍵開啟上下文功能表。"
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} 「{{chartTitle}}」的圖表，包含 {{groupsCount}} 群組。顯示「{{groupsNames}}」的圖表。X 為「{{xLabel}}」，從 {{xMin}} 到 {{xMax}}。Y 為「{{yLabel}}」，從 {{yMin}} 到 {{yMax}}。使用方向鍵瀏覽。",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}。使用 Enter 鍵開啟上下文功能表。"
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}.圖表類型為儀表。數據範圍從 {{ariaMin}} 到 {{ariaMax}}。目前的值是 {{ariaValue}}。使用回車鍵或空白鍵向下鑽取元素。"
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "為「{{title}}」圖表展開全螢幕顯示。",
+      "CollapseLabel": "折疊「{{title}}」圖表的全螢幕。"
+    },
+    "Menu": {
+      "Caption": "{{title}}」圖表的功能表。",
+      "CreateDashboard": {
+        "Caption": "Create dashboard",
+        "UnableCreateMessage": "⚠️ Unable to create a dashboard. This page has no Dashboard component.\n\rYou can go to another page where the Dashboard component is already available.\n\r📘 Learn more about working with dashboards in the <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Academy</a>"
+      }
+    }
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {
+      "LoadErrorMessage": "Unsupported file type. This file can’t be previewed."
+    }
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "概括",
+    "Title": "標題",
+    "Column": "柱狀圖",
+    "Function": "功能",
+    "CustomSummaryLabelTooltip": "該元素包含預先設定的資料顯示邏輯。如果您需要實作其他邏輯，請移除該元素值。"
+  },
+  "Summaries": {
+    "Caption": "摘要",
+    "Actions": {
+      "CreateCount": "顯示記錄數",
+      "Title": "摘要行動"
+    },
+    "ProfileActions": {
+      "SaveForAll": "為所有使用者儲存設定",
+      "ResetToDefault": "重設為預設設定",
+      "SaveForAllSuccessfully": "成功為所有使用者儲存摘要設定",
+      "ResetToDefaultSuccessfully": "成功還原預設摘要設定"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "快速設定",
+      "Count": "計數",
+      "Minimum": "最小值",
+      "Maximum": "最大值",
+      "Sum": "總和",
+      "Average": "平均的"
+    },
+    "AdvancedSetup": {
+      "Title": "進階設定",
+      "Actions": {
+        "AddCustomSummary": "新增摘要"
+      }
+    },
+    "Hints": {
+      "NoDataSource": "未選擇資料來源",
+      "Collapse": "折疊摘要",
+      "Expand": "擴充摘要"
+    }
+  },
+  "SummaryItem": {
+    "Actions": {
+      "Delete": "刪除",
+      "Edit": "編輯"
+    },
+    "AriaLabel": "摘要項目",
+    "Statuses": {
+      "Added": "已成功新增摘要項目",
+      "Deleted": "摘要項目已成功刪除",
+      "Edited": "摘要項目已成功變更",
+      "Error": "錯誤"
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "添加",
+    "AddFilterHint": "新增資料夾",
+    "BlankslateMessage": "沒有資料夾",
+    "CloseFolderTree": "隱藏資料夾",
+    "SetUpFilter": "設定篩選器",
+    "DefaultFolderName": "新建資料夾",
+    "CopyFolderSuffix": "複製",
+    "DeleteConfirmation": "您確定要刪除選取的資料夾？",
+    "MenuActions": {
+      "AddFolder": "新增資料夾",
+      "RenameFolder": "重新命名",
+      "CopyFolder": "複製",
+      "DeleteFolder": "刪除",
+      "AddToFavorite": "加入收藏夾",
+      "RemoveFromFavorite": "從收藏夾中刪除",
+      "ChangeFolderRights": "設定存取權限",
+      "AddStaticFolder": "新增靜態資料夾",
+      "ConvertToStaticFolder": "轉換為靜態資料夾",
+      "MoveFolder": "移動"
+    },
+    "ShowMenuActions": "顯示動作",
+    "FavoritesNodeCaption": "我的最愛",
+    "RootNodeCaption": "全部",
+    "CopyRightsQuestion": "複製“{0}”資料夾的存取權限？",
+    "HasNotPermission": "您沒有此操作的存取權限。"
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "儲存",
+    "CancelButton": "取消",
+    "DialogTitle": "設定篩選器"
+  },
+  "FolderTreeActions": {
+    "ClearButtonCaption": "清除選擇",
+    "FavoriteItemsMenuButtonAriaLabel": "收藏夾功能表",
+    "FolderButtonAriaLabel": "開啟/關閉資料夾樹狀結構",
+    "MenuButton": "資料夾"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "轉換完成後我們會通知您。"
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "取消",
+    "SelectFolderButtonCaption": "選擇",
+    "SelectFolderCaption": "選擇資料夾"
+  },
+  "TemplateGalleryItem": {
+    "RecommendationText": "AI-recommended"
+  },
+  "TemplateGallery": {
+    "Placeholder": {
+      "Title": "Nothing here yet",
+      "Description": "This environment hasn't saved any campaign templates so far. Be the first to fix that",
+      "ActionButtonText": "Design from scratch"
+    }
+  },
+  "HtmlEditor": {
+    "EditorAriaLabel": "HTML editor",
+    "Placeholder": "Compose your message...",
+    "CharactersCount": "{{count}} characters",
+    "Toolbar": {
+      "SelectMacro": "Select macro",
+      "SelectFieldMacro": "Select field macro",
+      "Preview": "預覽",
+      "Templates": "範本",
+      "Variables": "Variables"
+    },
+    "TemplateReplacement": {
+      "Title": "Replace current content?",
+      "Message": "Inserting a template will replace the current editor content. Continue?"
+    },
+    "DefaultMacros": {
+      "SequenceActivityCategory": "Sequence activity",
+      "SenderName": "寄件者名稱",
+      "SenderNameDescription": "Current sender full name",
+      "SenderEmail": "寄件者電子郵件",
+      "SenderEmailDescription": "Current sender email",
+      "SenderPhone": "Sender phone",
+      "SenderPhoneDescription": "Current sender phone number",
+      "ContactLinkedInUrl": "LinkedIn URL",
+      "ContactLinkedInUrlDescription": "Inserts the recipient contact's LinkedIn profile URL"
+    },
+    "PreviewDialog": {
+      "Title": "HTML preview",
+      "ClosePreview": "Close preview",
+      "OriginalContent": "Original content",
+      "ResolvedContent": "Resolved content",
+      "CopyHtml": "Copy HTML",
+      "CopySuccess": "HTML copied to clipboard",
+      "CopyError": "Could not copy HTML to clipboard",
+      "Close": "關閉"
+    }
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "新增元件",
+    "Tooltip": "請新增元件"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "預設值",
+    "FilterColumnLabel": "篩選欄",
+    "ViewAttributeLabel": "元件過濾"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "編輯篩選",
+    "SetupFilterCaption": "設定篩選器",
+    "FiltersDialogCaption": "手動定義過濾器",
+    "DefaultCheckBoxState": {
+      "Label": "預設核取方塊狀態",
+      "CheckedCaption": "已檢查",
+      "UncheckedCaption": "未勾選"
+    },
+    "FilteringApproachState": {
+      "Label": "篩選方法",
+      "OnCheckedCaption": "勾選核取方塊時套用篩選條件",
+      "OnUncheckedCaption": "當核取方塊未勾選時，套用篩選條件"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "預設期間",
+    "ChooseFilteringMethodCaption": "選擇過濾方法",
+    "ChooseFilteringMethodTooltip": "篩選器可以顯示與指定期間相關的數據。\n使用「按單一日期設置篩選器」條件來顯示在指定日期創建或修改的記錄。例如，您可以設置此篩選器以按創建日期顯示潛在客戶，按結束日期顯示商機，或按解決日期顯示個案。\n\n使用「按日期範圍設置篩選器」條件來顯示特別相關的日期範圍的記錄。例如，您可以設置此篩選器，以顯示開始和結束日期在指定日期範圍內的合同。",
+    "SetUpByOneColumnTitle": "依日期設定篩選條件",
+    "SetUpByTwoColumnsTitle": "依日期範圍設定篩選條件",
+    "FilterColumnStartCaption": "篩選列 From",
+    "FilterColumnEndCaption": "篩選列 到",
+    "ShowTimeLabel": "Enable time",
+    "ShowFiscalPeriodsLabel": "Show fiscal periods"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "目前用戶聯絡人",
+    "CurrentUserAccountName": "目前用戶企業",
+    "EditFilterCaption": "編輯篩選",
+    "SetupFilterCaption": "設定篩選器",
+    "FiltersDialogCaption": "手動定義過濾器",
+    "TagVirtualColumnCaption": "標籤"
+  },
+  "QuickFilter": {
+    "MainTitle": "快速篩選",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "昨天",
+        "Today": "今天",
+        "Tomorrow": "明天",
+        "PreviousWeek": "上週",
+        "CurrentWeek": "本週",
+        "NextWeek": "下週",
+        "PreviousMonth": "上個月",
+        "CurrentMonth": "本月",
+        "NextMonth": "下個月",
+        "PreviousQuarter": "上一季",
+        "CurrentQuarter": "目前季度",
+        "NextQuarter": "下個季度",
+        "PreviousFiscalWeek": "上週",
+        "CurrentFiscalWeek": "當週",
+        "NextFiscalWeek": "下週",
+        "FiscalQuarter1": "Q1",
+        "FiscalQuarter2": "Q2",
+        "FiscalQuarter3": "Q3",
+        "FiscalQuarter4": "Q4",
+        "FiscalHalfYear1": "First half year",
+        "FiscalHalfYear2": "Second half year",
+        "PreviousFiscalYear": "前一年",
+        "CurrentFiscalYear": "本年度",
+        "NextFiscalYear": "下一年"
+      },
+      "RangeSeparator": "直到",
+      "SelectDatePlaceholder": "選擇日期",
+      "EmptyDateRangeStartLabel": "&lt;開始日期&gt;",
+      "EmptyDateRangeEndLabel": "&lt;截止日期&gt;",
+      "Header": {
+        "ArrowRight": "下個月",
+        "ArrowLeft": "上個月"
+      },
+      "RangeSelectedFrom": "選自",
+      "ClearIcon": "清除選取範圍",
+      "ClearStartDatePlaceholder": "清除選取的開始日期",
+      "ClearEndDatePlaceholder": "清除選取的結束日期",
+      "EmptyDateRangeStartAriaLabel": "[未選擇開始日期]",
+      "EmptyDateRangeEndAriaLabel": "[未選擇結束日期]",
+      "CalendarMode": "行事曆",
+      "FiscalMode": "Fiscal",
+      "Fiscal": {
+        "PeriodNotFound": "We couldn’t load the fiscal period date ranges. Please check that fiscal periods are set up, or contact your administrator for assistance.",
+        "LoadError": "Error loading fiscal period data, contact your administrator for assistance"
+      },
+      "SelectTimePlaceholder": "選擇時間"
+    },
+    "Lookup": {
+      "NoData": "無數據"
+    }
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "電話",
+        "Sec": "秒",
+        "DetailsLinkCaption": "致電詳情"
+      },
+      "Email": {
+        "MailedTo": "郵寄至",
+        "From": "從：",
+        "To": "至：",
+        "CC": "CC：",
+        "Details": "細節",
+        "Hide": "隱藏"
+      },
+      "File": {
+        "AddedFile": "新增檔案"
+      },
+      "Chat": {
+        "ChatWith": "聊天",
+        "Show": "顯示聊天",
+        "Hide": "隱藏聊天",
+        "DetailsLinkCaption": "聊天詳情"
+      }
+    },
+    "NoDataMessage": "過去並不存在",
+    "FillActionMessage": "時間軸上沒有相關記錄要顯示",
+    "NoDataByFilterMessage": "沒有符合篩選條件的記錄",
+    "FillActionByFilterMessage": "清除篩選器或更改其條件",
+    "EntityFilterCaption": "全部",
+    "OwnerFilterCaption": "擁有者",
+    "DateFilterCaption": "選擇期間",
+    "HideSystemMessagesCaption": "隱藏系統訊息",
+    "EntityFilterHint": "選擇記錄類型",
+    "OwnerFilterHint": "選擇記錄擁有者",
+    "DateFilterHint": "選擇記錄期間",
+    "HideSystemMessagesHint": "隱藏自動發送的電子郵件",
+    "DateSort": "日期",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "電子郵件"
+      },
+      "Feed": {
+        "Caption": "Feed"
+      },
+      "Task": {
+        "Caption": "任務"
+      },
+      "SysFile": {
+        "Caption": "文件"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "按日期排序按鈕，當前排序 {0}",
+        "Descending": "降序",
+        "Ascending": "升序"
+      }
+    }
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "格式化選項 (Alt+F10)",
+    "UploadAttachments": "選擇附件",
+    "SelectTemplate": "插入範本",
+    "SelectionActions": {
+      "AskCopilot": "詢問 Creatio.ai",
+      "Friendly": "友善",
+      "Formal": "正式",
+      "Shorten": "Shorten",
+      "Extend": "延伸",
+      "Rephrase": "重寫",
+      "RewriteCaption": "重寫文字"
+    },
+    "TableOfContents": {
+      "Title": "目錄",
+      "Placeholder": "根據本頁標題編寫的目錄一經出版，即會在此出現。"
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "儲存",
+    "OpenLinkButtonCaption": "在新標籤中開啟",
+    "CloseLinkButtonCaption": "關閉",
+    "UnlinkLinkButtonCaption": "解除連結",
+    "LinkLabelCaption": "連結地址",
+    "TextLabelCaption": "要顯示的文字"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "插入視訊",
+    "PasteUrlTab": "貼上網址",
+    "UploadFileTab": "上傳文件",
+    "EmbedCodeTab": "嵌入代碼",
+    "DialogDescription": "此影片將以 640 像素寬嵌入。<br>此嵌入式影片將包含一個文字連結。",
+    "SaveButton": "插入視訊",
+    "CancelButton": "取消",
+    "UploadButton": "上傳文件",
+    "InputPlaceholder": "貼在這裡",
+    "DragAndDropPlaceholder": "將檔案拖曳至此或",
+    "NotVideoFile": "插入的檔案不是視訊，請選擇視訊類型的檔案。",
+    "ConfirmMessage": "本頁面包含未儲存的變更。如果關閉頁面，這些變更將丟失。儲存變更嗎？"
+  },
+  "CommunicationOptions": {
+    "DesignerPhoneLabel": "電話號碼",
+    "DesignerEmailLabel": "電子郵件",
+    "DesignerWebLabel": "網站連結",
+    "Caption": "通訊選項",
+    "DeleteOption": "刪除",
+    "Primary": "基本的",
+    "Invalid": "無效的",
+    "MarkAsPrimary": "設定為主要",
+    "MarkAsValid": "標記為有效",
+    "MarkAsInvalid": "標記為無效",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} 已經存在",
+      "ReadOnlyStateMessage": "通訊選項無法新增，因為元件處於唯讀模式",
+      "IncorrectSetupComponentMessage": "由於尚未設定頁面元件，因此無法新增通訊選項。系統管理員可在 Freedom UI 設計器中完成設定",
+      "EmptyMasterRecordColumnNameInRequestMessage": "通訊選項無法新增至空記錄。請先加入記錄值"
+    },
+    "NoDataPlaceholderText": "無數據",
+    "Announcement": {
+      "Option": {
+        "Added": "{0} 新增",
+        "Deleted": "{0}已刪除",
+        "SetAsPrimary": "{0} {1} 設定為主要",
+        "MarkedAsValid": "{0} {1} 被標記為有效",
+        "MarkedAsInvalid": "{0} {1} 標記為無效"
+      }
+    },
+    "ToolsAriaLabel": "動作"
+  },
+  "AccountCompactProfileDT": {
+    "DesignerNamePlaceholder": "帳戶名稱",
+    "AlternativeNamePlaceholder": "也稱為",
+    "CountryPlaceholder": "國家"
+  },
+  "ContactCompactProfileDT": {
+    "DesignerNamePlaceholder": "聯絡人姓名",
+    "DesignerBirthDatePlaceholder": "出生日期",
+    "CountryPlaceholder": "國家"
+  },
+  "AccountCompactProfile": {
+    "Caption": "緊湊型帳戶簡介",
+    "DialogTitle": "編輯帳戶",
+    "EmptyDisplayValue": "無顯示值",
+    "NamePlaceholder": "新增帳號名稱",
+    "AlternativeNameFieldLabel": "也稱為",
+    "EmptyRecord": {
+      "NamePlaceholder": "企業名稱",
+      "AlternativeNamePlaceholder": "也稱為",
+      "CountryPlaceholder": "國家"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "緊湊型聯絡方式",
+    "DialogTitle": "編輯聯絡人",
+    "EmptyDisplayValue": "無顯示值",
+    "NamePlaceholder": "新增聯絡人姓名",
+    "BirthDatePlaceholder": "和出生日期",
+    "EmptyRecord": {
+      "NamePlaceholder": "聯絡人姓名",
+      "BirthDatePlaceholder": "出生日期",
+      "CountryPlaceholder": "國家"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "精簡的使用者設定檔",
+    "DialogTitle": "編輯名稱",
+    "EmptyDisplayValue": "無顯示值",
+    "NamePlaceholder": "新增使用者名稱"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "關閉"
+  },
+  "WebchatPreview": {
+    "LoadError": {
+      "Title": "Preview unavailable",
+      "Subhead": "The widget could not be loaded from the service."
+    }
+  },
+  "Feed": {
+    "Caption": "資訊流",
+    "SortByCreatedOn": "按訊息日期排序",
+    "SortByLastAction": "按上次活動日期排序",
+    "ShowMoreThanOneNewSocialMessages": "顯示 {0} 筆新訊息",
+    "ShowNewSocialMessage": "顯示 1 則新訊息",
+    "Item": {
+      "Edit": "編輯",
+      "Delete": "刪除",
+      "DeletionConfirmation": "確定要刪除記錄嗎？此動作無法撤銷。",
+      "DeletionErrorMsg": "記錄未刪除。請稍後再試。",
+      "DownloadFile": "下載"
+    },
+    "Publisher": {
+      "DefaultInputPlaceholder": "Post a message…",
+      "DisabledInputPlaceholder": "您無法在新記錄頁面上建立新文章。",
+      "UserFeedInputPlaceholder": "Feed 處於使用者模式。您無法在此模式下建立新文章。",
+      "CommentInputPlaceholder": "Write a comment…",
+      "ShareWithPortal": "與入口網站使用者分享",
+      "PostingErrorMsg": "儲存摘要貼文時出錯",
+      "SendButtonHint": "傳送訊息 (Ctrl + Enter)",
+      "CancelButtonHint": "取消",
+      "PostingEmptyMsg": "請輸入訊息以繼續。",
+      "ExternalMessagesDisabled": "請注意，外部使用者將無法讀取訊息，因為此選項在元件設計時已停用。",
+      "ConfirmMessageAccessLevelChange": "請確認您要變更文章的可視程度。請注意：外部使用者將可看到文章、相關註解和附件。",
+      "ConfirmCommentAccessLevelChange": "請確認您要變更備註的可見性等級。請注意，外部使用者將可看到評論及相關附件。"
+    },
+    "Post": {
+      "AddCommentButtonCaption": "新增評論",
+      "CommentsButtonCaption": "評論",
+      "CommentsButtonHint": "顯示評論",
+      "ExpandedCommentsButtonHint": "隱藏評論",
+      "PostedInLabel": "發表於"
+    },
+    "Reactions": {
+      "Like": "喜歡",
+      "ExtraReactionsTemplate": "和 {0} 更多...",
+      "PostLiked": "貼文被按讚了。",
+      "LikeRemoved": "Like已從動態消息中刪除。"
+    },
+    "ExternalUserTagCaption": "外部",
+    "DraftItemTagCaption": "草稿",
+    "ExternalUserTagTooltip": "為外部使用者張貼",
+    "NoDataContainerLabel": "好安靜",
+    "SortButtonCaption": "排序饋送",
+    "ActionsButtonCaption": "動作",
+    "FollowButtonCaption": "Follow feed",
+    "UnfollowButtonCaption": "Unfollow feed",
+    "Following": {
+      "ButtonCaption": {
+        "Follow": "Follow feed",
+        "Unfollow": "Unfollow feed"
+      },
+      "NotificationTemplate": {
+        "Follow": "You are following updates of the feed: {0}",
+        "Unfollow": "You have unfollowed updates of the feed: {0}"
+      }
+    },
+    "FollowNotificationTemplate": "Вы подписались на обновления ленты: {0}",
+    "UnfollowNotificationTemplate": "Вы отписались от обновлений ленты: {0}",
+    "AiGeneratedItemTagCaption": "AI-generated"
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "同意"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "下載文件"
+    },
+    "System": {
+      "ChatStartedMessage": "聊天開始：{chatStartedAt}由{chatStartedBy}"
+    },
+    "Feedback": {
+      "Like": "喜歡",
+      "Dislike": "Dislike",
+      "HelpfulQuestion": "Was this helpful?",
+      "CommentPlaceholder": "Optional comment…",
+      "Send": "發送",
+      "Thanks": "Thanks!"
+    }
+  },
+  "ChatList": {
+    "NoDataMessage": "There are no recent chats yet",
+    "CreateChatButton": "Start new chat",
+    "DraftPreview": "<span class='draft-preview'>Draft: </span>",
+    "YourPreview": "You: ",
+    "RenameChat": {
+      "LabelTitle": "Rename chat",
+      "InputTitle": "標題",
+      "SaveButton": "儲存",
+      "CancelButton": "取消"
+    },
+    "ChatItem": {
+      "ActionsMenuCaption": "行動"
+    },
+    "NoDataBySearchFilter": "沒有符合篩選條件的記錄",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions ",
+    "ARIA": {
+      "Label": "聊天",
+      "ChatItem": "Chat: {0}. Last message: {1}",
+      "LoadMoreTrigger": "加載更多"
+    },
+    "AlreadyAssignedChat": "聊天被指派給其他代理"
+  },
+  "ChatTransfer": {
+    "ButtonCaption": "轉移聊天",
+    "AgentTab": "代理",
+    "QueueTab": "佇列",
+    "NoOperatorsAvailable": "No agents available",
+    "NoData": "無日期",
+    "OperatorStatus": {
+      "0": "不啟用",
+      "1": "活躍",
+      "2": "聊天超過"
+    },
+    "InputPlaceholder": "Chat transferred",
+    "NoQueuesAvailable": "No queues available",
+    "ActiveAgentsCount": "{{count}} active agent(s)"
+  },
+  "ChatAttachmentTile": {
+    "AttachedFile": "Attached file: {{fileName}}",
+    "DeleteFile": "Delete {{fileName}}"
+  },
+  "ChatQuickActions": {
+    "ButtonCaption": "Run action",
+    "NoActionsTemplate": "No actions available. Please add chat actions on the ${link}.",
+    "ChatSettingsPage": "Chat setting page",
+    "ProcessExecutedSuccessfully": "程序已成功執行",
+    "ProcessExecutionFailed": "Process execution failed. Please try again."
+  },
+  "MessageTemplates": {
+    "ButtonCaption": "Open templates (click or type //)",
+    "NotFound": "No templates found",
+    "NoAvailable": "No templates available",
+    "Group": {
+      "RecentlyUsed": "Recently used",
+      "Others": "Others"
+    }
+  },
+  "EmojiSelect": {
+    "ButtonCaption": "Add emoji",
+    "ButtonAriaLabel": "Open emoji picker",
+    "PickerAriaLabel": "Emoji picker"
+  },
+  "LinkChatToContact": {
+    "SelectContactCaption": "選擇：聯絡人",
+    "ConfirmLinkMessage": "All chats of the current contact will be linked to the selected contact, and the current contact will then be deleted. Do you want to proceed?"
+  },
+  "Translations": {
+    "TargetLanguage": "target language",
+    "TranslatingTo": "Translating to {{language}}...",
+    "TranslatedTo": "Translated to {{language}}",
+    "TranslationFailedDialog": "Translation failed. Please try again."
+  },
+  "MessageComposer": {
+    "Chat": {
+      "ActiveChatExists": "There is already an active chat with the selected contact.",
+      "WhatsAppWindowExpired": "The message can't be sent outside the 24-hour messaging window.",
+      "WhatsAppWindowExpiredTooltip": "Learn more in the Academy <a href='https://academy.creatio.com/documents?id=2355' target='_blank' rel='noopener noreferrer'>article</a>",
+      "FacebookWindowExpired": "The message can't be sent outside the 24-hour messaging window. Facebook messenger only allows responses within 24 hours of the user's last message.",
+      "ChannelRestrictionError": "The message cannot be sent for the selected channel. Please check channel settings and try again.",
+      "Caption": "Chat composer",
+      "From": "來自",
+      "To": "收件",
+      "BodyPlaceholder": "輸入訊息",
+      "FromValidation": "“From” field cannot be blank. Please select a channel.",
+      "ToValidation": "“To” field cannot be blank. Please select a contact.",
+      "EmptyMessageValidation": "Message cannot be blank. Please type a message or attach a file.",
+      "ChatSent": "Chat message sent",
+      "SendError": "Failed to send a chat message. Please try again later."
+    },
+    "CancelButtonHint": "丟棄",
+    "CancelButtonText": "丟棄",
+    "SendButtonHint": "傳送訊息 (Ctrl + Enter)",
+    "SendButtonText": "傳送",
+    "RemoveAttachmentHint": "移除附件",
+    "Caption": "訊息撰寫人",
+    "Email": {
+      "Caption": "電子郵件作曲家",
+      "From": "從",
+      "To": "收件",
+      "CC": "CC",
+      "BCC": "密件副本",
+      "Subject": "主題",
+      "PublishError": "傳送訊息失敗。收到以下錯誤：{0}",
+      "AttachmentsSizeLimitReached": "附件總大小超過允許的 {0} MB。請移除部分附件。",
+      "FromValidationErrorMessage": "“From” field cannot be blank. Please select a mailbox.",
+      "ToValidationErrorMessage": "“To” field cannot be blank. Please enter at least one recipient.",
+      "SubjectValidationErrorMessage": "“Subject” field cannot be blank. Please enter the email subject.",
+      "BodyPlaceholder": "輸入訊息",
+      "Reply": "回覆",
+      "ReplyAll": "全部回覆",
+      "Forward": "向前",
+      "SentOn": "寄送於",
+      "SubjectToggleCaption": "主題",
+      "CcToggleCaption": "CC",
+      "BccToggleCaption": "密件副本",
+      "SaveDraftError": "無法儲存草稿。請稍後再試",
+      "TemplateInsertError": "無法新增範本。請稍後再試。",
+      "Draft": "草稿",
+      "NotContainsEmail": "不包含電子郵件",
+      "ChangeReplyAction": "變更回覆動作",
+      "ShowTrimmedEmailTitle": "顯示修剪過的電子郵件",
+      "EmailTemplatesLookupCaption": "選擇範本",
+      "EmailTemplatesDisplayColumnCaption": "模板名稱",
+      "ContinueEditing": "繼續編輯",
+      "SaveDraft": "儲存草稿",
+      "DraftSaved": "已儲存草稿",
+      "EmailSent": "發送電子郵件",
+      "RemoveRecipientLabel": "移除收件人",
+      "ValidateUnhandledMacrosMessage": "There are no available values for some macros used in this email. We recommend removing the highlighted macros before sending. Send email now?",
+      "RemoveUnhandledMacros": "Remove unhandled macros",
+      "UnhandledMacrosRemovedConfirmation": "Unresolved macros were removed from the email. Send email now?",
+      "UnhandledMacrosRemoved": "Unhandled macros deleted successfully"
+    },
+    "SaveDraftButtonText": "儲存草稿",
+    "MessageSent": "訊息已發送",
+    "Feed": {
+      "Caption": "Feed發布人"
+    },
+    "Selector": {
+      "Caption": "訊息撰寫人"
+    },
+    "ComposerAreaLabel": "訊息作曲家輸入區",
+    "AttachmentPreview": "附件預覽",
+    "Attachment": {
+      "Added": "附件已添加。",
+      "Removed": "附件已被移除。"
+    },
+    "SendEmailErrorMessage": "An unexpected error occurred while sending the email. Please try again later."
+  },
+  "Chat": {
+    "UnknownContact": "Unknown contact"
+  },
+  "ChannelChatPreview": {
+    "EmptyChannel": "Save the channel to start a preview conversation.",
+    "StartTyping": "Send a message to start the conversation.",
+    "ComposerAriaLabel": "Preview message",
+    "ComposerPlaceholder": "輸入訊息",
+    "Send": "發送",
+    "SendError": "Failed to send the message. Please try again.",
+    "StartError": "Could not start the preview session. Please try again."
+  },
+  "MessageDeliveryStatus": {
+    "Sending": "傳送",
+    "Sent": "傳送",
+    "Delivered": "已交付",
+    "Read": "讀取",
+    "Failed": "The message could not be sent due to an unexpected error. Try again later or contact support if the issue continues."
+  },
+  "MessageDeliveryError": {
+    "Unknown": "The message could not be sent due to an unexpected error. Try again later or contact support if the issue continues.",
+    "FileSizeExceeded": "The message exceeds the maximum length allowed by this channel. Shorten the message or send it in multiple parts.",
+    "UnsupportedFileType": "This channel does not support the attachment used in the message. Remove the attachment or send a supported file type.",
+    "InvalidRecipient": "The recipient address appears to be invalid. Please check the contact details and try again.",
+    "AuthenticationFailed": "The messaging channel authentication is invalid or expired. Reconnect the integration to continue sending messages.",
+    "RateLimitExceeded": "Message sending is temporarily limited due to high activity. Please wait a moment and try again.",
+    "NetworkError": "The messaging service is temporarily unavailable. Try sending the message again later.",
+    "BotBlocked": "The user has blocked this account, so messages cannot be delivered. Ask the user to unblock the account and send a message first.",
+    "ChatNotFound": "The user has not started a conversation with this account yet. Ask the user to send the first message to begin the chat.",
+    "MessageTooLong": "The message exceeds the maximum length allowed by this channel. Shorten the message or send it in multiple parts.",
+    "ProviderError": "The messaging service is temporarily unavailable. Try sending the message again later.",
+    "AttachmentError": "This channel does not support the attachment used in the message. Remove the attachment or send a supported file type."
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "儀表板設定",
+    "GeneralGroup": {
+      "Caption": "一般的",
+      "DataSource": "資料來源",
+      "DataSourceTooltip": "資料來源將被設置為此組件中每個儀表板的主要資料來源",
+      "DataSourceDependenciesSettingTooltip": "Filter by page data lets you display connected data in a dashboard",
+      "DataSourceFilterElementsGroupTooltip": "The setting lets you use pre-configured filters from folders or other data filtering elements as page filters"
+    },
+    "DashboardsGroup": {
+      "Caption": "儀表板",
+      "AddDashboard": "新增儀表板",
+      "InfoTooltip": "儀表板列表僅顯示配置中的架構項目",
+      "ContextMenu": {
+        "Copy": "複製",
+        "Delete": "刪除",
+        "Edit": "編輯"
+      },
+      "DialogMessages": {
+        "DeleteDashboard": {
+          "Confirmation": {
+            "Default": "Are you sure you want to delete dashboard \"{{caption}}\"?",
+            "WithUserLevelSchema": "The dashboard you want to delete has a dependent dashboard: \"{{caption}}\" end-user schema. If you continue, both dashboards will be deleted. Continue?"
+          },
+          "UnableToDelete": {
+            "InReadOnlyPackage": "Unable to delete \"{{caption}}\" dashboard because it was either created by third-party publisher or installed from the file",
+            "DependsOnSchema": "Unable to delete \"{{caption}}\" dashboard because it has dependent configuration schema(s)"
+          }
+        }
+      }
+    },
+    "AdvancedSettingsGroup": {
+      "CannotRenameElementInfoTooltip": "You cannot rename the element because it has bound dashboards"
+    }
+  },
+  "Icon": {
+    "PropertiesPanel": {
+      "Caption": "圖示",
+      "General": {
+        "Caption": "一般",
+        "Icon": {
+          "Label": "圖示"
+        },
+        "Color": {
+          "Label": "顏色"
+        },
+        "Size": {
+          "Label": "尺寸",
+          "Options": {
+            "Small": "小型",
+            "Medium": "中型",
+            "Large": "大型",
+            "ExtraLarge": "特大號"
+          }
+        },
+        "Spacing": {
+          "Label": "Padding",
+          "Tooltip": "Controls the space between the icon and the edges of the component",
+          "Options": {
+            "None": "無",
+            "ExtraSmall": "Extra Small",
+            "Small": "小型",
+            "Medium": "中型",
+            "Large": "大型",
+            "ExtraLarge": "特大號",
+            "ExtraExtraLarge": "Extra Extra Large"
+          }
+        },
+        "Background": {
+          "TypeLabel": "Background type",
+          "ColorLabel": "背景顏色",
+          "Options": {
+            "None": "無",
+            "Square": "Square",
+            "Circle": "Circle"
+          }
+        },
+        "Accessibility": {
+          "NameLabel": "Accessible name",
+          "NameTooltip": "The text read by screen readers to describe the icon",
+          "TooltipLabel": "工具提示"
+        }
+      }
+    },
+    "Caption": "圖示",
+    "Hint": "A visual component that allows you to represent actions and states in a clear and intuitive way"
+  },
+  "Dashboards": {
+    "SelectDashboard": "選擇儀表板",
+    "NoData": "沒有相應的儀表板可以顯示",
+    "NoData2": "新增儀表板，使其看起來更漂亮",
+    "CreateNewDashboardButton": "新增儀表板",
+    "AccessDenied": "You do not have permission to edit this item",
+    "DialogWindow": {
+      "DeleteDashboard": {
+        "ConfirmationMessage": "Are you sure that you want to delete the selected dashboard?",
+        "FailMessage": "Unfortunately, you cannot delete the selected dashboard"
+      }
+    },
+    "ActionsToolbar": {
+      "Title": "行動",
+      "Edit": "編輯",
+      "Copy": "複製",
+      "Delete": "刪除",
+      "Rights": "設定存取權限"
+    },
+    "All": "全部",
+    "Favorites": "我的最愛",
+    "AddToFavoritesButton": "加入收藏夾",
+    "RemoveFromFavoritesButton": "從我的最愛移除"
+  },
+  "IFrame": {
+    "Caption": "iFrame",
+    "Hint": "iFrame 元件可嵌入並顯示 HTML 或 URL 格式的內容",
+    "Placeholder": {
+      "NothingToShow": "尚未有任何顯示",
+      "NoContent": "本節沒有內容"
+    },
+    "ContentUnavailable": {
+      "Title": "內容不可用",
+      "SubTitle": "由於您的網路設定、瀏覽器安全政策或內容限制",
+      "LinkTitle": "在我們的學院讀取更多"
+    },
+    "PropertiesPanel": {
+      "Caption": "iFrame settings",
+      "GeneralSettings": {
+        "Caption": "一般",
+        "ContentTypeLabel": "內容類型",
+        "ContentValueLabel": "Content to display",
+        "UrlContentPlaceholder": "https://mysitename.com",
+        "UrlContentTooltip": "To ensure the content is displayed correctly, make sure the following is true: <ul><li>Source allows embedding in an iframe</li><li>Link uses the HTTPS protocol</li><li>Source domain is included in the trusted sources list of your Content Security Policy. We recommend adding at least two allowed directives to it: connect-src and frame-src</li></ul>"
+      },
+      "PermissionsSettings": {
+        "Caption": "Permissions",
+        "AllowLabel": "Allowed features",
+        "AllowTooltip": "Specifies which browser features the embedded content is allowed to use, for example, camera, microphone, fullscreen. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information.",
+        "SandboxLabel": "Sandbox permissions",
+        "SandboxTooltip": "Specifies which sandbox restrictions are removed for the embedded content. Grant only the permissions that are required. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information."
+      }
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "下個月",
+    "AriaPrevMonthLabel": "上個月",
+    "AriaNextYearLabel": "下一年",
+    "AriaPrevYearLabel": "前一年",
+    "Readonly": "不可編輯欄位",
+    "DateTimePickerIconTitle": "日期/時間",
+    "DatePickerIconTitle": "日曆",
+    "TimePickerIconTitle": "時間",
+    "AriaTimeListLabel": "Time options"
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "實體層級過濾器",
+    "GeneralCaption": "一般的",
+    "SchemaNameCaption": "選取物件建立層級結構",
+    "HierarchySetup": "層級設定",
+    "SchemaNameSelectTooltip": "選擇要建立階層結構的物件。所有系統物件都會顯示在下拉式功能表中。設定階層結構後，將其指定為預先設定的篩選器，以連結至 List 元件。",
+    "ApplyStaticFilter": "套用靜態過濾器",
+    "EditStaticFilterAction": "編輯篩選",
+    "FiltersDialogCaption": "手動定義過濾器",
+    "SetupStaticFilterAction": "設定篩選器",
+    "DisplayModeCaption": "Hierarchy type",
+    "ManualDisplayMode": "手冊",
+    "ByParentDisplayMode": "By parent"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "新增層級欄",
+    "ContextMenu": {
+      "AddToSubmenu": "新增子層級",
+      "Edit": "編輯",
+      "Delete": "刪除"
+    }
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "全部",
+    "NotFilledNode": "未填寫",
+    "SpecificationFilterCaption": "開啟其他過濾",
+    "BackButtonCaption": "返回",
+    "ClearAllFiltersButtonCaption": "全部清除",
+    "NoDataCaption": "無日期"
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "變更 DCM 個案。這個實體有更相關的組態。",
+    "ConfirmChangeCaseDialogMessage": "您想要更換目前版本的案件嗎？",
+    "SnackbarActualFilterCaseMessage": "有更多相關的情況「{{caption}}」。取代？",
+    "SnackbarIgnoreButtonCaption": "忽略",
+    "SnackbarReplaceButtonCaption": "更換",
+    "SnackbarEntityProcessChangedMessage": "案件已成功變更。"
+  },
+  "NextSteps": {
+    "Caption": "後續步驟",
+    "CompleteButtonCaption": "完成",
+    "AddNewStepMenuCaption": "新增步驟",
+    "CreateActivityButtonCaption": "建立任務",
+    "CreateEmailButtonCaption": "建立電子郵件",
+    "NoDataContainerLabel": "尚未有任何顯示!",
+    "NoDataContainerDescription": "此階段沒有增加任何步驟",
+    "OwnerHint": "指定使用者",
+    "OwnerRoleHint": "指定群組",
+    "RequiredStepHint": "所需步驟",
+    "ApprovalApprovedSnackbarCaption": "請求獲得批准",
+    "ApprovalRejectedSnackbarCaption": "請求被拒絕",
+    "TypeFilterCaption": "類型",
+    "TypeFilterHint": "類型"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "顏色選擇器",
+        "AppearanceGroup": "外觀",
+        "PickerModeRadioButtonCaption": "調色板",
+        "PickerMode": {
+          "Basic": "基本調色板",
+          "Extended": "擴充調色板"
+        }
+      },
+      "AppearanceGroup": "外觀",
+      "BindToDataSourceCaption": "資料來源",
+      "DataSourceAttributeNotFoundErrorMessage": "未找到路徑為 \"{0}\" 的項目",
+      "Editability": "可編輯性",
+      "EditabilityControls": {
+        "Readonly": "只讀",
+        "Disabled": "殘障"
+      },
+      "TitleOnPage": "頁面標題",
+      "Multiline": "多行文字",
+      "LabelPosition": "標題位置",
+      "LabelPositionVariants": {
+        "Auto": "自動",
+        "Left": "剩餘",
+        "Right": "正確",
+        "Above": "以上",
+        "Hidden": "隱藏"
+      },
+      "Placeholder": "提示文字",
+      "Combobox": {
+        "IsAddAllowed": "啟用新增數值",
+        "ShowValueAsLink": "Display value as link",
+        "IsGoToSourceAllowed": "啟用開啟記錄清單",
+        "ValueDetailsLabel": "欄位值詳細資訊",
+        "ValueDetailsTooltip": "欄位值詳細資訊將根據特定查詢記錄顯示",
+        "SecondaryDisplayValueLabel": "補充顯示值",
+        "SecondaryDisplayValueTooltip": "要顯示在下拉式清單中的補充資訊"
+      },
+      "Tooltip": "工具提示",
+      "DisplayPhoneMask": "顯示電話遮罩",
+      "FileEntitySchemaLabel": "檔案儲存位置",
+      "TooltipHint": "工具提示支援純文字和 HTML 內容。請確保您的 HTML 內容簡潔，並適應工具提示的大小。",
+      "SelectDataSource": "選擇資料來源"
+    },
+    "WidgetPropertiesPanel": {
+      "HeaderLabel": "Widget settings",
+      "GeneralLabel": "一般的",
+      "TitleLabel": "標題",
+      "ColorLabel": "顏色",
+      "StyleLabel": "風格",
+      "SizeLabel": "尺寸",
+      "Styles": {
+        "FullyColored": "全彩",
+        "PlainWhite": "純白",
+        "PartiallyColored": "部分著色",
+        "Glassmorphism": "玻璃效果",
+        "Transparent": "透明的"
+      },
+      "Sizes": {
+        "ExtraSmall": "超小型",
+        "Small": "小型",
+        "Medium": "中等的",
+        "Large": "大的",
+        "ExtraLarge": "特大號"
+      },
+      "ContextMenu": {
+        "Edit": "編輯"
+      },
+      "ChartSeries": "圖表系列",
+      "SeriesControlLabel": "標題",
+      "SetupBlockCaption": "設定圖表",
+      "SetupButtonLabel": "圖表設定",
+      "FilterByActiveItemTooltip": "選擇讓使用者依據連結資料來源的作用中行篩選圖表資料",
+      "AppearanceGroup": {
+        "Caption": "外觀"
+      },
+      "HideBorderLabel": "隱藏邊框",
+      "HideTitleLabel": "Hide title",
+      "ProvidingSettings": {
+        "AggregationFunctions": {
+          "Sum": "總和",
+          "Avg": "平均值",
+          "Min": "最小值",
+          "Max": "最大值",
+          "Count": "計數",
+          "Label": "功能",
+          "Formula": "公式",
+          "SetupFormula": "設定公式",
+          "ChangeFormula": "變更公式"
+        },
+        "Formula": {
+          "AggregationSetupDialog": {
+            "Title": "Formula element setup",
+            "TitlePlaceholder": "Enter a title to identify this element in the formula.",
+            "ObjectLabel": "物件",
+            "ColumnLabel": "欄位",
+            "TitleLabel": "標題",
+            "StaticFilterTab": "Static filter",
+            "DynamicFilterTab": "Dynamic filter",
+            "Save": "儲存",
+            "Cancel": "取消"
+          },
+          "Toolbar": {
+            "Count": "計數",
+            "Sum": "總和",
+            "Avg": "Avg",
+            "Min": "分分鐘",
+            "Max": "Max"
+          },
+          "Editor": {
+            "Count": "COUNT",
+            "Sum": "SUM",
+            "Avg": "AVG",
+            "Min": "MIN",
+            "Max": "MAX"
+          }
+        },
+        "ObjectLabel": "物件",
+        "ColumnLabel": "欄位"
+      },
+      "FormatSettings": {
+        "Format": "格式",
+        "Template": {
+          "Label": "正文",
+          "Hint": "輸入值附帶的文字。例如，“{0} 項”或“$ {0}”"
+        },
+        "LabelPosition": {
+          "Label": "文字位置",
+          "AboveAndUnder": "高於和低於數值",
+          "BeforeAndAfter": "之前和之後的值"
+        },
+        "NumberOfDigits": {
+          "Label": "小數點後的位數"
+        },
+        "ShowTime": "Show time"
+      },
+      "ComparisonSettings": {
+        "Title": "Comparison",
+        "CompareWithAnotherValue": "Compare with another value",
+        "InvalidDateMetric": "Comparison is not available for the selected date/time metric. Please change the aggregation function and column.",
+        "ConfigureHint": "Configure the comparison value to show the difference from the main metric",
+        "SetupComparison": "Set up comparison",
+        "EnableComparison": "Enable comparison",
+        "CopySettingsHint": "Reuse the configuration from Metric values and adjust it if needed.",
+        "CopySettingsLink": "Copy value settings",
+        "ApplyStaticFilter": "套用靜態過濾器",
+        "SetupFilterButton": "設定篩選器",
+        "TrendIndicatorLabel": "Trend indicator",
+        "TrendVisualizationLabel": "Trend visualization",
+        "UpTrendColorLabel": "Up trend color",
+        "DownTrendColorLabel": "Down trend color",
+        "FormatSectionTitle": "格式",
+        "ComparisonTextLabel": "Comparison value text",
+        "ComparisonTextPlaceholder": "e.g., vs previous month",
+        "ChangeFormatLabel": "Change format",
+        "ComparisonTypes": {
+          "Absolute": "Absolute",
+          "Percent": "%"
+        },
+        "TrendIndicators": {
+          "Arrow": "箭頭",
+          "Triangle": "Triangle",
+          "Circle": "Circle"
+        }
+      }
+    },
+    "SliderPropertiesPage": {
+      "ColorLabel": "風格",
+      "Colors": {
+        "Accent": "焦點",
+        "Primary": "基本的",
+        "Warn": "警告",
+        "Default": "預設"
+      },
+      "ReadonlyLabel": "只讀",
+      "StepLabel": "步進值",
+      "MinValueLabel": "最小值",
+      "MaxValueLabel": "最大值",
+      "Validations": {
+        "GreaterThanZeroCaption": "數值必須大於 0",
+        "MinValueLessThanMaxValueCaption": "最小值必須小於最大值",
+        "MaxValueGreaterMinValueCaption": "最大值必須大於最小值",
+        "StyleIsInvalidCaption": "樣式不正確"
+      }
+    },
+    "ContainerPropertiesPage": {
+      "GeneralGroup": "一般的",
+      "AppearanceGroup": "外觀",
+      "ColorLabel": "顏色",
+      "BorderRadiusLabel": "邊界半徑",
+      "Sizes": {
+        "None": "無",
+        "Small": "小型",
+        "Medium": "中等的",
+        "Large": "大的",
+        "ExtraSmall": "超小型"
+      },
+      "PaddingGroup": "間距",
+      "Padding": {
+        "Top": "頂部",
+        "Bottom": "底部",
+        "Left": "剩餘",
+        "Right": "正確"
+      },
+      "StretchLabel": "拉伸至父容器",
+      "FitContentLabel": "適合內容",
+      "AlignItemsLabel": "對齊項目",
+      "AlignItems": {
+        "Stretch": "拉伸",
+        "Start": "開始",
+        "Center": "中心",
+        "End": "結尾"
+      },
+      "Grid": {
+        "PageCaption": "網格容器設定",
+        "ColumnsLabel": "列數",
+        "ColumnGapFieldLabel": "柱間距",
+        "RowGapFieldLabel": "行距"
+      },
+      "Flex": {
+        "PageCaption": "彈性容器設定",
+        "Direction": "方向",
+        "Row": "行",
+        "Column": "柱狀圖",
+        "Gap": "縫隙",
+        "WrapLabel": "包裝元素",
+        "JustifyContentLabel": "證明內容的正確性",
+        "JustifyContent": {
+          "Start": "開始",
+          "Center": "中心",
+          "End": "結尾",
+          "SpaceBetween": "間距"
+        }
+      },
+      "MobileGrid": {
+        "LayoutSetup": "Layout setup",
+        "UseAdaptiveLayout": "Use adaptive layout",
+        "ColumnsSmall": "Number of columns for phone",
+        "ColumnsMedium": "Number of columns for tablet (portrait)",
+        "ColumnsLarge": "Number of columns for tablet (landscape)",
+        "DisableAdaptiveConfirmation": "Disabling adaptive layout will remove breakpoint-specific configurations. The current layout will be used across all screen sizes. Continue?"
+      }
+    },
+    "PrintablesRequestPropertiesPanel": {
+      "ViewSelectCaption": "要列印哪些資料？",
+      "PrintablesSettingsCaption": "列印設定",
+      "PrintOnRecord": "列印目前記錄的報告",
+      "PrintOnList": "列印記錄清單的報告"
+    },
+    "PageAddonsPropertiesPanel": {
+      "SidebarDesignDialog": {
+        "Title": "側邊欄參數",
+        "Fields": {
+          "Title": "標題",
+          "Code": "程式碼",
+          "Icon": "側邊欄圖示",
+          "Group": "地點",
+          "Index": "側邊欄位置",
+          "Enabled": "啟用",
+          "OperationPermission": "操作權限代碼",
+          "AutoHideNotificationMark": "自動隱藏通知標記",
+          "AllowSizeAdjustment": "Allow sidebar width adjustment",
+          "Container": "Panel position"
+        },
+        "Placeholders": {
+          "OperationPermission": "側邊欄可供所有員工使用",
+          "Group": "如果為空，側邊欄會變成獨立面板",
+          "Container": "Choose panel position"
+        },
+        "Tooltips": {
+          "Group": "若要讓側邊列成為工作區頂端的獨立面板，請將此欄位留空。",
+          "Index": "側邊欄編號決定其在面板中的位置。開箱即用的側邊欄編號為 1000、2000、3000 等。使用小於 1000 的數字將您的側邊列置於較高位置，或使用大於 1000、2000、3000 的數字將您的側邊列置於現有側邊列之間。",
+          "IndexWhenEmptyGroup": "側邊欄編號決定其在工作區頂端的位置。開箱即用的面板編號為 9000、10000。使用小於 9000 的數字將面板置於左側，或使用大於 9000 的數字將面板置於現有面板之間。",
+          "OperationPermission": "將此欄位留空，以顯示側邊列給所有員工。指定系統操作代碼，並按操作設定存取權限，以授予特定員工、使用者群組或外部使用者存取側邊欄的權限。",
+          "AutoHideNotificationMark": "切換開啟可在使用者按一下側邊欄時隱藏通知標記，切換關閉可編碼自訂行為。",
+          "AllowSizeAdjustment": "Enables manual sidebar width adjustment. This feature is only available for sidebars added as standalone panels.",
+          "Container": "This setting controls which side of the screen the sidebar panel appears on. The panel is shown on the right by default, but you can switch it to the left if needed."
+        },
+        "PredefinedGroups": {
+          "CommunicationPanel": "通訊面板",
+          "NotificationsPanel": "通知面板"
+        },
+        "Validations": {
+          "CodePrefixTemplate": "代碼必須以\"{0}\"前綴開頭",
+          "CodePattern": "無效值或空值。使用符號：(a-z)、(A-Z)、(0-9)、( _ )。符號：a-z，A-Z 必須在前。",
+          "SidebarCodeAlreadyExists": "此側欄代碼已在使用中"
+        },
+        "PredefinedContainers": {
+          "LeftContainer": "Left side of the screen",
+          "RightContainer": "Right side of the screen"
+        }
+      },
+      "UseSidebar": "將頁面用作側邊欄",
+      "UseSidebarTooltip": "側邊欄是您可以點選 Creatio UI 右上方的按鈕來檢視的特殊頁面，例如：Feed 或 Chats。<a href ='{0}' target='_blank'>在學院學習更多</a>",
+      "ManageSidebarParameters": "管理側邊欄參數"
+    },
+    "RunBusinessProcessRequestPropertiesPanel": {
+      "Validators": {
+        "SelectProcessWithParameters": "選擇程序並至少指定一個參數"
+      }
+    },
+    "PropertiesPanelAdvancedSettings": {
+      "AdvancedGroup": "進階",
+      "CodeLabel": "元素代碼",
+      "DuplicateNameMessage": "具有相同代碼的項目已經存在",
+      "SaveButtonTitle": "儲存",
+      "CancelButtonTitle": "取消",
+      "NameValidationMsg": "無效值或空值。使用符號：(a-z)、(A-Z)、(0-9)、( _ )。符號：a-z，A-Z 必須在前。",
+      "CodeChangeForbiddenText": "元素代碼無法變更，因為它是在父頁面中新增的。"
+    },
+    "TogglePanelAppearanceSettings": {
+      "ToggleViewModeLabel": "切換檢視模式",
+      "ToggleViewMode": {
+        "Dropdown": "下拉式選單",
+        "Button": "按鈕"
+      },
+      "DefaultTabLabel": "Default tab"
+    },
+    "DashboardPagePropertiesPanel": {
+      "NoAccessToChangeNameTooltip": "You do not have permission to modify the schema code"
+    },
+    "TabPanelAppearanceSettings": {
+      "DefaultTabLabel": "Default tab",
+      "TabPanelColorSubGroup": "標籤面板顏色",
+      "StyleTypeLabel": "風格",
+      "BodyBackgroundColor": "身體",
+      "SelectedTabCaptionColor": "精選",
+      "TabCaptionColor": "未選擇",
+      "HeaderBackgroundColor": "標頭",
+      "UnderlineSelectedTabColor": "Tab 底線",
+      "TabCaptionColorSubGroup": "標籤標題顏色"
+    },
+    "TabPanelPropertiesPage": {
+      "GeneralCaption": "一般",
+      "TabsPageCaption": "標籤設定",
+      "TogglePageCaption": "切換面板設定",
+      "ItemsLabel": "標籤",
+      "AddNewItem": "新增索引標籤",
+      "AppearanceGroup": "外觀",
+      "TabStyleDefaultCaption": "純白色",
+      "TabStylePartiallyColoredCaption": "部分著色",
+      "TabStyleFullyColoredCaption": "全彩色",
+      "ContextMenu": {
+        "Edit": "編輯",
+        "Copy": "複製",
+        "Remove": "刪除"
+      },
+      "ModeLabel": "模式",
+      "ModeTab": "標籤",
+      "ModeToggle": "切換器",
+      "Scrollable": "Fit to available space"
+    },
+    "PagePropertiesPage": {
+      "BusinessRulesGroup": "業務規則",
+      "PageCaption": "頁面設定",
+      "GeneralLabel": "一般",
+      "AppearanceGroup": "外觀",
+      "NameLabel": "代碼",
+      "PackageLabel": "包裝",
+      "ParentPageLabel": "父級頁面",
+      "OpenInterfaceDesigner": "開放式介面設計器",
+      "ExtendParentPageLabel": "取代父頁面",
+      "DescriptionLabel": "說明",
+      "CaptionLabel": "標題",
+      "BackToSettings": "回到「{{名}}」設定",
+      "AdvancedPanel": "進階",
+      "Validations": {
+        "RequiredNameMessage": "輸入數值",
+        "PatternNameMessage": "無效值。使用符號：a-z、A-Z、0-9。符號：0-9 不能在前",
+        "PrefixNameMessage": "代碼必須以\"{0}\"前綴開頭",
+        "DuplicateNameMessage": "同名的項目已存在",
+        "RequiredCaptionMessage": "輸入數值"
+      },
+      "EntitySchemaNameLabel": "資料來源"
+    },
+    "ButtonPropertiesPage": {
+      "GeneralGroup": "一般",
+      "CaptionLabel": "標題",
+      "ColorFieldLabel": "風格",
+      "Colors": {
+        "Accent": "焦點",
+        "Primary": "初級",
+        "Warn": "警告",
+        "Default": "Plain",
+        "Outline": "概要",
+        "PlainWhite": "純白色",
+        "OutlineWhite": "Outline white",
+        "Secondary": "Secondary"
+      },
+      "ActionLabel": "行動",
+      "MenuItemsLabel": "選單項目",
+      "AppearanceGroup": "外觀",
+      "AddNewItem": "新增項目",
+      "ButtonSizeFieldLabel": "尺寸",
+      "Sizes": {
+        "Small": "小型",
+        "Medium": "中型",
+        "Large": "大型",
+        "ExtraLarge": "特大號",
+        "2XLarge": "Double extra large",
+        "3XLarge": "Triple extra large"
+      }
+    },
+    "ReorderContextMenu": {
+      "MoveUp": "Move up (Ctrl+Up)",
+      "MoveDown": "Move down (Ctrl+Down)"
+    },
+    "MenuItemsContainerPropertiesPanel": {
+      "AddNewItem": "新增項目",
+      "MenuItemsLabel": "選單項目",
+      "ContextMenu": {
+        "AddToSubmenu": "新增至子選單",
+        "Copy": "複製",
+        "Edit": "編輯",
+        "Delete": "刪除"
+      },
+      "CopyPostfix": "- 複製"
+    },
+    "ExecuteIntentUserTaskPropertiesPanel": {
+      "PageCaption": "Sub-agent",
+      "GeneralGroup": "一般",
+      "CaptionLabel": "標題",
+      "IntentSchemaLabel": "Which sub-agent to call?",
+      "ChangeSchemaWarningMessage": "您確定要更改元素schema嗎？所有參數都將遺失。",
+      "OpenDesignerButtonTitle": "Open sub-agent",
+      "SkillParametersGroup": "Sub-agent parameters",
+      "NoParameters": "No parameters",
+      "NoFiles": "No files",
+      "ParameterValueSource": {
+        "ProcessParameter": "製程參數",
+        "SystemSetting": "系統設定",
+        "Formula": "公式"
+      },
+      "AdvancedGroup": "進階",
+      "CodeLabel": "元素代碼",
+      "AddFilesGroup": "新增文件",
+      "CreateFile": "新增檔案",
+      "ParameterTitleLabel": "標題",
+      "ParameterDescriptionLabel": "說明",
+      "ParameterCodeLabel": "代碼",
+      "ParameterDataTypeLabel": "資料類型",
+      "ParameterValueLabel": "數值"
+    },
+    "DrilldownConfigPropertiesPanel": {
+      "HeaderLabel": "Drilldown config",
+      "TitleLabel": "Title column",
+      "Columns": {
+        "ColumnsLabel": "欄位",
+        "AddColumn": "新增欄位",
+        "EmptyState": "No columns selected. Use + to add columns shown in the mobile drilldown table.",
+        "ContextMenu": {
+          "MoveUp": "Move up (Ctrl+Up)",
+          "MoveDown": "Move down (Ctrl+Down)",
+          "Delete": "刪除"
+        }
+      }
+    },
+    "BarcodeScannerPropertiesPanel": {
+      "PageCaption": "Barcode scanner settings",
+      "GeneralCaption": "一般",
+      "FeaturesCaption": "特點",
+      "SizeCaption": "尺寸",
+      "SizeSmall": "小型",
+      "SizeMedium": "中型",
+      "SizeLarge": "大型",
+      "SizeMax": "Max",
+      "ScannedRequestCaption": "Which column to set result to?",
+      "CustomScannedRequestCaption": "執行自訂程式碼"
+    },
+    "MobileQuickFilterGroupPropertiesPanel": {
+      "PageCaption": "Filters settings",
+      "GeneralCaption": "一般",
+      "ListComponentLabel": "選擇要篩選的元件"
+    },
+    "UpdateQuickFilterGroupRequestPropertiesPanel": {
+      "QuickFilterGroupLabel": "選擇要篩選的元件",
+      "FilterItemsCaption": "Filter items",
+      "FilterItemsPlaceholder": "Click + to add filter items"
+    },
+    "SortPropertiesPanel": {
+      "GeneralGroup": {
+        "Caption": "一般",
+        "SelectDataSource": "資料來源"
+      },
+      "PageCaption": "Sort settings",
+      "ChooseTargetsCaption": "Choose component to sort",
+      "ChooseTargetsTooltip": "Select the list where to perform the sort. The drop-down menu displays lists that are present on the current page and have an object specified",
+      "ColorFieldLabel": "風格",
+      "ButtonSizeFieldLabel": "尺寸",
+      "AppearanceGroup": "外觀",
+      "IconPositionLabel": "職位",
+      "Colors": {
+        "Primary": "初級",
+        "Accent": "焦點",
+        "Warn": "警告",
+        "Default": "Plain",
+        "Secondary": "Secondary"
+      },
+      "Sizes": {
+        "Small": "小型",
+        "Medium": "中型",
+        "Large": "大型",
+        "ExtraLarge": "特大號",
+        "2XLarge": "Double extra large",
+        "3XLarge": "Triple extra large"
+      },
+      "IconPosition": {
+        "LeftIcon": "圖示左側",
+        "RightIcon": "圖示右側",
+        "OnlyIcon": "僅圖示"
+      }
+    }
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "尚未有任何顯示!",
+    "NoDataDescription": "目前您的等待佇列中沒有項目",
+    "AcceptButtonLabel": "接受"
+  },
+  "AgentInbox": {
+    "NewItems": "New Items ({{number}})",
+    "InProgress": "In Progress ({{number}})",
+    "RealTime": "Real-time",
+    "QueuedTasks": "Queued tasks",
+    "WrappedUpCallTickTpl": "Call wrap-up ({{sec}}s left)",
+    "WrappedUpCallStoppedTpl": "Manual wrap-up",
+    "IncomingCallDescription": "來電:",
+    "OutgoingCallDescription": "撥出電話:"
+  },
+  "CallConversation": {
+    "Call": "Make call",
+    "Duration": "期間：",
+    "Search": "搜尋",
+    "JobTitle": "Job Title",
+    "Account": "企業",
+    "ClearIdentity": "Clear selected record",
+    "OutboundLine": {
+      "From": "來自",
+      "Type": "Outbound line"
+    },
+    "Buttons": {
+      "Hints": {
+        "Accept": "Accept call",
+        "CompleteTransfer": "點擊轉移",
+        "Hold": "擱置",
+        "Unhold": "怪物",
+        "StartTransfer": "Transfer call",
+        "Mute": "Mute call",
+        "CancelTransfer": "取消轉移",
+        "Drop": "Complete call",
+        "OpenDialPanel": "Open dial panel"
+      },
+      "Captions": {
+        "Accept": "接受",
+        "Drop": "拒絕",
+        "Cancel": "取消",
+        "CancelTransfer": "返回",
+        "CompleteTransfer": "合併",
+        "EndMainCall": "結束"
+      }
+    },
+    "OnHold": "等候接聽:"
+  },
+  "SaveCallDetailsHandler": {
+    "UpdateSuccessMessage": "The call was updated"
+  },
+  "CallIdentityMenu": {
+    "ClearSelectedRecord": "Clear selected record",
+    "CallIdentityOptions": "Change/Set contact"
+  },
+  "RequeueQueueItemHandler": {
+    "SuccessfullyRequeued": "成功重新排序"
+  },
+  "CallAiContextService": {
+    "IncomingCallTitle": "Incoming call: {{counterparty}}",
+    "OutgoingCallTitle": "Outgoing call: {{counterparty}}",
+    "UnknownCounterparty": "未知"
+  },
+  "ForecastGrid": {
+    "PropertiesPanel": {
+      "HeaderLabel": "Forecast grid",
+      "GeneralGroup": {
+        "Caption": "一般",
+        "ForecastSheetLabel": "預測表",
+        "BindingTooltip": "Bound to an attribute. Clear to pick a forecast sheet directly.",
+        "ClearBinding": "Clear attribute binding",
+        "InactiveSheetSuffix": "(不啟用)"
+      }
+    },
+    "FilterableOption": {
+      "Period": "期間",
+      "Hierarchy": "層級"
+    },
+    "Caption": "Forecast grid",
+    "Hint": "Hierarchical forecast grid",
+    "DefaultTitle": "New forecast grid",
+    "EmptyState": "No forecast data for this sheet.",
+    "PrimaryColumnCaption": "名稱",
+    "SelfRowSuffix": "(self)",
+    "CellSaveFailed": "Couldn't save the cell value. Please try again.",
+    "CellSaveError": {
+      "PermissionDenied": "You don't have permission to edit this cell."
+    },
+    "LoadFailed": "Failed to load forecast data.",
+    "NoResponse": "No response from forecast service.",
+    "Placeholder": {
+      "NotConfigured": {
+        "Title": "Forecast grid is not configured.",
+        "Description": "An object must be selected in the component settings before this grid can display data."
+      },
+      "Inactive": {
+        "Title": "Forecast is not active.",
+        "Description": "An administrator needs to activate it in forecast configuration, before forecast data can be displayed."
+      },
+      "Error": {
+        "Title": "Something went wrong...",
+        "Description": "Please contact your system administrator."
+      }
+    },
+    "CalculateCaption": "Update metrics",
+    "CalculationInProgressCaption": "Update in progress",
+    "CalculationStartedMessage": "Update in progress. You can continue using the dashboard while new metrics are being prepared.",
+    "CalculationFailedMessage": "Couldn't start forecast calculation. Please try again.",
+    "LastCalculationCaption": "最後更新",
+    "NextCalculationCaption": "Next update",
+    "NextCalculationDueCaption": "shortly",
+    "SubmissionStatus": {
+      "SubmittedBy": "Submitted by {{name}}",
+      "Submitted": "Submitted",
+      "LastSubmittedBy": "Last submitted by {{name}}",
+      "LastSubmitted": "Last submitted",
+      "NotSubmitted": "Not submitted",
+      "UpdateRequired": "update required"
+    }
+  },
+  "ListWidget": {
+    "DefaultTitle": "New list widget",
+    "PropertiesPanel": {
+      "HeaderLabel": "Widget settings",
+      "TitleLabel": "標題",
+      "Styles": {
+        "FullyColored": "全彩色",
+        "PlainWhite": "純白色",
+        "PartiallyColored": "部分著色",
+        "Glassmorphism": "玻璃效果"
+      }
+    },
+    "Caption": "List widget",
+    "Hint": "A component that combines a fully functional list with a customizable colored frame, ensuring visual consistency when placed alongside other analytics widgets"
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "已載入 {0} 記錄。載入更多記錄？",
+    "ConfirmResendMeetingInvitationsQuestion": "保存會議時，所有與會者都會收到會議更新。您要繼續嗎？",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "保存部分會議需要在保存後向所有參與者傳送變更通知。您要繼續嗎？會議清單：",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "會議發生在過去。您確定要向參與者寄送邀請嗎？",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "會議發生在過去。所有與會者都會收到會議更新。您要繼續嗎？",
+    "CanNotChangeMeetingMessage": "只有會議組織者可以更改會議參與者的描述、日期和清單。",
+    "CanNotChangeMultipleMeetingsMessage": "某些已變更的會議只能由會議組織者變更。會議清單：",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "只有手動選擇記錄時，才能刪除會議。",
+    "ErrorSendingInvitationMessage": "邀請函尚未發送。這可能是暫時的問題，請稍後重試。",
+    "SuccessSendingInvitationMessage": "邀請已成功發送。",
+    "JoinBtnCaption": "參加線上會議",
+    "UserAlreadyHasActiveCalendarAccount": "您已經有活動日曆",
+    "LackOfLicenseMessage": "您目前的授權不包含行事曆同步功能。如需其他資訊，請聯絡您的系統管理員。",
+    "DateRangeError": "The date range in the filter is too long. Please reduce the range in the filter."
+  },
+  "FilterBuilderDesigner": {
+    "TogglerCaption": "Advanced filters menu",
+    "TogglerHint": "Requires the Advanced filters component. Lets you show and hide page filters.",
+    "SourceCaption": "Advanced filters",
+    "SourceHint": "Add advanced filters panel",
+    "Properties": {
+      "Source": {
+        "HeaderLabel": "Advanced filters settings",
+        "GeneralCaption": "一般",
+        "SchemaLabel": "What to filter?",
+        "HeaderTemplateLabel": "Header template"
+      },
+      "Toggler": {
+        "HeaderLabel": "Advanced filters menu",
+        "GeneralCaption": "一般",
+        "ViewElementLabel": "Advanced filters"
+      }
+    }
+  },
+  "FilterBuilder": {
+    "EmptyValue": "任何",
+    "EnterValuePlaceholder": "輸入數值",
+    "Is": "是",
+    "Menu": {
+      "FiltersBadgeTooltip": "The filters are applied",
+      "CustomFiltersLabel": "Pre-defined filters",
+      "ColumnsLabel": "欄位",
+      "Caption": {
+        "AddCondition": "新增篩選器",
+        "AddConditionManual": "Add new filter",
+        "AddGroup": "Add group",
+        "AddFilterGroup": "Add filter group",
+        "AddRelatedObject": "Explore related data",
+        "AddRelatedObjectManual": "Add new related object filter"
+      },
+      "Tooltip": {
+        "AddCondition": "Add a new filter condition",
+        "AddGroup": "Add a new group of filter conditions",
+        "AddRelatedObject": "Add a new filter condition by related objects"
+      }
+    },
+    "Group": {
+      "Caption": "集團",
+      "ShowAllRecordsThatMatch": "Show all records that match",
+      "OfTheseConditions": "of these conditions",
+      "DefaultHeaderTemplate": "Show all records that match {menuOperator} of these conditions"
+    },
+    "Lookup": {
+      "SelectPlaceholder": "Select {{caption}}"
+    },
+    "Segment": {
+      "SelectPlaceholder": "Select segments",
+      "Caption": {
+        "In": "Are in segment",
+        "NotIn": "Are not in segment"
+      }
+    },
+    "Preset": {
+      "ChangedWarning": "The filter references a preset that has been changed. The up-to-date version of the preset has been loaded"
+    },
+    "ColumnPath": {
+      "ButtonCaption": "路徑",
+      "DialogTitle": "Filter properties",
+      "PathLabel": "Attribute path",
+      "AttributeLabel": "屬性"
+    },
+    "LogicalOperator": {
+      "And": "全部",
+      "Or": "任何"
+    },
+    "Toggler": {
+      "Caption": "篩選器",
+      "Tooltip": "Open/Close filters panel"
+    },
+    "TextOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "Contains": "包含",
+      "DoesNotContain": "Does not contain",
+      "StartsWith": "從",
+      "DoesNotStartWith": "Does not start with",
+      "EndsWith": "Ends with",
+      "DoesNotEndWith": "Does not end with",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in"
+    },
+    "NumericOperators": {
+      "Is": "相等",
+      "IsNot": "Does not equal",
+      "GreaterThan": "Greater than",
+      "LessThan": "Less than",
+      "GreaterThanOrEqualTo": "At least",
+      "LessThanOrEqualTo": "At most",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in"
+    },
+    "AggregationNumericOperators": {
+      "Is": "Exactly",
+      "IsNot": "Exactly not",
+      "GreaterThan": "More than",
+      "LessThan": "Less than",
+      "GreaterThanOrEqualTo": "At least",
+      "LessThanOrEqualTo": "At most"
+    },
+    "LookupOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in",
+      "Macros": {
+        "CurrentUser": "目前使用者",
+        "CurrentUserContact": "當前聯絡人",
+        "SelectContact": "Specific contact",
+        "SelectValue": "Specific value"
+      }
+    },
+    "BooleanOperators": {
+      "Yes": "是",
+      "No": "沒有"
+    },
+    "DateTimeOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "After": "之後",
+      "Before": "Before",
+      "OnOrAfter": "來自",
+      "OnOrBefore": "Until",
+      "Between": "Between",
+      "And": "和",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in",
+      "PlaceholderStart": "開始",
+      "PlaceholderEnd": "結束",
+      "Placeholder": "選擇",
+      "PlaceholderDate": "選擇日期",
+      "PlaceholderDateTime": "選擇日期和時間",
+      "PlaceholderTime": "選擇時間",
+      "InputModes": {
+        "ExactDate": "Exact date",
+        "ExactDateTime": "Exact date & time",
+        "ExactTime": "準確時間",
+        "Hour": "小時",
+        "Day": "日",
+        "Week": "週",
+        "Month": "月份",
+        "Quarter": "季度",
+        "HalfYear": "Half-year",
+        "Year": "年份",
+        "EveryYear": "每年"
+      },
+      "Macros": {
+        "PreviousHour": "上一小時",
+        "CurrentHour": "目前時間",
+        "NextHour": "下一小時",
+        "ExactTime": "Exact time ...",
+        "PreviousNHours": "前一個小時 ...",
+        "NextNHours": "時數 ...",
+        "Yesterday": "昨天",
+        "Today": "今天",
+        "Tomorrow": "明天",
+        "DayOfMonth": "月日 ...",
+        "DayOfWeek": "星期幾 ...",
+        "PreviousNDays": "前幾天 ...",
+        "NextNDays": "接下來的日子 ...",
+        "PreviousWeek": "上週",
+        "CurrentWeek": "當週",
+        "NextWeek": "下週",
+        "PreviousMonth": "上個月",
+        "CurrentMonth": "當月",
+        "NextMonth": "下個月",
+        "Month": "月 ...",
+        "PreviousQuarter": "上一季",
+        "CurrentQuarter": "當季",
+        "NextQuarter": "下一季",
+        "PreviousHalfYear": "前半年",
+        "CurrentHalfYear": "本半年度",
+        "NextHalfYear": "下半年",
+        "PreviousYear": "前一年",
+        "CurrentYear": "本年度",
+        "NextYear": "下一年",
+        "Year": "Year ...",
+        "DayOfYearToday": "今天",
+        "DayOfYearTodayPlusDaysOffset": "每年，正好在 ...",
+        "NextNDaysOfYear": "Every year, within ... next days",
+        "NextNDaysOfYearSuffix": "next days",
+        "PreviousNDaysOfYear": "Every year, within ... previous days",
+        "PreviousNDaysOfYearSuffix": "前幾天",
+        "WeekDays": {
+          "Sunday": "Su",
+          "Monday": "Mo",
+          "Tuesday": "Tu",
+          "Wednesday": "We",
+          "Thursday": "Th",
+          "Friday": "Fr",
+          "Saturday": "Sa"
+        },
+        "Months": {
+          "January": "January",
+          "February": "February",
+          "March": "March",
+          "April": "April",
+          "May": "May",
+          "June": "June",
+          "July": "July",
+          "August": "August",
+          "September": "September",
+          "October": "October",
+          "November": "November",
+          "December": "December"
+        }
+      }
+    },
+    "Action": {
+      "Apply": "申請",
+      "ApplyDisabledTooltip": "The filter has already been applied. Change the filter conditions to apply the filter again",
+      "ClearAll": "全部清除",
+      "Close": "關閉"
+    },
+    "EmptyState": {
+      "Title": "尚未有任何顯示",
+      "Subhead": "Add your first filter to begin"
+    },
+    "OfTheBelowConditionsShouldMatch": "of the below conditions should match",
+    "Records": "記錄",
+    "Where": "何處",
+    "And": "和",
+    "Aggregation": {
+      "Type": {
+        "Count": "計數",
+        "Sum": "總和",
+        "Avg": "平均值",
+        "Min": "最小值",
+        "Max": "最大值"
+      },
+      "Caption": {
+        "Count": "記錄數量",
+        "Sum": "Sum of {{value}}",
+        "Avg": "Average of {{value}}",
+        "Min": "Minimum of {{value}}",
+        "Max": "Maximum of {{value}}",
+        "None": "{{value}}",
+        "TopOne": "Top one of {{value}}"
+      },
+      "Have": "Have",
+      "HaveRelated": "Have related",
+      "Related": "related",
+      "Of": "的"
+    },
+    "Exists": {
+      "Have": "Have",
+      "HaveNo": "Have no",
+      "Related": "related"
+    },
+    "AggregationOperators": {
+      "Sum": "總和",
+      "Avg": "平均值",
+      "Min": "最小值",
+      "Max": "最大值",
+      "TopOne": "TopOne",
+      "None": "無"
+    }
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "核准",
+    "ComponentHeaderInactiveLabel": "無需批准",
+    "RejectDialogHeaderLabel": "您確定要拒絕核准嗎？",
+    "ApproveDialogHeaderLabel": "給予核准嗎？",
+    "RejectInputLabel": "核准意見",
+    "RejectButtonLabel": "拒絕",
+    "ApproveButtonLabel": "核准",
+    "CancelButtonLabel": "取消",
+    "PositiveMetricLabel": "肯定的",
+    "NegativeMetricLabel": "否定的",
+    "PendingMetricLabel": "待辦的",
+    "ComponentHeaderActiveLabel": "等待您的批准",
+    "ApprovalPurposeLabel": "核准目的",
+    "ApprovedPlaceholderLabel": "通過",
+    "DesignTime": {
+      "ApprovalObjective": "需要批准"
+    },
+    "RejectedPlaceholderLabel": "拒絕",
+    "DelegateButtonLabel": "代表"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "拒絕",
+    "ApproveButtonLabel": "核准"
+  },
+  "MultiSelectSaveRecordHandler": {
+    "ErrorMessageTemplate": "At least one value must be selected in: {0}"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "DataGridSettingsForFolderLabel": "列出資料夾的設定",
+      "CreateDataGridSettingsForFolder": {
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active",
+        "Label": "Create custom settings for \"{0}\""
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "Save as new default settings for \"{0}\"",
+        "Confirmation": "New default list settings for the \"{0}\" folder will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "ClearDataGridSettingsForFolder": {
+        "Label": "Clear custom settings for \"{0}\"",
+        "Confirmation": "Custom list settings for the \"{0}\" folder will be cleared for all users and general list setting will be applied. Continue?",
+        "SuccessStatus": "List settings for the \"{0}\" folder cleared successfully"
+      },
+      "OverwriteDataGridSettingsForFolder": {
+        "Label": "Overwrite current settings for all users for \"{0}\"",
+        "Confirmation": "New default list settings will be saved for the \"{0}\" folder and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "ResetDataGridSettingsForFolder": {
+        "Label": "Restore default settings for \"{0}\"",
+        "Confirmation": "Default list settings will be restored for the \"{0}\" folder. Continue?",
+        "SuccessStatus": "Default list settings for the \"{0}\" folder restored successfully"
+      }
+    }
+  },
+  "MergingRecords": {
+    "ConflictsResolveDialog": {
+      "TitleTemplate": "合併重複項 ({0})",
+      "Actions": {
+        "Merge": "合併"
+      }
+    },
+    "Handler": {
+      "Errors": {
+        "General": "Unable to merge selected records",
+        "NoRights": "Insufficient permissions to merge data",
+        "MinSelectedRecordsViolation": "Select at least two records to merge",
+        "SelectionAllModeUsingViolation": "Merging is not available when using \"Select all\". Select the records you want to merge manually."
+      },
+      "SuccessfulCompletionStatus": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete."
+    }
+  },
+  "ForecastHierarchyBuilder": {
+    "AddChildTitle": "Add child",
+    "RemoveTitle": "移除",
+    "AddChildAriaLabel": "Add child to {{caption}}",
+    "RemoveAriaLabel": "Remove {{caption}}",
+    "DraggableAriaLabel": "{{caption}}. Draggable. Use Alt+Arrow keys to reorder.",
+    "EmptyStateWithEntity": "No hierarchy nodes yet.",
+    "EmptyStateNoEntity": "Select an object to start building the hierarchy.",
+    "LoadingAriaLabel": "Loading hierarchy…",
+    "ConfirmationTitle": "確認",
+    "ConfirmationMessage": "Do you want to rebuild the hierarchy automatically based on the selected field?",
+    "RemoveConfirmationMessage": "Do you want to remove this node and all its child nodes from the hierarchy?",
+    "RemoveConfirmButton": "移除",
+    "CancelButton": "取消",
+    "ContinueButton": "繼續",
+    "EnsureForecastEntityInCell": {
+      "NewObjectCaption": "Forecast by {{entityName}}",
+      "DialogTitle": "Forecast object creation failed",
+      "DialogOk": "確定",
+      "DialogGenericMessage": "Failed to create the forecast object schema.",
+      "SchemaSaveFailed": "Failed to save the forecast object schema."
+    }
+  },
+  "ChangeTracking": {
+    "EntitySchemaNotFoundMessage": "Entity schema '{{entitySchemaName}}' not found",
+    "UnselectedColumnsWillBeDeletedMessage": "Unselected columns will be deleted. Proceed?"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "沒有新記錄或現有記錄的頁面。系統管理員必須檢查 Freedom UI 中的按鈕設定。",
+    "GoToEntityDesignerMessage": "若要設定頁面，請前往 URL：{0}"
+  },
+  "Applications": "應用程式中心",
+  "ApplicationExplorer": {
+    "RunAppButton": "執行應用程式",
+    "UpdateButton": "更新",
+    "Structure": {
+      "NavigationItems": "導覽與區段",
+      "GeneralInformation": "一般資訊",
+      "Pages": "頁數",
+      "ObjectModels": "資料模型",
+      "BusinessProcesses": "業務流程",
+      "AdvancedSettings": "套件設定",
+      "WebService": "整合",
+      "RestService": "REST 服務",
+      "SoapService": "SOAP 服務",
+      "CreatioAi": "Creatio.ai"
+    },
+    "AdvancedSettingsActions": {
+      "Activate": "啟用設定",
+      "Delete": "刪除",
+      "Deactivate": "停用",
+      "Exclude": "不適用",
+      "Current": "設定為目前套件",
+      "ExcludeDialog": "您確定要從應用程式中排除「{0}」套件嗎？",
+      "PackageExcluded": "從應用程式中排除 {0} 套件",
+      "SetCurrentPackage": "成功設定 \"{0}\" 套件為目前的應用程式套件",
+      "CurrentPackageTooltip": "應用程式目前套件",
+      "PackageCreated": "新增 {0} 套件",
+      "OnePackageAdded": "已將 {0} 套件新增至應用程式",
+      "PackagesAdded": "已將 {0} 套件新增至應用程式",
+      "Create": "建立新套件",
+      "AddExistingPackages": "新增現有套件",
+      "PackageProperties": "特性",
+      "AddExistingPackagesDialog": {
+        "Caption": "選擇現有套件",
+        "PackageNameColumn": "套件名稱",
+        "ErrorInfoAllPackagesNotAdded": "無法將套件包含至應用程式：{0}",
+        "ErrorInfoSomePackagesNotAdded": "已將套件新增到應用程式：{0}\n無法將這些套件包含到應用程式：{1}"
+      }
+    },
+    "GeneralInformation": {
+      "CreatedOn": "已建立",
+      "LastUpdate": "最後更新",
+      "Developer": "開發商",
+      "CreateNewObjectCaption": "建立新物件",
+      "UseExistingObjectCaption": "連結至現有物件",
+      "SelectObject": "物件",
+      "SelectObjectPlaceholder": "選取現有物件",
+      "CreateMobilePages": "Create pages for the mobile app"
+    },
+    "BackTooltip": "返回",
+    "PenTooltip": "編輯應用程式",
+    "EyeTooltip": "檢視申請資訊"
+  },
+  "ApplicationSections": {
+    "ApplicationSectionItem": {
+      "FreedomUI": "自由使用者介面"
+    },
+    "Menu": {
+      "Trigger": "新的",
+      "CreateFreedomUiSection": "新的自由 UI 區段"
+    },
+    "ApplicationSectionEditDialog": {
+      "Title": {
+        "Create": "新增部分",
+        "Update": "編輯部分"
+      },
+      "HeaderCarouselCaption": "選擇圖示和顏色",
+      "Fields": {
+        "Name": "標題",
+        "NamePlaceholder": "命名新的應用部分",
+        "Code": "區段程式碼",
+        "CodePlaceholder": "設定區段代碼",
+        "CodeTooltip": "在產生新區段中元素的代碼時使用的值。例如，物件、客戶模式",
+        "UseExistingObjectTooltip": "選擇將區段連結至現有物件，而不是建立新物件",
+        "CreateMobilePagesTooltip": "Clear this option to create a web-only app"
+      },
+      "Buttons": {
+        "Create": "創造",
+        "Update": "儲存",
+        "Cancel": "取消"
+      },
+      "ColorPickerCaption": "顏色",
+      "AdvancedModeButtonCaption": "進階參數"
+    }
+  },
+  "AppGetStarted": {
+    "CancelButtonCaption": "跳過",
+    "SelectButtonCaption": "選擇",
+    "HeaderCaption": "準備好建立應用程式了嗎？",
+    "SubHeaderCaption": "使用我們熱門的範本，發揮您的潛力，獲得無縫、高效的開發體驗"
+  },
+  "ApplicationManagementComponent": {
+    "NewAppButton": "新應用",
+    "DeleteAppConfirmationMessage": "您確定要刪除應用程式嗎？",
+    "UpdateAppButton": "更新",
+    "DeployAppButton": "部署",
+    "ExportAppButton": "匯出",
+    "DeleteAppButton": "刪除",
+    "SuccessfullyDeleted": "申請已刪除",
+    "NoAppsTitle": "本區目前沒有應用程式",
+    "NoAppsText": "建立應用程式或安裝現成的 Marketplace 解決方案，讓這部分看起來更漂亮",
+    "Update": "更新",
+    "UpdateAvailableMessage": "我們有一些令人振奮的消息！最新版本的應用程式現已上架 Marketplace - 立即前往下載！",
+    "OpenAppButton": "打開"
+  },
+  "ApplicationTemplateLookupComponent": {
+    "CancelButtonCaption": "取消",
+    "HeaderCaption": "選擇應用程式",
+    "SelectButtonCaption": "選擇"
+  },
+  "ApplicationBusinessProcesses": {
+    "Active": "積極的",
+    "NotActive": "未激活",
+    "NewButtonCaption": "新流程",
+    "NotActual": "(非實際)",
+    "Version": "版本:",
+    "VersionsDialog": {
+      "ProcessVersions": "工藝版本",
+      "Title": "名稱",
+      "ModifiedOn": "修改於",
+      "Version": "版本",
+      "ActualVersion": "實際版本",
+      "IsActualValue": "是的",
+      "IsNotActualValue": "不",
+      "SharedPackageValue": "共用套件",
+      "CloseButtonCaption": "關閉",
+      "Application": "應用程式",
+      "Package": "套件"
+    }
+  },
+  "ApplicationEntities": {
+    "NewButtonCaption": "新的資料模型"
+  },
+  "ApplicationWebServices": {
+    "NewButtonCaption": "新整合"
+  },
+  "GalleryToolbar": {
+    "NewPageButtonCaption": "新頁面",
+    "SortByCaption": "按字幕",
+    "SortByName": "按名稱",
+    "SortByModifiedOn": "按修改日期",
+    "SortByStatus": "按狀態",
+    "SortByType": "按類型",
+    "SortByUri": "依據網路服務 URI",
+    "SearchError": "欄位未指定搜尋設定使用的標題",
+    "SpecifyMessage": "請在搜尋列描述符或資料表資料模式中指定。",
+    "NewButtonCaption": "新的"
+  },
+  "ApplicationUploadPage": {
+    "SelectDropFileText": "請選擇檔案",
+    "FileExtensionsRow1": "選擇要安裝應用程式的檔案。它可以",
+    "FileExtensionsRow2": "是 *.zip 或 *.gz 存檔",
+    "SelectFileButtonCaption": "選擇文件",
+    "InvalidFileSize": "無法上傳應用程式。超出最大檔案大小 ({0} MB)",
+    "ChangeMaxSize1": "您可以在 「已安裝應用程式的最大檔案大小 」中變更此參數。",
+    "ChangeMaxSize2": "(\"ApplicationInstallationMaxFileSize \"代碼) 系統設定",
+    "CorruptedFileMessage1": "Unable to open \"{0}\". The file is invalid or corrupted.",
+    "CorruptedFileMessage2": "Check the file integrity or download and reupload it."
+  },
+  "ApplicationInstallationStatus": {
+    "InstallationCaption": {
+      "Line1": "安裝應用程式",
+      "Line2": "這可能需要一些時間"
+    },
+    "LicenseLoaded": "應用程式試用有效期為 14 天。請購買授權，以便在此期限後繼續使用應用程式。",
+    "NeedRequestLicense": "要開始使用 14 天的應用程式試用版、",
+    "NeedRequestLicenseMailTo": "聯絡支援人員並訂購應用程式授權。",
+    "MailToText": "取得 Creatio 市集應用程式的試用授權 - {0}。",
+    "LicenseLoadedInDemoMode": "現在您可以在試用版的限制下使用。"
+  },
+  "MarketplaceInstallationService": {
+    "NoAppIdErrorCodeText": "無法在市場上找到具有此 ID 的應用程式",
+    "ErrorCodeText": "無法從市場載入應用程式資料"
+  },
+  "ApplicationExplorerToolbar": {
+    "ShowRelatedElementsCaption": "顯示繼承元素",
+    "ShowRelatedElementsTooltip": "顯示繼承應用程式的所有元素，因此您可以擴充任何鎖定的元素，並將其儲存在目前的應用程式中"
+  },
+  "AppInstallInfoDialog": {
+    "ApplicationInstallation": "",
+    "ApplicationsInstallation": "應用程式安裝",
+    "ApplicationUpdate": "應用程式更新",
+    "Trial": "已付",
+    "Free": "免費",
+    "Close": "關閉",
+    "Cancel": "取消",
+    "Install": "安裝",
+    "InstallAll": "安裝所有",
+    "Update": "更新",
+    "ErrorCodeText": "無法在市場上找到應用程式。\n看起來您嘗試安裝不存在的應用程式。\n點擊“確定”按鈕，它會將您返回到應用程式中心。",
+    "OutOfSyncNames": "您所選的 *.gz 檔案名稱與 descriptor.json 檔案中指定的名稱不匹配。",
+    "Type": {
+      "Application": "應用程式",
+      "Package": "套件"
+    },
+    "Licensing": {
+      "free": "免費",
+      "trial": "已付"
+    },
+    "Columns": {
+      "Name": "名稱",
+      "Type": "類型",
+      "Version": "版本",
+      "Developer": "開發商",
+      "Licensing": "授權",
+      "RequiredVersion": "Required version",
+      "InstalledVersion": "Installed version"
+    },
+    "UnableLoadAppDetailsTitle": "Unable to load application details",
+    "UnableLoadAppDetailsMessage": "Couldn't retrieve application information from the Marketplace. Please try again later or contact support if the issue persists.",
+    "UnableLoadAppDetailsOkButtonCaption": "Return to Marketplace",
+    "DownloadLog": "Download validation log",
+    "GoToMarketplaceTooltip": "Go to Creatio Marketplace",
+    "InstallAnyway": "Install anyway",
+    "InstallAllAnyway": "Install all anyway",
+    "UpdateAnyway": "Update anyway"
+  },
+  "AppInstallAttentionInfo": {
+    "SingleAppFromMarketplaceMessage": "確保應用程式與您的 Creatio 版本相容。請檢查 Marketplace 列表描述，以獲取與 Creatio 產品相容的產品清單，這是供應商所保證的。如果您的 Creatio 版本未列出，請避免安裝該應用程式。為了獲得該應用程式的第一手體驗，考慮在沙盒系統或從 Creatio 網站下載的 14 天試用版本上安裝它。我們建議在全面測試後再轉移到您的 Creatio 生產環境。",
+    "MultipleAppsFromMarketplaceMessage": "確保應用程式與您的 Creatio 版本相容。檢查市場列表描述以獲取相容的 Creatio 產品列表，這是供應商保證的。如果您的 Creatio 版本未列出，請避免安裝該應用程式。若要親自體驗該應用程式，請考慮在沙盒系統或從 Creatio 網站獲取的 14 天試用版本上安裝它。建議您僅在充分測試後將其移至 Creatio 生產環境。",
+    "SingleAppFromZipMessage": "確保應用程式與目標網站的版本和產品相容。基於 Studio 產品的應用程式與所有 Creatio 產品相容。我們建議將基於行銷、銷售或服務產品的應用程式安裝到包含相應產品的網站中。",
+    "MultipleAppsFromZipMessage": "確保應用程式與目的網站的版本和產品相容。基於 Studio 產品的應用程式與所有 Creatio 產品相容。我們建議將基於行銷、銷售或服務產品的應用程式安裝到包含相應產品的網站上。"
+  },
+  "AppInstallErrorInfo": {
+    "RequiredPlatformVersionErrorInfo": {
+      "Title": "不相容的平台版本",
+      "ApplicationsCaption": "以下應用程式與您的環境不相容：",
+      "SingleAppMessage": "The application <b>\"{0}\"</b> is not compatible with your environment. <b>To install the application, update Creatio to version {1}.</b>",
+      "MultipleAppsMessage": "<b>To install applications, update Creatio to version {0}.</b>",
+      "ConflictingVersionsTitle": "Conflicting Creatio versions",
+      "ConflictingVersionsCaption": "The following applications cannot be used together because they require conflicting Creatio versions:",
+      "SingleAppMessageForVersionRange": "The application <b>\"{0}\"</b> is not compatible with your environment. <b>To install the application, update Creatio to a supported version in the range: {1}.</b>",
+      "MultipleAppsMessageForVersionRange": "<b>To install applications, update Creatio to a supported version in the range: {0}.</b>",
+      "ConflictingVersionsMessage": "<b>To resolve the issue, contact the developer of the conflicting applications.</b>",
+      "RequiredPlatformVersion": "required Creatio version:"
+    },
+    "MissedRequiredDependenciesErrorInfo": {
+      "Title": "Can't retrieve required dependencies",
+      "SingleAppMessage": "The application <b>\"{0}\"</b> cannot be installed in this environment.<br />Some required dependencies are missing and cannot be retrieved automatically from the application catalog.<br /><b>To install the application, manually install the required applications or packages listed below and try again.</b>",
+      "MultipleAppsMessage": "Some applications in the installation file cannot be installed in this environment.<br />Required dependencies are missing and cannot be retrieved automatically from the application catalog.<br /><b>To install the applications, manually install the required applications or packages listed below and try again.</b>",
+      "SinglePackageMessage": "The package <b>\"{0}\"</b> cannot be installed in this environment.<br />Some required dependencies are missing and cannot be retrieved automatically from the application catalog.<br /><b>To install the package, manually install the required packages listed below and try again.</b>",
+      "MultiplePackagesMessage": "Some packages in the installation file cannot be installed in this environment.<br />Required dependencies are missing and cannot be retrieved automatically from the application catalog.<br /><b>To install the packages, manually install the required packages listed below and try again.</b>",
+      "PlatformVersionErrorInfo": {
+        "SingleAppTitle": "不相容的平台版本",
+        "SingleAppMessage": "To install the application <b>\"{0}\"</b>, Creatio must also install required dependent applications. However, some of these applications are not compatible with your current Creatio version. <br/>Incompatible applications: {1} <br/>",
+        "SingleAppUpdateCreatio": "<b>To install the application, update Creatio to version {0}.</b>",
+        "MultipleAppsTitle": "Incompatible platform versions",
+        "MultipleAppsMessage": "To install the selected applications, Creatio must also install required dependent applications. However, some of these applications are not compatible with your current Creatio version. <br/>Incompatible applications: {0} <br/>",
+        "MultipleAppsUpdateCreatio": "<b>To install the applications, update Creatio to version {0}.</b>",
+        "SingleRequiredPlatformVersion": " (requires Creatio version: {0} or later)",
+        "RangeRequiredPlatformVersion": " (requires Creatio version: {0})"
+      },
+      "ConflictVersionsErrorInfo": {
+        "Title": "Conflicting application versions",
+        "AppSingleVersionCaption": "<b>{0}</b> (version <b>{1}</b>)",
+        "AppRequiresVersionOrLaterCaption": "<b>{0}</b> requires <b>{1}</b> version <b>{2} or later</b>",
+        "AppRequiresVersionInRangeCaption": "<b>{0}</b> requires <b>{1}</b> version <b>{2}</b>",
+        "BundleVersionsErrorInfo": {
+          "Message": "The following applications from the installation file are incompatible with each other due to version conflicts: <br/>{0}<br/>",
+          "InstalledAppsCaption": "The installed version of <b>{0}</b> does not meet the version requirement of <b>{1}</b>.<br/>",
+          "ResolveAppsCaption": "To resolve the issue, update the conflicting applications in the bundle or contact the developer."
+        },
+        "DepsVersionErrorInfo": {
+          "Message": "The following applications from the installation file cannot be used together due to conflicting version requirements for one or more dependent applications: <br/>{0}<br/>",
+          "InstalledAppsCaption": "These version requirements are incompatible with each other.<br/>",
+          "ResolveAppsCaption": "To resolve the issue, contact the developer of the conflicting applications."
+        }
+      },
+      "ConflictPlatformVersionErrorInfo": {
+        "Title": "Conflicting platform requirements",
+        "SingleAppMessage": "To install the application <b>\"{0}\"</b>, Creatio must also install required dependent applications. However, some of these applications require different and incompatible versions of the Creatio platform and cannot be used together in the same environment.<br/><br/>Conflicting applications: {1}",
+        "MultipleAppMessage": "To install the selected applications, Creatio must also install required dependent applications.However, some of the applications require incompatible versions of the Creatio platform and cannot be used together in the same environment.<br/><br/>Conflicting applications: {0}",
+        "AppRequiresVersionOrLaterCaption": "{0} (requires Creatio version {1} or later)",
+        "AppRequiresVersionInRangeCaption": "{0} (requires Creatio version {1})",
+        "ResolveConflictCaption": "Review the list of applications below or contact the developer to resolve the conflict."
+      }
+    },
+    "InvalidPackageContentErrorInfo": {
+      "InvalidPackageContentTitle": "Pre-installation check failed",
+      "SingleInvalidPackageContentMessage": "The application <b>\"{0}\"</b> cannot be installed because one or more validation errors were found during the pre-installation check.\nReview the list of issues below and resolve them in the environment before proceeding with installation.",
+      "MultiInvalidPackageContentMessage": "The applications cannot be installed because one or more validation errors were found during the pre-installation check.\nReview the list of issues below and resolve them in the environment before proceeding with installation."
+    },
+    "CompilationErrorsErrorInfo": {
+      "CompilationErrorsTitle": "Detected compilation errors",
+      "CompilationErrorsMessage": "<b>Previous system compilation completed with errors.</b> Compilation errors may prevent successful installation.<br/>To fix them, open the <a href ='{0}' target='_blank'>Configuration section</a>, correct the issues, and recompile the system."
+    },
+    "DependentAppsReqVersionConflictErrorInfo": {
+      "Title": "Installed application dependency conflict",
+      "ApplicationsCaption": "Installed applications causing the conflict:",
+      "AppWithRequiredVersion": "<b>{0}</b> requires <b>{1}</b> version <b>{2}</b>",
+      "NotCompatibleMessage": "These requirements are incompatible with the applications being installed. <b>Resolve the conflict to continue installation.</b>"
+    },
+    "DowngradeVersionConflictErrorInfo": {
+      "Title": "Version downgrade warning",
+      "SingleAppMessage": "Please review the version before continuing: a newer version of <b>\"{0}\"</b> is already installed in this environment.",
+      "MultipleAppsMessage": "Please review the versions before continuing: newer versions of some applications from the installation file are already installed in this environment.",
+      "AppVersionsInfo": "<b>{0}</b>: installed version <b>{1}</b>, version in the installation file <b>{2}</b>",
+      "ResolveConflictMessage": "<b>If you continue, the installed applications may be downgraded.</b>"
+    },
+    "SkipDueToDowngradeVersionErrorInfo": {
+      "Title": "Applications skipped",
+      "SingleAppMessage": "Some applications won't be installed because newer versions are already available in this environment.",
+      "MultipleAppsMessage": "Some applications won't be installed because newer versions are already available in this environment.",
+      "AppVersionsInfo": "<b>{0}</b> - installed version: <b>{1}</b>, version in this file: <b>{2}</b>",
+      "ResolveConflictMessage": ""
+    }
+  },
+  "AppInstallationGridInfoBlock": {
+    "PackagesTitleName": "套裝",
+    "Fields": {
+      "ApplicationName": "名稱"
+    }
+  },
+  "ActionItem": {
+    "LoadingTitle": "Loading file..."
+  },
+  "AppInstallWithDependenciesInfo": {
+    "Title": "Detected missing application dependencies",
+    "SingleMessage": "The application \"{0}\" requires additional applications that are either not installed or have unsupported versions in the environment.<br><b>The dependencies listed below will be automatically installed or updated from the application catalog.</b>",
+    "MultipleMessage": "Some applications in the installation file require additional applications that are either not installed or have unsupported versions in the environment.<br><b>The dependencies listed below will be automatically installed or updated from the application catalog.</b>"
+  },
+  "ApplicationCreatioAi": {
+    "ModelCaption": "型號",
+    "NewButtonCaption": "新增",
+    "AiAgentCaption": "Prompt agent",
+    "AiSkillCaption": "Sub-agent",
+    "AiWorkflowAgentCaption": "Workflow agent"
+  },
+  "Printables": {
+    "Caption": "報告名稱",
+    "ModuleName": "區段",
+    "EntityName": "物件",
+    "TypeName": "類型",
+    "ShowInSection": "在清單檢視中顯示",
+    "ShowInCard": "在記錄頁面顯示",
+    "ShowInAnalytics": "顯示在區段分析檢視中",
+    "FilterPage": "篩選頁面",
+    "Section": {
+      "Title": "報告設定",
+      "BlankslateTitle": "沒有符合目前搜尋條件的記錄。",
+      "BlankslateDescription": "清除或修改搜尋參數",
+      "Delete": "刪除",
+      "Add": "新報告",
+      "Copy": "複製",
+      "AddFastReport": "快速報告",
+      "AddMSWord": "微軟Word"
+    },
+    "Page": {
+      "NewReportCaption": "新報告",
+      "CopyPostfixCaption": " - 複製",
+      "InfoBlock": {
+        "Title": "筆記",
+        "StepsTitle": "要設定報告：",
+        "Steps": {
+          "Step1": "Install the FastReport designer (the designer can be downloaded from the \"Documentation\" section in the <a href='{{academyLink}}' target='_blank'>{{academyLinkCaption}}</a>).",
+          "Step2": "指定報告資料來源。",
+          "Step3": "在 Creatio 設定中執行處理報告資料的邏輯。",
+          "Step4": "下載包含資料來源的檔案，並在 FastReport Designer 中開啟。",
+          "Step5": "在 FastReport Designer 中設計報告。",
+          "Step6": "儲存報告檔案並上傳至 Creatio。"
+        },
+        "AcademyLink": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview",
+        "AcademyLinkCaption": "學院"
+      },
+      "DataSource": {
+        "Caption": "資料來源",
+        "Custom": {
+          "Caption": "指定報告的資料來源",
+          "Description": {
+            "Text": "設定報表資料，將 Creatio 資料加入您的報表。以 json 格式指出物件清單、其欄位、連結。資料來源說明的範例可在 {parameter:AcademyLink} 中找到。",
+            "Parameters": {
+              "AcademyLink": {
+                "Caption": "學習資源",
+                "Value": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview"
+              }
+            }
+          }
+        }
+      },
+      "Template": {
+        "Download": {
+          "Caption": "下載包含資料來源的檔案，以便在 FastReport Designer 中設計報告書",
+          "Description": "在 FastReport Designer 中開啟下載的檔案，並設定報表佈局。下載的檔案會包含可在 FastReport Designer 中使用的資料來源結構。",
+          "ButtonCaption": "下載文件"
+        },
+        "Upload": {
+          "Caption": "匯入報告範本的檔案",
+          "Description": "匯入 .frx 檔案後，報表將根據報表設定顯示在該部分的「列印」功能表中或記錄頁面上。",
+          "ButtonCaption": "上傳文件",
+          "Error": {
+            "MessageBoxCaption": "失敗上傳報告範本"
+          },
+          "ReportUploadedMessage": "報告範本已成功儲存"
+        }
+      },
+      "Validation": {
+        "required": "輸入一個值",
+        "noWhitespaces": "輸入一個值",
+        "isJson": "輸入有效的 JSON 值",
+        "maxLength": "超出最大文字長度 ({0}/{1})",
+        "dataSourceAbsentProviderNameProperty": "資料來源應具有「ProviderName」屬性",
+        "dataSourceAbsentSchemasProperty": "資料來源應該有 \"Schemas\" 屬性",
+        "dataSourceSchemasIsEmpty": "資料來源沒有模式",
+        "dataSourceSchemasHasNoColumns": "資料來源模式「{schemaName}」應該有欄位定義",
+        "dataSourceAbsentDataValueTypeProperty": "模式 \"{schemaName}「 的欄位 」{columnName}「 定義應該有 」DataValueType\" 屬性"
+      }
+    }
+  },
+  "DesignerPresenceNotificationHandler": {
+    "SchemaUpdated": "{0} just updated {1}. Please refresh the page to see changes.",
+    "Connections": "{0} connections",
+    "Reload": "Reload",
+    "Download": "下載"
+  },
+  "DesignerPresenceDisplay": {
+    "UserStartedEditing": "{0} started editing current {1}",
+    "ModeEditing": "編輯",
+    "TooltipFormat": "{0} ({1})",
+    "ModeViewing": "Viewing",
+    "ModeSaved": "Saved",
+    "ModeSavedTime": "Saved ({0} ago)",
+    "ModeSavedRecently": "Saved recently",
+    "ShowAllUsers": "Show all users",
+    "AllUsersDialog": {
+      "Title": "Active users",
+      "Close": "關閉",
+      "Columns": {
+        "ContactName": "聯絡人",
+        "Email": "電子郵件",
+        "SchemaName": "Editing area",
+        "Mode": "模式"
+      }
+    }
+  },
+  "SchemaTypeCaption": {
+    "Page": "頁數",
+    "Entity": "實體",
+    "Addon": "附加元件"
+  },
+  "AppInstallationInfoBlock": {
+    "Fields": {
+      "Name": "名稱",
+      "LastUpdate": "最後更新",
+      "Developer": "開發人員",
+      "Version": "版本"
+    },
+    "AttentionCaption": "請注意",
+    "WhatsNewCaption": "What`s new",
+    "PublicOfferAgreementForSingleInstallation": "By continuing the app installation, you confirm that you accept the relevant T&C published on the App’s Creatio Marketplace page.",
+    "PublicOfferAgreementForBundleInstallation": "By continuing the app installation, you confirm that you accept the relevant T&C published on the Creatio Marketplace for all the apps you are installing.",
+    "GoToMarketplaceTitle": "Go to application page"
+  },
+  "AppProcessingStatus": {
+    "Stages": {
+      "InProgressCaptions": {
+        "Pending": "Starting app installation",
+        "DownloadAppFromMarketPlace": "Downloading the app from Marketplace",
+        "DownloadAppFromAppInstaller": "Downloading the app",
+        "Validate": "Checking app requirements before installation",
+        "CreateBackup": "Backing up the configuration. Just in case!",
+        "Install": "Installing the app to your Creatio environment",
+        "OrderAppLicense": "Adding the app license",
+        "RestartApp": "Restarting your Creatio environment",
+        "RestoreFromBackup": "Please wait until the operation is complete and do not close the page"
+      },
+      "ErrorTitles": {
+        "Pending": "App preparation error",
+        "DownloadAppFromMarketPlace": "App download error",
+        "Validate": "App validation error",
+        "CreateBackup": "Backup error",
+        "Install": "App installation error",
+        "RestoreFromBackup": "Backup restoration error",
+        "DownloadAppFromAppInstaller": "App preparation error"
+      },
+      "ErrorDescriptions": {
+        "Pending": "An error occurred while preparing the app, deployment aborted, configuration was not changed. Try again later, contact support if the issue persists",
+        "DownloadAppFromMarketPlace": "Unable to retrieve app files from the Marketplace. To view error details, download the operation log",
+        "Validate": "Package validation failed. Installation aborted. Configuration was not changed. To view error details, download the operation log",
+        "CreateBackup": "Configuration backup failed. Installation aborted. Configuration was not changed. To view error details, download the operation log",
+        "Install": "An error occurred while installing the app. To view error details, download the operation log",
+        "RestoreFromBackup": "Unable to restore the configuration from backup",
+        "DownloadAppFromAppInstaller": "An error occurred while preparing the application for installation. The installation file could not be downloaded or processed due to a connection or preparation issue. <br/><br/>Try to start the installation again. If the problem persists, download the installation log for more details and contact Creatio Support."
+      }
+    },
+    "Buttons": {
+      "GoToAppHub": "Open Application Hub",
+      "DownloadLogs": "下載安裝記錄",
+      "RestoreFromBackup": "Restore from backup"
+    },
+    "RestoringFromBackupCaption": "Restoring configuration from backup",
+    "SuccessStatusCaption": "成功",
+    "SuccessfullyRestoredFromBackupCaption": "The configuration has been restored from backup"
+  },
+  "SessionEndDialog": {
+    "StayLoggedIn": "保持登入狀態",
+    "Exit": "登出",
+    "LogIn": "登入"
+  },
+  "PhoneInput": {
+    "CallButtonHint": "呼叫"
+  },
+  "CrtIconSelectorComponent": {
+    "Tooltip": "選擇圖示"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "停用業務規則"
+  },
+  "SalesEngagement": {
+    "StepBuilder": {
+      "EmptyState": {
+        "Title": "尚未有任何顯示",
+        "Subtitle": "請先新增資料"
+      },
+      "UnexpectedReorderErrorMessage": "Unexpected error while reordering steps.",
+      "Actions": {
+        "AddStep": "新增步驟",
+        "CollapseAll": "Collapse all",
+        "ExpandAll": "Expand all",
+        "Expand": "Expand step",
+        "Collapse": "Collapse step",
+        "Copy": "複製",
+        "Edit": "編輯",
+        "Delete": "刪除",
+        "More": "更多行動"
+      }
+    },
+    "BaseStepTile": {
+      "Name": "標題",
+      "Description": "說明",
+      "Priority": "優先順序",
+      "Postpone": "延遲",
+      "Measurement": "Measurement",
+      "Activity": "活動",
+      "Step": "步驟",
+      "PostponeMinZeroValidationMessage": "Value must be greater than or equal to zero"
+    },
+    "AddSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were added.",
+      "NoRecordsAddedMessage": "No participants were added.",
+      "PartialResultTitle": "Some participants were not added",
+      "PartialResultMessage": "Added: {{count}}\n\nIssues:\n{{errors}}",
+      "ErrorResultTitle": "Participants were not added",
+      "ErrorResultMessage": "Issues:\n{{errors}}",
+      "DialogOkCaption": "確定",
+      "UnexpectedErrorMessage": "Unexpected error while adding participants."
+    },
+    "ActivateSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were activated.",
+      "NoRecordsActivatedMessage": "No participants were activated."
+    },
+    "ReassignSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were reassigned.",
+      "NoRecordsReassignedMessage": "No participants were reassigned.",
+      "PickerTitle": "Select new sequencer"
+    },
+    "EmailStepTile": {
+      "Subject": "主題",
+      "Body": "身體"
+    },
+    "StepMetrics": {
+      "Total": {
+        "Label": "總計",
+        "Hint": "All activities created for this step"
+      },
+      "Delivered": {
+        "Label": "傳送",
+        "Hint": "Emails successfully sent for this step"
+      },
+      "Replies": {
+        "Label": "Replies",
+        "Hint": "Replies received for this step"
+      },
+      "ReplyRate": {
+        "Label": "Reply rate",
+        "Hint": "Share of sent emails that received a reply (replies / sent)"
+      },
+      "NotStarted": {
+        "Label": "尚未開始",
+        "Hint": "Activities not started yet"
+      },
+      "Completed": {
+        "Label": "已完成",
+        "Hint": "Activities completed"
+      },
+      "Answered": {
+        "Label": "Answered",
+        "Hint": "Calls that reached the contact (meeting scheduled, not interested, or call later)"
+      },
+      "BadContact": {
+        "Label": "Bad contact",
+        "Hint": "Calls with a bad number or wrong contact"
+      },
+      "NoAnswer": {
+        "Label": "無人接聽",
+        "Hint": "Calls that were not answered"
+      }
+    },
+    "SequenceStepName": {
+      "StepLabel": "步驟",
+      "DayLabel": "日"
+    }
+  },
+  "ClientUnitSchemaDesignerApi": {
+    "EntitySchemasCircularReferenceError": "Cyclic dependency error. New data sources reference each other through lookup columns. Remove one of the references and try again.",
+    "PackageDependenciesIsAbsentError": "Cannot save the page. {{schemaError}}",
+    "SchemaPackageDependencyIsAbsentError": "Please add dependency to the '{{missedPackageName}}' package for the '{{currentPackageName}}' package."
+  },
+  "DataSourceDependenciesSetting": {
+    "Title": "依頁面資料套用篩選條件",
+    "Tooltip": "依頁面資料篩選可讓您在附加清單中顯示連接的記錄或詳細資料。",
+    "RelationsAndFilters": {
+      "Title": "新增關聯條件",
+      "Tooltip": "設置將用於識別此數據源中要顯示在頁面字段中的記錄的關聯標準。"
+    }
+  },
+  "DataSourceDependency": {
+    "PageData": "資料來源",
+    "MatchDataSourceAttributes": "匹配資料來源屬性",
+    "FilterByActiveItemLabel": "依活動列數篩選",
+    "FilterByActiveItemTooltip": "選擇讓使用者依據連結資料來源的作用中行篩選清單資料",
+    "PageDataSourceRelationTitle": "與使用者相關"
+  },
+  "DataSourceFilterElementsGroup": {
+    "Title": "套用預先設定的篩選條件",
+    "Tooltip": "此設定可讓您使用資料夾中預先設定的篩選條件或其他資料篩選元素作為頁面篩選條件。"
+  },
+  "DataSourceFilterElement": {
+    "Caption": "濾芯"
+  },
+  "EntitySchemaSelectComponent": {
+    "AddNewEntity": "新增物件",
+    "CreatePageLabel": "請建立頁面，因為沒有頁面可以執行此動作。",
+    "CreatePageLink": "建立頁面",
+    "EditPageLabel": "{0} 有 1 個表格頁面。",
+    "EditPagesLabel": "{0} 有幾頁。",
+    "EditPageLink": "編輯頁面",
+    "OpenPagesSetup": "檢視頁面設定",
+    "SaveConfirmationDialog": {
+      "Message": "建立頁面前先儲存物件。繼續嗎？"
+    },
+    "RelatedPagesCaptionWithEntityName": "{0} 頁面設定"
+  },
+  "CrtLookupViewPropertiesComponent": {
+    "SelectionWindow": "選擇視窗",
+    "List": "下拉式清單",
+    "Label": "尋找視圖"
+  },
+  "LookupSchemaSelectComponent": {
+    "CreateLookupEntityButtonLabel": "建立查詢物件",
+    "EditLookupEntityButtonLabel": "編輯查詢物件"
+  },
+  "DataSourceSortElementsGroup": {
+    "SortLabelCaption": "屬性",
+    "Title": "排序方式",
+    "Tooltip": "定義排序規則以確定在多個記錄符合上述標準時選取哪個記錄",
+    "Ascending": "升序",
+    "Descending": "降序"
+  },
+  "CrtPropertiesPanelHeaderComponent": {
+    "CloseButtonTitle": "關閉"
+  },
+  "DataValueType": {
+    "DateCaption": "日期",
+    "TimeCaption": "時間",
+    "DateTimeCaption": "日期/時間",
+    "GuidCaption": "唯一識別碼",
+    "BooleanCaption": "布林",
+    "LongTextCaption": "文字（500 個字元）",
+    "MaxSizeTextCaption": "無限制長度的文字",
+    "IntegerCaption": "整數",
+    "FLOAT2Caption": "小數 (0.01)",
+    "MoneyCaption": "Currency (0.01)"
+  },
+  "BusinessRule": {
+    "GenerateCaption": {
+      "EmptyActionsTranslation": "業務規則"
+    },
+    "EditProperties": {
+      "Applicabilities": {
+        "DataSource": "至資料物件",
+        "Page": "至頁面"
+      },
+      "Name": "名稱",
+      "Applicability": "應用規則",
+      "DataSource": "物件",
+      "Enabled": "啟用",
+      "Caption": "標題",
+      "Validators": {
+        "RequiredCaptionField": "輸入一個值"
+      },
+      "Code": "程式碼"
+    },
+    "PropertiesPanel": {
+      "Header": {
+        "Title": "業務規則設定"
+      },
+      "GeneralGroup": "一般的",
+      "AdvancedGroup": "進階"
+    },
+    "Mode": {
+      "Title": "規則設定模式",
+      "ShowDesigner": "顯示設計師",
+      "ShowCodeEditor": "顯示元資料"
+    },
+    "BlankSlate": {
+      "AddNewRule": "新增規則",
+      "NoBusinessRules": "無規則"
+    }
+  },
+  "BusinessRules": {
+    "CancelChangesConfirmationDialog": {
+      "Message": "本頁面包含未儲存的變更。如果關閉頁面，這些變更將丟失。儲存變更嗎？"
+    },
+    "PanelTitle": "業務規則設定",
+    "List": {
+      "GroupName": "{{name}}業務規則",
+      "PageBusinessRules": "頁面業務規則",
+      "AddRule": "新增規則",
+      "RemoveRule": "刪除",
+      "CopyRule": "複製"
+    },
+    "Buttons": {
+      "SaveButtonCaption": "儲存",
+      "CancelButtonCaption": "取消",
+      "OpenPropertiesPanelButtonTooltip": "業務規則設定"
+    },
+    "Errors": {
+      "BusinessRulesAddonsError": "業務規則附加元件錯誤！",
+      "InvalidRuleMessage": "規則設定不完整。檢查其標題、條件和動作參數。規則標題或動作不得為空。",
+      "NotValidRules": "無法儲存規則。檢查無效規則的標題、動作和條件設定。",
+      "MaxSizeInConditionLimitedWarningMessage": "請注意，在「等於」和「不等於」條件中使用無限制長度的文字欄位，僅限於前 500 個字元。",
+      "NotSupportedInConditionTypesWarningMessage": "具有「等值」和「非等值」條件的業務規則不支援「富文字」和「圖片」類型"
+    },
+    "TooltipMessage": {
+      "DisabledRuleMessage": "停用業務規則"
+    }
+  },
+  "DataSourceElementTypes": {
+    "Text": "文字",
+    "Number": "數位",
+    "Boolean": "布林值",
+    "Lookup": "查找",
+    "ColorPicker": "顏色",
+    "DateTime": "日期/時間",
+    "ImageLink": "圖片連結",
+    "EncryptedInput": "加密字串"
+  },
+  "BusinessRuleDesigner": {
+    "Delete": "刪除",
+    "DeleteConfirm": "您是否希望刪除業務規則？",
+    "NoBusinessRules": "無業務規則",
+    "TriggerCaptionDefault": "頁面已開啟或條件中的一個屬性已變更",
+    "SetValueAction": {
+      "TypeCaption": "設定值"
+    },
+    "SetFilterAction": {
+      "TypeCaption": "套用靜態過濾器",
+      "FilterFieldCaption": "篩選",
+      "SpecifyValuePlaceholder": "指定值",
+      "SetupStaticFilterAction": "設定篩選器",
+      "EditStaticFilterAction": "編輯篩選",
+      "FiltersDialogCaption": "過濾器設定"
+    },
+    "FilterLookupAction": {
+      "TypeCaption": "應用篩選器",
+      "FilterFieldCaption": "篩選",
+      "ByFieldCaption": "經過",
+      "WhereFieldCaption": "地點",
+      "SpecifyValuePlaceholder": "指定值",
+      "PopulateValue": "填充值",
+      "PopulateRightExpressionPathElement": "如果欄位 {1} 已填入，則填充欄位 {0}",
+      "ClearValue": "清晰的數值",
+      "ClearLeftExpressionPathElement": "如果欄位 {1} 被修改，則清除欄位 {0}"
+    },
+    "HideElementAction": {
+      "TypeCaption": "隱藏元素"
+    },
+    "ShowElementAction": {
+      "TypeCaption": "顯示元素"
+    },
+    "EditableElementAction": {
+      "TypeCaption": "使元素可編輯"
+    },
+    "ReadOnlyElementAction": {
+      "TypeCaption": "使元素只讀"
+    },
+    "OptionalElementAction": {
+      "TypeCaption": "讓元素成為選項"
+    },
+    "RequiredElementAction": {
+      "TypeCaption": "製作所需元素"
+    },
+    "Action": "動作",
+    "AddAction": "添加動作",
+    "DeleteAction": "刪除動作",
+    "AddElement": "新增元件",
+    "DeleteElement": "刪除元件",
+    "CollapseConditionButton": "坍塌",
+    "ShowCodeEditor": "顯示程式碼編輯器",
+    "HideCodeEditor": "隱藏程式碼編輯器",
+    "ElementCode": "代碼：",
+    "SetValuesAction": {
+      "TypeCaption": "設定值",
+      "Groups": {
+        "Inputs": "輸入",
+        "DataSource": "資料來源"
+      }
+    },
+    "Formula": {
+      "ValuePicker": {
+        "SourceCaption": "公式",
+        "SetUpFormulaBtnCaption": "設定公式",
+        "ChangeFormulaBtnCaption": "變更公式"
+      },
+      "EntityDataSourceExpressionValidator": {
+        "ColumnDoesNotExist": "欄 {{column}} 不存在"
+      }
+    },
+    "TriggerCaptionForDynamicFilter": "頁面已開啟，或條件或動作的其中一個屬性已變更",
+    "TriggerCaptionForSetValueConst": "開啟記錄建立頁面或改變條件中的其中一個屬性",
+    "TriggerCaptionForSetValueFormula": "開啟記錄建立頁面，或變更條件或動作的其中一個屬性",
+    "TriggerTooltipText": "業務規則包含多個不同的動作，這些動作可能有不同的觸發器。在 Creatio 學院瞭解更多關於觸發器的資訊。"
+  },
+  "SysAdminUnits": {
+    "AllEmployees": "所有員工",
+    "ExternalUsers": "外部用戶"
+  },
+  "SchemaDesigners": {
+    "EntityPagesDesigner": {
+      "HasTypeColumnLabel": "根據特定欄位值使用多個頁面",
+      "ClearTypedPagesConfirmation": {
+        "Message": "已排版頁面的設定將會被清除。",
+        "Buttons": {
+          "Continue": "繼續",
+          "Cancel": "取消"
+        }
+      },
+      "TypeColumnLabel": "決定頁面佈局的欄位",
+      "TypeColumnRemoved": "移除欄位",
+      "PageRemoved": "頁面已移除",
+      "Columns": {
+        "Role": "角色",
+        "Type": "類型",
+        "DefaultPage": "預設頁面",
+        "AddPage": "新增記錄的頁面"
+      },
+      "ToolsPanel": {
+        "Caption": "頁面列表",
+        "AddPageButtonTooltip": "新增頁面"
+      },
+      "RowMenuItems": {
+        "Open": "打開",
+        "Copy": "複製",
+        "Delete": "刪除"
+      }
+    }
+  },
+  "EntityPagesDesignerDialog": {
+    "Caption": "頁面設定"
+  },
+  "RelatedPageCombobox": {
+    "RelatedPageLabel": "預設頁面",
+    "AddPageLabel": "新增記錄的頁面",
+    "RelatedPagesCaption": "頁面設定",
+    "DefaultPagePlaceholder": "如果未指定其他頁面，則使用該頁面",
+    "AddPagePlaceholder": "用於新增記錄的頁面",
+    "DefaultPageSelectionTooltip": "選擇或創建默認頁面以進行記錄的編輯、讀取和創建。\n我們建議使用 Freedom UI 頁面，並將當前對象用作數據來源。",
+    "AddPageTooltip": "選擇或建立僅用於新增記錄的特定頁面。"
+  },
+  "PagesGroupDialog": {
+    "RoleCaption": "角色",
+    "TypeCaption": "類型",
+    "NewRecord": "新頁面設定",
+    "EditRecord": "頁面設定",
+    "EmptyTypeColumnTooltip": "請選擇用於確定頁面的欄位。"
+  },
+  "Tooltips": {
+    "TypeColumn": {
+      "Message": "決定頁面配置的欄位被移除。"
+    }
+  },
+  "QuickFilterGroup": {
+    "Caption": "篩選器"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "翻譯",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "Sidebar": {
+    "PredefinedSidebarGroups": {
+      "CommunicationPanel": "通訊面板",
+      "NotificationsPanel": "通知面板"
+    }
+  },
+  "ConstValuePickerProvider": {
+    "Caption": "常數值",
+    "SourceCaption": "持續的",
+    "ValuePickerComponent": {
+      "Placeholder": "指定值"
+    },
+    "ConstValuePickerDialogComponent": {
+      "Title": "選擇值",
+      "Label": "數值",
+      "Actions": {
+        "OkButtonCaption": "好的",
+        "CancelButtonCaption": "取消"
+      }
+    }
+  }
+}

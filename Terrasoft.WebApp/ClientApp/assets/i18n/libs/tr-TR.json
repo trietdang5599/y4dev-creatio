@@ -1,0 +1,4386 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Yükleniyor..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopyalanmış"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Henüz gösterilecek bir şey yok",
+      "Subhead": "Lütfen önce veri ekleyin"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Sohbet başladı: {0}",
+        "EndDate": "Sohbet tamamlandı: {0}"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Kanal silinemez, dağıtım konusunda aktif sohbetler veya sohbetler vardır.Lütfen önce sohbetleri doldurun ve tekrar deneyin."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Yükleme"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Hata",
+      "Default": "Araç ipucu"
+    }
+  },
+  "ExpressionDesigner": {
+    "Title": "Formül tasarımcısı",
+    "EmptyExpressionForbidden": "Boş bir formül kaydedilemez",
+    "Add": "Eklemek",
+    "ExpressionIsNotValid": "Formülü kaydedilemiyor.Lütfen doğrulama hatalarını ele alın ve tekrar deneyin",
+    "Validation": {
+      "DivisionByZero": "Sıfıra bölme yapılamaz",
+      "ExpressionTypeNotValid": "String Liteal bu ifadede kullanılamaz",
+      "ColumnRemoved": "Sütun kaldırıldı"
+    },
+    "EmptyExpressionValidation": "Formula is empty",
+    "ValidationSuccess": "Validation successful",
+    "ExpressionDesignerError": "Something went wrong. Please, try again or contact your system administrator"
+  },
+  "Components": {
+    "SearchFilter": {
+      "Caption": "Ara",
+      "Placeholder": "Ara",
+      "Tooltip": "Arama bileşeni, yalnızca Liste Nesnesi için doğrudan bağlantılı metin, sayı ve arama sütunları ile aramayı sağlar."
+    },
+    "EncryptedInput": {
+      "Caption": "Şifrelenmiş dize",
+      "EyeButtonShowValueCaption": "Show value",
+      "ToggleMaskedValueHandler": {
+        "ErrorMessage": "Something went wrong. Please, try again or contact your system administrator."
+      },
+      "EyeButtonHideValueCaption": "Hide value",
+      "EyeButtonDisabledCaption": "Can’t show/hide value",
+      "UnmaskRecordParametersBuilder": {
+        "UnsupportedAttributeTypeError": "This type of attribute is not supported for this operation. Please check the field configuration or try a different data type.",
+        "CurrentRecordIdNotFoundError": "Unable to find the current record ID. This may happen if the current record has not been saved yet. Please make sure the record is saved before performing this action.",
+        "ReferenceRecordIdNotFoundError": "The referenced record ID is missing. This can occur if the reference points to a newly created record that hasn't been saved to the database yet. Please save the referenced record first.",
+        "ReferenceColumnSchemaNameNotFoundError": "The name of the referenced column schema is not found. Please check the configuration of the reference field."
+      }
+    },
+    "FolderTree": {
+      "Caption": "Klasörler",
+      "Hint": "Klasör yapısını, belirtilen filtrelere göre kayıtları düzenleyecek şekilde yapılandırmanıza olanak tanır.Bileşenin amaçlandığı gibi çalıştığından emin olmak için sayfa listesine veya veri kaynağı ayarlarına bağlayın."
+    },
+    "FolderTreeActions": {
+      "Caption": "Klasör Yönetimi Menüsü",
+      "Hint": "Klasörler bileşenini gerektirir.Sayfa klasörlerini güçlendirmenize izin verir."
+    },
+    "QuickFilter": {
+      "Caption": "hızlı filtrele",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "Dün",
+          "Today": "Bugün",
+          "Tomorrow": "Yarın",
+          "PreviousWeek": "Önceki hafta",
+          "CurrentWeek": "Bu hafta",
+          "NextWeek": "Gelecek hafta",
+          "PreviousMonth": "Geçtiğimiz ay",
+          "CurrentMonth": "İçinde bulunduğumuz ay",
+          "NextMonth": "Sonraki ay",
+          "PreviousQuarter": "Önceki çeyrek",
+          "CurrentQuarter": "Mevcut Çeyrek",
+          "NextQuarter": "sıradaki çeyrek",
+          "PreviousFiscalWeek": "Previous fiscal week",
+          "CurrentFiscalWeek": "Current fiscal week",
+          "NextFiscalWeek": "Next fiscal week",
+          "FiscalQuarter1": "Q1",
+          "FiscalQuarter2": "Q2",
+          "FiscalQuarter3": "Q3",
+          "FiscalQuarter4": "Q4",
+          "FiscalHalfYear1": "First half year",
+          "FiscalHalfYear2": "Second half year",
+          "PreviousFiscalYear": "Önceki yıl",
+          "CurrentFiscalYear": "Current year",
+          "NextFiscalYear": "Gelecek yıl"
+        }
+      }
+    },
+    "MessageComposer": {
+      "Caption": "Mesaj besteci",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "E-posta"
+        },
+        "Feed": {
+          "Caption": "ESN Feed"
+        },
+        "SelectChannelsCaption": "Kanallar Seçin",
+        "Telegram": {
+          "Caption": "Telegram"
+        },
+        "FacebookMessenger": {
+          "Caption": "Facebook messenger"
+        },
+        "WhatsApp": {
+          "Caption": "WhatsApp"
+        },
+        "SMS": {
+          "Caption": "SMS"
+        }
+      }
+    },
+    "ColorPicker": {
+      "SelectedColor": "Selected color",
+      "Readonly": "Düzenlenemeyen alan"
+    },
+    "Switch": {
+      "Caption": "Geçiş yap"
+    },
+    "NextBestOffer": {
+      "Caption": "Sonraki En İyi Teklifler",
+      "EmptyValue": "N/A",
+      "Next": "sıradaki",
+      "Previous": "Öncesi"
+    },
+    "NextBestOfferDT": {
+      "Caption": "Next Best Offers"
+    },
+    "Approval": {
+      "Caption": "Onaylar"
+    },
+    "ApprovalList": {
+      "Caption": "Onay listesi",
+      "RefreshCaption": "Yenile",
+      "ProvideDataSource": "Onay kullanmadan önce veri kaynağı sağlayın"
+    },
+    "MultiSelect": {
+      "Caption": "Çok seçici arama",
+      "Label": "Çok seçmeli",
+      "CreateRecordButtonCaption": "Create record",
+      "ExpanderIcon": "Expand dropdown",
+      "OpenModalIcon": "Open modal window",
+      "TooltipInfoIcon": "Information tooltip",
+      "ReadonlyIcon": "düzenlenemez alan"
+    },
+    "BarcodeScanner": {
+      "Caption": "Barcode scanner"
+    },
+    "Sort": {
+      "Caption": "Düzenlemek"
+    }
+  },
+  "ExpressionDialog": {
+    "Validate": "Doğrulamak",
+    "ValidateMessage": "Validation messages ({{count}})",
+    "Placeholder": "Select a data attribute from the list or start typing your formula. Basic arithmetic operations and parentheses are supported",
+    "MaxExpressionLength": "The maximum recommended number of characters has been reached",
+    "AggregationFormulaPlaceholder": "Set up a formula using aggregation functions and data attributes. Configure filters if needed, and combine results using basic arithmetic operations"
+  },
+  "DesktopSelector": {
+    "ShowDesktopSelector": "Masaüstü Seçin",
+    "EditDesktop": "Masaüstünü düzenle",
+    "UseHotkeys": "Use Ctrl+Shift+E to edit desktop"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "Geçerli değil parametreler",
+    "ServiceResult": {
+      "ErrorMessage": "Bir hata oluştu. Lütfen Sistem Yöneticisi ile iletişime geçin"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "Tagged {{Count}} Öğe (ler)",
+      "RemoveTagsMessage": "Etiketsiz {{Count}} Öğe (ler)",
+      "AddTagsSuccessfulRunProcess": "Seçilen öğeler için toplu etiketleme işlemi başladı.Bu biraz zaman alabilir",
+      "RemoveTagsSuccessfulRunProcess": "Seçilen öğeler için başlatılan Dökme Etiketler işlemi işlemi.Bu biraz zaman alabilir"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "Klasörlere {{Count}} kayıt (lar) eklendi",
+      "RemoveRecordsMessage": "Klasörlerden {{Count}} kayıtlarını kaldırıldı"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "Eylem başarıyla başladı",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "Bu eylemin çalışması için en az bir kayda ihtiyacı var.Lütfen uygulamak istediğiniz kayıtları seçin ve tekrar deneyin"
+    },
+    "ProcessStarted": "Süreç başladı",
+    "StartingProcessAnnounceMessage": "Starting a process, please wait..."
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "Seçilen kaydı silmek istediğinizden emin misiniz?",
+    "DeleteRecordsConfirmation": "Kayıtları silmek istediğine emin misin?",
+    "SaveSummariesForAll": "Save summary settings for all users?",
+    "ResetSummaries": "Restore default summary settings?"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "'{0}' nesnesindeki kayıtları silmek için yetersiz haklar",
+    "UnableToDeleteSelectedRecord": "Seçilen kaydı silemiyor",
+    "SelectRecordsToDelete": "Silmek için kayıtları seçin",
+    "SettingsErrorMessage": "Eylemi yürütemiyor.\n\nSistem Yöneticisi, Özgürlük UI tasarımcısındaki düğme ayarlarını kontrol etmelidir.",
+    "ExportToExcel": {
+      "PermissionsErrorMessage": "Bu işlemi gerçekleştirme izniniz yok.\nLütfen sistem yöneticinizle iletişime geçin.Dışa aktarma nesnesine erişimi ve sistem işlemini gerçekleştirme iznini kontrol edin.",
+      "FileGenerationMessage": "Generating export file"
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "Değişiklik günlüğüne erişmek için yetersiz izin.Sistem yöneticinizle iletişime geçin.",
+      "SourceIsNotSpecifiedMessage": "\"Açık Değişiklik Günlüğü\" eylemi için nesne veya veri kaynağı belirtilmemiştir.Sistem yöneticinizle iletişime geçin.",
+      "RecordIsNotSelectedMessage": "Değişiklik günlüğünü açmak için bir kayıt seçin.",
+      "ChangeLogIsNotTurnedOnTitle": "Günlük açmayı aç",
+      "ChangeLogIsNotTurnedOnMessage": "Günlük şu anda {0} için kapalı.Giriş yapmayı açmak ister misiniz?",
+      "ChangeLogIsTurnedOffMessage": "Günlük şu anda {0} için kapalı.Sistem yöneticinizle iletişime geçin.",
+      "RecordIsNotSavedMessage": "Değişiklik günlüğünü açmak için önce bir kaydı kaydedin."
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "{0} MB Maksimum dosya boyutu sınırı aşıldı.\n\n\n\nDosyalar:\n- {1}",
+      "NoConnectedFileList": "Dosya yükleme hedefi ayarlanmamıştır.\n\nLütfen düğme ayarlarındaki hedefi seçin.",
+      "InvalidRequestParams": "Sayfa bileşeni henüz ayarlanmadığı için dosya (lar) ı yüklenemiyor.Sistem yöneticisi, Freedom UI tasarımcısındaki kurulumu bitirebilir.",
+      "ChangeFileSizeInfoMessage": "\"Ek Maksimum Boyut\" sistem ayarındaki maksimum dosya boyutunu artırabilirsiniz.",
+      "FileListHeader": "Dosyalar",
+      "MaxFileSizeExceededExceptionMessage": "{0} dosya çok büyük olduğu için yüklenemiyor.",
+      "UnknownServerError": "Bir şeyler ters gitti.\n\nLütfen dosyayı tekrar yüklemeyi deneyin.",
+      "AttachedToUnsavedRecord": "Dosyaları henüz oluşturulmamış kayda eklenemiyor.Dosyaları yüklemeden önce lütfen kaydı oluşturun",
+      "InvalidExtension": {
+        "Deny": "[{0}] dosya uzantısı güvenlik ayarları tarafından yasaktır.Bu tür dosyalarla çalışmanız gerekiyorsa, [dosya uzantıları Denylist] (FileExtensionsdenylist) sistem ayarından uzantıyı kaldırmak için lütfen sistem yöneticinizle iletişime geçin.",
+        "Allow": "[{0}] dosya uzantısı güvenlik ayarları tarafından yasaktır.Bu tür dosyalarla çalışmanız gerekiyorsa, [Dosya Uzantıları LainsList] (FileExtensionsEallyList) sistem ayarına uzantıyı eklemek için lütfen sistem yöneticinizle iletişime geçin",
+        "NotSupported": "Some selected files are not supported for upload. Please choose files of supported types."
+      },
+      "EmptyFileMessage": "Boş dosya yüklemeye çalışıyorsunuz.\n\nLütfen içerikli dosyaları seçin.",
+      "SingleUploadInProgress": "The file {0} is still uploading. Please wait until the upload is complete.",
+      "MultipleUploadsInProgress": "Some files are still uploading. Please wait until the uploads are complete ({0} and {1} more)."
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "{0} dosya çok büyük olduğu için yüklenemiyor.",
+      "UnknownUploadError": "Bilinmeyen yükleme hatası.Lütfen Sistem Yöneticisi ile iletişime geçin.",
+      "Announcement": {
+        "Uploaded": "Image uploaded",
+        "Deleted": "Image deleted"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "Eylem hatası.\nSistem yöneticinizle iletişime geçin.Sistem tasarımcısındaki eylem ayarlarını kontrol edin."
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "Eylem hatası.\nSistem yöneticinizle iletişime geçin.Sistem tasarımcısındaki eylem ayarlarını kontrol edin."
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "Etiket eklemek için kayıtları seçin",
+      "SelectRecordsToRemoveRecordsMessage": "Etiketleri kaldırmak için kayıtları seçin"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "Statik klasöre eklemek için kayıtları seçin",
+      "SelectRecordsToRemoveRecordsMessage": "Statik klasörden kaldırmak için kayıtları seçin"
+    },
+    "FileAnnouncement": {
+      "Uploaded": "{0} file uploaded",
+      "Deleted": "{0} file deleted"
+    },
+    "FileDownload": {
+      "FileMismatchErrorMessage": "File '{0}' is not fully uploaded",
+      "FileDownloadErrorMessage": "File '{0}' could not be downloaded. It may have been deleted, is corrupted, or you do not have permission to access it."
+    },
+    "OK": "Tamam"
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "Etiket ekle",
+    "RemoveTagCaption": "Etiketi kaldır"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "Rapor kaydedilmemiş kayıt için yazdırılamaz.",
+    "InvalidRequestCaption": "Eylem geçerli değil.Lütfen baskı ayarlarını kontrol edin.",
+    "SelectRecord": "Yazdırma raporu için kayıt seçin"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "Seçilen tüm kayıtları bu eylemle taşımak mümkün değildir, lütfen gerektiği kadar kayıt seçin."
+  },
+  "CancelRecordsChangesRequest": {
+    "SuccessMessage": "Changes discarded successfully"
+  },
+  "RecordDeletedRequest": {
+    "SuccessMessage": "Record deleted successfully"
+  },
+  "RecordsDeletedRequest": {
+    "SuccessMessage": "Kayıtlar başarıyla silindi"
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "Mevcut rapor yok",
+    "GoToPrintablesSetupCaption": "Rapor kurulumuna git"
+  },
+  "SchemaOutlet": {
+    "BeforeSchemaChangeAnnounceMessage": "Loading, please wait...",
+    "AfterSchemaChangeAnnounceMessage": "Loading is completed",
+    "Caption": "Schema container",
+    "Hint": "The container displays a schema",
+    "SchemaNotFound": "<not found>"
+  },
+  "SaveRecordRequest": {
+    "SavingRecordAnnounceMessage": "Saving, please wait..."
+  },
+  "Deduplication": {
+    "RecordNotCreatedMessage": "The record has not been created",
+    "MergeStartedMessage": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete. Please reload the record afterward to retrieve the updated data."
+  },
+  "HierarchyCopy": {
+    "RecordIdRequiredMessage": "Record ID is required.",
+    "SchemaNameRequiredMessage": "Schema name is required.",
+    "CopyingErrorMessage": "Unexpected error while copying record."
+  },
+  "SchemaContextPart": {
+    "RecordTitle": "{{caption}}: {{value}}",
+    "ListTitle": "List: {{captions}}"
+  },
+  "DataGroupColumnsSubGroups": {
+    "NewColumn": "Yeni Alan Ekle",
+    "ExistingColumns": "Data model attributes"
+  },
+  "ColumnAddedOnPage": "Column already added on the page",
+  "ColumnValidators": {
+    "ErrorMessages": {
+      "LookupReferenceSchemaNotSetError": "Data source is not set for lookup column"
+    }
+  },
+  "NewColumnSubGroup": {
+    "MEDIUM_TEXTColumn": "Başlık",
+    "IntegerColumn": "Sayı",
+    "BooleanColumn": "Onay kutusu",
+    "ColorColumn": "Renk",
+    "DateTimeColumn": "Date/Time",
+    "LookupColumn": "Açılır menü",
+    "RICH_TEXTColumn": "Biçinlendirilmiş metin",
+    "AutonumberColumn": "Otomobil numarası",
+    "IMAGELOOKUPColumn": "Resim",
+    "PhoneColumn": "Telefon",
+    "LongPhoneColumn": "Telefon numarası",
+    "WebColumn": "Web bağlantısı",
+    "EmailColumn": "E-posta",
+    "LongEmailColumn": "E-posta adresi",
+    "SECURE_TEXTColumn": "Şifrelenmiş dize",
+    "ToggleColumn": "Switcher",
+    "SwitchColumn": "Geçiş yap"
+  },
+  "ModalPageDesigner": {
+    "Defaults": {
+      "Caption": "New modal page",
+      "CaptionTemplate": "{{0}} new modal page",
+      "CaptionWithEntityTemplate": "{{0}} modal page"
+    }
+  },
+  "DataGroupParametersSubGroups": {
+    "NewParameter": "Add new parameter",
+    "ExistingParameters": "Mevcut parametreler"
+  },
+  "NewParameterSubGroup": {
+    "MEDIUM_TEXTParameter": "Başlık",
+    "IntegerParameter": "Sayı",
+    "BooleanParameter": "Onay kutusu",
+    "DateTimeParameter": "Date/Time",
+    "LookupParameter": "Açılır menü",
+    "RICH_TEXTParameter": "Biçinlendirilmiş metin",
+    "PhoneParameter": "Telefon",
+    "LongPhoneParameter": "Telefon numarası",
+    "WebParameter": "Web bağlantısı",
+    "EmailParameter": "E-posta",
+    "LongEmailParameter": "E-posta adresi"
+  },
+  "CDK": {
+    "ChartsGroupCaption": "Araçlar",
+    "DataGroupCaption": "Veri",
+    "PageParametersDataGroupCaption": "Sayfa Parametreleri",
+    "ComponentsGroupCaption": "Bileşenler",
+    "LayoutElementsGroupCaption": "Layout elements",
+    "InputsGroupCaption": "Inputs",
+    "CustomElementsGroupCaption": "Custom components"
+  },
+  "CanvasPlaceholder": {
+    "Caption": "Nothing here yet",
+    "Description": "Drag and drop elements from \n the left panel",
+    "LinkDescription": "Read more about the designer in",
+    "LinkCaption": "Akademi",
+    "LinkUrl": "https://academy.creatio.com/docs/8.x/no-code-customization/category/ui-and-business-logic-customization"
+  },
+  "DesignerTools": {
+    "SearchPlaceholder": "Search component",
+    "PlaceholderTitleWithFilters": "Filtre kriterleriyle eşleşen kayıt yok",
+    "PlaceholderDescriptionWithFilters": "Filtreyi temizleyin veya koşullarını değiştirin."
+  },
+  "LeftPanel": {
+    "ComponentsTabLabel": "Bileşenler",
+    "StructureTabLabel": "Yapı"
+  },
+  "InfoPanel": {
+    "SafariInfoPanelMessage": "Safari tüm tasarımcı özelliklerini desteklemeyebileceğinden, lütfen en iyi deneyim için Chrome'u kullanın.Teşekkür ederim!",
+    "UserLevelSchemaInfoPanelMessage": "The dashboard will be available in this environment only. If you need to migrate it to a different environment, include the dashboard in a package.",
+    "OpenInPackageButton": "Open in the package"
+  },
+  "Structure": {
+    "NodeMenu": {
+      "Settings": "Ayarlar",
+      "Copy": "Kopyala",
+      "Delete": "Sil",
+      "AddComponent": "Add component",
+      "MoveTo": "Move to"
+    },
+    "Search": {
+      "PreviousMatch": "Previous match",
+      "NextMatch": "Next match",
+      "Clear": "Aramayı sıfırla"
+    }
+  },
+  "AddItemDialog": {
+    "Title": "Add component",
+    "Placeholder": "Component name",
+    "AddButton": "Ekle",
+    "CancelButton": "İptal"
+  },
+  "MoveToDialog": {
+    "Title": "Move to",
+    "Placeholder": "Item name",
+    "MoveToButton": "Taşınmak",
+    "CancelButton": "İptal"
+  },
+  "InterfaceDesignerHeaderComponent": {
+    "SaveButtonCaption": "Kayıt etmek",
+    "CancelButtonCaption": "İptal",
+    "CloseButtonCaption": "Kapat",
+    "UndoButtonTooltip": "Undo",
+    "OpenSourceCodeTooltip": "Açık Kaynak kodu",
+    "SourceCodeCaption": "Source code",
+    "OpenPropertyTooltip": "Sayfa Ayarları",
+    "ChangeParentTooltip": "Ebeveyn Değiştir",
+    "ActionsTooltip": "Hareketler",
+    "CopyCaption": "Kopyala",
+    "ExportCaption": "İhracat",
+    "OnlineHelpCaption": "Çevrimiçi yardım",
+    "OnlineHelpUrl": "https://academy.creatio.com/docs/8.x/no-code-customization/category/ui-and-business-logic-customization",
+    "SchemaOutdatedSaveButtonTooltip": "Schema outdated",
+    "RedoButtonTooltip": "Redo",
+    "FaviconButtonTooltip": "Open application management",
+    "BusinessRulesButtonTitle": "İş Kuralları Açık",
+    "BusinessRulesButtonCaption": "İş kuralları",
+    "PreviewButtonCaption": "Ön izleme",
+    "PreviewButtonTitle": "Önizleme sayfası",
+    "PreviewActiveLabel": "Preview active"
+  },
+  "InterfaceDesigner": {
+    "ExportSuccessMessage": "Schema exported successfully",
+    "ExportErrorMessage": "Failed to export schema",
+    "ExportMessage": "Do you want to save changes before export? If not, you will get a local version export.",
+    "ExportSuccess": "Schema exported successfully",
+    "PreviewOpenError": "Failed to open page preview.",
+    "PropertiesPages": {
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "Şifrelenmiş dize"
+      },
+      "DividerPropertiesPanel": {
+        "LayoutGroup": "Düzen",
+        "PaddingGroup": "Boşluk",
+        "Padding": {
+          "Top": "Tepe",
+          "Bottom": "Alt",
+          "Left": "Sol",
+          "Right": "Sağ"
+        },
+        "Thickness": {
+          "Label": "Thickness"
+        },
+        "Sizes": {
+          "None": "Hiçbiri",
+          "ExtraSmall": "Ekstra küçük",
+          "Small": "Küçük",
+          "Medium": "Orta",
+          "Large": "Büyük"
+        },
+        "PageCaption": "Divider settings"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "Özet Ayarlar",
+        "GeneralGroup": {
+          "Caption": "Genel",
+          "SelectDataSource": "Veri kaynağı"
+        }
+      },
+      "FolderTreePropertiesPage": {
+        "GeneralLabel": "Genel",
+        "SourceSchemaLabel": "Klasör Depolama Konumu",
+        "RootSchemaLabel": "Klasörler ne filtreleyecek?",
+        "HeaderLabel": "Klasör ayarları",
+        "AppearanceGroup": "Dış görünüş",
+        "BorderRadiusLabel": "Sınır yarıçapı",
+        "Sizes": {
+          "None": "Hiçbiri",
+          "Small": "Küçük",
+          "Medium": "Orta",
+          "Large": "Büyük",
+          "ExtraLarge": "Ekstra büyük",
+          "2XLarge": "Double extra large",
+          "3XLarge": "Triple extra large"
+        },
+        "ButtonSizeFieldLabel": "Boyut",
+        "ColorFieldLabel": "Stil",
+        "Colors": {
+          "Primary": "Birincil",
+          "Accent": "Odak",
+          "Warn": "Uyarı",
+          "Default": "Plain",
+          "Secondary": "Secondary"
+        },
+        "IconPositionLabel": "Pozisyon",
+        "IconPosition": {
+          "LeftIcon": "Simge",
+          "OnlyIcon": "Sadece simge",
+          "RightIcon": "Simge Doğru"
+        }
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "Klasör Yönetimi menüsünün ayarları",
+        "FolderTreeLabel": "Klasör Ağacı Seçimi",
+        "GeneralCaption": "Genel"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "Hızlı Filtre Ayarları",
+        "GeneralCaption": "Genel",
+        "AppearanceCaption": "Dış görünüş",
+        "ChooseFilterTypeLabel": "Bir Filtre Türü Seçin",
+        "CaptionLabel": "lBaşlık",
+        "HintLabel": "İpucu",
+        "CustomType": "Gelenek",
+        "DateRangeType": "Date/Time",
+        "LookupType": "Ara"
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Zaman Çizelgesi Ayarları",
+        "ObjectsCaption": "Nesneler",
+        "AddObject": "Nesne Ekle",
+        "ContextMenu": {
+          "Edit": "İzin",
+          "Delete": "Sil"
+        },
+        "GeneralGroup": "Genel",
+        "EmptyDataSourceHint": "Veri kaynağı sayfaya eklenmez.Bileşeni ayarlamak için lütfen mevcut veri kaynağını ekleyin",
+        "BindToDataSourceCaption": "Veri kaynağı",
+        "FiltrationCaption": "Filtrasyon Seçenekleri",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "Kayıt Türüne Göre",
+          "TimelineFilter_Owner": "Sahibi tarafından",
+          "TimelineFilter_Date": "Tarihe göre",
+          "TimelineFilter_SystemMessages": "Sistem mesajlarıyla"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "Genel",
+        "CaptionLabel": "lBaşlık",
+        "AppearanceGroup": "Dış görünüş",
+        "LinkedColumn": "Bağlı sütun",
+        "SortedByColumn": "Şuna göre sırala",
+        "IconPosition": {
+          "OnlyIcon": "Sadece simge"
+        },
+        "Feed": {
+          "ExternalUsersGroupCaption": "Portal users",
+          "AllowExternalPostCaption": "Harici kullanıcılar için yayınlamaya izin verin"
+        },
+        "FiltrationGroup": "Filtrasyon Seçenekleri",
+        "OwnerColumn": "Sahip filtreleme için sütun"
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Araç çubuğu görüntüleme modu",
+        "Inline": "Çizgide",
+        "Classic": "Klasik",
+        "AlwaysShowToolbar": "Always show formatting options"
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "İletişim Seçenekleri Ayarları",
+        "GeneralGroup": "Genel",
+        "MasterRecordCaption": "İletişim Seçeneklerini Bağlamak İçin Kayıt",
+        "DataSourceEntityColumn": "Veri kaynağı",
+        "Editability": "Düzenlenebilirlik",
+        "EditabilityControls": {
+          "Readonly": "sadece okunabilir"
+        },
+        "LabelPositionCaption": "Başlık pozisyonu",
+        "LabelPosition": {
+          "Auto": "Oto",
+          "Left": "Sol",
+          "Above": "Üstünde",
+          "Hidden": "Gizlenmiş"
+        },
+        "ShowNoDataPlaceholder": "Veri olmadığında yer tutucu görüntüleyin",
+        "AppearanceGroup": "Dış görünüş",
+        "ColumnsCountLabel": "Sütun sayısı",
+        "ContactEntitySchemaName": "Kişi iletişim seçenekleri",
+        "AccountEntitySchemaName": "Hesap İletişim Seçenekleri",
+        "EmptyDataSourceHint": "Veri kaynağı sayfaya eklenmez.Bileşeni ayarlamak için lütfen mevcut veri kaynağını ekleyin"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "Hesap Kompakt Profil Ayarları",
+        "GeneralGroup": "Genel",
+        "AttributeForReferenceColumn": "Veri kaynağı",
+        "Editability": "Düzenlenebilirlik",
+        "EmptyAccountDataSourceHint": "Veri kaynağı sayfaya eklenmez.Bileşeni ayarlamak için lütfen mevcut veri kaynağını ekleyin",
+        "EditabilityControls": {
+          "Readonly": "Sadece okunabilir"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "Kompakt Profil Ayarları ile iletişime geçin",
+        "GeneralGroup": "Genel",
+        "AttributeForReferenceColumn": "Veri kaynağı",
+        "Editability": "Düzenlenebilirlik",
+        "EmptyContactDataSourceHint": "Veri kaynağı sayfaya eklenmez.Bileşeni ayarlamak için lütfen mevcut veri kaynağını ekleyin",
+        "EditabilityControls": {
+          "Readonly": "Sadece oku"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "Kullanıcı Profili Ayarları",
+        "GeneralGroup": "Genel",
+        "AttributeForReferenceColumn": "Veri kaynağı",
+        "Editability": "Düzenlenebilirlik",
+        "EmptyUserProfileDataSourceHint": "Veri kaynağı sayfaya eklenmez.Bileşeni ayarlamak için lütfen mevcut veri kaynağını ekleyin",
+        "EditabilityControls": {
+          "Readonly": "Sadece oku"
+        }
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "Konuşma Ayarları",
+        "GeneralCaption": "Genel",
+        "TooltipCaption": "Bu öğeyi sayfa kaynak kodunda ayarlayabilirsiniz",
+        "OpenSourceCodeButtonCaption": "Açık Kaynak Kodu"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "Konuşma Ayarları",
+        "GeneralCaption": "Genel"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "Mesaj Editör Ayarları",
+        "GeneralCaption": "Genel"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Besleme ayarları",
+        "GeneralCaption": "Genel",
+        "FeedTypeCaption": "rekorları filtreleme bilgisi",
+        "FeedChannel": "ESN Feed",
+        "FeedTypeGeneral": "Genel",
+        "FeedTypeChannel": "ESN Feed",
+        "FeedTypeRecord": "Kayıt ile ilgili",
+        "FeedDataSourceCaption": "Veri kaynağı",
+        "FeedTypeUser": "Kullanıcı ile ilgili",
+        "FeedTypeRecordTooltipCaption": "Besleme mesajları belirli kayıt iletişimine göre görüntülenecektir.",
+        "FeedTypeGeneralTooltipCaption": "Mevcut kullanıcı ile ilgili tüm bildirimler ve sözler.Bu modda besleme, geçerli kullanıcının etiketlendiği veya takip ettiği iş parçacıklarını gösteren yayınları ve yorumları görüntüleyecektir.Örneğin, bu moddaki besleme, önemli bilgileri kaçırmamak için ana sayfaya eklenebilir.",
+        "ExternalUsersGroupCaption": "Portal users",
+        "AllowExternalPostCaption": "Harici kullanıcılar için yayınlamaya izin verin",
+        "ShowBlankSlateCaption": "Boş arduvaz göster"
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "İzin",
+          "Delete": "Sil"
+        },
+        "ChannelsCaption": "Kanallar",
+        "AddNewItem": "Kanal ekle",
+        "PageCaption": "Mesaj besteci",
+        "DefaultChannelCaption": "Varsayılan kanal"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "E -posta besteci",
+        "GeneralCaption": "Genel",
+        "DefaultSenderType": "Varsayılan gönderen",
+        "DefaultMailbox": "Varsayılan posta kutusunu kullanın",
+        "CaseMailbox": "Vaka Kaynak Posta Kutusu kullanın"
+      },
+      "ChatComposerPropertiesPage": {
+        "PageCaption": "Chat composer",
+        "GeneralCaption": "Genel",
+        "ProviderIdCaption": "Kanal sağlayıcı"
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "Sonraki Adımlar Ayarlar"
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Önizleme için mini sayfa",
+        "TitleColumn": "Birincil Ekran alanı",
+        "StartDateColumn": "Başlangıç ​​tarihi sütunu",
+        "EndDateColumn": "Bitiş tarih sütunu",
+        "NotesColumn": "Çevrimiçi Toplantı Bilgileri ile Alan",
+        "PageCaption": "Takvim ayarları",
+        "RequiredFieldError": "Bu alan gerekli",
+        "SecondaryTileFields": "İkincil karo alanları",
+        "AddSecondaryFieldCaption": "İkincil alan ekle",
+        "DisabledAddSecondaryFieldCaption": "Maksimum 4 ikincil alan ekleyebilirsiniz",
+        "AutoScrollToCurrentTime": "Güncel zamana otomatik olarak kaydırın",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Sil"
+        },
+        "ColorizationType": {
+          "Default": "varsayılan",
+          "ByField": "Otomatik",
+          "ByOwner": "Kullanıcı tarafından"
+        },
+        "ColorizationTypeCaption": "Karo renklendirme modu",
+        "ColorizationColumnCaption": "Ara"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "Sonraki Best Teklif Ayarları",
+        "GeneralCaption": "Genel",
+        "DataSourceCaption": "Nesne",
+        "CaptionColumnField": "lBaşlık",
+        "DescriptionColumnField": "Açıklama",
+        "InfoLabelColumnField": "Bilgi arama",
+        "ImageColumnField": "İmaj",
+        "NumberTagColumnField": "Etiket",
+        "SortingFieldTooltip": "Öğeler, azalan sırayla bu alandan değere göre sıralanacaktır.",
+        "AdditionalCaption": "ek olarak",
+        "SpecificPageLookupField": "Hangi sayfa açılacak?",
+        "UseSpecificPageField": "Altyazı tıklayarak belirli bir sayfayı açın",
+        "SpecificPageRecordIdField": "Kayıt tanımlayıcısı",
+        "ViewModeCaption": "Ekran modu",
+        "CarouselViewMode": "Carousel",
+        "GalleryViewMode": "Galeri"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Ayarları onaylar",
+        "SchemaNameLabel": "Hangi kayıtları onaylamak için?",
+        "GeneralGroup": "Genel",
+        "AppearanceGroup": "Dış görünüş",
+        "HiddenWhenNoData": "Veri olmadığında gizli"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Onaylar Liste Ayarları",
+        "GeneralGroup": "Genel",
+        "SchemaNameLabel": "Nesne"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "Çok seçici arama ayarları",
+        "GeneralGroup": {
+          "General": "Genel",
+          "SelectLookup": "Arama Seçin",
+          "MultiselectValueStorage": "Çok seçici değer depolama",
+          "SelectColumn": "Görüntülemek için sütun",
+          "Required": "Gerekli",
+          "RequirementTypeItems": {
+            "No": "HAYIR",
+            "Yes": "Evet"
+          }
+        },
+        "AppearanceCaption": "Dış görünüş",
+        "LabelPositionVariants": {
+          "Auto": "Oto",
+          "Left": "Sol",
+          "Above": "Üstünde",
+          "Hidden": "Gizlenmiş"
+        },
+        "TitleOnPage": "Sayfadaki başlık",
+        "Placeholder": "Yer tutucu",
+        "Tooltip": "Araç ipucu",
+        "LabelPosition": "Başlık pozisyonu",
+        "EnableAddRecordCaption": "Yeni değerler eklemeyi etkinleştirin",
+        "WrapCaption": "Wrapping items to the next line",
+        "Editability": "Düzenlenebilirlik",
+        "EditabilityControls": {
+          "Readonly": "sadece okunabilir"
+        },
+        "LookupStaticFilterLabel": "Apply static filter for lookup"
+      },
+      "MergeRecordsRequest": {
+        "Caption": "Merge data"
+      },
+      "MergeRecordsRequestPropertiesPanel": {
+        "SelectData": "Which data to merge?"
+      },
+      "MobileListPropertiesPanel": {
+        "PageCaption": "Liste",
+        "GeneralCaption": "Genel",
+        "DataSourceCaption": "Nesne",
+        "TitleColumnField": "Title column",
+        "ImageColumnField": "Resim",
+        "AppearanceGroup": "Görünüş",
+        "Columns": {
+          "ColumnsGroup": "Sütunlar",
+          "AddNewItem": "Sütun ekle",
+          "ContextMenu": {
+            "Edit": "Düzenle",
+            "MoveUp": "Move up (Ctrl+Up)",
+            "MoveDown": "Move down (Ctrl+Down)",
+            "Delete": "Sil"
+          }
+        },
+        "Scrollable": "Fit to available space"
+      }
+    }
+  },
+  "CanvasToolbar": {
+    "Rotate": "Rotate"
+  },
+  "Input": {
+    "Readonly": "düzenlenemez alan",
+    "ShowPassword": "Şifreyi göster",
+    "HidePassword": "Şifreyi Gizle"
+  },
+  "Carousel": {
+    "NoData": "Veri yok",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "düzenlenemez alan",
+    "InvalidValueSyntax": "Lütfen listeden değer seçin",
+    "NoData": "Veri yok",
+    "EmptyDisplayValue": "Ekran değeri yok",
+    "AddNewRecord": "Yeni ekle",
+    "IsGoToSourceAllowedTooltip": "Kayıt listesine git",
+    "CheckAll": "Hepsini kontrol et",
+    "ClearAll": "hepsini temizle",
+    "SelectValue": "Değeri seç",
+    "ClearValue": "değeri sil",
+    "OpenSection": "Bölüme git"
+  },
+  "DataGrid": {
+    "AddColumns": "Sütun ekle",
+    "ColumnToolbar": {
+      "Hide": "sakla",
+      "Freeze": "Dondurmak",
+      "Unfreeze": "Çözmek",
+      "Rename": "Yeniden isimlendirmek",
+      "Title": "Sütun eylemleri",
+      "Edit": "Özellikleri",
+      "SortAscending": "Artan sırala",
+      "SortDescending": "Azalan Sırala",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "RowToolbar": {
+      "Open": "Açma sayısı",
+      "Copy": "Kopyala",
+      "Delete": "Sil",
+      "RunBusinessProcess": "İşlemi Çalıştır",
+      "Title": "Satır eylemleri"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Aksiyonlar",
+      "Title": "İşlemleri listeleyin",
+      "DataGridSettingsLabel": "Genel Liste Ayarları",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Ayarları varsayılan duruma getirmek",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Default list settings restored successfully"
+      },
+      "MultilineViewLabel": "Multiline view",
+      "RowHeightSettings": {
+        "Label": "Row height",
+        "Options": {
+          "Small": "Küçük",
+          "Medium": "Orta",
+          "Large": "Büyük",
+          "ExtraLarge": "Ekstra büyük"
+        }
+      }
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "Veri yok",
+    "NoColumns": "Sütun eklenmedi",
+    "Hints": {
+      "Sort": "Düzenlemek",
+      "StartEditing": "İzin",
+      "ReadonlyCell": "Düzenlenemeyen alan",
+      "CancelChanges": "Yetersiz",
+      "AddItem": "Yeni Rekor",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Artan sırala",
+      "SortDescending": "Azalan Sırala",
+      "RowControls": "Row controls"
+    },
+    "SaveItemsChanges": "Hepsini kurtar",
+    "CancelItemsChanges": "Yetersiz",
+    "AddItem": "Yeni",
+    "BulkActions": {
+      "MoreActions": "Daha Fazla Eylemler",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "RowsSelection": {
+      "Selected": "seçilmiş",
+      "SelectAll": "Hepsini seç",
+      "ClearSelection": "Açık seçim",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "Sütun bulunamadı",
+    "ColumnSticky": "Dondurulmuş sütun",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Genişliği Değiştir",
+      "ChangeWidthOf": "Change width of {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Gallery": {
+    "NoData": "Veri yok",
+    "MenuActions": "Hareketler",
+    "DateAdded": "Date added",
+    "SelectItem": "Select item",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Evet",
+      "False": "HAYIR"
+    }
+  },
+  "FileInput": {
+    "Delete": "Sil",
+    "Cancel": "İptal",
+    "Attach": "Eklemek",
+    "FileIcon": "Dosya simgesi",
+    "EmptyFileName": "Boş dosya adı",
+    "MaxFileSizeLimitReached": "Maksimum dosya boyutu sınırına ulaşıldı ({0} MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Kayıt etmek",
+    "CancelButton": "İptal",
+    "ColumnProperties": "Sütun Özellikleri",
+    "Title": "lBaşlık",
+    "FilterHeader": "kayıtları filtrelemenin yolu",
+    "SortingHeader": "Kayıtlar nasıl sıralanır",
+    "SortColumn": "Şuna göre sırala",
+    "WhatToDisplay": "Ne sergilemeli",
+    "AggregationColumn": "Sütun",
+    "SortOrder": "Sıralama Siparişi",
+    "SetupFilters": "Kurulum Filtreleri",
+    "EditFilters": "Edit filters"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Dosyaları buraya bırakın",
+      "Description": "veya kullanım",
+      "Upload": "Yüklemek"
+    },
+    "RowToolbar": {
+      "Download": "İndirmek"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "kime",
+    "TodayAt": "Bugün {0}",
+    "YesterdayAt": "dün {0} da",
+    "DayBeforeYesterdayAt": "dünden evvelsi gün {0} de"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Ekran değeri yok"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Açık bağlantı"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Eposta gönder"
+  },
+  "ImageInput": {
+    "Alt": "Alan görüntüsü",
+    "Upload": "Yüklemek",
+    "Clear": "Sil",
+    "Change": "Değişiklik",
+    "AltAbbreviation": "Kısaltma görüntüsü",
+    "AltIcon": "Alan boş yer tutucu"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mth",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "İK",
+    "MinutesAbbreviation": "dk"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Kapat sekmesi"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "İşlemi çalıştır",
+      "SuccessMessage": "Süreç başarıyla yürütüldü",
+      "NotConfiguredQuickProcessesMessage": "Hızlı işlemler henüz yapılandırılmadı",
+      "OtherProcessesCaption": "Diğer Süreçler"
+    },
+    "Settings": {
+      "Title": "Konfigürasyon"
+    },
+    "UserProfile": {
+      "Title": "Profiliniz",
+      "MenuItems": {
+        "Profile": "Profiliniz",
+        "Logout": "Son",
+        "OrganizationProfile": "Organizasyon Profili"
+      }
+    },
+    "New": {
+      "Title": "Yeni",
+      "NoItemTitle": "Hızlı Kayıtlar oluşturma henüz yapılandırılmadı"
+    },
+    "Help": {
+      "Title": "Yardım",
+      "SupportSubject": "Soru hakkında",
+      "MenuItems": {
+        "OnlineHelp": "Çevrimiçi yardım",
+        "NeedHelp": "yardıma ihtiyac var",
+        "ExternalAccess": "Destek için erişim sağlayın",
+        "ReleaseNotes": "Sürüm notları"
+      },
+      "EmailBodyTemplate": "gövde =%0d%0a%0d%0asite: {0}%0d%0Acustomer Kimliği: {1}%0d%0PRODUCT: {2}%0d%0Aversiyon: {3}%0d%0Accreen Boyut: {4}%0d%0alokalizasyon: {5}%0d%0APage: {6}",
+      "AccessGrantedMessage": "Erişim izni",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "İletişim paneli"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Bildirim Paneli"
+    },
+    "Logo": {
+      "Title": "Masaüstüne git"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Konfigürasyon"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Ekleme paneli"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Derleme hatası",
+      "WorkspaceExplorerTemplate": "Derleme hatalarının bir listesini görüntülemek ve bunları düzeltmek için <a href = '{0}' hedef = '_ boş'> yapılandırma bölümü </a> adresini ziyaret edin."
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigation panel"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Arama uygulaması ..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Çöküş Navigasyon Paneli",
+      "ExpandCaption": "Gezinme panelini genişletin"
+    },
+    "SearchResultsCaption": "Arama Sonuçları",
+    "EmptySearchResult": {
+      "Title": "Arama kriterleriyle eşleşen öğe yoktur.",
+      "Subhead": "Arama kriterlerini temizleyin veya değiştirin."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Devamını oku"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} geçti",
+    "timeBeforeCountStartTpl": "{0} geri sayım başlamadan önce",
+    "overdueTpl": "{0} gecikmiş",
+    "timeLeftTpl": "{0} kaldı",
+    "timeIsUpTpl": "Zaman doldu",
+    "waitingForStartDateTpl": "Başlangıç ​​Tarihini Beklemek",
+    "dateNotSet": "0HR 0 dakika"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "Tümü",
+      "SelectMenuLabel": "Sütuna göre arama",
+      "Title": "Filtre sütunu seçin"
+    },
+    "ClearIconTitle": "Aramayı sıfırla"
+  },
+  "Dialog": {
+    "Ok": "tamam",
+    "Yes": "Evet",
+    "No": "HAYIR",
+    "Save": "Kayıt etmek",
+    "DoNotSave": "Tasarruf etmeyin",
+    "Cancel": "İptal",
+    "Delete": "Sil",
+    "Close": "Kapat",
+    "Notification": "Bildiri",
+    "Overwrite": "Overwrite",
+    "Clear": "Açık",
+    "Restore": "Restore",
+    "ProcessSchemaSavedWithValidationError": "İşlem şeması başarılı bir şekilde kaydedildi, ancak doğrulama hataları çalışmasını engelliyor."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Başarıyla kaydedildi",
+      "ErrorOnSave": "Değişiklikler uygulamaya çalışırken hata"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "\"{0}\" masaüstünü silmek istediğinizden emin misiniz?",
+        "Error": {
+          "Deletion": "Masaüstü silme sırasında hata",
+          "Configuration": "Yapılandırma derlemesi sırasında hata"
+        },
+        "Success": "Masaüstü \"{0}\" başarıyla silindi"
+      },
+      "DeleteMobileHomePage": {
+        "ConfirmationDialogTitle": "Are you sure you want to delete \"{0}\" home page?",
+        "Error": {
+          "Deletion": "Error during home page deletion",
+          "Configuration": "Yapılandırma derlemesi sırasında hata"
+        },
+        "Success": "Home page \"{0}\" was successfully deleted"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Aramak..."
+  },
+  "AllowedResults": {
+    "Caption": "İzin verilen sonuçlar",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "Lisans Gerekli"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Etiket ekle",
+    "CreateNewTagButtonCaption": "Yeni bir etiket oluştur"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Kaybedilecek kaydedilmemiş değişiklikleriniz var.Devam etmek?"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Kayıt Düzenle",
+    "DeleteItemActionButtonCaption": "Kaydı sil",
+    "NoData": "Veri yok"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Veri Yok",
+      "CloseButtonTitle": "Kapat"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "Sil"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "Senaryo",
+    "Hint": "Bileşen, kullanıcıların belirli dinamik vaka aşamaları için bilgi tabanından bilgilere erişmeleri için ipuçları ve talimatlar görüntüler",
+    "Placeholder": {
+      "Title": "İlgili hiçbir oyun kitabı makalesi bulunamadı",
+      "Description": "Lütfen Playbooks bölümünde mevcut dinamik vaka aşaması için alakalı bir makale oluşturun"
+    },
+    "Actions": {
+      "Back": "Geri",
+      "OpenInDialog": "Modal pencerede aç"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Kapat",
+        "OpenPage": "Yeni sekmede aç"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Yetkilendirme başarısız oldu.Daha sonra tekrar deneyin veya yöneticiden yardım isteyin.",
+      "FormatError": "İstekte geçersiz biçim.Girişin doğru yapılandırıldığından emin olun ve eylemlerinizin çıktı parametrelerini kontrol edin.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Hizmet geçici olarak kullanılamıyor.Daha sonra tekrar deneyin.",
+      "ExecutionError": "İsteğinizi işlerken hata oluştu.Tekrar deneyin veya yöneticiden yardım isteyin.",
+      "ConfigurationError": "Yapılandırma sorunu tespit edildi.Sistem ayarlarını doğrulayın veya yöneticiden yardım isteyin.",
+      "UnknownError": "Bilinmeyen hata oluştu.Daha sonra tekrar deneyin veya yöneticiden yardım isteyin.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    },
+    "InputPlaceholder": "Bir mesaj yazın",
+    "SendButtonHint": "Mesaj Gönder (Enter)",
+    "Caption": "Mesaj editörü",
+    "ReadonlyInputPlaceholder": {
+      "ChatCompleted": "Chat completed",
+      "ChatTransferred": "Chat transferred"
+    },
+    "MaxFilesExceeded": "Maximum number of files you can add in one iteration: {{maxCount}}",
+    "SendMessageError": "Failed to send message. Please try again",
+    "SmsSplitWarning": "This message exceeds the standard SMS length and will be charged as multiple SMS messages. Current usage: {{segments}}/{{maxSegments}} messages ({{current}}/{{target}} characters)",
+    "SmsMaxLengthExceeded": "Maksimum metin uzunluğu aşıldı ({{current}}/{{target}})"
+  },
+  "SpecificationFilter": {
+    "NoData": "Veri Yok",
+    "Boolean": {
+      "Yes": "Evet",
+      "No": "HAYIR"
+    },
+    "String": {
+      "Placeholder": "Metin girin"
+    },
+    "Numeric": {
+      "Placeholder": "Numara Gir",
+      "To": "kadar",
+      "MaxValueError": "Değer maksimum değerin üzerindedir",
+      "MinValueError": "Değer dakikanın altındadır"
+    }
+  },
+  "Conversation": {
+    "Caption": "Konuşma",
+    "Copilot": {
+      "TypingMessage": "Yanıt Oluşturma",
+      "Action": {
+        "Replace": "Seçimi değiştir",
+        "InsertAbove": "Yukarıdaki ekle",
+        "InsertBelow": "Aşağıdaki ekle"
+      }
+    },
+    "LoadPreviousChat": "Load previous chat",
+    "ChatIsCompleted": "Sohbet tamamlandı: {datePart}",
+    "ChatIsTransferred": "Sohbet aktarıldı: {datePart}, {operatorPart} tarafından {targetOperatorPart}’ya",
+    "ChatTransferredToQueue": "Chat transferred: {datePart} from {operatorPart} to queue {queuePart}",
+    "ChatCompletedByAgent": "Sohbet tamamlandı: {datePart}, {operatorPart} tarafından"
+  },
+  "BulkActions": {
+    "Delete": "Sil",
+    "Export": "Excel'e Aktar",
+    "AddTag": "Etiket ekle",
+    "RemoveTag": "Etiketi kaldır",
+    "RowsSelection": {
+      "Selected": "seçilmiş",
+      "SelectAll": "Hepsini seç",
+      "ClearSelection": "Açık seçim"
+    },
+    "Merge": "Birleştirmek"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Sayı"
+  },
+  "ExpansionPanel": {
+    "Collapse": "bozulmak",
+    "Expand": "Genişletmek"
+  },
+  "ProgressBar": {
+    "AriaLabel": "İlerleme çubuğu"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Sohbet durumu",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "Filtre kriterleriyle eşleşen kayıt yok",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "DataSource": {
+    "Hierarchical": {
+      "RowsLimitNotification": "Not all records are loaded in the hierarchical list due to the configured limit"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Lütfen listeden değer seçin",
+      "SelectionWindowMessage": "Lütfen listeden değer seçin veya arama penceresini kullanarak arayın"
+    },
+    "Required": {
+      "Message": "Değer girin"
+    },
+    "MaxLength": {
+      "Message": "Maksimum metin uzunluğu aşıldı ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum metin uzunluğuna ulaşılamadı ({{ActuAlghength}}/{{MinLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Geçersiz Tarih ve Saat Biçimi"
+    },
+    "DatePickerSyntax": {
+      "Message": "Geçersiz tarih biçimi"
+    },
+    "TimePickerSyntax": {
+      "Message": "Geçersiz Zaman Biçimi"
+    },
+    "RegExp": {
+      "Message": "Geçersiz değer biçimi"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kod {{schemanameprefix}} öneki ile başlamalıdır.",
+      "OnlySchemaNamePrefixMessage": "En az bir sembol daha girin."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Sembolleri kullanın: A-Z, A-Z, 0-9, alt çizgi veya çizgi.İlk önce sadece harfler olabilir."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Sütun kaldırıldı",
+    "ValidationErrorMessageSingleErrorField": "Alan: {0}.Hata: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Alanlar: {0}.Hata: {1}",
+    "RefreshModelDataConflict": "Creatio, geçerli sayfa için yeni verilere sahiptir.Görüntülemek için değişikliklerinizi kaydedin veya iptal edin ve sayfayı yenileyin.",
+    "WarningModelsWithCircularDependencies": "Bazı modellerin dairesel bağımlılıkları vardır ve yüklenmemiştir",
+    "LoadingModelErrorMessage": "Sorgu yürütme sırasında hata oluştu",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "DigitalAdsContent": {
+    "AdPlatformLoginRequestTitle": "Reklam Platformunu Bağla",
+    "NotEnoughPermissionsMessage": "Üzgünüm, reklam hesabınızı bağlayamıyor.Lütfen Creatio'ya maksimum izin verin ve tekrar deneyin.",
+    "PlatformUndefinedMessage": "Platform tanımsız, düğme için platformu yapılandırdığınızdan emin olun",
+    "ApplicationUndefinedMessage": "Uygulama tanımsız, platform düşmanını yapılandırdığınızdan emin olun",
+    "ImportFromAdPlatformStartedMessage": "Reklam hesaplarından veri içe aktarma başlatıldı",
+    "NoConnectedAdAccountsFoundMessage": "İthalat için bağlı reklam hesabı yok",
+    "NoActiveAdAccountsFoundMessage": "Üzgünüm, ama sizin için herhangi bir reklam hesabı bulamadık.Platformdaki gerekli hesaplara eriştiğinizden emin olun.Yalnızca aktif hesaplar bağlanabilir.",
+    "PlatformInputCaption": "Platform",
+    "AppInputCaption": "Uygulamak"
+  },
+  "GoogleAnalytics": {
+    "PlatformCaption": "Platform",
+    "ApplicationCaption": "Uygulamak",
+    "LoginRequestTitle": "Google Analytics'i bağlayın",
+    "NotEnoughPermissionsMessage": "Üzgünüm, Google Analytics hesabınızı bağlayamıyor.Lütfen Creatio'ya maksimum izin verin ve tekrar deneyin.",
+    "PlatformUndefinedMessage": "Platform tanımsız, düğme için platformu yapılandırdığınızdan emin olun",
+    "ApplicationUndefinedMessage": "Uygulama tanımsız, platform düşmanını yapılandırdığınızdan emin olun",
+    "RefreshStreamSuccessMessage": "Google Analytics streams refreshed successfully",
+    "RefreshStreamErrorMessage": "Failed to refresh Google Analytics streams. Please try again later.",
+    "RefreshStreamConfirmationTitle": "Refresh data stream list?",
+    "RefreshStreamConfirmationMessage": "Refreshing may take a moment — the system will be unavailable while updating the list",
+    "RefreshStreamConfirmationCancel": "İptal",
+    "RefreshStreamConfirmationOk": "Yenile"
+  },
+  "EnvironmentManagement": {
+    "PageTitle": "Creatio",
+    "WaitPageTitle": "Try Creatio",
+    "IdentityServiceNotConfigured": "Identity service is not configured. Please contact your administrator.",
+    "Users": {
+      "Profile": {
+        "InvalidValue": {
+          "Message": "Invalid value. Value must not contain <br><b>{0}</b> and must contain up to <br><b>{1}</b> characters"
+        }
+      }
+    }
+  },
+  "EnvironmentLoader": {
+    "PreparingEnvironment": "Preparing the environment",
+    "ThisMayTakeMoments": "This may take a few moments",
+    "EnvironmentNotUsed": "This environment was not used for a while - we need to re-enable it"
+  },
+  "EnvironmentToolbar": {
+    "Applications": "Application Hub",
+    "Users": "Kullanıcılar",
+    "Subscriptions": "Abonelik",
+    "HealthCenterCaption": "Health center"
+  },
+  "EnvironmentListItem": {
+    "SelectEnvironment": "Select environment",
+    "Site": "Site:",
+    "Action": {
+      "EnvironmentDetails": "Environment details",
+      "ManageApplications": "Manage applications",
+      "ManageEnvironment": "Manage environment",
+      "OpenConfiguration": "Open configuration",
+      "OpenEnvironment": "Open environment",
+      "CopyLink": "Copy link",
+      "LinkCopied": "Link copied",
+      "Restart": {
+        "ProcessResponseSuccess": "Restart process successfully started",
+        "ProcessResponseFailure": "Restart process failed"
+      }
+    },
+    "SiteIsNotRegisteredCaption": "The site is not registered on the portal, contact technical support."
+  },
+  "EnvironmentErrorPage": {
+    "HaveNotActiveSites": "You have no active sites",
+    "GetFreeTrial": "Get a free trial",
+    "TrialExpiredCaption": "Your trial environment has expired",
+    "CreateNewCaption": "New environment",
+    "Oops": "Ooops...",
+    "Description": "There was an error while trying to connect to the site:",
+    "Proposition": "You can try to",
+    "ErrorByTimeoutLoadingProposition": "Refresh the page. If problem persists, please",
+    "RestartSite": "Restart",
+    "ContactSupport": "Contact Creatio support",
+    "TryLaterMessage": "At the moment, all free trials are taken, please, try again in a few minutes."
+  },
+  "EnvironmentsExceeded": {
+    "Header": "The {0} product trials are waiting for you in the Application Hub",
+    "Description": "You have reached the trial limit.\nYou will be able to order a new trial after an active trial expires.",
+    "ButtonCaption": "Uygulama merkezine git"
+  },
+  "AppDeploymentDialogComponent": {
+    "DialogTitle": "Deploy app",
+    "DestinationEnvironmentTitle": "Destination site",
+    "DestinationEnvironmentPlaceholder": "Choose an environment for app deploy",
+    "NoDestinationEnvironmentsAvailablePlaceholder": "Unable to find any websites ready for deployment",
+    "NoDestinationEnvironmentsAvailableTooltip": "More than one active website is required to deploy the app",
+    "DeployButtonCaption": "Dağıtmak",
+    "CancelButtonCaption": "İptal",
+    "HealthCheckErrorMessage": "{0} destination website is currently unavailable. Try again later",
+    "AttentionText": "Uygulamanın, hedef web sitesinin sürümü ve ürünüyle uyumlu olduğundan emin olun. Studio ürünü tabanlı uygulamalar tüm Creatio ürünleriyle uyumludur. Pazarlama, Satış veya Hizmet ürünü tabanlı uygulamaların ise, ilgili ürünü içeren web sitelerine yüklenmesi önerilir."
+  },
+  "AppDeploymentStatus": {
+    "DeploymentCaption": {
+      "Line11": "Deploying",
+      "Line12": "",
+      "Line13": "app",
+      "From": "kimden ",
+      "To": "kime "
+    }
+  },
+  "Subscriptions": {
+    "NoPermissionMessage": "Insufficient permissions to open the section. Contact the administrator of your organization."
+  },
+  "PageTools": {
+    "DesignButtonHint": "sayfayı düzenle",
+    "ExpandButtonTitle": "Genişletmek",
+    "CollapseButtonTitle": "Yıkılmak"
+  },
+  "IndicatorWidget": {
+    "NoData": "N/A",
+    "AriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}.",
+    "NotClickableAriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}.",
+    "Caption": "Metric widget",
+    "Hint": "Metric allows you to display a single key value, such as a KPI, aggregated result, or formula-calculated value, to highlight performance.",
+    "AriaDrilldownInstruction": "Use the enter or white space keys to drill down the element.",
+    "AriaFullscreenInstruction": "Use the Escape key to collapse fullscreen.",
+    "NoChanges": "No changes",
+    "ComparisonSuffix": "(comparison)",
+    "WithComparison": {
+      "Caption": "Metric with comparison",
+      "Hint": "Comparison metric component allows you to display a primary value alongside a comparative value (e.g., previous period) to show trends or differences."
+    }
+  },
+  "ChartLegend": {
+    "Title": "{{Charttitle}} grafik için efsane: Gezmek için ok tuşlarını kullanın ve bağlam menüsünü açmak için tuşa girin."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} chart for \"{{chartTitle}}\" with {{groupsCount}} groups. The chart showing \"{{groupsNames}}\". X is \"{{xLabel}}\" from {{xMin}} to {{xMax}}. Y is \"{{yLabel}}\" from {{yMin}} to {{yMax}}. Use arrow keys to navigate.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Use Enter key to open context menu."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. The chart type is Gauge. Data ranges from {{ariaMin}} to {{ariaMax}}. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Expand fullscreen for \"{{title}}\" chart.",
+      "CollapseLabel": "Collapse fullscreen for \"{{title}}\" chart."
+    },
+    "Menu": {
+      "Caption": "Menu for \"{{title}}\" chart.",
+      "CreateDashboard": {
+        "Caption": "Create dashboard",
+        "UnableCreateMessage": "⚠️ Unable to create a dashboard. This page has no Dashboard component.\n\rYou can go to another page where the Dashboard component is already available.\n\r📘 Learn more about working with dashboards in the <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Academy</a>"
+      }
+    }
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {
+      "LoadErrorMessage": "Unsupported file type. This file can’t be previewed."
+    }
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "Özet",
+    "Title": "lBaşlık",
+    "Column": "Sütun",
+    "Function": "İşlev",
+    "CustomSummaryLabelTooltip": "Eleman, önceden yapılandırılmış veri ekran mantığı içerir.Alternatif mantığı uygulamanız gerekiyorsa, öğe değerini kaldırın."
+  },
+  "Summaries": {
+    "Caption": "Özet",
+    "Actions": {
+      "CreateCount": "Görüntüleyin Kayıt sayısı",
+      "Title": "Summaries actions"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "Hızlı ayar",
+      "Count": "sayı",
+      "Minimum": "Minimum",
+      "Maximum": "Maksimum",
+      "Sum": "Meblağ",
+      "Average": "Ortalama"
+    },
+    "Hints": {
+      "NoDataSource": "Veri kaynağı seçilmedi",
+      "Collapse": "Yıkılmak",
+      "Expand": "Genişletmek"
+    },
+    "ProfileActions": {
+      "SaveForAll": "Tüm kullanıcılar için ayarı kaydet",
+      "ResetToDefault": "Varsayılan ayarlara sıfırlayın",
+      "SaveForAllSuccessfully": "Summary settings saved for all users successfully",
+      "ResetToDefaultSuccessfully": "Default summary settings restored successfully"
+    },
+    "AdvancedSetup": {
+      "Title": "Gelişmiş kurulum",
+      "Actions": {
+        "AddCustomSummary": "Yeni özet ekle"
+      }
+    }
+  },
+  "SummaryItem": {
+    "Actions": {
+      "Delete": "Sil",
+      "Edit": "İzin"
+    },
+    "AriaLabel": "Summary item",
+    "Statuses": {
+      "Added": "Summary item added successfully",
+      "Deleted": "Summary item deleted successfully",
+      "Edited": "Summary item changed successfully",
+      "Error": "Hata"
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "Eklemek",
+    "AddFilterHint": "Yeni klasör ekle",
+    "BlankslateMessage": "Klasör yok",
+    "CloseFolderTree": "Klasörleri gizle",
+    "SetUpFilter": "Filtre Ayarla",
+    "DefaultFolderName": "yeni dosya",
+    "CopyFolderSuffix": "Kopyala",
+    "DeleteConfirmation": "Seçilen klasörü silmek istediğinizden emin misiniz?",
+    "MenuActions": {
+      "AddFolder": "Klasör ekle",
+      "RenameFolder": "Yeniden isimlendirmek",
+      "CopyFolder": "Kopyala",
+      "DeleteFolder": "Sil",
+      "AddToFavorite": "Favorilere ekle",
+      "RemoveFromFavorite": "Favorilerden kaldır",
+      "ChangeFolderRights": "Erişim haklarını ayarlayın",
+      "AddStaticFolder": "Statik klasör ekle",
+      "ConvertToStaticFolder": "Statik klasöre dönüştürün",
+      "MoveFolder": "Taşınmak"
+    },
+    "FavoritesNodeCaption": "Favoriler",
+    "ShowMenuActions": "Eylemleri Göster",
+    "CopyRightsQuestion": "\"{0}\" klasörünün erişim izinlerini kopyala?",
+    "RootNodeCaption": "Tüm",
+    "HasNotPermission": "Bu işlem için erişim izniniz yok."
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "Kaydet",
+    "CancelButton": "İptal",
+    "DialogTitle": "Kurulum Filtreleri"
+  },
+  "FolderTreeActions": {
+    "MenuButton": "Klasörler",
+    "FavoriteItemsMenuButtonAriaLabel": "Favoriler klasörler menüsü",
+    "ClearButtonCaption": "Açık seçim",
+    "FolderButtonAriaLabel": "Open/Close folder tree"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "Dönüştürme işlemi tamamlandığında sizi bilgilendireceğiz."
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "İptal",
+    "SelectFolderButtonCaption": "Ayarlamak",
+    "SelectFolderCaption": "dosyayı seç"
+  },
+  "HtmlEditor": {
+    "EditorAriaLabel": "HTML editor",
+    "Placeholder": "Compose your message...",
+    "CharactersCount": "{{count}} characters",
+    "Toolbar": {
+      "SelectMacro": "Select macro",
+      "SelectFieldMacro": "Select field macro",
+      "Preview": "Ön izleme",
+      "Templates": "Templates",
+      "Variables": "Variables"
+    },
+    "TemplateReplacement": {
+      "Title": "Replace current content?",
+      "Message": "Inserting a template will replace the current editor content. Continue?"
+    },
+    "DefaultMacros": {
+      "SequenceActivityCategory": "Sequence activity",
+      "SenderName": "Gönderen adı",
+      "SenderNameDescription": "Current sender full name",
+      "SenderEmail": "Gönderen ePosta",
+      "SenderEmailDescription": "Current sender email",
+      "SenderPhone": "Sender phone",
+      "SenderPhoneDescription": "Current sender phone number",
+      "ContactLinkedInUrl": "LinkedIn URL",
+      "ContactLinkedInUrlDescription": "Inserts the recipient contact's LinkedIn profile URL"
+    },
+    "PreviewDialog": {
+      "Title": "HTML preview",
+      "ClosePreview": "Close preview",
+      "OriginalContent": "Original content",
+      "ResolvedContent": "Resolved content",
+      "CopyHtml": "Copy HTML",
+      "CopySuccess": "HTML copied to clipboard",
+      "CopyError": "Could not copy HTML to clipboard",
+      "Close": "Kapat"
+    }
+  },
+  "TemplateGalleryItem": {
+    "RecommendationText": "AI-recommended"
+  },
+  "TemplateGallery": {
+    "Placeholder": {
+      "Title": "Nothing here yet",
+      "Description": "This environment hasn't saved any campaign templates so far. Be the first to fix that",
+      "ActionButtonText": "Design from scratch"
+    }
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "Bileşen ekle",
+    "Tooltip": "Lütfen bileşenler ekleyin"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "Varsayılan değer",
+    "FilterColumnLabel": "Filtre sütunu",
+    "ViewAttributeLabel": "Filtre için bileşen"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "Filtreyi Düzenle",
+    "SetupFilterCaption": "Kurulum filtresi",
+    "FiltersDialogCaption": "Manuel olarak tanımlanmış filtre",
+    "DefaultCheckBoxState": {
+      "Label": "Varsayılan onay kutusu durumu",
+      "CheckedCaption": "Tarihinde doğrulandı",
+      "UncheckedCaption": "Kontrolsüz"
+    },
+    "FilteringApproachState": {
+      "Label": "Filtreleme yaklaşımı",
+      "OnCheckedCaption": "Onay kutusu işaretlendiğinde filtre koşulu uygulayın",
+      "OnUncheckedCaption": "Onay kutusu işaretlenmediğinde filtre koşulu uygulayın"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "Varsayılan dönem",
+    "ChooseFilteringMethodCaption": "Bir filtreleme yöntemi seçin",
+    "ChooseFilteringMethodTooltip": "Filtre, belirtilen dönemle ilgili verileri görüntüleyebilir.\n\nBelirtilen günde oluşturulan veya değiştirilen kayıtları görüntülemek için \"Bir Tarihle Filtre Kurul\" koşulunu kullanın.Örneğin, bu filtreyi oluşturma tarihine göre, kapanış tarihine göre fırsatlar veya çözüm tarihine göre görüntüleyecek şekilde ayarlayabilirsiniz.\n\n\n\nBir tarih aralığının özellikle alakalı olduğu kayıtları görüntülemek için \"Filtre Tarih Aralığı Kurul\" koşulu kullanın.Örneğin, başlangıç ​​ve bitiş tarihleri ​​belirtilen tarih aralığı içinde olan sözleşmeler için bu filtreyi ayarlayabilirsiniz.",
+    "SetUpByOneColumnTitle": "Bir tarihe kadar filtreyi ayarlayın",
+    "SetUpByTwoColumnsTitle": "Tarih aralığına göre filtreyi ayarlayın",
+    "FilterColumnStartCaption": "Filtre sütunu",
+    "FilterColumnEndCaption": "Sütunu filtre edin",
+    "ShowTimeLabel": "Enable time",
+    "ShowFiscalPeriodsLabel": "Show fiscal periods"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "şuanki kullanıcı iletişim bilgileri",
+    "CurrentUserAccountName": "Mevcut Kullanıcı Hesabı",
+    "EditFilterCaption": "Filtreyi Düzenle",
+    "SetupFilterCaption": "Kurulum filtresi",
+    "FiltersDialogCaption": "Manuel olarak tanımlanmış filtre",
+    "TagVirtualColumnCaption": "Etiket"
+  },
+  "QuickFilter": {
+    "MainTitle": "hızlı filtre",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "Dün",
+        "Today": "Bugün",
+        "Tomorrow": "Yarın",
+        "PreviousWeek": "Önceki hafta",
+        "CurrentWeek": "Bu hafta",
+        "NextWeek": "Gelecek hafta",
+        "PreviousMonth": "Geçtiğimiz ay",
+        "CurrentMonth": "İçinde bulunduğumuz ay",
+        "NextMonth": "Sonraki ay",
+        "PreviousQuarter": "Önceki çeyrek",
+        "CurrentQuarter": "Mevcut Çeyrek",
+        "NextQuarter": " sıradaki çeyrek",
+        "PreviousFiscalWeek": "Önceki hafta",
+        "CurrentFiscalWeek": "Bu hafta",
+        "NextFiscalWeek": "Gelecek hafta",
+        "FiscalQuarter1": "Q1",
+        "FiscalQuarter2": "Q2",
+        "FiscalQuarter3": "Q3",
+        "FiscalQuarter4": "Q4",
+        "FiscalHalfYear1": "First half year",
+        "FiscalHalfYear2": "Second half year",
+        "PreviousFiscalYear": "Önceki yıl",
+        "CurrentFiscalYear": "Current year",
+        "NextFiscalYear": "Gelecek yıl"
+      },
+      "RangeSeparator": "kime",
+      "SelectDatePlaceholder": "tarih seç",
+      "EmptyDateRangeStartLabel": "<Başlangıç ​​tarihi>",
+      "EmptyDateRangeEndLabel": "<Son Tarih>",
+      "Header": {
+        "ArrowRight": "Sonraki ay",
+        "ArrowLeft": "Geçtiğimiz ay"
+      },
+      "RangeSelectedFrom": "Selected from",
+      "ClearIcon": "Clear selected range",
+      "ClearStartDatePlaceholder": "Clear selected start date",
+      "ClearEndDatePlaceholder": "Clear selected end date",
+      "EmptyDateRangeStartAriaLabel": "[No start date selected]",
+      "EmptyDateRangeEndAriaLabel": "[No end date selected]",
+      "CalendarMode": "Takvim",
+      "FiscalMode": "Fiscal",
+      "Fiscal": {
+        "PeriodNotFound": "We couldn’t load the fiscal period date ranges. Please check that fiscal periods are set up, or contact your administrator for assistance.",
+        "LoadError": "Error loading fiscal period data, contact your administrator for assistance"
+      },
+      "SelectTimePlaceholder": "Select time"
+    },
+    "Lookup": {
+      "NoData": "Veri Yok"
+    }
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "İsminde",
+        "Sec": "sec",
+        "DetailsLinkCaption": "Çağrı Ayrıntıları"
+      },
+      "Email": {
+        "MailedTo": "Postalanmış",
+        "From": "kimden:",
+        "To": "kime:",
+        "CC": "CC:",
+        "Details": "Detaylar",
+        "Hide": "Saklamak"
+      },
+      "File": {
+        "AddedFile": "Bir dosya ekledi"
+      },
+      "Chat": {
+        "ChatWith": "sohbet ettim",
+        "Show": "Sohbeti göster",
+        "Hide": "Sohbeti sakla",
+        "DetailsLinkCaption": "Sohbet Ayrıntıları"
+      }
+    },
+    "NoDataMessage": "Geçmiş yok",
+    "FillActionMessage": "Zaman çizelgesinde görüntülenecek ilişkili kayıt yok",
+    "NoDataByFilterMessage": "Filtre kriterleriyle eşleşen kayıt yok",
+    "FillActionByFilterMessage": "Filtreyi temizleyin veya koşullarını değiştirin.",
+    "EntityFilterCaption": "Tüm",
+    "OwnerFilterCaption": "Sahip",
+    "DateFilterCaption": "Dönemi seçin",
+    "HideSystemMessagesCaption": "Sistem mesajlarını sakla",
+    "EntityFilterHint": "Kayıt Türünü Seçin",
+    "OwnerFilterHint": "Kayıt Sahibi'ni seçin",
+    "DateFilterHint": "Kayıt Dönemi'ni seçin",
+    "HideSystemMessagesHint": "Otomatik e -postaları gizle",
+    "DateSort": "Tarih",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "E-posta"
+      },
+      "Feed": {
+        "Caption": "Akış"
+      },
+      "Task": {
+        "Caption": "Görev"
+      },
+      "SysFile": {
+        "Caption": "Dosya"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "Sort by date button, currently sorted {0}",
+        "Descending": "azalan",
+        "Ascending": "artan"
+      }
+    }
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Formatting options (Alt+F10)",
+    "UploadAttachments": "Ekleri seçin",
+    "SelectTemplate": "Şablonu ekle",
+    "SelectionActions": {
+      "AskCopilot": "Ask Creatio.ai",
+      "Friendly": "Arkadaşça",
+      "Formal": "Resmi",
+      "Shorten": "Kısaltmak",
+      "Extend": "Uzatmak",
+      "Rephrase": "Yeniden ifade etmek",
+      "RewriteCaption": "Metni yeniden yaz"
+    },
+    "TableOfContents": {
+      "Title": "Table of contents",
+      "Placeholder": "A table of contents based on the headings on this page will appear here once it has been published."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Kaydet",
+    "OpenLinkButtonCaption": "Yeni sekmede aç",
+    "CloseLinkButtonCaption": "Kapat",
+    "UnlinkLinkButtonCaption": "Bağırmak",
+    "LinkLabelCaption": "Bağlantı adresi",
+    "TextLabelCaption": "Görüntülemek için metin"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Insert video",
+    "PasteUrlTab": "Paste url",
+    "UploadFileTab": "dosya yükle",
+    "EmbedCodeTab": "Embed code",
+    "DialogDescription": "This video will be embedded at 640 pixels wide.<br>This embedded video will include a text link.",
+    "SaveButton": "Insert video",
+    "CancelButton": "İptal",
+    "UploadButton": "dosya yükle",
+    "InputPlaceholder": "Paste here",
+    "DragAndDropPlaceholder": "Drag-and-drop file here or",
+    "NotVideoFile": "The inserted file is not a video, please select a file with a video type.",
+    "ConfirmMessage": "Bu sayfa kaydedilmemiş değişiklikler içerir.Sayfayı kapatırsanız kaybolurlar.Değişiklikleri Kaydet?"
+  },
+  "CommunicationOptions": {
+    "DesignerPhoneLabel": "Telefon numarası",
+    "DesignerEmailLabel": "E -posta adresi",
+    "DesignerWebLabel": "Web linki",
+    "Caption": "İletişim Seçenekleri",
+    "DeleteOption": "Sil",
+    "Primary": "öncelik",
+    "Invalid": "geçersiz",
+    "MarkAsPrimary": "Birincil olarak ayarlayın",
+    "MarkAsValid": "Geçerli olarak işaretleyin",
+    "MarkAsInvalid": "Geçersiz kılmak",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} zaten var",
+      "ReadOnlyStateMessage": "Bileşen salt okunur modda olduğu için iletişim seçeneği eklenemez",
+      "IncorrectSetupComponentMessage": "Sayfa bileşeni henüz ayarlanmadığından iletişim seçeneğini eklenemiyor.Sistem yöneticisi, Freedom UI tasarımcısındaki kurulumu bitirebilir",
+      "EmptyMasterRecordColumnNameInRequestMessage": "İletişim seçeneği boş bir kayda eklenemez.Lütfen önce kayıt değerini ekleyin"
+    },
+    "NoDataPlaceholderText": "Veri Yok",
+    "Announcement": {
+      "Option": {
+        "Added": "{0} added",
+        "Deleted": "{0} {1} deleted",
+        "SetAsPrimary": "{0} {1}  set as primary",
+        "MarkedAsValid": "{0} {1} marked as valid",
+        "MarkedAsInvalid": "{0} {1} marked as invalid"
+      }
+    },
+    "ToolsAriaLabel": "Aksiyonlar"
+  },
+  "AccountCompactProfileDT": {
+    "DesignerNamePlaceholder": "Hesap ismi",
+    "AlternativeNamePlaceholder": "Ayrıca şöyle bilinir",
+    "CountryPlaceholder": "Ülke"
+  },
+  "ContactCompactProfileDT": {
+    "DesignerNamePlaceholder": "İletişim Adı",
+    "DesignerBirthDatePlaceholder": "Doğum günü",
+    "CountryPlaceholder": "Ülke"
+  },
+  "AccountCompactProfile": {
+    "Caption": "Hesap Kompakt Profil",
+    "DialogTitle": "Hesabı Düzenle",
+    "AlternativeNameFieldLabel": "Ayrıca şöyle bilinir",
+    "EmptyDisplayValue": "Ekran değeri yok",
+    "NamePlaceholder": "Hesap Adı Ekle",
+    "EmptyRecord": {
+      "NamePlaceholder": "Hesap İsmi",
+      "AlternativeNamePlaceholder": "Ayrıca şöyle bilinir",
+      "CountryPlaceholder": "Ülke"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "Kompakt Profil ile iletişime geçin",
+    "DialogTitle": "Kişi Düzenle",
+    "EmptyDisplayValue": "Ekran değeri yok",
+    "NamePlaceholder": "İletişim adı ekle",
+    "BirthDatePlaceholder": "ve doğum tarihi",
+    "EmptyRecord": {
+      "NamePlaceholder": "İletişim Adı",
+      "BirthDatePlaceholder": "Doğum günü",
+      "CountryPlaceholder": "Ülke"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "Kompakt Kullanıcı Profili",
+    "DialogTitle": "Adı Düzenle",
+    "EmptyDisplayValue": "Ekran değeri yok",
+    "NamePlaceholder": "Kullanıcı Adı Ekle"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "Kapat"
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "Kabul etmek"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "Dosyayı indir"
+    },
+    "System": {
+      "ChatStartedMessage": "Chat started: {chatStartedAt} by {chatStartedBy}"
+    },
+    "Feedback": {
+      "Like": "benzer",
+      "Dislike": "Dislike",
+      "HelpfulQuestion": "Was this helpful?",
+      "CommentPlaceholder": "Optional comment…",
+      "Send": "gönder",
+      "Thanks": "Thanks!"
+    }
+  },
+  "ChatList": {
+    "NoDataMessage": "There are no recent chats yet",
+    "CreateChatButton": "Start new chat",
+    "DraftPreview": "<span class='draft-preview'>Draft: </span>",
+    "YourPreview": "Sen: ",
+    "RenameChat": {
+      "LabelTitle": "Rename chat",
+      "InputTitle": "Başlık",
+      "SaveButton": "Kayıt etmek",
+      "CancelButton": "İptal"
+    },
+    "ChatItem": {
+      "ActionsMenuCaption": "Aksiyonlar"
+    },
+    "NoDataBySearchFilter": "Filtre kriterleriyle eşleşen kayıt yok",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions ",
+    "ARIA": {
+      "Label": "Sohbet",
+      "ChatItem": "Chat: {0}. Last message: {1}",
+      "LoadMoreTrigger": "Daha fazla yükle"
+    },
+    "AlreadyAssignedChat": "Sohbet başka bir ajana atandı"
+  },
+  "ChatTransfer": {
+    "ButtonCaption": "Transfer Sohbeti",
+    "AgentTab": "Temsilci",
+    "QueueTab": "Kuyruk",
+    "NoOperatorsAvailable": "No agents available",
+    "NoData": "Veri Yok",
+    "OperatorStatus": {
+      "0": "Aktif değil",
+      "1": "Aktif",
+      "2": "Sohbetler aştı"
+    },
+    "InputPlaceholder": "Chat transferred",
+    "NoQueuesAvailable": "No queues available",
+    "ActiveAgentsCount": "{{count}} active agent(s)"
+  },
+  "ChatAttachmentTile": {
+    "AttachedFile": "Attached file: {{fileName}}",
+    "DeleteFile": "Delete {{fileName}}"
+  },
+  "ChatQuickActions": {
+    "ButtonCaption": "Run action",
+    "NoActionsTemplate": "No actions available. Please add chat actions on the ${link}.",
+    "ChatSettingsPage": "Chat setting page",
+    "ProcessExecutedSuccessfully": "Process executed successfully",
+    "ProcessExecutionFailed": "Process execution failed. Please try again."
+  },
+  "MessageTemplates": {
+    "ButtonCaption": "Open templates (click or type //)",
+    "NotFound": "No templates found",
+    "NoAvailable": "No templates available",
+    "Group": {
+      "RecentlyUsed": "Recently used",
+      "Others": "Others"
+    }
+  },
+  "EmojiSelect": {
+    "ButtonCaption": "Add emoji",
+    "ButtonAriaLabel": "Open emoji picker",
+    "PickerAriaLabel": "Emoji picker"
+  },
+  "LinkChatToContact": {
+    "SelectContactCaption": "Select: Contact",
+    "ConfirmLinkMessage": "All chats of the current contact will be linked to the selected contact, and the current contact will then be deleted. Do you want to proceed?"
+  },
+  "Translations": {
+    "TargetLanguage": "target language",
+    "TranslatingTo": "Translating to {{language}}...",
+    "TranslatedTo": "Translated to {{language}}",
+    "TranslationFailedDialog": "Translation failed. Please try again."
+  },
+  "MessageComposer": {
+    "Chat": {
+      "ActiveChatExists": "There is already an active chat with the selected contact.",
+      "WhatsAppWindowExpired": "The message can't be sent outside the 24-hour messaging window.",
+      "WhatsAppWindowExpiredTooltip": "Learn more in the Academy <a href='https://academy.creatio.com/documents?id=2355' target='_blank' rel='noopener noreferrer'>article</a>",
+      "FacebookWindowExpired": "The message can't be sent outside the 24-hour messaging window. Facebook messenger only allows responses within 24 hours of the user's last message.",
+      "ChannelRestrictionError": "The message cannot be sent for the selected channel. Please check channel settings and try again.",
+      "Caption": "Chat composer",
+      "From": "kimden",
+      "To": "kime",
+      "BodyPlaceholder": "Bir mesaj yazın",
+      "FromValidation": "“From” field cannot be blank. Please select a channel.",
+      "ToValidation": "“To” field cannot be blank. Please select a contact.",
+      "EmptyMessageValidation": "Message cannot be blank. Please type a message or attach a file.",
+      "ChatSent": "Chat message sent",
+      "SendError": "Failed to send a chat message. Please try again later."
+    },
+    "CancelButtonHint": "Atmak",
+    "CancelButtonText": "Atmak",
+    "SaveDraftButtonText": "Taslağı kurtar",
+    "SendButtonHint": "Mesaj Gönder (Ctrl + Enter)",
+    "MessageSent": "Mesajı gönderildi",
+    "SendButtonText": "gönder",
+    "RemoveAttachmentHint": "Eki kaldır",
+    "Caption": "Mesaj besteci",
+    "Email": {
+      "Caption": "E -posta besteci",
+      "From": "kimden",
+      "To": "kime",
+      "CC": "Cc",
+      "BCC": "Bcc",
+      "Subject": "Konu",
+      "PublishError": "Mesaj gönderemedi.Aşağıdaki hata alındı: {0}",
+      "SaveDraftError": "Taslağı kaydedemiyor.Lütfen daha sonra tekrar deneyin",
+      "TemplateInsertError": "Şablon eklenemiyor.Lütfen daha sonra tekrar deneyin.",
+      "AttachmentsSizeLimitReached": "Toplam ek boyutları izin verilenden daha fazladır {0} MB.Lütfen bazı ekleri kaldırın.",
+      "FromValidationErrorMessage": "“Kimden” alan boş olamaz.Lütfen bir posta kutusu seçin.",
+      "ToValidationErrorMessage": "“To” alan boş olamaz.Lütfen en az bir alıcı girin.",
+      "SubjectValidationErrorMessage": "“Konu” alanı boş olamaz.Lütfen e -posta konusunu girin.",
+      "Draft": "Taslak",
+      "BodyPlaceholder": "Bir mesaj yazın",
+      "Reply": "Cevap vermek",
+      "ReplyAll": "Hepsini cevapla",
+      "Forward": "İleri",
+      "SentOn": "Tarihinde gönderildi",
+      "SubjectToggleCaption": "Subj",
+      "CcToggleCaption": "Cc",
+      "BccToggleCaption": "Bcc",
+      "NotContainsEmail": "İçinde e -posta içermiyor",
+      "ChangeReplyAction": "Cevap Eylemini Değiştir",
+      "ShowTrimmedEmailTitle": "Kesilmiş e -postayı göster",
+      "EmailTemplatesLookupCaption": "Bir Şablon Seçin",
+      "EmailTemplatesDisplayColumnCaption": "Şablon adı",
+      "ContinueEditing": "Düzenlemeye devam et",
+      "SaveDraft": "Taslağı kurtar",
+      "DraftSaved": "Taslak Kaydedildi",
+      "EmailSent": "E -posta gönderildi",
+      "RemoveRecipientLabel": "Alıcıyı Kaldır",
+      "ValidateUnhandledMacrosMessage": "There are no available values for some macros used in this email. We recommend removing the highlighted macros before sending. Send email now?",
+      "RemoveUnhandledMacros": "Remove unhandled macros",
+      "UnhandledMacrosRemovedConfirmation": "Unresolved macros were removed from the email. Send email now?",
+      "UnhandledMacrosRemoved": "Unhandled macros deleted successfully"
+    },
+    "Feed": {
+      "Caption": "Yem bestecisi"
+    },
+    "Selector": {
+      "Caption": "Mesaj besteci"
+    },
+    "ComposerAreaLabel": "Mesaj Besteci Giriş Alanı",
+    "AttachmentPreview": "Attachment preview",
+    "Attachment": {
+      "Added": "The attachment was added.",
+      "Removed": "The attachment was removed."
+    },
+    "SendEmailErrorMessage": "An unexpected error occurred while sending the email. Please try again later."
+  },
+  "Chat": {
+    "UnknownContact": "Unknown contact"
+  },
+  "WebchatPreview": {
+    "LoadError": {
+      "Title": "Preview unavailable",
+      "Subhead": "The widget could not be loaded from the service."
+    }
+  },
+  "ChannelChatPreview": {
+    "EmptyChannel": "Save the channel to start a preview conversation.",
+    "StartTyping": "Send a message to start the conversation.",
+    "ComposerAriaLabel": "Preview message",
+    "ComposerPlaceholder": "Bir mesaj yazın",
+    "Send": "gönder",
+    "SendError": "Failed to send the message. Please try again.",
+    "StartError": "Could not start the preview session. Please try again."
+  },
+  "MessageDeliveryStatus": {
+    "Sending": "Gönderiliyor",
+    "Sent": "Gönderildi",
+    "Delivered": "Zamanında teslim edildi",
+    "Read": "Okuma",
+    "Failed": "The message could not be sent due to an unexpected error. Try again later or contact support if the issue continues."
+  },
+  "MessageDeliveryError": {
+    "Unknown": "The message could not be sent due to an unexpected error. Try again later or contact support if the issue continues.",
+    "FileSizeExceeded": "The message exceeds the maximum length allowed by this channel. Shorten the message or send it in multiple parts.",
+    "UnsupportedFileType": "This channel does not support the attachment used in the message. Remove the attachment or send a supported file type.",
+    "InvalidRecipient": "The recipient address appears to be invalid. Please check the contact details and try again.",
+    "AuthenticationFailed": "The messaging channel authentication is invalid or expired. Reconnect the integration to continue sending messages.",
+    "RateLimitExceeded": "Message sending is temporarily limited due to high activity. Please wait a moment and try again.",
+    "NetworkError": "The messaging service is temporarily unavailable. Try sending the message again later.",
+    "BotBlocked": "The user has blocked this account, so messages cannot be delivered. Ask the user to unblock the account and send a message first.",
+    "ChatNotFound": "The user has not started a conversation with this account yet. Ask the user to send the first message to begin the chat.",
+    "MessageTooLong": "The message exceeds the maximum length allowed by this channel. Shorten the message or send it in multiple parts.",
+    "ProviderError": "The messaging service is temporarily unavailable. Try sending the message again later.",
+    "AttachmentError": "This channel does not support the attachment used in the message. Remove the attachment or send a supported file type."
+  },
+  "Feed": {
+    "Caption": "ESN Feed",
+    "SortByCreatedOn": "mesaj zamanına göre sırala",
+    "SortByLastAction": "Son etkinlik tarihine göre sıralayın",
+    "ShowMoreThanOneNewSocialMessages": "yeni  {0} göster",
+    "ShowNewSocialMessage": "yeni 1göster",
+    "Publisher": {
+      "DefaultInputPlaceholder": "Bir mesaj gönderin…",
+      "DisabledInputPlaceholder": "Yeni kayıt sayfasında yeni yayınlar oluşturamazsınız.",
+      "CommentInputPlaceholder": "Bir yorum yazın…",
+      "ShareWithPortal": "Portal kullanıcısı ile paylaşın",
+      "PostingErrorMsg": "Yem gönderisini kaydederken hata",
+      "UserFeedInputPlaceholder": "Besleme kullanıcı modunda.Bu modda yeni yayınlar oluşturamazsınız.",
+      "SendButtonHint": "Mesaj Gönder (Ctrl + Enter)",
+      "CancelButtonHint": "İptal",
+      "PostingEmptyMsg": "Lütfen devam etmek için bir mesaj yazın.",
+      "ExternalMessagesDisabled": "Bileşen tasarım süresinde bu seçenek devre dışı bırakıldığından, harici kullanıcının mesajı okuyamayacağını lütfen unutmayın.",
+      "ConfirmMessageAccessLevelChange": "Lütfen görünürlük sonrası seviyesini değiştirmek istediğinizi onaylayın.Lütfen dikkat: Post, ilgili yorumlar ve ekler harici kullanıcılar tarafından görünür olacaktır.",
+      "ConfirmCommentAccessLevelChange": "Lütfen yorum görünürlüğü seviyesini değiştirmek istediğinizi onaylayın.Yorum ve ilgili ekler harici kullanıcılar tarafından görünür hale geleceğini lütfen unutmayın."
+    },
+    "Post": {
+      "AddCommentButtonCaption": "döküman ekle",
+      "CommentsButtonCaption": "Yorumlar",
+      "CommentsButtonHint": "Yorumları Göster",
+      "ExpandedCommentsButtonHint": "yorumları gizle",
+      "PostedInLabel": "içinde paylaşıldı"
+    },
+    "Reactions": {
+      "Like": "benzer",
+      "ExtraReactionsTemplate": "ve {0} daha fazla ...",
+      "PostLiked": "The feed post was liked.",
+      "LikeRemoved": "Like was removed from the feed post."
+    },
+    "Item": {
+      "Edit": "İzin",
+      "Delete": "Sil",
+      "DeletionConfirmation": "Kaydı silmek istediğinizden emin misiniz?Bu eylem geri alınamaz.",
+      "DeletionErrorMsg": "Kayıt silinmedi.Lütfen daha sonra tekrar deneyin.",
+      "DownloadFile": "İndirmek"
+    },
+    "NoDataContainerLabel": "Çok sessiz!",
+    "ExternalUserTagCaption": "Harici",
+    "ExternalUserTagTooltip": "Harici kullanıcılar için gönderi",
+    "DraftItemTagCaption": "Taslak",
+    "SortButtonCaption": "Sırgını Sıralama",
+    "ActionsButtonCaption": "Aksiyonlar",
+    "FollowButtonCaption": "Follow feed",
+    "UnfollowButtonCaption": "Unfollow feed",
+    "Following": {
+      "ButtonCaption": {
+        "Follow": "Follow feed",
+        "Unfollow": "Unfollow feed"
+      },
+      "NotificationTemplate": {
+        "Follow": "You are following updates of the feed: {0}",
+        "Unfollow": "You have unfollowed updates of the feed: {0}"
+      }
+    },
+    "FollowNotificationTemplate": "Вы подписались на обновления ленты: {0}",
+    "UnfollowNotificationTemplate": "Вы отписались от обновлений ленты: {0}",
+    "AiGeneratedItemTagCaption": "AI-generated"
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "Gösterge Tabloları Ayarları",
+    "GeneralGroup": {
+      "Caption": "Genel",
+      "DataSource": "Veri kaynağı",
+      "DataSourceTooltip": "The data source will be set as primary data source for every dashboard created in this component",
+      "DataSourceDependenciesSettingTooltip": "Filter by page data lets you display connected data in a dashboard",
+      "DataSourceFilterElementsGroupTooltip": "Bu ayar, klasörlerdeki veya diğer veri filtreleme öğelerindeki önceden yapılandırılmış filtreleri sayfa filtreleri olarak kullanmanıza olanak tanır."
+    },
+    "DashboardsGroup": {
+      "Caption": "Gösterge tabloları",
+      "AddDashboard": "Add new dashboard",
+      "InfoTooltip": "The list of dashboards displays only those items that are schemas in configuration",
+      "ContextMenu": {
+        "Copy": "Kopyala",
+        "Delete": "Sil",
+        "Edit": "düzenle"
+      },
+      "DialogMessages": {
+        "DeleteDashboard": {
+          "Confirmation": {
+            "Default": "Are you sure you want to delete dashboard \"{{caption}}\"?",
+            "WithUserLevelSchema": "The dashboard you want to delete has a dependent dashboard: \"{{caption}}\" end-user schema. If you continue, both dashboards will be deleted. Continue?"
+          },
+          "UnableToDelete": {
+            "InReadOnlyPackage": "Unable to delete \"{{caption}}\" dashboard because it was either created by third-party publisher or installed from the file",
+            "DependsOnSchema": "Unable to delete \"{{caption}}\" dashboard because it has dependent configuration schema(s)"
+          }
+        }
+      }
+    },
+    "AdvancedSettingsGroup": {
+      "CannotRenameElementInfoTooltip": "You cannot rename the element because it has bound dashboards"
+    }
+  },
+  "Dashboards": {
+    "SelectDashboard": "Select dashboard",
+    "NoData": "No associated dashboards to display",
+    "NoData2": "Add a dashboard to make it look prettier",
+    "CreateNewDashboardButton": "Add new dashboard",
+    "AccessDenied": "You do not have permission to edit this item",
+    "DialogWindow": {
+      "DeleteDashboard": {
+        "ConfirmationMessage": "Are you sure that you want to delete the selected dashboard?",
+        "FailMessage": "Unfortunately, you cannot delete the selected dashboard"
+      }
+    },
+    "ActionsToolbar": {
+      "Title": "Aksiyonlar",
+      "Edit": "İzin",
+      "Copy": "Kopyala",
+      "Delete": "Sil",
+      "Rights": "Erişim haklarını ayarlayın"
+    },
+    "All": "Tüm",
+    "Favorites": "Favoriler",
+    "AddToFavoritesButton": "Favorilere ekle",
+    "RemoveFromFavoritesButton": "Favorilerden kaldır"
+  },
+  "Icon": {
+    "PropertiesPanel": {
+      "Caption": "Simge",
+      "General": {
+        "Caption": "Genel",
+        "Icon": {
+          "Label": "Simge"
+        },
+        "Color": {
+          "Label": "Renk"
+        },
+        "Size": {
+          "Label": "Boyut",
+          "Options": {
+            "Small": "Küçük",
+            "Medium": "Orta",
+            "Large": "Büyük",
+            "ExtraLarge": "Ekstra büyük"
+          }
+        },
+        "Spacing": {
+          "Label": "Padding",
+          "Tooltip": "Controls the space between the icon and the edges of the component",
+          "Options": {
+            "None": "Hiçbiri",
+            "ExtraSmall": "Extra Small",
+            "Small": "Küçük",
+            "Medium": "Orta",
+            "Large": "Büyük",
+            "ExtraLarge": "Ekstra büyük",
+            "ExtraExtraLarge": "Extra Extra Large"
+          }
+        },
+        "Background": {
+          "TypeLabel": "Background type",
+          "ColorLabel": "Arka plan rengi",
+          "Options": {
+            "None": "Hiçbiri",
+            "Square": "Square",
+            "Circle": "Circle"
+          }
+        },
+        "Accessibility": {
+          "NameLabel": "Accessible name",
+          "NameTooltip": "The text read by screen readers to describe the icon",
+          "TooltipLabel": "Araç ipucu"
+        }
+      }
+    },
+    "Caption": "Simge",
+    "Hint": "A visual component that allows you to represent actions and states in a clear and intuitive way"
+  },
+  "IFrame": {
+    "PropertiesPanel": {
+      "Caption": "iFrame settings",
+      "GeneralSettings": {
+        "Caption": "Genel",
+        "ContentTypeLabel": "İçerik türü",
+        "ContentValueLabel": "Content to display",
+        "UrlContentPlaceholder": "https://mysitename.com",
+        "UrlContentTooltip": "To ensure the content is displayed correctly, make sure the following is true: <ul><li>Source allows embedding in an iframe</li><li>Link uses the HTTPS protocol</li><li>Source domain is included in the trusted sources list of your Content Security Policy. We recommend adding at least two allowed directives to it: connect-src and frame-src</li></ul>"
+      },
+      "PermissionsSettings": {
+        "Caption": "Permissions",
+        "AllowLabel": "Allowed features",
+        "AllowTooltip": "Specifies which browser features the embedded content is allowed to use, for example, camera, microphone, fullscreen. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information.",
+        "SandboxLabel": "Sandbox permissions",
+        "SandboxTooltip": "Specifies which sandbox restrictions are removed for the embedded content. Grant only the permissions that are required. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information."
+      }
+    },
+    "Caption": "iFrame",
+    "Hint": "iFrame Bileşeni, içeriğin HTML veya URL biçimine gömülmesini ve görüntülenmesini sağlar",
+    "Placeholder": {
+      "NothingToShow": "Henüz gösterilecek bir şey yok",
+      "NoContent": "Bu bölümde içerik yok"
+    },
+    "ContentUnavailable": {
+      "Title": "İçerik kullanılamıyor",
+      "SubTitle": "Ağ ayarlarınız, tarayıcı güvenlik politikalarınız veya içerik kısıtlamalarınız nedeniyle",
+      "LinkTitle": "Akademimizde daha fazlasını okuyun"
+    }
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Varlık hiyerarşi filtresi",
+    "GeneralCaption": "Genel",
+    "SchemaNameCaption": "Hiyerarşi oluşturmak için bir nesne seçin",
+    "HierarchySetup": "Hiyerarşi kurulumu",
+    "SchemaNameSelectTooltip": "Hiyerarşiyi oluşturmak için bir nesne seçin.Tüm sistem nesneleri açılır menüde görüntülenir.Hiyerarşiyi yapılandırdıktan sonra, önceden yapılandırılmış bir filtre olarak belirtilerek liste bileşenine bağlayın.",
+    "ApplyStaticFilter": "Statik Filtre uygulayın",
+    "EditStaticFilterAction": "Filtreyi Düzenle",
+    "FiltersDialogCaption": "Manuel olarak tanımlanmış filtre",
+    "SetupStaticFilterAction": "Kurulum filtresi",
+    "DisplayModeCaption": "Hierarchy type",
+    "ManualDisplayMode": "Manual",
+    "ByParentDisplayMode": "By parent"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Yeni Hiyerarşi Sütunu Ekle",
+    "ContextMenu": {
+      "AddToSubmenu": "Alt hiyerarşi ekle",
+      "Edit": "İzin",
+      "Delete": "Sil"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Sonraki ay",
+    "AriaPrevMonthLabel": "Geçtiğimiz ay",
+    "AriaNextYearLabel": "Gelecek yıl",
+    "AriaPrevYearLabel": "Önceki yıl",
+    "Readonly": "düzenlenemez alan",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Takvim",
+    "TimePickerIconTitle": "Zaman",
+    "AriaTimeListLabel": "Time options"
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "Tüm",
+    "NotFilledNode": "Dolu değil",
+    "SpecificationFilterCaption": "Ek Filtreleme Aç",
+    "BackButtonCaption": "geri",
+    "ClearAllFiltersButtonCaption": "hepsini temizle",
+    "NoDataCaption": "Veri Yok"
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "DCM vakasını değiştirin.Bu varlık için daha alakalı bir yapılandırma vardır.",
+    "ConfirmChangeCaseDialogMessage": "Vakanın mevcut sürümünü değiştirmek istiyor musunuz?",
+    "SnackbarActualFilterCaseMessage": "\"{{Caption}}\" daha alakalı bir durum vardır.Yer değiştirmek?",
+    "SnackbarIgnoreButtonCaption": "Görmezden gelmek",
+    "SnackbarReplaceButtonCaption": "Yer değiştirmek",
+    "SnackbarEntityProcessChangedMessage": "Dava başarıyla değiştirildi."
+  },
+  "NextSteps": {
+    "Caption": "Sonraki adımlar",
+    "CompleteButtonCaption": "Durduruldu",
+    "AddNewStepMenuCaption": "Yeni bir adım ekle",
+    "CreateActivityButtonCaption": "görev yarat",
+    "CreateEmailButtonCaption": "mail yarat",
+    "NoDataContainerLabel": "Burada gösterilecek bir şey yok!",
+    "NoDataContainerDescription": "Bu aşama için hiçbir adım eklenmedi",
+    "OwnerHint": "Atanan kullanıcı",
+    "OwnerRoleHint": "Atanan grup",
+    "RequiredStepHint": "Gerekli adım",
+    "ApprovalApprovedSnackbarCaption": "İstek onaylandı",
+    "ApprovalRejectedSnackbarCaption": "İstek reddedildi",
+    "TypeFilterCaption": "Tür",
+    "TypeFilterHint": "Tür"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Renk seçici",
+        "AppearanceGroup": "Dış görünüş",
+        "PickerModeRadioButtonCaption": "Palet",
+        "PickerMode": {
+          "Basic": "Temel palet",
+          "Extended": "Genişletilmiş palet"
+        }
+      },
+      "AppearanceGroup": "Dış görünüş",
+      "BindToDataSourceCaption": "Veri kaynağı",
+      "DataSourceAttributeNotFoundErrorMessage": "\"{0}\" yoluna sahip öğe bulunamadı",
+      "Editability": "Düzenlenebilirlik",
+      "EditabilityControls": {
+        "Readonly": "Sadece oku",
+        "Disabled": "Engelli"
+      },
+      "TitleOnPage": "sayfadaki başlık",
+      "Multiline": "Çok satırlı metin",
+      "LabelPosition": "Başlık pozisyonu",
+      "LabelPositionVariants": {
+        "Auto": "Oto",
+        "Left": "Sol",
+        "Right": "Sağ",
+        "Above": "Üstünde",
+        "Hidden": "Gizlenmiş"
+      },
+      "Placeholder": "Yer tutucu",
+      "Combobox": {
+        "IsAddAllowed": "Yeni değerler eklemeyi etkinleştirin",
+        "ShowValueAsLink": "Display value as link",
+        "IsGoToSourceAllowed": "Kayıt listesini açmayı etkinleştirin",
+        "ValueDetailsLabel": "Alan Değeri Ayrıntıları",
+        "ValueDetailsTooltip": "Alan değeri ayrıntıları belirli arama kaydına göre görüntülenecektir",
+        "SecondaryDisplayValueLabel": "Ek Görüntü Değeri",
+        "SecondaryDisplayValueTooltip": "Açılır listede görüntülenecek ek bilgiler"
+      },
+      "Tooltip": "Araç ipucu",
+      "DisplayPhoneMask": "Telefon Maskesi'ni Görüntüle",
+      "FileEntitySchemaLabel": "Dosya Depolama Konumu",
+      "TooltipHint": "Araç ipucu hem düz metni hem de HTML içeriğini destekler. Lütfen HTML içeriğinizin kısa ve araç ipucu boyutuna uyumlu olduğundan emin olun.",
+      "SelectDataSource": "Veri kaynağını seçin"
+    },
+    "WidgetPropertiesPanel": {
+      "HeaderLabel": "Widget settings",
+      "GeneralLabel": "Genel",
+      "TitleLabel": "lBaşlık",
+      "ColorLabel": "Renk",
+      "StyleLabel": "Stil",
+      "Styles": {
+        "FullyColored": "tamamen renkli",
+        "PlainWhite": "Düz beyaz",
+        "PartiallyColored": "Kısmen renkli",
+        "Glassmorphism": "Cam efekti",
+        "Transparent": "Transparan"
+      },
+      "ContextMenu": {
+        "Edit": "İzin"
+      },
+      "ChartSeries": "Grafik serisi",
+      "SeriesControlLabel": "lBaşlık",
+      "SetupBlockCaption": "Grafik Ayarla",
+      "SetupButtonLabel": "Grafik Ayarları",
+      "FilterByActiveItemTooltip": "Kullanıcıların grafik verilerini bağlantılı veri kaynağının etkin satırına göre filtrelemesini seçin",
+      "SizeLabel": "Boyut",
+      "Sizes": {
+        "ExtraSmall": "Ekstra küçük",
+        "Small": "Küçük",
+        "Medium": "Orta",
+        "Large": "Büyük",
+        "ExtraLarge": "Ekstra büyük"
+      },
+      "AppearanceGroup": {
+        "Caption": "Dış görünüş"
+      },
+      "HideBorderLabel": "Sınırı gizle",
+      "HideTitleLabel": "Hide title",
+      "ProvidingSettings": {
+        "AggregationFunctions": {
+          "Sum": "Meblağ",
+          "Avg": "Ortalama değer",
+          "Min": "Minimum",
+          "Max": "Maksimum değer",
+          "Count": "sayı",
+          "Label": "İşlev",
+          "Formula": "Formül",
+          "SetupFormula": "Formül ayarlayın",
+          "ChangeFormula": "Change formula"
+        },
+        "Formula": {
+          "AggregationSetupDialog": {
+            "Title": "Formula element setup",
+            "TitlePlaceholder": "Enter a title to identify this element in the formula.",
+            "ObjectLabel": "Nesne",
+            "ColumnLabel": "Sütun",
+            "TitleLabel": "lBaşlık",
+            "StaticFilterTab": "Static filter",
+            "DynamicFilterTab": "Dynamic filter",
+            "Save": "Kayıt etmek",
+            "Cancel": "İptal"
+          },
+          "Toolbar": {
+            "Count": "sayı",
+            "Sum": "Meblağ",
+            "Avg": "Avg",
+            "Min": "Dk",
+            "Max": "Max"
+          },
+          "Editor": {
+            "Count": "COUNT",
+            "Sum": "SUM",
+            "Avg": "AVG",
+            "Min": "MIN",
+            "Max": "MAX"
+          }
+        },
+        "ObjectLabel": "Nesne",
+        "ColumnLabel": "Sütun"
+      },
+      "FormatSettings": {
+        "Format": "Format",
+        "Template": {
+          "Label": "Başlık",
+          "Hint": "Değere eşlik eden metni girin. Örneğin, \"{0} öğeleri\" veya \"$ {0}\""
+        },
+        "LabelPosition": {
+          "Label": "Metin konumu",
+          "AboveAndUnder": "Above and under value",
+          "BeforeAndAfter": "Önce ve sonra değer"
+        },
+        "NumberOfDigits": {
+          "Label": "Ondalık noktadan sonra basamak sayısı"
+        },
+        "ShowTime": "Show time"
+      },
+      "ComparisonSettings": {
+        "Title": "Comparison",
+        "CompareWithAnotherValue": "Compare with another value",
+        "InvalidDateMetric": "Comparison is not available for the selected date/time metric. Please change the aggregation function and column.",
+        "ConfigureHint": "Configure the comparison value to show the difference from the main metric",
+        "SetupComparison": "Set up comparison",
+        "EnableComparison": "Enable comparison",
+        "CopySettingsHint": "Reuse the configuration from Metric values and adjust it if needed.",
+        "CopySettingsLink": "Copy value settings",
+        "ApplyStaticFilter": "Statik Filtre uygulayın ",
+        "SetupFilterButton": "Filtre Ayarla",
+        "TrendIndicatorLabel": "Trend indicator",
+        "TrendVisualizationLabel": "Trend visualization",
+        "UpTrendColorLabel": "Up trend color",
+        "DownTrendColorLabel": "Down trend color",
+        "FormatSectionTitle": "Biçim",
+        "ComparisonTextLabel": "Comparison value text",
+        "ComparisonTextPlaceholder": "e.g., vs previous month",
+        "ChangeFormatLabel": "Change format",
+        "ComparisonTypes": {
+          "Absolute": "Absolute",
+          "Percent": "%"
+        },
+        "TrendIndicators": {
+          "Arrow": "Arrow",
+          "Triangle": "Triangle",
+          "Circle": "Circle"
+        }
+      }
+    },
+    "SliderPropertiesPage": {
+      "ColorLabel": "Stil",
+      "Colors": {
+        "Accent": "Odak",
+        "Primary": "Öncelik",
+        "Warn": "Uyarı",
+        "Default": "varsayılan"
+      },
+      "ReadonlyLabel": "Sadece oku",
+      "StepLabel": "Adım değeri",
+      "MinValueLabel": "Minimum değer",
+      "MaxValueLabel": "Maksimum değer",
+      "Validations": {
+        "GreaterThanZeroCaption": "Değer 0'dan büyük olmalı",
+        "MinValueLessThanMaxValueCaption": "Minimal değer maksimum değerden az olmalıdır",
+        "MaxValueGreaterMinValueCaption": "Maksimum değer minimal değerden daha büyük olmalıdır",
+        "StyleIsInvalidCaption": "Stil yanlış"
+      }
+    },
+    "ContainerPropertiesPage": {
+      "GeneralGroup": "Genel",
+      "AppearanceGroup": "Dış görünüş",
+      "ColorLabel": "Renk",
+      "BorderRadiusLabel": "Sınır yarıçapı",
+      "Sizes": {
+        "None": "Hiçbiri",
+        "Small": "Küçük",
+        "Medium": "Orta",
+        "Large": "Büyük",
+        "ExtraSmall": "Ekstra küçük"
+      },
+      "PaddingGroup": "Boşluk",
+      "Padding": {
+        "Top": "Tepe",
+        "Bottom": "Alt",
+        "Left": "Sol",
+        "Right": "Sağ"
+      },
+      "StretchLabel": "Ana konteynere uzatma",
+      "FitContentLabel": "Uygun içerik",
+      "AlignItemsLabel": "Öğeleri hizalayın",
+      "AlignItems": {
+        "Stretch": "Uzatmak",
+        "Start": "Başlat",
+        "Center": "Merkez",
+        "End": "Son"
+      },
+      "Grid": {
+        "PageCaption": "Izgara Konteyner Ayarları",
+        "ColumnsLabel": "Sütun sayısı",
+        "ColumnGapFieldLabel": "Sütun aralığı",
+        "RowGapFieldLabel": "Satır aralığı"
+      },
+      "Flex": {
+        "PageCaption": "Konteyner ayarlarını esnek",
+        "Direction": "Yön",
+        "Row": "Sıra",
+        "Column": "Sütun",
+        "Gap": "Açıklık",
+        "WrapLabel": "Sarma öğeleri",
+        "JustifyContentLabel": "İçeriği haklı çıkar",
+        "JustifyContent": {
+          "Start": "Başlat",
+          "Center": "Merkez",
+          "End": "Son",
+          "SpaceBetween": "Aralarında boşluk"
+        }
+      },
+      "MobileGrid": {
+        "LayoutSetup": "Layout setup",
+        "UseAdaptiveLayout": "Use adaptive layout",
+        "ColumnsSmall": "Number of columns for phone",
+        "ColumnsMedium": "Number of columns for tablet (portrait)",
+        "ColumnsLarge": "Number of columns for tablet (landscape)",
+        "DisableAdaptiveConfirmation": "Disabling adaptive layout will remove breakpoint-specific configurations. The current layout will be used across all screen sizes. Continue?"
+      }
+    },
+    "PrintablesRequestPropertiesPanel": {
+      "ViewSelectCaption": "Hangi veriler yazdırılacak?",
+      "PrintablesSettingsCaption": "Yazdırma Ayarları",
+      "PrintOnRecord": "Geçerli kayıt için yazdırma raporu",
+      "PrintOnList": "Kayıtlar listesi için yazdırma raporu"
+    },
+    "PageAddonsPropertiesPanel": {
+      "SidebarDesignDialog": {
+        "Title": "Kenar çubuğu parametreleri",
+        "Fields": {
+          "Title": "lBaşlık",
+          "Code": "Kod",
+          "Icon": "Kenar çubuğu simgesi",
+          "Group": "Konum",
+          "Index": "Kenar çubuğu pozisyonu",
+          "Enabled": "Etkinleştirilmiş",
+          "OperationPermission": "İşletim İzin Kodu",
+          "AutoHideNotificationMark": "Bildirim işaretini otomatik olarak gizle",
+          "AllowSizeAdjustment": "Allow sidebar width adjustment",
+          "Container": "Panel position"
+        },
+        "Placeholders": {
+          "OperationPermission": "Kenar çubuğu tüm çalışanlar için mevcuttur",
+          "Group": "Boşsa, kenar çubuğu bağımsız bir panel haline gelir",
+          "Container": "Choose panel position"
+        },
+        "Tooltips": {
+          "Group": "Kenar çubuğunu çalışma alanının üstünde bağımsız bir panel yapmak için alanı boş bırakın.",
+          "Index": "Kenar çubuğu numarası paneldeki konumunu belirler.Kutudan çıkma kenar çubuğu numaralandırması 1000, 2000, 3000 vb .'dür. Kenar çubuğunuzu mevcut kenar çubuklarına yerleştirmek için kenar çubuğunuzu daha yüksek veya 1000, 2000, 3000'den fazla yerleştirmek için 1000'den düşük sayıyı kullanın.",
+          "IndexWhenEmptyGroup": "Kenar çubuğu numarası, çalışma alanının tepesindeki konumunu belirler.Panel numaralı panel numaralandırması 9000, 10000'dür. Panelinizi sola yerleştirmek için 9000'den düşük sayıyı veya panelinizi mevcut paneller arasına yerleştirmek için 9000'den fazla kullanın.",
+          "OperationPermission": "Tüm çalışanlar için kenar çubuğunu görüntülemek için alanı boş bırakın.Sistem İşletme Kodunu belirtin ve belirli çalışanlara, kullanıcı gruplarına veya harici kullanıcılara kenar çubuğuna erişim sağlamak için işlemle erişim izinleri ayarlayın.",
+          "AutoHideNotificationMark": "Bir kullanıcı kenar çubuğunu tıkladığında bildirim işaretini gizlemek için geçin, özel davranışları kodlamak için geçin.",
+          "AllowSizeAdjustment": "Enables manual sidebar width adjustment. This feature is only available for sidebars added as standalone panels.",
+          "Container": "This setting controls which side of the screen the sidebar panel appears on. The panel is shown on the right by default, but you can switch it to the left if needed."
+        },
+        "PredefinedGroups": {
+          "CommunicationPanel": "İletişim paneli",
+          "NotificationsPanel": "Bildirim Paneli"
+        },
+        "Validations": {
+          "CodePrefixTemplate": "Kod \"{0}\" öneki ile başlamalı",
+          "CodePattern": "Geçersiz veya boş değer.Sembolleri kullanın: (A-Z), (A-Z), (0-9), (_).Semboller: A-Z, A-Z önce olmalıdır.",
+          "SidebarCodeAlreadyExists": "Bu kenar çubuğu kodu zaten kullanılıyor"
+        },
+        "PredefinedContainers": {
+          "LeftContainer": "Left side of the screen",
+          "RightContainer": "Right side of the screen"
+        }
+      },
+      "UseSidebar": "Sayfayı kenar çubuğu olarak kullanın",
+      "UseSidebarTooltip": "Kenar çubukları, Creatio UI'nin sağ üst kısmındaki düğmeleri, örneğin, beslemeyi veya sohbetleri tıklayarak görüntüleyebileceğiniz özel sayfalardır.<a href = '{0}' hedef = '_ boş'> Akademide daha fazla bilgi edinin </a>",
+      "ManageSidebarParameters": "Kenar çubuğu parametrelerini yönetin"
+    },
+    "RunBusinessProcessRequestPropertiesPanel": {
+      "Validators": {
+        "SelectProcessWithParameters": "İşlemi seçin ve en az tek bir parametre atayın"
+      }
+    },
+    "PropertiesPanelAdvancedSettings": {
+      "AdvancedGroup": "gelişmiş",
+      "CodeLabel": "Eleman kodu",
+      "DuplicateNameMessage": "Aynı koda sahip öğe zaten var",
+      "SaveButtonTitle": "Kaydet",
+      "CancelButtonTitle": "İptal",
+      "NameValidationMsg": "Geçersiz veya boş değer.Sembolleri kullanın: (A-Z), (A-Z), (0-9), (_).Semboller: A-Z, A-Z önce olmalıdır.",
+      "CodeChangeForbiddenText": "Üst sayfaya eklendiği için öğe kodu değiştirilemez"
+    },
+    "TogglePanelAppearanceSettings": {
+      "ToggleViewModeLabel": "Toggle view mode",
+      "ToggleViewMode": {
+        "Dropdown": "Açılır menü",
+        "Button": "Buton"
+      },
+      "DefaultTabLabel": "Default tab"
+    },
+    "DashboardPagePropertiesPanel": {
+      "NoAccessToChangeNameTooltip": "You do not have permission to modify the schema code"
+    },
+    "TabPanelAppearanceSettings": {
+      "DefaultTabLabel": "Default tab",
+      "TabPanelColorSubGroup": "Tab paneli renkleri",
+      "StyleTypeLabel": "Stil",
+      "BodyBackgroundColor": "Başlık",
+      "SelectedTabCaptionColor": "Seçilmiş",
+      "TabCaptionColor": "Seçilmemiş",
+      "HeaderBackgroundColor": "Üst bilgi",
+      "UnderlineSelectedTabColor": "Sekme Altı Çizgi",
+      "TabCaptionColorSubGroup": "Sekme Başlık Rengi"
+    },
+    "TabPanelPropertiesPage": {
+      "GeneralCaption": "Genel",
+      "TabsPageCaption": "Sekme Ayarları",
+      "TogglePageCaption": "Toggle panel settings",
+      "ItemsLabel": "Sekmeler",
+      "AddNewItem": "Sekme Ekle",
+      "AppearanceGroup": "görünüş",
+      "TabStyleDefaultCaption": "Düz beyaz",
+      "TabStylePartiallyColoredCaption": "Kısmen renkli",
+      "TabStyleFullyColoredCaption": "tamamen renkli",
+      "ContextMenu": {
+        "Edit": "düzenle",
+        "Copy": "Kopyala",
+        "Remove": "Sil"
+      },
+      "ModeLabel": "Mod",
+      "ModeTab": "Sekmeler",
+      "ModeToggle": "geçiş anahtarı",
+      "Scrollable": "Fit to available space"
+    },
+    "PagePropertiesPage": {
+      "BusinessRulesGroup": "İş kuralları",
+      "PageCaption": "Sayfa Ayarları",
+      "GeneralLabel": "Genel",
+      "AppearanceGroup": "Dış görünüş",
+      "NameLabel": "Kod",
+      "PackageLabel": "Paket",
+      "ParentPageLabel": "Ana sayfa",
+      "OpenInterfaceDesigner": "Açık Arayüz Tasarımcısı",
+      "ExtendParentPageLabel": "Üst sayfayı değiştirin",
+      "DescriptionLabel": "Açıklama",
+      "CaptionLabel": "Başlık",
+      "BackToSettings": "\"{{Name}}\" ayarlarına geri dön",
+      "AdvancedPanel": "Gelişmiş",
+      "Validations": {
+        "RequiredNameMessage": "Değer girin",
+        "PatternNameMessage": "Geçersiz değer.Sembolleri kullanın: A-Z, A-Z, 0-9.Semboller: 0-9 ilk olamaz",
+        "PrefixNameMessage": "Kod \"{0}\" öneki ile başlamalı",
+        "DuplicateNameMessage": "Bu isme sahip öğe zaten var",
+        "RequiredCaptionMessage": "Değer girin"
+      },
+      "EntitySchemaNameLabel": "Veri kaynağı"
+    },
+    "ButtonPropertiesPage": {
+      "GeneralGroup": "Genel",
+      "CaptionLabel": "Başlık",
+      "ColorFieldLabel": "Stil",
+      "Colors": {
+        "Accent": "Odak",
+        "Primary": "Öncelik",
+        "Warn": "Uyarı",
+        "Default": "Plain",
+        "Outline": "Taslak",
+        "PlainWhite": "Düz beyaz",
+        "OutlineWhite": "Outline white",
+        "Secondary": "Secondary"
+      },
+      "ActionLabel": "Eylem",
+      "MenuItemsLabel": "Menü öğeleri",
+      "AppearanceGroup": "görünüş",
+      "AddNewItem": "Yeni öğe ekle",
+      "ButtonSizeFieldLabel": "Boyut",
+      "Sizes": {
+        "Small": "Küçük",
+        "Medium": "Orta",
+        "Large": "Büyük",
+        "ExtraLarge": "Ekstra büyük",
+        "2XLarge": "Double extra large",
+        "3XLarge": "Triple extra large"
+      }
+    },
+    "ReorderContextMenu": {
+      "MoveUp": "Move up (Ctrl+Up)",
+      "MoveDown": "Move down (Ctrl+Down)"
+    },
+    "MenuItemsContainerPropertiesPanel": {
+      "AddNewItem": "Yeni öğe ekle",
+      "MenuItemsLabel": "Menü öğeleri",
+      "ContextMenu": {
+        "AddToSubmenu": "Alt menüye ekle",
+        "Copy": "Kopyala",
+        "Edit": "düzenle",
+        "Delete": "Sil"
+      },
+      "CopyPostfix": "- kopya"
+    },
+    "ExecuteIntentUserTaskPropertiesPanel": {
+      "PageCaption": "Sub-agent",
+      "GeneralGroup": "Genel",
+      "CaptionLabel": "lBaşlık",
+      "IntentSchemaLabel": "Which sub-agent to call?",
+      "ChangeSchemaWarningMessage": "Element şemasını değiştirmek istediğinden emin misiniz?Tüm parametreler kaybolacaktır.",
+      "OpenDesignerButtonTitle": "Open sub-agent",
+      "SkillParametersGroup": "Sub-agent parameters",
+      "NoParameters": "No parameters",
+      "NoFiles": "No files",
+      "ParameterValueSource": {
+        "ProcessParameter": "Process parameter",
+        "SystemSetting": "Sistem ayarları",
+        "Formula": "Formül"
+      },
+      "AdvancedGroup": "gelişmiş",
+      "CodeLabel": "Eleman kodu",
+      "AddFilesGroup": "Dosya Ekle",
+      "CreateFile": "Add file",
+      "ParameterTitleLabel": "lBaşlık",
+      "ParameterDescriptionLabel": "Açıklama",
+      "ParameterCodeLabel": "Code",
+      "ParameterDataTypeLabel": "Veri türü",
+      "ParameterValueLabel": "Value"
+    },
+    "DrilldownConfigPropertiesPanel": {
+      "HeaderLabel": "Drilldown config",
+      "TitleLabel": "Title column",
+      "Columns": {
+        "ColumnsLabel": "Sütunlar",
+        "AddColumn": "Sütun ekle",
+        "EmptyState": "No columns selected. Use + to add columns shown in the mobile drilldown table.",
+        "ContextMenu": {
+          "MoveUp": "Move up (Ctrl+Up)",
+          "MoveDown": "Move down (Ctrl+Down)",
+          "Delete": "Sil"
+        }
+      }
+    },
+    "BarcodeScannerPropertiesPanel": {
+      "PageCaption": "Barcode scanner settings",
+      "GeneralCaption": "Genel",
+      "FeaturesCaption": "Özellikleri",
+      "SizeCaption": "Boyut",
+      "SizeSmall": "Küçük",
+      "SizeMedium": "Orta",
+      "SizeLarge": "Büyük",
+      "SizeMax": "Max",
+      "ScannedRequestCaption": "Which column to set result to?",
+      "CustomScannedRequestCaption": "Özel Kodu Yürüt"
+    },
+    "MobileQuickFilterGroupPropertiesPanel": {
+      "PageCaption": "Filters settings",
+      "GeneralCaption": "Genel",
+      "ListComponentLabel": "Filtrelemek için Bileşen'i seçin"
+    },
+    "UpdateQuickFilterGroupRequestPropertiesPanel": {
+      "QuickFilterGroupLabel": "Filtrelemek için Bileşen'i seçin",
+      "FilterItemsCaption": "Filter items",
+      "FilterItemsPlaceholder": "Click + to add filter items"
+    },
+    "SortPropertiesPanel": {
+      "GeneralGroup": {
+        "Caption": "Genel",
+        "SelectDataSource": "Veri kaynağı"
+      },
+      "PageCaption": "Sort settings",
+      "ChooseTargetsCaption": "Choose component to sort",
+      "ChooseTargetsTooltip": "Select the list where to perform the sort. The drop-down menu displays lists that are present on the current page and have an object specified",
+      "ColorFieldLabel": "Stil",
+      "ButtonSizeFieldLabel": "Boyut",
+      "AppearanceGroup": "Görünüş",
+      "IconPositionLabel": "Pozisyon",
+      "Colors": {
+        "Primary": "Öncelik",
+        "Accent": "Odak",
+        "Warn": "Uyarı",
+        "Default": "Plain",
+        "Secondary": "Secondary"
+      },
+      "Sizes": {
+        "Small": "Küçük",
+        "Medium": "Orta",
+        "Large": "Büyük",
+        "ExtraLarge": "Ekstra büyük",
+        "2XLarge": "Double extra large",
+        "3XLarge": "Triple extra large"
+      },
+      "IconPosition": {
+        "LeftIcon": "Simge",
+        "RightIcon": "Simge Doğru",
+        "OnlyIcon": "Sadece simge"
+      }
+    }
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "Burada gösterilecek bir şey yok!",
+    "NoDataDescription": "Currently there are no items in your queue",
+    "AcceptButtonLabel": "Kabul et"
+  },
+  "AgentInbox": {
+    "NewItems": "New Items ({{number}})",
+    "InProgress": "In Progress ({{number}})",
+    "RealTime": "Real-time",
+    "QueuedTasks": "Queued tasks",
+    "WrappedUpCallTickTpl": "Call wrap-up ({{sec}}s left)",
+    "WrappedUpCallStoppedTpl": "Manual wrap-up",
+    "IncomingCallDescription": "Gelen çağrı:",
+    "OutgoingCallDescription": "Giden çağrı:"
+  },
+  "CallConversation": {
+    "Call": "Make call",
+    "Duration": "Süre:",
+    "Search": "Ara",
+    "JobTitle": "Job Title",
+    "Account": "Hesap",
+    "ClearIdentity": "Clear selected record",
+    "OutboundLine": {
+      "From": "kimden",
+      "Type": "Outbound line"
+    },
+    "Buttons": {
+      "Hints": {
+        "Accept": "Accept call",
+        "CompleteTransfer": "Aktarmak için tıklayın",
+        "Hold": "beklemeye al",
+        "Unhold": "Beklemeyi kaldır",
+        "StartTransfer": "Transfer call",
+        "Mute": "Mute call",
+        "CancelTransfer": "Transferi iptal et",
+        "Drop": "Complete call",
+        "OpenDialPanel": "Open dial panel"
+      },
+      "Captions": {
+        "Accept": "Kabul et",
+        "Drop": "Reddet",
+        "Cancel": "İptal",
+        "CancelTransfer": "geri",
+        "CompleteTransfer": "Birleştirmek",
+        "EndMainCall": "Son"
+      }
+    },
+    "OnHold": "Beklemede:"
+  },
+  "SaveCallDetailsHandler": {
+    "UpdateSuccessMessage": "The call was updated"
+  },
+  "CallIdentityMenu": {
+    "ClearSelectedRecord": "Clear selected record",
+    "CallIdentityOptions": "Change/Set contact"
+  },
+  "RequeueQueueItemHandler": {
+    "SuccessfullyRequeued": "Başarılı bir şekilde tekrar"
+  },
+  "CallAiContextService": {
+    "IncomingCallTitle": "Incoming call: {{counterparty}}",
+    "OutgoingCallTitle": "Outgoing call: {{counterparty}}",
+    "UnknownCounterparty": "bilinmeyen"
+  },
+  "ForecastGrid": {
+    "PropertiesPanel": {
+      "HeaderLabel": "Forecast grid",
+      "GeneralGroup": {
+        "Caption": "Genel",
+        "ForecastSheetLabel": "Tahmin tablosu",
+        "BindingTooltip": "Bound to an attribute. Clear to pick a forecast sheet directly.",
+        "ClearBinding": "Clear attribute binding",
+        "InactiveSheetSuffix": "(aktif değil)"
+      }
+    },
+    "FilterableOption": {
+      "Period": "Dönemler",
+      "Hierarchy": "Hiyerarşi"
+    },
+    "Caption": "Forecast grid",
+    "Hint": "Hierarchical forecast grid",
+    "DefaultTitle": "New forecast grid",
+    "EmptyState": "No forecast data for this sheet.",
+    "PrimaryColumnCaption": "Adı",
+    "SelfRowSuffix": "(self)",
+    "CellSaveFailed": "Couldn't save the cell value. Please try again.",
+    "CellSaveError": {
+      "PermissionDenied": "You don't have permission to edit this cell."
+    },
+    "LoadFailed": "Failed to load forecast data.",
+    "NoResponse": "No response from forecast service.",
+    "Placeholder": {
+      "NotConfigured": {
+        "Title": "Forecast grid is not configured.",
+        "Description": "An object must be selected in the component settings before this grid can display data."
+      },
+      "Inactive": {
+        "Title": "Forecast is not active.",
+        "Description": "An administrator needs to activate it in forecast configuration, before forecast data can be displayed."
+      },
+      "Error": {
+        "Title": "Bir şeyler yanlış gitti...",
+        "Description": "Please contact your system administrator."
+      }
+    },
+    "CalculateCaption": "Update metrics",
+    "CalculationInProgressCaption": "Update in progress",
+    "CalculationStartedMessage": "Update in progress. You can continue using the dashboard while new metrics are being prepared.",
+    "CalculationFailedMessage": "Couldn't start forecast calculation. Please try again.",
+    "LastCalculationCaption": "Son Güncelleme",
+    "NextCalculationCaption": "Next update",
+    "NextCalculationDueCaption": "shortly",
+    "SubmissionStatus": {
+      "SubmittedBy": "Submitted by {{name}}",
+      "Submitted": "Submitted",
+      "LastSubmittedBy": "Last submitted by {{name}}",
+      "LastSubmitted": "Last submitted",
+      "NotSubmitted": "Not submitted",
+      "UpdateRequired": "update required"
+    }
+  },
+  "ListWidget": {
+    "DefaultTitle": "Yeni liste bileşeni ",
+    "PropertiesPanel": {
+      "HeaderLabel": "Widget settings",
+      "TitleLabel": "lBaşlık",
+      "Styles": {
+        "FullyColored": "tamamen renkli",
+        "PlainWhite": "Düz beyaz",
+        "PartiallyColored": "Kısmen renkli",
+        "Glassmorphism": "Cam efekti"
+      }
+    },
+    "Caption": "Liste bileşeni ",
+    "Hint": "Tamamen işlevsel bir listeyi özelleştirilebilir renkli bir çerçeveyle birleştiren ve diğer analiz bileşenlerinin yanına yerleştirildiğinde görsel tutarlılık sağlayan bir bileşen"
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} kayıtlar yüklendi.Daha fazla kayıt yüklemek?",
+    "ConfirmResendMeetingInvitationsQuestion": "Toplantı kaydedildiğinde tüm katılımcılar bir toplantı güncellemesi alacaktır.Devam etmek ister misin?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Bu toplantıların bazılarını kaydetmek, tasarruf ettikten sonra tüm katılımcılara bir değişiklik bildirimi göndermenizi gerektirir.Devam etmek ister misin?Toplantı Listesi:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "Toplantı geçmişte gerçekleşir.Katılımcılara bir davet göndermek istediğinizden emin misiniz?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "Toplantı geçmişte gerçekleşir.Tüm katılımcılar bir toplantı güncellemesi alacaktır.Devam etmek ister misin?",
+    "CanNotChangeMeetingMessage": "Yalnızca toplantı organizatörü, toplantı katılımcılarının açıklamasını, tarihini ve listesini değiştirebilir.",
+    "CanNotChangeMultipleMeetingsMessage": "Değişen toplantıların bazıları ancak toplantı organizatörü tarafından değiştirilebilir.Toplantı Listesi:",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "Toplantıları yalnızca kayıtları manuel olarak seçerseniz silebilirsiniz.",
+    "ErrorSendingInvitationMessage": "Davetiyeler gönderilmedi.Geçici bir sorun olabilir, lütfen daha sonra tekrar deneyin.",
+    "SuccessSendingInvitationMessage": "Davetiyeler başarıyla gönderildi",
+    "JoinBtnCaption": "Çevrimiçi Toplantıya Katılın",
+    "UserAlreadyHasActiveCalendarAccount": "Zaten aktif bir takvim var",
+    "LackOfLicenseMessage": "Takvim senkronizasyonu mevcut lisansınıza dahil değildir.Ek bilgi için lütfen sistem yöneticinizle iletişime geçin.",
+    "DateRangeError": "The date range in the filter is too long. Please reduce the range in the filter."
+  },
+  "FilterBuilder": {
+    "EmptyValue": "herhangi",
+    "EnterValuePlaceholder": "Değer girin",
+    "Is": "ki",
+    "Menu": {
+      "FiltersBadgeTooltip": "The filters are applied",
+      "CustomFiltersLabel": "Pre-defined filters",
+      "ColumnsLabel": "sütunlar",
+      "Caption": {
+        "AddCondition": "Filtre ekle",
+        "AddConditionManual": "Add new filter",
+        "AddGroup": "Add group",
+        "AddFilterGroup": "Add filter group",
+        "AddRelatedObject": "Explore related data",
+        "AddRelatedObjectManual": "Add new related object filter"
+      },
+      "Tooltip": {
+        "AddCondition": "Add a new filter condition",
+        "AddGroup": "Add a new group of filter conditions",
+        "AddRelatedObject": "Add a new filter condition by related objects"
+      }
+    },
+    "Group": {
+      "Caption": "Grup",
+      "ShowAllRecordsThatMatch": "Show all records that match",
+      "OfTheseConditions": "of these conditions",
+      "DefaultHeaderTemplate": "Show all records that match {menuOperator} of these conditions"
+    },
+    "Lookup": {
+      "SelectPlaceholder": "Select {{caption}}"
+    },
+    "Segment": {
+      "SelectPlaceholder": "Select segments",
+      "Caption": {
+        "In": "Are in segment",
+        "NotIn": "Are not in segment"
+      }
+    },
+    "Preset": {
+      "ChangedWarning": "The filter references a preset that has been changed. The up-to-date version of the preset has been loaded"
+    },
+    "ColumnPath": {
+      "ButtonCaption": "Yol",
+      "DialogTitle": "Filter properties",
+      "PathLabel": "Attribute path",
+      "AttributeLabel": "Özellik"
+    },
+    "LogicalOperator": {
+      "And": "tüm",
+      "Or": "herhangi"
+    },
+    "Toggler": {
+      "Caption": "Filters",
+      "Tooltip": "Open/Close filters panel"
+    },
+    "TextOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "Contains": "İçerir",
+      "DoesNotContain": "Does not contain",
+      "StartsWith": "Starts with",
+      "DoesNotStartWith": "Does not start with",
+      "EndsWith": "Ends with",
+      "DoesNotEndWith": "Does not end with",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in"
+    },
+    "NumericOperators": {
+      "Is": "Eşittir",
+      "IsNot": "Does not equal",
+      "GreaterThan": "Greater than",
+      "LessThan": "Less than",
+      "GreaterThanOrEqualTo": "At least",
+      "LessThanOrEqualTo": "At most",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in"
+    },
+    "AggregationNumericOperators": {
+      "Is": "Exactly",
+      "IsNot": "Exactly not",
+      "GreaterThan": "More than",
+      "LessThan": "Less than",
+      "GreaterThanOrEqualTo": "At least",
+      "LessThanOrEqualTo": "At most"
+    },
+    "LookupOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in",
+      "Macros": {
+        "CurrentUser": "Şu anki kullanıcı",
+        "CurrentUserContact": "Current contact",
+        "SelectContact": "Specific contact",
+        "SelectValue": "Specific value"
+      }
+    },
+    "BooleanOperators": {
+      "Yes": "Evet",
+      "No": "HAYIR"
+    },
+    "DateTimeOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "After": "Sonra",
+      "Before": "Before",
+      "OnOrAfter": "kimden",
+      "OnOrBefore": "Until",
+      "Between": "Between",
+      "And": "Ve",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in",
+      "PlaceholderStart": "Başlama",
+      "PlaceholderEnd": "Son",
+      "Placeholder": "Ayarlamak",
+      "PlaceholderDate": "tarih seç",
+      "PlaceholderDateTime": "Tarih ve saati seçin",
+      "PlaceholderTime": "Select time",
+      "InputModes": {
+        "ExactDate": "Exact date",
+        "ExactDateTime": "Exact date & time",
+        "ExactTime": "Tam zamanı",
+        "Hour": "Saat",
+        "Day": "Gün",
+        "Week": "Hafta",
+        "Month": "Ay",
+        "Quarter": "Çeyrek",
+        "HalfYear": "Half-year",
+        "Year": "Yıl",
+        "EveryYear": "Every year"
+      },
+      "Macros": {
+        "PreviousHour": "Previous hour",
+        "CurrentHour": "Current hour",
+        "NextHour": "Next hour",
+        "ExactTime": "Exact time ...",
+        "PreviousNHours": "Previous hours ...",
+        "NextNHours": "Following hours ...",
+        "Yesterday": "Dün",
+        "Today": "Bugün",
+        "Tomorrow": "Yarın",
+        "DayOfMonth": "Day of the month ...",
+        "DayOfWeek": "Haftanın günü ...",
+        "PreviousNDays": "Previous days ...",
+        "NextNDays": "Following days ...",
+        "PreviousWeek": "Önceki hafta",
+        "CurrentWeek": "Bu hafta",
+        "NextWeek": "Gelecek hafta",
+        "PreviousMonth": "Geçtiğimiz ay",
+        "CurrentMonth": "İçinde bulunduğumuz ay",
+        "NextMonth": "Sonraki ay",
+        "Month": "Ay ...",
+        "PreviousQuarter": "Önceki çeyrek",
+        "CurrentQuarter": "Mevcut Çeyrek",
+        "NextQuarter": " sıradaki çeyrek",
+        "PreviousHalfYear": "Previous half-year",
+        "CurrentHalfYear": "Current half-year",
+        "NextHalfYear": "Next half-year",
+        "PreviousYear": "Geçen yıl",
+        "CurrentYear": "Current year",
+        "NextYear": "Gelecek yıl",
+        "Year": "Year ...",
+        "DayOfYearToday": "Bugün",
+        "DayOfYearTodayPlusDaysOffset": "Every year, exactly in ...",
+        "NextNDaysOfYear": "Every year, within ... next days",
+        "NextNDaysOfYearSuffix": "next days",
+        "PreviousNDaysOfYear": "Every year, within ... previous days",
+        "PreviousNDaysOfYearSuffix": "previous days",
+        "WeekDays": {
+          "Sunday": "Su",
+          "Monday": "Mo",
+          "Tuesday": "Tu",
+          "Wednesday": "We",
+          "Thursday": "Th",
+          "Friday": "Fr",
+          "Saturday": "Sa"
+        },
+        "Months": {
+          "January": "January",
+          "February": "February",
+          "March": "March",
+          "April": "April",
+          "May": "May",
+          "June": "June",
+          "July": "July",
+          "August": "August",
+          "September": "September",
+          "October": "October",
+          "November": "November",
+          "December": "December"
+        }
+      }
+    },
+    "Action": {
+      "Apply": "Uygulamak",
+      "ApplyDisabledTooltip": "The filter has already been applied. Change the filter conditions to apply the filter again",
+      "ClearAll": "Hepsini Temizle",
+      "Close": "Kapat"
+    },
+    "EmptyState": {
+      "Title": "Henüz gösterilecek bir şey yok",
+      "Subhead": "Add your first filter to begin"
+    },
+    "OfTheBelowConditionsShouldMatch": "of the below conditions should match",
+    "Records": "records",
+    "Where": "neresi",
+    "And": "Ve",
+    "Aggregation": {
+      "Type": {
+        "Count": "Saymak",
+        "Sum": "Meblağ",
+        "Avg": "Ortalama",
+        "Min": "Minimum",
+        "Max": "Maksimum değer"
+      },
+      "Caption": {
+        "Count": "Kayıt sayısı",
+        "Sum": "Sum of {{value}}",
+        "Avg": "Average of {{value}}",
+        "Min": "Minimum of {{value}}",
+        "Max": "Maximum of {{value}}",
+        "None": "{{value}}",
+        "TopOne": "Top one of {{value}}"
+      },
+      "Have": "Have",
+      "HaveRelated": "Have related",
+      "Related": "related",
+      "Of": "kimden"
+    },
+    "Exists": {
+      "Have": "Have",
+      "HaveNo": "Have no",
+      "Related": "related"
+    },
+    "AggregationOperators": {
+      "Sum": "Meblağ",
+      "Avg": "Ortalama",
+      "Min": "Minimum",
+      "Max": "Maksimum değer",
+      "TopOne": "TopOne",
+      "None": "Hiçbiri"
+    }
+  },
+  "FilterBuilderDesigner": {
+    "TogglerCaption": "Advanced filters menu",
+    "TogglerHint": "Requires the Advanced filters component. Lets you show and hide page filters.",
+    "SourceCaption": "Advanced filters",
+    "SourceHint": "Add advanced filters panel",
+    "Properties": {
+      "Source": {
+        "HeaderLabel": "Advanced filters settings",
+        "GeneralCaption": "Genel",
+        "SchemaLabel": "What to filter?",
+        "HeaderTemplateLabel": "Header template"
+      },
+      "Toggler": {
+        "HeaderLabel": "Advanced filters menu",
+        "GeneralCaption": "Genel",
+        "ViewElementLabel": "Advanced filters"
+      }
+    }
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "Onaylar",
+    "ComponentHeaderInactiveLabel": "Onay gerekmez",
+    "RejectDialogHeaderLabel": "Onayı reddetmek istediğinizden emin misiniz?",
+    "RejectInputLabel": " Onay Yorumu",
+    "RejectButtonLabel": "Reddet",
+    "CancelButtonLabel": "İptal",
+    "ApproveDialogHeaderLabel": "Onay verilsin mi?",
+    "ApproveButtonLabel": "Onayla",
+    "PositiveMetricLabel": "Olumlu",
+    "NegativeMetricLabel": "Negatif",
+    "PendingMetricLabel": "Askıda olması",
+    "ComponentHeaderActiveLabel": "Onayınızı bekliyorum",
+    "ApprovalPurposeLabel": "Görev",
+    "ApprovedPlaceholderLabel": "ONAYLI",
+    "DesignTime": {
+      "ApprovalObjective": "Onay bekleniyor"
+    },
+    "RejectedPlaceholderLabel": "REDDEDİLMİŞ",
+    "DelegateButtonLabel": "Temsilci"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "Yetersiz",
+    "ApproveButtonLabel": "Onayla"
+  },
+  "MultiSelectSaveRecordHandler": {
+    "ErrorMessageTemplate": "At least one value must be selected in: {0}"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "DataGridSettingsForFolderLabel": "Klasör için Ayarları Liste",
+      "CreateDataGridSettingsForFolder": {
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active",
+        "Label": "Create custom settings for \"{0}\""
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "Save as new default settings for \"{0}\"",
+        "Confirmation": "New default list settings for the \"{0}\" folder will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "ClearDataGridSettingsForFolder": {
+        "Label": "Clear custom settings for \"{0}\"",
+        "Confirmation": "Custom list settings for the \"{0}\" folder will be cleared for all users and general list setting will be applied. Continue?",
+        "SuccessStatus": "List settings for the \"{0}\" folder cleared successfully"
+      },
+      "OverwriteDataGridSettingsForFolder": {
+        "Label": "Overwrite current settings for all users for \"{0}\"",
+        "Confirmation": "New default list settings will be saved for the \"{0}\" folder and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "ResetDataGridSettingsForFolder": {
+        "Label": "Restore default settings for \"{0}\"",
+        "Confirmation": "Default list settings will be restored for the \"{0}\" folder. Continue?",
+        "SuccessStatus": "Default list settings for the \"{0}\" folder restored successfully"
+      }
+    }
+  },
+  "ForecastHierarchyBuilder": {
+    "AddChildTitle": "Add child",
+    "RemoveTitle": "Sil",
+    "AddChildAriaLabel": "Add child to {{caption}}",
+    "RemoveAriaLabel": "Remove {{caption}}",
+    "DraggableAriaLabel": "{{caption}}. Draggable. Use Alt+Arrow keys to reorder.",
+    "EmptyStateWithEntity": "No hierarchy nodes yet.",
+    "EmptyStateNoEntity": "Select an object to start building the hierarchy.",
+    "LoadingAriaLabel": "Loading hierarchy…",
+    "ConfirmationTitle": "Onaylama",
+    "ConfirmationMessage": "Do you want to rebuild the hierarchy automatically based on the selected field?",
+    "RemoveConfirmationMessage": "Do you want to remove this node and all its child nodes from the hierarchy?",
+    "RemoveConfirmButton": "Sil",
+    "CancelButton": "İptal",
+    "ContinueButton": "Devam et",
+    "EnsureForecastEntityInCell": {
+      "NewObjectCaption": "Forecast by {{entityName}}",
+      "DialogTitle": "Forecast object creation failed",
+      "DialogOk": "OK",
+      "DialogGenericMessage": "Failed to create the forecast object schema.",
+      "SchemaSaveFailed": "Failed to save the forecast object schema."
+    }
+  },
+  "ChangeTracking": {
+    "EntitySchemaNotFoundMessage": "Entity schema '{{entitySchemaName}}' not found",
+    "UnselectedColumnsWillBeDeletedMessage": "Unselected columns will be deleted. Proceed?"
+  },
+  "MergingRecords": {
+    "ConflictsResolveDialog": {
+      "TitleTemplate": "kopyaları birleştir ({0})",
+      "Actions": {
+        "Merge": "Birleştirmek"
+      }
+    },
+    "Handler": {
+      "Errors": {
+        "General": "Unable to merge selected records",
+        "NoRights": "Insufficient permissions to merge data",
+        "MinSelectedRecordsViolation": "Select at least two records to merge",
+        "SelectionAllModeUsingViolation": "Merging is not available when using \"Select all\". Select the records you want to merge manually."
+      },
+      "SuccessfulCompletionStatus": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete."
+    }
+  },
+  "Applications": "Application Hub",
+  "ApplicationExplorer": {
+    "RunAppButton": "Çalıştırma uygulaması",
+    "UpdateButton": "Güncelleme",
+    "Structure": {
+      "NavigationItems": "Navigasyon ve bölümler",
+      "GeneralInformation": "Genel Bilgi",
+      "Pages": "Sayfalar",
+      "ObjectModels": "Veri Modelleri",
+      "BusinessProcesses": "İş Süreçleri",
+      "AdvancedSettings": "Package settings",
+      "WebService": "Entegrasyonlar",
+      "RestService": "Dinlenme hizmeti",
+      "SoapService": "Sabun hizmeti",
+      "CreatioAi": "Creatio.ai"
+    },
+    "AdvancedSettingsActions": {
+      "Delete": "Sil",
+      "Deactivate": "Devre dışı bırakmak",
+      "Exclude": "Uygulamadan hariç",
+      "Current": "Mevcut paket olarak ayarlayın",
+      "ExcludeDialog": "\"{0}\" paketini uygulamadan hariç tutmak istediğinizden emin misiniz?",
+      "PackageExcluded": "{0} paketini uygulamadan hariç tuttu",
+      "SetCurrentPackage": "\"{0}\" paketini geçerli uygulama paketi olarak başarıyla ayarlayın",
+      "CurrentPackageTooltip": "Uygulama Mevcut Paket",
+      "PackageCreated": "{0} paketini ekledi",
+      "OnePackageAdded": "{0} paketini uygulamaya ekledi",
+      "PackagesAdded": "{0} paketlerini uygulamaya ekledi",
+      "Create": "Yeni Paket Oluştur",
+      "AddExistingPackages": "Mevcut paketleri ekleyin",
+      "PackageProperties": "Özellikleri",
+      "AddExistingPackagesDialog": {
+        "Caption": "Mevcut paketleri seçin",
+        "PackageNameColumn": "Paket adı",
+        "ErrorInfoAllPackagesNotAdded": "Paketleri uygulamaya eklenemiyor: {0}",
+        "ErrorInfoSomePackagesNotAdded": "Paketleri uygulamaya ekledi: {0}\nPaketleri uygulamaya eklenemiyor: {1}"
+      },
+      "Activate": "Etkinleştirmek"
+    },
+    "GeneralInformation": {
+      "CreatedOn": "Yaratıldı",
+      "LastUpdate": "Son Güncelleme",
+      "Developer": "Geliştirici",
+      "CreateNewObjectCaption": "Yeni Bir Nesne Oluşturun",
+      "UseExistingObjectCaption": "Mevcut bir nesneye bağlantı",
+      "SelectObject": "Nesne",
+      "SelectObjectPlaceholder": "Mevcut bir nesne seçin",
+      "CreateMobilePages": "Create pages for the mobile app"
+    },
+    "BackTooltip": "Geri",
+    "PenTooltip": "Uygulama Düzenle",
+    "EyeTooltip": "Uygulama Bilgilerini Görüntüle"
+  },
+  "ApplicationSections": {
+    "ApplicationSectionItem": {
+      "FreedomUI": "Freedom UI"
+    },
+    "Menu": {
+      "Trigger": "Yeni",
+      "CreateFreedomUiSection": "Yeni Özgürlük UI Bölümü"
+    },
+    "ApplicationSectionEditDialog": {
+      "Title": {
+        "Create": "Yeni bölüm",
+        "Update": "Düzenleme Bölümü"
+      },
+      "HeaderCarouselCaption": "Simge ve Renk Seçin",
+      "Fields": {
+        "Name": "lBaşlık",
+        "NamePlaceholder": "Yeni Bir Uygulama Bölümü Adlandırın",
+        "Code": "Section code",
+        "CodePlaceholder": "Bir bölüm kodu ayarlayın",
+        "CodeTooltip": "Yeni bir bölümde öğelerin kodlarını oluştururken kullanılacak değer.Örneğin, nesne, istemci şemaları",
+        "UseExistingObjectTooltip": "Yeni bir nesne oluşturmak yerine bölümü mevcut bir nesneye bağlamayı seçin",
+        "CreateMobilePagesTooltip": "Clear this option to create a web-only app"
+      },
+      "Buttons": {
+        "Create": "Yaratmak",
+        "Update": "Kaydet",
+        "Cancel": "İptal"
+      },
+      "ColorPickerCaption": "Renk",
+      "AdvancedModeButtonCaption": "Gelişmiş parametreler"
+    }
+  },
+  "AppGetStarted": {
+    "CancelButtonCaption": "Atlamak",
+    "SelectButtonCaption": "Ayarlamak",
+    "HeaderCaption": "Bir uygulama oluşturmaya hazır mısınız?",
+    "SubHeaderCaption": "Kesintisiz ve verimli bir geliştirme deneyimi için popüler şablonlarımızla potansiyelinizin kilidini açın"
+  },
+  "ApplicationManagementComponent": {
+    "NewAppButton": "Yeni Uygulama",
+    "DeleteAppConfirmationMessage": "Uygulamayı silmek istediğinizden emin misiniz?",
+    "UpdateAppButton": "Güncelleme",
+    "DeployAppButton": "Dağıtmak",
+    "ExportAppButton": "İhracat",
+    "DeleteAppButton": "Sil",
+    "SuccessfullyDeleted": "Uygulama silindi",
+    "NoAppsTitle": "Bu bölümde şu ana kadar uygulama yok",
+    "NoAppsText": "Bir uygulama oluşturun veya bu bölümün daha güzel görünmesini sağlamak için hazır bir pazar çözümü yükleyin",
+    "Update": "Güncelleme",
+    "UpdateAvailableMessage": "Heyecan verici haberlerimiz var!Uygulamanın en yeni sürümü artık pazarda mevcuttur - şimdi GOT IT!",
+    "OpenAppButton": "Açık"
+  },
+  "ApplicationTemplateLookupComponent": {
+    "CancelButtonCaption": "İptal",
+    "HeaderCaption": "Uygulamayı seçin",
+    "SelectButtonCaption": "Ayarlamak"
+  },
+  "ApplicationBusinessProcesses": {
+    "Active": "Aktif",
+    "NotActive": "Aktif değil",
+    "NewButtonCaption": "Yeni Süreç",
+    "NotActual": "(Not actual)",
+    "Version": "Versiyon",
+    "VersionsDialog": {
+      "ProcessVersions": "Süreç versiyonları",
+      "Title": "İsim",
+      "ModifiedOn": "Tarihinde değiştirildi",
+      "Version": "Versiyon",
+      "ActualVersion": "Gerçek sürüm",
+      "IsActualValue": "Evet",
+      "IsNotActualValue": "HAYIR",
+      "SharedPackageValue": "Shared package",
+      "CloseButtonCaption": "Kapat",
+      "Application": "Uygulama",
+      "Package": "Paket"
+    }
+  },
+  "ApplicationEntities": {
+    "NewButtonCaption": "Yeni Veri Modeli"
+  },
+  "ApplicationWebServices": {
+    "NewButtonCaption": "Yeni entegrasyon"
+  },
+  "GalleryToolbar": {
+    "NewPageButtonCaption": "Yeni sayfa",
+    "SortByCaption": "Altyazılı",
+    "SortByName": "İsimle",
+    "SortByModifiedOn": "Değiştirilmiş tarihe kadar",
+    "SortByStatus": "Duruma göre",
+    "SortByType": "Türüne göre",
+    "SortByUri": "Web Service Uri tarafından",
+    "SearchError": "Arama ayarları için kullanılan altyazı sütun için belirtilmedi",
+    "SpecifyMessage": "Lütfen arama sütunları tanımlayıcı veya tablo veri şemasında belirtin.",
+    "NewButtonCaption": "Yeni"
+  },
+  "ApplicationUploadPage": {
+    "SelectDropFileText": "Lütfen dosyayı seçin",
+    "FileExtensionsRow1": "Uygulama yüklemek için dosyayı seçin.Bu olabilir",
+    "FileExtensionsRow2": "Be *.zip veya *.gz Arşivi",
+    "SelectFileButtonCaption": "dosya Seç",
+    "InvalidFileSize": "Uygulamayı yükleyemiyor.Maksimum dosya boyutu ({0} mb) aşıldı",
+    "ChangeMaxSize1": "Bu parametreyi \"Yüklü Uygulama İçin Maksimum Dosya Boyutu\" nda değiştirebilirsiniz.",
+    "ChangeMaxSize2": "(\"ApplicationInstallationMaxFilesize\" Kodu) Sistem Ayarı",
+    "CorruptedFileMessage1": "Unable to open \"{0}\". The file is invalid or corrupted.",
+    "CorruptedFileMessage2": "Check the file integrity or download and reupload it."
+  },
+  "ApplicationInstallationStatus": {
+    "InstallationCaption": {
+      "Line1": "Uygulamayı yükleme",
+      "Line2": "Bu birkaç dakika sürebilir"
+    },
+    "LicenseLoaded": "Uygulama denemesi 14 gün boyunca aktiftir.Bu dönemden sonra uygulamayı kullanmaya devam etmek için lisans satın alın.",
+    "NeedRequestLicense": "14 günlük başvuru denemesini kullanmaya başlamak için,",
+    "NeedRequestLicenseMailTo": "Destek ile iletişime geçin ve bir başvuru lisansı sipariş edin.",
+    "MailToText": "Creatio Marketplace uygulaması için deneme lisansı alın - {0}.",
+    "LicenseLoadedInDemoMode": "Artık demo sürüm kısıtlamalarıyla kullanabilirsiniz."
+  },
+  "MarketplaceInstallationService": {
+    "NoAppIdErrorCodeText": "Bu kimlikle pazarda başvuru bulamıyor",
+    "ErrorCodeText": "Marketplace'den uygulama verilerini yükleyemedi"
+  },
+  "ApplicationExplorerToolbar": {
+    "ShowRelatedElementsCaption": "Kalıtımlı unsurları göster",
+    "ShowRelatedElementsTooltip": "Kilitli uygulamalardaki tüm öğeleri gösteren tüm öğeleri gösterin, böylece kilitli bir öğeyi genişletebilir ve geçerli uygulamada saklayabilirsiniz"
+  },
+  "AppInstallInfoDialog": {
+    "ApplicationInstallation": "Application installation",
+    "ApplicationsInstallation": "Applications installation",
+    "ApplicationUpdate": "Application update",
+    "Trial": "Ödenmiş",
+    "Free": "Free",
+    "Close": "Kapat",
+    "Cancel": "İptal",
+    "Install": "Düzenlemek",
+    "InstallAll": "Install all",
+    "Update": "Güncelleme",
+    "ErrorCodeText": "Pazarda başvuru bulamıyor.\nVar olmayan uygulamayı yüklemeye çalışıyorsunuz gibi görünüyor.\nTamam düğmesini tıklayın, sizi uygulama merkezine geri döndürür.",
+    "OutOfSyncNames": "The name of your *.gz archive does not match the name specified in the descriptor.json file.",
+    "Type": {
+      "Application": "Uygulama",
+      "Package": "Paketi"
+    },
+    "Licensing": {
+      "free": "Free",
+      "trial": "Ödenmiş"
+    },
+    "Columns": {
+      "Name": "Satılan birimlerin sayısı",
+      "Type": "Tip",
+      "Version": "Versiyon",
+      "Developer": "Geliştirici",
+      "Licensing": "Licensing",
+      "RequiredVersion": "Gerekli Versiyon",
+      "InstalledVersion": "yüklenebilir versiyon"
+    },
+    "UnableLoadAppDetailsTitle": "Unable to load application details",
+    "UnableLoadAppDetailsMessage": "Couldn't retrieve application information from the Marketplace. Please try again later or contact support if the issue persists.",
+    "UnableLoadAppDetailsOkButtonCaption": "Return to Marketplace",
+    "DownloadLog": "Download validation log",
+    "GoToMarketplaceTooltip": "Go to Creatio Marketplace",
+    "InstallAnyway": "Install anyway",
+    "InstallAllAnyway": "Install all anyway",
+    "UpdateAnyway": "Update anyway"
+  },
+  "AppInstallAttentionInfo": {
+    "SingleAppFromMarketplaceMessage": "Uygulamanın, kullandığınız Creatio sürümüyle uyumlu olduğundan emin olun. Uyumlu Creatio ürünlerinin listesi için Uygulama Mağazası’ndaki (Marketplace) açıklamayı kontrol edin; bu liste satıcı tarafından garanti edilmektedir. Sürümünüz listede yoksa uygulamayı kurmaktan kaçının. Uygulamayı birebir deneyimlemek için önce bir test ortamına (sandbox) ya da Creatio web sitesinden 14 günlük deneme sürümüne yüklemeyi düşünebilirsiniz. Yalnızca kapsamlı testlerden sonra canlı ortama (production environment) geçiş yapmanız tavsiye edilir.",
+    "MultipleAppsFromMarketplaceMessage": "Uygulamaların, kullandığınız Creatio sürümüyle uyumlu olduğundan emin olun. Satıcı tarafından garanti edilen uyumlu Creatio ürünlerinin listesi için Uygulama Mağazası’ndaki açıklamayı kontrol edin. Sürümünüz listede yoksa uygulamayı yüklemekten kaçının. Uygulamayı doğrudan deneyimlemek için önce bir test ortamına (sandbox) veya Creatio web sitesinden 14 günlük deneme sürümüne yüklemeyi düşünebilirsiniz. Yalnızca kapsamlı testlerin ardından canlı ortama (production environment) geçiş yapmanız önerilir.",
+    "SingleAppFromZipMessage": "Uygulamanın, hedef web sitesinin sürümü ve ürünüyle uyumlu olduğundan emin olun. Studio ürünü tabanlı uygulamalar tüm Creatio ürünleriyle uyumludur. Pazarlama, Satış veya Hizmet ürünü tabanlı uygulamaların ise, ilgili ürünü içeren web sitelerine yüklenmesi önerilir.",
+    "MultipleAppsFromZipMessage": "Uygulamaların, hedef web sitesinin sürümü ve ürünüyle uyumlu olduğundan emin olun. Studio ürünü tabanlı uygulamalar tüm Creatio ürünleriyle uyumludur. Pazarlama, Satış veya Hizmet ürünü tabanlı uygulamaların ise, ilgili ürünü içeren web sitelerine yüklenmesi önerilir."
+  },
+  "AppInstallErrorInfo": {
+    "RequiredPlatformVersionErrorInfo": {
+      "Title": "Incompatible platform version",
+      "ApplicationsCaption": "The following applications are not compatible with your environment:",
+      "SingleAppMessage": "The application <b>\"{0}\"</b> is not compatible with your environment. <b>To install the application, update Creatio to version {1}.</b>",
+      "MultipleAppsMessage": "<b>To install applications, update Creatio to version {0}.</b>",
+      "ConflictingVersionsTitle": "Conflicting Creatio versions",
+      "ConflictingVersionsCaption": "The following applications cannot be used together because they require conflicting Creatio versions:",
+      "SingleAppMessageForVersionRange": "The application <b>\"{0}\"</b> is not compatible with your environment. <b>To install the application, update Creatio to a supported version in the range: {1}.</b>",
+      "MultipleAppsMessageForVersionRange": "<b>To install applications, update Creatio to a supported version in the range: {0}.</b>",
+      "ConflictingVersionsMessage": "<b>To resolve the issue, contact the developer of the conflicting applications.</b>",
+      "RequiredPlatformVersion": "gerekli Creatio Versiyonu:"
+    },
+    "MissedRequiredDependenciesErrorInfo": {
+      "Title": "Can't retrieve required dependencies",
+      "SingleAppMessage": "The application <b>\"{0}\"</b> cannot be installed in this environment.<br />Some required dependencies are missing and cannot be retrieved automatically from the application catalog.<br /><b>To install the application, manually install the required applications or packages listed below and try again.</b>",
+      "MultipleAppsMessage": "Some applications in the installation file cannot be installed in this environment.<br />Required dependencies are missing and cannot be retrieved automatically from the application catalog.<br /><b>To install the applications, manually install the required applications or packages listed below and try again.</b>",
+      "SinglePackageMessage": "The package <b>\"{0}\"</b> cannot be installed in this environment.<br />Some required dependencies are missing and cannot be retrieved automatically from the application catalog.<br /><b>To install the package, manually install the required packages listed below and try again.</b>",
+      "MultiplePackagesMessage": "Some packages in the installation file cannot be installed in this environment.<br />Required dependencies are missing and cannot be retrieved automatically from the application catalog.<br /><b>To install the packages, manually install the required packages listed below and try again.</b>",
+      "PlatformVersionErrorInfo": {
+        "SingleAppTitle": "Incompatible platform version",
+        "SingleAppMessage": "To install the application <b>\"{0}\"</b>, Creatio must also install required dependent applications. However, some of these applications are not compatible with your current Creatio version. <br/>Incompatible applications: {1} <br/>",
+        "SingleAppUpdateCreatio": "<b>To install the application, update Creatio to version {0}.</b>",
+        "MultipleAppsTitle": "Incompatible platform versions",
+        "MultipleAppsMessage": "To install the selected applications, Creatio must also install required dependent applications. However, some of these applications are not compatible with your current Creatio version. <br/>Incompatible applications: {0} <br/>",
+        "MultipleAppsUpdateCreatio": "<b>To install the applications, update Creatio to version {0}.</b>",
+        "SingleRequiredPlatformVersion": " (requires Creatio version: {0} or later)",
+        "RangeRequiredPlatformVersion": " (requires Creatio version: {0})"
+      },
+      "ConflictVersionsErrorInfo": {
+        "Title": "Conflicting application versions",
+        "AppSingleVersionCaption": "<b>{0}</b> (version <b>{1}</b>)",
+        "AppRequiresVersionOrLaterCaption": "<b>{0}</b> requires <b>{1}</b> version <b>{2} or later</b>",
+        "AppRequiresVersionInRangeCaption": "<b>{0}</b> requires <b>{1}</b> version <b>{2}</b>",
+        "BundleVersionsErrorInfo": {
+          "Message": "The following applications from the installation file are incompatible with each other due to version conflicts: <br/>{0}<br/>",
+          "InstalledAppsCaption": "The installed version of <b>{0}</b> does not meet the version requirement of <b>{1}</b>.<br/>",
+          "ResolveAppsCaption": "Sorunu çözmek için, paketteki çakışan uygulamaları güncelleyin veya geliştiriciyle iletişime geçin."
+        },
+        "DepsVersionErrorInfo": {
+          "Message": "The following applications from the installation file cannot be used together due to conflicting version requirements for one or more dependent applications: <br/>{0}<br/>",
+          "InstalledAppsCaption": "These version requirements are incompatible with each other.<br/>",
+          "ResolveAppsCaption": "To resolve the issue, contact the developer of the conflicting applications."
+        }
+      },
+      "ConflictPlatformVersionErrorInfo": {
+        "Title": "Conflicting platform requirements",
+        "SingleAppMessage": "To install the application <b>\"{0}\"</b>, Creatio must also install required dependent applications. However, some of these applications require different and incompatible versions of the Creatio platform and cannot be used together in the same environment.<br/><br/>Conflicting applications: {1}",
+        "MultipleAppMessage": "To install the selected applications, Creatio must also install required dependent applications.However, some of the applications require incompatible versions of the Creatio platform and cannot be used together in the same environment.<br/><br/>Conflicting applications: {0}",
+        "AppRequiresVersionOrLaterCaption": "{0} (requires Creatio version {1} or later)",
+        "AppRequiresVersionInRangeCaption": "{0} (requires Creatio version {1})",
+        "ResolveConflictCaption": "Review the list of applications below or contact the developer to resolve the conflict."
+      }
+    },
+    "InvalidPackageContentErrorInfo": {
+      "InvalidPackageContentTitle": "Pre-installation check failed",
+      "SingleInvalidPackageContentMessage": "The application <b>\"{0}\"</b> cannot be installed because one or more validation errors were found during the pre-installation check.\nReview the list of issues below and resolve them in the environment before proceeding with installation.",
+      "MultiInvalidPackageContentMessage": "The applications cannot be installed because one or more validation errors were found during the pre-installation check.\nReview the list of issues below and resolve them in the environment before proceeding with installation."
+    },
+    "CompilationErrorsErrorInfo": {
+      "CompilationErrorsTitle": "Detected compilation errors",
+      "CompilationErrorsMessage": "<b>Previous system compilation completed with errors.</b> Compilation errors may prevent successful installation.<br/>To fix them, open the <a href ='{0}' target='_blank'>Configuration section</a>, correct the issues, and recompile the system."
+    },
+    "DependentAppsReqVersionConflictErrorInfo": {
+      "Title": "Installed application dependency conflict",
+      "ApplicationsCaption": "Installed applications causing the conflict:",
+      "AppWithRequiredVersion": "<b>{0}</b> requires <b>{1}</b> version <b>{2}</b>",
+      "NotCompatibleMessage": "These requirements are incompatible with the applications being installed. <b>Resolve the conflict to continue installation.</b>"
+    },
+    "DowngradeVersionConflictErrorInfo": {
+      "Title": "Version downgrade warning",
+      "SingleAppMessage": "Please review the version before continuing: a newer version of <b>\"{0}\"</b> is already installed in this environment.",
+      "MultipleAppsMessage": "Please review the versions before continuing: newer versions of some applications from the installation file are already installed in this environment.",
+      "AppVersionsInfo": "<b>{0}</b>: installed version <b>{1}</b>, version in the installation file <b>{2}</b>",
+      "ResolveConflictMessage": "<b>If you continue, the installed applications may be downgraded.</b>"
+    },
+    "SkipDueToDowngradeVersionErrorInfo": {
+      "Title": "Applications skipped",
+      "SingleAppMessage": "Some applications won't be installed because newer versions are already available in this environment.",
+      "MultipleAppsMessage": "Some applications won't be installed because newer versions are already available in this environment.",
+      "AppVersionsInfo": "<b>{0}</b> - installed version: <b>{1}</b>, version in this file: <b>{2}</b>",
+      "ResolveConflictMessage": ""
+    }
+  },
+  "AppInstallationGridInfoBlock": {
+    "PackagesTitleName": "paketler",
+    "Fields": {
+      "ApplicationName": "Satılan birimlerin sayısı"
+    }
+  },
+  "ActionItem": {
+    "LoadingTitle": "Loading file..."
+  },
+  "AppInstallWithDependenciesInfo": {
+    "Title": "Detected missing application dependencies",
+    "SingleMessage": "The application \"{0}\" requires additional applications that are either not installed or have unsupported versions in the environment.<br><b>The dependencies listed below will be automatically installed or updated from the application catalog.</b>",
+    "MultipleMessage": "Kurulum dosyasındaki bazı uygulamalar, ortamda yüklü olmayan veya desteklenmeyen sürümlere sahip ek uygulamalar gerektiriyor.<br><b>Aşağıda listelenen bağımlılıklar, uygulama kataloğundan otomatik olarak yüklenecek veya güncellenecektir.</b>"
+  },
+  "ApplicationCreatioAi": {
+    "ModelCaption": "Model",
+    "NewButtonCaption": "Yeni",
+    "AiAgentCaption": "Prompt agent",
+    "AiSkillCaption": "Sub-agent",
+    "AiWorkflowAgentCaption": "Workflow agent"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Yeni veya mevcut kayıt için bir sayfa yok.Sistem Yöneticisi Özgürlük UI'deki düğme ayarlarını kontrol etmelidir",
+    "GoToEntityDesignerMessage": "Sayfaları ayarlamak için URL'ye gidin: {0}"
+  },
+  "DesignerPresenceNotificationHandler": {
+    "SchemaUpdated": "{0} just updated {1}. Please refresh the page to see changes.",
+    "Connections": "{0} connections",
+    "Reload": "Reload",
+    "Download": "İndirmek"
+  },
+  "DesignerPresenceDisplay": {
+    "UserStartedEditing": "{0} started editing current {1}",
+    "ModeEditing": "Düzenleme",
+    "TooltipFormat": "{0} ({1})",
+    "ModeViewing": "Viewing",
+    "ModeSaved": "Saved",
+    "ModeSavedTime": "Saved ({0} ago)",
+    "ModeSavedRecently": "Saved recently",
+    "ShowAllUsers": "Show all users",
+    "AllUsersDialog": {
+      "Title": "Active users",
+      "Close": "Kapat",
+      "Columns": {
+        "ContactName": "Kişi",
+        "Email": "E-posta",
+        "SchemaName": "Editing area",
+        "Mode": "Mod"
+      }
+    }
+  },
+  "SchemaTypeCaption": {
+    "Page": "sayfa",
+    "Entity": "varlık",
+    "Addon": "ayriyeten"
+  },
+  "AppInstallationInfoBlock": {
+    "Fields": {
+      "Name": "Satılan birimlerin sayısı",
+      "LastUpdate": "Son Güncelleme",
+      "Developer": "Geliştirici",
+      "Version": "Versiyon"
+    },
+    "AttentionCaption": "Dikkat",
+    "WhatsNewCaption": "What`s new",
+    "PublicOfferAgreementForSingleInstallation": "By continuing the app installation, you confirm that you accept the relevant T&C published on the App’s Creatio Marketplace page.",
+    "PublicOfferAgreementForBundleInstallation": "By continuing the app installation, you confirm that you accept the relevant T&C published on the Creatio Marketplace for all the apps you are installing.",
+    "GoToMarketplaceTitle": "Go to application page"
+  },
+  "AppProcessingStatus": {
+    "Stages": {
+      "InProgressCaptions": {
+        "Pending": "Starting app installation",
+        "DownloadAppFromMarketPlace": "Downloading the app from Marketplace",
+        "DownloadAppFromAppInstaller": "Downloading the app",
+        "Validate": "Checking app requirements before installation",
+        "CreateBackup": "Backing up the configuration. Just in case!",
+        "Install": "Installing the app to your Creatio environment",
+        "OrderAppLicense": "Adding the app license",
+        "RestartApp": "Restarting your Creatio environment",
+        "RestoreFromBackup": "Please wait until the operation is complete and do not close the page"
+      },
+      "ErrorTitles": {
+        "Pending": "App preparation error",
+        "DownloadAppFromMarketPlace": "App download error",
+        "Validate": "App validation error",
+        "CreateBackup": "Backup error",
+        "Install": "App installation error",
+        "RestoreFromBackup": "Backup restoration error",
+        "DownloadAppFromAppInstaller": "App preparation error"
+      },
+      "ErrorDescriptions": {
+        "Pending": "An error occurred while preparing the app, deployment aborted, configuration was not changed. Try again later, contact support if the issue persists",
+        "DownloadAppFromMarketPlace": "Unable to retrieve app files from the Marketplace. To view error details, download the operation log",
+        "Validate": "Package validation failed. Installation aborted. Configuration was not changed. To view error details, download the operation log",
+        "CreateBackup": "Configuration backup failed. Installation aborted. Configuration was not changed. To view error details, download the operation log",
+        "Install": "An error occurred while installing the app. To view error details, download the operation log",
+        "RestoreFromBackup": "Unable to restore the configuration from backup",
+        "DownloadAppFromAppInstaller": "An error occurred while preparing the application for installation. The installation file could not be downloaded or processed due to a connection or preparation issue. <br/><br/>Try to start the installation again. If the problem persists, download the installation log for more details and contact Creatio Support."
+      }
+    },
+    "Buttons": {
+      "GoToAppHub": "Open Application Hub",
+      "DownloadLogs": "Download installation log",
+      "RestoreFromBackup": "Restore from backup"
+    },
+    "RestoringFromBackupCaption": "Restoring configuration from backup",
+    "SuccessStatusCaption": "Başarı",
+    "SuccessfullyRestoredFromBackupCaption": "The configuration has been restored from backup"
+  },
+  "Printables": {
+    "Caption": "Rapor Adı",
+    "ModuleName": "Bölüm",
+    "EntityName": "Nesne",
+    "TypeName": "Tip",
+    "ShowInSection": "Liste görünümünde göster",
+    "ShowInCard": "Kayıt sayfasında göster",
+    "ShowInAnalytics": "Bölüm Analytics görünümünde gösteri",
+    "FilterPage": "Filtre sayfası",
+    "Section": {
+      "Title": "Rapor Düzeneği",
+      "BlankslateTitle": "Mevcut arama kriterlerini eşleştiren kayıt yoktur.",
+      "BlankslateDescription": "Arama parametrelerini temizleyin veya değiştirin",
+      "Delete": "Sil",
+      "Add": "Yeni rapor",
+      "Copy": "Kopyala",
+      "AddFastReport": "FastReport",
+      "AddMSWord": "MS Word"
+    },
+    "Page": {
+      "NewReportCaption": "Yeni rapor",
+      "CopyPostfixCaption": "- kopya",
+      "InfoBlock": {
+        "Title": "Not",
+        "StepsTitle": "Bir rapor oluşturmak için:",
+        "Steps": {
+          "Step1": "Install the FastReport designer (the designer can be downloaded from the \"Documentation\" section in the <a href='{{academyLink}}' target='_blank'>{{academyLinkCaption}}</a>).",
+          "Step2": "Rapor veri kaynağını belirtin.",
+          "Step3": "Createo yapılandırmasında rapor verilerini işlemek için mantığı uygulayın.",
+          "Step4": "Dosyayı veri kaynağı ile indirin ve FasTReport Tasarımcısı'nda açın.",
+          "Step5": "Raporu FasTReport Tasarımcısı'nda tasarlayın.",
+          "Step6": "Rapor dosyasını kaydedin ve Createio'ya yükleyin."
+        },
+        "AcademyLink": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview",
+        "AcademyLinkCaption": "Akademi"
+      },
+      "DataSource": {
+        "Caption": "Veri kaynağı",
+        "Custom": {
+          "Caption": "Rapor için veri kaynaklarını belirtin",
+          "Description": {
+            "Text": "Raporunuza Creatio verileri eklemek için rapor verilerini ayarlayın.Nesnelerin listesini, sütunlarını, JSON formatındaki bağlantıları belirtin.Veri kaynağı açıklamalarına örnek olarak {parametre: AcadEmyLink} 'de mevcuttur.",
+            "Parameters": {
+              "AcademyLink": {
+                "Caption": "Akademi",
+                "Value": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview"
+              }
+            }
+          }
+        }
+      },
+      "Template": {
+        "Download": {
+          "Caption": "FasTReport Designer'da bir rapor tasarlamak için veri kaynaklarıyla dosyayı indirin",
+          "Description": "İndirilen dosyayı FASTREPORT tasarımcısında açın ve rapor düzenini ayarlayın.İndirilen dosya, FasTReport tasarımcısında kullanabileceğiniz veri kaynağı yapısını içerecektir.",
+          "ButtonCaption": "Dosyayı indir"
+        },
+        "Upload": {
+          "Caption": "Rapor şablonuyla bir dosya içe aktarın",
+          "Description": ".FRX dosyasını içe aktardıktan sonra, rapor rapor ayarlarına göre bölümün “Yazdır” menüsünde veya kayıt sayfasında görünecektir.",
+          "ButtonCaption": "Upload file",
+          "Error": {
+            "MessageBoxCaption": "Yükleme Rapor Şablonunu Başarısız"
+          },
+          "ReportUploadedMessage": "Rapor şablonu başarıyla kaydedildi"
+        }
+      },
+      "Validation": {
+        "required": "Değer girin",
+        "noWhitespaces": "Değer girin",
+        "isJson": "Geçerli bir JSON değeri girin",
+        "maxLength": "Maksimum metin uzunluğu aşıldı ({0}/{1})",
+        "dataSourceAbsentProviderNameProperty": "DataSource \"PRALIDERNAME\" özelliğine sahip olmalıdır",
+        "dataSourceAbsentSchemasProperty": "Datasource \"şemalar\" mülküne sahip olmalı",
+        "dataSourceSchemasIsEmpty": "Datasource'in şeması yok",
+        "dataSourceSchemasHasNoColumns": "DataSource Şeması \"{schemaname}\" sütun tanımı olmalı",
+        "dataSourceAbsentDataValueTypeProperty": "\"{Columnname}\" şema tanımı \"sütunu\" {schemaname} \"\" Datavaluetype \"özelliği olmalı"
+      }
+    }
+  },
+  "SessionEndDialog": {
+    "StayLoggedIn": "Stay logged in",
+    "Exit": "Abonelikten çıkanlar",
+    "LogIn": "Giriş yapmak"
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Çağırmak"
+  },
+  "CrtIconSelectorComponent": {
+    "Tooltip": "Simgeyi seçin"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "İş kuralı devre dışı bırakıldı"
+  },
+  "SalesEngagement": {
+    "StepBuilder": {
+      "EmptyState": {
+        "Title": "Henüz gösterilecek bir şey yok",
+        "Subtitle": "Lütfen önce veri ekleyin"
+      },
+      "UnexpectedReorderErrorMessage": "Unexpected error while reordering steps.",
+      "Actions": {
+        "AddStep": "Adım ekle",
+        "CollapseAll": "Collapse all",
+        "ExpandAll": "Expand all",
+        "Expand": "Expand step",
+        "Collapse": "Collapse step",
+        "Copy": "Kopyala",
+        "Edit": "Düzenle",
+        "Delete": "Sil",
+        "More": "Daha Fazla Eylemler"
+      }
+    },
+    "BaseStepTile": {
+      "Name": "Başlık",
+      "Description": "Açıklama",
+      "Priority": "Öncelik",
+      "Postpone": "Ertelemek",
+      "Measurement": "Measurement",
+      "Activity": "Aktivite",
+      "Step": "Adım",
+      "PostponeMinZeroValidationMessage": "Value must be greater than or equal to zero"
+    },
+    "AddSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were added.",
+      "NoRecordsAddedMessage": "No participants were added.",
+      "PartialResultTitle": "Some participants were not added",
+      "PartialResultMessage": "Added: {{count}}\n\nIssues:\n{{errors}}",
+      "ErrorResultTitle": "Participants were not added",
+      "ErrorResultMessage": "Issues:\n{{errors}}",
+      "DialogOkCaption": "tamam",
+      "UnexpectedErrorMessage": "Unexpected error while adding participants."
+    },
+    "ActivateSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were activated.",
+      "NoRecordsActivatedMessage": "No participants were activated."
+    },
+    "ReassignSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were reassigned.",
+      "NoRecordsReassignedMessage": "No participants were reassigned.",
+      "PickerTitle": "Select new sequencer"
+    },
+    "EmailStepTile": {
+      "Subject": "Konu",
+      "Body": "Başlık"
+    },
+    "StepMetrics": {
+      "Total": {
+        "Label": "Toplam",
+        "Hint": "All activities created for this step"
+      },
+      "Delivered": {
+        "Label": "Gönderildi",
+        "Hint": "Emails successfully sent for this step"
+      },
+      "Replies": {
+        "Label": "Replies",
+        "Hint": "Replies received for this step"
+      },
+      "ReplyRate": {
+        "Label": "Reply rate",
+        "Hint": "Share of sent emails that received a reply (replies / sent)"
+      },
+      "NotStarted": {
+        "Label": "Başlatılmadı",
+        "Hint": "Activities not started yet"
+      },
+      "Completed": {
+        "Label": "Durduruldu",
+        "Hint": "Activities completed"
+      },
+      "Answered": {
+        "Label": "Answered",
+        "Hint": "Calls that reached the contact (meeting scheduled, not interested, or call later)"
+      },
+      "BadContact": {
+        "Label": "Bad contact",
+        "Hint": "Calls with a bad number or wrong contact"
+      },
+      "NoAnswer": {
+        "Label": "Cevapsız",
+        "Hint": "Calls that were not answered"
+      }
+    },
+    "SequenceStepName": {
+      "StepLabel": "Adım",
+      "DayLabel": "Gün"
+    }
+  },
+  "ClientUnitSchemaDesignerApi": {
+    "EntitySchemasCircularReferenceError": "Cyclic dependency error. New data sources reference each other through lookup columns. Remove one of the references and try again.",
+    "PackageDependenciesIsAbsentError": "Sayfa kaydedilemedi.{{schemaRor}}",
+    "SchemaPackageDependencyIsAbsentError": "Lütfen {{currentPackageName}} paketi için {{missedPackageName}} paketine bağımlılık ekleyin."
+  },
+  "DataSourceDependenciesSetting": {
+    "Title": "Sayfa verilerine göre filtreyi uygulayın",
+    "Tooltip": "Sayfa verilerine göre filtre, bağlı kayıtları veya detay verilerini ek bir listede görüntülemenizi sağlar.",
+    "RelationsAndFilters": {
+      "Title": "Add relation criteria",
+      "Tooltip": "Set up the relation criteria that will be used to identify which record of this data source to show in the page fields."
+    }
+  },
+  "DataSourceDependency": {
+    "PageData": "Veri kaynağı",
+    "MatchDataSourceAttributes": "Veri kaynağı özelliklerini eşleştirin",
+    "FilterByActiveItemLabel": "Aktif Satırla Filtre",
+    "FilterByActiveItemTooltip": "Kullanıcıların liste verilerini bağlantılı veri kaynağının etkin satırına göre filtrelemesine izin vermek için seçin",
+    "PageDataSourceRelationTitle": "Relates to"
+  },
+  "DataSourceFilterElementsGroup": {
+    "Title": "Önceden yapılandırılmış filtreyi uygulayın",
+    "Tooltip": "Ayar, klasörlerden veya diğer veri filtreleme öğelerinden sayfa filtreleri olarak önceden yapılandırılmış filtreleri kullanmanızı sağlar."
+  },
+  "DataSourceFilterElement": {
+    "Caption": "Filtre öğesi"
+  },
+  "EntitySchemaSelectComponent": {
+    "AddNewEntity": "Yeni Nesne Ekle",
+    "CreatePageLabel": "Lütfen bir sayfa oluşturun, çünkü bu eylemi yürütecek hiçbir şey yok.",
+    "CreatePageLink": "Sayfa Oluştur",
+    "EditPageLabel": "{0} 1 form sayfasına sahiptir.",
+    "EditPagesLabel": "{0} birkaç sayfa vardır.",
+    "EditPageLink": "Sayfayı düzenle",
+    "OpenPagesSetup": "Sayfa kurulumunu görüntüle",
+    "SaveConfirmationDialog": {
+      "Message": "Bir sayfa oluşturmadan önce nesneyi kaydedin.Devam etmek?"
+    },
+    "RelatedPagesCaptionWithEntityName": "{0} sayfa kurulumu"
+  },
+  "CrtLookupViewPropertiesComponent": {
+    "SelectionWindow": "Seçim penceresi",
+    "List": "Açılır liste",
+    "Label": "Arama Görünümü"
+  },
+  "LookupSchemaSelectComponent": {
+    "CreateLookupEntityButtonLabel": "Arama Nesnesi Oluştur",
+    "EditLookupEntityButtonLabel": "Arama Nesnesini Düzenle"
+  },
+  "DataSourceSortElementsGroup": {
+    "SortLabelCaption": "katkı",
+    "Title": "Şuna göre sırala",
+    "Tooltip": "Define sorting rules to determine which record to select when multiple records in the {{dataSourceName}} meet the above criteria",
+    "Ascending": "Artan",
+    "Descending": "Azalan"
+  },
+  "CrtPropertiesPanelHeaderComponent": {
+    "CloseButtonTitle": "Kapat"
+  },
+  "DataValueType": {
+    "DateCaption": "Date",
+    "TimeCaption": "Zaman",
+    "DateTimeCaption": "Date/Time",
+    "GuidCaption": "Benzersiz tanımlayıcı",
+    "BooleanCaption": "Boole",
+    "LongTextCaption": "Metin (500 karakter)",
+    "MaxSizeTextCaption": "Sınırsız uzunlukta metin",
+    "IntegerCaption": "Tamsayı",
+    "FLOAT2Caption": "Ondalık (0,01)",
+    "MoneyCaption": "Para birimi (0.01)"
+  },
+  "BusinessRule": {
+    "EditProperties": {
+      "Applicabilities": {
+        "DataSource": "Veri nesnesine",
+        "Page": "Sayfa"
+      },
+      "Name": "Satılan birimlerin sayısı",
+      "Applicability": "Kuralı uygulayın",
+      "DataSource": "Nesne",
+      "Enabled": "Etkinleştirilmiş",
+      "Caption": "lBaşlık",
+      "Validators": {
+        "RequiredCaptionField": "Değer girin"
+      },
+      "Code": "Kod"
+    },
+    "PropertiesPanel": {
+      "Header": {
+        "Title": "İş Kuralı Ayarları"
+      },
+      "GeneralGroup": "halka açık",
+      "AdvancedGroup": "Advanced"
+    },
+    "Mode": {
+      "Title": "Kural Yapılandırma Modu",
+      "ShowDesigner": "Gösteri Tasarımcı",
+      "ShowCodeEditor": "Meta verileri göster"
+    },
+    "BlankSlate": {
+      "AddNewRule": "Yeni kural ekle",
+      "NoBusinessRules": "Kural yok"
+    },
+    "GenerateCaption": {
+      "EmptyActionsTranslation": "Business rule"
+    }
+  },
+  "BusinessRules": {
+    "CancelChangesConfirmationDialog": {
+      "Message": "Bu sayfa kaydedilmemiş değişiklikler içerir.Sayfayı kapatırsanız kaybolurlar.Değişiklikleri Kaydet?"
+    },
+    "PanelTitle": "İş Kuralları Kurulumu",
+    "List": {
+      "GroupName": "{{name}} iş kuralları",
+      "PageBusinessRules": "Sayfa İş Kuralları",
+      "AddRule": "Yeni eylem",
+      "RemoveRule": "Sil",
+      "CopyRule": "Kopyala"
+    },
+    "Buttons": {
+      "SaveButtonCaption": "Kayıt etmek",
+      "CancelButtonCaption": "İptal",
+      "OpenPropertiesPanelButtonTooltip": "İş Kuralı Ayarları"
+    },
+    "Errors": {
+      "BusinessRulesAddonsError": "İş Kuralları Eklentiler Hatası!",
+      "InvalidRuleMessage": "Kural kurulumu eksik.Başlık, durum ve eylem parametrelerini kontrol edin.Kural başlığı veya eylemleri boş olmamalıdır.",
+      "NotValidRules": "Kuralları kurtaramıyor.Geçersiz kuralların başlık, eylem ve koşul ayarlarını kontrol edin.",
+      "MaxSizeInConditionLimitedWarningMessage": "Sınırsız uzunluk metin alanının 'eşit' ve 'eşit değil' koşullarında kullanımının yalnızca ilk 500 karakterle sınırlı olduğunu lütfen unutmayın.",
+      "NotSupportedInConditionTypesWarningMessage": "'Zengin Metin' ve 'Görüntü' türleri, 'Eşitler' ve 'Eşit Değil' koşulları olan iş kuralları için desteklenmez."
+    },
+    "TooltipMessage": {
+      "DisabledRuleMessage": "İş kuralı devre dışı bırakıldı"
+    }
+  },
+  "DataSourceElementTypes": {
+    "Text": "lBaşlık",
+    "Number": "Sayı",
+    "Boolean": "Boole",
+    "Lookup": "Ara",
+    "ColorPicker": "Renk",
+    "DateTime": "Tarih / Saat",
+    "ImageLink": "Resim bağlantısı",
+    "EncryptedInput": "Şifrelenmiş dize"
+  },
+  "BusinessRuleDesigner": {
+    "Delete": "Sil",
+    "DeleteConfirm": "İş kuralını silmek ister misiniz?",
+    "NoBusinessRules": "İş kuralı yok",
+    "TriggerCaptionDefault": "Page is opened or one of the attributes in conditions changed",
+    "SetValueAction": {
+      "TypeCaption": "Değer belirlemek"
+    },
+    "SetFilterAction": {
+      "TypeCaption": "Statik Filtre uygulayın",
+      "FilterFieldCaption": "Filtre",
+      "SpecifyValuePlaceholder": "Değer belirtin",
+      "SetupStaticFilterAction": "Kurulum filtresi",
+      "EditStaticFilterAction": "Filtreyi Düzenle",
+      "FiltersDialogCaption": "Filtre Kurulumu"
+    },
+    "FilterLookupAction": {
+      "TypeCaption": "Filtre uygulayın",
+      "FilterFieldCaption": "Filtre",
+      "ByFieldCaption": "ile",
+      "WhereFieldCaption": "Neresi",
+      "SpecifyValuePlaceholder": "Değer belirtin",
+      "PopulateValue": "Değer doldurun",
+      "PopulateRightExpressionPathElement": "Alan {1} doldurulursa {0} alanını doldurun",
+      "ClearValue": "Değeri sil",
+      "ClearLeftExpressionPathElement": "Alan {1} değiştirilirse {0} alanı temizleyin"
+    },
+    "HideElementAction": {
+      "TypeCaption": "Öğeleri gizle"
+    },
+    "ShowElementAction": {
+      "TypeCaption": "Öğeleri göster"
+    },
+    "Action": "Aksiyon",
+    "AddAction": "Aksiyon ekle",
+    "DeleteAction": "Eylemi Sil",
+    "AddElement": "Eleman ekle",
+    "DeleteElement": "Elemanı Sil",
+    "CollapseConditionButton": "Yıkılmak",
+    "ShowCodeEditor": "Kod Düzenleyiciyi Göster",
+    "HideCodeEditor": "Kod Düzenleyiciyi Gizle",
+    "ElementCode": "kod:",
+    "EditableElementAction": {
+      "TypeCaption": "Öğeleri düzenlenebilir hale getirin"
+    },
+    "ReadOnlyElementAction": {
+      "TypeCaption": "Elemanları Salt okunur yapın"
+    },
+    "OptionalElementAction": {
+      "TypeCaption": "Elemanları İsteğe Bağlı Yapın"
+    },
+    "RequiredElementAction": {
+      "TypeCaption": "Gerekli unsurları yapmak"
+    },
+    "SetValuesAction": {
+      "TypeCaption": "Değer girmek",
+      "Groups": {
+        "Inputs": "Giriş",
+        "DataSource": "Veri kaynağı"
+      }
+    },
+    "Formula": {
+      "ValuePicker": {
+        "SourceCaption": "Formül",
+        "SetUpFormulaBtnCaption": "Formül ayarlayın",
+        "ChangeFormulaBtnCaption": "Change formula"
+      },
+      "EntityDataSourceExpressionValidator": {
+        "ColumnDoesNotExist": "Sütun {{column}} mevcut değil"
+      }
+    },
+    "TriggerCaptionForDynamicFilter": "Page is opened or one of the attributes in conditions or actions changed",
+    "TriggerCaptionForSetValueConst": "Record creation page is opened or one of the attributes in conditions changed",
+    "TriggerCaptionForSetValueFormula": "Record creation page is opened or one of the attributes in conditions or actions changed",
+    "TriggerTooltipText": "The business rule contains multiple different actions that may have different triggers. Learn more about the triggers in Creatio Academy."
+  },
+  "SysAdminUnits": {
+    "AllEmployees": "Tüm Çalışanlar",
+    "ExternalUsers": "Portal users"
+  },
+  "SchemaDesigners": {
+    "EntityPagesDesigner": {
+      "HasTypeColumnLabel": "Belirli bir alan değerine dayalı birden çok sayfa kullanın",
+      "ClearTypedPagesConfirmation": {
+        "Message": "Tipilandırılmış sayfaların ayarları temizlenecektir.",
+        "Buttons": {
+          "Continue": "Devam etmek",
+          "Cancel": "İptal"
+        }
+      },
+      "TypeColumnLabel": "Sayfa düzenini belirleyen alan",
+      "TypeColumnRemoved": "Sütun kaldırıldı",
+      "PageRemoved": "Sayfa kaldırıldı",
+      "Columns": {
+        "Role": "Rol",
+        "Type": "Tip",
+        "DefaultPage": "Varsayılan sayfa",
+        "AddPage": "Kayıt eklemek için sayfa"
+      },
+      "ToolsPanel": {
+        "Caption": "Sayfa listesi",
+        "AddPageButtonTooltip": "Sayfa ekle"
+      },
+      "RowMenuItems": {
+        "Open": "Açık",
+        "Copy": "Kopyala",
+        "Delete": "Sil"
+      }
+    }
+  },
+  "EntityPagesDesignerDialog": {
+    "Caption": "Sayfa Kurulumu"
+  },
+  "RelatedPageCombobox": {
+    "RelatedPageLabel": "Varsayılan sayfa",
+    "AddPageLabel": "Kayıt eklemek için sayfa",
+    "RelatedPagesCaption": "Sayfa Kurulumu",
+    "DefaultPagePlaceholder": "Başka bir sayfa belirtilmiyorsa, kullanılacak sayfa",
+    "AddPagePlaceholder": "Kayıt eklemek için kullanılacak sayfa",
+    "DefaultPageSelectionTooltip": "Kayıtları düzenlemek, okumak ve oluşturmak için varsayılan sayfayı seçin veya oluşturun.\nVeri kaynağı olarak kullanılan geçerli nesneyle bir Özgürlük UI sayfası kullanmanızı öneririz.",
+    "AddPageTooltip": "Yalnızca yeni bir kayıt eklemek için kullanılacak belirli bir sayfayı seçin veya oluşturun."
+  },
+  "PagesGroupDialog": {
+    "RoleCaption": "Rol",
+    "TypeCaption": "Tip",
+    "NewRecord": "Yeni Sayfa Ayarları",
+    "EditRecord": "Sayfa Ayarları",
+    "EmptyTypeColumnTooltip": "Lütfen sayfayı belirlemek için kullanılacak alanı seçin."
+  },
+  "Tooltips": {
+    "TypeColumn": {
+      "Message": "Sayfa düzenini belirleyen alan kaldırıldı."
+    }
+  },
+  "QuickFilterGroup": {
+    "Caption": "Filters"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "Tercüme",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "Sidebar": {
+    "PredefinedSidebarGroups": {
+      "CommunicationPanel": "İletişim paneli",
+      "NotificationsPanel": "Bildirim Paneli"
+    }
+  },
+  "ConstValuePickerProvider": {
+    "Caption": "Sabit değer",
+    "SourceCaption": "Devamlı",
+    "ValuePickerComponent": {
+      "Placeholder": "Değer belirtin"
+    },
+    "ConstValuePickerDialogComponent": {
+      "Title": "Değeri seç",
+      "Label": "değer",
+      "Actions": {
+        "OkButtonCaption": "OK",
+        "CancelButtonCaption": "İptal"
+      }
+    }
+  }
+}

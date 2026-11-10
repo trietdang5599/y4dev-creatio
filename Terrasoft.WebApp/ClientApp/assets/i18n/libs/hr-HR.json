@@ -1,0 +1,4386 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Učitavanje..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopirano"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Još ništa za prikazati ",
+      "Subhead": "Molim prvo dodajte podatke"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Razgovor započet: {0} od strane",
+        "EndDate": "Razgovor završen: {0} od strane"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Kanal se ne može izbrisati jer postoje aktivni razgovori ili razgovori na distribuciji. Molimo dovršite razgovore i pokušajte ponovno."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Učitavanje"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Greška",
+      "Default": "Opisna oznakaprikaz savjeta"
+    }
+  },
+  "ExpressionDesigner": {
+    "Title": "Dizajner formule",
+    "EmptyExpressionForbidden": "Nije moguće spremiti praznu formulu",
+    "Add": "Dodaj",
+    "ExpressionIsNotValid": "Nije moguće pohraniti formulu. Molimo ispravite greške u validaciji i pokušajte ponovo",
+    "Validation": {
+      "DivisionByZero": "Dijeljenje s nulom nije dozvoljeno",
+      "ExpressionTypeNotValid": "Literalna string vrijednost ne može se koristiti u ovom izrazu",
+      "ColumnRemoved": "Stupac uklonjen"
+    },
+    "EmptyExpressionValidation": "Formula je prazna",
+    "ValidationSuccess": "Validacija je uspješna",
+    "ExpressionDesignerError": "Nešto nije u redu. Molimo, pokušajte ponovo ili kontaktirajte administratora sustava"
+  },
+  "Components": {
+    "SearchFilter": {
+      "Caption": "Pretraži",
+      "Placeholder": "Pretraži",
+      "Tooltip": "Komponenta Pretraživanje omogućuje pretraživanje samo po tekstualnim, brojčanim i stupcima za pretraživanje s izravnim vezama na objekt liste."
+    },
+    "EncryptedInput": {
+      "Caption": "Enkriptirani niz",
+      "EyeButtonShowValueCaption": "Prikaži vrijednost",
+      "ToggleMaskedValueHandler": {
+        "ErrorMessage": "Nešto nije u redu. Molimo, pokušajte ponovo ili kontaktirajte administratora sustava."
+      },
+      "EyeButtonHideValueCaption": "Sakrij vrijednost",
+      "EyeButtonDisabledCaption": "Nije moguće prikazati/skriti vrijednost",
+      "UnmaskRecordParametersBuilder": {
+        "UnsupportedAttributeTypeError": "Ova vrsta atributa nije podržana za ovu operaciju. Provjerite konfiguraciju polja ili pokušajte s drugim tipom podataka.",
+        "CurrentRecordIdNotFoundError": "Nije moguće pronaći ID trenutnog zapisa. Ovo se može dogoditi ako zapis još nije spremljen. Provjerite je li zapis spremljen prije izvođenja ove radnje.",
+        "ReferenceRecordIdNotFoundError": "Nedostaje ID referenciranog zapisa. To se može dogoditi ako referenca pokazuje na novoizrađeni zapis koji još nije spremljen u bazu podataka. Prvo spremite referencirani zapis.",
+        "ReferenceColumnSchemaNameNotFoundError": "Naziv referencirane sheme kolone nije pronađen. Provjerite konfiguraciju referentnog polja."
+      }
+    },
+    "FolderTree": {
+      "Caption": "Mape",
+      "Hint": "Omogućuje vam konfiguriranje strukture mapa kako biste organizirali zapise prema određenim filtirima. Kako biste osigurali da komponenta radi kako je namijenjeno, povežite je u postavkama stranice Popis ili Izvor podataka."
+    },
+    "FolderTreeActions": {
+      "Caption": "Izbornik upravljanja mapama",
+      "Hint": "Zahtijeva komponentu Mape. Omogućuje vam prikaz skrivenih mapa na stranici."
+    },
+    "QuickFilter": {
+      "Caption": "Brzi filter",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "Jučer",
+          "Today": "Danas",
+          "Tomorrow": "Sutra",
+          "PreviousWeek": "Prošli tjedan",
+          "CurrentWeek": "Tekući tjedan",
+          "NextWeek": "Sljedeći tjedan",
+          "PreviousMonth": "Prošli mjesec",
+          "CurrentMonth": "Tekući mjesec",
+          "NextMonth": "Sljedeći mjesec",
+          "PreviousQuarter": "Prošli kvartal",
+          "CurrentQuarter": "Trenutni kvartal",
+          "NextQuarter": "Sljedeći kvartal",
+          "PreviousFiscalWeek": "Prethodni fiskalni tjedan",
+          "CurrentFiscalWeek": "Trenutni fiskalni tjedan",
+          "NextFiscalWeek": "Sljedeći fiskalni tjedan",
+          "FiscalQuarter1": "Q1",
+          "FiscalQuarter2": "Q2",
+          "FiscalQuarter3": "Q3",
+          "FiscalQuarter4": "Q4",
+          "FiscalHalfYear1": "Prva polovina godine",
+          "FiscalHalfYear2": "Druga polovina godine",
+          "PreviousFiscalYear": "Prošla godina",
+          "CurrentFiscalYear": "Tekuća godina",
+          "NextFiscalYear": "Sljedeća godina"
+        }
+      }
+    },
+    "MessageComposer": {
+      "Caption": "Sastavljač poruke",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "E-pošta"
+        },
+        "Feed": {
+          "Caption": "Feed"
+        },
+        "SelectChannelsCaption": "Odaberi kanale",
+        "Telegram": {
+          "Caption": "Telegram"
+        },
+        "FacebookMessenger": {
+          "Caption": "Facebook messenger"
+        },
+        "WhatsApp": {
+          "Caption": "WhatsApp"
+        },
+        "SMS": {
+          "Caption": "SMS"
+        }
+      }
+    },
+    "ColorPicker": {
+      "SelectedColor": "Odabrana boja",
+      "Readonly": "Polje koje se ne može uređivati"
+    },
+    "Switch": {
+      "Caption": "Zamijeni"
+    },
+    "NextBestOfferDT": {
+      "Caption": "Preporuke"
+    },
+    "NextBestOffer": {
+      "Caption": "Sljedeće najbolje ponude",
+      "EmptyValue": "N/A",
+      "Next": "Sljedeće",
+      "Previous": "Prethodno"
+    },
+    "Approval": {
+      "Caption": "Odobrenja"
+    },
+    "ApprovalList": {
+      "Caption": "Lista odobrenja",
+      "RefreshCaption": "Osvježi",
+      "ProvideDataSource": "Navedite izvor podataka prije korištenja odobrenja"
+    },
+    "MultiSelect": {
+      "Caption": "Višestruki odabir u pretraživaču",
+      "Label": "Višestruki odabir",
+      "CreateRecordButtonCaption": "Kreiraj zapis",
+      "ExpanderIcon": "Proširi padajući izbornik",
+      "OpenModalIcon": "Otvori modalni prozor",
+      "TooltipInfoIcon": "Informativna obavijest",
+      "ReadonlyIcon": "Polje koje se ne može uređivati"
+    },
+    "BarcodeScanner": {
+      "Caption": "Čitač barkoda"
+    },
+    "Sort": {
+      "Caption": "Sortiraj"
+    }
+  },
+  "ExpressionDialog": {
+    "Validate": "Validiraj",
+    "ValidateMessage": "Poruke o validaciji ({{count}})",
+    "Placeholder": "Odaberite atribut podataka s popisa ili počnite upisivati svoju formulu. Osnovne aritmetičke operacije i zagrade su podržane",
+    "MaxExpressionLength": "Dostignut je maksimalni preporučeni broj znakova",
+    "AggregationFormulaPlaceholder": "Postavite formulu koristeći agregacijske funkcije i podatkovne atribute. Ako je potrebno, konfigurirajte filtere i kombinirajte rezultate pomoću osnovnih aritmetičkih operacija"
+  },
+  "DesktopSelector": {
+    "ShowDesktopSelector": "Odaberi radnu površinu",
+    "EditDesktop": "Uredi radnu površinu",
+    "UseHotkeys": "Koristite Ctrl+Shift+E za uređivanje radne površine"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "Nevažeći parametri",
+    "ServiceResult": {
+      "ErrorMessage": "Došlo je do pogreške. Molimo kontaktirajte administratora sustava"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "Označeno {{ count }} stavka/e",
+      "RemoveTagsMessage": "Neoznačeno {{ count }} stavka/e",
+      "AddTagsSuccessfulRunProcess": "Proces masovnog označavanja započeo je za odabrane stavke. Ovo može potrajati neko vrijeme",
+      "RemoveTagsSuccessfulRunProcess": "Proces masovnog uklanjanja oznaka započeo je za odabrane stavke. Ovo može potrajati neko vrijeme"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "Dodano je {{ count }} zapisa u mapu/e",
+      "RemoveRecordsMessage": "Uklonjeno je {{ count }} zapisa iz mape/a"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "Akcija je uspješno započela",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "Ova akcija zahtijeva barem jedan zapis kako bi se izvršila. Molimo odaberite zapise na koje želite primijeniti akciju i pokušajte ponovno"
+    },
+    "ProcessStarted": "Proces započet",
+    "StartingProcessAnnounceMessage": "Pokreće se proces, molimo pričekajte..."
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "Jeste li sigurni da želite izbrisati odabrani zapis?",
+    "DeleteRecordsConfirmation": "Jeste li sigurni da želite izbrisati odabrane zapise?",
+    "SaveSummariesForAll": "Spremi postavke sažetaka za sve korisnike?",
+    "ResetSummaries": "Vrati na zadane postavke popisa?"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "Nedovoljna prava za brisanje zapisa u {0} objektu",
+    "UnableToDeleteSelectedRecord": "Nije moguće izbrisati odabrani zapis",
+    "SelectRecordsToDelete": "Odaberite zapise za brisanje",
+    "SettingsErrorMessage": "Nije moguće izvršiti akciju.\n\nSistem administrator mora provjeriti postavke tipki u Freedom UI dizajneru.",
+    "ExportToExcel": {
+      "PermissionsErrorMessage": "Nemate dopuštenje za izvođenje ove operacije.\nMolimo kontaktirajte svog sistemskog administratora. Provjerite pristup objektu izvoza i dopuštenje za izvođenje sistemske operacije.",
+      "FileGenerationMessage": "Generiranje datoteke za izvoz"
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "Nedovoljne dozvole za pristup dnevniku promjena. Kontaktirajte administratora sustava.",
+      "SourceIsNotSpecifiedMessage": "Objekt ili izvor podataka nije naveden za akciju \"Otvorite dnevnik promjena\". Kontaktirajte svog sistemskog administratora.",
+      "RecordIsNotSelectedMessage": "Odaberite zapis za otvaranje dnevnika promjena.",
+      "ChangeLogIsNotTurnedOnTitle": "Uključite zapisivanje",
+      "ChangeLogIsNotTurnedOnMessage": "Zapisivanje je trenutno isključeno za {0}. Želite li aktivirati zapisivanje?",
+      "ChangeLogIsTurnedOffMessage": "Zapisivanje je trenutno isključeno za {0}. Kontaktirajte svog sistem administratora.",
+      "RecordIsNotSavedMessage": "Prvo spremite zapis da otvorite njegov dnevnik promjena."
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "Premašeno je maksimalno ograničenje veličine datoteke od {0} MB.\n\nDatoteke:\n- {1}",
+      "NoConnectedFileList": "Odredište za učitavanje datoteka nije postavljeno.\n\nOdaberite odredište u postavkama gumba.",
+      "InvalidRequestParams": "Nemoguće prenijeti datoteku(e) jer stranica još nije postavljena. Sistemski administrator može dovršiti postavke u Freedom UI dizajneru.",
+      "ChangeFileSizeInfoMessage": "Maksimalnu veličinu datoteke možete povećati u postavci sustava \"Maksimalna veličina privitka\".",
+      "FileListHeader": "Datoteke",
+      "MaxFileSizeExceededExceptionMessage": "Premašeno je maksimalno ograničenje veličine datoteke od {0} MB.",
+      "UnknownServerError": "Nešto nije u redu.\n\nMolimo pokušajte ponovno učitati datoteku.",
+      "AttachedToUnsavedRecord": "Nije moguće priložiti datoteke evidenciji koja još nije kreirana. Molimo vas da prvo kreirate evidenciju prije učitavanja datoteka",
+      "InvalidExtension": {
+        "Deny": "Datotečni nastavak [{0}] zabranjen je sigurnosnim postavkama. Ako trebate raditi s takvim datotekama, kontaktirajte svog administratora sustava da ukloni ekstenziju iz postavke sustava [File extensions DenyList] (FileExtensionsDenyList)",
+        "Allow": "Datotečni nastavak [{0}] zabranjen je sigurnosnim postavkama. Ako trebate raditi s takvim datotekama, kontaktirajte svog administratora sustava kako biste dodali ekstenziju u postavku sustava [File extensions AllowList] (FileExtensionsAllowList)",
+        "NotSupported": "Some selected files are not supported for upload. Please choose files of supported types."
+      },
+      "EmptyFileMessage": "Pokušavate prenijeti prazne datoteke.\n\nMolimo odaberite datoteke s sadržajem.",
+      "SingleUploadInProgress": "Datoteka {0} se još uvijek učitava. Pričekajte dok se prijenos ne završi.",
+      "MultipleUploadsInProgress": "Neke datoteke se još uvijek učitavaju. Pričekajte dok prijenos ne završi ({0} i još {1})."
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "Premašeno je maksimalno ograničenje veličine datoteke od {0} MB.",
+      "UnknownUploadError": "Nepoznata pogreška prilikom prijenosa. Molimo kontaktirajte administratora sustava.",
+      "Announcement": {
+        "Uploaded": "Slika učitana",
+        "Deleted": "Slika izbrisana"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "Greška akcije.\nKontaktirajte svog sistemskog administratora. Provjerite postavke akcije u Programu dizajnera."
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "Greška u akciji.\nKontaktirajte svog sistemskog administratora. Provjerite postavke akcije u Alatu za dizajniranje sustava."
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "Odaberite zapise za dodavanje oznaka",
+      "SelectRecordsToRemoveRecordsMessage": "Odaberite zapise za brisanje oznaka"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "Odaberite zapise za dodavanje u statičku mapu",
+      "SelectRecordsToRemoveRecordsMessage": "Odaberite zapise koje želite ukloniti iz statičke mape"
+    },
+    "FileAnnouncement": {
+      "Uploaded": "{0} datoteka učitana",
+      "Deleted": "{0} datoteka obrisano"
+    },
+    "FileDownload": {
+      "FileMismatchErrorMessage": "Datoteka '{0}' nije u potpunosti učitana",
+      "FileDownloadErrorMessage": "Datoteku '{0}' nije moguće preuzeti. Možda je izbrisana, oštećena ili nemate dozvolu za pristup."
+    },
+    "OK": "OK"
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "Dodaj oznaku",
+    "RemoveTagCaption": "Ukloni oznaku"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "Izvješće se ne može ispisati za nespremljenu evidenciju.",
+    "InvalidRequestCaption": "Akcija nije valjana. Provjerite postavke ispisa.",
+    "SelectRecord": "Odaberite zapis za ispis izvješća"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "Nije moguće premjestiti sve odabrane zapise ovom akcijom, molimo vas da odaberete onoliko zapisa koliko je potrebno jedan po jedan"
+  },
+  "CancelRecordsChangesRequest": {
+    "SuccessMessage": "Promjene uspješno odbijene"
+  },
+  "RecordDeletedRequest": {
+    "SuccessMessage": "Zapisi su uspješno izbrisani"
+  },
+  "RecordsDeletedRequest": {
+    "SuccessMessage": "Zapisi su uspješno izbrisani"
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "Nema dostupnih izvještaja",
+    "GoToPrintablesSetupCaption": "Idi na postavke izvještaja"
+  },
+  "SchemaOutlet": {
+    "BeforeSchemaChangeAnnounceMessage": "Učitavanje, molimo pričekajte...",
+    "AfterSchemaChangeAnnounceMessage": "Učitavanje je dovršeno",
+    "Caption": "Kontejner sheme",
+    "Hint": "Kontejner prikazuje shemu",
+    "SchemaNotFound": "<not found>"
+  },
+  "SaveRecordRequest": {
+    "SavingRecordAnnounceMessage": "Spremanje, molimo pričekajte..."
+  },
+  "Deduplication": {
+    "RecordNotCreatedMessage": "Zapis nije kreiran",
+    "MergeStartedMessage": "Sustav je započeo spajanje podataka. Obavijest ćete dobiti na komunikacijskoj ploči kad proces završi. Nakon toga ponovno učitajte zapis da biste dobili ažurirane podatke."
+  },
+  "HierarchyCopy": {
+    "RecordIdRequiredMessage": "Record ID is required.",
+    "SchemaNameRequiredMessage": "Schema name is required.",
+    "CopyingErrorMessage": "Unexpected error while copying record."
+  },
+  "SchemaContextPart": {
+    "RecordTitle": "{{caption}}: {{value}}",
+    "ListTitle": "List: {{captions}}"
+  },
+  "DataGroupColumnsSubGroups": {
+    "NewColumn": "Dodaj novo polje",
+    "ExistingColumns": "Atributi podatkovnog modela"
+  },
+  "ColumnAddedOnPage": "Stupac je već dodan na stranici",
+  "ColumnValidators": {
+    "ErrorMessages": {
+      "LookupReferenceSchemaNotSetError": "Izvor podataka nije postavljen za lookup stupac"
+    }
+  },
+  "NewColumnSubGroup": {
+    "MEDIUM_TEXTColumn": "Tekst",
+    "IntegerColumn": "Broj",
+    "BooleanColumn": "Potvrdni okvir",
+    "ColorColumn": "Boja",
+    "DateTimeColumn": "Date/Time",
+    "LookupColumn": "Jednostruki izbornik",
+    "RICH_TEXTColumn": "Bogati tekst",
+    "AutonumberColumn": "Autonumeriranje",
+    "IMAGELOOKUPColumn": "Slika",
+    "PhoneColumn": "Telefon",
+    "LongPhoneColumn": "Telefonski broj",
+    "WebColumn": "Mrežna poveznica",
+    "EmailColumn": "E-pošta",
+    "LongEmailColumn": "Adresa e-pošte",
+    "SECURE_TEXTColumn": "Enkriptirani niz",
+    "ToggleColumn": "Prekidač",
+    "SwitchColumn": "Zamijeni"
+  },
+  "ModalPageDesigner": {
+    "Defaults": {
+      "Caption": "Nova modalna stranica",
+      "CaptionTemplate": "{{0}} nova modalna stranica",
+      "CaptionWithEntityTemplate": "{{0}} modalna stranica"
+    }
+  },
+  "DataGroupParametersSubGroups": {
+    "NewParameter": "Dodaj novi parametar",
+    "ExistingParameters": "Postojeći parametri"
+  },
+  "NewParameterSubGroup": {
+    "MEDIUM_TEXTParameter": "Tekst",
+    "IntegerParameter": "Broj",
+    "BooleanParameter": "Potvrdni okvir",
+    "DateTimeParameter": "Date/Time",
+    "LookupParameter": "Jednostruki izbornik",
+    "RICH_TEXTParameter": "Bogati tekst",
+    "PhoneParameter": "Telefon",
+    "LongPhoneParameter": "Telefonski broj",
+    "WebParameter": "Mrežna poveznica",
+    "EmailParameter": "E-pošta",
+    "LongEmailParameter": "Adresa e-pošte"
+  },
+  "CDK": {
+    "ChartsGroupCaption": "Widgeti",
+    "DataGroupCaption": "Podatci",
+    "PageParametersDataGroupCaption": "Parametri stranice",
+    "ComponentsGroupCaption": "Komponente",
+    "LayoutElementsGroupCaption": "Elementi izgleda",
+    "InputsGroupCaption": "Unosi",
+    "CustomElementsGroupCaption": "Prilagođene komponente"
+  },
+  "CanvasPlaceholder": {
+    "Caption": "Ovdje još nema ničega",
+    "Description": "Povucite i ispustite elemente s\nlijeve ploče",
+    "LinkDescription": "Saznajte više o dizajneru u",
+    "LinkCaption": "Akademija",
+    "LinkUrl": "https://academy.creatio.com/docs/8.x/no-code-customization/category/ui-and-business-logic-customization"
+  },
+  "DesignerTools": {
+    "SearchPlaceholder": "Komponenta pretraživanja",
+    "PlaceholderTitleWithFilters": "Nema zapisa koji odgovaraju kriterijima filtrera",
+    "PlaceholderDescriptionWithFilters": "Očisti filtar ili promijeni njegove uvjete"
+  },
+  "LeftPanel": {
+    "ComponentsTabLabel": "Komponente",
+    "StructureTabLabel": "Struktura"
+  },
+  "InfoPanel": {
+    "SafariInfoPanelMessage": "Molim vas koristite Chrome za najbolje iskustvo, budući da Safari možda ne podržava sve dizajnerske mogućnosti. Hvala vam!",
+    "UserLevelSchemaInfoPanelMessage": "Nadzorna ploča bit će dostupna samo u ovom okruženju. Ako ju trebate premjestiti u drugo okruženje, uključite nadzornu ploču u paket.",
+    "OpenInPackageButton": "Otvori u paketu"
+  },
+  "Structure": {
+    "NodeMenu": {
+      "Settings": "Postavke",
+      "Copy": "Kopiraj",
+      "Delete": "Izbriši",
+      "AddComponent": "Dodaj komponentu",
+      "MoveTo": "Premjesti u"
+    },
+    "Search": {
+      "PreviousMatch": "Prethodno podudaranje",
+      "NextMatch": "Sljedeće podudaranje",
+      "Clear": "Očisti pretraživanje"
+    }
+  },
+  "AddItemDialog": {
+    "Title": "Dodaj komponentu",
+    "Placeholder": "Naziv komponente",
+    "AddButton": "Dodaj",
+    "CancelButton": "Odustani"
+  },
+  "MoveToDialog": {
+    "Title": "Premjesti u",
+    "Placeholder": "Naziv stavke",
+    "MoveToButton": "Pomakni",
+    "CancelButton": "Odustani"
+  },
+  "InterfaceDesignerHeaderComponent": {
+    "SaveButtonCaption": "Spremi",
+    "CancelButtonCaption": "Odustani",
+    "CloseButtonCaption": "Zatvori",
+    "UndoButtonTooltip": "Poništi",
+    "OpenSourceCodeTooltip": "Otvorite izvorni kôd",
+    "SourceCodeCaption": "Izvorni kod",
+    "OpenPropertyTooltip": "Postavke stranice",
+    "ChangeParentTooltip": "Promijeni nadređenog",
+    "ActionsTooltip": "Radnje",
+    "CopyCaption": "Kopiraj",
+    "ExportCaption": "Izvoz",
+    "OnlineHelpCaption": "Online pomoć",
+    "OnlineHelpUrl": "https://academy.creatio.com/docs/8.x/no-code-customization/category/ui-and-business-logic-customization",
+    "SchemaOutdatedSaveButtonTooltip": "Shema zastarjela",
+    "RedoButtonTooltip": "Ponovi",
+    "FaviconButtonTooltip": "Otvori upravljanje aplikacijama",
+    "BusinessRulesButtonTitle": "Otvori poslovna pravila",
+    "BusinessRulesButtonCaption": "Poslovna pravila",
+    "PreviewButtonCaption": "Pregled",
+    "PreviewButtonTitle": "Pregled stranice",
+    "PreviewActiveLabel": "Preview active"
+  },
+  "InterfaceDesigner": {
+    "ExportSuccessMessage": "Shema je uspješno izvezena",
+    "ExportErrorMessage": "Nije moguće izvesti shemu",
+    "ExportMessage": "Želite li spremiti promjene prije izvoza? Ako ne, izvest će se lokalna verzija.",
+    "ExportSuccess": "Shema je uspješno izvezena",
+    "PreviewOpenError": "Failed to open page preview.",
+    "PropertiesPages": {
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "Enkriptirani niz"
+      },
+      "DividerPropertiesPanel": {
+        "LayoutGroup": "Raspored",
+        "PaddingGroup": "Razmak",
+        "Padding": {
+          "Top": "Vrh",
+          "Bottom": "Dno",
+          "Left": "Lijevo",
+          "Right": "Desno"
+        },
+        "Thickness": {
+          "Label": "Thickness"
+        },
+        "Sizes": {
+          "None": "Nijedan",
+          "ExtraSmall": "Jako malo",
+          "Small": "Malo",
+          "Medium": "Srednji",
+          "Large": "Veliki"
+        },
+        "PageCaption": "Divider settings"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "Postavke sažetaka",
+        "GeneralGroup": {
+          "Caption": "Općenito",
+          "SelectDataSource": "Izvor podataka"
+        }
+      },
+      "FolderTreePropertiesPage": {
+        "AppearanceGroup": "Izgled",
+        "BorderRadiusLabel": "Radijus ruba",
+        "GeneralLabel": "Općenito",
+        "HeaderLabel": "Postavke mape",
+        "Sizes": {
+          "None": "Nijedna",
+          "Small": "Malo",
+          "Medium": "Srednje",
+          "Large": "Velika",
+          "ExtraLarge": "Izuzetno veliki",
+          "2XLarge": "Dvostruko jako veliko",
+          "3XLarge": "Troduplo jako veliko"
+        },
+        "SourceSchemaLabel": "Lokacija pohrane mape",
+        "RootSchemaLabel": "Što će mape filtrirati?",
+        "ButtonSizeFieldLabel": "Veličina",
+        "ColorFieldLabel": "Stil",
+        "Colors": {
+          "Primary": "Primarne",
+          "Accent": "Fokus",
+          "Warn": "Upozorenje",
+          "Default": "Jednostavno",
+          "Secondary": "Sekundarno"
+        },
+        "IconPositionLabel": "Pozicija",
+        "IconPosition": {
+          "LeftIcon": "Ikona lijevo",
+          "OnlyIcon": "Samo ikona",
+          "RightIcon": "Ikona desno"
+        }
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "Postavke izbornika za upravljanje mapama",
+        "FolderTreeLabel": "Odabir stabla mapa",
+        "GeneralCaption": "Općenito"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "Postavke brzog filtriranja",
+        "GeneralCaption": "Općenito",
+        "AppearanceCaption": "Izgled",
+        "ChooseFilterTypeLabel": "Odaberi vrstu filtra",
+        "CaptionLabel": "Naslov",
+        "HintLabel": "Savjet",
+        "CustomType": "Prilagođeno",
+        "DateRangeType": "Date/Time",
+        "LookupType": "Lista"
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Postavke vremenske crte",
+        "GeneralGroup": "Općenito",
+        "ObjectsCaption": "Objekt",
+        "AddObject": "Dodaj objekt",
+        "EmptyDataSourceHint": "Izvor podataka nije dodan na stranicu. Molimo dodajte postojeći izvor podataka kako biste postavili komponentu",
+        "BindToDataSourceCaption": "Izvor podataka",
+        "FiltrationCaption": "Opcije filtriranja",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "Prema vrsti zapisa",
+          "TimelineFilter_Owner": "Prema vlasniku",
+          "TimelineFilter_Date": "Prema datumu",
+          "TimelineFilter_SystemMessages": "Prema porukama sustava"
+        },
+        "ContextMenu": {
+          "Edit": "Uredi",
+          "Delete": "Izbriši"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "Općenito",
+        "FiltrationGroup": "Opcije filtriranja",
+        "CaptionLabel": "Naslov",
+        "AppearanceGroup": "Izgled",
+        "LinkedColumn": "Povezani stupac",
+        "SortedByColumn": "Sortiraj po",
+        "OwnerColumn": "Stupac za filtriranje prema vlasniku",
+        "IconPosition": {
+          "OnlyIcon": "Samo ikona"
+        },
+        "Feed": {
+          "ExternalUsersGroupCaption": "Vanjski korisnici",
+          "AllowExternalPostCaption": "Dopusti objavu za vanjske korisnike"
+        }
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Način prikaza alatne trake",
+        "Inline": "Unutar linija",
+        "Classic": "Standardni",
+        "AlwaysShowToolbar": "Uvijek prikazuj opcije formatiranja"
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "Postavke mogućnosti komunikacije",
+        "GeneralGroup": "Općenito",
+        "MasterRecordCaption": "Zapis za povezivanje mogućnosti komunikacije",
+        "DataSourceEntityColumn": "Izvor podataka",
+        "Editability": "Mogućnost uređivanja",
+        "EditabilityControls": {
+          "Readonly": "Samo za čitanje"
+        },
+        "LabelPositionCaption": "Pozicija naslova",
+        "LabelPosition": {
+          "Auto": "Automatski",
+          "Left": "Lijevo",
+          "Above": "Iznad",
+          "Hidden": "Sakriveno"
+        },
+        "ShowNoDataPlaceholder": "Prikaži privremenu oznaku kada nema podataka",
+        "AppearanceGroup": "Izgled",
+        "ColumnsCountLabel": "Broj stupaca",
+        "ContactEntitySchemaName": "Mogućnosti komunikacije s kontaktom",
+        "AccountEntitySchemaName": "Mogućnosti komunikacije s korisnikom",
+        "EmptyDataSourceHint": "Izvor podataka nije dodan na stranicu. Molimo dodajte postojeći izvor podataka kako biste postavili komponentu"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "Postavke kompaktnog profila korisnika",
+        "GeneralGroup": "Općenito",
+        "AttributeForReferenceColumn": "Izvor podataka",
+        "Editability": "Mogućnost uređivanja",
+        "EmptyAccountDataSourceHint": "Izvor podataka nije dodan na stranicu. Molimo dodajte postojeći izvor podataka kako biste postavili komponentu",
+        "EditabilityControls": {
+          "Readonly": "Samo za čitanje"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "Postavke kompaktnog profila korisnika",
+        "GeneralGroup": "Općenito",
+        "AttributeForReferenceColumn": "Izvor podataka",
+        "Editability": "Mogućnost uređivanja",
+        "EmptyContactDataSourceHint": "Izvor podataka nije dodan na stranicu. Molimo dodajte postojeći izvor podataka kako biste postavili komponentu",
+        "EditabilityControls": {
+          "Readonly": "Samo za čitanje"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "Postavke korisničkog profila",
+        "GeneralGroup": "Općenito",
+        "AttributeForReferenceColumn": "Izvor podataka",
+        "Editability": "Mogućnost uređivanja",
+        "EmptyUserProfileDataSourceHint": "Izvor podataka nije dodan na stranicu. Molimo dodajte postojeći izvor podataka kako biste postavili komponentu",
+        "EditabilityControls": {
+          "Readonly": "Samo za čitanje"
+        }
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "Postavke razgovora",
+        "GeneralCaption": "Općenito",
+        "TooltipCaption": "Možete postaviti ovaj element u izvornom kodu stranice",
+        "OpenSourceCodeButtonCaption": "Otvorite izvorni kôd"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "Postavke razgovora",
+        "GeneralCaption": "Općenito"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "Postavke uređivača poruka",
+        "GeneralCaption": "Općenito"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Postavke feeda",
+        "GeneralCaption": "Općenito",
+        "FeedTypeCaption": "Kako filtrirati zapise",
+        "FeedChannel": "Kanal",
+        "FeedTypeGeneral": "Općenito",
+        "FeedTypeUser": "Povezano s korisnikom",
+        "FeedTypeChannel": "Kanal",
+        "FeedTypeRecord": "Povezano sa zapisom",
+        "FeedDataSourceCaption": "Izvor podataka",
+        "FeedTypeRecordTooltipCaption": "Poruke na feedu bit će prikazane na temelju specifične komunikacije s zapisom.",
+        "FeedTypeGeneralTooltipCaption": "Sve obavijesti i spomeni koji se odnose na trenutnog korisnika. U ovom načinu rada, feed će prikazivati objave i komentare u kojima je trenutni korisnik označen ili niti koje prati. Na primjer, feed u ovom načinu rada može se dodati na početnu stranicu kako bi se važne informacije mogle pratiti.",
+        "ExternalUsersGroupCaption": "Vanjski korisnici",
+        "AllowExternalPostCaption": "Dopusti objavu za vanjske korisnike",
+        "ShowBlankSlateCaption": "Prikaži praznu stranicu"
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "Uredi",
+          "Delete": "Izbriši"
+        },
+        "ChannelsCaption": "Kanali",
+        "AddNewItem": "Dodaj kanal",
+        "PageCaption": "Sastavljač poruke",
+        "DefaultChannelCaption": "Zadani kanal"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "Sastavljač e-pošte",
+        "GeneralCaption": "Općenito",
+        "DefaultSenderType": "Zadani pošiljatelj",
+        "DefaultMailbox": "Koristi zadani poštanski sandučić",
+        "CaseMailbox": "Koristi poštanski sandučić izvora slučaja upotrebe"
+      },
+      "ChatComposerPropertiesPage": {
+        "PageCaption": "Chat composer",
+        "GeneralCaption": "Općenito",
+        "ProviderIdCaption": "Pružatelj kanala"
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "Postavke sljedećih koraka"
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Mala stranica za pregled",
+        "TitleColumn": "Primarno polje prikaza",
+        "StartDateColumn": "Stupac početnog datuma",
+        "EndDateColumn": "Stupac završnog datuma",
+        "NotesColumn": "Polje s informacijama o online sastanku",
+        "PageCaption": "Postavke kalendara",
+        "RequiredFieldError": "Ovo polje je obavezno",
+        "SecondaryTileFields": "Polja sekundarnih pločica",
+        "AddSecondaryFieldCaption": "Dodaj sekundarno polje",
+        "DisabledAddSecondaryFieldCaption": "Možete dodati najviše 4 sekundarna polja",
+        "AutoScrollToCurrentTime": "Automatski se pomaknite na trenutno vrijeme",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Izbriši"
+        },
+        "ColorizationType": {
+          "Default": "Zadano",
+          "ByField": "Automatski",
+          "ByOwner": "Prema korisniku"
+        },
+        "ColorizationTypeCaption": "Način kolorizacije pločica",
+        "ColorizationColumnCaption": "Pretraživanje"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "Postavke najboljih sljedećih ponuda",
+        "GeneralCaption": "Općenito",
+        "DataSourceCaption": "Objekt",
+        "CaptionColumnField": "Natpis",
+        "DescriptionColumnField": "Opis",
+        "InfoLabelColumnField": "Uvid u pretragu",
+        "ImageColumnField": "Slika",
+        "NumberTagColumnField": "Oznaka",
+        "SortingFieldTooltip": "Stavke će biti sortirane prema vrijednosti iz ovog polja silaznim redoslijedom.",
+        "AdditionalCaption": "Dodatni",
+        "SpecificPageLookupField": "Koju stranicu otvoriti?",
+        "UseSpecificPageField": "Otvorite određenu stranicu klikom na naslov",
+        "SpecificPageRecordIdField": "Identifikator zapisa",
+        "ViewModeCaption": "Način prikaza",
+        "CarouselViewMode": "Karusel",
+        "GalleryViewMode": "Galerija"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Postavke odobrenja",
+        "GeneralGroup": "Općenito",
+        "SchemaNameLabel": "Koje zapise odobriti?",
+        "AppearanceGroup": "Izgled",
+        "HiddenWhenNoData": "Sakriveno kada nema podataka"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Postavke popisa odobrenja",
+        "GeneralGroup": "Općenito",
+        "SchemaNameLabel": "Objekt"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "Višestruki odabir u pretraživaču postavke",
+        "GeneralGroup": {
+          "General": "Općenito",
+          "SelectLookup": "Odaberite pretraživanje",
+          "MultiselectValueStorage": "Skladištenje vrijednosti višestrukog odabira",
+          "SelectColumn": "Stupac za prikazivanje",
+          "Required": "Potrebno",
+          "RequirementTypeItems": {
+            "No": "Ne",
+            "Yes": "Da"
+          }
+        },
+        "AppearanceCaption": "Izgled",
+        "LabelPositionVariants": {
+          "Auto": "Automatski",
+          "Left": "Lijevo",
+          "Above": "Iznad",
+          "Hidden": "Sakriveno"
+        },
+        "TitleOnPage": "Naziv na stranici",
+        "Placeholder": "Privremena oznaka",
+        "Tooltip": "Opisna oznaka",
+        "LabelPosition": "Pozicija naslova",
+        "EnableAddRecordCaption": "Omogući dodavanje novih vrijednosti",
+        "WrapCaption": "Prelazak stavki u sljedeći red",
+        "Editability": "Mogućnost uređivanja",
+        "EditabilityControls": {
+          "Readonly": "Samo za čitanje"
+        },
+        "LookupStaticFilterLabel": "Primijeni statični filtar za pretragu"
+      },
+      "MergeRecordsRequest": {
+        "Caption": "Spoji podatke"
+      },
+      "MergeRecordsRequestPropertiesPanel": {
+        "SelectData": "Koje podatke spojiti?"
+      },
+      "MobileListPropertiesPanel": {
+        "PageCaption": "Popis",
+        "GeneralCaption": "Općenito",
+        "DataSourceCaption": "Objekt",
+        "TitleColumnField": "Stupac naslova",
+        "ImageColumnField": "Slika",
+        "AppearanceGroup": "Izgled",
+        "Columns": {
+          "ColumnsGroup": "Stupci",
+          "AddNewItem": "Dodaj stupac",
+          "ContextMenu": {
+            "Edit": "Uredi",
+            "MoveUp": "Pomakni gore (Ctrl+Up)",
+            "MoveDown": "Pomakni dolje (Ctrl+Down)",
+            "Delete": "Izbriši"
+          }
+        },
+        "Scrollable": "Prilagodi dostupnom prostoru"
+      }
+    }
+  },
+  "CanvasToolbar": {
+    "Rotate": "Rotiraj"
+  },
+  "Input": {
+    "Readonly": "Polje koje se ne može uređivati",
+    "ShowPassword": "Prikaži lozinku",
+    "HidePassword": "Sakrij lozinku"
+  },
+  "Carousel": {
+    "NoData": "Nema podataka",
+    "PrevButtonCaption": "Prethodna stavka",
+    "NextButtonCaption": "Sljedeća stavka"
+  },
+  "ComboBox": {
+    "Readonly": "Polje koje se ne može uređivati",
+    "NoData": "Nema podataka",
+    "EmptyDisplayValue": "Nema prikazane vrijednosti",
+    "AddNewRecord": "Dodaj novi",
+    "InvalidValueSyntax": "Molimo odaberite vrijednost iz popisa",
+    "IsGoToSourceAllowedTooltip": "Idi na popis zapisa",
+    "CheckAll": "Označi sve",
+    "ClearAll": "Očisti sve",
+    "SelectValue": "Odaberi vrijednost",
+    "ClearValue": "Očisti vrijednost",
+    "OpenSection": "Otvori odjeljak"
+  },
+  "DataGrid": {
+    "AddColumns": "Dodaj stupce",
+    "ColumnToolbar": {
+      "Hide": "Sakrij",
+      "Freeze": "Zamrzni",
+      "Unfreeze": "Odmrzni",
+      "Rename": "Preimenuj",
+      "Edit": "Svojstva",
+      "Title": "Akcije stupca",
+      "SortAscending": "Sortiraj uzlazno",
+      "SortDescending": "Sortiraj silazno",
+      "ClearSorting": "Izbriši sortiranje",
+      "AriaLabel": "Akcije stupca za"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Popis radnji za",
+      "Title": "Radnje popisa",
+      "DataGridSettingsLabel": "Opće postavke popisa",
+      "SaveDataGridSettings": {
+        "Label": "Spremi kao nove zadane postavke",
+        "Confirmation": "Nove zadane postavke popisa bit će spremljene za sve korisnike. Nastaviti?",
+        "SuccessStatus": "Postavka popisa uspješno je spremljena"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Prepiši postojeće postavke za sve korisnike",
+        "Confirmation": "Nove zadane postavke popisa bit će spremljene i zamijenit će trenutne postavke za sve korisnike. Nastaviti?",
+        "SuccessStatus": "Postavka popisa uspješno je spremljena"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Vrati na tvornicke postavke",
+        "Confirmation": "Zadane postavke popisa bit će vraćene. Želite li nastaviti?",
+        "SuccessStatus": "Zadane postavke popisa su uspješno vraćene na zadane"
+      },
+      "MultilineViewLabel": "Multiline view",
+      "RowHeightSettings": {
+        "Label": "Row height",
+        "Options": {
+          "Small": "Malo",
+          "Medium": "Srednji",
+          "Large": "Veliki",
+          "ExtraLarge": "Izuzetno veliki"
+        }
+      }
+    },
+    "RowToolbar": {
+      "Open": "Otvori",
+      "Copy": "Kopiraj",
+      "Delete": "Izbriši",
+      "RunBusinessProcess": "Pokreni poslovni proces",
+      "Title": "Akcija retka"
+    },
+    "AddColumnsTo": "Dodaj stupce u",
+    "Title": "Popis: {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Kolumna uspješno dodana",
+      "ColumnsAddedSuccessfully": "Kolone uspješno dodane",
+      "ColumnHiddenSuccessfully": "Kolumna uspješno sakrivena",
+      "ColumnFrozenSuccessfully": "Kolumna uspješno zakovana",
+      "ColumnUnfrozenSuccessfully": "Kolumna uspješno odmrznuta",
+      "ColumnChangedSuccessfully": "Kolumna uspješno promijenjena"
+    }
+  },
+  "DataTable": {
+    "BulkActions": {
+      "MoreActions": "Više akcija",
+      "AriaLabel": "Grupne radnje za {0}"
+    },
+    "NoData": "Nema podataka",
+    "NoColumns": "Nisu dodani stupi",
+    "Hints": {
+      "Sort": "Sortiraj",
+      "StartEditing": "Uredi",
+      "ReadonlyCell": "Polje koje se ne može uređivati",
+      "CancelChanges": "Odbaci",
+      "AddItem": "Dodaj novi zapis",
+      "SortWithCaption": "Sortiraj {0}",
+      "NotSorted": "trenutno nije sortirano",
+      "SortedAscending": "trenutno sortirano uzlazno",
+      "SortedDescending": "trenutno sortirano silazno",
+      "SortAscending": "Sortiraj uzlazno",
+      "SortDescending": "Sortiraj silazno",
+      "RowControls": "Kontrole redova"
+    },
+    "AddItem": "Novi",
+    "SaveItemsChanges": "Spremi sve",
+    "CancelItemsChanges": "Odbaci",
+    "RowsSelection": {
+      "Selected": "označeno",
+      "SelectAll": "Odaberi sve",
+      "ClearSelection": "Očisti odabir",
+      "SelectRow": "Odaberi red",
+      "RowsSelected": "Odabrani redovi: {0}"
+    },
+    "NotFoundColumn": "Stupci nisu nađeni",
+    "ColumnSticky": "Zamrzni stupac",
+    "StatusBar": {
+      "AriaLabel": "Uredi radnje za {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Promijeni širinu",
+      "ChangeWidthOf": "Promijeni širinu {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Proširi sve",
+      "CollapseAll": "Sažmi sve",
+      "ExpandRow": "Proširi ugniježđene retke",
+      "CollapseRow": "Sažmi ugniježđene retke"
+    }
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Da",
+    "No": "Ne",
+    "Save": "Spremi",
+    "DoNotSave": "Nemoj spremiti",
+    "Cancel": "Odustani",
+    "Close": "Zatvori",
+    "Delete": "Izbriši",
+    "Notification": "Obavijest",
+    "Overwrite": "Prepisati",
+    "Clear": "Očisti",
+    "Restore": "Vratiti",
+    "ProcessSchemaSavedWithValidationError": "Shema procesa je uspješno spremljena, ali validacijske pogreške sprječavaju njezvo izvršavanje."
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Imate nespremljene promjene koje će biti izgubljene. Nastaviti?"
+    },
+    "List": {
+      "Message": "Popis sadrži nespremljene promjene. Bit će izgubljene ako nastavite. Spremiti promjene?"
+    },
+    "Page": {
+      "Message": "Stranica sadrži nespremljene promjene. Bit će izgubljene ako nastavite. Spremiti promjene?"
+    }
+  },
+  "Gallery": {
+    "NoData": "Nema podataka",
+    "MenuActions": "Radnje",
+    "DateAdded": "Datum dodavanja",
+    "SelectItem": "Odaberi stavku",
+    "Item": {
+      "ActionsButtonCaption": "Radnje stavke"
+    }
+  },
+  "WebInput": {
+    "LinkButtonHint": "Otvori poveznicu"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Pošalji e-mail"
+  },
+  "FileInput": {
+    "Delete": "Izbriši",
+    "Cancel": "Odustani",
+    "Attach": "Priloži",
+    "FileIcon": "Ikona datoteke",
+    "EmptyFileName": "Prazno ime datoteke",
+    "MaxFileSizeLimitReached": "Dosegnuto je ograničenje maksimalne veličine datoteke ({0}MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Povuci datoteke ovdje",
+      "Description": "ili koristi",
+      "Upload": "Učitaj"
+    },
+    "RowToolbar": {
+      "Download": "Preuzmite"
+    }
+  },
+  "ImageInput": {
+    "Alt": "Slika polja",
+    "Upload": "Učitaj",
+    "Change": "Promijeni",
+    "Clear": "Izbriši",
+    "AltAbbreviation": "Slika skraćenice",
+    "AltIcon": "Placeholder za prazno polje"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Spremi",
+    "CancelButton": "Odustani",
+    "ColumnProperties": "Svojstva stupca",
+    "Title": "Naslov",
+    "FilterHeader": "Kako filtrirati zapise",
+    "SortingHeader": "Sortiraj zapise",
+    "SortColumn": "Sortiraj po",
+    "WhatToDisplay": "Što prikazati",
+    "AggregationColumn": "Stupac",
+    "SortOrder": "Sortiranje",
+    "SetupFilters": "Postavi filtere",
+    "EditFilters": "Uredi filtre"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Da",
+      "False": "Ne"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "na",
+    "TodayAt": "Danas u {0}",
+    "YesterdayAt": "Jučer u {0}",
+    "DayBeforeYesterdayAt": "Prekjučer u {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Nema prikazane vrijednosti"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mj",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "h",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Zatvori karticu"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "Idi na radnu površinu"
+    },
+    "QuickRunProcess": {
+      "Title": "Pokreni proces",
+      "SuccessMessage": "Proces je uspješno izvršen",
+      "NotConfiguredQuickProcessesMessage": "Brza izvršenja procesa još nisu konfigurirana",
+      "OtherProcessesCaption": "Drugi procesi"
+    },
+    "Settings": {
+      "Title": "Postavke"
+    },
+    "UserProfile": {
+      "Title": "Vaš profil",
+      "MenuItems": {
+        "Profile": "Vaš profil",
+        "Logout": "Izlaz",
+        "OrganizationProfile": "Profil organizacije"
+      }
+    },
+    "New": {
+      "Title": "Novi",
+      "NoItemTitle": "Brza kreacija zapisa još nije konfigurirana"
+    },
+    "Help": {
+      "Title": "Pomoć",
+      "MenuItems": {
+        "OnlineHelp": "Online pomoć",
+        "NeedHelp": "Potrebna pomoć",
+        "ReleaseNotes": "Bilješke o releasu",
+        "ExternalAccess": "Dodijeli pristup podršci"
+      },
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0AMjesto: {0}%0D%0AID klijenta: {1}%0D%0AProizvod: {2}%0D%0AVerzija: {3}%0D%0AVeličina zaslona: {4}%0D%0ALokalizacija: {5}%0D%0AStranica: {6}",
+      "SupportSubject": "Pitanje o",
+      "AccessGrantedMessage": "Pristup odobren"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Panel dodataka"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Panel komunikacije"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Panel obavijesti"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Konfiguracija"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Greška pri kompilaciji",
+      "WorkspaceExplorerTemplate": "Za pregled popisa grešaka pri kompilaciji i njihovo ispravljanje, posjetite <a href='{0}' target='_blank'>Configuration section</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigacijska ploča"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Detalji pogreške:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Ograničeni način konfiguracije",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "Sustav vas je preusmjerio na uobičajeni čvor aplikacije. Nije preporučljivo raditi prilagodbe u ovom načinu jer promjene možda neće biti distribuirane drugim čvorovima. Čvor za dizajn može biti nedostupan iz raznih razloga. Više informacija možete pronaći u zapisima Creatio i/ili orkestra. Rutinska uporaba može se nastaviti."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Nesigurne postavke praćenja",
+      "SysSettingsTemplate": "Posjetite <a href ='{0}' target='_blank'>odjeljak SysSetting</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Pretraži aplikaciju..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Zatvori navigacijsku ploču",
+      "ExpandCaption": "Proširi navigacijsku ploču"
+    },
+    "SearchResultsCaption": "Rezultati pretrage",
+    "EmptySearchResult": {
+      "Title": "Nema stavki koje odgovaraju kriterijima pretraživanja.",
+      "Subhead": "Očisti ili promijeni kriteriji pretrage."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Pročitaj više"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} prošlo",
+    "timeBeforeCountStartTpl": "{0} do odbrojavanja",
+    "overdueTpl": "{0} kasni",
+    "timeLeftTpl": "{0} preostalo",
+    "timeIsUpTpl": "Vrijeme je isteklo",
+    "waitingForStartDateTpl": "Čekanje početnog datuma",
+    "dateNotSet": "0h 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "Pretraži po stupcu",
+      "AllOption": "Sve",
+      "Title": "Odaberi stupac filtra"
+    },
+    "ClearIconTitle": "Očisti pretraživanje"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Uspješno spremljeno",
+      "ErrorOnSave": "Pogreška prilikom pokušaja primjene promjena"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Jeste li sigurni da želite izbrisati radnu površinu \"{0}\"?",
+        "Error": {
+          "Deletion": "Pogreška prilikom brisanja radne površine",
+          "Configuration": "Pogreška prilikom izgradnje konfiguracije"
+        },
+        "Success": "Radna površina \"{0}\" je uspješno izbrisana"
+      },
+      "DeleteMobileHomePage": {
+        "ConfirmationDialogTitle": "Are you sure you want to delete \"{0}\" home page?",
+        "Error": {
+          "Deletion": "Error during home page deletion",
+          "Configuration": "Pogreška prilikom izgradnje konfiguracije"
+        },
+        "Success": "Home page \"{0}\" was successfully deleted"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Pretraži..."
+  },
+  "AllowedResults": {
+    "Caption": "Dopušteni rezultati",
+    "TaskCompleted": "Zadatak je dovršen."
+  },
+  "LicenseIndicator": {
+    "Title": "Potrebna licenca"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Dodaj oznaku",
+    "CreateNewTagButtonCaption": "Stvori novu oznaku"
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Uredi zapis",
+    "DeleteItemActionButtonCaption": "Izbriši zapis",
+    "NoData": "Nema podataka"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Nema podataka",
+      "CloseButtonTitle": "Zatvori"
+    },
+    "AriaLabel": "Odabrane stavke",
+    "Chip": {
+      "RemoveButtonCaption": "Ukloni"
+    },
+    "AriaLabelFor": "Odabrane stavke za"
+  },
+  "Playbook": {
+    "Caption": "Priručnik",
+    "Hint": "Komponenta prikazuje savjete i upute korisnicima za pristup informacijama iz baze znanja za određene dinamičke faze slučaja",
+    "Placeholder": {
+      "Title": "Nisu pronađeni relevantni članci o pravilima ponašanja",
+      "Description": "Postavite relevantan članak za trenutnu dinamičku fazu slučaja u odjeljku Priručnici"
+    },
+    "Actions": {
+      "Back": "Natrag",
+      "OpenInDialog": "Otvori u modalnom prozoru"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Zatvori",
+        "OpenPage": "Otvori u novoj kartici"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Autorizacija nije uspjela. Pokušajte ponovno kasnije ili zatražite pomoć od administratora.",
+      "FormatError": "Neispravan format u zahtjevu. Provjerite je li unos ispravno strukturiran i provjerite izlazne parametre vaših radnji.",
+      "LimitError": "Dostignut limit tokena, daljnji rad s Creatio.ai je zaključan. Kontaktirajte svog administratora za dopunu tokena Creatio.ai.",
+      "ServiceAvailabilityError": "Usluga je privremeno nedostupna. Pokušajte ponovo kasnije.",
+      "ExecutionError": "Došlo je do pogreške prilikom obrade vašeg zahtjeva. Pokušajte ponovo ili zatražite pomoć od administratora.",
+      "ConfigurationError": "Otkrivena je greška u konfiguraciji. Provjerite postavke sustava ili zatražite pomoć od administratora.",
+      "UnknownError": "Nepoznata pogreška se dogodila. Pokušajte ponovno kasnije ili zatražite pomoć od administratora.",
+      "CharacterLimitExceededError": "Dostignut je limit znakova u upitu korisnika. Provjerite postavke sustava ili zamolite administratora za pomoć.",
+      "ToolCallsInvokesLimitExceeded": "Prekoračeno je ograničenje poziva funkcija: previše uzastopnih automatiziranih poziva bez korisničkog unosa ili ponovljeno izvršavanje iste funkcije.",
+      "InsufficientPermissions": "Nemate dopuštenje za korištenje ovog agenta ili vještine. Obratite se svom administratoru za postavljanje pristupa.",
+      "ActionLimitError": "Dosegnuto je ograničenje radnji, daljnji rad s Creatio.ai je blokiran. Obratite se svom administratoru kako biste obnovili radnje za Creatio.ai."
+    },
+    "InputPlaceholder": "Napiši poruku",
+    "SendButtonHint": "Pošalji poruku (Enter)",
+    "Caption": "Uređivač poruka",
+    "ReadonlyInputPlaceholder": {
+      "ChatCompleted": "Chat je završen",
+      "ChatTransferred": "Chat je preusmjeren"
+    },
+    "MaxFilesExceeded": "Maksimalan broj datoteka koje možete dodati u jednoj iteraciji: {{maxCount}}",
+    "SendMessageError": "Slanje poruke nije uspjelo. Pokušajte ponovo",
+    "SmsSplitWarning": "This message exceeds the standard SMS length and will be charged as multiple SMS messages. Current usage: {{segments}}/{{maxSegments}} messages ({{current}}/{{target}} characters)",
+    "SmsMaxLengthExceeded": "Premašena maksimalna duljina teksta ({{current}}/{{target}})"
+  },
+  "SpecificationFilter": {
+    "NoData": "Nema podataka",
+    "Boolean": {
+      "Yes": "Da",
+      "No": "Ne"
+    },
+    "String": {
+      "Placeholder": "Unesite tekst"
+    },
+    "Numeric": {
+      "Placeholder": "Unesite broj",
+      "To": "do",
+      "MaxValueError": "Vrijednost je veća od maksimalne dozvoljene vrijednosti",
+      "MinValueError": "Vrijednost je niža od minimalne dozvoljene vrijednosti"
+    }
+  },
+  "Conversation": {
+    "Caption": "Razgovor",
+    "Copilot": {
+      "TypingMessage": "Generiranje odgovora",
+      "Action": {
+        "Replace": "Zamijenite odabir",
+        "InsertAbove": "Umetnite iznad",
+        "InsertBelow": "Umetnite ispod"
+      }
+    },
+    "LoadPreviousChat": "Učitaj prethodni chat",
+    "ChatIsCompleted": "Razgovor završen: {datePart}",
+    "ChatIsTransferred": "Razgovor prebačen: {datePart} iz {operatorPart} u {targetOperatorPart}",
+    "ChatTransferredToQueue": "Chat je preusmjeren: {datePart} od {operatorPart} u red {queuePart}",
+    "ChatCompletedByAgent": "Razgovor završen: {datePart} od {operatorPart}"
+  },
+  "BulkActions": {
+    "Delete": "Izbriši",
+    "Export": "Izvoz u Excel",
+    "AddTag": "Dodaj oznaku",
+    "RemoveTag": "Ukloni oznaku",
+    "RowsSelection": {
+      "Selected": "označeno",
+      "SelectAll": "Odaberi sve",
+      "ClearSelection": "Očisti odabir"
+    },
+    "Merge": "Spoji"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Krušne mrvice"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "s obavijestima"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Broj"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Smanji",
+    "Expand": "Proširi"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Traka napretka"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Status chata",
+    "CtiStatesMenuCaption": "Status telefonije"
+  },
+  "MultiList": {
+    "NoDataMessage": "Još nema nedavnih stavki",
+    "NoDataBySearchFilter": "Nema zapisa koji odgovaraju kriterijima filtrera",
+    "NoDataBySearchFilterSubtitle": "Očistite filtar ili promijenite njegove uvjete "
+  },
+  "DataSource": {
+    "Hierarchical": {
+      "RowsLimitNotification": "Not all records are loaded in the hierarchical list due to the configured limit"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Molimo odaberite vrijednost iz popisa",
+      "SelectionWindowMessage": "Molimo odaberite vrijednost iz popisa ili pretražite koristeći prozor za pretraživanje"
+    },
+    "Required": {
+      "Message": "Unesite vrijednost"
+    },
+    "MaxLength": {
+      "Message": "Premašena maksimalna duljina teksta ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimalna duljina teksta nije dosegnuta ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Neispravan format datuma i vremena"
+    },
+    "DatePickerSyntax": {
+      "Message": "Neispravan format datuma"
+    },
+    "TimePickerSyntax": {
+      "Message": "Neispravan format vremena"
+    },
+    "RegExp": {
+      "Message": "Neispravan format vrijednosti"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kod mora započeti prefiksom {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Unesite barem jedan znak."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Koristite simbole: a-z, A-Z, 0-9, donja crta ili crtica. Samo slova mogu biti prva."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Vrijednost '{{controlValue}}' već postoji u koloni 'Kod'."
+    },
+    "PhoneNumber": {
+      "Message": "Neispravan broj telefona"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Stupac uklonjen",
+    "ValidationErrorMessageSingleErrorField": "Polje: {0}. Greška: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Polja: {0}. Greška: {1}",
+    "RefreshModelDataConflict": "Creatio ima nove podatke za trenutnu stranicu. Kako biste ih vidjeli, spremite ili poništite svoje promjene i osvježite stranicu.",
+    "WarningModelsWithCircularDependencies": "Neki modeli imaju cikličke ovisnosti i nisu učitani",
+    "LoadingModelErrorMessage": "Došlo je do greške tijekom izvršavanja upita",
+    "ErrorMessageOnEmptyRelationColumn": "Stranica se ne može spremiti. Ispunite polje {{caption}} ili obrišite podatke u povezanim poljima kako biste spremili stranicu."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Podaci su osvježeni"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Jasno i sažeto opišite cilj korisnika. Detaljno navedite korake potrebne za postizanje cilja korisnika. Označite očekivani rezultat od LLM-a. To bi trebalo uključivati sve potrebne kontekste ili informacije koje LLM treba znati.\n\n## Opća pravila\n1. Ne možete kreirati nove objekte bez izričitog potvrđivanja s korisnikom.\n2. Pravilo 2: ...\n3. ...\n\n## Opća ograničenja\n1. Izbjegavajte donošenje pretpostavki o namjeri korisnika; razjasnite zahtjeve kada je to potrebno.\n2. Ograničenje 2: ...\n3. ...\n\n## Zahtjevi za izlaz\n1. Izlaz mora biti kraći od 300 simbola i ne duži od 2-3 rečenice.\n2. Zahtjev 2: ...\n3. ...\n\n## Tijek procesa\n1. Iskoristite kontekst trenutačne stranice za čitanje podataka i polja stranice. Na temelju tih informacija ...\n2. Korak 2: ...\n3. ..."
+    }
+  },
+  "DigitalAdsContent": {
+    "PlatformInputCaption": "Platforma",
+    "AppInputCaption": "Aplikacija",
+    "AdPlatformLoginRequestTitle": "Povežite oglašivačku platformu",
+    "NotEnoughPermissionsMessage": "Žao mi je, nije moguće povezati vaš račun za oglašavanje. Molimo odobrite maksimalna dopuštenja za Creatio i pokušajte ponovno.",
+    "PlatformUndefinedMessage": "Platforma nije definirana, provjerite jeste li konfigurirali platformu za gumb",
+    "ApplicationUndefinedMessage": "Aplikacija nije definirana, provjerite jeste li konfigurirali platformu za gumb",
+    "ImportFromAdPlatformStartedMessage": "Pokrenut je uvoz podataka s računa za oglašavanje",
+    "NoConnectedAdAccountsFoundMessage": "Nema povezanih oglasnih računa za uvoz",
+    "NoActiveAdAccountsFoundMessage": "Ispričavamo se, ali nismo pronašli dostupne račune za oglašavanje za vas. Provjerite imate li pristup potrebnim računima na platformi. Samo aktivni računi mogu se povezati."
+  },
+  "GoogleAnalytics": {
+    "LoginRequestTitle": "Povežite Google Analytics",
+    "NotEnoughPermissionsMessage": "Žao mi je, nije moguće povezati vaš google analytics račun. Molimo odobrite maksimalna dopuštenja za Creatio i pokušajte ponovno.",
+    "PlatformUndefinedMessage": "Platforma nije definirana, provjerite jeste li konfigurirali platformu za gumb",
+    "ApplicationUndefinedMessage": "Aplikacija nije definirana, provjerite jeste li konfigurirali platformu za gumb",
+    "RefreshStreamSuccessMessage": "Google Analytics tokovi su uspješno osvježeni",
+    "RefreshStreamErrorMessage": "Nije uspjelo osvježiti Google Analytics tokove. Molimo pokušajte ponovno kasnije.",
+    "RefreshStreamConfirmationTitle": "Osvježiti popis tokova podataka?",
+    "RefreshStreamConfirmationMessage": "Osvježavanje može potrajati — sustav neće biti dostupan tijekom ažuriranja popisa",
+    "RefreshStreamConfirmationCancel": "Odustani",
+    "RefreshStreamConfirmationOk": "Osvježi",
+    "PlatformCaption": "Platforma",
+    "ApplicationCaption": "Aplikacija"
+  },
+  "EnvironmentManagement": {
+    "PageTitle": "Creatio",
+    "WaitPageTitle": "Try Creatio",
+    "IdentityServiceNotConfigured": "Identity service is not configured. Please contact your administrator.",
+    "Users": {
+      "Profile": {
+        "InvalidValue": {
+          "Message": "Invalid value. Value must not contain <br><b>{0}</b> and must contain up to <br><b>{1}</b> characters"
+        }
+      }
+    }
+  },
+  "EnvironmentLoader": {
+    "PreparingEnvironment": "Preparing the environment",
+    "ThisMayTakeMoments": "This may take a few moments",
+    "EnvironmentNotUsed": "This environment was not used for a while - we need to re-enable it"
+  },
+  "EnvironmentToolbar": {
+    "Applications": "Aplikacijski centar",
+    "Users": "Korisnici",
+    "Subscriptions": "Pretplate",
+    "HealthCenterCaption": "Health center"
+  },
+  "EnvironmentListItem": {
+    "SelectEnvironment": "Select environment",
+    "Site": "Stranica:",
+    "Action": {
+      "EnvironmentDetails": "Environment details",
+      "ManageApplications": "Manage applications",
+      "ManageEnvironment": "Manage environment",
+      "OpenConfiguration": "Open configuration",
+      "OpenEnvironment": "Open environment",
+      "CopyLink": "Copy link",
+      "LinkCopied": "Link copied",
+      "Restart": {
+        "ProcessResponseSuccess": "Restart process successfully started",
+        "ProcessResponseFailure": "Restart process failed"
+      }
+    },
+    "SiteIsNotRegisteredCaption": "The site is not registered on the portal, contact technical support."
+  },
+  "EnvironmentErrorPage": {
+    "HaveNotActiveSites": "You have no active sites",
+    "GetFreeTrial": "Get a free trial",
+    "TrialExpiredCaption": "Your trial environment has expired",
+    "CreateNewCaption": "New environment",
+    "Oops": "Ooops...",
+    "Description": "There was an error while trying to connect to the site:",
+    "Proposition": "You can try to",
+    "ErrorByTimeoutLoadingProposition": "Refresh the page. If problem persists, please",
+    "RestartSite": "Ponovno pokreni",
+    "ContactSupport": "Contact Creatio support",
+    "TryLaterMessage": "At the moment, all free trials are taken, please, try again in a few minutes."
+  },
+  "EnvironmentsExceeded": {
+    "Header": "The {0} product trials are waiting for you in the Application Hub",
+    "Description": "You have reached the trial limit.\nYou will be able to order a new trial after an active trial expires.",
+    "ButtonCaption": "Idi na aplikacijski centar"
+  },
+  "AppDeploymentDialogComponent": {
+    "DialogTitle": "Deploy app",
+    "DestinationEnvironmentTitle": "Destination site",
+    "DestinationEnvironmentPlaceholder": "Choose an environment for app deploy",
+    "NoDestinationEnvironmentsAvailablePlaceholder": "Unable to find any websites ready for deployment",
+    "NoDestinationEnvironmentsAvailableTooltip": "More than one active website is required to deploy the app",
+    "DeployButtonCaption": "Implementiraj",
+    "CancelButtonCaption": "Odustani",
+    "HealthCheckErrorMessage": "{0} destination website is currently unavailable. Try again later",
+    "AttentionText": "Provjerite je li aplikacija kompatibilna s verzijom i proizvodom odredišne ​​web stranice. Aplikacije temeljene na proizvodu Studio kompatibilne su sa svim Creatio proizvodima. Preporučujemo instaliranje aplikacija temeljenih na marketinškim, prodajnim ili uslužnim proizvodima na web-mjesta koja sadrže odgovarajući proizvod."
+  },
+  "AppDeploymentStatus": {
+    "DeploymentCaption": {
+      "Line11": "Deploying",
+      "Line12": "",
+      "Line13": "app",
+      "From": "od ",
+      "To": "za "
+    }
+  },
+  "Subscriptions": {
+    "NoPermissionMessage": "Insufficient permissions to open the section. Contact the administrator of your organization."
+  },
+  "PageTools": {
+    "DesignButtonHint": "Uredi stranicu",
+    "ExpandButtonTitle": "Proširi",
+    "CollapseButtonTitle": "Skupi"
+  },
+  "IndicatorWidget": {
+    "NoData": "N/A",
+    "AriaDescription": "{{chartTitle}}. Vrsta grafikona: metrički. Trenutna vrijednost je {{ariaValue}}.",
+    "NotClickableAriaDescription": "{{chartTitle}}. Vrsta grafikona: metrički. Trenutna vrijednost je {{ariaValue}}.",
+    "Caption": "Metric widget",
+    "Hint": "Metric allows you to display a single key value, such as a KPI, aggregated result, or formula-calculated value, to highlight performance.",
+    "AriaDrilldownInstruction": "Use the enter or white space keys to drill down the element.",
+    "AriaFullscreenInstruction": "Use the Escape key to collapse fullscreen.",
+    "NoChanges": "No changes",
+    "ComparisonSuffix": "(usporedba)",
+    "WithComparison": {
+      "Caption": "Metric with comparison",
+      "Hint": "Comparison metric component allows you to display a primary value alongside a comparative value (e.g., previous period) to show trends or differences."
+    }
+  },
+  "ChartLegend": {
+    "Title": "Legenda za {{chartTitle}} grafikon: koristite tipke sa strelicama za navigaciju i tipku Enter za otvaranje kontekstualnog izbornika."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} grafikon s \"{{chartTitle}}\" s {{groupsCount}} grupa. Grafikon koji prikazuje \"{{groupsNames}}\". X je \"{{xLabel}}\" od {{xMin}} do {{xMax}}. Y je \"{{yLabel}}\" od {{yMin}} do {{yMax}}. Koristite tipke sa strelicama za navigaciju.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Pritisnite tipku Enter za otvaranje izbornika."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. Tip grafikona je Gauge. Podaci se kreću od {{ariaMin}} do {{ariaMax}}. Trenutna vrijednost je {{ariaValue}}. Koristite tipke enter ili razmak da biste suzili element."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Proširi cijeli ekran za \"{{title}}\" grafikon.",
+      "CollapseLabel": "Smanji prikaz na punom ekranu za \"{{title}}\" grafikon."
+    },
+    "Menu": {
+      "Caption": "Izbornik za \"{{title}}\" grafikon.",
+      "CreateDashboard": {
+        "Caption": "Izradi nadzornu ploču",
+        "UnableCreateMessage": "⚠️ Nije moguće izraditi nadzornu ploču. Ova stranica nema komponentu Nadzorna ploča.\n\rMožete otići na drugu stranicu na kojoj je komponenta Nadzorna ploča već dostupna.\n\r📘 Saznajte više o radu s nadzornim pločama na <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Akademiji</a>"
+      }
+    }
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {
+      "LoadErrorMessage": "Nepodržana vrsta datoteke. Nije moguće pregledati ovu datoteku."
+    }
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "Sažetak",
+    "Title": "Naslov",
+    "Column": "Stupac",
+    "Function": "Funkcija",
+    "CustomSummaryLabelTooltip": "Element sadrži prethodno konfiguriranu logiku prikaza podataka. Ako trebate implementirati alternativnu logiku, tada uklonite vrijednost elementa."
+  },
+  "Summaries": {
+    "Caption": "Sumarni podaci",
+    "Actions": {
+      "CreateCount": "Prikaži broj zapisa",
+      "Title": "Postavke sažetaka"
+    },
+    "ProfileActions": {
+      "SaveForAll": "Spremi postavke za sve korisnike",
+      "ResetToDefault": "Vrati na zadane postavke",
+      "SaveForAllSuccessfully": "",
+      "ResetToDefaultSuccessfully": "Zadane postavke sažetka su uspješno vraćene na zadane"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "Brze postavke",
+      "Count": "Broj",
+      "Minimum": "Minimum",
+      "Maximum": "Maksimum",
+      "Sum": "Zbroj",
+      "Average": "Prosjek"
+    },
+    "AdvancedSetup": {
+      "Title": "Napredna postavka",
+      "Actions": {
+        "AddCustomSummary": "Dodaj novi sažetak"
+      }
+    },
+    "Hints": {
+      "NoDataSource": "Nije odabran izvor podataka",
+      "Collapse": "Smanji sažetke",
+      "Expand": "Proširi sažetke"
+    }
+  },
+  "SummaryItem": {
+    "Actions": {
+      "Delete": "Izbriši",
+      "Edit": "Uredi"
+    },
+    "AriaLabel": "Stavka sažetak",
+    "Statuses": {
+      "Added": "Stavka sažetka uspješno dodana",
+      "Deleted": "Stavka sažetak je uspješno izbrisana",
+      "Edited": "Stavka sažetka uspješno je promijenjena",
+      "Error": "Greška"
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "Dodaj",
+    "AddFilterHint": "Dodaj novu mapu",
+    "BlankslateMessage": "Nema mapa",
+    "CloseFolderTree": "Sakrij mape",
+    "SetUpFilter": "Postavi filter",
+    "DefaultFolderName": "Nova mapa",
+    "CopyFolderSuffix": "Kopiraj",
+    "DeleteConfirmation": "Jeste li sigurni da želite izbrisati odabranu mapu?",
+    "MenuActions": {
+      "AddFolder": "Dodaj mapu",
+      "AddStaticFolder": "Dodaj statičnu mapu",
+      "RenameFolder": "Preimenuj",
+      "CopyFolder": "Kopiraj",
+      "DeleteFolder": "Izbriši",
+      "AddToFavorite": "Dodaj u omiljene",
+      "RemoveFromFavorite": "Ukloni iz omiljenih",
+      "ChangeFolderRights": "Postavi prava pristupa",
+      "ConvertToStaticFolder": "Pretvori u statičku mapu",
+      "MoveFolder": "Pomakni"
+    },
+    "ShowMenuActions": "Prikaži radnje",
+    "FavoritesNodeCaption": "Omiljeno",
+    "RootNodeCaption": "Sve",
+    "CopyRightsQuestion": "Želite li kopirati pristupna ovlaštenja mape \"{0}\"?",
+    "HasNotPermission": "Nemate pristupno ovlaštenje za ovu radnju."
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "Spremi",
+    "CancelButton": "Odustani",
+    "DialogTitle": "Postavi filtere"
+  },
+  "FolderTreeActions": {
+    "ClearButtonCaption": "Očisti odabir",
+    "FavoriteItemsMenuButtonAriaLabel": "Izbornik omiljenih mapa",
+    "FolderButtonAriaLabel": "Otvori\\Zatvori stablo mapa",
+    "MenuButton": "Mape"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "Obavijestit ćemo vas kada se završi pretvorba."
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "Odustani",
+    "SelectFolderButtonCaption": "Odaberite",
+    "SelectFolderCaption": "Odaberite mapu"
+  },
+  "HtmlEditor": {
+    "EditorAriaLabel": "HTML editor",
+    "Placeholder": "Compose your message...",
+    "CharactersCount": "{{count}} characters",
+    "Toolbar": {
+      "SelectMacro": "Select macro",
+      "SelectFieldMacro": "Select field macro",
+      "Preview": "Pregled",
+      "Templates": "Predlošci",
+      "Variables": "Variables"
+    },
+    "TemplateReplacement": {
+      "Title": "Replace current content?",
+      "Message": "Inserting a template will replace the current editor content. Continue?"
+    },
+    "DefaultMacros": {
+      "SequenceActivityCategory": "Sequence activity",
+      "SenderName": "Ime pošiljatelja",
+      "SenderNameDescription": "Current sender full name",
+      "SenderEmail": "E-pošta pošiljatelja",
+      "SenderEmailDescription": "Current sender email",
+      "SenderPhone": "Sender phone",
+      "SenderPhoneDescription": "Current sender phone number",
+      "ContactLinkedInUrl": "LinkedIn URL",
+      "ContactLinkedInUrlDescription": "Inserts the recipient contact's LinkedIn profile URL"
+    },
+    "PreviewDialog": {
+      "Title": "HTML preview",
+      "ClosePreview": "Close preview",
+      "OriginalContent": "Original content",
+      "ResolvedContent": "Resolved content",
+      "CopyHtml": "Copy HTML",
+      "CopySuccess": "HTML copied to clipboard",
+      "CopyError": "Could not copy HTML to clipboard",
+      "Close": "Zatvori"
+    }
+  },
+  "TemplateGalleryItem": {
+    "RecommendationText": "AI-recommended"
+  },
+  "TemplateGallery": {
+    "Placeholder": {
+      "Title": "Još ništa ovdje",
+      "Description": "Ovo okruženje još nije spremilo nijedan predložak kampanje. Budite prvi koji će to ispraviti",
+      "ActionButtonText": "Dizajniraj od nule"
+    }
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "Dodaj komponente",
+    "Tooltip": "Molim vas, dodajte komponente"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "Zadana vrijednost",
+    "FilterColumnLabel": "Stupac filtra",
+    "ViewAttributeLabel": "Komponenta za filtriranje"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "Uredi filter",
+    "SetupFilterCaption": "Postavi filter",
+    "FiltersDialogCaption": "Ručno definirani filter",
+    "DefaultCheckBoxState": {
+      "Label": "Zadano stanje potvrdnog okvira",
+      "CheckedCaption": "Označeno",
+      "UncheckedCaption": "Neoznačeno"
+    },
+    "FilteringApproachState": {
+      "Label": "Pristup filtriranju",
+      "OnCheckedCaption": "Primijeni uvjet filtra kada je potvrdni okvir označen",
+      "OnUncheckedCaption": "Primijeni uvjet filtra kada potvrdni okvir nije označen"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "Zadano razdoblje",
+    "ChooseFilteringMethodCaption": "Odaberite metodu filtriranja",
+    "ChooseFilteringMethodTooltip": "Filtar može prikazivati podatke relevantne za određeno razdoblje.\nKoristite uvjet \"Postavi filtar po jednom datumu\" kako biste prikazali zapise koji su stvoreni ili izmijenjeni na određeni dan. Na primjer, možete postaviti ovaj filtar da prikaže vode prema datumu stvaranja, prilike prema datumu zatvaranja ili slučajeve prema datumu rješenja.\n\nKoristite uvjet \"Postavi filtar po rasponu datuma\" kako biste prikazali zapise za koje je raspon datuma posebno relevantan. Na primjer, možete postaviti ovaj filtar za ugovore čiji su početni i završni datumi unutar određenog raspona datuma.",
+    "SetUpByOneColumnTitle": "Postavite filter po jednom datumu",
+    "SetUpByTwoColumnsTitle": "Postavite filter po rasponu datuma",
+    "FilterColumnStartCaption": "Stupac filtra - Od",
+    "FilterColumnEndCaption": "Stupac filtra - Za",
+    "ShowTimeLabel": "Omogući vrijeme",
+    "ShowFiscalPeriodsLabel": "Prikaži fiskalna razdoblja"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "Kontakt trenutačnog korisnika",
+    "CurrentUserAccountName": "Račun trenutačnog korisnika",
+    "EditFilterCaption": "Uredi filter",
+    "SetupFilterCaption": "Postavi filter",
+    "FiltersDialogCaption": "Ručno definirani filter",
+    "TagVirtualColumnCaption": "Oznaka"
+  },
+  "QuickFilter": {
+    "MainTitle": "Brzi filter",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "Jučer",
+        "Today": "Danas",
+        "Tomorrow": "Sutra",
+        "PreviousWeek": "Prošli tjedan",
+        "CurrentWeek": "Tekući tjedan",
+        "NextWeek": "Sljedeći tjedan",
+        "PreviousMonth": "Prošli mjesec",
+        "CurrentMonth": "Tekući mjesec",
+        "NextMonth": "Sljedeći mjesec",
+        "PreviousQuarter": "Prošli kvartal",
+        "CurrentQuarter": "Trenutni kvartal",
+        "NextQuarter": "Sljedeći kvartal",
+        "PreviousFiscalWeek": "Prošli tjedan",
+        "CurrentFiscalWeek": "Tekući tjedan",
+        "NextFiscalWeek": "Sljedeći tjedan",
+        "FiscalQuarter1": "Q1",
+        "FiscalQuarter2": "Q2",
+        "FiscalQuarter3": "Q3",
+        "FiscalQuarter4": "Q4",
+        "FiscalHalfYear1": "Prva polovina godine",
+        "FiscalHalfYear2": "Druga polovina godine",
+        "PreviousFiscalYear": "Prošla godina",
+        "CurrentFiscalYear": "Tekuća godina",
+        "NextFiscalYear": "Sljedeća godina"
+      },
+      "RangeSeparator": "do",
+      "SelectDatePlaceholder": "Odaberi datum",
+      "EmptyDateRangeStartLabel": "<Start date>",
+      "EmptyDateRangeEndLabel": "<Due date>",
+      "Header": {
+        "ArrowRight": "Sljedeći mjesec",
+        "ArrowLeft": "Prošli mjesec"
+      },
+      "RangeSelectedFrom": "Odabrano od",
+      "ClearIcon": "Očisti odabrani raspon",
+      "ClearStartDatePlaceholder": "Očisti odabrani datum početka",
+      "ClearEndDatePlaceholder": "Očisti odabrani datum završetka",
+      "EmptyDateRangeStartAriaLabel": "[Nije odabran datum početka]",
+      "EmptyDateRangeEndAriaLabel": "[Nije odabran datum završetka]",
+      "CalendarMode": "Kalendar",
+      "FiscalMode": "Fiskalno",
+      "Fiscal": {
+        "PeriodNotFound": "Nismo uspjeli učitati raspon datuma fiskalnog razdoblja. Provjerite je li fiskalno razdoblje postavljeno ili kontaktirajte svog administratora za pomoć.",
+        "LoadError": "Pogreška pri učitavanju podataka o fiskalnom razdoblju, kontaktirajte administratora za pomoć"
+      },
+      "SelectTimePlaceholder": "Odaberi vrijeme"
+    },
+    "Lookup": {
+      "NoData": "Nema podataka"
+    }
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "Pozvano",
+        "Sec": "sek",
+        "DetailsLinkCaption": "Detalji poziva"
+      },
+      "Chat": {
+        "ChatWith": "razgovarao/la s",
+        "Show": "Prikaži razgovor",
+        "Hide": "Sakrij razgovor",
+        "DetailsLinkCaption": "Detalji razgovora"
+      },
+      "Email": {
+        "MailedTo": "Poslano na",
+        "From": "Od:",
+        "To": "Za:",
+        "CC": "CC:",
+        "Details": "Detalji",
+        "Hide": "Sakrij"
+      },
+      "File": {
+        "AddedFile": "Dodana datoteka"
+      }
+    },
+    "NoDataMessage": "Prošlost ne postoji",
+    "FillActionMessage": "Nema povezanih zapisa za prikaz u vremenskoj liniji",
+    "NoDataByFilterMessage": "Nema zapisa koji odgovaraju kriterijima filtera",
+    "FillActionByFilterMessage": "Očisti filtar ili promijeni njegove uvjete",
+    "EntityFilterCaption": "Sve",
+    "OwnerFilterCaption": "Vlasnik",
+    "DateFilterCaption": "Odaberi razdoblje",
+    "HideSystemMessagesCaption": "Sakrij poruke sustava",
+    "EntityFilterHint": "Odaberi vrstu zapisa",
+    "OwnerFilterHint": "Odaberi vlasnika zapisa",
+    "DateFilterHint": "Odaberi razdoblje zapisa",
+    "HideSystemMessagesHint": "Sakrij automatiziranu e-poštu",
+    "DateSort": "Datum",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "E-pošta"
+      },
+      "Feed": {
+        "Caption": "Feed"
+      },
+      "Task": {
+        "Caption": "Zadatak"
+      },
+      "SysFile": {
+        "Caption": "Datoteka"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "Gumb za sortiranje po datumu, trenutno sortirano {0}",
+        "Descending": "silazno",
+        "Ascending": "uzlazno"
+      }
+    }
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Opcije oblikovanja (Alt+F10)",
+    "UploadAttachments": "Odaberi privitke",
+    "SelectTemplate": "Umetni predložak",
+    "SelectionActions": {
+      "AskCopilot": "Pitaj Creatio AI",
+      "Friendly": "Prijateljski",
+      "Formal": "Formalno",
+      "Shorten": "Skrati",
+      "Extend": "Produži",
+      "Rephrase": "Preformuliraj",
+      "RewriteCaption": "Prepiši tekst"
+    },
+    "TableOfContents": {
+      "Title": "Sadržaj",
+      "Placeholder": "Ovdje će se pojaviti sadržaj stranice temeljen na naslovima kada bude objavljen."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Spremi",
+    "OpenLinkButtonCaption": "Otvori u novoj kartici",
+    "CloseLinkButtonCaption": "Zatvori",
+    "UnlinkLinkButtonCaption": "Raskini vezu",
+    "LinkLabelCaption": "Adresa poveznice",
+    "TextLabelCaption": "Tekst za prikaz"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Umetnite video",
+    "PasteUrlTab": "Zalijepi url",
+    "UploadFileTab": "Učitaj datoteku",
+    "EmbedCodeTab": "Ugradi kod",
+    "DialogDescription": "Ovaj video će biti umetnut širine 640 piksela.<br>Ovaj umetnuti video će uključivati tekstualnu vezu.",
+    "SaveButton": "Umetnite video",
+    "CancelButton": "Odustani",
+    "UploadButton": "Učitaj datoteku",
+    "InputPlaceholder": "Zalijepi ovdje",
+    "DragAndDropPlaceholder": "Povucite i ispustite datoteku ovdje ili",
+    "NotVideoFile": "Umetnuta datoteka nije video, molimo odaberite datoteku s video tipom.",
+    "ConfirmMessage": "Ova stranica sadrži nespremljene promjene. Bit će izgubljene ako zatvorite stranicu. Želite li spremiti promjene?"
+  },
+  "CommunicationOptions": {
+    "DesignerPhoneLabel": "Telefonski broj",
+    "DesignerEmailLabel": "Adresa e-pošte",
+    "DesignerWebLabel": "Mrežna poveznica",
+    "Caption": "Opcije komunikacije",
+    "DeleteOption": "Izbriši",
+    "Primary": "primarne",
+    "Invalid": "nevažeće",
+    "MarkAsPrimary": "Postavi kao primarno",
+    "MarkAsValid": "Označi kao valjano",
+    "MarkAsInvalid": "Označi kao nevažeće",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} već postoji",
+      "ReadOnlyStateMessage": "Opcija komunikacije ne može se dodati jer je komponenta u načinu samo za čitanje",
+      "IncorrectSetupComponentMessage": "Nemoguće dodati opciju komunikacije jer stranica još nije postavljena. Sistemski administrator može dovršiti postavke u Freedom UI dizajneru",
+      "EmptyMasterRecordColumnNameInRequestMessage": "Opcija komunikacije ne može se dodati praznom zapisu. Prvo dodajte vrijednost zapisa"
+    },
+    "NoDataPlaceholderText": "Nema podataka",
+    "Announcement": {
+      "Option": {
+        "Added": "Dodano {0}",
+        "Deleted": "{0} {1} obrisano",
+        "SetAsPrimary": "{0} {1} postavi kao primarno",
+        "MarkedAsValid": "{0} {1} označeno kao važeće",
+        "MarkedAsInvalid": "{0} {1} označeno kao nevažeće"
+      }
+    },
+    "ToolsAriaLabel": "Akcije"
+  },
+  "AccountCompactProfileDT": {
+    "DesignerNamePlaceholder": "Ime korisnika",
+    "AlternativeNamePlaceholder": "Također poznat kao",
+    "CountryPlaceholder": "Država"
+  },
+  "ContactCompactProfileDT": {
+    "DesignerNamePlaceholder": "Ime kontakta",
+    "DesignerBirthDatePlaceholder": "Datum rođenja",
+    "CountryPlaceholder": "Država"
+  },
+  "AccountCompactProfile": {
+    "Caption": "Kompaktni profil računa",
+    "DialogTitle": "Uredi račun",
+    "AlternativeNameFieldLabel": "Također poznat kao",
+    "EmptyDisplayValue": "Nema prikazane vrijednosti",
+    "NamePlaceholder": "Dodaj ime računa",
+    "EmptyRecord": {
+      "NamePlaceholder": "Ime računa",
+      "AlternativeNamePlaceholder": "Također poznat kao",
+      "CountryPlaceholder": "Država"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "Kompaktni profil kontakta",
+    "DialogTitle": "Uredi kontakt",
+    "EmptyDisplayValue": "Nema prikazane vrijednosti",
+    "NamePlaceholder": "Dodaj ime kontakta",
+    "BirthDatePlaceholder": "i datum rođenja",
+    "EmptyRecord": {
+      "NamePlaceholder": "Ime kontakta",
+      "BirthDatePlaceholder": "Datum rođenja",
+      "CountryPlaceholder": "Država"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "Kompaktni korisnički profil",
+    "DialogTitle": "Uredi ime",
+    "EmptyDisplayValue": "Nema prikazane vrijednosti",
+    "NamePlaceholder": "Uredi korisničko ime"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "Zatvori"
+  },
+  "WebchatPreview": {
+    "LoadError": {
+      "Title": "Preview unavailable",
+      "Subhead": "The widget could not be loaded from the service."
+    }
+  },
+  "Feed": {
+    "Caption": "Feed",
+    "SortByCreatedOn": "Poredaj po datumu poruke",
+    "SortByLastAction": "Poredaj po datumu posljednje aktivnosti",
+    "ShowMoreThanOneNewSocialMessages": "Prikaži {0} nove poruke",
+    "ShowNewSocialMessage": "Prikaži 1 novu poruku",
+    "ExternalUserTagCaption": "Vanjski",
+    "DraftItemTagCaption": "Skica",
+    "ExternalUserTagTooltip": "Objava za vanjske korisnike",
+    "Item": {
+      "Edit": "Uredi",
+      "Delete": "Izbriši",
+      "DeletionConfirmation": "Jeste li sigurni da želite izbrisati zapis? Ova radnja se ne može poništiti.",
+      "DeletionErrorMsg": "Zapis nije izbrisan. Molimo pokušajte ponovno kasnije.",
+      "DownloadFile": "Preuzmite"
+    },
+    "Publisher": {
+      "DefaultInputPlaceholder": "Objavite poruku…",
+      "DisabledInputPlaceholder": "Ne možete stvarati nove objave na stranici za novi zapis.",
+      "UserFeedInputPlaceholder": "Feed je u korisničkom načinu rada. Nije moguće kreirati nove objave u ovom načinu rada.",
+      "CommentInputPlaceholder": "Napišite komentar…",
+      "ShareWithPortal": "Dijeli s korisnikom portala",
+      "PostingErrorMsg": "Greška prilikom spremanja objave na feedu",
+      "PostingEmptyMsg": "Molim vas, upišite poruku kako biste nastavili.",
+      "SendButtonHint": "Pošalji poruku (Ctrl + Enter)",
+      "CancelButtonHint": "Odustani",
+      "ExternalMessagesDisabled": "Napomena: Vanjski korisnik neće moći pročitati poruku jer je ova opcija onemogućena u dizajnu komponente.",
+      "ConfirmMessageAccessLevelChange": "Molimo potvrdite da želite promijeniti razinu vidljivosti objave. Napomena: objava, povezani komentari i prilozi postat će vidljivi vanjskim korisnicima.",
+      "ConfirmCommentAccessLevelChange": "Molim potvrdite da želite promijeniti razinu vidljivosti komentara. Napomena, komentar i povezani prilozi postat će vidljivi vanjskim korisnicima."
+    },
+    "Post": {
+      "AddCommentButtonCaption": "Dodaj komentar",
+      "CommentsButtonCaption": "Komentari",
+      "CommentsButtonHint": "Prikaži komentare",
+      "ExpandedCommentsButtonHint": "Sakrij komentare",
+      "PostedInLabel": "objavljeno u"
+    },
+    "Reactions": {
+      "Like": "Sviđa mi se",
+      "ExtraReactionsTemplate": "i još {0}...",
+      "PostLiked": "Objava na feedu je lajkana.",
+      "LikeRemoved": "Lajk je uklonjen s objave na feedu."
+    },
+    "NoDataContainerLabel": "Tako tiho!",
+    "SortButtonCaption": "Razvrstaj feed",
+    "ActionsButtonCaption": "Akcije",
+    "FollowButtonCaption": "Prati feed",
+    "UnfollowButtonCaption": "Prestani pratiti feed",
+    "Following": {
+      "ButtonCaption": {
+        "Follow": "Prati feed",
+        "Unfollow": "Prestani pratiti feed"
+      },
+      "NotificationTemplate": {
+        "Follow": "Pratite ažuriranja izvora: {0}",
+        "Unfollow": "Prekinuli ste praćenje ažuriranja izvora: {0}"
+      }
+    },
+    "FollowNotificationTemplate": "Вы подписались на обновления ленты: {0}",
+    "UnfollowNotificationTemplate": "Вы отписались от обновлений ленты: {0}",
+    "AiGeneratedItemTagCaption": "AI-generated"
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "Pristajem"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "Preuzmi datoteku"
+    },
+    "System": {
+      "ChatStartedMessage": "Razgovor započet: {chatStartedAt} od {chatStartedBy}"
+    },
+    "Feedback": {
+      "Like": "Sviđa mi se",
+      "Dislike": "Dislike",
+      "HelpfulQuestion": "Was this helpful?",
+      "CommentPlaceholder": "Optional comment…",
+      "Send": "Pošalji",
+      "Thanks": "Thanks!"
+    }
+  },
+  "ChatList": {
+    "NoDataMessage": "Još nema nedavnih razgovora",
+    "CreateChatButton": "Započni novi razgovor",
+    "DraftPreview": "<span class='draft-preview'>Draft: </span>",
+    "YourPreview": "Vi: ",
+    "RenameChat": {
+      "LabelTitle": "Preimenuj razgovor",
+      "InputTitle": "Naslov",
+      "SaveButton": "Spremi",
+      "CancelButton": "Odustani"
+    },
+    "ChatItem": {
+      "ActionsMenuCaption": "Radnje"
+    },
+    "NoDataBySearchFilter": "Nema zapisa koji odgovaraju kriterijima filtrera",
+    "NoDataBySearchFilterSubtitle": "Očistite filtar ili promijenite njegove uvjete ",
+    "ARIA": {
+      "Label": "Razgovor",
+      "ChatItem": "Chat: {0}. Zadnja poruka: {1}",
+      "LoadMoreTrigger": "Učitaj više"
+    },
+    "AlreadyAssignedChat": "Razgovor je dodijeljen drugom agentu"
+  },
+  "ChatTransfer": {
+    "ButtonCaption": "Prenesi razgovor",
+    "AgentTab": "Agent",
+    "QueueTab": "Red čekanja",
+    "NoOperatorsAvailable": "Nema dostupnih agenata",
+    "NoData": "Nema podataka",
+    "OperatorStatus": {
+      "0": "Neaktivan",
+      "1": "Aktivno",
+      "2": "Prekoračen broj razgovora"
+    },
+    "InputPlaceholder": "Chat je preusmjeren",
+    "NoQueuesAvailable": "Nema dostupnih redova",
+    "ActiveAgentsCount": "{{count}} aktivni agent(i)"
+  },
+  "ChatAttachmentTile": {
+    "AttachedFile": "Priložena datoteka: {{fileName}}",
+    "DeleteFile": "Izbriši {{fileName}}"
+  },
+  "ChatQuickActions": {
+    "ButtonCaption": "Pokreni radnju",
+    "NoActionsTemplate": "Nema dostupnih radnji. Dodajte radnje za chat na stranici ${link}.",
+    "ChatSettingsPage": "Stranica postavki chata",
+    "ProcessExecutedSuccessfully": "Proces je uspješno izvršen",
+    "ProcessExecutionFailed": "Izvršavanje procesa nije uspjelo. Pokušajte ponovo."
+  },
+  "MessageTemplates": {
+    "ButtonCaption": "Otvori predloške (kliknite ili upišite //)",
+    "NotFound": "Nema pronađenih predložaka",
+    "NoAvailable": "Nema dostupnih predložaka",
+    "Group": {
+      "RecentlyUsed": "Nedavno korišteno",
+      "Others": "Ostalo"
+    }
+  },
+  "EmojiSelect": {
+    "ButtonCaption": "Dodaj emoji",
+    "ButtonAriaLabel": "Otvori birač emojija",
+    "PickerAriaLabel": "Birač emojija"
+  },
+  "LinkChatToContact": {
+    "SelectContactCaption": "Odaberite: kontakt",
+    "ConfirmLinkMessage": "Svi chatovi trenutnog kontakta bit će povezani s odabranim kontaktom, a trenutni kontakt će biti obrisan. Želite li nastaviti?"
+  },
+  "Translations": {
+    "TargetLanguage": "ciljni jezik",
+    "TranslatingTo": "Prevodim na {{language}}...",
+    "TranslatedTo": "Prevedeno na {{language}}",
+    "TranslationFailedDialog": "Prijevod nije uspio. Pokušajte ponovo."
+  },
+  "MessageComposer": {
+    "Chat": {
+      "ActiveChatExists": "There is already an active chat with the selected contact.",
+      "WhatsAppWindowExpired": "The message can't be sent outside the 24-hour messaging window.",
+      "WhatsAppWindowExpiredTooltip": "Learn more in the Academy <a href='https://academy.creatio.com/documents?id=2355' target='_blank' rel='noopener noreferrer'>article</a>",
+      "FacebookWindowExpired": "The message can't be sent outside the 24-hour messaging window. Facebook messenger only allows responses within 24 hours of the user's last message.",
+      "ChannelRestrictionError": "The message cannot be sent for the selected channel. Please check channel settings and try again.",
+      "Caption": "Chat composer",
+      "From": "Od",
+      "To": "Do",
+      "BodyPlaceholder": "Napiši poruku",
+      "FromValidation": "“From” field cannot be blank. Please select a channel.",
+      "ToValidation": "“To” field cannot be blank. Please select a contact.",
+      "EmptyMessageValidation": "Message cannot be blank. Please type a message or attach a file.",
+      "ChatSent": "Chat message sent",
+      "SendError": "Failed to send a chat message. Please try again later."
+    },
+    "CancelButtonHint": "Odbaci",
+    "CancelButtonText": "Odbaci",
+    "SaveDraftButtonText": "Spremi skicu",
+    "SendButtonHint": "Pošalji poruku (Ctrl + Enter)",
+    "MessageSent": "Poruka poslana",
+    "SendButtonText": "Pošalji",
+    "RemoveAttachmentHint": "Ukloni prilog",
+    "Caption": "Sastavljač poruke",
+    "Email": {
+      "Caption": "Sastavljač e-pošte",
+      "From": "Od",
+      "To": "Za",
+      "CC": "CC",
+      "BCC": "BCC",
+      "Subject": "Predmet",
+      "PublishError": "Slanje poruke nije uspjelo. Primljena je sljedeća greška: {0}",
+      "SaveDraftError": "Nemoguće spremiti skicu. Molimo pokušajte ponovo kasnije",
+      "TemplateInsertError": "Nemoguće je dodati predložak. Molimo pokušajte ponovno kasnije.",
+      "AttachmentsSizeLimitReached": "Ukupna veličina priloga veća je od dopuštenih {0} MB. Molimo uklonite neke priloge.",
+      "FromValidationErrorMessage": "Polje 'Od' ne može biti prazno. Molimo odaberite poštanski sandučić.",
+      "ToValidationErrorMessage": "Polje 'Za' ne može biti prazno. Molimo unesite barem jednog primatelja.",
+      "SubjectValidationErrorMessage": "Polje 'Predmet' ne može biti prazno. Molimo unesite predmet e-pošte.",
+      "Draft": "Skica",
+      "BodyPlaceholder": "Napiši poruku",
+      "Reply": "Odgovori",
+      "ReplyAll": "Odgovori svima",
+      "Forward": "Proslijedi",
+      "SentOn": "Poslano dana",
+      "SubjectToggleCaption": "Predmet",
+      "CcToggleCaption": "CC",
+      "BccToggleCaption": "BCC",
+      "NotContainsEmail": "ne sadrži e-poštu u sebi",
+      "ChangeReplyAction": "Promijeni radnju odgovora",
+      "ShowTrimmedEmailTitle": "Prikaži skraćenu e-poštu",
+      "EmailTemplatesLookupCaption": "Odaberi predložak",
+      "EmailTemplatesDisplayColumnCaption": "Ime predloška",
+      "ContinueEditing": "Nastavi uređivanje",
+      "SaveDraft": "Spremi skicu",
+      "DraftSaved": "Skica spremljena",
+      "EmailSent": "E-mail poslan",
+      "RemoveRecipientLabel": "Ukloni primatelja",
+      "ValidateUnhandledMacrosMessage": "There are no available values for some macros used in this email. We recommend removing the highlighted macros before sending. Send email now?",
+      "RemoveUnhandledMacros": "Remove unhandled macros",
+      "UnhandledMacrosRemovedConfirmation": "Unresolved macros were removed from the email. Send email now?",
+      "UnhandledMacrosRemoved": "Unhandled macros deleted successfully"
+    },
+    "Feed": {
+      "Caption": "Kreator feeda"
+    },
+    "Selector": {
+      "Caption": "Sastavljač poruke"
+    },
+    "ComposerAreaLabel": "Područje za unos sastavljača poruka",
+    "AttachmentPreview": "Pregled privitka",
+    "Attachment": {
+      "Added": "Priložak je dodan.",
+      "Removed": "Priložak je uklonjen."
+    },
+    "SendEmailErrorMessage": "Dogodila se neočekivana pogreška prilikom slanja e-pošte. Pokušajte ponovo kasnije."
+  },
+  "Chat": {
+    "UnknownContact": "Unknown contact"
+  },
+  "ChannelChatPreview": {
+    "EmptyChannel": "Save the channel to start a preview conversation.",
+    "StartTyping": "Send a message to start the conversation.",
+    "ComposerAriaLabel": "Preview message",
+    "ComposerPlaceholder": "Napiši poruku",
+    "Send": "Pošalji",
+    "SendError": "Failed to send the message. Please try again.",
+    "StartError": "Could not start the preview session. Please try again."
+  },
+  "MessageDeliveryStatus": {
+    "Sending": "Slanje",
+    "Sent": "Poslano",
+    "Delivered": "Dostavljeno",
+    "Read": "Čitaj",
+    "Failed": "The message could not be sent due to an unexpected error. Try again later or contact support if the issue continues."
+  },
+  "MessageDeliveryError": {
+    "Unknown": "The message could not be sent due to an unexpected error. Try again later or contact support if the issue continues.",
+    "FileSizeExceeded": "The message exceeds the maximum length allowed by this channel. Shorten the message or send it in multiple parts.",
+    "UnsupportedFileType": "This channel does not support the attachment used in the message. Remove the attachment or send a supported file type.",
+    "InvalidRecipient": "The recipient address appears to be invalid. Please check the contact details and try again.",
+    "AuthenticationFailed": "The messaging channel authentication is invalid or expired. Reconnect the integration to continue sending messages.",
+    "RateLimitExceeded": "Message sending is temporarily limited due to high activity. Please wait a moment and try again.",
+    "NetworkError": "The messaging service is temporarily unavailable. Try sending the message again later.",
+    "BotBlocked": "The user has blocked this account, so messages cannot be delivered. Ask the user to unblock the account and send a message first.",
+    "ChatNotFound": "The user has not started a conversation with this account yet. Ask the user to send the first message to begin the chat.",
+    "MessageTooLong": "The message exceeds the maximum length allowed by this channel. Shorten the message or send it in multiple parts.",
+    "ProviderError": "The messaging service is temporarily unavailable. Try sending the message again later.",
+    "AttachmentError": "This channel does not support the attachment used in the message. Remove the attachment or send a supported file type."
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "Postavke nadzorne ploče",
+    "GeneralGroup": {
+      "Caption": "Općenito",
+      "DataSource": "Izvor podataka",
+      "DataSourceTooltip": "Izvor podataka će biti postavljen kao primarni izvor podataka za svaku nadzornu ploču koja se kreira u ovoj komponenti",
+      "DataSourceDependenciesSettingTooltip": "Filtriranje prema podacima stranice omogućuje vam prikaz povezanih podataka na nadzornoj ploči",
+      "DataSourceFilterElementsGroupTooltip": "Ova postavka omogućuje korištenje unaprijed konfiguriranih filtriranja iz mapa ili drugih elemenata filtriranja podataka kao filtara stranice"
+    },
+    "DashboardsGroup": {
+      "Caption": "Nadzorne ploče",
+      "AddDashboard": "Dodajte novu nadzornu ploču",
+      "InfoTooltip": "Popis nadzornih ploča prikazuje samo one stavke koje su sheme u konfiguraciji",
+      "ContextMenu": {
+        "Copy": "Kopiraj",
+        "Delete": "Izbriši",
+        "Edit": "Uredi"
+      },
+      "DialogMessages": {
+        "DeleteDashboard": {
+          "Confirmation": {
+            "Default": "Jeste li sigurni da želite izbrisati nadzornu ploču \"{{caption}}\"?",
+            "WithUserLevelSchema": "Nadzorna ploča koju želite izbrisati ima ovisnu nadzornu ploču: \"{{caption}}\" shema krajnjeg korisnika. Ako nastavite, obje nadzorne ploče će biti izbrisane. Nastaviti?"
+          },
+          "UnableToDelete": {
+            "InReadOnlyPackage": "Nemoguće izbrisati \"{{caption}}\" nadzornu ploču jer je stvorena od treće strane ili instalirana iz datoteke",
+            "DependsOnSchema": "Nije moguće izbrisati \"{{caption}}\" nadzornu ploču jer ima ovisne sheme konfiguracije"
+          }
+        }
+      }
+    },
+    "AdvancedSettingsGroup": {
+      "CannotRenameElementInfoTooltip": "Ne možete preimenovati element jer ima povezana upravljačka sučelja"
+    }
+  },
+  "Dashboards": {
+    "SelectDashboard": "Odaberite nadzornu ploču",
+    "NoData": "Nema povezanih nadzora za prikazivanje",
+    "NoData2": "Dodajte nadzornu ploču kako bi izgledala ljepše",
+    "CreateNewDashboardButton": "Dodajte novu nadzornu ploču",
+    "AccessDenied": "Nemate dozvolu za uređivanje ove stavke",
+    "DialogWindow": {
+      "DeleteDashboard": {
+        "ConfirmationMessage": "Jeste li sigurni da želite izbrisati odabranu nadzornu ploču?",
+        "FailMessage": "Nažalost, ne možete izbrisati odabranu nadzornu ploču"
+      }
+    },
+    "ActionsToolbar": {
+      "Title": "Radnje",
+      "Edit": "Uredi",
+      "Copy": "Kopiraj",
+      "Delete": "Izbriši",
+      "Rights": "Postavi prava pristupa"
+    },
+    "All": "Sve",
+    "Favorites": "Omiljeno",
+    "AddToFavoritesButton": "Dodaj u omiljene",
+    "RemoveFromFavoritesButton": "Ukloni iz omiljenih"
+  },
+  "Icon": {
+    "PropertiesPanel": {
+      "Caption": "Ikona",
+      "General": {
+        "Caption": "Općenito",
+        "Icon": {
+          "Label": "Ikona"
+        },
+        "Color": {
+          "Label": "Boja"
+        },
+        "Size": {
+          "Label": "Veličina",
+          "Options": {
+            "Small": "Malo",
+            "Medium": "Srednje",
+            "Large": "Veliki",
+            "ExtraLarge": "Izuzetno veliki"
+          }
+        },
+        "Spacing": {
+          "Label": "Padding",
+          "Tooltip": "Controls the space between the icon and the edges of the component",
+          "Options": {
+            "None": "Nijedna",
+            "ExtraSmall": "Extra Small",
+            "Small": "Mali",
+            "Medium": "Srednji",
+            "Large": "Veliki",
+            "ExtraLarge": "Izuzetno veliki",
+            "ExtraExtraLarge": "Extra Extra Large"
+          }
+        },
+        "Background": {
+          "TypeLabel": "Background type",
+          "ColorLabel": "Boja pozadine",
+          "Options": {
+            "None": "Nijedan",
+            "Square": "Square",
+            "Circle": "Circle"
+          }
+        },
+        "Accessibility": {
+          "NameLabel": "Accessible name",
+          "NameTooltip": "The text read by screen readers to describe the icon",
+          "TooltipLabel": "Opisna oznakaprikaz savjeta"
+        }
+      }
+    },
+    "Caption": "Ikona",
+    "Hint": "A visual component that allows you to represent actions and states in a clear and intuitive way"
+  },
+  "IFrame": {
+    "Caption": "iFrame",
+    "Hint": "iFrame komponenta omogućuje umetanje i prikazivanje sadržaja u HTML ili URL formatu",
+    "Placeholder": {
+      "NothingToShow": "Još ništa za prikazati",
+      "NoContent": "Nema dostupnog sadržaja u ovoj sekciji"
+    },
+    "ContentUnavailable": {
+      "Title": "Sadržaj nije dostupan",
+      "SubTitle": "Zbog vaših mrežnih postavki, sigurnosnih politika preglednika ili ograničenja sadržaja",
+      "LinkTitle": "Saznajte više na Academy-u"
+    },
+    "PropertiesPanel": {
+      "Caption": "iFrame postavke",
+      "GeneralSettings": {
+        "Caption": "Općenito",
+        "ContentTypeLabel": "Vrsta sadržaja",
+        "ContentValueLabel": "Sadržaj za prikaz",
+        "UrlContentPlaceholder": "https://mysitename.com",
+        "UrlContentTooltip": "Kako biste osigurali pravilno prikazivanje sadržaja, provjerite sljedeće: <ul><li>Izvor omogućuje ugrađivanje u iframe</li><li>Poveznica koristi HTTPS protokol</li><li>Domena izvora je uključena u popis pouzdanih izvora vaše Content Security Policy. Preporučujemo dodati barem dvije dozvoljene direktive: connect-src i frame-src</li></ul>"
+      },
+      "PermissionsSettings": {
+        "Caption": "Permissions",
+        "AllowLabel": "Dozvoljene značajke",
+        "AllowTooltip": "Navodi koje značajke preglednika ugrađeni sadržaj smije koristiti, na primjer, kameru, mikrofon, cijeli zaslon. <br/>Više informacija potražite u <a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy' target='_blank' rel='noopener noreferrer'>MDN dokumentaciji</a>.",
+        "SandboxLabel": "Sandbox dozvole",
+        "SandboxTooltip": "Navodi koja su ograničenja sandboxa uklonjena za ugrađeni sadržaj. Dodijelite samo potrebne dozvole. <br/>Više informacija potražite u <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox' target='_blank' rel='noopener noreferrer'>MDN dokumentaciji</a>."
+      }
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Sljedeći mjesec",
+    "AriaPrevMonthLabel": "Prošli mjesec",
+    "AriaNextYearLabel": "Sljedeća godina",
+    "AriaPrevYearLabel": "Prošla godina",
+    "Readonly": "Polje koje se ne može uređivati",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Kalendar",
+    "TimePickerIconTitle": "Vrijeme",
+    "AriaTimeListLabel": "Time options"
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "Sve",
+    "NotFilledNode": "Nije ispunjeno",
+    "SpecificationFilterCaption": "Otvori dodatno filtriranje",
+    "BackButtonCaption": "Natrag",
+    "ClearAllFiltersButtonCaption": "Očisti sve",
+    "NoDataCaption": "Nema podataka"
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Filter hijerarhije entiteta",
+    "GeneralCaption": "Općenito",
+    "SchemaNameCaption": "Odaberite objekt za izgradnju hijerarhije",
+    "HierarchySetup": "Postavke hijerarhije",
+    "SchemaNameSelectTooltip": "Odaberite objekt za izgradnju hijerarhije. Svi sustavni objekti prikazani su u padajućem izborniku. Nakon konfiguriranja hijerarhije, povežite je s komponentom Lista navođenjem kao prethodno konfiguriranog filtra.",
+    "ApplyStaticFilter": "Primijeni statički filter",
+    "EditStaticFilterAction": "Uredi filter",
+    "FiltersDialogCaption": "Ručno definirani filter",
+    "SetupStaticFilterAction": "Postavi filter",
+    "DisplayModeCaption": "Vrsta hijerarhije",
+    "ManualDisplayMode": "Ručno",
+    "ByParentDisplayMode": "Prema roditelju"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Dodaj novi stupac hijerarhije",
+    "ContextMenu": {
+      "AddToSubmenu": "Dodaj pod-hijerarhiju",
+      "Edit": "Uredi",
+      "Delete": "Izbriši"
+    }
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "Promijenite DCM slučaj. Postoji relevantnija konfiguracija za ovaj entitet.",
+    "ConfirmChangeCaseDialogMessage": "Želite li zamijeniti trenutnu verziju slučaja?",
+    "SnackbarActualFilterCaseMessage": "Postoji relevantniji slučaj \"{{caption}}\". Zamijeniti?",
+    "SnackbarIgnoreButtonCaption": "Ignoriraj",
+    "SnackbarReplaceButtonCaption": "Zamijeni",
+    "SnackbarEntityProcessChangedMessage": "Slučaj je uspješno promijenjen."
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Birač boje",
+        "AppearanceGroup": "Izgled",
+        "PickerModeRadioButtonCaption": "Paleta",
+        "PickerMode": {
+          "Basic": "Osnovna paleta",
+          "Extended": "Proširena paleta"
+        }
+      },
+      "AppearanceGroup": "Izgled",
+      "BindToDataSourceCaption": "Izvor podataka",
+      "DataSourceAttributeNotFoundErrorMessage": "Stavka s putanjom \"{0}\" nije pronađena",
+      "Editability": "Mogućnost uređivanja",
+      "EditabilityControls": {
+        "Readonly": "Samo za čitanje",
+        "Disabled": "Onemogućeno"
+      },
+      "TitleOnPage": "Naziv na stranici",
+      "Multiline": "Višelinijski tekst",
+      "LabelPosition": "Pozicija naslova",
+      "LabelPositionVariants": {
+        "Auto": "Automatski",
+        "Left": "Lijevo",
+        "Right": "Desno",
+        "Above": "Iznad",
+        "Hidden": "Sakriveno"
+      },
+      "Placeholder": "Privremena oznaka",
+      "Combobox": {
+        "IsAddAllowed": "Omogući dodavanje novih vrijednosti",
+        "ShowValueAsLink": "Prikaži vrijednost kao poveznicu",
+        "IsGoToSourceAllowed": "Omogući otvaranje liste zapisa",
+        "ValueDetailsLabel": "Detalji vrijednosti polja",
+        "ValueDetailsTooltip": "Detalji vrijednosti polja bit će prikazani na temelju određenog zapisa pretraživanja",
+        "SecondaryDisplayValueLabel": "Dodatna prikazana vrijednost",
+        "SecondaryDisplayValueTooltip": "Dodatne informacije za prikaz u padajućem izborniku"
+      },
+      "Tooltip": "Opisna oznaka",
+      "DisplayPhoneMask": "Prikaži masku za telefonski broj",
+      "FileEntitySchemaLabel": "Lokacija pohrane",
+      "TooltipHint": "Prikaz savjeta podržava i obični tekst i HTML sadržaj. Molimo osigurajte da je vaš HTML sadržaj sažet i prilagodljiv veličini prikaza savjeta.",
+      "SelectDataSource": "Odaberite izvor podataka"
+    },
+    "WidgetPropertiesPanel": {
+      "HeaderLabel": "Postavke widgeta",
+      "GeneralLabel": "Općenito",
+      "TitleLabel": "Naslov",
+      "ColorLabel": "Boja",
+      "StyleLabel": "Stil",
+      "SizeLabel": "Veličina",
+      "Styles": {
+        "FullyColored": "Potpuno obojeno",
+        "PlainWhite": "Čisto bijelo",
+        "PartiallyColored": "Djelomično obojeno",
+        "Glassmorphism": "Efekt stakla",
+        "Transparent": "Prozirno"
+      },
+      "Sizes": {
+        "ExtraSmall": "Jako malo",
+        "Small": "Malo",
+        "Medium": "Srednji",
+        "Large": "Veliki",
+        "ExtraLarge": "Izuzetno veliki"
+      },
+      "ContextMenu": {
+        "Edit": "Uredi"
+      },
+      "ChartSeries": "Serije dijagrama",
+      "SeriesControlLabel": "Naslov",
+      "SetupBlockCaption": "Postavi grafikon",
+      "SetupButtonLabel": "Postavke grafikona",
+      "FilterByActiveItemTooltip": "Odaberite kako biste korisnicima omogućili filtriranje podataka grafikona prema aktivnom retku povezanog izvora podataka",
+      "AppearanceGroup": {
+        "Caption": "Izgled"
+      },
+      "HideBorderLabel": "Sakrij okvir",
+      "HideTitleLabel": "Sakrij naslov",
+      "ProvidingSettings": {
+        "AggregationFunctions": {
+          "Sum": "Zbroj",
+          "Avg": "Prosjek",
+          "Min": "Minimum",
+          "Max": "Maksimum",
+          "Count": "Broj",
+          "Label": "Funkcija",
+          "Formula": "Formula",
+          "SetupFormula": "Postavi formulu",
+          "ChangeFormula": "Izmijeni formulu"
+        },
+        "Formula": {
+          "AggregationSetupDialog": {
+            "Title": "Postavke formule elementa",
+            "TitlePlaceholder": "Unesite naslov za identifikaciju ovog elementa u formuli.",
+            "ObjectLabel": "Objekt",
+            "ColumnLabel": "Stupac",
+            "TitleLabel": "Naslov",
+            "StaticFilterTab": "Statični filtar",
+            "DynamicFilterTab": "Dinamički filtar",
+            "Save": "Spremi",
+            "Cancel": "Odustani"
+          },
+          "Toolbar": {
+            "Count": "Broj",
+            "Sum": "Zbroj",
+            "Avg": "Prosj.",
+            "Min": "Min",
+            "Max": "Maks"
+          },
+          "Editor": {
+            "Count": "COUNT",
+            "Sum": "SUM",
+            "Avg": "AVG",
+            "Min": "MIN",
+            "Max": "MAX"
+          }
+        },
+        "ObjectLabel": "Objekt",
+        "ColumnLabel": "Stupac"
+      },
+      "FormatSettings": {
+        "Format": "Formatiraj",
+        "Template": {
+          "Label": "Tekst",
+          "Hint": "Unesite tekst koji prati vrijednost. Na primjer, \"{0} stavki\" ili \"$ {0}\""
+        },
+        "LabelPosition": {
+          "Label": "Pozicija teksta",
+          "AboveAndUnder": "Iznad i ispod vrijednosti",
+          "BeforeAndAfter": "Vrijednost prije i poslije"
+        },
+        "NumberOfDigits": {
+          "Label": "Broj znamenki nakon decimalne točke"
+        },
+        "ShowTime": "Show time"
+      },
+      "ComparisonSettings": {
+        "Title": "Usporedba",
+        "CompareWithAnotherValue": "Compare with another value",
+        "InvalidDateMetric": "Comparison is not available for the selected date/time metric. Please change the aggregation function and column.",
+        "ConfigureHint": "Configure the comparison value to show the difference from the main metric",
+        "SetupComparison": "Set up comparison",
+        "EnableComparison": "Enable comparison",
+        "CopySettingsHint": "Reuse the configuration from Metric values and adjust it if needed.",
+        "CopySettingsLink": "Copy value settings",
+        "ApplyStaticFilter": "Primijeni statički filter",
+        "SetupFilterButton": "Postavi filter",
+        "TrendIndicatorLabel": "Trend indicator",
+        "TrendVisualizationLabel": "Trend visualization",
+        "UpTrendColorLabel": "Up trend color",
+        "DownTrendColorLabel": "Down trend color",
+        "FormatSectionTitle": "Formatiraj",
+        "ComparisonTextLabel": "Comparison value text",
+        "ComparisonTextPlaceholder": "e.g., vs previous month",
+        "ChangeFormatLabel": "Change format",
+        "ComparisonTypes": {
+          "Absolute": "Absolute",
+          "Percent": "%"
+        },
+        "TrendIndicators": {
+          "Arrow": "Strelica",
+          "Triangle": "Triangle",
+          "Circle": "Circle"
+        }
+      }
+    },
+    "SliderPropertiesPage": {
+      "ColorLabel": "Stil",
+      "Colors": {
+        "Accent": "Fokus",
+        "Primary": "Primarne",
+        "Warn": "Upozorenje",
+        "Default": "Zadane"
+      },
+      "ReadonlyLabel": "Samo za čitanje",
+      "StepLabel": "Vrijednost koraka",
+      "MinValueLabel": "Minimalna vrijednost",
+      "MaxValueLabel": "Maksimalna vrijednost",
+      "Validations": {
+        "GreaterThanZeroCaption": "Vrijednost mora biti veća od 0",
+        "MinValueLessThanMaxValueCaption": "Minimalna vrijednost mora biti manja od maksimalne vrijednosti",
+        "MaxValueGreaterMinValueCaption": "Maksimalna vrijednost mora biti veća od minimalne vrijednosti",
+        "StyleIsInvalidCaption": "Stil nije ispravan"
+      }
+    },
+    "ContainerPropertiesPage": {
+      "GeneralGroup": "Općenito",
+      "AppearanceGroup": "Izgled",
+      "ColorLabel": "Boja",
+      "BorderRadiusLabel": "Radijus ruba",
+      "Sizes": {
+        "None": "Nijedna",
+        "Small": "Mala",
+        "Medium": "Srednja",
+        "Large": "Velika",
+        "ExtraSmall": "Jako malo"
+      },
+      "PaddingGroup": "Razmak",
+      "Padding": {
+        "Top": "Vrh",
+        "Bottom": "Dno",
+        "Left": "Lijevo",
+        "Right": "Desno"
+      },
+      "StretchLabel": "Rasteži do roditeljskog kontejnera",
+      "FitContentLabel": "Prilagodi sadržaju",
+      "AlignItemsLabel": "Poravnaj stavke",
+      "AlignItems": {
+        "Stretch": "Rastegnuti",
+        "Start": "Start",
+        "Center": "Centar",
+        "End": "Kraj"
+      },
+      "Grid": {
+        "PageCaption": "Postavke mrežnog spremnika",
+        "ColumnsLabel": "Broj stupaca",
+        "ColumnGapFieldLabel": "Razmak između stupaca",
+        "RowGapFieldLabel": "Razmak između redaka"
+      },
+      "Flex": {
+        "PageCaption": "Postavke fleksibilnog kontejnera",
+        "Direction": "Smjer",
+        "Row": "Redak",
+        "Column": "Stupac",
+        "Gap": "Razmak",
+        "WrapLabel": "Omotaj elemente",
+        "JustifyContentLabel": "Poravnaj sadržaj",
+        "JustifyContent": {
+          "Start": "Start",
+          "Center": "Centar",
+          "End": "Kraj",
+          "SpaceBetween": "Razmak između"
+        }
+      },
+      "MobileGrid": {
+        "LayoutSetup": "Postavke izgleda",
+        "UseAdaptiveLayout": "Koristi prilagodljivi izgled",
+        "ColumnsSmall": "Broj stupaca za mobitel",
+        "ColumnsMedium": "Broj stupaca za tablet (portrait)",
+        "ColumnsLarge": "Broj stupaca za tablet (landscape)",
+        "DisableAdaptiveConfirmation": "Isključivanje prilagodljivog izgleda uklonit će konfiguracije za specifične širine zaslona. Trenutni izgled koristit će se na svim veličinama ekrana. Želite li nastaviti?"
+      }
+    },
+    "PrintablesRequestPropertiesPanel": {
+      "ViewSelectCaption": "Koje podatke ispisati?",
+      "PrintablesSettingsCaption": "Postavke ispisa",
+      "PrintOnRecord": "Ispiši izvješće za trenutni zapis",
+      "PrintOnList": "Ispiši izvješće za popis zapisa"
+    },
+    "PageAddonsPropertiesPanel": {
+      "SidebarDesignDialog": {
+        "Title": "Parametri bočne trake",
+        "Fields": {
+          "Title": "Naslov",
+          "Code": "Kod",
+          "Icon": "Ikona bočne trake",
+          "Group": "Lokacija",
+          "Index": "Pozicija bočne trake",
+          "Enabled": "Omogućeno",
+          "OperationPermission": "Kod dozvole za operaciju",
+          "AutoHideNotificationMark": "Sakrij oznaku obavijesti automatski",
+          "AllowSizeAdjustment": "Dopusti prilagodbu širine bočne trake",
+          "Container": "Pozicija panela"
+        },
+        "PredefinedGroups": {
+          "CommunicationPanel": "Komunikacijska ploča",
+          "NotificationsPanel": "Ploča obavijesti"
+        },
+        "Validations": {
+          "CodePrefixTemplate": "Kod mora započeti s prefiksom \"{0}\"",
+          "CodePattern": "Neispravna ili prazna vrijednost. Koristite simbole: (a-z), (A-Z), (0-9), ( _ ). Simboli: a-z, A-Z moraju biti prvi.",
+          "SidebarCodeAlreadyExists": "Ovaj kod bočne trake je već u upotrebi"
+        },
+        "Placeholders": {
+          "OperationPermission": "Bočna traka je dostupna za sve zaposlenike",
+          "Group": "Ako je prazna, bočna traka postaje samostalna ploča",
+          "Container": "Odaberite poziciju panela"
+        },
+        "Tooltips": {
+          "Group": "Kako biste bočnu traku učinili samostalnom pločom na vrhu radnog područja, ostavite polje prazno.",
+          "Index": "Broj bočne trake određuje njezin položaj u panelu. Out-of-the-box numeracija bočne trake je 1000, 2000, 3000, itd. Koristite broj manji od 1000 da biste stavili svoju bočnu traku više ili više od 1000, 2000, 3000 da biste stavili svoju bočnu traku između postojećih bočnih traka.",
+          "IndexWhenEmptyGroup": "Broj bočne trake određuje njezin položaj na vrhu radnog područja. Brojčani raspored ugrađenih panela je 9000, 10000. Koristite broj manji od 9000 za smještaj vašeg panela lijevo ili veći od 9000 za smještaj između postojećih panela.",
+          "OperationPermission": "Ostavite polje praznim kako biste prikazali bočnu traku svim zaposlenicima. Navedite kod sustavne operacije i postavite dozvole pristupa prema operaciji kako biste omogućili pristup bočnoj traci određenim zaposlenicima, korisničkim grupama ili vanjskim korisnicima.",
+          "AutoHideNotificationMark": "Uključeno za skrivanje obavijesne oznake kada korisnik klikne na bočnu traku, isključeno za programiranje prilagođenog ponašanja.",
+          "AllowSizeAdjustment": "Omogućuje ručno podešavanje širine bočne trake. Ova funkcija je dostupna samo za bočne trake dodane kao samostalne panele.",
+          "Container": "Ova postavka određuje na kojoj strani ekrana se prikazuje bočna traka. Panel se po zadanom prikazuje desno, ali ga možete prebaciti lijevo ako je potrebno."
+        },
+        "PredefinedContainers": {
+          "LeftContainer": "Lijeva strana ekrana",
+          "RightContainer": "Desna strana ekrana"
+        }
+      },
+      "UseSidebar": "Koristite stranicu kao bočnu traku",
+      "UseSidebarTooltip": "Bočne trake su posebne stranice koje možete pregledati klikom na gumbe u gornjem desnom kutu Creatio korisničkog sučelja, na primjer, feed ili chatovi. <a href ='{0}' target='_blank'>Saznajte više u Creatio Academy</a>",
+      "ManageSidebarParameters": "Upravljanje parametrima bočne trake"
+    },
+    "RunBusinessProcessRequestPropertiesPanel": {
+      "Validators": {
+        "SelectProcessWithParameters": "Odaberite proces i dodijelite barem jedan parametar"
+      }
+    },
+    "PropertiesPanelAdvancedSettings": {
+      "AdvancedGroup": "Napredno",
+      "CodeLabel": "Kôd elementa",
+      "DuplicateNameMessage": "Stavka s istim kodom već postoji",
+      "SaveButtonTitle": "Spremi",
+      "CancelButtonTitle": "Odustani",
+      "NameValidationMsg": "Neispravna ili prazna vrijednost. Koristite simbole: (a-z), (A-Z), (0-9), ( _ ). Simboli: a-z, A-Z moraju biti prvi.",
+      "CodeChangeForbiddenText": "Kod elementa se ne može promijeniti jer je dodan u roditeljsku stranicu"
+    },
+    "TogglePanelAppearanceSettings": {
+      "ToggleViewModeLabel": "Preklopi način prikaza",
+      "ToggleViewMode": {
+        "Dropdown": "Jednostruki izbornik",
+        "Button": "Gumb"
+      },
+      "DefaultTabLabel": "Zadana kartica"
+    },
+    "DashboardPagePropertiesPanel": {
+      "NoAccessToChangeNameTooltip": "Nemate dopuštenje za izmjenu koda sheme"
+    },
+    "TabPanelAppearanceSettings": {
+      "DefaultTabLabel": "Zadana kartica",
+      "TabPanelColorSubGroup": "Boje kartica",
+      "StyleTypeLabel": "Stil",
+      "BodyBackgroundColor": "Tijelo",
+      "SelectedTabCaptionColor": "Odabrano",
+      "TabCaptionColor": "Nije odabrano",
+      "HeaderBackgroundColor": "Zaglavlje",
+      "UnderlineSelectedTabColor": "Podcrtavanje kartice",
+      "TabCaptionColorSubGroup": "Boja naslova kartice"
+    },
+    "TabPanelPropertiesPage": {
+      "GeneralCaption": "Općenito",
+      "TabsPageCaption": "Postavke kartice",
+      "TogglePageCaption": "Uključi/isključi postavke ploče",
+      "ItemsLabel": "Kartice",
+      "AddNewItem": "Dodaj karticu",
+      "AppearanceGroup": "Izgled",
+      "TabStyleDefaultCaption": "Čisto bijelo",
+      "TabStylePartiallyColoredCaption": "Djelomično obojeno",
+      "TabStyleFullyColoredCaption": "Potpuno obojeno",
+      "ContextMenu": {
+        "Edit": "Uredi",
+        "Copy": "Kopiraj",
+        "Remove": "Izbriši"
+      },
+      "ModeLabel": "Način",
+      "ModeTab": "Kartice",
+      "ModeToggle": "Prekidači",
+      "Scrollable": "Prilagodi dostupnom prostoru"
+    },
+    "PagePropertiesPage": {
+      "BusinessRulesGroup": "Poslovna pravila",
+      "PageCaption": "Postavke stranice",
+      "GeneralLabel": "Općenito",
+      "AppearanceGroup": "Izgled",
+      "NameLabel": "Kod",
+      "PackageLabel": "Paket",
+      "ParentPageLabel": "Nadređena stranica",
+      "OpenInterfaceDesigner": "Otvori dizajner sučelja",
+      "ExtendParentPageLabel": "Zamijeni nadređenu stranicu",
+      "DescriptionLabel": "Opis",
+      "CaptionLabel": "Naslov",
+      "BackToSettings": "Povratak na postavke \"{{name}}\"",
+      "AdvancedPanel": "Napredno",
+      "Validations": {
+        "RequiredNameMessage": "Unesite vrijednost",
+        "PatternNameMessage": "Nevažeća vrijednost. Koristite simbole: a-z, A-Z, 0-9. Simbol: 0-9 ne može biti prvi",
+        "PrefixNameMessage": "Kod mora početi s prefiksom \"{0}\"",
+        "DuplicateNameMessage": "Stavka s istim imenom već postoji",
+        "RequiredCaptionMessage": "Unesite vrijednost"
+      },
+      "EntitySchemaNameLabel": "Izvor podataka"
+    },
+    "ButtonPropertiesPage": {
+      "GeneralGroup": "Općenito",
+      "CaptionLabel": "Naslov",
+      "ColorFieldLabel": "Stil",
+      "Colors": {
+        "Accent": "Fokus",
+        "Primary": "Primarne",
+        "Warn": "Upozorenje",
+        "Default": "Jednostavno",
+        "Outline": "Obris",
+        "PlainWhite": "Čisto bijelo",
+        "OutlineWhite": "Bijeli obrub",
+        "Secondary": "Sekundarno"
+      },
+      "ActionLabel": "Akcija",
+      "MenuItemsLabel": "Stavke izbornika",
+      "AppearanceGroup": "Izgled",
+      "AddNewItem": "Dodaj novu stavku",
+      "ButtonSizeFieldLabel": "Veličina",
+      "Sizes": {
+        "Small": "Mali",
+        "Medium": "Srednji",
+        "Large": "Veliki",
+        "ExtraLarge": "Izuzetno veliki",
+        "2XLarge": "Dvostruko jako veliko",
+        "3XLarge": "Troduplo jako veliko"
+      }
+    },
+    "ReorderContextMenu": {
+      "MoveUp": "Pomakni gore (Ctrl+Up)",
+      "MoveDown": "Pomakni dolje (Ctrl+Down)"
+    },
+    "MenuItemsContainerPropertiesPanel": {
+      "AddNewItem": "Dodaj novu stavku",
+      "MenuItemsLabel": "Stavke izbornika",
+      "ContextMenu": {
+        "AddToSubmenu": "Dodaj u podizbornik",
+        "Copy": "Kopiraj",
+        "Edit": "Uredi",
+        "Delete": "Izbriši"
+      },
+      "CopyPostfix": " - Kopiraj"
+    },
+    "ExecuteIntentUserTaskPropertiesPanel": {
+      "PageCaption": "Podagent",
+      "GeneralGroup": "Općenito",
+      "CaptionLabel": "Naslov",
+      "IntentSchemaLabel": "Kojeg podagenta pozvati?",
+      "ChangeSchemaWarningMessage": "Jeste li sigurni da želite promijeniti shemu elemenata? Svi parametri će biti izgubljeni.",
+      "OpenDesignerButtonTitle": "Open sub-agent",
+      "SkillParametersGroup": "Parametri podagenta",
+      "NoParameters": "No parameters",
+      "NoFiles": "No files",
+      "ParameterValueSource": {
+        "ProcessParameter": "Parametar procesa",
+        "SystemSetting": "Postavka sustava",
+        "Formula": "Formula"
+      },
+      "AdvancedGroup": "Napredno",
+      "CodeLabel": "Kôd elementa",
+      "AddFilesGroup": "Dodaj datoteke",
+      "CreateFile": "Dodaj datoteku",
+      "ParameterTitleLabel": "Naslov",
+      "ParameterDescriptionLabel": "Opis",
+      "ParameterCodeLabel": "Kod",
+      "ParameterDataTypeLabel": "Vrsta podataka",
+      "ParameterValueLabel": "Vrijednost"
+    },
+    "DrilldownConfigPropertiesPanel": {
+      "HeaderLabel": "Drilldown config",
+      "TitleLabel": "Stupac naslova",
+      "Columns": {
+        "ColumnsLabel": "Stupci",
+        "AddColumn": "Dodaj stupac",
+        "EmptyState": "No columns selected. Use + to add columns shown in the mobile drilldown table.",
+        "ContextMenu": {
+          "MoveUp": "Pomakni gore (Ctrl+Up)",
+          "MoveDown": "Pomakni dolje (Ctrl+Down)",
+          "Delete": "Izbriši"
+        }
+      }
+    },
+    "BarcodeScannerPropertiesPanel": {
+      "PageCaption": "Postavke čitača barkoda",
+      "GeneralCaption": "Općenito",
+      "FeaturesCaption": "Značajke",
+      "SizeCaption": "Veličina",
+      "SizeSmall": "Malo",
+      "SizeMedium": "Srednji",
+      "SizeLarge": "Veliki",
+      "SizeMax": "Maks",
+      "ScannedRequestCaption": "U koji stupac postaviti rezultat?",
+      "CustomScannedRequestCaption": "Izvrši prilagođeni kôd"
+    },
+    "MobileQuickFilterGroupPropertiesPanel": {
+      "PageCaption": "Postavke filtera",
+      "GeneralCaption": "Općenito",
+      "ListComponentLabel": "Odaberite komponentu za filtriranje"
+    },
+    "UpdateQuickFilterGroupRequestPropertiesPanel": {
+      "QuickFilterGroupLabel": "Odaberite komponentu za filtriranje",
+      "FilterItemsCaption": "Stavke filtra",
+      "FilterItemsPlaceholder": "Kliknite + za dodavanje stavki filtra"
+    },
+    "SortPropertiesPanel": {
+      "GeneralGroup": {
+        "Caption": "Općenito",
+        "SelectDataSource": "Izvor podataka"
+      },
+      "PageCaption": "Postavke sortiranja",
+      "ChooseTargetsCaption": "Odaberite komponentu za sortiranje",
+      "ChooseTargetsTooltip": "Odaberite popis na kojem želite izvršiti sortiranje. Padajući izbornik prikazuje popise koji su prisutni na trenutnoj stranici i imaju naveden objekt",
+      "ColorFieldLabel": "Stil",
+      "ButtonSizeFieldLabel": "Veličina",
+      "AppearanceGroup": "Izgled",
+      "IconPositionLabel": "Pozicija",
+      "Colors": {
+        "Primary": "Primarne",
+        "Accent": "Fokus",
+        "Warn": "Upozorenje",
+        "Default": "Jednostavno",
+        "Secondary": "Sekundarno"
+      },
+      "Sizes": {
+        "Small": "Mali",
+        "Medium": "Srednji",
+        "Large": "Veliki",
+        "ExtraLarge": "Izuzetno veliki",
+        "2XLarge": "Dvostruko jako veliko",
+        "3XLarge": "Troduplo jako veliko"
+      },
+      "IconPosition": {
+        "LeftIcon": "Ikona lijevo",
+        "RightIcon": "Ikona desno",
+        "OnlyIcon": "Samo ikona"
+      }
+    }
+  },
+  "NextSteps": {
+    "Caption": "Sljedeći koraci",
+    "CompleteButtonCaption": "Završiti",
+    "AddNewStepMenuCaption": "Dodaj novi korak",
+    "CreateActivityButtonCaption": "Stvori zadatak",
+    "CreateEmailButtonCaption": "Kreiraj e-poštu",
+    "NoDataContainerLabel": "Ništa za prikazivanje ovdje!",
+    "NoDataContainerDescription": "Nisu dodani koraci za ovu fazu",
+    "OwnerHint": "Dodijeljeni korisnik",
+    "OwnerRoleHint": "Dodijeljena grupa",
+    "RequiredStepHint": "Obavezni korak",
+    "ApprovalApprovedSnackbarCaption": "Zahtjev je odobren",
+    "ApprovalRejectedSnackbarCaption": "Zahtjev je odbijen",
+    "TypeFilterCaption": "Vrsta",
+    "TypeFilterHint": "Vrsta"
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "Nema ništa za prikazati ovdje!",
+    "NoDataDescription": "Trenutno nema stavki u vašem redu",
+    "AcceptButtonLabel": "Prihvati"
+  },
+  "AgentInbox": {
+    "NewItems": "Nove stavke ({{number}})",
+    "InProgress": "U tijeku ({{number}})",
+    "RealTime": "U stvarnom vremenu",
+    "QueuedTasks": "Zadaci u redu čekanja",
+    "WrappedUpCallTickTpl": "Završetak poziva (preostalo {{sec}}s)",
+    "WrappedUpCallStoppedTpl": "Ručni završetak",
+    "IncomingCallDescription": "Dolazni poziv:",
+    "OutgoingCallDescription": "Odlazni poziv:"
+  },
+  "CallConversation": {
+    "Call": "Pozovi",
+    "Duration": "Trajanje:",
+    "Search": "Pretraži",
+    "JobTitle": "Naziv radnog mjesta",
+    "Account": "Korisnik",
+    "ClearIdentity": "Očisti odabrani zapis",
+    "OutboundLine": {
+      "From": "Od",
+      "Type": "Outbound line"
+    },
+    "Buttons": {
+      "Hints": {
+        "Accept": "Prihvati poziv",
+        "CompleteTransfer": "Kliknite za prijenos",
+        "Hold": "Stavi na čekanje",
+        "Unhold": "Otpusti",
+        "StartTransfer": "Preusmjeri poziv",
+        "Mute": "Isključi zvuk poziva",
+        "CancelTransfer": "Otkaži prijenos",
+        "Drop": "Dovrši poziv",
+        "OpenDialPanel": "Otvori panel za biranje"
+      },
+      "Captions": {
+        "Accept": "Prihvati",
+        "Drop": "Odbiti",
+        "Cancel": "Odustani",
+        "CancelTransfer": "Natrag",
+        "CompleteTransfer": "Spoji",
+        "EndMainCall": "Datum završetka"
+      }
+    },
+    "OnHold": "Na čekanju:"
+  },
+  "SaveCallDetailsHandler": {
+    "UpdateSuccessMessage": "Poziv je ažuriran"
+  },
+  "CallIdentityMenu": {
+    "ClearSelectedRecord": "Očisti odabrani zapis",
+    "CallIdentityOptions": "Promijeni/postavi kontakt"
+  },
+  "RequeueQueueItemHandler": {
+    "SuccessfullyRequeued": "Uspješno ponovno stavljanje u red"
+  },
+  "CallAiContextService": {
+    "IncomingCallTitle": "Incoming call: {{counterparty}}",
+    "OutgoingCallTitle": "Outgoing call: {{counterparty}}",
+    "UnknownCounterparty": "nepoznat"
+  },
+  "ForecastGrid": {
+    "PropertiesPanel": {
+      "HeaderLabel": "Forecast grid",
+      "GeneralGroup": {
+        "Caption": "Općenito",
+        "ForecastSheetLabel": "List prognoze",
+        "BindingTooltip": "Bound to an attribute. Clear to pick a forecast sheet directly.",
+        "ClearBinding": "Clear attribute binding",
+        "InactiveSheetSuffix": "(ne aktivan)"
+      }
+    },
+    "FilterableOption": {
+      "Period": "Razdoblje",
+      "Hierarchy": "Hijerarhija"
+    },
+    "Caption": "Forecast grid",
+    "Hint": "Hierarchical forecast grid",
+    "DefaultTitle": "New forecast grid",
+    "EmptyState": "No forecast data for this sheet.",
+    "PrimaryColumnCaption": "Ime",
+    "SelfRowSuffix": "(self)",
+    "CellSaveFailed": "Couldn't save the cell value. Please try again.",
+    "CellSaveError": {
+      "PermissionDenied": "You don't have permission to edit this cell."
+    },
+    "LoadFailed": "Failed to load forecast data.",
+    "NoResponse": "No response from forecast service.",
+    "Placeholder": {
+      "NotConfigured": {
+        "Title": "Forecast grid is not configured.",
+        "Description": "An object must be selected in the component settings before this grid can display data."
+      },
+      "Inactive": {
+        "Title": "Forecast is not active.",
+        "Description": "An administrator needs to activate it in forecast configuration, before forecast data can be displayed."
+      },
+      "Error": {
+        "Title": "Nešto je pošlo po zlu...",
+        "Description": "Please contact your system administrator."
+      }
+    },
+    "CalculateCaption": "Update metrics",
+    "CalculationInProgressCaption": "Update in progress",
+    "CalculationStartedMessage": "Update in progress. You can continue using the dashboard while new metrics are being prepared.",
+    "CalculationFailedMessage": "Couldn't start forecast calculation. Please try again.",
+    "LastCalculationCaption": "Posljednje ažuriranje",
+    "NextCalculationCaption": "Next update",
+    "NextCalculationDueCaption": "shortly",
+    "SubmissionStatus": {
+      "SubmittedBy": "Submitted by {{name}}",
+      "Submitted": "Submitted",
+      "LastSubmittedBy": "Last submitted by {{name}}",
+      "LastSubmitted": "Last submitted",
+      "NotSubmitted": "Not submitted",
+      "UpdateRequired": "update required"
+    }
+  },
+  "ListWidget": {
+    "DefaultTitle": "Nova lista widgeta",
+    "PropertiesPanel": {
+      "HeaderLabel": "Postavke widgeta",
+      "TitleLabel": "Naslov",
+      "Styles": {
+        "FullyColored": "Potpuno obojeno",
+        "PlainWhite": "Čisto bijelo",
+        "PartiallyColored": "Djelomično obojeno",
+        "Glassmorphism": "Efekt stakla"
+      }
+    },
+    "Caption": "Lista widgeta",
+    "Hint": "Komponenta koja kombinira potpuno funkcionalnu listu s prilagodljivim obojenim okvirom, osiguravajući vizualnu dosljednost kada se postavi pored drugih analitičkih widgeta"
+  },
+  "FilterBuilderDesigner": {
+    "TogglerCaption": "Advanced filters menu",
+    "TogglerHint": "Requires the Advanced filters component. Lets you show and hide page filters.",
+    "SourceCaption": "Advanced filters",
+    "SourceHint": "Add advanced filters panel",
+    "Properties": {
+      "Source": {
+        "HeaderLabel": "Advanced filters settings",
+        "GeneralCaption": "Općenito",
+        "SchemaLabel": "What to filter?",
+        "HeaderTemplateLabel": "Header template"
+      },
+      "Toggler": {
+        "HeaderLabel": "Advanced filters menu",
+        "GeneralCaption": "Općenito",
+        "ViewElementLabel": "Advanced filters"
+      }
+    }
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} zapisa je učitano. Učitati još zapisa?",
+    "ConfirmResendMeetingInvitationsQuestion": "Kada se sastanak spremi, svi sudionici će primiti ažuriranje sastanka. Želite li nastaviti?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Spremanje nekih od ovih sastanaka zahtijeva slanje obavijesti o promjeni svim sudionicima nakon spremanja. Želite li nastaviti? Popis sastanaka:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "Sastanak se već održao. Jeste li sigurni da želite poslati pozivnicu na njega sudionicima?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "Sastanak se dogodio u prošlosti. Svi sudionici će primiti ažuriranje sastanka. Želite li nastaviti?",
+    "CanNotChangeMeetingMessage": "Samo organizator sastanka može promijeniti opis, datum i popis sudionika sastanka.",
+    "CanNotChangeMultipleMeetingsMessage": "Neke promijenjene sastanke može mijenjati samo organizator sastanka. Popis sastanaka: ",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "Možete brisati sastanke samo ako ručno odaberete zapise.",
+    "ErrorSendingInvitationMessage": "Pozivnice nisu poslane. Moguće je da se radi o privremenom problemu. Molimo pokušajte ponovno kasnije.",
+    "SuccessSendingInvitationMessage": "Pozivnice su uspješno poslane.",
+    "JoinBtnCaption": "Pridruži se online sastanku",
+    "UserAlreadyHasActiveCalendarAccount": "Već imate aktivan kalendar",
+    "LackOfLicenseMessage": "Sinhronizacija kalendara nije uključena u vašu trenutnu licencu. Molimo kontaktirajte svog sistemskog administratora za dodatne informacije.",
+    "DateRangeError": "Raspon datuma u filtru je predug. Molimo smanjite raspon."
+  },
+  "FilterBuilder": {
+    "EmptyValue": "bilo koje",
+    "EnterValuePlaceholder": "Unesite vrijednost",
+    "Is": "je",
+    "Menu": {
+      "FiltersBadgeTooltip": "The filters are applied",
+      "CustomFiltersLabel": "Predefinirani filteri",
+      "ColumnsLabel": "stupci",
+      "Caption": {
+        "AddCondition": "Dodaj filter",
+        "AddConditionManual": "Add new filter",
+        "AddGroup": "Add group",
+        "AddFilterGroup": "Add filter group",
+        "AddRelatedObject": "Explore related data",
+        "AddRelatedObjectManual": "Add new related object filter"
+      },
+      "Tooltip": {
+        "AddCondition": "Add a new filter condition",
+        "AddGroup": "Add a new group of filter conditions",
+        "AddRelatedObject": "Add a new filter condition by related objects"
+      }
+    },
+    "Group": {
+      "Caption": "Grupiraj",
+      "ShowAllRecordsThatMatch": "Show all records that match",
+      "OfTheseConditions": "of these conditions",
+      "DefaultHeaderTemplate": "Show all records that match {menuOperator} of these conditions"
+    },
+    "Lookup": {
+      "SelectPlaceholder": "Select {{caption}}"
+    },
+    "Segment": {
+      "SelectPlaceholder": "Select segments",
+      "Caption": {
+        "In": "Are in segment",
+        "NotIn": "Are not in segment"
+      }
+    },
+    "Preset": {
+      "ChangedWarning": "The filter references a preset that has been changed. The up-to-date version of the preset has been loaded"
+    },
+    "ColumnPath": {
+      "ButtonCaption": "Putanja",
+      "DialogTitle": "Filter properties",
+      "PathLabel": "Attribute path",
+      "AttributeLabel": "Atribut"
+    },
+    "LogicalOperator": {
+      "And": "sve",
+      "Or": "bilo koje"
+    },
+    "Toggler": {
+      "Caption": "Filteri",
+      "Tooltip": "Open/Close filters panel"
+    },
+    "TextOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "Contains": "Sadrži",
+      "DoesNotContain": "Does not contain",
+      "StartsWith": "Počinje s",
+      "DoesNotStartWith": "Does not start with",
+      "EndsWith": "Ends with",
+      "DoesNotEndWith": "Does not end with",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in"
+    },
+    "NumericOperators": {
+      "Is": "Jednako",
+      "IsNot": "Does not equal",
+      "GreaterThan": "Greater than",
+      "LessThan": "Less than",
+      "GreaterThanOrEqualTo": "At least",
+      "LessThanOrEqualTo": "At most",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in"
+    },
+    "AggregationNumericOperators": {
+      "Is": "Exactly",
+      "IsNot": "Exactly not",
+      "GreaterThan": "More than",
+      "LessThan": "Less than",
+      "GreaterThanOrEqualTo": "At least",
+      "LessThanOrEqualTo": "At most"
+    },
+    "LookupOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in",
+      "Macros": {
+        "CurrentUser": "Trenutni korisnik",
+        "CurrentUserContact": "Trenutni kontakt",
+        "SelectContact": "Specific contact",
+        "SelectValue": "Specific value"
+      }
+    },
+    "BooleanOperators": {
+      "Yes": "Da",
+      "No": "Ne"
+    },
+    "DateTimeOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "After": "Nakon",
+      "Before": "Before",
+      "OnOrAfter": "Od",
+      "OnOrBefore": "Until",
+      "Between": "Between",
+      "And": "i",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in",
+      "PlaceholderStart": "Početak",
+      "PlaceholderEnd": "Datum završetka",
+      "Placeholder": "Odaberite",
+      "PlaceholderDate": "Odaberi datum",
+      "PlaceholderDateTime": "Odaberite datum i vrijeme",
+      "PlaceholderTime": "Odaberi vrijeme",
+      "InputModes": {
+        "ExactDate": "Exact date",
+        "ExactDateTime": "Exact date & time",
+        "ExactTime": "Točno vrijeme",
+        "Hour": "Sat",
+        "Day": "Dan",
+        "Week": "Tjedan",
+        "Month": "Mjesec",
+        "Quarter": "Kvartal",
+        "HalfYear": "Half-year",
+        "Year": "Godina",
+        "EveryYear": "Svake godine"
+      },
+      "Macros": {
+        "PreviousHour": "Prethodni sat",
+        "CurrentHour": "Trenutni sat",
+        "NextHour": "Sljedeći sat",
+        "ExactTime": "Exact time ...",
+        "PreviousNHours": "Prethodni sati ...",
+        "NextNHours": "Sljedeći sati ...",
+        "Yesterday": "Jučer",
+        "Today": "Danas",
+        "Tomorrow": "Sutra",
+        "DayOfMonth": "Dan u mjesecu ...",
+        "DayOfWeek": "Dan u tjednu ...",
+        "PreviousNDays": "Prethodni dani ...",
+        "NextNDays": "Sljedećih dana ...",
+        "PreviousWeek": "Prošli tjedan",
+        "CurrentWeek": "Trenutni tjedan",
+        "NextWeek": "Sljedeći tjedan",
+        "PreviousMonth": "Prošli mjesec",
+        "CurrentMonth": "Tekući mjesec",
+        "NextMonth": "Sljedeći mjesec",
+        "Month": "Mjesec ...",
+        "PreviousQuarter": "Prošli kvartal",
+        "CurrentQuarter": "Trenutni kvartal",
+        "NextQuarter": "Sljedeći kvartal",
+        "PreviousHalfYear": "Prošlo polugodište",
+        "CurrentHalfYear": "Trenutno polugodište",
+        "NextHalfYear": "Sljedećeg polugodišta",
+        "PreviousYear": "Prošla godina",
+        "CurrentYear": "Tekuća godina",
+        "NextYear": "Sljedeća godina",
+        "Year": "Year ...",
+        "DayOfYearToday": "Danas",
+        "DayOfYearTodayPlusDaysOffset": "Svake godine, točno u ...",
+        "NextNDaysOfYear": "Every year, within ... next days",
+        "NextNDaysOfYearSuffix": "next days",
+        "PreviousNDaysOfYear": "Every year, within ... previous days",
+        "PreviousNDaysOfYearSuffix": "prethodni dani",
+        "WeekDays": {
+          "Sunday": "Su",
+          "Monday": "Mo",
+          "Tuesday": "Tu",
+          "Wednesday": "We",
+          "Thursday": "Th",
+          "Friday": "Fr",
+          "Saturday": "Sa"
+        },
+        "Months": {
+          "January": "January",
+          "February": "February",
+          "March": "March",
+          "April": "April",
+          "May": "May",
+          "June": "June",
+          "July": "July",
+          "August": "August",
+          "September": "September",
+          "October": "October",
+          "November": "November",
+          "December": "December"
+        }
+      }
+    },
+    "Action": {
+      "Apply": "Primijeni",
+      "ApplyDisabledTooltip": "The filter has already been applied. Change the filter conditions to apply the filter again",
+      "ClearAll": "Očisti sve",
+      "Close": "Zatvori"
+    },
+    "EmptyState": {
+      "Title": "Još ništa za prikazati",
+      "Subhead": "Add your first filter to begin"
+    },
+    "OfTheBelowConditionsShouldMatch": "of the below conditions should match",
+    "Records": "zapisi",
+    "Where": "gdje",
+    "And": "i",
+    "Aggregation": {
+      "Type": {
+        "Count": "Broj",
+        "Sum": "Zbroj",
+        "Avg": "Prosjek",
+        "Min": "Minimum",
+        "Max": "Maksimum"
+      },
+      "Caption": {
+        "Count": "Broj zapisa",
+        "Sum": "Sum of {{value}}",
+        "Avg": "Average of {{value}}",
+        "Min": "Minimum of {{value}}",
+        "Max": "Maximum of {{value}}",
+        "None": "{{value}}",
+        "TopOne": "Top one of {{value}}"
+      },
+      "Have": "Have",
+      "HaveRelated": "Have related",
+      "Related": "related",
+      "Of": "od"
+    },
+    "Exists": {
+      "Have": "Have",
+      "HaveNo": "Have no",
+      "Related": "related"
+    },
+    "AggregationOperators": {
+      "Sum": "Zbroj",
+      "Avg": "Prosjek",
+      "Min": "Minimum",
+      "Max": "Maksimum",
+      "TopOne": "TopOne",
+      "None": "Nijedan"
+    }
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "Odobrenja",
+    "ComponentHeaderInactiveLabel": "Nema potrebe za odobrenjem",
+    "RejectDialogHeaderLabel": "Jeste li sigurni da želite odbiti odobrenje?",
+    "ApproveDialogHeaderLabel": "Dodijeliti odobrenje?",
+    "RejectInputLabel": "Komentar odobrenja",
+    "RejectButtonLabel": "Odbiti",
+    "DelegateButtonLabel": "Delegiraj",
+    "ApproveButtonLabel": "Odobri",
+    "CancelButtonLabel": "Odustani",
+    "PositiveMetricLabel": "Pozitivno",
+    "NegativeMetricLabel": "Negativno",
+    "PendingMetricLabel": "Na čekanju",
+    "ComponentHeaderActiveLabel": "Čeka vaše odobrenje",
+    "ApprovalPurposeLabel": "Svrha odobrenja",
+    "ApprovedPlaceholderLabel": "ODOBRENO",
+    "DesignTime": {
+      "ApprovalObjective": "Potrebno odobrenje"
+    },
+    "RejectedPlaceholderLabel": "ODBIJENO"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "Odbij",
+    "ApproveButtonLabel": "Odobri"
+  },
+  "MultiSelectSaveRecordHandler": {
+    "ErrorMessageTemplate": "Najmanje jedna vrijednost mora biti odabrana u: {0}"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "DataGridSettingsForFolderLabel": "Postavke popisa za mapu",
+      "CreateDataGridSettingsForFolder": {
+        "SuccessStatus": "Postavka popisa je uspješno spremljena. Primjenjuje se samo kada je mapa \"{0}\" aktivna",
+        "Label": "Izradi prilagođene postavke za \"{0}\""
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "Spremi kao nove zadane postavke za \"{0}\"",
+        "Confirmation": "Nove zadane postavke popisa za mapu \"{0}\" bit će spremljene za sve korisnike. Želite li nastaviti?",
+        "SuccessStatus": "Postavka popisa je uspješno spremljena. Primjenjuje se samo kada je mapa \"{0}\" aktivna"
+      },
+      "ClearDataGridSettingsForFolder": {
+        "Label": "Očisti prilagođene postavke za \"{0}\"",
+        "Confirmation": "Prilagođene postavke popisa za mapu \"{0}\" bit će obrisane za sve korisnike te će se primijeniti opća postavka popisa. Želite li nastaviti?",
+        "SuccessStatus": "Postavke popisa za mapu \"{0}\" su uspješno obrisane"
+      },
+      "OverwriteDataGridSettingsForFolder": {
+        "Label": "Prepiši postojeće postavke za sve korisnike za \"{0}\"",
+        "Confirmation": "Nove zadane postavke popisa bit će spremljene za mapu \"{0}\" i zamijenit će postojeće postavke za sve korisnike. Želite li nastaviti?",
+        "SuccessStatus": "Postavka popisa je uspješno spremljena. Primjenjuje se samo kada je mapa \"{0}\" aktivna"
+      },
+      "ResetDataGridSettingsForFolder": {
+        "Label": "Vrati zadane postavke za \"{0}\"",
+        "Confirmation": "Zadane postavke popisa bit će vraćene za mapu \"{0}\". Želite li nastaviti?",
+        "SuccessStatus": "Zadane postavke popisa za mapu \"{0}\" uspješno su vraćene"
+      }
+    }
+  },
+  "MergingRecords": {
+    "ConflictsResolveDialog": {
+      "TitleTemplate": "Spoji duplikate ({0})",
+      "Actions": {
+        "Merge": "Spoji"
+      }
+    },
+    "Handler": {
+      "Errors": {
+        "General": "Nije moguće spojiti odabrane zapise",
+        "NoRights": "Nedovoljna dopuštenja za spajanje podataka",
+        "MinSelectedRecordsViolation": "Odaberite najmanje dva zapisa za spajanje",
+        "SelectionAllModeUsingViolation": "Spajanje nije dostupno kada koristite \"Odaberi sve\". Odaberite zapise koje želite spojiti ručno."
+      },
+      "SuccessfulCompletionStatus": "Sustav je započeo s spajanjem podataka. Primit ćete obavijest u komunikacijskom panelu kada postupak bude završen."
+    }
+  },
+  "ForecastHierarchyBuilder": {
+    "AddChildTitle": "Add child",
+    "RemoveTitle": "Ukloni",
+    "AddChildAriaLabel": "Add child to {{caption}}",
+    "RemoveAriaLabel": "Remove {{caption}}",
+    "DraggableAriaLabel": "{{caption}}. Draggable. Use Alt+Arrow keys to reorder.",
+    "EmptyStateWithEntity": "No hierarchy nodes yet.",
+    "EmptyStateNoEntity": "Select an object to start building the hierarchy.",
+    "LoadingAriaLabel": "Loading hierarchy…",
+    "ConfirmationTitle": "Potvrda",
+    "ConfirmationMessage": "Do you want to rebuild the hierarchy automatically based on the selected field?",
+    "RemoveConfirmationMessage": "Do you want to remove this node and all its child nodes from the hierarchy?",
+    "RemoveConfirmButton": "Ukloni",
+    "CancelButton": "Odustani",
+    "ContinueButton": "Nastavite",
+    "EnsureForecastEntityInCell": {
+      "NewObjectCaption": "Forecast by {{entityName}}",
+      "DialogTitle": "Forecast object creation failed",
+      "DialogOk": "OK",
+      "DialogGenericMessage": "Failed to create the forecast object schema.",
+      "SchemaSaveFailed": "Failed to save the forecast object schema."
+    }
+  },
+  "ChangeTracking": {
+    "EntitySchemaNotFoundMessage": "Shema entiteta '{{entitySchemaName}}' nije pronađena",
+    "UnselectedColumnsWillBeDeletedMessage": "Neselektirane kolone bit će izbrisane. Želite li nastaviti?"
+  },
+  "Applications": "Aplikacijski centar",
+  "ApplicationExplorer": {
+    "RunAppButton": "Pokreni aplikaciju",
+    "UpdateButton": "Ažuriranje",
+    "Structure": {
+      "NavigationItems": "Navigacija i odjeljci",
+      "GeneralInformation": "Opće informacije",
+      "Pages": "Stranice",
+      "ObjectModels": "Modeli podataka",
+      "BusinessProcesses": "Poslovni procesi",
+      "AdvancedSettings": "Postavke paketa",
+      "WebService": "Integracije",
+      "RestService": "REST servis",
+      "SoapService": "SOAP servis",
+      "CreatioAi": "Creatio.ai"
+    },
+    "AdvancedSettingsActions": {
+      "Activate": "Aktiviraj",
+      "Delete": "Izbriši",
+      "Deactivate": "Deaktiviraj",
+      "Exclude": "Isključi iz aplikacije",
+      "Current": "Postavi kao trenutačni paket",
+      "ExcludeDialog": "Jeste li sigurni da želite isključiti paket \"{0}\" iz aplikacije?",
+      "PackageExcluded": "Isključen je paket {0} iz aplikacije",
+      "SetCurrentPackage": "Uspješno postavljen paket \"{0}\" kao trenutačni paket aplikacije",
+      "CurrentPackageTooltip": "Trenutačni paket aplikacije",
+      "PackageCreated": "Dodan je paket {0}",
+      "OnePackageAdded": "Dodan je paket {0} aplikaciji",
+      "PackagesAdded": "Dodani su paketi {0} aplikaciji",
+      "Create": "Stvori novi paket",
+      "AddExistingPackages": "Dodaj postojeće pakete",
+      "PackageProperties": "Svojstva",
+      "AddExistingPackagesDialog": {
+        "Caption": "Odaberite postojeće pakete",
+        "PackageNameColumn": "Ime paketa",
+        "ErrorInfoAllPackagesNotAdded": "Nije moguće uključiti pakete u aplikaciju: {0}",
+        "ErrorInfoSomePackagesNotAdded": "Dodani su paketi aplikaciji: {0}\nNije moguće uključiti pakete u aplikaciju: {1}"
+      }
+    },
+    "GeneralInformation": {
+      "CreatedOn": "Stvoreno",
+      "LastUpdate": "Posljednje ažuriranje",
+      "Developer": "Razvijatelj",
+      "CreateNewObjectCaption": "Stvorite novi objekt",
+      "UseExistingObjectCaption": "Povežite s postojećim objektom",
+      "SelectObject": "Objekt",
+      "SelectObjectPlaceholder": "Odaberite postojeći objekt",
+      "CreateMobilePages": "Izradi stranice za mobilnu aplikaciju"
+    },
+    "BackTooltip": "Natrag",
+    "PenTooltip": "Uredi aplikaciju",
+    "EyeTooltip": "Pregledaj informacije o aplikaciji"
+  },
+  "ApplicationSections": {
+    "ApplicationSectionItem": {
+      "FreedomUI": "Freedom UI"
+    },
+    "Menu": {
+      "Trigger": "Novi",
+      "CreateFreedomUiSection": "Nova Freedom UI sekcija"
+    },
+    "ApplicationSectionEditDialog": {
+      "Title": {
+        "Create": "Novi odjeljak",
+        "Update": "Uredi odjeljak"
+      },
+      "HeaderCarouselCaption": "Odaberite ikonu i boju",
+      "Fields": {
+        "Name": "Naslov",
+        "NamePlaceholder": "Nazovite novi odjeljak aplikacije",
+        "Code": "Šifra odjeljka",
+        "CodePlaceholder": "Postavite šifru odjeljka",
+        "CodeTooltip": "Vrijednost koja se koristi prilikom generiranja kodova elemenata u novom odjeljku. Na primjer, objekt, sheme klijenta",
+        "UseExistingObjectTooltip": "Odaberite povezivanje odjeljka s postojećim objektom umjesto stvaranja novog objekta",
+        "CreateMobilePagesTooltip": "Uklonite ovu opciju kako biste izradili samo web-aplikaciju"
+      },
+      "Buttons": {
+        "Create": "Stvori",
+        "Update": "Spremi",
+        "Cancel": "Odustani"
+      },
+      "ColorPickerCaption": "Boja",
+      "AdvancedModeButtonCaption": "Napredni parametri"
+    }
+  },
+  "AppGetStarted": {
+    "CancelButtonCaption": "Preskoči",
+    "SelectButtonCaption": "Odaberi",
+    "HeaderCaption": "Spremni za izradu aplikacije?",
+    "SubHeaderCaption": "Otključajte svoj potencijal s našim popularnim predlošcima za besprijekorno i učinkovito iskustvo razvoja"
+  },
+  "ApplicationManagementComponent": {
+    "NewAppButton": "Nova aplikacija",
+    "DeleteAppConfirmationMessage": "Jeste li sigurni da želite izbrisati aplikaciju?",
+    "UpdateAppButton": "Ažuriranje",
+    "DeployAppButton": "Implementiraj",
+    "ExportAppButton": "Izvoz",
+    "DeleteAppButton": "Izbriši",
+    "SuccessfullyDeleted": "Aplikacija izbrisana",
+    "NoAppsTitle": "Nema aplikacija u ovom odjeljku do sada",
+    "NoAppsText": "Stvorite aplikaciju ili instalirajte gotovo rješenje s tržišta kako bi ova sekcija izgledala privlačnije",
+    "Update": "Ažuriraj",
+    "UpdateAvailableMessage": "Imamo nekoliko uzbudljivih vijesti! Najnovija verzija aplikacije sada je dostupna na tržištu - brzo je preuzmite!",
+    "OpenAppButton": "Otvori"
+  },
+  "ApplicationTemplateLookupComponent": {
+    "CancelButtonCaption": "Odustani",
+    "HeaderCaption": "Odaberi aplikaciju",
+    "SelectButtonCaption": "Odaberi"
+  },
+  "ApplicationBusinessProcesses": {
+    "Active": "Aktivni",
+    "NotActive": "Neaktivni",
+    "NewButtonCaption": "Novi proces",
+    "NotActual": "(Nije stvarno)",
+    "Version": "Verzija:",
+    "VersionsDialog": {
+      "ProcessVersions": "Vrste procesa",
+      "Title": "Naziv",
+      "ModifiedOn": "Izmijenjeno",
+      "Version": "Verzija",
+      "ActualVersion": "Trenutna verzija",
+      "IsActualValue": "Da",
+      "IsNotActualValue": "Ne",
+      "SharedPackageValue": "\nZajednički paket",
+      "CloseButtonCaption": "Zatvori",
+      "Application": "Aplikacija",
+      "Package": "Paket"
+    }
+  },
+  "ApplicationEntities": {
+    "NewButtonCaption": "Novi model podataka"
+  },
+  "ApplicationWebServices": {
+    "NewButtonCaption": "Nova integracija"
+  },
+  "GalleryToolbar": {
+    "NewPageButtonCaption": "Nova stranica",
+    "SortByCaption": "Prema naslovu",
+    "SortByName": "Prema imenu",
+    "SortByModifiedOn": "Prema datumu izmjene",
+    "SortByStatus": "Prema statusu",
+    "SortByType": "Prema vrsti",
+    "SortByUri": "Prema URL-u web usluge",
+    "SearchError": "Naslov korišten za postavke pretraživanja nije specificiran za stupac ",
+    "SpecifyMessage": "Molimo vas da ga specificirate u opisu stupaca pretraživanja ili u shemi podataka tablice.",
+    "NewButtonCaption": "Novi"
+  },
+  "ApplicationUploadPage": {
+    "SelectDropFileText": "molim odaberite datoteku",
+    "FileExtensionsRow1": "Odaberite datoteku iz koje ćete instalirati aplikaciju. Može",
+    "FileExtensionsRow2": "biti *.zip ili *.gz arhiva",
+    "SelectFileButtonCaption": "odaberite datoteku",
+    "InvalidFileSize": "Ne možemo učitati aplikaciju. Maksimalna veličina datoteke ({0} MB) je premašena",
+    "ChangeMaxSize1": "Ovaj parametar možete promijeniti u 'Maksimalna veličina datoteke za instaliranu aplikaciju",
+    "ChangeMaxSize2": "Postavka sustava (kod \"ApplicationInstallationMaxFileSize\")",
+    "CorruptedFileMessage1": "Nije moguće otvoriti \"{0}\". Datoteka je neispravna ili oštećena.",
+    "CorruptedFileMessage2": "Provjerite ispravnost datoteke ili ju preuzmite i ponovno učitajte."
+  },
+  "ApplicationInstallationStatus": {
+    "InstallationCaption": {
+      "Line1": "Instaliranje aplikacije",
+      "Line2": "Ovo bi moglo potrajati nekoliko trenutaka"
+    },
+    "LicenseLoaded": "Probna verzija aplikacije je aktivna 14 dana. Kupite licence kako biste nastavili koristiti aplikaciju nakon ovog perioda. ",
+    "NeedRequestLicense": "Za početak korištenja 14-dnevne probne verzije aplikacije,",
+    "NeedRequestLicenseMailTo": "kontaktirajte podršku i naručite licencu za aplikaciju.",
+    "MailToText": "Zatražite probnu licencu za aplikaciju s Creatio Marketplace - {0}.",
+    "LicenseLoadedInDemoMode": "Sada ga možete koristiti uz ograničenja demo verzije."
+  },
+  "MarketplaceInstallationService": {
+    "NoAppIdErrorCodeText": "Nije moguće pronaći aplikaciju na tržištu s ovim ID-om",
+    "ErrorCodeText": "Nije moguće učitati podatke o aplikaciji s tržišta"
+  },
+  "ApplicationExplorerToolbar": {
+    "ShowRelatedElementsCaption": "Prikaži naslijeđene elemente",
+    "ShowRelatedElementsTooltip": "Prikaži sve elemente iz naslijeđenih aplikacija kako biste mogli proširiti bilo koji zaključani element i pohraniti ga u trenutnu aplikaciju"
+  },
+  "AppInstallInfoDialog": {
+    "ApplicationInstallation": "Instalacija aplikacije",
+    "ApplicationsInstallation": "Instalacija aplikacije",
+    "ApplicationUpdate": "Ažuriranje aplikacije",
+    "Trial": "Plaćeno",
+    "Free": "Besplatno",
+    "Close": "Zatvori",
+    "Cancel": "Odustani",
+    "Install": "Instaliraj",
+    "InstallAll": "Instaliraj sve",
+    "Update": "Ažuriraj",
+    "ErrorCodeText": "Nije moguće pronaći aplikaciju na Marketplace-u.\nČini se da pokušavate instalirati nepostojeću aplikaciju.\nKliknite gumb OK kako biste se vratili na Application Hub.",
+    "OutOfSyncNames": "Naziv vašeg *.gz arhiva ne odgovara nazivu navedenom u datoteci descriptor.json.",
+    "Type": {
+      "Application": "Aplikacija",
+      "Package": "Paket"
+    },
+    "Licensing": {
+      "free": "Besplatno",
+      "trial": "Plaćeno"
+    },
+    "Columns": {
+      "Name": "Naziv",
+      "Type": "Vrsta",
+      "Version": "Verzija",
+      "Developer": "Developer",
+      "Licensing": "Licenciranje",
+      "RequiredVersion": "Potrebna verzija",
+      "InstalledVersion": "Instalirana verzija"
+    },
+    "UnableLoadAppDetailsTitle": "Nije moguće učitati detalje o aplikaciji",
+    "UnableLoadAppDetailsMessage": "Nije moguće preuzeti informacije o aplikaciji iz Marketplacea. Pokušajte ponovo kasnije ili kontaktirajte podršku ako se problem nastavi.",
+    "UnableLoadAppDetailsOkButtonCaption": "Povratak na Marketplace",
+    "DownloadLog": "Preuzmi zapisnik validacije",
+    "GoToMarketplaceTooltip": "Idi na Creatio Marketplace",
+    "InstallAnyway": "Instaliraj svejedno",
+    "InstallAllAnyway": "Instaliraj sve svejedno",
+    "UpdateAnyway": "Ažuriraj svejedno"
+  },
+  "AppInstallAttentionInfo": {
+    "SingleAppFromMarketplaceMessage": "Provjerite je li aplikacija kompatibilna s vašom Creatio verzijom. Provjerite opis popisa na Marketplaceu za popis kompatibilnih Creatio proizvoda, kako jamči dobavljač. Izbjegavajte instaliranje aplikacije ako vaša verzija programa Creatio nije navedena. Za iskustvo iz prve ruke s aplikacijom, razmislite o instaliranju na sandbox sustav ili 14-dnevnu probnu verziju s web stranice Creatio. Preporučamo prelazak u vaše proizvodno okruženje Creatio tek nakon temeljitog testiranja.",
+    "MultipleAppsFromMarketplaceMessage": "Provjerite jesu li aplikacije kompatibilne s vašom Creatio verzijom. Provjerite opis popisa na Marketplaceu za popis kompatibilnih Creatio proizvoda, kako jamči dobavljač. Izbjegavajte instaliranje aplikacije ako vaša verzija programa Creatio nije navedena. Za iskustvo iz prve ruke s aplikacijom, razmislite o instaliranju na sandbox sustav ili 14-dnevnu probnu verziju s web stranice Creatio. Preporučamo prelazak u vaše proizvodno okruženje Creatio tek nakon temeljitog testiranja.",
+    "SingleAppFromZipMessage": "Provjerite je li aplikacija kompatibilna s verzijom i proizvodom odredišne ​​web stranice. Aplikacije temeljene na proizvodu Studio kompatibilne su sa svim Creatio proizvodima. Preporučujemo instaliranje aplikacija temeljenih na marketinškim, prodajnim ili uslužnim proizvodima na web-mjesta koja sadrže odgovarajući proizvod.",
+    "MultipleAppsFromZipMessage": "Provjerite da su aplikacije kompatibilne s verzijom i proizvodom odredišne web stranice. Aplikacije temeljene na Studiju kompatibilne su sa svim Creatio proizvodima. Preporučujemo instaliranje aplikacija temeljenih na proizvodima Marketing, Prodaja ili Usluge na web stranice koje sadrže odgovarajući proizvod."
+  },
+  "AppInstallErrorInfo": {
+    "RequiredPlatformVersionErrorInfo": {
+      "Title": "Nekompatibilna verzija platforme",
+      "ApplicationsCaption": "Sljedeće aplikacije nisu kompatibilne s vašim okruženjem:",
+      "SingleAppMessage": "Aplikacija <b>\"{0}\"</b> nije kompatibilna s vašim okruženjem. <b>Da biste instalirali aplikaciju, ažurirajte Creatio na verziju {1}.</b>",
+      "MultipleAppsMessage": "<b>Da biste instalirali aplikacije, ažurirajte Creatio na verziju {0}.</b>",
+      "ConflictingVersionsTitle": "Creatio verzije su u konfliktu",
+      "ConflictingVersionsCaption": "Sljedeće aplikacije se ne mogu koristiti zajedno jer zahtijevaju verzije Creatio-a koje su u konfliktu:",
+      "SingleAppMessageForVersionRange": "Aplikacija <b>\"{0}\"</b> nije kompatibilna s vašim okruženjem. <b>Da biste instalirali aplikaciju, ažurirajte Creatio na verziju u rasponu: {1}.</b>",
+      "MultipleAppsMessageForVersionRange": "<b>Da biste instalirali aplikacije, ažurirajte Creatio na podržanu verziju u rasponu: {0}.</b>",
+      "ConflictingVersionsMessage": "<b>Da biste riješili problem, kontaktirajte developera sukobljenih aplikacija.</b>",
+      "RequiredPlatformVersion": "potrebna verzija Creatio-a:"
+    },
+    "MissedRequiredDependenciesErrorInfo": {
+      "Title": "Nije moguće dohvatiti potrebne ovisnosti",
+      "SingleAppMessage": "Aplikaciju <b>\"{0}\"</b> nije moguće instalirati u ovom okruženju.<br />Neke potrebne ovisnosti nedostaju i ne mogu se automatski preuzeti iz kataloga aplikacija.<br /><b>Za instalaciju aplikacije ručno instalirajte potrebne aplikacije ili pakete iz donjeg popisa i pokušajte ponovno.</b>",
+      "MultipleAppsMessage": "Neke aplikacije u instalacijskom paketu nije moguće instalirati u ovom okruženju.<br />Potrebne ovisnosti nedostaju i ne mogu se automatski preuzeti iz kataloga aplikacija.<br /><b>Za instalaciju aplikacija ručno instalirajte potrebne aplikacije ili pakete iz donjeg popisa i pokušajte ponovno.</b>",
+      "SinglePackageMessage": "Paket <b>\"{0}\"</b> nije moguće instalirati u ovom okruženju.<br />Neke potrebne ovisnosti nedostaju i ne mogu se automatski preuzeti iz kataloga aplikacija.<br /><b>Za instalaciju paketa ručno instalirajte potrebne pakete iz donjeg popisa i pokušajte ponovno.</b>",
+      "MultiplePackagesMessage": "Neki paketi u instalacijskom paketu nije moguće instalirati u ovom okruženju.<br />Potrebne ovisnosti nedostaju i ne mogu se automatski preuzeti iz kataloga aplikacija.<br /><b>Za instalaciju paketa ručno instalirajte potrebne pakete iz donjeg popisa i pokušajte ponovno.</b>",
+      "PlatformVersionErrorInfo": {
+        "SingleAppTitle": "Nekompatibilna verzija platforme",
+        "SingleAppMessage": "Za instalaciju aplikacije <b>\"{0}\"</b> Creatio mora također instalirati potrebne ovisne aplikacije. Međutim, neke od tih aplikacija nisu kompatibilne s vašom trenutnom verzijom Creatio.<br/>Nekompatibilne aplikacije: {1} <br/>",
+        "SingleAppUpdateCreatio": "<b>Za instalaciju aplikacije nadogradite Creatio na verziju {0}.</b>",
+        "MultipleAppsTitle": "Nekompatibilne verzije platforme",
+        "MultipleAppsMessage": "Za instalaciju odabranih aplikacija Creatio mora također instalirati potrebne ovisne aplikacije. Međutim, neke od ovih aplikacija nisu kompatibilne s vašom trenutnom verzijom Creatio.<br/>Nekompatibilne aplikacije: {0} <br/>",
+        "MultipleAppsUpdateCreatio": "<b>Za instalaciju aplikacija nadogradite Creatio na verziju {0}.</b>",
+        "SingleRequiredPlatformVersion": " (potrebna je verzija Creatio: {0} ili novija)",
+        "RangeRequiredPlatformVersion": " (potrebna je verzija Creatio: {0})"
+      },
+      "ConflictVersionsErrorInfo": {
+        "Title": "Konflikt verzija aplikacija",
+        "AppSingleVersionCaption": "<b>{0}</b> (verzija <b>{1}</b>)",
+        "AppRequiresVersionOrLaterCaption": "<b>{0}</b> zahtijeva <b>{1}</b> verziju <b>{2} ili noviju</b>",
+        "AppRequiresVersionInRangeCaption": "<b>{0}</b> zahtijeva <b>{1}</b> verziju <b>{2}</b>",
+        "BundleVersionsErrorInfo": {
+          "Message": "Sljedeće aplikacije iz instalacijske datoteke međusobno su nekompatibilne zbog konflikta verzija: <br/>{0}<br/>",
+          "InstalledAppsCaption": "Instalirana verzija <b>{0}</b> ne ispunjava verzijski zahtjev za <b>{1}</b>.<br/>",
+          "ResolveAppsCaption": "Za rješenje ovog problema nadogradite konfliktne aplikacije u paketu ili se obratite razvojnom timu."
+        },
+        "DepsVersionErrorInfo": {
+          "Message": "Sljedeće aplikacije iz instalacijske datoteke ne mogu se koristiti zajedno zbog konfliktnih verzijskih zahtjeva za jednu ili više ovisnih aplikacija: <br/>{0}<br/>",
+          "InstalledAppsCaption": "Ti verzijski zahtjevi međusobno su nekompatibilni.<br/>",
+          "ResolveAppsCaption": "Da biste riješili problem, kontaktirajte developera sukobljenih aplikacija."
+        }
+      },
+      "ConflictPlatformVersionErrorInfo": {
+        "Title": "Konflikt zahtjeva platforme",
+        "SingleAppMessage": "Za instalaciju aplikacije <b>\"{0}\"</b> Creatio mora također instalirati potrebne ovisne aplikacije. Međutim, neke zahtijevaju različite i nekompatibilne verzije Creatio platforme i nije ih moguće zajedno koristiti u istom okruženju.<br/><br/>Aplikacije u konfliktu: {1}",
+        "MultipleAppMessage": "Za instalaciju odabranih aplikacija Creatio mora također instalirati potrebne ovisne aplikacije. Međutim, neke od aplikacija zahtijevaju nekompatibilne verzije Creatio platforme i nije ih moguće koristiti zajedno u istom okruženju.<br/><br/>Aplikacije u konfliktu: {0}",
+        "AppRequiresVersionOrLaterCaption": "{0} (zahtijeva Creatio verziju {1} ili noviju)",
+        "AppRequiresVersionInRangeCaption": "{0} (zahtijeva Creatio verziju {1})",
+        "ResolveConflictCaption": "Pregledajte popis aplikacija ispod ili se obratite razvojnom timu za rješenje sukoba."
+      }
+    },
+    "InvalidPackageContentErrorInfo": {
+      "InvalidPackageContentTitle": "Provjera prije instalacije nije uspjela",
+      "SingleInvalidPackageContentMessage": "Aplikaciju <b>\"{0}\"</b> nije moguće instalirati jer je tijekom predinstalacijske provjere pronađena jedna ili više pogrešaka.\nPregledajte donji popis problema i riješite ih u okruženju prije nastavka instalacije.",
+      "MultiInvalidPackageContentMessage": "Aplikacije nije moguće instalirati jer je tijekom predinstalacijske provjere pronađena jedna ili više pogrešaka.\nPregledajte donji popis problema i riješite ih u okruženju prije nastavka instalacije."
+    },
+    "CompilationErrorsErrorInfo": {
+      "CompilationErrorsTitle": "Otkrivene pogreške kompilacije",
+      "CompilationErrorsMessage": "<b>Prethodna kompilacija sustava završena je s pogreškama.</b> Pogreške kompilacije mogu spriječiti uspješnu instalaciju.<br/>Za otklanjanje, otvorite <a href ='{0}' target='_blank'>odjeljak Konfiguracija</a>, ispravite probleme i ponovno kompilirajte sustav."
+    },
+    "DependentAppsReqVersionConflictErrorInfo": {
+      "Title": "Installed application dependency conflict",
+      "ApplicationsCaption": "Installed applications causing the conflict:",
+      "AppWithRequiredVersion": "<b>{0}</b> zahtijeva <b>{1}</b> verziju <b>{2}</b>",
+      "NotCompatibleMessage": "These requirements are incompatible with the applications being installed. <b>Resolve the conflict to continue installation.</b>"
+    },
+    "DowngradeVersionConflictErrorInfo": {
+      "Title": "Version downgrade warning",
+      "SingleAppMessage": "Please review the version before continuing: a newer version of <b>\"{0}\"</b> is already installed in this environment.",
+      "MultipleAppsMessage": "Please review the versions before continuing: newer versions of some applications from the installation file are already installed in this environment.",
+      "AppVersionsInfo": "<b>{0}</b>: installed version <b>{1}</b>, version in the installation file <b>{2}</b>",
+      "ResolveConflictMessage": "<b>If you continue, the installed applications may be downgraded.</b>"
+    },
+    "SkipDueToDowngradeVersionErrorInfo": {
+      "Title": "Applications skipped",
+      "SingleAppMessage": "Some applications won't be installed because newer versions are already available in this environment.",
+      "MultipleAppsMessage": "Some applications won't be installed because newer versions are already available in this environment.",
+      "AppVersionsInfo": "<b>{0}</b> - installed version: <b>{1}</b>, version in this file: <b>{2}</b>",
+      "ResolveConflictMessage": ""
+    }
+  },
+  "AppInstallationGridInfoBlock": {
+    "PackagesTitleName": "Paketi",
+    "Fields": {
+      "ApplicationName": "Naziv"
+    }
+  },
+  "ActionItem": {
+    "LoadingTitle": "Učitavanje datoteke..."
+  },
+  "AppInstallWithDependenciesInfo": {
+    "Title": "Otkrivene nedostajuće ovisnosti aplikacije",
+    "SingleMessage": "Aplikacija \"{0}\" zahtijeva dodatne aplikacije koje nisu instalirane ili imaju nepodržane verzije u ovom okruženju.<br><b>Ovisnosti navedene u nastavku bit će automatski instalirane ili ažurirane iz kataloga aplikacija.</b>",
+    "MultipleMessage": "Neke aplikacije u instalacijskoj datoteci zahtijevaju dodatne aplikacije koje nisu instalirane ili imaju nepodržane verzije u ovom okruženju.<br><b>Ovisnosti navedene u nastavku bit će automatski instalirane ili ažurirane iz kataloga aplikacija.</b>"
+  },
+  "ApplicationCreatioAi": {
+    "ModelCaption": "Model",
+    "NewButtonCaption": "Dodaj",
+    "AiAgentCaption": "Prompt agent",
+    "AiSkillCaption": "Podagent",
+    "AiWorkflowAgentCaption": "Agent tijeka rada"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Ne postoji stranica za nove ili postojeće zapise. Sistem administrator mora provjeriti postavke tipki u Freedom UI",
+    "GoToEntityDesignerMessage": "Za postavljanje stranica idite na URL: {0}"
+  },
+  "Printables": {
+    "Caption": "Ime izvješća",
+    "ModuleName": "Odjeljak",
+    "EntityName": "Objekt",
+    "TypeName": "Vrsta",
+    "ShowInSection": "Prikaži u pregledu popisa",
+    "ShowInCard": "Prikaži na stranici zapisa",
+    "ShowInAnalytics": "Prikaži u pregledu analitike odjeljka",
+    "FilterPage": "Filtriraj stranicu",
+    "Section": {
+      "Title": "Postavljanje izvješća",
+      "BlankslateTitle": "Nema zapisa koji odgovaraju trenutnim kriterijima pretraživanja.",
+      "BlankslateDescription": "Očisti ili izmijeni parametre pretraživanja",
+      "Delete": "Izbriši",
+      "Add": "Novo izvješće",
+      "Copy": "Kopiraj",
+      "AddFastReport": "FastReport",
+      "AddMSWord": "MS Word"
+    },
+    "Page": {
+      "NewReportCaption": "Novo izvješće",
+      "CopyPostfixCaption": " - Kopiraj",
+      "InfoBlock": {
+        "Title": "Bilješka",
+        "StepsTitle": "Za postavljanje izvješća:",
+        "Steps": {
+          "Step1": "Instalirajte FastReport dizajner (dizajner možete preuzeti iz odjeljka \"Dokumentacija\" na <a href='{{academyLink}}' target='_blank'>{{academyLinkCaption}}</a>).",
+          "Step2": "Specificirajte izvor podataka izvješća.",
+          "Step3": "Implementirajte logiku za obradu podataka izvješća u konfiguraciji Creatio.",
+          "Step4": "Preuzmite datoteku s izvorom podataka i otvorite je u FastReport dizajneru.",
+          "Step5": "Dizajnirajte izvještaj u FastReport dizajneru.",
+          "Step6": "Spremite datoteku izvješća i prenesite je u Creatio."
+        },
+        "AcademyLink": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview",
+        "AcademyLinkCaption": "Akademija"
+      },
+      "DataSource": {
+        "Caption": "Izvor podataka",
+        "Custom": {
+          "Caption": "Specificirajte izvore podataka za izvještaj",
+          "Description": {
+            "Text": "Postavite podatke izvještaja kako biste dodali Creatio podatke u svoj izvještaj. Naznačite popis objekata, njihove stupce, veze u json formatu. Primjeri opisa izvora podataka dostupni su na {parameter:AcademyLink}.",
+            "Parameters": {
+              "AcademyLink": {
+                "Caption": "Akademija",
+                "Value": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview"
+              }
+            }
+          }
+        }
+      },
+      "Template": {
+        "Download": {
+          "Caption": "Preuzmite datoteku s izvorima podataka kako biste dizajnirali izvještaj u FastReport dizajneru",
+          "Description": "Otvorite preuzetu datoteku u FastReport dizajneru i postavite izgled izvještaja. Preuzeta datoteka sadržavat će strukturu izvora podataka koju možete koristiti u FastReport dizajneru.",
+          "ButtonCaption": "Preuzmi datoteku"
+        },
+        "Upload": {
+          "Caption": "Uvezi datoteku s predloškom izvještaja",
+          "Description": "Nakon što uvezete .frx datoteku, izvještaj će se pojaviti u \"Ispis\" izborniku odjeljka ili na stranici zapisa prema postavkama izvještaja.",
+          "ButtonCaption": "Prenesite datoteku",
+          "Error": {
+            "MessageBoxCaption": "Neuspjelo učitavanje predloška izvještaja"
+          },
+          "ReportUploadedMessage": "Predložak izvještaja uspješno je spremljen"
+        }
+      },
+      "Validation": {
+        "required": "Unesite vrijednost",
+        "noWhitespaces": "Unesite vrijednost",
+        "isJson": "Unesite valjanu JSON vrijednost",
+        "maxLength": "Premašena maksimalna duljina teksta ({0}/{1})",
+        "dataSourceAbsentProviderNameProperty": "DataSource bi trebao imati svojstvo \"ProviderName\"",
+        "dataSourceAbsentSchemasProperty": "DataSource bi trebao imati svojstvo \"Schemas\"",
+        "dataSourceSchemasIsEmpty": "Izvor podataka nema sheme",
+        "dataSourceSchemasHasNoColumns": "Shema podataka \"{schemaName}\" u DataSource-u treba imati definiciju stupaca",
+        "dataSourceAbsentDataValueTypeProperty": "Definicija stupca \"{columnName}\" za shemu \"{schemaName}\" treba imati svojstvo \"DataValueType\""
+      }
+    }
+  },
+  "DesignerPresenceNotificationHandler": {
+    "SchemaUpdated": "{0} je upravo ažurirao/la {1}. Osvježite stranicu kako biste vidjeli promjene.",
+    "Connections": "{0} veza",
+    "Reload": "Ponovno učitaj",
+    "Download": "Preuzmite"
+  },
+  "DesignerPresenceDisplay": {
+    "UserStartedEditing": "{0} je započeo uređivati trenutni {1}",
+    "ModeEditing": "Uređivanje",
+    "TooltipFormat": "{0} ({1})",
+    "ModeViewing": "Pregledavanje",
+    "ModeSaved": "Spremljeno",
+    "ModeSavedTime": "Spremljeno (prije {0})",
+    "ModeSavedRecently": "Nedavno spremljeno",
+    "ShowAllUsers": "Prikaži sve korisnike",
+    "AllUsersDialog": {
+      "Title": "Aktivni korisnici",
+      "Close": "Zatvori",
+      "Columns": {
+        "ContactName": "Kontakt",
+        "Email": "E-pošta",
+        "SchemaName": "Područje uređivanja",
+        "Mode": "Način"
+      }
+    }
+  },
+  "SchemaTypeCaption": {
+    "Page": "stranica",
+    "Entity": "entitet",
+    "Addon": "proširenje"
+  },
+  "AppInstallationInfoBlock": {
+    "Fields": {
+      "Name": "Naziv",
+      "LastUpdate": "Posljednje ažuriranje",
+      "Developer": "Razvijatelj",
+      "Version": "Verzija"
+    },
+    "AttentionCaption": "Pažnja",
+    "WhatsNewCaption": "What`s new",
+    "PublicOfferAgreementForSingleInstallation": "By continuing the app installation, you confirm that you accept the relevant T&C published on the App’s Creatio Marketplace page.",
+    "PublicOfferAgreementForBundleInstallation": "By continuing the app installation, you confirm that you accept the relevant T&C published on the Creatio Marketplace for all the apps you are installing.",
+    "GoToMarketplaceTitle": "Go to application page"
+  },
+  "AppProcessingStatus": {
+    "Stages": {
+      "InProgressCaptions": {
+        "Pending": "Starting app installation",
+        "DownloadAppFromMarketPlace": "Downloading the app from Marketplace",
+        "DownloadAppFromAppInstaller": "Downloading the app",
+        "Validate": "Checking app requirements before installation",
+        "CreateBackup": "Backing up the configuration. Just in case!",
+        "Install": "Installing the app to your Creatio environment",
+        "OrderAppLicense": "Adding the app license",
+        "RestartApp": "Restarting your Creatio environment",
+        "RestoreFromBackup": "Please wait until the operation is complete and do not close the page"
+      },
+      "ErrorTitles": {
+        "Pending": "App preparation error",
+        "DownloadAppFromMarketPlace": "App download error",
+        "Validate": "App validation error",
+        "CreateBackup": "Backup error",
+        "Install": "App installation error",
+        "RestoreFromBackup": "Backup restoration error",
+        "DownloadAppFromAppInstaller": "App preparation error"
+      },
+      "ErrorDescriptions": {
+        "Pending": "An error occurred while preparing the app, deployment aborted, configuration was not changed. Try again later, contact support if the issue persists",
+        "DownloadAppFromMarketPlace": "Unable to retrieve app files from the Marketplace. To view error details, download the operation log",
+        "Validate": "Package validation failed. Installation aborted. Configuration was not changed. To view error details, download the operation log",
+        "CreateBackup": "Configuration backup failed. Installation aborted. Configuration was not changed. To view error details, download the operation log",
+        "Install": "An error occurred while installing the app. To view error details, download the operation log",
+        "RestoreFromBackup": "Unable to restore the configuration from backup",
+        "DownloadAppFromAppInstaller": "An error occurred while preparing the application for installation. The installation file could not be downloaded or processed due to a connection or preparation issue. <br/><br/>Try to start the installation again. If the problem persists, download the installation log for more details and contact Creatio Support."
+      }
+    },
+    "Buttons": {
+      "GoToAppHub": "Open Application Hub",
+      "DownloadLogs": "Preuzmi instalacijski log",
+      "RestoreFromBackup": "Restore from backup"
+    },
+    "RestoringFromBackupCaption": "Restoring configuration from backup",
+    "SuccessStatusCaption": "Uspjeh",
+    "SuccessfullyRestoredFromBackupCaption": "The configuration has been restored from backup"
+  },
+  "SessionEndDialog": {
+    "StayLoggedIn": "Ostanite prijavljeni",
+    "Exit": "Odjavi se",
+    "LogIn": "Prijava"
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Nazovi"
+  },
+  "CrtIconSelectorComponent": {
+    "Tooltip": "Odaberite ikonu"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "Poslovno pravilo je deaktivirano"
+  },
+  "ClientUnitSchemaDesignerApi": {
+    "EntitySchemasCircularReferenceError": "Cyclic dependency error. New data sources reference each other through lookup columns. Remove one of the references and try again.",
+    "PackageDependenciesIsAbsentError": "Nije moguće spremiti stranicu. {{schemaError}}",
+    "SchemaPackageDependencyIsAbsentError": "Dodajte ovisnost paketu '{{missedPackageName}}' za paket '{{currentPackageName}}'."
+  },
+  "SalesEngagement": {
+    "StepBuilder": {
+      "EmptyState": {
+        "Title": "Još ništa za prikazati",
+        "Subtitle": "Molim prvo dodajte podatke"
+      },
+      "UnexpectedReorderErrorMessage": "Unexpected error while reordering steps.",
+      "Actions": {
+        "AddStep": "Dodaj korak",
+        "CollapseAll": "Sažmi sve",
+        "ExpandAll": "Proširi sve",
+        "Expand": "Expand step",
+        "Collapse": "Collapse step",
+        "Copy": "Kopiraj",
+        "Edit": "Uredi",
+        "Delete": "Izbriši",
+        "More": "Više akcija"
+      }
+    },
+    "BaseStepTile": {
+      "Name": "Naslov",
+      "Description": "Opis",
+      "Priority": "Prioritet",
+      "Postpone": "Odgoda",
+      "Measurement": "Measurement",
+      "Activity": "Aktivnost",
+      "Step": "Korak",
+      "PostponeMinZeroValidationMessage": "Value must be greater than or equal to zero"
+    },
+    "AddSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were added.",
+      "NoRecordsAddedMessage": "No participants were added.",
+      "PartialResultTitle": "Some participants were not added",
+      "PartialResultMessage": "Added: {{count}}\n\nIssues:\n{{errors}}",
+      "ErrorResultTitle": "Participants were not added",
+      "ErrorResultMessage": "Issues:\n{{errors}}",
+      "DialogOkCaption": "OK",
+      "UnexpectedErrorMessage": "Unexpected error while adding participants."
+    },
+    "ActivateSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were activated.",
+      "NoRecordsActivatedMessage": "No participants were activated."
+    },
+    "ReassignSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were reassigned.",
+      "NoRecordsReassignedMessage": "No participants were reassigned.",
+      "PickerTitle": "Select new sequencer"
+    },
+    "EmailStepTile": {
+      "Subject": "Predmet",
+      "Body": "Tijelo"
+    },
+    "StepMetrics": {
+      "Total": {
+        "Label": "Ukupno",
+        "Hint": "All activities created for this step"
+      },
+      "Delivered": {
+        "Label": "Poslano",
+        "Hint": "Emails successfully sent for this step"
+      },
+      "Replies": {
+        "Label": "Replies",
+        "Hint": "Replies received for this step"
+      },
+      "ReplyRate": {
+        "Label": "Reply rate",
+        "Hint": "Share of sent emails that received a reply (replies / sent)"
+      },
+      "NotStarted": {
+        "Label": "Nije započeto",
+        "Hint": "Activities not started yet"
+      },
+      "Completed": {
+        "Label": "Završeno",
+        "Hint": "Activities completed"
+      },
+      "Answered": {
+        "Label": "Answered",
+        "Hint": "Calls that reached the contact (meeting scheduled, not interested, or call later)"
+      },
+      "BadContact": {
+        "Label": "Bad contact",
+        "Hint": "Calls with a bad number or wrong contact"
+      },
+      "NoAnswer": {
+        "Label": "Bez odgovora",
+        "Hint": "Calls that were not answered"
+      }
+    },
+    "SequenceStepName": {
+      "StepLabel": "Korak",
+      "DayLabel": "Dan"
+    }
+  },
+  "DataSourceDependenciesSetting": {
+    "Title": "Primijeni filter prema podacima stranice",
+    "Tooltip": "Filtriranje prema podacima stranice omogućuje prikaz povezanih zapisa ili detaljnih podataka u dodatnom popisu.",
+    "RelationsAndFilters": {
+      "Title": "Dodaj kriterije odnosa",
+      "Tooltip": "Postavite kriterije odnosa koji će se koristiti za identifikaciju kojeg će se zapisa iz ovog izvora podataka prikazati u poljima stranice."
+    }
+  },
+  "DataSourceDependency": {
+    "PageData": "Izvor podataka",
+    "MatchDataSourceAttributes": "Upari atribute izvora podataka",
+    "FilterByActiveItemLabel": "Filtriraj prema aktivnom retku",
+    "FilterByActiveItemTooltip": "Odaberi kako bi korisnicima omogućio filtriranje podataka popisa prema aktivnom retku povezanog izvora podataka",
+    "PageDataSourceRelationTitle": "Odnosi se na"
+  },
+  "DataSourceFilterElementsGroup": {
+    "Title": "Primijeni unaprijed konfigurirani filter",
+    "Tooltip": "Ova postavka omogućuje vam korištenje unaprijed konfiguriranih filtera iz mapa ili drugih elemenata filtriranja podataka kao filtara stranice."
+  },
+  "DataSourceFilterElement": {
+    "Caption": "Element filtra"
+  },
+  "EntitySchemaSelectComponent": {
+    "AddNewEntity": "Dodaj novi objekt",
+    "CreatePageLabel": "Please create a page, because there is none to execute this action",
+    "CreatePageLink": "Stvori stranicu",
+    "EditPageLabel": "{0} ima 1 stranicu obrasca.",
+    "EditPagesLabel": "{0} ima nekoliko stranica.",
+    "EditPageLink": "Uredi stranicu",
+    "OpenPagesSetup": "Pregledaj postavke stranica",
+    "SaveConfirmationDialog": {
+      "Message": "Spremite objekt prije nego što stvorite stranicu. Želite li nastaviti?"
+    },
+    "RelatedPagesCaptionWithEntityName": "Postavke stranica za{0}"
+  },
+  "CrtLookupViewPropertiesComponent": {
+    "SelectionWindow": "Prozor odabira",
+    "List": "Padajući popis",
+    "Label": "Pogled za pretraživanje"
+  },
+  "LookupSchemaSelectComponent": {
+    "CreateLookupEntityButtonLabel": "Stvori objekt za pretraživanje",
+    "EditLookupEntityButtonLabel": "Uredi pretragu objekta"
+  },
+  "DataSourceSortElementsGroup": {
+    "SortLabelCaption": "Atribut",
+    "Title": "Sortiraj po",
+    "Tooltip": "Definirajte pravila sortiranja kako biste odredili koji zapis odabrati kada više zapisa u {{dataSourceName}} zadovoljava navedene kriterije",
+    "Ascending": "Uzlazno",
+    "Descending": "Silazno"
+  },
+  "CrtPropertiesPanelHeaderComponent": {
+    "CloseButtonTitle": "Zatvori"
+  },
+  "DataValueType": {
+    "DateCaption": "Datum",
+    "TimeCaption": "Vrijeme",
+    "DateTimeCaption": "Datum/Vrijeme",
+    "GuidCaption": "Jedinstveni identifikator",
+    "BooleanCaption": "Boolean",
+    "LongTextCaption": "Tekst (500 znakova)",
+    "MaxSizeTextCaption": "Tekst neograničene duljine",
+    "IntegerCaption": "Cijeli broj",
+    "FLOAT2Caption": "Decimalni broj (0.01)",
+    "MoneyCaption": "Valuta"
+  },
+  "SysAdminUnits": {
+    "AllEmployees": "Svi zaposlenici",
+    "ExternalUsers": "Vanjski korisnici"
+  },
+  "SchemaDesigners": {
+    "EntityPagesDesigner": {
+      "HasTypeColumnLabel": "Koristite više stranica na temelju određene vrijednosti polja",
+      "ClearTypedPagesConfirmation": {
+        "Message": "Postavke tipiziranih stranica bit će očišćene.",
+        "Buttons": {
+          "Continue": "Nastavite",
+          "Cancel": "Odustani"
+        }
+      },
+      "TypeColumnLabel": "Polje koje određuje izgled stranice",
+      "TypeColumnRemoved": "Stupac uklonjen",
+      "PageRemoved": "Stranica uklonjena",
+      "Columns": {
+        "Role": "Uloga",
+        "Type": "Vrsta",
+        "DefaultPage": "Zadana stranica",
+        "AddPage": "Stranica za dodavanje zapisa"
+      },
+      "ToolsPanel": {
+        "Caption": "Popis stranica",
+        "AddPageButtonTooltip": "Dodaj stranicu"
+      },
+      "RowMenuItems": {
+        "Open": "Otvori",
+        "Copy": "Kopiraj",
+        "Delete": "Izbriši"
+      }
+    }
+  },
+  "EntityPagesDesignerDialog": {
+    "Caption": "Postavke stranica"
+  },
+  "RelatedPageCombobox": {
+    "RelatedPageLabel": "Zadana stranica",
+    "AddPageLabel": "Stranica za dodavanje zapisa",
+    "RelatedPagesCaption": "Postavke stranica",
+    "DefaultPagePlaceholder": "Stranica koja se koristi ako nije navedena druga stranica",
+    "AddPagePlaceholder": "Stranica za dodavanje zapisa",
+    "DefaultPageSelectionTooltip": "Odaberite ili stvorite zadano mjesto za uređivanje, čitanje i stvaranje zapisa.\nPreporučujemo korištenje slobodne UI stranice s trenutnim objektom kao izvorom podataka.",
+    "AddPageTooltip": "Odaberite ili stvorite određenu stranicu koja će se koristiti samo za dodavanje novog zapisa."
+  },
+  "PagesGroupDialog": {
+    "RoleCaption": "Uloga",
+    "TypeCaption": "Vrsta",
+    "NewRecord": "Postavke nove stranice",
+    "EditRecord": "Postavke stranice",
+    "EmptyTypeColumnTooltip": "Molim odaberite polje koje će se koristiti za određivanje stranice."
+  },
+  "Tooltips": {
+    "TypeColumn": {
+      "Message": "Polje koje je određivalo izgled stranice je uklonjeno."
+    }
+  },
+  "BusinessRule": {
+    "GenerateCaption": {
+      "EmptyActionsTranslation": "Poslovno pravilo"
+    },
+    "EditProperties": {
+      "Applicabilities": {
+        "DataSource": "Za podatkovni objekt",
+        "Page": "Na stranicu"
+      },
+      "Name": "Ime",
+      "Applicability": "Primijenite pravilo",
+      "DataSource": "Objekt",
+      "Enabled": "Omogućeno",
+      "Caption": "Naslov",
+      "Validators": {
+        "RequiredCaptionField": "Unesite vrijednost"
+      },
+      "Code": "Kod"
+    },
+    "PropertiesPanel": {
+      "Header": {
+        "Title": "Postavke poslovnog pravila"
+      },
+      "GeneralGroup": "Općenito",
+      "AdvancedGroup": "Napredno"
+    },
+    "Mode": {
+      "Title": "Način konfiguracije pravila",
+      "ShowDesigner": "Prikaži uređivač",
+      "ShowCodeEditor": "Prikaži metapotake"
+    },
+    "BlankSlate": {
+      "AddNewRule": "Dodaj novo pravilo",
+      "NoBusinessRules": "Nema pravila"
+    }
+  },
+  "BusinessRules": {
+    "CancelChangesConfirmationDialog": {
+      "Message": "Ova stranica sadrži nespremljene promjene. Bit će izgubljene ako zatvorite stranicu. Želite li spremiti promjene?"
+    },
+    "PanelTitle": "Postavljanje poslovnih pravila",
+    "List": {
+      "GroupName": "{{name}} Poslovna pravila",
+      "PageBusinessRules": "Poslovna pravila stranice",
+      "AddRule": "Dodaj pravilo",
+      "RemoveRule": "Izbriši",
+      "CopyRule": "Kopiraj"
+    },
+    "Buttons": {
+      "SaveButtonCaption": "Spremi",
+      "CancelButtonCaption": "Odustani",
+      "OpenPropertiesPanelButtonTooltip": "Postavke poslovnog pravila"
+    },
+    "Errors": {
+      "BusinessRulesAddonsError": "Greška dodataka za poslovna pravila!",
+      "InvalidRuleMessage": "Podešavanje pravila nije dovršeno. Provjerite njegov naslov, uvjet i parametre radnji. Naslov ili radnje pravila ne smiju biti prazni.",
+      "NotValidRules": "Nemoguće spremiti pravila. Provjerite naslov, radnju i postavke uvjeta nevažećih pravila.",
+      "MaxSizeInConditionLimitedWarningMessage": "Molimo imajte na umu da korištenje tekstualnog polja neograničene duljine u 'jednako' i 'ne jednako' uvjetima je ograničeno na prvih 500 znakova.",
+      "NotSupportedInConditionTypesWarningMessage": "Tipovi 'Rich text' i 'Slika' nisu podržani za poslovna pravila s uvjetima 'jednako' i 'nije jednako'"
+    },
+    "TooltipMessage": {
+      "DisabledRuleMessage": "Poslovno pravilo je deaktivirano"
+    }
+  },
+  "DataSourceElementTypes": {
+    "Text": "Tekst",
+    "Number": "Broj",
+    "Boolean": "Boolean",
+    "Lookup": "Pretraživanje",
+    "ColorPicker": "Boja",
+    "DateTime": "Date/Time",
+    "ImageLink": "Poveznica slike",
+    "EncryptedInput": "Enkriptirani niz"
+  },
+  "BusinessRuleDesigner": {
+    "Delete": "Izbriši",
+    "DeleteConfirm": "Želite li izbrisati poslovno pravilo?",
+    "NoBusinessRules": "Nema poslovnih pravila",
+    "TriggerCaptionDefault": "Stranica je otvorena ili je jedan od atributa u uvjetima promijenjen",
+    "SetValueAction": {
+      "TypeCaption": "Postavi vrijednost"
+    },
+    "SetValuesAction": {
+      "TypeCaption": "Postavi vrijednosti",
+      "Groups": {
+        "Inputs": "Unos",
+        "DataSource": "Izvor podataka"
+      }
+    },
+    "FilterLookupAction": {
+      "TypeCaption": "Primjeni filter",
+      "FilterFieldCaption": "Filter",
+      "ByFieldCaption": "prema",
+      "WhereFieldCaption": "Gdje",
+      "SpecifyValuePlaceholder": "Specificirajte vrijednost",
+      "PopulateValue": "Popunite vrijednost",
+      "PopulateRightExpressionPathElement": "Popunite polje {0} ako je polje {1} ispunjeno",
+      "ClearValue": "Očisti vrijednost",
+      "ClearLeftExpressionPathElement": "Očisti polje {0} ako je polje {1} izmijenjeno"
+    },
+    "SetFilterAction": {
+      "TypeCaption": "Primijeni statičk filter",
+      "FilterFieldCaption": "Filter",
+      "SpecifyValuePlaceholder": "Specificirajte vrijednost",
+      "SetupStaticFilterAction": "Postavi filter",
+      "EditStaticFilterAction": "Uredi filter",
+      "FiltersDialogCaption": "Postavljanje filtra"
+    },
+    "HideElementAction": {
+      "TypeCaption": "Sakrij elemente"
+    },
+    "ShowElementAction": {
+      "TypeCaption": "Prikaži elemente"
+    },
+    "EditableElementAction": {
+      "TypeCaption": "Napravi elemente uredljivima"
+    },
+    "ReadOnlyElementAction": {
+      "TypeCaption": "Učini elemente samo za čitanje"
+    },
+    "OptionalElementAction": {
+      "TypeCaption": "Postavite elemente kao opcionalne"
+    },
+    "RequiredElementAction": {
+      "TypeCaption": "Napravi elemente obveznima"
+    },
+    "Action": "Akcija",
+    "AddAction": "Dodaj akciju",
+    "DeleteAction": "Izbriši akciju",
+    "AddElement": "Dodaj element",
+    "DeleteElement": "Izbriši element",
+    "CollapseConditionButton": "Skupi",
+    "ShowCodeEditor": "Prikaži uređivač koda",
+    "HideCodeEditor": "Sakrij uređivač koda",
+    "ElementCode": "kod:",
+    "Formula": {
+      "ValuePicker": {
+        "SourceCaption": "Formula",
+        "SetUpFormulaBtnCaption": "Postavi formulu",
+        "ChangeFormulaBtnCaption": "Izmijeni formulu"
+      },
+      "EntityDataSourceExpressionValidator": {
+        "ColumnDoesNotExist": "Kolona {{column}} ne postoji"
+      }
+    },
+    "TriggerCaptionForDynamicFilter": "Stranica je otvorena ili je jedan od atributa u uvjetima ili radnjama promijenjen",
+    "TriggerCaptionForSetValueConst": "Stranica za stvaranje zapisa je otvorena ili je jedan od atributa u uvjetima promijenjen",
+    "TriggerCaptionForSetValueFormula": "Stranica za kreiranje zapisa je otvorena ili je jedan od atributa u uvjetima promijenjen",
+    "TriggerTooltipText": "Poslovno pravilo sadrži više različitih radnji koje mogu imati različite okidače. Saznajte više o okidačima u Creatio Akademiji."
+  },
+  "QuickFilterGroup": {
+    "Caption": "Filteri"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Prikaži izvorno",
+      "Original": "Prevedi",
+      "Retry": "Pokušaj ponovno"
+    },
+    "AutoCaption": {
+      "On": "Omogući automatski prijevod",
+      "Off": "Onemogući automatski prijevod"
+    }
+  },
+  "Sidebar": {
+    "PredefinedSidebarGroups": {
+      "CommunicationPanel": "Komunikacijska ploča",
+      "NotificationsPanel": "Ploča obavijesti"
+    }
+  },
+  "ConstValuePickerProvider": {
+    "Caption": "Konstantna vrijednost",
+    "SourceCaption": "Konstanta",
+    "ValuePickerComponent": {
+      "Placeholder": "Specificirajte vrijednost"
+    },
+    "ConstValuePickerDialogComponent": {
+      "Title": "Odaberi vrijednost",
+      "Label": "Vrijednost",
+      "Actions": {
+        "OkButtonCaption": "U redu",
+        "CancelButtonCaption": "Odustani"
+      }
+    }
+  }
+}

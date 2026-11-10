@@ -1,0 +1,36 @@
+﻿{
+    "ComposableApps":  [
+                           {
+                               "Code":  "CrtAIAgenticBridgeApp",
+                               "Version":  "1.1.20",
+                               "IsOverride":  false
+                           },
+                           {
+                               "Code":  "CrtMCPPublishingApp",
+                               "Version":  "1.1.8",
+                               "IsOverride":  false
+                           },
+                           {
+                               "Code":  "CrtAiTwinApp",
+                               "Version":  "1.0.35",
+                               "IsOverride":  false
+                           },
+                           {
+                               "Code":  "CrtIntegrationV2",
+                               "Version":  "1.1.13",
+                               "IsOverride":  false
+                           },
+                           {
+                               "Code":  "CrtAIKnwLibApp",
+                               "Version":  "1.2.41",
+                               "IsOverride":  false
+                           },
+                           {
+                               "Code":  "CrtIdentityManagement",
+                               "Version":  "1.0.2",
+                               "IsOverride":  false
+                           }
+                       ],
+    "CoreRevision":  "76290c3710b4ada0d40cbe617170740a861bddaa",
+    "PackageStoreRevision":  "378964"
+}

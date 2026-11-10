@@ -1,0 +1,9 @@
+﻿define("McpSourceActionSelectionPageResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {};
+	var parametersLocalizableStrings = {};
+	var propertiesLocalizableStrings = {
+		Caption: "\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430 \u0441\u043F\u0440\u0430\u0432\u043E\u0447\u043D\u0438\u043A\u0430"
+	};
+	var localizableImages = {};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages, parametersLocalizableStrings: parametersLocalizableStrings, propertiesLocalizableStrings: propertiesLocalizableStrings};
+});

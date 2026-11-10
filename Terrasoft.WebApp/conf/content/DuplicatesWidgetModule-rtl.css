@@ -1,0 +1,7 @@
+﻿#DuplicatesWidgetContainer {
+  margin: 5px 0;
+  padding: 0;
+}
+#DuplicatesWidgetContainer:first-child {
+  margin: 0 0 5px 0;
+}

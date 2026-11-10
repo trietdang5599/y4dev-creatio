@@ -1,0 +1,12 @@
+﻿define("InstalledAppStartupOptionResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		InstalledAppStartupOptionCaption: "\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440 \u0437\u0430\u043F\u0443\u0441\u043A\u0430 \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u043D\u043E\u0433\u043E \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F",
+		IsActiveCaption: "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0435",
+		RunTypeCaption: "\u0422\u0438\u043F \u0437\u0430\u043F\u0443\u0441\u043A\u0430",
+		InstalledAppCaption: "\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u0438 \u0443\u0434\u0430\u043B\u0435\u043D\u0438\u0435 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0439",
+		NameCaption: "\u0418\u043C\u044F",
+		IdCaption: "\u0418\u0434\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0442\u043E\u0440"
+	};
+	var localizableImages = {};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages};
+});

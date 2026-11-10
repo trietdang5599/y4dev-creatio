@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <g>
+    <path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M8.499 3v5"/>
+    <path fill="currentColor" d="M8 9h.999v.999H8z"/>
+  </g>
+  <g>
+    <g>
+      <path fill="none" stroke="currentColor" stroke-miterlimit="10" d="M1.5 11.5h3v3l3-3h7v-10h-13Z"/>
+    </g>
+  </g>
+  <path fill="none" d="M16 16H0V0h16z"/>
+</svg>

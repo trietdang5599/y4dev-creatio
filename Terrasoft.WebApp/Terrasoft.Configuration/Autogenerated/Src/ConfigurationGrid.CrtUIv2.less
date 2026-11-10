@@ -1,0 +1,170 @@
+﻿@configuration-grid-color: #64b8df;
+@configuration-grid-actions-color: @configuration-grid-color;
+@configuration-grid-border-color: @configuration-grid-color;
+@configuration-grid-underline-color: @configuration-grid-color;
+
+.configuration-grid {
+	padding-right: 1px;
+
+	.grid-listed-row {
+		min-height: 36px;
+		padding: 0 5px;
+		margin: 0;
+	}
+
+	&.grid-listed-zebra {
+
+		.grid-listed-row:nth-child(odd) {
+			background-color: white;
+		}
+
+		.grid-listed-row:nth-child(odd):not(.configuration-grid-row-active) {
+			background-color: #f7f7f7;
+		}
+
+	}
+
+	.grid-active-selectable {
+		border: 1px solid white;
+
+		&:not(.configuration-grid-row-active) div[class*="grid-cols-"] {
+			padding-left: 0;
+			line-height: 2.43em;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		&:not(.configuration-grid-row-active) div[class*="grid-cols-"] > * {
+			white-space: nowrap;
+		}
+
+	}
+
+	.configuration-grid-row-active {
+		border: 1px solid @configuration-grid-color;
+		padding-top: 1px;
+		padding-bottom: 2px;
+		line-height: 32px;
+
+		div[class*="grid-cols-"] {
+			display: none;
+		}
+
+		.grid-row-controls {
+
+			input,
+			.base-edit-validation {
+				font-size: 1em;
+			}
+
+			.base-edit-error {
+				-webkit-box-shadow: 0 0 0 0;
+				-moz-box-shadow: 0 0 0 0;
+				box-shadow: 0 0 0 0;
+			}
+
+			.base-edit {
+				border: 0;
+				border-bottom: 1px solid white;
+				padding-left: 0;
+
+				&:hover {
+					border-bottom: 1px dotted @configuration-grid-underline-color;
+				}
+
+				&.base-edit-focus {
+					-webkit-box-shadow: 0 0 0 0;
+					-moz-box-shadow: 0 0 0 0;
+					box-shadow: 0 0 0 0;
+					border-bottom: 1px dotted @configuration-grid-underline-color;
+				}
+			}
+
+			.number-edit-align {
+				.number-edit-input-align {
+					text-align: right;
+				}
+				.base-edit-disabled-el-icon {
+					left: 0;
+				}
+			}
+
+			.grid-layout-row,
+			.grid-layout-column {
+				min-height: 30px;
+			}
+
+			.grid-layout-row {
+				max-width: 100%;
+			}
+
+			.t-checkboxedit-wrap {
+				margin-top: 5px;
+				margin-left: 10px;
+			}
+			.base-edit-link {
+				font-size: 1.0em;
+				margin-top: 3px;
+			}
+			.base-edit-clear-icon {
+				right: 20px;
+			}
+
+		}
+
+		.configuration-grid-row-actions {
+			background-color: @configuration-grid-actions-color;
+			position: absolute;
+			height: 26px;
+			bottom: -28px;
+			right: -1px;
+			z-index: 1001;
+
+			.configuration-grid-action-button {
+				padding: 0;
+				vertical-align: top;
+				margin: 3px 5px 0 5px;
+			}
+
+			.t-btn-image {
+				font-size: 0.8em;
+			}
+
+		}
+
+	}
+
+	&.grid-multiselect {
+
+		.configuration-grid-row-selected .grid-layout-column:first-child,
+		.grid-active-selectable div[class*="grid-cols-"]:nth-child(2),
+		.configuration-grid-row-active:not(.configuration-grid-row-selected) .grid-row-controls {
+			padding-left: 32px;
+		}
+
+		.grid-listed-row .grid-fixed-col {
+			position: absolute;
+			top: 50%;
+			margin-top: -8px;
+
+			.grid-listed-row-control {
+				margin-top: 0px;
+			}
+		}
+	}
+
+}
+
+.ts-controlgroup .configuration-grid {
+	padding-bottom: 17px;
+}
+.configuration-grid .memo-edit-area {
+	font-size: 1em;
+}
+
+.configuration-grid .memo-edit-core {
+	overflow-y: auto;
+	max-height: 150px;
+	position: static;
+}
+

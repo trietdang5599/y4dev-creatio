@@ -1,0 +1,67 @@
+﻿.business-rule-island-container {
+	display: flex;
+
+	.reorderable-container {
+		padding: 0 2px;
+	}
+}
+
+.business-rule-case-add-condition-button-wrapper {
+	padding-top: 10px;
+}
+
+.t-btn-wrapper {
+	.t-btn-marker {
+		display: none;
+	}
+
+	&:hover {
+		.t-btn-marker {
+			display: block;
+		}
+	}
+}
+
+.base-edit {
+	border: 1px solid white;
+	border-bottom: 1px dotted #c8c8c8;
+
+	&:not(.base-edit-focus):hover {
+		border-bottom-style: solid;
+	}
+
+	&.base-edit-focus {
+		outline: none;
+		border-color:#fff;
+		border-bottom: 1px solid #00aeef;
+		box-shadow: none;
+	}
+
+	.base-edit-right-icon{
+		display: none;
+	}
+
+	&:hover {
+		.base-edit-right-icon{
+			display: block;
+		}
+	}
+}
+
+.business-rule-case-element-tagger {
+	.t-btn-wrapper {
+		border-radius: 16px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 18px;
+
+		&:hover {
+			background: #e0eafa;
+		}
+
+		.t-btn-text {
+			color: #0D2E4E;
+			font-family: 'Open Sans', serif;
+		}
+	}
+}

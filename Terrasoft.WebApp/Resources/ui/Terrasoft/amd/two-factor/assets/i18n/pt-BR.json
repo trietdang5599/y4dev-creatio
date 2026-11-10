@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Utilizar outro método",
+    "TwoFactorSubmitButton": "Verificar",
+    "TwoFactorBackButton": "Voltar",
+    "SmsProvider": {
+        "SendSms": "Enviar um outro código",
+        "ResendSms": "Reenviar o SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Enviar um outro código"
+    },
+    "TwoFactor.AdditionalVerification": "Verificação adicional",
+    "TwoFactor.CancelButton.Caption": "Cancelar",
+    "TwoFactor.SmsProviderNotAvailable": "Inserir o código de verificação que foi enviado via SMS para o seu número de telefone",
+    "TwoFactor.EnterSmsCode.Caption": "Inserir o código de verificação que foi enviado via SMS para o seu número de telefone",
+    "TwoFactor.EnterEmailCode.Caption": "Inserir o código de verificação que foi enviado para o seu endereço de e-mail",
+    "TwoFactor.EnterTOTPCode.Caption": "Inserir o código de verificação gerado pela APP do autenticador",
+    "TwoFactor.VerificationCode.Caption": "Código de verificação",
+    "TwoFactor.TOTPUnavailable.Caption": "Para utilizar o método da APP do autenticador, primeiro será preciso configurá-lo. Pode-se fazer isto em sua página de perfil.",
+    "TwoFactor.UseAnotherMethod.Caption": "Utilizar outro método",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "O código de verificação é inválido. Verificar se foram inseridos os dados corretos ou entrar em contato com o administrador do seu sistema",
+    "TwoFactor.ValidationCanceled": "A validação do segundo fator foi cancelada",
+    "TwoFactor.EnterRecoveryCode.Caption": "Inserir o código de recuperação",
+    "TwoFactor.RecoveryCodesNotAvailable": "Para utilizar os códigos de recuperação, primeiro será preciso configurá-los. Pode-se fazer isto em sua página de perfil"
+}

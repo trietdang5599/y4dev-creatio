@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Gebruik een andere methode",
+    "TwoFactorSubmitButton": "Verifiëren",
+    "TwoFactorBackButton": "Terug",
+    "SmsProvider": {
+        "SendSms": "Stuur een andere code",
+        "ResendSms": "Stuur SMS opnieuw"
+    },
+    "EmailProvider": {
+        "SendEmail": "Stuur een andere code"
+    },
+    "TwoFactor.AdditionalVerification": "Additional verification",
+    "TwoFactor.CancelButton.Caption": "Annuleer",
+    "TwoFactor.SmsProviderNotAvailable": "Voer de verificatiecode in welke naar uw telefoonnummer is verzonden",
+    "TwoFactor.EnterSmsCode.Caption": "Voer de verificatiecode in welke naar uw telefoonnummer is verzonden",
+    "TwoFactor.EnterEmailCode.Caption": "Voer de verificatiecode in welke naar uw e-mailadres is verzonden",
+    "TwoFactor.EnterTOTPCode.Caption": "Voer de verificatiecode in die door de authenticator-app is gegenereerd",
+    "TwoFactor.VerificationCode.Caption": "Verificatiecode",
+    "TwoFactor.TOTPUnavailable.Caption": "Om de authenticator-app-methode te gebruiken, moet je deze eerst instellen. Je kunt dit doen op je profielpagina.",
+    "TwoFactor.UseAnotherMethod.Caption": "Gebruik een andere methode",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Ongeldige verificatiecode. Zorg ervoor dat u de juiste gegevens hebt ingevoerd of neem contact op met uw systeembeheerder",
+    "TwoFactor.ValidationCanceled": "Validatie van tweede factor is geannuleerd",
+    "TwoFactor.EnterRecoveryCode.Caption": "Enter the recovery code",
+    "TwoFactor.RecoveryCodesNotAvailable": "To use the recovery codes, you first need to set it up. You can do this on your profile page"
+}

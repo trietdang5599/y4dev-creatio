@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Başka bir yöntem kullan",
+    "TwoFactorSubmitButton": "Doğrula",
+    "TwoFactorBackButton": "Geri",
+    "SmsProvider": {
+        "SendSms": "Başka bir kod gönder",
+        "ResendSms": "SMS'i yeniden gönder"
+    },
+    "EmailProvider": {
+        "SendEmail": "Başka bir kod gönder"
+    },
+    "TwoFactor.AdditionalVerification": "Ek doğrulama",
+    "TwoFactor.CancelButton.Caption": "İptal",
+    "TwoFactor.SmsProviderNotAvailable": "Telefon numaranıza SMS ile gönderilen doğrulama kodunu girin",
+    "TwoFactor.EnterSmsCode.Caption": "Telefon numaranıza SMS ile gönderilen doğrulama kodunu girin",
+    "TwoFactor.EnterEmailCode.Caption": "E-posta adresinize gönderilen doğrulama kodunu girin",
+    "TwoFactor.EnterTOTPCode.Caption": "Kimlik doğrulayıcı uygulamasından doğrulama kodunu girin",
+    "TwoFactor.VerificationCode.Caption": "Doğrulama kodu",
+    "TwoFactor.TOTPUnavailable.Caption": "Kimlik doğrulayıcı uygulama yöntemini kullanmak için öncelikle onu kurmanız gerekir. Bunu profil sayfanızdan yapabilirsiniz.",
+    "TwoFactor.UseAnotherMethod.Caption": "Başka bir yöntem kullan",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Geçersiz doğrulama kodu. Doğru verileri girdiğinizden emin olun veya sistem yöneticinizle iletişime geçin.",
+    "TwoFactor.ValidationCanceled": "İkinci faktör doğrulaması iptal edildi",
+    "TwoFactor.EnterRecoveryCode.Caption": "Kurtarma kodunu girin",
+    "TwoFactor.RecoveryCodesNotAvailable": "Kurtarma kodlarını kullanmak için öncelikle onu kurmanız gerekir. Bunu profil sayfanızdan yapabilirsiniz."
+}

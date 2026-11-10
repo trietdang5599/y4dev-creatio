@@ -1,0 +1,119 @@
+﻿.duplicates-label {
+  color: #999999;
+  text-align: justify;
+  font-size: 21px;
+}
+.duplicates-header-label {
+  color: #999999;
+  text-align: justify;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+.detail .duplicates-header-label {
+  color: #999999;
+  text-align: justify;
+  font-size: 21px;
+  margin-bottom: 0;
+  font-size: 17px;
+}
+.detail .duplicates-header-label a {
+  font-size: 12px;
+  vertical-align: baseline;
+  cursor: pointer;
+  margin-right: 5px;
+  white-space: nowrap;
+}
+.duplicates-detail-buttons {
+  position: relative;
+}
+.duplicates-detail {
+  margin-bottom: 15px;
+}
+.duplicates-controls-container {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e1e8d2;
+}
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container {
+  max-width: 100%;
+  margin-right: -8px;
+  margin-top: -15px;
+}
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message {
+  margin-bottom: 0;
+  padding-top: 45px;
+  width: 100%;
+  height: 100%;
+}
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .t-label,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .t-label {
+  font-size: 1em;
+}
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .title,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .title {
+  padding-right: 30px;
+}
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .title,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .title,
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .description,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .description {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-result-with-filters .title,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-result-with-filters .title,
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-result-with-filters .description,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-result-with-filters .description {
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .duplicates-container-item .ts-controlgroup,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .duplicates-container-item .ts-controlgroup {
+  max-width: none;
+}
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .duplicates-container-item .ts-controlgroup .grid-captions,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .duplicates-container-item .ts-controlgroup .grid-captions {
+  display: flex;
+}
+body[OldUI=false] .center-panel .card-content-container.duplicates-content-wrap .actions-container {
+  z-index: 1000;
+  height: auto;
+  padding-bottom: 5px;
+}
+body[OldUI=false] .center-panel .card-content-container.duplicates-content-wrap .actions-container .left-container-wrapClass {
+  float: unset;
+}
+body[OldUI=false] .center-panel .card-content-container.duplicates-content-wrap .actions-container .custom-filter-button-container .t-btn-wrapper {
+  padding-right: 0 !important;
+}
+body[OldUI=false] .center-panel .card-content-container.duplicates-content-wrap .actions-container .custom-filter-button-container .t-btn-wrapper .t-btn-image {
+  right: 0;
+}
+body[OldUI=false] .center-panel .card-content-container.duplicates-content-wrap .actions-container .custom-filter-button-container .t-btn-wrapper .t-btn-text {
+  padding-right: 1.7em;
+  padding-top: 0.2em;
+}
+body[OldUI=false] .center-panel .card-content-container.duplicates-content-wrap .actions-container .custom-filter-button-container .t-btn-wrapper:not(.t-btn-no-text-padding) span.t-btn-image {
+  margin-top: 0.49em;
+}
+body[OldUI=false] .center-panel .card-content-container.duplicates-content-wrap .detail-filter-container-style {
+  display: block;
+}
+.duplicate-summary-item-container {
+  display: inline-block;
+  margin: 5.5px 8px;
+}
+.duplicate-summary-item-caption {
+  color: #999;
+  font-size: 1.3em;
+  display: inline;
+}
+.duplicate-summary-item-value {
+  color: #88C658;
+  font-size: 1.4em;
+  display: inline;
+  padding-right: 5px;
+}

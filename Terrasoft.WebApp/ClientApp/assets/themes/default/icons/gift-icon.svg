@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g transform="translate(-8 -8)">
+    <path d="M888-1225v5H878v-5h10m1-1H877v7h12Z" transform="translate(-867 1242)" fill="currentColor"/>
+    <path d="M889-1228v2H877v-2h12m1-1H876v4h14Z" transform="translate(-867 1242)" fill="currentColor"/>
+    <rect width="1" height="10" transform="translate(14 13)" fill="currentColor"/>
+    <rect width="1" height="10" transform="translate(17 13)" fill="currentColor"/>
+    <ellipse cx="1.5" cy="1.96" rx="1.5" ry="1.96" transform="translate(11.684 11.403) rotate(-63.43)" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="1"/>
+    <ellipse cx="1.96" cy="1.5" rx="1.96" ry="1.5" transform="translate(15.447 10.509) rotate(-26.57)" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+  <rect width="16" height="16" fill="none"/>
+</svg>

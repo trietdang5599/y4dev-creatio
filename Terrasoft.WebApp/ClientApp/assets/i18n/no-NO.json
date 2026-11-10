@@ -1,0 +1,2873 @@
+{
+    "ConfirmationDialog": {
+        "YES": "JA",
+        "NO": "NEI",
+        "DELETE": "SLETT",
+        "CANCEL": "AVBRYT"
+    },
+    "InfoDialog": {
+        "OK": "Ok"
+    },
+    "OperationPermissionsErrorDialog": {
+        "ErrorTemplate": "Du har ikke tillatelse til å gjøre denne operasjonen.\nKontakt systemansvarlig og be om tillatelse til å utføre følgende systemoperasjon med kode: «{0}». Tillatelser til systemoperasjoner administreres i \"driftstilganger\" i delen av systemdesigner."
+    },
+    "ValidationErrorDialogComponent": {
+        "Cancel": "Avbryt",
+        "Close": "Lukk"
+    },
+    "AddRecordRightsDialog": {
+        "Add": "Legg til",
+        "Cancel": "Avbryt",
+        "RecordAuthor": "Ta opp forfatter",
+        "RightsRecipient": "Bruker eller rolle som får rettigheter",
+        "Title": "Legg til rettigheter basert på forfatter av post"
+    },
+    "AddEntityOperationGranteeDialog": {
+        "Add": "Legg til",
+        "Cancel": "Avbryt",
+        "Operation": "Operasjon",
+        "UserOrRole": "Bruker eller rolle som får rettigheter",
+        "Title": "Legg til rettigheter basert på rolle eller bruker"
+    },
+    "LocalizableStringsDialog": {
+        "Title": "Lokaliserbare strenger",
+        "NameTitle": "Kode",
+        "ValueTitle": "Verdi",
+        "Add": "Legg til",
+        "Cancel": "Avbryt",
+        "Apply": "Bruk",
+        "ShowAllLanguages": "Vis alle språk",
+        "HideInactiveLanguages": "Skjul inaktive språk",
+        "Validations": {
+            "RequiredNameCaption": "Angi en verdi",
+            "PatternNameCaption": "Ugyldig verdi. Bruk symboler: a-z, A-Z, 0-9. Symbol: 0-9 kan ikke først",
+            "DuplicateNameCaption": "Det finnes allerede lokale streng med samme kode"
+        }
+    },
+    "OrderDirectionStrict": {
+        "Ascending": "Stigende",
+        "Descending": "Synkende"
+    },
+    "AdministratedObjectPage": {
+        "EntityOperations": "BESKRIVELSE AV AVANSERTE",
+        "AdditionalOperationPermissions": "Flere tillatelser",
+        "Operation": "Operasjon",
+        "UserOrRole": "Bruker eller rolle",
+        "UserOrRoleWhoObtainsPermission": "Bruker eller rolle som får rettigheter",
+        "AccessPermissions": "TILLATELSER",
+        "InfoBlockText": "Systemoperasjoner \"Legg til data\", \"Vis data\", \"Rediger hvilken som helst data\", \"Slett all data\" gitt til roller eller brukere har høyere prioritet enn tillatelser som du konfigurerer i denne delen.",
+        "InfoBlockEntityOperationsText": "Systemoperasjoner \"CanExportGrid\" gitt til roller eller brukere har høyere prioritet enn tillatelser som du konfigurerer i denne delen.",
+        "InfoBlockTitle": "Notat",
+        "InfoBlockLink1": "Hvordan arbeidet med tillatelse prioritering",
+        "InfoBlockLink2": "Hvordan rettigheter arves",
+        "InfoBlockLink3": "Hvordan sette opp tillatelser for detaljer",
+        "InfoBlockLink4": "Hvordan legge til nye opptakstillatelser på alle eksisterende poster",
+        "InfoBlockLink5": "Få tilgang til konfigureringseksempler",
+        "NameFieldName": "Navn",
+        "RightsByColumnDetail": "Bruk tillatelser til kolonne",
+        "RightsByColumnDetailTooltip": "Tillatelsesinnstillinger for bestemte kolonner (felter) for objektet",
+        "RightsByOperationDetail": "Bruk aktivitetstillatelser",
+        "RightsByOperationDetailTooltip": "Tillatelsesinnstillinger for å opprette, lese, redigere og slette operasjoner",
+        "RightsByEntityOperationDetail": "Bruk driftstillatelser for enheten",
+        "RightsByEntityOperationDetailTitle": "Flere tillatelser",
+        "RightsByEntityOperationDetailTooltip": "Rettighetsinnstillinger for eksport av data fra gjeldende objekt basert på rolle eller bruker",
+        "RightsByRecordDetail": "Bruk opptakstillatelser",
+        "RightsByRecordDetailTooltip": "Tillatelsesinnstillinger for lesing, redigering og sletting av bestemte poster",
+        "TitleFieldName": "Tittel",
+        "TitleFormat": "{0} objekttillatelser",
+        "UpdatePermissions": "Oppdater posttillatelser",
+        "OneEmptyRecordDefRightMessageTemplate": "Regelen «{0}» inneholder ingen tilgangstillatelser enn «Ikke satt», og vil på noen måte ikke påvirke de faktiske tilgangsinnstillingene. Når du legger til de nye tillatelsene, vil du slette denne regelen. Ønsker du å fortsette?",
+        "SeveralEmptyRecordDefRightsMessageTemplate": "Reglene «{0}» inneholder ikke andre tilgangsrettigheter enn «Ikke satt» og vil på noen måte ikke påvirke de faktiske tilgangsinnstillingene. Når du legger til de nye tillatelsene, sletter du disse reglene. Ønsker du å fortsette?",
+        "ProposalActualizationRights": "Innstillinger for posttillatelse er endret. Gjeldende tillatelser for eksisterende {0} oppføringer må oppdateres. Dette kan påvirke systemets ytelse for alle brukere. \n Ønsker du å oppdatere posttillatelser nå?"
+    },
+    "AdministratedObjectSection": {
+        "BusinessLogicPermissions": "Opptakstillatelser aktivert",
+        "Close": "Lukk",
+        "ColumnPermissions": "Kolonnetillatelser aktivert",
+        "Name": "Navn",
+        "ObjectPermissions": "Operasjonstillatelser aktivert",
+        "Search": "Søk",
+        "Title": "Objekt tillatelser",
+        "TitleColumn": "Tittel",
+        "UpdatePermissions": "Oppdater posttillatelser"
+    },
+    "BasePageComponent": {
+        "Close": "Lukk",
+        "Apply": "Bruk",
+        "Cancel": "Avbryt",
+        "Save": "Lagre",
+        "Actions": "Handlinger",
+        "Check": "Validering",
+        "Publish": "Publiser",
+        "PublishAndCompile": "Publiser og kompilér"
+    },
+    "ClearChangeLogSettingsDialog": {
+        "AllObjects": "Alle objekter",
+        "AllPeriod": "All tilgjengelig data",
+        "Cancel": "Avbryt",
+        "ChooseDate": "Velg dato",
+        "ChooseObject": "Velg objekt",
+        "Clear": "Tøm",
+        "ObjectSettingsTitle": "Slett loggdata for følgende objekter",
+        "OnlySelectedObject": "Spesifikk objekt",
+        "PeriodSettingsTitle": "Tøm loggdata for følgende periode",
+        "Title": "Tøm endringsloggen",
+        "ToDatePeriod": "Data eldre enn"
+    },
+    "ChangeLogCleanerService": {
+        "SuccessLaunch": "Systemet har startet endringslogg. Du vil motta et varsel i kommunikasjonspanelet når prosessen er ferdig"
+    },
+    "ChangeLogPage": {
+        "Close": "Lukk",
+        "TitleFormat": "{0} endre logg",
+        "ViewLog": "VIS LOG"
+    },
+    "ChangeLogSection": {
+        "Title": "Endre logg",
+        "TitleColumn": "Tittel",
+        "NameColumn": "Navn",
+        "LoggingEnabledColumn": "Logging aktivert",
+        "ClearChangeLog": "Tøm logg"
+    },
+    "ChangeLogComponent": {
+        "Blankslate": "Det finnes ingen oppføringer for dette objektet i endringsloggen",
+        "InsertedTooltip": "Lapp lagt til",
+        "UpdatedTooltip": "Post endret",
+        "DeletedTooltip": "Opptak slettet",
+        "ShowMore": "Vis mer",
+        "ShowLess": "Vis mindre",
+        "ChangeType": "Endre type",
+        "ChangeTrackedOn": "Endre gjort den",
+        "ChangeTrackedBy": "Endre utført av",
+        "ChangeTracked": "Registrer",
+        "ColumnName": "Kolonne",
+        "ColumnOldValue": "Gammel verdi",
+        "ColumnNewValue": "Ny verdi",
+        "Yes": "Ja",
+        "No": "Nei"
+    },
+    "LicenseManager": {
+        "PackageNameColumn": "Navn",
+        "TypeColumn": "Type:",
+        "StartDateColumn": "Start dato",
+        "DueDateColumn": "Ferdig senest",
+        "StatusColumn": "Status:",
+        "CountColumn": "Totalt",
+        "LicenseIsActive": "Aktiv",
+        "LicenseIsNotActive": "Ikke aktiv",
+        "TypePersonal": "Personlig",
+        "TypeConcurrent": "Samtidig",
+        "TypeServer": "Tjener"
+    },
+    "LicenseSection": {
+        "Title": "Lisens manager",
+        "BlankslateTitle": "Denne delen har ingen registreringer hittil.",
+        "BlankslateDescription": "Lisensene dine vises her når du laster opp en lisensfil",
+        "ServerLicenseTooltip": "Server og samtidige lisenser distribueres fra brukersiden",
+        "ConcurrentLicenseTooltip": "Server og samtidige lisenser distribueres fra brukersiden",
+        "UploadButtonCaption": "Last opp",
+        "UploadLicensesCompleteMessage": "Lisenser har blitt lastet opp",
+        "UploadLicensesErrorMessage": "Ugyldig filformat",
+        "RequestLicensesButtonCaption": "Forespørsel",
+        "DeleteLicensesButtonCaption": "Slett",
+        "DeleteLicensesConfirmation": "Lisenser vil bli slettet. Ønsker du å fortsette?",
+        "DeleteLicensesSuccess": "Alle lisenser har blitt slettet."
+    },
+    "LicensePage": {
+        "TitleFormat": "Produkt {0}"
+    },
+    "UsedLicensesCounterChart": {
+        "ActiveLicensesTitle": "Aktive lisenser",
+        "ConcurrentLicenseTitle": "Samtidige lisenser",
+        "UsedLicensesCountTitle": "Lisensiert",
+        "UsedLicensesCountSeparatorLabel": "av",
+        "DistributedLicensesLegend": "Lisenser tildelt brukere",
+        "AvailableLicensesLegend": "Grense for samtidige brukerøkter",
+        "UnlimitedCountLabel": "av ubegrenset antall brukere",
+        "LimitOfLicensesLabel": "Grense for lisenser"
+    },
+    "LicenseDetail": {
+        "Title": "Lisenser"
+    },
+    "LicensedUsersDetail": {
+        "Title": "Lisensierte brukere",
+        "UsersDialogCaption": "Brukere",
+        "UserNameColumn": "Bruker",
+        "EmailColumn": "E-post",
+        "JobTitleColumn": "Jobb tittel",
+        "Delete": "Tilbakekall",
+        "Blankslate": "Disse lisensene er ikke distribuert til noen brukere ennå"
+    },
+    "LicenseRequestDialog": {
+        "Title": "Bedrifts ID for lisensiering",
+        "LicenseVersionTitle": "Lisens versjon",
+        "InputFieldDescription": "Din unike Company Id er lagret i \"lisens selskapet Id\" systeminnstillingen. Å endre Bedrifts-Id i dette feltet vil automatisk oppdatere verdien av systeminnstillingen.",
+        "LicenseVersionDescription": "Versjon av forhold som du planlegger opplasting lisenser.",
+        "InvalidVersionFormat": "Skriv inn versjonen i form av tre tall delt med prikker. For eksempel 7.18.1",
+        "RequestButtonCaption": "Lag en lisensforespørselfil"
+    },
+    "ObjectRecordRightsActualizationService": {
+        "SuccessLaunch": "Systemet har startet å oppdatere opptakstillatelser basert på gjeldende innstillinger. Du vil motta et varsel i Kommunikasjon-panelet når prosessen er ferdig"
+    },
+    "ViewElementGroup": {
+        "ChartsGroupCaption": "Diagram",
+        "ComponentsGroupCaption": "Komponent",
+        "LayoutElementsGroupCaption": "Oppsett element",
+        "InputsGroupCaption": "Input",
+        "CustomElementsGroupCaption": "Egendefinert element"
+    },
+    "ObjectChangeLogPage": {
+        "TitleFormat": "Endre logg for {0} objektet",
+        "SettingsTabCaption": "Logg innstillinger",
+        "ViewChangeLogTabCaption": "Logg data",
+        "EnableObjectTracking": "Aktivere logging"
+    },
+    "ObjectTypeFilter": {
+        "AllObjects": "Alle objekter",
+        "Lookups": "Oppslag",
+        "Sections": "Seksjoner"
+    },
+    "SearchInput": {
+        "Placeholder": "Søk",
+        "Settings": {
+            "Cancel": "Avbryt",
+            "Apply": "Bruk",
+            "SearchColumnTemplate": "Søk med kolonne \"{0}",
+            "StartsWith": "Starter med",
+            "Contains": "Inneholder",
+            "Equals": "Lik"
+        }
+    },
+    "DeleteButtonTableCell": {
+        "Tooltip": "Fjern"
+    },
+    "RightLevelSelect": {
+        "Granted": "Tildelt",
+        "GrantedDelegate": "Tildelt med delegeringsrett",
+        "NotSet": "Ikke angitt"
+    },
+    "RightsByColumnDetail": {
+        "Add": "Legg til",
+        "Blankslate": "Tilgang til alle kolonner er ikke begrenset",
+        "Column": "Kolonne",
+        "ColumnBlankslate": "Legg til roller eller brukere for å administrere deres tilgang til denne kolonnen",
+        "DenyReadEdit": "Nekt lesing og redigering",
+        "Drag": "Dra for å endre prioritet",
+        "PermitRead": "Tillat lesing",
+        "PermitReadEdit": "Tillat lesing og redigering",
+        "Priority": "Prioritet",
+        "Remove": "Fjern",
+        "RightLevel": "Tilgang nivå",
+        "User": "Bruker eller rolle",
+        "ValidationMessage": "En regel for den valgte rollen finnes allerede. Velg en annen rolle å fortsette",
+        "WarningDowngradingRights": "Tillatelsesbegrensningene i denne regelen kan overstyre andre regler som er lavere i listen"
+    },
+    "RightsByRecordDetail": {
+        "Add": "Legg til",
+        "Blankslate": "Det er ikke angitt forfatterbaserte tillatelsesregler",
+        "Delete": "Slett",
+        "Edit": "Rediger",
+        "Read": "Les",
+        "RecordAuthor": "Ta opp forfatter",
+        "Remove": "Fjern",
+        "RightsRecipient": "Bruker eller rolle som får rettigheter",
+        "Title": "Gi tillatelser basert på forfatter av post",
+        "TitleTooltip": "Tillatelser vil bli gitt basert på forfatteren av posten når en ny post opprettes",
+        "ValidationMessage": "En regel for valgte roller finnes allerede. Velg andre roller for å fortsette"
+    },
+    "RightsByOperationsDetail": {
+        "Drag": "Dra for å endre prioritet",
+        "Priority": "Prioritet",
+        "User": "Bruker eller rolle",
+        "Create": "Opprett",
+        "Read": "Les",
+        "Edit": "Rediger",
+        "Delete": "Slett",
+        "Remove": "Fjern",
+        "Add": "Legg til",
+        "Blankslate": "Legg til brukere eller roller for å gi dem tilgang til objektdata",
+        "ValidationMessage": "En regel for den valgte rollen finnes allerede. Velg en annen rolle å fortsette",
+        "WarningDowngradingRights": "Tillatelsesbegrensningene i denne regelen kan overstyre andre regler som er lavere i listen",
+        "Allowed": "Tildelt",
+        "Denied": "Avvist"
+    },
+    "RightsByEntityOperationsDetail": {
+        "Add": "Legg til",
+        "Title": "Flere tillatelser",
+        "Blankslate": "Legg til brukere eller roller for å gi dem tilgang til ytterligere operasjoner",
+        "Operation": "Operasjon",
+        "UserOrRole": "Bruker eller rolle som får rettigheter",
+        "ValidationMessage": "Feltene er ikke utfylte"
+    },
+    "SelectEntitySchemaColumnDialog": {
+        "Cancel": "Avbryt",
+        "Select": "Velg",
+        "SelectFieldPlaceholder": "Velg kolonne",
+        "Title": "Velg kolonne"
+    },
+    "SelectSysAdminUnitDialog": {
+        "Cancel": "Avbryt",
+        "FunctionalRoles": "Funksjonelle roller",
+        "OrganizationalRoles": "Organisasjonens roller",
+        "Search": "Søk",
+        "Select": "Velg",
+        "Title": "Velg bruker eller rolle",
+        "Users": "Brukere"
+    },
+    "SelectEntityOperationDialog": {
+        "Cancel": "Avbryt",
+        "Search": "Søk",
+        "Operations": "Aktiviteter",
+        "Select": "Velg",
+        "Title": "Operasjon enhet",
+        "Users": "Brukere",
+        "SelectFieldPlaceholder": "Velg enhet operasjon"
+    },
+    "SysAdminUnitTree": {},
+    "TrackedColumns": {
+        "TitleTooltip": "Lag en liste over kolonner med verdier som skal opptas når en post er endret",
+        "Title": "Loggede kolonner",
+        "CaptionColumn": "Tittel",
+        "NameColumn": "Navn",
+        "Add": "Legg til",
+        "Remove": "Fjern",
+        "Blankslate": "Loggede kolonner er ikke valgt"
+    },
+    "BaseSection": {
+        "BlankslateTitleWithFilters": "Det finnes ingen poster som samsvarer med gjeldende søkekriterier.",
+        "BlankslateDescriptionWithFilters": "Fjern eller endre søksparametere",
+        "DeleteRecordConfirmation": "Er du sikker på at du vil slette den valgte oppføringen?",
+        "AbsentDataErrorMessage": "Posten er slettet eller du har ikke tilgang til den"
+    },
+    "BaseTableDetail": {
+        "Add": "Legg til",
+        "BlankslateWithFilters": "Det finnes ingen oppføringer som samsvarer med gjeldende søkekriterier. Fjern eller endre søkefeltene"
+    },
+    "MultiselectDialog": {
+        "Select": "Velg",
+        "Selected": "Valgt:",
+        "Cancel": "Avbryt",
+        "Blankslate": "Det er ingen poster for dette objektet",
+        "BlankslateWithFilters": "Det finnes ingen oppføringer som samsvarer med gjeldende søkekriterier. Fjern eller endre søkefeltene"
+    },
+    "LookupDialog": {
+        "TitleTemplate": "Velg: {0}",
+        "Selected": "Valgt:",
+        "SelectButton": "Velg",
+        "CancelButton": "Avbryt",
+        "Blankslate": "Det er ingen poster for dette objektet",
+        "AllPagesSelectionWarning": "Operasjonen kan ta litt tid. Fortsett?"
+    },
+    "QuickEntityFilter": {
+        "NonGuidMessage": "Guid bør inneholde 32 symboler med 4 bindestrek (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx)."
+    },
+    "DateRange": {
+        "To": "til"
+    },
+    "MailServerTableComponent": {
+        "AdditionalSettings": "Flere innstillinger",
+        "AddMailServer": "Legg til tjeneste",
+        "AllowEmailDownloading": "Motta e-poster",
+        "AllowEmailSending": "Send e-post",
+        "Copy": "Kopier",
+        "DeleteConfirmation": "Er du sikker på at du vil slette den valgte oppføringen?",
+        "Delete": "Slett",
+        "Edit": "Rediger",
+        "Empty": "Ingen e-posttjenester tilgjengelig",
+        "ExchangeMenuItem": "Børs",
+        "IMAPIncomingSettingsDescription": "Innstillinger for e-posttjenesten for å motta e-post. Angi serveradresse, port og sikkerhetsinnstillinger for e-post",
+        "IMAPIncomingSettingsHeader": "Innkommende e-postserver (IMAP)",
+        "ImapMenuItem": "IMAP/SMTP",
+        "LoginFormat": "Logginn format",
+        "MailServerAddress": "Tjeneste adresse",
+        "MailServer": "E-post tjeneste",
+        "MailServerName": "Tjeneste navn",
+        "MailServerSettings": "Tjeneste innstillinger",
+        "MailServerType": "Tjeneste type",
+        "MailServiceRemoveToolTip": "Creatio er ikke i stand til å slette e-posttjenesten fordi det finnes flere e-postbokser av denne tjenesten i programmet",
+        "None": "Ingen",
+        "Port": "Port",
+        "RequiredMailServiceActions": "Aktiver nedlasting eller sending av e-post for å sette opp tjenesten",
+        "Section": {
+            "Add": "Legg til",
+            "GoToDiagnostic": "Diagnostisk verktøy"
+        },
+        "Security": "Sikkerhet",
+        "AuthenticationType": "Autentisering type",
+        "ApplicationId": "Applikasjon (klient) ID",
+        "ClientSecret": "Klient hemmelig",
+        "Server": "Server adresse",
+        "SMTPOutgoingSettingsDescription": "Innstillinger for e-post-tjeneste for sending av e-post. Angi serveradresse, port og sikkerhetsinnstillinger for e-post",
+        "SMTPOutgoingSettingsHeader": "Utgående e-postserver (SMTP)",
+        "SuccessfulAddOperation": "Du har lagt til en ny e-posttjeneste. Brukere kan nå legge til e-postbokser med denne tjenesten",
+        "SuccessfulEditOperation": "Creatio har blitt oppdatert til innstillingene for e-post",
+        "SuccessfulOperation": "Vellykket operasjon",
+        "WarningTitle": "⚠ Advarsel",
+        "Type": "Type:",
+        "UseEmailAddressAsLogin": "Bruk e-postadresse",
+        "UseLogin": "Bruk manuell oppføring",
+        "UseUserNameAsLogin": "Bruk postkassen navn",
+        "BasicAuthWarningMessage": "Vær oppmerksom på at Basic-autentisering er utdatert og potensielt usikkert. Det er offisielt <a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online\" {0}>foreldet av Microsoft</a>. Vurder å bytte til moderne OAuth autentisering. Konfigurasjonsinstruksjonene er tilgjengelige i <a href=\"{1}\" {0}>Creatio Academy</a>."
+    },
+    "MailboxSettings": {
+        "AdditionalSettingsTabCaption": "Flere innstillinger",
+        "MailboxesTabCaption": "Postbokser",
+        "MailServicesTabCaption": "Tjenester i postboks",
+        "Title": "Innstillinger for postkasse"
+    },
+    "EntitySchemaDesignerPage": {
+        "NameFieldName": "Navn",
+        "CaptionFieldName": "Bildetekst"
+    },
+    "SqlScriptDesignerPage": {
+        "Name": "Navn",
+        "Caption": "Bildetekst"
+    },
+    "SchemaDataDesignerPage": {
+        "ActualizeData": "Akutt data",
+        "Fields": {
+            "Name": "Navn",
+            "Object": "Objekt",
+            "InstallType": "Installasjon type",
+            "Package": "Pakke"
+        },
+        "InfoBlockText1": "Installasjon type",
+        "InfoBlockText2": "Installasjonstypen bestemmer hvilken metode som skal legges til applikasjonsdata om installasjon av pakken.",
+        "InfoBlockText3": "• Installasjon – data er lagt til den første installasjonen av pakken og oppdateres sammen med pakkeoppdateringene. Dette er den mest allsidige typen og brukes som standard.",
+        "InfoBlockText4": "• Oppdatere eksisterende – dataene blir lagt inn under den første installasjonen av pakken. Oppdatering av pakken endrer bare data i kolonnene der avmerkingsboksen «Tvunget oppdatering» er valgt på fanen «Kolonne oppsett». Bruk denne typen til å levere oppdateringer om «hotfix» og andre lignende tilfeller.",
+        "InfoBlockText5": "• Opprinnelig installasjon – dataene blir bare lagt til første installasjon av pakken. Denne typen er bare aktivert når du installerer pakker via verktøyet i arbeidsområdet. Ved hjelp av \"Initial installation\" er det vanligvis ikke anbefalt.",
+        "ColumnsSettingTabCaption": "Innstillinger for kolonner",
+        "BoundDataTabCaption": "Bundet data",
+        "InstallType": {
+            "Install": "Installasjon",
+            "FirstInstall": "Opprinnelig installasjon",
+            "Update": "Oppdater eksisterende"
+        },
+        "ColumnsDetail": {
+            "Title": "Innstillinger for kolonner",
+            "Blankslate": "Velg et objekt, og deretter sett opp kolonner",
+            "ErrorDeletePrimaryColumn": "Å slette hovedkolonnen \"{0}\" er forbudt",
+            "ColumnsAreNotAvailableInPackageMessage": "Disse kolonnene er ikke tilgjengelig i gjeldende pakke og kan ikke legges til: {0}",
+            "Columns": {
+                "Caption": "Bildetekst",
+                "Name": "Navn",
+                "ForcedUpdate": "Tvunget oppdatering",
+                "Key": "Nøkkel"
+            },
+            "Tooltips": {
+                "ForcedUpdate": "Avmerkingsboksen indikerer at dataene i denne kolonnen oppdateres når den tilsvarende pakken er oppdatert. Denne avmerkingsboksen brukes kun for typen \"Oppdater eksisterende\".",
+                "Key": "Avmerkingsboksen er angitt for objektets hovedkolonne som standard. Hvis databasen bruker komposittnøkler velger du denne avmerkingsboksen for alle sammensatte nøkkelkolonner. Et objekts hovedkolonne kan ikke være en sammensatt nøkkelkolonne."
+            }
+        },
+        "BoundDataDetail": {
+            "Title": "Data",
+            "Blankslate": "Velg elementer som skal bindes",
+            "ActualDataWasLoaded": "Gjeldende data er lastet"
+        }
+    },
+    "WorkspaceExplorer": {
+        "Section": {
+            "ActionButtonCaption": "Handlinger",
+            "Title": "Konfigurasjon",
+            "WorkspaceItemMoveService": {
+                "NameColumn": "Navn",
+                "SelectPackageDialogTitle": "Flytt {0} -elementet til pakke",
+                "MultiselectElementsPackageDialogTitle": "Flytt {0} element(er) til pakke",
+                "MoveElementsWebServiceSuccessMessage": "Elementer er flyttet",
+                "NoPackagesMessage": "Ingen tilgjengelige pakker",
+                "MoveAllPackageElementsWebServiceSuccessMessage": "Elementer er flyttet",
+                "MoveAllPackageElementsDialogTitle": "Flytt pakkeelementene til pakken {0}.",
+                "SpecifyDependenciesConfirmationDialog": "{0} pakken mangler avhengigheter som kreves for korrekt overføring. Ønsker du å installere de manglende avhengighetene automatisk?"
+            },
+            "WorkspaceItemMoveValidateDialog": {
+                "ErrorMessageTitle": "Elementer flyttingsfeil",
+                "WithoutValidationConfirmationMessage": "Denne handlingen forstyrrer konfigurasjonsintegriteten på grunn av gjeldende avhengigheter mellom de overførte pakkeelementene. For å gjenopprette integriteten, flytte de gjenværende elementene som kreves av gjeldende avhengigheter eller endre avhengighetene.\nMed mindre du planlegger å gjøre noe av det ovenfor, anbefaler vi ikke å fortsette.\nFortsett med å flytte pakkeelementene?\n\n",
+                "MoveButtonCaption": "Flytt elementer"
+            },
+            "PackageStorageValidationMessageDialog": {
+                "Title": "Konfigurasjons feil",
+                "MessageColumn": "Beskrivelse",
+                "ItemNameColumn": "Element",
+                "ItemTypeColumn": "Type:",
+                "PackageNameColumn": "Pakke",
+                "ConfirmationTitle": "Elementer flyttingsfeil",
+                "WithoutValidationConfirmationMessage": "Denne handlingen forstyrrer konfigurasjonsintegriteten på grunn av gjeldende avhengigheter mellom de overførte pakkeelementene. For å gjenopprette integriteten, flytte de gjenværende elementene som kreves av gjeldende avhengigheter eller endre avhengighetene.\nMed mindre du planlegger å gjøre noe av det ovenfor, anbefaler vi ikke å fortsette.\nFortsett med å flytte pakkeelementene?\n\n",
+                "MoveButtonCaption": "Flytt elementer"
+            },
+            "ValidateWorkspaceDialog": {
+                "ErrorMessageTitle": "Konfigurasjons feil",
+                "ValidationSuccess": "Vellykket validering av konfigurasjon. Ingen feil funnet"
+            },
+            "Packages": {
+                "InstallPackageDialog": {
+                    "Title": "Installer pakke fra kodelageret",
+                    "InputFieldPackageName": "Pakke",
+                    "InputFieldRepositoryAddress": "Versjonskontroll av systemdepoet",
+                    "InputFieldVersion": "Versjon",
+                    "Cancel": "Avbryt",
+                    "Install": "Installer"
+                },
+                "CreatePackageDialog": {
+                    "Title": "Pakke",
+                    "InputFieldName": "Navn",
+                    "InputFieldDescription": "Beskrivelse",
+                    "InputFieldRepositoryAddress": "Versjonskontroll av systemdepoet",
+                    "InputFieldVersion": "Versjon",
+                    "SaveButtonCaption": "Lagre",
+                    "Cancel": "Avbryt",
+                    "OpenPackagePage": "Opprett og legg til avhengigheter",
+                    "Validation": {
+                        "PackageNameNotSpecified": "Pakkenavnet er ikke spesifisert.",
+                        "PackageVersionNotSpecified": "Pakke-versjon er ikke spesifisert.",
+                        "NotAllowedFormat": "Feil format for depotversjon",
+                        "MaximumLengthExeeded": "Maksimal tekstlengde overskredet"
+                    }
+                },
+                "SourceControl": {
+                    "CommitResult": {
+                        "Success": "Endringer vellykket tatt i depotet",
+                        "CustomPackage": "Kan ikke utføre egendefinert pakke til arkivet",
+                        "PackageUpdateNeed": "Endringer har blitt oppdaget i arkivet. Arbeidsområdeoppdatering er nødvendig",
+                        "PackageHasForeignLock": "Kan ikke lagre endringer: Pakken hvor elementet er lagret er låst av en annen bruker"
+                    },
+                    "CommitChangesDialog": {
+                        "Title": "Send pakken til kodelageret",
+                        "LogMessageFieldCaption": "Beskrivelse",
+                        "CommitButtonCaption": "Send inn endringer",
+                        "Cancel": "Avbryt",
+                        "NoChanges": "Ingen elementer som vil bli aktivert"
+                    },
+                    "Update": {
+                        "ConfirmMessage": "Ønsker du å oppdatere denne pakken fra pakken?",
+                        "NoChanges": "Ingen endringer funnet"
+                    },
+                    "Install": {
+                        "ConfirmMessage": "Installerte pakker funnet. Pakkestrukturen kan endres fullstendig når du installerer for neste gang. Fortsett?",
+                        "NoChanges": "Ingen endringer funnet"
+                    },
+                    "Restore": {
+                        "ConfirmMessage": "Arbeidsområdet vil bli oppdatert til siste revisjon. Alle endringene vil gå tapt. Fortsett?",
+                        "Success": "Arbeidsområdet ble gjenopprettet fra depotet"
+                    }
+                },
+                "PackageCreated": "Opprettet ny pakke: {0}",
+                "PackageDeleted": "Vellykket sletting av pakke: {0}",
+                "PackageLocked": "Vellykket låst pakke: {0} i SVN",
+                "PackageUnlocked": "Pakken ble låst opp: {0} i SVN",
+                "SearchPlaceholder": "Søk etter pakke",
+                "AllPackagesCaption": "Alle pakker",
+                "DeleteConfirmation": "Er du sikker på at du vil slette den valgte pakken?",
+                "BlankslateTitle": "Ingen pakker funnet",
+                "InstallFromRepository": {
+                    "NoRepositories": "Creatio kunne ikke finne noen lagrede kodelagre. Vil du lagre et nytt depot?",
+                    "NoActiveRepository": "Creatio kunne ikke finne noen aktive kodelagre. Vil du gå til listen over kodelagringer?"
+                }
+            },
+            "Items": {
+                "ImportSuccessMessage": "\"{0}\" elementet blir importert til \"{1}\" pakken",
+                "UpdateDBStructureConfirmMessage": "Dette vil oppdatere databasestrukturen for det valgte objektet. Ønsker du å fortsette?",
+                "GenerateSchemasSourcesConfirmMessage": "Dette vil generere kildekode for det valgte elementet. Ønsker du å fortsette?",
+                "InstallSqlScriptsConfirmMessage": "Dette vil installere det valgte SQL-skriptet til databasen. Ønsker du å fortsette?",
+                "InstallDataConfirmMessage": "Dette vil installere data for det valgte elementet. Ønsker du å fortsette?",
+                "DeleteConfirmMessage": "Ønsker du å slette den valgte varen?",
+                "RevertChangesMessage": "Alle endringer i valgte elementer vil gå tapt. Vil du fortsette?",
+                "RecordLockedInSVNSuccessfully": "Opptak låst i SVN",
+                "RecordUnlockedInSVNSuccessfully": "Post låst opp i SVN",
+                "MultiItemActionButton": "Flervalgs handlinger",
+                "Columns": {
+                    "UId": "UID",
+                    "Name": "Navn",
+                    "Title": "Tittel",
+                    "Status": "Status:",
+                    "Type": "Type:",
+                    "Object": "Objekt",
+                    "ModifiedOn": "Endret den",
+                    "Package": "Pakke"
+                },
+                "Add": {
+                    "Caption": "Legg til",
+                    "Sql": "SQL skript",
+                    "SourceCode": "Kildekode",
+                    "Entity": "Objekt",
+                    "ReplacingEntity": "Erstatter objektet",
+                    "ClientUnit": {
+                        "Module": "Modul",
+                        "EditViewModelSchema": "Sidens visningsmodell",
+                        "AngularSchema": "UI-side for frihet",
+                        "ModuleViewModelSchema": "Seksjon visningsmodell",
+                        "GridDetailViewModelSchema": "Detalj (list) Visningsmodell",
+                        "EditControlsDetailViewModelSchema": "Detalj (felt) visningsmodell",
+                        "ExtendedClientUnitSchema": "Erstatte visningsmodell",
+                        "ExtendedAngularSchema": "Vinkel skifte visningsmodell"
+                    },
+                    "UserTask": "Bruker oppgave",
+                    "BusinessProcess": "Virksomhetens prosess",
+                    "DataBinding": "Data",
+                    "Import": "Importer",
+                    "RestService": "Rest tjeneste",
+                    "SoapService": "Soap service"
+                },
+                "Types": {
+                    "SqlScript": "SQL skript",
+                    "SchemaData": "Data",
+                    "Assembly": "Referanse samling",
+                    "EntitySchema": "Objekt",
+                    "ClientUnitSchema": "Client module",
+                    "SourceCodeSchema": "Kildekode",
+                    "ProcessSchema": "Forretningsprosess",
+                    "DcmSchema": "Sak",
+                    "ProcessUserTaskSchema": "Bruker oppgave",
+                    "CampaignSchema": "Markedsføring kampanje",
+                    "ServiceSchema": "Webtjeneste (Automatic Translation)",
+                    "AddonSchema": "Addon"
+                },
+                "Status": {
+                    "NeedInstall": "Trenger å bli installert i databasen",
+                    "NeedUpdateSourceCode": "Kildekodeoppdatering kreves",
+                    "NeedUpdateStructure": "Databaseoppdatering påkrevd",
+                    "LockedInSVN": "Låst i SVN",
+                    "UnlockedInSVN": "Opplåst i SVN"
+                },
+                "Filters": {
+                    "Types": {
+                        "AllItems": "Alle elementer",
+                        "Placeholder": "Type:"
+                    },
+                    "States": {
+                        "AllItems": "Alle elementer",
+                        "Placeholder": "Filtre",
+                        "Locked": "Låst",
+                        "NeedActualization": "Trenger aktualisering",
+                        "Error": "Har feil"
+                    }
+                },
+                "DetailsDialog": {
+                    "Close": "Lukk",
+                    "PageTitle": "Egenskaper",
+                    "Title": "Tittel",
+                    "Name": "Navn",
+                    "FullQualifiedName": "Fullstendig kvalifisert forsamling navn",
+                    "DataObjectName": "Objekt",
+                    "CreatedBy": "Opprettet av",
+                    "CreatedOn": "Opprettet den",
+                    "PackageName": "Pakke",
+                    "ParentCaption": "Forelder",
+                    "ReplaceParent": "Erstatt overordnet",
+                    "IsChanged": "Endret",
+                    "UId": "UID",
+                    "ModifiedBy": "Endret av",
+                    "Id": "Id",
+                    "ModifiedOn": "Endret den",
+                    "ManagerName": "Overordnet navn",
+                    "MetaDataModifiedOn": "Metadata endret på",
+                    "Description": "Beskrivelse",
+                    "IsLocked": "Låst",
+                    "NeedUpdateDBStructure": "Databaseoppdatering påkrevd",
+                    "NeedInstall": "Trenger å bli installert i databasen",
+                    "LastErrorText": "Siste feilmelding",
+                    "LockedBy": "Låst av",
+                    "DbStructureModifiedOn": "Databasestruktur endret på",
+                    "IsNetStandard": "IsNetStandard",
+                    "LoadOnAppStart": "LoadOnAppStart",
+                    "UIdTooltip": "Konfigurasjonselementet er unikt for det. Konfigurasjonselementet Id vil alltid forbli det samme for alle programmer",
+                    "IdTooltip": "Denne kolonnen er den primære nøkkelen i databasetabellene. En postId kan være forskjellig for forskjellige applikasjoner"
+                }
+            },
+            "Actions": {
+                "Move": "Flytt til en annen pakke",
+                "MovePackageAllElements": "Flytt alle elementer",
+                "Blocks": {
+                    "SourceCode": "Kildekode",
+                    "Actualization": "Oppdatere elementer",
+                    "DevInFileSystem": "Utviklingsmodus for filsystemet",
+                    "VersionControl": "SVN kodelagre",
+                    "Packages": "Pakker",
+                    "Validation": "Konfigurasjon"
+                },
+                "Compile": "Kompiler",
+                "CompileAll": "Kompiler alle",
+                "Edit": "Rediger",
+                "Delete": "Slett",
+                "MultiDelete": "Slett ({0})",
+                "MultiExport": "Eksport ({0})",
+                "Export": "Eksporter",
+                "Update": "Oppdater fra pakkebrønn",
+                "Commit": "Send til depot",
+                "Properties": "Egenskaper",
+                "UpdateDBStructure": "Oppdater databasestrukturen",
+                "MultiUpdateDBStructure": "Oppdatere objekter DB-struktur",
+                "EditProcess": "Rediger prosess",
+                "GenerateSchemasSources": "Generer kildekode",
+                "InstallSqlScripts": "Installer",
+                "MultiInstallSqlScripts": "Installer SQL skript",
+                "InstallData": "Installer",
+                "MultiInstallData": "Installer data",
+                "RevertChanges": "Forkast endringer",
+                "InstallRequiredSqlScripts": "Installer SQL skript der det trengs",
+                "InstallRequiredData": "Installer data der det er nødvendig",
+                "InstallRequiredSchemasDBStructure": "Oppdater databasestrukturen der den er nødvendig",
+                "OperationSuccessMessage": "Operasjonen var vellykket",
+                "GenerateRequiredSchemasSources": "Generer der det er nødvendig",
+                "GenerateModifiedSchemasSources": "Generer for modifiserte skjemaer",
+                "GenerateAllSchemasSources": "Generere for alle skjemaer",
+                "GenerateAllSchemasSourcesWasStarted": "Systemet har startet å generere kildekode for alle ordninger. Du vil motta et varsel i kommunikasjon-panelet når prosessen er ferdig",
+                "GenerateAllSchemasSourcesSuccess": "Kildekode for alle skjemaer har blitt generert vellykket",
+                "GenerateAllSchemasSourcesError": "Kildekoden genereres for noe skjema ferdig med en feil. Feilmeldinger for hvert skjema kan nås i konfigurasjonselementene etter reinnlasting. Vil du laste konfigurasjonen på nytt?",
+                "LoadPackagesToFileSystem": "Last ned pakker til filsystem",
+                "LoadPackagesToDB": "Oppdater pakker fra filsystem",
+                "OpenRepositoriesList": "Åpne liste over kodelagre",
+                "RestoreFromRepository": "Gjenopprett fra kodelageret",
+                "InstallPackageFromRepository": "Installer pakke fra kodelageret",
+                "PackageDependenciesDiagram": "Paknings-avhengighets-diagram",
+                "ValidateWorkspace": "Validere konfigurasjon",
+                "FileDesignModeInfo": "For å aktivere, satt i konfigurasjonsfilen for programmet:\n - sann mot det aktiverte attributtet til fileDesignMode elementet;\n - false for UseStaticFileContent flag.",
+                "Confirmation": {
+                    "InstallRequiredSqlScripts": "Alle elementer som krever installasjon vil bli installert til databasen. Vil du fortsette?",
+                    "InstallRequiredData": "Alle elementer som krever installasjon vil bli installert til databasen. Vil du fortsette?",
+                    "InstallRequiredSchemasDBStructure": "Databasestrukturen vil bli oppdatert for alle skjemaer som krever oppdatering. Vil du fortsette?",
+                    "Compile": "Arbeidsområdet vil bli kompilert. Ønsker du å fortsette?",
+                    "CompileAll": "Arbeidsområdet vil bli rekompilert. Ønsker du å fortsette?",
+                    "GenerateRequiredSchemasSources": "Generer kildekoder for alle skjemaer hvor det trengs den?",
+                    "GenerateModifiedSchemasSources": "Genererer kildekoder for endrede skjemaer?",
+                    "GenerateAllSchemasSources": "Generer kildekoder for alle ordninger? Resultatet av operasjonen vil bli sendt til kommunikasjonspanelet",
+                    "ThirdPartyPublisher": "\"{0}\" elementet er opprettet enten av tredjepartsutgiver eller installert fra filarkivet. \n Endringer for dette elementet kan ikke lagres. Fortsett?",
+                    "ValidateWorkspace": "Operasjonen kan ta litt tid. Fortsett?",
+                    "ExportItems": "Operasjonen kan ta litt tid. Fortsett?"
+                },
+                "OpenMetaData": "Åpne metadata",
+                "OpenSourceCode": "Åpen kildekode",
+                "LockPackageElement": "Lås element i SVN",
+                "UnLockPackageElement": "Lås opp elementet i SVN",
+                "LockPackage": "Lås pakken i SVN",
+                "UnLockPackage": "Lås opp pakken i SVN"
+            },
+            "WorkspaceSyncResultDialog": {
+                "Close": "Lukk",
+                "Title": "Endringer",
+                "Error": "Feil",
+                "ShowOnlyErrors": "Vis bare feil",
+                "Columns": {
+                    "Name": "Navn",
+                    "Type": "Type:",
+                    "Status": "Status:",
+                    "ErrorText": "Feil tekst"
+                }
+            }
+        },
+        "PackagePage": {
+            "Title": "Pakkens egenskaper",
+            "Name": "Navn",
+            "Description": "Beskrivelse",
+            "Maintainer": "Vedlikeholdere",
+            "MaintainerTooltip": "Pakkeutvikler",
+            "PackageType": "Utarbeide et separat anlegg",
+            "RepositoryAddress": "Kodelager adresse",
+            "RepositoryVersion": "Repository versjon",
+            "PackageVersion": "Pakke versjon",
+            "DependenciesTab": "Avhengighet",
+            "InstallationFlow": "Installasjons trinn",
+            "SysInformationTab": "System Informasjon",
+            "CompilationRequired": "Kompiler konfigurasjonen til å bruke endringene",
+            "PackageDependencyDetail": {
+                "DependsOnPackagesTitle": "Avhenger av pakker",
+                "DependentPackagesTitle": "Avhengig av pakker",
+                "DependsOnPackagesTooltip": "Pakker som den gjeldende pakken avhenger av",
+                "DependentPackagesTooltip": "Pakker som er avhengig av gjeldende pakke",
+                "PackagesDialogCaption": "Velg pakke",
+                "NameColumn": "Navn",
+                "Maintainer": "Vedlikeholdere",
+                "Remove": "Fjern",
+                "Blankslate": "Det er ingen pakker",
+                "Add": "Legg til"
+            },
+            "InstallationFlowTab": {
+                "BeforePackageInstall": "Før pakkeinstallasjon",
+                "BeforePackageInstallTooltip": "Tiltak som skal utføres før pakkeinstallasjon",
+                "AfterPackageInstall": "Etter pakkeinstallasjon",
+                "AfterPackageInstallTooltip": "Tiltak for å utføre etter pakkeinstallasjon",
+                "BeforePackageUninstall": "Før sletting av pakke",
+                "BeforePackageUninstallTooltip": "Handlinger som skal utføres før sletting av pakke",
+                "Blankslate": "Det er ingen trinn"
+            },
+            "InstallFlowPackageDetail": {
+                "Add": "Legg til",
+                "ScriptsDialogCaption": "Velg skjemaer",
+                "ColumnNameCaption": "Navn",
+                "ColumnTitleCaption": "Tittel",
+                "ColumnPositionCaption": "Ordre",
+                "ColumnModifiedOnCaption": "Modifisert den",
+                "Install": "Kjør manuelt",
+                "Success": "Operasjonen var besatt"
+            },
+            "SysInformation": {
+                "CreatedBy": "Opprettet av",
+                "ModifiedBy": "Endret av",
+                "CreatedOn": "Opprettet den",
+                "ModifiedOn": "Endret den",
+                "UIDTooltip": "Pakken er unik – pakke-Id vil alltid forbli den samme i hvilken som helst applikasjon",
+                "IDTooltip": "Denne kolonnen er den primære nøkkelen i databasetabellene. En postId kan være forskjellig for forskjellige applikasjoner"
+            },
+            "RepositoryAuthorizationRequired": "Operasjonen avsluttet. Godkjenning kreves. Logg inn nå?"
+        },
+        "Errors": {
+            "AssemblyIsNotInitialized": "Vennligst kompiler konfigurasjonen før du gjenopptar ditt arbeid med Creatio. \n Ønsker du å kompilere nå?"
+        },
+        "PageTemplateLookup": {
+            "HeaderCaption": "Velg mal",
+            "Cancel": "Avbryt",
+            "Select": "Velg"
+        }
+    },
+    "TableDialog": {
+        "Close": "Lukk",
+        "Cancel": "Avbryt"
+    },
+    "ErrorListDialogService": {
+        "CodeErrorListDialogCaption": "Samlingsresultat (kompilering)",
+        "FileNameColumn": "Fil navn",
+        "ErrorTextColumn": "Beskrivelse",
+        "ErrorNumberColumn": "Kode",
+        "LineColumn": "Linje",
+        "CodeValidationErrorListDialogCaption": "Feil under lagring av pakkeavhengigheter",
+        "SourceColumn": "Kilde",
+        "ReferenceColumn": "Referanse",
+        "PackageColumn": "Pakke",
+        "AcademyHelpUrlCaption": " Lær mer i Akademiet"
+    },
+    "SchemaDesigners": {
+        "BaseDesignerPage": {
+            "SaveSuccessMessage": "Post lagret",
+            "PublishSuccessMessage": "Post publisert",
+            "ChangeParentSchemaMessage": "Bruk \"{0}\" som overordnet objekt for nåværende objekt?",
+            "DeleteParentSchemaMessage": "Slett overordnet objekt for gjeldende objekt?"
+        },
+        "BaseDesignerStructureService": {
+            "MiniPage": {
+                "NameTitle": "Kode",
+                "PackageTitle": "Pakke",
+                "Apply": "Bruk",
+                "Cancel": "Avbryt",
+                "Ok": "OK",
+                "Caption": "Tittel",
+                "Description": "Beskrivelse",
+                "Validations": {
+                    "RequiredNameCaption": "Angi en verdi",
+                    "PatternNameCaption": "Ugyldig verdi. Bruk symboler: a-z, A-Z, 0-9. Symbol: 0-9 kan ikke først",
+                    "PatternPrefixTemplate": "Koden må starte med \"{0}\" prefiks"
+                }
+            }
+        },
+        "SchemaParameterMiniPage": {
+            "CardTitle": "Parametre",
+            "Title": "Kode",
+            "Caption": "Tittel",
+            "Lookup": "Oppslag",
+            "Value": "Verdi",
+            "Schema": "Skjema",
+            "Create": "Opprett",
+            "Cancel": "Avbryt",
+            "Resulting": "Resultat",
+            "Required": "Påkrevd",
+            "ContainsPerformerId": "Inneholder ytelses-ID",
+            "LazyLoad": "Lat last",
+            "Serializable": "Serializable",
+            "CopyValue": "Kopier verdien",
+            "Type": "Type:",
+            "Save": "Lagre",
+            "ProperyExistMessage": "Denne egenskapen er allerede sjekket i en annen parameter. Den kan bare brukes i 1 parameter.",
+            "Validations": {
+                "RequiredNameCaption": "Angi en verdi",
+                "PatternNameCaption": "Ugyldig verdi. Bruk symboler: a-z, A-Z, 0-9. Symbol: 0-9 kan ikke først",
+                "DataValueTypeListContainsMessage": "Vennligst velg verdi fra listen"
+            }
+        },
+        "SqlSchemaDesignerPage": {
+            "Caption": "SQL",
+            "DependentScriptsCaption": "Avhengig av SQL skript",
+            "DependsOnScriptCaption": "Avhenger av SQL-skript",
+            "SqlScriptValidateCaption": "SQL-skriptvalidering fullført"
+        },
+        "SqlSchemaDesignerMiniPage": {
+            "Title": "SQL-skript",
+            "DbmsType": "DBMS type",
+            "InstallationType": "Installasjon type",
+            "BackwardCompatibilityConfirmed": "Bakover kompatibel",
+            "BackwardCompatibilityConfirmedLabelBeforeLink": "Bakoveringer kompatible SQL-skript er de som følger anbefalinger ",
+            "BackwardCompatibilityConfirmedLabelAfterLink": ". Velg denne avmerkingsboksen bare hvis skriptet ditt samsvarer med hver anbefaling",
+            "AcademyHelpUrlCaption": "angitt i en egen artikkel"
+        },
+        "MultiSelectSqlSchemasMiniPage": {
+            "Title": "Velg SQL skript",
+            "TableColumn": {
+                "Name": "Kode",
+                "Package": "Pakke"
+            }
+        },
+        "EntitySchemaDesigner": {
+            "EntitySchemaDesignerStructure": {
+                "InheritedColumnsCaption": "Arvede kolonner",
+                "ColumnsCaption": "Kolonner",
+                "IndexesCaption": "Indekser",
+                "EventsCaption": "Hendelser",
+                "SourceCodeCaption": "Kildekode"
+            },
+            "Actions": {
+                "OpenEmbeddedProcess": "Åpne prosess"
+            },
+            "EntityEditor": {
+                "GeneralGroup": {
+                    "Caption": "Generelt",
+                    "NameCaption": "Kode",
+                    "TitleCaption": "Tittel",
+                    "PackageCaption": "Pakke",
+                    "DescriptionCaption": "Beskrivelse"
+                },
+                "ObjectSettings": {
+                    "Caption": "Innstillinger for objekt",
+                    "IdCaption": "Id",
+                    "DisplayedValueCaption": "Vist verdi",
+                    "ParentInHierarchyCaption": "Overordnet i hierarki",
+                    "ChangeLogObjectNameCaption": "Endre loggobjektnavn",
+                    "LocalizationObjectNameCaption": "Navn på oversettelsesobjekt",
+                    "ImageCaption": "Bilde",
+                    "SortingInListsCaption": "Sortering i lister",
+                    "OwnerCaption": "Eier",
+                    "PermissionObjectNameCaption": "Navn på tillatelsesobjekt",
+                    "ColorCaption": "Color"
+                },
+                "EntityBusinessRules": {
+                    "OpenBusinessRulesButtonCaption": "Åpne forretningsregler",
+                    "BusinessRulesDialogTitle": "Næringslivets regler",
+                    "BusinessRulesDialogCancelButton": "Avbryt",
+                    "BusinessRulesDialogApplyButton": "Bruk"
+                },
+                "InheritanceGroup": {
+                    "Caption": "Arv",
+                    "ParentObjectCaption": "Overordnet objekt",
+                    "ExtendParent": "Erstatt overordnet"
+                },
+                "BehaviorGroup": {
+                    "Caption": "Oppførsel",
+                    "isDBViewCaption": "Representerer struktur på databasevisning",
+                    "isVirtualCaption": "Virtuell",
+                    "isTrackChangesInDBCaption": "Oppdater endringslogg",
+                    "isSSPAvailable": "Er objekt tilgjengelig som seksjon på SSP",
+                    "useRecordDeactivationCaption": "Tillat deaktivering av oppføringer",
+                    "showInAdvancedModeCaption": "Vis kun i avansert modus"
+                },
+                "AccessRights": {
+                    "Caption": "Tilgang",
+                    "OperationsCaption": "Aktiviteter",
+                    "ColumnsCaption": "Kolonner",
+                    "RecordsCaption": "Poster",
+                    "MasterRecordCaption": "Objekt som skal arve tilgangsrettigheter fra"
+                },
+                "HistoryColumns": {
+                    "Caption": "Historiske kolonner",
+                    "CreatedByCaption": "Opprettet av",
+                    "CreatedOnCaption": "Opprettet den",
+                    "ModifiedByCaption": "Endret av",
+                    "ModifiedOnCaption": "Endret den"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "Angi en verdi",
+                    "PatternNameCaption": "Ugyldig verdi. Bruk symboler: a-z, A-Z, 0-9. Symbol: 0-9 kan ikke først.",
+                    "PatternPrefixTemplate": "Koden må starte med \"{0}\" prefiks",
+                    "DuplicateNameCaption": "Objekt med den samme koden finnes allerede"
+                }
+            },
+            "ColumnEditor": {
+                "GeneralGroup": {
+                    "Caption": "Generelt",
+                    "NameCaption": "Kode",
+                    "EnglishNameCaption": "Kode",
+                    "TitleCaption": "Tittel",
+                    "DataTypeCaption": "Type data",
+                    "FormatCaption": "Formatér",
+                    "ReferenceSchemaCaption": "Oppslag",
+                    "DescriptionCaption": "Beskrivelse",
+                    "RequiredCaption": "Påkrevd",
+                    "DefaultValueCaption": "Standard verdi",
+                    "CanMakeCopyCaption": "Kopier denne verdien ved kopiering av poster",
+                    "IsMultiLineTextCaption": "Tekst over flere linjer",
+                    "IsMaskedCaption": "Vis inndatamaske",
+                    "IsLocalizableTextCaption": "Localizable text",
+                    "IsCascadeCaption": "Ved sletting av oppslagsverdi:",
+                    "IsFormatValidationCaption": "Validate format",
+                    "isAutonumber": "Autonumber"
+                },
+                "BehaviorGroup": {
+                    "Caption": "Oppførsel",
+                    "UsageModeCaption": "Bruk modus",
+                    "UpdateChangeLogCaption": "Oppdater endringslogg",
+                    "IndexedCaption": "Indeksert",
+                    "SensitiveDataCaption": "Lindal har personlige data"
+                },
+                "RequirementType": {
+                    "NoCaption": "Nei",
+                    "YesCaption": "Ja"
+                },
+                "UsageType": {
+                    "GeneralCaption": "Generelt",
+                    "AdvancedCaption": "Avansert",
+                    "NoneCaption": "Ingen"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "Angi en verdi",
+                    "PatternNameCaption": "Ugyldig verdi. Bruk symboler: a-z, A-Z, 0-9. Symbol: 0-9 kan ikke først",
+                    "DuplicateNameCaption": "Kolonne med samme kode finnes allerede",
+                    "PatternPrefixTemplate": "Koden må starte med \"{0}\" prefiks"
+                },
+                "DataSourceGroup": {
+                    "DoNotControlIntegrityCaption": "Ikke kontroller integriteten"
+                },
+                "DefaultValueTypes": {
+                    "None": "Ingen",
+                    "Const": "Konstant",
+                    "Settings": "System innstilling",
+                    "SystemValue": "Systemets variabel",
+                    "Sequence": "Autonumber"
+                },
+                "DefaultValueDialog": {
+                    "Title": "Standard verdi",
+                    "ValueTypeCaption": "Standard verditype",
+                    "ValueCaption": "Verdi",
+                    "LookupValueRecordDeletedCaption": "oppslagsverdien ble slettet",
+                    "sequencePrefix": "Prefiks",
+                    "sequenceNumberOfChars": "Antall tegn",
+                    "Cancel": "Avbryt",
+                    "Ok": "OK"
+                }
+            },
+            "IndexEditor": {
+                "GeneralGroup": {
+                    "Caption": "Generelt",
+                    "NameCaption": "Kode",
+                    "UniqueCaption": "Unik",
+                    "GenerateNameAutomaticallyCaption": "Generer navn automatisk"
+                },
+                "IndexColumns": {
+                    "Caption": "Indeks kolonner",
+                    "AddIndexColumnsDialogCaption": "Velg kolonne",
+                    "TitleCaption": "Tittel",
+                    "ColumnName": "Kode",
+                    "SortingOrder": "Sorterer rekkefølge",
+                    "Blankslate": "Det finnes ingen kolonner i indeksen"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "Angi en verdi",
+                    "PatternNameCaption": "Ugyldig verdi. Bruk symboler: a-z, A-Z, 0-9. Symbol: 0-9 kan ikke først",
+                    "DuplicateNameCaption": "Bilde med samme kode finnes fra før"
+                }
+            },
+            "EntityColumnTypes": {
+                "TextCaption": "Tekst",
+                "NumberCaption": "Nummer",
+                "OtherCaption": "Annet",
+                "DateTimeCaption": "Dato/klokkeslett"
+            },
+            "EventsEditor": {
+                "EventGroupType": {
+                    "Add": "Legger til",
+                    "Saving": "Lagrer",
+                    "Updating": "Oppdaterer",
+                    "Delete": "Sletter",
+                    "Loading": "Laster",
+                    "ColumnValues": "Kolonne verdier"
+                },
+                "Events": {
+                    "Inserting": "Før post lagt til",
+                    "Inserted": "Etter post lagt til",
+                    "Validating": "Godkjenner",
+                    "Saving": "Før posten lagres",
+                    "Saved": "Etter post lagret",
+                    "SaveError": "Feil ved lagring av post",
+                    "Updating": "Før posten ble oppdatert",
+                    "Updated": "Etter opptak oppdatert",
+                    "Deleting": "Før posten ble slettet",
+                    "Deleted": "Etter opptak slettet",
+                    "DefColumnValuesSet": "Standardverdier felt",
+                    "Loading": "Før data lastet",
+                    "Loaded": "Etter data lastet",
+                    "ColumnValueChanging": "Før kolonneverdien endret",
+                    "ColumnValueChanged": "Etter kolonneverdien endret",
+                    "ColumnBinaryValuePackageLoading": "Binær verdistrøm laster"
+                }
+            },
+            "Addons": {
+                "BusinessRule": "Næringslivets regler",
+                "RelatedPage": "Sider",
+                "TimelineEntity": "Tidslinje",
+                "UseSchemaInTimelineCheckbox": "Vis i tidslinje-komponenten som standard"
+            },
+            "SaveConfirmationDialog": {
+                "Save": "Lagre",
+                "DoNotSave": "Ikke lagre",
+                "Cancel": "Avbryt",
+                "Message": "Alle endringer vil bli lagret. Fortsett?"
+            }
+        },
+        "ClientUnitSchemaDesigner": {
+            "ClientUnitSchemaDesignerPage": {
+                "JsCaption": "JS",
+                "LessCaption": "MINDRE",
+                "LocalizableStringsCaption": "Lokaliserbare strenger",
+                "MessagesCaption": "Meldinger",
+                "ImagesCaption": "Bilder",
+                "ParametersCaption": "Parametere",
+                "Addons": {
+                    "BusinessRule": "Næringslivets regler"
+                }
+            },
+            "ClientUnitDesignerMiniPage": {
+                "Title": "Modul",
+                "CaptionTitle": "Bildetekst",
+                "ParentCaption": "Overordnet objekt",
+                "Validations": {
+                    "RequiredNameCaption": "Angi en verdi"
+                }
+            },
+            "ClientUnitCaptionsMiniPage": {
+                "Title": "Teksting",
+                "Apply": "Bruk",
+                "Cancel": "Avbryt"
+            },
+            "ClientUnitMessagesMiniPage": {
+                "Title": "Melding",
+                "NameCaption": "Kode",
+                "DirectionCaption": "Retning",
+                "BroadcastCaption": "Kringkast",
+                "AddressCaption": "Adresse",
+                "ModeCaption": "Modus",
+                "SubscribeCaption": "Abonner",
+                "PublishCaption": "Publiser",
+                "Add": "Legg til",
+                "Apply": "Bruk",
+                "Cancel": "Avbryt",
+                "Validations": {
+                    "RequiredNameCaption": "Angi en verdi",
+                    "PatternNameCaption": "Ugyldig verdi. Bruk symboler: a-z, A-Z, 0-9. Symbol: 0-9 kan ikke først",
+                    "DuplicateNameCaption": "Melding med samme kode finnes fra før"
+                }
+            },
+            "ClientUnitImagesMiniPage": {
+                "Title": "Bilde",
+                "NameTitle": "Kode",
+                "CaptionTitle": "Bildetekst",
+                "ImageTitle": "Bilde",
+                "UidTitle": "Id",
+                "Add": "Legg til",
+                "Apply": "Bruk",
+                "Cancel": "Avbryt",
+                "Validations": {
+                    "RequiredNameCaption": "Angi en verdi",
+                    "PatternNameCaption": "Ugyldig verdi. Bruk symboler: a-z, A-Z, 0-9. Symbol: 0-9 kan ikke først",
+                    "DuplicateNameCaption": "Bilde med samme kode finnes fra før"
+                }
+            }
+        },
+        "SourceCodeSchemaDesignerPage": {
+            "CsharpCaption": "K#",
+            "LocalizableStringsCaption": "Lokaliserbare strenger",
+            "MetadataCaption": "Nøkkeldata",
+            "MetadataReadCaption": "Metadata (lese)",
+            "ModifiedPackageCaption": "Endret pakke",
+            "RunButtonCaption": "Kjør som installasjonsskript",
+            "RunSourceCodeCaption": "Operasjonen var besatt"
+        },
+        "SourceCodeDesignerMiniPage": {
+            "Title": "Kildekode",
+            "Description": "Beskrivelse"
+        },
+        "SourceCodeCaptionsMiniPage": {
+            "Title": "Teksting",
+            "Apply": "Bruk",
+            "Cancel": "Avbryt"
+        },
+        "UserTaskCaptionsMiniPage": {
+            "Title": "Teksting",
+            "Apply": "Bruk",
+            "Cancel": "Avbryt",
+            "UserTask": "Bruker oppgave",
+            "WithCustomEventHandler": "Med egendefinerte håndteringsmetoder for hendelser",
+            "Partial": "Delvis",
+            "Serialize": "Serialiser i DB",
+            "ParametersEditPage": "Parametere redigere siden",
+            "DcmParametersEditPage": "Dcm parametre rediger siden",
+            "Color": "Farge",
+            "SmallSvgImage": "Lite vektorbilde",
+            "LargeSvgImage": "Stort vektorbilde",
+            "TitleSvgImage": "Tittel vektor bilde",
+            "DcmSmallSvgImage": "Liten vektorbilde for DCM",
+            "PageInaccessibleFromPackageInfo": "Valgt side er utilgjengelig for gjeldende brukeroppgavepakke. Vennligst komplett pakkeavhengigheter i pakken eller velg den andre siden for å sikre korrekt arbeidsoppgave utførelse"
+        },
+        "UserTaskDesignerMiniPage": {
+            "Title": "Bruker oppgave"
+        },
+        "UserTaskSchemaDesignerPage": {
+            "CsharpCaption": "K#",
+            "LocalizableStringsCaption": "Lokaliserbare strenger",
+            "ParametersCaption": "Parametere",
+            "MetadataCaption": "Nøkkeldata",
+            "MetadataReadCaption": "Metadata (lese)",
+            "ModifiedPackageCaption": "Endret pakke",
+            "InvalidClassNameConfirmationMessage": "Brukeroppgave egenskapen \"kode\" samsvarer ikke med klassenavn i kildekoden. Brukeroppgaven kan ikke utføres med gjeldende innstillinger. Vil du fortsette å lagre?"
+        },
+        "MetaDataSchemaDesigner": {
+            "MetaDataCaption": "Nøkkeldata",
+            "HumanReadableMetaDataCaption": "Metadata (kun les)",
+            "PackageDifferenceMetaDataCaption": "Modifikasjoner pakke"
+        }
+    },
+    "Tracking": {
+        "ValidationMessage": {
+            "InvalidValue": "Ugyldig verdi",
+            "RequiredFieldValue": "Angi en verdi",
+            "LongFieldValue": "Maksimal tekstlengde overskredet (255)",
+            "InvalidNumberValue": "Nummerformatet er ugyldig"
+        },
+        "BaseItemMenuComponent": {
+            "Delete": "Slett",
+            "Edit": "Rediger"
+        },
+        "ConnectionDescription": {
+            "Checking": "Kontrollerer",
+            "Connected": "Tilkoblet",
+            "Disconnected": "Frakoblet",
+            "Warning": "Advarsel"
+        },
+        "ProjectsSection": {
+            "Add": "Nytt prosjekt",
+            "Title": "Innstillinger for hendelsessporing (Prosjekter)",
+            "Columns": {
+                "Name": "Prosjektets navn",
+                "Owner": "Eier",
+                "Description": "Beskrivelse",
+                "CreatedOn": "Opprettet",
+                "ModifiedOn": "Siste oppdatering"
+            },
+            "BlankSlate": {
+                "Title": "Denne delen har ingen poster.",
+                "Description": "Legg til en ny rekord for å få den til å se ganske ut."
+            }
+        },
+        "ProjectPage": {
+            "Detail": {
+                "Name": "Prosjektets navn",
+                "Owner": "Eier",
+                "Description": "Beskrivelse",
+                "CreatedOn": "Opprettet",
+                "ModifiedOn": "Siste oppdatering",
+                "TotalEvents": "Totalt antall hendelser",
+                "ConversionRate": "Konverteringsfrekvens",
+                "DefaultValues": {
+                    "Name": "Nytt prosjekt",
+                    "Description": "Ny beskrivelse"
+                }
+            },
+            "ResourceDetail": {
+                "Header": "Sporer ressurser",
+                "Columns": {
+                    "Name": "Ressurs navn",
+                    "Status": {
+                        "Caption": "Status:",
+                        "Active": "Aktiv",
+                        "Inactive": "Inaktiv"
+                    },
+                    "Source": "Kilde",
+                    "CreatedOn": "Opprettet",
+                    "ModifiedOn": "Siste oppdatering"
+                }
+            }
+        },
+        "ResourcePage": {
+            "CreatedOn": "Opprettet den",
+            "ModifiedOn": "Endret den",
+            "Name": "Navn",
+            "Source": "ID (nettadresse for nettsiden)",
+            "Active": "Aktiv",
+            "DefaultName": "Ny ressurs",
+            "DefaultSource": "https://example.com",
+            "Tabs": {
+                "TrackingCode": "Sporingskode (sporing)",
+                "GoalSettings": "Innstillinger for mål"
+            },
+            "BasicCodeTitle": "Grunnleggende sporingskode",
+            "CustomEventTab": "Egendefinert hendelse",
+            "GoalDetail": {
+                "Header": "Sporing av mål",
+                "Columns": {
+                    "Name": "Målets navn",
+                    "EventTypeFilter": "Arrangement type filter",
+                    "Status": {
+                        "Caption": "Status:",
+                        "Active": "Aktiv",
+                        "Inactive": "Inaktiv"
+                    },
+                    "Cost": "Målkostnad"
+                }
+            },
+            "GoalEditiDialog": {
+                "Header": "Innstillinger for mål",
+                "Name": "Målets navn",
+                "UseEventCost": "Bruk hendelseskostnad",
+                "Cost": "Mål Kostnad",
+                "Active": "Aktiv",
+                "FilterSettings": "Målfilterinnstillinger",
+                "EventTypeFilter": "Arrangement type filter",
+                "EventNameFilter": "Event navn filter",
+                "EventValueFilter": "Filter for hendelses verdi",
+                "EventCostFilter": "Hendelse kostingsfilter",
+                "Actions": {
+                    "Save": "Lagre",
+                    "Cancel": "Avbryt"
+                },
+                "StringCondition": {
+                    "Equal": "Lik",
+                    "Contains": "Inneholder",
+                    "BeginWith": "Start med",
+                    "EndWith": "Slutt med"
+                },
+                "NumberCondition": {
+                    "Equal": "Lik",
+                    "LessOrEqual": "Mindre eller lik",
+                    "MoreOrEqual": "Mer eller lik"
+                }
+            }
+        },
+        "CodePane": {
+            "CopyToClipboard": "Kopier til utklippstavlen",
+            "OnCopiedToClipboard": "Kopiert med hell"
+        },
+        "BaseTrackingCode": {
+            "Header": "Base sporingskode",
+            "Loading": "Laster...",
+            "InfoBlock": {
+                "Title": "Viktig",
+                "Content": "Den grunnleggende sporingskoden for denne ressursen må plasseres på alle sidene av nettstedet.",
+                "LinkText": "Detaljer om oppsett av den grunnleggende sporingskoden"
+            },
+            "NotReady": "Lagre ressurser før du får sporingskoden."
+        },
+        "EventCodeGenerator": {
+            "Header": "Hendelses sporingskode",
+            "Form": {
+                "EventType": "Type arrangement",
+                "EventName": "Event navn",
+                "EventValue": "Event verdi",
+                "EventCost": "Hendelse kostnad"
+            },
+            "FormValidators": {
+                "EmptyForm": "Tøm...",
+                "InvalidForm": "Sjekk skjema for feil..."
+            }
+        }
+    },
+    "SocialLeadgen": {
+        "ValidationMessage": {
+            "InvalidValue": "Ugyldig verdi",
+            "RequiredFieldValue": "Angi en verdi",
+            "LongFieldValue": "Maksimal tekstlengde overskredet (255)",
+            "InvalidNumberValue": "Nummerformatet er ugyldig"
+        },
+        "IntegrationTypes": {
+            "LinkedIn": "LinkedIn",
+            "Facebook": "Facebook / Instagram",
+            "Undefined": "Udefinert"
+        },
+        "IntegrationSettings": {
+            "Header": {
+                "Title": "Innstillinger"
+            },
+            "Detail": {
+                "Url": "URL-adressen for å få ledninger",
+                "Group": "Rolle for mottak av varsler"
+            },
+            "Notes": {
+                "Header": "Notat",
+                "Text": "<p>Url for å komme i gang- en Creatio URL som vil motta ledningene fra de tilkoblede annonse kontoene. Personens Creatio nettsted må være tilgjengelig for å kunne motta innkommende forespørsler. Dersom du bruker en proxy-server, spesifiser proxy-URLen i stedet for Creatio URL. Hvis din Creatio forekomst er en del av et begrenset tilgangsnettverk, hvitelist hovedgenerasjonstjenesten IP-er.</p><p>Rolle for å motta varsler — Creatio varsler brukerne innen denne rollen hvis en feil skulle oppstå, som feil ved kobling av annonsekontoer eller oppretting av ledninger.</p><p>«Oppkobling»-fanen viser listen over annonse kontoer og sider koblet til Creatio. Listen inkluderer gjeldende tilkoblingsstatuser på side, konto og tilgangsnivå. Du kan administrere forbindelser, for eksempel slette eller tilbakestille dem.</p><p>Fanen “Logger” viser ledsager endringslogg for endringene.</p>"
+            },
+            "Tabs": {
+                "Connection": "Tilkobling",
+                "Logs": "Logger"
+            },
+            "AutorouteMessage": "For å fortsette med arbeidet, må du fylle ut feltet \"Url for å hente ledninger\". Som standard ble feltet fylt med gjeldende adresse til programmet fra nettleseren. Kontroller at du har angitt riktig programadresse og lagre innstillingene. Disse innstillingene gjøres én gang når du åpner delen for første gang.",
+            "Error": {
+                "FormValidation": "Feil ved forsøk på å lagre innstillingene. Sjekk alle feltene for eventuelle feil.",
+                "Save": "Klarte ikke å lagre verdien angitt i feltet \"Url for å hente ledning\". Kontroller at du skriver inn den korrigerte, eksternt tilgjengelige adressen for programmet."
+            },
+            "Logs": {
+                "IntegrationFilter": {
+                    "PlaceholderCaption": "Integrasjon",
+                    "EmptyOptionCaption": "Alle elementer"
+                },
+                "DateColumnCaption": "Dato",
+                "IntegrationColumnCaption": "Integrasjon",
+                "DetailsColumnCaption": "Detaljer",
+                "IntegrationNotFound": "Ikke funnet",
+                "GetIntegrationListError": "Feil oppstod under lasting av integreringsliste. Lastingen er avbrutt.",
+                "NoLogsMessage": "Det er ingen logger å vise"
+            },
+            "FacebookPagesConnections": {
+                "Header": "Facebook sider",
+                "Blankslate": "Forbindelser til sider er ikke konfigurert ennå."
+            },
+            "LinkedInAdAccountsConnections": {
+                "Header": "LinkedIn annonsekontoer",
+                "Blankslate": "Forbindelser til annonskontoer er ikke konfigurert ennå.",
+                "AdAccountsTable": {
+                    "DeleteConfirmation": "Er du sikker på at du vil slette annonsekontoen?",
+                    "DeleteError": "Denne annonsekontoen er koblet til en integrasjon. Slett integrasjonen og prøv på nytt",
+                    "Headers": {
+                        "Name": "Konto navn",
+                        "Link": "Lenke",
+                        "ConnectionStatus": "Tilkobling status",
+                        "ExpirationDate": "Gyldig til"
+                    },
+                    "ConnectionStatuses": {
+                        "Active": "Aktiv",
+                        "Inactive": "Inaktiv"
+                    },
+                    "ConnectionStatusErrorMessage": {
+                        "Inactive": "Får ikke tilgang til annonsekontoen. Logg på LinkedIn og sett opp tillatelser til kontoer du må integrere."
+                    },
+                    "UsersTable": {
+                        "DeleteConfirmation": "Er du sikker på at du vil slette token? Dette kan føre til problemer med annonskontotilgang og henting av bly",
+                        "Headers": {
+                            "UserName": "Nettverks bruker",
+                            "TokenStatus": "Token status",
+                            "ExpirationDate": "Gyldig til",
+                            "HasAdAccountAccess": "Gir tilgang til stemme"
+                        },
+                        "TokenStatuses": {
+                            "Active": "Aktiv",
+                            "Expired": "Utløpt",
+                            "Revoked": "Revoked",
+                            "Unknown": "Ukjent"
+                        },
+                        "HasAdAccountAccess": {
+                            "Yes": "Ja",
+                            "No": "Nei"
+                        },
+                        "TokenStatusErrorMessage": {
+                            "Expired": "Logg på LinkedIn og gi tillatelse til å annonse kontoer på vegne av brukeren hvis token er utløpt.",
+                            "Revoked": "Tokenet ble tilbakekalt.\nMulige grunner:\n- Denne kontoen ble brukt til å logge inn i en annen Creatio forekomst.\n- Hovedgenerasjons-appen ble frakoblet på Linkedins slutt.\nFor å løse dette problemet, Logg inn på LinkedIn en gang til, og gi tillatelse til å annonse kontoer på vegne av brukeren hvis token ble opphevet.",
+                            "Unknown": "Kan ikke hente token status på grunn av en eller flere feil under forespørselen. Vennligst oppdater siden."
+                        },
+                        "MenuCell": {
+                            "Delete": "Slett",
+                            "Reconnect": "Gjenoppkoble"
+                        }
+                    }
+                }
+            }
+        },
+        "IntegrationSection": {
+            "DeleteConfirmation": "Er du sikker på at du vil slette denne integreringen? Creatio vil ikke kunne hente nye ledninger fra den",
+            "DeleteError": "Kan ikke slette integrering, tilgang til annonskonto nektet. Gi tilgang til den tilsvarende annonsekontoen og prøv på nytt",
+            "Header": {
+                "Title": "Sosial leadgen integrasjon",
+                "Buttons": {
+                    "New": "Ny",
+                    "Logs": "Logger",
+                    "Settings": "Innstillinger"
+                }
+            },
+            "Columns": {
+                "Name": "Navn",
+                "Type": "Type:",
+                "IsActive": "Aktiv",
+                "IntegrationSectionItemMenu": {
+                    "Delete": "Slett",
+                    "Activate": "Aktiver",
+                    "Deactivate": "Deaktiver"
+                }
+            },
+            "BlankSlate": {
+                "Description": "Du har ingen integrasjoner konfigurert."
+            }
+        },
+        "IntegrationPage": {
+            "ToggleStateCaptions": {
+                "Active": "Aktiv",
+                "Inactive": "Inaktiv"
+            },
+            "Header": {
+                "Buttons": {
+                    "Logs": "Logger",
+                    "Settings": "Innstillinger"
+                }
+            },
+            "Error": {
+                "Save": "Klarer ikke å endre innstillingene. Kontroller at de nødvendige objektfeltene er mappet og at makroinnstillingene for 'Unmapped skjemafelter' er angitt.",
+                "FormSelection": "Klarer ikke å endre innstillingene. Kontroller at de nødvendige objektfeltene er mappet og at makroinnstillingene for 'Unmapped skjemafelter' er angitt."
+            },
+            "BlankSlate": {
+                "Title": "Vi kunne ikke finne aktive skjemaer på den valgte annonsekontoen.",
+                "Description": "Opprett et ledet skjema eller velg en annen konto å sette opp."
+            },
+            "BlankSlateError": {
+                "Title": "Får ikke tilgang til kontoen.",
+                "Description": "Prøv å logge inn og gi tilgang igjen."
+            },
+            "Detail": {
+                "Name": "Navn",
+                "FacebookPage": "Facebook side",
+                "LinkedinAdAccount": "LinkedIn konto",
+                "DeactivateConfirmationQuestion": "Er du sikker på at du ønsker å deaktivere abonnementet? Overføring fra alle skjemaer vil bli stoppet. Den nye statusen vil tre i kraft etter endringene er lagret på integrasjonskortnivå."
+            },
+            "IntegrationSettings": {
+                "FacebookIsNotSet": "Facebook-integrasjon er ikke satt.",
+                "LinkedInIsNotSet": "LinkedIn integrering er ikke satt.",
+                "Create": "Konfigurere integrering",
+                "DefaultIntegrationRecordName": "Ny generasjon av samfunnslederintegrering"
+            },
+            "InfoBlock": {
+                "Title": "Notat",
+                "Text": "Alle skjemaer for den valgte siden er koblet til Creatio. Gjør standardinnstillingene for alle skjemaene i fanen \"Standard Innstillinger\". Unike innstillinger for hvert skjema kan lages på \"Forms\" fanen."
+            },
+            "ColumnMapping": {
+                "ExpansionPanelCaption": "Standard kartlegging",
+                "Object": "Objekt",
+                "AddMapping": "Legg til",
+                "Hint": "Innstillingen gjelder standard tilordning til alle skjemaene for annonsekonto.\nInnstillingene gjelder kun for skjemalekolonner med brukerprofilinformasjonen.\nDu kan tilordne egendefinerte spørsmål, egendefinerte avmerkingsbokser, og skjulte felt på skjemaets postside. Velg avmerkingsboksen \"Tilpasset tilordning\" for å aktivere denne funksjonen.\n\"Ikke kartlagt felt\" lar deg overføre verdiene for alle kolonner til en enkelt objektkolonne.",
+                "DataTypes": {
+                    "Lookup": "Oppslag",
+                    "Text": "Tekst",
+                    "Boolean": "Boolean",
+                    "DateTime": "Dato klokkeslett",
+                    "Date": "Dato",
+                    "Time": "Tid",
+                    "Number": "Nummer",
+                    "Macro": "Makro"
+                },
+                "FieldMenuCaptions": {
+                    "FormField": "Skjema felt",
+                    "Text": "Tekst verdi",
+                    "Boolean": "Boolsk verdi",
+                    "Lookup": "Oppslag verdi",
+                    "Other": "Annet"
+                },
+                "LinkedIn": "LinkedIn",
+                "BooleanValue": {
+                    "True": "Sant",
+                    "False": "Usant"
+                },
+                "UnmappedMacroValue": "Ukartlagte skjemafelter",
+                "LookupValueUnknown": "<not found>",
+                "ModalBox": {
+                    "SetButtonCaption": "Angi",
+                    "CancelButtonCaption": "Avbryt",
+                    "SelectFormCaption": "Velg skjemafelt",
+                    "EnterTextValueCaption": "Angi verdi"
+                }
+            },
+            "Logs": {
+                "ExpansionPanelCaption": "Logger",
+                "NoLogsForIntegrationMessage": "Det finnes ingen logger for denne integrasjonen",
+                "ShowMoreButtonCaption": "Vis mer",
+                "Types": {
+                    "Info": "Informasjon",
+                    "Warning": "Advarsel",
+                    "Error": "Feil"
+                }
+            },
+            "FormsList": {
+                "Header": "Skjemaer",
+                "LinkedInStatus": "LinkedIn status",
+                "Hint": "Egendefinerte tilordningsinnstillinger overstyrer standard tilordning innstillinger. Kartlegg hvert skjema separat.\nHvis du deaktiverer en egendefinert tilordning, bruker du standard kartleggingsinnstillingene i skjemaet.",
+                "FormStatus": {
+                    "Archived": "Arkivert",
+                    "Pending": "Ventende",
+                    "Approved": "Godkjent",
+                    "Preapproved": "Forhåndsgodkjent",
+                    "Rejected": "Avvist",
+                    "NeedsReview": "Trenger gjennomgang",
+                    "AutoApproved": "Automatisk godkjent",
+                    "AutoRejected": "Automatisk avvist",
+                    "Undefined": "Udefinert",
+                    "NotActive": "Ikke aktiv"
+                },
+                "MappingType": {
+                    "DefaultMapping": "Standard kartlegging",
+                    "CustomMapping": "Tilpasset kartlegging"
+                },
+                "BlankSlate": {
+                    "Description": "For dette skjemaet brukes standard innstillinger for kartlegging."
+                },
+                "DeactivateFormConfirmationQuestion": "Er du sikker på at du vil stoppe abonnementet for å motta ledninger fra dette skjemaet i Creatio? Den nye statusen vil tre i kraft etter endringene er lagret på integrasjonskortnivå.",
+                "ObjectsTitle": {
+                    "Lead": "Bly"
+                }
+            },
+            "IntegrationSyncInfo": {
+                "Header": "Informasjon om ledesynkronisering",
+                "UnableToAdAccountAccess": "Får ikke tilgang til kontoen. Lead synkronisering stoppet.",
+                "SaveIntegration": "Vennligst lagre integrasjonen og oppdater siden for å motta varsler om status som fører til synkronisering.",
+                "SubscriptionInactive": "Ledeabonnement er inaktiv for den valgte annonsekontoen. Lead synk er stoppet. Abonnementaktiveringen vil gjenopprette kvitteringen av fører i Creatio.",
+                "SubscriptionActive": "Ledet-abonnementet er aktivt for den valgte annonse kontoen. Ledetadene som er opprettet på LinkedIn siden vil overføres til Creatio."
+            },
+            "DownloadLeads": {
+                "ForForm": {
+                    "ButtonCaption": "Synkronisering ledninger",
+                    "ModalBoxTitle": "Klikk \"Sync\" for å laste opp skjemaets ledere. Perioden beregnes uansett hvilken hovedstatus du har på det tidspunktet."
+                },
+                "ForAdAccount": {
+                    "ButtonCaption": "Synkroniser alle ledninger",
+                    "ModalBoxTitle": "Klikk på \"Sync\" for å laste opp ad konto leder. Perioden er beregnet uavhengig av kontoens hovedabonnementsstatus på det tidspunktet. Creatio vil ikke laste opp ledningene du allerede har synkronisert."
+                },
+                "ModalBox": {
+                    "InformationText": "LinkedIn lager råker i 90 dager.",
+                    "CancelButtonCaption": "Avbryt",
+                    "DownloadButtonCaption": "Synkronisering",
+                    "SuccessRunBusinessProcessInfoText": "\"Lande\" opplastingsprosessen har startet. Det kan ta litt tid før prosessen er fullført.",
+                    "UnknownFailedRunBusinessProcessInfoText": "Kunne ikke starte opplastingsprosessen for ledelse. Prøv igjen senere. Hvis oppstartsfeilen vedvarer, kontakt brukerstøtte."
+                }
+            }
+        },
+        "SocialMediaProvider": {
+            "New": "Ny integrasjon",
+            "RestoreAccess": "Gjenopprett tilgang"
+        },
+        "IntegrationError": {
+            "InvalidSettings": "Kan ikke koble til blygenerasjonstjenesten. Følgende systeminnstillinger er tom: \"Identitetsserver URL\", \"Identity server client id\", \"Identity server client secret\".",
+            "InvalidScope": "Kunne ikke koble til generasjonstjenesten. Brukerkontoen til generasjonstjenesten mangler vesentlige tillatelser. Vennligst kontakt Creatio support for å løse problemet.",
+            "InvalidClient": "Kan ikke koble til blygenerasjonstjenesten. Uventede verdier i “Identity server client id” og “Identity server client secret” systeminnstillingene. Vennligst kontakt kundestøtte for å løse dette problemet.",
+            "GeneralError": "Kunne ikke koble til generasjonstjenesten. Oppdater siden eller kontakt kundestøtte hvis problemet vedvarer."
+        }
+    },
+    "QueueSorting": {
+        "QueueSectionHeader": "Kø sortering innstillinger",
+        "AddQueueObjectCaption": "Legg til køobjekt",
+        "QueueObjectCaption": "Kø objekt",
+        "QueueTypeCaption": "Kø type",
+        "BlindQueue": "Blinde kø",
+        "RegularQueue": "Vanlig kø",
+        "AddQueueSortObjectCaption": "Legg til sorteringsobjekt",
+        "Empty": "Tom",
+        "RequiredFieldValue": "Velg et kø objekt",
+        "QueueObjectLookup": {
+            "NameColumnCaption": "Tittel",
+            "Title": "Oppslag i kø objekt"
+        },
+        "QueueObjectColumnLookup": {
+            "NameColumnCaption": "Tittel",
+            "Title": "Kø objektsortering kolonneoppslag"
+        },
+        "QueueObjectColumnPage": {
+            "AddQueueObjectColumn": "Legg til kolonne",
+            "SortDirection": "Sorterer rekkefølge",
+            "SelectColumn": "Kolonne",
+            "RequiredFieldValue": "Nødvendige felt er ikke fylt ut."
+        },
+        "QueueObjectTable": {
+            "Actions": {
+                "Delete": "Slett",
+                "Edit": "Innstillinger"
+            },
+            "RemoveToolTip": "Creatio kan ikke slette et sorteringsobjekt fordi eksisterende køer bruker det"
+        },
+        "QueueObjectColumnTable": {
+            "Caption": "Sorter kolonner",
+            "ColumnCaption": "Bildetekst",
+            "SortDirection": "Sorter retning",
+            "Position": "Prioritet",
+            "Empty": "Sorteringskolonner ikke lagt til",
+            "Actions": {
+                "Delete": "Slett",
+                "Edit": "Rediger"
+            }
+        },
+        "OrderDirection": {
+            "Ascending": "Stigende",
+            "Descending": "Synkende",
+            "None": "Ingen"
+        }
+    },
+    "ChatSettings": {
+        "ChatSettingsPageHeader": "Samtaler",
+        "ChannelDetail": {
+            "DeleteAction": "Slett",
+            "DeleteRecordErrorMessage": "Kan ikke slette valgt post",
+            "Title": "Kanaler",
+            "Columns": {
+                "Name": "Navn",
+                "Status": {
+                    "Caption": "Aktiv"
+                },
+                "Queue": "Kø",
+                "Provider": "Leverandør"
+            },
+            "FacebookSettings": {
+                "InvalidSettings": {
+                    "Message": "Kan ikke legge til kanal. Du finner konfigurasjonskravene i",
+                    "Link": {
+                        "Text": "artikkel"
+                    }
+                }
+            }
+        },
+        "ChannelPage": {
+            "Name": "Navn",
+            "Token": "Sjetong",
+            "WebhookUrl": "Nettadresse",
+            "Status": "Status:",
+            "Queue": "Kø",
+            "Language": "Språk",
+            "ChannelProcessingGroup": "Kanal behandling",
+            "NewChannelCaption": "Ny '{0}-kanal",
+            "InactiveChannelMessage": "For å motta meldinger, må du aktivere kanalen og angi køen for behandling. Er du sikker på at du vil legge til en inaktiv kanal?",
+            "FacebookPageLinkCaption": "Facebook side",
+            "ActiveChannelCaption": "Aktiv",
+            "Telegram": {
+                "TelegramPageLinkCaption": "Telegram kanal",
+                "InvalidTelegramToken": "Angi et riktig token for å opprette en kanal",
+                "TelegramTokenAlreadyExists": "Kanalen finnes allerede for det angitte tokenet"
+            },
+            "Tips": {
+                "Language": "Creatio vil angi valgt språk som foretrukket språk for kontakter opprettet gjennom denne kanalen. Du kan velge kun aktive språk. Gå til Språkoppslag for å aktivere/deaktivere",
+                "WhatsAppToken": "Legg inn AUTH TOKEN for Twilio-kontoen din.",
+                "WhatsAppId": "Skriv inn Twilio konto SID.",
+                "WhatsAppTestPhoneNumber": "Telefonnummeret som en test melding vil bli sendt til for å bekrefte kanalen."
+            },
+            "WhatsApp": {
+                "PageLinkCaption": "WhatsApp kanal",
+                "ApplicationId": "Applikasjons ID",
+                "ChannelPhoneNumber": "Telefon nummer",
+                "IntegrationPhoneNumber": "Bekreftelsestelefonnummer",
+                "Connect": "Nettverk",
+                "InvalidPhoneNumber": "Tillat bare tall",
+                "ChannelDuplicatedErrorMessage": "Kanalen finnes allerede for det angitte telefonnummeret",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "Du har angitt en ugyldig Twilio konto SID",
+                    "InvalidAccountPhoneNumberException": "Du har angitt et ugyldig WhatsApp telefonnummer",
+                    "AuthenticateException": "Du har angitt en ugyldig Token"
+                }
+            },
+            "ValidationMessage": {
+                "required": "Angi verdi",
+                "wrongValue": "Feil verdi"
+            }
+        },
+        "ChatQueueDetail": {
+            "Title": "Samtale kø",
+            "Columns": {
+                "Name": "Navn",
+                "Routing": {
+                    "Caption": "Rute regel"
+                },
+                "Simultaneous": "Samtidig sludringer",
+                "Timeout": "Tidsavbrudd, minutter"
+            }
+        },
+        "ChatActionsDetail": {
+            "Title": "Chat handlinger",
+            "Columns": {
+                "Caption": "Bildetekst",
+                "Process": "Prosess",
+                "Queue": "Kø"
+            },
+            "Actions": {
+                "Delete": "Slett"
+            }
+        },
+        "ChatQueuePage": {
+            "Title": "Kø",
+            "Name": "Navn",
+            "OperatorRoutingRule": "Rute regel",
+            "SimultaneousChats": "Samtidig sludringer",
+            "TimeToWaitInQueue": "Tid for å vente i køen",
+            "Timeout": "Tidsavbrudd for chatte ferdigstilt, minutter",
+            "Tips": {
+                "SimultaneousChats": "Maksimalt antall slisser per operatør",
+                "Timeout": "Maksimal ventetid før chatten fullføres automatisk"
+            },
+            "ValidationMessage": {
+                "required": "Angi verdi",
+                "wrongValue": "Feil verdi",
+                "nonNegativeValue": "Kan ikke levere negativ verdi",
+                "nonNumericValue": "Kan ikke levere ikke-numerisk verdi"
+            }
+        },
+        "ChatActionPage": {
+            "Title": "Chat handling",
+            "Caption": "Bildetekst",
+            "Process": "Prosess",
+            "ChatQueue": "Chat kø",
+            "ValidationMessage": {
+                "required": "Angi verdi"
+            }
+        },
+        "ChatQueueOperatorDetail": {
+            "Title": "Kø agenter",
+            "Columns": {
+                "Operator": {
+                    "Caption": "Bruker/rolle"
+                }
+            },
+            "DuplicationMessage": "Det finnes allerede en rolle. Velg en annen operatør/rolle å fortsette"
+        }
+    },
+    "IntegrationDiagnostics": {
+        "EmailListener": {
+            "Header": "E-post lytter-tjeneste diagnostikk",
+            "MailBoxAvailabilityCheck": "Sjekker postboks helse",
+            "ExchangeListenerAvaibilityCheck": "Verifisering av tilgjengelighet av tjenester",
+            "ExchangeListenerAvailabilityCheck": "Bekreftelse på tilgjengelighet",
+            "GetSubscriberInfo": "Mottar abonnementsinformasjon",
+            "StartDiagnosticButtonCaption": "Kjør diagnostikk",
+            "StartFullDiagnosticButtonCaption": "Kjør full diagnostikk",
+            "MailBoxLookupCaption": "Postkasse",
+            "SuccessfulOperation": "Vellykket operasjon",
+            "DiagnosticWasNotStarted": "Diagnostikk er ikke startet",
+            "UnSuccessfulOperation": "Feil",
+            "ELAvailabilityDescription": "E-post lyttertjeneste er tilgjengelig for dette nettstedet",
+            "ApplicationAvailabilityDescription": "E-postlytteren kunne nå Creatio",
+            "ELNotAvailabilityDescription": "E-postlyttertjeneste er ikke tilgjengelig for dette nettstedet",
+            "ValidateCreatioExchangeEndpoint": "Validering av korrekt utfylling av systeminnstillingen BpmonlineExchangeEventsEndpointUrl",
+            "CreatioExchangeEndpontErrorValidationInfoTemplate": "Endepunktet er ikke gyldig\nforventet verdi: {0}/NewEmail\nFaktisk verdi: {1}\nSjekk systemoppsettet BpmonlineExchangeEventsEndpointUrl er full!",
+            "CreatioExchangeEndpontSuccessValidationInfoTemplate": "Endepunkt {0} er gyldig",
+            "SendTestEmail": "Send test-e-post",
+            "MailboxAvailabilityDiagnosticTooltip": "Må fylle ut postkassen",
+            "MailboxDiagnosticSuccessDescriptor": "Denne postkassen er verifisert",
+            "NameCaption": "Navn",
+            "FeaturesStateLabel": "Status på egenskaper",
+            "ExchangeListenerEnabledFeatureCaption": "Synkronisering av ExchangeListenered)",
+            "EmailIntegrationV2FeatureCaption": "Exchange og IMAP e-postbokser synkronisering (EmailIntegrationV2)",
+            "SendEmailsV2FeatureCaption": "Sende e-post (SendEmailsV2)",
+            "OldEmailIntegrationFeatureCaption": "Gammel epostintegrasjon (OldEmailIntegration-funksjonen, status deaktivert)",
+            "IsMailboxSyncSettingsCachedFeatureCaption": "Synkroniseringsinnstillinger for postboks (IsMailboxSyncSettingsCached)"
+        }
+    },
+    "StructureExplorerDialog": {
+        "NoData": "Ingen data",
+        "Title": "Velg felt",
+        "CancelButtonCaption": "Avbryt",
+        "SelectButtonCaption": "Velg",
+        "RelatedObjectsTabCaption": "Relaterte objekter{0}",
+        "FieldsTabCaption": "{0} felt{1}",
+        "SearchPlaceHolder": "Søk"
+    },
+    "AggregationNames": {
+        "Count": "Antall poster",
+        "Sum": "Sum av verdier",
+        "Avg": "Gjennomsnittlig verdi",
+        "MinValue": "Minimum verdi",
+        "MaxValue": "Maksimal verdi",
+        "MinDate": "Minimum dato",
+        "MaxDate": "Maksimum dato",
+        "TopOne": "Første postverdi"
+    },
+    "EntityColumnValuePickerProvider": {
+        "ValueFromFieldCaption": "Verdi fra et annet felt"
+    },
+    "DataSourceAttributeValuePickerProvider": {
+        "ValueFromFieldCaption": "Verdi fra et annet felt"
+    },
+    "FormulaValuePickerProvider": {
+        "ValueFromFieldCaption": "Formel",
+        "CancelButtonCaption": "Avbryt",
+        "SelectButtonCaption": "Lagre",
+        "DialogTitleCaption": "Formel uttrykk"
+    },
+    "RepositorySection": {
+        "Title": "SVN repository liste",
+        "Actions": {
+            "Add": "Legg til",
+            "Edit": "Rediger",
+            "Authorize": "Godkjenn",
+            "Delete": "Slett"
+        },
+        "Messages": {
+            "SuccessAuthorize": "Du har lykkes i kodelageret"
+        },
+        "Columns": {
+            "Name": "Navn",
+            "Address": "SVN lagringsadresse",
+            "IsActive": "Aktiv",
+            "Login": "Innlogging",
+            "Password": "Passord"
+        },
+        "InfoBlock": {
+            "Title": "Viktig å vite",
+            "TextPart1": "Overfører endringer via SVN er kun ment for utviklingsmiljøer. Bruk dem ",
+            "TextPart2": " del av overføring av endringer til et produksjonsmiljø.",
+            "InstallAppsLink": "https://academy.creatio.com/docs/user/no-code_customization/apps_and_extensions/install_applications_from_the_marketplace",
+            "InstallAppsLinkText": "Installert applikasjon",
+            "LinksMessage": "Lær mer om SVN på Creatio Academy:",
+            "DeploymentInCreatioIDEInfoLinkText": "Distribusjon i Creatio IDE",
+            "SetupVersionControlInfoLinkText": "Konfigurere versjonskontroll",
+            "DeploymentInCreatioIDEInfoLink": "https://academy.creatio.com/docs/developer/development_tools/deployment/transferring_solutions_in_creatio_ide",
+            "SetupVersionControlInfoLink": "https://academy.creatio.com/docs/node/1164"
+        },
+        "Page": {
+            "Title": "SVN lagring",
+            "Actions": {
+                "Add": "Legg til",
+                "Apply": "Bruk",
+                "Cancel": "Avbryt",
+                "Authorize": "Godkjenn"
+            },
+            "Validation": {
+                "Required": "Angi en verdi",
+                "MaxLength": "Maksimal tekstlengde overskredet ({0}/{1})",
+                "NameField": {
+                    "Pattern": "Ugyldig navneformat"
+                }
+            }
+        }
+    },
+    "dataSource": "Data kilde",
+    "lookup": "Oppslag",
+    "lookupValueDeletion": "Ved sletting av oppslagsverdi:",
+    "blockDeletionCaption": "Blokker sletting hvis det er tilkoblede poster i dette objektet med denne verdien",
+    "DeleteRecordsCaption": "Slett oppføringer fra nåværende objekt med denne verdien",
+    "lookupView": "Vis oppslag",
+    "selectionWindow": "Utvalgs vindu",
+    "list": "Liste",
+    "columnFormat": "Type data",
+    "columnNumberFormat": "Type data",
+    "selectValueCaption": "Angi en verdi",
+    "DataValueType": {
+        "TextCaption": "Tekst",
+        "ShortTextCaption": "Tekst (50 tegn)",
+        "PhoneTextCaption": "Telefon nummer",
+        "PhoneTextShortenedCaption": "Telefon",
+        "WebTextCaption": "Nettlenke",
+        "EmailTextCaption": "Epost adresse",
+        "EmailTextShortenedCaption": "E-post",
+        "MediumTextCaption": "Tekst (250 tegn)",
+        "LongTextCaption": "Tekst (500 tegn)",
+        "MaxSizeTextCaption": "Ubegrenset lengde tekst",
+        "SecureTextCaption": "Kryptert streng",
+        "HashTextCaption": "CRC",
+        "IntegerCaption": "Heltall",
+        "FLOAT1Caption": "Desimal (0,1)",
+        "FLOAT2Caption": "Desimal (0,01)",
+        "FLOAT3Caption": "Desimal (0,001)",
+        "FLOAT4Caption": "Desimal (0,0001)",
+        "FLOAT8Caption": "Desimal (0,00000001)",
+        "MoneyCaption": "Valuta",
+        "DateTimeCaption": "Dato/klokkeslett",
+        "DateCaption": "Dato",
+        "TimeCaption": "Tid",
+        "BooleanCaption": "Boolean",
+        "ImageCaption": "Bilde",
+        "ImageLookupCaption": "Bilde Lenke",
+        "FileCaption": "Fil",
+        "ColorCaption": "Farge",
+        "RichCaption": "Rik tekst",
+        "GuidCaption": "Unique identifier",
+        "BlobCaption": "BLIB",
+        "LookupCaption": "Oppslag",
+        "Entity": "Objekt (Entity)",
+        "EntityCollection": "Samling av objekter (EntityCollection)",
+        "EntityColumnMappingCollection": "Objekt kolonneverdier",
+        "CustomObject": "Objekt",
+        "Collection": "Opplisting",
+        "LocalizableString": "Lokaliserbar streng",
+        "MetaDataText": "Ikke lokal streng",
+        "ObjectList": "Seriennlig liste over verdier",
+        "CompositeObjectList": "Seriennlig liste over sammensatte verdier",
+        "FloatCaption": "Desimal",
+        "TimerCaption": "Tidtaker",
+        "LocalTimeCaption": "Lokal tid"
+    },
+    "CodeMirror": {
+        "HotkeysDescription": "Populære nøkler:",
+        "SelectAll": "Ctrl-A Velg alle",
+        "Undo": "Ctrl-Z Angre",
+        "Redo": "Skift-Ctrl-Z gjenta",
+        "Find": "CTRL-F Finn",
+        "FindNext": "F3 Søk neste",
+        "FindPrev": "Skift-F3 Finn forrige",
+        "Replace": "Skift-Ctrl-F Erstatt",
+        "ReplaceAll": "Skift-Ctrl-R Erstatt alle",
+        "DeleteLine": "Ctrl-Y Slettelinje",
+        "GoLineStart": "Alt-venstre gå til linje start",
+        "GoLineEnd": "Alt-Right Go to line end",
+        "JmpToLine": "Alt-G Hopp til linje",
+        "Fullscreen": "F11 Fullskjerm redigering av kode",
+        "FullscreenExit": "Esc Avslutt fullskjermvisning",
+        "Autocomplete": "Ctrl-Space samtale autofullfør"
+    },
+    "CDK": {
+        "ByCaption": "av",
+        "ByColumnCaption": "etter kolonne",
+        "WhereColumnCaption": "hvor",
+        "IsColumnCaption": "er",
+        "IndicatorWidget": {
+            "Caption": "Metrisk"
+        },
+        "GaugeWidget": {
+            "Caption": "Måler"
+        },
+        "HeaderWidget": {
+            "Fullscreen": {
+                "ExpandLabel": "Utvid fullskjerm",
+                "CollapseLabel": "Skjul fullskjerm"
+            },
+            "Direction": {
+                "Menu": {
+                    "Caption": "Diagram posisjon"
+                },
+                "Column": {
+                    "Caption": "Over"
+                },
+                "Row": {
+                    "Caption": "Venstre"
+                },
+                "RowReverse": {
+                    "Caption": "Høyre"
+                }
+            }
+        },
+        "ChartWidget": {
+            "ChangeChartType": {
+                "Caption": "Endre diagramtype"
+            },
+            "Line": {
+                "Caption": "Linje"
+            },
+            "Spline": {
+                "Caption": "Splinett"
+            },
+            "Area": {
+                "Caption": "Område"
+            },
+            "Scatter": {
+                "Caption": "Punkt"
+            },
+            "Bar": {
+                "Caption": "Kolonne"
+            },
+            "HorizontalBar": {
+                "Caption": "Stolpe"
+            },
+            "Pie": {
+                "Caption": "Pai"
+            },
+            "Doughnut": {
+                "Caption": "Doughnøtt"
+            },
+            "Tsfunnel": {
+                "Caption": "Rørledning"
+            },
+            "Common": {
+                "DrillDownCaption": "Drill ned gjenstanden",
+                "EmptyValue": "Verdi er ikke definert",
+                "BooleanTrueValue": "Ja",
+                "BooleanFalseValue": "Nei",
+                "ExportDataBtnCaption": "Eksporter til Excel",
+                "HideSeries": "Skjul",
+                "ShowDataCaption": "Vis data",
+                "ShowDataForSelectedSeriesCaption": "Vis data for denne serien",
+                "ShowSeries": "Vis",
+                "ShowSeriesDataCaption": "Vis data etter serie"
+            },
+            "With": {
+                "Caption": "med"
+            },
+            "Series": {
+                "Caption": "serie"
+            }
+        },
+        "FunnelWidget": {
+            "OpportunityFunnel": {
+                "Caption": "Salg rørledning",
+                "ByCountLabelTemplate": "{0}",
+                "StageConversionLabelTemplate": "{0}%",
+                "ToFirstStageLabelTemplate": "{0}%",
+                "ByCountBtnLabel": "Antall muligheter",
+                "StageConversionBtnLabel": "Nivå konverteringsrate",
+                "ToFirstStageBtnLabel": "Konvertering av Pipeline",
+                "DefaultTitle": "Ny rørledning"
+            },
+            "FullPipelineFunnel": {
+                "Caption": "Full rørledning",
+                "ByCountBtnLabel": "Antall poster",
+                "StageConversionBtnLabel": "Nivå konverteringsrate",
+                "ToFirstStageBtnLabel": "Konvertering av Pipeline",
+                "DefaultTitle": "Ny rørledning"
+            },
+            "Tooltip": {
+                "CountInStage": "Antall",
+                "CountInStageValue": "{0}",
+                "Amount": "Beløp",
+                "AmountValue": "{0} {1}",
+                "ConversionToStage": "Konvertering",
+                "ConversionToStageValue": "{0}%",
+                "ConversionToFirstStage": "Konvertering",
+                "ConversionToFirstStageValue": "{0}%",
+                "ConversionToStageCount": "Antall",
+                "ConversionToStageCountValue": "{0}",
+                "ConversionToFirstStageCount": "Antall",
+                "ConversionToFirstStageCountValue": "{0}"
+            }
+        }
+    },
+    "Components": {
+        "Input": {
+            "Caption": "Tekst"
+        },
+        "Slider": {
+            "Caption": "Glidebryter"
+        },
+        "NumberInput": {
+            "Caption": "Nummer"
+        },
+        "FileInput": {
+            "Caption": "Fil",
+            "LabelCaption": "Fil for opplasting",
+            "Placeholder": "Velg fil"
+        },
+        "Button": {
+            "Caption": "Knapp"
+        },
+        "Checkbox": {
+            "Caption": "Avmerkingsboks"
+        },
+        "Combobox": {
+            "Caption": "Rullegardin",
+            "AddNewRecord": "Legg til ny",
+            "IsGoToSourceAllowedTooltip": "Gå til postliste"
+        },
+        "DataGrid": {
+            "Caption": "Liste"
+        },
+        "ExpandedList": {
+            "Caption": "Utvidet liste",
+            "Hint": "Utvidet listen inkluderer en liste, en utvidbar gruppe og en innleggsknapp. Anbefalt for å bruke på sider for å vise relatert informasjon.",
+            "AddBtnCaption": "Ny",
+            "RefreshBtnCaption": "Oppdater",
+            "SettingsBtnCaption": "Handlinger",
+            "ExportDataBtnCaption": "Eksporter til Excel",
+            "ImportDataBtnCaption": "Data import"
+        },
+        "Attachment": {
+            "Caption": "Vedlegg",
+            "Hint": "Vedlegget inkluderer en filliste, en utvidbar gruppe, en opplastbare filknapp, en oppdateringsknapp. Anbefales til å bruke på en skjemaside for å vise relaterte vedlegg.",
+            "AddBtnCaption": "Last opp",
+            "RefreshBtnCaption": "Oppdater"
+        },
+        "DateTimePicker": {
+            "Caption": "Dato/klokkeslett"
+        },
+        "Gallery": {
+            "Caption": "Galleri"
+        },
+        "ColorPicker": {
+            "Caption": "Farge velger"
+        },
+        "Label": {
+            "Caption": "Etikett"
+        },
+        "ActionDashboard": {
+            "Caption": "Instrumentpanel for handlinger",
+            "Hint": "Viser informasjon om gjeldende status for en post ved hjelp av arbeidsflytlinjen og handlingspanelet. Det anbefales å bruke komponenten på skjemasiden."
+        },
+        "ExpansionPanel": {
+            "Caption": "Utvidelse panel"
+        },
+        "TabPanel": {
+            "Caption": "Tabs",
+            "DefaultTab1Name": "Tab 1",
+            "DefaultTab2Name": "Tab 2",
+            "DefaultLabel1Name": "Etikett 1",
+            "DefaultLabel2Name": "Etikett 2",
+            "NewTabName": "New tab",
+            "NewLabelName": "Ny etikett",
+            "AddTab": "Legg til fane",
+            "DeleteTab": "Slett fane",
+            "DeleteTabConfirmation": "Slette \"{0}fanen og alle elementer inni?"
+        },
+        "TogglePanel": {
+            "Caption": "Skru av/på panel"
+        },
+        "MenuItem": {
+            "Caption": "Menyelement"
+        },
+        "Breadcrumbs": {
+            "Back": "Tilbake"
+        },
+        "Timeline": {
+            "Caption": "Tidslinje",
+            "AddObject": "+ Legg til objekt",
+            "ProvideDataSource": "Oppgi datakilde før du bruker tidslinjen",
+            "Tile": {
+                "TileObjectTitle": "Objekt: "
+            },
+            "DesignerCustomEntities": {
+                "Email": {
+                    "Caption": "E-post"
+                },
+                "Feed": {
+                    "Caption": "MATE"
+                },
+                "Task": {
+                    "Caption": "Oppgave"
+                },
+                "SysFile": {
+                    "Caption": "Fil"
+                }
+            }
+        },
+        "File": {
+            "Caption": "Fil",
+            "Label": "Fil for opplasting",
+            "Placeholder": "Velg fil"
+        },
+        "RichTextEditor": {
+            "Caption": "Rik tekst"
+        },
+        "ImageInput": {
+            "Caption": "Bilde",
+            "LabelCaption": "Bilde å laste opp"
+        },
+        "SearchFilter": {
+            "Caption": "Søk",
+            "Placeholder": "Søk",
+            "Tooltip": "Søkekomponenten kan bare søke etter tekst, nummer og slå opp kolonner med direkte forbindelser til listeobjekt."
+        },
+        "Approval": {
+            "Caption": "Godkjenninger"
+        },
+        "ApprovalList": {
+            "Caption": "Liste over godkjenninger",
+            "RefreshCaption": "Oppdater",
+            "ProvideDataSource": "Oppgi datakilde før du bruker godkjenninger"
+        }
+    },
+    "LayoutElements": {
+        "GridArea1": {
+            "Caption": "Område"
+        },
+        "GridColumn1": {
+            "Caption": "1 kolonne"
+        },
+        "GridColumn2": {
+            "Caption": "2 kolonner"
+        },
+        "GridColumn3": {
+            "Caption": "Tre kolonner"
+        },
+        "GridColumn4": {
+            "Caption": "4 kolonner"
+        },
+        "FlexRow": {
+            "Caption": "Fleksibel rad",
+            "Hint": "Linjer opp flere elementer horisontalt. Creatio kan endre størrelsen på elementene, avhengig av innholdet. Plasser to knapper eller et felt og en knapp ved siden av hverandre. Lær mer i NMH."
+        },
+        "FlexColumn": {
+            "Caption": "Flex kolonne",
+            "Hint": "Linjer opp flere elementer vertikalt. Creatio kan endre størrelse på elementene, avhengig av innholdet. Du kan for eksempel lage en kolonne med to blokker. Lær mer i Akademiet."
+        }
+    },
+    "TypeCaptions": {
+        "GridContainer": "Rutenett beholder",
+        "FlexContainer": "Flex beholder",
+        "TabContainer": "Tab",
+        "MenuItem": "Menyelement",
+        "ChartWidget": "Diagram",
+        "TimelineTile": "Flis"
+    },
+    "DialogComponent": {
+        "CancelButtonDialog": "Avbryt",
+        "SaveButtonDialog": "Lagre"
+    },
+    "HomePage": {
+        "DialogMessages": {
+            "RequiredFieldsAreNotFilled": "Nødvendige felt er ikke fylt ut, eller siden har valideringsfeil"
+        }
+    },
+    "DesignerSettingsComponent": {
+        "HeaderCaption": "Kartoppsett"
+    },
+    "InterfaceDesigner": {
+        "Caption": "Designer",
+        "AddMenu": {
+            "AddDataSource": "Legg til datakilde",
+            "NewDataSource": "Ny datakilde",
+            "ExistingDataSource": "Eksisterende datakilde"
+        },
+        "DataSourceActions": {
+            "Edit": "Rediger"
+        },
+        "SetupEntityDialog": {
+            "Title": "Nytt objekt"
+        },
+        "SetupDataSourceDialog": {
+            "SetupDataSourceTitle": "Opprett datakilde",
+            "CancelButtonDialog": "Avbryt",
+            "SelectButtonDialog": "Velg",
+            "Object": "Objekt",
+            "SelectDataSource": "Velg datakilde"
+        },
+        "SetupEntityProperties": {
+            "NameColumnCaption": "Navn"
+        },
+        "SetupEntityPropertiesDialog": {
+            "Name": "Navn",
+            "Description": "Beskrivelse",
+            "SaveButton": "Lagre",
+            "CancelButton": "Avbryt"
+        },
+        "LookupEntityDialog": {
+            "CreateOrEditLookupEntityTitle": "Nytt oppslag",
+            "CancelButtonDialog": "Avbryt",
+            "SelectButtonDialog": "Lagre",
+            "TitleControl": "Tittel",
+            "NameControl": "Kode",
+            "Validations": {
+                "RequiredNameCaption": "Angi en verdi",
+                "DuplicateNameCaption": "Objekt med den samme koden finnes allerede",
+                "PatternPrefixTemplate": "Koden må starte med \"{0}\" prefiks",
+                "PatternNameCaption": "Ugyldig verdi. Bruk symboler: a-z, A-Z, 0-9. Symbol: 0-9 kan ikke først."
+            }
+        },
+        "CopyPostfixCaption": "Kopier",
+        "DesignElementSetting": {
+            "SettingsTitle": "Innstillinger",
+            "DuplicateTitle": "Kopier",
+            "DeleteTitle": "Slett"
+        },
+        "Messages": {
+            "SuccessfullySaved": "Lagring vellykket"
+        },
+        "PropertiesPages": {
+            "EntityDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "Generelt"
+            },
+            "EntityDataSourcePropertiesPanel": {
+                "GeneralGroup": "Generelt",
+                "PrimaryDataSource": "Primær datakilde",
+                "PrimaryDataSourceChangeConfirm": "Den primære datakilden for denne siden vil bli endret. Vil du lagre endringene?",
+                "BusinessRulesGroup": "Næringslivets regler"
+            },
+            "FilePropertiesPage": {
+                "General": "Generelt",
+                "AllowedExtensions": "Filendelser",
+                "AllowedExtensionsEmptyMessage": "Hvis ikke angitt, er alle filtyper fra Tillatt systeminnstilling for filtyper tillatt",
+                "MaxSize": "Maksimal filstørrelse, MB",
+                "MaxSizeEmptyMessage": "Hvis ikke angitt, brukes standardverdien fra Vedlegg max størrelse systeminnstillingen",
+                "LabelPosition": "Posisjon på tittel",
+                "LabelPositionVariants": {
+                    "Auto": "Automatisk",
+                    "Left": "Venstre",
+                    "Right": "Høyre",
+                    "Above": "Over",
+                    "Hidden": "Hidden"
+                },
+                "Placeholder": "Plassholder",
+                "AppearanceGroup": "Utseende",
+                "DataSource": "Data kilde",
+                "Editability": "Redigerbarhet",
+                "TitleOnPage": "Tittel på side",
+                "EditabilityControls": {
+                    "Readonly": "Skrivebeskyttet"
+                }
+            },
+            "FileListPropertiesPage": {
+                "PageCaption": " Vedleggsliste innstillinger",
+                "GeneralGroup": "Generelt",
+                "FileGroupLabel": "Fil gruppe",
+                "TagLabel": "Fil tagg",
+                "TagPlaceholder": "Vis alle elementfiler som standard",
+                "TagHint": "Bruk tag for å filtrere opptaksfiler, f.eks. «programdokumenter»",
+                "FileEntitySchemaLabel": "Lagringssted for fil",
+                "FileGroups": {
+                    "Attachments": "Vedlegg"
+                },
+                "AttributeToAttachFiles": "Post til vedlegg",
+                "EmptyDataSourceHint": "Datakilden er ikke lagt til siden. Vennligst legg til eksisterende datakilde for å sette opp komponenten",
+                "AppearanceGroup": "Utseende",
+                "ViewTypeLabel": "Vis",
+                "TileSizeFieldLabel": "Galleri elementstørrelse",
+                "Sizes": {
+                    "Small": "Liten",
+                    "Medium": "Middels",
+                    "Large": "Stor",
+                    "ExtraLarge": "Ekstra stor"
+                },
+                "ViewTypeOption": {
+                    "List": "Liste",
+                    "Gallery": "Galleri"
+                }
+            },
+            "ImageInputPropertiesPage": {
+                "SizeFieldLabel": "Størrelse",
+                "Sizes": {
+                    "None": "Ingen",
+                    "Small": "Liten",
+                    "Medium": "Middels",
+                    "Large": "Stor",
+                    "ExtraLarge": "Ekstra stor"
+                },
+                "BorderRadiusLabel": "Kantlinje radius",
+                "PositioningLabel": "Bilde posisjon",
+                "Positioning": {
+                    "Cover": "Fyll",
+                    "ScaleDown": "Tilpass"
+                },
+                "MaxSize": "Maksimal filstørrelse, MB",
+                "MaxSizeEmptyMessage": "Dersom dette ikke er angitt, settes standard verdi fra \"Bilde maks størrelse\"-systeminnstillingen",
+                "MaxSizePlaceholder": "{0} MB som standard",
+                "TooltipLabel": "Verktøytips",
+                "AppearanceGroup": "Utseende",
+                "Editability": "Redigerbarhet",
+                "EditabilityControls": {
+                    "Readonly": "Skrivebeskyttet"
+                }
+            },
+            "PropertiesPanelIconSettings": {
+                "UseIcon": "Bruk ikon",
+                "IconPositionLabel": "Posisjon",
+                "IconPosition": {
+                    "LeftIcon": "Ikon til venstre",
+                    "RightIcon": "Ikon høyre",
+                    "OnlyIcon": "Bare ikon",
+                    "OnlyText": "Bare tekst"
+                },
+                "IconLabel": "Ikon"
+            },
+            "PropertiesPanelVisibilitySettings": {
+                "VisibilityGroup": "Synlighet",
+                "Visible": "Synlig",
+                "NotVisible": "Ikke synlig",
+                "SetupConditions": "Oppsett av betingelser",
+                "DefaultValueNotSupported": "Dette elementet støtter ikke standardverdier for synlighet"
+            },
+            "ViewElementEventPropertiesPanel": {
+                "EventFieldLabel": "Handling",
+                "Requests": {
+                    "CancelRecordChangesRequest": "Avbryt endringer",
+                    "ClosePageRequest": "Lukk side",
+                    "CreateRecordRequest": "Åpne ny post",
+                    "ExportDataGridToExcelRequest": "Eksporter til Excel",
+                    "ImportDataRequest": "Data import",
+                    "LoadDataRequest": "Oppdater data",
+                    "OpenPageRequest": "Åpne spesifikk side",
+                    "RunBusinessProcessRequest": "Kjør prosess",
+                    "SaveRecordRequest": "Lagre data",
+                    "SetRecordRightsRequest": "Sett opp tilgangsrettigheter",
+                    "UpdateRecordRequest": "Åpne eksisterende post",
+                    "UploadFileRequest": "Last opp fil"
+                },
+                "RunBusinessProcessRequest": {
+                    "WhichProcessRunQuestion": "Hvilken prosess skal kjøre?",
+                    "AddNewBusinessProcessButton": "Legg til ny prosess",
+                    "SelectBusinessProcessButton": "Åpne prosessdesigner",
+                    "HowProcessRunQuestion": "Hvordan kjøre prosessen?",
+                    "HowProcessRunLabel": "Prosessparameter der posten passeres",
+                    "HowRunProcessOptions": {
+                        "ForTheSelectedPage": "For den valgte siden",
+                        "RegardlessOfThePage": "Uavhengig av siden"
+                    }
+                },
+                "OpenPageRequest": {
+                    "Title": "Hvilken side skal åpnes?",
+                    "OpenPageInDesignerTitle": "Åpne grensesnitt-designer",
+                    "AddNewPage": "Legg til ny side"
+                },
+                "CreateRecordRequest": {
+                    "WhichRecordToCreateLabel": "Hvilken transaksjon for å lage?",
+                    "DefaultAttributeValuesLabel": "Hvilke kolonneverdier skal settes?"
+                },
+                "UpdateRecordRequest": {
+                    "WhichObjectToOpenRecordOfLabel": "Hvilket objekt til å åpne poster av?",
+                    "WhichRecordToOpenLabel": "Hvilken registrering åpnes"
+                },
+                "LoadDataRequest": {},
+                "ExecuteCustomCode": "Kjør egendefinert kode"
+            },
+            "ExpansionPanelPropertiesPage": {
+                "PageCaption": "Innstillinger for utvidelsespanel",
+                "GeneralCaption": "Generelt",
+                "TitleLabel": "Tittel",
+                "ToggleTypeLabel": "Stil",
+                "TogglePositionLabel": "Plassering av knapp",
+                "ColorLabel": "Tittel farge",
+                "DefaultToggleTypeLabel": "Standard",
+                "MaterialToggleTypeLabel": "Trekkspill",
+                "BeforeTogglePositionLabel": "Venstre",
+                "AfterTogglePositionLabel": "Høyre",
+                "FullWidthHeaderCaption": "Full bredde topptekst",
+                "TitleWidthCaption": "Tittel bredde",
+                "PaddingGroup": "Avstand",
+                "Padding": {
+                    "Top": "Topp",
+                    "Bottom": "Bunn",
+                    "Left": "Venstre",
+                    "Right": "Høyre"
+                }
+            },
+            "LabelPropertiesPage": {
+                "PageCaption": "Innstillinger for etikett",
+                "GeneralCaption": "Generelt",
+                "AttributeBindingCaption": "Attributt verdi brukt",
+                "TitleLabel": "Tekst",
+                "TypeLabel": "Stil",
+                "TextAlignLabel": "Align",
+                "ThicknessLabel": "Formatér",
+                "FontSizeLabel": "Størrelse, px",
+                "FontColorLabel": "Tekst farge",
+                "BackgroundColorLabel": "Bakgrunnsfarge",
+                "AlignLeftCaption": "Venstre",
+                "AlignCenterCaption": "Midtstilt",
+                "AlignRightCaption": "Høyre",
+                "AlignJustifyCaption": "Juster",
+                "TypeH1Caption": "H1",
+                "TypeH2Caption": "H2",
+                "TypeH3Caption": "H3",
+                "TypeH4Caption": "H4",
+                "TypeH5Caption": "H5",
+                "TypeBody1Caption": "Utfyllende tekst",
+                "TypeCaptionCaption": "Bildetekst",
+                "TypeBlankslateCaption": "Ramsel",
+                "ThicknessLightCaption": "Lys",
+                "ThicknessNormalCaption": "Vanlig",
+                "ThicknessSemiboldCaption": "Semibold",
+                "ThicknessBoldCaption": "Bold",
+                "ThicknessDefaultCaption": "Standard ",
+                "TypeLarge1Caption": "Stor 1",
+                "TypeLarge2Caption": "Stort 2",
+                "TypeLarge3Caption": "Stor 3",
+                "TypeLarge4Caption": "Stor 4",
+                "TypeHeadline1Caption": "Overskrift 1",
+                "TypeHeadline1SmallCaption": "Overskrift 1 liten",
+                "TypeHeadline2Caption": "Overskrift 2",
+                "TypeHeadline3Caption": "Overskrift 3",
+                "TypeHeadline4Caption": "Overskrift 4",
+                "TypeBodyLargeCaption": "Kropp stor",
+                "TypeBodyCaption": "Innhold",
+                "TypeCaptionLargeCaption": "Bildetekst stor",
+                "TypePlaceholderLargeCaption": "Plassholder stor",
+                "TypePlaceholderCaption": "Plassholder",
+                "TypeButtonCaption": "Knapp",
+                "TypeButtonSmallCaption": "Knappen er liten"
+            },
+            "TimerPropertiesPage": {
+                "PageCaption": "Tidtaker innstillinger",
+                "TimerType": "Type:",
+                "TargetDateTimeColumn": "Target date time column",
+                "StartDateTimeColumn": "Startdato for tidskolonne",
+                "FromDateTimerType": "Tidtaker fra dato",
+                "CountdownToSpecificDateTimerType": "Nedtelling til bestemt dato",
+                "ShowNegativeCountDownValue": "Vis negativ nedtellingsverdi",
+                "TextColorForNegativeValues": "Tekstfarge for negative verdier",
+                "TextForPositiveValues": "Tekst for positive verdier",
+                "TextForNegativeValues": "Tekst for negative verdier",
+                "ValueTextTooltip": "Vennligst bruk [#timer#] makroer og tekststrenger for å lage detaljerte tider-etiketter. For eksempel kan positiv verdi - [#timer#] venstre for å fullføre oppgaven; negativ verdi - [#timer#] forfalt."
+            },
+            "LocalTimePropertiesPage": {
+                "PageCaption": "Lokale tidsinnstillinger",
+                "TimeZoneColumn": "Kolonne for tidssone"
+            },
+            "BaseCustomPropertiesPanel": {
+                "PageCaption": "Egendefinerte elementinnstillinger",
+                "GeneralCaption": "Generelt",
+                "Description": "Du kan sette opp dette elementet i sidekildekode",
+                "OpenSourceCodeButtonCaption": "Åpen kildekode"
+            },
+            "DataGridPropertiesPage": {
+                "PageCaption": "Vis innstillinger",
+                "GeneralCaption": "Generelt",
+                "DataSourceCaption": "Objekt",
+                "ChangeFilters": "Endre filter",
+                "ApplyStaticFilter": "Bruk statisk filter",
+                "SetupStaticFilterAction": "Filter for oppsett",
+                "EditStaticFilterAction": "Rediger filter",
+                "Appearance": {
+                    "AppearanceGroup": "Utseende",
+                    "Editable": "Gjør listen redigerbare"
+                }
+            },
+            "TabItemPropertiesPage": {
+                "GeneralGroup": "Generelt",
+                "CaptionLabel": "Tittel",
+                "AppearanceGroup": "Utseende",
+                "IconPosition": {
+                    "LeftIcon": "Ikon til venstre",
+                    "OnlyIcon": "Bare ikon",
+                    "OnlyText": "Bare tekst"
+                }
+            },
+            "ActionDashboardPropertiesPage": {
+                "PageCaption": "Innstillinger for Handlingsoppsett",
+                "GeneralCaption": "Generelt",
+                "DataSource": "Data kilde",
+                "GoToCasesButtonCaption": "Sett opp saker",
+                "EmptyDataSourceHint": "Datakilden er ikke lagt til siden. Vennligst legg til eksisterende datakilde for å sette opp komponenten",
+                "ChannelsCaption": "Kanaler",
+                "CallAction": "Ring",
+                "EmailAction": "E-post",
+                "FeedAction": "Feed melding",
+                "ActivityAction": "Oppgave",
+                "CasesDisabledTitle": "Saker kan ikke settes opp for datakilden"
+            },
+            "DefaultAttributeValues": {
+                "AddAttribute": "Legg til felt"
+            },
+            "ApprovalPropertiesPage": {
+                "HeaderLabel": "Innstillinger for godkjenninger",
+                "GeneralGroup": "Generelt",
+                "SchemaNameLabel": "Hvilke registreringer som skal godkjennes?",
+                "AppearanceGroup": "Utseende",
+                "HiddenWhenNoData": "Skjult når ingen data"
+            },
+            "ApprovalListPropertiesPage": {
+                "HeaderLabel": "Innstillinger for godkjenningsliste",
+                "GeneralGroup": "Generelt",
+                "SchemaNameLabel": "Objekt"
+            },
+            "MenuItemPropertiesPanel": {
+                "GeneralGroup": "Generelt",
+                "CaptionLabel": "Tittel",
+                "ActionLabel": "Handling",
+                "AppearanceGroup": "Utseende"
+            },
+            "GalleryPropertiesPanel": {
+                "PageCaption": "Galleri innstillinger",
+                "GeneralCaption": "Generelt",
+                "AdditionalCaption": "Tillegg",
+                "DataSourceCaption": "Objekt",
+                "CaptionColumnField": "Bildetekst",
+                "DescriptionColumnField": "Beskrivelse",
+                "ImageColumnField": "Bilde",
+                "SelectableConfigField": "Velgbar"
+            },
+            "ImportDataRequestPropertiesPanel": {
+                "EntitySchemaSelectCaption": "Hvilke data å importere"
+            },
+            "ExportDataGridToExcelRequestPropertiesPanel": {
+                "ViewSelectCaption": "Hvilke data som skal eksporteres"
+            },
+            "UploadFileRequestPropertiesPanel": {
+                "ViewSelectCaption": "Hvor laste opp filer til?",
+                "AllowedExtensions": "Hvilke filendelser har lov til å laste opp?",
+                "AllowedExtensionsEmptyMessage": "Hvis ikke angitt, er alle filtyper fra \"Filfilfilfiltyper Tillatt List\"-systeminnstilling tillatt",
+                "MaxSize": "Hva er maksimal tillatt filstørrelse i MB?",
+                "MaxSizeEmptyMessage": "Hvis ikke angitt, brukes standard verdi fra \"Vedlegg max størrelse\"-systeminnstillingen",
+                "FileTypesPlaceholder": "For eksempel, .pdf, .png",
+                "MaxSizePlaceholder": "{0} MB som standard"
+            },
+            "SearchFilterPropertiesPanel": {
+                "PageCaption": "Innstillinger for søk",
+                "GeneralCaption": "Generelt",
+                "ChooseTargetsCaption": "Velg komponent for å filtrere",
+                "ChooseTargetsTooltip": "Velg listen du vil utføre søket. Nedtrekksmenyen viser listene som finnes på gjeldende side og har et objekt spesifisert",
+                "Placeholder": "Plassholder",
+                "DirectConnection": "Søkekomponenten kan bare søke etter tekst, nummer og slå opp kolonner med <a href='https://academy.creatio.com/docs/developer/back_end_development/data_operations/orm/overview#title-1263-1' target='_blank'>direkte forbindelser</a> til å liste objektet.",
+                "AppearanceGroup": "Utseende",
+                "IconOnlyCaption": "Kun ikon"
+            }
+        },
+        "SaveMessage": "Alle endringer vil bli lagret. Fortsett?",
+        "MainHeader": {
+            "Title": "Tittel",
+            "CommandLinePlaceholder": "Hva kan jeg gjøre for deg?"
+        },
+        "SaveConfirmationDialog": {
+            "Message": "Denne siden inneholder endringer som ikke er lagret. De vil gå tapt hvis du lukker siden. Lagre endringene?",
+            "Save": "Lagre",
+            "DoNotSave": "Ikke lagre",
+            "Cancel": "Avbryt"
+        }
+    },
+    "ApplicationManagement": {
+        "CreateApplicationComponent": {
+            "WaitTitle": "Legge til standardinnhold i programmet"
+        },
+        "ApplicationInfoDialogComponent": {
+            "HeaderCaption": "Ny applikasjon",
+            "HeaderEditCaption": "Rediger applikasjonen",
+            "InputNameCaption": "Vennligst gi søknaden din navn",
+            "ApplicationCodeCaption": "Applikasjons kode",
+            "InputDescriptionCaption": "Beskriv hva det er for (valgfritt)",
+            "InputDescriptionPlaceholder": "Skriv noen ord om søknaden din",
+            "CancelButtonCaption": "Avbryt",
+            "CreateButtonCaption": "Opprett",
+            "SaveButtonCaption": "Lagre",
+            "HeaderCarouselCaption": "Velg ikon"
+        },
+        "ApplicationValidatorService": {
+            "InvalidCharactersForName": "Bare tegn \"- _\" er tillatt i navnet",
+            "InvalidCharactersForCode": "Bare latinske bokstaver og tall er tillatt i programkoden",
+            "ApplicationNameAlreadyExists": "En applikasjon med navnet \"{0}\" finnes allerede",
+            "ApplicationCodeAlreadyExists": "Denne programkoden eller pakkenavnet er allerede i bruk",
+            "InvalidApplicationCodePrefix": "Programkoden må starte med \"{0}\" prefiks",
+            "FirstSymbolIsNotLetterAndNotDigit": "Navnet må begynne med en bokstav eller et siffer"
+        }
+    },
+    "Validators": {
+        "Autocomplete": {
+            "Message": "Vennligst velg verdi fra listen"
+        },
+        "ColorPicker": {
+            "Message": "Handlingsfeil. Ugyldig HEX-format ble valgt"
+        },
+        "Required": {
+            "Message": "Angi en verdi"
+        },
+        "MaxLength": {
+            "Message": "Maksimal tekstlengde er overskredet ({{actualLength}}/{{maxLength}})"
+        },
+        "MinLength": {
+            "Message": "Minste tekstlengde ikke nådd ({{actualLength}}/{{minLength}})"
+        },
+        "Min": {
+            "Message": "Minimum tallsverdi er {{min}}"
+        },
+        "Max": {
+            "Message": "Maksimumsverdien for tall er {{max}}"
+        },
+        "GridColumnsCount": {
+            "Message": "Kolonner som inneholder elementer kan ikke slettes. Hvis du vil redusere kolonnenummeret, kan du slette elementene eller flytte dem til andre kolonner."
+        },
+        "Email": {
+            "Message": "Invalid email format"
+        },
+        "Link": {
+            "Message": "Ugyldig URL-format"
+        }
+    },
+    "UserProfile": {
+        "Profile": "Bruker profil",
+        "Photo": "Bilde",
+        "FirstLastName": "Fullt navn",
+        "Organization": "Organisasjon",
+        "Language": "Språk",
+        "TimeZone": "Tidssone",
+        "DateTimeFormat": "Dato og tid format",
+        "Role": "Rolle",
+        "Active": "Aktiv",
+        "Status": "Status:",
+        "Invited": "Invitert",
+        "Email": "E-post",
+        "ChangeEmail": "Endre e-post",
+        "ChangeEmailButton": "Endre og logg ut",
+        "EmailChanged": "E-posten din er endret",
+        "ResendConfirmEmailSuccess": "Bekreftelsese-post ble sendt",
+        "ResendConfirmEmailError": "Bekreftelsese-post ble ikke sendt",
+        "NotConfirmedEmail": "Vennligst sjekk e-posten din for å bekrefte registrering",
+        "Password": "Passord",
+        "ChangePassword": "Endre passord",
+        "ChangePasswordError": "Det oppstod en feil under endring av passord",
+        "ResetPasswordValidationError": "Det er ingen brukere som går via denne e-posten",
+        "ConnectedAccounts": "Tilkoblede kontoer",
+        "DisconnectAccountError": "Kan ikke koble fra den valgte kontoen",
+        "DeleteProfile": "Slett profil",
+        "ChangesSaved": "Endringer ble lagret",
+        "SavingError": "En feil oppsto under lagring av data",
+        "ApplyChanges": "Lagre",
+        "ReloginError": "Endringer ble ikke anvendt. Vennligst logg inn på nytt for å aktivere endringene",
+        "NewEmail": "Ny e-post",
+        "CurrentPassword": "Nåværende passord",
+        "WrongPassword": "Feil passord",
+        "ExistsEmailError": "Denne e-postadressen er allerede i bruk.",
+        "ChangeEmailError": "Intern feil. E-post ble ikke endret. Prøv igjen senere",
+        "EmailNotConfirmed": "E-post ikke bekreftet",
+        "ResendConfirm": "Send bekreftelse på nytt",
+        "ConnectedAccountsSectionCaption": "Tilkoblede tredjepartskontoer",
+        "Back": "Tilbake",
+        "Logins": {
+            "AddNewLogin": "Legg til",
+            "DisconnectAccount": "Frakoblet",
+            "LoginAlreadyAssociated": "Kontoen er koblet til en annen bruker",
+            "DefaultConnectionErrorMessage": "Kunne ikke koble til sosialt nettverk"
+        }
+    },
+    "OrganizationUserSection": {
+        "GridColumns": {
+            "id": "Id",
+            "fullName": "For- og etternavn",
+            "email": "E-post",
+            "status": "Status:",
+            "role": "Rolle",
+            "lastActivity": "Siste aktivitet"
+        },
+        "GridActions": {
+            "Activate": "Aktiver",
+            "Deactivate": "Deaktiver",
+            "Edit": "Rediger",
+            "Resend": "Send invitasjon på nytt",
+            "Cancel": "Avbryt invitasjon"
+        },
+        "UserStatus": {
+            "Active": "Aktiv",
+            "Inactive": "Inaktiv",
+            "Invited": "Invitasjonen er sendt"
+        },
+        "AddUser": "+ Legg til bruker",
+        "ChangeStatusMessage": {
+            "activate": "Brukeren er aktivert",
+            "deactivate": "Brukeren har blitt deaktivert"
+        },
+        "InvitationSent": "Invitasjonen er sendt",
+        "InviteUsersPage": {
+            "NewUser": "Ny bruker",
+            "Back": "Tilbake",
+            "Role": "Rolle",
+            "Email": "Bedriftens e-post",
+            "Collaborators": "Inviterte brukere",
+            "SendInvite": "Inviter",
+            "InviteSuccess": "Invitasjonen er sendt",
+            "EmailExists": "Brukeren {0} er allerede invitert til organisasjonen",
+            "GoToProfile": "Gå til profil"
+        }
+    },
+    "UserProfileActionComponent": {
+        "YourProfileActionCaption": "Din profil",
+        "LogoutActionCaption": "Logg ut"
+    },
+    "EnvironmentManagement": {
+        "WaitTrialPage": {
+            "DemoDataToggleCaption": "Fyll inn systemet med demo data",
+            "Description": "Denne kontoen vil bli brukt til å logge inn",
+            "Continue": "Fortsett",
+            "ConfirmRegistration": {
+                "RegistrationSuccessful": "Registreringen din var vellykket!",
+                "CreateFirstApp": "Vil du opprette din første app akkurat nå?",
+                "GuideMeButtonCaption": "Ja, opprett ny app",
+                "ManageButtonCaption": "Nei, jeg vil gjøre det senere"
+            },
+            "WaitPage": {
+                "StudioEnterpriseMessage": "Du kan opprette<br />din <strong>første app</strong> om et par øyeblikk!",
+                "CRMMessage": "Du kan prøve fullfrosset <strong>markedsføring, salg og tjeneste</strong> produkter integrert i en plattform med ingen kode på noen få tidspunkter!",
+                "CreatioIsHotMessage": "Creatio<br />er varmt!",
+                "TrialTimeoutMessage": "Vi jobber med det! Men på grunn av høy etterspørsel,<br />det kan være en forsinkelse i prøveleveringen.",
+                "SendTrialEmail": "Vi setter pris på din tid og vil sende en e-post<br />når prøveperioden er klar.",
+                "GoToApplications": "Gå til applikasjonshub"
+            }
+        }
+    },
+    "SsoSettings": {
+        "Validators": {
+            "AdfsTenant": {
+                "Message": "Verdien kan ikke være tom eller starte med http:// eller https://"
+            },
+            "StringUrl": {
+                "Message": "Verdi må være gyldig URL"
+            }
+        },
+        "SsoIdentityProvider": {
+            "DuplicationError": "Denne leverandøren finnes allerede. Kontroller den angitte informasjonen."
+        }
+    },
+    "BusinessRuleAction": {
+        "StructureExplorer": {
+            "Title": "Velg elementer",
+            "ElementsTab": "{0}elementer{1}"
+        }
+    },
+    "FileSizeUnit": {
+        "Byte": "byte",
+        "Bytes": "byte",
+        "Kilobyte": "kB",
+        "Megabyte": "Mb",
+        "Gigabyte": "NO"
+    },
+    "Approvals": {
+        "ComponentHeaderLabel": "Godkjenning kreves"
+    }
+}

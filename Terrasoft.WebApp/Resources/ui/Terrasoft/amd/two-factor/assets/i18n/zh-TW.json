@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "使用其他方法",
+    "TwoFactorSubmitButton": "驗證",
+    "TwoFactorBackButton": "返回",
+    "SmsProvider": {
+        "SendSms": "傳送另一個代碼",
+        "ResendSms": "重新傳送簡訊"
+    },
+    "EmailProvider": {
+        "SendEmail": "傳送另一個代碼"
+    },
+    "TwoFactor.AdditionalVerification": "額外驗證",
+    "TwoFactor.CancelButton.Caption": "取消",
+    "TwoFactor.SmsProviderNotAvailable": "輸入透過 SMS 傳送至您電話號碼的驗證碼",
+    "TwoFactor.EnterSmsCode.Caption": "輸入透過 SMS 傳送至您電話號碼的驗證碼",
+    "TwoFactor.EnterEmailCode.Caption": "輸入寄到您電子郵件地址的驗證碼",
+    "TwoFactor.EnterTOTPCode.Caption": "從驗證器應用程式輸入驗證碼",
+    "TwoFactor.VerificationCode.Caption": "驗證碼",
+    "TwoFactor.TOTPUnavailable.Caption": "要使用驗證器應用程式方法，您首先需要進行設定。您可以在個人資料頁面上進行設定。",
+    "TwoFactor.UseAnotherMethod.Caption": "使用其他方法",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "驗證碼無效。請確認您輸入的資料正確無誤，或聯絡您的系統管理員。",
+    "TwoFactor.ValidationCanceled": "第二個因素的驗證被取消",
+    "TwoFactor.EnterRecoveryCode.Caption": "輸入復原代碼",
+    "TwoFactor.RecoveryCodesNotAvailable": "要使用恢復代碼，您首先需要進行設定。您可以在個人資料頁面中進行設定"
+}

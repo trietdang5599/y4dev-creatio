@@ -1,0 +1,26 @@
+<svg id="Component_707_4" data-name="Component 707 – 4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Group_7356" data-name="Group 7356" transform="translate(354.15 -589.151)">
+    <g id="Group_7355" data-name="Group 7355">
+      <path id="Subtraction_898" data-name="Subtraction 898" d="M-8356.151-959.849h-2v-6.292l-5-5v-2.708h13v2.708l-4.293,4.292h-1.414l4.708-4.708v-1.293h-11v1.293l5,5v5.707h1v1Z" transform="translate(8010 1564)" fill="currentColor"/>
+      <g id="Group_15771" data-name="Group 15771" transform="translate(-1 -1)">
+        <g id="Ellipse_1346" data-name="Ellipse 1346" transform="translate(-344.15 599.151)" fill="none" stroke="currentColor" stroke-width="1">
+          <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+          <circle cx="2.5" cy="2.5" r="2" fill="none"/>
+        </g>
+        <path id="Path_11724" data-name="Path 11724" d="M-342.15,598.259v2" transform="translate(0.5 -0.108)" fill="none" stroke="currentColor" stroke-width="1"/>
+        <path id="Path_11725" data-name="Path 11725" d="M-342.15,598.259v2" transform="translate(0.5 4.892)" fill="none" stroke="currentColor" stroke-width="1"/>
+        <g id="Ellipse_1347" data-name="Ellipse 1347" transform="translate(-342.15 601.151)" fill="none" stroke="currentColor" stroke-width="1">
+          <circle cx="0.5" cy="0.5" r="0.5" stroke="none"/>
+          <circle cx="0.5" cy="0.5" r="0.5" fill="none"/>
+        </g>
+        <path id="Path_11726" data-name="Path 11726" d="M-342.15,598.259v2" transform="translate(260.109 943.802) rotate(90)" fill="none" stroke="currentColor" stroke-width="1"/>
+        <path id="Path_11727" data-name="Path 11727" d="M-342.15,598.259v2" transform="translate(255.109 943.802) rotate(90)" fill="none" stroke="currentColor" stroke-width="1"/>
+        <path id="Path_11728" data-name="Path 11728" d="M-342.15,598.259v2" transform="translate(325.795 418.08) rotate(45)" fill="none" stroke="currentColor" stroke-width="1"/>
+        <path id="Path_11729" data-name="Path 11729" d="M-342.15,598.259v2" transform="translate(322.259 421.616) rotate(45)" fill="none" stroke="currentColor" stroke-width="1"/>
+        <path id="Path_11730" data-name="Path 11730" d="M-342.15,598.259v2" transform="translate(-525.222 -65.794) rotate(-45)" fill="none" stroke="currentColor" stroke-width="1"/>
+        <path id="Path_11731" data-name="Path 11731" d="M-342.15,598.259v2" transform="translate(-521.686 -62.258) rotate(-45)" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+  <rect id="Rectangle_6429" data-name="Rectangle 6429" width="16" height="16" fill="none"/>
+</svg>

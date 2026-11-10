@@ -1,0 +1,67 @@
+﻿.execution-details-edit-page-modal {
+  border: 0;
+  padding: 26px 40px 10px 40px;
+}
+.execution-details-edit-page-modal .ts-modalbox-innerbox {
+  display: block;
+}
+.execution-details-edit-page-modal .ts-modalbox-innerbox .base-edit:not(.base-edit-disabled):hover .base-edit-right-icon,
+.execution-details-edit-page-modal .ts-modalbox-innerbox .base-edit-focus .base-edit-right-icon {
+  display: block;
+}
+.execution-details-edit-page-modal .ts-modalbox-innerbox .base-edit-right-icon {
+  display: none;
+}
+.execution-details-edit-page-modal .ts-modalbox-innerbox .base-edit.base-edit-with-right-icon {
+  padding-right: 10px;
+}
+.execution-details-edit-page-modal .schema-wrap.one-el {
+  min-width: 30em;
+}
+.execution-details-edit-page-modal .process-task-execution-detail-header-name-container .t-label {
+  font-size: 20px;
+  color: #64b8df;
+}
+.execution-details-edit-page-modal .modal-box-schema-module-header {
+  padding-left: 0;
+  padding-bottom: 18px;
+}
+.execution-details-edit-page-modal .modal-box-schema-module-header .close-btn-container {
+  padding-top: 15px;
+  padding-right: 25px;
+}
+.execution-details-edit-page-modal .schema-wrap.one-el.modal-box-schema-module-content {
+  padding: 0;
+  position: static;
+}
+.execution-details-edit-page-modal .schema-wrap.one-el.modal-box-schema-module-content .execution-details-edit-page {
+  height: 100%;
+}
+.execution-details-edit-page-modal .schema-wrap.one-el.modal-box-schema-module-content .execution-details-edit-page .modal-box-card-content-container .grid-layout .control-width-15 {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.execution-details-edit-page-modal .schema-wrap.one-el.modal-box-schema-module-content .execution-details-edit-page .modal-box-card-content-container .grid-layout .control-width-15 .control-wrap {
+  margin-top: -5px;
+}
+.execution-details-edit-page-modal .schema-wrap.one-el.modal-box-schema-module-content .execution-details-edit-page .modal-box-card-content-container .grid-layout .control-width-15.show-in-scheduler-container {
+  display: inline-flex;
+}
+.execution-details-edit-page-modal .schema-wrap.one-el.modal-box-schema-module-content .execution-details-edit-page .modal-box-card-content-container .grid-layout .control-width-15.show-in-scheduler-container .label-wrap {
+  order: 1;
+}
+.execution-details-edit-page-modal .schema-wrap.one-el.modal-box-schema-module-content .execution-details-edit-page .modal-box-card-content-container .grid-layout .control-width-15.show-in-scheduler-container .control-wrap {
+  flex-basis: 25px;
+}
+.execution-details-edit-page-modal .schema-wrap.one-el.modal-box-schema-module-content .execution-details-edit-page .modal-box-card-content-container .label-wrap {
+  max-width: none;
+  min-width: 10em;
+}
+.execution-details-edit-page-modal .schema-wrap.one-el.modal-box-schema-module-content .execution-details-edit-page .bottom-buttons-wrapper {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.execution-details-edit-page-modal .schema-wrap.one-el.modal-box-schema-module-content .execution-details-edit-page .bottom-buttons-wrapper .right-button {
+  margin-left: 9px;
+}

@@ -1,0 +1,95 @@
+﻿.widget-designer-container {
+	padding-left: 32px;
+	> .grid-layout-row:first-child {
+		display: none;
+	}
+	.crt-indicator-widget-wrapper {
+		position: fixed;
+		min-width: 280px;
+		max-width: 32%;
+		left: 71%;
+		top: 160px;
+		transform: translate(-50%, -50%);
+	}
+
+	.crt-chart-widget-wrapper,
+	.crt-funnel-widget-wrapper,
+	.crt-full-pipeline-widget-wrapper {
+		position: fixed;
+		width: 50%;
+		height: 80%;
+	}
+	
+	.crt-gauge-widget-wrapper {
+		position: fixed;
+		width: 45%;
+		height: 70%;
+	}
+}
+ts-mask {
+	.mask-wrap {
+		background-color: unset !important;
+	}
+}
+
+.cdk-overlay-dark-backdrop {
+	background: rgba(115, 124, 161, 0.3) !important;
+}
+
+.controlsContainerLookupPage .main-buttons[data-tag="add"] {
+	display: none;
+}
+
+.menu {
+	.menu-item[data-tag="delete"],
+	.menu-item[data-tag="edit"],
+	.menu-item[data-tag="copy"],
+	.menu-item[data-tag="open-grid-settings-page"] {
+		display: none;
+	}
+}
+
+.gauge-scale-container {
+	width: 100%;
+	display: inline-block;
+	margin-left: 4px;
+	float: left;
+}
+
+.gauge-scale-container .control-no-label {
+	display: inline-block;
+	width: 33%;
+}
+
+#HomePageGaugeDesignerMinContainer {
+	width: 22%;
+}
+
+#HomePageGaugeDesignerMiddleFromContainer {
+	width: 12%;
+}
+
+.color-select-enum {
+	width: 33%;
+	display: inline-block;
+}
+
+.wide-color-preview-icon {
+	float: left;
+	width: 50%;
+	height: 5px;
+	padding: 0;
+	cursor: auto;
+}
+
+.color-preview-icon {
+	float: left;
+	width: 33%;
+	height: 5px;
+	padding: 0;
+	cursor: auto;
+}
+
+[class$="color-preview-icon"] [class*="t-btn-image"] {
+	width: 100%;
+}

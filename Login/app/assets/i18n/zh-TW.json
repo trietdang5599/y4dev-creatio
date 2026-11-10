@@ -1,0 +1,125 @@
+{
+    "Input": {
+        "HidePassword": "隱藏密碼",
+        "ShowPassword": "顯示密碼"
+    },
+    "PasswordChangedSuccessfully": "密碼已成功變更",
+    "PasswordChangeError": "密碼變更時發生錯誤",
+    "PasswordAndConfirmationDoNotMatch": "密碼與確認不符",
+    "TotpSetupPage": {
+        "VerificationCode": "驗證碼",
+        "Secret": "秘密",
+        "SubmitButton": "連接",
+        "Success": "已連接 Authenticator 應用程式",
+        "TokenExpired": "您的令牌已過期。",
+        "InvalidTotp": "驗證碼無效。請確認您輸入的資料正確無誤，或聯絡您的系統管理員。",
+        "Error": "在 totp 設定過程中發生錯誤。請重試或聯絡您的系統管理員",
+        "Header": "將驗證器應用程式連接到您的帳戶",
+        "Step1": "1.在您的行動裝置上安裝驗證器應用程式，例如 Google Authenticator。",
+        "Step2": "2.使用應用程式掃描此 QR 代碼：",
+        "Step2SecretDescription": "或手動輸入按鍵：",
+        "Step3": "3.輸入驗證器應用程式產生的 6 位數驗證碼。",
+        "CancelButton": "取消"
+    },
+    "ResetPasswordPage": {
+        "NewPassword": "新密碼",
+        "NewPasswordConfirm": "確認新密碼",
+        "SecondFactor": "驗證碼",
+        "SendCodeViaSMS": "通過簡訊寄送驗證碼",
+        "ResetPasswordButtonCaption": "重設密碼",
+        "Error": "密碼復原過程中發生錯誤。請重試或聯絡您的系統管理員"
+    },
+    "PasswordComplexity": {
+        "MinPasswordLength": {
+            "Message": "字元 - {{minLength}"
+        },
+        "MinPasswordUppercaseCharCount": {
+            "Message": "大寫字母 - {{minCount}}"
+        },
+        "MinPasswordLowercaseCharCount": {
+            "Message": "小寫字母 - {{minCount}}"
+        },
+        "MinPasswordNumericCharCount": {
+            "Message": "位數 - {{minCount}}"
+        },
+        "MinPasswordSpecialCharCount": {
+            "Message": "特殊字元 - {{minCount}}"
+        },
+        "PasswordStrength": {
+            "Message": "密碼不符合要求"
+        },
+        "PasswordsDoNotMatch": {
+            "Message": "密碼不符"
+        },
+        "MfaEmpty": {
+            "Message": "請填寫此欄"
+        }
+    },
+    "PasswordValidationTooltipCaption": "最低密碼要求",
+    "BeginPasswordRecoveryPage": {
+        "Email": "輸入用戶電子郵件或登入名",
+        "EmailSent": "如果帳戶存在，您會收到一封包含密碼復原指示的電子郵件。如果電子郵件未送達，請檢查您的垃圾郵件資料夾，並與系統管理員聯繫。",
+        "Error": "傳送電子郵件時發生錯誤",
+        "SendButtonCaption": "傳送電子郵件",
+        "ResendButtonCaption": "重新傳送電子郵件",
+        "OpenLoginPageButtonCaption": "開啟登入頁面",
+        "ResetLinkExpired": "重設連結已過期或已被使用"
+    },
+    "UseAnotherMethod": "使用其他方法",
+    "TwoFactorSubmitButton": "驗證",
+    "TwoFactorBackButton": "返回",
+    "SmsProvider": {
+        "SendSms": "傳送另一個代碼",
+        "ResendSms": "重新傳送簡訊"
+    },
+    "EmailProvider": {
+        "SendEmail": "傳送另一個代碼"
+    },
+    "TwoFactor.SmsProviderNotAvailable": "輸入透過 SMS 傳送至您電話號碼的驗證碼",
+    "TwoFactor.EnterSmsCode.Caption": "輸入透過 SMS 傳送至您電話號碼的驗證碼",
+    "TwoFactor.EnterEmailCode.Caption": "輸入寄到您電子郵件地址的驗證碼",
+    "TwoFactor.EnterTOTPCode.Caption": "從驗證器應用程式輸入驗證碼",
+    "TwoFactor.VerificationCode.Caption": "驗證碼",
+    "TwoFactor.TOTPUnavailable.Caption": "要使用驗證器應用程式方法，您首先需要進行設定。您可以在個人資料頁面上進行設定。",
+    "TwoFactor.UseAnotherMethod.Caption": "使用其他方法",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "驗證碼無效。請確認您輸入的資料正確無誤，或聯絡您的系統管理員。",
+    "TwoFactor.ValidationCanceled": "第二個因素的驗證被取消",
+    "ConsentPage": {
+        "AcceptButtonCaption": "接受",
+        "DiscardButtonCaption": "丟棄",
+        "SwitchButton": "Switch",
+        "DescriptionTextStart": "{{oauthApplicationName}} application is requesting access to your ",
+        "DescriptionTextEnd": " Creatio account.  After your consent it will have access to the following operations:",
+        "CommonScopeText": "Ability to perform all operations with data and use any functionality available for your account",
+        "Footer1": "You will be able to revoke access at any time in your user profile.",
+        "Footer2": "進一步瞭解 ",
+        "Footer3": "For the applications provided by Creatio, you can find the relevant documentation in the Academy. Note that Creatio does not review integrations with third-party applications. Your use of such an application and integration is subject to the third-party Terms of Service, Privacy Policy and Documentation.",
+        "AcademyLink": "學院",
+        "ConsentErrorInvalidRequest": {
+            "Title": "Integration setup error",
+            "Message": "Unable to start the authorization process because the request is not configured correctly. One or more required parameters are incorrect or missing.",
+            "Suggestion": "Contact your system administrator or Creatio support to verify the integration settings and ensure that all necessary parameters are provided."
+        },
+        "ConsentErrorInvalidClient": {
+            "Title": "Integration not found",
+            "Message": "Unable to start the authorization process because no active integration is configured using the provided client ID and authorized redirect URI.",
+            "Suggestion": "Contact your system administrator or Creatio support to check the integration settings and ensure that the correct client ID and redirect URI are used."
+        },
+        "ConsentErrorInvalidUser": {
+            "Title": "Access to integration is not permitted",
+            "Message": "Unable to continue because your user account is not permitted to use this integration.",
+            "Suggestion": "Contact your system administrator to update the list of users authorized to use this integration."
+        },
+        "ConsentErrorInvalidConsentId": {
+            "Title": "Authorization request expired",
+            "Message": "Unable to complete the authorization because the request has expired.",
+            "Suggestion": "Restart the integration authorization process from the beginning to continue."
+        },
+        "ConsentErrorServerError": {
+            "Title": "Error during integration setup",
+            "Message": "An error occurred while processing the request. Please try again later.",
+            "Suggestion": "Please contact your system administrator to request the necessary access rights and repeat your attempt after that."
+        },
+        "ErrorFooter": "Learn more about OAuth integration settings in Creatio on the "
+    }
+}

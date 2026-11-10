@@ -1,0 +1,25 @@
+﻿.right-panel-container *[data-item-type="mjbutton"] .properties-header,
+.right-panel-container *[data-item-type="mjbutton"] .properties-content .ts-tabpanel {
+  background-color: #3b82c7;
+}
+.right-panel-container *[data-item-type="mjbutton"] .ts-controlgroup-caption-wrap > span {
+  color: #3b82c7;
+}
+.right-panel-container *[data-item-type="mjbutton"] .background-label-wrapper > label {
+  color: #3b82c7;
+}
+.right-panel-container *[data-item-type="mjbutton"] .ts-controlgroup-container {
+  display: flex;
+}
+.right-panel-container *[data-item-type="mjbutton"] .ts-controlgroup-container .link {
+  width: 100%;
+}
+.right-panel-container *[data-item-type="mjbutton"] .ts-controlgroup-container *[data-item-marker="Link"] {
+  padding-right: 0;
+}
+.right-panel-container *[data-item-type="mjbutton"] .ts-controlgroup-container *[data-item-marker="MacrosButton"] {
+  padding: 5px;
+}
+.right-panel-container *[data-item-type="mjbutton"] .border-settings-control-group .ts-controlgroup-container {
+  display: block;
+}

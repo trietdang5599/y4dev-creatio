@@ -1,0 +1,139 @@
+﻿.breadcrumbs-container-wrapper {
+	max-height: 38px;
+	min-height: 38px;
+	height: 38px;
+	width: 100%;
+	color: #444444;
+	background-color: #F7F7F7;
+	border-bottom: 1px solid #E0E0E0;
+
+	.breadcrumbs-container {
+		display: flex;
+		padding-top: 4px;
+		padding-left: 16px;
+
+		.breadcrumbs-item-container {
+			width: auto;
+			overflow: hidden;
+			display: flex;
+
+			label {
+				font-style: normal;
+				line-height: 29px;
+				font-size: 12px;
+			}
+
+			.breadcrumbs-item-caption {
+				width: auto;
+
+				&:hover {
+					cursor: pointer;
+					text-decoration: underline;
+				}
+			}
+
+			.breadcrumbs-item-caption-selected {
+				width: auto;
+				color: #999999;
+			}
+
+			.breadcrumbs-item-divider {
+				width: auto;
+				padding: 0 8px;
+			}
+
+			.breadcrumbs-item-dots {
+				width: auto;
+				padding-right: 5px;
+			}
+		}
+
+	}
+}
+
+.content-styles-container {
+
+	.ts-controlgroup {
+		overflow: initial;
+		.ts-controlgroup-marker-wrap {
+			display: none;
+		}
+		.ts-controlgroup-caption-wrap {
+			pointer-events: none;
+		}
+	}
+
+	.align-label {
+		display: inline-block;
+		width: auto;
+		font-size: 1.5em;
+		color: #00aeef;
+		padding-top: 8px;
+		padding-right: 8px;
+		overflow: hidden;
+	}
+}
+
+.template-settings-container {
+	> div {
+		padding-bottom: 10px;
+
+		.t-label {
+			color: #00aeef;
+		}
+
+		.ts-controlgroup-container.no-line {
+			padding: 0;
+		}
+
+		.template-name {
+			border-bottom: 1px dotted #c8c8c8;
+
+			.ts-controlgroup-caption-wrap > span {
+				color: #4a4a4a;
+				line-height: 2.2em;
+			}
+		}
+
+		.t-sub-properties-label {
+			color: #999999;
+			font-size: 13px;
+			text-overflow: ellipsis;
+			padding-top: 10px;
+		}
+
+		.template-width-prop-wrap {
+			width: 50%;
+		}
+
+		.template-breakpoint-label-container {
+			display: inline-flex;
+
+			.t-information-btn {
+				margin: 4px 0 0 2px;
+				padding: 0 2px;
+			}
+		}
+
+		label {
+			display: inline;
+		}
+
+		.ts-controlgroup-marker-wrap {
+			display: none;
+		}
+
+		.template-html-mode-toggle {
+			.label-wrap.checkbox-label-wrap {
+				width: 160px;
+			}
+			.template-html-mode-toggle-label {
+				color: #999999;
+			}
+			.label-wrap + .control-wrap {
+				padding-left: 185px;
+				margin-left: -160px;
+			}
+		}
+	}
+}

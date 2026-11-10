@@ -1,0 +1,19 @@
+﻿.lazy-duplicates-page .actions-container .deduplication-process-label {
+  width: auto;
+  margin: 0;
+  color: #006CE0;
+  font-size: 15px;
+  padding: 5px;
+}
+.lazy-duplicates-page .actions-container .t-information-btn {
+  margin: 2px;
+}
+.lazy-duplicates-page .center-main-container.duplicates-card-content-container .duplicates-container-item .ts-controlgroup {
+  max-width: none;
+}
+.lazy-duplicates-page .duplicates-detail {
+  margin-bottom: 25px;
+}
+.freedom-theme .lazy-duplicates-page .actions-container {
+  min-height: 80px !important;
+}

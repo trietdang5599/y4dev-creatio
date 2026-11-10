@@ -1,0 +1,1 @@
+<%@ servicehost language="C#" debug="true" factory="System.ServiceModel.Activation.WebServiceHostFactory" service="Terrasoft.Core.ServiceModel.ValueUnmaskingService" codebehind="ValueUnmaskingService.svc.cs" %>

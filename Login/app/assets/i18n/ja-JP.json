@@ -1,0 +1,125 @@
+{
+    "Input": {
+        "HidePassword": "パスワードを非表示",
+        "ShowPassword": "パスワードを表示"
+    },
+    "PasswordChangedSuccessfully": "パスワードが正常に変更されました",
+    "PasswordChangeError": "パスワード変更中にエラーが発生しました",
+    "PasswordAndConfirmationDoNotMatch": "パスワードと確認情報が一致しません",
+    "TotpSetupPage": {
+        "VerificationCode": "認証コード",
+        "Secret": "秘密",
+        "SubmitButton": "接続",
+        "Success": "認証アプリが接続されました",
+        "TokenExpired": "トークンの有効期限が切れました。",
+        "InvalidTotp": "無効な認証コードです。正しいデータを入力したことを確認するか、システム管理者に連絡してください。",
+        "Error": "セットアッププロセス中にエラーが発生しました。もう一度試すか、システム管理者に問い合わせてください。",
+        "Header": "アカウントに認証アプリを接続する",
+        "Step1": "1. モバイルデバイスに Google Authenticator などの認証アプリをインストールします。",
+        "Step2": "2. アプリでこのQRコードをスキャンします:",
+        "Step2SecretDescription": "または、キーを手動で入力します。",
+        "Step3": "3. 認証アプリによって生成された6桁の認証コードを入力します。",
+        "CancelButton": "キャンセル"
+    },
+    "ResetPasswordPage": {
+        "NewPassword": "新規パスワード",
+        "NewPasswordConfirm": "新しいパスワードの確認",
+        "SecondFactor": "確認コード",
+        "SendCodeViaSMS": "SMSでコードを送信",
+        "ResetPasswordButtonCaption": "パスワードのリセット",
+        "Error": "パスワード復元処理中にエラーが発生しました。もう一度やり直すか、システム管理者に問い合わせてください。"
+    },
+    "PasswordComplexity": {
+        "MinPasswordLength": {
+            "Message": "文字 - {{minLength}}"
+        },
+        "MinPasswordUppercaseCharCount": {
+            "Message": "大文字の文字 - {{minCount}}"
+        },
+        "MinPasswordLowercaseCharCount": {
+            "Message": "大文字の文字 - {{minCount}}"
+        },
+        "MinPasswordNumericCharCount": {
+            "Message": "{{minCount}} 桁以上の数字を入力してください"
+        },
+        "MinPasswordSpecialCharCount": {
+            "Message": "特殊文字 - {{minCount}}"
+        },
+        "PasswordStrength": {
+            "Message": "パスワードが要件を満たしていません"
+        },
+        "PasswordsDoNotMatch": {
+            "Message": "パスワードが一致しません"
+        },
+        "MfaEmpty": {
+            "Message": "フィールドを入力してください"
+        }
+    },
+    "PasswordValidationTooltipCaption": "最低限のパスワード要件",
+    "BeginPasswordRecoveryPage": {
+        "Email": "ユーザーのメールアドレスまたはログインを入力",
+        "EmailSent": "アカウントが存在する場合は、パスワード回復の手順が含まれているメールが送信されます。 メールが届かない場合は、迷惑メールフォルダを確認し、システム管理者に連絡してください",
+        "Error": "メールの削除中にエラーが発生しました。",
+        "SendButtonCaption": "メール送信",
+        "ResendButtonCaption": "メール送信",
+        "OpenLoginPageButtonCaption": "編集ページを表示",
+        "ResetLinkExpired": "リセットリンクの有効期限が切れたか、既に使用されています"
+    },
+    "UseAnotherMethod": "別の方法を使用する",
+    "TwoFactorSubmitButton": "確認する",
+    "TwoFactorBackButton": "戻る",
+    "SmsProvider": {
+        "SendSms": "別のコードを送信",
+        "ResendSms": "SMSを再送信する"
+    },
+    "EmailProvider": {
+        "SendEmail": "別のコードを送信"
+    },
+    "TwoFactor.SmsProviderNotAvailable": "SMS経由であなたの電話番号に送信された確認コードを入力してください",
+    "TwoFactor.EnterSmsCode.Caption": "SMS経由であなたの電話番号に送信された確認コードを入力してください",
+    "TwoFactor.EnterEmailCode.Caption": "SMS経由であなたの電話番号に送信された確認コードを入力してください",
+    "TwoFactor.EnterTOTPCode.Caption": "認証アプリから認証コードを入力してください",
+    "TwoFactor.VerificationCode.Caption": "アプリケーションコード",
+    "TwoFactor.TOTPUnavailable.Caption": "認証アプリメソッドを使用するには、まず設定する必要があります。プロファイルページで設定できます。",
+    "TwoFactor.UseAnotherMethod.Caption": "別の方法を使用する",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "無効な認証コードです。正しいデータを入力したことを確認するか、システム管理者に連絡してください",
+    "TwoFactor.ValidationCanceled": "第2要素の検証がキャンセルされました",
+    "ConsentPage": {
+        "AcceptButtonCaption": "承認",
+        "DiscardButtonCaption": "破棄",
+        "SwitchButton": "切り替え",
+        "DescriptionTextStart": "{{oauthApplicationName}} アプリケーションはあなたのアクセスを要求しています ",
+        "DescriptionTextEnd": " Creatioアカウント。同意後、以下の操作にアクセスできます。",
+        "CommonScopeText": "データを使用してすべての操作を実行し、アカウントで利用可能な機能を使用することができます。",
+        "Footer1": "お客様は、お客様のユーザープロファイル内のいつでもアクセスを取り消すことができます。",
+        "Footer2": "詳細は、",
+        "Footer3": "Creatioによって提供されるアプリケーションの場合, あなたはアカデミーで関連文書を見つけることができます. Creatioは、サードパーティのアプリケーションとの統合を検討していないことに注意してください. このようなアプリケーションおよび統合の使用は、第三者のサービス規約、プライバシーポリシーおよびドキュメンテーションに従うものとします。",
+        "AcademyLink": "アカデミー",
+        "ConsentErrorInvalidRequest": {
+            "Title": "連携設定エラー",
+            "Message": "リクエストが正しく設定されていないため、認証プロセスを開始できません。1つ以上の必須パラメータが正しくないか、または不足しています。",
+            "Suggestion": "統合設定を確認し、必要なパラメータがすべて提供されていることを確認するには、システム管理者またはCreatioサポートに連絡してください。"
+        },
+        "ConsentErrorInvalidClient": {
+            "Title": "連携が見つかりません",
+            "Message": "提供されたクライアント ID と承認されたリダイレクト URI を使用してアクティブな統合が構成されていないため、認証プロセスを開始できません。",
+            "Suggestion": "統合設定を確認し、必要なパラメータがすべて提供されていることを確認するには、システム管理者またはCreatioサポートに連絡してください。"
+        },
+        "ConsentErrorInvalidUser": {
+            "Title": "統合へのアクセスは許可されていません",
+            "Message": "この連携を使用することが許可されていないため、続行できません。",
+            "Suggestion": "システム管理者に連絡して、この統合を使用する権限のあるユーザーのリストを更新してください。"
+        },
+        "ConsentErrorInvalidConsentId": {
+            "Title": "認証リクエストの有効期限が切れました",
+            "Message": "リクエストの有効期限が切れているため、認証を完了できません。",
+            "Suggestion": "統合認証プロセスを最初から再起動して続行します。"
+        },
+        "ConsentErrorServerError": {
+            "Title": "統合設定中にエラーが発生しました",
+            "Message": "リクエストの処理中にエラーが発生しました。後でもう一度お試しください。",
+            "Suggestion": "必要なアクセス権をリクエストするには、システム管理者に問い合わせ、その後の試行を繰り返してください。"
+        },
+        "ErrorFooter": "Creatio の OAuth 統合設定について詳しくは、 "
+    }
+}

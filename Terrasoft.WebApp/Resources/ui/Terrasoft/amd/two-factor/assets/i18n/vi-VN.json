@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Use another method",
+    "TwoFactorSubmitButton": "Verify",
+    "TwoFactorBackButton": "Trờ lại",
+    "SmsProvider": {
+        "SendSms": "Send another code",
+        "ResendSms": "Resend SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Send another code"
+    },
+    "TwoFactor.AdditionalVerification": "Additional verification",
+    "TwoFactor.CancelButton.Caption": "Hủy",
+    "TwoFactor.SmsProviderNotAvailable": "Enter the verification code that was sent via SMS to your phone number",
+    "TwoFactor.EnterSmsCode.Caption": "Enter the verification code that was sent via SMS to your phone number",
+    "TwoFactor.EnterEmailCode.Caption": "Enter the verification code that was sent to your email address",
+    "TwoFactor.EnterTOTPCode.Caption": "Enter the verification code from authenticator app",
+    "TwoFactor.VerificationCode.Caption": "Verification code",
+    "TwoFactor.TOTPUnavailable.Caption": "To use the authenticator app method, you first need to set it up. You can do this on your profile page.",
+    "TwoFactor.UseAnotherMethod.Caption": "Use another method",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Invalid verification code. Make sure you entered correct data or contact your system administrator",
+    "TwoFactor.ValidationCanceled": "Validation of second factor was canceled",
+    "TwoFactor.EnterRecoveryCode.Caption": "Enter the recovery code",
+    "TwoFactor.RecoveryCodesNotAvailable": "To use the recovery codes, you first need to set it up. You can do this on your profile page"
+}

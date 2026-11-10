@@ -1,0 +1,254 @@
+﻿@communication-panel-width: 4.8em;
+@right-panel-z-index: 1000;
+@btn-width: 48px;
+@btn-height: 48px;
+@panel-background-color: #FFFFFF;
+@panel-content-background-color: #D1DBE8;
+@pressed-content-background-color: #4D5A75;
+@hover-content-background-color: #B7C1CC;
+@text-color: #FFFFFF;
+@right-panel-width: 55px;
+@gray-bg-color: #ebeeef;
+@white-bg-color: #fff;
+@user-profile-height: 112px;
+@email-error-background-color: #FF7A64;
+.icon-background-color (@color) {
+	.t-btn-image {
+		background-color: @color;
+	}
+}
+.communication-panel {
+	width: @communication-panel-width;
+	height: 100%;
+	right: 0;
+	z-index: @right-panel-z-index;
+	top: 0;
+	overflow: hidden;
+	.all {
+		height: inherit;
+		background-color: @panel-background-color;
+	}
+	#CommunicationPanelContainer {
+		height: inherit;
+	}
+	.schema-wrap.one-el {
+		min-width: 0;
+	}
+	// Content
+	.content {
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		z-index: 1;
+		.t-btn-wrapper {
+			padding: inherit;
+			height: @btn-height;
+		}
+		//Text
+		.wrapper-with-centered-left-image {
+			padding: 0;
+			position: static;
+		}
+		.t-btn-wrapper {
+			text-align: left;
+			cursor: pointer;
+		}
+		.t-btn-text {
+			position: relative;
+			line-height: normal;
+			margin: 9px 0 0 9px;
+			transform: translate(-50%,-50%);
+			-webkit-transform: translate(-50%, -50%);
+			font-family: "Segoe UI";
+			font-size: 12px;
+		}
+		.t-btn-style-with-call-duration {
+			.t-btn-text {
+				margin: 9px 0 0 15px;
+				color: @text-color;
+			}
+		}
+		.t-btn-style-transparent {
+			color: @text-color;
+		}
+		.t-btn-down.t-btn-style-transparent:hover, .t-btn-pressed.t-btn-style-transparent, .t-btn-style-transparent:hover {
+			color: @text-color;
+		}
+		.t-btn-style-transparent:not(.t-btn-disabled):hover {
+			color: @text-color;
+		}
+	}
+}
+//Image
+.communication-panel-menu-images-class {
+	width: @btn-width;
+	height: @btn-height;
+}
+
+#rightPanelCloseButton-wrapperEl {
+	position: absolute;
+	top: 100px;
+	right: 12px;
+	padding: 0;
+}
+#rightPanelCloseButton-imageEl {
+	width: 15px;
+	height: 15px;
+}
+
+body[OldUI=false]:not(.x-ie) {
+	&[is-card-opened="true"] {
+		.communication-panel {
+			&:after {
+				display: none
+			}
+		}
+	}
+
+	.communication-panel {
+		&:after {
+			content: "";
+			width: 1px;
+			height: 100vh;
+			background-color: #e6e6e6;
+			top: 10px;
+			right: 56px;
+			position: fixed;
+		}
+
+		&.opened-right-panel {
+			&:after {
+				display: none;
+			}
+		}
+	}
+}
+
+body[OldUI=false] {
+	.communication-panel {
+		top: @user-profile-height;
+		.content {
+			margin-top: -@user-profile-height;
+			.t-btn-wrapper {
+				margin-bottom: 4px;
+
+				.wrapper-with-centered-left-image {
+					left: 6px;
+				}
+				> span:not(.wrapper-with-centered-left-image) {
+					margin-top: 4px;
+					margin-right: 1px;
+				}
+			}
+			.t-btn-image {
+				background-color: #284578;
+				border-radius: 50%;
+				box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+			}
+
+			[data-item-marker*="email errors"] {
+				.icon-background-color(@email-error-background-color);
+			}
+
+			.t-btn-pressed {
+				&[data-item-marker*="email errors"] {
+					.icon-background-color(@email-error-background-color);
+				}
+
+				.icon-background-color(#df1f26);
+			}
+			.wrapper-with-centered-left-image {
+				.t-btn-image.t-btn-image-left {
+					left: 4px;
+				}
+				.t-btn-text.t-btn-left {
+					background-color: #ff4013;
+					width: 18px;
+					height: 18px;
+					border-radius: 50%;
+					display: block;
+					text-align: center;
+					box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.05);
+				}
+			}
+			.communication-panel-menu-images-class {
+				width: 40px;
+				height: 40px;
+			}
+			[data-item-marker="ctiPanel"] {
+				.wrapper-with-centered-left-image .t-btn-text.t-btn-left {
+					width: 32px;
+					border-radius: 9px;
+					margin-left: 16px
+				}
+			}
+		}
+		&.opened-right-panel {
+			.content .t-btn-wrapper > span:not(.wrapper-with-centered-left-image) {
+				margin-right: 2px;
+			}
+		}
+	}
+	.right-panel {
+		top: 0em;
+		z-index: 1002;
+		border: 7px solid #ebeeef;
+		width: 37em;
+		border-bottom: 0;
+		border-right: 0;
+		border-top-left-radius: 10px;
+
+		.right-panel-modules-container {
+			> div[id*="EmailModule"],
+			> div[id*="ESNFeedModule"] {
+				padding-top: 3px;
+			}
+		}
+	}
+	@media screen and (max-width: 1439px) {
+		.right-panel {
+			border-left: 0;
+			margin-top: 7px;
+			border-top: 0;
+			border-top-left-radius: 3px;
+		}
+	}
+	.right-side-bar-container {
+		margin-top: 9px;
+	}
+	.communication-panel:not(.opened-right-panel) {
+		border: 1px solid #ebeeef;
+		width: 56px;
+	}
+
+	.communication-panel {
+		width: @right-panel-width;
+		.fixed {
+			padding-bottom: 0;
+		}
+		&.opened-right-panel {
+			z-index: 1001;
+			.schema-wrap {
+				background-color: @gray-bg-color;
+			}
+			.all {
+				background-color: @white-bg-color;
+				margin-right: 6px;
+				padding-right: 0;
+				border-top-right-radius: 3px;
+			}
+			[data-item-marker=rightPanelCloseButton] {
+				display: none;
+			}
+		}
+		.all {
+			background-color: @gray-bg-color;
+			padding-right: 6px;
+			margin-top: 7px;
+			padding-left: 3px;
+		}
+	}
+}

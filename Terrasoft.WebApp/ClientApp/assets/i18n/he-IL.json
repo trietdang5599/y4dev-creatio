@@ -1,0 +1,3740 @@
+{
+    "ConfirmationDialog": {
+        "YES": "כן",
+        "NO": "לא",
+        "DELETE": "מחק",
+        "CANCEL": "בטל"
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "AddRecordRightsDialog": {
+        "Add": "הוסף",
+        "Cancel": "בטל",
+        "RecordAuthor": "מחבר רשומות",
+        "RightsRecipient": "משתמש או תפקיד המקבל הרשאות",
+        "Title": "הוסף הרשאות על סמך מחבר הרשומה"
+    },
+    "LocalizableStringsDialog": {
+        "Title": "מילים שניתן לשנות",
+        "NameTitle": "קוד",
+        "ValueTitle": "ערך",
+        "Add": "הוסף",
+        "Cancel": "בטל",
+        "Apply": "יישם",
+        "ShowAllLanguages": "הצג את כל השפות",
+        "HideInactiveLanguages": "הסתר שפות לא פעילות",
+        "Validations": {
+            "RequiredNameCaption": "הזן ערך",
+            "PatternNameCaption": "ערך לא חוקי. השתמש בסמלים: a-z, A-Z, 0-9. סמל: 0-9 לא יכול להיות הראשון",
+            "DuplicateNameCaption": "מילת מקודדת עם אותו קוד כבר קיימת"
+        },
+        "AcademyUrl": "https://academy.creatio.com/docs/8.x/",
+        "AcademyUrlTitle": "למד עוד."
+    },
+    "OrderDirectionStrict": {
+        "Ascending": "סדר עולה",
+        "Descending": "סדר יורד"
+    },
+    "AdministratedObjectPage": {
+        "AccessPermissions": "זכויות גישה",
+        "InfoBlockText": "הפעולות המערכתיות \"הוסף נתונים כלשהם\", \"צפה בכל הנתונים\", \"ערוך כל הנתון\", \"מחק את כל הנתונים\" שניתנו לתפקידים או למשתמשים בעלי עדיפות גבוהה יותר מההרשאות שאתה מגדיר בסעיף זה.",
+        "InfoBlockTitle": "הערה",
+        "InfoBlockLink1": "איך עובד סדר עדיפויות ההרשאות",
+        "InfoBlockLink2": "כיצד מוענקות הרשאות",
+        "InfoBlockLink3": "כיצד להגדיר הרשאות לפרטים",
+        "InfoBlockLink4": "כיצד להחיל את הגדרות ההרשאה לרשומות חדשות לכל הרשומות הקיימות",
+        "InfoBlockLink5": "דוגמאות להגדרות הרשאות",
+        "NameFieldName": "שם",
+        "RightsByColumnDetail": "השתמש בהגדרות עמודות",
+        "RightsByColumnDetailTooltip": "הגדרות הרשאות לעמודות מסוימות (שדות) של האובייקט",
+        "RightsByOperationDetail": "השתמש בהרשאות פעולה",
+        "RightsByOperationDetailTooltip": "הגדרות הרשאות ליצירה, קריאה, עריכה ומחיקה",
+        "RightsByRecordDetail": "השתמש בהגדרות הרשומות",
+        "RightsByRecordDetailTooltip": "הגדרות הרשאות לקריאה, עריכה ומחיקה של רשומות ספציפיות",
+        "TitleFieldName": "כותרת",
+        "TitleFormat": "{0} הרשאות אובייקט",
+        "UpdatePermissions": "עדכון הרשאות רשומה",
+        "OneEmptyRecordDefRightMessageTemplate": "הכלל “{0}” אינו מכיל הרשאות גישה אחרות מלבד “לא הושג” ולא ישפיע על הגדרות הגישה בפועל בשום אופן. כאשר יחולו ההרשאות החדשות, Creatio ימחק את הכלל הזה. האם תרצה להמשיך?",
+        "SeveralEmptyRecordDefRightsMessageTemplate": "הכללים “{0}” אינם מכילים הרשאות גישה אחרות מלבד “לא הושג” ולא ישפיעו על הגדרות הגישה בפועל בשום אופן. כאשר יחולו ההרשאות החדשות, Creatio ימחק את הכללים הללו. האם תרצה להמשיך?",
+        "ProposalActualizationRights": "הגדרות הרשאת הרשומות שונו. יש לעדכן את ההרשאות הנוכחיות עבור הרשומות הקיימות {0}. זה עשוי להשפיע על ביצועי המערכת עבור כל המשתמשים. \n האם תרצה לעדכן את הרשאות הרשומות כעת?",
+        "EntityOperations": "פעולות מתקדמות",
+        "AdditionalOperationPermissions": "הנחות נוספות",
+        "Operation": "הפעלה",
+        "UserOrRole": "משתמש או תפקיד",
+        "UserOrRoleWhoObtainsPermission": "משתמש או תפקיד המקבל הרשאות",
+        "InfoBlockEntityOperationsText": "הפעולות המערכתיות \"CanExportGrid\" שניתנות לתפקידים או למשתמשים בעלי עדיפות גבוהה יותר מההרשאות שאתה מגדיר בסעיף זה.",
+        "RightsByEntityOperationDetail": "השתמש בהרשאות פעולה שליבת האות",
+        "RightsByEntityOperationDetailTitle": "הנחות נוספות",
+        "RightsByEntityOperationDetailTooltip": "הגדרות הרשאות לייצוא נתונים מהאובייקט הנוכחי על פי תפקיד או משתמש",
+        "InfoAboutOperationPermissionsTitle": "חשוב",
+        "InfoAboutOperationPermissions": "הרשאות פעולה עבור האובייקט deaktivated. כאשר זה המקרה:",
+        "InfoAboutOperationPermissions1": "לעובדי החברה יש גישה מלאה לכל הפעולות עם האובייקט, ההגדרות שמופיעות ברשימה למטה מתעלמות.",
+        "InfoAboutOperationPermissions2": "משתמשים חיצוניים אין להם גישה לכל פעולות האובייקט.",
+        "InfoAboutOperationPermissions3": "משתמשים טכניים יש להם גישה בהתאם להגדרות ברשימה למטה.",
+        "InfoAboutOperationPermissions4": "למד עוד על הגדרות הרשאות האובייקט ב",
+        "InfoAboutOperationPermissionsLinkCaption": "אקדמיה",
+        "InfoAboutOperationPermissionsAcademyLink": "https://academy.creatio.com/documents?id=250"
+    },
+    "AdministratedObjectSection": {
+        "BusinessLogicPermissions": "ההרשאות לרשומות אפשרו",
+        "Close": "סגור",
+        "ColumnPermissions": "ההרשאות לעמודים אפשרו",
+        "Name": "שם",
+        "ObjectPermissions": "ההרשאות לפעולות אפשרו",
+        "Search": "חפש",
+        "Title": "הרשאות אובייקט",
+        "TitleColumn": "כותרת",
+        "UpdatePermissions": "עדכון הרשאות רשומה"
+    },
+    "BasePageComponent": {
+        "Close": "סגור",
+        "Apply": "יישם",
+        "Cancel": "בטל",
+        "Save": "שמור",
+        "Actions": "פעולות",
+        "Check": "אימות",
+        "Publish": "פרסם",
+        "PublishAndCompile": "פרסם ולקמפל",
+        "SaveAndPublish": "שמור ופרסם"
+    },
+    "ClearChangeLogSettingsDialog": {
+        "AllObjects": "כל האובייקטים",
+        "AllPeriod": "כל הנתונים הזמינים",
+        "Cancel": "בטל",
+        "ChooseDate": "בחר תאריך",
+        "ChooseObject": "בחר אובייקט",
+        "Clear": "נקה",
+        "ObjectSettingsTitle": "נקה נתוני יומן עבור האובייקטים הבאים",
+        "OnlySelectedObject": "אובייקט ספציפי",
+        "PeriodSettingsTitle": "נקה נתוני יומנים עבור התקופה הבאה",
+        "Title": "Clear change log",
+        "ToDatePeriod": "רק נתונים שגילם מעל"
+    },
+    "ChangeLogCleanerService": {
+        "SuccessLaunch": "המערכת החלה בניקוי יומן השינויים. תקבל הודעה בלוח התקשורת כאשר התהליך יושלם"
+    },
+    "ChangeLogPage": {
+        "Close": "סגור",
+        "TitleFormat": "{0} יומן שינויים",
+        "ViewLog": "צפה ביומן"
+    },
+    "ChangeLogSection": {
+        "Title": "יומן שינויים",
+        "TitleColumn": "כותרת",
+        "NameColumn": "שם",
+        "LoggingEnabledColumn": "ניפוי אפשר",
+        "ClearChangeLog": "נקה יומן"
+    },
+    "ChangeLogComponent": {
+        "Blankslate": "אין רשומות עבור האובייקט הזה ביומן השינויים",
+        "InsertedTooltip": "רשומה חדשה",
+        "UpdatedTooltip": "רשומה עודכנה",
+        "DeletedTooltip": "הרשומה נמחקה",
+        "ShowMore": "הראה יותר",
+        "ShowLess": "הראה פחות",
+        "ChangeType": "סוג שינוי",
+        "ChangeTrackedOn": "שינוי בוצע על",
+        "ChangeTrackedBy": "שינוי בוצע על ידי",
+        "ChangeTracked": "רשומה",
+        "ColumnName": "עמודה",
+        "ColumnOldValue": "ערך ישן",
+        "ColumnNewValue": "ערך חדש",
+        "Yes": "כן",
+        "No": "לא"
+    },
+    "LicenseManager": {
+        "PackageNameColumn": "שם",
+        "TypeColumn": "סוג",
+        "StartDateColumn": "תאריך התחלה",
+        "DueDateColumn": "תאריך יעד",
+        "StatusColumn": "סטטוס",
+        "CountColumn": "סה\"כ",
+        "LicenseIsActive": "פעיל",
+        "LicenseIsNotActive": "לא פעיל",
+        "TypePersonal": "אישי",
+        "TypeConcurrent": "מתחרה",
+        "TypeServer": "שרת"
+    },
+    "LicenseSection": {
+        "Title": "מנהל רישיונות",
+        "BlankslateTitle": "החלק הזה עדיין אינו מכיל רשומות.",
+        "BlankslateDescription": "הרישיונות שלך יופיעו כאן ברגע שתעלה קובץ רישוי",
+        "ServerLicenseTooltip": "רישיונות שרת ורישיונות קונקרנטיים מחולקים מעמוד המשתמש",
+        "ConcurrentLicenseTooltip": "רישיונות שרת ורישיונות קונקרנטיים מחולקים מעמוד המשתמש",
+        "UploadButtonCaption": "העלה",
+        "UploadLicensesCompleteMessage": "Licenses have been successfully uploaded",
+        "UploadLicensesErrorMessage": "Invalid file format",
+        "RequestLicensesButtonCaption": "Request",
+        "DeleteLicensesButtonCaption": "מחק",
+        "DeleteLicensesConfirmation": "הרישיונות יימחקו. האם תרצה להמשיך?",
+        "DeleteLicensesSuccess": "כל הרישיונות נמחקו בהצלחה.",
+        "AllTypesCaption": "כל הרישיונות",
+        "PersonalTypeCaption": "אישי",
+        "ServerTypeCaption": "שרת",
+        "UploadLicensesCryptographicExceptionMessage": "Invalid file format. If your license was generated for 8.3.0 or earlier Creatio versions, creating a new license request may resolve the issue."
+    },
+    "LicensePage": {
+        "TitleFormat": "מוצר {0}"
+    },
+    "LicenseDetail": {
+        "Title": "רישיונות"
+    },
+    "LicensedUsersDetail": {
+        "Title": "משתמשים מורשים",
+        "UsersDialogCaption": "משתמשים",
+        "UserNameColumn": "משתמש",
+        "EmailColumn": "דוא\"ל",
+        "JobTitleColumn": "הגדרת משרה",
+        "Delete": "בטל הקצאת רישיון",
+        "Blankslate": "רישיונות אלה עדיין לא הוקצו לאף משתמש",
+        "SourceTitleColumn": "שיטת ההנפקה",
+        "UserLicensesSourceManual": "באופן ידני",
+        "UserLicensesSourceSystem": "באופן אוטומטי",
+        "UserLicensesSourceRoleBased": "בהתבסס על תפקיד"
+    },
+    "LicenseRequestDialog": {
+        "Title": "מזהה החברה לרישוי",
+        "InputFieldDescription": "מזהה החברה הייחודי שלך מאוחסן בהגדרת המערכת “מזהה חברת רישוי”. שינוי מזהה החברה בשדה זה יעדכן אוטומטית את ערך הגדרת המערכת.",
+        "RequestButtonCaption": "ייצר קובץ בקשה לרישוי",
+        "LicenseVersionTitle": "License version",
+        "LicenseVersionDescription": "גרסת Creatio שאליה אתה מתכנן להעלות רישיונות.",
+        "InvalidVersionFormat": "אנא הזן את הגרסה בצורה של שלושה מספרים המופרדים בנקודות. לדוגמה, 7.18.1"
+    },
+    "ObjectRecordRightsActualizationService": {
+        "SuccessLaunch": "המערכת החלה בעדכון הרשאות רשומות על סמך ההגדרות הנוכחיות. תקבל הודעה בלוח התקשורת כאשר התהליך יושלם"
+    },
+    "ObjectChangeLogPage": {
+        "TitleFormat": "יומן השינויים עבור האובייקט {0}",
+        "SettingsTabCaption": "הגדרות היומן",
+        "ViewChangeLogTabCaption": "נתוני היומן",
+        "EnableObjectTracking": "אפשר רישום ביומן"
+    },
+    "ObjectTypeFilter": {
+        "AllObjects": "כל האובייקטים",
+        "Lookups": "טבלאות חיפוש",
+        "Sections": "מודולים"
+    },
+    "SearchInput": {
+        "Placeholder": "חפש",
+        "Settings": {
+            "Cancel": "בטל",
+            "Apply": "יישם",
+            "SearchColumnTemplate": "חפש לפי עמודה \"{0}\"",
+            "StartsWith": "מתחיל עם",
+            "Contains": "מכיל",
+            "Equals": "שווה ל"
+        }
+    },
+    "DeleteButtonTableCell": {
+        "Tooltip": "הסר"
+    },
+    "RightLevelSelect": {
+        "Granted": "ניתן",
+        "GrantedDelegate": "מוענק עם זכות להאצלה",
+        "NotSet": "לא הושג"
+    },
+    "RightsByColumnDetail": {
+        "Add": "הוסף",
+        "Blankslate": "הגישה לכל העמודים אינה מוגבלת",
+        "Column": "עמודה",
+        "ColumnBlankslate": "הוסף תפקידים או משתמשים כדי לנהל את הגישה שלהם לעמודה זו",
+        "DenyReadEdit": "מנע קריאה ועריכה",
+        "Drag": "גרור לשינוי סדר עדיפויות",
+        "PermitRead": "התרשה לקריאה",
+        "PermitReadEdit": "התרשה לקריאה ועריכה",
+        "Priority": "עדיפות",
+        "Remove": "הסר",
+        "RightLevel": "רמת גישה",
+        "User": "משתמש או תפקיד",
+        "ValidationMessage": "כלל לתפקיד הנבחר כבר קיים. אנא בחר תפקיד אחר כדי להמשיך",
+        "WarningDowngradingRights": "המגבלות בהרשאה זו יכולות לשלב כללים אחרים הנמוכים ברשימה"
+    },
+    "RightsByRecordDetail": {
+        "Add": "הוסף",
+        "Blankslate": "לא הוגדרו כללי הרשאה המבוססים על מחבר",
+        "Delete": "מחק",
+        "Edit": "ערוך",
+        "Read": "קריאה",
+        "RecordAuthor": "מחבר הרשומה",
+        "Remove": "הסר",
+        "RightsRecipient": "משתמש או תפקיד המקבלים את ההרשאות",
+        "Title": "הענקת הרשאות המבוססת על מחבר הרשומה",
+        "TitleTooltip": "ההגדרות יינתנו למשתמשים בעת יצירת רשומה חדשה",
+        "ValidationMessage": "כלל עבור התפקידים שנבחרו כבר קיים. אנא בחר תפקידים אחרים כדי להמשיך",
+        "DoNotApplyForManager": "Do not apply for manager",
+        "DoNotApplyForManagerTooltip": "Do not apply this rule if the author obtained the role only as a manager of that role. If the role is obtained through hierarchy from underlying roles, including manager roles of subordinate groups, the rule should still be applied."
+    },
+    "RightsByOperationsDetail": {
+        "Drag": "גרור לשינוי סדר עדיפויות",
+        "Priority": "עדיפות",
+        "User": "משתמש או תפקיד",
+        "Create": "צור",
+        "Read": "קריאה",
+        "Edit": "ערוך",
+        "Delete": "מחק",
+        "Remove": "הסר",
+        "Add": "הוסף",
+        "Blankslate": "הוסף משתמשים או תפקידים כדי להעניק להם גישה לנתוני האובייקט",
+        "ValidationMessage": "כלל עבור התפקיד שנבחר כבר קיים. אנא בחר תפקיד אחר כדי להמשיך",
+        "WarningDowngradingRights": "המגבלות בהרשאה זו יכולות לעקוף כללים אחרים הנמוכים ברשימה",
+        "Allowed": "ניתן",
+        "Denied": "נדחתה"
+    },
+    "SelectEntitySchemaColumnDialog": {
+        "Cancel": "בטל",
+        "Select": "בחר",
+        "SelectFieldPlaceholder": "Select column",
+        "Title": "Select column"
+    },
+    "SelectSysAdminUnitDialog": {
+        "Cancel": "בטל",
+        "FunctionalRoles": "תפקידים פונקציונליים",
+        "OrganizationalRoles": "תפקידים ארגוניים",
+        "Search": "חפש",
+        "Select": "בחר",
+        "Title": "בחר משתמש או תפקיד",
+        "Users": "משתמשים"
+    },
+    "SysAdminUnitTree": {},
+    "TrackedColumns": {
+        "TitleTooltip": "הגדר את רשימת העמודות שערכי העדכון שלהן יירשמו כאשר הרשומה משתנה",
+        "Title": "עמודות שנרשמו ביומן",
+        "CaptionColumn": "כותרת",
+        "NameColumn": "שם",
+        "Add": "הוסף",
+        "Remove": "הסר",
+        "Blankslate": "עמודות שהוקלטו לא נבחרו"
+    },
+    "BaseSection": {
+        "BlankslateTitleWithFilters": "אין רשומות התואמות לקריטריוני החיפוש הנוכחיים.",
+        "BlankslateDescriptionWithFilters": "נקה או שנה את פרמטרי החיפוש",
+        "DeleteRecordConfirmation": "האם אתה בטוח שברצונך למחוק את הרשומה שנבחרה?",
+        "AbsentDataErrorMessage": "הרשומה נמחקה או שאין לך זכויות גישה אליה"
+    },
+    "BaseTableDetail": {
+        "Add": "הוסף",
+        "BlankslateWithFilters": "אין רשומות התואמות את קריטריוני החיפוש הנוכחיים. נקה או שנה פרמטרים של חיפוש"
+    },
+    "MultiselectDialog": {
+        "Select": "בחר",
+        "Selected": "נבחר:",
+        "Cancel": "בטל",
+        "Blankslate": "אין רשומות לאובייקט זה",
+        "BlankslateWithFilters": "אין רשומות התואמות את קריטריוני החיפוש הנוכחיים. נקה או שנה פרמטרים של חיפוש"
+    },
+    "LookupDialog": {
+        "TitleTemplate": "בחר: {0}",
+        "Selected": "נבחר:",
+        "SelectButton": "בחר",
+        "CancelButton": "בטל",
+        "Blankslate": "אין רשומות לאובייקט זה",
+        "AllPagesSelectionWarning": "הפעולה עשויה להימשך זמן רב. האם לְהַמשִׁיך?"
+    },
+    "DateRange": {
+        "To": "אל"
+    },
+    "MailServerTableComponent": {
+        "AdditionalSettings": "הגדרות נוספות",
+        "AddMailServer": "הוסף שירות",
+        "AllowEmailDownloading": "קבל הודעות דוא\"ל",
+        "AllowEmailSending": "שלח דוא\"ל",
+        "Copy": "העתק",
+        "DeleteConfirmation": "האם אתה בטוח שברצונך למחוק את הרשומה שנבחרה?",
+        "Delete": "מחק",
+        "Edit": "ערוך",
+        "Empty": "אין שירותי דואר זמינים",
+        "ExchangeMenuItem": "החלפה",
+        "IMAPIncomingSettingsDescription": "הגדרות שירות הדואר לקבלת דוא\"ל. ציין את כתובת השרת, פורט והגדרות אבטחה",
+        "IMAPIncomingSettingsHeader": "שרת דואר נכנס (IMAP)",
+        "ImapMenuItem": "IMAP/SMTP",
+        "LoginFormat": "פורמט התחברות",
+        "MailServerAddress": "Service address",
+        "MailServer": "שירות דואר",
+        "MailServerName": "שם השירות",
+        "MailServerSettings": "הגדרות השירות",
+        "MailServerType": "Service type",
+        "MailServiceRemoveToolTip": "Creatio אינה יכולה למחוק את שירות הדואר מכיוון שיש מספר תיבות דואר של שירות זה ביישום",
+        "None": "None",
+        "Port": "פורט",
+        "RequiredMailServiceActions": "אפשר הורדה או שליחת דוא'ל כדי להגדיר את השירות",
+        "Section": {
+            "Add": "הוסף",
+            "GoToDiagnostic": "כלי אבחון"
+        },
+        "Security": "אבטחה",
+        "AuthenticationType": "Authentication type",
+        "ApplicationId": "מזהה היישום (לקוח)",
+        "ClientSecret": "Client secret",
+        "Server": "כתובת שרת",
+        "SMTPOutgoingSettingsDescription": "הגדרות שירות הדואר לשליחת דוא'ל. ציין את כתובת השרת, פורט והגדרות אבטחה",
+        "SMTPOutgoingSettingsHeader": "שרת דואר יוצא (SMTP)",
+        "SuccessfulAddOperation": "הצלחת להוסיף שירות דוא'ל חדש. משתמשים יכולים עכשיו להוסיף תיבות דואר באמצעות שירות זה",
+        "SuccessfulEditOperation": "Creatio השדרגה בהצלחה את הגדרות שירות הדואר",
+        "SuccessfulOperation": "Successful operation",
+        "Type": "סוג",
+        "UseEmailAddressAsLogin": "השתמש בכתובת דוא'ל",
+        "UseLogin": "השתמש בהכנסה ידנית",
+        "UseUserNameAsLogin": "השתמש בשם תיבת דואר",
+        "WarningTitle": "⚠ אזהרות",
+        "BasicAuthWarningMessage": "שימו לב, אימות בסיסי הוא מיושן ועלול להיות לא בטוח. הוא רשמית <a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online\" {0}>מיושן על ידי מיקרוסופט</a>. לשימוש בגרסה ייצור אנא שקול לעבור לאימות OAuth מודרני. הוראות קונפיגורציה זמינות ב- <a href=\"{1}\" {0}>אקדמיית Creatio</a>.",
+        "TenantId": "מזהה שוכר",
+        "AllowApplicationLevelAccess": "Allow application-level access"
+    },
+    "MailboxSettings": {
+        "AdditionalSettingsTabCaption": "הגדרות נוספות",
+        "MailboxesTabCaption": "תיבות דואר",
+        "MailServicesTabCaption": "שירותי תיבת דואר",
+        "Title": "הגדרות תיבת דואר"
+    },
+    "EntitySchemaDesignerPage": {
+        "NameFieldName": "שם",
+        "CaptionFieldName": "כותרת"
+    },
+    "SqlScriptDesignerPage": {
+        "Name": "שם",
+        "Caption": "כותרת"
+    },
+    "SchemaDataDesignerPage": {
+        "ActualizeData": "עדכן נתונים",
+        "Fields": {
+            "Name": "שם",
+            "Object": "אובייקט",
+            "InstallType": "סוג התקנה",
+            "Package": "חבילה"
+        },
+        "InfoBlockText1": "סוג התקנה",
+        "InfoBlockText2": "סוג ההתקנה קובע את השיטה שבה נוספו נתוני היישום במהלך התקנת החבילה.",
+        "InfoBlockText3": "• Installation — data is added during the first installation of the package and is updated with the package updates. New records are always added. Existing records are updated only if the “Forced update” checkbox is selected on the “Columns setting” tab. This is the default and most flexible type.",
+        "InfoBlockText4": "• Update existing — deprecated type. We recommend using the Installation type instead because this type has similar behaviour.",
+        "InfoBlockText5": "• Initial package installation — data is added only during the first installation of the package. Data is not updated or added during subsequent package updates.",
+        "ColumnsSettingTabCaption": "הגדרת עמודות",
+        "BoundDataTabCaption": "נתונים קשורים",
+        "InstallType": {
+            "Install": "Install",
+            "FirstInstall": "Initial package installation",
+            "Update": "עדכן את הקיים",
+            "InstallIfNotExists": "Initial data installation"
+        },
+        "ColumnsDetail": {
+            "Title": "הגדרת עמודות",
+            "Blankslate": "בחר אובייקט והגדר את העמודות",
+            "ErrorDeletePrimaryColumn": "מחיקת העמודה הראשית \"{0}\" אסורה",
+            "Columns": {
+                "Caption": "כותרת",
+                "Name": "שם",
+                "ForcedUpdate": "כפה עדכון",
+                "Key": "מפתח"
+            },
+            "Tooltips": {
+                "ForcedUpdate": "The checkbox indicates that the data in this column will update whenever the corresponding package is updated.",
+                "Key": "תיבת הסימון מוגדרת עבור עמודת המפתח הראשית של האובייקט כברירת מחדל. אם במסד הנתונים קיימות מפתחות מורכבים, יש לסמן תיבה זו עבור כל עמודות המפתח המורכבות. עמודת המפתח הראשית של אובייקט אינה יכולה להיות עמודת מפתח מורכב."
+            },
+            "ColumnsAreNotAvailableInPackageMessage": "עמודות אלו אינן זמינות בחבילה הנוכחית ואי אפשר להוסיף אותן: {0}"
+        },
+        "BoundDataDetail": {
+            "Title": "נתונים",
+            "Blankslate": "בחר רשומות לאיחוד",
+            "ActualDataWasLoaded": "הנתונים הנוכחיים נטענו"
+        },
+        "InfoBlockText6": "• Initial data installation — data binding is installed during the first package installation or subsequent updates only if the same binding does not already exist. Use this type to avoid unintended overwrites."
+    },
+    "WorkspaceExplorer": {
+        "Section": {
+            "Title": "Configuration",
+            "Packages": {
+                "InstallPackageDialog": {
+                    "Title": "Install package from repository",
+                    "InputFieldPackageName": "חבילה",
+                    "InputFieldRepositoryAddress": "Version control system repository",
+                    "InputFieldVersion": "גרסה",
+                    "Cancel": "בטל",
+                    "Install": "Install"
+                },
+                "CreatePackageDialog": {
+                    "Title": "חבילה",
+                    "InputFieldName": "שם",
+                    "InputFieldDescription": "תיאור",
+                    "InputFieldRepositoryAddress": "Version control system repository",
+                    "InputFieldVersion": "גרסה",
+                    "SaveButtonCaption": "שמור",
+                    "Cancel": "בטל",
+                    "OpenPackagePage": "Create and add dependencies",
+                    "Validation": {
+                        "PackageNameNotSpecified": "Package name is not specified",
+                        "PackageVersionNotSpecified": "Package version is not specified",
+                        "NotAllowedFormat": "Wrong format for repository version",
+                        "MaximumLengthExeeded": "Maximum text length exceeded"
+                    }
+                },
+                "SourceControl": {
+                    "CommitResult": {
+                        "Success": "Changes successfully committed to repository",
+                        "CustomPackage": "Unable to commit custom package to repository",
+                        "PackageUpdateNeed": "Changes have been detected in the repository. Workspace update is required",
+                        "PackageHasForeignLock": "Unable to save changes: the package where the item is saved is locked by another user"
+                    },
+                    "CommitChangesDialog": {
+                        "Title": "Commit package to repository",
+                        "LogMessageFieldCaption": "תיאור",
+                        "CommitButtonCaption": "Commit changes",
+                        "Cancel": "בטל",
+                        "NoChanges": "No items to be committed"
+                    },
+                    "Update": {
+                        "ConfirmMessage": "האם אתה רוצה לעדכן חבילה זו מהמאגר?",
+                        "NoChanges": "לא נמצאו שינויים"
+                    },
+                    "Install": {
+                        "ConfirmMessage": "חבילות מותקנות נמצאו. מבנה החבילה יכול להשתנות לחלוטין בעת התקנה בפעם הבאה. האם להמשיך?",
+                        "NoChanges": "לא נמצאו שינויים"
+                    },
+                    "Restore": {
+                        "ConfirmMessage": "החלל העבודות יעודכן לגרסה האחרונה. כל השינויים שלך ילכו לאיבוד. האם להמשיך?",
+                        "Success": "Workspace successfully restored from the repository"
+                    }
+                },
+                "PackageCreated": "Successfully created new package: {0}",
+                "PackageDeleted": "Successfully deleted the package: {0}",
+                "SearchPlaceholder": "Search by package",
+                "AllPackagesCaption": "All packages",
+                "DeleteConfirmation": "Are you sure you want to delete the selected package?",
+                "BlankslateTitle": "No packages found",
+                "InstallFromRepository": {
+                    "NoRepositories": "Creatio could not find any saved repositories. Do you wish to save a new repository?",
+                    "NoActiveRepository": "Creatio could not find any active repositories. Do you wish to go to the list of repositories?"
+                },
+                "PackageLocked": "חבילה נעולה בהצלחה: {0} ב-SVN",
+                "PackageUnlocked": "חבילה שוחררה בהצלחה: {0} ב-SVN",
+                "ConnectedApplications": {
+                    "DeleteConfirmation": "החבילה גם תימחק מהאפליקציות הבאות:\n{0}\nמחיקת החבילה עשויה לגרום לאפליקציות אלו לאבד פונקционליות או להפסיק לפעול. האם אתה בטוח שתרצה להמשיך?",
+                    "DeactivateConfirmation": "החבילה גם תיכבה באפליקציות הבאות:\n{0}\nכיבוי החבילה עלול לגרום לאפליקציות אלו לאבד את הפונקציה או להפסיק לפעול. האם אתה בטוח שברצונך להמשיך?"
+                },
+                "CreatePackage": "צור חבילה",
+                "PackageDeactivated": "החבילה הושבתה בהצלחה: {0}",
+                "DeactivateConfirmation": "האם אתה בטוח שברצונך לכבות את החבילה הנבחרת?",
+                "ActivateConfirmation": "האם אתה בטוח שברצונך להפעיל את החבילה הנבחרת?",
+                "EndUserSchemas": "Environment schemas",
+                "NewSearchPlaceholder": "חפש",
+                "PackagesCaption": "Packages",
+                "EndUserSchemaPackageTooltip": "Environment schemas exist only in this environment. To transfer them, move the schema to a package.",
+                "ConfigurationRootCaption": "הגדרה"
+            },
+            "Items": {
+                "ImportSuccessMessage": "The \"{0}\" item is successfully imported to the \"{1}\" package",
+                "UpdateDBStructureConfirmMessage": "פעולה זו תעדכן את מבנה בסיס הנתונים עבור האובייקט שנבחר. האם ברצונך להמשיך?",
+                "GenerateSchemasSourcesConfirmMessage": "This will generate source code for the selected element. Do you wish to proceed?",
+                "InstallSqlScriptsConfirmMessage": "This will install the selected SQL script to the database. Do you wish to proceed?",
+                "InstallDataConfirmMessage": "This will install the data for the selected item. Do you wish to proceed?",
+                "DeleteConfirmMessage": "Do you wish to permanently delete the selected item?",
+                "RevertChangesMessage": "All changes in selected items will be lost. Continue?",
+                "Columns": {
+                    "UId": "UID",
+                    "Name": "שם",
+                    "Title": "כותרת",
+                    "Status": "סטטוס",
+                    "Type": "סוג",
+                    "Object": "אובייקט",
+                    "ModifiedOn": "השתנה בתאריך",
+                    "Package": "חבילה",
+                    "CreatedOn": "נוצר בתאריך",
+                    "CreatedBy": "נוצר על ידי",
+                    "ModifiedBy": "השתנה על ידי"
+                },
+                "Add": {
+                    "Caption": "הוסף",
+                    "Sql": "SQL script",
+                    "SourceCode": "קוד מקור",
+                    "Entity": "אובייקט",
+                    "ReplacingEntity": "מחזיר אובייקט",
+                    "ClientUnit": {
+                        "Module": "מודול",
+                        "EditViewModelSchema": "Page view model",
+                        "AngularSchema": "עמוד UI חופשי",
+                        "ModuleViewModelSchema": "Section view model",
+                        "GridDetailViewModelSchema": "Detail (list) view model",
+                        "EditControlsDetailViewModelSchema": "Detail (fields) view model",
+                        "ExtendedClientUnitSchema": "Replacing view model",
+                        "ExtendedAngularSchema": "מודל תצוגה חלופי אנגולרי"
+                    },
+                    "UserTask": "משימה למשתמש",
+                    "BusinessProcess": "תהליך עסקי",
+                    "DataBinding": "נתונים",
+                    "Import": "יבוא",
+                    "RestService": "REST service",
+                    "SoapService": "SOAP service"
+                },
+                "Types": {
+                    "SqlScript": "SQL script",
+                    "SchemaData": "נתונים",
+                    "Assembly": "Reference assembly",
+                    "EntitySchema": "אובייקט",
+                    "ClientUnitSchema": "Client module",
+                    "SourceCodeSchema": "קוד מקור",
+                    "ProcessSchema": "משימות תהליכים עסקיים",
+                    "DcmSchema": "מקרה",
+                    "ProcessUserTaskSchema": "משימה למשתמש",
+                    "CampaignSchema": "מסע פרסום שיווקי",
+                    "ServiceSchema": "Web service",
+                    "AddonSchema": "תוסף",
+                    "CopilotIntentSchema": "סוכן Creatio.ai",
+                    "LocalizationSchema": "לוקליזציה"
+                },
+                "Status": {
+                    "NeedInstall": "צריך להיות מותקן בבסיס הנתונים",
+                    "NeedUpdateSourceCode": "Source code update required",
+                    "NeedUpdateStructure": "דרוש עדכון מסד נתונים",
+                    "LockedInSVN": "נעול ב-SVN",
+                    "UnlockedInSVN": "שוחרר ב-SVN"
+                },
+                "Filters": {
+                    "Types": {
+                        "AllItems": "כל הפריטים",
+                        "Placeholder": "סוג"
+                    },
+                    "States": {
+                        "AllItems": "כל הפריטים",
+                        "Placeholder": "מסננים",
+                        "Locked": "ננעל",
+                        "NeedActualization": "נדרש עדכון",
+                        "Error": "יש שגיאה"
+                    }
+                },
+                "DetailsDialog": {
+                    "Close": "סגור",
+                    "PageTitle": "תכונות",
+                    "Title": "כותרת",
+                    "Name": "שם",
+                    "FullQualifiedName": "שם ההרכבה המוכנסה המלאה",
+                    "DataObjectName": "אובייקט",
+                    "CreatedBy": "נוצר על ידי",
+                    "CreatedOn": "נוצר בתאריך",
+                    "PackageName": "חבילה",
+                    "ParentCaption": "הורה",
+                    "ReplaceParent": "החלף הורה",
+                    "IsChanged": "השתנה",
+                    "UId": "UId",
+                    "ModifiedBy": "השתנה על ידי",
+                    "Id": "מזהה",
+                    "ModifiedOn": "השתנה בתאריך",
+                    "ManagerName": "שם מנהל",
+                    "MetaDataModifiedOn": "מטא נתונים שונו ב",
+                    "Description": "תיאור",
+                    "IsLocked": "ננעל",
+                    "NeedUpdateDBStructure": "דרוש עדכון מסד נתונים",
+                    "NeedInstall": "צריך להיות מותקן בבסיס הנתונים",
+                    "LastErrorText": "הודעת השגיאה האחרונה",
+                    "LockedBy": "ננעל על ידי",
+                    "DbStructureModifiedOn": "תאריך שינוי מבנה מסד הנתונים",
+                    "IsNetStandard": "IsNetStandard",
+                    "LoadOnAppStart": "LoadOnAppStart",
+                    "UIdTooltip": "זהו מזהה ייחודי של אלמנט הקונפיגורציה. מזהה האלמנט יישאר זהה בכל יישום",
+                    "IdTooltip": "עמודה זו היא המפתח הראשי בטבלאות מסד הנתונים. מזהה רשומה עשוי להיות שונה ביישומים שונים"
+                },
+                "RecordLockedInSVNSuccessfully": "All changes in selected items will be lost. Continue?",
+                "RecordUnlockedInSVNSuccessfully": "הקלט שוחרר בהצלחה ב-SVN",
+                "MultiItemActionButton": "פעולות מרובות",
+                "InstallLocalizationConfirmMessage": "This action will install data localizations for records and overwrite the current runtime values. Do you want to proceed?"
+            },
+            "Actions": {
+                "Blocks": {
+                    "SourceCode": "קוד מקור",
+                    "Actualization": "Actualize items",
+                    "DevInFileSystem": "File system development mode",
+                    "VersionControl": "SVN repositories",
+                    "Packages": "Packages",
+                    "Validation": "Configuration",
+                    "CacheManagement": "Cache Management"
+                },
+                "Compile": "Compile",
+                "CompileAll": "Compile all",
+                "Edit": "ערוך",
+                "Delete": "מחק",
+                "Export": "יצוא",
+                "Update": "Update from repository",
+                "Commit": "Commit to repository",
+                "Properties": "תכונות",
+                "UpdateDBStructure": "Update database structure",
+                "EditProcess": "Edit process",
+                "GenerateSchemasSources": "Generate source code",
+                "InstallSqlScripts": "Install",
+                "InstallData": "Install",
+                "RevertChanges": "התעלם מהשינויים",
+                "InstallRequiredSqlScripts": "Install SQL scripts where it is needed",
+                "InstallRequiredData": "Install data where it is needed",
+                "InstallRequiredSchemasDBStructure": "Update DB structure where it is needed",
+                "OperationSuccessMessage": "Operation was successful",
+                "GenerateRequiredSchemasSources": "Generate where it is needed",
+                "GenerateModifiedSchemasSources": "Generate for modified schemas",
+                "GenerateAllSchemasSources": "Generate for all schemas",
+                "LoadPackagesToFileSystem": "Download packages to file system",
+                "LoadPackagesToDB": "Update packages from file system",
+                "OpenRepositoriesList": "Open list of repositories",
+                "RestoreFromRepository": "Restore from repository",
+                "InstallPackageFromRepository": "Install package from repository",
+                "PackageDependenciesDiagram": "Package dependencies diagram",
+                "FileDesignModeInfo": "כדי להפעיל, הגדר בקובץ הקונפיגורציה של האפליקציה:\n - true לאטריבוט enabled של אלמנט fileDesignMode;\n - false עבור דגל UseStaticFileContent.",
+                "Confirmation": {
+                    "InstallRequiredSqlScripts": "All items requiring installation will be installed to database. Continue?",
+                    "InstallRequiredData": "All items requiring installation will be installed to database. Continue?",
+                    "InstallRequiredSchemasDBStructure": "Database structure will be updated for all schemas that require update. Continue?",
+                    "Compile": "The workspace will be compiled. Do you wish to proceed?",
+                    "CompileAll": "The workspace will be recompiled. Do you wish to proceed?",
+                    "GenerateRequiredSchemasSources": "ליצור קודי מקור עבור כל הסכמות שדרושות?",
+                    "GenerateModifiedSchemasSources": "ליצור קודי מקור עבור הסכמות ששונו?",
+                    "GenerateAllSchemasSources": "האם לייצר קודים מקוריים עבור כל הסכמות? תוצאת הפעולה תישלח ללוח התקשורת",
+                    "ThirdPartyPublisher": "The \"{0}\" item is either created by third-party publisher or installed from the file archive. \n Changes for this item cannot be saved. Continue?",
+                    "ValidateWorkspace": "הפעולה עשויה להימשך זמן רב. האם לְהַמשִׁיך?",
+                    "ExportItems": "הפעולה עשויה להימשך זמן רב. האם לְהַמשִׁיך?",
+                    "StartHotfix": "אפשרות זו מיועדת לשינויים קריטיים ודחופים. החבילה תינעל מחדש באופן אוטומטי לאחר {0} דקות. הקפד להעביר שינויים לסביבת הפיתוח לאחר התיקון.\n\nהאם אתה בטוח שברצונך לבצע תיקון בחבילה?",
+                    "FinishHotfix": "ודא שאתה מעביר שינויים לסביבת הפיתוח לאחר התיקון.\nהאם אתה בטוח שברצונך לנעול את החבילה?",
+                    "Cache": {
+                        "Message": "This action will remove data from the IndexedDB cache storage for all users. This caching helps applications and pages load faster. After clearing, some pages may temporary load slower at first while the cache is rebuilt.",
+                        "Cancel": "בטל",
+                        "Clear": "נקה"
+                    }
+                },
+                "Move": "עבר לְחָבִילָה אַחַרָה",
+                "MovePackageAllElements": "עבור כל האלמנטים",
+                "MultiDelete": "מחק ({0})",
+                "MultiExport": "ייצוא ({0})",
+                "MultiUpdateDBStructure": "עדכן את מבנה ה-DB של האובייקטים",
+                "MultiInstallSqlScripts": "התקן סקריפטים של SQL",
+                "MultiInstallData": "התקן נתונים",
+                "GenerateAllSchemasSourcesWasStarted": "המערכת החלה לייצר קוד מקור עבור כל הסכמות. תקבל התראה בלוח התקשורת כאשר התהליך יושלם",
+                "ValidateWorkspace": "אמת את הקונפיגורציה",
+                "OpenMetaData": "פתח מטא נתונים",
+                "OpenSourceCode": "Blind queue",
+                "LockPackageElement": "Blind queue",
+                "UnLockPackageElement": "שחרר אלמנט ב-SVN",
+                "LockPackage": "נעול חבילה ב-SVN",
+                "UnLockPackage": "שחרר חבילה ב-SVN",
+                "GenerateAllSchemasSourcesSuccess": "קוד המקור לכל הסכמות נוצר בהצלחה",
+                "GenerateAllSchemasSourcesError": "יצירת קוד מקור עבור חלק מהסכמות הסתיימה בשגיאה. ניתן לגשת להודעות השגיאה עבור כל סכימה ברשימת פריטי הקונפיגורציה לאחר טעינה מחדש. האם תרצה לטעון מחדש את פריטי הקונפיגורציה?",
+                "Deactivate": "השבת",
+                "Activate": "הפעל",
+                "CompilationCompletedSuccessfully": "קומפילציה הושלמה בהצלחה",
+                "CompilationCompletedWithErrors": "הקומפילציה הושלמה עם שגיאות",
+                "OperationCompleted": "הפעולה הושלמה",
+                "StartHotfix": "שחרר לתיקון חם",
+                "FinishHotfix": "נעילה לאחר תיקון חם",
+                "ClearAllCache": "Clear IndexedDB cache for all users",
+                "InstallLocalizationInBackgroundSuccess": "Localization installation has started. You’ll receive a notification when it is complete",
+                "InstallLocalization": "Install"
+            },
+            "WorkspaceSyncResultDialog": {
+                "Close": "סגור",
+                "Title": "שינויים",
+                "Error": "שגיאה",
+                "Columns": {
+                    "Name": "שם",
+                    "Type": "סוג",
+                    "Status": "סטטוס",
+                    "ErrorText": "טקסט שגיאה"
+                },
+                "ShowOnlyErrors": "הראה שגיאות בלבד"
+            },
+            "ActionButtonCaption": "פעולות",
+            "WorkspaceItemMoveService": {
+                "NameColumn": "שם",
+                "SelectPackageDialogTitle": "העבר את הפריט {0} לחבילה",
+                "MultiselectElementsPackageDialogTitle": "העבר {0} אלמנט(ים) לחבילה",
+                "MoveElementsWebServiceSuccessMessage": "האלמנטים הועברו בהצלחה",
+                "NoPackagesMessage": "אין חבילות זמינות",
+                "MoveAllPackageElementsWebServiceSuccessMessage": "האלמנטים הועברו בהצלחה",
+                "MoveAllPackageElementsDialogTitle": "העבר את אלמנטי החבילה {0} לחבילה",
+                "SpecifyDependenciesConfirmationDialog": "חבילות {0} חסרות תלות הנדרשות למיגרציה נכונה. האם תרצה להתקין אוטומטית את התלויות החסרות?"
+            },
+            "WorkspaceItemMoveValidateDialog": {
+                "ErrorMessageTitle": "שגיאת העברת אלמנטים",
+                "WithoutValidationConfirmationMessage": "פעולה זו מפרה את שלמות הקונפיגורציה בשל התלות הנוכחית בין רכיבי החבילה המועברים. כדי לשחזר את השלמות, העבר את יתר האלמנטים הדרושים על ידי התלות הנוכחיות או שנה את התלות.\nאם אינך מתכנן לעשות שום דבר מהנ\"ל, איננו ממליצים להמשיך.\nהאם להמשיך בהעברת אלמנטים החבילה?\n\n",
+                "MoveButtonCaption": "העבר אלמנטים"
+            },
+            "PackageStorageValidationMessageDialog": {
+                "Title": "שגיאות קונפיגורציה",
+                "MessageColumn": "תיאור",
+                "ItemNameColumn": "רכיב",
+                "ItemTypeColumn": "סוג",
+                "PackageNameColumn": "חבילה",
+                "ConfirmationTitle": "שגיאת העברת אלמנטים",
+                "WithoutValidationConfirmationMessage": "פעולה זו מפרה את שלמות הקונפיגורציה בשל התלות הנוכחית בין רכיבי החבילה המועברים. כדי לשחזר את השלמות, העבר את יתר האלמנטים הדרושים על ידי התלות הנוכחיות או שנה את התלות.\nאם אינך מתכנן לעשות שום דבר מהנ\"ל, איננו ממליצים להמשיך.\nהאם להמשיך בהעברת אלמנטים החבילה?\n\n",
+                "MoveButtonCaption": "העבר אלמנטים"
+            },
+            "ValidateWorkspaceDialog": {
+                "ErrorMessageTitle": "שגיאות קונפיגורציה",
+                "ValidationSuccess": "הקונפיגורציה אושרה בהצלחה. לא נמצאו שגיאות"
+            },
+            "HotKey": "מקש חם",
+            "NoDataTitle": "החבילה אינה פעילה כרגע.",
+            "NoDataText": "אתה יכול להפעיל אותו באופן ידני. זה יאפשר את התוכן שלו ויהפוך את הפונקציונליות שלו לזמינה למשתמשים.",
+            "CompilationErrorsButton": {
+                "Title": "שגיאות קומפילציה"
+            }
+        },
+        "PackagePage": {
+            "Title": "מאפייני חבילה",
+            "Name": "שם",
+            "Description": "תיאור",
+            "Maintainer": "מתחזק",
+            "MaintainerTooltip": "מפתח חבילה",
+            "RepositoryAddress": "כתובת מאגר",
+            "RepositoryVersion": "גרסת מאגר",
+            "PackageVersion": "גרסת חבילה",
+            "DependenciesTab": "תלותות",
+            "SysInformationTab": "מידע מערכת",
+            "PackageDependencyDetail": {
+                "DependsOnPackagesTitle": "תלוי בחבילות",
+                "DependentPackagesTitle": "חבילות תלויות",
+                "DependsOnPackagesTooltip": "חבילות שעליהן תלויה החבילה הנוכחית",
+                "DependentPackagesTooltip": "חבילות התלויות בחבילה הנוכחית",
+                "PackagesDialogCaption": "בחר חבילה",
+                "NameColumn": "שם",
+                "Maintainer": "מתחזק",
+                "Remove": "הסר",
+                "Blankslate": "אין חבילות",
+                "Add": "הוסף"
+            },
+            "SysInformation": {
+                "CreatedBy": "נוצר על ידי",
+                "ModifiedBy": "השתנה על ידי",
+                "CreatedOn": "נוצר בתאריך",
+                "ModifiedOn": "השתנה בתאריך",
+                "UIDTooltip": "מזהה ייחודי של חבילה. מזהה החבילה יישאר זהה בכל יישום",
+                "IDTooltip": "עמודה זו היא המפתח הראשי בטבלאות במסד הנתונים. מזהה רשומה עשוי להיות שונה ביישומים שונים"
+            },
+            "RepositoryAuthorizationRequired": "פעולה הופסקה. נדרשת אימות. האם להיכנס עכשיו?",
+            "PackageType": "קומפלטו להרכבה נפרדת",
+            "CompilationRequired": "קומפלט עובר כדי ליישם את השינויים",
+            "InstallationFlow": "צעדים להתקנה",
+            "InstallationFlowTab": {
+                "BeforePackageInstall": "לפני התקנת החבילה",
+                "BeforePackageInstallTooltip": "פעולות לביצוע לפני התקנת החבילה",
+                "AfterPackageInstall": "אחרי התקנת החבילה",
+                "AfterPackageInstallTooltip": "פעולות לביצוע לאחר התקנת החבילה",
+                "BeforePackageUninstall": "לפני מחיקת חבילה",
+                "BeforePackageUninstallTooltip": "פעולות לביצוע לפני מחיקת החבילה",
+                "Blankslate": "אין צעדים"
+            },
+            "InstallFlowPackageDetail": {
+                "Add": "הוסף",
+                "ScriptsDialogCaption": "בחר סכימות",
+                "ColumnNameCaption": "שם",
+                "ColumnTitleCaption": "כותרת",
+                "ColumnPositionCaption": "הזמנה",
+                "ColumnModifiedOnCaption": "השתנה בתאריך",
+                "Install": "הפעלה ידנית",
+                "Success": "Operation was successful"
+            },
+            "InstallBehavior": "השתמש בהפעלה חכמה",
+            "InstallBehaviorInfo": "החבילה מותקנת בסביבה ומופעלת אוטומטית כאשר כל התלותות שלה זמינות. תלותות חסרות לא מפריעות להתקנת החבילה/אפליקציה שכוללת את החבילה. ברגע שכל התלותות זמינות, החבילה מופעלת אוטומטית ונגישה למשתמש. אם התלותות כבר אינן זמינות, החבילה מופעלת אוטומטית."
+        },
+        "Errors": {
+            "AssemblyIsNotInitialized": "אנא הרכב מחדש את ההגדרות לפני המשך העבודה עם Creatio.\nהאם תרצה להרכיב עכשיו?"
+        },
+        "PageTemplateLookup": {
+            "HeaderCaption": "בחר תבנית",
+            "Cancel": "בטל",
+            "Select": "בחר",
+            "WebPages": "דפים",
+            "MobilePages": "Mobile app pages"
+        },
+        "DetailedMessageDialog": {
+            "Title": "הקשבה",
+            "OperationTitleMessage": "אתה עומד להתחיל פעולה \"{0}\" שעשויה לגרום לזמינות זמנית של האתר למשתמשים. אנא ודא בצורך של פעולה זו.",
+            "InternalBlockTitle": "השלכות פוטנציאליות:",
+            "InternalBlockFirstMessage": "הגבלת גישה זמנית לתכונות ספציפיות או לאתר כולו",
+            "InternalBlockSecondMessage": "אפשרות הפרעה לתהליכים ופעילויות מתמשכים של משתמשים אחרים",
+            "AdviseMessage": "אם ביצוע פעולה זו בסביבת הייצור הוא בלתי נמנע, אנו ממליצים בחום לתכנן אותה במהלך חלון תחזוקה שיהיה מינימלי על המשתמשים.",
+            "ProceedActionQuestion": "האם אתה רוצה להמשיך עם פעולה זו עכשיו?",
+            "ExecuteOperationCaption": "ביצוע פעולה",
+            "GenerateAllSchemasSourcesAction": "ליצור קוד מקור לכל הסכמות",
+            "GenerateRequiredSchemasSourcesAction": "ליצור קוד מקור היכן שזה נדרש",
+            "GenerateModifiedSchemasSourcesAction": "ליצור קוד מקור לסכמות שהשתנו",
+            "DeleteAction": {
+                "WithConnectedApplications": {
+                    "Message": "החבילה תוסר גם מהאפליקציות הבאות:\n{0}",
+                    "InternalBlockMessage": "הסרת החבילה עשויה לגרום לכך שאפליקציות אלו יאבדו פונקציות או יהיו לא פעילים."
+                }
+            },
+            "DeactivateAction": {
+                "WithConnectedApplications": {
+                    "Message": "החבילה תהיה גם מבוטלת באפליקציות הבאות:\n{0}",
+                    "InternalBlockMessage": "הפעולה של ביטול החבילה עשויה לגרום לכך שאפליקציות אלו יאבדו פונקציות או יהיו לא פעילים."
+                }
+            }
+        }
+    },
+    "TableDialog": {
+        "Close": "סגור",
+        "Cancel": "בטל"
+    },
+    "ErrorListDialogService": {
+        "CodeErrorListDialogCaption": "תוצאת הרכבה",
+        "FileNameColumn": "שם קובץ",
+        "ErrorTextColumn": "תיאור",
+        "ErrorNumberColumn": "קוד",
+        "LineColumn": "קו",
+        "CodeValidationErrorListDialogCaption": "Cyclic dependencies detected",
+        "SourceColumn": "מקור",
+        "ReferenceColumn": "Element being referenced",
+        "PackageColumn": "חבילה",
+        "AcademyHelpUrlCaption": " למד עוד באקדמיה",
+        "PackagePropertiesErrorDialogCaption": "Package dependency validation error",
+        "PackagePropertiesErrorMessage": "One or more validation issues prevent modifying the dependency list for this package. Review the list of issues below and resolve them before making changes.",
+        "ItemTypeColumn": "סוג",
+        "ItemNameColumn": "שם",
+        "DescriptionColumn": "תיאור",
+        "PackageNameColumn": "חבילה",
+        "TypeColumn": "סוג אלמנט"
+    },
+    "SchemaDesigners": {
+        "BaseDesignerPage": {
+            "SaveSuccessMessage": "הרשומה נשמרה בהצלחה",
+            "PublishSuccessMessage": "הרשומה פורסמה בהצלחה",
+            "ChangeParentSchemaMessage": "האם להשתמש ב\"{0}\" כאובייקט הורה עבור האובייקט הנוכחי?",
+            "DeleteParentSchemaMessage": "האם למחוק את האובייקט ההורה עבור האובייקט הנוכחי?"
+        },
+        "BaseDesignerStructureService": {
+            "MiniPage": {
+                "NameTitle": "קוד",
+                "PackageTitle": "חבילה",
+                "Apply": "יישם",
+                "Cancel": "בטל",
+                "Ok": "Ok",
+                "Caption": "כותרת",
+                "Description": "תיאור",
+                "Validations": {
+                    "RequiredNameCaption": "הזן ערך",
+                    "PatternNameCaption": "ערך לא חוקי. השתמש בסימנים: a-z, A-Z, 0-9. סימן: 0-9 אינו יכול להיות ראשון",
+                    "PatternPrefixTemplate": "הקוד חייב להתחיל בפרפיקס \"{0}\""
+                }
+            }
+        },
+        "SchemaParameterMiniPage": {
+            "CardTitle": "פרמטר",
+            "Title": "קוד",
+            "Caption": "כותרת",
+            "Lookup": "טבלת חיפוש",
+            "Value": "ערך",
+            "Schema": "סכימה",
+            "Create": "צור",
+            "Cancel": "בטל",
+            "Resulting": "הגעה למטרה",
+            "Required": "נדרש",
+            "ContainsPerformerId": "מכיל מזהה מבצע",
+            "LazyLoad": "טעינה עצלנית",
+            "Serializable": "ניתן לסיריליזציה",
+            "CopyValue": "העתק ערך",
+            "Type": "סוג",
+            "Save": "שמור",
+            "ProperyExistMessage": "מאפיין זה כבר נבדק במאפיין אחר. ניתן להשתמש בו רק במאפיין אחד.",
+            "Validations": {
+                "RequiredNameCaption": "הזן ערך",
+                "PatternNameCaption": "ערך לא חוקי. השתמש בסימנים: a-z, A-Z, 0-9. סימן: 0-9 אינו יכול להיות ראשון",
+                "DataValueTypeListContainsMessage": "אנא בחר ערך מהרשימה"
+            }
+        },
+        "SqlSchemaDesignerPage": {
+            "Caption": "הפניה מוכשרת למכירה - SQL",
+            "DependentScriptsCaption": "סקריפטים תלויים SQL",
+            "DependsOnScriptCaption": "תלוי בסקריפטים SQL",
+            "SqlScriptValidateCaption": "השלמת בדיקת סקריפט SQL",
+            "Install": "Install",
+            "ShouldSaveFirstTitle": "Save the script before installing",
+            "InstallSqlScriptsConfirmMessage": "This will install SQL script to the database. Do you wish to proceed?",
+            "InstallSuccessMessage": "Operation was successful"
+        },
+        "SqlSchemaDesignerMiniPage": {
+            "Title": "SQL script",
+            "DbmsType": "DBMS type",
+            "InstallationType": "סוג התקנה",
+            "BackwardCompatibilityConfirmed": "תואם לאחור",
+            "BackwardCompatibilityConfirmedLabelBeforeLink": "סקריפטים SQL תואמים לאחור הם אלו העומדים בהמלצות ",
+            "BackwardCompatibilityConfirmedLabelAfterLink": ". בחר תיבת סימון זו רק אם הסקריפט שלך תואם לכל המלצה",
+            "AcademyHelpUrlCaption": "המפורט במאמר נפרד"
+        },
+        "MultiSelectSqlSchemasMiniPage": {
+            "Title": "בחר סקריפט SQL",
+            "TableColumn": {
+                "Name": "קוד",
+                "Package": "חבילה"
+            }
+        },
+        "EntitySchemaDesigner": {
+            "Actions": {
+                "OpenEmbeddedProcess": "פתח תהליך"
+            },
+            "EntityEditor": {
+                "GeneralGroup": {
+                    "Caption": "כללי",
+                    "NameCaption": "קוד",
+                    "TitleCaption": "כותרת",
+                    "PackageCaption": "חבילה",
+                    "DescriptionCaption": "תיאור",
+                    "NameTooltip": "Unique system name of the object schema.",
+                    "TitleTooltip": "Localizable object title displayed in the UI.",
+                    "PackageTooltip": "Package containing the object schema.",
+                    "DescriptionTooltip": "Localizable description of the object."
+                },
+                "ObjectSettings": {
+                    "Caption": "הגדרות אובייקט",
+                    "IdCaption": "מזהה",
+                    "DisplayedValueCaption": "ערך מוצג",
+                    "ParentInHierarchyCaption": "הורה בהיררכיה",
+                    "ChangeLogObjectNameCaption": "שנת שם האובייקט של יומן שינויים",
+                    "LocalizationObjectNameCaption": "שנת שם האובייקט של לוקליזציה",
+                    "ImageCaption": "תמונה",
+                    "SortingInListsCaption": "מיון ברשימות",
+                    "OwnerCaption": "בעלים",
+                    "PermissionObjectNameCaption": "שם אובייקט הרשאות",
+                    "ColorCaption": "צבע",
+                    "IdTooltip": "Primary key column that uniquely identifies object records.",
+                    "ImageTooltip": "Column that stores an image or icon for object records.",
+                    "DisplayedValueTooltip": "Column used as a record title when other objects reference the record.",
+                    "ParentInHierarchyTooltip": "Column that references the parent record for hierarchical structures.",
+                    "ChangeLogObjectNameTooltip": "Name of the object that stores the change log for this entity.",
+                    "LocalizationObjectNameTooltip": "Name of the object that stores localized values for this entity.",
+                    "OwnerTooltip": "Column used to automatically grant access rights to a record.",
+                    "PermissionObjectNameTooltip": "Name of the object that stores permission settings for this entity.",
+                    "ColorTooltip": "Column that stores the color for object records."
+                },
+                "InheritanceGroup": {
+                    "Caption": "ירושה",
+                    "ParentObjectCaption": "אובייקט הורה",
+                    "ExtendParent": "החלף הורה",
+                    "ParentObjectTooltip": "Parent object whose structure and behavior the current object inherits.",
+                    "ExtendParentTooltip": "Marks the schema as a replacing object that overrides the parent on the current inheritance level."
+                },
+                "BehaviorGroup": {
+                    "Caption": "התנהגות",
+                    "isDBViewCaption": "מייצג מבנה של תצוגת מסד נתונים",
+                    "isVirtualCaption": "וירטואלי",
+                    "isTrackChangesInDBCaption": "עדכן יומן שינויים",
+                    "isSSPAvailable": "האם האובייקט זמין כקטע בSSP",
+                    "useRecordDeactivationCaption": "אפשר השבתה של רשומות",
+                    "useLiveEditingCaption": "אפשר עדכון נתונים בזמן אמת",
+                    "showInAdvancedModeCaption": "הראה רק במצב מתקדם",
+                    "isDBViewTooltip": "Indicates that the object is based on a database view instead of a regular table.",
+                    "isVirtualTooltip": "Indicates that the object does not store data in a physical database table and is dynamically obtained from some alternative data sources.",
+                    "isSSPAvailableTooltip": "Makes the object accessible as a section for portal (SSP) users.",
+                    "useLiveEditingTooltip": "The record change automatically generates signals to all currently opened pages of the record, and they auto-refresh.",
+                    "useRecordDeactivationTooltip": "Lets users deactivate records without deleting them.",
+                    "isTrackChangesInDBTooltip": "Enables logging of object record changes.",
+                    "showInAdvancedModeTooltip": "Hides rarely used objects from the standard Studio view."
+                },
+                "AccessRights": {
+                    "Caption": "זכויות גישה",
+                    "OperationsCaption": "פעולות",
+                    "ColumnsCaption": "עמודות",
+                    "RecordsCaption": "רשומות",
+                    "MasterRecordCaption": "אובייקט כדי לרשת הרשאות גישה ממנו",
+                    "OperationsTooltip": "Enables access rights restrictions for record operations.",
+                    "ColumnsTooltip": "Enables access rights restrictions at the column level.",
+                    "RecordsTooltip": "Enables access rights restrictions at the individual record level.",
+                    "MasterRecordTooltip": "Object whose access permissions are inherited."
+                },
+                "HistoryColumns": {
+                    "Caption": "עמודות היסטוריה",
+                    "CreatedByCaption": "נוצר על ידי",
+                    "CreatedOnCaption": "נוצר בתאריך",
+                    "ModifiedByCaption": "השתנה על ידי",
+                    "ModifiedOnCaption": "השתנה בתאריך",
+                    "CreatedByTooltip": "Column that stores the user who created the record.",
+                    "CreatedOnTooltip": "Column that stores the record creation date and time.",
+                    "ModifiedByTooltip": "Column that stores the user who last modified the record.",
+                    "ModifiedOnTooltip": "Column that stores the date and time of the last modification."
+                },
+                "Validations": {
+                    "RequiredNameCaption": "הזן ערך",
+                    "PatternNameCaption": "ערך לא חוקי. השתמש בסימנים: a-z, A-Z, 0-9. סימן: 0-9 אינו יכול להיות ראשון.",
+                    "PatternPrefixTemplate": "הקוד חייב להתחיל בפרפיקס \"{0}\"",
+                    "DuplicateNameCaption": "אובייקט עם אותו קוד כבר קיים"
+                },
+                "EntityBusinessRules": {
+                    "OpenBusinessRulesButtonCaption": "פתח חוקים עסקיים",
+                    "BusinessRulesDialogTitle": "כללים עסקיים",
+                    "BusinessRulesDialogCancelButton": "בטל",
+                    "BusinessRulesDialogApplyButton": "יישם"
+                }
+            },
+            "ColumnEditor": {
+                "GeneralGroup": {
+                    "Caption": "כללי",
+                    "NameCaption": "קוד",
+                    "TitleCaption": "כותרת",
+                    "DataTypeCaption": "סוג נתון",
+                    "DescriptionCaption": "תיאור",
+                    "RequiredCaption": "נדרש",
+                    "DefaultValueCaption": "ערך ברירת מחדל",
+                    "CanMakeCopyCaption": "Copy this value when copying records",
+                    "IsMultiLineTextCaption": "טקסט מרובה שורות",
+                    "IsLocalizableTextCaption": "טקסט הניתן ללוקליזציה",
+                    "EnglishNameCaption": "קוד",
+                    "FormatCaption": "פורמט",
+                    "ReferenceSchemaCaption": "טבלת חיפוש",
+                    "IsCascadeCaption": "בעת מחיקת ערך טבלת חיפוש:",
+                    "IsMaskedCaption": "הצגת מסיכת קלט",
+                    "IsFormatValidationCaption": "אמת את הפורמט",
+                    "isAutonumber": "אוטומטי",
+                    "EditCodeInfoIconCaption": "שינוי הקוד עשוי לגרום להתנהגות לא נכונה של רכיבים מקושרים. אנא השתמש בזה בזהירות",
+                    "MaskTypeCaption": "Mask type",
+                    "MaskOperationCaption": "הרשאות הפעלה",
+                    "UseSecondsCaption": "Show seconds",
+                    "IsAccentInsensitiveCaption": "Accent insensitive search (PostgreSQL only)",
+                    "NameTooltip": "Unique system name of the column.",
+                    "TitleTooltip": "Localizable column title shown in the UI.",
+                    "DataTypeTooltip": "Type of data stored in the column.",
+                    "DescriptionTooltip": "Localizable description of the column.",
+                    "RequiredTooltip": "Specifies that the column must not be empty.",
+                    "DefaultValueTooltip": "Value assigned automatically if no value is provided.",
+                    "CanMakeCopyTooltip": "Copies the column value when a record is copied.",
+                    "IsMultiLineTextTooltip": "Allows entering and displaying text in multiple lines.",
+                    "IsAccentInsensitiveTooltip": "Enables search without considering accent marks.",
+                    "IsLocalizableTextTooltip": "Lets the column store values in multiple languages.",
+                    "IsMaskedTooltip": "Shows an input mask for guided value entry.",
+                    "IsFormatValidationTooltip": "Validates the entered value against the expected format.",
+                    "IsCascadeTooltip": "Defines what happens to records in the current object when the referenced lookup value is deleted.",
+                    "UseSecondsTooltip": "Displays seconds in time values.",
+                    "ReferenceSchemaTooltip": "Object that provides values for the lookup column."
+                },
+                "BehaviorGroup": {
+                    "Caption": "התנהגות",
+                    "UsageModeCaption": "מצב שימוש",
+                    "UpdateChangeLogCaption": "עדכן יומן שינויים",
+                    "IndexedCaption": "ממויין",
+                    "SensitiveDataCaption": "מכיל נתונים אישיים",
+                    "IndexedTooltip": "Creates an index for the column to improve search and filtering performance.",
+                    "SensitiveDataTooltip": "Marks the column as containing personal data.",
+                    "UpdateChangeLogTooltip": "Enables logging of changes for this column.",
+                    "UsageModeTooltip": "Controls the column availability mode in the application."
+                },
+                "RequirementType": {
+                    "NoCaption": "לא",
+                    "YesCaption": "כן"
+                },
+                "UsageType": {
+                    "GeneralCaption": "כללי",
+                    "AdvancedCaption": "Advanced",
+                    "NoneCaption": "None"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "הזן ערך",
+                    "PatternNameCaption": "ערך לא חוקי. השתמש בסימנים: a-z, A-Z, 0-9. סימן: 0-9 אינו יכול להיות ראשון",
+                    "DuplicateNameCaption": "עמודה עם אותו קוד כבר קיימת",
+                    "PatternPrefixTemplate": "הקוד חייב להתחיל בפרפיקס \"{0}\""
+                },
+                "DataSourceGroup": {
+                    "DoNotControlIntegrityCaption": "אל תפקח על שלמות",
+                    "DoNotControlIntegrityTooltip": "Disables integrity control for the lookup relationship."
+                },
+                "DefaultValueTypes": {
+                    "None": "None",
+                    "Const": "Constant",
+                    "Settings": "הגדרת מערכת",
+                    "SystemValue": "משתנה מערכת",
+                    "Sequence": "אוטומטי"
+                },
+                "DefaultValueDialog": {
+                    "Title": "ערך ברירת מחדל",
+                    "ValueTypeCaption": "סוג ערך ברירת מחדל",
+                    "ValueCaption": "ערך",
+                    "LookupValueRecordDeletedCaption": "הערך שצפיה נמחק",
+                    "Cancel": "בטל",
+                    "Ok": "Ok",
+                    "sequencePrefix": "פרפיקס",
+                    "sequenceNumberOfChars": "מספר ספרות"
+                }
+            },
+            "IndexEditor": {
+                "GeneralGroup": {
+                    "Caption": "כללי",
+                    "NameCaption": "קוד",
+                    "UniqueCaption": "ייחודי",
+                    "GenerateNameAutomaticallyCaption": "צור שם אוטומטית",
+                    "NameTooltip": "Unique name of the index.",
+                    "UniqueTooltip": "Prevents duplicate combinations of values in indexed columns."
+                },
+                "IndexColumns": {
+                    "Caption": "עמודות אינדקס",
+                    "AddIndexColumnsDialogCaption": "Select column",
+                    "TitleCaption": "כותרת",
+                    "ColumnName": "קוד",
+                    "SortingOrder": "סדר מיון",
+                    "Blankslate": "אין עמודות באינדקס"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "הזן ערך",
+                    "PatternNameCaption": "ערך לא חוקי. השתמש בסימנים: a-z, A-Z, 0-9. סימן: 0-9 לא יכול להיות ראשון",
+                    "DuplicateNameCaption": "תמונה עם אותו קוד כבר קיימת"
+                }
+            },
+            "EntityColumnTypes": {
+                "TextCaption": "טקסט",
+                "NumberCaption": "מספר",
+                "OtherCaption": "אחר",
+                "DateTimeCaption": "Date/Time"
+            },
+            "EventsEditor": {
+                "EventGroupType": {
+                    "Add": "הוסף כחדש",
+                    "Saving": "שומר",
+                    "Updating": "מעודכן",
+                    "Delete": "מחק",
+                    "Loading": "טוען",
+                    "ColumnValues": "ערכי עמודות"
+                },
+                "Events": {
+                    "Inserting": "לפני הוספת הרשומה",
+                    "Inserted": "אחרי הוספת הרשומה",
+                    "Validating": "מפעיל בדיקה",
+                    "Saving": "לפני שמירה על הרשומה",
+                    "Saved": "אחרי שמירה על הרשומה",
+                    "SaveError": "שגיאה בשמירה על הרשומה",
+                    "Updating": "לפני עדכון הרשומה",
+                    "Updated": "אחרי עדכון הרשומה",
+                    "Deleting": "לפני מחיקת הרשומה",
+                    "Deleted": "אחרי מחיקת הרשומה",
+                    "DefColumnValuesSet": "שדה ערכי ברירת מחדל",
+                    "Loading": "לפני טעינת נתונים",
+                    "Loaded": "אחרי טעינת נתונים",
+                    "ColumnValueChanging": "לפני שינוי ערך עמודה",
+                    "ColumnValueChanged": "אחרי שינוי ערך עמודה",
+                    "ColumnBinaryValuePackageLoading": "טעינת זרם ערך בינארי",
+                    "InsertingTooltip": "Triggered before a new record is added to the database.",
+                    "InsertedTooltip": "Triggered after a new record is successfully added to the database.",
+                    "ValidatingTooltip": "Triggered when record data is being validated before saving.",
+                    "SavingTooltip": "Triggered before any record changes are saved to the database.",
+                    "SavedTooltip": "Triggered after record changes are successfully saved to the database.",
+                    "SaveErrorTooltip": "Triggered when an error occurs while saving a record.",
+                    "UpdatingTooltip": "Triggered before an existing record is updated in the database.",
+                    "UpdatedTooltip": "Triggered after an existing record is successfully updated in the database.",
+                    "DeletingTooltip": "Triggered before a record is deleted from the database.",
+                    "DeletedTooltip": "Triggered after a record is successfully deleted from the database.",
+                    "DefColumnValuesSetTooltip": "Triggered when default values are assigned to record columns.",
+                    "LoadingTooltip": "Triggered before record data is loaded from the database.",
+                    "LoadedTooltip": "Triggered after record data is successfully loaded from the database."
+                }
+            },
+            "EntitySchemaDesignerStructure": {
+                "InheritedColumnsCaption": "עמודות ירושה",
+                "ColumnsCaption": "עמודות",
+                "IndexesCaption": "אינדקסים",
+                "EventsCaption": "אירועים",
+                "SourceCodeCaption": "קוד מקור"
+            },
+            "Addons": {
+                "BusinessRule": "כללים עסקיים",
+                "RelatedPage": "דפים",
+                "TimelineEntity": "ציר זמן",
+                "UseSchemaInTimelineCheckbox": "הצג ברכיב ה-Timeline כברירת מחדל",
+                "RelatedPagesCaption": "הגדרות דפים",
+                "Timeline": {
+                    "NoDisplayColumnNotify": "יש לציין ערך תצוגה כדי להציג את האובייקט ברכיב ה-Timeline"
+                },
+                "MobileRelatedPage": "Mobile app pages",
+                "PredefinedFilters": "Pre-defined filters",
+                "UseSchemaInTimelineCheckboxTooltip": "Displays records of this object in the Timeline component on related pages by default."
+            },
+            "SaveConfirmationDialog": {
+                "Save": "שמור",
+                "DoNotSave": "אל תשמור",
+                "Cancel": "בטל",
+                "Message": "כל השינויים יישמרו. האם להמשיך?"
+            },
+            "DeleteConfirmationDialog": {
+                "BusinessRule": "האם אתה רוצה למחוק את הכלל עסקי?"
+            },
+            "DisableAddonEditBeforeSchemaSaveTooltipText": "ההגדרות יהיו זמינות לאחר שימור אובייקט חדש"
+        },
+        "ClientUnitSchemaDesigner": {
+            "ClientUnitSchemaDesignerPage": {
+                "JsCaption": "ג'אווה סקריפט",
+                "LessCaption": "LESS",
+                "LocalizableStringsCaption": "מחרוזות ניתנות לתרגום",
+                "MessagesCaption": "Messages",
+                "ImagesCaption": "תמונות",
+                "ParametersCaption": "פרמטרים",
+                "Addons": {
+                    "BusinessRule": "כללים עסקיים"
+                },
+                "OpenInterfaceDesigner": "פתח את מעצב הממשק",
+                "CantSaveSchemaWithErrors": "Unable to save due to a syntax error."
+            },
+            "ClientUnitDesignerMiniPage": {
+                "Title": "מודול",
+                "CaptionTitle": "כותרת",
+                "ParentCaption": "אובייקט הורה",
+                "Validations": {
+                    "RequiredNameCaption": "הזן ערך"
+                },
+                "OpenDesigner": "פתח את המעצב"
+            },
+            "ClientUnitCaptionsMiniPage": {
+                "Title": "כותרות",
+                "Apply": "יישם",
+                "Cancel": "בטל"
+            },
+            "ClientUnitMessagesMiniPage": {
+                "Title": "הודעה",
+                "NameCaption": "קוד",
+                "DirectionCaption": "כיוון",
+                "BroadcastCaption": "שידור",
+                "AddressCaption": "כתובת",
+                "ModeCaption": "מצב",
+                "SubscribeCaption": "מנוי",
+                "PublishCaption": "פרסם",
+                "Add": "הוסף",
+                "Apply": "יישם",
+                "Cancel": "בטל",
+                "Validations": {
+                    "RequiredNameCaption": "הזן ערך",
+                    "PatternNameCaption": "ערך לא חוקי. השתמש בסימנים: a-z, A-Z, 0-9. סימן: 0-9 לא יכול להיות ראשון",
+                    "DuplicateNameCaption": "הודעה עם אותו קוד כבר קיימת"
+                }
+            },
+            "ClientUnitImagesMiniPage": {
+                "Title": "תמונה",
+                "NameTitle": "קוד",
+                "CaptionTitle": "כותרת",
+                "ImageTitle": "תמונה",
+                "UidTitle": "מזהה",
+                "Add": "הוסף",
+                "Apply": "יישם",
+                "Cancel": "בטל",
+                "Validations": {
+                    "RequiredNameCaption": "הזן ערך",
+                    "PatternNameCaption": "ערך לא חוקי. השתמש בסימנים: a-z, A-Z, 0-9. סימן: 0-9 לא יכול להיות ראשון",
+                    "DuplicateNameCaption": "תמונה עם אותו קוד כבר קיימת"
+                }
+            }
+        },
+        "SourceCodeSchemaDesignerPage": {
+            "CsharpCaption": "סי שארפ",
+            "LocalizableStringsCaption": "מחרוזות ניתנות לתרגום",
+            "MetadataCaption": "מטה-נתונים",
+            "MetadataReadCaption": "מטא-נתונים (קריאה)",
+            "ModifiedPackageCaption": "חבילת מודיפיקציה",
+            "RunButtonCaption": "הרץ כסקריפט התקנה",
+            "RunSourceCodeCaption": "Operation was successful"
+        },
+        "SourceCodeDesignerMiniPage": {
+            "Title": "קוד מקור",
+            "Description": "תיאור"
+        },
+        "SourceCodeCaptionsMiniPage": {
+            "Title": "כותרות",
+            "Apply": "יישם",
+            "Cancel": "בטל"
+        },
+        "UserTaskCaptionsMiniPage": {
+            "Title": "כותרות",
+            "Apply": "יישם",
+            "Cancel": "בטל",
+            "UserTask": "משימה למשתמש",
+            "WithCustomEventHandler": "עם מעבדי אירועים מותאמים אישית",
+            "Partial": "חלקי",
+            "Serialize": "לסדר ב-DB",
+            "ParametersEditPage": "דף עריכת פרמטרים",
+            "DcmParametersEditPage": "דף עריכת פרמטרים DCM",
+            "Color": "צבע",
+            "SmallSvgImage": "תמונה וקטורית קטנה",
+            "LargeSvgImage": "תמונה וקטורית גדולה",
+            "TitleSvgImage": "תמונה וקטורית של הכותרת",
+            "DcmSmallSvgImage": "תמונה וקטורית קטנה ל-DCM",
+            "PageInaccessibleFromPackageInfo": "הדף הנבחר אינו נגיש מתוך חבילת המשימות הנוכחית. אנא השלם את התלות של החבילה או בחר דף אחר כדי להבטיח ביצוע נכון של משימת המשתמש."
+        },
+        "UserTaskDesignerMiniPage": {
+            "Title": "משימה למשתמש"
+        },
+        "UserTaskSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "מחרוזות שניתן לתרגם",
+            "ParametersCaption": "פרמטרים",
+            "MetadataCaption": "מטה-נתונים",
+            "MetadataReadCaption": "מטא-נתונים (קריאה)",
+            "ModifiedPackageCaption": "חבילה שונתה",
+            "InvalidClassNameConfirmationMessage": "מאפיין משימת משתמש \"קוד\" אינו תואם את שם הקלאס בקוד המקור. משימת המשתמש לא תוכל להתבצע עם ההגדרות הנוכחיות. האם ברצונך להמשיך לשמור?"
+        },
+        "MetaDataSchemaDesigner": {
+            "MetaDataCaption": "מטה-נתונים",
+            "HumanReadableMetaDataCaption": "מטא-נתונים (קריאה בלבד)",
+            "PackageDifferenceMetaDataCaption": "חבילת שינויים"
+        },
+        "RelatedPagesDesigner": {
+            "RelatedPageLabel": "דף ברירת מחדל",
+            "AddPageLabel": "הוסף דף",
+            "ExternalPageCaption": "הגדרת דפים למשתמשים חיצוניים",
+            "RelatedPagesCaption": "הגדרת עמודים",
+            "DefaultPageSelectionTooltip": "בחר או צור דף ברירת מחדל לעריכת, קריאת, ויצירת רשומות.\nאנו ממליצים להשתמש בדף Freedom UI עם האובייקט הנוכחי המשמש כמקור נתונים.",
+            "AddPageTooltip": "בחר או צור דף ספציפי שבו תשתמש רק כדי להוסיף רשומה חדשה.",
+            "RelatedPageCombobox": {
+                "AddNewPage": "הוסף דף חדש",
+                "OpenPageInDesignerTitle": "פתח את מעצב הממשק"
+            },
+            "DefaultPagePlaceholder": "דף לשימוש אם לא צוין דף אחר",
+            "AddPagePlaceholder": "דף לשימוש להוספת רשומות"
+        }
+    },
+    "Tracking": {
+        "ValidationMessage": {
+            "InvalidValue": "ערך לא חוקי",
+            "RequiredFieldValue": "הזן ערך",
+            "LongFieldValue": "עבר את המגבלה המקסימלית של אורך טקסט (255)",
+            "InvalidNumberValue": "פורמט מספר אינו חוקי"
+        },
+        "BaseItemMenuComponent": {
+            "Delete": "מחק",
+            "Edit": "ערוך"
+        },
+        "ConnectionDescription": {
+            "Checking": "בודק",
+            "Connected": "מחובר",
+            "Disconnected": "מנותק",
+            "Warning": "אזהרה"
+        },
+        "ProjectsSection": {
+            "Add": "פרויקט חדש",
+            "Title": "הגדרות מעקב אירועים (פרויקטים)",
+            "Columns": {
+                "Name": "שם הפרויקט",
+                "Owner": "בעלים",
+                "Description": "תיאור",
+                "CreatedOn": "נוצר",
+                "ModifiedOn": "עדכון אחרון"
+            },
+            "BlankSlate": {
+                "Title": "אין רשומות להצגה.",
+                "Description": "."
+            }
+        },
+        "ProjectPage": {
+            "Detail": {
+                "Name": "שם הפרויקט",
+                "Owner": "בעלים",
+                "Description": "תיאור",
+                "CreatedOn": "נוצר",
+                "ModifiedOn": "עדכון אחרון",
+                "TotalEvents": "מספר האירועים",
+                "ConversionRate": "שיעור המרה",
+                "DefaultValues": {
+                    "Name": "פרויקט חדש",
+                    "Description": "תיאור חדש"
+                }
+            },
+            "ResourceDetail": {
+                "Header": "משאבי מעקב",
+                "Columns": {
+                    "Name": "שם recurso",
+                    "Status": {
+                        "Caption": "סטטוס",
+                        "Active": "פעיל",
+                        "Inactive": "לא פעיל"
+                    },
+                    "Source": "מקור",
+                    "CreatedOn": "נוצר",
+                    "ModifiedOn": "עדכון אחרון"
+                }
+            }
+        },
+        "ResourcePage": {
+            "CreatedOn": "נוצר בתאריך",
+            "ModifiedOn": "השתנה בתאריך",
+            "Name": "שם",
+            "Source": "ID (URL לאתר)",
+            "Active": "פעיל",
+            "DefaultName": "משאב חדש",
+            "DefaultSource": "https://example.com",
+            "Tabs": {
+                "TrackingCode": "קוד מעקב",
+                "GoalSettings": "הגדרות מטרה"
+            },
+            "BasicCodeTitle": "קוד מעקב בסיסי",
+            "CustomEventTab": "אירוע מותאם אישית",
+            "GoalDetail": {
+                "Header": "מטרות מעקב",
+                "Columns": {
+                    "Name": "שם המטרה",
+                    "EventTypeFilter": "מסנן סוג האירוע",
+                    "Status": {
+                        "Caption": "סטטוס",
+                        "Active": "פעיל",
+                        "Inactive": "לא פעיל"
+                    },
+                    "Cost": "עלות המטרה"
+                }
+            },
+            "GoalEditiDialog": {
+                "Header": "הגדרות מטרה",
+                "Name": "שם המטרה",
+                "UseEventCost": "השתמש בעלות האירוע",
+                "Cost": "עלות המטרה",
+                "Active": "פעיל",
+                "FilterSettings": "הגדרות פילטר מטרות",
+                "EventTypeFilter": "מסנן סוג האירוע",
+                "EventNameFilter": "מסנן שם האירוע",
+                "EventValueFilter": "מסנן ערך האירוע",
+                "EventCostFilter": "מסנן עלות האירוע",
+                "Actions": {
+                    "Save": "שמור",
+                    "Cancel": "בטל"
+                },
+                "StringCondition": {
+                    "Equal": "שווה",
+                    "Contains": "מכיל",
+                    "BeginWith": "מתחיל עם",
+                    "EndWith": "מסתיים ב"
+                },
+                "NumberCondition": {
+                    "Equal": "שווה",
+                    "LessOrEqual": "פחות או שווה",
+                    "MoreOrEqual": "יותר או שווה"
+                }
+            }
+        },
+        "CodePane": {
+            "CopyToClipboard": "העתק ללוח",
+            "OnCopiedToClipboard": "הועתק בהצלחה"
+        },
+        "BaseTrackingCode": {
+            "Header": "כותרת קוד מעקב בסיסי",
+            "Loading": "טוען...",
+            "InfoBlock": {
+                "Title": "חשוב",
+                "Content": "קוד המעקב הבסיסי עבור מקור זה צריך להיות ממוקם בכל הדפים של האתר.",
+                "LinkText": "פרטים על הגדרת קוד המעקב הבסיסי"
+            },
+            "NotReady": "שמור את המשאב לפני קבלת קוד המעקב."
+        },
+        "EventCodeGenerator": {
+            "Header": "Event's tracking code",
+            "Form": {
+                "EventType": "סוג אירוע",
+                "EventName": "שם אירוע",
+                "EventValue": "ערך האירוע",
+                "EventCost": "עלות האירוע"
+            },
+            "FormValidators": {
+                "EmptyForm": "ריק...",
+                "InvalidForm": "בדוק אם יש שגיאות בטופס..."
+            }
+        }
+    },
+    "QueueSorting": {
+        "QueueSectionHeader": "הגדרות מיון בתור",
+        "AddQueueObjectCaption": "הוסף אובייקט תור",
+        "QueueObjectCaption": "Queue object",
+        "QueueTypeCaption": "Queue type",
+        "BlindQueue": "Blind queue",
+        "RegularQueue": "תור רגיל",
+        "AddQueueSortObjectCaption": "הוסף אובייקט מיון",
+        "Empty": "ריק",
+        "RequiredFieldValue": "בחר אובייקט תור",
+        "QueueObjectLookup": {
+            "NameColumnCaption": "כותרת",
+            "Title": "חיפוש אובייקט תור"
+        },
+        "QueueObjectColumnLookup": {
+            "NameColumnCaption": "כותרת",
+            "Title": "חיפוש עמודת מיון אובייקט תור"
+        },
+        "QueueObjectColumnPage": {
+            "AddQueueObjectColumn": "הוסף עמודה",
+            "SortDirection": "סדר מיון",
+            "SelectColumn": "עמודה",
+            "RequiredFieldValue": "שדות חובה לא מלאים"
+        },
+        "QueueObjectTable": {
+            "Actions": {
+                "Delete": "מחק",
+                "Edit": "הגדרות"
+            },
+            "RemoveToolTip": "Creatio לא יכולה למחוק אובייקט מיון כי תורים קיימים משתמשים בו"
+        },
+        "QueueObjectColumnTable": {
+            "Caption": "מיין עמודות",
+            "ColumnCaption": "כותרת",
+            "SortDirection": "כיוון מיון",
+            "Position": "עדיפות",
+            "Empty": "עמודות מיון לא נוספו",
+            "Actions": {
+                "Delete": "מחק",
+                "Edit": "ערוך"
+            }
+        },
+        "OrderDirection": {
+            "Ascending": "סדר עולה",
+            "Descending": "סדר יורד",
+            "None": "None"
+        }
+    },
+    "ChatSettings": {
+        "ChatSettingsPageHeader": "צ'אטים",
+        "ChannelDetail": {
+            "DeleteAction": "מחק",
+            "DeleteRecordErrorMessage": "לא ניתן למחוק רשומות נבחרות",
+            "Title": "ערוצים",
+            "Columns": {
+                "Name": "שם",
+                "Status": {
+                    "Caption": "פעיל"
+                },
+                "Queue": "Queue",
+                "Provider": "ספק"
+            },
+            "FacebookSettings": {
+                "InvalidSettings": {
+                    "Message": "לא ניתן להוסיף ערוץ. ניתן למצוא את הדרישות להגדרות ב",
+                    "Link": {
+                        "Text": "מאמר."
+                    }
+                }
+            }
+        },
+        "ChannelPage": {
+            "Name": "שם",
+            "Token": "Token",
+            "WebhookUrl": "קישור",
+            "Status": "סטטוס",
+            "Queue": "Queue",
+            "ChannelProcessingGroup": "עיבוד ערוץ",
+            "NewChannelCaption": "ערוץ '{0}' חדש",
+            "InactiveChannelMessage": "כדי לקבל הודעות, עליך להפעיל את הערוץ ולציין את התור לעיבוד. האם אתה בטוח שברצונך להוסיף ערוץ לא פעיל?",
+            "FacebookPageLinkCaption": "דף פייסבוק",
+            "ActiveChannelCaption": "פעיל",
+            "Language": "שפה",
+            "Telegram": {
+                "TelegramPageLinkCaption": "ערוץ טלגרם",
+                "InvalidTelegramToken": "הכנס טוקן נכון כדי ליצור ערוץ",
+                "TelegramTokenAlreadyExists": "הערוץ כבר קיים עבור הטוקן שהוזן",
+                "ActiveWebhookErrorMessageForCreating": "לא ניתן ליצור את הערוץ מפני שנקבעה אינטגרציה של webhook עבור בוט Telegram. אנא מחק את אינטגרציית ה-webhook כדי להוסיף את הערוץ."
+            },
+            "Tips": {
+                "Language": "Creatio תגדיר את השפה הנבחרת כשפה מועדפת של אנשי קשר שנוצרו דרך ערוץ זה. אתה יכול לבחור רק שפות פעילות. עבור אל דף הגדרת השפות כדי להפעיל/לבטל",
+                "WhatsAppToken": "הכנס את AUTH TOKEN של חשבון Twilio שלך.",
+                "WhatsAppId": "הכנס את SID של חשבון Twilio שלך.",
+                "WhatsAppTestPhoneNumber": "מספר הטלפון אליו יישלח הודעת בדיקה לאישור הערוץ."
+            },
+            "WhatsApp": {
+                "PageLinkCaption": "ערוץ WhatsApp",
+                "ApplicationId": "Application Id",
+                "ChannelPhoneNumber": "מספר טלפון",
+                "IntegrationPhoneNumber": "מספר טלפון לאישור",
+                "Connect": "התחבר",
+                "InvalidPhoneNumber": "מותר רק מספרים",
+                "ChannelDuplicatedErrorMessage": "הערוץ כבר קיים עבור מספר הטלפון שהוזן",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "הכנסת SID לא תקין של חשבון Twilio",
+                    "InvalidAccountPhoneNumberException": "הכנסת מספר טלפון לא תקין של WhatsApp",
+                    "AuthenticateException": "הכנסת טוקן לא תקין"
+                }
+            },
+            "ValidationMessage": {
+                "required": "הזן ערך",
+                "wrongValue": "ערך לא תקין"
+            },
+            "ErrorCodes": {
+                "ActiveWebhook": "ערוץ הצ'אט “{{channelName}}” אינו מקבל הודעות מפני שנקבעה אינטגרציה של webhook עבור בוט Telegram. אנא מחק את אינטגרציית ה-webhook והפעל את הערוץ הזה כדי לאפשר קבלת הודעות.",
+                "PollingConflict": "The “{{channelName}}” chat channel is not receiving messages because another Telegram bot instance is configured. Please delete the duplicate instance to enable message reception."
+            },
+            "Sms": {
+                "ChannelDuplicatedErrorMessage": "The channel already exists for the entered phone number",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "You entered an invalid Twilio account SID",
+                    "InvalidAccountPhoneNumberException": "You entered an invalid phone number",
+                    "AuthenticateException": "You entered an invalid Token"
+                }
+            },
+            "Twilio": {
+                "ErrorMessages": {
+                    "ValidationException": "Unable to connect to Twilio. Please check that your account SID and token are correct and try again."
+                }
+            }
+        },
+        "ChatQueueDetail": {
+            "Title": "תורי צ'אט",
+            "Columns": {
+                "Name": "שם",
+                "Routing": {
+                    "Caption": "Routing rule"
+                },
+                "Simultaneous": "צ'אטים סימולטניים",
+                "Timeout": "Chat timeout, minutes"
+            }
+        },
+        "ChatActionsDetail": {
+            "Title": "Chat actions",
+            "Columns": {
+                "Caption": "כותרת",
+                "Process": "Process",
+                "Queue": "Queue"
+            },
+            "Actions": {
+                "Delete": "מחק"
+            }
+        },
+        "ChatQueuePage": {
+            "Title": "Queue",
+            "Name": "שם",
+            "OperatorRoutingRule": "Routing rule",
+            "SimultaneousChats": "צ'אטים סימולטניים",
+            "TimeToWaitInQueue": "Time to wait in queue",
+            "Timeout": "זמן פסק זמן להשלמת צ'אט, דקות",
+            "Tips": {
+                "SimultaneousChats": "מספר הצ'אטים המירבי למפעיל",
+                "Timeout": "הזמן המקסימלי להמתנה לפני שהצ'אט יושלם אוטומטית"
+            },
+            "ValidationMessage": {
+                "required": "הזן ערך",
+                "wrongValue": "ערך לא תקין",
+                "nonNegativeValue": "לא ניתן לספק ערך שלילי",
+                "nonNumericValue": "לא ניתן לספק ערך שאינו מספרי"
+            }
+        },
+        "ChatActionPage": {
+            "Title": "Chat actions",
+            "Caption": "כותרת",
+            "Process": "Process",
+            "ChatQueue": "Queue of the Chat",
+            "ValidationMessage": {
+                "required": "הזן ערך"
+            }
+        },
+        "ChatQueueOperatorDetail": {
+            "Title": "סוכני תור",
+            "Columns": {
+                "Operator": {
+                    "Caption": "משתמשתפקיד"
+                }
+            },
+            "DuplicationMessage": "תפקיד כבר קיים. אנא בחר מפעיל/תפקיד אחר כדי להמשיך"
+        }
+    },
+    "IntegrationDiagnostics": {
+        "EmailListener": {
+            "Header": "Email Listener service diagnostics",
+            "MailBoxAvailabilityCheck": "Checking mailbox health",
+            "ExchangeListenerAvaibilityCheck": "Service availability verification",
+            "GetSubscriberInfo": "Receiving subscription information",
+            "StartDiagnosticButtonCaption": "Run diagnostics",
+            "StartFullDiagnosticButtonCaption": "Run full diagnostics",
+            "MailBoxLookupCaption": "Mailbox",
+            "SuccessfulOperation": "Successful operation",
+            "UnSuccessfulOperation": "שגיאה",
+            "ELAvailabilityDescription": "Email Listener service is available for this site",
+            "ELNotAvailabilityDescription": "Email Listener service is currently not available for this site",
+            "ValidateCreatioExchangeEndpoint": "אימות של נכונות המילוי בהגדרה המערכת BpmonlineExchangeEventsEndpointUrl",
+            "CreatioExchangeEndpontErrorValidationInfoTemplate": "נקודת הקצה אינה תקפה\nערך צפוי: {0}/NewEmail\nערך נוכחי: {1}\nבדוק שההגדרה המערכת BpmonlineExchangeEventsEndpointUrl מלאה!",
+            "CreatioExchangeEndpontSuccessValidationInfoTemplate": "Endpoint {0} is valid",
+            "SendTestEmail": "שלח דוא\"ל ניסיון",
+            "MailboxAvailabilityDiagnosticTooltip": "Need to fill in the mailbox",
+            "MailboxDiagnosticSuccessDescriptor": "This mailbox has been verified successfully",
+            "NameCaption": "שם",
+            "FeaturesStateLabel": "Features state",
+            "ExchangeListenerEnabledFeatureCaption": "Exchange mailbox synchronization (ExchangeListenerEnabled)",
+            "EmailIntegrationV2FeatureCaption": "Exchange and IMAP mailboxes synchronization (EmailIntegrationV2)",
+            "SendEmailsV2FeatureCaption": "Sending emails (SendEmailsV2)",
+            "OldEmailIntegrationFeatureCaption": "אינטגרציה ישנה של דואר (OldEmailIntegrationFeature, מצב מושבת)",
+            "IsMailboxSyncSettingsCachedFeatureCaption": "מטמון הגדרות סנכרון תיבת דואר (IsMailboxSyncSettingsCached)",
+            "ExchangeListenerAvailabilityCheck": "אימות זמינות Creatio",
+            "ApplicationAvailabilityDescription": "מניח הדואר הצליח להגיע ל-Creatio",
+            "DiagnosticWasNotStarted": "הדיאגנוסטיקה לא התחילה"
+        }
+    },
+    "StructureExplorerDialog": {
+        "NoData": "אין נתונים",
+        "Title": "בחר שדה",
+        "CancelButtonCaption": "בטל",
+        "SelectButtonCaption": "בחר",
+        "RelatedObjectsTabCaption": "אובייקטים קשורים{0}",
+        "FieldsTabCaption": "{0} שדות{1}",
+        "SearchPlaceHolder": "חפש",
+        "SearchClearIconTitle": "נקה חיפוש"
+    },
+    "EntityColumnValuePickerProvider": {
+        "ValueFromFieldCaption": "ערך משדה נוסף"
+    },
+    "FormulaValuePickerProvider": {
+        "ValueFromFieldCaption": "נוסחה",
+        "CancelButtonCaption": "בטל",
+        "SelectButtonCaption": "שמור",
+        "DialogTitleCaption": "ביטוי נוסחה"
+    },
+    "RepositorySection": {
+        "Title": "רשימת מחסני SVN",
+        "Actions": {
+            "Add": "הוסף",
+            "Edit": "ערוך",
+            "Authorize": "אמת",
+            "Delete": "מחק"
+        },
+        "Messages": {
+            "SuccessAuthorize": "התחברת בהצלחה למחסן"
+        },
+        "Columns": {
+            "Name": "שם",
+            "Address": "כתובת אחסון SVN",
+            "IsActive": "פעיל",
+            "Login": "התחבר",
+            "Password": "סיסמא"
+        },
+        "Page": {
+            "Title": "אחסון SVN",
+            "Actions": {
+                "Add": "הוסף",
+                "Apply": "יישם",
+                "Cancel": "בטל",
+                "Authorize": "אימות"
+            },
+            "Validation": {
+                "Required": "הזן ערך",
+                "MaxLength": "אורך הטקסט המרבי חורג ({0} / {1})",
+                "NameField": {
+                    "Pattern": "פורמט שם לא חוקי"
+                }
+            }
+        },
+        "InfoBlock": {
+            "Title": "חשוב לדעת",
+            "TextPart1": "העברת שינויים באמצעות SVN מיועדת רק לסביבות פיתוח. השתמשו ב",
+            "TextPart2": " לשימוש להעברת שינויים לסביבת ייצור.",
+            "InstallAppsLink": "https://academy.creatio.com/docs/user/no-code_customization/apps_and_extensions/install_applications_from_the_marketplace",
+            "InstallAppsLinkText": "Installed application",
+            "LinksMessage": "למדו עוד על SVN באקדמיה של Creatio:",
+            "DeploymentInCreatioIDEInfoLinkText": "הפצה ב-Creatio IDE",
+            "SetupVersionControlInfoLinkText": "הגדרת בקרת גרסאות",
+            "DeploymentInCreatioIDEInfoLink": "https://academy.creatio.com/docs/developer/development_tools/deployment/transferring_solutions_in_creatio_ide",
+            "SetupVersionControlInfoLink": "https://academy.creatio.com/docs/node/1164"
+        }
+    },
+    "dataSource": "מקור הנתונים",
+    "lookup": "טבלת חיפוש",
+    "lookupValueDeletion": "בעת מחיקת ערך טבלת חיפוש:",
+    "blockDeletionCaption": "חסום מחיקה אם יש רשומות מחוברות באובייקט הנוכחי עם ערך זה",
+    "DeleteRecordsCaption": "מחק רשומות מאובייקט הנוכחי עם ערך זה",
+    "lookupView": "תצוגת טבלת חיפוש",
+    "selectionWindow": "חלון בחירה",
+    "list": "רשימה",
+    "columnFormat": "סוג נתון",
+    "columnNumberFormat": "סוג נתון",
+    "selectValueCaption": "הזן ערך",
+    "DataValueType": {
+        "TextCaption": "טקסט",
+        "ShortTextCaption": "טקסט (50 תווים)",
+        "PhoneTextCaption": "מספר טלפון",
+        "MediumTextCaption": "טקסט (250 תווים)",
+        "LongTextCaption": "טקסט (500 תווים)",
+        "MaxSizeTextCaption": "אורך טקסט ללא הגבלה",
+        "SecureTextCaption": "מחרוזת מוצפנת",
+        "HashTextCaption": "CRC",
+        "IntegerCaption": "מספר שלם",
+        "FLOAT1Caption": "עשרוני (0.1)",
+        "FLOAT2Caption": "עשרוני (0.01)",
+        "FLOAT3Caption": "עשרוני (0.001)",
+        "FLOAT4Caption": "עשרוני (0.0001)",
+        "FLOAT8Caption": "עשרוני (0.00000001)",
+        "MoneyCaption": "מטבע",
+        "DateTimeCaption": "Date/Time",
+        "DateCaption": "תאריך",
+        "TimeCaption": "שעה",
+        "BooleanCaption": "בוליאני",
+        "ImageCaption": "תמונה",
+        "ImageLookupCaption": "קישור תמונה",
+        "FileCaption": "קובץ",
+        "ColorCaption": "צבע",
+        "GuidCaption": "מזהה ייחודי",
+        "BlobCaption": "BLOB",
+        "LookupCaption": "טבלת חיפוש",
+        "Entity": "אובייקט (Entity)",
+        "EntityCollection": "אוסף אובייקטים (EntityCollection)",
+        "CustomObject": "אובייקט",
+        "Collection": "Grid page",
+        "LocalizableString": "מחרוזת שניתן לתרגם",
+        "MetaDataText": "מחרוזת שאינה ניתנת לתרגום",
+        "ObjectList": "רשימה הניתנת לסידור של ערכים",
+        "CompositeObjectList": "רשימה הניתנת לסידור של ערכי קומפוזיציה",
+        "FloatCaption": "עשרוני",
+        "EntityColumnMappingCollection": "ערכי עמודה של האובייקט",
+        "RichCaption": "טקסט עשיר",
+        "PhoneTextShortenedCaption": "טלפון",
+        "WebTextCaption": "קישור רשת",
+        "EmailTextCaption": "דוא\"ל",
+        "EmailTextShortenedCaption": "דוא\"ל",
+        "TimerCaption": "טיימר",
+        "LocalTimeCaption": "שעה מקומית",
+        "CompositeObject": "ערך מורכב",
+        "FLOAT0Caption": "Decimal (0)",
+        "Money0Caption": "Currency (0)",
+        "Money1Caption": "Currency (0.1)",
+        "Money3Caption": "Currency (0.001)"
+    },
+    "ValidationErrorDialogComponent": {
+        "Cancel": "בטל",
+        "Close": "סגור"
+    },
+    "AddEntityOperationGranteeDialog": {
+        "Add": "הוסף",
+        "Cancel": "בטל",
+        "Operation": "הפעלה",
+        "UserOrRole": "משתמש או תפקיד המקבל הרשאות",
+        "Title": "הוסף הרשאות על סמך תפקיד או משתמש"
+    },
+    "UsedLicensesCounterChart": {
+        "ActiveLicensesTitle": "רישיונות פעילים",
+        "ConcurrentLicenseTitle": "רישיונות קונקרנטיים",
+        "UsedLicensesCountTitle": "מורשה",
+        "UsedLicensesCountSeparatorLabel": "מ",
+        "DistributedLicensesLegend": "רישיונות שהוקצו למשתמשים",
+        "AvailableLicensesLegend": "הגבלה למושבים קונקרנטיים",
+        "UnlimitedCountLabel": "למשתמשים בלתי מוגבלים",
+        "LimitOfLicensesLabel": "הגבלת רישיונות"
+    },
+    "RightsByEntityOperationsDetail": {
+        "Add": "הוסף",
+        "Title": "הרשאות נוספות",
+        "Blankslate": "הוסף משתמשים או תפקידים כדי להעניק להם גישה לפעולות נוספות",
+        "Operation": "הפעלה",
+        "UserOrRole": "משתמש או תפקיד שמקבל הרשאות",
+        "ValidationMessage": "המשתנים אינם מלאים"
+    },
+    "SelectEntityOperationDialog": {
+        "Cancel": "בטל",
+        "Search": "חפש",
+        "Operations": "פעולות",
+        "Select": "בחר",
+        "Title": "Entity operation",
+        "Users": "משתמשים",
+        "SelectFieldPlaceholder": "בחר פעולה של ישות"
+    },
+    "QuickEntityFilter": {
+        "NonGuidMessage": "Guid צריך להכיל 32 סמלים עם 4 מקפים (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)."
+    },
+    "SocialLeadgen": {
+        "ValidationMessage": {
+            "InvalidValue": "ערך לא חוקי",
+            "RequiredFieldValue": "הזן ערך",
+            "LongFieldValue": "עבר את המגבלה המקסימלית של אורך טקסט (255)",
+            "InvalidNumberValue": "פורמט מספר אינו חוקי"
+        },
+        "IntegrationTypes": {
+            "LinkedIn": "לינקדין",
+            "Facebook": "פייסבוק / אינסטגרם",
+            "Undefined": "לא מוגדר"
+        },
+        "IntegrationSettings": {
+            "Header": {
+                "Title": "הגדרות"
+            },
+            "Detail": {
+                "Url": "כתובת לקבלת לידים",
+                "Group": "תפקיד לקבלת הודעות"
+            },
+            "Notes": {
+                "Header": "הערות",
+                "Text": "<p>כתובת לקבלת לידים – כתובת Creatio שתקבל את הלידים מהחשבונות המפרסמים המחוברים. על אתר Creatio להיות נגיש כדי שיוכל לקבל את הבקשות הנכנסות. אם אתה משתמש בשרת פרוקסי, ציין את כתובת ה- proxy במקום את כתובת ה- Creatio. אם ההתקנה של Creatio שלך היא חלק מרשת עם גישה מוגבלת, פתח את ה-IP של שירותי הליד-גנרציה.</p><p>תפקיד לקבלת הודעות — Creatio תודיע למשתמשים בעלי תפקיד זה במקרה של תקלות כלשהן, כמו שגיאות בחיבור לחשבונות המפרסמים או יצירת לידים.</p><p>הלשונית \"חיבור\" מציגה את רשימת החשבונות המפרסמים והעמודים המחוברים ל-Creatio. הרשימה כוללת את הסטטוסים של החיבורים ברמות והעמודים, החשבון והטוקן. תוכל לנהל את החיבורים, למשל, למחוק או לאפס.</p><p>הלשונית \"יומנים\" מציגה את יומן השינויים של פונקציית יצירת הלידים.</p>"
+            },
+            "Tabs": {
+                "Connection": "חיבור",
+                "Logs": "יומנים"
+            },
+            "AutorouteMessage": "כדי להמשיך בעבודה, עליך למלא את שדה \"כתובת לקבלת לידים\". כברירת מחדל, השדה התמלא בכתובת הנוכחית של היישום מהדפדפן. ודא שהזנת את הכתובת הנכונה של היישום ושמור את ההגדרות. הגדרות אלה מתבצעות פעם אחת כאשר אתה פותח את הסעיף בפעם הראשונה.",
+            "Error": {
+                "FormValidation": "שגיאה בעת ניסיון לשמור את ההגדרות. אנא בדוק את כל השדות עבור שגיאות.",
+                "Save": "לא הצליח לשמור את הערך שהוזן בשדה \"כתובת לקבלת לידים\". ודא להזין את הכתובת הנכונה והנגישה מבחוץ עבור היישום."
+            },
+            "Logs": {
+                "IntegrationFilter": {
+                    "PlaceholderCaption": "אינטגרציות",
+                    "EmptyOptionCaption": "כל הפריטים"
+                },
+                "DateColumnCaption": "תאריך",
+                "IntegrationColumnCaption": "אינטגרציות",
+                "DetailsColumnCaption": "פירוט",
+                "IntegrationNotFound": "לא נמצא",
+                "GetIntegrationListError": "התרחשה שגיאה בזמן טעינת רשימת האינטגרציות. הטעינה נגררה.",
+                "NoLogsMessage": "נכון לעכשיו אין יומנים להצגה"
+            },
+            "FacebookPagesConnections": {
+                "Header": "עמודי פייסבוק",
+                "Blankslate": "חיבורים לדפים עדיין לא הוגדרו."
+            },
+            "LinkedInAdAccountsConnections": {
+                "Header": "חשבונות פרסום של לינקדאין",
+                "Blankslate": "חיבורים לחשבונות פרסום עדיין לא הוגדרו.",
+                "AdAccountsTable": {
+                    "DeleteConfirmation": "האם אתה בטוח שברצונך למחוק את חשבון הפרסום?",
+                    "DeleteError": "חשבונית זו מחוברת לאינטגרציה. מחק את האינטגרציה ונסה שוב",
+                    "Headers": {
+                        "Name": "שם החברה",
+                        "Link": "קישור",
+                        "ConnectionStatus": "Connection status",
+                        "ExpirationDate": "תאריך תפוגה"
+                    },
+                    "ConnectionStatuses": {
+                        "Active": "פעיל",
+                        "Inactive": "לא פעיל"
+                    },
+                    "ConnectionStatusErrorMessage": {
+                        "Inactive": "לא ניתן לגשת לחשבון הפרסום. התחבר ללינקדאין והגדר הרשאות לחשבונות שאתה צריך לבצע אינטגרציה."
+                    },
+                    "UsersTable": {
+                        "DeleteConfirmation": "האם אתה בטוח שברצונך למחוק את הטוקן? זה עשוי לגרום לבעיות עם הגישה לחשבון הפרסום ומשיגת הלידים",
+                        "Headers": {
+                            "UserName": "משתמש רשת",
+                            "TokenStatus": "סטטוס הטוקן",
+                            "ExpirationDate": "תאריך תפוגה",
+                            "HasAdAccountAccess": "מספק גישה לחשבון"
+                        },
+                        "TokenStatuses": {
+                            "Active": "פעיל",
+                            "Expired": "מאחרים",
+                            "Revoked": "נשלל",
+                            "Unknown": "לא ידוע"
+                        },
+                        "HasAdAccountAccess": {
+                            "Yes": "כן",
+                            "No": "לא"
+                        },
+                        "TokenStatusErrorMessage": {
+                            "Expired": "התחבר ללינקדאין והענק הרשאות לחשבונות הפרסום מטעם המשתמש שהטוקן שלו פג.",
+                            "Revoked": "הטוקן בוטל.\nסיבות אפשריות:\n- חשבון זה שימש לצורך כניסה לאינסטנס אחר של Creatio.\n- אפליקציית הלידגנרציה הוסרה בצד של לינקדאין.\nכדי לפתור בעיה זו, התחבר ללינקדאין פעם נוספת והענק הרשאות לחשבונות הפרסום מטעם המשתמש שהטוקן שלו בוטל.",
+                            "Unknown": "לא ניתן לשחזר את סטטוס הטוקן בשל שגיאה אחת או מספר שגיאות במהלך הבקשה. נא רענן את הדף."
+                        },
+                        "MenuCell": {
+                            "Delete": "מחק",
+                            "Reconnect": "חבר מחדש"
+                        }
+                    }
+                }
+            }
+        },
+        "IntegrationSection": {
+            "DeleteConfirmation": "האם אתה בטוח שברצונך למחוק את האינטגרציה הזו? מערכת Creatio לא תוכל לשחזר לידים חדשים ממנה",
+            "DeleteError": "לא ניתן למחוק את האינטגרציה, גישה לחשבון הפרסום נדחתה. הענק גישה לחשבון הפרסום המתאים ונסה שוב",
+            "Header": {
+                "Title": "אינטגרציות ליצירת לידים חברתיות",
+                "Buttons": {
+                    "New": "חדש",
+                    "Logs": "יומנים",
+                    "Settings": "הגדרות"
+                }
+            },
+            "Columns": {
+                "Name": "שם",
+                "Type": "סוג",
+                "IsActive": "פעיל",
+                "IntegrationSectionItemMenu": {
+                    "Delete": "מחק",
+                    "Activate": "הפעל",
+                    "Deactivate": "השבת"
+                }
+            },
+            "BlankSlate": {
+                "Description": "אין לך אינטגרציות מוגדרות."
+            }
+        },
+        "IntegrationPage": {
+            "ToggleStateCaptions": {
+                "Active": "פעיל",
+                "Inactive": "לא פעיל"
+            },
+            "Header": {
+                "Buttons": {
+                    "Logs": "יומנים",
+                    "Settings": "הגדרות"
+                }
+            },
+            "Error": {
+                "Save": "לא ניתן לשנות את ההגדרות. ודא שהשדות הנדרשים של האובייקט ממופים והגדרות המקרו \"שדות טופס לא ממופים\" מצוינות.",
+                "FormSelection": "לא ניתן לשנות את ההגדרות. ודא שהשדות הנדרשים של האובייקט ממופים והגדרות המקרו \"שדות טופס לא ממופים\" מצוינות."
+            },
+            "BlankSlate": {
+                "Title": "לא הצלחנו למצוא טפסים פעילים בחשבון הפרסום הנבחר.",
+                "Description": "אנא צור טופס לידים או בחר חשבון אחר להגדרה."
+            },
+            "BlankSlateError": {
+                "Title": "לא ניתן לגשת לחשבון.",
+                "Description": "נסה להתחבר ולהעניק גישה שוב."
+            },
+            "Detail": {
+                "Name": "שם",
+                "FacebookPage": "דף פייסבוק",
+                "LinkedinAdAccount": "חשבון לינקדאין",
+                "DeactivateConfirmationQuestion": "האם אתה בטוח שברצונך להשבית את המנוי שלך? העברת הלידים מכל הטפסים תיפסק. הסטטוס החדש ייכנס לתוקף לאחר שהשינויים יישמרו ברמת כרטיס האינטגרציה."
+            },
+            "IntegrationSettings": {
+                "FacebookIsNotSet": "האינטגרציה לפייסבוק לא הוגדרה.",
+                "LinkedInIsNotSet": "האינטגרציה לינקדאין לא הוגדרה.",
+                "Create": "הגדרת אינטגרציה",
+                "DefaultIntegrationRecordName": "אינטגרציית ליצירת לידים חברתיות חדשה"
+            },
+            "InfoBlock": {
+                "Title": "הערות",
+                "Text": "כל הטפסים לדף שנבחר מחוברים ל-creatio. קבע את ההגדרות ברירת המחדל עבור כל הטפסים בלשונית \"הגדרות ברירת מחדל\". ניתן לבצע הגדרות ייחודיות לכל טופס בלשונית \"טפסים\"."
+            },
+            "ColumnMapping": {
+                "ExpansionPanelCaption": "מיפוי ברירת מחדל",
+                "Object": "אובייקט",
+                "AddMapping": "הוסף",
+                "Hint": "חברת Creatio מיישמת את המיפוי ברירת המחדל על כל טפסי חשבון הפרסום.\nההגדרות חלות רק על עמודות הטופס עם מידע על פרופיל המשתמש.\nניתן למפות שאלות מותאמות אישית, תיבות סימון מותאמות אישית ושדות מוסתרים בדף רישום הטופס. בחר את תיבת הסימון \"מיפוי מותאם אישית\" כדי להפעיל תכונה זו.\nמאקרו \"שדות לא ממופים\" מאפשר להעביר את הערכים של כל העמודות לעמודה אחת של אובייקט.",
+                "DataTypes": {
+                    "Lookup": "טבלת חיפוש",
+                    "Text": "טקסט",
+                    "Boolean": "בוליאני",
+                    "DateTime": "תאריך שעה",
+                    "Date": "תאריך",
+                    "Time": "שעה",
+                    "Number": "מספר",
+                    "Macro": "מאקרו"
+                },
+                "FieldMenuCaptions": {
+                    "FormField": "שדה טופס",
+                    "Text": "ערך טקסטואלי",
+                    "Boolean": "Boolean value",
+                    "Lookup": "ערך מטבלת חיפוש",
+                    "Other": "אחר"
+                },
+                "LinkedIn": "לינקדין",
+                "BooleanValue": {
+                    "True": "אמת",
+                    "False": "שגוי"
+                },
+                "UnmappedMacroValue": "שדות טופס לא ממופים",
+                "LookupValueUnknown": "<לא נמצא>",
+                "ModalBox": {
+                    "SetButtonCaption": "קבע",
+                    "CancelButtonCaption": "בטל",
+                    "SelectFormCaption": "בחר שדה טופס",
+                    "EnterTextValueCaption": "הזן ערך"
+                }
+            },
+            "Logs": {
+                "ExpansionPanelCaption": "יומנים",
+                "NoLogsForIntegrationMessage": "אין יומנים עבור אינטגרציה זו",
+                "ShowMoreButtonCaption": "הראה יותר",
+                "Types": {
+                    "Info": "מידע",
+                    "Warning": "אזהרה",
+                    "Error": "שגיאה"
+                }
+            },
+            "FormsList": {
+                "Header": "טפסים",
+                "LinkedInStatus": "סטטוס לינקדאין",
+                "Hint": "הגדרות מיפוי מותאמות אישיתמבוטלות את הגדרות המיפוי ברירת המחדל. מיפוי כל טופס בנפרד.\nאם תבטל מיפוי מותאם אישית, Creatio ישתמש בהגדרות המיפוי ברירת המחדל לטופס.",
+                "FormStatus": {
+                    "Archived": "נשמר בארכיון",
+                    "Pending": "ממתין",
+                    "Approved": "מאושר",
+                    "Preapproved": "מאושר מראש",
+                    "Rejected": "נדחו",
+                    "NeedsReview": "דורש בדיקה",
+                    "AutoApproved": "מאושר אוטומטית",
+                    "AutoRejected": "נדחה אוטומטית",
+                    "Undefined": "לא מוגדר",
+                    "NotActive": "לא פעיל"
+                },
+                "MappingType": {
+                    "DefaultMapping": "מיפוי ברירת המחדל",
+                    "CustomMapping": "מיפוי מותאם"
+                },
+                "BlankSlate": {
+                    "Description": "עבור טופס זה חלות הגדרות המיפוי ברירת המחדל."
+                },
+                "DeactivateFormConfirmationQuestion": "האם אתה בטוח שברצונך לבטל את המנוי על קבלת לידים מטופס זה ב-creatio? הסטטוס החדש ייכנס לתוקף לאחר שהשינויים יישמרו ברמת כרטיס האינטגרציה.",
+                "ObjectsTitle": {
+                    "Lead": "הפניה"
+                }
+            },
+            "IntegrationSyncInfo": {
+                "Header": "מידע על סנכרון הלידים",
+                "UnableToAdAccountAccess": "לא ניתן לגשת לחשבון. סנכרון הלידים נפסק.",
+                "SaveIntegration": "אנא שמור את האינטגרציה ורענן את הדף כדי לקבל הודעות על מצב הסנכרון של הלידים.",
+                "SubscriptionInactive": "המנוי להובלת הלידים לא פעיל עבור חשבון הפרסום הנבחר. סנכרון הלידים הופסק. הפעלת המנוי תשחזר את קבלת הלידים ב-Creatio.",
+                "SubscriptionActive": "מנוי הלידים פעיל עבור חשבון המודעות הנבחר. הלידים שנוצרו בצד LinkedIn יועברו ל-Creatio."
+            },
+            "DownloadLeads": {
+                "ForForm": {
+                    "ButtonCaption": "סנר את הלידים",
+                    "ModalBoxTitle": "לחץ על \"סנכרן\" כדי להעלות את הלידים של הטופס עבור התקופה. התקופה מחושבת ללא קשר למצב המנוי של הלידים של הטופס באותו הזמן."
+                },
+                "ForAdAccount": {
+                    "ButtonCaption": "סנכרן את כל הלידים",
+                    "ModalBoxTitle": "לחץ על \"סנכרן\" כדי להעלות את הלידים של חשבון המודעות עבור התקופה. התקופה מחושבת ללא קשר למצב המנוי של הלידים באותו הזמן. Creatio לא יעלה מחדש את הלידים שכבר סנכרנת."
+                },
+                "ModalBox": {
+                    "InformationText": "LinkedIn שומרת על הלידים למשך 90 ימים.",
+                    "CancelButtonCaption": "בטל",
+                    "DownloadButtonCaption": "סנכרן",
+                    "SuccessRunBusinessProcessInfoText": "תהליך העלאת הלידים החל. זה עשוי להימשך מעט זמן עד שההליך הסתיים.",
+                    "UnknownFailedRunBusinessProcessInfoText": "נכשל בהפעלה של תהליך העלאת הלידים. אנא נסה שוב מאוחר יותר. אם שגיאת ההפעלה נמשכת, צרו קשר עם התמיכה הטכנית."
+                }
+            }
+        },
+        "SocialMediaProvider": {
+            "New": "אינטגרציה חדשה",
+            "RestoreAccess": "שחזור גישה"
+        },
+        "IntegrationError": {
+            "InvalidScope": "לא ניתן להתחבר לשירות ליצירת לידים. חשבון המשתמש של שירות ליצירת הלידים חסר הרשאות חיוניות. אנא צור קשר עם התמיכה של Creatio כדי לפתור בעיה זו.",
+            "InvalidClient": "לא ניתן להתחבר לשירות ליצירת לידים. ערכים בלתי צפויים בהגדרות המערכת של \"מזהה לקוח של שרת זהות\" ו\"סוד לקוח של שרת זהות\". אנא צור קשר עם התמיכה של Creatio כדי לפתור בעיה זו.",
+            "InvalidSettings": "לא ניתן להתחבר לשירות ליצירת לידים. ההגדרות הבאות חסרות: \"כתובת URL של שרת זהות\", \"מזהה לקוח של שרת זהות\", \"סוד לקוח של שרת זהות\".",
+            "GeneralError": "לא ניתן להתחבר לשירות ליצירת לידים. אנא רענן את הדף או צור קשר עם התמיכה של Creatio אם הבעיה persists."
+        }
+    },
+    "CodeMirror": {
+        "HotkeysDescription": "מקשים חמים:",
+        "SelectAll": "Ctrl-A בחר הכל",
+        "Undo": "Ctrl-Z בטל",
+        "Redo": "Shift-Ctrl-Z חזור",
+        "Find": "Ctrl-F חפש",
+        "FindNext": "F3 חפש הבא",
+        "FindPrev": "Shift-F3 חפש הקודם",
+        "Replace": "Shift-Ctrl-F החלף",
+        "ReplaceAll": "Shift-Ctrl-R החלף הכל",
+        "DeleteLine": "Ctrl-Y מחק שורה",
+        "GoLineStart": "Alt-Left עבור להתחלת השורה",
+        "GoLineEnd": "Alt-Right עבור לסוף השורה",
+        "JmpToLine": "Alt-G עבור שורה",
+        "Fullscreen": "F11 Editor קוד במצב מסך מלא",
+        "FullscreenExit": "Esc לצאת ממצב מסך מלא",
+        "Autocomplete": "Ctrl-Space קריאה להשלמה אוטומטית"
+    },
+    "CDK": {
+        "IndicatorWidget": {
+            "Caption": "מדד"
+        },
+        "ChartWidget": {
+            "Line": {
+                "Caption": "קו"
+            },
+            "Spline": {
+                "Caption": "סְפְּלָיִן"
+            },
+            "Area": {
+                "Caption": "אזור"
+            },
+            "Scatter": {
+                "Caption": "פזר"
+            },
+            "Bar": {
+                "Caption": "עמודה"
+            },
+            "HorizontalBar": {
+                "Caption": "סרגל"
+            },
+            "Pie": {
+                "Caption": "תרשים פאי"
+            },
+            "Doughnut": {
+                "Caption": "סופגניה"
+            },
+            "Tsfunnel": {
+                "Caption": "Pipeline"
+            },
+            "Common": {
+                "EmptyValue": "ערך לא מוגדר",
+                "ShowSeriesDataCaption": "הצג נתונים לפי סדרות",
+                "ShowDataCaption": "הצג נתונים",
+                "DrillDownCaption": "תחקר מטה בפריט",
+                "ExportDataBtnCaption": "יצוא ל - Excel",
+                "HideSeries": "הסתר",
+                "ShowDataForSelectedSeriesCaption": "הצג נתונים עבור סדרה זו",
+                "ShowSeries": "הצג",
+                "BooleanTrueValue": "כן",
+                "BooleanFalseValue": "לא",
+                "ShowDataAsTableCaption": "הצג נתונים כטבלה"
+            },
+            "ChangeChartType": {
+                "Caption": "שנה סוג תרשים"
+            },
+            "With": {
+                "Caption": "עם"
+            },
+            "Series": {
+                "Caption": "סדרה"
+            },
+            "ScreenReader": {
+                "AnnounceChartTypeChange": "Chart type changed to {{chartType}}"
+            }
+        },
+        "FunnelWidget": {
+            "OpportunityFunnel": {
+                "Caption": "משפך מכירות",
+                "ByCountLabelTemplate": "{0}",
+                "StageConversionLabelTemplate": "{0}%",
+                "ToFirstStageLabelTemplate": "{0}%",
+                "ByCountBtnLabel": "מספר ההזדמנויות העסקיות",
+                "StageConversionBtnLabel": "יחס המרה של שלב",
+                "ToFirstStageBtnLabel": "המרת משפך מכירה",
+                "DefaultTitle": "משפך מכירה חדש"
+            },
+            "FullPipelineFunnel": {
+                "Caption": "משפך מכירה מלא",
+                "ByCountBtnLabel": "מספר רשומות",
+                "StageConversionBtnLabel": "יחס המרה של שלב",
+                "ToFirstStageBtnLabel": "המרת משפך מכירה",
+                "DefaultTitle": "משפך מכירה חדש"
+            },
+            "Tooltip": {
+                "CountInStage": "ספור",
+                "CountInStageValue": "{0}",
+                "Amount": "סכום",
+                "AmountValue": "{0} {1}",
+                "ConversionToStage": "המרה",
+                "ConversionToStageValue": "{0}%",
+                "ConversionToFirstStage": "המרה",
+                "ConversionToFirstStageValue": "{0}%",
+                "ConversionToStageCount": "ספור",
+                "ConversionToStageCountValue": "{0}",
+                "ConversionToFirstStageCount": "ספור",
+                "ConversionToFirstStageCountValue": "{0}"
+            }
+        },
+        "GaugeWidget": {
+            "Caption": "מַד"
+        },
+        "HeaderWidget": {
+            "Fullscreen": {
+                "ExpandLabel": "הרחב את מצב מסך מלא",
+                "CollapseLabel": "כאמור את מצב מסך מלא"
+            },
+            "Direction": {
+                "Menu": {
+                    "Caption": "מיקום התרשים"
+                },
+                "Column": {
+                    "Caption": "מעל"
+                },
+                "Row": {
+                    "Caption": "שמאל"
+                },
+                "RowReverse": {
+                    "Caption": "ימין"
+                }
+            }
+        },
+        "ByCaption": "על ידי",
+        "ByColumnCaption": "לפי עמודה",
+        "WhereColumnCaption": "איפה",
+        "IsColumnCaption": "האם",
+        "ListWidget": {
+            "Caption": "List widget",
+            "Hint": "A component that combines a fully functional list with a customizable colored frame, ensuring visual consistency when placed alongside other analytics widgets"
+        },
+        "WaterfallWidget": {
+            "Caption": "Waterfall pipeline",
+            "DefaultTitle": "New waterfall pipeline"
+        },
+        "SalesWaterfallWidget": {
+            "Caption": "Sales waterfall pipeline",
+            "DefaultTitle": "New sales waterfall pipeline"
+        }
+    },
+    "Components": {
+        "Input": {
+            "Caption": "טקסט"
+        },
+        "NumberInput": {
+            "Caption": "מספר"
+        },
+        "Button": {
+            "Caption": "כפתור",
+            "DefaultActionNotificationMessageText": "Data saved successfully"
+        },
+        "Checkbox": {
+            "Caption": "תיבת סימון"
+        },
+        "Combobox": {
+            "Caption": "רשימה נפתחת",
+            "AddNewRecord": "הוסף כחדש",
+            "IsGoToSourceAllowedTooltip": "עבור לרשימת הרשומות"
+        },
+        "DataGrid": {
+            "Caption": "רשימה",
+            "Hint": "A customizable data display component that allows users to view and interact with structured information"
+        },
+        "DateTimePicker": {
+            "Caption": "Date/Time"
+        },
+        "Gallery": {
+            "Caption": "גלריה"
+        },
+        "ColorPicker": {
+            "Caption": "בורר צבעים"
+        },
+        "Label": {
+            "Caption": "lCaption"
+        },
+        "ExpansionPanel": {
+            "Caption": "פנל התרחשות"
+        },
+        "TabPanel": {
+            "Caption": "כרטיסיות",
+            "AddTab": "הוסף כרטיסיה",
+            "DeleteTab": "מחק כרטיסיה",
+            "DefaultTab1Name": "כרטיסיה 1",
+            "DefaultTab2Name": "כרטיסיה 2",
+            "NewTabName": "כרטיסיה חדשה",
+            "DeleteTabConfirmation": "מחק את הכרטיסיה \"{0}\" ואת כל הפריטים בפנים?",
+            "DefaultLabel1Name": "תווית 1",
+            "DefaultLabel2Name": "תווית 2",
+            "NewLabelName": "תווית חדשה"
+        },
+        "Slider": {
+            "Caption": "שקף"
+        },
+        "ExpandedList": {
+            "Caption": "רשימה מורחבת",
+            "Hint": "הרשימה המורחבת כוללת רשימה, קבוצה ניתנת להרחבה, וכפתור הוספה. מומלץ להשתמש בדפים המיועדים להצגת מידע קשור.",
+            "AddBtnCaption": "חדש",
+            "RefreshBtnCaption": "רענן",
+            "SettingsBtnCaption": "פעולות",
+            "ExportDataBtnCaption": "יצוא ל - Excel",
+            "ImportDataBtnCaption": "יבוא נתונים"
+        },
+        "ActionDashboard": {
+            "Caption": "לוח מחוונים לפעולה",
+            "Hint": "מציג מידע על מצב הנוכחי של רשומה באמצעות שורת זרימה ולוח פעולה. מומלץ להשתמש ברכיב בדף טופס."
+        },
+        "MenuItem": {
+            "Caption": "Menu item"
+        },
+        "FileInput": {
+            "Caption": "קובץ",
+            "LabelCaption": "קובץ להעלות",
+            "Placeholder": "בחר קובץ"
+        },
+        "Breadcrumbs": {
+            "Back": "חזור"
+        },
+        "File": {
+            "Caption": "קובץ",
+            "Label": "קובץ להעלות",
+            "Placeholder": "בחר קובץ"
+        },
+        "Attachment": {
+            "Caption": "הצמדה",
+            "Hint": "המודול של קבצים מצורפים כולל רשימת קבצים, קבוצת קצהית, כפתור להעלות קובץ, וכפתור רענון. מומלץ להשתמש בדף טופס כדי להציג קבצים מצורפים הקשורים.",
+            "AddBtnCaption": "העלה",
+            "RefreshBtnCaption": "רענן"
+        },
+        "RichTextEditor": {
+            "Caption": "טקסט עשיר"
+        },
+        "TogglePanel": {
+            "Caption": "לוח החלפה",
+            "Hint": "המיכל כולל מיכל כרטיסים לא נתמך וכפתור שמאפשר לך לשלוט בהצגת הכרטיסים. אפשר למקם מיכלים וכפתורים בחלקים שונים בדף באופן עצמאי."
+        },
+        "Timeline": {
+            "Caption": "ציר זמן",
+            "AddObject": "+ הוסף אובייקט",
+            "ProvideDataSource": "ספק מקור נתונים לפני השימוש בקטעי זמן",
+            "Tile": {
+                "TileObjectTitle": "System administration object: "
+            },
+            "DesignerCustomEntities": {
+                "Email": {
+                    "Caption": "דוא\"ל"
+                },
+                "Feed": {
+                    "Caption": "לוח הודעות"
+                },
+                "Task": {
+                    "Caption": "משימה"
+                },
+                "SysFile": {
+                    "Caption": "קובץ"
+                }
+            },
+            "Hint": "The component displays communication history and related records in chronological order"
+        },
+        "ImageInput": {
+            "Caption": "תמונה",
+            "LabelCaption": "תמונה להעלות"
+        },
+        "SearchFilter": {
+            "Caption": "חפש",
+            "Placeholder": "חפש",
+            "Tooltip": "המרכיב חיפוש מאפשר לחפש רק על בסיס טקסט, מספר ועמודות חיפוש עם חיבורים ישירים לאובייקט הרשימה.",
+            "ComparisonType": {
+                "StartsWith": "Search matches values that start with your input.",
+                "Contains": "Search matches values that contain your input."
+            }
+        },
+        "Approval": {
+            "Caption": "אישורים"
+        },
+        "ApprovalList": {
+            "Caption": "רשימת אישורים",
+            "RefreshCaption": "רענן",
+            "ProvideDataSource": "ספק מקור נתונים לפני השימוש באישורים"
+        },
+        "ProgressBar": {
+            "Caption": "סרגל התקדמות",
+            "Hint": "מצביע ביצוע של שלבים",
+            "ProvideDataSource": "ספק מקור נתונים לפני השימוש בסרגל ההתקדמות"
+        },
+        "CommunicationOptions": {
+            "Caption": "אפשרויות תקשורת",
+            "Hint": "The component displays Contact or Account communication options",
+            "AddBtnCaption": "הוסף אפשרות תקשורת"
+        },
+        "CampaignViewer": {
+            "Caption": "צופה בקמפיינים",
+            "Hint": "מציג את תרשים הקמפיין"
+        },
+        "TagSelect": {
+            "Caption": "תוויות"
+        },
+        "Summaries": {
+            "Caption": "סיכומים"
+        },
+        "CalendarCaption": "לוח שנה",
+        "EntityHierarchyFilter": {
+            "Caption": "היררכיה",
+            "AllCaption": "הכל",
+            "Hint": "תצוגת היררכיה מאפשרת לך להגדיר את מבנה ההיררכיה לפי עמודי חיפוש כדי לארגן רשומות. כדי להבטיח שהמרכיב פועל כפי שנדמה, חבר אותו בהגדרות רשימת עמוד או מקור נתונים"
+        },
+        "IndicatorWidget": {
+            "Caption": "מדד חדש"
+        },
+        "Chat": {
+            "Caption": "צ'אט",
+            "Hint": "המרכיב לצ'אט בזמן אמת והצגת שיחות קודמות"
+        },
+        "ChartWidget": {
+            "Caption": "תרשים חדש"
+        },
+        "GaugeWidget": {
+            "Caption": "מדד חדש"
+        },
+        "Dashboards": {
+            "Caption": "לוח מחוונים",
+            "Hint": "The Dashboards component lets you configure the data source, connect the component to the page where the component is placed, and create a new or change an existing dashboard"
+        },
+        "Toggle": {
+            "Caption": "Switcher"
+        },
+        "DataGridHierarchical": {
+            "Caption": "Hierarchical list",
+            "Hint": "A data display component that allows users to view and interact with structured information organized in a multi-level hierarchy"
+        },
+        "Feed": {
+            "Caption": "לוח הודעות"
+        },
+        "Divider": {
+            "Caption": "מחלק"
+        },
+        "Switch": {
+            "Caption": "Switch"
+        }
+    },
+    "LayoutElements": {
+        "GridArea1": {
+            "Caption": "אזור"
+        },
+        "GridColumn1": {
+            "Caption": "1 עמודה"
+        },
+        "GridColumn2": {
+            "Caption": "2 עמודות"
+        },
+        "GridColumn3": {
+            "Caption": "3 עמודות"
+        },
+        "GridColumn4": {
+            "Caption": "4 עמודות"
+        },
+        "FlexRow": {
+            "Caption": "שורה גמישה",
+            "Hint": "מסנכרן מספר عناصر אופקית. Creatio עשוי לשנות את גודלם בהתאם לתוכן. לדוגמה, הניחו שני כפתורים או שדה וכפתור אחד ליד השני. למדו עוד באקדמיה."
+        },
+        "FlexColumn": {
+            "Caption": "עמודה גמישה",
+            "Hint": "מסנכרן מספר عناصر בצורה אנכית. Creatio עשוי לשנות את גודלם בהתאם לתוכן. לדוגמה, צרו עמודה עם שני בלוקים. למדו עוד באקדמיה."
+        }
+    },
+    "HomePage": {
+        "DialogMessages": {
+            "RequiredFieldsAreNotFilled": "שדות חובה לא מולאו, או שהעמוד содержит שגיאות אימות"
+        }
+    },
+    "DesignerSettingsComponent": {
+        "HeaderCaption": "הגדרת תרשים"
+    },
+    "InterfaceDesigner": {
+        "AddMenu": {
+            "NewDataSource": "מקור נתונים חדש",
+            "ExistingDataSource": "מקור נתונים קיים",
+            "AddDataSource": "הוסף מקור חדש"
+        },
+        "DataSourceActions": {
+            "Edit": "ערוך",
+            "RemoveAttribute": "מחק",
+            "Remove": "מחק",
+            "RemoveExistingDataSourceMessage": "Are you sure you want to remove the data source? Any unsaved changes to its object will be lost.",
+            "RemoveNewDataSourceMessage": "Are you sure you want to remove the data source? This will permanently delete the new object as it hasn’t been saved yet.",
+            "RemoveDataSourceWithReferencesMessage": "Remove the referenced elements before deleting the data source",
+            "RemoveDataSourceSuccessMessage": "The data source has been deleted"
+        },
+        "SetupDataSourceDialog": {
+            "SetupDataSourceTitle": "הגדר מקור נתונים",
+            "CancelButtonDialog": "בטל",
+            "SelectButtonDialog": "בחר",
+            "Object": "אובייקט",
+            "SelectDataSource": "בחר מקור נתונים"
+        },
+        "SetupEntityProperties": {
+            "NameColumnCaption": "שם"
+        },
+        "SetupEntityPropertiesDialog": {
+            "Name": "שם",
+            "Description": "תיאור",
+            "SaveButton": "שמור",
+            "CancelButton": "בטל",
+            "Code": "קוד",
+            "Validations": {
+                "RequiredNameCaption": "הזן ערך"
+            }
+        },
+        "CopyPostfixCaption": "העתק",
+        "DesignElementSetting": {
+            "SettingsTitle": "הגדרות",
+            "DuplicateTitle": "העתק",
+            "DeleteTitle": "מחק"
+        },
+        "Messages": {
+            "SuccessfullySaved": "נשמר בהצלחה"
+        },
+        "PropertiesPages": {
+            "EntityDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "כללי"
+            },
+            "EntityDataSourcePropertiesPanel": {
+                "GeneralGroup": "כללי",
+                "PrimaryDataSource": "מקור הנתונים הראשי",
+                "PrimaryDataSourceChangeConfirm": "המקור הראשי של הנתונים עבור עמוד זה ישונה. האם ברצונך לשמור את השינויים?",
+                "BusinessRulesGroup": "כללים עסקיים",
+                "Relations": "Relations setup",
+                "FiltersAndSorting": "Filters and sorting",
+                "isIndependentDataSource": "Independent data source",
+                "isIndependentDataSourceTooltip": "If enabled, this data source will always load data based only on its static filter and sorting criteria, regardless of the main record",
+                "ApplyStaticFilter": "Apply static filter",
+                "EditStaticFilterAction": "Edit filter",
+                "SetupStaticFilterAction": "הגדר מסנן",
+                "FiltersDialogCaption": "Manually defined filter",
+                "DoNotCreateEmptyRecordsLabel": "Do not create empty records",
+                "DoNotCreateEmptyRecordsTooltip": "If enabled, empty records will not be generated when the user has not changed any fields (including the default values set on object level) of this data source",
+                "KeepValuesOnCopy": "Keep values on copy",
+                "KeepValuesOnCopyTooltip": "If enabled, the record of this data source will be copied when copying the record of the main data source using this page",
+                "SchemaHasChanged": "Cannot set up a static filter if the new data source is not saved yet. Save the page and try again"
+            },
+            "ExpansionPanelPropertiesPage": {
+                "PageCaption": "הגדרות פאנל הרחבה",
+                "GeneralCaption": "כללי",
+                "TitleLabel": "כותרת",
+                "ToggleTypeLabel": "סגנון",
+                "TogglePositionLabel": "מיקום כפתור",
+                "ColorLabel": "צבע כותרת",
+                "DefaultToggleTypeLabel": "ברירת מחדל",
+                "MaterialToggleTypeLabel": "אקורדיון",
+                "BeforeTogglePositionLabel": "שמאל",
+                "AfterTogglePositionLabel": "ימין",
+                "FullWidthHeaderCaption": "כותרת ברוחב מלא",
+                "TitleWidthCaption": "רוחב כותרת",
+                "PaddingGroup": "מרווחים",
+                "Padding": {
+                    "Top": "למעלה",
+                    "Bottom": "Background",
+                    "Left": "References",
+                    "Right": "ימין"
+                }
+            },
+            "LabelPropertiesPage": {
+                "PageCaption": "הגדרות תווית",
+                "GeneralCaption": "כללי",
+                "TitleLabel": "טקסט",
+                "TypeLabel": "סגנון",
+                "TextAlignLabel": "יישור",
+                "ThicknessLabel": "פורמט",
+                "FontSizeLabel": "גודל, פיקסלים",
+                "FontColorLabel": "צבע טקסט",
+                "BackgroundColorLabel": "צבע רקע",
+                "AlignLeftCaption": "שמאל",
+                "AlignCenterCaption": "במרכז",
+                "AlignRightCaption": "ימין",
+                "AlignJustifyCaption": "מצדיק",
+                "TypeH1Caption": "H1",
+                "TypeH2Caption": "H2",
+                "TypeH3Caption": "H3",
+                "TypeH4Caption": "H4",
+                "TypeH5Caption": "H5",
+                "TypeBody1Caption": "גוף טקסט",
+                "TypeCaptionCaption": "כותרת",
+                "TypeBlankslateCaption": "דף ריק",
+                "ThicknessLightCaption": "קל",
+                "ThicknessNormalCaption": "רגיל",
+                "ThicknessSemiboldCaption": "חצי שמן",
+                "ThicknessBoldCaption": "שמן",
+                "ThicknessDefaultCaption": "ברירת מחדל",
+                "TypeLarge1Caption": "גדול 1",
+                "TypeLarge2Caption": "גדול 2",
+                "TypeLarge3Caption": "גדול 3",
+                "TypeLarge4Caption": "גדול 4",
+                "TypeHeadline1Caption": "כותרת 1",
+                "TypeHeadline1SmallCaption": "כותרת 1 קטן",
+                "TypeHeadline2Caption": "כותרת 2",
+                "TypeHeadline3Caption": "כותרת 3",
+                "TypeHeadline4Caption": "כותרת 4",
+                "TypeBodyLargeCaption": "גוף גדול",
+                "TypeBodyCaption": "גוף ההודעה",
+                "TypeCaptionLargeCaption": "כותרת גדולה",
+                "TypePlaceholderLargeCaption": "מקום מחזיק גדול",
+                "TypePlaceholderCaption": "מקום מחזיק",
+                "TypeButtonCaption": "כפתור",
+                "TypeButtonSmallCaption": "לחצן קטן",
+                "AttributeBindingCaption": "האלמנט מכיל לוגיקת הצגת נתונים שנוגנה מראש. אם עליך ליישם לוגיקה חלופית, הסר את ערך האלמנט.",
+                "ClearAttributeBinding": "נקה ערך",
+                "HeadingLevelCaption": "Heading level",
+                "HeadingLevelInfo": "The heading level helps better organize content on the page and improves its accessibility"
+            },
+            "DataGridPropertiesPage": {
+                "PageCaption": "הגדרות רשימה",
+                "GeneralCaption": "כללי",
+                "DataSourceCaption": "אובייקט",
+                "ChangeFilters": "שנה מסנן",
+                "AttributeBindingUsage": "ערך מאפיין בשימוש",
+                "MassActions": "פעולות מרובות",
+                "ApplyStaticFilter": "הפעל מסנן סטטי",
+                "SetupStaticFilterAction": "הגדר מסנן",
+                "EditStaticFilterAction": "ערוך מסנן",
+                "Appearance": {
+                    "AppearanceGroup": "מראה",
+                    "Editable": "Inline editing",
+                    "ItemsCreation": "Inline adding records",
+                    "FloatingEditPanel": "לוח עריכה צף",
+                    "FloatingEditPanelHint": "Enables users to use the floating edit panel to save or cancel changes in the editable list. When cleared, users can still use Save and Cancel page buttons for that purpose",
+                    "RowsNumeration": "מספרי שורות",
+                    "RowsMultiSelection": "ריבוי בחירה",
+                    "RowsLimit": "הגבלת מספר השורות",
+                    "RowsLimitPlaceholder": "הזן את המספר המרבי של שורות",
+                    "RowsLimitTooltip": "קבע מספר מקסימלי של רשומות להציג ברשימה. זה מועיל כאשר אתה רוצה להראות מספר ספציפי של פריטים — לדוגמה, \"5 הלקוחות הטובים ביותר\".</br>כאשר קובע מגבלה, אפשרות \"בחר הכל\" אינה זמינה.",
+                    "Header": "כותרת רשימה",
+                    "ColumnsSorting": "מיון",
+                    "ColumnsResizing": "עמודות ניתנות לשינוי גודל",
+                    "ColumnsDragAndDrop": "עמודות ניתנות לגרירה"
+                },
+                "RowsNumeration": "מספרי שורות",
+                "StyleLabel": "סגנון",
+                "Styles": {
+                    "PlainWhite": "לבן חלק",
+                    "Glassmorphism": "אפקט זכוכית"
+                }
+            },
+            "ViewElementEventPropertiesPanel": {
+                "EventFieldLabel": "פעולה",
+                "Requests": {
+                    "RunBusinessProcessRequest": "הרץ תהליך",
+                    "ClosePageRequest": "סגור עמוד",
+                    "SaveRecordRequest": "שמור נתונים",
+                    "CancelRecordChangesRequest": "בטל שינויים",
+                    "OpenPageRequest": "פתח עמוד ספציפי",
+                    "CreateRecordRequest": "פתח רשומה חדשה",
+                    "UpdateRecordRequest": "פתח רשומה קיימת",
+                    "LoadDataRequest": "רענן נתונים",
+                    "ExportDataGridToExcelRequest": "יצוא ל - Excel",
+                    "ImportDataRequest": "יבוא נתונים",
+                    "UploadFileRequest": "העלה קובץ",
+                    "SetRecordRightsRequest": "עדכן זכויות גישה",
+                    "ShowRelationshipsRequest": "הצג את הקשרים של הרשומה",
+                    "OpenDuplicatesPageRequest": "פתח עמוד כפילויות",
+                    "AddСommunicationOptionsRequest": "הוסף אפשרות תקשורת",
+                    "DeleteRecordsRequest": "מחק נתונים",
+                    "ContinueInOtherPageRequest": "המשך בעמוד אחר",
+                    "SelectLookupPageRequest": "בחר נתון",
+                    "AddTagsInRecordsRequest": "הוסף תגיות",
+                    "RemoveTagsInRecordsRequest": "הסר תגיות",
+                    "PrintablesRequest": "הדפס דוח",
+                    "SetCalendarTimeScaleRequest": "קבע את קנה המידה של לוח השנה",
+                    "AddCalendarSyncAccountRequest": "הוסף חשבון סנכרון של לוח שנה",
+                    "AddRecordsInStaticFoldersRequest": "הוסף רשומות לתיוק הסטטי",
+                    "RemoveRecordsInStaticFoldersRequest": "הסרת רשומות מתיק ההיסטוריה הסטטית",
+                    "CreateEmailRequest": "צור דוא\"ל",
+                    "SendInvitesForActivityRequest": "שלח הזמנה",
+                    "MoveSelectedItemsRequest": "הזז את הרשומות שנבחרו",
+                    "CopilotActionRequest": "Creatio.ai action",
+                    "OpenChangeLogRequest": "פתח יומן שינויים",
+                    "SetupCalendarSyncAccountRequest": "הגדר את חשבון הסנכרון של לוח השנה",
+                    "ToggleFollowFeedRequest": "לעקוב/לבטל מעקב אחרי לוח הודעות",
+                    "DeleteRecordRequest": "מחק רשומה",
+                    "SetAttributeFromBarcodeRequest": "Open Barcode scanner",
+                    "SetAttributeFromNfcRequest": "Open NFC reader",
+                    "UpdateQuickFilterGroupRequest": "Setup filters"
+                },
+                "RunBusinessProcessRequest": {
+                    "WhichProcessRunQuestion": "איזה תהליך להריץ?",
+                    "AddNewBusinessProcessButton": "הוספף תהליך חדש",
+                    "SelectBusinessProcessButton": "פתח את מעצב התהליכים",
+                    "HowProcessRunQuestion": "איך להריץ את התהליך?",
+                    "HowProcessRunLabel": "פרמטר תהליך שבו הרשומה מועברת",
+                    "HowRunProcessOptions": {
+                        "ForTheSelectedPage": "לעמוד הנבחר",
+                        "RegardlessOfThePage": "לא משנה מהעמוד",
+                        "ForTheSelectedRecords": "לרשומות שנבחרו ברשימה"
+                    },
+                    "DataSourceFieldCaption": "לאיזו רשימה להריץ את התהליך?",
+                    "SaveAtProcessStart": "שמור נתונים לפני תחילת התהליך",
+                    "AnnounceProcessStart": "Show notification for process start",
+                    "NotificationTextFieldName": "Notification text",
+                    "DefaultNotificationText": "ההליך הושק"
+                },
+                "OpenPageRequest": {
+                    "Title": "אילו עמודים לפתוח?",
+                    "OpenPageInDesignerTitle": "פתח את מעצב הממשק",
+                    "AddNewPage": "הוסף עמוד חדש",
+                    "PageParameters": "פרמטרי דף"
+                },
+                "CreateRecordRequest": {
+                    "WhichRecordToCreateLabel": "איזה רשומה ליצור?",
+                    "DefaultAttributeValuesLabel": "אילו ערכי עמודות יש להגדיר?"
+                },
+                "UpdateRecordRequest": {
+                    "WhichObjectToOpenRecordOfLabel": "איזה אובייקט לפתוח את הרשומה?",
+                    "WhichRecordToOpenLabel": "איזו רשומה לפתוח?"
+                },
+                "LoadDataRequest": {
+                    "DataRefreshModeLabel": "Data refresh mode",
+                    "DataRefreshModeOptions": {
+                        "RefreshAll": "Refresh all",
+                        "RefreshSpecific": "Refresh specific data sources"
+                    },
+                    "DataSourcesSelection": {
+                        "DataSourceLabel": "מקור הנתונים",
+                        "RefreshAll": {
+                            "Title": "Which data sources to exclude?",
+                            "Tooltip": "In “Refresh all” mode, all page data sources will be refreshed — including those added after this action is configured. Use this list to exclude specific data sources from being refreshed."
+                        },
+                        "RefreshSpecific": {
+                            "Title": "Which data sources to refresh?",
+                            "Tooltip": "Select the data sources that should be refreshed when the button is clicked."
+                        }
+                    }
+                },
+                "ExecuteCustomCode": "בצע קוד מותאם אישית",
+                "OpenDuplicatesPageRequest": {
+                    "WhichObjectToOpenDuplicatesOfLabel": "אילו כפילויות של יישום צריך לפתוח?"
+                },
+                "ShowRelationshipsRequest": {
+                    "SelectEntityLabel": "איזה אובייקט להשתמש?",
+                    "SelectRecordIdLabel": "באיזו עמודה להתחבר?"
+                },
+                "SetCalendarTimeScaleRequest": {
+                    "Calendar": "מרכיב לשליטה",
+                    "TimeScale": "קנה מידה הזמן",
+                    "FiveMinutes": "5 דקות",
+                    "TenMinutes": "10 דקות",
+                    "FifteenMinutes": "15 דקות",
+                    "ThirtyMinutes": "30 דקות",
+                    "OneHour": "שעה אחת"
+                },
+                "SendInvitesForActivityRequest": {
+                    "ActivityColumn": "עמודת פעילות",
+                    "RequiredFieldError": "שדה זה חובה"
+                },
+                "MoveSelectedItemsRequest": {
+                    "SourceDataGridComboBoxLabel": "הזז נתונים מ",
+                    "TargetDataGridComboBoxLabel": "הזז נתונים ל",
+                    "DefaultValuesLabel": "בחר אילו עמודות יוזזו",
+                    "DefaultValuesHint": "בחר את העמודות שיחויבו לנוע ממקור הנתונים ההתחלתי למקור הנתונים היעד."
+                },
+                "OpenChangeLogRequest": {
+                    "LogDisplaySettings": "הגדרות תצוגה של יומן",
+                    "OpenLogForRecord": "פתח את היומן עבור רשומה נבחרת",
+                    "OpenLogForObject": "פתח את היומן עבור אובייקט",
+                    "WhichDataSourceOpenLog": "באיזה מקור נתונים לפתוח את היומן?",
+                    "WhichObjectOpenLog": "באיזה אובייקט לפתוח את היומן?"
+                },
+                "SetFollowFeedRequest": {
+                    "Feed": "Feed component to control"
+                },
+                "SetAttributeFromBarcodeRequest": {
+                    "ColumnNameControl": {
+                        "Label": "Which column to set result to?",
+                        "RequiredFieldError": "This field is required"
+                    },
+                    "LookupFilterColumn": {
+                        "Label": "Search column name"
+                    }
+                }
+            },
+            "DefaultAttributeValues": {
+                "AddAttribute": "הוסף שדה"
+            },
+            "ActionDashboardPropertiesPage": {
+                "PageCaption": "הגדרות לוח מחוונים לפעולות",
+                "GeneralCaption": "כללי",
+                "DataSource": "מקור הנתונים",
+                "GoToCasesButtonCaption": "הגדר מקרים",
+                "EmptyDataSourceHint": "מקור הנתונים לא נוסף לדף. אנא הוסף מקור נתונים קיים כדי להגדיר את הרכיב",
+                "ChannelsCaption": "ערוצים",
+                "CallAction": "שיחה",
+                "EmailAction": "דוא\"ל",
+                "FeedAction": "הודעת לוח הודעות",
+                "ActivityAction": "משימה",
+                "CasesDisabledTitle": "לא ניתן להגדיר מקרים עבור מקור הנתונים הזה"
+            },
+            "PropertiesPanelIconSettings": {
+                "UseIcon": "השתמש באייקון",
+                "IconPositionLabel": "מיקום",
+                "IconPosition": {
+                    "LeftIcon": "אייקון שמאלי",
+                    "RightIcon": "אייקון ימני",
+                    "OnlyIcon": "רק אייקון",
+                    "OnlyText": "רק טקסט"
+                },
+                "IconLabel": "סמל"
+            },
+            "TabItemPropertiesPage": {
+                "GeneralGroup": "כללי",
+                "CaptionLabel": "כותרת",
+                "AppearanceGroup": "מראה",
+                "IconPosition": {
+                    "LeftIcon": "אייקון לשמאל",
+                    "OnlyIcon": "רק אייקון",
+                    "OnlyText": "רק טקסט"
+                },
+                "PaddingGroup": "Spacing",
+                "Padding": {
+                    "Top": "למעלה",
+                    "Bottom": "Background",
+                    "Left": "שמאל",
+                    "Right": "ימין"
+                }
+            },
+            "MenuItemPropertiesPanel": {
+                "GeneralGroup": "כללי",
+                "CaptionLabel": "כותרת",
+                "ActionLabel": "פעולה",
+                "AppearanceGroup": "הופעה"
+            },
+            "GalleryPropertiesPanel": {
+                "PageCaption": "הגדרות גלריה",
+                "GeneralCaption": "כללי",
+                "AdditionalCaption": "נוסף",
+                "DataSourceCaption": "אובייקט",
+                "CaptionColumnField": "כותרת",
+                "DescriptionColumnField": "תיאור",
+                "ImageColumnField": "תמונה",
+                "SelectableConfigField": "ניתן לבחור",
+                "AppearanceGroup": "מראה",
+                "MultiselectConfigField": "בחירה מרובה",
+                "UseSpecificPageField": "פתח עמוד ספציפי בלחיצה על הכותרת",
+                "SpecificPageLookupField": "איזה עמוד לפתוח?",
+                "DefaultSizeFieldLabel": "גודל פריט הגלריה",
+                "Sizes": {
+                    "Small": "קטן",
+                    "Medium": "בינוני",
+                    "Large": "גדול",
+                    "ExtraLarge": "גדול מאוד"
+                },
+                "MassActions": "פעולות בסיטונות"
+            },
+            "FilePropertiesPage": {
+                "General": "כללי",
+                "AllowedExtensions": "סוגי קובץ",
+                "AllowedExtensionsEmptyMessage": "אם לא הוגדר, כל סוגי הקבצים מתוך הגדרת המערכת \"רשימת ההרשות סוגי קבצים\" מותרים",
+                "MaxSize": "גודל קובץ מקסימלי, מ\"ב",
+                "MaxSizeEmptyMessage": "אם לא הוגדר, הערך ברירת המחדל מהגדרת המערכת גודל מקסימלי להוספות ייושם",
+                "LabelPosition": "מיקום הכותרת",
+                "LabelPositionVariants": {
+                    "Auto": "אוטומטי",
+                    "Left": "שמאל",
+                    "Right": "ימין",
+                    "Above": "מעל",
+                    "Hidden": "מוסתר"
+                },
+                "Placeholder": "מקום מחזיק",
+                "DataSource": "מקור הנתונים",
+                "Editability": "Editability",
+                "TitleOnPage": "שם השדה לתצוגה",
+                "EditabilityControls": {
+                    "Readonly": "קריאה בלבד"
+                },
+                "AppearanceGroup": "מראה"
+            },
+            "FileListPropertiesPage": {
+                "PageCaption": "הגדרות רשימת ההוספות",
+                "GeneralGroup": "כללי",
+                "FileGroupLabel": "File group",
+                "FileGroups": {
+                    "Attachments": "הצמדה"
+                },
+                "AttributeToAttachFiles": "רשומה כדי להוסיף קבצים",
+                "EmptyDataSourceHint": "לא הוספה מקור נתונים לעמוד. אנא הוסף מקור נתונים קיים כדי להגדיר את המרכיב",
+                "TagLabel": "תיוג קובץ",
+                "TagPlaceholder": "הצג את כל קבצי הרשומות כברירת מחדל",
+                "TagHint": "השתמש בתיוג כדי לסנן קבצי רשומות, לדוגמה, \"מסמכי בקשה\"",
+                "FileEntitySchemaLabel": "מיקום אחסון הקבצים",
+                "AppearanceGroup": "מראה",
+                "ViewTypeLabel": "תצוגה",
+                "TileSizeFieldLabel": "גודל פריט בגלריה",
+                "Sizes": {
+                    "Small": "קטן",
+                    "Medium": "בינוני",
+                    "Large": "גדול",
+                    "ExtraLarge": "גדול מאוד"
+                },
+                "ViewTypeOption": {
+                    "List": "רשימה",
+                    "Gallery": "גלריה"
+                }
+            },
+            "BaseCustomPropertiesPanel": {
+                "PageCaption": "הגדרות פרמטרים מותאמים",
+                "GeneralCaption": "כללי",
+                "Description": "ניתן להגדיר את האלמנט הזה בקוד המקור של הדף",
+                "OpenSourceCodeButtonCaption": "Blind queue"
+            },
+            "ImportDataRequestPropertiesPanel": {
+                "EntitySchemaSelectCaption": "אילו נתונים לייבא"
+            },
+            "ExportDataGridToExcelRequestPropertiesPanel": {
+                "ViewSelectCaption": "אילו נתונים לייצא?"
+            },
+            "UploadFileRequestPropertiesPanel": {
+                "ViewSelectCaption": "איפה להעלות קבצים?",
+                "AllowedExtensions": "אילו סיומות קבצים מותרות להעלאה?",
+                "AllowedExtensionsEmptyMessage": "אם לא הוגדר, כל סוגי הקבצים מהגדרת המערכת \"רשימת ההיתרים של סיומות קבצים\" מותרים",
+                "MaxSize": "מה הגודל המקסימלי המותר של הקובץ ב-MB?",
+                "MaxSizeEmptyMessage": "אם לא הוגדר, הערך ברירת המחדל מהגדרת המערכת \"גודל מקסימלי של תוסף\" יחול",
+                "FileTypesPlaceholder": "לדוגמה, .pdf, .png",
+                "MaxSizePlaceholder": "{0} MB כברירת מחדל",
+                "UploadFileSourceCaption": "Upload a file from source",
+                "Camera": "Camera",
+                "Gallery": "גלריה",
+                "Files": "קבצים"
+            },
+            "PropertiesPanelVisibilitySettings": {
+                "VisibilityGroup": "נראות",
+                "Visible": "גלוי",
+                "NotVisible": "לא גלוי",
+                "SetupConditions": "Set up conditions",
+                "DefaultValueNotSupported": "אלמנט זה לא תומך בערכים ברירת מחדל עבור נראות"
+            },
+            "ApprovalPropertiesPage": {
+                "HeaderLabel": "הגדרות אישור",
+                "SchemaNameLabel": "אילו רשומות לאשר?",
+                "GeneralGroup": "כללי",
+                "AppearanceGroup": "מראה",
+                "HiddenWhenNoData": "מוסתר כאשר אין נתונים"
+            },
+            "ImageInputPropertiesPage": {
+                "SizeFieldLabel": "Size",
+                "Sizes": {
+                    "None": "None",
+                    "Small": "קטן",
+                    "Medium": "בינוני",
+                    "Large": "גדול",
+                    "ExtraLarge": "גדול מאוד"
+                },
+                "BorderRadiusLabel": "רדיוס פינה",
+                "PositioningLabel": "מיקום התמונה",
+                "Positioning": {
+                    "Cover": "מלא",
+                    "ScaleDown": "התאמה"
+                },
+                "MaxSize": "גודל קובץ מקסימלי, מ\"ב",
+                "MaxSizeEmptyMessage": "If not set, default value from \"Image max size\" system setting is applied",
+                "MaxSizePlaceholder": "{0} מ\"ב כברירת מחדל",
+                "TooltipLabel": "רמז",
+                "AppearanceGroup": "מראה",
+                "Editability": "Editability",
+                "EditabilityControls": {
+                    "Readonly": "קריאה בלבד"
+                },
+                "TooltipHint": "הטיפ בעל התמיכה תוכן טקסטואלי ו-HTML. אנא ודא שהתוכן שלך טקסטואלי וניתן להתאמה לגודל הטיפ."
+            },
+            "TimerPropertiesPage": {
+                "PageCaption": "הגדרות טיימר",
+                "TimerType": "מצב",
+                "TargetDateTimeColumn": "בחר תאריך/שעה",
+                "StartDateTimeColumn": "בחר תאריך ושעה התחלה",
+                "FromDateTimerType": "טיימר לספירה לאחור",
+                "CountdownToSpecificDateTimerType": "ספירה לאחור לתאריך ספציפי",
+                "ShowNegativeCountDownValue": "הצג ערך של ספירה לאחור שלילית",
+                "TextColorForNegativeValues": "צבע טקסט לערכים שליליים",
+                "TextForPositiveValues": "טקסט לערכים חיוביים",
+                "TextForNegativeValues": "טקסט לערכים שליליים",
+                "ValueTextTooltip": "אנא השתמש במקרו [#timer#] ובשורות טקסט כדי ליצור תוויות טיימר מפורטות. לדוגמה, ערך חיובי - [#timer#] נותר לסיים את המשימה; ערך שלילי - [#timer#] פג."
+            },
+            "ApprovalListPropertiesPage": {
+                "HeaderLabel": "הגדרות רשימת אישורים",
+                "GeneralGroup": "כללי",
+                "SchemaNameLabel": "אובייקט"
+            },
+            "SearchFilterPropertiesPanel": {
+                "PageCaption": "הגדרות חיפוש",
+                "GeneralCaption": "כללי",
+                "ChooseTargetsCaption": "בחר רכיב לסינון",
+                "ChooseTargetsTooltip": "בחר את הרשימה שבה תבוצע החיפוש. תפריט הנפתח מציג רשימות הנמצאות בדף הנוכחי ומכילות אובייקט שנבחר",
+                "Placeholder": "מקום שמירה",
+                "DirectConnection": "המרכיב חיפוש מאפשר לחפש רק על בסיס טקסט, מספר ועמודות חיפוש עם חיבורים ישירים לאובייקט הרשימה.",
+                "AppearanceGroup": "מראה",
+                "IconOnlyCaption": "רק סמל"
+            },
+            "DataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "כללי",
+                "RequirementType": {
+                    "NoCaption": "לא",
+                    "YesCaption": "כן"
+                },
+                "Validators": {
+                    "UniqueName": "השם \"{0}\" כבר קיים",
+                    "InvalidCharacter": "ערך לא חוקי. השתמש בסימנים: a-z, A-Z, 0-9. הסימן: 0-9 לא יכול להיות ראשון",
+                    "InvalidPrefix": "הערך חייב להתחיל בהטיית \"{0}\""
+                }
+            },
+            "PageParametersDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "כללי",
+                "TitleCaption": "כותרת",
+                "NameCaption": "Dialing code"
+            },
+            "LocalTimePropertiesPage": {
+                "PageCaption": "הגדרות זמן מקומי",
+                "TimeZoneColumn": "בחר אזור זמן"
+            },
+            "EntityStagePropertiesPanel": {
+                "HeaderLabel": "סרגל התקדמות",
+                "GeneralGroup": "כללי",
+                "SchemaNameLabel": "מקור הנתונים",
+                "CasesCaption": "הגדר מקרים",
+                "EmptyDataSourceHint": "מקור הנתונים לא נוסף לדף. אנא הוסיפו מקור נתונים קיים כדי להגדיר את הרכיב",
+                "SaveOnChange": "שמור רשומה בעת שינוי שלב",
+                "AskUserToChangeSchema": "הצג התראה בשיחה עבור עדכון מקרה",
+                "SaveEntityConfirmationDialog": {
+                    "Save": "שמור",
+                    "Message": "{0} entity was modified, and saving the entity is required to continue."
+                }
+            },
+            "AddCommunicationOptionsRequestPropertiesPanel": {
+                "ViewSelectCaption": "איפה להוסיף אפשרות תקשורת?"
+            },
+            "AllowedResultsPropertiesPage": {
+                "PageCaption": "תוצאות מותרות"
+            },
+            "AppearanceSettingsPropertyPanel": {
+                "ButtonSizeFieldLabel": "גודל חלון מודלי"
+            },
+            "DeleteRecordsRequestPropertiesPanel": {
+                "SelectDataToDelete": "אילו נתונים למחוק?"
+            },
+            "TagSelectPropertiesPanelComponent": {
+                "PageCaption": "הגדרות תגיות",
+                "GeneralCaption": "ציבורי",
+                "AppearanceCaption": "מראה",
+                "CaptionLabel": "כותרת",
+                "CaptionPlaceholder": "תוויות",
+                "RecordLabel": "רשומה כדי לתייג פריט",
+                "TagInRecordSourceSchemaName": "מיקום אחסון תגים",
+                "LabelPosition": "מיקום הכותרת",
+                "LabelPositionVariants": {
+                    "Auto": "אוטומטי",
+                    "Left": "שמאל",
+                    "Above": "מעל",
+                    "Hidden": "מוסתר"
+                }
+            },
+            "SchemaOutletPropertiesPage": {
+                "PageCaption": "הגדרות מיכל סכימה"
+            },
+            "ActivityColumnsMapingComponent": {
+                "EmailLinksCaption": "קישורים לדוא\"ל",
+                "ActivityColumn": "עמודת פעילות",
+                "PageColumn": "מאפיין נתונים",
+                "EmailLinksBlankSlate": "הדוא\"ל ייקשר רק ל-PDS. אנא השתמש בלחצן הפלוס כדי לקבוע את הקישור עם ישויות אחרות."
+            },
+            "SelectLookupPageRequestPropertiesPanel": {
+                "ViewSelectCaption": "באילו נתונים לבחור?",
+                "InfoMessage": "הרשומות שנבחרו מעובדות בקוד מותאם אישית."
+            },
+            "SetRecordRightsRequestPropertiesPanel": {
+                "OpenInModalWindowCaption": "פתח בחלון מודאלי"
+            },
+            "BaseTagsInRecordsRequestPropertiesPanel": {
+                "TagInRecordSourceSchemaName": "מיקום אחסון תגים"
+            },
+            "AddTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToAddTagsCaption": "אילו נתונים להוסיף תגיות?"
+            },
+            "RemoveTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToRemoveTagsCaption": "אילו נתונים להסיר תגיות?"
+            },
+            "AddRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToAddInStaticFoldersCaption": "אילו רשומות להוסיף לתיקיה הסטטית?"
+            },
+            "RemoveRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToRemoveInStaticFoldersCaption": "אילו רשומות להסיר מהתיוק הסטטי?"
+            },
+            "EntityHierarchyFilterPropertiesPanel": {
+                "HeaderLabel": "מסנן היררכיות של ישויות",
+                "GeneralCaption": "כללי",
+                "SchemaNameCaption": "בחר אובייקט לבניית היררכיה",
+                "HierarchySetup": "הגדרת היררכיה",
+                "SchemaNameSelectTooltip": "בחר אובייקט לבניית ההיררכיה. כל האובייקטים של המערכת מוצגים בתפריט הנפתח. לאחר קביעת ההיררכיה, קישור אותו לרכיב הרשימה על ידי הצבעה עליו כעל מסנן שהוגדר מראש.",
+                "ApplyStaticFilter": "החל מסנן סטטי",
+                "EditStaticFilterAction": "ערוך מסנן",
+                "FiltersDialogCaption": "מסנן שהוגדר ידנית",
+                "SetupStaticFilterAction": "הגדר מסנן"
+            },
+            "EntityHierarchySetupContainerPropertiesPanel": {
+                "AddNewItem": "הוסף עמודת היררכיה חדשה",
+                "ContextMenu": {
+                    "AddToSubmenu": "להוסיף תתי היררכיה",
+                    "Edit": "ערוך",
+                    "Delete": "מחק"
+                }
+            },
+            "PlaybookPropertiesPage": {
+                "PageCaption": "הגדרות ספר משחק",
+                "GeneralGroup": {
+                    "Caption": "כללי",
+                    "EmptyDataSourceHint": "מקור הנתונים לא נוסף לעמוד. אנא הוסף מקור נתונים קיים כדי להגדיר את הרכיב",
+                    "Tooltip": "המרכיב מציג הנחיות והוראות למשתמשים לגשת למידע מבסיס הידע עבור שלבים ספציפיים של מקרה דינמי. אתה יכול להגדיר מאמרים קשורים בסעיף ספרי משחק. קרא עוד על ",
+                    "AcademyLink": "<a href=\"https://academy.creatio.com/docs/8.x/\" target=\"_blank\">אקדמיה</a>.",
+                    "OpenPlaybookButton": "פתח את ספר המשחק"
+                },
+                "SelectDataSource": "מקור הנתונים"
+            },
+            "CopilotActionRequestPropertiesPanelComponent": {
+                "PromptLabel": "Creatio.ai prompt",
+                "PromptTooltip": "הזן את ה- Creatio.ai prompt שיתבצע כאשר הכפתור נלחץ. התגובה תישלח בסרגל הצד של Creatio.ai."
+            },
+            "LookupAttributePropertiesPanel": {
+                "RefSchemaNoDisplayValueValidationMessage": "אובייקטים ללא ערך תצוגה לא ניתן להשתמש בהם כדוודפן. אנא קבע את ערך התצוגה של האובייקט בהגדרה."
+            },
+            "SaveRecordRequestPropertiesPanel": {
+                "PreventCardCloseInNewRecord": "הישאר בעמוד לאחר שהרשומה נוצרה",
+                "ReloadSavedRecord": "טען מחדש רשומות שנשמרו",
+                "ReloadSavedRecordHint": "לאחר השמירה, טוען מחדש את הרשומה מהשרת כך שכל השינויים בצד השרת (למשל, מספור אוטומטי ישן) יופיעו מיד. לא נדרש לשדה המספור האוטומטי החדש."
+            },
+            "ActionNotificationPropertiesPanel": {
+                "MessageText": "טקסט הודעה",
+                "ShowSuccessMessage": "Show success message after completion"
+            },
+            "DataGridHierarchicalPropertiesPage": {
+                "PageCaption": "Hierarchical list settings",
+                "ParentColumnLabel": "Parent defining column",
+                "MaxRecordsLabel": "Maximum number of records",
+                "MaxRecordsTooltip": "Specifies the maximum number of records to load into the hierarchical list. If available records exceed this limit, only the specified number of records is loaded. If not specified, the value is taken from the \"Maximum number of records in hierarchical list\" (HierarchicalListMaxRecordsCount code) system setting, or 5,000 records by default when that setting is not configured.",
+                "InfoHint": "This component is designed for small data sets. Limit maximum number of records using the \"Maximum number of records\" field and narrow the data scope using the \"Apply filter by page data\" block."
+            }
+        },
+        "SaveMessage": "כל השינויים יישמרו. האם להמשיך?",
+        "MainHeader": {
+            "Title": "כותרת",
+            "CommandLinePlaceholder": "חיפוש?"
+        },
+        "LookupEntityDialog": {
+            "CancelButtonDialog": "בטל",
+            "SelectButtonDialog": "שמור",
+            "TitleControl": "כותרת",
+            "NameControl": "קוד",
+            "Validations": {
+                "RequiredNameCaption": "הזן ערך",
+                "DuplicateNameCaption": "אובייקט עם קוד זה כבר קיים",
+                "PatternPrefixTemplate": "הקוד חייב להתחיל עם קידומת \"{0}\"",
+                "PatternNameCaption": "ערך לא חוקי. השתמש בסימנים: a-z, A-Z, 0-9. הסימן: 0-9 לא יכול להיות ראשון."
+            },
+            "CreateOrEditLookupEntityTitle": "טבלת חיפוש חדשה"
+        },
+        "SaveConfirmationDialog": {
+            "Message": "דף זה מכיל שינויים שלא נשמרו. הם יאבדו אם תסגור את הדף. האם לשמור את השינויים?",
+            "Save": "שמור",
+            "DoNotSave": "אל תשמור",
+            "Cancel": "בטל"
+        },
+        "SetupEntityDialog": {
+            "Title": "אובייקט חדש"
+        },
+        "Caption": "Designer",
+        "ModelDependencyCycleDetectedError": "זיהוי תלותיות מעגלית בין מודלים {0}",
+        "Commands": {
+            "RemoveDataSourceItem": {
+                "SuccessfullyRemoved": "הפרמטר \"{{parameterCaption}}\" נמחק"
+            }
+        },
+        "Components": {
+            "DataSourceAttributeCommonPropertiesComponent": {
+                "TitleCaption": "כותרת",
+                "NameCaption": "קוד",
+                "FormatCaption": "פורמט",
+                "ReferenceSchemaCaption": "טבלת חיפוש",
+                "RequiredCaption": "נדרש",
+                "Validations": {
+                    "RequiredNameMessage": "הזן ערך"
+                }
+            },
+            "CollectionSortingComponent": {
+                "SortAscendingTitle": "Sort ascending",
+                "SortDescendingTitle": "Sort descending",
+                "SortingColumnLabel": "Sort by column"
+            },
+            "StaticFilterSelectComponent": {
+                "ApplyStaticFilter": "Apply static filter",
+                "EditStaticFilterAction": "Edit filter",
+                "FiltersDialogCaption": "Manually defined filter",
+                "SetupStaticFilterAction": "הגדר מסנן"
+            }
+        },
+        "NotFoundDataSourceObject": {
+            "GroupObjectCaption": "שגיאת מקור נתונים",
+            "ErrorMessage": "העצם '{0}' המוזכר במקור הנתונים '{1}' שונה או הוסר. אנא שנה את קוד העצם ל-' {0} ' או עדכן את קוד המקור של הדף (מטא-מידע) לפני שתחזור לעבוד עם מעצב הדף.",
+            "BusinessRulesOpenDialogMessage": "העצם '{0}' המוזכר במקור הנתונים '{1}' שונה או הוסר. אנא שנה את קוד העצם ל-' {0} ' או עדכן את קוד המקור של הדף (מטא-מידע) כדי להשתמש במעצב כללי של עסקי כללים"
+        },
+        "UnableCopySchemaError": "לא ניתן להעתיק את הסכימה. היא או נוצרה על ידי מפרסם צד שלישי או הותקנה מתוך ארכיב הקבצים",
+        "Operation": {
+            "Copy": "העתק"
+        },
+        "ModelDependencyNotFoundError": "The relation criteria for the {{names}} data source are not set",
+        "ModelDependencyNotFoundErrorMultiple": "The relation criteria for the {{names}} data sources are not set",
+        "MissingDependenciesDialog": {
+            "Title": "Missing dependencies detected",
+            "Intro": "This page includes elements from packages that are not listed as dependencies of the current package.",
+            "Reason": "Such configurations are no longer supported to prevent circular dependencies and ensure a maintainable application structure.",
+            "InstructionTemplate": {
+                "Prefix": "Please",
+                "ActionLink": "add dependencies",
+                "PackageContext": "in the '{{ missedPackageName }}' package",
+                "Suffix": "to the following packages before editing this page"
+            }
+        },
+        "MissingDependenciesNotification": {
+            "Description": "Cannot save the page. Please add the required dependencies before making further changes to page.",
+            "Action": {
+                "Caption": "הצג פרטים"
+            }
+        },
+        "SaveOutdatedConfirmation": {
+            "Header": "Newer version available",
+            "Message": "{0} saved changes to this page {1} ago. Saving now will replace their version with yours.",
+            "CancelButton": "בטל",
+            "SaveButton": "שמור"
+        },
+        "SaveOverwriteConfirmation": {
+            "Header": "Replace a newer version?",
+            "Message": "You're about to replace {0}'s recent changes with your version.",
+            "CancelButton": "בטל",
+            "ConfirmButton": "Overwrite anyway"
+        }
+    },
+    "ApplicationManagement": {
+        "CreateApplicationComponent": {
+            "WaitTitle": "מוסיפים תוכן ברירת מחדל לאפליקציה שלך",
+            "WaitTitleGenAI": "מייצרים את האפליקציה שלך"
+        },
+        "ApplicationInfoDialogComponent": {
+            "HeaderCaption": "אפליקציה חדשה",
+            "InputNameCaption": "שם היישום",
+            "InputDescriptionCaption": "תאר עבור מה היא (אופציונלי)",
+            "InputDescriptionPlaceholder": "כתוב כמה מילים על האפליקציה שלך",
+            "CancelButtonCaption": "בטל",
+            "CreateButtonCaption": "צור",
+            "HeaderEditCaption": "עריכת אפליקציה",
+            "ApplicationCodeCaption": "קוד אפליקציה",
+            "SaveButtonCaption": "שמור",
+            "DisclaimerCaption": "על ידי לחיצה על כפתור \"ליצור עם AI\", אתה מסכים כי הבקשה שלך תטופל על ידי מודל OpenAI. צפה בתנאים ובמדיניות <a class=\"document-link\" href=\"https://openai.com/policies\" target=\"_blank\">כאן</a>. Creatio פועלת כ-Agent ואינה יכולה להיות אחראית על תוצאות כלשהן שנוצרו על ידי OpenAI.",
+            "HeaderCarouselCaption": "בחר סמל וצבע",
+            "InputAIDescriptionCaption": "תאר מה זה עבור",
+            "InputAIDescriptionPlaceholder": "כתוב כמה מילים על האפליקציה שלך ואנחנו ניצור אותה באופן אוטומטי.",
+            "GenerateWithAIButtonCaption": "צור עם AI",
+            "UseExistingObjectTooltip": "בחר כדי לקשר את הסעיף לאובייקט קיים במקום ליצור אובייקט חדש",
+            "AdvancedModeButtonCaption": "פרמטרים מתקדמים",
+            "NamePlaceholder": "נהל את האפליקציה שלך",
+            "CodePlaceholder": "שמור מזהה אפליקציה ייחודי",
+            "CodeTooltip": "קוד האפליקציה משמש כמזהה ייחודי כאשר האפליקציה מותקנת בסביבה אחרת. בנוסף, הקוד יכול לשמש ליצירת קודים של רכיבי סעיפים אם יש סכמות בתבנית",
+            "HeaderViewCaption": "מידע על היישום",
+            "CloseButtonCaption": "סגור",
+            "VersionInputCaption": "גרסה",
+            "VersionInputPlaceholder": "0.0.0",
+            "AppStartPageCaption": "דף ברירת המחדל של האפליקציה",
+            "AppStartPageTooltip": "דף האפליקציה לפתיחה על ידי לחיצה על כפתור הפעל אפליקציה. זה יכול להיות דף הבית של האפליקציה או דף רשימת המודולים.",
+            "AppStartPageAutoItem": "אוטומטי",
+            "CreateMobilePagesTooltip": "Clear this option to create a web-only app"
+        },
+        "ApplicationValidatorService": {
+            "InvalidCharactersForName": "בשם מותר להשתמש רק באותיות \"- _\"",
+            "FirstSymbolIsNotLetterAndNotDigit": "השם חייב להתחיל באות או ספרה",
+            "InvalidCharactersForCode": "באופן קוד, רק אותיות לועזיות ומספרים מותרות, והסימן 0-9 לא יכול להיות התו הראשון",
+            "ApplicationNameAlreadyExists": "יישום בשם \"{0}\" כבר קיים",
+            "ApplicationCodeAlreadyExists": "קוד האפליקציה או שם החבילה כבר בשימוש",
+            "InvalidApplicationCodePrefix": "הקוד חייב להתחיל עם תו מתחיל \"{0}\"",
+            "EntityNameAlreadyExists": "אובייקט עם הקוד הזה כבר קיים",
+            "InvalidVersion": "אנא הכנס את מספר הגרסה בפורמט X.Y או X.Y.Z. לדוגמה, 1.0, 1.2, 1.0.0, 1.2.0, וכו'.",
+            "InvalidRequiredPlatformVersion": "Enter a valid Creatio version in the X.Y.Z format or version range X.Y.Z - X.Y.Z. For example, 8.3.0 or 8.3.0 - 8.4.3.",
+            "InvalidRequiredPlatformVersionRange": "הגרסה המרבית חייבת להיות גדולה מהגרסה המינימלית.",
+            "InvalidAppDependencyVersion": "Please use one of the following formats:\n- Minimal required version: X.Y or X.Y.Z\n- Version range: X.Y - X.Y or X.Y.Z - X.Y.Z",
+            "InvalidAppDependencyVersionRange": "הגרסה המרבית חייבת להיות גדולה מהגרסה המינימלית."
+        },
+        "ApplicationManagementDialogComponent": {
+            "DialogHeaderCaption": "מאפייני האפליקציה",
+            "PropertiesTabCaption": "כללי",
+            "DependenciesTabCaption": "תלותים",
+            "Properties": {
+                "IconCaption": "סמל",
+                "ColorCaption": "צבע",
+                "InputNameCaption": "שם האפליקציה",
+                "NamePlaceholder": "תן שם לאפליקציה שלך",
+                "DefaultAppPageCaption": "עמוד אפליקציה ברירת מחדל",
+                "AppStartPageTooltip": "דף האפליקציה לפתיחה על ידי לחיצה על כפתור הפעל אפליקציה. זה יכול להיות דף הבית של האפליקציה או דף רשימת המודולים.",
+                "ApplicationCodeCaption": "קוד האפליקציה",
+                "Developer": "מפתח",
+                "InputDescriptionCaption": "תאר למה זה נדרש (אופציונלי)",
+                "InputDescriptionPlaceholder": "כתוב כמה מילים על האפליקציה שלך",
+                "CreatedOn": "נוצר בתאריך",
+                "LastUpdate": "עדכון אחרון",
+                "Created": "נוצר"
+            },
+            "Dependencies": {
+                "AddDependencyCaption": "שנה תלות",
+                "ApplicationNameCaption": "שם",
+                "DeleteCaption": "מחק",
+                "RequiredPlatformVersionCaption": "Required Creatio version",
+                "RequiredPlatformVersionTooltip": "If you specify only one required version, the application can be installed on that version and later versions of Creatio. You can also specify a compatible version range using a hyphen, for example: \"8.3.0 - 8.4.3\".",
+                "RequiredPlatformVersionSubCaption": "Minimum required Creatio version or compatible version range for the \"{0}\" application. The current Creatio version is {1}.",
+                "RequiredDependenciesCaption": "Required dependencies",
+                "RequiredDependenciesSubCaption": "Configure dependencies to extend the application using elements from other applications or packages. The application cannot be installed in environments where required dependencies are missing, their versions are lower than the minimum required, or do not fall within the supported version range. The \"{0}\" application depends on the following applications or packages:",
+                "AddCaption": "הוסף",
+                "TypeCaption": "סוג",
+                "DeveloperCaption": "מפתח",
+                "VersionCaption": "גרסה נדרשת",
+                "ApplicationVersionTooltip": "If you specify a single version, the application \"{0}\" can be installed only if the environment has the dependent application installed with that version or a newer one.\nYou can also specify a version range using a hyphen, for example: 1.0 - 2.0 or 1.0.0 - 2.0.0.",
+                "PackageVersionTooltip": "Version can be specified only for dependencies with type \"Application\""
+            },
+            "CancelButtonCaption": "בטל",
+            "SaveButtonCaption": "שמור",
+            "CloseButtonCaption": "סגור",
+            "DependenciesValidationError": "שגיאה בעת שמירת תלויות האפליקציה",
+            "VersionTabCaption": "גרסה",
+            "Version": {
+                "VersionInputCaption": "Application Version",
+                "VersionInputPlaceholder": "0.0.0",
+                "VersionInputTooltip": "A version number follows the format <b>Major.Minor.Patch</b>, where each component has the following meaning:<ul><li><b>Major</b> – breaking changes</li><li><b>Minor</b> – new features that are backward compatible</li><li><b>Patch</b> – backward-compatible bug fixes only</li></ul>For example: 2.1.4. <a href='https://academy.creatio.com/documents?id=2584' target='_blank' rel='noopener noreferrer'>Learn more in the Academy</a>.",
+                "VersionInputHint1": "We recommend releasing any changes to the application using a new version number. Based on your current version {0}, consider using one of the following versioning options, depending on the significance of the changes: ",
+                "VersionInputHint2": " or ",
+                "VersionInputHint3": ", depending on the significance of the changes.",
+                "VersionMajorPart": "Major {0}",
+                "VersionMinorPart": "Minor {0}",
+                "VersionPatchPart": "Patch {0}"
+            }
+        }
+    },
+    "Validators": {
+        "Autocomplete": {
+            "Message": "אנא בחר ערך מהרשימה"
+        },
+        "Required": {
+            "Message": "הזן ערך"
+        },
+        "MaxLength": {
+            "Message": "חריגה מאורך הטקסט המרבי ({{actualLength}}/{{maxLength}})"
+        },
+        "MinLength": {
+            "Message": "לא הושג אורך הטקסט המינימלי ({{actualLength}}/{{minLength}})"
+        },
+        "Min": {
+            "Message": "הערך המינימלי הוא {{min}}"
+        },
+        "Max": {
+            "Message": "הערך המקסימלי הוא {{max}}"
+        },
+        "GridColumnsCount": {
+            "Message": "עמודות שמכילות רכיבים לא ניתן למחוק. כדי להפחית את מספר העמודות, מחקו את הרכיבים או העבירו אותם לעמודות אחרות."
+        },
+        "Email": {
+            "Message": "פורמט דוא\"ל לא חוקי"
+        },
+        "ColorPicker": {
+            "Message": "שגיאת פעולה. פורמט HEX לא חוקי נבחר"
+        },
+        "Link": {
+            "Message": "פורמט URL לא חוקי"
+        }
+    },
+    "UserProfile": {
+        "Profile": "פרופיל משתמש",
+        "FirstLastName": "שם מלא",
+        "Organization": "ארגון",
+        "Language": "שפה",
+        "TimeZone": "אזור זמן",
+        "DateTimeFormat": "פורמט תאריך ושעה",
+        "Email": "דוא\"ל",
+        "ChangeEmail": "שנה דוא\"ל",
+        "EmailChanged": "כתובת הדוא\"ל שלך שונתה בהצלחה",
+        "ResendConfirmEmailSuccess": "נשלחה הודעת אישור דוא\"ל",
+        "ResendConfirmEmailError": "לא נשלחה הודעת אישור דוא\"ל",
+        "NotConfirmedEmail": "אנא בדוק את הדוא\"ל שלך כדי לאשר את ההרשמה",
+        "Password": "סיסמא",
+        "ChangePassword": "שנה סיסמא",
+        "ChangePasswordError": "אירעה שגיאה בעת שינוי הסיסמה",
+        "ResetPasswordValidationError": "אין משתמשים שהדוא\"ל הזה שייך להם",
+        "ConnectedAccounts": "חשבונות מחוברים",
+        "DeleteProfile": "מחק פרופיל",
+        "ChangesSaved": "שינויים נשמרו",
+        "SavingError": "אירעה שגיאה בעת שמירה של הנתונים",
+        "ApplyChanges": "שמור",
+        "ReloginError": "שינויים לא יושמו. אנא התחבר מחדש כדי להחיל את השינויים",
+        "NewEmail": "דוא\"ל חדש",
+        "CurrentPassword": "סיסמא נוכחית",
+        "WrongPassword": "סיסמה לא נכונה",
+        "ExistsEmailError": "האימייל הזה כבר בשימוש",
+        "ChangeEmailError": "שגיאה פנימית. האימייל לא שונה. אנא נסה שוב מאוחר יותר",
+        "EmailNotConfirmed": "האימייל לא אומת",
+        "ResendConfirm": "שלח שוב את האישור",
+        "ConnectedAccountsSectionCaption": "חשבונות צד שלישי מחוברים",
+        "Logins": {
+            "AddNewLogin": "הוסף",
+            "LoginAlreadyAssociated": "החשבון מחובר למשתמש אחר",
+            "DefaultConnectionErrorMessage": "לא ניתן להתחבר לרשת חברתית",
+            "DisconnectAccount": "not connected"
+        },
+        "Photo": "תמונה",
+        "Role": "תפקיד",
+        "Active": "פעיל",
+        "Status": "סטטוס",
+        "Invited": "מוזמן",
+        "Back": "חזור",
+        "ChangeEmailButton": "שנה והתנתק",
+        "DisconnectAccountError": "לא ניתן לנתק את החשבון הנבחר",
+        "FirstName": "שם פרטי",
+        "LastName": "שם משפחה",
+        "OrganizationWebsite": "אתר אינטרנט",
+        "PasswordResetIsNotAllowed": "Password reset for this account was requested lately. Please wait few minutes to try again."
+    },
+    "UserProfileActionComponent": {
+        "YourProfileActionCaption": "הפרופיל שלי",
+        "LogoutActionCaption": "ביטולי מנוי"
+    },
+    "EnvironmentManagement": {
+        "WaitTrialPage": {
+            "DemoDataToggleCaption": "מלא את המערכת בנתוני דמו",
+            "Description": "החשבון הזה ישמש להתחברות",
+            "Continue": "המשך",
+            "ConfirmRegistration": {
+                "RegistrationSuccessful": "הרישום שלך בוצע בהצלחה!",
+                "CreateFirstApp": "האם תרצה ליצור את האפליקציה הראשונה שלך עכשיו?",
+                "GuideMeButtonCaption": "כן, צור אפליקציה חדשה",
+                "ManageButtonCaption": "לא, אני אעשה את זה מאוחר יותר"
+            },
+            "WaitPage": {
+                "StudioEnterpriseMessage": "אתה תוכל ליצור<br />את <strong>האפליקציה הראשונה שלך</strong> בעוד כמה רגעים!",
+                "CRMMessage": "אתה תוכל לנסות את המוצרים המלאים <strong>שיווק, מכירות ושירות</strong> משולבים בפלטפורמת no-code אחת בעוד כמה רגעים!",
+                "CreatioIsHotMessage": "Creatio<br />חם!",
+                "TrialTimeoutMessage": "אנחנו עובדים על זה! אבל עקב הביקוש הגבוה,<br />יכול להיות שיהיה עיכוב במשלוח הניסיון שלך.",
+                "SendTrialEmail": "אנו מעריכים את זמנך ונשלח אימייל<br />כאשר הניסיון יהיה מוכן.",
+                "GoToApplications": "עבור למרכז היישומים"
+            }
+        }
+    },
+    "OrganizationUserSection": {
+        "GridColumns": {
+            "id": "מזהה",
+            "fullName": "שם פרטי ושם משפחה",
+            "email": "דוא\"ל",
+            "status": "סטטוס",
+            "role": "תפקיד",
+            "lastActivity": "פעילות אחרונה"
+        },
+        "GridActions": {
+            "Activate": "הפעל",
+            "Deactivate": "השבת",
+            "Edit": "ערוך",
+            "Resend": "שלח שוב את ההזמנה",
+            "Cancel": "ביטול ההזמנה"
+        },
+        "UserStatus": {
+            "Active": "פעיל",
+            "Inactive": "לא פעיל",
+            "Invited": "הזמנה נשלחה"
+        },
+        "AddUser": "+ הוסף משתמש",
+        "ChangeStatusMessage": {
+            "activate": "המשתמש הופעל",
+            "deactivate": "המשתמש בוטל"
+        },
+        "InvitationSent": "ההזמנה נשלחה",
+        "InviteUsersPage": {
+            "NewUser": "משתמש חדש",
+            "Back": "חזור",
+            "Role": "תפקיד",
+            "Email": "דוא\"ל עסקי",
+            "Collaborators": "משתמשים מוזמנים",
+            "SendInvite": "הזמן",
+            "InviteSuccess": "ההזמנה נשלחה",
+            "EmailExists": "המשתמש {0} כבר הוזמן לארגון",
+            "GoToProfile": "עבור לפרופיל"
+        }
+    },
+    "DataSourceAttributeValuePickerProvider": {
+        "ValueFromFieldCaption": "ערך משדה נוסף"
+    },
+    "OperationPermissionsErrorDialog": {
+        "ErrorTemplate": "אין לך הרשאה לבצע פעולה זו.\nאנא צור קשר עם מנהל המערכת שלך ובקש הרשאה לבצע את פעולת המערכת הבאה עם הקוד: «{0}». הרשאות לפעולות מערכת מנוהלות בסעיף \"הרשאות פעולה\" של מעצב המערכת."
+    },
+    "ViewElementGroup": {
+        "ChartsGroupCaption": "תרשים",
+        "ComponentsGroupCaption": "רכיב",
+        "LayoutElementsGroupCaption": "אלמנט Layout",
+        "InputsGroupCaption": "קלט",
+        "CustomElementsGroupCaption": "אלמנט מותאם"
+    },
+    "AggregationNames": {
+        "Count": "מספר רשומות",
+        "Sum": "סכום הערכים",
+        "Avg": "Average value",
+        "MinValue": "Min value",
+        "MaxValue": "Max value",
+        "MinDate": "תאריך מינימום",
+        "MaxDate": "תאריך מקסימום",
+        "TopOne": "ערך הרשומה הראשונה",
+        "AtLeastOneRecord": "At least one record",
+        "NoRecords": "No records"
+    },
+    "TypeCaptions": {
+        "GridContainer": "מיכל רשת",
+        "FlexContainer": "מיכל גמיש",
+        "TabContainer": "כרטיסיה",
+        "MenuItem": "Menu item",
+        "ChartWidget": "תרשים",
+        "TimelineTile": "ציר זמן"
+    },
+    "DialogComponent": {
+        "CancelButtonDialog": "בטל",
+        "SaveButtonDialog": "שמור",
+        "CloseButtonDialog": "סגור"
+    },
+    "SsoSettings": {
+        "Validators": {
+            "AdfsTenant": {
+                "Message": "הערך לא צריך להיות ריק או להתחיל ב-http:// או https://"
+            },
+            "StringUrl": {
+                "Message": "הערך צריך להיות URL חוקי"
+            },
+            "IsJsonValidator": {
+                "Message": "הערך צריך להיות JSON חוקי"
+            }
+        },
+        "SsoIdentityProvider": {
+            "DuplicationError": "ספק זה כבר קיים. אנא בדוק את המידע שהוזן.",
+            "SigningSettingsError": "הגדרות החתימה של SAML אינן נכונות. אנא בדוק את המידע שהוזן."
+        }
+    },
+    "BusinessRuleAction": {
+        "StructureExplorer": {
+            "Title": "בחר אלמנטים",
+            "ElementsTab": "{0}Elements{1}"
+        }
+    },
+    "FileSizeUnit": {
+        "Byte": "בייטים",
+        "Bytes": "בייטים",
+        "Kilobyte": "KB",
+        "Megabyte": "MB",
+        "Gigabyte": "גיגאבייט"
+    },
+    "Approvals": {
+        "ComponentHeaderLabel": "נדרש אישור"
+    },
+    "pageParametersDataSource": "פרמטרי דף",
+    "RelationshipDesignerModal": {
+        "Caption": "זיקות {{schemaName}}"
+    },
+    "RelationshipDesigner": {
+        "DeleteItemMessage": "האם אתה בטוח שברצונך למחוק את הפריט?",
+        "RequiredControlErrorMessage": "נא להזין ערך"
+    },
+    "RelationshipDiagram": {
+        "NoAccess": "אין גישה לשנות את הקשר",
+        "Tools": {
+            "FitToView": "התאמה לתצוגה",
+            "ResetView": "אפס תצוגה",
+            "ZoomIn": "זום פנימה",
+            "ZoomOut": "זום החוצה",
+            "MiniMapClose": "סגור מפה מיניאטורית",
+            "MiniMapOpen": "פתח מפה מיניאטורית"
+        }
+    },
+    "GroupsPropertiesPage": {
+        "Title": "קבוצות",
+        "Search": "חפש"
+    },
+    "GroupPropertiesDialog": {
+        "Cancel": "בטל",
+        "Comment": "lCaption",
+        "EditGroup": "ערוך קבוצה",
+        "Name": "שם",
+        "NewGroup": "קבוצה חדשה",
+        "Save": "שמור"
+    },
+    "EntityInGroupPropertiesDialog": {
+        "AddToGroup": "הוסף לקבוצה",
+        "Cancel": "בטל",
+        "Comment": "lCaption",
+        "Edit": "שינוי",
+        "Group": "Collection",
+        "Save": "שמור"
+    },
+    "ConnectionPropertiesPage": {
+        "Comment": "lCaption",
+        "Relations": "זיקות",
+        "RelationshipType": "סוג מערכת יחסים",
+        "Title": "מערכת יחסים"
+    },
+    "ContainerPropertiesPage": {
+        "Address": "כתובת",
+        "Email": "דוא\"ל",
+        "GeneralInformation": "מידע כללי",
+        "Groups": "קבוצות",
+        "Phone": "טלפון",
+        "RelationshipsWith": "ערכים קשורים ({0})",
+        "Type": "סוג",
+        "Web": "אינטרנט"
+    },
+    "ObjectPermissions": {
+        "Warning": "אזהרות! ",
+        "OperationsPoint": "העצמים שבהם משתמשים בשדות חיפוש בדף זה אינם מוגדרים. בהתאם להרשאות הגישה הנוכחיות, העצמים המפורטים למטה אינם זמינים למשתמשים חיצוניים:",
+        "RecordsPoint": "העצמים שבהם משתמשים בשדות חיפוש בדף זה אינם בטוחים. בהתאם להרשאות הגישה הנוכחיות, כל הרשומות מהעצמים המפורטים למטה זמינות באופן מלא לכל משתמש חיצוני:",
+        "SetProperPermissionsBegin": "כדי לקבוע הרשאות גישה נאותות, הפעל את ההרשאות לפעולות ולרשומות עבור עצמים אלה ב-\"",
+        "ObjectPermissions": "הרשאות אובייקט",
+        "SetProperPermissionsEnd": "\" סעיף המעצב של המערכת.",
+        "Link": "עדכן את הרשאות העצם עכשיו",
+        "End": "הערה: ייתכן שיהיה עליך לקבוע הרשאות גישה לרשומות קיימות באופן פרטני, כך שמשתמשים אחרים יוכלו לעבוד עם ההן.",
+        "UpdateObjectPermissionsMessage": "הגדרות הרשאה נוכחיות יתעדכנו. זה עשוי להשפיע על ביצועי המערכת עבור כל המשתמשים. האם תרצה לעדכן את הרשאות העצם עכשיו?"
+    },
+    "LocalizableTextInput": {
+        "ButtonTitle": "תצורה רב לשונית"
+    },
+    "ExpansionButton": {
+        "ExpandTooltip": "הרחב את לוח המודולים",
+        "CollapseTooltip": "כווץ לוח"
+    },
+    "MultilanguageEmailTemplates": {
+        "TranslateHeadersTitle": "קבע כותרות לתבניות רב-שפתיות",
+        "TranslateDescription": "Add language-specific headers for your multilingual template. To include more languages, update the template settings.",
+        "AcademyUrl": "https://academy.creatio.com/documents?id=2571"
+    },
+    "isValueMaskedCaption": "Mask displayed value",
+    "maskTypeCaption": "Mask type",
+    "maskOperationCaption": "הרשאות הפעלה",
+    "ValueMaskingSettings": {
+        "HideAllMaskTitle": "Hide All Characters",
+        "ShowOnlyLast4CharsMaskTitle": "Show Only Last 4 Characters",
+        "BankCardMaskTitle": "Bank Card",
+        "SSNMaskTitle": "SSN",
+        "SINMaskTitle": "SIN"
+    },
+    "blockDeletionTooltip": "Prevents deleting the lookup value if it is referenced by records in the current object.",
+    "DeleteRecordsTooltip": "Deletes related records in the current object when the lookup value is deleted.",
+    "selectionWindowTooltip": "Opens a separate selection window to choose a lookup value.",
+    "listTooltip": "Lets users select a lookup value directly from a dropdown list."
+}

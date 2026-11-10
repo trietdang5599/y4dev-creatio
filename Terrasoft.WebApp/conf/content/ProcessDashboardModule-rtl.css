@@ -1,0 +1,110 @@
+﻿.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] {
+  padding: 0 0 auto auto;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .label-wrap + .control-wrap {
+  margin-right: -17em;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .control-width-15 .t-label {
+  text-align: right;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .control-width-15 .t-checkboxedit-wrap {
+  margin-right: 25px;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .control-width-15.t-checkbox-control .label-wrap {
+  position: absolute;
+  margin-top: 2px;
+  margin-right: 45px;
+  width: 100%;
+  max-width: 100%;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .process-filters-container {
+  display: flex;
+  position: absolute;
+  border-bottom: 1px solid #e1e8f2;
+  width: 347px;
+  padding-bottom: 15px;
+  margin-right: -12px;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .process-filters-container .future-task-mode-checkbox .label-wrap {
+  margin-right: 3.3em;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .process-filters-container .future-task-mode-checkbox .control-wrap {
+  margin-right: 0;
+  padding-right: 0;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .process-filters-container .future-task-mode-checkbox .control-wrap .t-checkboxedit-wrap {
+  margin-right: 1em;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .process-filters-container .process-filter-button {
+  margin-top: 2px;
+  padding-right: 0px;
+  margin-left: 18px;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .process-notifications-container {
+  margin-top: 40px;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .ts-notifications-container .process-notification-item-container {
+  padding: 10px 10px 10px 38px;
+  margin-right: 15px;
+  border-bottom: 1px solid #e1e8f2;
+  position: relative;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .ts-notifications-container .process-notification-item-container .owner-action-button-class {
+  position: absolute;
+  left: 0;
+  top: 7px;
+  color: #4e7bd8;
+  visibility: hidden;
+  opacity: 0;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .ts-notifications-container .selected-item-class .owner-action-button-class {
+  opacity: 1;
+  visibility: visible;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .ts-notifications-container .process-notification-item-container:hover .owner-action-button-class {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s 0.1s ease;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .ts-notifications-container .process-notification-item-image-container {
+  position: absolute;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .ts-notifications-container .process-notification-item-image-container > img {
+  margin-left: 8px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .ts-notifications-container .process-notification-item-top-container {
+  padding: 7px 43px 15px 10px;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .ts-notifications-container .process-notification-item-top-container > img {
+  margin-left: 12px;
+  width: 32px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .ts-notifications-container .start-date-labelClass {
+  color: #444444;
+  padding-top: 2px;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .ts-notifications-container .process-notification-item-body-container {
+  margin-right: 32px;
+  width: 291px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .ts-notifications-container .subject-text-labelClass {
+  width: auto;
+  color: #999999;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .ts-notifications-container .title-text-labelClass {
+  padding-top: 2px;
+}
+.communication-panel-item-container div[data-item-marker*="ProcessDashboard"] .ts-notifications-container .title-text-labelClass.t-label {
+  width: initial !important;
+  min-width: 30px;
+}

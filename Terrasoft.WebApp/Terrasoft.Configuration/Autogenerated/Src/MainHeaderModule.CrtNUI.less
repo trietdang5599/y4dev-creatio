@@ -1,0 +1,248 @@
+﻿@right-container-width: 37.7em;
+//photo
+@photo-margin-top: 0.8em;
+@photo-size: 38px;
+//right-image
+@context-right-image-padding-left: 2.3em;
+@context-right-image-padding-right: 2.2em;
+@context-right-image-padding-top: 1.7em;
+//help
+@context-help-image-size: 4.2em;
+@context-help-padding-left: 1em;
+@context-help-padding-right: 0;
+@context-help-padding-top: 0;
+//logo
+@logo-padding-top: 1.75em;
+@logo-padding-right: 2.6em;
+//operator status
+@operators-status-icon-size: 0.5em;
+
+@media screen and (max-width: 1450px) {
+	.command-line-class {
+		width: 55% !important;
+	}
+}
+@media screen and (max-width: 1350px) {
+	.command-line-class {
+		width: 40% !important;
+	}
+}
+.command-line-class {
+	width: 55%;
+	padding-top: 1.7em;
+	-moz-box-sizing: border-box;
+}
+.command-line-class > DIV > .base-edit > .base-edit-input {
+	min-height: 1.855em;
+	font-size: 1.4em;
+}
+.command-line-class > DIV > .base-edit-big {
+	min-height: 2.8em;
+	background-color: white;
+}
+.context-help-class {
+	display: inline-block;
+	padding: @context-help-padding-top @context-help-padding-right 0 @context-help-padding-left;
+	float: right;
+}
+.context-right-image-class {
+	float: right;
+	padding: @context-right-image-padding-top @context-right-image-padding-right 0 @context-right-image-padding-left;
+}
+.context-system-designer-class {
+	display: inline-block;
+	padding: 0;
+}
+.system-designer-button {
+	padding: 0;
+
+	.t-btn-menu {
+		.t-btn-marker {
+			display: none;
+		}
+	}
+}
+.context-right-image-class {
+	.system-designer-image {
+		display: inline;
+		background-position: 0px -46px;
+		width: 26px;
+		height: 26px;
+		&:hover {
+			background-position: 0 -7px;
+		}
+	}
+	.dev-button-image {
+		display: inline;
+		background-position: 0px -26px;
+		width: 26px;
+		height: 26px;
+		&:hover {
+			background-position: 0 0;
+		}
+	}
+	.shell-button-image {
+		background-size: contain;
+		background-position: center;
+		width: 26px;
+		height: 26px;
+	}
+}
+.caption-class {
+	height: 100%;
+	font-family: "Segoe UI Light";
+	padding-left: 20px;
+	margin-right: 34px;
+	font-size: 3.5em;
+	color: #444167;
+	float: left;
+	line-height: 51px;
+}
+.fix-width {
+	-ms-flex-positive: 1;
+	-ms-flex-preferred-size: 0px;
+}
+.x-gecko .fix-width {
+	flex-basis: 100%;
+	position: relative;
+}
+.x-gecko .fix-width.caption-class > .t-label {
+	position: absolute;
+}
+.button-class > .t-btn-wrapper {
+	padding: 0.5em 9px 0px 0px;
+}
+.button-class > .view-no-images-class {
+	margin-left: 9px;
+	margin-bottom: 9px;
+}
+.main-header-image-container-class > .t-btn-wrapper {
+	padding: 0;
+	margin-top: @photo-margin-top;
+}
+.main-header-image-container-class > .t-btn-wrapper > .view-images-class {
+	background-position-x: 50%;
+	background-position-y: 50%;
+}
+.caption-class > .t-label {
+	font-size: 26px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+	line-height: 51px;
+}
+.button-class {
+	height: 100%;
+	padding-top: 0.3em;
+	min-width: 10em;
+	float: left;
+	white-space: nowrap;
+	display: inline-table;
+}
+.button-class > .t-btn-pressed > .t-btn-image {
+	background-position: 0 -2.95em;
+}
+.view-images-class {
+	width: 2.75em;
+	height: 2.75em;
+	background-repeat: no-repeat;
+}
+.main-header-menu-logo-image img {
+	margin-left: 3.0em;
+	margin-top: 1.5em;
+	max-height: 37px;
+	max-width: 274px;
+	height: 37px;
+}
+.main-header-logo-image {
+	max-width: 127px;
+	max-height: 27px;
+	height: 27px;
+}
+.photo-class {
+	width: 32px;
+	height: 100%;
+	padding-top: 10px;
+	float: left;
+}
+.main-header-image-container-class {
+	float: right;
+}
+.main-header-logo-container-class {
+	float: right;
+	padding-top: @logo-padding-top;
+	padding-right: @logo-padding-right;
+	background-size: contain;
+	display: inline-table;
+	position: relative;
+}
+.center-panel-no-padding-top {
+	padding-top: 0;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.left-header-container-class {
+	width: 100%;
+	height: inherit;
+	padding-right: @right-container-width;
+	display: inline-flex;
+	display: -webkit-inline-flex;
+	display: -ms-flexbox;
+}
+.right-header-container-class {
+	width: @right-container-width;
+	height: inherit;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.empty-container-class {
+	min-width: 1.5em;
+}
+
+.photo-icon {
+	background-size: cover;
+	width: @photo-size;
+	height: @photo-size;
+	border-radius: 50%;
+	&[style*="ContactEmptyPhoto"] {
+		background-size: 38px 80px;
+	}
+}
+
+.x-chrome {
+	.photo-icon {
+		&[style*="ContactEmptyPhoto"] {
+			background-position: 0 1px;
+			background-size: cover;
+			height: 39px;
+		}
+	}
+}
+
+.profile-photo-btn-marker-class,.js-unit-tests-btn-marker-class {
+	border-top: 0.3em solid transparent;
+}
+.profile-menu .menu-item-image {
+	top: 0.435em;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.configuration-version-label {
+	color: #999999;
+	font-size: 10px;
+	position: absolute;
+}
+
+.main-header-logo-container-class .configuration-version-label {
+	top: 40px;
+	right: 20px;
+}
+
+.main-header-menu-logo-image-container-class .configuration-version-label {
+	top: 53px;
+	right: 35px
+}

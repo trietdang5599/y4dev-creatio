@@ -1,0 +1,380 @@
+﻿@EmptyResultFontSize: 17px;
+@ActionsButtonBorder: #e1e8f2;
+
+.communication-panel-item-container {
+	padding: 0 auto auto 0;
+	.module-container {
+		padding: 0 auto auto 0;
+	}
+	.message-container {
+		height: auto;
+	}
+	.ctiPanelMain {
+		width: 336px;
+	}
+	.schema-wrap.one-el {
+		width: 363px;
+		::-webkit-scrollbar {
+			-webkit-appearance: none;
+			width: 6px;
+			height: 6px;
+		}
+		::-webkit-scrollbar-thumb {
+			background-color: #DBDBDB;
+		}
+		>.ts-tabpanel.ts-imagetabpanel {
+			height: 42px;
+			margin-left: -27px;
+			padding-right: 0;
+			.ts-tabpanel-items {
+				padding-top: 3px;
+				width: inherit;
+				>li {
+					border-bottom: none;
+					width: 52px;
+					height: 42px;
+					display: inline-block;
+					margin-right: 12px;
+					background-size: cover;
+					>span {
+						color: #ffffff;
+						display: inline-block;
+						border-radius: 9px;
+						position: absolute;
+						top: 1px;
+						left: 100%;
+						line-height: normal;
+						font-size: 12px;
+						width: 18px;
+						height: 18px;
+						text-align: center;
+						margin-left: -18px;
+					}
+					&:first-child {
+						margin-left: 15px;
+					}
+				}
+				>li.ts-tabpanel-active-item {
+					border-bottom: 3px solid #FF4013;
+				}
+				>.ts-imagetabpanel-required:after {
+					content: "";
+				}
+			}
+		}
+		>.ts-notifications-container {
+			position: absolute;
+			overflow-y: auto;
+			overflow-x: hidden;
+			height: ~"calc(100% - 47px)";
+			width: 100%;
+			margin-left: -27px;
+
+			.ts-visamodule-container {
+				.show-only-my-approvals {
+					display: flex;
+					height: 100%;
+
+					.checkbox-label-wrap {
+						order: 2;
+						width: 100%;
+						max-width: 100%;
+						padding-left: 20px;
+						display: flex;
+
+						.t-label {
+							text-align: left;
+							align-self: flex-end;
+							padding-bottom: 10px;
+						}
+					}
+
+					.control-wrap {
+						flex-basis: 32px;
+						padding-left: 12px;
+						margin-left: initial;
+						align-self: flex-end;
+						padding-bottom: 8px;
+					}
+				}
+			}
+		}
+	}
+	.empty-grid-message {
+		display: block;
+		font-size: @EmptyResultFontSize;
+		color: #999999;
+		padding-top: 60px;
+		width: 100%;
+		margin-top: 0px;
+		overflow: auto;
+		>.image-container {
+			transform: translateX(-50%);
+			left: 50%;
+			width: 135px;
+			height: 139px;
+			margin: auto 37px 0 0;
+		}
+		>.title {
+			width: auto;
+			margin: 50px auto auto 50px;
+			padding-left: 20px;
+			font-size: @EmptyResultFontSize;
+			>.t-label {
+				font-size: @EmptyResultFontSize;
+			}
+		}
+		>.description {
+			box-shadow: none;
+			border-left: 2px solid #64b8df;
+			width: auto;
+			margin: 30px auto auto 50px;
+			padding: 15px 50px 15px 20px;
+			font-size: 18px;
+			>a {
+				cursor: pointer;
+				color: #4e7bd8;
+			}
+		}
+	}
+}
+.ts-notifications-container, .ts-anniversarynotificationsmodule-container {
+	.button-caption-labelClass {
+		width: auto;
+		padding-right: auto 12px auto 10px;
+		color: #999999;
+	}
+	.visaActionButtonWrap-class {
+		position: absolute;
+		right: -35px;
+	}
+	.notificationActionButtonWrap-class {
+		position: absolute;
+		left: 100%;
+		top: 17px;
+		margin-left: -33px;
+		padding: 2px 12px;
+		border-left: 1px solid @ActionsButtonBorder;
+	}
+	.visaActionButtonWrap-class {
+		top: -5px;
+		color: #4e7bd8;
+		visibility: hidden;
+		opacity: 0;
+	}
+	.selected-item-class {
+		.visaActionButtonWrap-class {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+	.visa-notification-item-selected {
+		.visaActionButtonWrap-class {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+	.visa-notification-item-container:hover {
+		.visaActionButtonWrap-class {
+			opacity: 1;
+			visibility: visible;
+			transition: opacity 0.2s 0.1s ease;
+		}
+	}
+	.visa-notification-item-middle-container {
+		margin: auto auto 5px 45px;
+
+		.visa-notification-item-middle {
+			margin-right: 5px;
+		}
+	}
+	.reminder-notification-item-container,
+	.visa-notification-item-container,
+	.system-notification-item-container,
+	.anniversary-notification-item-container {
+		padding: 15px 38px 17px 10px;
+		margin-left: 15px;
+		border-bottom: 1px solid @ActionsButtonBorder;
+		position: relative;
+	}
+	.notifications-main-container,
+	.visa-notifications-main-container,
+	.system-notifications-main-container,
+	.anniversary-notifications-main-container {
+		width: 100%;
+		height:100%;
+	}
+	.reminder-notification-item-top-container,
+	.anniversary-notification-item-top-container {
+		position: relative;
+		a.t-label, label.t-label {
+			line-height: 18px;
+			margin-right: 6px;
+			display: inline;
+		}
+		a.t-label {
+			margin-right: 0;
+		}
+		a.ts-notification-Invoice-caption{
+			margin-right: 6px;
+		}
+		img {
+			margin-right: 6px;
+			width: 16px;
+		}
+	}
+	.reminder-notification-item-bottom-container,
+	.visa-notification-item-bottom-container,
+	.system-notification-item-bottom-container,
+	.anniversary-notification-item-bottom-container {
+		.t-label {
+			white-space: pre-wrap;
+			display: inline;
+			line-height: 17px;
+			margin-right: 6px;
+			&[activelink="false"] {
+				text-decoration: none;
+				cursor: default;
+				color: #444;
+			}
+		}
+		.reminder-notification-icon-class, .visa-notification-icon-class, .notification-icon-class {
+			height: 16px;
+			width: 16px;
+			position: relative;
+			top: 3px;
+		}
+	}
+	.reminder-notification-item-top-container {
+		padding: 7px 10px 15px 43px;
+		>img {
+			margin-right: 12px;
+			width: 32px;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
+	.system-notification-item-bottom-container {
+		margin-top: 15px;
+	}
+	div.default-notification-items-container-class img [ src = "" ] {
+		margin-right: -10px;
+	}
+	.message-container {
+		height: auto;
+	}
+	.right-panel-modules-container {
+		padding-top: 0px !important;
+		margin-top: 0px !important;
+	}
+	.offset-notification-items-container-class,
+	.system-notification-items-container-class {
+		overflow: hidden;
+		position: absolute;
+		width: 100%;
+		bottom: 2px;
+		top: 0px;
+		left: 0px;
+	}
+	.offset-notification-items-container-class::-webkit-scrollbar {
+		width: 5px;
+	}
+	.offset-notification-items-container-class:hover {
+		overflow: auto;
+	}
+	.subject-text-labelClass {
+		width: auto;
+	}
+	.selected-item-class {
+		background-color: #edf1f8;
+	}
+	.main-actions-button-container {
+		position: relative;
+		height: 41px;
+		border-bottom: 1px solid @ActionsButtonBorder;
+		left: 14px;
+		>.postpone-all-class {
+			padding-top: 4px !important;
+			padding-bottom: 5px;
+			float: left;
+			border-right: 1px solid @ActionsButtonBorder;
+			margin: 8px auto;
+			>.postpone-all-menuClass {
+				margin-top: 5px;
+			}
+		}
+		>.cancel-all-class {
+			float: left;
+			border-right: 1px solid @ActionsButtonBorder;
+			margin: 8px auto;
+			padding: 4px 11px 5px 11px;
+		}
+	}
+}
+.ts-anniversarynotificationsmodule-container {
+	.offset-notification-items-container-class {
+		top: 123px;
+	}
+}
+.visa-notification-item-top-container,
+.system-notification-item-top-container {
+	position: relative;
+	padding-right: 10px;
+	color: #999999;
+	img {
+		position: absolute;
+		width: 32px;
+		height: 32px;
+		top: 4px;
+	}
+	>.t-label {
+		line-height: 16px;
+		margin: auto auto 5px 45px;
+		display: block;
+		text-align: left;
+		min-height: 10px;
+	}
+}
+
+.visa-notification-item-top-container {
+	img {
+		box-sizing: border-box;
+		padding: 2px;
+		width: 33px;
+		height: 33px;
+		border-radius: 3px;
+	}
+}
+
+html[dir="rtl"] {
+	.communication-panel-item-container {
+		.empty-grid-message > .image-container {
+			transform: translateX(50%);
+			-webkit-transform: translateX(50%);
+			-moz-transform: translateX(50%);
+			-ms-transform: translateX(50%);
+		}
+		.schema-wrap.one-el > .ts-tabpanel.ts-imagetabpanel .ts-tabpanel-items > li {
+			transform: scaleX(-1);
+			-webkit-transform: scaleX(-1);
+			-moz-transform: scaleX(-1);
+			-ms-transform: scaleX(-1);
+			> span {
+				 left: auto;
+				 padding-right: 0.02px;
+				 transform: scaleX(-1);
+				 top: 0.25px;
+				 -webkit-transform: scaleX(-1);
+				 -moz-transform: scaleX(-1);
+				 -ms-transform: scaleX(-1);
+			 }
+		}
+	}
+	.communication-panel .content .t-btn-text {
+		transform: translate(50%, -50%);
+		-webkit-transform: translate(50%, -50%);
+		-moz-transform: translate(50%, -50%);
+		-ms-transform: translate(50%, -50%);
+	}
+}

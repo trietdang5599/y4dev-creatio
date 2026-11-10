@@ -1,0 +1,128 @@
+﻿html[dir="rtl"] {
+	body.x-safari,
+	body.x-ie:not(.x-edge) {
+		.page-wizard .center-panel .design-container-wrapClass .draggable-items-list {
+			overflow-y: scroll;
+		}
+	}
+}
+
+body.x-ie:not(.x-edge) {
+	.page-wizard .center-panel .data-model-item {
+		height: 100% !important;
+	}
+}
+
+.page-wizard {
+	.page-header-container {
+		.control-wrap {
+			padding-top: 10px;
+			margin-bottom: 0;
+		}
+
+		.base-edit-input {
+			font-size: 26px;
+			min-height: 0;
+		}
+
+		.base-edit {
+			padding-left: 0;
+			&.base-edit-focus {
+				outline: none;
+				border: 1px solid #fff;
+				border-bottom: 1px solid #00aeef;
+				box-shadow: none;
+			}
+		}
+	}
+
+	.center-panel {
+		padding-top: 6px !important;
+
+		.data-model-item {
+			height: calc(~"100vh" - 72px);
+		}
+
+		div.design-container-wrapClass {
+			margin-top: 40px !important;
+		}
+
+		.design-container-wrapClass {
+			.draggable-items-list {
+				top: 40px !important;
+				left: 0;
+				bottom: 0;
+				margin-top: 0px;
+				border: none;
+				border-radius: 0;
+				position: fixed;
+				height: calc(~"100vh" - 72px);
+			}
+			.main-header {
+				display: block;
+				top: 40px;
+				right: 6px;
+				left: 308px;
+				height: 56px;
+				border-top: #ebeeef 6px solid;
+				z-index: 10;
+
+				.page-header-container {
+					display: block;
+				}
+			}
+		}
+
+		.main-header {
+			.page-header-container {
+				.t-label {
+					width: auto;
+					line-height: inherit;
+					margin-top: 10px;
+					padding-left: 5px;
+					padding-right: 5px;
+					border: 1px dotted #15b8ff;
+					border-radius: 2px;
+					color: #999999;
+				}
+			}
+		}
+	}
+	#DesignedView {
+		padding-left: 301px;
+
+		.card-content-container {
+			min-height: calc(~"100vh" - 52px);
+			padding-top: 112px !important;
+
+			.actions-container {
+				background-color: white;
+				width: calc(~"100%" - 313px);
+				min-width: calc(~"100%" - 313px);
+				margin-top: -62px;
+				padding-top: 5px;
+				z-index: 10;
+
+				.page-designer-btn-wrapper {
+					cursor: not-allowed;
+
+					.t-btn-wrapper {
+						cursor: not-allowed;
+					}
+				}
+			}
+
+			.grid-layout-edit-item-actions-wrap {
+				.t-btn-wrapper .t-btn-image {
+					filter: opacity(0.7);
+				}
+				.t-btn-wrapper:hover .t-btn-image {
+					filter: opacity(1);
+				}
+			}
+		}
+	}
+	.main-header {
+		z-index: auto;
+	}
+}

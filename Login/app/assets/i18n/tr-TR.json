@@ -1,0 +1,125 @@
+{
+    "Input": {
+        "HidePassword": "Şifreyi Gizle",
+        "ShowPassword": "Şifreyi göster"
+    },
+    "PasswordChangedSuccessfully": "Şifre başarıyla değiştirildi",
+    "PasswordChangeError": "Şifre değişikliği sırasında bir hata oluştu",
+    "PasswordAndConfirmationDoNotMatch": "Şifre ve onay eşleşmiyor",
+    "TotpSetupPage": {
+        "VerificationCode": "Doğrulama Kodu",
+        "Secret": "Gizli",
+        "SubmitButton": "Bağlan",
+        "Success": "Authenticator uygulaması bağlı",
+        "TokenExpired": "Jetonunuzun süresi doldu.",
+        "InvalidTotp": "Geçersiz doğrulama kodu.Doğru verileri girdiğinizden veya sistem yöneticinize başvurduğunuzdan emin olun.",
+        "Error": "TOTP kurulum işlemi sırasında bir hata oluştu.Lütfen tekrar deneyin veya sistem yöneticinizle iletişime geçin",
+        "Header": "Hesabınıza bir kimlik doğrulama uygulaması bağlayın",
+        "Step1": "1. Google Authenticator gibi bir kimlik doğrulama uygulaması mobil cihazınıza yükleyin.",
+        "Step2": "2. Bu QR kodunu uygulamayla tarayın:",
+        "Step2SecretDescription": "Veya anahtarı manuel olarak girin:",
+        "Step3": "3. Authenticator uygulamanız tarafından oluşturulan 6 haneli doğrulama kodunu girin.",
+        "CancelButton": "İptal"
+    },
+    "ResetPasswordPage": {
+        "NewPassword": "Yeni Şifre",
+        "NewPasswordConfirm": "Yeni şifreyi onayla",
+        "SecondFactor": "Onay kodu",
+        "SendCodeViaSMS": "SMS ile kod gönder",
+        "ResetPasswordButtonCaption": "Şifreyi yenile",
+        "Error": "Şifre kurtarma işlemi sırasında bir hata oluştu.Lütfen tekrar deneyin veya sistem yöneticinizle iletişime geçin"
+    },
+    "PasswordComplexity": {
+        "MinPasswordLength": {
+            "Message": "Karakterler - {{MinLength}}"
+        },
+        "MinPasswordUppercaseCharCount": {
+            "Message": "Büyük harf - {{Mincount}}"
+        },
+        "MinPasswordLowercaseCharCount": {
+            "Message": "Küçük harf - {{Mincount}}"
+        },
+        "MinPasswordNumericCharCount": {
+            "Message": "Rakamlar - {{mincount}}"
+        },
+        "MinPasswordSpecialCharCount": {
+            "Message": "Özel Karakterler - {{Mincount}}"
+        },
+        "PasswordStrength": {
+            "Message": "Şifre gereksinimleri karşılamıyor"
+        },
+        "PasswordsDoNotMatch": {
+            "Message": "Şifre eşleşmiyor"
+        },
+        "MfaEmpty": {
+            "Message": "Lütfen bu alanı doldurun"
+        }
+    },
+    "PasswordValidationTooltipCaption": "Minimum şifre gereksinimleri",
+    "BeginPasswordRecoveryPage": {
+        "Email": "Kullanıcı e -postasını girin veya oturum açın",
+        "EmailSent": "Bir hesap varsa, şifre kurtarma talimatları içeren bir e -posta alırsınız.E -posta gelmezse, spam klasörünüzü kontrol edin ve sistem yöneticinize başvurun",
+        "Error": "E-posta gönderilirken bir hata oluştu",
+        "SendButtonCaption": "Eposta gönder",
+        "ResendButtonCaption": "E -postayı yeniden gönder",
+        "OpenLoginPageButtonCaption": "Giriş sayfasını açın",
+        "ResetLinkExpired": "Sıfırlama bağlantısı süresi doldu veya zaten kullanıldı"
+    },
+    "UseAnotherMethod": "Başka bir yöntem kullanın",
+    "TwoFactorSubmitButton": "Doğrulamak",
+    "TwoFactorBackButton": "Geri",
+    "SmsProvider": {
+        "SendSms": "Başka bir kod gönder",
+        "ResendSms": "SMS'i yeniden gönder"
+    },
+    "EmailProvider": {
+        "SendEmail": "Başka bir kod gönder"
+    },
+    "TwoFactor.SmsProviderNotAvailable": "SMS yoluyla gönderilen doğrulama kodunu telefon numaranıza girin",
+    "TwoFactor.EnterSmsCode.Caption": "SMS yoluyla gönderilen doğrulama kodunu telefon numaranıza girin",
+    "TwoFactor.EnterEmailCode.Caption": "E -posta adresinize gönderilen doğrulama kodunu girin",
+    "TwoFactor.EnterTOTPCode.Caption": "Authenticator uygulamasından doğrulama kodunu girin",
+    "TwoFactor.VerificationCode.Caption": "Doğrulama Kodu",
+    "TwoFactor.TOTPUnavailable.Caption": "Authenticator uygulama yöntemini kullanmak için önce ayarlamanız gerekir.Bunu profil sayfanızda yapabilirsiniz.",
+    "TwoFactor.UseAnotherMethod.Caption": "Başka bir yöntem kullanın",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Geçersiz doğrulama kodu.Doğru verilere girdiğinizden veya sistem yöneticinize başvurduğunuzdan emin olun",
+    "TwoFactor.ValidationCanceled": "İkinci faktörün doğrulanması iptal edildi",
+    "ConsentPage": {
+        "AcceptButtonCaption": "Kabul et",
+        "DiscardButtonCaption": "Reddet",
+        "SwitchButton": "Geçiş yap",
+        "DescriptionTextStart": "{{oauthapplicationname}} uygulaması aşağıdakiler için erişim talep ediyor: \n",
+        "DescriptionTextEnd": "Creatio hesabı. Onayınızdan sonra aşağıdaki işlemlere erişecektir:",
+        "CommonScopeText": "Hesabınız için tüm veri işlemlerini gerçekleştirme ve mevcut tüm işlevleri kullanma yetkisi",
+        "Footer1": "Kullanıcı profilinizde herhangi bir zamanda erişimi iptal edebilirsiniz.",
+        "Footer2": "Daha fazla bilgi edinmek için  ",
+        "Footer3": "Creatio tarafından sağlanan uygulamalar için ilgili belgeleri Akademi’de bulabilirsiniz. Creatio’nun üçüncü taraf uygulamalarıyla entegrasyonları gözden geçirmediğini unutmayın. Böyle bir başvuru ve entegrasyonun kullanımı, üçüncü taraf hizmet şartlarına, gizlilik politikasına ve belgelere tabidir.",
+        "AcademyLink": "Akademi",
+        "ConsentErrorInvalidRequest": {
+            "Title": "Entegrasyon kurulum hatası",
+            "Message": "İstek doğru yapılandırılmadığı için yetkilendirme işlemi başlatılamıyor. Bir veya daha fazla gerekli parametre hatalı veya eksik.",
+            "Suggestion": "Entegrasyon ayarlarını doğrulamak ve gerekli tüm parametrelerin sağlandığından emin olmak için sistem yöneticinize veya Creatio desteğine başvurun."
+        },
+        "ConsentErrorInvalidClient": {
+            "Title": "Entegrasyon bulunamadı",
+            "Message": "Sağlanan Kullanıcı Kimliği ve Yetkili Yönlendirme URI’si ile yapılandırılmış etkin bir entegrasyon bulunmadığından yetkilendirme süreci başlatılamıyor.",
+            "Suggestion": "Entegrasyon ayarlarını kontrol etmek ve doğru Kullanıcı Kimliği ile Yönlendirme URI’sinin kullanıldığından emin olmak için sistem yöneticinize veya Creatio desteğine başvurun."
+        },
+        "ConsentErrorInvalidUser": {
+            "Title": "Entegrasyona erişime izin verilmez",
+            "Message": "Kullanıcı hesabınızın bu entegrasyonu kullanmasına izin verilmediği için devam edilemiyor.",
+            "Suggestion": "Bu entegrasyonu kullanmaya yetkili kullanıcı listesini güncellemek için sistem yöneticinizle iletişime geçin."
+        },
+        "ConsentErrorInvalidConsentId": {
+            "Title": "Yetkilendirme talebi süresi doldu",
+            "Message": "Talep süresi dolduğundan yetkilendirme tamamlanamıyor.",
+            "Suggestion": "Devam edebilmek için entegrasyon yetkilendirme sürecini baştan başlatın."
+        },
+        "ConsentErrorServerError": {
+            "Title": "Entegrasyon kurulumu sırasında hata oluştu",
+            "Message": "Talep işlenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+            "Suggestion": "Gerekli erişim haklarını talep etmek ve girişiminizi tekrar denemek için lütfen sistem yöneticinizle iletişime geçin."
+        },
+        "ErrorFooter": "Creatio'daki OAuth entegrasyon ayarları hakkında daha fazla bilgi edinin."
+    }
+}

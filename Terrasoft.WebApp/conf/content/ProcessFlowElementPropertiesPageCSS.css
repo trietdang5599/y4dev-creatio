@@ -1,0 +1,16 @@
+﻿.grid-layout .multi-instance-property-container.control-width-15 {
+  display: block;
+}
+.grid-layout .multi-instance-property-container.control-width-15 .label-wrap {
+  margin-top: 0;
+}
+.grid-layout .multi-instance-property-container.control-width-15 .label-wrap .t-label-is-required:after {
+  content: "";
+}
+.grid-layout .multi-instance-property-container.control-width-15 .control-wrap {
+  padding-top: 6px;
+}
+.control-width-100-percent .label-wrap + .control-wrap {
+  margin-left: 0;
+  padding-left: 0;
+}

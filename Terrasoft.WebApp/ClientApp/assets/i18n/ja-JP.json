@@ -1,0 +1,3740 @@
+{
+    "ConfirmationDialog": {
+        "YES": "はい",
+        "NO": "いいえ",
+        "DELETE": "消去",
+        "CANCEL": "キャンセル"
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "ValidationErrorDialogComponent": {
+        "Cancel": "キャンセル",
+        "Close": "Close"
+    },
+    "AddRecordRightsDialog": {
+        "Add": "追加",
+        "Cancel": "キャンセル",
+        "RecordAuthor": "著者の記録",
+        "RightsRecipient": "権限を取得するユーザーまたはロール",
+        "Title": "レコードの作成者に基づく権限を追加"
+    },
+    "AddEntityOperationGranteeDialog": {
+        "Add": "追加",
+        "Cancel": "キャンセル",
+        "Operation": "操作",
+        "UserOrRole": "権限を取得するユーザーまたはロール",
+        "Title": "ロールまたはユーザーに基づいて権限を追加"
+    },
+    "LocalizableStringsDialog": {
+        "Title": "ローカライズ可能な文字列",
+        "NameTitle": "コード",
+        "ValueTitle": "値",
+        "Add": "追加",
+        "Cancel": "キャンセル",
+        "Apply": "適用",
+        "ShowAllLanguages": "すべての言語を表示",
+        "HideInactiveLanguages": "非アクティブな言語を隠す",
+        "Validations": {
+            "RequiredNameCaption": "入力してください",
+            "PatternNameCaption": "無効な値です。記号：a-z、A-Z、0-9を使用してください。記号：0-9を先に使用することはできません",
+            "DuplicateNameCaption": "同じコードを持つローカライズ可能な文字列が既に存在します"
+        },
+        "AcademyUrl": "https://academy.creatio.com/docs/8.x/",
+        "AcademyUrlTitle": "詳細はこちら"
+    },
+    "OrderDirectionStrict": {
+        "Ascending": "昇順",
+        "Descending": "降順"
+    },
+    "AdministratedObjectPage": {
+        "EntityOperations": "高度な操作",
+        "AdditionalOperationPermissions": "追加の許可",
+        "Operation": "操作",
+        "UserOrRole": "ユーザーまたはロール",
+        "UserOrRoleWhoObtainsPermission": "権限を取得するユーザーまたはロール",
+        "AccessPermissions": "アクセス許可",
+        "InfoBlockText": "システム操作 「任意のデータを追加」、「任意のデータを表示」、「任意のデータを編集」、ロールまたはユーザーに付与された「任意のデータを削除」は、このセクションで設定した権限よりも優先されます。",
+        "InfoBlockEntityOperationsText": "ロールまたはユーザーに付与されたシステム操作「CanExportGrid」は、このセクションで設定した権限よりも優先順位が高いです。",
+        "InfoBlockTitle": "メモ",
+        "InfoBlockLink1": "パーミッションの優先順位の仕組み",
+        "InfoBlockLink2": "権限の継承方法",
+        "InfoBlockLink3": "詳細の権限を設定する方法",
+        "InfoBlockLink4": "すべての既存のレコードに新しいレコードの権限設定を適用する",
+        "InfoBlockLink5": "アクセス許可の設定例",
+        "NameFieldName": "名前",
+        "RightsByColumnDetail": "列の権限を使用",
+        "RightsByColumnDetailTooltip": "オブジェクトの特定の列 (フィールド) の権限設定",
+        "RightsByOperationDetail": "操作権限を使用",
+        "RightsByOperationDetailTooltip": "操作の作成、読み取り、編集、削除のための権限設定",
+        "RightsByEntityOperationDetail": "エンティティ操作の権限を使用",
+        "RightsByEntityOperationDetailTitle": "追加の許可",
+        "RightsByEntityOperationDetailTooltip": "ロールまたはユーザーに基づいて現在のオブジェクトからデータをエクスポートする権限設定",
+        "RightsByRecordDetail": "レコードの権限を使用",
+        "RightsByRecordDetailTooltip": "特定のレコードの読み取り、編集、削除のための権限設定",
+        "TitleFieldName": "タイトル",
+        "TitleFormat": "{0} オブジェクトの権限",
+        "UpdatePermissions": "レコードの権限を更新",
+        "OneEmptyRecordDefRightMessageTemplate": "ルール「{0}」には「設定されていない」以外のアクセス権限は含まれておらず、実際のアクセス設定には影響しません。 新しい権限を適用すると、Creatioはこのルールを削除します。続行しますか？",
+        "SeveralEmptyRecordDefRightsMessageTemplate": "ルール「{0}」には「設定されていない」以外のアクセス権限は含まれておらず、実際のアクセス設定には影響しません。 新しい権限を適用すると、Creatioはこれらのルールを削除します。続行しますか？",
+        "ProposalActualizationRights": "レコードの権限設定が変更されました。既存の {0} レコードの現在の権限を更新する必要があります。これはすべてのユーザのシステム パフォーマンスに影響を与える可能性があります。\n 今すぐレコード権限を更新しますか？",
+        "InfoAboutOperationPermissionsTitle": "重要",
+        "InfoAboutOperationPermissions": "オブジェクトの操作権限が無効になります。この場合:",
+        "InfoAboutOperationPermissions1": "会社の従業員は、下記のリストに表示されているオブジェクトですべての操作にフルアクセスできます。",
+        "InfoAboutOperationPermissions2": "外部ユーザーは、そのオブジェクトに対する操作へのアクセス権を持っていません。",
+        "InfoAboutOperationPermissions3": "技術者のユーザーは、以下のリストの設定に応じてアクセスできます。",
+        "InfoAboutOperationPermissions4": "オブジェクトの権限設定について詳しくは、",
+        "InfoAboutOperationPermissionsLinkCaption": "アカデミー",
+        "InfoAboutOperationPermissionsAcademyLink": "https://academy.creatio.com/documents?id=250"
+    },
+    "AdministratedObjectSection": {
+        "BusinessLogicPermissions": "レコードの権限が有効です",
+        "Close": "Close",
+        "ColumnPermissions": "列の権限が有効です",
+        "Name": "名前",
+        "ObjectPermissions": "操作権限が有効です",
+        "Search": "検索",
+        "Title": "オブジェクトの権限",
+        "TitleColumn": "タイトル",
+        "UpdatePermissions": "レコードの権限を更新"
+    },
+    "BasePageComponent": {
+        "Close": "Close",
+        "Apply": "適用",
+        "Cancel": "キャンセル",
+        "Save": "保存",
+        "Actions": "アクション",
+        "Check": "検証",
+        "Publish": "投稿",
+        "PublishAndCompile": "公開とコンパイル",
+        "SaveAndPublish": "保存と公開"
+    },
+    "ClearChangeLogSettingsDialog": {
+        "AllObjects": "すべてのオブジェクト",
+        "AllPeriod": "利用可能なすべてのデータ",
+        "Cancel": "キャンセル",
+        "ChooseDate": "日付の選択",
+        "ChooseObject": "オブジェクトの選択",
+        "Clear": "消去",
+        "ObjectSettingsTitle": "次のオブジェクトのログデータを消去",
+        "OnlySelectedObject": "特定のオブジェクト",
+        "PeriodSettingsTitle": "次の期間のログデータを消去",
+        "Title": "変更履歴を消去",
+        "ToDatePeriod": "古いデータのみ"
+    },
+    "ChangeLogCleanerService": {
+        "SuccessLaunch": "システムは変更ログの消去を始めました。プロセスが完了すると、通信パネルに通知が届きます。"
+    },
+    "ChangeLogPage": {
+        "Close": "Close",
+        "TitleFormat": "{0} 変更ログ",
+        "ViewLog": "ログの表示"
+    },
+    "ChangeLogSection": {
+        "Title": "ログの変更",
+        "TitleColumn": "タイトル",
+        "NameColumn": "名前",
+        "LoggingEnabledColumn": "ログを有効にする",
+        "ClearChangeLog": "ログ消去"
+    },
+    "ChangeLogComponent": {
+        "Blankslate": "このオブジェクトの変更ログにはレコードがありません",
+        "InsertedTooltip": "レコードが追加されました",
+        "UpdatedTooltip": "レコードが変更されました",
+        "DeletedTooltip": "レコードが削除されました",
+        "ShowMore": "更に表示する",
+        "ShowLess": "表示を減らす",
+        "ChangeType": "種類の変更",
+        "ChangeTrackedOn": "変更日時",
+        "ChangeTrackedBy": "変更者",
+        "ChangeTracked": "レコード",
+        "ColumnName": "列",
+        "ColumnOldValue": "古い値",
+        "ColumnNewValue": "新しい値",
+        "Yes": "はい",
+        "No": "いいえ"
+    },
+    "LicenseManager": {
+        "PackageNameColumn": "名前",
+        "TypeColumn": "タイプ",
+        "StartDateColumn": "開始日",
+        "DueDateColumn": "終了日",
+        "StatusColumn": "ステータス",
+        "CountColumn": "合計",
+        "LicenseIsActive": "対応可能",
+        "LicenseIsNotActive": "無効です",
+        "TypePersonal": "個人用",
+        "TypeConcurrent": "同時実行",
+        "TypeServer": "サーバー"
+    },
+    "LicenseSection": {
+        "Title": "ライセンス マネージャー",
+        "BlankslateTitle": "レコードがありません。",
+        "BlankslateDescription": "ライセンスファイルをアップロードすると、ここにライセンスが表示されます。",
+        "ServerLicenseTooltip": "サーバーと同時ライセンスはユーザーページから配布されています",
+        "ConcurrentLicenseTooltip": "サーバーと同時ライセンスはユーザーページから配布されています",
+        "UploadButtonCaption": "アップロード",
+        "UploadLicensesCompleteMessage": "ライセンスが正常にアップロードされました",
+        "UploadLicensesErrorMessage": "無効なファイル形式",
+        "RequestLicensesButtonCaption": "リクエスト",
+        "DeleteLicensesButtonCaption": "削除",
+        "DeleteLicensesConfirmation": "ライセンスは削除されます。続行しますか？",
+        "DeleteLicensesSuccess": "すべてのライセンスが正常に削除されました。",
+        "AllTypesCaption": "すべてのライセンス",
+        "PersonalTypeCaption": "個人用",
+        "ServerTypeCaption": "サーバー",
+        "UploadLicensesCryptographicExceptionMessage": "Invalid file format. If your license was generated for 8.3.0 or earlier Creatio versions, creating a new license request may resolve the issue."
+    },
+    "LicensePage": {
+        "TitleFormat": "製品 {0}"
+    },
+    "UsedLicensesCounterChart": {
+        "ActiveLicensesTitle": "有効なライセンス",
+        "ConcurrentLicenseTitle": "同時ライセンス",
+        "UsedLicensesCountTitle": "ライセンス済み",
+        "UsedLicensesCountSeparatorLabel": "の",
+        "DistributedLicensesLegend": "ユーザーに割り当てられたライセンス",
+        "AvailableLicensesLegend": "同時ユーザーセッションの制限",
+        "UnlimitedCountLabel": "無制限のユーザーの",
+        "LimitOfLicensesLabel": "ライセンスの制限"
+    },
+    "LicenseDetail": {
+        "Title": "ライセンス"
+    },
+    "LicensedUsersDetail": {
+        "Title": "ライセンスされたユーザー",
+        "UsersDialogCaption": "ユーザー",
+        "UserNameColumn": "User",
+        "EmailColumn": "Email",
+        "JobTitleColumn": "役職",
+        "Delete": "再呼び出し",
+        "Blankslate": "これらのライセンスはまだどのユーザーにも配布されていません",
+        "SourceTitleColumn": "課題の方法",
+        "UserLicensesSourceManual": "マニュアル",
+        "UserLicensesSourceSystem": "自動",
+        "UserLicensesSourceRoleBased": "ロールに基づいています"
+    },
+    "LicenseRequestDialog": {
+        "Title": "ライセンスの会社ID",
+        "LicenseVersionTitle": "ライセンスバージョン",
+        "InputFieldDescription": "あなたの固有の会社IDは「ライセンス会社ID」システム設定に保存されます。 この項目で企業 Id を変更すると、システム設定の値が自動的に更新されます。",
+        "LicenseVersionDescription": "ライセンスをアップロードする予定の Creatio のバージョン。",
+        "InvalidVersionFormat": "点で割った3つの数字の形式でバージョンを入力してください。例: 7.18.1",
+        "RequestButtonCaption": "ライセンス リクエストファイルを生成"
+    },
+    "ObjectRecordRightsActualizationService": {
+        "SuccessLaunch": "システムは現在の設定に基づいてレコード権限の更新を開始しました。プロセスが完了すると、通信パネルに通知が届きます。"
+    },
+    "ObjectChangeLogPage": {
+        "TitleFormat": "{0} オブジェクトのログの変更",
+        "SettingsTabCaption": "ログ設定",
+        "ViewChangeLogTabCaption": "ログ データ",
+        "EnableObjectTracking": "ロギングの有効化"
+    },
+    "ObjectTypeFilter": {
+        "AllObjects": "すべてのオブジェクト",
+        "Lookups": "参照",
+        "Sections": "セクション"
+    },
+    "SearchInput": {
+        "Placeholder": "検索",
+        "Settings": {
+            "Cancel": "キャンセル",
+            "Apply": "適用",
+            "SearchColumnTemplate": "列\"{0}\"で検索",
+            "StartsWith": "で始まる",
+            "Contains": "含む",
+            "Equals": "等しい"
+        }
+    },
+    "DeleteButtonTableCell": {
+        "Tooltip": "消去"
+    },
+    "RightLevelSelect": {
+        "Granted": "承諾",
+        "GrantedDelegate": "委任権を付与されました",
+        "NotSet": "未設定"
+    },
+    "RightsByColumnDetail": {
+        "Add": "追加",
+        "Blankslate": "すべての列へのアクセスは制限されていません",
+        "Column": "列",
+        "ColumnBlankslate": "この列へのアクセスを管理するロールまたはユーザーを追加",
+        "DenyReadEdit": "読み込みと編集を拒否",
+        "Drag": "ドラッグして優先度を変更",
+        "PermitRead": "読み込みを許可",
+        "PermitReadEdit": "読み込みと編集を許可",
+        "Priority": "優先度",
+        "Remove": "消去",
+        "RightLevel": "アクセスレベル",
+        "User": "ユーザーまたはロール",
+        "ValidationMessage": "選択したロールのルールはすでに存在します。続行するには別のロールを選択してください。",
+        "WarningDowngradingRights": "このルールの権限制限は、リスト内の下位の他のルールを上書きすることができます"
+    },
+    "RightsByRecordDetail": {
+        "Add": "追加",
+        "Blankslate": "著者ベースの権限ルールが設定されていません",
+        "Delete": "削除",
+        "Edit": "編集",
+        "Read": "読み込み",
+        "RecordAuthor": "著者の記録",
+        "Remove": "消去",
+        "RightsRecipient": "権限を取得するユーザーまたはロール",
+        "Title": "レコードの作成者に基づく権限を付与",
+        "TitleTooltip": "新しいレコードが作成されるたびに、レコードの作成者に基づいて権限が付与されます",
+        "ValidationMessage": "選択したロールのルールは既に存在します。続行する他のロールを選択してください。",
+        "DoNotApplyForManager": "Do not apply for manager",
+        "DoNotApplyForManagerTooltip": "Do not apply this rule if the author obtained the role only as a manager of that role. If the role is obtained through hierarchy from underlying roles, including manager roles of subordinate groups, the rule should still be applied."
+    },
+    "RightsByOperationsDetail": {
+        "Drag": "ドラッグして優先度を変更",
+        "Priority": "優先度",
+        "User": "ユーザーまたはロール",
+        "Create": "作成",
+        "Read": "読み込み",
+        "Edit": "編集",
+        "Delete": "削除",
+        "Remove": "消去",
+        "Add": "追加",
+        "Blankslate": "ユーザーまたはロールを追加して、オブジェクトデータへのアクセスを許可します",
+        "ValidationMessage": "選択したロールのルールはすでに存在します。続行するには別のロールを選択してください。",
+        "WarningDowngradingRights": "このルールの権限制限は、リスト内の下位の他のルールを上書きすることができます",
+        "Allowed": "承諾",
+        "Denied": "拒否"
+    },
+    "RightsByEntityOperationsDetail": {
+        "Add": "追加",
+        "Title": "追加の許可",
+        "Blankslate": "追加操作へのアクセスを許可するユーザーまたはロールを追加",
+        "Operation": "操作",
+        "UserOrRole": "権限を取得するユーザーまたはロール",
+        "ValidationMessage": "フィールドが入力されていません"
+    },
+    "SelectEntitySchemaColumnDialog": {
+        "Cancel": "キャンセル",
+        "Select": "選択",
+        "SelectFieldPlaceholder": "列選択",
+        "Title": "列選択"
+    },
+    "SelectSysAdminUnitDialog": {
+        "Cancel": "キャンセル",
+        "FunctionalRoles": "機能ロール",
+        "OrganizationalRoles": "組織ロール",
+        "Search": "検索",
+        "Select": "選択",
+        "Title": "ユーザーまたはロールを選択",
+        "Users": "ユーザー"
+    },
+    "SelectEntityOperationDialog": {
+        "Cancel": "キャンセル",
+        "Search": "検索",
+        "Operations": "操作",
+        "Select": "選択",
+        "Title": "エンティティ操作",
+        "Users": "ユーザー",
+        "SelectFieldPlaceholder": "エンティティ操作を選択"
+    },
+    "SysAdminUnitTree": {},
+    "TrackedColumns": {
+        "TitleTooltip": "レコードが変更された時に値が記録される列の一覧を設定します",
+        "Title": "ログ済みの列",
+        "CaptionColumn": "タイトル",
+        "NameColumn": "名前",
+        "Add": "追加",
+        "Remove": "消去",
+        "Blankslate": "ログ済みのカラムは選択されていません"
+    },
+    "BaseSection": {
+        "BlankslateTitleWithFilters": "検索条件に一致するレコードがありません。",
+        "BlankslateDescriptionWithFilters": "検索パラメータを消去または変更",
+        "DeleteRecordConfirmation": "選択したレコードを削除してよろしいですか？",
+        "AbsentDataErrorMessage": "レコードが削除されたか、アクセス権限がありません"
+    },
+    "BaseTableDetail": {
+        "Add": "追加",
+        "BlankslateWithFilters": "検索条件に一致するレコードがありません。検索パラメータをクリアまたは変更します。"
+    },
+    "MultiselectDialog": {
+        "Select": "選択",
+        "Selected": "選択:",
+        "Cancel": "キャンセル",
+        "Blankslate": "履歴にレコードがありません",
+        "BlankslateWithFilters": "検索条件に一致するレコードがありません。検索パラメータをクリアまたは変更します。"
+    },
+    "LookupDialog": {
+        "TitleTemplate": "選択: {0}",
+        "Selected": "選択済:",
+        "SelectButton": "選択",
+        "CancelButton": "キャンセル",
+        "Blankslate": "履歴にレコードがありません",
+        "AllPagesSelectionWarning": "操作に時間がかかる場合があります。続行しますか？"
+    },
+    "QuickEntityFilter": {
+        "NonGuidMessage": "Guidは、4つのダッシュを持つ32のシンボルを含める必要があります (xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxx)."
+    },
+    "DateRange": {
+        "To": "to"
+    },
+    "MailServerTableComponent": {
+        "AdditionalSettings": "詳細設定",
+        "AddMailServer": "サービスの追加",
+        "AllowEmailDownloading": "メール受信",
+        "AllowEmailSending": "メール送信",
+        "Copy": "コピー",
+        "DeleteConfirmation": "選択したレコードを削除してよろしいですか？",
+        "Delete": "削除",
+        "Edit": "編集",
+        "Empty": "利用可能なメールサービスがありません",
+        "ExchangeMenuItem": "交換",
+        "IMAPIncomingSettingsDescription": "メールを受信するメールサービスの設定。メールサーバーのアドレス、ポート、セキュリティ設定を指定してください。",
+        "IMAPIncomingSettingsHeader": "受信メールサーバー (IMAP)",
+        "ImapMenuItem": "IMAP/SMTP",
+        "LoginFormat": "ログイン形式",
+        "MailServerAddress": "サービスアドレス",
+        "MailServer": "メール サービス",
+        "MailServerName": "サービス名",
+        "MailServerSettings": "サービス設定",
+        "MailServerType": "サービスタイプ",
+        "MailServiceRemoveToolTip": "このサービスの複数のメールボックスがアプリケーションに存在するため、Creatioはメールサービスを削除できません。",
+        "None": "なし",
+        "Port": "ポート",
+        "RequiredMailServiceActions": "サービスを設定するためにメールのダウンロードまたは送信を有効にする",
+        "Section": {
+            "Add": "追加",
+            "GoToDiagnostic": "診断ツール"
+        },
+        "Security": "セキュリティ",
+        "AuthenticationType": "認証タイプ",
+        "ApplicationId": "アプリケーション (クライアント) ID",
+        "ClientSecret": "クライアントシークレット",
+        "Server": "サーバーアドレス",
+        "SMTPOutgoingSettingsDescription": "メールを送信するメールサービスの設定。メールサーバーのアドレス、ポート、セキュリティ設定を指定してください。",
+        "SMTPOutgoingSettingsHeader": "送信メールサーバー (SMTP)",
+        "SuccessfulAddOperation": "新しいメールサービスを追加しました。ユーザーはこのサービスを使用してメールボックスを追加することができます。",
+        "SuccessfulEditOperation": "Creatioはメールサービスの設定を正常に更新しました",
+        "SuccessfulOperation": "操作に成功しました",
+        "Type": "タイプ",
+        "UseEmailAddressAsLogin": "メールアドレスを使用",
+        "UseLogin": "手動エントリを使用",
+        "UseUserNameAsLogin": "メールボックス名を使用",
+        "WarningTitle": "⚠ Warning",
+        "BasicAuthWarningMessage": "ベーシック認証は時代遅れであり、潜在的に安全ではないことにご注意ください。公式には <a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online\" {0}>マイクロソフトにより非推奨</a> 。本番環境で使用する場合は、最新のOAuth認証への切り替えをご検討ください。設定方法は <a href=\"{1}\" {0}>Creatio アカデミー</a> にあります。",
+        "TenantId": "テナントID",
+        "AllowApplicationLevelAccess": "Allow application-level access"
+    },
+    "MailboxSettings": {
+        "AdditionalSettingsTabCaption": "詳細設定",
+        "MailboxesTabCaption": "受信箱",
+        "MailServicesTabCaption": "メールボックスサービス",
+        "Title": "メールボックス設定"
+    },
+    "EntitySchemaDesignerPage": {
+        "NameFieldName": "名前",
+        "CaptionFieldName": "キャプション"
+    },
+    "SqlScriptDesignerPage": {
+        "Name": "名前",
+        "Caption": "キャプション"
+    },
+    "SchemaDataDesignerPage": {
+        "ActualizeData": "データ実装",
+        "Fields": {
+            "Name": "名前",
+            "Object": "オブジェクト",
+            "InstallType": "インストールタイプ",
+            "Package": "パッケージ"
+        },
+        "InfoBlockText1": "インストールタイプ",
+        "InfoBlockText2": "インストールタイプは、パッケージのインストール時にアプリケーションデータを追加する方法を決定します。",
+        "InfoBlockText3": "• インストール — パッケージの最初のインストール時にデータが追加され、パッケージの更新で更新されます。新しいレコードは常に追加されます。 既存のレコードは、「列の設定」タブで「強制更新」チェックボックスが選択されている場合にのみ更新されます。これはデフォルトで最も柔軟なタイプです。",
+        "InfoBlockText4": "• 既存の更新 — 非推奨の型です。この型は同様の動作をしているため、代わりにインストールタイプを使用することをお勧めします。",
+        "InfoBlockText5": "• 初期パッケージのインストール — データは、パッケージの最初のインストール時にのみ追加されます。 以降のパッケージの更新時にデータは更新されず、追加されません。",
+        "ColumnsSettingTabCaption": "列の設定",
+        "BoundDataTabCaption": "関連データ",
+        "InstallType": {
+            "Install": "インストール",
+            "FirstInstall": "初期パッケージのインストール",
+            "Update": "既存の更新",
+            "InstallIfNotExists": "初期データのインストール"
+        },
+        "ColumnsDetail": {
+            "Title": "列の設定",
+            "Blankslate": "オブジェクトを選択し、列を設定",
+            "ErrorDeletePrimaryColumn": "プライマリカラム「{0}」の削除は禁止されています",
+            "ColumnsAreNotAvailableInPackageMessage": "これらの列は現在のパッケージでは使用できないため追加できません： {0}",
+            "Columns": {
+                "Caption": "キャプション",
+                "Name": "名前",
+                "ForcedUpdate": "強制的に更新",
+                "Key": "キー"
+            },
+            "Tooltips": {
+                "ForcedUpdate": "The checkbox indicates that the data in this column will update whenever the corresponding package is updated.",
+                "Key": "このチェックボックスは、デフォルトでオブジェクトの主カラムに設定されています。 データベースが複合キーを使用している場合は、すべての複合キー列のチェックボックスを選択します。オブジェクトの主カラムは複合キー列にすることはできません。"
+            }
+        },
+        "BoundDataDetail": {
+            "Title": "データ",
+            "Blankslate": "関連付けるレコードを選択",
+            "ActualDataWasLoaded": "現在のデータが読み込まれました"
+        },
+        "InfoBlockText6": "• 初期データのインストール — 同じバインディングが既に存在しない場合にのみ、最初のパッケージインストールまたはその後の更新時にデータバインディングがインストールされます。 意図しない上書きを避けるためにこのタイプを使用してください。"
+    },
+    "WorkspaceExplorer": {
+        "Section": {
+            "ActionButtonCaption": "アクション",
+            "Title": "設定",
+            "WorkspaceItemMoveService": {
+                "NameColumn": "名前",
+                "SelectPackageDialogTitle": "要素 {0} をパッケージに移動",
+                "MultiselectElementsPackageDialogTitle": "要素 {0}  をパッケージに移動",
+                "MoveElementsWebServiceSuccessMessage": "要素の移動に成功しました",
+                "NoPackagesMessage": "利用可能なパッケージがありません",
+                "MoveAllPackageElementsWebServiceSuccessMessage": "要素の移動に成功しました",
+                "MoveAllPackageElementsDialogTitle": "パッケージ要素 {0} をパッケージに移動",
+                "SpecifyDependenciesConfirmationDialog": "パッケージ {0} には正しい移行に必要な依存関係がありません。不足している依存関係を自動的にインストールしますか？"
+            },
+            "WorkspaceItemMoveValidateDialog": {
+                "ErrorMessageTitle": "要素の移動エラー",
+                "WithoutValidationConfirmationMessage": "このアクションは、転送されたパッケージ要素間の現在の依存関係に起因する設定の整合性を乱します。 整合性を復元するには、現在の依存関係で必要とされる残りの要素を移動するか、依存関係を変更します。\n上記のいずれかを実行する予定がない限り、続行することはお勧めしません。\nパッケージ要素の移動を続行しますか？\n\n",
+                "MoveButtonCaption": "要素を移動"
+            },
+            "PackageStorageValidationMessageDialog": {
+                "Title": "設定エラー",
+                "MessageColumn": "説明",
+                "ItemNameColumn": "要素",
+                "ItemTypeColumn": "タイプ",
+                "PackageNameColumn": "パッケージ",
+                "ConfirmationTitle": "要素の移動エラー",
+                "WithoutValidationConfirmationMessage": "このアクションは、転送されたパッケージ要素間の現在の依存関係に起因する設定の整合性を乱します。 整合性を復元するには、現在の依存関係で必要とされる残りの要素を移動するか、依存関係を変更します。\n上記のいずれかを実行する予定がない限り、続行することはお勧めしません。\nパッケージ要素の移動を続行しますか？\n\n",
+                "MoveButtonCaption": "要素を移動"
+            },
+            "ValidateWorkspaceDialog": {
+                "ErrorMessageTitle": "設定エラー",
+                "ValidationSuccess": "設定が正常に検証されました。エラーはありません。"
+            },
+            "Packages": {
+                "InstallPackageDialog": {
+                    "Title": "リポジトリからパッケージをインストール",
+                    "InputFieldPackageName": "パッケージ",
+                    "InputFieldRepositoryAddress": "バージョン管理システムリポジトリ",
+                    "InputFieldVersion": "バージョン",
+                    "Cancel": "キャンセル",
+                    "Install": "インストール"
+                },
+                "CreatePackageDialog": {
+                    "Title": "パッケージ",
+                    "InputFieldName": "名前",
+                    "InputFieldDescription": "説明",
+                    "InputFieldRepositoryAddress": "バージョン管理システムリポジトリ",
+                    "InputFieldVersion": "バージョン",
+                    "SaveButtonCaption": "保存",
+                    "Cancel": "キャンセル",
+                    "OpenPackagePage": "依存関係の作成と追加",
+                    "Validation": {
+                        "PackageNameNotSpecified": "パッケージ名が指定されていません",
+                        "PackageVersionNotSpecified": "パッケージのバージョンが指定されていません",
+                        "NotAllowedFormat": "リポジトリのバージョン形式が正しくありません",
+                        "MaximumLengthExeeded": "最大文字数を超えました"
+                    }
+                },
+                "SourceControl": {
+                    "CommitResult": {
+                        "Success": "変更がリポジトリに正常にコミットされました",
+                        "CustomPackage": "リポジトリにカスタムパッケージをコミットできません",
+                        "PackageUpdateNeed": "リポジトリで変更が検出されました。ワークスペースの更新が必要です",
+                        "PackageHasForeignLock": "変更を保存できません：項目が保存されているパッケージは別のユーザーによってロックされています"
+                    },
+                    "CommitChangesDialog": {
+                        "Title": "リポジトリにパッケージをコミット",
+                        "LogMessageFieldCaption": "説明",
+                        "CommitButtonCaption": "変更のコミット",
+                        "Cancel": "キャンセル",
+                        "NoChanges": "コミットするアイテムがありません"
+                    },
+                    "Update": {
+                        "ConfirmMessage": "このパッケージをリポジトリから更新しますか？",
+                        "NoChanges": "変更が見つかりません"
+                    },
+                    "Install": {
+                        "ConfirmMessage": "インストール済みのパッケージが見つかりました。次回インストール時にパッケージ構造を完全に変更できます。続行しますか？",
+                        "NoChanges": "変更が見つかりません"
+                    },
+                    "Restore": {
+                        "ConfirmMessage": "ワークスペースは最新版に更新されます。すべての変更は失われます。続行しますか？",
+                        "Success": "ワークスペースがリポジトリから正常に復元されました"
+                    }
+                },
+                "PackageCreated": "新しいパッケージの作成に成功しました: {0}",
+                "PackageDeleted": "パッケージの削除に成功しました： {0}",
+                "PackageLocked": "パッケージのロックに成功しました：SVNの {0}",
+                "PackageUnlocked": "パッケージのアンロックに成功しました：SVNの {0}",
+                "SearchPlaceholder": "パッケージで検索",
+                "AllPackagesCaption": "すべてのパッケージ",
+                "DeleteConfirmation": "選択したパッケージを削除してもよろしいですか？",
+                "BlankslateTitle": "パッケージが見つかりません",
+                "InstallFromRepository": {
+                    "NoRepositories": "保存されたリポジトリが見つかりません。新しいリポジトリを保存しますか？",
+                    "NoActiveRepository": "有効なリポジトリが見つかりませんでした。リポジトリのリストに移動しますか？"
+                },
+                "ConnectedApplications": {
+                    "DeleteConfirmation": "パッケージは以下のアプリからも削除されます:\n{0}\nパッケージを削除すると、これらのアプリが機能しなくなったり、動作しなくなったりすることがあります。 続行してもよろしいですか？",
+                    "DeactivateConfirmation": "パッケージは以下のアプリでも無効になります:\n{0}\nパッケージの無効化により、これらのアプリが機能しなくなったり、動作しなくなったりする可能性があります。 続行してもよろしいですか？"
+                },
+                "CreatePackage": "パッケージの作成",
+                "PackageDeactivated": "パッケージの解除に成功しました： {0}",
+                "DeactivateConfirmation": "選択したパッケージを無効にしてもよろしいですか？",
+                "ActivateConfirmation": "選択したパッケージを有効にしてもよろしいですか？",
+                "EndUserSchemas": "環境スキーマ",
+                "NewSearchPlaceholder": "検索",
+                "PackagesCaption": "パッケージ",
+                "EndUserSchemaPackageTooltip": "Environment schemas exist only in this environment. To transfer them, move the schema to a package.",
+                "ConfigurationRootCaption": "設定"
+            },
+            "Items": {
+                "ImportSuccessMessage": "「{0}」アイテムは「{1}」パッケージに正常にインポートされました",
+                "UpdateDBStructureConfirmMessage": "選択したオブジェクトのデータベース構造が更新されます。続行しますか？",
+                "GenerateSchemasSourcesConfirmMessage": "選択した要素のソースコードを生成します。続行しますか？",
+                "InstallSqlScriptsConfirmMessage": "選択したSQLスクリプトがデータベースにインストールされます。続行しますか？",
+                "InstallDataConfirmMessage": "選択したアイテムのデータをインストールします。続行しますか？",
+                "DeleteConfirmMessage": "選択したアイテムを完全に削除しますか？",
+                "RevertChangesMessage": "選択されたアイテムの変更はすべて失われます。続行しますか？",
+                "RecordLockedInSVNSuccessfully": "レコードは正常にSVNにロックされました",
+                "RecordUnlockedInSVNSuccessfully": "レコードは正常にSVNにアンロックされました",
+                "MultiItemActionButton": "複数アクション",
+                "Columns": {
+                    "UId": "UID",
+                    "Name": "名前",
+                    "Title": "タイトル",
+                    "Status": "ステータス",
+                    "Type": "タイプ",
+                    "Object": "オブジェクト",
+                    "ModifiedOn": "更新日時",
+                    "Package": "パッケージ",
+                    "CreatedOn": "作成日時",
+                    "CreatedBy": "作成者",
+                    "ModifiedBy": "修正者"
+                },
+                "Add": {
+                    "Caption": "追加",
+                    "Sql": "SQL スクリプト",
+                    "SourceCode": "ソースコード",
+                    "Entity": "オブジェクト",
+                    "ReplacingEntity": "オブジェクトの置き換え",
+                    "ClientUnit": {
+                        "Module": "モジュール",
+                        "EditViewModelSchema": "ページ表示モデル",
+                        "AngularSchema": "自由なUIページ",
+                        "ModuleViewModelSchema": "セクション表示モデル",
+                        "GridDetailViewModelSchema": "詳細 (リスト) 表示モデル",
+                        "EditControlsDetailViewModelSchema": "詳細 (フィールド) 表示モデル",
+                        "ExtendedClientUnitSchema": "表示モデルの置き換え",
+                        "ExtendedAngularSchema": "表示モデルの角度置換"
+                    },
+                    "UserTask": "ユーザー タスク",
+                    "BusinessProcess": "ビジネスプロセス",
+                    "DataBinding": "データ",
+                    "Import": "インポート",
+                    "RestService": "REST サービス",
+                    "SoapService": "SOAP サービス"
+                },
+                "Types": {
+                    "SqlScript": "SQL スクリプト",
+                    "SchemaData": "データ",
+                    "Assembly": "アセンブリの参照",
+                    "EntitySchema": "オブジェクト",
+                    "ClientUnitSchema": "顧客モジュール",
+                    "SourceCodeSchema": "ソースコード",
+                    "ProcessSchema": "ビジネスプロセス",
+                    "DcmSchema": "ケース",
+                    "ProcessUserTaskSchema": "ユーザー タスク",
+                    "CampaignSchema": "マーケティングキャンペーン",
+                    "ServiceSchema": "Webサービス",
+                    "AddonSchema": "アドオン",
+                    "CopilotIntentSchema": "Creatio.ai agent",
+                    "LocalizationSchema": "ローカライゼーション"
+                },
+                "Status": {
+                    "NeedInstall": "データベースにインストールが必要です",
+                    "NeedUpdateSourceCode": "ソースコードのアップデートが必要です",
+                    "NeedUpdateStructure": "データベースのアップデートが必要です",
+                    "LockedInSVN": "SVN にロックされています",
+                    "UnlockedInSVN": "SVNでロック解除する"
+                },
+                "Filters": {
+                    "Types": {
+                        "AllItems": "すべての商品",
+                        "Placeholder": "タイプ"
+                    },
+                    "States": {
+                        "AllItems": "すべての商品",
+                        "Placeholder": "フィルター",
+                        "Locked": "ロック",
+                        "NeedActualization": "実現が必要",
+                        "Error": "エラーがあります"
+                    }
+                },
+                "DetailsDialog": {
+                    "Close": "閉じる",
+                    "PageTitle": "プロパティ",
+                    "Title": "タイトル",
+                    "Name": "名前",
+                    "FullQualifiedName": "完全修飾されたアセンブリ名",
+                    "DataObjectName": "オブジェクト",
+                    "CreatedBy": "作成者",
+                    "CreatedOn": "作成日時",
+                    "PackageName": "パッケージ",
+                    "ParentCaption": "親",
+                    "ReplaceParent": "親の置換",
+                    "IsChanged": "変更日時",
+                    "UId": "UID",
+                    "ModifiedBy": "修正者",
+                    "Id": "ID",
+                    "ModifiedOn": "更新日時",
+                    "ManagerName": "管理者名",
+                    "MetaDataModifiedOn": "メタデータ変更日",
+                    "Description": "説明",
+                    "IsLocked": "ロック",
+                    "NeedUpdateDBStructure": "データベースのアップデートが必要です",
+                    "NeedInstall": "データベースにインストールが必要です",
+                    "LastErrorText": "最後のエラーメッセージ",
+                    "LockedBy": "によってロックされている",
+                    "DbStructureModifiedOn": "データベース構造の変更日時",
+                    "IsNetStandard": "IsNetStandard",
+                    "LoadOnAppStart": "LoadOnAppStart",
+                    "UIdTooltip": "設定要素固有の ID 構成要素は、どのアプリケーションでも常に同じままになります",
+                    "IdTooltip": "この列はデータベーステーブルの主キーです。異なるアプリケーションでレコードIDが異なる場合があります。"
+                },
+                "InstallLocalizationConfirmMessage": "This action will install data localizations for records and overwrite the current runtime values. Do you want to proceed?"
+            },
+            "Actions": {
+                "Move": "別のパッケージに移動",
+                "MovePackageAllElements": "すべての要素を移動",
+                "Blocks": {
+                    "SourceCode": "ソースコード",
+                    "Actualization": "アイテムを実装する",
+                    "DevInFileSystem": "ファイルシステム開発モード",
+                    "VersionControl": "SVN リポジトリ",
+                    "Packages": "パッケージ",
+                    "Validation": "設定",
+                    "CacheManagement": "キャッシュ管理"
+                },
+                "Compile": "コンパイル",
+                "CompileAll": "すべてコンパイル",
+                "Edit": "編集",
+                "Delete": "削除",
+                "MultiDelete": "削除 ({0})",
+                "MultiExport": "エクスポート ({0})",
+                "Export": "エクスポート",
+                "Update": "リポジトリから更新",
+                "Commit": "リポジトリにコミット",
+                "Properties": "プロパティ",
+                "UpdateDBStructure": "データベース構造の更新",
+                "MultiUpdateDBStructure": "オブジェクト DB 構造の更新",
+                "EditProcess": "プロセスの編集",
+                "GenerateSchemasSources": "ソースコードの生成",
+                "InstallSqlScripts": "インストール",
+                "MultiInstallSqlScripts": "SQLスクリプトのインストール",
+                "InstallData": "インストール",
+                "MultiInstallData": "データのインストール",
+                "RevertChanges": "変更の破棄",
+                "InstallRequiredSqlScripts": "必要な場所にSQLスクリプトをインストールする",
+                "InstallRequiredData": "必要な場所にデータをインストール",
+                "InstallRequiredSchemasDBStructure": "必要な場所で DB 構造を更新",
+                "OperationSuccessMessage": "操作は成功しました",
+                "GenerateRequiredSchemasSources": "必要な場所を生成",
+                "GenerateModifiedSchemasSources": "変更されたスキーマの生成",
+                "GenerateAllSchemasSources": "すべてのスキーマの生成",
+                "GenerateAllSchemasSourcesWasStarted": "システムはすべてのスキーマのソースコードの生成を開始しました。プロセスが完了すると、通信パネルに通知を受け取ります。",
+                "LoadPackagesToFileSystem": "パッケージをファイルシステムにダウンロード",
+                "LoadPackagesToDB": "ファイルシステムからパッケージを更新",
+                "OpenRepositoriesList": "リポジトリのリストを開く",
+                "RestoreFromRepository": "リポジトリから復元",
+                "InstallPackageFromRepository": "リポジトリからパッケージをインストール",
+                "PackageDependenciesDiagram": "パッケージの依存関係図",
+                "ValidateWorkspace": "設定の検証",
+                "FileDesignModeInfo": "有効にするには、アプリケーションの設定ファイルで設定します。\n - fileDesignMode要素のenabled属性にtrueを設定します。\n - UseStaticFileContentフラグをfalseに設定します。",
+                "Confirmation": {
+                    "InstallRequiredSqlScripts": "インストールを必要とするすべてのアイテムがデータベースにインストールされます。続行しますか？",
+                    "InstallRequiredData": "インストールを必要とするすべてのアイテムがデータベースにインストールされます。続行しますか？",
+                    "InstallRequiredSchemasDBStructure": "更新が必要なすべてのスキーマに対してデータベース構造が更新されます。続行しますか？",
+                    "Compile": "ワークスペースがコンパイルされます。続行しますか？",
+                    "CompileAll": "ワークスペースが再コンパイルされます。続行しますか？",
+                    "GenerateRequiredSchemasSources": "必要なすべてのスキーマのソースコードを生成しますか?",
+                    "GenerateModifiedSchemasSources": "変更されたスキーマのソースコードを生成しますか？",
+                    "GenerateAllSchemasSources": "すべてのスキーマのソースコードを生成しますか？操作の結果は通信パネルに送信されます。",
+                    "ThirdPartyPublisher": "「{0}」アイテムは、サードパーティの提供元によって作成されたか、ファイルアーカイブからインストールされたものです。\n この項目の変更は保存できません。続行しますか？",
+                    "ValidateWorkspace": "操作に時間がかかる場合があります。続行しますか？",
+                    "ExportItems": "操作に時間がかかる場合があります。続行しますか？",
+                    "StartHotfix": "このオプションは、重大かつ緊急の変更を行うためのものです。パッケージは {0} 分後に自動的に再ロックされます。修正を加えた後は、必ず変更内容を開発環境に反映してください。\n\nパッケージに対してホットフィックスを適用してもよろしいですか？",
+                    "FinishHotfix": "ホットフィックスの後に必ず開発環境に変更を届けてください。\nパッケージをロックしてもよろしいですか？",
+                    "Cache": {
+                        "Message": "This action will remove data from the IndexedDB cache storage for all users. This caching helps applications and pages load faster. After clearing, some pages may temporary load slower at first while the cache is rebuilt.",
+                        "Cancel": "キャンセル",
+                        "Clear": "消去"
+                    }
+                },
+                "OpenMetaData": "メタデータを開く",
+                "OpenSourceCode": "ソースコードを開く",
+                "LockPackageElement": "SVN で要素をロック",
+                "UnLockPackageElement": "SVNで要素をロック解除",
+                "LockPackage": "SVN でパッケージをロック",
+                "UnLockPackage": "SVNでパッケージをロック解除",
+                "GenerateAllSchemasSourcesSuccess": "すべてのスキーマのソースコードが正常に生成されました",
+                "GenerateAllSchemasSourcesError": "一部のスキーマのソースコード生成がエラーで終了しました。 各スキーマのエラーメッセージは、リロード後に構成アイテムリストからアクセスすることができます。構成アイテムを再読み込みしますか？",
+                "Deactivate": "無効にする",
+                "Activate": "有効にする",
+                "CompilationCompletedSuccessfully": "コンパイルが正常に完了しました",
+                "CompilationCompletedWithErrors": "コンパイルにエラーが発生しました",
+                "OperationCompleted": "操作が完了しました",
+                "StartHotfix": "ホットフィックスのロックを解除",
+                "FinishHotfix": "ホットフィックスの後にロック",
+                "ClearAllCache": "Clear IndexedDB cache for all users",
+                "InstallLocalizationInBackgroundSuccess": "Localization installation has started. You’ll receive a notification when it is complete",
+                "InstallLocalization": "インストール"
+            },
+            "WorkspaceSyncResultDialog": {
+                "Close": "閉じる",
+                "Title": "変更",
+                "Error": "エラー",
+                "ShowOnlyErrors": "エラーのみを表示",
+                "Columns": {
+                    "Name": "名前",
+                    "Type": "タイプ",
+                    "Status": "ステータス",
+                    "ErrorText": "エラー テキスト"
+                }
+            },
+            "HotKey": "ホットキー",
+            "NoDataTitle": "パッケージは現在非アクティブです。",
+            "NoDataText": "手動でアクティベートすることができます。これによりコンテンツが有効になり、その機能がユーザーに利用可能になります。",
+            "CompilationErrorsButton": {
+                "Title": "コンパイルエラー"
+            }
+        },
+        "PackagePage": {
+            "Title": "パッケージのプロパティ",
+            "Name": "名前",
+            "Description": "説明",
+            "Maintainer": "メンテナー",
+            "MaintainerTooltip": "パッケージ開発者",
+            "PackageType": "別のアセンブリにコンパイル",
+            "RepositoryAddress": "リポジトリのアドレス",
+            "RepositoryVersion": "リポジトリのバージョン",
+            "PackageVersion": "パッケージのバージョン",
+            "DependenciesTab": "依存関係",
+            "SysInformationTab": "システム情報",
+            "CompilationRequired": "設定をコンパイルして変更を適用します。",
+            "PackageDependencyDetail": {
+                "DependsOnPackagesTitle": "パッケージに依存します",
+                "DependentPackagesTitle": "依存パッケージ",
+                "DependsOnPackagesTooltip": "現在のパッケージが依存するパッケージ",
+                "DependentPackagesTooltip": "現在のパッケージに依存するパッケージ",
+                "PackagesDialogCaption": "パッケージの選択",
+                "NameColumn": "名前",
+                "Maintainer": "メンテナー",
+                "Remove": "消去",
+                "Blankslate": "パッケージがありません",
+                "Add": "追加"
+            },
+            "SysInformation": {
+                "CreatedBy": "作成者",
+                "ModifiedBy": "修正者",
+                "CreatedOn": "作成日時",
+                "ModifiedOn": "更新日時",
+                "UIDTooltip": "パッケージ固有のID。パッケージIDは常にどのアプリケーションでも同じままになります",
+                "IDTooltip": "この列はデータベーステーブルの主キーです。異なるアプリケーションでレコードIDが異なる場合があります。"
+            },
+            "RepositoryAuthorizationRequired": "操作が終了しました。認証が必要です。ログインしますか？",
+            "InstallationFlow": "インストール手順",
+            "InstallationFlowTab": {
+                "BeforePackageInstall": "パッケージのインストール前",
+                "BeforePackageInstallTooltip": "パッケージインストール前に実行するアクション",
+                "AfterPackageInstall": "パッケージのインストール後",
+                "AfterPackageInstallTooltip": "パッケージインストール後に実行するアクション",
+                "BeforePackageUninstall": "パッケージ削除前",
+                "BeforePackageUninstallTooltip": "パッケージ削除前に実行するアクション",
+                "Blankslate": "手順がありません"
+            },
+            "InstallFlowPackageDetail": {
+                "Add": "追加",
+                "ScriptsDialogCaption": "スキーマの選択",
+                "ColumnNameCaption": "名前",
+                "ColumnTitleCaption": "タイトル",
+                "ColumnPositionCaption": "受注",
+                "ColumnModifiedOnCaption": "更新日時",
+                "Install": "手動実行",
+                "Success": "操作は成功しました"
+            },
+            "InstallBehavior": "スマートアクティベーションの使用",
+            "InstallBehaviorInfo": "パッケージは環境上にインストールされ、すべての依存関係が利用可能な場合に自動的に有効化されます。 不足している依存関係はパッケージを含むパッケージ/アプリケーションのインストールに干渉しません。 すべての依存関係が利用可能になると、パッケージは自動的に有効化され、ユーザがアクセスできるようになります。 依存関係が利用できなくなった場合は、パッケージは自動的に無効になります。"
+        },
+        "Errors": {
+            "AssemblyIsNotInitialized": "Creatioで作業を再開する前に、構成をコンパイルしてください。 \n 今すぐコンパイルしますか？"
+        },
+        "PageTemplateLookup": {
+            "HeaderCaption": "テンプレート選択",
+            "Cancel": "キャンセル",
+            "Select": "選択",
+            "WebPages": "Web pages",
+            "MobilePages": "Mobile app pages"
+        },
+        "DetailedMessageDialog": {
+            "Title": "注意事項",
+            "OperationTitleMessage": "操作「{0}」を開始しようとしています。これにより、ユーザーは一時的にサイトが利用できなくなる可能性があります。 この行動の必要性を確認してください。",
+            "InternalBlockTitle": "想定される結果：",
+            "InternalBlockFirstMessage": "特定の機能またはサイト全体へのアクセスを一時的に制限する",
+            "InternalBlockSecondMessage": "他のユーザーの作業やプロセスに影響が出る可能性があります",
+            "AdviseMessage": "本番環境でこの操作を行うことは避けられません。 ユーザーへの影響を最小限に抑えるため、指定されたメンテナンス期間中にスケジュールすることを強く推奨します。",
+            "ProceedActionQuestion": "この操作を今すぐ実行しますか？",
+            "ExecuteOperationCaption": "操作を実行",
+            "GenerateAllSchemasSourcesAction": "すべてのスキーマのソースコードを生成",
+            "GenerateRequiredSchemasSourcesAction": "必要なソースコードを生成する",
+            "GenerateModifiedSchemasSourcesAction": "変更されたスキーマのソースコードを生成",
+            "DeleteAction": {
+                "WithConnectedApplications": {
+                    "Message": "次のアプリからもパッケージが削除されます:\n{0}",
+                    "InternalBlockMessage": "パッケージの削除は、これらのアプリが機能を失ったり、動作不能になる可能性があります。"
+                }
+            },
+            "DeactivateAction": {
+                "WithConnectedApplications": {
+                    "Message": "パッケージは以下のアプリでも無効になります:\n{0}",
+                    "InternalBlockMessage": "パッケージの無効化は、これらのアプリが機能を失ったり、動作しなくなる可能性があります。"
+                }
+            }
+        }
+    },
+    "TableDialog": {
+        "Close": "閉じる",
+        "Cancel": "キャンセル"
+    },
+    "ErrorListDialogService": {
+        "CodeErrorListDialogCaption": "コンパイル結果",
+        "FileNameColumn": "ファイル名",
+        "ErrorTextColumn": "説明",
+        "ErrorNumberColumn": "コード",
+        "LineColumn": "ラインチャート",
+        "CodeValidationErrorListDialogCaption": "Cyclic dependencies detected",
+        "SourceColumn": "Element that references",
+        "ReferenceColumn": "Element being referenced",
+        "PackageColumn": "パッケージ",
+        "AcademyHelpUrlCaption": " アカデミーの詳細",
+        "PackagePropertiesErrorDialogCaption": "パッケージ依存性検証エラー",
+        "PackagePropertiesErrorMessage": "このパッケージの依存関係リストを変更することを妨げている1つ以上の検証問題があります。以下の問題リストを確認し、変更を加える前に解決してください。",
+        "ItemTypeColumn": "タイプ",
+        "ItemNameColumn": "名前",
+        "DescriptionColumn": "概要",
+        "PackageNameColumn": "パッケージ",
+        "TypeColumn": "要素タイプ"
+    },
+    "SchemaDesigners": {
+        "BaseDesignerPage": {
+            "SaveSuccessMessage": "レコードが正常に保存されました",
+            "PublishSuccessMessage": "レコードが正常に公開されました",
+            "ChangeParentSchemaMessage": "現在のオブジェクトの親オブジェクトとして \"{0}\" を使用しますか？",
+            "DeleteParentSchemaMessage": "現在のオブジェクトの親オブジェクトを削除しますか？"
+        },
+        "BaseDesignerStructureService": {
+            "MiniPage": {
+                "NameTitle": "コード",
+                "PackageTitle": "パッケージ",
+                "Apply": "適用",
+                "Cancel": "キャンセル",
+                "Ok": "OK",
+                "Caption": "タイトル",
+                "Description": "説明",
+                "Validations": {
+                    "RequiredNameCaption": "入力してください",
+                    "PatternNameCaption": "無効な値です。記号：a-z、A-Z、0-9を使用してください。記号：0-9を先に使用することはできません",
+                    "PatternPrefixTemplate": "コードは \"{0}\" プレフィックスで始める必要があります"
+                }
+            }
+        },
+        "SchemaParameterMiniPage": {
+            "CardTitle": "パラメータ",
+            "Title": "コード",
+            "Caption": "タイトル",
+            "Lookup": "参照",
+            "Value": "値",
+            "Schema": "スキーマ",
+            "Create": "作成",
+            "Cancel": "キャンセル",
+            "Resulting": "結果",
+            "Required": "必須",
+            "ContainsPerformerId": "パフォーマーIDを含む",
+            "LazyLoad": "遅延負荷",
+            "Serializable": "シリアライズ可能",
+            "CopyValue": "値のコピー",
+            "Type": "タイプ",
+            "Save": "保存",
+            "ProperyExistMessage": "このプロパティは既に別のパラメータでチェックされています。1つのパラメータでのみ使用できます。",
+            "Validations": {
+                "RequiredNameCaption": "入力してください",
+                "PatternNameCaption": "無効な値です。記号：a-z、A-Z、0-9を使用してください。記号：0-9を先に使用することはできません",
+                "DataValueTypeListContainsMessage": "リストから項目を選択してください"
+            }
+        },
+        "SqlSchemaDesignerPage": {
+            "Caption": "SQL",
+            "DependentScriptsCaption": "依存する SQL スクリプト",
+            "DependsOnScriptCaption": "SQLスクリプトに依存",
+            "SqlScriptValidateCaption": "SQLスクリプトの検証が完了しました",
+            "Install": "インストール",
+            "ShouldSaveFirstTitle": "インストールする前にスクリプトを保存してください",
+            "InstallSqlScriptsConfirmMessage": "SQLスクリプトをデータベースにインストールします。続行しますか？",
+            "InstallSuccessMessage": "検証が成功しました"
+        },
+        "SqlSchemaDesignerMiniPage": {
+            "Title": "SQL スクリプト",
+            "DbmsType": "DBMS タイプ",
+            "InstallationType": "インストールタイプ",
+            "BackwardCompatibilityConfirmed": "下位互換性あり",
+            "BackwardCompatibilityConfirmedLabelBeforeLink": "後方互換性のあるSQLスクリプトは、推奨事項に準拠しています ",
+            "BackwardCompatibilityConfirmedLabelAfterLink": ". スクリプトがすべての推奨事項に準拠している場合のみ、このチェックボックスを選択してください。",
+            "AcademyHelpUrlCaption": "別の記事で指定"
+        },
+        "MultiSelectSqlSchemasMiniPage": {
+            "Title": "SQLスクリプトの選択",
+            "TableColumn": {
+                "Name": "コード",
+                "Package": "パッケージ"
+            }
+        },
+        "EntitySchemaDesigner": {
+            "EntitySchemaDesignerStructure": {
+                "InheritedColumnsCaption": "継承された列",
+                "ColumnsCaption": "列",
+                "IndexesCaption": "索引",
+                "EventsCaption": "イベント",
+                "SourceCodeCaption": "ソースコード"
+            },
+            "Actions": {
+                "OpenEmbeddedProcess": "プロセスを開く"
+            },
+            "EntityEditor": {
+                "GeneralGroup": {
+                    "Caption": "一般",
+                    "NameCaption": "コード",
+                    "TitleCaption": "タイトル",
+                    "PackageCaption": "パッケージ",
+                    "DescriptionCaption": "説明",
+                    "NameTooltip": "Unique system name of the object schema.",
+                    "TitleTooltip": "Localizable object title displayed in the UI.",
+                    "PackageTooltip": "Package containing the object schema.",
+                    "DescriptionTooltip": "Localizable description of the object."
+                },
+                "ObjectSettings": {
+                    "Caption": "オブジェクトの設定",
+                    "IdCaption": "ID",
+                    "DisplayedValueCaption": "表示した値",
+                    "ParentInHierarchyCaption": "階層の親",
+                    "ChangeLogObjectNameCaption": "ログオブジェクト名の変更",
+                    "LocalizationObjectNameCaption": "ローカライズオブジェクト名",
+                    "ImageCaption": "画像",
+                    "SortingInListsCaption": "リスト内のソート",
+                    "OwnerCaption": "担当者",
+                    "PermissionObjectNameCaption": "権限オブジェクト名",
+                    "ColorCaption": "色",
+                    "IdTooltip": "Primary key column that uniquely identifies object records.",
+                    "ImageTooltip": "Column that stores an image or icon for object records.",
+                    "DisplayedValueTooltip": "Column used as a record title when other objects reference the record.",
+                    "ParentInHierarchyTooltip": "Column that references the parent record for hierarchical structures.",
+                    "ChangeLogObjectNameTooltip": "Name of the object that stores the change log for this entity.",
+                    "LocalizationObjectNameTooltip": "Name of the object that stores localized values for this entity.",
+                    "OwnerTooltip": "Column used to automatically grant access rights to a record.",
+                    "PermissionObjectNameTooltip": "Name of the object that stores permission settings for this entity.",
+                    "ColorTooltip": "Column that stores the color for object records."
+                },
+                "EntityBusinessRules": {
+                    "OpenBusinessRulesButtonCaption": "ビジネスルールを開く",
+                    "BusinessRulesDialogTitle": "ビジネスルール",
+                    "BusinessRulesDialogCancelButton": "キャンセル",
+                    "BusinessRulesDialogApplyButton": "適用"
+                },
+                "InheritanceGroup": {
+                    "Caption": "継承",
+                    "ParentObjectCaption": "親オブジェクト",
+                    "ExtendParent": "親の置換",
+                    "ParentObjectTooltip": "Parent object whose structure and behavior the current object inherits.",
+                    "ExtendParentTooltip": "Marks the schema as a replacing object that overrides the parent on the current inheritance level."
+                },
+                "BehaviorGroup": {
+                    "Caption": "動作",
+                    "isDBViewCaption": "データベースビューの構造を表します",
+                    "isVirtualCaption": "仮想",
+                    "isTrackChangesInDBCaption": "変更履歴の更新",
+                    "isSSPAvailable": "SSP 上でセクションとして利用可能なオブジェクト",
+                    "useRecordDeactivationCaption": "レコードの無効化を許可",
+                    "useLiveEditingCaption": "ライブデータ更新の有効化",
+                    "showInAdvancedModeCaption": "高度なモードでのみ表示",
+                    "isDBViewTooltip": "Indicates that the object is based on a database view instead of a regular table.",
+                    "isVirtualTooltip": "Indicates that the object does not store data in a physical database table and is dynamically obtained from some alternative data sources.",
+                    "isSSPAvailableTooltip": "Makes the object accessible as a section for portal (SSP) users.",
+                    "useLiveEditingTooltip": "The record change automatically generates signals to all currently opened pages of the record, and they auto-refresh.",
+                    "useRecordDeactivationTooltip": "Lets users deactivate records without deleting them.",
+                    "isTrackChangesInDBTooltip": "Enables logging of object record changes.",
+                    "showInAdvancedModeTooltip": "Hides rarely used objects from the standard Studio view."
+                },
+                "AccessRights": {
+                    "Caption": "アクセス権限",
+                    "OperationsCaption": "操作",
+                    "ColumnsCaption": "列",
+                    "RecordsCaption": "レコード",
+                    "MasterRecordCaption": "アクセス権限を継承するオブジェクト",
+                    "OperationsTooltip": "Enables access rights restrictions for record operations.",
+                    "ColumnsTooltip": "Enables access rights restrictions at the column level.",
+                    "RecordsTooltip": "Enables access rights restrictions at the individual record level.",
+                    "MasterRecordTooltip": "Object whose access permissions are inherited."
+                },
+                "HistoryColumns": {
+                    "Caption": "履歴の列",
+                    "CreatedByCaption": "作成者",
+                    "CreatedOnCaption": "作成日時",
+                    "ModifiedByCaption": "修正者",
+                    "ModifiedOnCaption": "更新日時",
+                    "CreatedByTooltip": "Column that stores the user who created the record.",
+                    "CreatedOnTooltip": "Column that stores the record creation date and time.",
+                    "ModifiedByTooltip": "Column that stores the user who last modified the record.",
+                    "ModifiedOnTooltip": "Column that stores the date and time of the last modification."
+                },
+                "Validations": {
+                    "RequiredNameCaption": "入力してください",
+                    "PatternNameCaption": "無効な値です。記号：a-z、A-Z、0-9を使用してください。記号：0-9を先に使用することはできません.",
+                    "PatternPrefixTemplate": "コードは \"{0}\" プレフィックスで始める必要があります",
+                    "DuplicateNameCaption": "同じコードを持つオブジェクトが既に存在します"
+                }
+            },
+            "ColumnEditor": {
+                "GeneralGroup": {
+                    "Caption": "一般",
+                    "NameCaption": "コード",
+                    "EnglishNameCaption": "コード",
+                    "TitleCaption": "タイトル",
+                    "DataTypeCaption": "データ型",
+                    "FormatCaption": "書式",
+                    "ReferenceSchemaCaption": "参照",
+                    "DescriptionCaption": "説明",
+                    "RequiredCaption": "必須",
+                    "DefaultValueCaption": "デフォルト値",
+                    "CanMakeCopyCaption": "レコードのコピー時にこの値をコピー",
+                    "IsMultiLineTextCaption": "複数行テキスト",
+                    "IsLocalizableTextCaption": "ローカライズ可能なテキスト",
+                    "IsCascadeCaption": "参照値の削除設定：",
+                    "IsMaskedCaption": "入力マスクを表示",
+                    "IsFormatValidationCaption": "フォーマットの検証",
+                    "isAutonumber": "自動番号",
+                    "EditCodeInfoIconCaption": "コードを変更すると、関連するコンポーネントの動作が正しく動作しなくなる可能性があります。注意して使用してください",
+                    "MaskTypeCaption": "マスクの種類",
+                    "MaskOperationCaption": "操作権限",
+                    "UseSecondsCaption": "Show seconds",
+                    "IsAccentInsensitiveCaption": "Accent insensitive search (PostgreSQL only)",
+                    "NameTooltip": "Unique system name of the column.",
+                    "TitleTooltip": "Localizable column title shown in the UI.",
+                    "DataTypeTooltip": "Type of data stored in the column.",
+                    "DescriptionTooltip": "Localizable description of the column.",
+                    "RequiredTooltip": "Specifies that the column must not be empty.",
+                    "DefaultValueTooltip": "Value assigned automatically if no value is provided.",
+                    "CanMakeCopyTooltip": "Copies the column value when a record is copied.",
+                    "IsMultiLineTextTooltip": "Allows entering and displaying text in multiple lines.",
+                    "IsAccentInsensitiveTooltip": "Enables search without considering accent marks.",
+                    "IsLocalizableTextTooltip": "Lets the column store values in multiple languages.",
+                    "IsMaskedTooltip": "Shows an input mask for guided value entry.",
+                    "IsFormatValidationTooltip": "Validates the entered value against the expected format.",
+                    "IsCascadeTooltip": "Defines what happens to records in the current object when the referenced lookup value is deleted.",
+                    "UseSecondsTooltip": "Displays seconds in time values.",
+                    "ReferenceSchemaTooltip": "Object that provides values for the lookup column."
+                },
+                "BehaviorGroup": {
+                    "Caption": "動作",
+                    "UsageModeCaption": "使用モード",
+                    "UpdateChangeLogCaption": "変更履歴を更新",
+                    "IndexedCaption": "インデックス付き",
+                    "SensitiveDataCaption": "個人情報を含む",
+                    "IndexedTooltip": "Creates an index for the column to improve search and filtering performance.",
+                    "SensitiveDataTooltip": "Marks the column as containing personal data.",
+                    "UpdateChangeLogTooltip": "Enables logging of changes for this column.",
+                    "UsageModeTooltip": "Controls the column availability mode in the application."
+                },
+                "RequirementType": {
+                    "NoCaption": "いいえ",
+                    "YesCaption": "はい"
+                },
+                "UsageType": {
+                    "GeneralCaption": "一般",
+                    "AdvancedCaption": "高度な設定",
+                    "NoneCaption": "なし"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "入力してください",
+                    "PatternNameCaption": "無効な値です。記号：a-z、A-Z、0-9を使用してください。記号：0-9を先に使用することはできません",
+                    "DuplicateNameCaption": "同じコードを持つ列が既に存在します",
+                    "PatternPrefixTemplate": "コードは \"{0}\" プレフィックスで始める必要があります"
+                },
+                "DataSourceGroup": {
+                    "DoNotControlIntegrityCaption": "整合性を制御しない",
+                    "DoNotControlIntegrityTooltip": "Disables integrity control for the lookup relationship."
+                },
+                "DefaultValueTypes": {
+                    "None": "なし",
+                    "Const": "定数",
+                    "Settings": "システム設定",
+                    "SystemValue": "システム変数",
+                    "Sequence": "自動番号"
+                },
+                "DefaultValueDialog": {
+                    "Title": "デフォルト値",
+                    "ValueTypeCaption": "デフォルト値の種類",
+                    "ValueCaption": "値",
+                    "LookupValueRecordDeletedCaption": "検索値が削除されました",
+                    "Cancel": "キャンセル",
+                    "Ok": "OK",
+                    "sequencePrefix": "プレフィックス",
+                    "sequenceNumberOfChars": "桁数"
+                }
+            },
+            "IndexEditor": {
+                "GeneralGroup": {
+                    "Caption": "一般",
+                    "NameCaption": "コード",
+                    "UniqueCaption": "ユニーク",
+                    "GenerateNameAutomaticallyCaption": "名前を自動的に生成",
+                    "NameTooltip": "Unique name of the index.",
+                    "UniqueTooltip": "Prevents duplicate combinations of values in indexed columns."
+                },
+                "IndexColumns": {
+                    "Caption": "列のインデックス",
+                    "AddIndexColumnsDialogCaption": "列選択",
+                    "TitleCaption": "タイトル",
+                    "ColumnName": "コード",
+                    "SortingOrder": "ソート順",
+                    "Blankslate": "インデックスに列がありません"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "入力してください",
+                    "PatternNameCaption": "無効な値です。記号：a-z、A-Z、0-9を使用してください。記号：0-9を先に使用することはできません",
+                    "DuplicateNameCaption": "同じコードの画像が既に存在します"
+                }
+            },
+            "EntityColumnTypes": {
+                "TextCaption": "テキスト",
+                "NumberCaption": "ナンバー",
+                "OtherCaption": "その他",
+                "DateTimeCaption": "日付/時刻"
+            },
+            "EventsEditor": {
+                "EventGroupType": {
+                    "Add": "追加中",
+                    "Saving": "保存中",
+                    "Updating": "更新中",
+                    "Delete": "削除中",
+                    "Loading": "読み込み中",
+                    "ColumnValues": "列の値"
+                },
+                "Events": {
+                    "Inserting": "レコードの追加前",
+                    "Inserted": "レコードの追加後",
+                    "Validating": "検証中",
+                    "Saving": "レコードの保存前",
+                    "Saved": "レコードの保存後",
+                    "SaveError": "レコード保存中のエラー",
+                    "Updating": "レコードの更新前",
+                    "Updated": "レコードの更新後",
+                    "Deleting": "レコードの削除前",
+                    "Deleted": "レコードの削除後",
+                    "DefColumnValuesSet": "デフォルト値フィールド",
+                    "Loading": "データの読み込み前",
+                    "Loaded": "データの読み込み後",
+                    "ColumnValueChanging": "列の値が変更される前",
+                    "ColumnValueChanged": "列の値が変更された後",
+                    "ColumnBinaryValuePackageLoading": "バイナリ値ストリームの読み込み",
+                    "InsertingTooltip": "Triggered before a new record is added to the database.",
+                    "InsertedTooltip": "Triggered after a new record is successfully added to the database.",
+                    "ValidatingTooltip": "Triggered when record data is being validated before saving.",
+                    "SavingTooltip": "Triggered before any record changes are saved to the database.",
+                    "SavedTooltip": "Triggered after record changes are successfully saved to the database.",
+                    "SaveErrorTooltip": "Triggered when an error occurs while saving a record.",
+                    "UpdatingTooltip": "Triggered before an existing record is updated in the database.",
+                    "UpdatedTooltip": "Triggered after an existing record is successfully updated in the database.",
+                    "DeletingTooltip": "Triggered before a record is deleted from the database.",
+                    "DeletedTooltip": "Triggered after a record is successfully deleted from the database.",
+                    "DefColumnValuesSetTooltip": "Triggered when default values are assigned to record columns.",
+                    "LoadingTooltip": "Triggered before record data is loaded from the database.",
+                    "LoadedTooltip": "Triggered after record data is successfully loaded from the database."
+                }
+            },
+            "Addons": {
+                "BusinessRule": "ビジネスルール",
+                "RelatedPage": "Web pages",
+                "TimelineEntity": "タイムライン",
+                "UseSchemaInTimelineCheckbox": "デフォルトでタイムラインコンポーネントに表示",
+                "RelatedPagesCaption": "ページ設定",
+                "Timeline": {
+                    "NoDisplayColumnNotify": "タイムラインコンポーネントにオブジェクトを表示するために表示値を指定する必要があります。"
+                },
+                "MobileRelatedPage": "Mobile app pages",
+                "PredefinedFilters": "Pre-defined filters",
+                "UseSchemaInTimelineCheckboxTooltip": "Displays records of this object in the Timeline component on related pages by default."
+            },
+            "SaveConfirmationDialog": {
+                "Save": "保存",
+                "DoNotSave": "保存しない",
+                "Cancel": "キャンセル",
+                "Message": "すべての変更が保存されます。続行しますか？"
+            },
+            "DeleteConfirmationDialog": {
+                "BusinessRule": "ビジネスルールを削除しますか？"
+            },
+            "DisableAddonEditBeforeSchemaSaveTooltipText": "この設定は新しいオブジェクトを保存した後に利用可能になります"
+        },
+        "ClientUnitSchemaDesigner": {
+            "ClientUnitSchemaDesignerPage": {
+                "JsCaption": "JS",
+                "LessCaption": "少ない",
+                "LocalizableStringsCaption": "ローカライズ可能な文字列",
+                "MessagesCaption": "メッセージ",
+                "ImagesCaption": "画像",
+                "ParametersCaption": "パラメータ",
+                "Addons": {
+                    "BusinessRule": "ビジネスルール"
+                },
+                "OpenInterfaceDesigner": "インターフェイスデザイナーを開く",
+                "CantSaveSchemaWithErrors": "Unable to save due to a syntax error."
+            },
+            "ClientUnitDesignerMiniPage": {
+                "Title": "モジュール",
+                "CaptionTitle": "キャプション",
+                "ParentCaption": "親オブジェクト",
+                "Validations": {
+                    "RequiredNameCaption": "入力してください"
+                },
+                "OpenDesigner": "デザイナーを開く"
+            },
+            "ClientUnitCaptionsMiniPage": {
+                "Title": "キャプション",
+                "Apply": "適用",
+                "Cancel": "キャンセル"
+            },
+            "ClientUnitMessagesMiniPage": {
+                "Title": "メッセージ",
+                "NameCaption": "コード",
+                "DirectionCaption": "方向",
+                "BroadcastCaption": "配信",
+                "AddressCaption": "住所",
+                "ModeCaption": "モード",
+                "SubscribeCaption": "購読",
+                "PublishCaption": "投稿",
+                "Add": "追加",
+                "Apply": "適用",
+                "Cancel": "キャンセル",
+                "Validations": {
+                    "RequiredNameCaption": "入力してください",
+                    "PatternNameCaption": "無効な値です。記号：a-z、A-Z、0-9を使用してください。記号：0-9を先に使用することはできません",
+                    "DuplicateNameCaption": "同じコードのメッセージが既に存在します"
+                }
+            },
+            "ClientUnitImagesMiniPage": {
+                "Title": "画像",
+                "NameTitle": "コード",
+                "CaptionTitle": "キャプション",
+                "ImageTitle": "画像",
+                "UidTitle": "ID",
+                "Add": "追加",
+                "Apply": "適用",
+                "Cancel": "キャンセル",
+                "Validations": {
+                    "RequiredNameCaption": "入力してください",
+                    "PatternNameCaption": "無効な値です。記号：a-z、A-Z、0-9を使用してください。記号：0-9を先に使用することはできません",
+                    "DuplicateNameCaption": "同じコードの画像が既に存在します"
+                }
+            }
+        },
+        "SourceCodeSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "ローカライズ可能な文字列",
+            "MetadataCaption": "メタデータ",
+            "MetadataReadCaption": "メタデータ (読み取り)",
+            "ModifiedPackageCaption": "修正されたパッケージ",
+            "RunButtonCaption": "インストールスクリプトとして実行",
+            "RunSourceCodeCaption": "操作は成功しました"
+        },
+        "SourceCodeDesignerMiniPage": {
+            "Title": "ソースコード",
+            "Description": "説明"
+        },
+        "SourceCodeCaptionsMiniPage": {
+            "Title": "キャプション",
+            "Apply": "適用",
+            "Cancel": "キャンセル"
+        },
+        "UserTaskCaptionsMiniPage": {
+            "Title": "キャプション",
+            "Apply": "適用",
+            "Cancel": "キャンセル",
+            "UserTask": "ユーザー タスク",
+            "WithCustomEventHandler": "イベントのカスタムハンドラーあり",
+            "Partial": "部分的な",
+            "Serialize": "DBでシリアル化",
+            "ParametersEditPage": "パラメータ 編集ページ",
+            "DcmParametersEditPage": "Dcmパラメータ編集ページ",
+            "Color": "色",
+            "SmallSvgImage": "小さいベクトル画像",
+            "LargeSvgImage": "大きなベクトル画像",
+            "TitleSvgImage": "タイトルベクトル画像",
+            "DcmSmallSvgImage": "DCM用の小さなベクトル画像",
+            "PageInaccessibleFromPackageInfo": "選択されたページは現在のユーザ タスク パッケージからアクセスできません。パッケージの依存関係を完了するか、他のページを選択して適切なユーザ タスクの実行を確認してください。"
+        },
+        "UserTaskDesignerMiniPage": {
+            "Title": "ユーザー タスク"
+        },
+        "UserTaskSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "ローカライズ可能な文字列",
+            "ParametersCaption": "パラメータ",
+            "MetadataCaption": "メタデータ",
+            "MetadataReadCaption": "メタデータ (読み取り)",
+            "ModifiedPackageCaption": "修正されたパッケージ",
+            "InvalidClassNameConfirmationMessage": "ユーザー タスク プロパティ「コード」は、ソースコード内のクラス名と一致しません。 現在の設定ではユーザータスクを実行できません。保存を続行しますか？"
+        },
+        "MetaDataSchemaDesigner": {
+            "MetaDataCaption": "メタデータ",
+            "HumanReadableMetaDataCaption": "メタデータ (読み取り専用)",
+            "PackageDifferenceMetaDataCaption": "変更パッケージ"
+        },
+        "RelatedPagesDesigner": {
+            "RelatedPageLabel": "デフォルトページ",
+            "AddPageLabel": "ページの追加",
+            "ExternalPageCaption": "外部ユーザー向けのページ設定",
+            "RelatedPagesCaption": "ページ設定",
+            "DefaultPageSelectionTooltip": "レコードの編集、読み取り、作成のためのデフォルトのページを選択または作成します。\n現在のオブジェクトをデータソースとして使用するFreedom UIページを使用することをお勧めします。",
+            "AddPageTooltip": "新しいレコードの追加にのみ使用する特定のページを選択または作成します。",
+            "RelatedPageCombobox": {
+                "AddNewPage": "新規ページの追加",
+                "OpenPageInDesignerTitle": "インターフェイスデザイナーを開く"
+            },
+            "DefaultPagePlaceholder": "その他のページが指定されていない場合に使用するページ",
+            "AddPagePlaceholder": "レコードの追加に使用するページ"
+        }
+    },
+    "Tracking": {
+        "ValidationMessage": {
+            "InvalidValue": "無効な値",
+            "RequiredFieldValue": "入力してください",
+            "LongFieldValue": "最大文字数を超えました(255)",
+            "InvalidNumberValue": "数値の形式が無効です"
+        },
+        "BaseItemMenuComponent": {
+            "Delete": "削除",
+            "Edit": "編集"
+        },
+        "ConnectionDescription": {
+            "Checking": "確認中",
+            "Connected": "接続済",
+            "Disconnected": "切断済み",
+            "Warning": "警告"
+        },
+        "ProjectsSection": {
+            "Add": "新しいプロジェクト",
+            "Title": "イベント追跡設定 (プロジェクト)",
+            "Columns": {
+                "Name": "プロジェクト名",
+                "Owner": "担当者",
+                "Description": "説明",
+                "CreatedOn": "作成済み",
+                "ModifiedOn": "最終更新日時"
+            },
+            "BlankSlate": {
+                "Title": "レコードがありません。.",
+                "Description": "レコードを追加してください。"
+            }
+        },
+        "ProjectPage": {
+            "Detail": {
+                "Name": "プロジェクト名",
+                "Owner": "担当者",
+                "Description": "説明",
+                "CreatedOn": "作成済み",
+                "ModifiedOn": "最終更新日時",
+                "TotalEvents": "イベントの合計",
+                "ConversionRate": "換算率",
+                "DefaultValues": {
+                    "Name": "新しいプロジェクト",
+                    "Description": "新しい説明"
+                }
+            },
+            "ResourceDetail": {
+                "Header": "追跡リソース",
+                "Columns": {
+                    "Name": "リソース名",
+                    "Status": {
+                        "Caption": "ステータス",
+                        "Active": "対応可能",
+                        "Inactive": "対応不可"
+                    },
+                    "Source": "初回アクセス方法",
+                    "CreatedOn": "作成済み",
+                    "ModifiedOn": "最終更新日時"
+                }
+            }
+        },
+        "ResourcePage": {
+            "CreatedOn": "作成日時",
+            "ModifiedOn": "更新日時",
+            "Name": "名前",
+            "Source": "ID (ウェブサイトの URL)",
+            "Active": "対応可能",
+            "DefaultName": "新しいリソース",
+            "DefaultSource": "https://example.com",
+            "Tabs": {
+                "TrackingCode": "追跡コード",
+                "GoalSettings": "目標設定"
+            },
+            "BasicCodeTitle": "基本追跡コード",
+            "CustomEventTab": "カスタムイベント",
+            "GoalDetail": {
+                "Header": "追跡目標",
+                "Columns": {
+                    "Name": "目標名",
+                    "EventTypeFilter": "イベントタイプフィルタ",
+                    "Status": {
+                        "Caption": "ステータス",
+                        "Active": "対応可能",
+                        "Inactive": "対応不可"
+                    },
+                    "Cost": "目標費用"
+                }
+            },
+            "GoalEditiDialog": {
+                "Header": "目標設定",
+                "Name": "目標名",
+                "UseEventCost": "イベント費用を使用",
+                "Cost": "目標費用",
+                "Active": "対応可能",
+                "FilterSettings": "目標フィルターの設定",
+                "EventTypeFilter": "イベントタイプフィルタ",
+                "EventNameFilter": "イベント名フィルタ",
+                "EventValueFilter": "イベント値フィルタ",
+                "EventCostFilter": "イベントコストフィルタ",
+                "Actions": {
+                    "Save": "保存",
+                    "Cancel": "キャンセル"
+                },
+                "StringCondition": {
+                    "Equal": "等しい",
+                    "Contains": "含む",
+                    "BeginWith": "次で開始",
+                    "EndWith": "次で終了"
+                },
+                "NumberCondition": {
+                    "Equal": "等しい",
+                    "LessOrEqual": "以下",
+                    "MoreOrEqual": "以上"
+                }
+            }
+        },
+        "CodePane": {
+            "CopyToClipboard": "クリップボードにコピー",
+            "OnCopiedToClipboard": "正常にコピーしました"
+        },
+        "BaseTrackingCode": {
+            "Header": "基本追跡コード",
+            "Loading": "読み込み中...",
+            "InfoBlock": {
+                "Title": "重要",
+                "Content": "このリソースの基本追跡コードは、サイトのすべてのページに配置する必要があります。",
+                "LinkText": "基本追跡コードの設定に関する詳細"
+            },
+            "NotReady": "トラッキングコードを取得する前にリソースを保存します。"
+        },
+        "EventCodeGenerator": {
+            "Header": "イベント追跡コード",
+            "Form": {
+                "EventType": "イベントタイプ",
+                "EventName": "イベント名",
+                "EventValue": "イベント値",
+                "EventCost": "イベント費用"
+            },
+            "FormValidators": {
+                "EmptyForm": "空白...",
+                "InvalidForm": "フォームにエラーがないかチェックしてください..."
+            }
+        }
+    },
+    "SocialLeadgen": {
+        "ValidationMessage": {
+            "InvalidValue": "無効な値",
+            "RequiredFieldValue": "入力してください",
+            "LongFieldValue": "最大文字数を超えました(255)",
+            "InvalidNumberValue": "数値の形式が無効です"
+        },
+        "IntegrationTypes": {
+            "LinkedIn": "LinkedIn",
+            "Facebook": "Facebook / Instagram",
+            "Undefined": "未定義"
+        },
+        "IntegrationSettings": {
+            "Header": {
+                "Title": "設定"
+            },
+            "Detail": {
+                "Url": "リードを取得するURL",
+                "Group": "通知を受信するロール"
+            },
+            "Notes": {
+                "Header": "メモ",
+                "Text": "<p>リードを取得するURL - 接続されている広告アカウントからリードを受信するCreatioのURLです。CreatioのWebサイトは、受信リクエストを受信できるようにアクセス可能である必要があります。プロキシサーバーを使用している場合は、Creatio URLの代わりにプロキシURLを指定します。Creatioインスタンスがアクセス制限ネットワークの一部である場合は、リード生成サービスIPをホワイトリストに登録します。</p><p>通知を受け取るロール - 広告アカウントの接続時やリードの作成時のエラーなど、何らかの障害が発生した場合、Creatioはこのロール内のユーザーに通知します。</p><p>「接続」タブには、Creatioに接続されている広告アカウントとページのリストが表示されます。リストには、ページ、アカウント、トークンの各レベルにおける現在の接続ステータスが含まれます。接続の削除やリセットなど、接続を管理することができます。</p><p>「ログ」タブには、リード生成機能の変更ログが表示されます。</p>"
+            },
+            "Tabs": {
+                "Connection": "接続",
+                "Logs": "ログ"
+            },
+            "AutorouteMessage": "作業を進めるには、「リードを取得するためのURL」フィールドを入力する必要があります。 デフォルトでは、フィールドにブラウザからアプリケーションの現在のアドレスが入力されていました。 正しいアプリケーションアドレスを入力し、設定を保存してください。 これらの設定は、セクションを初めて開いたときに行われます。",
+            "Error": {
+                "FormValidation": "設定を保存しようとするときにエラーが発生しました。エラーがないかすべてのフィールドを確認してください。",
+                "Save": "「リードを取得するためのURL」フィールドに入力された値を保存できませんでした。アプリケーションの正しい外部アクセス可能なアドレスを入力してください。"
+            },
+            "Logs": {
+                "IntegrationFilter": {
+                    "PlaceholderCaption": "外部連携",
+                    "EmptyOptionCaption": "すべての商品"
+                },
+                "DateColumnCaption": "日付",
+                "IntegrationColumnCaption": "統合",
+                "DetailsColumnCaption": "詳細",
+                "IntegrationNotFound": "見つかりません",
+                "GetIntegrationListError": "連携リストの読み込み中に失敗しました。読み込みは中止されました。",
+                "NoLogsMessage": "表示するログはありません"
+            },
+            "FacebookPagesConnections": {
+                "Header": "Facebookページ",
+                "Blankslate": "ページへの接続がまだ設定されていません。"
+            },
+            "LinkedInAdAccountsConnections": {
+                "Header": "LinkedIn 広告アカウント",
+                "Blankslate": "広告アカウントへの接続がまだ設定されていません。",
+                "AdAccountsTable": {
+                    "DeleteConfirmation": "広告アカウントを削除してもよろしいですか？",
+                    "DeleteError": "この広告アカウントは統合に接続されています。統合を削除して、もう一度やり直してください。",
+                    "Headers": {
+                        "Name": "顧客名",
+                        "Link": "リンク",
+                        "ConnectionStatus": "接続ステータス",
+                        "ExpirationDate": "有効期限"
+                    },
+                    "ConnectionStatuses": {
+                        "Active": "対応可能",
+                        "Inactive": "対応不可"
+                    },
+                    "ConnectionStatusErrorMessage": {
+                        "Inactive": "広告アカウントにアクセスできません。LinkedIn にサインインして、連携する必要があるアカウントに権限を設定してください。"
+                    },
+                    "UsersTable": {
+                        "DeleteConfirmation": "トークンを削除してもよろしいですか？これにより、広告アカウントへのアクセスとリード検索に問題が発生する可能性があります。",
+                        "Headers": {
+                            "UserName": "ネットワークユーザー",
+                            "TokenStatus": "トークンの状態",
+                            "ExpirationDate": "有効期限",
+                            "HasAdAccountAccess": "アカウントへのアクセスを提供します"
+                        },
+                        "TokenStatuses": {
+                            "Active": "対応可能",
+                            "Expired": "期限切れ",
+                            "Revoked": "取り消し済み",
+                            "Unknown": "不明"
+                        },
+                        "HasAdAccountAccess": {
+                            "Yes": "はい",
+                            "No": "いいえ"
+                        },
+                        "TokenStatusErrorMessage": {
+                            "Expired": "LinkedIn にサインインし、トークンの有効期限が切れたユーザーに代わって広告アカウントへのアクセス許可を付与します。",
+                            "Revoked": "トークンが破棄されました。\n考えられる理由:\n- このアカウントは別の Creatio インスタンスにログインするために使用されました。\n- LinkedIn側でリード生成アプリが切断された。\nこの問題を解決するには、LinkedInにもう一度サインインし、トークンが取り消されたユーザーに代わって広告アカウントへの権限を付与してください。",
+                            "Unknown": "リクエスト中に1つ以上のエラーが発生したため、トークンの状態を取得できません。ページを更新してください。"
+                        },
+                        "MenuCell": {
+                            "Delete": "削除",
+                            "Reconnect": "再接続"
+                        }
+                    }
+                }
+            }
+        },
+        "IntegrationSection": {
+            "DeleteConfirmation": "本当にこの外部連携を削除しますか？Creatioはこの統合外部連携から新しいリードを取得できなくなります。",
+            "DeleteError": "外部連携を削除できません。広告アカウントへのアクセスが拒否されました。対応する広告アカウントへのアクセスを許可して、もう一度やり直してください。",
+            "Header": {
+                "Title": "ソーシャルリードジェネレーション外部連携",
+                "Buttons": {
+                    "New": "新規",
+                    "Logs": "ログ",
+                    "Settings": "設定"
+                }
+            },
+            "Columns": {
+                "Name": "名前",
+                "Type": "タイプ",
+                "IsActive": "対応可能",
+                "IntegrationSectionItemMenu": {
+                    "Delete": "削除",
+                    "Activate": "有効にする",
+                    "Deactivate": "無効にする"
+                }
+            },
+            "BlankSlate": {
+                "Description": "連携が設定されていません。"
+            }
+        },
+        "IntegrationPage": {
+            "ToggleStateCaptions": {
+                "Active": "対応可能",
+                "Inactive": "対応不可"
+            },
+            "Header": {
+                "Buttons": {
+                    "Logs": "ログ",
+                    "Settings": "設定"
+                }
+            },
+            "Error": {
+                "Save": "設定を変更できません。必要なオブジェクトフィールドがマップされていることと、「マップされていないフォームフィールド」マクロ設定が指定されていることを確認してください。",
+                "FormSelection": "設定を変更できません。必要なオブジェクトフィールドがマップされていることと、「マップされていないフォームフィールド」マクロ設定が指定されていることを確認してください。"
+            },
+            "BlankSlate": {
+                "Title": "選択した広告アカウントで有効なフォームが見つかりませんでした。",
+                "Description": "リードフォームを作成するか、別のアカウントを選択してください。"
+            },
+            "BlankSlateError": {
+                "Title": "アカウントにアクセスできません。",
+                "Description": "サインインして再度アクセスを許可してください。"
+            },
+            "Detail": {
+                "Name": "名前",
+                "FacebookPage": "Facebookページ",
+                "LinkedinAdAccount": "LinkedIn アカウント",
+                "DeactivateConfirmationQuestion": "サブスクリプションを無効にしてもよろしいですか？すべてのフォームからのリード転送は停止されます。 変更が統合カードレベルに保存されると、新しいステータスが有効になります。"
+            },
+            "IntegrationSettings": {
+                "FacebookIsNotSet": "Facebookとの連携が設定されていません。",
+                "LinkedInIsNotSet": "LinkedIn との連携が設定されていません。",
+                "Create": "外部連携設定",
+                "DefaultIntegrationRecordName": "新しいソーシャルリード生成外部連携"
+            },
+            "InfoBlock": {
+                "Title": "メモ",
+                "Text": "選択したページのすべてのフォームは、Creatioに接続されています。「デフォルト設定」タブですべてのフォームのデフォルト設定を行います。 フォームごとに一意の設定を行うことができます。"
+            },
+            "ColumnMapping": {
+                "ExpansionPanelCaption": "デフォルトの割り当て",
+                "Object": "オブジェクト",
+                "AddMapping": "追加",
+                "Hint": "Creatioでは、すべての広告アカウントフォームにデフォルトのマッピングが適用されます。\nこの設定は、ユーザープロファイル情報を含むフォーム列にのみ適用されます。\nフォームのレコードページでは、カスタムの質問、カスタムのチェックボックス、隠しフィールドをマッピングできます。この機能を有効にするには、「カスタムマッピング」チェックボックスを選択します。\n「マッピングされていないフィールド」マクロを使用すると、すべてのカラムの値を単一のオブジェクト列に渡すことができます。",
+                "DataTypes": {
+                    "Lookup": "参照",
+                    "Text": "テキスト",
+                    "Boolean": "Boolean",
+                    "DateTime": "日付時刻",
+                    "Date": "日付",
+                    "Time": "時刻",
+                    "Number": "ナンバー",
+                    "Macro": "マクロ"
+                },
+                "FieldMenuCaptions": {
+                    "FormField": "フォームフィールド",
+                    "Text": "テキスト値",
+                    "Boolean": "ブール値",
+                    "Lookup": "検索値",
+                    "Other": "その他"
+                },
+                "LinkedIn": "LinkedIn",
+                "BooleanValue": {
+                    "True": "真",
+                    "False": "False"
+                },
+                "UnmappedMacroValue": "マッピングされていないフォームフィールド",
+                "LookupValueUnknown": "<not found>",
+                "ModalBox": {
+                    "SetButtonCaption": "セットする",
+                    "CancelButtonCaption": "キャンセル",
+                    "SelectFormCaption": "フォームフィールドを選択",
+                    "EnterTextValueCaption": "値を入力する"
+                }
+            },
+            "Logs": {
+                "ExpansionPanelCaption": "ログ",
+                "NoLogsForIntegrationMessage": "このインテグレーションのログはありません",
+                "ShowMoreButtonCaption": "更に表示する",
+                "Types": {
+                    "Info": "情報",
+                    "Warning": "警告",
+                    "Error": "エラー"
+                }
+            },
+            "FormsList": {
+                "Header": "書式",
+                "LinkedInStatus": "LinkedInステータス",
+                "Hint": "カスタムマッピング設定はデフォルトのマッピング設定を上書きします。それぞれのフォームを個別にマップします。\nカスタムマッピングを無効にすると、Creatioはデフォルトのマッピング設定をフォームに適用します。",
+                "FormStatus": {
+                    "Archived": "アーカイブ済み",
+                    "Pending": "保留中",
+                    "Approved": "承認済み",
+                    "Preapproved": "事前承認済",
+                    "Rejected": "拒否",
+                    "NeedsReview": "確認が必要",
+                    "AutoApproved": "自動承認済",
+                    "AutoRejected": "自動拒否されました",
+                    "Undefined": "未定義",
+                    "NotActive": "無効です"
+                },
+                "MappingType": {
+                    "DefaultMapping": "デフォルトマッピング",
+                    "CustomMapping": "カスタムマッピング"
+                },
+                "BlankSlate": {
+                    "Description": "このフォームのために、デフォルトのマッピング設定が適用されます。"
+                },
+                "DeactivateFormConfirmationQuestion": "Creatioのこのフォームからリードの受け取りを解除してもよろしいですか？ 変更が統合カードレベルに保存されると、新しいステータスが有効になります。",
+                "ObjectsTitle": {
+                    "Lead": "リード"
+                }
+            },
+            "IntegrationSyncInfo": {
+                "Header": "リード同期情報",
+                "UnableToAdAccountAccess": "アカウントにアクセスできません。リード同期は停止しました。",
+                "SaveIntegration": "統合を保存し、ページを更新してリード同期のステータスに関する通知を受け取ってください。",
+                "SubscriptionInactive": "リード購読は選択した広告アカウントでは無効です。リード同期は停止されました。サブスクリプションの有効化はCreatioでリードの受信を復元します。",
+                "SubscriptionActive": "リード購読は選択した広告アカウントで有効です。LinkedIn側で作成されたリードはCreatioに転送されます。"
+            },
+            "DownloadLeads": {
+                "ForForm": {
+                    "ButtonCaption": "リードの同期",
+                    "ModalBoxTitle": "「同期」をクリックして、期間のリードをアップロードします。期間は、フォームのリード購読ステータスに関係なく計算されます。"
+                },
+                "ForAdAccount": {
+                    "ButtonCaption": "すべてのリードを同期",
+                    "ModalBoxTitle": "「同期」をクリックして、期間の広告アカウントのリードをアップロードします。期間は、その時点のリード購読ステータスに関係なく計算されます。 Creatioは既に同期済みのリードを再アップロードしません。"
+                },
+                "ModalBox": {
+                    "InformationText": "LinkedInストアは90日間リードしています。",
+                    "CancelButtonCaption": "キャンセル",
+                    "DownloadButtonCaption": "同期",
+                    "SuccessRunBusinessProcessInfoText": "リードアップロードプロセスが開始されました。プロセスが完了するまでしばらく時間がかかることがあります。",
+                    "UnknownFailedRunBusinessProcessInfoText": "リードアップロードプロセスの開始に失敗しました。後でもう一度お試しください。起動エラーが解決しない場合は、テクニカルサポートにお問い合わせください。"
+                }
+            }
+        },
+        "SocialMediaProvider": {
+            "New": "新しい統合",
+            "RestoreAccess": "アクセスの復元"
+        },
+        "IntegrationError": {
+            "InvalidSettings": "リード生成サービスに接続できません。次のシステム設定は空です：「IDサーバーURL」、「IDサーバークライアントID」、「IDサーバークライアントシークレット」。",
+            "InvalidScope": "リード生成サービスに接続できません。リード生成サービスのユーザーアカウントに不可欠な権限がありません。この問題を解決するにはCreatioサポートにお問い合わせください。",
+            "InvalidClient": "リード生成サービスに接続できません。「IDサーバークライアントID」と「IDサーバークライアントシークレット」のシステム設定に予期しない値があります。この問題を解決するには、Creatioサポートにお問い合わせください。",
+            "GeneralError": "リード生成サービスに接続できません。ページを更新するか、問題が解決しない場合はCreatioサポートにお問い合わせください。"
+        }
+    },
+    "QueueSorting": {
+        "QueueSectionHeader": "キューのソート設定",
+        "AddQueueObjectCaption": "キューオブジェクトの追加",
+        "QueueObjectCaption": "キューオブジェクト",
+        "QueueTypeCaption": "キュータイプ",
+        "BlindQueue": "ブラインドキュー",
+        "RegularQueue": "通常キュー",
+        "AddQueueSortObjectCaption": "ソートオブジェクトの追加",
+        "Empty": "空白",
+        "RequiredFieldValue": "キューオブジェクトの選択",
+        "QueueObjectLookup": {
+            "NameColumnCaption": "タイトル",
+            "Title": "キューオブジェクトの検索"
+        },
+        "QueueObjectColumnLookup": {
+            "NameColumnCaption": "タイトル",
+            "Title": "キューオブジェクトのソート列の検索"
+        },
+        "QueueObjectColumnPage": {
+            "AddQueueObjectColumn": "カラムを追加",
+            "SortDirection": "ソート順",
+            "SelectColumn": "列",
+            "RequiredFieldValue": "必須項目が入力されていません"
+        },
+        "QueueObjectTable": {
+            "Actions": {
+                "Delete": "削除",
+                "Edit": "設定"
+            },
+            "RemoveToolTip": "既存のキューで使用されているため、Creatioはソートオブジェクトを削除できません"
+        },
+        "QueueObjectColumnTable": {
+            "Caption": "列のソート",
+            "ColumnCaption": "キャプション",
+            "SortDirection": "ソートの方向",
+            "Position": "優先度",
+            "Empty": "ソートカラムは追加されません",
+            "Actions": {
+                "Delete": "削除",
+                "Edit": "編集"
+            }
+        },
+        "OrderDirection": {
+            "Ascending": "昇順",
+            "Descending": "降順",
+            "None": "なし"
+        }
+    },
+    "ChatSettings": {
+        "ChatSettingsPageHeader": "チャット",
+        "ChannelDetail": {
+            "DeleteAction": "削除",
+            "DeleteRecordErrorMessage": "選択したレコードを削除できません",
+            "Title": "チャネル",
+            "Columns": {
+                "Name": "名前",
+                "Status": {
+                    "Caption": "対応可能"
+                },
+                "Queue": "キュー",
+                "Provider": "プロバイダー"
+            },
+            "FacebookSettings": {
+                "InvalidSettings": {
+                    "Message": "チャンネルを追加できません。設定要件は",
+                    "Link": {
+                        "Text": "記事."
+                    }
+                }
+            }
+        },
+        "ChannelPage": {
+            "Name": "名前",
+            "Token": "トークン",
+            "WebhookUrl": "URL",
+            "Status": "ステータス",
+            "Queue": "キュー",
+            "Language": "言語",
+            "ChannelProcessingGroup": "チャンネル処理",
+            "NewChannelCaption": "新しい '{0}' チャンネル",
+            "InactiveChannelMessage": "メッセージを受信するには、チャネルをアクティブにし、処理キューを指定する必要があります。無効なチャネルを追加してよろしいですか?",
+            "FacebookPageLinkCaption": "Facebookページ",
+            "ActiveChannelCaption": "対応可能",
+            "Telegram": {
+                "TelegramPageLinkCaption": "Telegram チャンネル",
+                "InvalidTelegramToken": "チャネルを作成するために正しいトークンを入力してください",
+                "TelegramTokenAlreadyExists": "入力されたトークンのチャンネルは既に存在します",
+                "ActiveWebhookErrorMessageForCreating": "Telegramボット用にWebhook統合が設定されているため、チャンネルを作成できません。チャンネルを追加するにはWebhook統合を削除してください。"
+            },
+            "Tips": {
+                "Language": "Creatioは選択した言語を、このチャンネルを通じて作成された連絡先の優先言語として設定します。 アクティブな言語のみを選択できます。言語参照に移動して有効/無効を切り替えます。",
+                "WhatsAppToken": "Twilio アカウントの自動認証を入力してください。",
+                "WhatsAppId": "Twilio アカウント SID を入力してください。",
+                "WhatsAppTestPhoneNumber": "テストメッセージを送信する電話番号は、チャンネルを確認するために送信されます。"
+            },
+            "WhatsApp": {
+                "PageLinkCaption": "WhatsAppチャンネル",
+                "ApplicationId": "アプリケーション ID",
+                "ChannelPhoneNumber": "電話番号",
+                "IntegrationPhoneNumber": "電話番号の確認",
+                "Connect": "接続",
+                "InvalidPhoneNumber": "数字のみ許可",
+                "ChannelDuplicatedErrorMessage": "入力された電話番号のチャンネルは既に存在します",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "Twilio アカウントのSIDが無効です",
+                    "InvalidAccountPhoneNumberException": "無効なWhatsApp電話番号を入力しました",
+                    "AuthenticateException": "無効なトークンを入力しました"
+                }
+            },
+            "ValidationMessage": {
+                "required": "値を入力",
+                "wrongValue": "間違った値"
+            },
+            "ErrorCodes": {
+                "ActiveWebhook": "テレグラムボット用にWebhook統合が設定されているため、「{{channelName}}」チャットチャンネルはメッセージを受信していません。 メッセージ受信を有効にするには、Webhook統合を削除し、このチャンネルを有効にしてください。",
+                "PollingConflict": "The “{{channelName}}” chat channel is not receiving messages because another Telegram bot instance is configured. Please delete the duplicate instance to enable message reception."
+            },
+            "Sms": {
+                "ChannelDuplicatedErrorMessage": "The channel already exists for the entered phone number",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "You entered an invalid Twilio account SID",
+                    "InvalidAccountPhoneNumberException": "You entered an invalid phone number",
+                    "AuthenticateException": "You entered an invalid Token"
+                }
+            },
+            "Twilio": {
+                "ErrorMessages": {
+                    "ValidationException": "Unable to connect to Twilio. Please check that your account SID and token are correct and try again."
+                }
+            }
+        },
+        "ChatQueueDetail": {
+            "Title": "チャットキュー",
+            "Columns": {
+                "Name": "名前",
+                "Routing": {
+                    "Caption": "ルーティング規則"
+                },
+                "Simultaneous": "同時チャット",
+                "Timeout": "チャットタイムアウト（分）"
+            }
+        },
+        "ChatActionsDetail": {
+            "Title": "チャットアクション",
+            "Columns": {
+                "Caption": "キャプション",
+                "Process": "プロセス",
+                "Queue": "キュー"
+            },
+            "Actions": {
+                "Delete": "削除"
+            }
+        },
+        "ChatQueuePage": {
+            "Title": "キュー",
+            "Name": "名前",
+            "OperatorRoutingRule": "ルーティング規則",
+            "SimultaneousChats": "同時チャット",
+            "TimeToWaitInQueue": "キューで待機する時間",
+            "Timeout": "チャット完了タイムアウト(分)",
+            "Tips": {
+                "SimultaneousChats": "オペレーターあたりのチャットの最大数",
+                "Timeout": "チャットが自動的に完了するまでの最大待機時間"
+            },
+            "ValidationMessage": {
+                "required": "値を入力",
+                "wrongValue": "間違った値",
+                "nonNegativeValue": "負の値を入力できません",
+                "nonNumericValue": "数値以外の値は入力できません"
+            }
+        },
+        "ChatActionPage": {
+            "Title": "チャットアクション",
+            "Caption": "キャプション",
+            "Process": "プロセス",
+            "ChatQueue": "チャットリスト",
+            "ValidationMessage": {
+                "required": "値を入力"
+            }
+        },
+        "ChatQueueOperatorDetail": {
+            "Title": "キューエージェント",
+            "Columns": {
+                "Operator": {
+                    "Caption": "ユーザー/ロール"
+                }
+            },
+            "DuplicationMessage": "ロールが既に存在します。続行するには別のオペレーター/ロールを選択してください。"
+        }
+    },
+    "IntegrationDiagnostics": {
+        "EmailListener": {
+            "Header": "メールリスナーのサービス診断",
+            "MailBoxAvailabilityCheck": "メールボックスの健全性を確認中",
+            "ExchangeListenerAvaibilityCheck": "サービス可用性の確認",
+            "ExchangeListenerAvailabilityCheck": "Creatio可用性の検証",
+            "GetSubscriberInfo": "購読情報を受信中",
+            "StartDiagnosticButtonCaption": "診断の実行",
+            "StartFullDiagnosticButtonCaption": "完全な診断の実行",
+            "MailBoxLookupCaption": "受信箱",
+            "SuccessfulOperation": "操作に成功しました",
+            "UnSuccessfulOperation": "エラー",
+            "ELAvailabilityDescription": "このサイトではメールリスナーサービスが利用可能です",
+            "ApplicationAvailabilityDescription": "メールリスナーがCreatioにアクセスできました",
+            "ELNotAvailabilityDescription": "このサイトではメールリスナーサービスが現在利用できません",
+            "ValidateCreatioExchangeEndpoint": "システム設定 BpmonlineExchangeEventsEndpointUrl における入力の正確性の検証",
+            "CreatioExchangeEndpontErrorValidationInfoTemplate": "エンドポイントが無効です\n期待される値: {0}/NewEmail\n実際の値: {1}\nシステム設定 BpmonlineExchangeEventsEndpointUrl がいっぱいであることを確認してください！",
+            "CreatioExchangeEndpontSuccessValidationInfoTemplate": "エンドポイント {0} は有効です",
+            "SendTestEmail": "テストメールの送信",
+            "MailboxAvailabilityDiagnosticTooltip": "メールボックスに記入する必要があります",
+            "MailboxDiagnosticSuccessDescriptor": "このメールボックスは正常に検証されました。",
+            "NameCaption": "名前",
+            "FeaturesStateLabel": "機能の状態",
+            "ExchangeListenerEnabledFeatureCaption": "Exchangeメールボックスの同期 (ExchangeListenerEnabled)",
+            "EmailIntegrationV2FeatureCaption": "Exchange と IMAP のメールボックスの同期 (EmailIntegrationV2)",
+            "SendEmailsV2FeatureCaption": "メールの送信 (SendEmailsV2)",
+            "OldEmailIntegrationFeatureCaption": "古いEメール連携（旧Email連携機能、状態が無効）",
+            "IsMailboxSyncSettingsCachedFeatureCaption": "メールボックス同期設定キャッシュ（IsMailboxSyncSettingsCached）",
+            "DiagnosticWasNotStarted": "診断は開始されていません"
+        }
+    },
+    "StructureExplorerDialog": {
+        "NoData": "データがありません",
+        "Title": "フィールド選択",
+        "CancelButtonCaption": "キャンセル",
+        "SelectButtonCaption": "選択",
+        "RelatedObjectsTabCaption": "関連データ{0}",
+        "FieldsTabCaption": "{0} フィールド{1}",
+        "SearchPlaceHolder": "検索",
+        "SearchClearIconTitle": "検索をクリア"
+    },
+    "EntityColumnValuePickerProvider": {
+        "ValueFromFieldCaption": "別のフィールドの値"
+    },
+    "DataSourceAttributeValuePickerProvider": {
+        "ValueFromFieldCaption": "別のフィールドの値"
+    },
+    "FormulaValuePickerProvider": {
+        "ValueFromFieldCaption": "計算式",
+        "CancelButtonCaption": "キャンセル",
+        "SelectButtonCaption": "保存",
+        "DialogTitleCaption": "数式"
+    },
+    "RepositorySection": {
+        "Title": "SVN リポジトリリスト",
+        "Actions": {
+            "Add": "追加",
+            "Edit": "編集",
+            "Authorize": "認証",
+            "Delete": "削除"
+        },
+        "Messages": {
+            "SuccessAuthorize": "リポジトリで正常に認証されました"
+        },
+        "Columns": {
+            "Name": "名前",
+            "Address": "SVN ストレージアドレス",
+            "IsActive": "対応可能",
+            "Login": "ログイン",
+            "Password": "パスワード"
+        },
+        "InfoBlock": {
+            "Title": "重要なこと",
+            "TextPart1": "SVN 経由での変更の転送は、開発環境向けのみを対象としています。次を使用します。 ",
+            "TextPart2": " 本番環境に変更を移すためのセクションです。",
+            "InstallAppsLink": "https://academy.creatio.com/docs/user/no-code_customization/apps_and_extensions/install_applications_from_the_marketplace",
+            "InstallAppsLinkText": "インストールされたアプリケーション",
+            "LinksMessage": "クリエイティブアカデミーでSVNについてもっと知る:",
+            "DeploymentInCreatioIDEInfoLinkText": "Creatio IDEでデプロイメント",
+            "SetupVersionControlInfoLinkText": "バージョン管理のセットアップ",
+            "DeploymentInCreatioIDEInfoLink": "https://academy.creatio.com/docs/developer/development_tools/deployment/transferring_solutions_in_creatio_ide",
+            "SetupVersionControlInfoLink": "https://academy.creatio.com/docs/node/1164"
+        },
+        "Page": {
+            "Title": "SVN ストレージ",
+            "Actions": {
+                "Add": "追加",
+                "Apply": "適用",
+                "Cancel": "キャンセル",
+                "Authorize": "認証"
+            },
+            "Validation": {
+                "Required": "入力してください",
+                "MaxLength": "最大文字数を超えました({0}/{1})",
+                "NameField": {
+                    "Pattern": "無効な名前形式"
+                }
+            }
+        }
+    },
+    "dataSource": "データ元",
+    "lookup": "参照",
+    "lookupValueDeletion": "参照値の削除設定：",
+    "blockDeletionCaption": "レコードに紐づいている値がある場合、削除をプロックする",
+    "DeleteRecordsCaption": "レコード削除時にこの値も削除する",
+    "lookupView": "ルックアップ表示",
+    "selectionWindow": "画面選択",
+    "list": "一覧",
+    "columnFormat": "データ型",
+    "columnNumberFormat": "データ型",
+    "selectValueCaption": "入力してください",
+    "DataValueType": {
+        "TextCaption": "テキスト",
+        "ShortTextCaption": "テキスト (50文字)",
+        "PhoneTextCaption": "電話番号",
+        "MediumTextCaption": "テキスト (250 文字)",
+        "LongTextCaption": "テキスト (500文字)",
+        "MaxSizeTextCaption": "長さ無制限のテキスト",
+        "SecureTextCaption": "暗号化された文字列",
+        "HashTextCaption": "CRC",
+        "IntegerCaption": "Integer",
+        "FLOAT1Caption": "小数(0.1)",
+        "FLOAT2Caption": "小数(0.01)",
+        "FLOAT3Caption": "小数(0.001)",
+        "FLOAT4Caption": "小数(0.0001)",
+        "FLOAT8Caption": "小数(0.00000001)",
+        "MoneyCaption": "Currency (0.01)",
+        "DateTimeCaption": "日付/時刻",
+        "DateCaption": "日付",
+        "TimeCaption": "時刻",
+        "BooleanCaption": "Boolean",
+        "ImageCaption": "画像",
+        "ImageLookupCaption": "画像のリンク",
+        "FileCaption": "ファイル",
+        "ColorCaption": "色",
+        "GuidCaption": "一意な識別子",
+        "BlobCaption": "ブロブ",
+        "LookupCaption": "参照",
+        "Entity": "オブジェクト (エンティティ)",
+        "EntityCollection": "オブジェクトのコレクション（エンティティコレクション）",
+        "EntityColumnMappingCollection": "オブジェクトの列値",
+        "CustomObject": "オブジェクト",
+        "Collection": "列挙型",
+        "LocalizableString": "ローカライズ可能な文字列",
+        "MetaDataText": "ローカライズできない文字列",
+        "ObjectList": "シリアル化可能な値リスト",
+        "CompositeObjectList": "複合値のシリアライズ可能なリスト",
+        "FloatCaption": "小数",
+        "RichCaption": "リッチテキスト",
+        "PhoneTextShortenedCaption": "電話",
+        "WebTextCaption": "ウェブリンク",
+        "EmailTextCaption": "メールアドレス",
+        "EmailTextShortenedCaption": "メール",
+        "TimerCaption": "タイマー",
+        "LocalTimeCaption": "現地時間",
+        "CompositeObject": "コンポジット値",
+        "FLOAT0Caption": "小数(0)",
+        "Money0Caption": "Currency (0)",
+        "Money1Caption": "Currency (0.1)",
+        "Money3Caption": "Currency (0.001)"
+    },
+    "CodeMirror": {
+        "HotkeysDescription": "ホットキー:",
+        "SelectAll": "Ctrl+A すべて選択",
+        "Undo": "Ctrl-Z 元に戻す",
+        "Redo": "Shift-Ctrl-Z やり直し",
+        "Find": "Ctrl-F 検索",
+        "FindNext": "F3 次を検索",
+        "FindPrev": "Shift-F3 前を検索",
+        "Replace": "Shift-Ctrl-F 置換",
+        "ReplaceAll": "Shift-Ctrl-R すべて置換",
+        "DeleteLine": "Ctrl-Y 行の削除",
+        "GoLineStart": "Alt-Left 行を開始",
+        "GoLineEnd": "Alt-Right 行末へ移動",
+        "JmpToLine": "Alt-G 行へ移動",
+        "Fullscreen": "F11フルスクリーンコードエディタ",
+        "FullscreenExit": "Esc 全画面モード終了",
+        "Autocomplete": "Ctrl-Space オートコンプリートの呼び出し"
+    },
+    "CDK": {
+        "IndicatorWidget": {
+            "Caption": "メトリック"
+        },
+        "GaugeWidget": {
+            "Caption": "ゲージ"
+        },
+        "HeaderWidget": {
+            "Fullscreen": {
+                "ExpandLabel": "全画面表示",
+                "CollapseLabel": "全画面を閉じる"
+            },
+            "Direction": {
+                "Menu": {
+                    "Caption": "チャートの位置"
+                },
+                "Column": {
+                    "Caption": "上"
+                },
+                "Row": {
+                    "Caption": "左"
+                },
+                "RowReverse": {
+                    "Caption": "右"
+                }
+            }
+        },
+        "ChartWidget": {
+            "ChangeChartType": {
+                "Caption": "図表の変更"
+            },
+            "Line": {
+                "Caption": "ラインチャート"
+            },
+            "Spline": {
+                "Caption": "スプライン曲線"
+            },
+            "Area": {
+                "Caption": "範囲"
+            },
+            "Scatter": {
+                "Caption": "散布図"
+            },
+            "Bar": {
+                "Caption": "列"
+            },
+            "HorizontalBar": {
+                "Caption": "棒グラフ"
+            },
+            "Pie": {
+                "Caption": "円グラフ"
+            },
+            "Doughnut": {
+                "Caption": "ドーナツグラフ"
+            },
+            "Tsfunnel": {
+                "Caption": "パイプライングラフ"
+            },
+            "Common": {
+                "ShowSeriesDataCaption": "系列別データを表示",
+                "EmptyValue": "値が未定義です",
+                "ShowDataCaption": "データ表示",
+                "DrillDownCaption": "図表の形式を変更",
+                "ExportDataBtnCaption": "Excel出力",
+                "HideSeries": "非表示",
+                "ShowDataForSelectedSeriesCaption": "この系列のデータを表示",
+                "ShowSeries": "表示",
+                "BooleanTrueValue": "はい",
+                "BooleanFalseValue": "いいえ",
+                "ShowDataAsTableCaption": "データをテーブルとして表示"
+            },
+            "With": {
+                "Caption": "と一緒に"
+            },
+            "Series": {
+                "Caption": "系列"
+            },
+            "ScreenReader": {
+                "AnnounceChartTypeChange": "グラフの種類を {{chartType}} に変更しました"
+            }
+        },
+        "FunnelWidget": {
+            "OpportunityFunnel": {
+                "Caption": "営業パイプライン",
+                "ByCountLabelTemplate": "{0}",
+                "StageConversionLabelTemplate": "{0}%",
+                "ToFirstStageLabelTemplate": "{0}%",
+                "ByCountBtnLabel": "案件数",
+                "StageConversionBtnLabel": "ステージ転換率",
+                "ToFirstStageBtnLabel": "パイプライン変換",
+                "DefaultTitle": "新しいパイプライン"
+            },
+            "FullPipelineFunnel": {
+                "Caption": "完全なパイプライン",
+                "ByCountBtnLabel": "読込レコード数",
+                "StageConversionBtnLabel": "ステージ転換率",
+                "ToFirstStageBtnLabel": "パイプライン変換",
+                "DefaultTitle": "新しいパイプライン"
+            },
+            "Tooltip": {
+                "CountInStage": "カウント",
+                "CountInStageValue": "{0}",
+                "Amount": "総額",
+                "AmountValue": "{0} {1}",
+                "ConversionToStage": "変換",
+                "ConversionToStageValue": "{0}%",
+                "ConversionToFirstStage": "変換",
+                "ConversionToFirstStageValue": "{0}%",
+                "ConversionToStageCount": "カウント",
+                "ConversionToStageCountValue": "{0}",
+                "ConversionToFirstStageCount": "カウント",
+                "ConversionToFirstStageCountValue": "{0}"
+            }
+        },
+        "ByCaption": "by",
+        "ByColumnCaption": "列別",
+        "WhereColumnCaption": "場所",
+        "IsColumnCaption": "です。",
+        "ListWidget": {
+            "Caption": "ウィジェットの一覧",
+            "Hint": "完全に機能するリストとカスタマイズ可能な色付きフレームを組み合わせたコンポーネントで、他の分析ウィジェットと一緒に配置する際の視覚的な一貫性を確保します。"
+        },
+        "WaterfallWidget": {
+            "Caption": "Waterfall pipeline",
+            "DefaultTitle": "New waterfall pipeline"
+        },
+        "SalesWaterfallWidget": {
+            "Caption": "Sales waterfall pipeline",
+            "DefaultTitle": "New sales waterfall pipeline"
+        }
+    },
+    "Components": {
+        "Input": {
+            "Caption": "テキスト"
+        },
+        "Slider": {
+            "Caption": "スライダー"
+        },
+        "NumberInput": {
+            "Caption": "ナンバー"
+        },
+        "Button": {
+            "Caption": "Button",
+            "DefaultActionNotificationMessageText": "設定は正常に保存されました"
+        },
+        "Checkbox": {
+            "Caption": "チェックボックス"
+        },
+        "Combobox": {
+            "Caption": "ドロップダウン",
+            "AddNewRecord": "新規追加",
+            "IsGoToSourceAllowedTooltip": "レコードリストに移動"
+        },
+        "DataGrid": {
+            "Caption": "一覧",
+            "Hint": "ユーザーが構造化された情報を表示および操作できるカスタマイズ可能なデータ表示コンポーネント"
+        },
+        "ExpandedList": {
+            "Caption": "展開リスト",
+            "Hint": "拡張リストには、リスト、拡張可能なグループ、および追加エントリボタンが含まれています。関連情報を表示するには、ページに使用することをお勧めします。",
+            "AddBtnCaption": "新規",
+            "RefreshBtnCaption": "更新",
+            "SettingsBtnCaption": "アクション",
+            "ExportDataBtnCaption": "Excel出力",
+            "ImportDataBtnCaption": "インポート"
+        },
+        "DateTimePicker": {
+            "Caption": "日付/時刻"
+        },
+        "Gallery": {
+            "Caption": "ギャラリー"
+        },
+        "ColorPicker": {
+            "Caption": "カラー選択"
+        },
+        "Label": {
+            "Caption": "ラベル"
+        },
+        "ActionDashboard": {
+            "Caption": "アクションダッシュボード",
+            "Hint": "ワークフローバーとアクションパネルを使用して、レコードの現在の状態に関する情報を表示します。 フォームページでコンポーネントを使用することをお勧めします。"
+        },
+        "ExpansionPanel": {
+            "Caption": "展開パネル"
+        },
+        "TabPanel": {
+            "Caption": "タブ",
+            "DefaultTab1Name": "タブ１",
+            "DefaultTab2Name": "タブ２",
+            "NewTabName": "新規タブ",
+            "AddTab": "タブの追加",
+            "DeleteTab": "タブの削除",
+            "DeleteTabConfirmation": "「{0}」タブと中のすべてのアイテムを削除しますか？",
+            "DefaultLabel1Name": "ラベル 1",
+            "DefaultLabel2Name": "ラベル 2",
+            "NewLabelName": "新規ラベル"
+        },
+        "MenuItem": {
+            "Caption": "メニュー項目"
+        },
+        "FileInput": {
+            "Caption": "ファイル",
+            "LabelCaption": "アップロード ファイル",
+            "Placeholder": "ファイルの選択"
+        },
+        "Breadcrumbs": {
+            "Back": "戻る"
+        },
+        "File": {
+            "Caption": "ファイル",
+            "Label": "アップロード ファイル",
+            "Placeholder": "ファイルの選択"
+        },
+        "Attachment": {
+            "Caption": "添付",
+            "Hint": "Attachmentsコンポーネントには、ファイルリスト、拡張可能なグループ、アップロードファイルボタン、更新ボタンが含まれています。 関連する添付ファイルを表示するためにフォームページで使用することをお勧めします。",
+            "AddBtnCaption": "アップロード",
+            "RefreshBtnCaption": "更新"
+        },
+        "RichTextEditor": {
+            "Caption": "リッチテキスト"
+        },
+        "TogglePanel": {
+            "Caption": "トグルパネル",
+            "Hint": "このコンテナには、折りたたみ可能なタブコンテナと、タブの表示を制御するボタンブロックが含まれています。 ページの異なる部分にコンテナとボタンを配置できます。"
+        },
+        "Timeline": {
+            "Caption": "タイムライン",
+            "AddObject": "+ オブジェクトを追加",
+            "ProvideDataSource": "タイムラインを使用する前にデータソースを提供する",
+            "Tile": {
+                "TileObjectTitle": "オブジェクト: "
+            },
+            "DesignerCustomEntities": {
+                "Email": {
+                    "Caption": "メール"
+                },
+                "Feed": {
+                    "Caption": "フィード"
+                },
+                "Task": {
+                    "Caption": "タスク"
+                },
+                "SysFile": {
+                    "Caption": "ファイル"
+                }
+            },
+            "Hint": "コンポーネントは通信履歴と関連レコードを時系列で表示します"
+        },
+        "ImageInput": {
+            "Caption": "画像",
+            "LabelCaption": "アップロード画像"
+        },
+        "SearchFilter": {
+            "Caption": "検索",
+            "Placeholder": "検索",
+            "Tooltip": "Search コンポーネントでは、リストオブジェクトに直接接続されたテキスト、数値、および参照列のみを検索できます。",
+            "ComparisonType": {
+                "StartsWith": "Search matches values that start with your input.",
+                "Contains": "Search matches values that contain your input."
+            }
+        },
+        "Approval": {
+            "Caption": "承認"
+        },
+        "ApprovalList": {
+            "Caption": "承認リスト",
+            "RefreshCaption": "更新",
+            "ProvideDataSource": "承認を使用する前にデータソースを提供する"
+        },
+        "ProgressBar": {
+            "Caption": "進捗バー",
+            "Hint": "ステージ実行表示",
+            "ProvideDataSource": "プログレスバーを使用する前にデータソースを提供する"
+        },
+        "CommunicationOptions": {
+            "Caption": "通信オプション",
+            "Hint": "コンポーネントに連絡先または企業の通信オプションが表示されます",
+            "AddBtnCaption": "通信オプションの追加"
+        },
+        "CampaignViewer": {
+            "Caption": "キャンペーンビューアー",
+            "Hint": "キャンペーンスキーマの表示"
+        },
+        "TagSelect": {
+            "Caption": "タグ"
+        },
+        "Summaries": {
+            "Caption": "概要"
+        },
+        "CalendarCaption": "カレンダー",
+        "EntityHierarchyFilter": {
+            "Caption": "ヒエラルキー",
+            "AllCaption": "すべて",
+            "Hint": "指定されたフィルタによってレコードを整理するためのフォルダ構造を構成することができます。コンポーネントが意図したとおりに動作するように、ページリストまたはデータソース設定で接続してください。"
+        },
+        "IndicatorWidget": {
+            "Caption": "新規メトリック"
+        },
+        "Chat": {
+            "Caption": "チャット",
+            "Hint": "リアルタイムでのチャットと以前の会話を表示するためのコンポーネント"
+        },
+        "ChartWidget": {
+            "Caption": "新規チャート"
+        },
+        "GaugeWidget": {
+            "Caption": "新規ゲージ"
+        },
+        "Dashboards": {
+            "Caption": "ダッシュボード",
+            "Hint": "ダッシュボードコンポーネントでは、データ ソースを構成できます。 コンポーネントをコンポーネントが配置されているページに接続し、新規作成または既存のダッシュボードを変更します。"
+        },
+        "Toggle": {
+            "Caption": "Switcher"
+        },
+        "DataGridHierarchical": {
+            "Caption": "Hierarchical list",
+            "Hint": "A data display component that allows users to view and interact with structured information organized in a multi-level hierarchy"
+        },
+        "Feed": {
+            "Caption": "フィード"
+        },
+        "Divider": {
+            "Caption": "分割"
+        },
+        "Switch": {
+            "Caption": "切り替え"
+        }
+    },
+    "LayoutElements": {
+        "GridArea1": {
+            "Caption": "範囲"
+        },
+        "GridColumn1": {
+            "Caption": "1列"
+        },
+        "GridColumn2": {
+            "Caption": "2列"
+        },
+        "GridColumn3": {
+            "Caption": "3列"
+        },
+        "GridColumn4": {
+            "Caption": "4列"
+        },
+        "FlexRow": {
+            "Caption": "フレックス行",
+            "Hint": "複数の要素を水平方向に並べます。Creatioはコンテンツに応じて要素のサイズを変更できます。 たとえば、2つのボタンまたは1つのフィールドと1つのボタンを隣接して配置します。詳細はアカデミーで確認してください。"
+        },
+        "FlexColumn": {
+            "Caption": "フレックス列",
+            "Hint": "複数の要素を垂直に並べます。Creatioはコンテンツに応じて要素のサイズを変更できます。 たとえば、2つのブロックを持つ列を作成します。詳細はアカデミーで確認してください。"
+        }
+    },
+    "HomePage": {
+        "DialogMessages": {
+            "RequiredFieldsAreNotFilled": "必須フィールドが入力されていないか、ページに検証エラーがあります"
+        }
+    },
+    "DesignerSettingsComponent": {
+        "HeaderCaption": "チャートの設定"
+    },
+    "InterfaceDesigner": {
+        "AddMenu": {
+            "AddDataSource": "データソースの追加",
+            "NewDataSource": "新しいデータソース",
+            "ExistingDataSource": "既存のデータソース"
+        },
+        "DataSourceActions": {
+            "Edit": "編集",
+            "RemoveAttribute": "削除",
+            "Remove": "削除",
+            "RemoveExistingDataSourceMessage": "Are you sure you want to remove the data source? Any unsaved changes to its object will be lost.",
+            "RemoveNewDataSourceMessage": "Are you sure you want to remove the data source? This will permanently delete the new object as it hasn’t been saved yet.",
+            "RemoveDataSourceWithReferencesMessage": "Remove the referenced elements before deleting the data source",
+            "RemoveDataSourceSuccessMessage": "The data source has been deleted"
+        },
+        "SetupDataSourceDialog": {
+            "SetupDataSourceTitle": "データソースの設定",
+            "CancelButtonDialog": "キャンセル",
+            "SelectButtonDialog": "選択",
+            "Object": "オブジェクト",
+            "SelectDataSource": "データソースの選択"
+        },
+        "SetupEntityProperties": {
+            "NameColumnCaption": "名前"
+        },
+        "SetupEntityPropertiesDialog": {
+            "Name": "名前",
+            "Description": "説明",
+            "SaveButton": "保存",
+            "CancelButton": "キャンセル",
+            "Code": "コード",
+            "Validations": {
+                "RequiredNameCaption": "値を入力してください"
+            }
+        },
+        "LookupEntityDialog": {
+            "CreateOrEditLookupEntityTitle": "新しい検索",
+            "CancelButtonDialog": "キャンセル",
+            "SelectButtonDialog": "保存",
+            "TitleControl": "タイトル",
+            "NameControl": "コード",
+            "Validations": {
+                "RequiredNameCaption": "入力してください",
+                "DuplicateNameCaption": "同じコードを持つオブジェクトが既に存在します",
+                "PatternPrefixTemplate": "コードは \"{0}\" プレフィックスで始める必要があります",
+                "PatternNameCaption": "無効な値です。記号：a-z、A-Z、0-9を使用してください。記号：0-9を先に使用することはできません."
+            }
+        },
+        "CopyPostfixCaption": "コピー",
+        "DesignElementSetting": {
+            "SettingsTitle": "設定",
+            "DuplicateTitle": "コピー",
+            "DeleteTitle": "削除"
+        },
+        "Messages": {
+            "SuccessfullySaved": "正常に保存しました"
+        },
+        "PropertiesPages": {
+            "EntityDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "一般"
+            },
+            "EntityDataSourcePropertiesPanel": {
+                "GeneralGroup": "一般",
+                "PrimaryDataSource": "プライマリデータ ソース",
+                "PrimaryDataSourceChangeConfirm": "このページのプライマリデータソースが変更されます。変更を保存しますか？",
+                "BusinessRulesGroup": "ビジネスルール",
+                "Relations": "リレーション設定",
+                "FiltersAndSorting": "フィルターと並べ替え",
+                "isIndependentDataSource": "独立したデータソース",
+                "isIndependentDataSourceTooltip": "有効にすると、このデータソースは常に、メインレコードに関係なく、その静的フィルタとソート条件に基づいてデータを読み込みます。",
+                "ApplyStaticFilter": "静的フィルターを適用",
+                "EditStaticFilterAction": "フィルターを編集",
+                "SetupStaticFilterAction": "フィルターを設定",
+                "FiltersDialogCaption": "手動で定義したフィルター",
+                "DoNotCreateEmptyRecordsLabel": "空のレコードを作成しない",
+                "DoNotCreateEmptyRecordsTooltip": "有効にすると、 ユーザーがこのデータソースのフィールド（オブジェクトレベルで設定されたデフォルト値を含む）を変更していない場合、空のレコードは生成されません",
+                "KeepValuesOnCopy": "コピー時に値を保持",
+                "KeepValuesOnCopyTooltip": "有効にすると、このページを使用してメインデータソースのレコードをコピーするときに、このデータソースのレコードがコピーされます",
+                "SchemaHasChanged": "新しいデータソースがまだ保存されていない場合は静的フィルタを設定できません。ページを保存してもう一度お試し下さい。"
+            },
+            "PropertiesPanelIconSettings": {
+                "UseIcon": "アイコンの使用",
+                "IconPositionLabel": "ポジション",
+                "IconPosition": {
+                    "LeftIcon": "左にアイコン",
+                    "RightIcon": "右にアイコン",
+                    "OnlyIcon": "アイコンのみ",
+                    "OnlyText": "テキストのみ"
+                },
+                "IconLabel": "アイコン"
+            },
+            "ViewElementEventPropertiesPanel": {
+                "EventFieldLabel": "アクション",
+                "Requests": {
+                    "RunBusinessProcessRequest": "実行プロセス",
+                    "ClosePageRequest": "ページを閉じる",
+                    "SaveRecordRequest": "データの保存",
+                    "CancelRecordChangesRequest": "変更のキャンセル",
+                    "OpenPageRequest": "特定のページを開く",
+                    "CreateRecordRequest": "新規レコードを開く",
+                    "UpdateRecordRequest": "既存のレコードを開く",
+                    "LoadDataRequest": "データの更新",
+                    "ExportDataGridToExcelRequest": "Excel出力",
+                    "ImportDataRequest": "インポート",
+                    "UploadFileRequest": "ファイルのアップロード",
+                    "SetRecordRightsRequest": "アクセス権の設定",
+                    "ShowRelationshipsRequest": "レコードの関係を表示する",
+                    "OpenDuplicatesPageRequest": "重複ページを開く",
+                    "AddСommunicationOptionsRequest": "通信オプションの追加",
+                    "DeleteRecordsRequest": "データの削除",
+                    "ContinueInOtherPageRequest": "別のページで続ける",
+                    "SelectLookupPageRequest": "データの選択",
+                    "AddTagsInRecordsRequest": "タグの追加",
+                    "RemoveTagsInRecordsRequest": "タグの削除",
+                    "PrintablesRequest": "レポートの印刷",
+                    "SetCalendarTimeScaleRequest": "カレンダーのタイムスケールを設定",
+                    "AddCalendarSyncAccountRequest": "カレンダーと同期するアカウントを追加",
+                    "AddRecordsInStaticFoldersRequest": "静的フォルダーにレコードを追加",
+                    "RemoveRecordsInStaticFoldersRequest": "静的フォルダーからレコードを削除",
+                    "CreateEmailRequest": "メールを作成",
+                    "SendInvitesForActivityRequest": "招待を送信",
+                    "MoveSelectedItemsRequest": "選択したレコードを移動",
+                    "CopilotActionRequest": "Creatio.AI アクション",
+                    "OpenChangeLogRequest": "変更ログを表示",
+                    "SetupCalendarSyncAccountRequest": "カレンダーと同期するアカウントを追加",
+                    "ToggleFollowFeedRequest": "フォロー/フォロー解除フィード",
+                    "DeleteRecordRequest": "レコードを削除",
+                    "SetAttributeFromBarcodeRequest": "Open Barcode scanner",
+                    "SetAttributeFromNfcRequest": "Open NFC reader",
+                    "UpdateQuickFilterGroupRequest": "フィルターの設定"
+                },
+                "RunBusinessProcessRequest": {
+                    "WhichProcessRunQuestion": "どのプロセスを実行しますか？",
+                    "AddNewBusinessProcessButton": "新規プロセスの追加",
+                    "SelectBusinessProcessButton": "プロセスデザイナーを開く",
+                    "HowProcessRunQuestion": "プロセスを実行する方法は?",
+                    "HowProcessRunLabel": "レコードが渡されるプロセスパラメータ",
+                    "HowRunProcessOptions": {
+                        "ForTheSelectedPage": "選択したページ用",
+                        "RegardlessOfThePage": "ページに関係なく",
+                        "ForTheSelectedRecords": "リスト内の選択されたレコード"
+                    },
+                    "DataSourceFieldCaption": "プロセスを実行するリストは？",
+                    "SaveAtProcessStart": "プロセス開始前にデータを保存",
+                    "AnnounceProcessStart": "Show notification for process start",
+                    "NotificationTextFieldName": "Notification text",
+                    "DefaultNotificationText": "プロセス開始"
+                },
+                "OpenPageRequest": {
+                    "Title": "どのページを開きますか？",
+                    "OpenPageInDesignerTitle": "インターフェイスデザイナーを開く",
+                    "AddNewPage": "新規ページの追加",
+                    "PageParameters": "ページパラメータ"
+                },
+                "CreateRecordRequest": {
+                    "WhichRecordToCreateLabel": "どのレコードを作成しますか？",
+                    "DefaultAttributeValuesLabel": "カラム値の設定"
+                },
+                "UpdateRecordRequest": {
+                    "WhichObjectToOpenRecordOfLabel": "どのオブジェクトのレコードを開きますか？",
+                    "WhichRecordToOpenLabel": "どのレコードを開きますか？"
+                },
+                "LoadDataRequest": {
+                    "DataRefreshModeLabel": "データ更新モード",
+                    "DataRefreshModeOptions": {
+                        "RefreshAll": "更新すべて",
+                        "RefreshSpecific": "特定のデータソースをリフレッシュ"
+                    },
+                    "DataSourcesSelection": {
+                        "DataSourceLabel": "データ元",
+                        "RefreshAll": {
+                            "Title": "どのデータソースを除外しますか？",
+                            "Tooltip": "「すべてを更新」モードでは、すべてのページデータソースが更新されます — このアクションが設定された後に追加されたものも含まれます。このリストを使用して、特定のデータソースを更新対象から除外します。"
+                        },
+                        "RefreshSpecific": {
+                            "Title": "更新するデータソースはどれですか？",
+                            "Tooltip": "ボタンがクリックされたときに更新されるデータソースを選択してください。"
+                        }
+                    }
+                },
+                "ExecuteCustomCode": "カスタムコードの実行",
+                "OpenDuplicatesPageRequest": {
+                    "WhichObjectToOpenDuplicatesOfLabel": "どのアプリケーションの重複を開きますか？"
+                },
+                "ShowRelationshipsRequest": {
+                    "SelectEntityLabel": "どのオブジェクトを使用しますか？",
+                    "SelectRecordIdLabel": "どの列で接続しますか？"
+                },
+                "SetCalendarTimeScaleRequest": {
+                    "Calendar": "コントロールするコンポーネント",
+                    "TimeScale": "タイムスケール",
+                    "FiveMinutes": "5分",
+                    "TenMinutes": "10分",
+                    "FifteenMinutes": "15分",
+                    "ThirtyMinutes": "30分",
+                    "OneHour": "1時間"
+                },
+                "SendInvitesForActivityRequest": {
+                    "ActivityColumn": "アクティビティ列",
+                    "RequiredFieldError": "この項目は必須です"
+                },
+                "MoveSelectedItemsRequest": {
+                    "SourceDataGridComboBoxLabel": "データを移動する",
+                    "TargetDataGridComboBoxLabel": "データを移動する",
+                    "DefaultValuesLabel": "移動する列を選択してください",
+                    "DefaultValuesHint": "初期データソースからターゲットデータソースに移動する値の列を選択します。"
+                },
+                "OpenChangeLogRequest": {
+                    "LogDisplaySettings": "ログ表示設定",
+                    "OpenLogForRecord": "選択したレコードのログを開く",
+                    "OpenLogForObject": "オブジェクトのログを開く",
+                    "WhichDataSourceOpenLog": "どのデータソースでログを開きますか？",
+                    "WhichObjectOpenLog": "どのオブジェクトのログを開きますか？"
+                },
+                "SetFollowFeedRequest": {
+                    "Feed": "コントロールするコンポーネント"
+                },
+                "SetAttributeFromBarcodeRequest": {
+                    "ColumnNameControl": {
+                        "Label": "Which column to set result to?",
+                        "RequiredFieldError": "この項目は必須です"
+                    },
+                    "LookupFilterColumn": {
+                        "Label": "Search column name"
+                    }
+                }
+            },
+            "ExpansionPanelPropertiesPage": {
+                "PageCaption": "拡張パネルの設定",
+                "GeneralCaption": "一般",
+                "TitleLabel": "タイトル",
+                "ToggleTypeLabel": "スタイル",
+                "TogglePositionLabel": "ボタンの位置",
+                "ColorLabel": "タイトル色",
+                "DefaultToggleTypeLabel": "デフォルト",
+                "MaterialToggleTypeLabel": "アコーディオン",
+                "BeforeTogglePositionLabel": "左",
+                "AfterTogglePositionLabel": "右",
+                "FullWidthHeaderCaption": "全幅ヘッダー",
+                "TitleWidthCaption": "タイトル幅",
+                "PaddingGroup": "間隔",
+                "Padding": {
+                    "Top": "上",
+                    "Bottom": "下",
+                    "Left": "左",
+                    "Right": "右"
+                }
+            },
+            "LabelPropertiesPage": {
+                "PageCaption": "ラベル設定",
+                "GeneralCaption": "一般",
+                "TitleLabel": "テキスト",
+                "TypeLabel": "スタイル",
+                "TextAlignLabel": "配置",
+                "ThicknessLabel": "書式",
+                "FontSizeLabel": "サイズ (px)",
+                "FontColorLabel": "文字色",
+                "BackgroundColorLabel": "背景色",
+                "AlignLeftCaption": "左",
+                "AlignCenterCaption": "中央",
+                "AlignRightCaption": "右",
+                "AlignJustifyCaption": "両端揃え",
+                "TypeH1Caption": "H1",
+                "TypeH2Caption": "ヘッダー2",
+                "TypeH3Caption": "ヘッダー3",
+                "TypeH4Caption": "ヘッダー4",
+                "TypeH5Caption": "ヘッダー５",
+                "TypeBody1Caption": "本文",
+                "TypeCaptionCaption": "キャプション",
+                "TypeBlankslateCaption": "ブランクスレート",
+                "ThicknessLightCaption": "明るさ",
+                "ThicknessNormalCaption": "標準",
+                "ThicknessSemiboldCaption": "半太字",
+                "ThicknessBoldCaption": "太字",
+                "ThicknessDefaultCaption": "デフォルト",
+                "TypeLarge1Caption": "大 1",
+                "TypeLarge2Caption": "大 2",
+                "TypeLarge3Caption": "大 3",
+                "TypeLarge4Caption": "大 4",
+                "TypeHeadline1Caption": "見出し1",
+                "TypeHeadline1SmallCaption": "見出し1 (小)",
+                "TypeHeadline2Caption": "見出し2",
+                "TypeHeadline3Caption": "見出し3",
+                "TypeHeadline4Caption": "見出し4",
+                "TypeBodyLargeCaption": "本文 (大)",
+                "TypeBodyCaption": "本文",
+                "TypeCaptionLargeCaption": "キャプション (大)",
+                "TypePlaceholderLargeCaption": "プレースホルダー (大)",
+                "TypePlaceholderCaption": "プレースホルダー",
+                "TypeButtonCaption": "ボタン",
+                "TypeButtonSmallCaption": "ボタン (小)",
+                "AttributeBindingCaption": "要素には事前に設定されたデータ表示ロジックが含まれています。別のロジックを実装する必要がある場合は、要素の値を削除してください。",
+                "ClearAttributeBinding": "値をクリア",
+                "HeadingLevelCaption": "階層レベル",
+                "HeadingLevelInfo": "見出しレベルはページ上のコンテンツをより良く整理し、アクセシビリティを改善します"
+            },
+            "DataGridPropertiesPage": {
+                "PageCaption": "リスト設定",
+                "GeneralCaption": "一般",
+                "DataSourceCaption": "オブジェクト",
+                "ChangeFilters": "フィルタの変更",
+                "AttributeBindingUsage": "使用された属性値",
+                "MassActions": "一括操作",
+                "ApplyStaticFilter": "静的フィルターを適用",
+                "SetupStaticFilterAction": "フィルターを設定",
+                "EditStaticFilterAction": "フィルターを編集",
+                "Appearance": {
+                    "AppearanceGroup": "表示",
+                    "Editable": "インライン編集",
+                    "ItemsCreation": "インライン追加のレコード",
+                    "FloatingEditPanel": "フローティング編集パネル",
+                    "FloatingEditPanelHint": "ユーザーがフローティング編集パネルを使用して、編集可能なリストの変更を保存またはキャンセルできます。 消去されると、ユーザーはその目的のためにページの保存とキャンセルボタンを使用することができます",
+                    "RowsNumeration": "行番号",
+                    "RowsMultiSelection": "複数選択",
+                    "RowsLimit": "行数を制限",
+                    "RowsLimitPlaceholder": "行の最大数を入力してください",
+                    "RowsLimitTooltip": "リストに表示するレコードの最大数を設定します。特定のアイテムの数を表示したいときに便利です — たとえば、「トップ5の顧客」。</br>制限が設定されている場合、「すべて選択」オプションは利用できません。",
+                    "Header": "リストヘッダー",
+                    "ColumnsSorting": "ソート",
+                    "ColumnsResizing": "列の幅を調整可能",
+                    "ColumnsDragAndDrop": "ドラッグ可能な列"
+                },
+                "RowsNumeration": "行番号",
+                "StyleLabel": "スタイル",
+                "Styles": {
+                    "PlainWhite": "ホワイト",
+                    "Glassmorphism": "ガラス効果"
+                }
+            },
+            "TabItemPropertiesPage": {
+                "GeneralGroup": "一般",
+                "CaptionLabel": "タイトル",
+                "AppearanceGroup": "外観",
+                "IconPosition": {
+                    "LeftIcon": "左にアイコン",
+                    "OnlyIcon": "アイコンのみ",
+                    "OnlyText": "テキストのみ"
+                },
+                "PaddingGroup": "行間",
+                "Padding": {
+                    "Top": "上",
+                    "Bottom": "下",
+                    "Left": "左",
+                    "Right": "権利"
+                }
+            },
+            "ActionDashboardPropertiesPage": {
+                "PageCaption": "アクションダッシュボードの設定",
+                "GeneralCaption": "一般",
+                "DataSource": "データ元",
+                "GoToCasesButtonCaption": "ケースの設定",
+                "EmptyDataSourceHint": "データソースがページに追加されません。コンポーネントを設定するために既存のデータソースを追加してください",
+                "ChannelsCaption": "チャネル",
+                "CallAction": "電話",
+                "EmailAction": "メール",
+                "FeedAction": "フィードメッセージ",
+                "ActivityAction": "タスク",
+                "CasesDisabledTitle": "データソースにケースを設定できません"
+            },
+            "DefaultAttributeValues": {
+                "AddAttribute": "フィールドの追加"
+            },
+            "MenuItemPropertiesPanel": {
+                "GeneralGroup": "一般",
+                "CaptionLabel": "タイトル",
+                "ActionLabel": "アクション",
+                "AppearanceGroup": "外観"
+            },
+            "GalleryPropertiesPanel": {
+                "PageCaption": "ギャラリー設定",
+                "GeneralCaption": "一般",
+                "AdditionalCaption": "追加",
+                "DataSourceCaption": "オブジェクト",
+                "CaptionColumnField": "キャプション",
+                "DescriptionColumnField": "説明",
+                "ImageColumnField": "画像",
+                "SelectableConfigField": "選択可能",
+                "AppearanceGroup": "表示",
+                "MultiselectConfigField": "複数選択",
+                "UseSpecificPageField": "キャプションをクリックして特定のページを開く",
+                "SpecificPageLookupField": "表示するページを選択してください",
+                "DefaultSizeFieldLabel": "ギャラリーアイテムのサイズ",
+                "Sizes": {
+                    "Small": "小",
+                    "Medium": "中",
+                    "Large": "大",
+                    "ExtraLarge": "特大"
+                },
+                "MassActions": "一括操作"
+            },
+            "FilePropertiesPage": {
+                "General": "一般",
+                "AllowedExtensions": "ファイル拡張子",
+                "AllowedExtensionsEmptyMessage": "設定されていない場合、拡張子AllowListシステム設定のすべてのファイルタイプが許可されます",
+                "MaxSize": "最大ファイルサイズ(MB)",
+                "MaxSizeEmptyMessage": "設定されていない場合、システム設定の最大添付サイズのデフォルト値が適用されます",
+                "LabelPosition": "タイトル位置",
+                "LabelPositionVariants": {
+                    "Auto": "自動",
+                    "Left": "左",
+                    "Right": "右",
+                    "Above": "上",
+                    "Hidden": "非表示"
+                },
+                "Placeholder": "プレースホルダー",
+                "DataSource": "データ元",
+                "Editability": "編集可否",
+                "TitleOnPage": "タイトル",
+                "EditabilityControls": {
+                    "Readonly": "読み取り専用"
+                },
+                "AppearanceGroup": "外観"
+            },
+            "FileListPropertiesPage": {
+                "PageCaption": "添付ファイルリストの設定",
+                "GeneralGroup": "一般",
+                "FileGroupLabel": "ファイルグループ",
+                "FileGroups": {
+                    "Attachments": "添付"
+                },
+                "AttributeToAttachFiles": "ファイル添付のレコード",
+                "EmptyDataSourceHint": "データソースがページに追加されません。コンポーネントを設定するために既存のデータソースを追加してください",
+                "TagLabel": "ファイルタグ",
+                "TagPlaceholder": "デフォルトですべてのレコードファイルを表示",
+                "TagHint": "レコードファイルのフィルタリングにタグを使用します。例えば、「アプリケーションドキュメント」",
+                "FileEntitySchemaLabel": "ファイルの保存場所",
+                "AppearanceGroup": "外観",
+                "ViewTypeLabel": "ビュー",
+                "TileSizeFieldLabel": "ギャラリーアイテムのサイズ",
+                "Sizes": {
+                    "Small": "小さい",
+                    "Medium": "中",
+                    "Large": "大きい",
+                    "ExtraLarge": "特大"
+                },
+                "ViewTypeOption": {
+                    "List": "一覧",
+                    "Gallery": "ギャラリー"
+                }
+            },
+            "BaseCustomPropertiesPanel": {
+                "PageCaption": "カスタム要素設定",
+                "GeneralCaption": "一般",
+                "Description": "ページソースコードでこの要素を設定できます。",
+                "OpenSourceCodeButtonCaption": "ソースコードを開く"
+            },
+            "ImportDataRequestPropertiesPanel": {
+                "EntitySchemaSelectCaption": "インポートするデータ"
+            },
+            "ExportDataGridToExcelRequestPropertiesPanel": {
+                "ViewSelectCaption": "どのデータをエクスポートしますか？"
+            },
+            "UploadFileRequestPropertiesPanel": {
+                "ViewSelectCaption": "どこにファイルをアップロードしますか？",
+                "AllowedExtensions": "アップロードできるファイル拡張子は何ですか?",
+                "AllowedExtensionsEmptyMessage": "設定されていない場合、「拡張子AllowList」システム設定のすべてのファイルタイプが許可されます",
+                "MaxSize": "MBの最大許容ファイルサイズは何ですか?",
+                "MaxSizeEmptyMessage": "設定されていない場合、システム設定の「最大添付サイズ」のデフォルト値が適用されます",
+                "FileTypesPlaceholder": "例えば、.pdf、.png",
+                "MaxSizePlaceholder": "デフォルトでは{0} MB",
+                "UploadFileSourceCaption": "Upload a file from source",
+                "Camera": "Camera",
+                "Gallery": "ギャラリー",
+                "Files": "ファイル"
+            },
+            "PropertiesPanelVisibilitySettings": {
+                "VisibilityGroup": "可視性",
+                "Visible": "表示",
+                "NotVisible": "非表示",
+                "SetupConditions": "Set up conditions",
+                "DefaultValueNotSupported": "この要素は表示のデフォルト値をサポートしていません"
+            },
+            "ApprovalPropertiesPage": {
+                "HeaderLabel": "承認の設定",
+                "SchemaNameLabel": "どのレコードを承認しますか？",
+                "GeneralGroup": "一般",
+                "AppearanceGroup": "外観",
+                "HiddenWhenNoData": "データがない場合に隠す"
+            },
+            "ImageInputPropertiesPage": {
+                "SizeFieldLabel": "サイズ",
+                "Sizes": {
+                    "None": "なし",
+                    "Small": "小さい",
+                    "Medium": "中",
+                    "Large": "大きい",
+                    "ExtraLarge": "特大"
+                },
+                "BorderRadiusLabel": "枠線の半径",
+                "PositioningLabel": "画像の位置",
+                "Positioning": {
+                    "Cover": "塗りつぶし",
+                    "ScaleDown": "合わせる"
+                },
+                "MaxSize": "最大ファイルサイズ(MB)",
+                "MaxSizeEmptyMessage": "If not set, default value from Image max size system setting is applied",
+                "MaxSizePlaceholder": "デフォルトでは{0} MB",
+                "TooltipLabel": "ツールヒント",
+                "AppearanceGroup": "外観",
+                "Editability": "編集可否",
+                "EditabilityControls": {
+                    "Readonly": "読み取り専用"
+                },
+                "TooltipHint": "ツールチップはプレーンテキストとHTMLコンテンツの両方をサポートしています。HTMLコンテンツが簡潔でツールチップのサイズに適応していることを確認してください。"
+            },
+            "TimerPropertiesPage": {
+                "PageCaption": "タイマー設定",
+                "TimerType": "モード",
+                "TargetDateTimeColumn": "目標日時列",
+                "StartDateTimeColumn": "開始日時列",
+                "FromDateTimerType": "タイマーのカウントアップ",
+                "CountdownToSpecificDateTimerType": "特定日までのカウント",
+                "ShowNegativeCountDownValue": "負のカウントダウン値を表示",
+                "TextColorForNegativeValues": "負の値の文字色",
+                "TextForPositiveValues": "正の値の文字",
+                "TextForNegativeValues": "負の値の文字",
+                "ValueTextTooltip": "詳細なタイマーラベルを作成するには、[#timer#] マクロとテキスト文字列を使用してください。 例えば、正の値 - タスクを完了するために残っている[#timer#]。負の値 - [#timer#] 期限切れ。"
+            },
+            "ApprovalListPropertiesPage": {
+                "HeaderLabel": "承認リストの設定",
+                "GeneralGroup": "一般",
+                "SchemaNameLabel": "オブジェクト"
+            },
+            "SearchFilterPropertiesPanel": {
+                "PageCaption": "検索設定",
+                "GeneralCaption": "一般",
+                "ChooseTargetsCaption": "フィルタリングするコンポーネントを選択",
+                "ChooseTargetsTooltip": "検索を実行するリストを選択します。ドロップダウンメニューには、現在のページに存在し、オブジェクトが指定されているリストが表示されます",
+                "Placeholder": "プレースホルダー",
+                "DirectConnection": "Search コンポーネントでは、リストオブジェクトに直接接続されたテキスト、数値、および参照列のみを検索できます。",
+                "AppearanceGroup": "外観",
+                "IconOnlyCaption": "アイコンのみ"
+            },
+            "DataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "一般",
+                "RequirementType": {
+                    "NoCaption": "いいえ",
+                    "YesCaption": "はい"
+                },
+                "Validators": {
+                    "UniqueName": "名前 \"{0}\" は既に存在します",
+                    "InvalidCharacter": "無効な値です。記号：a-z、A-Z、0-9を使用してください。記号：0-9を先に使用することはできません",
+                    "InvalidPrefix": "値は \"{0}\" プレフィックスで始まる必要があります"
+                }
+            },
+            "PageParametersDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "一般",
+                "TitleCaption": "タイトル",
+                "NameCaption": "コード"
+            },
+            "LocalTimePropertiesPage": {
+                "PageCaption": "ローカル時刻の設定",
+                "TimeZoneColumn": "タイムゾーン列"
+            },
+            "EntityStagePropertiesPanel": {
+                "HeaderLabel": "進捗バー",
+                "GeneralGroup": "一般",
+                "SchemaNameLabel": "データ元",
+                "CasesCaption": "ケースの設定",
+                "EmptyDataSourceHint": "データソースがページに追加されません。コンポーネントを設定するために既存のデータソースを追加してください",
+                "SaveOnChange": "ステージ変更時にレコードを保存",
+                "AskUserToChangeSchema": "案件更新のスナックバー通知を表示",
+                "SaveEntityConfirmationDialog": {
+                    "Save": "Save entity",
+                    "Message": "{0} entity was modified, and saving the entity is required to continue."
+                }
+            },
+            "AddCommunicationOptionsRequestPropertiesPanel": {
+                "ViewSelectCaption": "コミュニケーションオプションをどこに追加しますか？"
+            },
+            "AllowedResultsPropertiesPage": {
+                "PageCaption": "許可された結果"
+            },
+            "AppearanceSettingsPropertyPanel": {
+                "ButtonSizeFieldLabel": "モーダルウィンドウのサイズ"
+            },
+            "DeleteRecordsRequestPropertiesPanel": {
+                "SelectDataToDelete": "どのデータを削除しますか？"
+            },
+            "TagSelectPropertiesPanelComponent": {
+                "PageCaption": "タグ設定",
+                "GeneralCaption": "一般",
+                "AppearanceCaption": "外観",
+                "CaptionLabel": "タイトル",
+                "CaptionPlaceholder": "タグ",
+                "RecordLabel": "タグを付けるレコード",
+                "TagInRecordSourceSchemaName": "タグの保存場所",
+                "LabelPosition": "タイトルの位置",
+                "LabelPositionVariants": {
+                    "Auto": "自動",
+                    "Left": "左",
+                    "Above": "上",
+                    "Hidden": "非表示"
+                }
+            },
+            "SchemaOutletPropertiesPage": {
+                "PageCaption": "スキーマコンテナ設定"
+            },
+            "ActivityColumnsMapingComponent": {
+                "EmailLinksCaption": "メールリンク",
+                "ActivityColumn": "アクティビティ列",
+                "PageColumn": "データ属性",
+                "EmailLinksBlankSlate": "メールアドレスはPDSにのみリンクされます。プラスボタンを使用して他のエンティティとのリンクを設定してください。"
+            },
+            "SelectLookupPageRequestPropertiesPanel": {
+                "ViewSelectCaption": "どのデータを選択しますか？",
+                "InfoMessage": "選択したレコードはカスタムコードで処理されます。"
+            },
+            "SetRecordRightsRequestPropertiesPanel": {
+                "OpenInModalWindowCaption": "モーダルウィンドウで開く"
+            },
+            "BaseTagsInRecordsRequestPropertiesPanel": {
+                "TagInRecordSourceSchemaName": "タグの保存場所"
+            },
+            "AddTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToAddTagsCaption": "タグを追加するデータはどれですか？"
+            },
+            "RemoveTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToRemoveTagsCaption": "タグを削除するデータはどれですか？"
+            },
+            "AddRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToAddInStaticFoldersCaption": "どのレコードを静的フォルダーに追加しますか？"
+            },
+            "RemoveRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToRemoveInStaticFoldersCaption": "どのレコードを静的フォルダーから削除しますか？"
+            },
+            "EntityHierarchyFilterPropertiesPanel": {
+                "HeaderLabel": "エンティティ階層フィルタ",
+                "GeneralCaption": "一般的な",
+                "SchemaNameCaption": "階層を構築するオブジェクトを選択",
+                "HierarchySetup": "階層設定",
+                "SchemaNameSelectTooltip": "階層を構築するオブジェクトを選択します。すべてのシステムオブジェクトがドロップダウンメニューに表示されます。 階層を構成した後、事前設定されたフィルターとして指定して リスト コンポーネントにリンクします。",
+                "ApplyStaticFilter": "静的フィルターを適用",
+                "EditStaticFilterAction": "フィルターを編集",
+                "FiltersDialogCaption": "手動で定義したフィルター",
+                "SetupStaticFilterAction": "フィルターを設定"
+            },
+            "EntityHierarchySetupContainerPropertiesPanel": {
+                "AddNewItem": "新しい階層列を追加",
+                "ContextMenu": {
+                    "AddToSubmenu": "サブ階層を追加",
+                    "Edit": "編集",
+                    "Delete": "削除"
+                }
+            },
+            "PlaybookPropertiesPage": {
+                "PageCaption": "プレイブック設定",
+                "GeneralGroup": {
+                    "Caption": "全般",
+                    "EmptyDataSourceHint": "データソースがページに追加されません。コンポーネントを設定するために既存のデータソースを追加してください",
+                    "Tooltip": "コンポーネントは、特定のダイナミックケースステージからナレッジベースの情報にアクセスするためのヒントと指示をユーザーに表示します。プレイブックのセクションで関連記事を設定できます。詳細については、 ",
+                    "AcademyLink": "<a href=\"https://academy.creatio.com/docs/8.x/\" target=\"_blank\">academy</a>.",
+                    "OpenPlaybookButton": "プレイブックを開く"
+                },
+                "SelectDataSource": "データソース"
+            },
+            "CopilotActionRequestPropertiesPanelComponent": {
+                "PromptLabel": "Creatio AI プロンプト",
+                "PromptTooltip": "ボタンがクリックされたときに実行されるCreatio.AIプロンプトを入力します。応答はCreatio.AIサイドバーに送信されます。"
+            },
+            "LookupAttributePropertiesPanel": {
+                "RefSchemaNoDisplayValueValidationMessage": "表示値がないオブジェクトはルックアップとして使用できません。設定でオブジェクト表示値を設定してください。"
+            },
+            "SaveRecordRequestPropertiesPanel": {
+                "PreventCardCloseInNewRecord": "レコードが作成された後もページに留まる",
+                "ReloadSavedRecord": "保存したレコードを再読み込み",
+                "ReloadSavedRecordHint": "保存後、サーバーからレコードを再読み込みし、サーバー側の変更（例：古い自動番号付け）がすぐに表示されるようにします。新しい自動番号フィールドには必要ありません。"
+            },
+            "ActionNotificationPropertiesPanel": {
+                "MessageText": "メッセージ テキスト",
+                "ShowSuccessMessage": "完了後に成功メッセージを表示"
+            },
+            "DataGridHierarchicalPropertiesPage": {
+                "PageCaption": "Hierarchical list settings",
+                "ParentColumnLabel": "Parent defining column",
+                "MaxRecordsLabel": "Maximum number of records",
+                "MaxRecordsTooltip": "Specifies the maximum number of records to load into the hierarchical list. If available records exceed this limit, only the specified number of records is loaded. If not specified, the value is taken from the \"Maximum number of records in hierarchical list\" (HierarchicalListMaxRecordsCount code) system setting, or 5,000 records by default when that setting is not configured.",
+                "InfoHint": "This component is designed for small data sets. Limit maximum number of records using the \"Maximum number of records\" field and narrow the data scope using the \"Apply filter by page data\" block."
+            }
+        },
+        "SaveMessage": "すべての変更が保存されます。続行しますか？",
+        "MainHeader": {
+            "Title": "タイトル",
+            "CommandLinePlaceholder": "ご用件は何ですか？"
+        },
+        "SaveConfirmationDialog": {
+            "Message": "このページには保存されていない変更が含まれています。ページを閉じると変更が失われます。変更を保存しますか？",
+            "Save": "保存",
+            "DoNotSave": "保存しない",
+            "Cancel": "キャンセル"
+        },
+        "SetupEntityDialog": {
+            "Title": "新しいオブジェクト"
+        },
+        "Caption": "デザイナー",
+        "ModelDependencyCycleDetectedError": "モデル {0} 間の円形依存関係を検出しました",
+        "Commands": {
+            "RemoveDataSourceItem": {
+                "SuccessfullyRemoved": "パラメータ \"{{parameterCaption}}\" が削除されました"
+            }
+        },
+        "Components": {
+            "DataSourceAttributeCommonPropertiesComponent": {
+                "TitleCaption": "タイトル",
+                "NameCaption": "コード",
+                "FormatCaption": "書式",
+                "ReferenceSchemaCaption": "参照",
+                "RequiredCaption": "必須",
+                "Validations": {
+                    "RequiredNameMessage": "入力してください"
+                }
+            },
+            "CollectionSortingComponent": {
+                "SortAscendingTitle": "昇順にソート",
+                "SortDescendingTitle": "昇順にソート",
+                "SortingColumnLabel": "Sort by column"
+            },
+            "StaticFilterSelectComponent": {
+                "ApplyStaticFilter": "静的フィルターを適用",
+                "EditStaticFilterAction": "フィルターを編集",
+                "FiltersDialogCaption": "手動で定義したフィルター",
+                "SetupStaticFilterAction": "フィルターを設定"
+            }
+        },
+        "NotFoundDataSourceObject": {
+            "GroupObjectCaption": "データソースエラー",
+            "ErrorMessage": "'{1}' データソースで参照されている '{0}' オブジェクトは名前が変更されたか削除されました。ページデザイナーで作業を続ける前に、オブジェクトコードを '{0}' に変更するか、ページソースコード（メタデータ）を更新してください。",
+            "BusinessRulesOpenDialogMessage": "'{1}' データ・ソースで参照されている '{0}' オブジェクトは名前が変更されたか削除されました。ビジネスルールデザイナーを使用するには、オブジェクトコードを '{0}' に変更するか、ページソースコード（メタデータ）を更新してください。"
+        },
+        "UnableCopySchemaError": "\"\" パッケージを変更できません。パッケージはサードパーティのパブリッシャーによって作成されたか、ファイルアーカイブからインストールされています。",
+        "Operation": {
+            "Copy": "コピー"
+        },
+        "ModelDependencyNotFoundError": "{{names}} データソースの関係基準が設定されていません",
+        "ModelDependencyNotFoundErrorMultiple": "{{names}} データソースの関係基準が設定されていません",
+        "MissingDependenciesDialog": {
+            "Title": "Missing dependencies detected",
+            "Intro": "This page includes elements from packages that are not listed as dependencies of the current package.",
+            "Reason": "Such configurations are no longer supported to prevent circular dependencies and ensure a maintainable application structure.",
+            "InstructionTemplate": {
+                "Prefix": "Please",
+                "ActionLink": "add dependencies",
+                "PackageContext": "in the '{{ missedPackageName }}' package",
+                "Suffix": "to the following packages before editing this page"
+            }
+        },
+        "MissingDependenciesNotification": {
+            "Description": "Cannot save the page. Please add the required dependencies before making further changes to page.",
+            "Action": {
+                "Caption": "詳細を表示"
+            }
+        },
+        "SaveOutdatedConfirmation": {
+            "Header": "Newer version available",
+            "Message": "{0} saved changes to this page {1} ago. Saving now will replace their version with yours.",
+            "CancelButton": "キャンセル",
+            "SaveButton": "保存"
+        },
+        "SaveOverwriteConfirmation": {
+            "Header": "Replace a newer version?",
+            "Message": "You're about to replace {0}'s recent changes with your version.",
+            "CancelButton": "キャンセル",
+            "ConfirmButton": "Overwrite anyway"
+        }
+    },
+    "ApplicationManagement": {
+        "CreateApplicationComponent": {
+            "WaitTitle": "デフォルトのコンテンツをアプリケーションに追加",
+            "WaitTitleGenAI": "アプリケーションの生成"
+        },
+        "ApplicationInfoDialogComponent": {
+            "HeaderCaption": "新しいアプリケーション",
+            "HeaderEditCaption": "アプリケーションの編集",
+            "InputNameCaption": "アプリケーション名",
+            "ApplicationCodeCaption": "アプリケーションコード",
+            "InputDescriptionCaption": "何のためのものか説明してください（オプション）",
+            "InputDescriptionPlaceholder": "アプリケーションについていくつかの単語を書いてください",
+            "CancelButtonCaption": "キャンセル",
+            "CreateButtonCaption": "作成",
+            "SaveButtonCaption": "保存",
+            "DisclaimerCaption": "ボタン「AIで生成」をクリックすると、リクエストが OpenAI モデルによって処理されることに同意したことになります。 利用規約とポリシーは <a class=\"document-link\" href=\"https://openai.com/policies\" target=\"_blank\">こちら</a>をご覧ください。 Creatioはエージェントとして機能しており、OpenAIによって生成されたいかなる結果についても責任を負うことはできません。",
+            "HeaderCarouselCaption": "アイコンと色の選択",
+            "InputAIDescriptionCaption": "目的を説明してください",
+            "InputAIDescriptionPlaceholder": "アプリケーションについて単語を書くと、それを自動的に作成します。",
+            "GenerateWithAIButtonCaption": "AIで生成",
+            "UseExistingObjectTooltip": "新しいオブジェクトを作成する代わりに、セクションを既存のオブジェクトにリンクすることを選択します。",
+            "AdvancedModeButtonCaption": "高度なパラメータ",
+            "NamePlaceholder": "アプリケーションに名前を付ける",
+            "CodePlaceholder": "固有のアプリケーションIDを作成",
+            "CodeTooltip": "アプリケーションコードは、アプリケーションが別の環境にインストールされるときに一意の識別子として使用されます。 また、テンプレート内にスキームがある場合にセクション要素コードを生成するためにコードを使用することができます。",
+            "HeaderViewCaption": "アプリケーション情報の表示",
+            "CloseButtonCaption": "閉じる",
+            "VersionInputCaption": "バージョン",
+            "VersionInputPlaceholder": "0.0.0",
+            "AppStartPageCaption": "デフォルトページ",
+            "AppStartPageTooltip": "アプリページを開くには、アプリのホームページまたはセクション一覧ページをクリックします。",
+            "AppStartPageAutoItem": "自動",
+            "CreateMobilePagesTooltip": "Clear this option to create a web-only app"
+        },
+        "ApplicationValidatorService": {
+            "InvalidCharactersForName": "名前には \"- _\" の文字だけが使用できます",
+            "InvalidCharactersForCode": "コードに許可されているのはラテン文字と数字のみで、0-9の記号は最初の文字にはできません。",
+            "ApplicationNameAlreadyExists": "名前 \"{0}\" を持つアプリケーションは既に存在します",
+            "ApplicationCodeAlreadyExists": "このアプリケーションコードまたはパッケージ名は既に使用されています",
+            "InvalidApplicationCodePrefix": "コードは \"{0}\" プレフィックスで始める必要があります",
+            "FirstSymbolIsNotLetterAndNotDigit": "名前は文字または数字で始まる必要があります",
+            "EntityNameAlreadyExists": "このコードのオブジェクトは既に存在します",
+            "InvalidVersion": "X.Y または X.Y.Z 形式でバージョン番号を入力してください。例: 1.0, 1.2, 1.0.0, 1.2.0 など。",
+            "InvalidRequiredPlatformVersion": "X.Y.Zフォーマットまたはバージョン範囲X.Y.Z - X.Y.Zの有効なCreatioバージョンを入力してください。例えば、8.3.0または8.3.0 - 8.4.3。",
+            "InvalidRequiredPlatformVersionRange": "最大バージョンは最小バージョンより大きくなければなりません。",
+            "InvalidAppDependencyVersion": "次の形式のいずれかを使用してください：\n- 最小必須バージョン：X.Y または X.Y.Z\n- バージョン範囲：X.Y - X.Y または X.Y.Z - X.Y.Z",
+            "InvalidAppDependencyVersionRange": "最大バージョンは最小バージョンより大きくなければなりません。"
+        },
+        "ApplicationManagementDialogComponent": {
+            "DialogHeaderCaption": "アプリのプロパティ",
+            "PropertiesTabCaption": "一般的な",
+            "DependenciesTabCaption": "依存関係",
+            "Properties": {
+                "IconCaption": "アイコン",
+                "ColorCaption": "色",
+                "InputNameCaption": "アプリケーション名",
+                "NamePlaceholder": "アプリケーションに名前を付ける",
+                "DefaultAppPageCaption": "デフォルトメインページ",
+                "AppStartPageTooltip": "アプリページを開くには、アプリのホームページまたはセクション一覧ページをクリックします。",
+                "ApplicationCodeCaption": "アプリケーションコード",
+                "Developer": "開発者",
+                "InputDescriptionCaption": "何のためのものか説明してください（オプション）",
+                "InputDescriptionPlaceholder": "アプリケーションについていくつかの単語を書いてください",
+                "CreatedOn": "作成日時",
+                "LastUpdate": "最新の更新",
+                "Created": "作成済み"
+            },
+            "Dependencies": {
+                "AddDependencyCaption": "依存関係を追加",
+                "ApplicationNameCaption": "名称",
+                "DeleteCaption": "削除",
+                "RequiredPlatformVersionCaption": "必要なプラットフォームのバージョン",
+                "RequiredPlatformVersionTooltip": "1つの必須バージョンのみを指定すると、アプリケーションはそのバージョンとCreatioの後のバージョンにインストールできます。また、ハイフンを使用して互換性のあるバージョン範囲を指定することもできます。例えば：「8.3.0 - 8.4.3」。",
+                "RequiredPlatformVersionSubCaption": "アプリケーション「{0}」のための最小限の必要なCreatioバージョンまたは互換性のあるバージョン範囲。現在のCreatioバージョンは{1}です。",
+                "RequiredDependenciesCaption": "必要な依存関係",
+                "RequiredDependenciesSubCaption": "他のアプリケーションやパッケージからの要素を使用してアプリケーションを拡張するために依存関係を設定します。必要な依存関係が不足している、バージョンが最低限要求されるものより低い、またはサポートされているバージョン範囲に入っていない環境にはアプリケーションをインストールできません。「{0}」アプリケーションは、以下のアプリケーションまたはパッケージに依存しています：",
+                "AddCaption": "追加",
+                "TypeCaption": "連絡先タイプ",
+                "DeveloperCaption": "開発者",
+                "VersionCaption": "必要なプラットフォームのバージョン",
+                "ApplicationVersionTooltip": "単一のバージョンを指定した場合、アプリケーション「{0}」は、そのバージョンまたはそれ以降のバージョンで依存アプリケーションがインストールされている場合にのみインストール可能です。\nハイフンを使ってバージョン範囲を指定することも可能です。例えば: 1.0 - 2.0 または 1.0.0 - 2.0.0。",
+                "PackageVersionTooltip": "バージョンは「アプリケーション」タイプの依存関係にのみ指定できます"
+            },
+            "CancelButtonCaption": "キャンセル",
+            "SaveButtonCaption": "保存",
+            "CloseButtonCaption": "閉じる",
+            "DependenciesValidationError": "アプリケーション依存関係の保存中にエラーが発生しました",
+            "VersionTabCaption": "バージョン",
+            "Version": {
+                "VersionInputCaption": "Application Version",
+                "VersionInputPlaceholder": "0.0.0",
+                "VersionInputTooltip": "A version number follows the format <b>Major.Minor.Patch</b>, where each component has the following meaning:<ul><li><b>Major</b> – breaking changes</li><li><b>Minor</b> – new features that are backward compatible</li><li><b>Patch</b> – backward-compatible bug fixes only</li></ul>For example: 2.1.4. <a href='https://academy.creatio.com/documents?id=2584' target='_blank' rel='noopener noreferrer'>Learn more in the Academy</a>.",
+                "VersionInputHint1": "We recommend releasing any changes to the application using a new version number. Based on your current version {0}, consider using one of the following versioning options, depending on the significance of the changes: ",
+                "VersionInputHint2": " or ",
+                "VersionInputHint3": ", depending on the significance of the changes.",
+                "VersionMajorPart": "Major {0}",
+                "VersionMinorPart": "Minor {0}",
+                "VersionPatchPart": "Patch {0}"
+            }
+        }
+    },
+    "Validators": {
+        "Autocomplete": {
+            "Message": "リストから項目を選択してください"
+        },
+        "Required": {
+            "Message": "入力してください"
+        },
+        "MaxLength": {
+            "Message": "最大文字数を超えました({{actualLength}}/{{maxLength}})"
+        },
+        "MinLength": {
+            "Message": "最小文字数に達していません ({{actualLength}}/{{minLength}})"
+        },
+        "Min": {
+            "Message": "最小値は {{min}} です"
+        },
+        "Max": {
+            "Message": "最大数は {{max}} です"
+        },
+        "GridColumnsCount": {
+            "Message": "要素を含む列は削除できません。列番号を減らすには、要素を削除するか、他の列に移動します。"
+        },
+        "Email": {
+            "Message": "無効なメール形式です"
+        },
+        "ColorPicker": {
+            "Message": "アクションエラー。無効なHEXフォーマットが選択されました。"
+        },
+        "Link": {
+            "Message": "無効なURL形式です"
+        }
+    },
+    "UserProfile": {
+        "Profile": "ユーザープロフィール",
+        "Photo": "写真",
+        "FirstLastName": "フルネーム",
+        "Organization": "組織",
+        "Language": "言語",
+        "TimeZone": "タイムゾーン",
+        "DateTimeFormat": "日付と時刻の形式",
+        "Role": "役割",
+        "Active": "対応可能",
+        "Status": "ステータス",
+        "Invited": "招待済み",
+        "Email": "Email",
+        "ChangeEmail": "メールアドレス変更",
+        "ChangeEmailButton": "変更してログアウト",
+        "EmailChanged": "メールアドレスが正常に変更されました",
+        "ResendConfirmEmailSuccess": "確認メールが送信されました",
+        "ResendConfirmEmailError": "確認メールは送信されませんでした",
+        "NotConfirmedEmail": "登録を確認するためにメールを確認してください",
+        "Password": "パスワード",
+        "ChangePassword": "パスワード変更",
+        "ChangePasswordError": "パスワード変更中にエラーが発生しました",
+        "ResetPasswordValidationError": "このメールにアクセスするユーザーはいません。",
+        "ConnectedAccounts": "接続済みアカウント",
+        "DisconnectAccountError": "選択したアカウントを切断できません",
+        "DeleteProfile": "プロファイルの削除",
+        "ChangesSaved": "変更は保存されました",
+        "SavingError": "データ保存中にエラーが発生しました",
+        "ApplyChanges": "保存",
+        "ReloginError": "変更は適用されませんでした。変更を適用するには再ログインしてください。",
+        "NewEmail": "新しいメール",
+        "CurrentPassword": "現在のパスワード",
+        "WrongPassword": "間違ったパスワード",
+        "ExistsEmailError": "このメールアドレスは既に使用されています",
+        "ChangeEmailError": "内部エラーです。メールは変更されませんでした。後でもう一度お試しください。",
+        "EmailNotConfirmed": "メールアドレスが確認されていません",
+        "ResendConfirm": "確認の再送",
+        "ConnectedAccountsSectionCaption": "接続されたサードパーティアカウント",
+        "Back": "戻る",
+        "Logins": {
+            "AddNewLogin": "追加",
+            "DisconnectAccount": "接続解除",
+            "LoginAlreadyAssociated": "アカウントは別のユーザーに接続されています",
+            "DefaultConnectionErrorMessage": "ソーシャルネットワークに接続できませんでした"
+        },
+        "FirstName": "名",
+        "LastName": "姓",
+        "OrganizationWebsite": "ウェブサイト",
+        "PasswordResetIsNotAllowed": "このアカウントのパスワードリセットが最近要求されました。数分後にもう一度お試しください。"
+    },
+    "OrganizationUserSection": {
+        "GridColumns": {
+            "id": "ID",
+            "fullName": "フルネーム",
+            "email": "Email",
+            "status": "ステータス",
+            "role": "役割",
+            "lastActivity": "最終アクティビティ"
+        },
+        "GridActions": {
+            "Activate": "有効にする",
+            "Deactivate": "無効にする",
+            "Edit": "編集",
+            "Resend": "招待の再送",
+            "Cancel": "招待のキャンセル"
+        },
+        "UserStatus": {
+            "Active": "対応可能",
+            "Inactive": "対応不可",
+            "Invited": "招待が送信されました"
+        },
+        "AddUser": "+ ユーザー追加",
+        "ChangeStatusMessage": {
+            "activate": "ユーザーが有効になりました",
+            "deactivate": "ユーザーが無効になりました"
+        },
+        "InvitationSent": "招待が送信されました",
+        "InviteUsersPage": {
+            "NewUser": "新規ユーザー",
+            "Back": "戻る",
+            "Role": "役割",
+            "Email": "ビジネスメール",
+            "Collaborators": "招待したユーザー",
+            "SendInvite": "招待",
+            "InviteSuccess": "招待が送信されました",
+            "EmailExists": "ユーザー {0} は既に組織に招待されています",
+            "GoToProfile": "プロフィールに移動"
+        }
+    },
+    "UserProfileActionComponent": {
+        "YourProfileActionCaption": "あなたのプロフィール",
+        "LogoutActionCaption": "ログアウト"
+    },
+    "EnvironmentManagement": {
+        "WaitTrialPage": {
+            "DemoDataToggleCaption": "デモデータをシステムに入力してください",
+            "Description": "このアカウントはログインに使用されます",
+            "Continue": "続ける",
+            "ConfirmRegistration": {
+                "RegistrationSuccessful": "登録が完了しました！",
+                "CreateFirstApp": "今すぐ最初のアプリを作成しますか？",
+                "GuideMeButtonCaption": "はい、新しいアプリを作成します",
+                "ManageButtonCaption": "いいえ、後でやります。"
+            },
+            "WaitPage": {
+                "StudioEnterpriseMessage": "あなたの<strong>最初のアプリ</strong>を<br />すぐに作成できます!",
+                "CRMMessage": "本格的な<strong>マーケティング、販売、サービス</strong>製品を1つのノーコード・プラットフォームに統合したものを、すぐに試せます！",
+                "CreatioIsHotMessage": "Creatio<br />が熱い!",
+                "TrialTimeoutMessage": "私たちはそれに取り組んでいます! しかし、高い需要により、<br />あなたのトライアルの配信が遅れる可能性があります。",
+                "SendTrialEmail": "お時間をいただきありがとうございます。<br />トライアルの準備ができ次第、メールをお送りいたします。",
+                "GoToApplications": "アプリケーションハブに移動"
+            }
+        }
+    },
+    "OperationPermissionsErrorDialog": {
+        "ErrorTemplate": "この操作を実行する権限がありません。\nシステム管理者に連絡し、コードを使用して次のシステム操作を実行する許可を要求してください。: «{0}» システム操作の権限は、システムデザイナーの「操作権限」セクションで管理されます。"
+    },
+    "ViewElementGroup": {
+        "ChartsGroupCaption": "チャート",
+        "ComponentsGroupCaption": "コンポーネント",
+        "LayoutElementsGroupCaption": "レイアウト要素",
+        "InputsGroupCaption": "入力",
+        "CustomElementsGroupCaption": "カスタム要素"
+    },
+    "AggregationNames": {
+        "Count": "レコード数",
+        "Sum": "合計値",
+        "Avg": "平均値",
+        "MinValue": "最小値",
+        "MaxValue": "最大値",
+        "MinDate": "最小日付",
+        "MaxDate": "最大日付",
+        "TopOne": "最初のレコード値",
+        "AtLeastOneRecord": "At least one record",
+        "NoRecords": "No records"
+    },
+    "TypeCaptions": {
+        "GridContainer": "グリッドコンテナ",
+        "FlexContainer": "フレックスコンテナ",
+        "TabContainer": "タブ",
+        "MenuItem": "メニュー項目",
+        "ChartWidget": "チャート",
+        "TimelineTile": "タイムライン"
+    },
+    "DialogComponent": {
+        "CancelButtonDialog": "キャンセル",
+        "SaveButtonDialog": "保存",
+        "CloseButtonDialog": "閉じる"
+    },
+    "SsoSettings": {
+        "Validators": {
+            "AdfsTenant": {
+                "Message": "値は空であったりhttp:// や https:// で始めてはいけません。"
+            },
+            "StringUrl": {
+                "Message": "値は有効な URL でなければなりません"
+            },
+            "IsJsonValidator": {
+                "Message": "値は有効な URL でなければなりません"
+            }
+        },
+        "SsoIdentityProvider": {
+            "DuplicationError": "このプロバイダは既に存在します。入力情報を確認してください。",
+            "SigningSettingsError": "SAML 署名の設定が正しくありません。入力された情報を確認してください。"
+        }
+    },
+    "BusinessRuleAction": {
+        "StructureExplorer": {
+            "Title": "要素を選択",
+            "ElementsTab": "{0}要素{1}"
+        }
+    },
+    "FileSizeUnit": {
+        "Byte": "bytes",
+        "Bytes": "bytes",
+        "Kilobyte": "KB",
+        "Megabyte": "MB",
+        "Gigabyte": "GB"
+    },
+    "Approvals": {
+        "ComponentHeaderLabel": "承認が必要です。"
+    },
+    "pageParametersDataSource": "ページパラメータ",
+    "RelationshipDesignerModal": {
+        "Caption": "{{schemaName}} の関係"
+    },
+    "RelationshipDesigner": {
+        "DeleteItemMessage": "アイテムを削除してもよろしいですか？",
+        "RequiredControlErrorMessage": "値を入力してください"
+    },
+    "RelationshipDiagram": {
+        "NoAccess": "関係を変更するアクセス権がありません",
+        "Tools": {
+            "FitToView": "表示に合わせる",
+            "ResetView": "表示をリセット",
+            "ZoomIn": "拡大",
+            "ZoomOut": "縮小",
+            "MiniMapClose": "ミニマップを閉じる",
+            "MiniMapOpen": "ミニマップを開く"
+        }
+    },
+    "GroupsPropertiesPage": {
+        "Title": "グループ",
+        "Search": "検索"
+    },
+    "GroupPropertiesDialog": {
+        "Cancel": "キャンセル",
+        "Comment": "コメント",
+        "EditGroup": "グループの編集",
+        "Name": "名前",
+        "NewGroup": "新しいグループ",
+        "Save": "保存"
+    },
+    "EntityInGroupPropertiesDialog": {
+        "AddToGroup": "グループに追加",
+        "Cancel": "キャンセル",
+        "Comment": "コメント",
+        "Edit": "編集",
+        "Group": "グループ",
+        "Save": "保存"
+    },
+    "ConnectionPropertiesPage": {
+        "Comment": "コメント",
+        "Relations": "関連",
+        "RelationshipType": "関係タイプ",
+        "Title": "関係"
+    },
+    "ContainerPropertiesPage": {
+        "Address": "住所",
+        "Email": "Email",
+        "GeneralInformation": "一般的な情報",
+        "Groups": "グループ",
+        "Phone": "電話",
+        "RelationshipsWith": "関連項目 ({0})",
+        "Type": "タイプ",
+        "Web": "ウェブ"
+    },
+    "ObjectPermissions": {
+        "Warning": "警告! ",
+        "OperationsPoint": "このセクションページのルックアップフィールドで使用されるオブジェクトが構成されていません。 現在のアクセス権限によると、以下にリストされているオブジェクトは外部ユーザーには使用できません。",
+        "RecordsPoint": "このセクションページのルックアップ項目で使用されるオブジェクトは安全ではありません。 現在のアクセス権限に従って、以下にリストされているオブジェクトからのすべてのレコードは、外部ユーザーが完全に使用できます。",
+        "SetProperPermissionsBegin": "適切なアクセス許可を設定するには、次でこれらのオブジェクトの操作と記録の許可をオンにしてください \"",
+        "ObjectPermissions": "オブジェクトの権限",
+        "SetProperPermissionsEnd": "\" システムデザイナーのセクション",
+        "Link": "オブジェクトの権限を今すぐ更新",
+        "End": "注：既存のレコードのアクセス権を個別に設定し、他のユーザーがそのレコードを操作できるようにする必要がある場合があります。",
+        "UpdateObjectPermissionsMessage": "現在の権限設定が変更されます。これはすべてのユーザーのシステムパフォーマンスに影響を与える可能性があります。オブジェクトの権限を今すぐ更新しますか？"
+    },
+    "LocalizableTextInput": {
+        "ButtonTitle": "多言語設定"
+    },
+    "ExpansionButton": {
+        "ExpandTooltip": "拡張パネル",
+        "CollapseTooltip": "パネルを折りたたむ"
+    },
+    "MultilanguageEmailTemplates": {
+        "TranslateHeadersTitle": "多言語テンプレートのヘッダを設定",
+        "TranslateDescription": "多言語テンプレートに言語固有のヘッダーを追加します。さらに言語を追加するには、テンプレート設定を更新してください。",
+        "AcademyUrl": "https://academy.creatio.com/documents?id=2571"
+    },
+    "isValueMaskedCaption": "表示された値",
+    "maskTypeCaption": "マスクの種類",
+    "maskOperationCaption": "操作権限",
+    "ValueMaskingSettings": {
+        "HideAllMaskTitle": "すべての文字を隠す",
+        "ShowOnlyLast4CharsMaskTitle": "最後の4文字のみ表示",
+        "BankCardMaskTitle": "銀行のカード",
+        "SSNMaskTitle": "SSH",
+        "SINMaskTitle": "sin"
+    },
+    "blockDeletionTooltip": "Prevents deleting the lookup value if it is referenced by records in the current object.",
+    "DeleteRecordsTooltip": "Deletes related records in the current object when the lookup value is deleted.",
+    "selectionWindowTooltip": "Opens a separate selection window to choose a lookup value.",
+    "listTooltip": "Lets users select a lookup value directly from a dropdown list."
+}

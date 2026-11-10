@@ -1,0 +1,58 @@
+﻿define("Webhooks_FormPageResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		GridDetailSearchFilter_mlkx9ya_placeholder: "\u041F\u043E\u0438\u0441\u043A",
+		GridDetailImportDataBtn_7zlgukc_caption: "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430 \u0434\u0430\u043D\u043D\u044B\u0445",
+		GridDetailExportDataBtn_79lllnb_caption: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442 \u0432 Excel",
+		GridDetailSettingsBtn_uujeiz5_caption: "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u044F",
+		GridDetailRefreshBtn_5putbnx_caption: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C",
+		GridDetailAddBtn_7yddngl_caption: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C",
+		ExpansionPanel_ke87l82_title: "\u041B\u043E\u0433\u0438",
+		addRecord_cft7qje_caption: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043D\u043E\u0432\u043E\u0433\u043E",
+		Button_d5cyapl_caption: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C",
+		SearchFilter_mtu5uuy_mlkx9ya_placeholder: "\u041F\u043E\u0438\u0441\u043A",
+		Button_d5cyapl_5putbnx_caption: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C",
+		Button_sbfnxqz_caption: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442 \u0432 Excel",
+		Button_sbfnxqz_uujeiz5_caption: "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u044F",
+		Label_yemsgau_caption: "\u0420\u0430\u0437\u0431\u043E\u0440 \u0438\u0441\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0439",
+		GridDetailSettingsBtn_caption: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442 \u0432 Excel",
+		Label_3skux8s_caption: "\u0412\u0435\u0431\u0445\u0443\u043A",
+		SearchFilter_mtu5uuy_placeholder: "\u041F\u043E\u0438\u0441\u043A",
+		EmptySectionPlaceholderSubHead: "\u0414\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u043D\u043E\u0432\u0443\u044E \u0437\u0430\u043F\u0438\u0441\u044C, \u0438 \u0432 \u0440\u0430\u0437\u0434\u0435\u043B\u0435 \u043D\u0435 \u0431\u0443\u0434\u0435\u0442 \u0442\u0430\u043A \u043E\u0434\u0438\u043D\u043E\u043A\u043E",
+		EmptySectionPlaceholderTitle: "\u0412 \u0440\u0430\u0437\u0434\u0435\u043B\u0435 \u043D\u0435\u0442 \u043D\u0438 \u043E\u0434\u043D\u043E\u0439 \u0437\u0430\u043F\u0438\u0441\u0438",
+		FilteredEmptySectionPlaceholderSubHead: "\u041E\u0447\u0438\u0441\u0442\u0438\u0442\u0435 \u0444\u0438\u043B\u044C\u0442\u0440 \u0438\u043B\u0438 \u0438\u0437\u043C\u0435\u043D\u0438\u0442\u0435 \u0443\u0441\u043B\u043E\u0432\u0438\u044F \u0444\u0438\u043B\u044C\u0442\u0440\u0430\u0446\u0438\u0438",
+		FilteredEmptySectionPlaceholderTitle: "\u041F\u0440\u0438 \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u043D\u043E\u043C \u0444\u0438\u043B\u044C\u0442\u0440\u0435 \u0432 \u0440\u0430\u0437\u0434\u0435\u043B\u0435 \u043D\u0435\u0442 \u043D\u0438 \u043E\u0434\u043D\u043E\u0439 \u0437\u0430\u043F\u0438\u0441\u0438",
+		ExportLogGridActionButton_caption: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442 \u0432 Excel",
+		Label_m2bn6gt_caption: "\u0414\u0435\u0442\u0430\u043B\u0438 \u0432\u0435\u0431\u0445\u0443\u043A\u0430",
+		OpenLogsMenuItem_caption: "\u041E\u0442\u043A\u0440\u044B\u0442\u044C \u043B\u043E\u0433\u0438",
+		ActionMenuButton_caption: "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u044F",
+		MenuItem_pc7dfn0_caption: "\u041E\u0442\u043A\u0440\u044B\u0442\u044C \u043B\u043E\u0433\u0438",
+		MenuItem_w5sfudk_caption: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442 \u0432 Excel",
+		Button_j3n0gm2_caption: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442 \u0432 Excel",
+		ErrorsLogGridTitle_caption: "\u041E\u0448\u0438\u0431\u043A\u0438 \u0440\u0430\u0437\u0431\u043E\u0440\u0430 \u0432\u0435\u0431\u0445\u0443\u043A\u0430",
+		SearchLogGridActionButton_placeholder: "\u041F\u043E\u0438\u0441\u043A",
+		RefreshLogGridActionButton_caption: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C",
+		ExportMenuItem_caption: "\u042D\u043A\u0441\u043F\u043E\u0440\u0442 \u0432 Excel",
+		ActionsMenuButton_caption: "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u044F",
+		PageFixedTitle_caption: "\u0412\u0435\u0431\u0445\u0443\u043A",
+		DeleteActionCaption: "\u0423\u0434\u0430\u043B\u0438\u0442\u044C",
+		AttachmentAddButtonCaption: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C",
+		AttachmentRefreshButtonCaption: "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C",
+		AttachmentsTabContainerCaption: "\u0424\u0430\u0439\u043B\u044B",
+		BackButton: "\u041D\u0430\u0437\u0430\u0434",
+		CancelButton: "\u041E\u0442\u043C\u0435\u043D\u0430",
+		CloseButton: "\u0417\u0430\u043A\u0440\u044B\u0442\u044C",
+		DefaultHeaderCaption: "\u0417\u0430\u0433\u043E\u043B\u043E\u0432\u043E\u043A \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u044B",
+		FeedTabContainerCaption: "\u041B\u0435\u043D\u0442\u0430",
+		GeneralInfoTab_caption: "\u0414\u0435\u0442\u0430\u043B\u0438 \u0432\u0435\u0431\u0445\u0443\u043A\u0430",
+		NewRecord: "\u041D\u043E\u0432\u0430\u044F \u0437\u0430\u043F\u0438\u0441\u044C",
+		Record: "\u0417\u0430\u043F\u0438\u0441\u044C",
+		SaveButton: "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C",
+		SetRecordRightsButtonCaption: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430 \u043F\u0440\u0430\u0432"
+	};
+	var parametersLocalizableStrings = {};
+	var propertiesLocalizableStrings = {
+		Caption: "\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430 \u0437\u0430\u043F\u0438\u0441\u0438 Webhooks"
+	};
+	var localizableImages = {};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages, parametersLocalizableStrings: parametersLocalizableStrings, propertiesLocalizableStrings: propertiesLocalizableStrings};
+});

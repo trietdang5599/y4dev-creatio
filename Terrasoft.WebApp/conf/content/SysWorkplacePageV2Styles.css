@@ -1,0 +1,13 @@
+﻿.home-page-button-container {
+  display: flex;
+}
+.home-page-button-container .open-home-page-designer-button {
+  padding: initial;
+}
+.home-page-button-container .open-home-page-designer-button .t-btn-image {
+  height: 32px;
+  width: 32px;
+}
+.home-page-button-container .open-home-page-designer-button.t-btn-disabled .t-btn-image {
+  opacity: 0.5;
+}

@@ -1,0 +1,26 @@
+﻿chatsettingspage #ChannelsList crt-data-table colgroup > col:nth-child(2) {
+  width: 0px !important;
+}
+chatsettingspage #ChannelsList crt-data-table th.cdk-column-ValidationStatus {
+  width: 0px !important;
+}
+chatsettingspage #ChannelsList crt-data-table th.cdk-column-ValidationStatus div {
+  display: none;
+}
+chatsettingspage #ChannelsList crt-data-table td.cdk-column-ValidationStatus {
+  z-index: 99;
+  right: 48px;
+  position: sticky;
+}
+chatsettingspage #ChannelsList crt-data-table td.crt-toolbar-cell-numeration > div.crt-toolbar-cell-container {
+  padding-left: 4px;
+}
+chatsettingspage #ChannelsList crt-data-table-crt-placeholder {
+  width: 16px !important;
+  position: absolute;
+  z-index: 100;
+  right: -20px;
+}
+chatsettingspage #ChannelsList crt-data-table-crt-placeholder div.crt-placeholder {
+  padding: 0 !important;
+}

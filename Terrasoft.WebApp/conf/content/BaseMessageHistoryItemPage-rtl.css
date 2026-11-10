@@ -1,0 +1,49 @@
+﻿.historyContainer {
+  margin: 0 0 10px 0;
+}
+.historyContainer .multiline-label-wrap .label-content-container {
+  overflow: auto;
+}
+.historyContainer .createdByImage {
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-left: 0;
+}
+.historyContainer .historyMessageWrap {
+  margin: 0 85px 0 54px;
+  padding: 10px 15px;
+  position: relative;
+}
+.historyContainer .historyMessageWrap .historyMessageHeader {
+  min-height: 20px;
+  display: table;
+  width: 100%;
+}
+.historyContainer .historyMessageWrap .historyMessageHeader * {
+  font-size: 13px;
+  width: auto;
+}
+.historyContainer .historyMessageWrap .historyMessageHeader .createdByLabel {
+  float: right;
+  width: 69%;
+  margin-left: 1%;
+}
+.historyContainer .historyMessageWrap .historyMessageHeader .creationInfoLabel {
+  color: #999;
+  float: left;
+  width: 30%;
+  text-align: left;
+}
+.historyContainer .historyMessageWrap::after {
+  top: 16px;
+  left: -16px;
+  bottom: auto;
+  right: auto;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+}

@@ -1,0 +1,175 @@
+﻿#SmartHtmlEditPageContainer {
+  width: 1120px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#SmartHtmlEditPageContainer .smart-html-header-container {
+  height: 50px;
+}
+#SmartHtmlEditPageContainer .smart-html-header-container .t-title-label-smart-html-edit-page {
+  font-size: 22px;
+  line-height: 30px;
+  color: #00aeef;
+  width: auto;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .t-btn-no-text-padding {
+  align-self: center;
+  min-height: fit-content;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .t-btn-no-text-padding .t-btn-image-left {
+  height: 12px;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .button-background-no-repeat {
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .smart-html-editor-container {
+  width: 100%;
+  padding: 0 14px;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .smart-html-macros-container {
+  width: 400px;
+  height: 493px;
+  display: flex;
+  flex-direction: column;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .smart-html-macros-container .t-title-label-macro-container {
+  line-height: 20px;
+  font-size: 15px;
+  color: #006ce0;
+  flex: 0 1 auto;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .smart-html-macros-container .macros-list-label {
+  font-size: 12px;
+  line-height: 18px;
+  color: #999999;
+  padding-top: 18px;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .macro-item-container {
+  margin-left: 1px;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .macro-item-container .macro-input-container {
+  display: flex;
+  flex-direction: row;
+  line-height: 32px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .macro-item-container :hover,
+#SmartHtmlEditPageContainer .smart-html-main-container .macro-item-container .selected {
+  background: #e4ebfa;
+  line-height: 32px;
+  background-position-y: center;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .macro-item-container :active {
+  background: #ced7e6;
+  line-height: 32px;
+  background-position-y: center;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .macro-type-logo .t-btn-image-left {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .macro-type-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 12px;
+  min-width: 15px;
+  margin: 10px;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .blank-slate-container .not-selected-image {
+  margin: 10px 0;
+  text-align: center;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .blank-slate-container .label-content-container {
+  overflow: visible;
+  font-size: 12px;
+  color: #999999;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .blank-slate-container .label-content-container .description-label p {
+  padding-right: 12px;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .blank-slate-container .label-content-container .description-label p.info {
+  border-right: 2px solid #66B9DF;
+  padding-right: 10px;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .smart-html-macros-list-container {
+  flex: 1 1;
+  overflow-y: auto;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .smart-html-macros-list-container .selected {
+  background: #e4ebfa;
+  line-height: 32px;
+  background-position-y: center;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .concrete-macro-editor-container {
+  display: flex;
+  flex-direction: row;
+  border-color: #99c4f3;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px 0 10px 0;
+  margin-top: 1px;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .concrete-macro-editor-container .macro-editor-main-container {
+  padding-left: 10px;
+  width: 100%;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .concrete-macro-editor-container .macro-editor-main-container .style-input.control-width-15 {
+  display: flex;
+  flex-direction: column;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .concrete-macro-editor-container .macro-editor-main-container .style-input.control-width-15 .t-label {
+  text-align: right;
+}
+#SmartHtmlEditPageContainer .smart-html-main-container .concrete-macro-editor-container .macro-editor-main-container .style-input.control-width-15 .control-wrap {
+  padding-right: 0;
+  margin-right: 0;
+  padding-left: 0;
+}
+#SmartHtmlEditPageContainer .smart-html-annotations-container {
+  float: right;
+  line-height: 30px;
+  padding-right: 14px;
+  padding-left: 14px;
+  display: flex;
+}
+#SmartHtmlEditPageContainer .smart-html-annotations-container .t-annotations-count {
+  display: inline;
+  color: #fc5555;
+}
+#SmartHtmlEditPageContainer .smart-html-annotations-container .tip-label-wrap {
+  padding-left: 20px;
+}
+#SmartHtmlEditPageContainer .smart-html-footer-container {
+  height: 50px;
+  padding-top: 10px;
+  text-align: left;
+}
+.smart-html-macros-menu .menu-item .menu-item-image {
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  top: 6px;
+}
+.smart-html-macros-menu .macro-menu-item-text,
+.smart-html-macros-menu .macro-menu-item-image {
+  background-color: aliceblue;
+}
+.smart-html-macros-menu .menu-item-selected {
+  background-color: #e4ebfa;
+}

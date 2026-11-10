@@ -1,0 +1,2044 @@
+﻿@system-action-element-color: #839DC3;
+.schema-designer {
+	/*BaseProcessSchemaElementPropertiesPage*/
+	.properties-ct .properties-container .header-container {
+		.control-no-label {
+			padding-top: 0;
+			padding-right: 25px;
+			width: 100%;
+		}
+		input {
+			background-color: transparent;
+			color: white;
+			font-size: 13px;
+		}
+		.control-no-label .base-edit {
+			border: 0;
+			border-bottom: 1px dotted white;
+			margin-left: 20px;
+		}
+		.control-no-label {
+			.base-edit:not(.base-edit-focus) {
+				border: 0;
+				border-bottom: 1px dotted white;
+			}
+			.base-edit:not(.base-edit-focus):hover,
+			.base-edit.base-edit-focus {
+				border-bottom: 1px solid white;
+				box-shadow: none;
+				-webkit-box-shadow: none;
+				-moz-box-shadow: none;
+			}
+		}
+		.t-btn-no-text-padding {
+			padding: 0;
+		}
+		.t-information-btn.t-btn-wrapper {
+			margin: 0;
+		}
+		.top-container-wrapClass {
+			padding: 26px 6px 18px 20px;
+			display: flex;
+			.t-label {
+				color: white;
+				padding-top: 2px;
+			}
+			.tools-container-wrapClass {
+				display: flex;
+				.t-btn-image {
+					width: 20px;
+					height: 20px;
+				}
+				.t-btn-wrapper:hover {
+					.t-btn-image {
+						opacity: 0.7;
+					}
+				}
+				.t-information-btn:hover .t-btn-image {
+					background-position-y: 0;
+				}
+			}
+			.t-btn-no-text-padding {
+				min-width: 30px;
+			}
+			.detail-tools-button-menu {
+				display: none;
+			}
+		}
+	}
+	:-ms-input-placeholder {
+		color: #8a8a8a !important;
+	}
+	.combobox-edit-right-icon {
+		display: none;
+	}
+	.button-background-no-repeat {
+		background-repeat: no-repeat;
+	}
+	.base-edit:not(.base-edit-disabled):hover .base-edit-right-icon, .base-edit-focus .base-edit-right-icon {
+		display: block;
+	}
+	.title-container {
+		display: flex;
+		padding: 0 14px 28px 20px;
+
+		.title-button {
+			padding: 0;
+			min-width: 42px;
+		}
+
+		.t-btn-image.title-button-image {
+			width: 42px;
+			height: 42px;
+			background: center no-repeat;
+		}
+	}
+	.t-label-proc {
+		font-size: 12px;
+	}
+	.t-label-is-required-proc:after {
+		font-size: 15px;
+	}
+	.control-width-15.control-left.control-right > .label-wrap {
+		width: 100%;
+	}
+	.control-width-15 {
+		.t-label {
+			text-align: left;
+		}
+		.label-wrap {
+			width: 100%;
+		}
+	}
+	.grid-layout-column {
+		color: #999;
+	}
+	.ts-params-grid {
+		padding-top: 20px;
+	}
+	.t-checkbox-proc {
+		padding-left: 0 !important;
+	}
+	.t-checkbox-label-proc {
+		left: 38px;
+		padding-top: 6px;
+		width: 100%;
+	}
+	.properties-ct {
+		left: 0px !important;
+		height: 100% !important;
+		overflow-y: hidden;
+
+		.t-checkboxedit-wrap {
+			margin-left: 0px;
+		}
+
+		.base-edit {
+			padding-left: 0;
+		}
+		.base-edit:not(.base-edit-focus) {
+			border: 1px solid white;
+			border-bottom: 1px dotted #c8c8c8;
+		}
+		.base-edit:hover {
+			border-bottom: 1px solid #c8c8c8;
+			cursor: pointer;
+		}
+		.base-edit.base-edit-focus {
+			outline: none;
+			border: 1px solid #fff;
+			border-bottom: 1px solid #00aeef;
+			box-shadow: none;
+			-webkit-box-shadow: none;
+			-moz-box-shadow: none;
+		}
+
+		.base-edit-error {
+			box-shadow: none;
+			-webkit-box-shadow: none;
+			-moz-box-shadow: none;
+		}
+
+		.ts-tabpanel-wrap {
+			display: flex;
+		}
+
+		.ts-tabpanel-items {
+			width: 100%;
+		}
+
+		.ts-tabpanel-items > li {
+			color: white;
+			text-transform: uppercase;
+			margin-left: 5px;
+			margin-right: 5px;
+			padding-left: 13px;
+		}
+
+		.ts-tabpanel-items .ts-tabpanel-active-item {
+			border-bottom: 4px solid white;
+			background-color: transparent;
+		}
+
+		.ts-tabpanel {
+			border-bottom: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			padding: 0;
+		}
+
+		.header-container {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+		}
+
+		.schema-wrap.one-el {
+			height: 100%;
+			width: 100%;
+
+			.properties-container {
+				height: 100%;
+				width: 100%;
+				position: relative;
+				padding-top: 135px;
+
+				.tabs-container {
+					height: 100%;
+					width: 100%;
+					position: relative;
+					padding-top: 32px;
+
+					.tabs.editors-ct {
+						display: flex;
+						flex-direction: column;
+						align-items: stretch;
+						align-content: stretch;
+
+						.grid-layout {
+							flex-shrink: 0; // TODO: del?
+						}
+					}
+				}
+
+				.tabs {
+					padding: 10px 20px 20px 20px;
+					background-color: white;
+					height: 100%;
+					width: 100%;
+					overflow: auto;
+					&.resources-tab {
+						padding-top: 21px;
+					}
+				}
+
+				.top-caption-control {
+					flex-direction: column;
+				}
+				.no-caption-control {
+					padding-top: 6px;
+				}
+				.t-title-label-proc {
+					font-size: 15px;
+					padding-top: 20px;
+					line-height: 18px;
+					text-align: left;
+				}
+				.t-title-label-info-button-proc {
+					width: auto;
+				}
+				.top-caption-control-label {
+					padding-bottom: 6px;
+					padding-top: 6px;
+					flex-direction: column;
+
+					.t-title-label-proc {
+						padding-top: 0;
+					}
+				}
+			}
+		}
+
+		.record-column-values-container {
+			padding-left: 30px;
+		}
+		.add-record-column-values-button {
+			padding: 0;
+			margin: 15px 0 0 20px;
+			font-size: 13px;
+			color: #999;
+		}
+		.add-record-column-values-button .t-btn-image:hover {
+			opacity: 0.7;
+		}
+		.add-record-answer-values-button {
+			padding: 0;
+			margin: 15px 0 0 -10px;
+			font-size: 13px;
+			color: #999;
+		}
+		.add-record-answer-values-button .t-btn-image:hover {
+			opacity: 0.7;
+		}
+
+		.filter-edit-container {
+			margin-top: 5px;
+
+			.filteredit {
+				.filteredit-group {
+					margin-bottom: 0;
+
+					.filteredit-group-rules {
+						padding-bottom: 0;
+
+						.filteredit-rule {
+							padding-left: 0;
+							margin-bottom: 0;
+							padding-top: 8px;
+
+							.filteredit-rule-left {
+								margin-left: 0;
+								font-size: 14px;
+								color: inherit;
+							}
+
+							.filteredit-rule-delete {
+								top: 9px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.schema-wrap.one-el {
+			.properties-container {
+				.t-title-label-proc.other-properties-label {
+					padding-top: 9px;
+				}
+			}
+		}
+
+		.filter-info-button-container {
+			.t-information-btn.t-btn-wrapper {
+				padding-top: 18px;
+				margin: 0;
+			}
+		}
+
+		.filteredit-aggregative-rule > .t-checkboxedit-wrap {
+			margin-left: 10px;
+		}
+
+		.container-list-header {
+			.t-btn-disabled {
+				opacity: 0.2 !important;
+			}
+		}
+	}
+	.parameter-value-ct {
+		margin-left: 24px;
+		.base-edit-input {
+			text-overflow: ellipsis;
+		}
+		.base-edit {
+			border: 1px solid white;
+			border-bottom: 1px dotted #c8c8c8;
+		}
+	}
+	.ts-image-edit-full-size-element {
+		margin: 0px;
+	}
+	.t-label-proc-param {
+		color: #4e7bd8;
+		font-size: 13px;
+	}
+	.parameter-datavaluetype-ct {
+		width: 16px;;
+		height: 16px;
+		float: left;
+	}
+	.parameter-direction {
+		margin-top: 10px;
+	}
+	.parameter-ct {
+		padding-top: 20px;
+
+		.base-edit-input {
+			font-size: 13px;
+			color: #444;
+		}
+	}
+	.parameter-edit-ct {
+		min-height: 60px;
+		margin-top: 20px;
+	}
+	.empty-parameters {
+		font-size: 13px;
+		color: #999999;
+		text-align: center;
+	}
+	.container-list-header {
+		display: flex;
+		.t-title-label-proc {
+			width: inherit;
+			padding-right: 8px;
+		}
+		.t-btn-wrapper {
+			align-self: flex-end;
+			padding-bottom: inherit;
+		}
+	}
+	.tools-container-wrapClass {
+		.label-container-wrapClass {
+			float: left;
+		}
+		.tools-button-container-wrapClass {
+			float: right;
+			visibility: hidden;
+		}
+		.t-btn-no-text-padding {
+			padding: 0px;
+		}
+		.t-btn-menu {
+			visibility: hidden;
+		}
+	}
+	.parameter-datavaluetype-ct {
+		.ts-image-edit-wrap {
+			width: 16px !important;
+			height: 16px !important;
+		}
+		.ts-image-edit-inner-container {
+			width: 16px;
+			height: 16px;
+		}
+	}
+	.parameter-value-ct:hover {
+		.tools-button-container-wrapClass {
+			visibility: visible;
+		}
+	}
+	.parameter-edit-container-wrapClass {
+		padding-top: 11px;
+	}
+	.tools-button-container-wrapClass {
+		.t-btn-image {
+			padding-left: 9px;
+		}
+	}
+	.empty-parameters {
+		padding-top: 20px;
+	}
+	.entity-column-mapping {
+		margin-top: 14px;
+	}
+	.unsupported-element-message {
+		font-size: 13px;
+		color: #999999;
+	}
+	/*BaseProcessSchemaElementPropertiesPage*/
+
+	/*ProcessSchemaPropertiesPage*/
+	.methods-tab {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		width: 100%;
+		.using-container {
+			flex-shrink: 0;
+			.t-title-button-label-proc {
+				color: #42caf4;
+			}
+			.t-items-list-proc {
+				.t-label-proc {
+					font-size: 14px;
+				}
+				.tools-container-wrapClass {
+					.tools-button-container-wrapClass {
+						float: none;
+					}
+					.t-btn-no-text-padding {
+						padding-left: 5px;
+					}
+				}
+				.parameter-ct {
+					.parameter-value-ct {
+						margin-left: 0;
+					}
+				}
+				.parameter-edit-ct {
+					min-height: 26px;
+				}
+				.top-caption-control .control-wrap {
+					flex-basis: auto;
+					color: #444;
+				}
+			}
+		}
+
+		.process-methods {
+			flex-basis: 100%;
+			height: 100%;
+			position: relative;
+			min-height: 200px;
+
+			.schema-wrap.one-el {
+				height: auto;
+				width: 100%;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
+		}
+	}
+
+	.dcm-setting-filter {
+		display: flex;
+		flex-direction: row;
+		margin-top: 10px;
+		margin-bottom: 11px;
+
+		.information-button {
+			width: 70px;
+			margin-left: 0;
+		}
+
+		.dcm-setting-filters-label {
+			display: inline;
+			font-size: 14px;
+			color: #444;
+			margin-bottom: 0;
+		}
+
+		.select-filter-column-button {
+			text-decoration: none;
+			cursor: pointer;
+			color: #4e7bd8;
+			padding: 2px 0 0 5px;
+		}
+
+		.select-filter-column-button:hover {
+			text-decoration: underline;
+		}
+
+	}
+	/*ProcessSchemaPropertiesPage*/
+
+	/*EmbeddedProcessSchemaPropertiesPage*/
+	.resources-tab {
+		.localizable-srting-list {
+			padding-top: 10px;
+		}
+		.parameter-ct {
+			padding-top: 10px;
+			.parameter-value-ct {
+				margin-left: 0;
+			}
+		}
+	}
+	.methods-tab .using-container .t-addbutton-proc {
+		padding-top: 0.7em;
+	}
+	/*EmbeddedProcessSchemaPropertiesPage*/
+
+	/*BaseUserTaskPropertiesPage*/
+	.editors-ct {
+		.grid-layout-column {
+			min-height: inherit;
+			.control-wrap {
+				flex-basis: inherit;
+			}
+		}
+		.grid-layout-row {
+			min-height: inherit;
+		}
+		.control-width-15.t-checkbox-control {
+			margin-top: 10px;
+			.control-wrap {
+				flex-basis: 32px;
+			}
+			.label-wrap {
+				order: 2;
+				margin-top: 5px;
+				.t-label {
+					font-size: 14px;
+					color: #444;
+					padding-top: 0px;
+				}
+
+				.tip-label-wrap {
+					text-align: left;
+				}
+			}
+		}
+		.control-width-15 {
+			.label-wrap {
+				margin-top: 14px;
+			}
+			.t-label {
+				font-size: 13px;
+				color: #999;
+				margin-bottom: 0px;
+			}
+		}
+		.label-wrap, .grid-layout .label-wrap {
+			max-width: none;
+			justify-content: flex-start;
+			.t-label-proc {
+				margin-top: 0px;
+			}
+		}
+		.t-label-proc {
+			margin-top: 14px;
+			font-size: 13px;
+			color: #999;
+			text-align: left;
+		}
+		.base-edit-input {
+			font-size: 14px;
+			color: #444;
+		}
+		.memo-edit-scroll > textarea {
+			padding-left: 0px;
+		}
+		.activity-connection {
+			.tools-button-container-wrapClass {
+				margin-top: 14px;
+			}
+
+			.parameter-value-ct {
+				margin-left: inherit;
+			}
+			.parameter-ct {
+				padding-top: inherit;
+			}
+		}
+		.record-answer-values-container {
+			margin-top: 10px;
+
+			.tools-container-wrapClass {
+				border-bottom: 1px dotted #c8c8c8;
+			}
+			.tools-button-container-wrapClass {
+				margin-top: inherit;
+			}
+			.parameter-value-ct {
+				margin-left: inherit;
+			}
+			.parameter-value-ct .base-edit {
+				border-bottom: white;
+			}
+			.parameter-ct {
+				padding-top: inherit;
+			}
+		}
+
+		.label-info-button-container-wrapClass {
+			display: inline-flex;
+			width: 100%;
+
+			.t-information-btn {
+				margin-bottom: 0;
+				margin-top: 0.4em;
+				margin-left: 5px;
+			}
+
+			.t-title-label-proc {
+				width: auto;
+			}
+
+			.checkbox-control-item > .checkbox-label-wrap {
+				margin-top: 0;
+			}
+		}
+	}
+	/*BaseUserTaskPropertiesPage*/
+
+	/*ConditionalSequenceFlowPropertiesPage*/
+	.activity-results-list {
+		background-color: white;
+		padding-top: 20px;
+
+		.results-caption {
+			font-size: 14px;
+			color: #42caf4;
+		}
+
+		.activity-result {
+			margin-top: 20px;
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: flex-start;
+			width: fit-content;
+
+			label {
+				padding-left: 15px;
+				font-size: 14px;
+				color: #444;
+				width: auto;
+			}
+
+			input, label {
+				cursor: pointer;
+			}
+		}
+
+		.t-checkboxedit-wrap {
+			flex-shrink: 0;
+		}
+	}
+	/*ConditionalSequenceFlowPropertiesPage*/
+
+	/*EmailUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='EmailUserTaskPropertiesPage'] .t-title-label-proc {
+		color: #FCC242
+	}
+
+	.email-body-control {
+		padding-top: 20px;
+		.html-edit-toolbar {
+			display: none !important;
+			flex-flow: row wrap;
+			position: absolute;
+			background-color: white;
+			top: -135px;
+			z-index: 1000;
+			border: 1px solid #b3c1d2;
+			border-radius: 5px;
+			border-bottom-color: #999;
+			box-shadow: 0 0 5px #b3c1d2;
+			padding: 5px;
+			#html-edit-toolbar-image {
+				display: none;
+			}
+		}
+
+		.html-edit-textarea {
+			height: 155px;
+			margin-bottom: 0px !important;
+			color: #CBCBCB;
+			.cke_chrome {
+				border: 1px solid;
+			}
+			.cke_focus {
+				border: 1px solid #00aeef;
+			}
+			.memo-edit-height {
+				padding-left: 5px;
+				height: 100% !important;
+			}
+			.memo-edit-core {
+				height: 100% !important;
+				border: 1px solid #CBCBCB;
+			}
+			.memo-edit-core.base-edit-focus {
+				box-shadow: none;
+				border: 1px solid #00aeef
+			}
+		}
+
+		.html-editor {
+			height: inherit !important;
+			display: table;
+		}
+
+		.html-edit-toolbar-show {
+			display: flex !important;
+		}
+
+	}
+	/*EmailUserTaskPropertiesPage*/
+
+	.popup-container() {
+		position: fixed;
+		left: 3%;
+		right: 3%;
+		top: 50px;
+		bottom: 50px;
+		width: auto;
+		height: auto;
+		z-index: 2000;
+		background-color: white;
+		box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+		border-top: 3px solid #64b8df;
+		overflow-y: auto;
+	}
+
+	/*EmailTemplateUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] {
+		.t-title-label-proc {
+			color: #F79652
+		}
+
+		.content-builder-body-container {
+			.popup-container;
+
+			.ts-tabpanel-items {
+				margin-top: 5px;
+
+				.ts-tabpanel-active-item {
+					border-bottom: 3px solid #ff4013;
+					background-color: transparent;
+					color: #444444;
+				}
+			}
+
+			.left-control-group .ts-controlgroup-caption-wrap {
+				padding-bottom: 3.9em;
+			}
+			.header-container {
+				left: 265px;
+				position: static !important;
+			}
+			.content-panel-wrapper:not([data-item-type="block"]) .properties-content {
+				.content-item-style-tab {
+					display: none;
+				}
+			}
+			.content-panel-wrapper[data-item-type="block"] .properties-content {
+				.content-styles-editor-wrapper {
+					margin-bottom: 0;
+				}
+				.content-block-properties .align-control-group {
+					margin-bottom: 13px;
+				}
+			}
+			.content-panel-wrapper[data-item-type="block"] .module-container:first-of-type  .ts-controlgroup:first-of-type {
+				padding-top: 0;
+			}
+			.right-panel-container .content-panel-wrapper:not([data-item-type="block"]) {
+				.properties-content > *:first-child {
+					margin-top: 24px;
+				}
+			}
+			.right-panel-container-wrap.narrow .right-panel-container .content-panel-wrapper:not([data-item-type="block"]) {
+				.properties-content > *:first-child {
+					margin-top: 0;
+				}
+			}
+			.right-panel-container *:not([data-item-type="block"])[data-page-exists="false"] .properties-content {
+				> *:first-child {
+					margin-top: 5px;
+				}
+			}
+			.right-panel-container *:not([data-item-type="block"])[data-page-exists="true"] .properties-content {
+				.padding-control-group {
+					padding-top: 9px;
+				}
+			}
+		}
+
+		.content-panel-wrapper .ts-controlgroup + .ts-controlgroup {
+			padding-top: 3px;
+		}
+
+		.open-email-template-tool-button {
+			.open-tool-button;
+			width: 9%;
+			margin-top: 27px;
+		}
+
+		.email-template-edit {
+			width: 91%;
+			float: left;
+		}
+
+		.content-builder-mask-container {
+			position: fixed;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			width: auto;
+			height: auto;
+			background-color: #737CA1;
+			opacity: 0.4;
+			z-index: 1100;
+		}
+		.edit-button-container {
+			height: 36px;
+		}
+		.edit-label {
+			overflow: hidden;
+			display: inline-block;
+			width: 100%;
+			font-size: 1.4em;
+			text-align: center;
+			padding-top: 6px;
+			padding-bottom: 6px;
+			visibility: visible;
+		}
+		.edit-button {
+			text-align: center;
+			margin: auto;
+			display: flex;
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0px;
+			background-color: #000000;
+			opacity: 0.3;
+			height: 37px;
+			.t-btn-image {
+				margin: auto !important;
+			}
+		}
+
+		.previw-body-mask-container {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 18px;
+			bottom: 0px;
+			z-index: 10;
+			width: auto;
+			height: auto;
+			background-color: #CBCBCB;
+			opacity: 0.4;
+		}
+
+		.preview-container:hover .preview-button {
+			visibility: visible;
+		}
+
+		.preview-container:hover .edit-label {
+			visibility: hidden;
+		}
+
+		.preview-container {
+			margin-top: 18px;
+			height: 110px;
+			overflow: hidden;
+			border: 1px solid #CBCBCB;
+		}
+
+		.message-container:hover .preview-button {
+			visibility: visible;
+		}
+
+		.message-container:hover .edit-label {
+			visibility: hidden;
+		}
+
+		.message-container {
+			margin-top: 18px;
+			overflow: hidden;
+			border: 1px solid #CBCBCB;
+		}
+
+		.preview-content-iframe {
+			height: 510px;
+			width: 784px;
+			border: none;
+			z-index: 0;
+			transform: scale(0.4, 0.4);
+			transform-origin: left top 0px;
+		}
+
+		.preview-button {
+			margin: auto;
+			display: flex;
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0px;
+			z-index: 11;
+			background-color: #000000;
+			opacity: 0.3;
+			height: 36px;
+			visibility: hidden;
+
+			.t-btn-image {
+				margin: auto !important;
+			}
+		}
+
+		.top-recipient-container-list {
+			margin-top: 5px;
+		}
+
+		.recipient-container-list {
+			margin-top: 10px;
+		}
+
+		.detail-tools-button-menu {
+			display: none;
+		}
+	}
+	/*EmailTemplateUserTaskPropertiesPage*/
+
+	/*SourceCodeEditPage*/
+	.source-code-edit-page-container {
+		width: 100%;
+		height: 100%;
+
+		.source-code-edit-expandable-container {
+			width: 100%;
+			height: 100%;
+			background-color: white;
+
+			.source-code-edit-container {
+				width: 100%;
+				height: 100%;
+				padding-top: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: stretch;
+				position: relative;
+
+				&[data-item-marker*=source-code-edit-container-tools-hidden] {
+					.source-code-edit-tools-container {
+						display: none;
+					}
+				}
+
+				&[data-item-marker*=caption-visible] {
+					.source-code-edit-tools-container {
+						.source-code-caption {
+							display: inline-block;
+							font-size: 15px;
+							color: #42caf4;
+							padding-top: 20px;
+							overflow: hidden;
+							width: initial;
+						}
+
+						.tooltip-message-info-button {
+							position: absolute;
+							margin-top: 19px;
+							margin-left: 14px;
+						}
+					}
+				}
+
+				.source-code-edit-tools-container {
+					width: 100%;
+					flex-shrink: 0;
+					padding-bottom: 8px;
+
+					.source-code-caption {
+						display: none;
+					}
+
+					.source-code-edit-tool-button {
+						&.t-btn-wrapper {
+							padding: 0;
+
+							.t-btn-image {
+								width: 32px;
+								height: 32px;
+							}
+
+							&.find-button {
+								padding-left: 1px;
+								padding-right: 2px;
+								padding-top: 1px;
+							}
+
+							&.expand-button {
+								float: right;
+								margin-right: -10px;
+							}
+						}
+					}
+				}
+
+				.source-code-edit-control-wrap-container {
+					padding-left: 0;
+					flex-basis: 100%;
+					position: relative;
+
+					.base-edit.source-code-edit {
+						position: absolute;
+						left: 0;
+						top: 0;
+						right: 0;
+						bottom: 0;
+					}
+				}
+			}
+		}
+
+		&.background-container {
+			display: none;
+			background-color: white;
+		}
+
+		&[data-item-marker*=source-code-edit-page-expand] {
+			.source-code-edit-expandable-container {
+				padding: 30px;
+				.popup-container;
+
+				.source-code-edit-container {
+					.source-code-edit-tools-container {
+						.source-code-caption {
+							font-family: "Bpmonline Open Sans Light";
+							color: #00aeef;
+							font-size: 20px;
+							letter-spacing: inherit;
+							display: inline-block;
+							padding-top: 0;
+							width: initial;
+						}
+
+						.tooltip-message-info-button {
+							margin-top: 3px;
+						}
+
+						.source-code-edit-tool-button.t-btn-wrapper.expand-button {
+							position: absolute;
+							top: 0;
+							right: 0;
+						}
+					}
+				}
+			}
+
+			.source-code-edit-mask-container {
+				position: fixed;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				width: auto;
+				height: auto;
+				background-color: #737CA1;
+				opacity: 0.4;
+				z-index: 1100;
+			}
+
+			.background-container {
+				width: 100%;
+				height: 100%;
+				display: block;
+			}
+		}
+
+	}
+	/*SourceCodeEditPage*/
+
+	/*ScriptTaskPropertiesPage*/
+	.properties-container[data-item-marker*=ProcessScriptTaskSchema] {
+		.tabs.editors-ct {
+			.script-task-body-container {
+				width: 100%;
+				height: 100%;
+
+				.schema-wrap.one-el {
+					width: 100%;
+					height: 100%;
+
+					.source-code-edit-page-container {
+						.tooltip-message-info-button {
+							position: absolute;
+							margin-left: 79px;
+							margin-top: 5px;
+						}
+
+						&[data-item-marker*=source-code-edit-page-expand] {
+							.tooltip-message-info-button {
+								margin-left: 14px;
+								margin-top: 3px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	/*ScriptTaskPropertiesPage*/
+
+	/*RootUserTaskPropertiesPage*/
+	.properties-container[data-item-marker*=UserTask] {
+		.tabs.editors-ct {
+			.after-activity-save-script-body-container {
+				flex-basis: 100%;
+
+				.schema-wrap.one-el {
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+
+	/*RootUserTaskPropertiesPage*/
+
+	/*OpenEditPageUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='OpenEditPageUserTaskPropertiesPage'] {
+		.t-title-label-proc {
+			color: #A28DC5
+		}
+
+		.label-info-button-container-wrapClass .t-information-btn {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+	.record-column-values-lookup-page .modal-page-fixed-container.process-lookup-page .center-area-grid-container {
+		height: 445px;
+	}
+	/*OpenEditPageUserTaskPropertiesPage*/
+
+	/*BaseDataModificationUserTaskPropertiesPage*/
+	.properties-ct .base-data-modification-user-task-properties-page {
+		.t-title-label-proc {
+			color: @system-action-element-color;
+		}
+		.record-column-values-container {
+			padding-left: 0;
+		}
+		.add-record-column-values-button {
+			margin-left: 0;
+			padding-left: 20px !important;
+			.t-btn-image {
+				left: 0;
+			}
+		}
+	}
+	/*BaseDataModificationUserTaskPropertiesPage*/
+
+	/*ReadDataUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='ReadDataUserTaskPropertiesPage'] {
+		.entity-columns-container {
+			.record-column-values-container {
+				.control-width-15 {
+					.base-edit-input[readonly="readonly"], .base-edit-readonly {
+						background-color: #ffffff;
+					}
+				}
+			}
+		}
+	}
+	.row-count-container {
+		display: inline-flex;
+		color: #333333;
+		justify-content: flex-start;
+		.label-wrap {
+			width: auto;
+			min-width: auto;
+			margin: 0 1em 0 0em !important;
+			.t-label {
+				margin-top: inherit;
+				color: #333333;
+				font-size: 1.4em;
+			}
+		}
+		.t-checkboxedit-wrap {
+			margin-top: 5px;
+		}
+		.t-label {
+			white-space: nowrap;
+			margin-top: 5px;
+		}
+		.control-wrap {
+			margin-top: 1px;
+		}
+		.number-edit-input-align {
+			width: auto;
+			max-width: 90px;
+		}
+	}
+	.sorting-order-container {
+		position: relative;
+		box-sizing: border-box;
+		width: 100%;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+	}
+	.sorting-order-item-container {
+		float: left;
+		width: 25%;
+		margin-right: 10px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		word-wrap: normal;
+		padding-right: 10px;
+		flex: 1 1 25%;
+		-ms-flex: 1 1 25%;
+		box-flex: 1;
+		-moz-box-flex: 1;
+		-webkit-box-flex: 1;
+	}
+	.sorting-order-edit-button-container {
+		float: left;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		word-wrap: normal;
+		visibility: hidden;
+		flex: 0 0 32px;
+
+		.sorting-order-edit-button {
+			padding: 8px;
+			.t-btn-image {
+				height: 16px;
+				width: 16px;
+			}
+		}
+	}
+	.sorting-order-container:hover .sorting-order-edit-button-container {
+		visibility: visible;
+	}
+	/*ReadDataUserTaskPropertiesPage*/
+
+	/*ObjectFileProcessingUserTaskPropertiesPage*/
+	.properties-ct .object-file-processing-user-task-properties-page {
+		.t-title-label-proc {
+			color: @system-action-element-color;
+		}
+		.record-column-values-container {
+			padding-left: 0;
+		}
+		.add-record-column-values-button {
+			margin-left: 0;
+			padding-left: 20px !important; 
+			.t-btn-image {
+				left: 0;
+			}
+		}
+	}
+	/*ObjectFileProcessingUserTaskPropertiesPage*/
+
+	/*FilterEditMixin*/
+	.properties-ct .extended-filters-container {
+		margin-top: 15px;
+
+		.t-btn-wrapper {
+			padding-left: 0;
+			font-size: 13px;
+		}
+		.filteredit {
+			font-size: 13px;
+		}
+	}
+	.filteredit-rule-right-wrapper .base-edit {
+		width: 175px;
+	}
+	/*FilterEditMixin*/
+
+	/*ParametrizedElementPropertiesPage*/
+	.open-tool-button() {
+		padding: 0;
+
+		.t-btn-image {
+			width: 32px;
+			height: 32px;
+		}
+	}
+	.properties-ct .open-studio-free-button {
+		margin-top: 26px;
+	}
+	.properties-ct .open-schema-designer-tool-button {
+		.open-tool-button;
+
+		&.t-btn-disabled {
+			opacity: 0.2;
+		}
+	}
+	/*ParametrizedElementPropertiesPage*/
+
+	/*CallUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='CallUserTaskPropertiesPage'] .t-title-label-proc {
+		color: #94DE35
+	}
+	/*CallUserTaskPropertiesPage*/
+
+	/*PreconfiguredPageUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='PreconfiguredPageUserTaskPropertiesPage'] {
+		.t-title-label-proc {
+			color: #C5CC66
+		}
+		.page-parameters .t-label-proc {
+			margin-top: 0;
+			font-size: 12px;
+			color: #4e7bd8;
+		}
+		.activity-connection {
+			min-height: 63px;
+		}
+		.open-schema-designer-tool-button .t-btn-menu {
+			display: none;
+		}
+		.what-page-open-label-container {
+			display: flex;
+		}
+		.what-page-open-label {
+			width: auto;
+		}
+		.cannot-edit-angular-schema-info-button {
+			margin: 17px 0 0 10px;
+			min-width: 24px;
+		}
+
+		.button-items-list {
+			background-color: white;
+			padding-top: 20px;
+
+			.button-item {
+				margin-top: 20px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: flex-start;
+				width: 100%;
+
+				div {
+					display: inline-flex;
+					flex-direction: row;
+
+					label {
+						padding-left: 15px;
+						font-size: 14px;
+						color: #444;
+					}
+
+					input, label {
+						cursor: pointer;
+					}
+				}
+
+				.detail-tools-button-wrapper {
+					visibility: hidden;
+					float: right;
+
+					.t-btn-menu {
+						display: none;
+					}
+
+					.t-btn-wrapper {
+						padding: 1px 5px 0 0;
+					}
+				}
+			}
+
+			.button-item:hover .detail-tools-button-wrapper {
+				visibility: visible;
+			}
+
+			.t-checkboxedit-wrap {
+				flex-shrink: 0;
+			}
+		}
+	}
+	/*PreconfiguredPageUserTaskPropertiesPage*/
+
+	/*FormulaTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='FormulaTaskPropertiesPage'] .t-title-label-proc {
+		color: @system-action-element-color
+	}
+	/*FormulaTaskPropertiesPage*/
+
+	/*BaseSignalEventPropertiesPage*/
+	.properties-ct .base-signal-properties {
+		.entity-columns-container {
+			margin-top: 10px;
+			.record-column-values-container {
+				.control-width-15 {
+					.base-edit-input[readonly="readonly"], .base-edit-readonly {
+						background-color: #ffffff;
+					}
+				}
+			}
+		}
+		.extended-filters-container {
+			margin-top: 0px;
+		}
+	}
+	/*BaseSignalEventPropertiesPage*/
+
+	/*StartSignalPropertiesPage*/
+	.properties-ct [data-item-marker*='StartSignalPropertiesPage'] {
+		.t-title-label-proc {
+			color: #8ECB60
+		}
+	}
+	/*StartSignalPropertiesPage*/
+
+	/*IntermediateCatchSignalPropertiesPage*/
+	.properties-ct [data-item-marker*='IntermediateCatchSignalPropertiesPage'] {
+		.t-title-label-proc {
+			color: #F79552
+		}
+	}
+	/*IntermediateCatchSignalPropertiesPage*/
+
+	/*IntermediateThrowSignalPropertiesPage*/
+	.properties-ct [data-item-marker*='IntermediateThrowSignalPropertiesPage'] {
+		.t-title-label-proc {
+			color: #F79552
+		}
+	}
+	/*IntermediateThrowSignalPropertiesPage*/
+
+	/*QuestionUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='QuestionUserTaskPropertiesPage'] {
+		.t-title-label-proc {
+			color: #74DEDA
+		}
+		.record-answer-values-container .tools-container-wrapClass .t-btn-no-text-padding {
+			padding-top: 4px;
+		}
+	}
+	/*QuestionUserTaskPropertiesPage*/
+
+	/*SendEmailUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='SendEmailUserTaskPropertiesPage'] {
+		.t-title-label-proc {
+			color: @system-action-element-color;
+		}
+		.t-title-label-proc[data-item-marker='RecipientLabel'] {
+			padding-right: 10px;
+		}
+		.editors-ct .label-info-button-container-wrapClass .t-information-btn {
+			margin-left: 0;
+		}
+	}
+	/*SendEmailUserTaskPropertiesPage*/
+
+	/*ActivityUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='ActivityUserTaskPropertiesPage'] {
+		.t-title-label-proc {
+			color: #42caf4;
+		}
+		.container-list-header {
+			.t-btn-image:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+	/*ActivityUserTaskPropertiesPage*/
+
+	/*EntityColumnMappingMixin*/
+	.entity-column-mapping:hover .tools-button-container-wrapClass {
+		visibility: visible;
+	}
+	.entity-column-mapping.t-title-label-proc {
+		margin-top: 14px;
+	}
+	/*EntityColumnMappingMixin*/
+
+	/*AutoGeneratedPageUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] {
+		.t-title-label-proc {
+			color: #B869D1
+		}
+		.editors-ct {
+			.button-container-list-items {
+				.item-wrap {
+					.item-view-wrap {
+						padding: 10px 10px 0 24px;
+						.autogenerated-button-background {
+							position: absolute;
+							right: 0;
+						}
+						.t-btn-image-left {
+							margin-right: 2px;
+						}
+						.t-btn-menu {
+							display: none;
+						}
+						.t-btn-style-default,
+						.t-btn-style-transparent {
+							border: 1px solid rgba(211, 211, 211, 0.38);
+						}
+						.t-btn-style-transparent {
+							border-radius: 2px;
+							font-size: 1.5em;
+							min-height: 30px;
+							padding-left: 0.7em;
+							padding-bottom: 0.3em;
+							padding-top: 0.3em;
+						}
+					}
+					.item-edit-wrap {
+						min-height: 30px;
+						margin: 10px 10px 0 0;
+					}
+					.processminieditpage-edit-container {
+						margin-top: 0;
+					}
+				}
+			}
+			.container-list-header {
+				.t-btn-menu {
+					display: none;
+				}
+				.t-addbutton-proc.t-btn-wrapper:hover {
+					opacity: 0.7;
+				}
+			}
+			.page-container-list-items {
+				.item-wrap {
+					padding-top: 15px;
+					.item-view-wrap {
+						margin-left: 24px;
+						.type-image-wrap {
+							float: left;
+							padding-top: 2px;
+							.ts-image-edit-wrap {
+								width: 16px !important;
+								height: 16px !important;
+								.ts-image-edit-inner-container {
+									width: 16px;
+									height: 16px;
+								}
+							}
+						}
+						.item-label-wrap {
+							margin-left: 8px;
+							float: left;
+						}
+						.tools-button-wrap {
+							visibility: hidden;
+							float: right;
+							.t-btn-menu {
+								display: none;
+							}
+						}
+						.tools-button-wrap {
+							.t-btn-wrapper {
+								padding: 1px 5px 0 0;
+							}
+						}
+						.base-edit {
+							border: 1px solid white;
+							border-bottom: 1px dotted #c8c8c8;
+						}
+					}
+					.item-view-wrap:hover {
+						.tools-button-wrap {
+							visibility: visible;
+						}
+					}
+					.page-edit-wrap {
+						min-height: 50px;
+					}
+				}
+				.processminieditpage-edit-container {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+
+	.processminieditpage-edit-container {
+		margin-top: 20px;
+		border: 1px solid #00AEEF;
+		padding: 10px;
+		.label-wrap + .control-wrap {
+			margin-left: 0px;
+			padding-left: 0px;
+		}
+		.processminieditpage-edit-container-controls {
+			display: flex;
+			flex-direction: column;
+			.label-wrap {
+				margin-top: 10px;
+				.t-label {
+					font-size: 12px;
+				}
+			}
+			.base-edit-validation {
+				z-index: 1000;
+				background-color: #00AEEF;
+			}
+			.t-btn-disabled .t-btn-text {
+				color: #ffffff !important;
+			}
+			.t-checkbox-control {
+				display: -ms-flexbox;
+				display: flex;
+				.label-wrap {
+					margin-top: 1px;
+					.t-label {
+						margin-top: 0px;
+						font-size: 12px;
+						color: #999;
+					}
+				}
+			}
+		}
+		.base-edit-input {
+			font-size: 14px;
+		}
+		.actions-container {
+			margin-top: 20px;
+			display: flex;
+			flex-direction: row-reverse;
+		}
+	}
+	/*AutoGeneratedPageUserTaskPropertiesPage*/
+
+	/*ChangeAdminRightsUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] {
+		.t-title-label-proc {
+			color: @system-action-element-color
+		}
+		.editors-ct {
+			.container-list-header {
+				.t-btn-wrapper {
+					padding-left: 0;
+				}
+			}
+			.rights-items-header-container {
+				margin-bottom: 6px;
+				margin-top: 20px;
+				min-height: 16px;
+				.rights-items-header-label {
+					max-width: 190px;
+					font-size: 13px;
+					line-height: 1.1;
+				}
+				.rights-items-header-images-container {
+					float: right;
+					width: 108px;
+					.rights-header-image {
+						width: 16px;
+						height: 16px;
+						float: left;
+						margin-left: 19px;
+						margin-right: 0;
+					}
+				}
+				.rights-items-header-buttom-container {
+					height: 1px;
+					margin-top: 6px;
+					background-color: #999999;
+				}
+			}
+			.container-list-empty {
+				text-align: center;
+			}
+			.page-container-list-items {
+				.item-wrap {
+					clear: both;
+					min-height: 30px;
+					.item-view-wrap {
+						.item-label-tool-view-wrap {
+							float: left;
+							width: 183px;
+							.item-label-wrap {
+								max-width: 158px;
+								float: left;
+								.t-label {
+									white-space: nowrap;
+									text-overflow: ellipsis;
+									color: #4e7bd8;
+								}
+							}
+							.tools-button-wrap {
+								visibility: hidden;
+								float: left;
+								.t-btn-menu {
+									display: none;
+								}
+							}
+							.tools-button-wrap {
+								.t-btn-wrapper {
+									padding: 1px 5px 0 4px;
+								}
+							}
+						}
+					}
+					.item-view-wrap:hover {
+						.tools-button-wrap {
+							visibility: visible;
+						}
+					}
+					.page-edit-wrap {
+						min-height: 50px;
+						margin-bottom: 10px;
+					}
+					.operations-wrap {
+						float: right;
+						width: auto;
+						.t-checkboxedit-wrap {
+							margin-left: 16px;
+						}
+						.t-checkboxedit-wrap:first-child {
+							margin-left: 0px;
+						}
+					}
+					.right-level-wrap {
+						float: left;
+						width: auto;
+						margin-top: -3px;
+						.right-level-tools-button-wrapper {
+							padding-left: 0px;
+							padding-right: 0px;
+							.detail-tools-button-menu {
+								visibility: visible;
+								right: 0;
+								position: relative;
+								.t-btn-marker {
+									border-top: 3px solid #4d6a98;
+									border-right: 3px solid transparent;
+									border-left: 3px solid transparent;
+								}
+							}
+						}
+					}
+				}
+				.processminieditpage-edit-container {
+					margin-top: 0;
+				}
+			}
+			.delete-rights-container-list-items {
+				.item-wrap {
+					.item-view-wrap {
+						.item-label-tool-view-wrap {
+							width: 209px;
+							.item-label-wrap {
+								max-width: 184px;
+							}
+						}
+					}
+				}
+			}
+			.detail-tools-button-menu {
+				float: right;
+				visibility: hidden;
+			}
+		}
+	}
+	/*ChangeAdminRightsUserTaskPropertiesPage*/
+
+	/*LinkEntityToProcessUserTaskPropertiesPage*/
+	.properties-ct .link-entity-to-process-user-task-properties-page {
+		.t-title-label-proc {
+			color: @system-action-element-color;
+		}
+	}
+	/*LinkEntityToProcessUserTaskPropertiesPage*/
+
+	/*SubProcessPropertiesPage*/
+	.properties-ct [data-item-marker*='SubProcessPropertiesPage'] {
+		.t-title-label-proc {
+			color: #E6C600;
+		}
+
+		.t-ignore-mi-errors-cb .control-wrap {
+			flex-basis: 25px;
+		}
+
+		.t-process-parameters-label {
+			width: auto;
+		}
+
+		.compiled-sub-process-info-button {
+			margin-top: 16px;
+		}
+	}
+
+	/*SubProcessPropertiesPage*/
+
+	/*ProcessSchemaUserTask*/
+	.properties-ct [data-item-marker*='ProcessSchemaUserTask'] {
+		.t-title-label-proc {
+			color: @system-action-element-color;
+		}
+	}
+	/*ProcessSchemaUserTask*/
+
+	/*WebServiceUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='WebServiceUserTaskPropertiesPage'] {
+		.t-title-label-proc {
+			color: @system-action-element-color;
+		}
+		.open-schema-designer-tool-button {
+			.t-btn-menu {
+				display: none;
+			}
+			&.t-btn-wrapper:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+	/*WebServiceUserTaskPropertiesPage*/
+
+	/*ApprovalUserTask*/
+	.properties-ct [data-item-marker*='ApprovalUserTaskPropertiesPage'] {
+		.t-title-label-proc {
+			color: #5cc480;
+		}
+		.t-information-btn.entity-schema-select-info-button {
+			margin: 0;
+		}
+		.entity-schema-select-control {
+			width: 100%;
+		}
+		.open-email-template-tool-button {
+			.open-tool-button;
+			position: absolute;
+			margin-top: 27px;
+		}
+		.visa-mailbox-settings-info-button {
+			margin-top: 17px;
+			position: absolute;
+		}
+	}
+	/*ApprovalUserTask*/
+
+	/*DcmProcessUserTaskSchema*/
+	.properties-ct [data-item-marker*='DcmProcessElement'] {
+
+		.condition-header-container {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 15px;
+
+			.t-label {
+				font-size: 13px;
+			}
+
+			.t-label:last-child {
+				margin-right: 16px;
+			}
+		}
+
+		.condition-container-list {
+			.condition-item {
+				display: flex;
+
+				& [id*="VisaStatus"].base-edit {
+					margin-right: 10px;
+					padding-right: 25px;
+				}
+
+				& [id*="NextStage"].base-edit {
+					margin-left: 10px;
+				}
+			}
+
+			.remove-condition-button {
+				visibility: hidden;
+				margin-right: -10px;
+			}
+
+			.condition-item:hover {
+				.remove-condition-button {
+					visibility: visible;
+				}
+			}
+		}
+
+		.add-condition-button {
+			margin-top: 10px;
+			padding-left: 25px !important;
+			font-size: 13px;
+			color: #999999;
+
+			.t-btn-image {
+				left: 0px;
+				width: 16px;
+				height: 16px;
+
+				&:hover {
+					opacity: 0.7;
+				}
+			}
+		}
+	}
+	/*DcmProcessUserTaskSchema*/
+
+	/*DcmSchemaPropertiesPage*/
+	.properties-ct [data-item-marker*='DcmSchemaPropertiesPage'] {
+		.filteredit-rule-comparison {
+			padding-left: 16px;
+		}
+
+		.filteredit-rule-right-wrapper {
+			margin-left: 0px;
+		}
+	}
+	/*DcmSchemaPropertiesPage*/
+
+
+	/*ExecuteIntentUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='ExecuteIntentUserTaskPropertiesPage'] {
+		.t-title-label-proc {
+			color: @system-action-element-color;
+		}
+		.invalid-text {
+			color: rgb(235, 56, 0);
+			font-size: 13px;
+			text-align: right;
+		}
+		.open-schema-designer-tool-button {
+			.t-btn-menu {
+				display: none;
+			}
+			&.t-btn-wrapper:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+	/*ExecuteIntentUserTaskPropertiesPage*/
+
+	/*WebServiceUserTaskPropertiesPage*/
+	.properties-ct [data-item-marker*='WebServiceUserTaskPropertiesPage'] {
+		.request-timeout-information-button {
+			margin-top: 17px;
+			position: absolute;
+		}
+	}
+	/*WebServiceUserTaskPropertiesPage*/
+
+	.ace-crimson-editor {
+		.ace_gutter {
+			background: #fafafa;
+		}
+		.ace_gutter-active-line {
+			background-color: #eaeaea;
+		}
+	}
+	.email-template-academy-link {
+		margin-top: 10px;
+		font-size: 1.2em;
+	}
+}
+
+.menu-item-image {
+	background-repeat: no-repeat;
+}
+
+.ts-process-message-box {
+	width: 550px;
+
+	.ts-inputbox-caption {
+		font-size: 22px;
+	}
+
+	.memo-edit-core {
+		box-sizing: content-box;
+	}
+}
+
+html[dir="rtl"] {
+	.schema-designer .properties-ct {
+		border-left: 1px solid #e6e6e6;
+	}
+
+	.menu-item-image {
+		transform: none !important;
+	}
+
+	.schema-designer .properties-ct .properties-container .header-container .top-container-wrapClass .t-label {
+		margin-right: 10px;
+	}
+
+	.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab .date-container .t-label {
+		text-align: left;
+	}
+}

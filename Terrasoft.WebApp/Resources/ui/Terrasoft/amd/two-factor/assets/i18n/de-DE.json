@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Andere Methode verwenden",
+    "TwoFactorSubmitButton": "Überprüfen",
+    "TwoFactorBackButton": "Zurück",
+    "SmsProvider": {
+        "SendSms": "Neuen Code senden",
+        "ResendSms": "SMS erneut senden"
+    },
+    "EmailProvider": {
+        "SendEmail": "Neuen Code senden"
+    },
+    "TwoFactor.AdditionalVerification": "Zusätzliche Verifizierung",
+    "TwoFactor.CancelButton.Caption": "Abbrechen",
+    "TwoFactor.SmsProviderNotAvailable": "Geben Sie den Bestätigungscode ein, der per SMS an Ihre Telefonnummer gesendet wurde.",
+    "TwoFactor.EnterSmsCode.Caption": "Geben Sie den Bestätigungscode ein, der per SMS an Ihre Telefonnummer gesendet wurde.",
+    "TwoFactor.EnterEmailCode.Caption": "Geben Sie den Bestätigungscode ein, der an Ihre E-Mail-Adresse gesendet wurde.",
+    "TwoFactor.EnterTOTPCode.Caption": "Geben Sie den Bestätigungscode aus der Authentifizierungs-App ein",
+    "TwoFactor.VerificationCode.Caption": "Bestätigungscode",
+    "TwoFactor.TOTPUnavailable.Caption": "Um die Methode mit der Authentifikator-App zu verwenden, müssen Sie sie zuerst einrichten. Das können Sie auf Ihrer Profilseite tun.",
+    "TwoFactor.UseAnotherMethod.Caption": "Andere Methode verwenden",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Ungültiger Bestätigungscode. Stellen Sie sicher, dass Sie die korrekten Daten eingegeben haben, oder wenden Sie sich an Ihren Systemadministrator.",
+    "TwoFactor.ValidationCanceled": "Die Bestätigung des zweiten Faktors wurde abgebrochen.",
+    "TwoFactor.EnterRecoveryCode.Caption": "Geben Sie den Wiederherstellungscode ein",
+    "TwoFactor.RecoveryCodesNotAvailable": "Um die Wiederherstellungscodes zu verwenden, müssen Sie sie zuerst einrichten. Das können Sie auf Ihrer Profilseite tun."
+}

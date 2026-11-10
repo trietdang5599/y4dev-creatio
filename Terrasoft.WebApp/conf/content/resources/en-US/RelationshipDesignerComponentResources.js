@@ -1,0 +1,45 @@
+﻿define("RelationshipDesignerComponentResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		ConfirmationDialogYes: "YES",
+		ConfirmationDialogNo: "NO",
+		ConnectionPropertiesPageComment: "Comment",
+		ConnectionPropertiesPageRelations: "Relations",
+		ConnectionPropertiesPageRelationshipType: "Relationship type",
+		ConnectionPropertiesPageTitle: "Relationship",
+		ContainerPropertiesPageAddress: "Address",
+		ContainerPropertiesPageEmail: "Email",
+		ContainerPropertiesPageGeneralInformation: "General information",
+		ContainerPropertiesPageGroups: "Groups",
+		ContainerPropertiesPagePhone: "Phone",
+		ContainerPropertiesPageRelationshipsWith: "Related entries ({0})",
+		ContainerPropertiesPageType: "Type",
+		ContainerPropertiesPageWeb: "Web",
+		EntityInGroupPropertiesDialogAddToGroup: "Add to group",
+		EntityInGroupPropertiesDialogCancel: "Cancel",
+		EntityInGroupPropertiesDialogComment: "Comment",
+		EntityInGroupPropertiesDialogEdit: "Edit",
+		EntityInGroupPropertiesDialogGroup: "Group",
+		EntityInGroupPropertiesDialogSave: "Save",
+		GroupPropertiesDialogCancel: "Cancel",
+		GroupPropertiesDialogComment: "Comment",
+		GroupPropertiesDialogEditGroup: "Edit group",
+		GroupPropertiesDialogName: "Name",
+		GroupPropertiesDialogNewGroup: "New group",
+		GroupPropertiesDialogSave: "Save",
+		GroupsPropertiesPageTitle: "Groups",
+		GroupsPropertiesPageSearch: "Search",
+		InfoDialogOk: "OK",
+		RelationshipDesignerDeleteItemMessage: "Are you sure that you want to delete the item?",
+		RelationshipDesignerRequiredControlErrorMessage: "Please enter value",
+		RelationshipDiagramNoAccess: "No access to change the relationship",
+		RelationshipDiagramToolsFitToView: "Fit to view",
+		RelationshipDiagramToolsResetView: "Reset view",
+		RelationshipDiagramToolsZoomIn: "Zoom in",
+		RelationshipDiagramToolsZoomOut: "Zoom out",
+		RelationshipDiagramToolsMiniMapClose: "Mini map close",
+		RelationshipDiagramToolsMiniMapOpen: "Mini map open"
+	};
+	var parametersLocalizableStrings = {};
+	var localizableImages = {};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages, parametersLocalizableStrings: parametersLocalizableStrings};
+});

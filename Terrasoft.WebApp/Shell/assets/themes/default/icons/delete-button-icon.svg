@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <g>
+    <g fill="currentColor">
+      <path d="M5 5h1v7H5z"/>
+      <path d="M9 5h1v7H9z"/>
+      <path d="M7 5h1v7H7z"/>
+      <path d="M13 3h-3V1H5v2H2v1h1v8.9L4.41 14h6.15l1.45-1.1V4h1ZM6 2h3v1H6Zm5 10.4-.78.6H4.75L4 12.41V4h7Z"/>
+    </g>
+    <path fill="none" d="M0 0h16v16H0z"/>
+  </g>
+</svg>

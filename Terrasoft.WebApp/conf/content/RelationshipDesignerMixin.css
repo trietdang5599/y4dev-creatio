@@ -1,0 +1,11 @@
+﻿.wizard-container #RelationshipContainer,
+.wizard-container #RelationshipTabContainer {
+  height: auto;
+}
+#RelationshipTabContainer,
+#RelationshipContainer {
+  width: 100%;
+}
+#RelationshipContainer {
+  height: 100vh;
+}

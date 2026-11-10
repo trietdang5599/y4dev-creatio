@@ -1,0 +1,225 @@
+﻿@section-dcm-settings-width: 380px;
+@header-height: 126px;
+@padding-width: 6px;
+
+.section-designer-shown {
+	height: 100%;
+
+	#ViewModuleContainer {
+		height: 100%;
+
+		.wizard-container {
+			height: 100%;
+
+			.center-panel {
+				height: 100%;
+
+				.default-center-panel-content {
+					height: 100%;
+					div[data-item-marker*="GridSettings"] > {
+						.card-content-container {
+							margin-top: @header-height;
+							.actions-container {
+								position: absolute;
+								left: 30px;
+								width: 100%;
+								padding: 0;
+								margin: 0;
+								top: 0;
+								height: 7em;
+								.left-container-wrapClass {
+									padding: 20px;
+								}
+							}
+						}
+					}
+					.separate-action-buttons-right-container-wrapClass {
+						position: static;
+						padding-right: 10px;
+					}
+
+					.grid-settings,
+					#main-summary-settings-view {
+						position: absolute;
+						top: @header-height + @padding-width;
+						left: @padding-width;
+						width: calc(~"100%" - @padding-width * 2);
+						min-height: 500px;
+						padding: 20px;
+						background-color: white;
+						border: 1px solid #e6e6e6;
+						border-radius: 3px;
+						&.center-main-container {
+							border: none;
+							background: none;
+							padding: 0;
+							left: 30px;
+							width: calc(100% - 30px);
+							position: static;
+							top: 0;
+							margin-left: 30px;
+							margin-top: 55px;
+						}
+					}
+
+					.cases-settings {
+						height: 100%;
+						padding-top: @header-height;
+						overflow-y: hidden;
+
+						.section-dcm-settings {
+							position: fixed;
+							min-width: @section-dcm-settings-width;
+							width: @section-dcm-settings-width;
+							height: 100%;
+
+							.schema-wrap.one-el {
+								min-width: inherit;
+							}
+
+							.sys-dcm-settings {
+								width: 100%;
+								background-color: white;
+								display: flex;
+								flex-direction: column;
+								justify-content: flex-start;
+								align-items: stretch;
+								padding: 0 25px 8px 66px;
+								position: relative;
+								border: 1px solid #e6e6e6;
+								border-radius: 3px;
+
+								.t-btn-wrapper.cases-icon {
+									position: absolute;
+									width: 36px;
+									height: 36px;
+									padding: 0;
+									top: 20px;
+									left: 20px;
+
+									.t-btn-image {
+										width: 36px;
+										height: 36px;
+										background: center no-repeat;
+									}
+								}
+
+								.t-btn-wrapper.cases-icon:hover {
+									.t-btn-image {
+										animation: rotate 1s cubic-bezier(0.74, -0.55, 0.63, 0.63);
+									}
+									@keyframes rotate {
+										100% {
+											transform: rotate(360deg);
+										}
+									}
+								}
+
+								.control-width-15 {
+									margin: 15px 0;
+
+									.label-wrap {
+										display: block;
+										width: 100%;
+										max-width: none;
+										min-width: 0;
+										padding: 0;
+										margin: 0 0 6px 0;
+
+										.t-label {
+											text-align: left;
+											color: #8fcb61;
+
+											&.t-label-is-required:after {
+												position: static;
+											}
+										}
+									}
+
+									.control-wrap {
+										display: block;
+										margin: 0;
+										padding: 0;
+									}
+								}
+							}
+						}
+
+						.section-dcm-library {
+							height: calc(~"100vh" - @header-height + @padding-width * 2);
+							margin-left: @section-dcm-settings-width + @padding-width;
+							background-color: white;
+							border: 1px solid #e6e6e6;
+							border-radius: 3px;
+							border-top: none;
+							overflow-y: auto;
+
+							.section {
+								margin-left: inherit;
+								background-color: white;
+
+								.viewmodel-scrolltop-btn {
+									margin-top: -80px;
+								}
+
+								.right-section-container {
+									border: 0;
+								}
+
+								.left-section-container {
+									.extended-filters-container-wrapClass {
+										left: @section-dcm-settings-width + 14px;
+									}
+
+									.folders-container-wrapClass {
+										left: @section-dcm-settings-width + 14px;
+									}
+								}
+							}
+
+							.schema-wrap.one-el .section-wrap {
+								background-color: white;
+
+								.data-views-container-wrapClass {
+									padding-top: 61px;
+								}
+
+								.action-buttons-container-wrapClass {
+									background-color: white;
+									margin-left: 0;
+									width: calc(~"100%" - @section-dcm-settings-width + 20px);
+									min-width: calc(~"100%" - @section-dcm-settings-width + 20px);
+									padding-top: 20px;
+									border: none;
+									border-top: 1px solid #e6e6e6;
+								}
+
+								.content-container-wrapClass > .section {
+									.utils-container-wrapClass {
+										position: fixed;
+										top: 182px;
+										border: 0;
+										background-color: white;
+									}
+
+									.utils-container-wrapper-wrapClass {
+										margin-top: -1em;
+										background-color: white;
+									}
+								}
+
+								.section-inner-wrap.one-el .grid.grid-tiled:not(.grid-empty):before {
+									display: none;
+								}
+							}
+
+							.ts-image-edit-container img {
+								background-color: inherit;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

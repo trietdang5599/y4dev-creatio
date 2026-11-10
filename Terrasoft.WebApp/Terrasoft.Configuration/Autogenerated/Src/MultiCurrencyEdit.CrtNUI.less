@@ -1,0 +1,172 @@
+﻿@offset: 10px;
+@defaultColor: #999;
+
+.multi-currency-control-wrap {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-direction: row;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	align-items: center;
+}
+
+.multi-currency-control-wrap.base-edit-error {
+	outline: initial;
+	border-color: initial;
+	border-color: initial;
+	-webkit-box-shadow: initial;
+	-moz-box-shadow: initial;
+	box-shadow: initial;
+}
+
+.multi-currency-control-wrap.base-edit-error .base-edit {
+	outline: none;
+	border-color: rgba(86, 180, 239, 0.7);
+	border-color: #56b4ef;
+	-webkit-box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+	-moz-box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+	box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+}
+
+.multi-currency-button-wrap .t-btn-wrapper {
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: right;
+	color: @defaultColor;
+}
+
+.multi-currency-button-wrap .t-btn-style-transparent:not(.t-btn-disabled):hover {
+	color: @defaultColor;
+}
+
+.label-mixin(@width, @minWidth, @textAlign, @leftOffset, @rightOffset) {
+	width: @width;
+	min-width: @minWidth;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	text-align: @textAlign;
+	margin-left: @leftOffset;
+	margin-right: @rightOffset;
+	.t-label {
+		color: @defaultColor;
+		margin-bottom: 2px;
+	}
+}
+
+.control-mixin(@width, @minWidth) {
+	width: @width;
+	min-width: @minWidth;
+	.base-edit:not(.base-edit-focus) {
+		border: 1px solid white;
+		border-bottom: 1px dotted #c8c8c8;
+		.base-edit-right-icon {
+			display: none;
+		}
+	}
+	.base-edit:not(.base-edit-focus):hover {
+		border: 1px solid #c8c8c8;
+		.base-edit-right-icon {
+			display: block;
+		}
+	}
+	.base-edit.base-edit-disabled .base-edit-input,
+	.base-edit.base-edit-disabled {
+		background-color: white;
+	}
+	.base-edit.base-edit-disabled:hover .base-edit-right-icon {
+		display: none;
+	}
+	.number-edit-input-align {
+		text-align: left;
+	}
+}
+
+.multi-currency-edit-expandable {
+	padding: @offset @offset @offset @offset;
+	.data-container > div {
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		.item-label {
+			.label-mixin(67px, 67px, right, 0, @offset);
+		}
+		.item-control {
+			.control-mixin(100%, 0);
+		}
+		.item-control-rate {
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+			.item-label {
+				.label-mixin(100%, 0, left, @offset, 0);
+			}
+			.item-control {
+				.control-mixin(70px, 70px);
+			}
+		}
+	}
+	.footer-container {
+		text-align: right;
+		padding-top: @offset;
+	}
+	.footer-container .t-btn-wrapper {
+		background: rgba(0, 0, 0, 0);
+		border: 1px solid #b4c1d2;
+		border-radius: 2px;
+		color: #4e7bd8;
+		font-size: 13px;
+		height: 1.923em;
+		padding-top: 0.231em;
+		padding-bottom: 0;
+		padding-left: 0.769em;
+	}
+	.footer-container:not(:first-child) > span {
+		margin-left: 0.692em;
+	}
+}
+
+.currency-button {
+	color: @defaultColor;
+	text-align: right;
+}
+
+.currency-button .t-btn-left {
+	float: right;
+}
+
+.currency-button .t-btn-wrapper {
+	padding-left: 0;
+	padding-right: 0.9em;
+}
+
+.currency-button .wrapper-with-centered-right-menu .t-btn-menu {
+	right: 0;
+}
+
+.multi-currency-edit-disabled {
+	&:hover {
+		.base-edit-disabled-el-icon {
+			display: block;
+		}
+	}
+	&.base-edit-with-right-icon {
+		.base-edit-disabled-el-icon {
+			right: 32px;
+		}
+	}
+	.base-edit-right-icon-wrapper {
+		cursor: pointer;
+	}
+	.base-edit-input {
+		background-color: white;
+		cursor: default;
+	}
+}

@@ -1,0 +1,3740 @@
+{
+    "ConfirmationDialog": {
+        "YES": "예",
+        "NO": "아니요",
+        "DELETE": "삭제",
+        "CANCEL": "취소"
+    },
+    "InfoDialog": {
+        "OK": "네"
+    },
+    "OperationPermissionsErrorDialog": {
+        "ErrorTemplate": "이 작업을 수행할 권한이 없습니다.\n시스템 관리자에게 연락하여 «{0} » 코드로 다음 시스템 작업을 수행할 수 있는 권한을 요청하십시오. 시스템 작업에 대한 권한은 시스템 설계자의 \"작업 권한\" 섹션에서 관리됩니다"
+    },
+    "ValidationErrorDialogComponent": {
+        "Cancel": "취소",
+        "Close": "닫기"
+    },
+    "AddRecordRightsDialog": {
+        "Add": "추가",
+        "Cancel": "취소",
+        "RecordAuthor": "기록 작성자",
+        "RightsRecipient": "사용 권한을 얻는 사용자 또는 역할",
+        "Title": "레코드 작성자를 기준으로 권한 추가"
+    },
+    "AddEntityOperationGranteeDialog": {
+        "Add": "추가",
+        "Cancel": "취소",
+        "Operation": "작동",
+        "UserOrRole": "사용 권한을 얻는 사용자 또는 역할",
+        "Title": "역할 또는 사용자를 기준으로 사용 권한 추가"
+    },
+    "LocalizableStringsDialog": {
+        "Title": "지역화 가능한 문자열",
+        "NameTitle": "코드",
+        "ValueTitle": "값",
+        "Add": "추가",
+        "Cancel": "취소",
+        "Apply": "적용",
+        "ShowAllLanguages": "모든 언어 표시",
+        "HideInactiveLanguages": "비활성 언어 숨기기",
+        "Validations": {
+            "RequiredNameCaption": "값을 입력합니다",
+            "PatternNameCaption": "잘못된 값입니다. 기호 사용: a-z, A-Z, 0-9. 기호: 0-9는 처음일 수 없습니다",
+            "DuplicateNameCaption": "동일한 코드를 가진 현지화 가능한 문자열이 이미 있습니다."
+        },
+        "AcademyUrl": "https://academy.creatio.com/docs/8.x/",
+        "AcademyUrlTitle": "더 배우기."
+    },
+    "OrderDirectionStrict": {
+        "Ascending": "오르는",
+        "Descending": "내려가는"
+    },
+    "AdministratedObjectPage": {
+        "EntityOperations": "고급 작업",
+        "AdditionalOperationPermissions": "추가 권한",
+        "Operation": "작동",
+        "UserOrRole": "사용자 또는 역할",
+        "UserOrRoleWhoObtainsPermission": "사용 권한을 얻는 사용자 또는 역할",
+        "AccessPermissions": "권한",
+        "InfoBlockText": "역할 또는 사용자에게 부여된 시스템 작업 \"데이터 추가\", \"데이터 보기\", \"데이터 편집\", \"데이터 삭제\"는 이 섹션에서 구성하는 권한보다 우선 순위가 높습니다.",
+        "InfoBlockEntityOperationsText": "역할 또는 사용자에게 부여된 시스템 작업 \"CanExportGrid\"는 이 섹션에서 구성하는 사용 권한보다 높은 우선 순위를 가집니다.",
+        "InfoBlockTitle": "메모",
+        "InfoBlockLink1": "사용 권한 우선 순위 작동 방식",
+        "InfoBlockLink2": "사용 권한을 상속하는 방식",
+        "InfoBlockLink3": "세부 정보에 대한 사용 권한 설정 방법",
+        "InfoBlockLink4": "모든 기존 레코드에 새 레코드 권한 설정을 적용하는 방법",
+        "InfoBlockLink5": "액세스 권한 설정 예시",
+        "NameFieldName": "이름",
+        "RightsByColumnDetail": "열 권한 사용하기",
+        "RightsByColumnDetailTooltip": "개체의 특정 열(필드)에 대한 사용 권한 설정하기",
+        "RightsByOperationDetail": "작업 권한 사용하기",
+        "RightsByOperationDetailTooltip": "생성, 읽기, 편집 및 삭제 작업에 대한 권한 설정하기",
+        "RightsByEntityOperationDetail": "엔티티 작업 권한 사용하기",
+        "RightsByEntityOperationDetailTitle": "추가 권한",
+        "RightsByEntityOperationDetailTooltip": "역할 또는 사용자를 기준으로 현재 개체에서 데이터 내보내기에 대한 권한 설정하기",
+        "RightsByRecordDetail": "레코드 권한 사용하기",
+        "RightsByRecordDetailTooltip": "특정 레코드 읽기, 편집 및 삭제를 위한 권한 설정하기",
+        "TitleFieldName": "제목",
+        "TitleFormat": "{0}개의 개체 사용 권한",
+        "UpdatePermissions": "레코드 사용 권한 업데이트",
+        "OneEmptyRecordDefRightMessageTemplate": "규칙 \"{0}\"에는 \"설정되지 않음\" 이외의 액세스 권한이 없으며 실제 액세스 설정에 어떠한 영향도 미치지 않습니다. 새 권한을 적용할 때 Creatio는 이 규칙을 삭제합니다. 계속하시겠습니까?",
+        "SeveralEmptyRecordDefRightsMessageTemplate": "규칙 \"{0}\"에는 \"설정되지 않음\" 이외의 액세스 권한이 없으며 실제 액세스 설정에 어떠한 영향도 미치지 않습니다. 새 권한을 적용할 때 Creatio는 이 규칙을 삭제합니다. 계속하시겠습니까?",
+        "ProposalActualizationRights": "레코드 권한 설정이 수정되었습니다. 기존 {0} 레코드에 대한 현재 권한을 업데이트해야 합니다. 이는 모든 사용자의 시스템 성능에 영향을 미칠 수 있습니다. \n 지금 레코드 권한을 업데이트하시겠습니까?",
+        "InfoAboutOperationPermissionsTitle": "중요한",
+        "InfoAboutOperationPermissions": "Operation permissions for the object are deactivated. When this is the case:",
+        "InfoAboutOperationPermissions1": "Company employees have full access to all operations with the object, settings that are displayed in the list below are ignored.",
+        "InfoAboutOperationPermissions2": "External users do not have access to any operations with the object.",
+        "InfoAboutOperationPermissions3": "Technical users have access according to the settings in the list below.",
+        "InfoAboutOperationPermissions4": "Learn more about object permissions settings in the",
+        "InfoAboutOperationPermissionsLinkCaption": "Academy",
+        "InfoAboutOperationPermissionsAcademyLink": "https://academy.creatio.com/documents?id=250"
+    },
+    "AdministratedObjectSection": {
+        "BusinessLogicPermissions": "레코드 권한이 활성화됨",
+        "Close": "닫기",
+        "ColumnPermissions": "열 권한이 활성화됨",
+        "Name": "이름",
+        "ObjectPermissions": "작업 권한이 활성화됨",
+        "Search": "검색",
+        "Title": "개체 권한",
+        "TitleColumn": "제목",
+        "UpdatePermissions": "레코드 사용 권한 업데이트"
+    },
+    "BasePageComponent": {
+        "Close": "닫기",
+        "Apply": "적용",
+        "Cancel": "취소",
+        "Save": "완료",
+        "Actions": "행실",
+        "Check": "확인",
+        "Publish": "출판",
+        "PublishAndCompile": "게시 및 컴파일",
+        "SaveAndPublish": "Save and publish"
+    },
+    "ClearChangeLogSettingsDialog": {
+        "AllObjects": "모든 개체",
+        "AllPeriod": "사용 가능한 모든 데이터",
+        "Cancel": "취소",
+        "ChooseDate": "날짜 선택하기",
+        "ChooseObject": "개체 선택하기",
+        "Clear": "지우기",
+        "ObjectSettingsTitle": "다음 개체의 로그 데이터 지우기",
+        "OnlySelectedObject": "특정 개체",
+        "PeriodSettingsTitle": "다음 기간의 로그 데이터 지우기",
+        "Title": "변경 로그를 지우기",
+        "ToDatePeriod": "다음보다 오래된 데이터만"
+    },
+    "ChangeLogCleanerService": {
+        "SuccessLaunch": "시스템이 변경 로그 지우기를 시작했습니다. 프로세스가 완료되면 통신 패널에 알림 메시지가 표시됩니다."
+    },
+    "ChangeLogPage": {
+        "Close": "닫기",
+        "TitleFormat": "{0} 변경 로그",
+        "ViewLog": "로그 보기"
+    },
+    "ChangeLogSection": {
+        "Title": "로그 변경하기",
+        "TitleColumn": "제목",
+        "NameColumn": "이름",
+        "LoggingEnabledColumn": "로깅 활성화됨",
+        "ClearChangeLog": "로그 지우기"
+    },
+    "ChangeLogComponent": {
+        "Blankslate": "변경 로그에 이 개체에 대한 레코드가 없습니다.",
+        "InsertedTooltip": "레코드 추가됨",
+        "UpdatedTooltip": "레코드 수정됨",
+        "DeletedTooltip": "레코드 삭제됨",
+        "ShowMore": "더 보기",
+        "ShowLess": "덜보기",
+        "ChangeType": "유형 변경",
+        "ChangeTrackedOn": "변경됨",
+        "ChangeTrackedBy": "()에 의해 변경됨",
+        "ChangeTracked": "레코드",
+        "ColumnName": "열",
+        "ColumnOldValue": "이전 값",
+        "ColumnNewValue": "새로운 값",
+        "Yes": "예",
+        "No": "아니요"
+    },
+    "LicenseManager": {
+        "PackageNameColumn": "이름",
+        "TypeColumn": "유형",
+        "StartDateColumn": "시작일자",
+        "DueDateColumn": "마감일",
+        "StatusColumn": "상태",
+        "CountColumn": "총",
+        "LicenseIsActive": "활동적",
+        "LicenseIsNotActive": "활성화되지 않음",
+        "TypePersonal": "개인적인",
+        "TypeConcurrent": "동시",
+        "TypeServer": "서버"
+    },
+    "LicenseSection": {
+        "Title": "면허증 매니저",
+        "BlankslateTitle": "이 섹션에는 지금까지 레코드가 없습니다.",
+        "BlankslateDescription": "면허증 파일을 업로드하면 여기에 라이센스가 표시됩니다.",
+        "ServerLicenseTooltip": "서버 및 동시 면허증은 사용자 페이지에서 배포됩니다",
+        "ConcurrentLicenseTooltip": "서버 및 동시 면허증은 사용자 페이지에서 배포됩니다",
+        "UploadButtonCaption": "업로드",
+        "UploadLicensesCompleteMessage": "면허증이 성공적으로 업로드되었습니다",
+        "UploadLicensesErrorMessage": "잘못된 파일 형식",
+        "RequestLicensesButtonCaption": "요구",
+        "DeleteLicensesButtonCaption": "삭제",
+        "DeleteLicensesConfirmation": "면허증이 삭제됩니다. 계속하시겠습니까?",
+        "DeleteLicensesSuccess": "모든 면허증이 성공적으로 삭제되었습니다.",
+        "AllTypesCaption": "모든 라이선스",
+        "PersonalTypeCaption": "개인적인",
+        "ServerTypeCaption": "서버",
+        "UploadLicensesCryptographicExceptionMessage": "Invalid file format. If your license was generated for 8.3.0 or earlier Creatio versions, creating a new license request may resolve the issue."
+    },
+    "LicensePage": {
+        "TitleFormat": "제품 {0}"
+    },
+    "UsedLicensesCounterChart": {
+        "ActiveLicensesTitle": "활성 면허증",
+        "ConcurrentLicenseTitle": "동시 면허증",
+        "UsedLicensesCountTitle": "면허증",
+        "UsedLicensesCountSeparatorLabel": "의",
+        "DistributedLicensesLegend": "사용자에게 할당된 면허증",
+        "AvailableLicensesLegend": "동시 사용자 세션에 대한 제한",
+        "UnlimitedCountLabel": "무제한 사용자",
+        "LimitOfLicensesLabel": "면허증 제한"
+    },
+    "LicenseDetail": {
+        "Title": "면허증"
+    },
+    "LicensedUsersDetail": {
+        "Title": "면허증이 부여된 사용자",
+        "UsersDialogCaption": "사용자",
+        "UserNameColumn": "사용자",
+        "EmailColumn": "이메일",
+        "JobTitleColumn": "직급",
+        "Delete": "리콜",
+        "Blankslate": "이 면허증은 아직 사용자에게 배포되지 않았습니다",
+        "SourceTitleColumn": "발행방법",
+        "UserLicensesSourceManual": "수동으로",
+        "UserLicensesSourceSystem": "자동으로",
+        "UserLicensesSourceRoleBased": "Based on role"
+    },
+    "LicenseRequestDialog": {
+        "Title": "면허증에 대한 회사 ID",
+        "LicenseVersionTitle": "면허증 버전",
+        "InputFieldDescription": "고유 회사 ID는 \"라이선스 회사 ID\" 시스템 설정에 저장됩니다. 이 필드에서 회사 ID를 변경하면 시스템 설정 값이 자동으로 업데이트됩니다.",
+        "LicenseVersionDescription": "라이센스를 업로드할 예정인 Creatio 버전입니다.",
+        "InvalidVersionFormat": "버전은 점으로 구분된 3개의 숫자 형태로 입력하십시오. 예를 들어 7.18.1",
+        "RequestButtonCaption": "면허증 요청 파일 생성하기"
+    },
+    "ObjectRecordRightsActualizationService": {
+        "SuccessLaunch": "시스템이 현재 설정을 기준으로 레코드 권한 업데이트를 시작했습니다. 프로세스가 완료되면 통신 패널에 알림 메시지가 표시됩니다."
+    },
+    "ViewElementGroup": {
+        "ChartsGroupCaption": "차트",
+        "ComponentsGroupCaption": "요소",
+        "LayoutElementsGroupCaption": "레이아웃 요소",
+        "InputsGroupCaption": "투입",
+        "CustomElementsGroupCaption": "사용자 정의 요소"
+    },
+    "ObjectChangeLogPage": {
+        "TitleFormat": "{0} 개체에 대한 로그 변경",
+        "SettingsTabCaption": "로그 설정",
+        "ViewChangeLogTabCaption": "로그 데이터",
+        "EnableObjectTracking": "로깅 사용"
+    },
+    "ObjectTypeFilter": {
+        "AllObjects": "모든 개체",
+        "Lookups": "순람표",
+        "Sections": "부분"
+    },
+    "SearchInput": {
+        "Placeholder": "검색",
+        "Settings": {
+            "Cancel": "취소",
+            "Apply": "적용",
+            "SearchColumnTemplate": "\"{0}\" 열로 검색",
+            "StartsWith": "로 시작",
+            "Contains": "포함",
+            "Equals": "동등"
+        }
+    },
+    "DeleteButtonTableCell": {
+        "Tooltip": "제거"
+    },
+    "RightLevelSelect": {
+        "Granted": "승인",
+        "GrantedDelegate": "위임할 권리가 부여됨",
+        "NotSet": "설정되지 않음"
+    },
+    "RightsByColumnDetail": {
+        "Add": "추가",
+        "Blankslate": "모든 열에 대한 액세스가 제한되지 않음",
+        "Column": "열",
+        "ColumnBlankslate": "이 열에 대한 액세스를 관리할 역할 또는 사용자 추가",
+        "DenyReadEdit": "읽기 및 편집 거부하기",
+        "Drag": "우선 순위 변경으로 끌기",
+        "PermitRead": "읽기 허용하기",
+        "PermitReadEdit": "읽기 및 편집 허용하기",
+        "Priority": "우선 순위",
+        "Remove": "제거",
+        "RightLevel": "접근 수준",
+        "User": "사용자 또는 역할",
+        "ValidationMessage": "선택한 역할에 대한 규칙이 이미 있습니다. 계속하려면 다른 역할을 선택하십시오",
+        "WarningDowngradingRights": "이 규칙의 사용 권한 제한은 목록의 하위 규칙을 재정의할 수 있습니다"
+    },
+    "RightsByRecordDetail": {
+        "Add": "추가",
+        "Blankslate": "작성자 기반 권한 규칙이 설정되지 않았습니다",
+        "Delete": "삭제",
+        "Edit": "편집",
+        "Read": "읽기",
+        "RecordAuthor": "기록 작성자",
+        "Remove": "제거",
+        "RightsRecipient": "사용 권한을 얻는 사용자 또는 역할",
+        "Title": "레코드 작성자를 기준으로 권한 부여",
+        "TitleTooltip": "새 레코드가 생성될 때마다 레코드 작성자를 기준으로 사용 권한이 부여됩니다.",
+        "ValidationMessage": "선택한 역할에 대한 규칙이 이미 있습니다. 계속하려면 다른 역할을 선택하십시오.",
+        "DoNotApplyForManager": "Do not apply for manager",
+        "DoNotApplyForManagerTooltip": "Do not apply this rule if the author obtained the role only as a manager of that role. If the role is obtained through hierarchy from underlying roles, including manager roles of subordinate groups, the rule should still be applied."
+    },
+    "RightsByOperationsDetail": {
+        "Drag": "우선 순위 변경으로 끌기",
+        "Priority": "우선 순위",
+        "User": "사용자 또는 역할",
+        "Create": "창조",
+        "Read": "읽기",
+        "Edit": "편집",
+        "Delete": "삭제",
+        "Remove": "제거",
+        "Add": "추가",
+        "Blankslate": "사용자 또는 역할을 추가하여 개체 데이터에 대한 액세스 권한을 부여합니다.",
+        "ValidationMessage": "선택한 역할에 대한 규칙이 이미 있습니다. 계속하려면 다른 역할을 선택하십시오",
+        "WarningDowngradingRights": "이 규칙의 사용 권한 제한은 목록의 하위 규칙을 재정의할 수 있습니다",
+        "Allowed": "승인",
+        "Denied": "거부된"
+    },
+    "RightsByEntityOperationsDetail": {
+        "Add": "추가",
+        "Title": "추가 권한",
+        "Blankslate": "추가 작업에 대한 액세스 권한을 부여하는 사용자 또는 역할 추가",
+        "Operation": "작동",
+        "UserOrRole": "사용 권한을 얻는 사용자 또는 역할",
+        "ValidationMessage": "필드가 채워지지 않았습니다."
+    },
+    "SelectEntitySchemaColumnDialog": {
+        "Cancel": "취소",
+        "Select": "선택",
+        "SelectFieldPlaceholder": "열 선택",
+        "Title": "열 선택"
+    },
+    "SelectSysAdminUnitDialog": {
+        "Cancel": "취소",
+        "FunctionalRoles": "기능적 역할",
+        "OrganizationalRoles": "조직 역할",
+        "Search": "검색",
+        "Select": "선택",
+        "Title": "사용자 또는 역할 선택",
+        "Users": "사용자"
+    },
+    "SelectEntityOperationDialog": {
+        "Cancel": "취소",
+        "Search": "검색",
+        "Operations": "작업",
+        "Select": "선택",
+        "Title": "엔티티 작동",
+        "Users": "사용자",
+        "SelectFieldPlaceholder": "엔티티 작동 선택"
+    },
+    "SysAdminUnitTree": {},
+    "TrackedColumns": {
+        "TitleTooltip": "레코드를 수정할 때 값이 기록될 열 목록 설정",
+        "Title": "기록된 열",
+        "CaptionColumn": "제목",
+        "NameColumn": "이름",
+        "Add": "추가",
+        "Remove": "제거",
+        "Blankslate": "기록된 열이 선택되지 않았습니다."
+    },
+    "BaseSection": {
+        "BlankslateTitleWithFilters": "현재 검색 조건과 일치하는 레코드가 없습니다.",
+        "BlankslateDescriptionWithFilters": "검색 매개변수 지우기 또는 수정",
+        "DeleteRecordConfirmation": "선택한 레코드를 삭제하시겠습니까?",
+        "AbsentDataErrorMessage": "레코드가 삭제되었거나 레코드에 대한 액세스 권한이 없습니다."
+    },
+    "BaseTableDetail": {
+        "Add": "추가",
+        "BlankslateWithFilters": "현재 검색 기준과 일치하는 레코드가 없습니다. 검색 매개변수 지우기 또는 수정하기"
+    },
+    "MultiselectDialog": {
+        "Select": "선택",
+        "Selected": "선택됨:",
+        "Cancel": "취소",
+        "Blankslate": "이 개체에 대한 레코드가 없습니다",
+        "BlankslateWithFilters": "현재 검색 기준과 일치하는 레코드가 없습니다. 검색 매개변수 지우기 또는 수정하기"
+    },
+    "LookupDialog": {
+        "TitleTemplate": "선택: {0}",
+        "Selected": "선택됨:",
+        "SelectButton": "선택",
+        "CancelButton": "취소",
+        "Blankslate": "이 개체에 대한 레코드가 없습니다",
+        "AllPagesSelectionWarning": "작업에 시간이 좀 걸릴 수 있습니다. 계속하시겠습니까?"
+    },
+    "QuickEntityFilter": {
+        "NonGuidMessage": "가이드에는 4개의 대시가 있는 32개의 기호가 포함되어야 합니다. (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)"
+    },
+    "DateRange": {
+        "To": "에게"
+    },
+    "MailServerTableComponent": {
+        "AdditionalSettings": "추가 설정",
+        "AddMailServer": "서비스 추가",
+        "AllowEmailDownloading": "이메일 수신",
+        "AllowEmailSending": "이메일 보내기",
+        "Copy": "복사",
+        "DeleteConfirmation": "선택한 레코드를 삭제하시겠습니까?",
+        "Delete": "삭제",
+        "Edit": "편집",
+        "Empty": "사용 가능한 메일 서비스 없음",
+        "ExchangeMenuItem": "교환하기",
+        "IMAPIncomingSettingsDescription": "이메일 수신을 위한 이메일 서비스 설정입니다. 메일 서버 주소, 포트 및 보안 설정을 지정하십시오",
+        "IMAPIncomingSettingsHeader": "인바운드 메일 서버(IMAP)",
+        "ImapMenuItem": "IMAP/SMTP",
+        "LoginFormat": "로그인 형식",
+        "MailServerAddress": "서비스 주소",
+        "MailServer": "우편 서비스",
+        "MailServerName": "서비스 이름",
+        "MailServerSettings": "서비스 설정",
+        "MailServerType": "서비스 유형",
+        "MailServiceRemoveToolTip": "응용 프로그램에 이 서비스의 편지함이 여러 개 있기 때문에 Creatio에서 메일 서비스를 삭제할 수 없습니다.",
+        "None": "없음",
+        "Port": "포트",
+        "RequiredMailServiceActions": "서비스 설정을 위해 다운로드 또는 전자 이메일 전송 활성화하십시오",
+        "Section": {
+            "Add": "추가",
+            "GoToDiagnostic": "Diagnostic tool"
+        },
+        "Security": "보안",
+        "AuthenticationType": "인증 유형",
+        "ApplicationId": "응용 (고객) ID",
+        "ClientSecret": "고객비밀",
+        "Server": "서버 주소",
+        "SMTPOutgoingSettingsDescription": "이메일을 보내기 위한 이메일 서비스 설정입니다. 메일 서버 주소, 포트 및 보안 설정을 지정하십시오",
+        "SMTPOutgoingSettingsHeader": "송신 메일 서버(SMTP)",
+        "SuccessfulAddOperation": "새 이메일 서비스를 성공적으로 추가했습니다. 이제 사용자는 이 서비스를 사용하여 사서함을 추가할 수 있습니다.",
+        "SuccessfulEditOperation": "Creatio는 메일 서비스 설정을 업데이트했습니다.",
+        "SuccessfulOperation": "성공적인 작업",
+        "WarningTitle": "⚠ Warning",
+        "Type": "유형",
+        "UseEmailAddressAsLogin": "이메일 주소 사용하기",
+        "UseLogin": "수동 입력 사용하기",
+        "UseUserNameAsLogin": "우편함 이름 사용하기",
+        "BasicAuthWarningMessage": "기본 인증은 구식이며 안전하지 않을 가능성이 있습니다. <a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online\" {0}>마이크로소프트에서</a> 공식적으로 사용하지 않습니다. 생산 용도는 현대 OAuth 인증으로 전환을 고려해 주시기 바랍니다. 구성 지침은 <a href=\"{1}\" {0}>Creatio Academy에서</a> 사용할 수 있습니다",
+        "TenantId": "임차인 ID",
+        "AllowApplicationLevelAccess": "Allow application-level access"
+    },
+    "MailboxSettings": {
+        "AdditionalSettingsTabCaption": "추가 설정",
+        "MailboxesTabCaption": "우편함",
+        "MailServicesTabCaption": "우편함 서비스",
+        "Title": "우체통 설정"
+    },
+    "EntitySchemaDesignerPage": {
+        "NameFieldName": "이름",
+        "CaptionFieldName": "캡션"
+    },
+    "SqlScriptDesignerPage": {
+        "Name": "이름",
+        "Caption": "캡션"
+    },
+    "SchemaDataDesignerPage": {
+        "ActualizeData": "데이터 실현하기",
+        "Fields": {
+            "Name": "이름",
+            "Object": "개체",
+            "InstallType": "설치 유형",
+            "Package": "패키지"
+        },
+        "InfoBlockText1": "설치 유형",
+        "InfoBlockText2": "설치 유형에 따라 패키지 설치 시 응용 프로그램 데이터를 추가하는 방법이 결정됩니다.",
+        "InfoBlockText3": "• Installation — data is added during the first installation of the package and is updated with the package updates. New records are always added. Existing records are updated only if the “Forced update” checkbox is selected on the “Columns setting” tab. This is the default and most flexible type.",
+        "InfoBlockText4": "• Update existing — deprecated type. We recommend using the Installation type instead because this type has similar behaviour.",
+        "InfoBlockText5": "• Initial package installation — data is added only during the first installation of the package. Data is not updated or added during subsequent package updates.",
+        "ColumnsSettingTabCaption": "열 설정",
+        "BoundDataTabCaption": "바운드 데이터",
+        "InstallType": {
+            "Install": "설치",
+            "FirstInstall": "Initial package installation",
+            "Update": "기존 업데이트",
+            "InstallIfNotExists": "Initial data installation"
+        },
+        "ColumnsDetail": {
+            "Title": "열 설정",
+            "Blankslate": "개체를 선택한 다음 열을 설정합니다.",
+            "ErrorDeletePrimaryColumn": "기본 열 \"{0}\"을(를) 삭제할 수 없습니다.",
+            "ColumnsAreNotAvailableInPackageMessage": "다음 열은 현재 패키지에서 사용할 수 없으며 추가할 수 없습니다: {0}",
+            "Columns": {
+                "Caption": "캡션",
+                "Name": "이름",
+                "ForcedUpdate": "강제 업데이트",
+                "Key": "키"
+            },
+            "Tooltips": {
+                "ForcedUpdate": "The checkbox indicates that the data in this column will update whenever the corresponding package is updated.",
+                "Key": "이 확인란은 기본적으로 개체의 기본 열에 대해 설정됩니다. 데이터베이스에서 복합 키를 사용하는 경우 모든 복합 키 열에 대해 이 확인란을 선택합니다. 개체의 기본 열은 복합 키 열이 될 수 없습니다."
+            }
+        },
+        "BoundDataDetail": {
+            "Title": "데이터",
+            "Blankslate": "바인딩할 레코드 선택하기",
+            "ActualDataWasLoaded": "현재 데이터가 로드되었습니다."
+        },
+        "InfoBlockText6": "• Initial data installation — data binding is installed during the first package installation or subsequent updates only if the same binding does not already exist. Use this type to avoid unintended overwrites."
+    },
+    "WorkspaceExplorer": {
+        "Section": {
+            "ActionButtonCaption": "행실",
+            "Title": "구성",
+            "WorkspaceItemMoveService": {
+                "NameColumn": "이름",
+                "SelectPackageDialogTitle": "{0} 요소를 패키지로 이동",
+                "MultiselectElementsPackageDialogTitle": "{0}개의 요소를 패키지로 이동",
+                "MoveElementsWebServiceSuccessMessage": "요소가 성공적으로 이동됨",
+                "NoPackagesMessage": "사용 가능한 패키지 없음",
+                "MoveAllPackageElementsWebServiceSuccessMessage": "요소가 성공적으로 이동됨",
+                "MoveAllPackageElementsDialogTitle": "{0} 패키지 요소를 패키지로 이동",
+                "SpecifyDependenciesConfirmationDialog": "{0} 패키지에 올바른 마이그레이션에 필요한 종속성이 없습니다. 누락된 종속성을 자동으로 설치하시겠습니까?"
+            },
+            "WorkspaceItemMoveValidateDialog": {
+                "ErrorMessageTitle": "요소 이동 오류",
+                "WithoutValidationConfirmationMessage": "이렇게 하면 전송된 패키지 요소 간의 현재 종속성으로 인해 구성 무결성이 중단됩니다. 무결성을 복원하려면 현재 종속성에 필요한 나머지 요소를 이동하거나 종속성을 수정하십시오.\n위의 작업 중 하나를 수행할 계획이 아니라면 계속 진행하지 않는 것이 좋습니다.\n패키지 요소 이동을 계속하시겠습니까?\n\n",
+                "MoveButtonCaption": "요소 이동"
+            },
+            "PackageStorageValidationMessageDialog": {
+                "Title": "구성 오류",
+                "MessageColumn": "묘사",
+                "ItemNameColumn": "원소",
+                "ItemTypeColumn": "유형",
+                "PackageNameColumn": "패키지",
+                "ConfirmationTitle": "요소 이동 오류",
+                "WithoutValidationConfirmationMessage": "이렇게 하면 전송된 패키지 요소 간의 현재 종속성으로 인해 구성 무결성이 중단됩니다. 무결성을 복원하려면 현재 종속성에 필요한 나머지 요소를 이동하거나 종속성을 수정하십시오.\n위의 작업 중 하나를 수행할 계획이 아니라면 계속 진행하지 않는 것이 좋습니다.\n패키지 요소 이동을 계속하시겠습니까?\n\n",
+                "MoveButtonCaption": "요소 이동"
+            },
+            "ValidateWorkspaceDialog": {
+                "ErrorMessageTitle": "구성 오류",
+                "ValidationSuccess": "구성이 성공적으로 검증되었습니다. 오류가 없습니다."
+            },
+            "Packages": {
+                "InstallPackageDialog": {
+                    "Title": "리포지토리에서 패키지 설치하기",
+                    "InputFieldPackageName": "패키지",
+                    "InputFieldRepositoryAddress": "버전 제어 시스템 저장소",
+                    "InputFieldVersion": "버전",
+                    "Cancel": "취소",
+                    "Install": "설치하기"
+                },
+                "CreatePackageDialog": {
+                    "Title": "패키지",
+                    "InputFieldName": "이름",
+                    "InputFieldDescription": "묘사",
+                    "InputFieldRepositoryAddress": "버전 제어 시스템 저장소",
+                    "InputFieldVersion": "버전",
+                    "SaveButtonCaption": "완료",
+                    "Cancel": "취소",
+                    "OpenPackagePage": "종속성 생성 및 추가",
+                    "Validation": {
+                        "PackageNameNotSpecified": "패키지 이름이 지정되지 않았습니다.",
+                        "PackageVersionNotSpecified": "패키지 버전이 지정되지 않았습니다.",
+                        "NotAllowedFormat": "리포지토리 버전에 대한 잘못된 형식",
+                        "MaximumLengthExeeded": "최대 텍스트 길이를 초과했습니다."
+                    }
+                },
+                "SourceControl": {
+                    "CommitResult": {
+                        "Success": "변경 내용이 리포지토리에 커밋되었습니다.",
+                        "CustomPackage": "사용자 지정 패키지를 리포지토리에 커밋할 수 없습니다.",
+                        "PackageUpdateNeed": "리포지토리에서 변경 사항이 탐지되었습니다. 작업영역을 업데이트해야 합니다.",
+                        "PackageHasForeignLock": "변경 사항을 저장할 수 없음: 항목이 저장된 패키지가 다른 사용자에 의해 잠겨 있습니다."
+                    },
+                    "CommitChangesDialog": {
+                        "Title": "패키지를 리포지토리에 커밋",
+                        "LogMessageFieldCaption": "묘사",
+                        "CommitButtonCaption": "변경사항 커밋",
+                        "Cancel": "취소",
+                        "NoChanges": "커밋할 항목이 없습니다."
+                    },
+                    "Update": {
+                        "ConfirmMessage": "리포지토리에서 이 패키지를 업데이트하시겠습니까?",
+                        "NoChanges": "변경 사항을 찾을 수 없습니다"
+                    },
+                    "Install": {
+                        "ConfirmMessage": "설치된 패키지를 찾았습니다. 다음에 설치할 때 패키지 구조를 완전히 변경할 수 있습니다. 계속하시겠습니까?",
+                        "NoChanges": "변경 사항을 찾을 수 없습니다"
+                    },
+                    "Restore": {
+                        "ConfirmMessage": "작업영역이 최신 개정판으로 업데이트됩니다. 변경 내용이 모두 손실됩니다. 계속하시겠습니까?",
+                        "Success": "저장소에서 작업 공간이 복원되었습니다."
+                    }
+                },
+                "PackageCreated": "새 패키지를 생성했습니다: {0}",
+                "PackageDeleted": "패키지를 삭제했습니다: {0}",
+                "PackageLocked": "SVN에서 {0} 패키지를 성공적으로 잠갔습니다.",
+                "PackageUnlocked": "SVN에서 {0} 패키지의 잠금을 해제했습니다.",
+                "SearchPlaceholder": "패키지에서 검색",
+                "AllPackagesCaption": "모든 패키지",
+                "DeleteConfirmation": "선택한 패키지를 삭제하시겠습니까?",
+                "BlankslateTitle": "패키지를 찾을 수 없음",
+                "InstallFromRepository": {
+                    "NoRepositories": "Creatio에서 저장된 리포지토리를 찾을 수 없습니다. 새 리포지토리를 저장하시겠습니까?",
+                    "NoActiveRepository": "Creatio에서 활성 리포지토리를 찾을 수 없습니다. 리포지토리 목록으로 이동하시겠습니까?"
+                },
+                "ConnectedApplications": {
+                    "DeleteConfirmation": "패키지는 다음 앱에서도 제거됩니다:\n{0}\n패키지를 제거하면 이러한 앱이 기능을 잃거나 작동하지 않을 수 있습니다. 계속하시겠습니까?",
+                    "DeactivateConfirmation": "패키지는 다음 앱에서도 비활성화됩니다:\n{0}\n패키지 비활성화로 인해 이러한 앱이 기능을 잃거나 작동하지 않을 수 있습니다. 계속하시겠습니까?"
+                },
+                "CreatePackage": "패키지 생성",
+                "PackageDeactivated": "패키지를 비활성화했습니다: {0}",
+                "DeactivateConfirmation": "선택한 패키지를 비활성화하시겠습니까?",
+                "ActivateConfirmation": "선택한 패키지를 활성화하시겠습니까?",
+                "EndUserSchemas": "Environment schemas",
+                "NewSearchPlaceholder": "검색",
+                "PackagesCaption": "패키지",
+                "EndUserSchemaPackageTooltip": "Environment schemas exist only in this environment. To transfer them, move the schema to a package.",
+                "ConfigurationRootCaption": "구성"
+            },
+            "Items": {
+                "ImportSuccessMessage": "\"{0}\" 항목을 \"{1}\" 패키지로 가져왔습니다.",
+                "UpdateDBStructureConfirmMessage": "선택한 개체의 데이터베이스 구조가 업데이트됩니다. 계속하시겠습니까?",
+                "GenerateSchemasSourcesConfirmMessage": "선택한 요소의 소스 코드가 생성됩니다. 계속하시겠습니까?",
+                "InstallSqlScriptsConfirmMessage": "선택한 SQL 스크립트를 데이터베이스에 설치합니다. 계속하시겠습니까?",
+                "InstallDataConfirmMessage": "선택한 항목에 대한 데이터가 설치됩니다. 계속하시겠습니까?",
+                "DeleteConfirmMessage": "선택한 항목을 영구적으로 삭제하시겠습니까?",
+                "RevertChangesMessage": "선택한 항목의 모든 변경 내용이 손실됩니다. 계속하시겠습니까?",
+                "RecordLockedInSVNSuccessfully": "SVN에서 레코드가 성공적으로 잠겼습니다.",
+                "RecordUnlockedInSVNSuccessfully": "SVN에서 기록이 성공적으로 잠금 해제됨",
+                "MultiItemActionButton": "멀티액션",
+                "Columns": {
+                    "UId": "UID",
+                    "Name": "이름",
+                    "Title": "제목",
+                    "Status": "상태",
+                    "Type": "유형",
+                    "Object": "개체",
+                    "ModifiedOn": "()에 수정된",
+                    "Package": "패키지",
+                    "CreatedOn": "()에서 만든",
+                    "CreatedBy": "()이(가) 작성",
+                    "ModifiedBy": "()의해 수정됨"
+                },
+                "Add": {
+                    "Caption": "추가",
+                    "Sql": "SQL 스크립트",
+                    "SourceCode": "소스 코드",
+                    "Entity": "개체",
+                    "ReplacingEntity": "개체 바꾸기",
+                    "ClientUnit": {
+                        "Module": "모듈",
+                        "EditViewModelSchema": "페이지 뷰 모델",
+                        "AngularSchema": "Freedom UI page",
+                        "ModuleViewModelSchema": "섹션 견해 모델",
+                        "GridDetailViewModelSchema": "상세(리스트) 뷰 모델",
+                        "EditControlsDetailViewModelSchema": "상세(필드) 뷰 모델",
+                        "ExtendedClientUnitSchema": "뷰 모델 바꾸기",
+                        "ExtendedAngularSchema": "각도 치환 뷰 모델"
+                    },
+                    "UserTask": "사용자 작업",
+                    "BusinessProcess": "비즈니스 프로세스",
+                    "DataBinding": "데이터",
+                    "Import": "수입품",
+                    "RestService": "REST 서비스",
+                    "SoapService": "SOAP 서비스"
+                },
+                "Types": {
+                    "SqlScript": "SQL 스크립트",
+                    "SchemaData": "데이터",
+                    "Assembly": "참조 어셈블리",
+                    "EntitySchema": "개체",
+                    "ClientUnitSchema": "클라이언트 모듈",
+                    "SourceCodeSchema": "소스 코드",
+                    "ProcessSchema": "비즈니스 프로세스",
+                    "DcmSchema": "실정",
+                    "ProcessUserTaskSchema": "사용자 작업",
+                    "CampaignSchema": "마케팅 캠페인",
+                    "ServiceSchema": "웹 서비스",
+                    "AddonSchema": "추가액",
+                    "CopilotIntentSchema": "Creatio.ai agent",
+                    "LocalizationSchema": "지방화"
+                },
+                "Status": {
+                    "NeedInstall": "데이터베이스에 설치해야 합니다",
+                    "NeedUpdateSourceCode": "소스 코드 업데이트 필요",
+                    "NeedUpdateStructure": "데이터베이스 업데이트가 필요합니다",
+                    "LockedInSVN": "SVN에 잠김",
+                    "UnlockedInSVN": "SVN에서 잠금 해제됨"
+                },
+                "Filters": {
+                    "Types": {
+                        "AllItems": "전품목",
+                        "Placeholder": "유형"
+                    },
+                    "States": {
+                        "AllItems": "전품목",
+                        "Placeholder": "필터",
+                        "Locked": "잠김",
+                        "NeedActualization": "실현이 필요합니다",
+                        "Error": "오류 있음"
+                    }
+                },
+                "DetailsDialog": {
+                    "Close": "닫기",
+                    "PageTitle": "속성",
+                    "Title": "제목",
+                    "Name": "이름",
+                    "FullQualifiedName": "완전한 어셈블리 이름",
+                    "DataObjectName": "개체",
+                    "CreatedBy": "-는 만든",
+                    "CreatedOn": "()에서 만든",
+                    "PackageName": "패키지",
+                    "ParentCaption": "기본적",
+                    "ReplaceParent": "기본적 바꾸기",
+                    "IsChanged": "수정됨",
+                    "UId": "UId",
+                    "ModifiedBy": "()에 의해 수정된",
+                    "Id": "ID",
+                    "ModifiedOn": "()에 수정된",
+                    "ManagerName": "매니저 이름",
+                    "MetaDataModifiedOn": "에 수정된 메타데이터",
+                    "Description": "묘사",
+                    "IsLocked": "잠김",
+                    "NeedUpdateDBStructure": "데이터베이스 업데이트가 필요합니다",
+                    "NeedInstall": "데이터베이스에 설치해야 합니다",
+                    "LastErrorText": "마지막 오류 메시지",
+                    "LockedBy": "에 의해 잠김",
+                    "DbStructureModifiedOn": "에 수정된 데이터베이스 구조",
+                    "IsNetStandard": "IsNetStandard",
+                    "LoadOnAppStart": "LoadOnAppStart",
+                    "UIdTooltip": "구성 요소 고유 ID입니다. 구성 요소 ID는 모든 애플리케이션에서 항상 동일하게 유지됩니다.",
+                    "IdTooltip": "이 열은 데이터베이스 테이블의 기본 키입니다. 레코드 ID는 애플리케이션마다 다를 수 있습니다"
+                },
+                "InstallLocalizationConfirmMessage": "This action will install data localizations for records and overwrite the current runtime values. Do you want to proceed?"
+            },
+            "Actions": {
+                "Move": "다른 패키지로 이동",
+                "MovePackageAllElements": "모든 요소 이동",
+                "Blocks": {
+                    "SourceCode": "소스 코드",
+                    "Actualization": "항목 현실화",
+                    "DevInFileSystem": "파일 시스템 개발 모드",
+                    "VersionControl": "SVN 보관소",
+                    "Packages": "패키지",
+                    "Validation": "구성",
+                    "CacheManagement": "Cache Management"
+                },
+                "Compile": "컴파일하기",
+                "CompileAll": "모두 컴파일하기",
+                "Edit": "편집",
+                "Delete": "삭제",
+                "MultiDelete": "삭제 ({0})",
+                "MultiExport": "수출하기 ({0})",
+                "Export": "수출",
+                "Update": "리포지토리에서 업데이트",
+                "Commit": "리포지토리에 커밋",
+                "Properties": "속성",
+                "UpdateDBStructure": "데이터베이스 구조 업데이트",
+                "MultiUpdateDBStructure": "개체 DB 구조 업데이트",
+                "EditProcess": "편집 프로세스",
+                "GenerateSchemasSources": "소스 코드 생성하기",
+                "InstallSqlScripts": "설치하기",
+                "MultiInstallSqlScripts": "SQL 스크립트 설치",
+                "InstallData": "설치하기",
+                "MultiInstallData": "데이터 설치하기",
+                "RevertChanges": "변경 내용 취소",
+                "InstallRequiredSqlScripts": "필요한 곳에 SQL 스크립트 설치하기",
+                "InstallRequiredData": "필요한 곳에 데이터 설치하기",
+                "InstallRequiredSchemasDBStructure": "필요한 위치에 DB 구조 업데이트",
+                "OperationSuccessMessage": "작업이 성공했습니다.",
+                "GenerateRequiredSchemasSources": "필요한 곳에 생성하기",
+                "GenerateModifiedSchemasSources": "수정된 스키마에 대해 생성하기",
+                "GenerateAllSchemasSources": "모든 스키마에 대해 생성하기",
+                "GenerateAllSchemasSourcesWasStarted": "시스템이 모든 스키마에 대한 소스 코드 생성을 시작했습니다. 프로세스가 완료되면 통신 패널에 알림 메시지가 표시됩니다.",
+                "LoadPackagesToFileSystem": "파일 시스템에 패키지 다운로드",
+                "LoadPackagesToDB": "파일 시스템에서 패키지 업데이트",
+                "OpenRepositoriesList": "리포지토리 목록 열기",
+                "RestoreFromRepository": "리포지토리에서 복원",
+                "InstallPackageFromRepository": "리포지토리에서 패키지 설치하기",
+                "PackageDependenciesDiagram": "패키지 의존성 diagram",
+                "ValidateWorkspace": "구성 확인",
+                "FileDesignModeInfo": "활성화하려면 응용 프로그램 구성 파일에서 다음을 설정합니다.\n - fileDesignMode 요소의 활성화된 속성에 true.\n - UseStaticFileContent 플래그에 대해 false입니다.",
+                "Confirmation": {
+                    "InstallRequiredSqlScripts": "설치가 필요한 모든 항목이 데이터베이스에 설치됩니다. 계속하시겠습니까?",
+                    "InstallRequiredData": "설치가 필요한 모든 항목이 데이터베이스에 설치됩니다. 계속하시겠습니까?",
+                    "InstallRequiredSchemasDBStructure": "업데이트가 필요한 모든 스키마에 대해 데이터베이스 구조가 업데이트됩니다. 계속하시겠습니까?",
+                    "Compile": "작업영역이 컴파일됩니다. 계속하시겠습니까?",
+                    "CompileAll": "작업영역이 다시 컴파일됩니다. 계속하시겠습니까?",
+                    "GenerateRequiredSchemasSources": "필요한 모든 스키마에 대한 소스 코드를 생성하시겠습니까?",
+                    "GenerateModifiedSchemasSources": "수정된 스키마에 대한 소스 코드를 생성하시겠습니까?",
+                    "GenerateAllSchemasSources": "모든 스키마에 대한 소스 코드를 생성하시겠습니까? 작업 결과가 통신 패널로 전송됩니다.",
+                    "ThirdPartyPublisher": "\"{0}\" 항목은 타사 게시자가 만들거나 파일 아카이브에서 설치합니다. \n 이 항목의 변경 내용을 저장할 수 없습니다. 계속하시겠습니까?",
+                    "ValidateWorkspace": "작업에 시간이 좀 걸릴 수 있습니다. 계속하시겠습니까?",
+                    "ExportItems": "작업에 시간이 좀 걸릴 수 있습니다. 계속하시겠습니까?",
+                    "StartHotfix": "이 옵션은 중요하고 긴급한 변화를 위해 설계되었습니다. {0}분 후에 패키지가 자동으로 다시 잠깁니다. 핫픽스 후 개발 환경에 변경 사항을 전달해야 합니다.\n\n패키지를 핫픽스하시겠습니까?",
+                    "FinishHotfix": "핫픽스 후 개발 환경에 변경 사항을 전달해야 합니다.\n패키지를 잠그시겠습니까?",
+                    "Cache": {
+                        "Message": "This action will remove data from the IndexedDB cache storage for all users. This caching helps applications and pages load faster. After clearing, some pages may temporary load slower at first while the cache is rebuilt.",
+                        "Cancel": "취소",
+                        "Clear": "지우기"
+                    }
+                },
+                "OpenMetaData": "메타데이터 열기",
+                "OpenSourceCode": "오픈 소스 코드",
+                "LockPackageElement": "SVN의 잠금 요소",
+                "UnLockPackageElement": "SVN에서 요소 잠금 해제",
+                "LockPackage": "SVN에서 패키지 잠금",
+                "UnLockPackage": "SVN에서 패키지 잠금 해제",
+                "GenerateAllSchemasSourcesSuccess": "모든 스키마의 소스 코드가 성공적으로 생성되었습니다",
+                "GenerateAllSchemasSourcesError": "일부 스키마에 대한 소스 코드 생성이 오류로 완료되었습니다. 다시 로드 후 구성 항목 목록에서 각 스키마에 대한 오류 메시지에 액세스할 수 있습니다. 다시 로드하시겠습니까?",
+                "Deactivate": "비활성화",
+                "Activate": "활성화",
+                "CompilationCompletedSuccessfully": "컴파일이 성공적으로 완료되었습니다",
+                "CompilationCompletedWithErrors": "오류가 발생하여 컴파일이 완료되었습니다",
+                "OperationCompleted": "작업완료",
+                "StartHotfix": "핫픽스 잠금 해제",
+                "FinishHotfix": "핫픽스 후 잠금",
+                "ClearAllCache": "Clear IndexedDB cache for all users",
+                "InstallLocalizationInBackgroundSuccess": "Localization installation has started. You’ll receive a notification when it is complete",
+                "InstallLocalization": "설치"
+            },
+            "WorkspaceSyncResultDialog": {
+                "Close": "닫기",
+                "Title": "변화",
+                "Error": "실수",
+                "ShowOnlyErrors": "오류만 표시하기",
+                "Columns": {
+                    "Name": "이름",
+                    "Type": "유형",
+                    "Status": "상태",
+                    "ErrorText": "오류 텍스트"
+                }
+            },
+            "HotKey": "핫 키",
+            "NoDataTitle": "패키지가 현재 비활성 상태입니다.",
+            "NoDataText": "수동으로 활성화할 수 있습니다. 이렇게 하면 콘텐츠가 활성화되고 사용자가 콘텐츠의 기능을 사용할 수 있습니다.",
+            "CompilationErrorsButton": {
+                "Title": "컴파일 오류"
+            }
+        },
+        "PackagePage": {
+            "Title": "패키지 속성",
+            "Name": "이름",
+            "Description": "묘사",
+            "Maintainer": "유지관리자",
+            "MaintainerTooltip": "패키지 개발자",
+            "PackageType": "별도의 어셈블리로 컴파일",
+            "RepositoryAddress": "리포지토리 주소",
+            "RepositoryVersion": "리포지토리 버전",
+            "PackageVersion": "패키지 버전",
+            "DependenciesTab": "종속성",
+            "SysInformationTab": "시스템 정보",
+            "CompilationRequired": "변경 사항을 적용할 구성 컴파일",
+            "PackageDependencyDetail": {
+                "DependsOnPackagesTitle": "패키지에 의존함",
+                "DependentPackagesTitle": "종속 패키지",
+                "DependsOnPackagesTooltip": "현재 패키지가 의존하는 패키지",
+                "DependentPackagesTooltip": "현재 패키지에 의존하는 패키지",
+                "PackagesDialogCaption": "패키지 선택하기",
+                "NameColumn": "이름",
+                "Maintainer": "유지관리자",
+                "Remove": "제거",
+                "Blankslate": "패키지가 없습니다",
+                "Add": "추가"
+            },
+            "SysInformation": {
+                "CreatedBy": "-는 만든",
+                "ModifiedBy": "()에 의해 수정된",
+                "CreatedOn": "()에서 만든",
+                "ModifiedOn": "()에 수정된",
+                "UIDTooltip": "패키지 고유 ID. 패키지 ID는 모든 애플리케이션에서 항상 동일하게 유지됩니다",
+                "IDTooltip": "이 열은 데이터베이스 테이블의 기본 키입니다. 레코드 ID는 애플리케이션마다 다를 수 있습니다"
+            },
+            "RepositoryAuthorizationRequired": "작업이 종료되었습니다. 인증이 필요합니다. 지금 로그인하시겠습니까?",
+            "InstallationFlow": "설치 단계",
+            "InstallationFlowTab": {
+                "BeforePackageInstall": "패키지 설치 전",
+                "BeforePackageInstallTooltip": "패키지 설치 전에 실행할 작업",
+                "AfterPackageInstall": "패키지 설치 후",
+                "AfterPackageInstallTooltip": "패키지 설치 후 실행할 작업",
+                "BeforePackageUninstall": "패키지삭제전",
+                "BeforePackageUninstallTooltip": "패키지 삭제 전에 실행할 작업",
+                "Blankslate": "단계가 없습니다"
+            },
+            "InstallFlowPackageDetail": {
+                "Add": "추가",
+                "ScriptsDialogCaption": "스키마 선택",
+                "ColumnNameCaption": "이름",
+                "ColumnTitleCaption": "제목",
+                "ColumnPositionCaption": "주문",
+                "ColumnModifiedOnCaption": "()에 수정된",
+                "Install": "수동으로 실행",
+                "Success": "작업이 성공적이었습니다"
+            },
+            "InstallBehavior": "스마트 활성화 사용",
+            "InstallBehaviorInfo": "패키지가 환경에 설치되고 모든 종속성을 사용할 수 있을 때 자동으로 활성화됩니다. 누락된 종속성은 패키지가 포함된 패키지/애플리케이션의 설치를 방해하지 않습니다. 모든 종속성을 사용할 수 있게 되면 패키지가 자동으로 활성화되고 사용자가 액세스할 수 있게 됩니다. 종속성을 더 이상 사용할 수 없으면 패키지가 자동으로 비활성화됩니다."
+        },
+        "Errors": {
+            "AssemblyIsNotInitialized": "Creatio에서 작업을 다시 시작하기 전에 구성을 컴파일하십시오. \n 지금 컴파일하시겠습니까?"
+        },
+        "PageTemplateLookup": {
+            "HeaderCaption": "템플릿 선택",
+            "Cancel": "취소",
+            "Select": "선택",
+            "WebPages": "Web pages",
+            "MobilePages": "Mobile app pages"
+        },
+        "DetailedMessageDialog": {
+            "Title": "차려",
+            "OperationTitleMessage": "You are about to initiate an operation \"{0}\" that may result in temporary unavailability of the site for users. Please ensure the necessity of this action.",
+            "InternalBlockTitle": "Potential consequences:",
+            "InternalBlockFirstMessage": "Temporary restriction of access to specific features or the entire site",
+            "InternalBlockSecondMessage": "Possible disruption of ongoing processes and activities of other users",
+            "AdviseMessage": "If performing this operation in the production environment is unavoidable, we strongly recommend scheduling it during a designated maintenance window to minimize its impact on users.",
+            "ProceedActionQuestion": "Do you want to proceed with this operation now?",
+            "ExecuteOperationCaption": "Execute operation",
+            "GenerateAllSchemasSourcesAction": "Generate source code for all schemas",
+            "GenerateRequiredSchemasSourcesAction": "Generate source code where it is needed",
+            "GenerateModifiedSchemasSourcesAction": "Generate source code for modified schemas",
+            "DeleteAction": {
+                "WithConnectedApplications": {
+                    "Message": "The package will also be removed from the following apps:\n{0}",
+                    "InternalBlockMessage": "Package removal can make these apps lose functionality or become inoperative."
+                }
+            },
+            "DeactivateAction": {
+                "WithConnectedApplications": {
+                    "Message": "The package will also be deactivated in the following apps:\n{0}",
+                    "InternalBlockMessage": "Package deactivation can make these apps lose functionality or become inoperative."
+                }
+            }
+        }
+    },
+    "TableDialog": {
+        "Close": "닫기",
+        "Cancel": "취소"
+    },
+    "ErrorListDialogService": {
+        "CodeErrorListDialogCaption": "컴파일 결과",
+        "FileNameColumn": "파일 이름",
+        "ErrorTextColumn": "묘사",
+        "ErrorNumberColumn": "코드",
+        "LineColumn": "선",
+        "CodeValidationErrorListDialogCaption": "Cyclic dependencies detected",
+        "SourceColumn": "Element that references",
+        "ReferenceColumn": "Element being referenced",
+        "PackageColumn": "패키지",
+        "AcademyHelpUrlCaption": " Academy에서 자세히 알아보기",
+        "PackagePropertiesErrorDialogCaption": "Package dependency validation error",
+        "PackagePropertiesErrorMessage": "One or more validation issues prevent modifying the dependency list for this package. Review the list of issues below and resolve them before making changes.",
+        "ItemTypeColumn": "유형",
+        "ItemNameColumn": "이름",
+        "DescriptionColumn": "묘사",
+        "PackageNameColumn": "패키지",
+        "TypeColumn": "요소 유형"
+    },
+    "SchemaDesigners": {
+        "BaseDesignerPage": {
+            "SaveSuccessMessage": "레코드가 성공적으로 저장됨",
+            "PublishSuccessMessage": "레코드가 성공적으로 게시되었습니다",
+            "ChangeParentSchemaMessage": "현재 개체의 상위 개체로 \"{0}\"을(를) 사용하시겠습니까?",
+            "DeleteParentSchemaMessage": "현재 개체의 상위 개체를 삭제하시겠습니까?"
+        },
+        "BaseDesignerStructureService": {
+            "MiniPage": {
+                "NameTitle": "코드",
+                "PackageTitle": "패키지",
+                "Apply": "적용",
+                "Cancel": "취소",
+                "Ok": "네",
+                "Caption": "제목",
+                "Description": "묘사",
+                "Validations": {
+                    "RequiredNameCaption": "값을 입력합니다",
+                    "PatternNameCaption": "잘못된 값입니다. 기호 사용: a-z, A-Z, 0-9. 기호: 0-9는 처음일 수 없습니다",
+                    "PatternPrefixTemplate": "코드는 \"{0}\" 접두사로 시작해야 합니다"
+                }
+            }
+        },
+        "SchemaParameterMiniPage": {
+            "CardTitle": "매개변수",
+            "Title": "코드",
+            "Caption": "제목",
+            "Lookup": "순람표",
+            "Value": "값",
+            "Schema": "스키마",
+            "Create": "창조",
+            "Cancel": "취소",
+            "Resulting": "결과",
+            "Required": "필수",
+            "ContainsPerformerId": "수행자 ID 포함",
+            "LazyLoad": "게으른 로드",
+            "Serializable": "직렬화 가능",
+            "CopyValue": "값을 복사하기",
+            "Type": "유형",
+            "Save": "완료",
+            "ProperyExistMessage": "이 속성은 다른 매개변수에서 이미 확인되었습니다. 1개의 매개변수에서만 사용할 수 있습니다.",
+            "Validations": {
+                "RequiredNameCaption": "값을 입력합니다",
+                "PatternNameCaption": "잘못된 값입니다. 기호 사용: a-z, A-Z, 0-9. 기호: 0-9는 처음일 수 없습니다",
+                "DataValueTypeListContainsMessage": "목록에서 값을 선택하십시오."
+            }
+        },
+        "SqlSchemaDesignerPage": {
+            "Caption": "SQL",
+            "DependentScriptsCaption": "종속 SQL 스크립트",
+            "DependsOnScriptCaption": "SQL 스크립트에 따라 다름",
+            "SqlScriptValidateCaption": "SQL 스크립트 유효성 검사가 완료되었습니다.",
+            "Install": "설치",
+            "ShouldSaveFirstTitle": "Save the script before installing",
+            "InstallSqlScriptsConfirmMessage": "This will install SQL script to the database. Do you wish to proceed?",
+            "InstallSuccessMessage": "작업이 성공적이었습니다"
+        },
+        "SqlSchemaDesignerMiniPage": {
+            "Title": "Sql 스크립트",
+            "DbmsType": "DBMS 유형",
+            "InstallationType": "설치 유형",
+            "BackwardCompatibilityConfirmed": "하위 호환성",
+            "BackwardCompatibilityConfirmedLabelBeforeLink": "하위 호환 SQL 스크립트는 권장 사항을 준수하는 스크립트입니다 ",
+            "BackwardCompatibilityConfirmedLabelAfterLink": ". 스크립트가 모든 권장 사항을 준수하는 경우에만 이 확인란을 선택합니다",
+            "AcademyHelpUrlCaption": "별문에 명기된"
+        },
+        "MultiSelectSqlSchemasMiniPage": {
+            "Title": "SQL 스크립트 선택",
+            "TableColumn": {
+                "Name": "코드",
+                "Package": "패키지"
+            }
+        },
+        "EntitySchemaDesigner": {
+            "EntitySchemaDesignerStructure": {
+                "InheritedColumnsCaption": "상속된 열",
+                "ColumnsCaption": "열",
+                "IndexesCaption": "색인",
+                "EventsCaption": "이벤트",
+                "SourceCodeCaption": "소스 코드"
+            },
+            "Actions": {
+                "OpenEmbeddedProcess": "오픈 프로세스"
+            },
+            "EntityEditor": {
+                "GeneralGroup": {
+                    "Caption": "일반",
+                    "NameCaption": "코드",
+                    "TitleCaption": "제목",
+                    "PackageCaption": "패키지",
+                    "DescriptionCaption": "묘사",
+                    "NameTooltip": "Unique system name of the object schema.",
+                    "TitleTooltip": "Localizable object title displayed in the UI.",
+                    "PackageTooltip": "Package containing the object schema.",
+                    "DescriptionTooltip": "Localizable description of the object."
+                },
+                "ObjectSettings": {
+                    "Caption": "개체 설정",
+                    "IdCaption": "ID",
+                    "DisplayedValueCaption": "표시값",
+                    "ParentInHierarchyCaption": "계층에 있는 상위",
+                    "ChangeLogObjectNameCaption": "로그 개체 이름 변경",
+                    "LocalizationObjectNameCaption": "현지화 개체 이름",
+                    "ImageCaption": "이미지",
+                    "SortingInListsCaption": "목록에서 정렬",
+                    "OwnerCaption": "주인",
+                    "PermissionObjectNameCaption": "사용 권한 개체 이름",
+                    "ColorCaption": "색",
+                    "IdTooltip": "Primary key column that uniquely identifies object records.",
+                    "ImageTooltip": "Column that stores an image or icon for object records.",
+                    "DisplayedValueTooltip": "Column used as a record title when other objects reference the record.",
+                    "ParentInHierarchyTooltip": "Column that references the parent record for hierarchical structures.",
+                    "ChangeLogObjectNameTooltip": "Name of the object that stores the change log for this entity.",
+                    "LocalizationObjectNameTooltip": "Name of the object that stores localized values for this entity.",
+                    "OwnerTooltip": "Column used to automatically grant access rights to a record.",
+                    "PermissionObjectNameTooltip": "Name of the object that stores permission settings for this entity.",
+                    "ColorTooltip": "Column that stores the color for object records."
+                },
+                "EntityBusinessRules": {
+                    "OpenBusinessRulesButtonCaption": "영업규칙 공개",
+                    "BusinessRulesDialogTitle": "비즈니스 규칙",
+                    "BusinessRulesDialogCancelButton": "취소",
+                    "BusinessRulesDialogApplyButton": "적용"
+                },
+                "InheritanceGroup": {
+                    "Caption": "상속",
+                    "ParentObjectCaption": "상위 개체",
+                    "ExtendParent": "기본적 바꾸기",
+                    "ParentObjectTooltip": "Parent object whose structure and behavior the current object inherits.",
+                    "ExtendParentTooltip": "Marks the schema as a replacing object that overrides the parent on the current inheritance level."
+                },
+                "BehaviorGroup": {
+                    "Caption": "행실",
+                    "isDBViewCaption": "데이터베이스 뷰의 구조를 나타냅니다.",
+                    "isVirtualCaption": "가상",
+                    "isTrackChangesInDBCaption": "변경 로그 업데이트",
+                    "isSSPAvailable": "개체가 SSP의 섹션으로 사용 가능합니까?",
+                    "useRecordDeactivationCaption": "레코드 비활성화 허용",
+                    "showInAdvancedModeCaption": "Show in advanced mode only",
+                    "useLiveEditingCaption": "실시간 데이터 업데이트 사용",
+                    "isDBViewTooltip": "Indicates that the object is based on a database view instead of a regular table.",
+                    "isVirtualTooltip": "Indicates that the object does not store data in a physical database table and is dynamically obtained from some alternative data sources.",
+                    "isSSPAvailableTooltip": "Makes the object accessible as a section for portal (SSP) users.",
+                    "useLiveEditingTooltip": "The record change automatically generates signals to all currently opened pages of the record, and they auto-refresh.",
+                    "useRecordDeactivationTooltip": "Lets users deactivate records without deleting them.",
+                    "isTrackChangesInDBTooltip": "Enables logging of object record changes.",
+                    "showInAdvancedModeTooltip": "Hides rarely used objects from the standard Studio view."
+                },
+                "AccessRights": {
+                    "Caption": "접근권",
+                    "OperationsCaption": "작업",
+                    "ColumnsCaption": "열",
+                    "RecordsCaption": "레코드",
+                    "MasterRecordCaption": "()에서 액세스 권한을 상속하는 개체",
+                    "OperationsTooltip": "Enables access rights restrictions for record operations.",
+                    "ColumnsTooltip": "Enables access rights restrictions at the column level.",
+                    "RecordsTooltip": "Enables access rights restrictions at the individual record level.",
+                    "MasterRecordTooltip": "Object whose access permissions are inherited."
+                },
+                "HistoryColumns": {
+                    "Caption": "기록 열",
+                    "CreatedByCaption": "-는 만든",
+                    "CreatedOnCaption": "()에서 만든",
+                    "ModifiedByCaption": "()에 의해 수정된",
+                    "ModifiedOnCaption": "()에 수정된",
+                    "CreatedByTooltip": "Column that stores the user who created the record.",
+                    "CreatedOnTooltip": "Column that stores the record creation date and time.",
+                    "ModifiedByTooltip": "Column that stores the user who last modified the record.",
+                    "ModifiedOnTooltip": "Column that stores the date and time of the last modification."
+                },
+                "Validations": {
+                    "RequiredNameCaption": "값을 입력합니다",
+                    "PatternNameCaption": "잘못된 값입니다. a-z, A-Z, 0-9 기호를 사용합니다. 기호: 0-9는 처음일 수 없습니다.",
+                    "PatternPrefixTemplate": "코드는 \"{0}\" 접두사로 시작해야 합니다",
+                    "DuplicateNameCaption": "동일한 코드를 가진 개체가 이미 있습니다."
+                }
+            },
+            "ColumnEditor": {
+                "GeneralGroup": {
+                    "Caption": "일반",
+                    "NameCaption": "코드",
+                    "EnglishNameCaption": "코드",
+                    "TitleCaption": "제목",
+                    "DataTypeCaption": "데이터형",
+                    "FormatCaption": "구성 방식",
+                    "ReferenceSchemaCaption": "순람표",
+                    "DescriptionCaption": "묘사",
+                    "RequiredCaption": "필수",
+                    "DefaultValueCaption": "기본값",
+                    "CanMakeCopyCaption": "레코드를 복사할 때 이 값을 복사하기",
+                    "IsMultiLineTextCaption": "다중 줄 텍스트",
+                    "IsLocalizableTextCaption": "위치 지정 가능한 텍스트",
+                    "IsCascadeCaption": "조회 값 삭제 때:",
+                    "IsMaskedCaption": "입력 마스크 표시",
+                    "IsFormatValidationCaption": "형식 확인",
+                    "isAutonumber": "자동번호",
+                    "EditCodeInfoIconCaption": "코드를 변경할 경우 관련 부품의 잘못된 동작이 발생할 수 있습니다. 주의하여 사용하시기 바랍니다",
+                    "MaskTypeCaption": "Mask type",
+                    "MaskOperationCaption": "Operation permission",
+                    "UseSecondsCaption": "Show seconds",
+                    "IsAccentInsensitiveCaption": "Accent insensitive search (PostgreSQL only)",
+                    "NameTooltip": "Unique system name of the column.",
+                    "TitleTooltip": "Localizable column title shown in the UI.",
+                    "DataTypeTooltip": "Type of data stored in the column.",
+                    "DescriptionTooltip": "Localizable description of the column.",
+                    "RequiredTooltip": "Specifies that the column must not be empty.",
+                    "DefaultValueTooltip": "Value assigned automatically if no value is provided.",
+                    "CanMakeCopyTooltip": "Copies the column value when a record is copied.",
+                    "IsMultiLineTextTooltip": "Allows entering and displaying text in multiple lines.",
+                    "IsAccentInsensitiveTooltip": "Enables search without considering accent marks.",
+                    "IsLocalizableTextTooltip": "Lets the column store values in multiple languages.",
+                    "IsMaskedTooltip": "Shows an input mask for guided value entry.",
+                    "IsFormatValidationTooltip": "Validates the entered value against the expected format.",
+                    "IsCascadeTooltip": "Defines what happens to records in the current object when the referenced lookup value is deleted.",
+                    "UseSecondsTooltip": "Displays seconds in time values.",
+                    "ReferenceSchemaTooltip": "Object that provides values for the lookup column."
+                },
+                "BehaviorGroup": {
+                    "Caption": "행실",
+                    "UsageModeCaption": "사용 모드",
+                    "UpdateChangeLogCaption": "변경 로그 업데이트",
+                    "IndexedCaption": "색인",
+                    "SensitiveDataCaption": "개인 데이터를 포함합니다",
+                    "IndexedTooltip": "Creates an index for the column to improve search and filtering performance.",
+                    "SensitiveDataTooltip": "Marks the column as containing personal data.",
+                    "UpdateChangeLogTooltip": "Enables logging of changes for this column.",
+                    "UsageModeTooltip": "Controls the column availability mode in the application."
+                },
+                "RequirementType": {
+                    "NoCaption": "아니요",
+                    "YesCaption": "예"
+                },
+                "UsageType": {
+                    "GeneralCaption": "일반",
+                    "AdvancedCaption": "선진",
+                    "NoneCaption": "없음"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "값을 입력합니다",
+                    "PatternNameCaption": "잘못된 값입니다. 기호 사용: a-z, A-Z, 0-9. 기호: 0-9는 처음일 수 없습니다",
+                    "DuplicateNameCaption": "동일한 코드를 가진 열이 이미 있습니다.",
+                    "PatternPrefixTemplate": "코드는 \"{0}\" 접두사로 시작해야 합니다"
+                },
+                "DataSourceGroup": {
+                    "DoNotControlIntegrityCaption": "무결성 안 제어함",
+                    "DoNotControlIntegrityTooltip": "Disables integrity control for the lookup relationship."
+                },
+                "DefaultValueTypes": {
+                    "None": "없음",
+                    "Const": "상수",
+                    "Settings": "시스템 설정",
+                    "SystemValue": "시스템 변수",
+                    "Sequence": "자동번호"
+                },
+                "DefaultValueDialog": {
+                    "Title": "기본값",
+                    "ValueTypeCaption": "기본값 유형",
+                    "ValueCaption": "값",
+                    "LookupValueRecordDeletedCaption": "조회 값이 삭제되었습니다.",
+                    "Cancel": "취소",
+                    "Ok": "네",
+                    "sequencePrefix": "접두사",
+                    "sequenceNumberOfChars": "자리수"
+                }
+            },
+            "IndexEditor": {
+                "GeneralGroup": {
+                    "Caption": "일반",
+                    "NameCaption": "코드",
+                    "UniqueCaption": "독특한",
+                    "GenerateNameAutomaticallyCaption": "자동으로 이름 생성",
+                    "NameTooltip": "Unique name of the index.",
+                    "UniqueTooltip": "Prevents duplicate combinations of values in indexed columns."
+                },
+                "IndexColumns": {
+                    "Caption": "색인열",
+                    "AddIndexColumnsDialogCaption": "열 선택",
+                    "TitleCaption": "제목",
+                    "ColumnName": "코드",
+                    "SortingOrder": "정렬순서",
+                    "Blankslate": "색인에 열이 없습니다."
+                },
+                "Validations": {
+                    "RequiredNameCaption": "값을 입력합니다",
+                    "PatternNameCaption": "잘못된 값입니다. 기호 사용: a-z, A-Z, 0-9. 기호: 0-9는 처음일 수 없습니다",
+                    "DuplicateNameCaption": "동일한 코드를 가진 이미지가 이미 있습니다"
+                }
+            },
+            "EntityColumnTypes": {
+                "TextCaption": "텍스트",
+                "NumberCaption": "숫자",
+                "OtherCaption": "다른",
+                "DateTimeCaption": "날짜/시간"
+            },
+            "EventsEditor": {
+                "EventGroupType": {
+                    "Add": "추가 중",
+                    "Saving": "저장 중",
+                    "Updating": "업데이트 중",
+                    "Delete": "삭제 중",
+                    "Loading": "로드 중",
+                    "ColumnValues": "열 값"
+                },
+                "Events": {
+                    "Inserting": "레코드 추가 전",
+                    "Inserted": "레코드 삭제 후",
+                    "Validating": "유효성 검사 중",
+                    "Saving": "레코드 저장 전",
+                    "Saved": "레코드 저장 후",
+                    "SaveError": "레코드 저장 오류",
+                    "Updating": "레코드 업데이트 전",
+                    "Updated": "레코드가 업데이트된 후",
+                    "Deleting": "레코드 삭제 전",
+                    "Deleted": "레코드 삭제 후",
+                    "DefColumnValuesSet": "기본값 필드",
+                    "Loading": "데이터를 로드 전",
+                    "Loaded": "데이터 로드 후",
+                    "ColumnValueChanging": "열 값이 변경되기 전",
+                    "ColumnValueChanged": "열 값이 변경된 후",
+                    "ColumnBinaryValuePackageLoading": "이진 값 스트림 로드",
+                    "InsertingTooltip": "Triggered before a new record is added to the database.",
+                    "InsertedTooltip": "Triggered after a new record is successfully added to the database.",
+                    "ValidatingTooltip": "Triggered when record data is being validated before saving.",
+                    "SavingTooltip": "Triggered before any record changes are saved to the database.",
+                    "SavedTooltip": "Triggered after record changes are successfully saved to the database.",
+                    "SaveErrorTooltip": "Triggered when an error occurs while saving a record.",
+                    "UpdatingTooltip": "Triggered before an existing record is updated in the database.",
+                    "UpdatedTooltip": "Triggered after an existing record is successfully updated in the database.",
+                    "DeletingTooltip": "Triggered before a record is deleted from the database.",
+                    "DeletedTooltip": "Triggered after a record is successfully deleted from the database.",
+                    "DefColumnValuesSetTooltip": "Triggered when default values are assigned to record columns.",
+                    "LoadingTooltip": "Triggered before record data is loaded from the database.",
+                    "LoadedTooltip": "Triggered after record data is successfully loaded from the database."
+                }
+            },
+            "Addons": {
+                "BusinessRule": "비즈니스 규칙",
+                "RelatedPage": "Web pages",
+                "TimelineEntity": "연대표",
+                "UseSchemaInTimelineCheckbox": "기본적으로 타임라인 구성 요소에 표시",
+                "RelatedPagesCaption": "페이지 설정",
+                "Timeline": {
+                    "NoDisplayColumnNotify": "Timeline 구성요소에 개체를 표시하려면 표시 값을 지정해야 합니다"
+                },
+                "MobileRelatedPage": "Mobile app pages",
+                "PredefinedFilters": "Pre-defined filters",
+                "UseSchemaInTimelineCheckboxTooltip": "Displays records of this object in the Timeline component on related pages by default."
+            },
+            "SaveConfirmationDialog": {
+                "Save": "완료",
+                "DoNotSave": "저장하지 않음",
+                "Cancel": "취소",
+                "Message": "모든 변경 내용이 저장됩니다. 계속?"
+            },
+            "DeleteConfirmationDialog": {
+                "BusinessRule": "비즈니스 규칙을 삭제하시겠습니까?"
+            },
+            "DisableAddonEditBeforeSchemaSaveTooltipText": "새 개체를 저장한 후에 설정을 사용할 수 있습니다"
+        },
+        "ClientUnitSchemaDesigner": {
+            "ClientUnitSchemaDesignerPage": {
+                "JsCaption": "JS",
+                "LessCaption": "LESS",
+                "LocalizableStringsCaption": "현지화 가능한 문자열",
+                "MessagesCaption": "메시지",
+                "ImagesCaption": "이미지",
+                "ParametersCaption": "매개변수",
+                "Addons": {
+                    "BusinessRule": "비즈니스 규칙"
+                },
+                "OpenInterfaceDesigner": "오픈 인터페이스 디자이너",
+                "CantSaveSchemaWithErrors": "Unable to save due to a syntax error."
+            },
+            "ClientUnitDesignerMiniPage": {
+                "Title": "모듈",
+                "CaptionTitle": "캡션",
+                "ParentCaption": "상위 개체",
+                "Validations": {
+                    "RequiredNameCaption": "값을 입력합니다"
+                },
+                "OpenDesigner": "디자이너 열기"
+            },
+            "ClientUnitCaptionsMiniPage": {
+                "Title": "캡션",
+                "Apply": "적용",
+                "Cancel": "취소"
+            },
+            "ClientUnitMessagesMiniPage": {
+                "Title": "메시지",
+                "NameCaption": "코드",
+                "DirectionCaption": "방향",
+                "BroadcastCaption": "방송",
+                "AddressCaption": "주소",
+                "ModeCaption": "모드",
+                "SubscribeCaption": "구독",
+                "PublishCaption": "출판",
+                "Add": "추가",
+                "Apply": "적용",
+                "Cancel": "취소",
+                "Validations": {
+                    "RequiredNameCaption": "값을 입력합니다",
+                    "PatternNameCaption": "잘못된 값입니다. 기호 사용: a-z, A-Z, 0-9. 기호: 0-9는 처음일 수 없습니다",
+                    "DuplicateNameCaption": "동일한 코드를 가진 메시지가 이미 있습니다."
+                }
+            },
+            "ClientUnitImagesMiniPage": {
+                "Title": "이미지",
+                "NameTitle": "코드",
+                "CaptionTitle": "캡션",
+                "ImageTitle": "이미지",
+                "UidTitle": "ID",
+                "Add": "추가",
+                "Apply": "적용",
+                "Cancel": "취소",
+                "Validations": {
+                    "RequiredNameCaption": "값을 입력합니다",
+                    "PatternNameCaption": "잘못된 값입니다. 기호 사용: a-z, A-Z, 0-9. 기호: 0-9는 처음일 수 없습니다",
+                    "DuplicateNameCaption": "동일한 코드를 가진 이미지가 이미 있습니다"
+                }
+            }
+        },
+        "SourceCodeSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "현지화 가능한 문자열",
+            "MetadataCaption": "메타데이터",
+            "MetadataReadCaption": "메타데이터 (읽기)",
+            "ModifiedPackageCaption": "수정된 패키지",
+            "RunButtonCaption": "설치 스크립트로 실행",
+            "RunSourceCodeCaption": "작업이 성공적이었습니다"
+        },
+        "SourceCodeDesignerMiniPage": {
+            "Title": "소스 코드",
+            "Description": "묘사"
+        },
+        "SourceCodeCaptionsMiniPage": {
+            "Title": "캡션",
+            "Apply": "적용",
+            "Cancel": "취소"
+        },
+        "UserTaskCaptionsMiniPage": {
+            "Title": "캡션",
+            "Apply": "적용",
+            "Cancel": "취소",
+            "UserTask": "사용자 작업",
+            "WithCustomEventHandler": "이벤트에 대한 사용자 지정 처리기 사용",
+            "Partial": "부분적인",
+            "Serialize": "DB에서 직렬화",
+            "ParametersEditPage": "매개변수 편집 페이지",
+            "DcmParametersEditPage": "DCM 매개변수 편집 페이지",
+            "Color": "색",
+            "SmallSvgImage": "작은 벡터 이미지",
+            "LargeSvgImage": "큰 벡터 이미지",
+            "TitleSvgImage": "제목 벡터 이미지",
+            "DcmSmallSvgImage": "DCM에 대한 작은 벡터 이미지",
+            "PageInaccessibleFromPackageInfo": "현재 사용자 작업 패키지에서 선택한 페이지에 액세스할 수 없습니다. 패키지 종속성을 완료하거나 다른 페이지를 선택하여 올바른 사용자 작업을 실행하십시오."
+        },
+        "UserTaskDesignerMiniPage": {
+            "Title": "사용자 작업"
+        },
+        "UserTaskSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "현지화 가능한 문자열",
+            "ParametersCaption": "매개변수",
+            "MetadataCaption": "메타데이터",
+            "MetadataReadCaption": "메타데이터 (읽기)",
+            "ModifiedPackageCaption": "수정된 패키지",
+            "InvalidClassNameConfirmationMessage": "사용자 작업 속성 \"코드\"가 소스 코드의 클래스 이름과 일치하지 않습니다. 현재 설정으로 사용자 작업을 실행할 수 없습니다. 저장을 계속하시겠습니까?"
+        },
+        "MetaDataSchemaDesigner": {
+            "MetaDataCaption": "메타데이터",
+            "HumanReadableMetaDataCaption": "메타데이터(읽기 전용)",
+            "PackageDifferenceMetaDataCaption": "수정 패키지"
+        },
+        "RelatedPagesDesigner": {
+            "RelatedPageLabel": "기본페이지",
+            "AddPageLabel": "페이지 추가",
+            "ExternalPageCaption": "외부 사용자를 위한 페이지 설정",
+            "RelatedPagesCaption": "페이지 설정",
+            "DefaultPageSelectionTooltip": "레코드 편집, 읽기 및 만들기를 위한 기본 페이지를 선택하거나 만듭니다.\n현재 개체를 데이터 소스로 사용하는 자유 UI 페이지를 사용하는 것이 좋습니다.",
+            "AddPageTooltip": "새 레코드를 추가하는 데만 사용할 특정 페이지를 선택하거나 만듭니다.",
+            "RelatedPageCombobox": {
+                "AddNewPage": "새 페이지 추가",
+                "OpenPageInDesignerTitle": "오픈 인터페이스 디자이너"
+            },
+            "DefaultPagePlaceholder": "다른 페이지가 지정되지 않은 경우 사용할 페이지",
+            "AddPagePlaceholder": "레코드 추가에 사용할 페이지"
+        }
+    },
+    "Tracking": {
+        "ValidationMessage": {
+            "InvalidValue": "잘못된 값",
+            "RequiredFieldValue": "값을 입력합니다",
+            "LongFieldValue": "최대 텍스트 길이 초과 (255)",
+            "InvalidNumberValue": "숫자 형식이 잘못되었습니다"
+        },
+        "BaseItemMenuComponent": {
+            "Delete": "삭제",
+            "Edit": "편집"
+        },
+        "ConnectionDescription": {
+            "Checking": "확인 중",
+            "Connected": "연결된",
+            "Disconnected": "연결 끊김",
+            "Warning": "경고"
+        },
+        "ProjectsSection": {
+            "Add": "새 프로젝트",
+            "Title": "이벤트 설정 추적(사업)",
+            "Columns": {
+                "Name": "프로젝트명",
+                "Owner": "주인",
+                "Description": "묘사",
+                "CreatedOn": "생성됨",
+                "ModifiedOn": "마지막 업데이트"
+            },
+            "BlankSlate": {
+                "Title": "이 섹션에는 레코드가 없습니다.",
+                "Description": "더 예쁘게 보이도록 새 레코드를 추가합니다."
+            }
+        },
+        "ProjectPage": {
+            "Detail": {
+                "Name": "프로젝트명",
+                "Owner": "주인",
+                "Description": "묘사",
+                "CreatedOn": "생성됨",
+                "ModifiedOn": "마지막 업데이트",
+                "TotalEvents": "총 이벤트 수",
+                "ConversionRate": "환산율",
+                "DefaultValues": {
+                    "Name": "새 프로젝트",
+                    "Description": "새 설명"
+                }
+            },
+            "ResourceDetail": {
+                "Header": "리소스 추적",
+                "Columns": {
+                    "Name": "리소스 이름",
+                    "Status": {
+                        "Caption": "상태",
+                        "Active": "활동적",
+                        "Inactive": "비활성화됨"
+                    },
+                    "Source": "원천",
+                    "CreatedOn": "생성됨",
+                    "ModifiedOn": "마지막 업데이트"
+                }
+            }
+        },
+        "ResourcePage": {
+            "CreatedOn": "()에서 만든",
+            "ModifiedOn": "()에 수정된",
+            "Name": "이름",
+            "Source": "ID (웹사이트 URL)",
+            "Active": "활동적",
+            "DefaultName": "새로운 리소스",
+            "DefaultSource": "https://example.com",
+            "Tabs": {
+                "TrackingCode": "추적 코드",
+                "GoalSettings": "목표 설정"
+            },
+            "BasicCodeTitle": "기본 추적 코드",
+            "CustomEventTab": "사용자 지정 이벤트",
+            "GoalDetail": {
+                "Header": "목표 추적",
+                "Columns": {
+                    "Name": "목표 이름",
+                    "EventTypeFilter": "이벤트 유형 필터",
+                    "Status": {
+                        "Caption": "상태",
+                        "Active": "활동적",
+                        "Inactive": "비활성화됨"
+                    },
+                    "Cost": "목표 비용"
+                }
+            },
+            "GoalEditiDialog": {
+                "Header": "목표 설정",
+                "Name": "목표 이름",
+                "UseEventCost": "이벤트 비용 사용하기",
+                "Cost": "목표 비용",
+                "Active": "활동적",
+                "FilterSettings": "목표 필터 설정",
+                "EventTypeFilter": "이벤트 유형 필터",
+                "EventNameFilter": "이벤트 이름 필터",
+                "EventValueFilter": "이벤트 값 필터",
+                "EventCostFilter": "이벤트 비용 필터",
+                "Actions": {
+                    "Save": "완료",
+                    "Cancel": "취소"
+                },
+                "StringCondition": {
+                    "Equal": "동일함",
+                    "Contains": "포함",
+                    "BeginWith": "로 시작하기",
+                    "EndWith": "로 끝내기"
+                },
+                "NumberCondition": {
+                    "Equal": "동일함",
+                    "LessOrEqual": "작거나 동일함",
+                    "MoreOrEqual": "더 많거나 동일함"
+                }
+            }
+        },
+        "CodePane": {
+            "CopyToClipboard": "클립 보드에 복사",
+            "OnCopiedToClipboard": "복사 성공"
+        },
+        "BaseTrackingCode": {
+            "Header": "기준추적코드",
+            "Loading": "로드 중...",
+            "InfoBlock": {
+                "Title": "중요함",
+                "Content": "이 리소스에 대한 기본 추적 코드는 사이트의 모든 페이지에 있어야 합니다.",
+                "LinkText": "기본 추적 코드 설정에 대한 세부 정보"
+            },
+            "NotReady": "추적 코드를 가져오기 전에 리소스를 저장하십시오."
+        },
+        "EventCodeGenerator": {
+            "Header": "이벤트 추적 코드",
+            "Form": {
+                "EventType": "이벤트 유형",
+                "EventName": "이벤트 이름",
+                "EventValue": "이벤트 값",
+                "EventCost": "이벤트 비용"
+            },
+            "FormValidators": {
+                "EmptyForm": "비어 있음...",
+                "InvalidForm": "폼에서 오류 확인..."
+            }
+        }
+    },
+    "SocialLeadgen": {
+        "ValidationMessage": {
+            "InvalidValue": "잘못된 값",
+            "RequiredFieldValue": "값을 입력합니다",
+            "LongFieldValue": "최대 텍스트 길이 초과 (255)",
+            "InvalidNumberValue": "숫자 형식이 잘못되었습니다"
+        },
+        "IntegrationTypes": {
+            "LinkedIn": "LinkedIn",
+            "Facebook": "Facebook / Instagram",
+            "Undefined": "한정되지 않은"
+        },
+        "IntegrationSettings": {
+            "Header": {
+                "Title": "설정"
+            },
+            "Detail": {
+                "Url": "리드를 가져올 URL",
+                "Group": "알림 수신 역할"
+            },
+            "Notes": {
+                "Header": "메모",
+                "Text": "<p>리드를 가져오는 URL – 연결된 광고 계정에서 리드를 수신하는 Creatio URL.들어오는 요청을 수신하려면 Creatio 웹 사이트에 액세스할 수 있어야 합니다. 프록시 서버를 사용하는 경우 Creatio URL 대신 프록시 URL을 지정합니다. Creatio 인스턴스가 제한된 액세스 네트워크의 일부인 경우 잠재 고객 생성 서비스 IP를 화이트리스트로 표시합니다.</p><p>알림 수신 역할 — 광고 계정을 연결하거나 리드를 만들 때 발생하는 오류와 같은 오류가 발생할 경우 크리에이티브는 이 역할 내의 사용자에게 알립니다.</p><p>\"연결\" 탭에는 Creation에 연결된 광고 계정 및 페이지 목록이 표시됩니다. 목록에는 페이지, 계정 및 토큰 수준의 현재 연결 상태가 포함됩니다. 삭제 또는 재설정과 같은 연결을 관리할 수 있습니다.</p><p>\"Logs\" 탭에는 리드 생성 기능 변경 로그가 표시됩니다.</p>"
+            },
+            "Tabs": {
+                "Connection": "연결",
+                "Logs": "로그"
+            },
+            "AutorouteMessage": "작업을 계속하려면 \"리드를 얻기 위한 URL\" 필드를 입력해야 합니다. 기본적으로 필드는 브라우저에서 응용프로그램의 현재 주소로 채워졌습니다. 올바른 응용 프로그램 주소를 입력하고 설정을 저장했는지 확인합니다. 이러한 설정은 섹션을 처음 열 때 한 번 수행됩니다.",
+            "Error": {
+                "FormValidation": "설정을 저장하는 중 오류가 발생했습니다. 모든 필드에 오류가 있는지 확인하십시오.",
+                "Save": "리드를 가져오는 URL 필드에 입력한 값을 저장하지 못했습니다. 외부에서 액세스할 수 있는 올바른 응용 프로그램 주소를 입력하십시오."
+            },
+            "Logs": {
+                "IntegrationFilter": {
+                    "PlaceholderCaption": "통합",
+                    "EmptyOptionCaption": "전품목"
+                },
+                "DateColumnCaption": "날짜",
+                "IntegrationColumnCaption": "통합",
+                "DetailsColumnCaption": "세부 사항",
+                "IntegrationNotFound": "찾을 수 없음",
+                "GetIntegrationListError": "통합 목록을 로드하는 동안 오류가 발생했습니다. 로딩이 중단되었습니다.",
+                "NoLogsMessage": "현재 표시할 로그가 없습니다."
+            },
+            "FacebookPagesConnections": {
+                "Header": "Facebook 페이지",
+                "Blankslate": "페이지에 대한 연결이 아직 구성되지 않았습니다."
+            },
+            "LinkedInAdAccountsConnections": {
+                "Header": "LinkedIn 광고 계정",
+                "Blankslate": "광고 계정에 대한 연결이 아직 구성되지 않았습니다.",
+                "AdAccountsTable": {
+                    "DeleteConfirmation": "광고 계정을 삭제하시겠습니까?",
+                    "DeleteError": "이 광고 계정은 통합에 연결되어 있습니다. 통합을 삭제하고 다시 시도하십시오.",
+                    "Headers": {
+                        "Name": "계정명",
+                        "Link": "링크",
+                        "ConnectionStatus": "연결 상태",
+                        "ExpirationDate": "만료일"
+                    },
+                    "ConnectionStatuses": {
+                        "Active": "활동적",
+                        "Inactive": "비활성화됨"
+                    },
+                    "ConnectionStatusErrorMessage": {
+                        "Inactive": "광고 계정에 액세스할 수 없습니다. LinkedIn에 로그인하고 통합해야 하는 계정에 대한 권한을 설정하십시오."
+                    },
+                    "UsersTable": {
+                        "DeleteConfirmation": "토큰을 삭제하시겠습니까? 이로 인해 광고 계정 액세스 및 리드 검색과 관련된 문제가 발생할 수 있습니다.",
+                        "Headers": {
+                            "UserName": "네트워크 사용자",
+                            "TokenStatus": "토큰 상태",
+                            "ExpirationDate": "만료일",
+                            "HasAdAccountAccess": "계정에 대한 액세스 제공"
+                        },
+                        "TokenStatuses": {
+                            "Active": "활동적",
+                            "Expired": "만료됨",
+                            "Revoked": "취소됨",
+                            "Unknown": "알 수 없는"
+                        },
+                        "HasAdAccountAccess": {
+                            "Yes": "예",
+                            "No": "아니요"
+                        },
+                        "TokenStatusErrorMessage": {
+                            "Expired": "LinkedIn에 로그인하고 토큰이 만료된 사용자를 대신하여 계정에 광고 권한을 부여합니다.",
+                            "Revoked": "토큰이 취소되었습니다.\n가능한 이유:\n- 이 계정은 다른 Creatio 인스턴스에 로그인하는 데 사용되었습니다.\n- Linked에서 리드 제네레이션 앱의 연결이 끊어졌습니다.\n이 문제를 해결하려면 LinkedIn에 한 번 더 로그인하고 토큰이 해지된 사용자를 대신하여 계정에 광고 권한을 부여하십시오.",
+                            "Unknown": "요청 중 하나 이상의 오류로 인해 토큰 상태를 검색할 수 없습니다. 페이지를 새로 고치십시오."
+                        },
+                        "MenuCell": {
+                            "Delete": "삭제",
+                            "Reconnect": "다시 연결하기"
+                        }
+                    }
+                }
+            }
+        },
+        "IntegrationSection": {
+            "DeleteConfirmation": "이 통합을 삭제하시겠습니까? Creatio에서 새 리드를 검색할 수 없습니다.",
+            "DeleteError": "통합을 삭제할 수 없습니다. 광고 계정에 대한 액세스가 거부되었습니다. 해당 광고 계정에 액세스 권한을 부여하고 다시 시도하십시오.",
+            "Header": {
+                "Title": "사회적 리드젠 통합",
+                "Buttons": {
+                    "New": "새로운",
+                    "Logs": "로그",
+                    "Settings": "설정"
+                }
+            },
+            "Columns": {
+                "Name": "이름",
+                "Type": "유형",
+                "IsActive": "활동적",
+                "IntegrationSectionItemMenu": {
+                    "Delete": "삭제",
+                    "Activate": "활성화",
+                    "Deactivate": "비활성화"
+                }
+            },
+            "BlankSlate": {
+                "Description": "구성된 통합이 없습니다."
+            }
+        },
+        "IntegrationPage": {
+            "ToggleStateCaptions": {
+                "Active": "활동적",
+                "Inactive": "비활성화됨"
+            },
+            "Header": {
+                "Buttons": {
+                    "Logs": "로그",
+                    "Settings": "설정"
+                }
+            },
+            "Error": {
+                "Save": "설정을 수정할 수 없습니다. 필수 오브젝트 필드가 매핑되고 \"매핑되지 않은 양식 필드\" 매크로 설정이 지정되었는지 확인합니다.",
+                "FormSelection": "설정을 수정할 수 없습니다. 필수 오브젝트 필드가 매핑되고 \"매핑되지 않은 양식 필드\" 매크로 설정이 지정되었는지 확인합니다."
+            },
+            "BlankSlate": {
+                "Title": "선택한 광고 계정에서 활성 양식을 찾을 수 없습니다.",
+                "Description": "리드 양식을 만들거나 설정할 다른 계정을 선택하십시오."
+            },
+            "BlankSlateError": {
+                "Title": "계정에 액세스할 수 없습니다.",
+                "Description": "로그인한 후 액세스 권한을 다시 부여하십시오."
+            },
+            "Detail": {
+                "Name": "이름",
+                "FacebookPage": "Facebook 페이지",
+                "LinkedinAdAccount": "LinkedIn 계정",
+                "DeactivateConfirmationQuestion": "구독을 비활성화하시겠습니까? 모든 양식에서 리드 전송이 중지됩니다. 변경 사항이 통합 카드 수준에서 저장되면 새 상태가 적용됩니다."
+            },
+            "IntegrationSettings": {
+                "FacebookIsNotSet": "Facebook 통합이 설정되지 않았습니다.",
+                "LinkedInIsNotSet": "LinkedIn 통합이 설정되지 않았습니다.",
+                "Create": "설정 통합",
+                "DefaultIntegrationRecordName": "새로운 소셜 리드 세대 통합"
+            },
+            "InfoBlock": {
+                "Title": "메모",
+                "Text": "선택한 페이지의 모든 양식이 Creatio에 연결됩니다. \"기본 설정\" 탭에서 모든 양식에 대한 기본 설정을 지정합니다. 각 양식에 대한 고유한 설정은 \"양식\" 탭에서 만들 수 있습니다."
+            },
+            "ColumnMapping": {
+                "ExpansionPanelCaption": "기본 매핑",
+                "Object": "개체",
+                "AddMapping": "추가",
+                "Hint": "Creatio는 모든 광고 계정 양식에 기본 매핑을 적용합니다.\n설정은 사용자 프로필 정보가 있는 양식 열에만 적용됩니다.\n양식 레코드 페이지에서 사용자 지정 질문, 사용자 지정 확인란 및 숨김 필드를 매핑할 수 있습니다. 이 기능을 사용하려면 \"사용자 지정 매핑\" 확인란을 선택합니다.\n매핑되지 않은 필드 매크로를 사용하면 모든 열의 값을 단일 개체 열에 전달할 수 있습니다.",
+                "DataTypes": {
+                    "Lookup": "순람표",
+                    "Text": "텍스트",
+                    "Boolean": "불리언",
+                    "DateTime": "날짜 시간",
+                    "Date": "날짜",
+                    "Time": "시간",
+                    "Number": "숫자",
+                    "Macro": "매크로"
+                },
+                "FieldMenuCaptions": {
+                    "FormField": "양식 필드",
+                    "Text": "텍스트 값",
+                    "Boolean": "부울값",
+                    "Lookup": "조회값",
+                    "Other": "다른"
+                },
+                "LinkedIn": "LinkedIn",
+                "BooleanValue": {
+                    "True": "맞음",
+                    "False": "틀림"
+                },
+                "UnmappedMacroValue": "매핑되지 않은 양식 필드",
+                "LookupValueUnknown": "<찾을 수 없음>",
+                "ModalBox": {
+                    "SetButtonCaption": "설정",
+                    "CancelButtonCaption": "취소",
+                    "SelectFormCaption": "양식 필드 선택",
+                    "EnterTextValueCaption": "값을 입력하십시오"
+                }
+            },
+            "Logs": {
+                "ExpansionPanelCaption": "로그",
+                "NoLogsForIntegrationMessage": "이 통합에 대한 로그가 없습니다.",
+                "ShowMoreButtonCaption": "더 보기",
+                "Types": {
+                    "Info": "정보",
+                    "Warning": "경고",
+                    "Error": "실수"
+                }
+            },
+            "FormsList": {
+                "Header": "양식",
+                "LinkedInStatus": "LinkedIn 상태",
+                "Hint": "사용자 지정 매핑 설정은 기본 매핑 설정을 재정의합니다. 각 양식을 개별적으로 매핑합니다.\n사용자 지정 매핑을 비활성화하는 경우, Creatio는 기본 매핑 설정을 양식에 적용합니다.",
+                "FormStatus": {
+                    "Archived": "보관됨",
+                    "Pending": "보류 중",
+                    "Approved": "승인됨",
+                    "Preapproved": "사전 승인됨",
+                    "Rejected": "거부됨",
+                    "NeedsReview": "검토 필요",
+                    "AutoApproved": "자동 승인됨",
+                    "AutoRejected": "자동 거부됨",
+                    "Undefined": "한정되지 않은",
+                    "NotActive": "활성화되지 않음"
+                },
+                "MappingType": {
+                    "DefaultMapping": "기본 매핑",
+                    "CustomMapping": "사용자 지정 매핑"
+                },
+                "BlankSlate": {
+                    "Description": "이 양식에는 기본 매핑 설정이 적용됩니다."
+                },
+                "DeactivateFormConfirmationQuestion": "Creatio에서 이 양식에서 리드 수신을 취소하시겠습니까? 변경 사항이 통합 카드 수준에서 저장되면 새 상태가 적용됩니다.",
+                "ObjectsTitle": {
+                    "Lead": "리드"
+                }
+            },
+            "IntegrationSyncInfo": {
+                "Header": "리드 동기화 정보",
+                "UnableToAdAccountAccess": "계정에 액세스할 수 없습니다. 리드 동기화가 중지되었습니다.",
+                "SaveIntegration": "리드 동기화 상태에 대한 알림을 받으려면 통합 내용을 저장하고 페이지를 새로 고치십시오.",
+                "SubscriptionInactive": "선택한 광고 계정에 대한 리드 구독이 비활성화되었습니다. 리드 동기화가 중지되었습니다. 구독을 활성화하면 Creatio에서 리드의 수신이 복원됩니다.",
+                "SubscriptionActive": "선택한 광고 계정에 대한 리드 구독이 활성화되었습니다. LinkedIn 측에 생성된 리드는 Creatio로 전송됩니다."
+            },
+            "DownloadLeads": {
+                "ForForm": {
+                    "ButtonCaption": "리드 동기화",
+                    "ModalBoxTitle": "해당 기간의 양식 리드를 업로드하려면 \"동기화\"를 클릭하십시오. 기간은 해당 시점의 양식 리드 구독 상태에 관계없이 계산됩니다."
+                },
+                "ForAdAccount": {
+                    "ButtonCaption": "모든 리드 동기화",
+                    "ModalBoxTitle": "해당 기간의 광고 계정 리드를 업로드하려면 \"동기화\"를 클릭하십시오. 이 기간은 당시 계정의 리드 구독 상태에 관계없이 계산됩니다. 이미 동기화한 리드를 Creatio에서 다시 업로드하지 않습니다."
+                },
+                "ModalBox": {
+                    "InformationText": "LinkedIn 스토어 리드는 90일 동안 판매됩니다.",
+                    "CancelButtonCaption": "취소",
+                    "DownloadButtonCaption": "동기화",
+                    "SuccessRunBusinessProcessInfoText": "리드 업로드 프로세스가 시작되었습니다. 프로세스가 완료될 때까지 시간이 좀 걸릴 수 있습니다.",
+                    "UnknownFailedRunBusinessProcessInfoText": "리드 업로드 프로세스를 시작하지 못했습니다. 나중에 다시 시도해 주십시오. 시작 오류가 계속되면 기술 지원부에 문의하십시오."
+                }
+            }
+        },
+        "SocialMediaProvider": {
+            "New": "새로운 통합",
+            "RestoreAccess": "액세스 복원"
+        },
+        "IntegrationError": {
+            "InvalidSettings": "리드 생성 서비스에 연결할 수 없습니다. “Identity server URL”, “Identity server client id”, “Identity server client secret” 시스템 설정이 비어 있습니다.",
+            "InvalidScope": "리드 생성 서비스에 연결할 수 없습니다. 리드 생성 서비스의 사용자 계정에 필수 권한이 없습니다. 이 문제를 해결하려면 Creatio 지원부에 문의하십시오.",
+            "InvalidClient": "리드 생성 서비스에 연결할 수 없습니다. ID 서버 클라이언트 ID 및 \"Identity 서버 클라이언트 암호\" 시스템 설정에 예기치 않은 값이 있습니다. 이 문제를 해결하려면 Creatio 지원부에 문의하십시오.",
+            "GeneralError": "리드 생성 서비스에 연결할 수 없습니다. 문제가 지속되면 페이지를 새로 고치거나 Creatio 지원부에 문의하십시오."
+        }
+    },
+    "QueueSorting": {
+        "QueueSectionHeader": "큐 정렬 설정",
+        "AddQueueObjectCaption": "큐 개체 추가",
+        "QueueObjectCaption": "큐 오브젝트",
+        "QueueTypeCaption": "큐 유형",
+        "BlindQueue": "블라인드 큐",
+        "RegularQueue": "정규 큐",
+        "AddQueueSortObjectCaption": "정렬 개체 추가",
+        "Empty": "빈",
+        "RequiredFieldValue": "큐 개체 선택",
+        "QueueObjectLookup": {
+            "NameColumnCaption": "제목",
+            "Title": "큐 개체 순람표"
+        },
+        "QueueObjectColumnLookup": {
+            "NameColumnCaption": "제목",
+            "Title": "대기열 개체 정렬 열 순람표"
+        },
+        "QueueObjectColumnPage": {
+            "AddQueueObjectColumn": "열추가",
+            "SortDirection": "정렬순서",
+            "SelectColumn": "열",
+            "RequiredFieldValue": "필수 필드가 채워지지 않았습니다."
+        },
+        "QueueObjectTable": {
+            "Actions": {
+                "Delete": "삭제",
+                "Edit": "설정"
+            },
+            "RemoveToolTip": "기존 대기열에서 정렬 개체를 사용하므로 Creatio에서 정렬 개체를 삭제할 수 없습니다."
+        },
+        "QueueObjectColumnTable": {
+            "Caption": "열 정렬",
+            "ColumnCaption": "캡션",
+            "SortDirection": "정렬 방향",
+            "Position": "우선 순위",
+            "Empty": "정렬 열이 추가되지 않음",
+            "Actions": {
+                "Delete": "삭제",
+                "Edit": "편집"
+            }
+        },
+        "OrderDirection": {
+            "Ascending": "오르는",
+            "Descending": "내려가는",
+            "None": "없음"
+        }
+    },
+    "ChatSettings": {
+        "ChatSettingsPageHeader": "채팅",
+        "ChannelDetail": {
+            "DeleteAction": "삭제",
+            "DeleteRecordErrorMessage": "선택한 레코드를 삭제할 수 없습니다.",
+            "Title": "채널",
+            "Columns": {
+                "Name": "이름",
+                "Status": {
+                    "Caption": "활동적"
+                },
+                "Queue": "큐",
+                "Provider": "공급자"
+            },
+            "FacebookSettings": {
+                "InvalidSettings": {
+                    "Message": "채널을 추가할 수 없습니다. ()에서 설정 요구 사항을 찾을 수 있습니다.",
+                    "Link": {
+                        "Text": "물품."
+                    }
+                }
+            }
+        },
+        "ChannelPage": {
+            "Name": "이름",
+            "Token": "토큰",
+            "WebhookUrl": "URL",
+            "Status": "상태",
+            "Queue": "큐",
+            "Language": "언어",
+            "ChannelProcessingGroup": "채널 처리 중",
+            "NewChannelCaption": "새 '{0}' 채널",
+            "InactiveChannelMessage": "메시지를 수신하려면 채널을 활성화하고 처리할 큐를 지정해야 합니다. 비활성 채널을 추가하시겠습니까?",
+            "FacebookPageLinkCaption": "Facebook 페이지",
+            "ActiveChannelCaption": "활동적",
+            "Telegram": {
+                "TelegramPageLinkCaption": "Telegram 채널",
+                "InvalidTelegramToken": "채널을 만들려면 올바른 토큰을 입력하십시오.",
+                "TelegramTokenAlreadyExists": "입력된 토큰에 대한 채널이 이미 있습니다.",
+                "ActiveWebhookErrorMessageForCreating": "Unable to create the channel because a webhook integration is set up for the Telegram bot. Please delete the webhook integration to add the channel."
+            },
+            "Tips": {
+                "Language": "Creatio는 선택한 언어를 이 채널을 통해 작성된 연락처의 기본 언어로 설정합니다. 활성 언어만 선택할 수 있습니다. 활성화/비활성화할 언어 검색으로 이동하십시오",
+                "WhatsAppToken": "Twilio 계정의 AUTH TOKEN을 입력하십시오.",
+                "WhatsAppId": "Twilio 계정 SID를 입력하십시오.",
+                "WhatsAppTestPhoneNumber": "채널을 확인하기 위해 테스트 메시지를 보낼 전화 번호입니다."
+            },
+            "WhatsApp": {
+                "PageLinkCaption": "WhatsApp 채널",
+                "ApplicationId": "응용 프로그램 ID",
+                "ChannelPhoneNumber": "전화번호",
+                "IntegrationPhoneNumber": "확인전화번호",
+                "Connect": "연결",
+                "InvalidPhoneNumber": "숫자만 허용",
+                "ChannelDuplicatedErrorMessage": "입력한 전화 번호에 대한 채널이 이미 있습니다.",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "잘못된 Twilio 계정 SID를 입력했습니다.",
+                    "InvalidAccountPhoneNumberException": "잘못된 WhatsApp 전화 번호를 입력했습니다.",
+                    "AuthenticateException": "잘못된 토큰을 입력했습니다."
+                }
+            },
+            "ValidationMessage": {
+                "required": "값을 입력하십시오",
+                "wrongValue": "잘못된 값"
+            },
+            "ErrorCodes": {
+                "ActiveWebhook": "The “{{channelName}}” chat channel is not receiving messages because a webhook integration is set up for the Telegram bot. Please delete the webhook integration and activate this channel to enable message reception.",
+                "PollingConflict": "The “{{channelName}}” chat channel is not receiving messages because another Telegram bot instance is configured. Please delete the duplicate instance to enable message reception."
+            },
+            "Sms": {
+                "ChannelDuplicatedErrorMessage": "The channel already exists for the entered phone number",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "You entered an invalid Twilio account SID",
+                    "InvalidAccountPhoneNumberException": "You entered an invalid phone number",
+                    "AuthenticateException": "You entered an invalid Token"
+                }
+            },
+            "Twilio": {
+                "ErrorMessages": {
+                    "ValidationException": "Unable to connect to Twilio. Please check that your account SID and token are correct and try again."
+                }
+            }
+        },
+        "ChatQueueDetail": {
+            "Title": "채팅 큐",
+            "Columns": {
+                "Name": "이름",
+                "Routing": {
+                    "Caption": "라우팅 규칙"
+                },
+                "Simultaneous": "동시 채팅",
+                "Timeout": "채팅 제한 시간 (분)"
+            }
+        },
+        "ChatActionsDetail": {
+            "Title": "채팅 액션",
+            "Columns": {
+                "Caption": "캡션",
+                "Process": "프로세스",
+                "Queue": "큐"
+            },
+            "Actions": {
+                "Delete": "삭제"
+            }
+        },
+        "ChatQueuePage": {
+            "Title": "큐",
+            "Name": "이름",
+            "OperatorRoutingRule": "라우팅 규칙",
+            "SimultaneousChats": "동시 채팅",
+            "TimeToWaitInQueue": "대기열에서 기다리는 시간",
+            "Timeout": "채팅 완료 제한 시간 (분)",
+            "Tips": {
+                "SimultaneousChats": "상담원 최대 채팅 수",
+                "Timeout": "채팅이 자동으로 완료되기 전의 최대 대기 시간"
+            },
+            "ValidationMessage": {
+                "required": "값을 입력하십시오",
+                "wrongValue": "잘못된 값",
+                "nonNegativeValue": "음수 값을 제공할 수 없습니다.",
+                "nonNumericValue": "숫자가 아닌 값을 제공할 수 없습니다."
+            }
+        },
+        "ChatActionPage": {
+            "Title": "채팅 액션",
+            "Caption": "캡션",
+            "Process": "프로세스",
+            "ChatQueue": "채팅 큐",
+            "ValidationMessage": {
+                "required": "값을 입력하십시오"
+            }
+        },
+        "ChatQueueOperatorDetail": {
+            "Title": "큐 상담원",
+            "Columns": {
+                "Operator": {
+                    "Caption": "사용자/역할"
+                }
+            },
+            "DuplicationMessage": "역할이 이미 있습니다. 계속하려면 다른 상담원/역할을 선택하십시오."
+        }
+    },
+    "IntegrationDiagnostics": {
+        "EmailListener": {
+            "Header": "전자 메일 수신기 서비스 진단",
+            "MailBoxAvailabilityCheck": "편지함 상태 확인 중",
+            "ExchangeListenerAvaibilityCheck": "서비스 가능 여부 확인",
+            "ExchangeListenerAvailabilityCheck": "Creatio 가용성 확인",
+            "GetSubscriberInfo": "청약정보 수신",
+            "StartDiagnosticButtonCaption": "진단 실행",
+            "StartFullDiagnosticButtonCaption": "전체 진단 실행",
+            "MailBoxLookupCaption": "우편함",
+            "SuccessfulOperation": "성공적인 운영",
+            "DiagnosticWasNotStarted": "진단이 시작되지 않았습니다",
+            "UnSuccessfulOperation": "Error",
+            "ELAvailabilityDescription": "이 사이트에서 전자 메일 청취자 서비스를 사용할 수 있습니다",
+            "ApplicationAvailabilityDescription": "이메일 청취자가 Creatio에 연결할 수 있었습니다",
+            "ELNotAvailabilityDescription": "현재 이 사이트에 대해 전자 메일 수신기 서비스를 사용할 수 없습니다",
+            "ValidateCreatioExchangeEndpoint": "시스템 설정 BpmonlineExchangeEventsEndpointUrl에서 채움의 정확성 검증",
+            "CreatioExchangeEndpontErrorValidationInfoTemplate": "끝점이 올바르지 않습니다\n예상 값: {0}/NewEmail\n실제 값: {1}\n시스템 설정 Bpmonline Exchange Events EndpointUrl이 꽉 찼음을 확인합니다!",
+            "CreatioExchangeEndpontSuccessValidationInfoTemplate": "엔드포인트 {0}이(가) 유효합니다",
+            "SendTestEmail": "테스트 이메일 보내기",
+            "MailboxAvailabilityDiagnosticTooltip": "우편함을 입력해야 합니다",
+            "MailboxDiagnosticSuccessDescriptor": "이 편지함이 성공적으로 확인되었습니다",
+            "NameCaption": "이름",
+            "FeaturesStateLabel": "특징 상태",
+            "ExchangeListenerEnabledFeatureCaption": "교환 편지함 동기화(ExchangeListenerEnabled)",
+            "EmailIntegrationV2FeatureCaption": "Exchange 및 IMAP 편지함 동기화(Email Integration V2)",
+            "SendEmailsV2FeatureCaption": "이메일 보내기 (SendEmailsV2)",
+            "OldEmailIntegrationFeatureCaption": "오래된 전자 메일 통합 (OldEmailIntegrationFeature, 상태가 비활성화된)",
+            "IsMailboxSyncSettingsCachedFeatureCaption": "편지함 동기화 설정 캐시 (IsMailboxSyncSettingsCached)"
+        }
+    },
+    "StructureExplorerDialog": {
+        "NoData": "데이터 없음",
+        "Title": "필드 선택",
+        "CancelButtonCaption": "취소",
+        "SelectButtonCaption": "선택",
+        "RelatedObjectsTabCaption": "관련 개체{0}",
+        "FieldsTabCaption": "{0} 필드{1}",
+        "SearchPlaceHolder": "검색",
+        "SearchClearIconTitle": "Clear search"
+    },
+    "AggregationNames": {
+        "Count": "레코드 수",
+        "Sum": "값의 합계",
+        "Avg": "평균값",
+        "MinValue": "최소값",
+        "MaxValue": "최대값",
+        "MinDate": "최소일자",
+        "MaxDate": "최대일자",
+        "TopOne": "최초기록값",
+        "AtLeastOneRecord": "At least one record",
+        "NoRecords": "No records"
+    },
+    "EntityColumnValuePickerProvider": {
+        "ValueFromFieldCaption": "다른 필드의 값"
+    },
+    "DataSourceAttributeValuePickerProvider": {
+        "ValueFromFieldCaption": "다른 필드의 값"
+    },
+    "FormulaValuePickerProvider": {
+        "ValueFromFieldCaption": "공식",
+        "CancelButtonCaption": "취소",
+        "SelectButtonCaption": "완료",
+        "DialogTitleCaption": "공식 표현"
+    },
+    "RepositorySection": {
+        "Title": "SVN 저장소 목록",
+        "Actions": {
+            "Add": "추가",
+            "Edit": "편집",
+            "Authorize": "진짜임을 증명하기",
+            "Delete": "삭제"
+        },
+        "Messages": {
+            "SuccessAuthorize": "저장소에서 인증했습니다."
+        },
+        "Columns": {
+            "Name": "이름",
+            "Address": "SVN 저장소 주소",
+            "IsActive": "활동적",
+            "Login": "로그인",
+            "Password": "비밀번호"
+        },
+        "InfoBlock": {
+            "Title": "알아야 할 중요한 것",
+            "TextPart1": "SVN을 통한 변경 사항 전송은 개발 환경 전용입니다. 사용하기 ",
+            "TextPart2": " 변경 사항을 프로덕션 환경으로 전송하는 섹션입니다.",
+            "InstallAppsLink": "https://academy.creatio.com/docs/user/no-code_customization/apps_and_extensions/install_applications_from_the_marketplace",
+            "InstallAppsLinkText": "설치된 응용 프로그램",
+            "LinksMessage": "Creatio Academy에서 SVN에 대해 자세히 알아보세요.",
+            "DeploymentInCreatioIDEInfoLinkText": "Creatio IDE에서 배포",
+            "SetupVersionControlInfoLinkText": "버전 제어 설정",
+            "DeploymentInCreatioIDEInfoLink": "https://academy.creatio.com/docs/developer/development_tools/deployment/transferring_solutions_in_creatio_ide",
+            "SetupVersionControlInfoLink": "https://academy.creatio.com/docs/node/1164"
+        },
+        "Page": {
+            "Title": "SVN 저장",
+            "Actions": {
+                "Add": "추가",
+                "Apply": "적용",
+                "Cancel": "취소",
+                "Authorize": "진짜임을 증명하기"
+            },
+            "Validation": {
+                "Required": "값을 입력합니다",
+                "MaxLength": "최대 텍스트 길이 초과({0}/{1})",
+                "NameField": {
+                    "Pattern": "잘못된 이름 형식"
+                }
+            }
+        }
+    },
+    "dataSource": "Data source1",
+    "lookup": "순람표",
+    "lookupValueDeletion": "조회 값 삭제 때:",
+    "blockDeletionCaption": "현재 개체에 이 값을 가진 연결된 레코드가 있는 경우 삭제 차단",
+    "DeleteRecordsCaption": "이 값을 사용하여 현재 개체에서 레코드 삭제",
+    "lookupView": "조회 보기",
+    "selectionWindow": "선택 창",
+    "list": "목록",
+    "columnFormat": "데이터형",
+    "columnNumberFormat": "데이터형",
+    "selectValueCaption": "값을 입력합니다",
+    "DataValueType": {
+        "TextCaption": "텍스트",
+        "ShortTextCaption": "본문 (50자)",
+        "PhoneTextCaption": "전화번호",
+        "MediumTextCaption": "본문 (250자)",
+        "LongTextCaption": "본문 (500자)",
+        "MaxSizeTextCaption": "문자 길이 제한 없음",
+        "SecureTextCaption": "암호화된 문자열",
+        "HashTextCaption": "순환 중복 검사",
+        "IntegerCaption": "정수",
+        "FLOAT1Caption": "십진법 (0.1)",
+        "FLOAT2Caption": "십진법 (0.01)",
+        "FLOAT3Caption": "십진법 (0.001)",
+        "FLOAT4Caption": "십진법 (0.0001)",
+        "FLOAT8Caption": "십진법 (0.00000001)",
+        "MoneyCaption": "Currency (0.01)",
+        "DateTimeCaption": "날짜/시간",
+        "DateCaption": "날짜",
+        "TimeCaption": "시간",
+        "BooleanCaption": "불리언",
+        "ImageCaption": "이미지",
+        "ImageLookupCaption": "이미지 링크",
+        "FileCaption": "파일",
+        "ColorCaption": "색",
+        "GuidCaption": "고유 식별자",
+        "BlobCaption": "BLOB",
+        "LookupCaption": "순람표",
+        "Entity": "개체 (독립체)",
+        "EntityCollection": "개체 모음 (EntityCollection)",
+        "EntityColumnMappingCollection": "개체 열 값",
+        "CustomObject": "개체",
+        "Collection": "열거",
+        "LocalizableString": "지역화 가능한 문자열",
+        "MetaDataText": "현지화할 수 없는 문자열",
+        "ObjectList": "직렬화 가능한 값 목록",
+        "CompositeObjectList": "직렬화 가능한 복합 값 목록",
+        "FloatCaption": "십진법",
+        "RichCaption": "Rich text",
+        "PhoneTextShortenedCaption": "기본 전화 번호",
+        "WebTextCaption": "Web link",
+        "EmailTextCaption": "이메일 주소",
+        "EmailTextShortenedCaption": "이메일",
+        "TimerCaption": "타이머",
+        "LocalTimeCaption": "현지시간",
+        "CompositeObject": "Composite value",
+        "FLOAT0Caption": "십진법 (0)",
+        "Money0Caption": "Currency (0)",
+        "Money1Caption": "Currency (0.1)",
+        "Money3Caption": "Currency (0.001)"
+    },
+    "CodeMirror": {
+        "HotkeysDescription": "핫키:",
+        "SelectAll": "Ctrl-A 전체선택",
+        "Undo": "Ctrl-Z 실행취소",
+        "Redo": "Shift-Ctrl-Z 다시 실행",
+        "Find": "Ctrl-F 찾기",
+        "FindNext": "F3 다음 찾기",
+        "FindPrev": "Shift-F3 이전 찾기",
+        "Replace": "Shift-Ctrl-F 교체",
+        "ReplaceAll": "Shift-Ctrl-R 모두 교체",
+        "DeleteLine": "Ctrl-Y 삭제 선",
+        "GoLineStart": "Alt-Left 선 시작 위치로 이동",
+        "GoLineEnd": "Alt-Right 선 끝으로 이동",
+        "JmpToLine": "Alt-G 선으로 점프",
+        "Fullscreen": "F11 전체화면 코드 편집기",
+        "FullscreenExit": "Esc 전체화면 모드 종료",
+        "Autocomplete": "Ctrl-Space 호출 자동 완료"
+    },
+    "CDK": {
+        "ByCaption": "()로",
+        "ByColumnCaption": "열별",
+        "WhereColumnCaption": "어디에",
+        "IsColumnCaption": "is",
+        "IndicatorWidget": {
+            "Caption": "미터법의"
+        },
+        "GaugeWidget": {
+            "Caption": "게이지"
+        },
+        "HeaderWidget": {
+            "Fullscreen": {
+                "ExpandLabel": "전체 화면 펼치기",
+                "CollapseLabel": "전체 화면 축소"
+            },
+            "Direction": {
+                "Menu": {
+                    "Caption": "차트위치"
+                },
+                "Column": {
+                    "Caption": "위에"
+                },
+                "Row": {
+                    "Caption": "왼쪽에"
+                },
+                "RowReverse": {
+                    "Caption": "오른쪽에"
+                }
+            }
+        },
+        "ChartWidget": {
+            "ChangeChartType": {
+                "Caption": "차트 유형 변경"
+            },
+            "Line": {
+                "Caption": "선"
+            },
+            "Spline": {
+                "Caption": "스플라인"
+            },
+            "Area": {
+                "Caption": "영역"
+            },
+            "Scatter": {
+                "Caption": "분산형"
+            },
+            "Bar": {
+                "Caption": "열"
+            },
+            "HorizontalBar": {
+                "Caption": "줄"
+            },
+            "Pie": {
+                "Caption": "파이"
+            },
+            "Doughnut": {
+                "Caption": "도넛"
+            },
+            "Tsfunnel": {
+                "Caption": "파이프라인"
+            },
+            "Common": {
+                "DrillDownCaption": "항목을 드릴다운합니다",
+                "EmptyValue": "값이 정의되지 않았습니다",
+                "ExportDataBtnCaption": "Excel로 내보내기",
+                "HideSeries": "숨기기",
+                "ShowDataCaption": "데이터 표시",
+                "ShowDataForSelectedSeriesCaption": "이 영상 시리즈의 데이터 표시",
+                "ShowSeries": "표시",
+                "ShowSeriesDataCaption": "영상 시리즈별 데이터 표시",
+                "BooleanTrueValue": "예",
+                "BooleanFalseValue": "아니요",
+                "ShowDataAsTableCaption": "Show data as table"
+            },
+            "With": {
+                "Caption": "와 함께"
+            },
+            "Series": {
+                "Caption": "시리즈"
+            },
+            "ScreenReader": {
+                "AnnounceChartTypeChange": "Chart type changed to {{chartType}}"
+            }
+        },
+        "FunnelWidget": {
+            "OpportunityFunnel": {
+                "Caption": "판매 파이프라인",
+                "ByCountLabelTemplate": "기록 열이 수정되면 연락처가 캠페인에 추가됩니다. 요소에 대한 트리거를 활성화할 열을 선택하십시오. {0}",
+                "StageConversionLabelTemplate": "기록 열이 수정되면 연락처가 캠페인에 추가됩니다. 요소에 대한 트리거를 활성화할 열을 선택하십시오. {0}%",
+                "ToFirstStageLabelTemplate": "{0}%",
+                "ByCountBtnLabel": "기회수",
+                "StageConversionBtnLabel": "단계 전환율",
+                "ToFirstStageBtnLabel": "파이프라인 변환",
+                "DefaultTitle": "새 파이프라인"
+            },
+            "FullPipelineFunnel": {
+                "Caption": "전체 파이프라인",
+                "ByCountBtnLabel": "레코드 수",
+                "StageConversionBtnLabel": "단계 전환율",
+                "ToFirstStageBtnLabel": "파이프라인 변환",
+                "DefaultTitle": "새 파이프라인"
+            },
+            "Tooltip": {
+                "CountInStage": "세기",
+                "CountInStageValue": "기록 열이 수정되면 연락처가 캠페인에 추가됩니다. 요소에 대한 트리거를 활성화할 열을 선택하십시오. {0}",
+                "Amount": "금액",
+                "AmountValue": "{0} {1}",
+                "ConversionToStage": "전환",
+                "ConversionToStageValue": "기록 열이 수정되면 연락처가 캠페인에 추가됩니다. 요소에 대한 트리거를 활성화할 열을 선택하십시오. {0}%",
+                "ConversionToFirstStage": "전환",
+                "ConversionToFirstStageValue": "기록 열이 수정되면 연락처가 캠페인에 추가됩니다. 요소에 대한 트리거를 활성화할 열을 선택하십시오. {0}%",
+                "ConversionToStageCount": "세기",
+                "ConversionToStageCountValue": "기록 열이 수정되면 연락처가 캠페인에 추가됩니다. 요소에 대한 트리거를 활성화할 열을 선택하십시오. {0}",
+                "ConversionToFirstStageCount": "세기",
+                "ConversionToFirstStageCountValue": "기록 열이 수정되면 연락처가 캠페인에 추가됩니다. 요소에 대한 트리거를 활성화할 열을 선택하십시오. {0}"
+            }
+        },
+        "ListWidget": {
+            "Caption": "List widget",
+            "Hint": "A component that combines a fully functional list with a customizable colored frame, ensuring visual consistency when placed alongside other analytics widgets"
+        },
+        "WaterfallWidget": {
+            "Caption": "Waterfall pipeline",
+            "DefaultTitle": "New waterfall pipeline"
+        },
+        "SalesWaterfallWidget": {
+            "Caption": "Sales waterfall pipeline",
+            "DefaultTitle": "New sales waterfall pipeline"
+        }
+    },
+    "Components": {
+        "Input": {
+            "Caption": "텍스트"
+        },
+        "Slider": {
+            "Caption": "슬라이더"
+        },
+        "NumberInput": {
+            "Caption": "숫자"
+        },
+        "FileInput": {
+            "Caption": "파일",
+            "LabelCaption": "업로드할 파일",
+            "Placeholder": "파일 선택"
+        },
+        "Button": {
+            "Caption": "버튼",
+            "DefaultActionNotificationMessageText": "Data saved successfully"
+        },
+        "Checkbox": {
+            "Caption": "확인란"
+        },
+        "Combobox": {
+            "Caption": "드롭다운",
+            "AddNewRecord": "새로 추가",
+            "IsGoToSourceAllowedTooltip": "레코드 목록으로 이동"
+        },
+        "DataGrid": {
+            "Caption": "목록",
+            "Hint": "A customizable data display component that allows users to view and interact with structured information"
+        },
+        "ExpandedList": {
+            "Caption": "Expanded list",
+            "Hint": "확장된 목록에는 목록, 확장 가능한 그룹 및 추가 항목 버튼이 포함됩니다. 관련 정보를 표시하기 위해 페이지에서 사용하는 것이 좋습니다.",
+            "AddBtnCaption": "새로운",
+            "RefreshBtnCaption": "새로 고침",
+            "SettingsBtnCaption": "행실",
+            "ExportDataBtnCaption": "Excel로 내보내기",
+            "ImportDataBtnCaption": "데이터 가져오기"
+        },
+        "DateTimePicker": {
+            "Caption": "날짜/시간"
+        },
+        "Gallery": {
+            "Caption": "갤러리"
+        },
+        "ColorPicker": {
+            "Caption": "색상 선택기"
+        },
+        "Label": {
+            "Caption": "라벨"
+        },
+        "ActionDashboard": {
+            "Caption": "Action dashboard",
+            "Hint": "워크플로 표시줄과 작업 패널을 사용하여 레코드의 현재 상태에 대한 정보를 표시합니다. 폼 페이지에서 구성 요소를 사용하는 것이 좋습니다."
+        },
+        "ExpansionPanel": {
+            "Caption": "확장 패널"
+        },
+        "TabPanel": {
+            "Caption": "탭",
+            "DefaultTab1Name": "탭 1",
+            "DefaultTab2Name": "탭 2",
+            "NewTabName": "새 탭",
+            "AddTab": "탭 추가",
+            "DeleteTab": "탭 삭제",
+            "DeleteTabConfirmation": "\"{0}\" 탭과 내부의 모든 항목을 삭제하시겠습니까?",
+            "DefaultLabel1Name": "Label 1",
+            "DefaultLabel2Name": "Label 2",
+            "NewLabelName": "새라벨"
+        },
+        "MenuItem": {
+            "Caption": "메뉴 항목"
+        },
+        "Breadcrumbs": {
+            "Back": "뒤로"
+        },
+        "File": {
+            "Caption": "파일",
+            "Label": "업로드할 파일",
+            "Placeholder": "파일 선택"
+        },
+        "Attachment": {
+            "Caption": "첨부 파일",
+            "Hint": "첨부 파일 구성 요소에는 파일 목록, 확장 가능한 그룹, 업로드 파일 버튼, 새로 고침 버튼이 포함됩니다. 첨부 파일 구성 요소는 파일 목록, 확장 가능한 그룹, 업로드 파일 버튼, 새로 고침 버튼을 포함합니다. 관련 첨부 파일을 표시하기 위해 양식 페이지에서 사용하는 것이 좋습니다.",
+            "AddBtnCaption": "Upload",
+            "RefreshBtnCaption": "새로 고침"
+        },
+        "RichTextEditor": {
+            "Caption": "Rich text"
+        },
+        "TogglePanel": {
+            "Caption": "토글 패널",
+            "Hint": "컨테이너에는 접을 수 있는 탭 컨테이너와 탭의 표시를 제어할 수 있는 버튼 블록이 포함되어 있습니다. 컨테이너와 버튼을 서로 독립적으로 페이지의 다른 부분에 배치할 수 있습니다."
+        },
+        "Timeline": {
+            "Caption": "연대표",
+            "AddObject": "+ 개체 추가",
+            "ProvideDataSource": "타임라인을 사용하기 전에 데이터 소스 제공",
+            "Tile": {
+                "TileObjectTitle": "개체: "
+            },
+            "DesignerCustomEntities": {
+                "Email": {
+                    "Caption": "이메일"
+                },
+                "Feed": {
+                    "Caption": "피드"
+                },
+                "Task": {
+                    "Caption": "작업"
+                },
+                "SysFile": {
+                    "Caption": "File"
+                }
+            },
+            "Hint": "The component displays communication history and related records in chronological order"
+        },
+        "ImageInput": {
+            "Caption": "이미지",
+            "LabelCaption": "Image to upload"
+        },
+        "SearchFilter": {
+            "Caption": "검색",
+            "Placeholder": "검색",
+            "Tooltip": "Search(검색) 구성 요소를 사용하면 목록 개체에 직접 연결된 텍스트, 숫자 및 조회 열로만 검색할 수 있습니다.",
+            "ComparisonType": {
+                "StartsWith": "Search matches values that start with your input.",
+                "Contains": "Search matches values that contain your input."
+            }
+        },
+        "Approval": {
+            "Caption": "승인"
+        },
+        "ApprovalList": {
+            "Caption": "승인목록",
+            "RefreshCaption": "새로 고침",
+            "ProvideDataSource": "승인을 사용하기 전에 데이터 소스 제공"
+        },
+        "ProgressBar": {
+            "Caption": "진행 표시줄",
+            "Hint": "단계실행지표",
+            "ProvideDataSource": "진행 표시줄을 사용하기 전에 데이터 원본 제공"
+        },
+        "CommunicationOptions": {
+            "Caption": "통신 옵션",
+            "Hint": "구성 요소에 연락처 또는 계정 통신 옵션이 표시됩니다",
+            "AddBtnCaption": "Add communication option"
+        },
+        "CampaignViewer": {
+            "Caption": "캠페인 뷰어",
+            "Hint": "캠페인 스키마를 표시합니다"
+        },
+        "TagSelect": {
+            "Caption": "태그"
+        },
+        "Summaries": {
+            "Caption": "요약"
+        },
+        "CalendarCaption": "달력",
+        "EntityHierarchyFilter": {
+            "Caption": "계층",
+            "AllCaption": "모든",
+            "Hint": "계층 보기를 사용하면 레코드를 구성하기 위해 조회 열을 기준으로 계층 구조를 구성할 수 있습니다. 구성 요소가 의도대로 작동하는지 확인하려면 목록 또는 데이터 소스 설정 페이지에서 연결합니다"
+        },
+        "IndicatorWidget": {
+            "Caption": "새 계량"
+        },
+        "Chat": {
+            "Caption": "채팅",
+            "Hint": "The component for real-time chatting and displaying previous conversations"
+        },
+        "ChartWidget": {
+            "Caption": "새 차트"
+        },
+        "GaugeWidget": {
+            "Caption": "새 게이지"
+        },
+        "Dashboards": {
+            "Caption": "대시보드",
+            "Hint": "The Dashboards component lets you configure the data source, connect the component to the page where the component is placed, and create a new or change an existing dashboard"
+        },
+        "Toggle": {
+            "Caption": "Switcher"
+        },
+        "DataGridHierarchical": {
+            "Caption": "Hierarchical list",
+            "Hint": "A data display component that allows users to view and interact with structured information organized in a multi-level hierarchy"
+        },
+        "Feed": {
+            "Caption": "피드"
+        },
+        "Divider": {
+            "Caption": "칸막이"
+        },
+        "Switch": {
+            "Caption": "Switch"
+        }
+    },
+    "LayoutElements": {
+        "GridArea1": {
+            "Caption": "영역"
+        },
+        "GridColumn1": {
+            "Caption": "1열"
+        },
+        "GridColumn2": {
+            "Caption": "2열"
+        },
+        "GridColumn3": {
+            "Caption": "3 열"
+        },
+        "GridColumn4": {
+            "Caption": "4 열"
+        },
+        "FlexRow": {
+            "Caption": "플렉스 줄",
+            "Hint": "여러 요소를 수평으로 정렬합니다. Creatio는 내용에 따라 요소의 크기를 조정할 수 있습니다. 예를 들어 두 개의 단추 또는 필드 및 단추를 서로 옆에 배치합니다. Academy에서 자세히 알아보십시오."
+        },
+        "FlexColumn": {
+            "Caption": "플렉스 열",
+            "Hint": "여러 요소를 세로로 정렬합니다. Creatio는 내용에 따라 요소의 크기를 조정할 수 있습니다. 예를 들어 블럭이 두 개인 열을 만듭니다. Academy에서 자세히 알아보십시오."
+        }
+    },
+    "TypeCaptions": {
+        "GridContainer": "격자용기",
+        "FlexContainer": "플렉스 용기",
+        "TabContainer": "탭",
+        "MenuItem": "메뉴 항목",
+        "ChartWidget": "차트",
+        "TimelineTile": "연대표"
+    },
+    "DialogComponent": {
+        "CancelButtonDialog": "취소",
+        "SaveButtonDialog": "완료",
+        "CloseButtonDialog": "종결"
+    },
+    "HomePage": {
+        "DialogMessages": {
+            "RequiredFieldsAreNotFilled": "필수 필드가 입력되지 않았거나 페이지에 유효성 검사 오류가 있습니다."
+        }
+    },
+    "DesignerSettingsComponent": {
+        "HeaderCaption": "차트 설정"
+    },
+    "InterfaceDesigner": {
+        "AddMenu": {
+            "AddDataSource": "데이터 원본 추가",
+            "NewDataSource": "새 데이터 원본",
+            "ExistingDataSource": "기존 데이터 원본"
+        },
+        "DataSourceActions": {
+            "Edit": "편집",
+            "RemoveAttribute": "삭제",
+            "Remove": "삭제",
+            "RemoveExistingDataSourceMessage": "Are you sure you want to remove the data source? Any unsaved changes to its object will be lost.",
+            "RemoveNewDataSourceMessage": "Are you sure you want to remove the data source? This will permanently delete the new object as it hasn’t been saved yet.",
+            "RemoveDataSourceWithReferencesMessage": "Remove the referenced elements before deleting the data source",
+            "RemoveDataSourceSuccessMessage": "The data source has been deleted"
+        },
+        "SetupDataSourceDialog": {
+            "SetupDataSourceTitle": "데이터 원본 설정",
+            "CancelButtonDialog": "취소",
+            "SelectButtonDialog": "선택",
+            "Object": "개체",
+            "SelectDataSource": "데이터 소스 선택"
+        },
+        "SetupEntityProperties": {
+            "NameColumnCaption": "이름"
+        },
+        "SetupEntityPropertiesDialog": {
+            "Name": "이름",
+            "Description": "증상",
+            "SaveButton": "완료",
+            "CancelButton": "취소",
+            "Code": "코드",
+            "Validations": {
+                "RequiredNameCaption": "값을 입력합니다"
+            }
+        },
+        "LookupEntityDialog": {
+            "CreateOrEditLookupEntityTitle": "새  순람표",
+            "CancelButtonDialog": "취소",
+            "SelectButtonDialog": "완료",
+            "TitleControl": "제목",
+            "NameControl": "코드",
+            "Validations": {
+                "RequiredNameCaption": "값을 입력합니다",
+                "DuplicateNameCaption": "동일한 코드를 가진 개체가 이미 있습니다.",
+                "PatternPrefixTemplate": "코드는 \"{0}\" 접두사로 시작해야 합니다",
+                "PatternNameCaption": "잘못된 값입니다. a-z, A-Z, 0-9 기호를 사용합니다. 기호: 0-9는 처음일 수 없습니다."
+            }
+        },
+        "CopyPostfixCaption": "복사",
+        "DesignElementSetting": {
+            "SettingsTitle": "설정",
+            "DuplicateTitle": "복사",
+            "DeleteTitle": "삭제"
+        },
+        "Messages": {
+            "SuccessfullySaved": "저장 완료"
+        },
+        "PropertiesPages": {
+            "EntityDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "일반"
+            },
+            "EntityDataSourcePropertiesPanel": {
+                "GeneralGroup": "일반",
+                "PrimaryDataSource": "기본 데이터 소스",
+                "PrimaryDataSourceChangeConfirm": "이 페이지의 기본 데이터 소스가 변경됩니다. 변경 사항을 저장하시겠습니까?",
+                "BusinessRulesGroup": "비즈니스 규칙",
+                "Relations": "Relations setup",
+                "FiltersAndSorting": "Filters and sorting",
+                "isIndependentDataSource": "Independent data source",
+                "isIndependentDataSourceTooltip": "If enabled, this data source will always load data based only on its static filter and sorting criteria, regardless of the main record",
+                "ApplyStaticFilter": "정적 필터 적용",
+                "EditStaticFilterAction": "필터 편집",
+                "SetupStaticFilterAction": "필터 설정",
+                "FiltersDialogCaption": "수동으로 정의된 필터",
+                "DoNotCreateEmptyRecordsLabel": "Do not create empty records",
+                "DoNotCreateEmptyRecordsTooltip": "If enabled, empty records will not be generated when the user has not changed any fields (including the default values set on object level) of this data source",
+                "KeepValuesOnCopy": "Keep values on copy",
+                "KeepValuesOnCopyTooltip": "If enabled, the record of this data source will be copied when copying the record of the main data source using this page",
+                "SchemaHasChanged": "Cannot set up a static filter if the new data source is not saved yet. Save the page and try again"
+            },
+            "FilePropertiesPage": {
+                "General": "일반",
+                "AllowedExtensions": "파일 확장자",
+                "AllowedExtensionsEmptyMessage": "설정하지 않으면 File extensions Allow List 시스템 설정의 모든 파일 형식이 허용됩니다",
+                "MaxSize": "최대 파일 크기, MB",
+                "MaxSizeEmptyMessage": "설정하지 않으면 Attachment max size 시스템 설정의 기본값이 적용됩니다",
+                "LabelPosition": "타이틀 포지션",
+                "LabelPositionVariants": {
+                    "Auto": "자동",
+                    "Left": "왼쪽에",
+                    "Right": "오른쪽에",
+                    "Above": "위에",
+                    "Hidden": "숨김"
+                },
+                "Placeholder": "플레이스홀더",
+                "DataSource": "Data source1",
+                "Editability": "편집 가능성",
+                "TitleOnPage": "페이지 제목",
+                "EditabilityControls": {
+                    "Readonly": "읽기 전용"
+                },
+                "AppearanceGroup": "외관"
+            },
+            "FileListPropertiesPage": {
+                "PageCaption": "첨부파일 목록 설정",
+                "GeneralGroup": "일반",
+                "FileGroupLabel": "File group",
+                "FileGroups": {
+                    "Attachments": "첨부 파일"
+                },
+                "AttributeToAttachFiles": "파일 첨부에 대한 기록",
+                "EmptyDataSourceHint": "페이지에 데이터 소스가 추가되지 않았습니다. 구성요소 설정을 위해 기존 데이터 소스를 추가하십시오",
+                "TagLabel": "파일 태그",
+                "TagPlaceholder": "기본적으로 모든 레코드 파일 표시",
+                "TagHint": "태그를 사용하여 레코드 파일 필터링(예: \"응용 문서\")",
+                "FileEntitySchemaLabel": "파일저장위치",
+                "AppearanceGroup": "외관",
+                "ViewTypeLabel": "보기",
+                "TileSizeFieldLabel": "갤러리품목크기",
+                "Sizes": {
+                    "Small": "적음",
+                    "Medium": "Medium",
+                    "Large": "Large",
+                    "ExtraLarge": "특대"
+                },
+                "ViewTypeOption": {
+                    "List": "목록",
+                    "Gallery": "갤러리"
+                }
+            },
+            "PropertiesPanelIconSettings": {
+                "UseIcon": "Use icon",
+                "IconPositionLabel": "자리",
+                "IconPosition": {
+                    "LeftIcon": "왼쪽 아이콘",
+                    "RightIcon": "오른쪽 아이콘",
+                    "OnlyIcon": "아이콘만",
+                    "OnlyText": "텍스트만"
+                },
+                "IconLabel": "아이콘"
+            },
+            "ViewElementEventPropertiesPanel": {
+                "EventFieldLabel": "액션",
+                "Requests": {
+                    "CancelRecordChangesRequest": "변경 취소",
+                    "ClosePageRequest": "닫기 페이지",
+                    "CreateRecordRequest": "신기록 열기",
+                    "ExportDataGridToExcelRequest": "Excel로 내보내기",
+                    "ImportDataRequest": "데이터 가져오기",
+                    "LoadDataRequest": "데이터 새로 고침",
+                    "OpenPageRequest": "특정 페이지 열기",
+                    "RunBusinessProcessRequest": "프로세스 실행",
+                    "SaveRecordRequest": "데이터 저장",
+                    "UpdateRecordRequest": "기존 레코드 열기",
+                    "UploadFileRequest": "파일 업로드",
+                    "SetRecordRightsRequest": "액세스 권한 설정",
+                    "ShowRelationshipsRequest": "레코드의 관계 표시",
+                    "OpenDuplicatesPageRequest": "중복 페이지 열기",
+                    "AddСommunicationOptionsRequest": "Add communication option",
+                    "DeleteRecordsRequest": "데이터 삭제",
+                    "ContinueInOtherPageRequest": "Continue in other page",
+                    "SelectLookupPageRequest": "데이터선택",
+                    "AddTagsInRecordsRequest": "태그 추가",
+                    "RemoveTagsInRecordsRequest": "태그 제거",
+                    "PrintablesRequest": "보고서 인쇄",
+                    "SetCalendarTimeScaleRequest": "달력 시간 척도 설정",
+                    "AddCalendarSyncAccountRequest": "일정관리 동기화 계정 추가",
+                    "AddRecordsInStaticFoldersRequest": "정적 폴더에 레코드 추가",
+                    "RemoveRecordsInStaticFoldersRequest": "정적 폴더에서 레코드 제거",
+                    "CreateEmailRequest": "Create an email",
+                    "SendInvitesForActivityRequest": "초대 보내기",
+                    "MoveSelectedItemsRequest": "선택한 레코드 이동",
+                    "CopilotActionRequest": "Creatio.ai action",
+                    "OpenChangeLogRequest": "Open change log",
+                    "SetupCalendarSyncAccountRequest": "Set up calendar synchronization account",
+                    "ToggleFollowFeedRequest": "Follow/Unfollow Feed",
+                    "DeleteRecordRequest": "레코드 삭제",
+                    "SetAttributeFromBarcodeRequest": "Open Barcode scanner",
+                    "SetAttributeFromNfcRequest": "Open NFC reader",
+                    "UpdateQuickFilterGroupRequest": "설정 필터"
+                },
+                "RunBusinessProcessRequest": {
+                    "WhichProcessRunQuestion": "어떤 프로세스를 실행할 것인가?",
+                    "AddNewBusinessProcessButton": "새 프로세스 추가",
+                    "SelectBusinessProcessButton": "프로세스 디자이너 열기",
+                    "HowProcessRunQuestion": "프로세스를 어떻게 실행합니까?",
+                    "HowProcessRunLabel": "레코드가 전달되는 프로세스 매개변수",
+                    "HowRunProcessOptions": {
+                        "ForTheSelectedPage": "선택한 페이지에 대해",
+                        "RegardlessOfThePage": "페이지에 관계 없음",
+                        "ForTheSelectedRecords": "목록에서 선택한 레코드의 경우"
+                    },
+                    "DataSourceFieldCaption": "프로세스를 실행할 목록은 무엇입니까?",
+                    "SaveAtProcessStart": "Save data before process start",
+                    "AnnounceProcessStart": "Show notification for process start",
+                    "NotificationTextFieldName": "Notification text",
+                    "DefaultNotificationText": "Process started"
+                },
+                "OpenPageRequest": {
+                    "Title": "어느 페이지를 열까요?",
+                    "OpenPageInDesignerTitle": "오픈 인터페이스 디자이너",
+                    "AddNewPage": "새 페이지 추가",
+                    "PageParameters": "페이지 매개 변수"
+                },
+                "CreateRecordRequest": {
+                    "WhichRecordToCreateLabel": "만들 레코드를 선택하십시오.",
+                    "DefaultAttributeValuesLabel": "설정할 열 값을 선택하십시오."
+                },
+                "UpdateRecordRequest": {
+                    "WhichObjectToOpenRecordOfLabel": "어떤 개체의 기록을 열까요?",
+                    "WhichRecordToOpenLabel": "어떤 레코드를 열까요?"
+                },
+                "LoadDataRequest": {
+                    "DataRefreshModeLabel": "Data refresh mode",
+                    "DataRefreshModeOptions": {
+                        "RefreshAll": "Refresh all",
+                        "RefreshSpecific": "Refresh specific data sources"
+                    },
+                    "DataSourcesSelection": {
+                        "DataSourceLabel": "데이터 소스",
+                        "RefreshAll": {
+                            "Title": "Which data sources to exclude?",
+                            "Tooltip": "In “Refresh all” mode, all page data sources will be refreshed — including those added after this action is configured. Use this list to exclude specific data sources from being refreshed."
+                        },
+                        "RefreshSpecific": {
+                            "Title": "Which data sources to refresh?",
+                            "Tooltip": "Select the data sources that should be refreshed when the button is clicked."
+                        }
+                    }
+                },
+                "ExecuteCustomCode": "사용자 정의 코드 실행",
+                "OpenDuplicatesPageRequest": {
+                    "WhichObjectToOpenDuplicatesOfLabel": "어떤 응용 프로그램 복제물을 열어야 합니까?"
+                },
+                "ShowRelationshipsRequest": {
+                    "SelectEntityLabel": "어떤 물건을 사용할 것입니까?",
+                    "SelectRecordIdLabel": "어떤 열로 연결합니까?"
+                },
+                "SetCalendarTimeScaleRequest": {
+                    "Calendar": "제어할 구성요소",
+                    "TimeScale": "시간의 척도",
+                    "FiveMinutes": "5분",
+                    "TenMinutes": "10 분",
+                    "FifteenMinutes": "15 minutes",
+                    "ThirtyMinutes": "30 minutes",
+                    "OneHour": "1시간"
+                },
+                "SendInvitesForActivityRequest": {
+                    "ActivityColumn": "활동열",
+                    "RequiredFieldError": "이 필드는 필수 항목입니다"
+                },
+                "MoveSelectedItemsRequest": {
+                    "SourceDataGridComboBoxLabel": "()에서 데이터 이동",
+                    "TargetDataGridComboBoxLabel": "()로 데이터 이동",
+                    "DefaultValuesLabel": "이동할 열 선택",
+                    "DefaultValuesHint": "초기 데이터 소스에서 대상 데이터 소스로 값을 이동할 열을 선택합니다."
+                },
+                "OpenChangeLogRequest": {
+                    "LogDisplaySettings": "Log display settings",
+                    "OpenLogForRecord": "Open the log for a selected record",
+                    "OpenLogForObject": "Open the log for an object",
+                    "WhichDataSourceOpenLog": "Which data source to open the log with?",
+                    "WhichObjectOpenLog": "Which object to open the log for?"
+                },
+                "SetFollowFeedRequest": {
+                    "Feed": "Feed component to control"
+                },
+                "SetAttributeFromBarcodeRequest": {
+                    "ColumnNameControl": {
+                        "Label": "Which column to set result to?",
+                        "RequiredFieldError": "이 필드는 필수 항목입니다"
+                    },
+                    "LookupFilterColumn": {
+                        "Label": "Search column name"
+                    }
+                }
+            },
+            "ExpansionPanelPropertiesPage": {
+                "PageCaption": "확장 패널 설정",
+                "GeneralCaption": "일반",
+                "TitleLabel": "제목",
+                "ToggleTypeLabel": "스타일",
+                "TogglePositionLabel": "버튼 위치",
+                "ColorLabel": "제목 색상",
+                "DefaultToggleTypeLabel": "기본",
+                "MaterialToggleTypeLabel": "아코디언",
+                "BeforeTogglePositionLabel": "왼쪽에",
+                "AfterTogglePositionLabel": "오른쪽에",
+                "FullWidthHeaderCaption": "전폭 헤더",
+                "TitleWidthCaption": "제목 너비",
+                "PaddingGroup": "간격",
+                "Padding": {
+                    "Top": "위에",
+                    "Bottom": "아래에",
+                    "Left": "왼쪽에",
+                    "Right": "오른쪽에"
+                }
+            },
+            "LabelPropertiesPage": {
+                "PageCaption": "레이블 설정",
+                "GeneralCaption": "일반",
+                "TitleLabel": "텍스트",
+                "TypeLabel": "스타일",
+                "TextAlignLabel": "정렬",
+                "ThicknessLabel": "구성 방식",
+                "FontSizeLabel": "크기, px",
+                "FontColorLabel": "텍스트 색상",
+                "BackgroundColorLabel": "배경 색",
+                "AlignLeftCaption": "왼쪽에",
+                "AlignCenterCaption": "중심",
+                "AlignRightCaption": "오른쪽에",
+                "AlignJustifyCaption": "정당화",
+                "TypeH1Caption": "H1",
+                "TypeH2Caption": "H2",
+                "TypeH3Caption": "H3",
+                "TypeH4Caption": "H4",
+                "TypeH5Caption": "H5",
+                "TypeBody1Caption": "본문 텍스트",
+                "TypeCaptionCaption": "캡션",
+                "TypeBlankslateCaption": "빈 슬레이트",
+                "ThicknessLightCaption": "가벼운",
+                "ThicknessNormalCaption": "정상",
+                "ThicknessSemiboldCaption": "세미볼드",
+                "ThicknessBoldCaption": "선명한",
+                "ThicknessDefaultCaption": "기본",
+                "TypeLarge1Caption": "큰 1",
+                "TypeLarge2Caption": "큰 2",
+                "TypeLarge3Caption": "큰 3",
+                "TypeLarge4Caption": "큰 4",
+                "TypeHeadline1Caption": "헤드라인을 1",
+                "TypeHeadline1SmallCaption": "헤드라인을 1 작은",
+                "TypeHeadline2Caption": "헤드라인을 2",
+                "TypeHeadline3Caption": "헤드라인을 3",
+                "TypeHeadline4Caption": "헤드라인을 4",
+                "TypeBodyLargeCaption": "바디 라지",
+                "TypeBodyCaption": "본문",
+                "TypeCaptionLargeCaption": "캡션 대",
+                "TypePlaceholderLargeCaption": "플레이스홀더 큰",
+                "TypePlaceholderCaption": "플레이스홀더",
+                "TypeButtonCaption": "버튼",
+                "TypeButtonSmallCaption": "버튼 소",
+                "AttributeBindingCaption": "요소에는 사전 구성된 데이터 표시 로직이 포함되어 있습니다. 대체 로직을 구현해야 하는 경우 요소 값을 제거하십시오.",
+                "ClearAttributeBinding": "값 지우기",
+                "HeadingLevelCaption": "Heading level",
+                "HeadingLevelInfo": "The heading level helps better organize content on the page and improves its accessibility"
+            },
+            "BaseCustomPropertiesPanel": {
+                "PageCaption": "사용자 정의 요소 설정",
+                "GeneralCaption": "일반",
+                "Description": "페이지 소스 코드에서 이 요소를 설정할 수 있습니다",
+                "OpenSourceCodeButtonCaption": "오픈 소스 코드"
+            },
+            "DataGridPropertiesPage": {
+                "PageCaption": "목록 설정",
+                "GeneralCaption": "일반",
+                "DataSourceCaption": "개체",
+                "ChangeFilters": "필터 변경",
+                "AttributeBindingUsage": "사용속성값",
+                "MassActions": "대량행동",
+                "ApplyStaticFilter": "정적 필터 적용",
+                "SetupStaticFilterAction": "필터 설정",
+                "EditStaticFilterAction": "필터 편집",
+                "Appearance": {
+                    "AppearanceGroup": "외관",
+                    "Editable": "인라인 편집",
+                    "ItemsCreation": "인라인 레코드 추가",
+                    "FloatingEditPanel": "Floating edit panel",
+                    "FloatingEditPanelHint": "Enables users to use the floating edit panel to save or cancel changes in the editable list. When cleared, users can still use Save and Cancel page buttons for that purpose",
+                    "RowsNumeration": "행번호",
+                    "RowsMultiSelection": "다중 선택",
+                    "RowsLimit": "Limit number of rows",
+                    "RowsLimitPlaceholder": "Enter maximum number of rows",
+                    "RowsLimitTooltip": "Set a maximum number of records to display in the list. This is useful when you want to show a specific number of items — for example, \"Top 5 customers\".</br>When a limit is set, the “Select all” option is not available.",
+                    "Header": "List header",
+                    "ColumnsSorting": "정렬",
+                    "ColumnsResizing": "Resizable columns",
+                    "ColumnsDragAndDrop": "Draggable columns"
+                },
+                "RowsNumeration": "행번호",
+                "StyleLabel": "스타일",
+                "Styles": {
+                    "PlainWhite": "보통흰색",
+                    "Glassmorphism": "Glass effect"
+                }
+            },
+            "TabItemPropertiesPage": {
+                "GeneralGroup": "일반",
+                "CaptionLabel": "제목",
+                "AppearanceGroup": "모습",
+                "IconPosition": {
+                    "LeftIcon": "왼쪽 아이콘",
+                    "OnlyIcon": "아이콘만",
+                    "OnlyText": "텍스트만"
+                },
+                "PaddingGroup": "간격",
+                "Padding": {
+                    "Top": "위에",
+                    "Bottom": "아래에",
+                    "Left": "왼쪽에",
+                    "Right": "오른쪽에"
+                }
+            },
+            "ActionDashboardPropertiesPage": {
+                "PageCaption": "작업 대시보드 설정",
+                "GeneralCaption": "일반",
+                "DataSource": "Data source1",
+                "GoToCasesButtonCaption": "케이스 설정",
+                "EmptyDataSourceHint": "페이지에 데이터 소스가 추가되지 않았습니다. 구성요소 설정을 위해 기존 데이터 소스를 추가하십시오",
+                "ChannelsCaption": "채널",
+                "CallAction": "전화",
+                "EmailAction": "이메일",
+                "FeedAction": "피드 메시지",
+                "ActivityAction": "작업",
+                "CasesDisabledTitle": "데이터 소스에 대한 케이스를 설정할 수 없습니다"
+            },
+            "DefaultAttributeValues": {
+                "AddAttribute": "필드 추가"
+            },
+            "MenuItemPropertiesPanel": {
+                "GeneralGroup": "일반",
+                "CaptionLabel": "제목",
+                "ActionLabel": "액션",
+                "AppearanceGroup": "모습"
+            },
+            "GalleryPropertiesPanel": {
+                "PageCaption": "갤러리 설정",
+                "GeneralCaption": "일반",
+                "AdditionalCaption": "추가의",
+                "DataSourceCaption": "개체",
+                "CaptionColumnField": "캡션",
+                "DescriptionColumnField": "묘사",
+                "ImageColumnField": "이미지",
+                "SelectableConfigField": "선택가능",
+                "AppearanceGroup": "외관",
+                "MultiselectConfigField": "다중 선택",
+                "UseSpecificPageField": "Open specific page by clicking on the caption",
+                "SpecificPageLookupField": "어느 페이지를 열까요?",
+                "DefaultSizeFieldLabel": "갤러리품목크기",
+                "Sizes": {
+                    "Small": "작은",
+                    "Medium": "중간",
+                    "Large": "큰",
+                    "ExtraLarge": "특대"
+                },
+                "MassActions": "대량행동"
+            },
+            "ImportDataRequestPropertiesPanel": {
+                "EntitySchemaSelectCaption": "가져올 데이터는 무엇입니까?"
+            },
+            "ExportDataGridToExcelRequestPropertiesPanel": {
+                "ViewSelectCaption": "내보낼 데이터는 무엇입니까?"
+            },
+            "UploadFileRequestPropertiesPanel": {
+                "ViewSelectCaption": "파일을 어디로 업로드합니까?",
+                "AllowedExtensions": "업로드할 수 있는 파일 확장자는 무엇입니까?",
+                "AllowedExtensionsEmptyMessage": "설정하지 않으면 \"File extensions Allow List\" 시스템 설정의 모든 파일 형식이 허용됩니다",
+                "MaxSize": "최대 허용 파일 크기(MB)는 얼마입니까?",
+                "MaxSizeEmptyMessage": "설정하지 않으면 \"Attachment max size\" 시스템 설정의 기본값이 적용됩니다",
+                "FileTypesPlaceholder": "예를 들어 .pdf, .png",
+                "MaxSizePlaceholder": "기본적으로 {0}MB",
+                "UploadFileSourceCaption": "Upload a file from source",
+                "Camera": "Camera",
+                "Gallery": "갤러리",
+                "Files": "파일"
+            },
+            "PropertiesPanelVisibilitySettings": {
+                "VisibilityGroup": "가시성",
+                "Visible": "Visible",
+                "NotVisible": "보이지 않음",
+                "SetupConditions": "Set up conditions",
+                "DefaultValueNotSupported": "이 요소는 가시성에 대한 기본값을 지원하지 않습니다"
+            },
+            "ApprovalPropertiesPage": {
+                "HeaderLabel": "승인 설정",
+                "SchemaNameLabel": "어떤 기록을 승인해야 합니까?",
+                "GeneralGroup": "일반",
+                "AppearanceGroup": "외관",
+                "HiddenWhenNoData": "데이터가 없을 때 숨김"
+            },
+            "ImageInputPropertiesPage": {
+                "SizeFieldLabel": "크기",
+                "Sizes": {
+                    "None": "없음",
+                    "Small": "적음",
+                    "Medium": "Medium",
+                    "Large": "Large",
+                    "ExtraLarge": "특대"
+                },
+                "BorderRadiusLabel": "경계반경",
+                "PositioningLabel": "이미지 위치",
+                "Positioning": {
+                    "Cover": "채우기",
+                    "ScaleDown": "핏"
+                },
+                "MaxSize": "최대 파일 크기, MB",
+                "MaxSizeEmptyMessage": "설정하지 않으면 \"Image max size\" 시스템 설정의 기본값이 적용됩니다",
+                "MaxSizePlaceholder": "기본적으로 {0}MB",
+                "TooltipLabel": "툴팁",
+                "AppearanceGroup": "외관",
+                "Editability": "편집 가능성",
+                "EditabilityControls": {
+                    "Readonly": "읽기 전용"
+                },
+                "TooltipHint": "The tooltip supports both plain text and HTML content. Please ensure that your HTML content is concise and adaptive to the tooltip's size."
+            },
+            "TimerPropertiesPage": {
+                "PageCaption": "타이머 설정",
+                "TimerType": "모드",
+                "TargetDateTimeColumn": "대상 날짜/시간 열",
+                "StartDateTimeColumn": "시작일자시간열",
+                "FromDateTimerType": "카운트업 타이머",
+                "CountdownToSpecificDateTimerType": "특정 날짜로 카운트다운",
+                "ShowNegativeCountDownValue": "음수 카운트다운 값 표시",
+                "TextColorForNegativeValues": "음수 값의 텍스트 색상",
+                "TextForPositiveValues": "양의 값에 대한 텍스트",
+                "TextForNegativeValues": "음수 값의 텍스트",
+                "ValueTextTooltip": "[#timer#] 매크로 및 문자열을 사용하여 상세 타이머 레이블을 작성하십시오. 예를 들어, 양수 값 - [#timer#] 작업을 완료하려면 왼쪽, 음수 값 - [#timer#] 연체되었습니다."
+            },
+            "ApprovalListPropertiesPage": {
+                "HeaderLabel": "승인 목록 설정",
+                "GeneralGroup": "일반",
+                "SchemaNameLabel": "개체"
+            },
+            "SearchFilterPropertiesPanel": {
+                "PageCaption": "검색 설정",
+                "GeneralCaption": "일반",
+                "ChooseTargetsCaption": "필터링할 구성요소 선택",
+                "ChooseTargetsTooltip": "검색을 수행할 목록을 선택합니다. 드롭다운 메뉴는 현재 페이지에 있고 개체가 지정된 목록을 표시합니다",
+                "Placeholder": "플레이스홀더",
+                "DirectConnection": "Search(검색) 구성 요소를 사용하면 목록 개체에 직접 연결된 텍스트, 숫자 및 조회 열로만 검색할 수 있습니다.",
+                "AppearanceGroup": "외관",
+                "IconOnlyCaption": "아이콘만"
+            },
+            "LocalTimePropertiesPage": {
+                "PageCaption": "현지시간 설정",
+                "TimeZoneColumn": "시간대열"
+            },
+            "DataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "일반",
+                "RequirementType": {
+                    "NoCaption": "아니요",
+                    "YesCaption": "예"
+                },
+                "Validators": {
+                    "UniqueName": "\"{0}\" 이름이 이미 있습니다",
+                    "InvalidCharacter": "잘못된 값입니다. a-z, A-Z, 0-9 기호를 사용합니다. 기호: 0-9는 처음일 수 없습니다",
+                    "InvalidPrefix": "값은 \"{0}\" 접두사로 시작해야 합니다"
+                }
+            },
+            "PageParametersDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "일반",
+                "TitleCaption": "제목",
+                "NameCaption": "코드"
+            },
+            "EntityStagePropertiesPanel": {
+                "HeaderLabel": "진행 표시줄",
+                "GeneralGroup": "일반",
+                "SchemaNameLabel": "Data source1",
+                "CasesCaption": "케이스 설정",
+                "EmptyDataSourceHint": "페이지에 데이터 소스가 추가되지 않았습니다. 구성요소 설정을 위해 기존 데이터 소스를 추가하십시오",
+                "SaveOnChange": "단계 변경 시 레코드 저장",
+                "AskUserToChangeSchema": "사례 업데이트를 위한 스낵바 알림 표시",
+                "SaveEntityConfirmationDialog": {
+                    "Save": "Save entity",
+                    "Message": "{0} entity was modified, and saving the entity is required to continue."
+                }
+            },
+            "AddCommunicationOptionsRequestPropertiesPanel": {
+                "ViewSelectCaption": "통신 옵션은 어디에 추가해야 합니까?"
+            },
+            "AllowedResultsPropertiesPage": {
+                "PageCaption": "허용결과"
+            },
+            "AppearanceSettingsPropertyPanel": {
+                "ButtonSizeFieldLabel": "모달창크기"
+            },
+            "DeleteRecordsRequestPropertiesPanel": {
+                "SelectDataToDelete": "삭제할 데이터는 무엇입니까?"
+            },
+            "TagSelectPropertiesPanelComponent": {
+                "PageCaption": "태그 설정",
+                "GeneralCaption": "일반",
+                "AppearanceCaption": "외관",
+                "CaptionLabel": "제목",
+                "CaptionPlaceholder": "태그",
+                "RecordLabel": "태그 항목에 기록",
+                "TagInRecordSourceSchemaName": "태그보관위치",
+                "LabelPosition": "타이틀포지션",
+                "LabelPositionVariants": {
+                    "Auto": "자동",
+                    "Left": "왼쪽에",
+                    "Above": "위에",
+                    "Hidden": "Hidden"
+                }
+            },
+            "SchemaOutletPropertiesPage": {
+                "PageCaption": "스키마 컨테이너 설정"
+            },
+            "ActivityColumnsMapingComponent": {
+                "EmailLinksCaption": "이메일 링크",
+                "ActivityColumn": "활동열",
+                "PageColumn": "데이터속성",
+                "EmailLinksBlankSlate": "이메일은 PDS에만 연결됩니다. 더하기 버튼을 사용하여 다른 개체와의 연결을 설정하십시오."
+            },
+            "SelectLookupPageRequestPropertiesPanel": {
+                "ViewSelectCaption": "어떤 데이터를 선택해야 합니까?",
+                "InfoMessage": "선택한 레코드는 사용자 정의 코드로 처리됩니다."
+            },
+            "SetRecordRightsRequestPropertiesPanel": {
+                "OpenInModalWindowCaption": "모달 창에서 열기"
+            },
+            "BaseTagsInRecordsRequestPropertiesPanel": {
+                "TagInRecordSourceSchemaName": "태그보관위치"
+            },
+            "AddTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToAddTagsCaption": "태그를 추가할 데이터는 무엇입니까?"
+            },
+            "RemoveTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToRemoveTagsCaption": "태그를 제거할 데이터는 무엇입니까?"
+            },
+            "AddRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToAddInStaticFoldersCaption": "정적 폴더에 추가할 레코드는 무엇입니까?"
+            },
+            "RemoveRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToRemoveInStaticFoldersCaption": "정적 폴더에서 제거할 레코드는 무엇입니까?"
+            },
+            "EntityHierarchyFilterPropertiesPanel": {
+                "HeaderLabel": "엔티티 계층 필터",
+                "GeneralCaption": "일반",
+                "SchemaNameCaption": "계층을 구축할 개체 선택",
+                "HierarchySetup": "계층 설정",
+                "SchemaNameSelectTooltip": "계층을 구축할 객체를 선택합니다. 드롭다운 메뉴에 모든 시스템 객체가 표시됩니다. 계층을 구성한 후 목록 구성요소에 미리 구성된 필터로 지정하여 연결합니다.",
+                "ApplyStaticFilter": "정적 필터 적용",
+                "EditStaticFilterAction": "필터 편집",
+                "FiltersDialogCaption": "수동으로 정의된 필터",
+                "SetupStaticFilterAction": "필터 설정"
+            },
+            "EntityHierarchySetupContainerPropertiesPanel": {
+                "AddNewItem": "새 계층 열 추가",
+                "ContextMenu": {
+                    "AddToSubmenu": "하위 계층 추가",
+                    "Edit": "편집",
+                    "Delete": "삭제"
+                }
+            },
+            "PlaybookPropertiesPage": {
+                "PageCaption": "플레이북 설정",
+                "GeneralGroup": {
+                    "Caption": "일반",
+                    "EmptyDataSourceHint": "페이지에 데이터 소스가 추가되지 않았습니다. 구성요소 설정을 위해 기존 데이터 소스를 추가하십시오",
+                    "Tooltip": "구성 요소는 사용자가 특정 동적 사례 단계에 대한 지식 기반의 정보에 액세스할 수 있는 힌트와 지침을 표시합니다. 플레이북 섹션에서 관련 기사를 설정할 수 있습니다. 자세히 보기 ",
+                    "AcademyLink": "<a href=\"https://academy.creatio.com/docs/8.x/\" target=\"_blank\">academy</a>.",
+                    "OpenPlaybookButton": "플레이북 열기"
+                },
+                "SelectDataSource": "데이터 소스"
+            },
+            "CopilotActionRequestPropertiesPanelComponent": {
+                "PromptLabel": "Creatio.ai prompt",
+                "PromptTooltip": "Enter the Creatio.ai prompt that will be executed when the button is clicked. The response will be sent in the Creatio.ai sidebar."
+            },
+            "LookupAttributePropertiesPanel": {
+                "RefSchemaNoDisplayValueValidationMessage": "Objects with no display value cannot be used as a lookup. Please set the object display value in configuration."
+            },
+            "SaveRecordRequestPropertiesPanel": {
+                "PreventCardCloseInNewRecord": "Stay on page after record is created",
+                "ReloadSavedRecord": "Reload saved record",
+                "ReloadSavedRecordHint": "After saving, reloads the record from the server so any server-side changes (e.g., legacy autonumbering) appear instantly. Not needed for the new Autonumber field."
+            },
+            "ActionNotificationPropertiesPanel": {
+                "MessageText": "Message text",
+                "ShowSuccessMessage": "Show success message after completion"
+            },
+            "DataGridHierarchicalPropertiesPage": {
+                "PageCaption": "Hierarchical list settings",
+                "ParentColumnLabel": "Parent defining column",
+                "MaxRecordsLabel": "Maximum number of records",
+                "MaxRecordsTooltip": "Specifies the maximum number of records to load into the hierarchical list. If available records exceed this limit, only the specified number of records is loaded. If not specified, the value is taken from the \"Maximum number of records in hierarchical list\" (HierarchicalListMaxRecordsCount code) system setting, or 5,000 records by default when that setting is not configured.",
+                "InfoHint": "This component is designed for small data sets. Limit maximum number of records using the \"Maximum number of records\" field and narrow the data scope using the \"Apply filter by page data\" block."
+            }
+        },
+        "SaveMessage": "모든 변경 내용이 저장됩니다. 계속?",
+        "MainHeader": {
+            "Title": "제목",
+            "CommandLinePlaceholder": "뭘 도와 드릴까요?"
+        },
+        "SaveConfirmationDialog": {
+            "Message": "이 페이지에는 저장되지 않은 변경사항이 있습니다. 페이지를 닫으면 변경사항이 사라집니다. 변경사항을 저장하시겠습니까?",
+            "Save": "완료",
+            "DoNotSave": "저장하지 않음",
+            "Cancel": "취소"
+        },
+        "SetupEntityDialog": {
+            "Title": "새오브젝트"
+        },
+        "Caption": "디자이너",
+        "ModelDependencyCycleDetectedError": "{0} 모델 간에 원형 종속성이 감지됨",
+        "Commands": {
+            "RemoveDataSourceItem": {
+                "SuccessfullyRemoved": "매개 변수 \"{{parameterCaption}}\"이(가) 삭제되었습니다"
+            }
+        },
+        "Components": {
+            "DataSourceAttributeCommonPropertiesComponent": {
+                "TitleCaption": "제목",
+                "NameCaption": "코드",
+                "FormatCaption": "구성 방식",
+                "ReferenceSchemaCaption": "Lookup",
+                "RequiredCaption": "필수",
+                "Validations": {
+                    "RequiredNameMessage": "값을 입력합니다"
+                }
+            },
+            "CollectionSortingComponent": {
+                "SortAscendingTitle": "Sort ascending",
+                "SortDescendingTitle": "Sort descending",
+                "SortingColumnLabel": "Sort by column"
+            },
+            "StaticFilterSelectComponent": {
+                "ApplyStaticFilter": "정적 필터 적용",
+                "EditStaticFilterAction": "필터 편집",
+                "FiltersDialogCaption": "수동으로 정의된 필터",
+                "SetupStaticFilterAction": "필터 설정"
+            }
+        },
+        "NotFoundDataSourceObject": {
+            "GroupObjectCaption": "데이터 소스 오류",
+            "ErrorMessage": "'{1}' 데이터 소스에서 참조된 '{0}' 개체의 이름이 변경되었거나 제거되었습니다. 페이지 디자이너와 작업을 계속하기 전에 개체 코드를 '{0}'(으)로 변경하거나 페이지 소스 코드(메타데이터)를 업데이트하십시오.",
+            "BusinessRulesOpenDialogMessage": "'{1}' 데이터 소스에서 참조된 '{0}' 개체의 이름이 변경되었거나 제거되었습니다. 비즈니스 규칙 디자이너를 사용하려면 개체 코드를 '{0}'(으)로 변경하거나 페이지 소스 코드(메타데이터)를 업데이트하십시오"
+        },
+        "UnableCopySchemaError": "Unable to copy schema. It is either created by third-party publisher or installed from the file archive",
+        "Operation": {
+            "Copy": "복사"
+        },
+        "ModelDependencyNotFoundError": "The relation criteria for the {{names}} data source are not set",
+        "ModelDependencyNotFoundErrorMultiple": "The relation criteria for the {{names}} data sources are not set",
+        "MissingDependenciesDialog": {
+            "Title": "Missing dependencies detected",
+            "Intro": "This page includes elements from packages that are not listed as dependencies of the current package.",
+            "Reason": "Such configurations are no longer supported to prevent circular dependencies and ensure a maintainable application structure.",
+            "InstructionTemplate": {
+                "Prefix": "Please",
+                "ActionLink": "add dependencies",
+                "PackageContext": "in the '{{ missedPackageName }}' package",
+                "Suffix": "to the following packages before editing this page"
+            }
+        },
+        "MissingDependenciesNotification": {
+            "Description": "Cannot save the page. Please add the required dependencies before making further changes to page.",
+            "Action": {
+                "Caption": "세부 정보 보기"
+            }
+        },
+        "SaveOutdatedConfirmation": {
+            "Header": "Newer version available",
+            "Message": "{0} saved changes to this page {1} ago. Saving now will replace their version with yours.",
+            "CancelButton": "취소",
+            "SaveButton": "완료"
+        },
+        "SaveOverwriteConfirmation": {
+            "Header": "Replace a newer version?",
+            "Message": "You're about to replace {0}'s recent changes with your version.",
+            "CancelButton": "취소",
+            "ConfirmButton": "Overwrite anyway"
+        }
+    },
+    "ApplicationManagement": {
+        "CreateApplicationComponent": {
+            "WaitTitle": "응용프로그램에 기본 콘텐츠 추가",
+            "WaitTitleGenAI": "응용 프로그램 생성"
+        },
+        "ApplicationInfoDialogComponent": {
+            "HeaderCaption": "새 응용",
+            "HeaderEditCaption": "응용 프로그램 편집",
+            "InputNameCaption": "응용 프로그램 이름",
+            "ApplicationCodeCaption": "Application code",
+            "InputDescriptionCaption": "용도를 설명하십시오 (선택 사항)",
+            "InputDescriptionPlaceholder": "응용 프로그램에 대해 몇 가지 단어를 작성합니다",
+            "CancelButtonCaption": "취소",
+            "CreateButtonCaption": "창조",
+            "SaveButtonCaption": "완료",
+            "DisclaimerCaption": "\"AI로 생성\" 버튼을 클릭하면 요청이 OpenAI 모델에서 처리된다는 데 동의하게 됩니다. <a class=\"document-link\" href=\"https://openai.com/policies\" target=\"_blank\">여기에서</a> 용어 및 정책 보기. Creatio는 대리인 역할을 하고 있으며 OpenAI에 의해 발생하는 모든 결과에 대해 책임을 질 수 없습니다.",
+            "HeaderCarouselCaption": "아이콘 및 색상 선택",
+            "InputAIDescriptionCaption": "무엇을 위한 것인지 설명해",
+            "InputAIDescriptionPlaceholder": "응용 프로그램에 대해 몇 단어를 작성하면 자동으로 생성됩니다.",
+            "GenerateWithAIButtonCaption": "AI로 생성",
+            "UseExistingObjectTooltip": "새 개체를 만드는 대신 섹션을 기존 개체에 연결하려면 선택합니다",
+            "AdvancedModeButtonCaption": "고급 매개 변수",
+            "NamePlaceholder": "응용 프로그램 이름 지정",
+            "CodePlaceholder": "고유한 응용프로그램 ID 만들기",
+            "CodeTooltip": "응용 프로그램 코드는 응용 프로그램이 다른 환경에 설치될 때 고유 식별자로 사용됩니다. 또한 템플릿에 스킴이 있는 경우 섹션 요소 코드를 생성하는 데 코드를 사용할 수 있습니다",
+            "HeaderViewCaption": "응용 프로그램 정보",
+            "CloseButtonCaption": "종결",
+            "VersionInputCaption": "버전",
+            "VersionInputPlaceholder": "0.0.0",
+            "AppStartPageCaption": "앱 기본 페이지",
+            "AppStartPageTooltip": "앱 실행 버튼을 클릭하여 여는 앱 페이지. 앱의 홈페이지 또는 섹션 목록 페이지가 될 수 있습니다.",
+            "AppStartPageAutoItem": "자동",
+            "CreateMobilePagesTooltip": "Clear this option to create a web-only app"
+        },
+        "ApplicationValidatorService": {
+            "InvalidCharactersForName": "이름에는 \"-_\" 문자만 사용할 수 있습니다.",
+            "InvalidCharactersForCode": "Only Latin letters and numbers are allowed in the code, and the symbol 0-9 cannot be the first character",
+            "ApplicationNameAlreadyExists": "Application with name \"{0}\" already exists",
+            "ApplicationCodeAlreadyExists": "이 응용 프로그램 코드 또는 패키지 이름이 이미 사용 중입니다",
+            "InvalidApplicationCodePrefix": "코드는 \"{0}\" 접두사로 시작해야 합니다",
+            "FirstSymbolIsNotLetterAndNotDigit": "이름은 문자 또는 숫자로 시작해야 합니다.",
+            "EntityNameAlreadyExists": "이 코드를 가진 개체가 이미 있습니다",
+            "InvalidVersion": "버전 번호를 X.Y 또는 X.Y.Z 형식으로 입력합니다. 예를 들어, 1.0, 1.2, 1.0.0, 1.2.0, 1.2.0 등입니다.",
+            "InvalidRequiredPlatformVersion": "Enter a valid Creatio version in the X.Y.Z format or version range X.Y.Z - X.Y.Z. For example, 8.3.0 or 8.3.0 - 8.4.3.",
+            "InvalidRequiredPlatformVersionRange": "The maximum version must be greater than the minimum version.",
+            "InvalidAppDependencyVersion": "Please use one of the following formats:\n- Minimal required version: X.Y or X.Y.Z\n- Version range: X.Y - X.Y or X.Y.Z - X.Y.Z",
+            "InvalidAppDependencyVersionRange": "The maximum version must be greater than the minimum version."
+        },
+        "ApplicationManagementDialogComponent": {
+            "DialogHeaderCaption": "App properties",
+            "PropertiesTabCaption": "일반",
+            "DependenciesTabCaption": "의존",
+            "Properties": {
+                "IconCaption": "아이콘",
+                "ColorCaption": "색",
+                "InputNameCaption": "응용 프로그램 이름",
+                "NamePlaceholder": "응용 프로그램 이름 지정",
+                "DefaultAppPageCaption": "Default app page",
+                "AppStartPageTooltip": "앱 실행 버튼을 클릭하여 여는 앱 페이지. 앱의 홈페이지 또는 섹션 목록 페이지가 될 수 있습니다.",
+                "ApplicationCodeCaption": "Application code",
+                "Developer": "개발자",
+                "InputDescriptionCaption": "Describe what it’s for (optional)",
+                "InputDescriptionPlaceholder": "응용 프로그램에 대해 몇 가지 단어를 작성합니다",
+                "CreatedOn": "()에서 만든",
+                "LastUpdate": "마지막 업데이트",
+                "Created": "생성됨"
+            },
+            "Dependencies": {
+                "AddDependencyCaption": "Add dependency",
+                "ApplicationNameCaption": "이름",
+                "DeleteCaption": "삭제",
+                "RequiredPlatformVersionCaption": "Required Creatio version",
+                "RequiredPlatformVersionTooltip": "If you specify only one required version, the application can be installed on that version and later versions of Creatio. You can also specify a compatible version range using a hyphen, for example: \"8.3.0 - 8.4.3\".",
+                "RequiredPlatformVersionSubCaption": "Minimum required Creatio version or compatible version range for the \"{0}\" application. The current Creatio version is {1}.",
+                "RequiredDependenciesCaption": "Required dependencies",
+                "RequiredDependenciesSubCaption": "Configure dependencies to extend the application using elements from other applications or packages. The application cannot be installed in environments where required dependencies are missing, their versions are lower than the minimum required, or do not fall within the supported version range. The \"{0}\" application depends on the following applications or packages:",
+                "AddCaption": "추가",
+                "TypeCaption": "유형",
+                "DeveloperCaption": "개발자",
+                "VersionCaption": "Required version",
+                "ApplicationVersionTooltip": "If you specify a single version, the application \"{0}\" can be installed only if the environment has the dependent application installed with that version or a newer one.\nYou can also specify a version range using a hyphen, for example: 1.0 - 2.0 or 1.0.0 - 2.0.0.",
+                "PackageVersionTooltip": "Version can be specified only for dependencies with type \"Application\""
+            },
+            "CancelButtonCaption": "취소",
+            "SaveButtonCaption": "완료",
+            "CloseButtonCaption": "닫기",
+            "DependenciesValidationError": "Error while saving application dependencies",
+            "VersionTabCaption": "버전",
+            "Version": {
+                "VersionInputCaption": "Application Version",
+                "VersionInputPlaceholder": "0.0.0",
+                "VersionInputTooltip": "A version number follows the format <b>Major.Minor.Patch</b>, where each component has the following meaning:<ul><li><b>Major</b> – breaking changes</li><li><b>Minor</b> – new features that are backward compatible</li><li><b>Patch</b> – backward-compatible bug fixes only</li></ul>For example: 2.1.4. <a href='https://academy.creatio.com/documents?id=2584' target='_blank' rel='noopener noreferrer'>Learn more in the Academy</a>.",
+                "VersionInputHint1": "We recommend releasing any changes to the application using a new version number. Based on your current version {0}, consider using one of the following versioning options, depending on the significance of the changes: ",
+                "VersionInputHint2": " or ",
+                "VersionInputHint3": ", depending on the significance of the changes.",
+                "VersionMajorPart": "Major {0}",
+                "VersionMinorPart": "Minor {0}",
+                "VersionPatchPart": "Patch {0}"
+            }
+        }
+    },
+    "Validators": {
+        "Autocomplete": {
+            "Message": "목록에서 값을 선택하십시오."
+        },
+        "Required": {
+            "Message": "값을 입력합니다"
+        },
+        "MaxLength": {
+            "Message": "최대 텍스트 길이 초과({actualLength}/{maxLength})"
+        },
+        "MinLength": {
+            "Message": "최소 텍스트 길이({{actualLength}/{{minLength}})에 도달하지 못했습니다."
+        },
+        "Min": {
+            "Message": "최소숫자값은{min}입니다."
+        },
+        "Max": {
+            "Message": "최대 수 값은 {{max}}입니다."
+        },
+        "GridColumnsCount": {
+            "Message": "요소가 포함된 열은 삭제할 수 없습니다. 열 번호를 줄이려면 요소를 삭제하거나 다른 열로 이동하십시오."
+        },
+        "Email": {
+            "Message": "잘못된 이메일 방식"
+        },
+        "ColorPicker": {
+            "Message": "작업 오류입니다. 잘못된 HEX 형식이 선택되었습니다"
+        },
+        "Link": {
+            "Message": "잘못된 URL 형식"
+        }
+    },
+    "UserProfile": {
+        "Profile": "사용자 프로필",
+        "Photo": "사진",
+        "FirstLastName": "풀네임",
+        "Organization": "조직",
+        "Language": "언어",
+        "TimeZone": "시간대",
+        "DateTimeFormat": "날짜 및 시간 형식",
+        "Role": "역할",
+        "Active": "활동적",
+        "Status": "상태",
+        "Invited": "초대됨",
+        "Email": "이메일",
+        "ChangeEmail": "이메일 변경",
+        "ChangeEmailButton": "변경 및 로그아웃",
+        "EmailChanged": "이메일이 성공적으로 변경되었습니다.",
+        "ResendConfirmEmailSuccess": "확인 이메일이 전송되었습니다.",
+        "ResendConfirmEmailError": "확인 메일 보내 없었어",
+        "NotConfirmedEmail": "등록을 확인하려면 이메일을 확인하십시오.",
+        "Password": "비밀번호",
+        "ChangePassword": "암호 변경",
+        "ChangePasswordError": "암호를 변경하는 동안 오류가 발생했습니다.",
+        "ResetPasswordValidationError": "이 이메일로 가사용자들이 있습니다.",
+        "ConnectedAccounts": "연결된 계정",
+        "DisconnectAccountError": "선택한 계정의 연결을 끊을 수 없습니다",
+        "DeleteProfile": "프로필 삭제",
+        "ChangesSaved": "변경 내용이 저장되었습니다.",
+        "SavingError": "데이터를 저장하는 동안 오류가 발생했습니다.",
+        "ApplyChanges": "완료",
+        "ReloginError": "변경 사항이 적용되지 않았습니다. 변경 사항을 적용하려면 다시 로그인하십시오",
+        "NewEmail": "새  이메일",
+        "CurrentPassword": "현재 암호",
+        "WrongPassword": "잘못된 암호",
+        "ExistsEmailError": "이 이메일은 이미 사용되고 있습니다",
+        "ChangeEmailError": "내부 오류입니다. 이메일은 변경되지 않았습니다. 나중에 다시 시도하십시오.",
+        "EmailNotConfirmed": "이메일 확인 안 됨",
+        "ResendConfirm": "재전송 확인하기",
+        "ConnectedAccountsSectionCaption": "연결된 타사 계정",
+        "Back": "뒤로",
+        "Logins": {
+            "AddNewLogin": "추가",
+            "DisconnectAccount": "연결 해제",
+            "LoginAlreadyAssociated": "계정이 다른 사용자에게 연결되어 있습니다.",
+            "DefaultConnectionErrorMessage": "소셜 네트워크를 연결할 수 없습니다."
+        },
+        "FirstName": "이름",
+        "LastName": "성",
+        "OrganizationWebsite": "웹사이트",
+        "PasswordResetIsNotAllowed": "Password reset for this account was requested lately. Please wait few minutes to try again."
+    },
+    "OrganizationUserSection": {
+        "GridColumns": {
+            "id": "ID",
+            "fullName": "성과 이름",
+            "email": "이메일",
+            "status": "상태",
+            "role": "역할",
+            "lastActivity": "마지막 활동"
+        },
+        "GridActions": {
+            "Activate": "활성화",
+            "Deactivate": "비활성화",
+            "Edit": "편집",
+            "Resend": "초대 다시 보내기",
+            "Cancel": "초대 취소하기"
+        },
+        "UserStatus": {
+            "Active": "활동적",
+            "Inactive": "비활성화됨",
+            "Invited": "초대장이 발송되었습니다."
+        },
+        "AddUser": "+ 사용자 추가",
+        "ChangeStatusMessage": {
+            "activate": "사용자가 활성화되었습니다.",
+            "deactivate": "사용자가 비활성화되었습니다."
+        },
+        "InvitationSent": "초대장이 발송되었습니다.",
+        "InviteUsersPage": {
+            "NewUser": "새 사용자",
+            "Back": "뒤로",
+            "Role": "역할",
+            "Email": "업무용 이메일",
+            "Collaborators": "초대받은 사용자",
+            "SendInvite": "초대해",
+            "InviteSuccess": "초대장이 발송되었습니다.",
+            "EmailExists": "{0} 사용자가 이미 조직에 초대되었습니다",
+            "GoToProfile": "프로필로 이동"
+        }
+    },
+    "UserProfileActionComponent": {
+        "YourProfileActionCaption": "프로필",
+        "LogoutActionCaption": "로그아웃"
+    },
+    "EnvironmentManagement": {
+        "WaitTrialPage": {
+            "DemoDataToggleCaption": "데모 데이터로 시스템 채우기",
+            "Description": "이 계정은 로그인에 사용됩니다.",
+            "Continue": "계속",
+            "ConfirmRegistration": {
+                "RegistrationSuccessful": "등록이 완료되었습니다!",
+                "CreateFirstApp": "지금 바로 첫 번째 앱을 만들고 싶으신가요?",
+                "GuideMeButtonCaption": "예, 새 앱 만들기",
+                "ManageButtonCaption": "아니요, 나중에 하겠습니다"
+            },
+            "WaitPage": {
+                "StudioEnterpriseMessage": "잠시 후에<br /> <strong>첫 번째 앱을</strong> 만들 수 있습니다!",
+                "CRMMessage": "잠시 후 하나의 노코드 플랫폼에 통합된 본격적인 <strong>마케팅, 판매 및 서비스</strong> 제품을 사용해 볼 수 있습니다!",
+                "CreatioIsHotMessage": "Creatio<br />핫!",
+                "TrialTimeoutMessage": "작업 중입니다! 하지만 수요가 많아<br /> 재판 배송이 지연될 수 있습니다.",
+                "SendTrialEmail": "시간 내주셔서 감사드리며, 재판이 준비되면 이메일을<br /> 보내드리겠습니다.",
+                "GoToApplications": "응용 프로그램 허브로 이동"
+            }
+        }
+    },
+    "SsoSettings": {
+        "Validators": {
+            "AdfsTenant": {
+                "Message": "값이 비어 있거나 http:// 또는 https://로 시작하면 안 됩니다"
+            },
+            "StringUrl": {
+                "Message": "값은 유효한 URL이어야 합니다"
+            },
+            "IsJsonValidator": {
+                "Message": "값은 유효한 JSON이어야 합니다"
+            }
+        },
+        "SsoIdentityProvider": {
+            "DuplicationError": "이 공급자가 이미 존재합니다. 입력한 정보를 확인하십시오.",
+            "SigningSettingsError": "SAML 서명 설정이 올바르지 않습니다. 입력한 정보를 확인하십시오."
+        }
+    },
+    "BusinessRuleAction": {
+        "StructureExplorer": {
+            "Title": "요소 선택",
+            "ElementsTab": "{0}Elements{1}"
+        }
+    },
+    "FileSizeUnit": {
+        "Byte": "바이트",
+        "Bytes": "바이트",
+        "Kilobyte": "KB",
+        "Megabyte": "MB",
+        "Gigabyte": "GB"
+    },
+    "Approvals": {
+        "ComponentHeaderLabel": "승인 필요"
+    },
+    "pageParametersDataSource": "페이지 매개 변수",
+    "RelationshipDesignerModal": {
+        "Caption": "{{schemaName}} 인척 관계"
+    },
+    "RelationshipDesigner": {
+        "DeleteItemMessage": "항목을 삭제하시겠습니까?",
+        "RequiredControlErrorMessage": "값을 입력하십시오."
+    },
+    "RelationshipDiagram": {
+        "NoAccess": "관계를 변경할 수 있는 액세스 권한이 없음",
+        "Tools": {
+            "FitToView": "보기에 맞춤",
+            "ResetView": "보기 재설정",
+            "ZoomIn": "확대",
+            "ZoomOut": "축소",
+            "MiniMapClose": "미니맵 닫기",
+            "MiniMapOpen": "미니맵 열림"
+        }
+    },
+    "GroupsPropertiesPage": {
+        "Title": "그룹",
+        "Search": "검색"
+    },
+    "GroupPropertiesDialog": {
+        "Cancel": "취소",
+        "Comment": "Comment",
+        "EditGroup": "그룹 편집",
+        "Name": "이름",
+        "NewGroup": "새 그룹",
+        "Save": "완료"
+    },
+    "EntityInGroupPropertiesDialog": {
+        "AddToGroup": "그룹에 추가",
+        "Cancel": "취소",
+        "Comment": "Comment",
+        "Edit": "편집",
+        "Group": "그룹",
+        "Save": "완료"
+    },
+    "ConnectionPropertiesPage": {
+        "Comment": "Comment",
+        "Relations": "관계",
+        "RelationshipType": "Relationship type",
+        "Title": "Relationship"
+    },
+    "ContainerPropertiesPage": {
+        "Address": "주소",
+        "Email": "이메일",
+        "GeneralInformation": "일반 정보",
+        "Groups": "그룹",
+        "Phone": "기본 전화 번호",
+        "RelationshipsWith": "관련 항목({0})",
+        "Type": "유형",
+        "Web": "웹"
+    },
+    "ObjectPermissions": {
+        "Warning": "Warning! ",
+        "OperationsPoint": "이 섹션 페이지의 조회 필드에서 사용하는 개체는 구성되지 않았습니다. 현재 액세스 권한에 따르면 아래 나열된 개체는 외부 사용자가 사용할 수 없습니다:",
+        "RecordsPoint": "이 섹션 페이지의 조회 필드에서 사용하는 개체는 안전하지 않습니다. 현재 액세스 권한에 따르면 아래 나열된 개체의 모든 레코드를 외부 사용자가 완전히 사용할 수 있습니다:",
+        "SetProperPermissionsBegin": "적절한 액세스 권한을 설정하려면 작업을 켜고 \"\"에서 이 개체에 대한 권한을 기록합니다",
+        "ObjectPermissions": "Object permissions",
+        "SetProperPermissionsEnd": "\" 시스템 설계자의 섹션.",
+        "Link": "Update object permissions now",
+        "End": "Note: You may need to set access permissions for existing records individually, so that other users could work with them.",
+        "UpdateObjectPermissionsMessage": "현재 권한 설정이 수정됩니다. 이는 모든 사용자의 시스템 성능에 영향을 줄 수 있습니다. 지금 개체 권한을 업데이트하시겠습니까?"
+    },
+    "LocalizableTextInput": {
+        "ButtonTitle": "Multilanguage configuration"
+    },
+    "ExpansionButton": {
+        "ExpandTooltip": "Expand panel",
+        "CollapseTooltip": "Collapse panel"
+    },
+    "MultilanguageEmailTemplates": {
+        "TranslateHeadersTitle": "Set headers for multilingual templates",
+        "TranslateDescription": "Add language-specific headers for your multilingual template. To include more languages, update the template settings.",
+        "AcademyUrl": "https://academy.creatio.com/documents?id=2571"
+    },
+    "isValueMaskedCaption": "Mask displayed value",
+    "maskTypeCaption": "Mask type",
+    "maskOperationCaption": "Operation permission",
+    "ValueMaskingSettings": {
+        "HideAllMaskTitle": "Hide All Characters",
+        "ShowOnlyLast4CharsMaskTitle": "Show Only Last 4 Characters",
+        "BankCardMaskTitle": "Bank Card",
+        "SSNMaskTitle": "SSN",
+        "SINMaskTitle": "SIN"
+    },
+    "blockDeletionTooltip": "Prevents deleting the lookup value if it is referenced by records in the current object.",
+    "DeleteRecordsTooltip": "Deletes related records in the current object when the lookup value is deleted.",
+    "selectionWindowTooltip": "Opens a separate selection window to choose a lookup value.",
+    "listTooltip": "Lets users select a lookup value directly from a dropdown list."
+}

@@ -1,0 +1,63 @@
+﻿define("Tasks_FormPageResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		Label_s2umkbw_caption: "Details",
+		GridDetailSearchFilter_ui9rjm1_placeholder: "Search",
+		ExpansionPanel_gayd5lc_title: "Attachments",
+		AttachmentsTabContainer_caption: "Attachments",
+		FeedTabContainer_caption: "Feed",
+		TabContainer_itw82y1_caption: "Attachments",
+		Label_bouo1vp_caption: "Feed",
+		TabContainer_ko8xzk9_caption: "Feed",
+		Button_uey36i4Caption: "Refresh",
+		Button_rupn8sfCaption: "Upload",
+		TabContainer_es7ne17Caption: "Attachments",
+		Label_t0rm6mn_caption: "Connections",
+		TabContainer_4rzb4bw_caption: "Connections",
+		Notes_placeholder: "Type details for this task",
+		GridDetailSearchFilter_sc547hp_placeholder: "Search",
+		GridDetailImportDataBtn_70xbu27_caption: "Data import",
+		GridDetailExportDataBtn_zajcdyb_caption: "Export to Excel",
+		GridDetailSettingsBtn_gt57y67_caption: "Actions",
+		GridDetailRefreshBtn_gfethnt_caption: "Refresh",
+		GridDetailAddBtn_65zfh1c_caption: "New",
+		ExpansionPanel_9kt2jf4_title: "Info",
+		GridDetailSearchFilter_wxs6sib_placeholder: "Search",
+		GridDetailImportDataBtn_xq02vnt_caption: "Data import",
+		GridDetailExportDataBtn_jhs983p_caption: "Export to Excel",
+		GridDetailSettingsBtn_076nxwc_caption: "Actions",
+		GridDetailRefreshBtn_nv2l3mt_caption: "Refresh",
+		GridDetailAddBtn_j463qn2_caption: "New",
+		ExpansionPanel_hbptvvf_title: "Participants",
+		Label_7p83djj_caption: "Reminders",
+		addRecord_1f3uxqe_caption: "Add new",
+		addRecord_dgwsv5d_caption: "Add new",
+		addRecord_gd4s8lw_caption: "Add new",
+		Label_2i2b8cv_caption: "Executors",
+		addRecord_s3niqqb_caption: "Add new",
+		addRecord_xozmcce_caption: "Add new",
+		addRecord_ov8b6oh_caption: "Add new",
+		addRecord_2203v7p_caption: "Add new",
+		Button_18wpafg_caption: "Join",
+		SendInvitationButton_caption: "Send invitations",
+		addRecord_lpd4bw3_caption: "",
+		AttachmentAddButtonCaption: "Upload",
+		AttachmentRefreshButtonCaption: "Refresh",
+		AttachmentsTabContainerCaption: "Attachments",
+		BackButton: "Back",
+		CancelButton: "Cancel",
+		CloseButton: "Close",
+		DefaultHeaderCaption: "Page title",
+		FeedTabContainerCaption: "Feed",
+		GeneralInfoTab_caption: "General Info",
+		NewRecord: "New record",
+		Record: "Record",
+		SaveButton: "Save",
+		SetRecordRightsButtonCaption: "Set up access rights"
+	};
+	var parametersLocalizableStrings = {};
+	var propertiesLocalizableStrings = {
+		Caption: "Tasks form page"
+	};
+	var localizableImages = {};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages, parametersLocalizableStrings: parametersLocalizableStrings, propertiesLocalizableStrings: propertiesLocalizableStrings};
+});

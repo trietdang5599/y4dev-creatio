@@ -1,0 +1,161 @@
+﻿html[dir="rtl"] body[OldUI=false].crt-card .main-header .left-header-container-class,
+html[dir="rtl"] body[OldUI=false].crt-page .main-header .left-header-container-class {
+  display: flex;
+  border-radius: 0 8px 8px 0;
+}
+html[dir="rtl"] body[OldUI=false].crt-card .main-header .left-header-container-class .caption-class.fix-width,
+html[dir="rtl"] body[OldUI=false].crt-page .main-header .left-header-container-class .caption-class.fix-width {
+  flex-basis: inherit;
+  position: inherit;
+  flex-grow: 1;
+  width: 0;
+  text-align: right;
+}
+html[dir="rtl"] body[OldUI=false].crt-card .main-header .left-header-container-class .header-section-caption-class,
+html[dir="rtl"] body[OldUI=false].crt-page .main-header .left-header-container-class .header-section-caption-class {
+  position: inherit;
+}
+html[dir="rtl"] body[OldUI=false].crt-card .main-header .right-header-container-class,
+html[dir="rtl"] body[OldUI=false].crt-page .main-header .right-header-container-class {
+  border-radius: 8px 0 0 8px;
+  width: initial;
+}
+.crt-page .center-panel,
+.crt-card .center-panel {
+  background: #ebeeef;
+  padding-top: 0;
+  padding-right: 0;
+  margin-top: 0;
+  min-height: 100vh;
+  padding-bottom: 8px;
+}
+.crt-page .center-panel.opened-right-panel,
+.crt-card .center-panel.opened-right-panel {
+  padding-left: 41px;
+}
+.crt-page.scroll .main-header,
+.crt-card.scroll .main-header {
+  box-shadow: 0 3px 3px -2px #d8d9d9;
+}
+.crt-page.scroll .main-header .left-header-container-class,
+.crt-card.scroll .main-header .left-header-container-class {
+  border-bottom-right-radius: 0 !important;
+}
+.crt-page.scroll .main-header .right-header-container-class,
+.crt-card.scroll .main-header .right-header-container-class {
+  border-bottom-left-radius: 0 !important;
+}
+@media screen and (max-width: 1439px) {
+  body[OldUI=false].crt-card .right-panel,
+  body[OldUI=false].crt-page .right-panel {
+    margin-top: initial;
+    box-shadow: none;
+  }
+  body[OldUI=false].crt-card .opened-right-panel .inner-context-right-image-class,
+  body[OldUI=false].crt-page .opened-right-panel .inner-context-right-image-class {
+    box-shadow: none;
+  }
+}
+body[OldUI=false].crt-card .right-panel,
+body[OldUI=false].crt-page .right-panel {
+  border: 7px solid #ebeeef;
+  border-top-right-radius: 14px;
+  border-left: none;
+  border-bottom: none;
+}
+body[OldUI=false].crt-card .main-header.fixed,
+body[OldUI=false].crt-page .main-header.fixed {
+  border-top: 6px solid #ebeeef;
+}
+body[OldUI=false].crt-card:not(.x-ie) .left-panel:after,
+body[OldUI=false].crt-page:not(.x-ie) .left-panel:after {
+  display: none;
+}
+body[OldUI=false].crt-card :not(.x-ie) .communication-panel:after,
+body[OldUI=false].crt-page :not(.x-ie) .communication-panel:after {
+  display: none;
+}
+body[OldUI=false].crt-card .main-header .left-header-container-class,
+body[OldUI=false].crt-page .main-header .left-header-container-class {
+  border: 1px solid #e6e6e6;
+  border-radius: 8px 0 0 0;
+  border-left: none;
+  border-bottom: none;
+}
+body[OldUI=false].crt-card .main-header .left-header-container-class .caption-class,
+body[OldUI=false].crt-page .main-header .left-header-container-class .caption-class {
+  flex-grow: 1;
+  width: 0;
+}
+body[OldUI=false].crt-card .main-header .right-header-container-class,
+body[OldUI=false].crt-page .main-header .right-header-container-class {
+  border: 1px solid #e6e6e6;
+  border-radius: 0 8px 0 0;
+  border-right: none;
+  border-bottom: none;
+  width: initial;
+}
+body[OldUI=false].crt-card .main-header[is-main-menu-header=true],
+body[OldUI=false].crt-page .main-header[is-main-menu-header=true] {
+  height: 78px;
+}
+body[OldUI=false].crt-card .main-header.opened-right-panel .right-header-container-class,
+body[OldUI=false].crt-page .main-header.opened-right-panel .right-header-container-class {
+  margin-left: 424px;
+}
+body[OldUI=false].crt-card .center-panel .schema-wrap .section-wrap .content-container-wrapClass .card.right-el,
+body[OldUI=false].crt-page .center-panel .schema-wrap .section-wrap .content-container-wrapClass .card.right-el {
+  padding-top: 0;
+}
+body[OldUI=false].crt-card[is-card-opened=true][is-main-header-visible=false] .main-header .left-header-container-class,
+body[OldUI=false].crt-page[is-card-opened=true][is-main-header-visible=false] .main-header .left-header-container-class {
+  display: flex;
+}
+body[OldUI=false].crt-card[is-card-opened=true][is-main-header-visible=false] .main-header .right-header-container-class,
+body[OldUI=false].crt-page[is-card-opened=true][is-main-header-visible=false] .main-header .right-header-container-class {
+  border-right: none;
+}
+.crt-page .center-panel,
+.crt-card .center-panel,
+.crt-section .center-panel {
+  height: 100vh;
+}
+.crt-page .center-panel .center-panel-content,
+.crt-card .center-panel .center-panel-content,
+.crt-section .center-panel .center-panel-content,
+.crt-page .center-panel .default-center-panel-content,
+.crt-card .center-panel .default-center-panel-content,
+.crt-section .center-panel .default-center-panel-content {
+  height: 100%;
+  display: flex;
+}
+.crt-page .center-panel .center-panel-content .schema-wrap.one-el,
+.crt-card .center-panel .center-panel-content .schema-wrap.one-el,
+.crt-section .center-panel .center-panel-content .schema-wrap.one-el,
+.crt-page .center-panel .default-center-panel-content .schema-wrap.one-el,
+.crt-card .center-panel .default-center-panel-content .schema-wrap.one-el,
+.crt-section .center-panel .default-center-panel-content .schema-wrap.one-el {
+  flex: 1;
+}
+.crt-section .center-panel .center-panel-content {
+  margin-left: 37.6em;
+}
+@supports (background: -webkit-named-image(i)) {
+  crt-section crt-flex.stretch[id="SectionContentWrapper"] crt-data-grid[id="DataTable"],
+  crt-section-component crt-flex.stretch[id="SectionContentWrapper"] crt-data-grid[id="DataTable"] {
+    min-height: calc(100vh - 160px);
+    transition: min-height 0.3s ease;
+  }
+  
+  body[center-container-expanded='true'] crt-section crt-flex.stretch[id="SectionContentWrapper"] crt-data-grid[id="DataTable"],
+  body[center-container-expanded='true'] crt-section-component crt-flex.stretch[id="SectionContentWrapper"] crt-data-grid[id="DataTable"] {
+    min-height: calc(100vh - 112px);
+  }
+  
+  crt-page crt-flex.stretch[id="CardContentContainer"] > .crt-flex,
+  crt-page-component crt-flex.stretch[id="CardContentContainer"] > .crt-flex,
+  crt-card crt-flex.stretch[id="CardContentContainer"] > .crt-flex,
+  crt-card-component crt-flex.stretch[id="CardContentContainer"] > .crt-flex {
+    min-height: 800px;
+  }
+}

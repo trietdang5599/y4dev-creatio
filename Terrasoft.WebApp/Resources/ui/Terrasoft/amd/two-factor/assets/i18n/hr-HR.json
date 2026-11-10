@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Upotrijebite drugu metodu",
+    "TwoFactorSubmitButton": "Potvrdi",
+    "TwoFactorBackButton": "Natrag",
+    "SmsProvider": {
+        "SendSms": "Pošaljite drugi kod",
+        "ResendSms": "Ponovno pošalji SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Pošaljite drugi kod"
+    },
+    "TwoFactor.AdditionalVerification": "Dodatna verifikacija",
+    "TwoFactor.CancelButton.Caption": "Odustani",
+    "TwoFactor.SmsProviderNotAvailable": "Unesite verifikacijski kod koji je poslan putem SMS-a na vaš broj telefona",
+    "TwoFactor.EnterSmsCode.Caption": "Unesite verifikacijski kod koji je poslan putem SMS-a na vaš broj telefona",
+    "TwoFactor.EnterEmailCode.Caption": "Unesite verifikacijski kod koji je poslan na vašu adresu e-pošte",
+    "TwoFactor.EnterTOTPCode.Caption": "Unesite verifikacijski kod generiran vašom aplikacijom za autentifikaciju",
+    "TwoFactor.VerificationCode.Caption": "Kod za verifikaciju",
+    "TwoFactor.TOTPUnavailable.Caption": "Da biste koristili metodu aplikacije autentifikator, prvo je trebate postaviti. To možete učiniti na svojoj stranici profila.",
+    "TwoFactor.UseAnotherMethod.Caption": "Upotrijebite drugu metodu",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Nevažeći verifikacijski kod. Provjerite jeste li unijeli točne podatke ili kontaktirajte svog administratora sustava",
+    "TwoFactor.ValidationCanceled": "Validacija drugog faktora je otkazana",
+    "TwoFactor.EnterRecoveryCode.Caption": "Unesite kôd za oporavak",
+    "TwoFactor.RecoveryCodesNotAvailable": "Da biste koristili kodove za oporavak, prvo ih trebate postaviti. To možete učiniti na svojoj stranici profila"
+}

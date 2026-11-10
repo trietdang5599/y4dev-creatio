@@ -1,0 +1,20 @@
+﻿aiembeddedpanel .embedded-header {
+  padding: 8px 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--crt-color-border-base);
+  margin-bottom: 5px;
+}
+aiembeddedpanel .embedded-header .max-width {
+  width: 100%;
+}
+aiembeddedpanel .embedded-header .crt-label {
+  width: 160px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+aiembeddedpanel #Chat {
+  flex-grow: 1;
+  min-height: 0;
+  overflow: auto;
+}

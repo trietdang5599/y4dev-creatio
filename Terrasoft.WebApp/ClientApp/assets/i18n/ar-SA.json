@@ -1,0 +1,3740 @@
+{
+    "ConfirmationDialog": {
+        "YES": "نعم",
+        "NO": "لا",
+        "DELETE": "حذف",
+        "CANCEL": "إلغاء"
+    },
+    "InfoDialog": {
+        "OK": "موافق"
+    },
+    "AddRecordRightsDialog": {
+        "Add": "إضافة",
+        "Cancel": "إلغاء",
+        "RecordAuthor": "محرر السجل",
+        "RightsRecipient": "المستخدم أو الدور الذي يحصل على الأذونات",
+        "Title": "إضافة أذونات استنادًا إلى محرر السجل"
+    },
+    "AdministratedObjectPage": {
+        "AccessPermissions": "الأذونات",
+        "InfoBlockText": "عمليات النظام \"إضافة أي بيانات\"، \"عرض أي بيانات\"، \"تحرير أي بيانات\"، \"تحرير أي بيانات\"، \"حذف أي بيانات\" الممنوحة للأدوار أو المستخدمين الذين لهم أولوية أعلى من الأذونات التي تضعها في هذا القسم.",
+        "InfoBlockTitle": "ملاحظة",
+        "InfoBlockLink1": "كيفية عمل أولويات الأذونات",
+        "InfoBlockLink2": "كيف يتم تتابع الأذونات",
+        "InfoBlockLink3": "كيفية إعداد الأذونات للحصول على التفاصيل",
+        "InfoBlockLink4": "كيفية تطبيق إعدادات إذن السجل الجديد على جميع السجلات القائمة",
+        "InfoBlockLink5": "أمثلة على إعدادات أذونات الوصول",
+        "NameFieldName": "الاسم",
+        "RightsByColumnDetail": "استخدم أذونات الأعمدة",
+        "RightsByColumnDetailTooltip": "إعدادات الإذن لعمود محدد (حقول) للكائن",
+        "RightsByOperationDetail": "استخدم أذونات إجراء العمليات",
+        "RightsByOperationDetailTooltip": "إعدادات الأذونات لإجراء العمليات وقراءتها وتحريرها وحذفها",
+        "RightsByRecordDetail": "استخدام أذونات التسجيل",
+        "RightsByRecordDetailTooltip": "إعدادات الأذونات لقراءة بعض السجلات المحددة وتحريرها وحذفها",
+        "TitleFieldName": "العنوان",
+        "TitleFormat": "أذونات الكائن:{0}",
+        "UpdatePermissions": "تحديث أذونات التسجيل",
+        "OneEmptyRecordDefRightMessageTemplate": "لا تحتوي القاعدة \"{0}\" على أذونات الدخول سوى \"لم يتم تعيين\"، ولن تؤثر على إعدادات الوصول الفعلية بأي شكل من الأشكال. سيقوم الكرياتيو بحذف هذه القاعدة عند تطبيق الأذونات الجديدة. هل ترغب في المتابعة؟",
+        "SeveralEmptyRecordDefRightsMessageTemplate": "لا تحتوي القاعدة \"{0}\" على أذونات الدخول سوى \"لم يتم تعيين\"، ولن تؤثر على إعدادات الوصول الفعلية بأي شكل من الأشكال. سيقوم الكرياتيو بحذف هذه القاعدة عند تطبيق الأذونات الجديدة. هل ترغب في المتابعة؟",
+        "ProposalActualizationRights": "تم تعديل إعدادات أذونات التسجيل. ينبغي تحديث الأذونات القائمة للتسجيلات البالغ عددها {0}، وقد يؤثر ذلك على أداء النظام لدى جميع المستخدمين. \n هل ترغب في تحديث أذونات التسجيل الآن؟",
+        "EntityOperations": "العمليات المطوّرة",
+        "AdditionalOperationPermissions": "الأذونات الإضافية",
+        "Operation": "عملية",
+        "UserOrRole": "المستخدم أو الدور",
+        "UserOrRoleWhoObtainsPermission": "المستخدم أو الدور الذي يحصل على الأذونات",
+        "InfoBlockEntityOperationsText": "عمليات النظام \"CanExportGrid\" الممنوحة للأدوار أو المستخدمين لها أولوية أعلى من الأذونات التي تم إعدداها في هذا القسم.",
+        "RightsByEntityOperationDetail": "استخدام أذونات إجراء العمليات الخاصة بالكيان",
+        "RightsByEntityOperationDetailTitle": "أذونات إضافية",
+        "RightsByEntityOperationDetailTooltip": "إعدادات الأذونات لتصدير البيانات من العنصر الحالي استنادًا إلى الدور أو المستخدم",
+        "InfoAboutOperationPermissionsTitle": "مهم",
+        "InfoAboutOperationPermissions": "Operation permissions for the object are deactivated. When this is the case:",
+        "InfoAboutOperationPermissions1": "Company employees have full access to all operations with the object, settings that are displayed in the list below are ignored.",
+        "InfoAboutOperationPermissions2": "External users do not have access to any operations with the object.",
+        "InfoAboutOperationPermissions3": "Technical users have access according to the settings in the list below.",
+        "InfoAboutOperationPermissions4": "Learn more about object permissions settings in the",
+        "InfoAboutOperationPermissionsLinkCaption": "الأكاديمية",
+        "InfoAboutOperationPermissionsAcademyLink": "https://academy.creatio.com/documents?id=250"
+    },
+    "AdministratedObjectSection": {
+        "BusinessLogicPermissions": "تم تفعيل أذونات التسجيل",
+        "Close": "أغلق",
+        "ColumnPermissions": "تم تفعيل أذونات الأعمدة",
+        "Name": "الاسم",
+        "ObjectPermissions": "تم تفعيل أذونات التشغيل",
+        "Search": "بحث",
+        "Title": "تصاريح الكائن",
+        "TitleColumn": "العنوان",
+        "UpdatePermissions": "تحديث أذونات التسجيل"
+    },
+    "BasePageComponent": {
+        "Close": "أغلق",
+        "Apply": "تطبيق",
+        "Cancel": "إلغاء",
+        "Save": "حفظ",
+        "Actions": "الإجراءات",
+        "Check": "المصادقة",
+        "Publish": "نشر",
+        "PublishAndCompile": "نشر وتجميع",
+        "SaveAndPublish": "Save and publish"
+    },
+    "ClearChangeLogSettingsDialog": {
+        "AllObjects": "كل الكائنات",
+        "AllPeriod": "جميع البيانات المتاحة",
+        "Cancel": "إلغاء",
+        "ChooseDate": "اختر التاريخ",
+        "ChooseObject": "اختر الكائن",
+        "Clear": "واضح",
+        "ObjectSettingsTitle": "امسح بيانات السجل للكائنات التالية",
+        "OnlySelectedObject": "كائن محدد",
+        "PeriodSettingsTitle": "امسح بيانات السجل للفترة التالية",
+        "Title": "مسح سجل التغييرات",
+        "ToDatePeriod": "فقط البيانات الأقدم من"
+    },
+    "ChangeLogCleanerService": {
+        "SuccessLaunch": "بدأ النظام في مسح سجل التغييرات. ستتلقى إشعارًا في لوحة الاتصال عندما تكتمل العملية"
+    },
+    "ChangeLogPage": {
+        "Close": "أغلق",
+        "TitleFormat": "سجل التغيير: {0}",
+        "ViewLog": "معاينة السجل"
+    },
+    "ChangeLogSection": {
+        "Title": "سجل التغيير",
+        "TitleColumn": "العنوان",
+        "NameColumn": "الاسم",
+        "LoggingEnabledColumn": "تم تفعيل تسجيل",
+        "ClearChangeLog": "مسح السجل"
+    },
+    "ChangeLogComponent": {
+        "Blankslate": "لا توجد سجلات لهذا الكائن في سجل التغييرات",
+        "InsertedTooltip": "تمت إضافة السجل",
+        "UpdatedTooltip": "تم تعديل السجل",
+        "DeletedTooltip": "تم حذف السجل",
+        "ShowMore": "إظهار المزيد",
+        "ShowLess": "عرض الأقل",
+        "ChangeType": "تغيير النوع",
+        "ChangeTrackedOn": "التغيير الذي تم في",
+        "ChangeTrackedBy": "التغيير الذي تم إجراؤه بواسطة",
+        "ChangeTracked": "السجل",
+        "ColumnName": "العمود",
+        "ColumnOldValue": "القيمة القديمة",
+        "ColumnNewValue": "القيمة الجديدة",
+        "Yes": "نعم",
+        "No": "لا"
+    },
+    "LicenseManager": {
+        "PackageNameColumn": "الاسم",
+        "TypeColumn": "نوع",
+        "StartDateColumn": "تاريخ البدء",
+        "DueDateColumn": "تاريخ الاستحقاق",
+        "StatusColumn": "الحالة",
+        "CountColumn": "المجموع",
+        "LicenseIsActive": "نشط",
+        "LicenseIsNotActive": "غير نشط",
+        "TypePersonal": "شخصي",
+        "TypeConcurrent": "متزامن",
+        "TypeServer": "مخدم"
+    },
+    "LicenseSection": {
+        "Title": "إدارة الترخيص",
+        "BlankslateTitle": "لا توجد أي سجلات في هذا القسم حتى الآن.",
+        "BlankslateDescription": "سيتم عرض التراخيص الخاصة بك هنا بمجرد رفع ملف الترخيص",
+        "ServerLicenseTooltip": "يتم توزيع تراخيص الخادم والتزامن من صفحة المستخدم",
+        "ConcurrentLicenseTooltip": "يتم توزيع تراخيص الخادم والتزامن من صفحة المستخدم",
+        "UploadButtonCaption": "رفع",
+        "UploadLicensesCompleteMessage": "تم رفع التراخيص بنجاح",
+        "UploadLicensesErrorMessage": "تنسيق الملف غير صحيح",
+        "RequestLicensesButtonCaption": "طلب",
+        "DeleteLicensesButtonCaption": "حذف",
+        "DeleteLicensesConfirmation": "سيتم حذف التراخيص. هل ترغب في المتابعة؟",
+        "DeleteLicensesSuccess": "تم حذف جميع التراخيص بنجاح.",
+        "AllTypesCaption": "جميع التراخيص",
+        "PersonalTypeCaption": "شخصي",
+        "ServerTypeCaption": "مخدم",
+        "UploadLicensesCryptographicExceptionMessage": "Invalid file format. If your license was generated for 8.3.0 or earlier Creatio versions, creating a new license request may resolve the issue."
+    },
+    "LicensePage": {
+        "TitleFormat": "المنتج {0}"
+    },
+    "LicenseDetail": {
+        "Title": "التراخيص"
+    },
+    "LicensedUsersDetail": {
+        "Title": "المستخدمين المرخص لهم",
+        "UsersDialogCaption": "المستخدمون",
+        "UserNameColumn": "المستخدم",
+        "EmailColumn": "البريد الإلكتروني",
+        "JobTitleColumn": "مسمى الوظيفة",
+        "Delete": "استرجاع",
+        "Blankslate": "لم يتم توزيع هذه التراخيص على أي مستخدمين حتى الآن",
+        "SourceTitleColumn": "طريقة الإصدار",
+        "UserLicensesSourceManual": "يدوياً",
+        "UserLicensesSourceSystem": "تلقائياً",
+        "UserLicensesSourceRoleBased": "بناء على الدور"
+    },
+    "ObjectRecordRightsActualizationService": {
+        "SuccessLaunch": "بدأ النظام في تحديث أذونات السجل استناداً إلى الإعدادات الحالية. سوف تتلقى إشعارًا في لوحة الاتصال عند اكتمال العملية"
+    },
+    "ObjectChangeLogPage": {
+        "TitleFormat": "سجل تغيير الكائن {0}",
+        "SettingsTabCaption": "إعدادات السجل",
+        "ViewChangeLogTabCaption": "تسجيل البيانات",
+        "EnableObjectTracking": "تمكين تسجيل الدخول"
+    },
+    "ObjectTypeFilter": {
+        "AllObjects": "كل الكائنات",
+        "Lookups": "عمليات البحث",
+        "Sections": "القطاعات"
+    },
+    "SearchInput": {
+        "Placeholder": "بحث",
+        "Settings": {
+            "Cancel": "إلغاء",
+            "Apply": "تطبيق",
+            "SearchColumnTemplate": "البحث من خلال العمود \"{0}\"",
+            "StartsWith": "يبدأ بـ",
+            "Contains": "يحتوي",
+            "Equals": "يساوي"
+        }
+    },
+    "DeleteButtonTableCell": {
+        "Tooltip": "إزالة"
+    },
+    "RightLevelSelect": {
+        "Granted": "موافق عليه",
+        "GrantedDelegate": "يُمنح مع حق التفويض",
+        "NotSet": "لم يتم التعيين"
+    },
+    "RightsByColumnDetail": {
+        "Add": "إضافة",
+        "Blankslate": "الوصول إلى جميع الأعمدة غير مقيد",
+        "Column": "العمود",
+        "ColumnBlankslate": "إضافة أدوار أو مستخدمين لإدارة وصولهم إلى هذا العمود",
+        "DenyReadEdit": "رفض القراءة وإجراء التعديل",
+        "Drag": "اسحب لتغيير الأولوية",
+        "PermitRead": "السماح بالقراءة والاطّلاع",
+        "PermitReadEdit": "السماح بالقراءة والتحرير",
+        "Priority": "الأولوية",
+        "Remove": "إزالة",
+        "RightLevel": "مستوى الوصول",
+        "User": "المستخدم أو الدور",
+        "ValidationMessage": "توجد قاعدة للدور المحدد مسبقاً. الرجاء اختيار دور آخر للمتابعة",
+        "WarningDowngradingRights": "قد تتجاوز القيود على الأذونات في هذه القاعدة القواعد الأخرى الأقل في القائمة"
+    },
+    "RightsByRecordDetail": {
+        "Add": "إضافة",
+        "Blankslate": "لم يتم وضع قواعد الأذونات القائمة على المحرر",
+        "Delete": "حذف",
+        "Edit": "تحرير",
+        "Read": "اقرأ",
+        "RecordAuthor": "محرر السجل",
+        "Remove": "إزالة",
+        "RightsRecipient": "المستخدم أو الدور الذي يحصل على الأذونات",
+        "Title": "منح الأذونات استنادًا إلى محرر السجل",
+        "TitleTooltip": "سيتم منح الأذونات استنادًا إلى محرر السجل كلما تم إنشاء سجل جديد",
+        "ValidationMessage": "توجد قاعدة للأدوار المحددة مسبقاً. الرجاء اختيار أدوار أخرى للمتابعة",
+        "DoNotApplyForManager": "Do not apply for manager",
+        "DoNotApplyForManagerTooltip": "Do not apply this rule if the author obtained the role only as a manager of that role. If the role is obtained through hierarchy from underlying roles, including manager roles of subordinate groups, the rule should still be applied."
+    },
+    "RightsByOperationsDetail": {
+        "Drag": "اسحب لتغيير الأولوية",
+        "Priority": "الأولوية",
+        "User": "المستخدم أو الدور",
+        "Create": "إنشاء",
+        "Read": "اقرأ",
+        "Edit": "تحرير",
+        "Delete": "حذف",
+        "Remove": "إزالة",
+        "Add": "إضافة",
+        "Blankslate": "إضافة مستخدمين أو أدوار لمنحهم إمكانية الوصول إلى بيانات الكائن",
+        "ValidationMessage": "توجد قاعدة للدور المحدد مسبقاً. الرجاء اختيار دور آخر للمتابعة",
+        "WarningDowngradingRights": "قد تتجاوز القيود على الأذونات في هذه القاعدة القواعد الأخرى الأقل في القائمة",
+        "Allowed": "موافق عليه",
+        "Denied": "مرفوض"
+    },
+    "SelectEntitySchemaColumnDialog": {
+        "Cancel": "إلغاء",
+        "Select": "حدد",
+        "SelectFieldPlaceholder": "حدد عمود",
+        "Title": "حدد عمود"
+    },
+    "SelectSysAdminUnitDialog": {
+        "Cancel": "إلغاء",
+        "FunctionalRoles": "الأدوار الوظيفية",
+        "OrganizationalRoles": "الأدوار التنظيمية",
+        "Search": "بحث",
+        "Select": "حدد",
+        "Title": "حدد المستخدم أو الدور",
+        "Users": "المستخدمون"
+    },
+    "SysAdminUnitTree": {},
+    "TrackedColumns": {
+        "TitleTooltip": "إعداد قائمة الأعمدة التي سيتم تسجيل قيمها عندما يتم تعديل السجل",
+        "Title": "أعمدة مسجلة للدخول",
+        "CaptionColumn": "العنوان",
+        "NameColumn": "الاسم",
+        "Add": "إضافة",
+        "Remove": "إزالة",
+        "Blankslate": "لم يتم تحديد الأعمدة المسجلة"
+    },
+    "BaseSection": {
+        "BlankslateTitleWithFilters": "لا توجد سجلات تطابق معايير البحث الحالية الخاصة بك.",
+        "BlankslateDescriptionWithFilters": "مسح معلمات البحث أو تعديلها",
+        "DeleteRecordConfirmation": "هل أنت متأكد من أنك تريد حذف السجل المحدد؟?",
+        "AbsentDataErrorMessage": "تم حذف السجل أو ليس لديك صلاحيات الوصول إليه"
+    },
+    "BaseTableDetail": {
+        "BlankslateWithFilters": "لا توجد سجلات تطابق معايير البحث الحالية. برجاء مسح معلمات البحث أو تعديلها",
+        "Add": "إضافة"
+    },
+    "MultiselectDialog": {
+        "Select": "حدد",
+        "Selected": "ما تم اختياره:",
+        "Cancel": "إلغاء",
+        "Blankslate": "لا توجد أي سجلات لهذا الكائن",
+        "BlankslateWithFilters": "لا توجد سجلات تطابق معايير البحث الحالية. برجاء مسح معلمات البحث أو تعديلها"
+    },
+    "DateRange": {
+        "To": "إلى"
+    },
+    "MailServerTableComponent": {
+        "AdditionalSettings": "إعدادات إضافية",
+        "AddMailServer": "إضافة خدمة",
+        "AllowEmailDownloading": "تلقي رسائل البريد الإلكتروني",
+        "AllowEmailSending": "إرسال رسائل البريد الإلكتروني",
+        "Copy": "نسخ",
+        "DeleteConfirmation": "هل أنت متأكد من أنك تريد حذف السجل المحدد؟?",
+        "Delete": "حذف",
+        "Edit": "تحرير",
+        "Empty": "خدمات البريد غير متاحة",
+        "ExchangeMenuItem": "يتبادل",
+        "IMAPIncomingSettingsDescription": "إعدادات خدمة البريد الإلكتروني لتلقي رسائل البريد الإلكتروني. حدد عنوان خادم البريد وإعدادات المنفذ وإعدادات الحماية",
+        "IMAPIncomingSettingsHeader": "خادم البريد الوارد (IMAP)",
+        "ImapMenuItem": "IMAP/SMTP",
+        "LoginFormat": "صيغة تسجيل الدخول",
+        "MailServerAddress": "عنوان الخدمة",
+        "MailServer": "خدمات البريد الإلكتروني",
+        "MailServerName": "اسم الخدمة",
+        "MailServerSettings": "اعدادات الخدمة",
+        "MailServerType": "نوع الخدمة",
+        "MailServiceRemoveToolTip": "تعذّر على Creatio حذف خدمة البريد نظرًا لوجود العديد من صناديق البريد لهذه الخدمة في التطبيق",
+        "None": "لا يوجد",
+        "Port": "المنفذ",
+        "RequiredMailServiceActions": "تمكين تحميل رسائل البريد الإلكتروني أو إرسالها لإعداد الخدمة",
+        "Section": {
+            "Add": "إضافة",
+            "GoToDiagnostic": "الأداة التشخيصية"
+        },
+        "Security": "الحماية",
+        "AuthenticationType": "نوع المصادقة",
+        "ApplicationId": "رقم تعريف التطبيق (العميل)",
+        "ClientSecret": "سر الزبون",
+        "Server": "عنوان الخادم",
+        "SMTPOutgoingSettingsDescription": "إعدادات خدمات البريد الإلكتروني لإرسال رسائل البريد الإلكتروني. حدد عنوان خادم البريد وإعدادات المنفذ والحماية",
+        "SMTPOutgoingSettingsHeader": "خادم البريد الصادر (SMTP)",
+        "SuccessfulAddOperation": "تم بنجاح إضافة خدمة بريد إلكتروني جديدة. يمكن للمستخدمين الآن إضافة صناديق بريد باستخدام هذه الخدمة",
+        "SuccessfulEditOperation": "تم بنجاح تحديث إعدادات خدمة البريد من خلال Creatio",
+        "SuccessfulOperation": "عملية ناجحة",
+        "Type": "نوع",
+        "UseEmailAddressAsLogin": "استخدم عنوان البريد الإلكتروني",
+        "UseLogin": "استخدم الإدخال اليدوي",
+        "UseUserNameAsLogin": "استخدام اسم صندوق البريد",
+        "WarningTitle": "⚠ تحذير",
+        "BasicAuthWarningMessage": "يرجى ملاحظة أن المصادقة الأساسية قديمة وربما تكون غير آمنة،وهي رسميًا كالآتي <a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online\" {0}> وهي غير مرغوبة من قبل مايكروسوفت</a>. لاستخدام الإنتاج يرجى مراعاة التبديل إلى مصادقة OAuth الحديثة. تتوفر تعليمات حول التكوين في الرابط الآتي <a href=\"{1}\" {0}>Creatio Academy</a>.",
+        "TenantId": "رقم تعريف المستخدم",
+        "AllowApplicationLevelAccess": "Allow application-level access"
+    },
+    "MailboxSettings": {
+        "AdditionalSettingsTabCaption": "إعدادات إضافية",
+        "MailboxesTabCaption": "صناديق البريد",
+        "MailServicesTabCaption": "خدمات البريد الإلكتروني",
+        "Title": "إعدادات صندوق البريد"
+    },
+    "ValidationErrorDialogComponent": {
+        "Cancel": "إلغاء",
+        "Close": "أغلق"
+    },
+    "AddEntityOperationGranteeDialog": {
+        "Add": "إضافة",
+        "Cancel": "إلغاء",
+        "Operation": "عملية",
+        "UserOrRole": "المستخدم أو الدور الذي يحصل على الأذونات",
+        "Title": "إضافة أذونات استنادًا إلى الدور أو المستخدم"
+    },
+    "LocalizableStringsDialog": {
+        "Title": "سلسلة الملفات القابلة للتوطين",
+        "NameTitle": "شفرة",
+        "ValueTitle": "قيمة",
+        "Add": "إضافة",
+        "Cancel": "إلغاء",
+        "Apply": "تطبيق",
+        "ShowAllLanguages": "عرض كل اللغات",
+        "HideInactiveLanguages": "إخفاء اللغات غير النشطة",
+        "Validations": {
+            "RequiredNameCaption": "ادخل قيمة",
+            "PatternNameCaption": "قيمة غير صالحة. استعمل الرموز: a-z، A-Z، 0-9.لا تبدأ بالرمز: 0-9",
+            "DuplicateNameCaption": "توجد بالفعل سلسلة قابلة للتوطين بنفس الرمز"
+        },
+        "AcademyUrl": "https://academy.creatio.com/docs/8.x/",
+        "AcademyUrlTitle": "للاطلاع على المزيد."
+    },
+    "OrderDirectionStrict": {
+        "Ascending": "تصاعدي",
+        "Descending": "منحدر"
+    },
+    "UsedLicensesCounterChart": {
+        "ActiveLicensesTitle": "التراخيص السارية",
+        "ConcurrentLicenseTitle": "التراخيص المتزامنة",
+        "UsedLicensesCountTitle": "مرخَّص",
+        "UsedLicensesCountSeparatorLabel": "لـ",
+        "DistributedLicensesLegend": "التراخيص الممنوحة للمستخدمين",
+        "AvailableLicensesLegend": "الحد الأقصى لجلسات المستخدم المتزامنة",
+        "UnlimitedCountLabel": "لعدد غير محدود من المستخدمين",
+        "LimitOfLicensesLabel": "الحد الأقصى من التراخيص"
+    },
+    "LicenseRequestDialog": {
+        "Title": "رقم التعريف الخاص بالشركة للترخيص",
+        "LicenseVersionTitle": "نسخة الترخيص",
+        "InputFieldDescription": "يتم تخزين معرف الشركة الفريد الخاص بك في إعداد نظام \"ترخيص هوية الشركة\". سيؤدي تغيير هوية الشركة في هذا المجال تلقائيًا إلى تحديث قيمة إعداد النظام.",
+        "LicenseVersionDescription": "نسخة Creatio التي تخطط لرفع التراخيص من خلالها.",
+        "InvalidVersionFormat": "يرجى إدخال النسخة في شكل ثلاثة أرقام مقسمة على النقاط. على سبيل المثال، 7-18-1",
+        "RequestButtonCaption": "إنشاء ملف طلب الترخيص"
+    },
+    "RightsByEntityOperationsDetail": {
+        "Add": "إضافة",
+        "Title": "أذونات إضافية",
+        "Blankslate": "إضافة مستخدمين أو أدوار لمنحهم إمكانية الوصول إلى عمليات التشغيل الإضافية",
+        "Operation": "عملية",
+        "UserOrRole": "المستخدم أو الدور الذي يحصل على الأذونات",
+        "ValidationMessage": "لم يتم ملء الحقول"
+    },
+    "SelectEntityOperationDialog": {
+        "Cancel": "إلغاء",
+        "Search": "بحث",
+        "Operations": "عمليات",
+        "Select": "حدد",
+        "Title": "عملية التشغيل الخاصة بالكيان",
+        "Users": "المستخدمون",
+        "SelectFieldPlaceholder": "حدد عملية التشغيل الخاصة بالكيان"
+    },
+    "LookupDialog": {
+        "TitleTemplate": "اختر: {0}",
+        "Selected": "ما تم اختياره:",
+        "SelectButton": "حدد",
+        "CancelButton": "إلغاء",
+        "Blankslate": "لا توجد أي سجلات لهذا الكائن",
+        "AllPagesSelectionWarning": "قد تستغرق العملية بعض الوقت. هل ترغب في المتابعة؟"
+    },
+    "QuickEntityFilter": {
+        "NonGuidMessage": "يجب أن يحتوي المعالج على 32 رمزاً و 4 شرائح (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)."
+    },
+    "EntitySchemaDesignerPage": {
+        "NameFieldName": "الاسم",
+        "CaptionFieldName": "تعليق"
+    },
+    "SqlScriptDesignerPage": {
+        "Name": "الاسم",
+        "Caption": "تعليق"
+    },
+    "SchemaDataDesignerPage": {
+        "ActualizeData": "تفعيل البيانات",
+        "Fields": {
+            "Name": "الاسم",
+            "Object": "الكائن",
+            "InstallType": "نوع التثبيت",
+            "Package": "حزمة"
+        },
+        "InfoBlockText1": "نوع التثبيت",
+        "InfoBlockText2": "يحدد نوع التثبيت طريقة إضافة بيانات التطبيق عند تثبيت الحزمة.",
+        "InfoBlockText3": "• Installation — data is added during the first installation of the package and is updated with the package updates. New records are always added. Existing records are updated only if the “Forced update” checkbox is selected on the “Columns setting” tab. This is the default and most flexible type.",
+        "InfoBlockText4": "• Update existing — deprecated type. We recommend using the Installation type instead because this type has similar behaviour.",
+        "InfoBlockText5": "• Initial package installation — data is added only during the first installation of the package. Data is not updated or added during subsequent package updates.",
+        "ColumnsSettingTabCaption": "إعدادات الأعمدة",
+        "BoundDataTabCaption": "البيانات المترابطة",
+        "InstallType": {
+            "Install": "تثبيت",
+            "FirstInstall": "Initial package installation",
+            "Update": "تحديث الحالي",
+            "InstallIfNotExists": "Initial data installation"
+        },
+        "ColumnsDetail": {
+            "Title": "إعدادات الأعمدة",
+            "Blankslate": "حدد الكائن ثم قم بإعداد الأعمدة",
+            "ErrorDeletePrimaryColumn": "يحظر حذف العمود الرئيسي \"{0}\"",
+            "ColumnsAreNotAvailableInPackageMessage": "هذه الأعمدة غير متوفرة في الحزمة الحالية ولا يمكن إضافتها: {0}",
+            "Columns": {
+                "Caption": "تعليق",
+                "Name": "الاسم",
+                "ForcedUpdate": "تحديث قسري",
+                "Key": "مفتاح"
+            },
+            "Tooltips": {
+                "ForcedUpdate": "The checkbox indicates that the data in this column will update whenever the corresponding package is updated.",
+                "Key": "تم تعيين خانة الاختيار للعمود الأساسي للكائن بشكل افتراضي. إذا كانت قاعدة البيانات تستخدم مفاتيح مركبة، حدد مربع الاختيار هذا لجميع أعمدة المركب الرئيسية. لا يمكن أن يكون العمود الأساسي للكائن عمودًا رئيسيًا مركّبًا."
+            }
+        },
+        "BoundDataDetail": {
+            "Title": "البيانات",
+            "Blankslate": "اختر السجلات للربط بها",
+            "ActualDataWasLoaded": "تم تحميل البيانات الحالية"
+        },
+        "InfoBlockText6": "• Initial data installation — data binding is installed during the first package installation or subsequent updates only if the same binding does not already exist. Use this type to avoid unintended overwrites."
+    },
+    "WorkspaceExplorer": {
+        "Section": {
+            "ActionButtonCaption": "الإجراءات",
+            "Title": "تهيئة",
+            "WorkspaceItemMoveService": {
+                "NameColumn": "الاسم",
+                "SelectPackageDialogTitle": "انقل العنصر {0} إلى الحزمة",
+                "MultiselectElementsPackageDialogTitle": "انقل العنصر/ (العناصر) {0} إلى الحزمة",
+                "MoveElementsWebServiceSuccessMessage": "تم نقل العناصر بنجاح",
+                "NoPackagesMessage": "لا توجد حزم متاحة",
+                "MoveAllPackageElementsWebServiceSuccessMessage": "تم نقل العناصر بنجاح",
+                "MoveAllPackageElementsDialogTitle": "انقل الحزمة {0} إلى الحزمة",
+                "SpecifyDependenciesConfirmationDialog": "حزمة {0} تفتقر إلى التبعيات المطلوبة للترحيل الصحيح. هل ترغب في تثبيت التبعيات المفقودة تلقائياً؟"
+            },
+            "WorkspaceItemMoveValidateDialog": {
+                "ErrorMessageTitle": "خطأ في نقل العناصر",
+                "WithoutValidationConfirmationMessage": "تسبب هذا الإجراء في تعطل دمج التكوين بسبب التبعيات الحالية بين عناصر الحزمة المنقولة. لاستعادة الدمج، يرجى نقل العناصر المتبقية المطلوبة من التبعيات الحالية أو تعديل التبعيات الواردة. \nإذا كنت لا تخطط لإجراء أي مما سبق ذكره، لا يوصى باستكمال لعملية. \nهل ترغب في نقل عناصر الحزمة؟\n\n",
+                "MoveButtonCaption": "نقل العناصر"
+            },
+            "PackageStorageValidationMessageDialog": {
+                "Title": "أخطاء التكوين",
+                "MessageColumn": "الوصف",
+                "ItemNameColumn": "العنصر",
+                "ItemTypeColumn": "نوع",
+                "PackageNameColumn": "حزمة",
+                "ConfirmationTitle": "خطأ في نقل العناصر",
+                "WithoutValidationConfirmationMessage": "تسبب هذا الإجراء في تعطل دمج التكوين بسبب التبعيات الحالية بين عناصر الحزمة المنقولة. لاستعادة الدمج، يرجى نقل العناصر المتبقية المطلوبة من التبعيات الحالية أو تعديل التبعيات الواردة. \nإذا كنت لا تخطط لإجراء أي مما سبق ذكره، لا يوصى باستكمال لعملية. \nهل ترغب في نقل عناصر الحزمة؟\n\n",
+                "MoveButtonCaption": "نقل العناصر"
+            },
+            "ValidateWorkspaceDialog": {
+                "ErrorMessageTitle": "أخطاء التكوين",
+                "ValidationSuccess": "تم التحقق من الإعدادات بنجاح. لم يتم العثور على أي أخطاء"
+            },
+            "Packages": {
+                "InstallPackageDialog": {
+                    "Title": "تثبيت الحزمة من المستودع",
+                    "InputFieldPackageName": "حزمة",
+                    "InputFieldRepositoryAddress": "مستودع نظام التحكم في الإصدار",
+                    "InputFieldVersion": "النسخة",
+                    "Cancel": "إلغاء",
+                    "Install": "تثبيت"
+                },
+                "CreatePackageDialog": {
+                    "Title": "حزمة",
+                    "InputFieldName": "الاسم",
+                    "InputFieldDescription": "الوصف",
+                    "InputFieldRepositoryAddress": "مستودع نظام التحكم في الإصدار",
+                    "InputFieldVersion": "النسخة",
+                    "SaveButtonCaption": "حفظ",
+                    "Cancel": "إلغاء",
+                    "OpenPackagePage": "إنشاء تبعيات وإضافتها",
+                    "Validation": {
+                        "PackageNameNotSpecified": "لم يتم تحديد اسم الحزمة",
+                        "PackageVersionNotSpecified": "لم يتم تحديد نسخة الحزمة",
+                        "NotAllowedFormat": "تنسيق نسخة المستودع غير صحيح",
+                        "MaximumLengthExeeded": "تجاوز الحد الأقصى لطول النص"
+                    }
+                },
+                "SourceControl": {
+                    "CommitResult": {
+                        "Success": "تم الالتزام بالتغييرات بنجاح في المستودع",
+                        "CustomPackage": "تعذر الالتزام بالحزمة المخصصة للمستودع",
+                        "PackageUpdateNeed": "تم العثور على تغييرات في المستودع. ينبغي تحديث مساحة العمل",
+                        "PackageHasForeignLock": "تعذر حفظ التغييرات: الحزمة التي يتم حفظ العنصر فيها مقفلة من قِبَل مستخدم آخر"
+                    },
+                    "CommitChangesDialog": {
+                        "Title": "التزم بالحزمة المخصصة للمستودع",
+                        "LogMessageFieldCaption": "الوصف",
+                        "CommitButtonCaption": "إجراء التغييرات",
+                        "Cancel": "إلغاء",
+                        "NoChanges": "لا توجد عناصر يتم الالتزام بها"
+                    },
+                    "Update": {
+                        "ConfirmMessage": "هل ترغب في تحديث هذه الحزمة من المستودع؟",
+                        "NoChanges": "لم يتم العثور على تغييرات"
+                    },
+                    "Install": {
+                        "ConfirmMessage": "تم العثور على الحزم المثبتة. يمكن تغيير بنية الحزمة بالكامل عند التثبيت للمرة القادمة، هل ترغب في الاستمرار؟",
+                        "NoChanges": "لم يتم العثور على تغييرات"
+                    },
+                    "Restore": {
+                        "ConfirmMessage": "سيتم تحديث مساحة العمل إلى آخر مراجعة. سيتم فقدان جميع التغييرات الخاصة بك. هل ترغب في المتابعة؟",
+                        "Success": "تم استعادة مساحة العمل بنجاح من المستودع"
+                    }
+                },
+                "PackageCreated": "الحزم التي تم إعدادها بنجاح: {0}",
+                "PackageDeleted": "الحزم التي تم حذفها بنجاح: {0}",
+                "PackageLocked": "الحزم التي تم قفلها بنجاح: {0} في SVN",
+                "PackageUnlocked": "الحزم التي تم فتحها بنجاح: {0} في SVN",
+                "SearchPlaceholder": "البحث عن طريق الحزمة",
+                "AllPackagesCaption": "جميع الحزم",
+                "DeleteConfirmation": "هل أنت متأكد من أنك ترغب في حذف السجلات المحددة؟",
+                "BlankslateTitle": "لم يتم العثور على حزم",
+                "InstallFromRepository": {
+                    "NoRepositories": "لم يتمكن الكرياتيو Creatio من العثور على أي مستودعات محفوظة. هل ترغب في حفظ مستودع جديد؟",
+                    "NoActiveRepository": "لم يتمكن الكرياتيو Creatio من العثور على أي مستودعات نشطة. هل ترغب في الرجوع إلى قائمة المستودعات؟"
+                },
+                "ConnectedApplications": {
+                    "DeleteConfirmation": "سيتم إزالة الحزمة أيضًا من التطبيقات التالية:\n{0}\nيمكن أن تتسبب إزالة الحزمة في فقدان هذه التطبيقات وظائفها أو أن تصبح غير نشطة. هل أنت متأكد من أنك ترغب في المتابعة؟",
+                    "DeactivateConfirmation": "سيتم تعطيل الحزمة كذلك في التطبيقات التالية:\n{0}\nيمكن أن يتسبب تعطيل الحزمة في فقدان هذه التطبيقات وظائفها أو أن تصبح غير نشطة. هل أنت متأكد من أنك ترغب في المتابعة؟"
+                },
+                "CreatePackage": "إنشاء حزمة",
+                "PackageDeactivated": "الحزم التي تم تعطيلها بنجاح: {0}",
+                "DeactivateConfirmation": "هل أنت متأكد من أنك ترغب في إلغاء تنشيط الحزمة المحددة؟",
+                "ActivateConfirmation": "هل أنت متأكد من أنك ترغب في تنشيط الحزمة المحددة؟",
+                "EndUserSchemas": "Environment schemas",
+                "NewSearchPlaceholder": "بحث",
+                "PackagesCaption": "Packages",
+                "EndUserSchemaPackageTooltip": "Environment schemas exist only in this environment. To transfer them, move the schema to a package.",
+                "ConfigurationRootCaption": "التكوين"
+            },
+            "Items": {
+                "ImportSuccessMessage": "تم نقل العنصر{0} بنجاح إلى حزمة \"{1}\"",
+                "UpdateDBStructureConfirmMessage": "يؤدي ذلك إلى تحديث بنية قاعدة البيانات للكائن المحدد. هل ترغب في المتابعة؟",
+                "GenerateSchemasSourcesConfirmMessage": "سيؤدي هذا إلى إنشاء رمز المصدر للعنصر المحدد. هل ترغب في المتابعة؟",
+                "InstallSqlScriptsConfirmMessage": "سيؤدي هذا إلى تثبيت سكريبت SQL المحدد على قاعدة البيانات. هل ترغب في المتابعة؟",
+                "InstallDataConfirmMessage": "سيؤدي هذا إلى تثبيت البيانات الخاصة بالعنصر المحدد. هل ترغب في المتابعة؟",
+                "DeleteConfirmMessage": "هل ترغب في حذف العنصر المحدد نهائيًا؟",
+                "RevertChangesMessage": "سيتم فقدان جميع التغييرات في العناصر المحددة. هل ترغب في المتابعة؟",
+                "RecordLockedInSVNSuccessfully": "تم قفل السجل في SVN بنجاح",
+                "RecordUnlockedInSVNSuccessfully": "تم إلغاء قفل السجل في SVN بنجاح",
+                "MultiItemActionButton": "الإجراءات المتعددة",
+                "Columns": {
+                    "UId": "معرف UID",
+                    "Name": "الاسم",
+                    "Title": "العنوان",
+                    "Status": "الحالة",
+                    "Type": "نوع",
+                    "Object": "الكائن",
+                    "ModifiedOn": "تعديل في",
+                    "Package": "حزمة",
+                    "CreatedOn": "تم إنشاؤه على",
+                    "CreatedBy": "أنشأه",
+                    "ModifiedBy": "معدل من طرف"
+                },
+                "Add": {
+                    "Caption": "إضافة",
+                    "Sql": "سكريبت SQL",
+                    "SourceCode": "شفرة المصدر",
+                    "Entity": "الكائن",
+                    "ReplacingEntity": "استبدال الكائن",
+                    "ClientUnit": {
+                        "Module": "وحدة",
+                        "EditViewModelSchema": "نموذج عرض الصفحة",
+                        "AngularSchema": "صفحة واجهة المستخدم الحرة",
+                        "ModuleViewModelSchema": "نموذج عرض القسم",
+                        "GridDetailViewModelSchema": "نموذج عرض التفاصيل (القائمة)",
+                        "EditControlsDetailViewModelSchema": "نموذج عرض التفاصيل (الحقول)",
+                        "ExtendedClientUnitSchema": "استبدال نموذج العرض",
+                        "ExtendedAngularSchema": "استبدال نموذج العرض الزاوي"
+                    },
+                    "UserTask": "مهمة المستخدم",
+                    "BusinessProcess": "سيرورة العمل",
+                    "DataBinding": "البيانات",
+                    "Import": "استيراد",
+                    "RestService": "خدمة REST",
+                    "SoapService": "خدمة SOAP"
+                },
+                "Types": {
+                    "SqlScript": "سكريبت SQL",
+                    "SchemaData": "البيانات",
+                    "Assembly": "تجميع المراجع",
+                    "EntitySchema": "الكائن",
+                    "ClientUnitSchema": "وحدة العميل",
+                    "SourceCodeSchema": "شفرة المصدر",
+                    "ProcessSchema": "إجراءات الأعمال",
+                    "DcmSchema": "حالة",
+                    "ProcessUserTaskSchema": "مهمة المستخدم",
+                    "CampaignSchema": "حملة التسويق",
+                    "ServiceSchema": "خدمة الويب",
+                    "AddonSchema": "الإضافات",
+                    "CopilotIntentSchema": "Creatio.ai agent",
+                    "LocalizationSchema": "توطين"
+                },
+                "Status": {
+                    "NeedInstall": "يحتاج الى تثبيت في قاعدة البيانات",
+                    "NeedUpdateSourceCode": "تحديث شفرة المصدر مطلوب",
+                    "NeedUpdateStructure": "يتطلب تحديث قاعدة البيانات",
+                    "LockedInSVN": "مقفل في SVN",
+                    "UnlockedInSVN": "غير مقفل في SVN"
+                },
+                "Filters": {
+                    "Types": {
+                        "AllItems": "جميع العناصر",
+                        "Placeholder": "نوع"
+                    },
+                    "States": {
+                        "AllItems": "جميع العناصر",
+                        "Placeholder": "مرشحات",
+                        "Locked": "مقفل",
+                        "NeedActualization": "بحاجة إلى تفعيل",
+                        "Error": "يوجد خطأ"
+                    }
+                },
+                "DetailsDialog": {
+                    "Close": "أغلق",
+                    "PageTitle": "خصائص",
+                    "Title": "العنوان",
+                    "Name": "الاسم",
+                    "FullQualifiedName": "اسم التجميع المعتمد بالكامل",
+                    "DataObjectName": "الكائن",
+                    "CreatedBy": "أنشأه",
+                    "CreatedOn": "تم إنشاؤه على",
+                    "PackageName": "حزمة",
+                    "ParentCaption": "سبب",
+                    "ReplaceParent": "استبدال الأصل",
+                    "IsChanged": "معدَّل",
+                    "UId": "UId",
+                    "ModifiedBy": "معدل من طرف",
+                    "Id": "رقم التعريف",
+                    "ModifiedOn": "تعديل في",
+                    "ManagerName": "اسم المدير",
+                    "MetaDataModifiedOn": "تم تعديل البيانات الوصفية في",
+                    "Description": "الوصف",
+                    "IsLocked": "مقفل",
+                    "NeedUpdateDBStructure": "يتطلب تحديث قاعدة البيانات",
+                    "NeedInstall": "يحتاج الى تثبيت في قاعدة البيانات",
+                    "LastErrorText": "آخر رسالة خطأ",
+                    "LockedBy": "مقفل بواسطة",
+                    "DbStructureModifiedOn": "تم تعديل بنية قاعدة البيانات في",
+                    "IsNetStandard": "IsNetStandard",
+                    "LoadOnAppStart": "LoadOnAppStart",
+                    "UIdTooltip": "معرف عنصر التكوين الفريد. معرف عنصر التكوين يكون دائما كما هو في أي تطبيق",
+                    "IdTooltip": "هذا العمود هو المفتاح الرئيسي في جداول قاعدة البيانات. قد يكون معرف السجل مختلفًا في بعض التطبيقات المختلفة"
+                },
+                "InstallLocalizationConfirmMessage": "This action will install data localizations for records and overwrite the current runtime values. Do you want to proceed?"
+            },
+            "Actions": {
+                "Move": "النقل إلى حزمة أخرى",
+                "MovePackageAllElements": "نقل جميع العناصر",
+                "Blocks": {
+                    "SourceCode": "شفرة المصدر",
+                    "Actualization": "تفعيل العناصر",
+                    "DevInFileSystem": "وضع تطوير النظام",
+                    "VersionControl": "مستودعات SVN",
+                    "Packages": "حزم",
+                    "Validation": "الإعدادات",
+                    "CacheManagement": "Cache Management"
+                },
+                "Compile": "تجميع",
+                "CompileAll": "تجميع الكل",
+                "Edit": "تحرير",
+                "Delete": "حذف",
+                "MultiDelete": "حذف ({0})",
+                "MultiExport": "تصدير ({0})",
+                "Export": "تصدير",
+                "Update": "التحديث من المستودع",
+                "Commit": "الالتزام بالمستودع",
+                "Properties": "خصائص",
+                "UpdateDBStructure": "تحديث بنية قاعدة البيانات",
+                "MultiUpdateDBStructure": "تحديث كائنات بنية قاعدة البيانات",
+                "EditProcess": "عملية التعديل",
+                "GenerateSchemasSources": "إنشاء رمز المصدر",
+                "InstallSqlScripts": "تثبيت",
+                "MultiInstallSqlScripts": "تثبيت سكريبت SQL",
+                "InstallData": "تثبيت",
+                "MultiInstallData": "تثبيت البيانات",
+                "RevertChanges": "تجاهل التغييرات",
+                "InstallRequiredSqlScripts": "تثبيت سكريبت SQL عند الحاجة إليه",
+                "InstallRequiredData": "تثبيت البيانات عند الحاجة إليها",
+                "InstallRequiredSchemasDBStructure": "تحديث بنية قاعدة البيانات عند الحاجة إليها",
+                "OperationSuccessMessage": "تم نجاح العملية",
+                "GenerateRequiredSchemasSources": "الإنشاء وقت الحاجة إليه",
+                "GenerateModifiedSchemasSources": "إنشاء المخططات المعدّلة",
+                "GenerateAllSchemasSources": "إنشاء جميع المخططات",
+                "GenerateAllSchemasSourcesWasStarted": "بدأ النظام في إنشاء شفرة المصدر لجميع المخططات. سوف تتلقى إخطارًا في فريق الاتصال عندما تتم العملية بنجاح",
+                "LoadPackagesToFileSystem": "تحميل الحزم إلى نظام الملفات",
+                "LoadPackagesToDB": "تحديث الحزم من نظام الملفات",
+                "OpenRepositoriesList": "فتح قائمة المستودعات",
+                "RestoreFromRepository": "الاستعادة من المستودع",
+                "InstallPackageFromRepository": "تثبيت الحُزْمَة من المستودع",
+                "PackageDependenciesDiagram": "مخطط تبعيات الحزمة",
+                "ValidateWorkspace": "التحقق من الإعدادات",
+                "FileDesignModeInfo": "للتفعيل، حدد ملف إعدادات التطبيق:\n - مناسب لسمة تمكين عنصر وضع الملف (fileDesignMode)؛\n - غير مناسب لعلامة المحتوى المستخدم (UseStaticFileContent).",
+                "Confirmation": {
+                    "InstallRequiredSqlScripts": "سيتم تثبيت جميع العناصر التي تحتاج إلى تثبيت على قاعدة البيانات. هل تريد المتابعة؟",
+                    "InstallRequiredData": "سيتم تثبيت جميع العناصر التي تحتاج إلى تثبيت على قاعدة البيانات. هل تريد المتابعة؟",
+                    "InstallRequiredSchemasDBStructure": "سيتم تحديث بنية قاعدة البيانات لجميع المخططات التي تحتاج إلى تحديث. هل تريد المتابعة؟",
+                    "Compile": "سيتم تجميع مساحة العمل. هل تريد المتابعة؟",
+                    "CompileAll": "سيتم إعادة تجميع مساحة العمل. هل تريد المتابعة؟",
+                    "GenerateRequiredSchemasSources": "إنشاء الرموز المرجعية لجميع المخططات حيثما تدعو الحاجة إلى ذلك؟",
+                    "GenerateModifiedSchemasSources": "إنشاء رموز المصدر للمخططات المعدلة؟",
+                    "GenerateAllSchemasSources": "هل ترغب في إنشاء رموز المصدر لجميع المخططات؟ سيتم إرسال نتائج العملية إلى لوحة الاتصال",
+                    "ThirdPartyPublisher": "العنصر \"{0}\" إما يتم إنشاؤه بواسطة ناشر آخر أو تثبيته من أرشيف الملف. \n لا يمكن حفظ التغييرات على هذا العنصر. هل تريد المتابعة؟",
+                    "ValidateWorkspace": "قد تستغرق العملية بعض الوقت. هل ترغب في المتابعة؟",
+                    "ExportItems": "قد تستغرق العملية بعض الوقت. هل ترغب في المتابعة؟",
+                    "StartHotfix": "تم تصميم هذا الخيار من أجل التغييرات المهمة والطارئة. يتم إقفال الحزمة تلقائيًا بعد {0} دقيقة. يرجى التأكد من تقديم التغييرات لبيئة التطوير بعد إصلاح الحزمة العاجل(hotfix).\nهل أنت متأكد من رغبتك في تضمين إصلاح الحزمة العاجل (hotfix) في الحزمة؟",
+                    "FinishHotfix": "يرجى التأكد من تقديم التغييرات لبيئة التطوير بعد إصلاح الحزمة العاجل(hotfix).\nهل أنت متأكد من رغبتك في إقفال الحزمة؟",
+                    "Cache": {
+                        "Message": "This action will remove data from the IndexedDB cache storage for all users. This caching helps applications and pages load faster. After clearing, some pages may temporary load slower at first while the cache is rebuilt.",
+                        "Cancel": "إلغاء",
+                        "Clear": "واضح"
+                    }
+                },
+                "OpenMetaData": "فتح البيانات الوصفية",
+                "OpenSourceCode": "رمز المصدر المفتوح",
+                "LockPackageElement": "قفل العنصر في SVN",
+                "UnLockPackageElement": "فتح العنصر في SVN",
+                "LockPackage": "قفل الحزمة في SVN",
+                "UnLockPackage": "فتح الحزمة في SVN",
+                "GenerateAllSchemasSourcesSuccess": "تم إنشاء رمز المصدر لجميع المخططات",
+                "GenerateAllSchemasSourcesError": "تم الانتهاء من إنشاء رمز المصدر لبعض المخططات مع وجود خطأ. يمكن الوصول إلى رسائل الخطأ لكل مخطط في قائمة عناصر التكوين بعد إعادة التحميل. هل ترغب في إعادة تحميل عناصر الإعدادات؟",
+                "Deactivate": "تعطيل",
+                "Activate": "تنشيط",
+                "CompilationCompletedSuccessfully": "تم التجميع بنجاح",
+                "CompilationCompletedWithErrors": "تم التجميع مع وجود الأخطاء",
+                "OperationCompleted": "اكتملت العملية",
+                "StartHotfix": "فتح الاصلاح العاجل (hotfix)",
+                "FinishHotfix": "القفل بعد الاصلاح العاجل (hotfix)",
+                "ClearAllCache": "Clear IndexedDB cache for all users",
+                "InstallLocalizationInBackgroundSuccess": "Localization installation has started. You’ll receive a notification when it is complete",
+                "InstallLocalization": "تثبيت"
+            },
+            "WorkspaceSyncResultDialog": {
+                "Close": "أغلق",
+                "Title": "تغييرات",
+                "Error": "خطأ",
+                "ShowOnlyErrors": "عرض الأخطاء فقط",
+                "Columns": {
+                    "Name": "الاسم",
+                    "Type": "نوع",
+                    "Status": "الحالة",
+                    "ErrorText": "نص الخطأ"
+                }
+            },
+            "HotKey": "وحدة Hotkey",
+            "NoDataTitle": "الحزمة غير نشطة حاليًا.",
+            "NoDataText": "يمكنك التفعيل يدوياً. هذا سيمكن محتوياته ويتيح وظيفته للمستخدمين.",
+            "CompilationErrorsButton": {
+                "Title": "أخطاء التجميع"
+            }
+        },
+        "PackagePage": {
+            "Title": "خصائص الحزمة",
+            "Name": "الاسم",
+            "Description": "الوصف",
+            "Maintainer": "مشرف",
+            "MaintainerTooltip": "مطور الحزمة",
+            "PackageType": "التجميع في مجموعة منفصلة",
+            "RepositoryAddress": "عنوان المستودع",
+            "RepositoryVersion": "نسخة المستودع",
+            "PackageVersion": "نسخة الحزمة",
+            "DependenciesTab": "التبعيات",
+            "SysInformationTab": "معلومات النظام",
+            "PackageDependencyDetail": {
+                "DependsOnPackagesTitle": "بناء على الحزم",
+                "DependentPackagesTitle": "الحزم المستقلة",
+                "DependsOnPackagesTooltip": "الحزم التي تعتمد عليها الحزمة الحالية",
+                "DependentPackagesTooltip": "الحزم التي تعتمد على الحزمة الحالية",
+                "PackagesDialogCaption": "اختيار الحزمة",
+                "NameColumn": "الاسم",
+                "Maintainer": "مشرف",
+                "Remove": "إزالة",
+                "Blankslate": "لا توجد أي حزم",
+                "Add": "إضافة"
+            },
+            "SysInformation": {
+                "CreatedBy": "أنشأه",
+                "ModifiedBy": "معدل من طرف",
+                "CreatedOn": "تم إنشاؤه على",
+                "ModifiedOn": "تعديل في",
+                "UIDTooltip": "معرف الحزمة الفريد. يبقى معرف الحزمة دائما كما هو في أي تطبيق",
+                "IDTooltip": "هذا العمود هو المفتاح الرئيسي في جداول قاعدة البيانات. قد يكون معرف السجل مختلفًا في بعض التطبيقات المختلفة"
+            },
+            "RepositoryAuthorizationRequired": "تم إنهاء العملية. مطلوب المصادقة. هل تريد تسجيل الدخول الآن؟",
+            "CompilationRequired": "تجميع الإعدادات من أجل تطبيق الاختلافات",
+            "InstallationFlow": "خطوات التثبيت",
+            "InstallationFlowTab": {
+                "BeforePackageInstall": "قبل تثبيت الحزمة",
+                "BeforePackageInstallTooltip": "الإجراءات المرجو تنفيذها قبل تثبيت الحزمة",
+                "AfterPackageInstall": "بعد تثبيت الحزمة",
+                "AfterPackageInstallTooltip": "الإجراءات المرجو تنفيذها بعد تثبيت الحزمة",
+                "BeforePackageUninstall": "قبل حذف الحزمة",
+                "BeforePackageUninstallTooltip": "الإجراءات المرجو تنفيذها قبل حذف الحزمة",
+                "Blankslate": "لا توجد أي خطوات"
+            },
+            "InstallFlowPackageDetail": {
+                "Add": "إضافة",
+                "ScriptsDialogCaption": "اختر المخططات",
+                "ColumnNameCaption": "الاسم",
+                "ColumnTitleCaption": "العنوان",
+                "ColumnPositionCaption": "طلب",
+                "ColumnModifiedOnCaption": "تعديل في",
+                "Install": "تشغيل يدوي",
+                "Success": "تمت العملية بنجاح"
+            },
+            "InstallBehavior": "استخدام التفعيل الذكي",
+            "InstallBehaviorInfo": "يتم تثبيت الحزمة على البيئة ويتم تفعيلها تلقائياً عندما تكون جميع تبعياتها متاحة. ولا تتدخل التبعيات المفقودة في تثبيت الحزمة/التطبيق الذي يشمل الحزمة. يتم تنشيط الحزمة تلقائياً وتصبح متاحة للمستخدم بمجرد توفر جميع الإعتمادات. في حال لم تعد التبعيات متوفرة، يتم تعطيل الحزمة تلقائيًا."
+        },
+        "Errors": {
+            "AssemblyIsNotInitialized": "يرجى تجميع الإعدادات قبل استكمال العمل في كرياتيو Creatio.\nهل ترغب في التجميع الآن؟"
+        },
+        "PageTemplateLookup": {
+            "HeaderCaption": "اختر النموذج",
+            "Cancel": "إلغاء",
+            "Select": "حدد",
+            "WebPages": "Web pages",
+            "MobilePages": "Mobile app pages"
+        },
+        "DetailedMessageDialog": {
+            "Title": "تنبيه",
+            "OperationTitleMessage": "You are about to initiate an operation \"{0}\" that may result in temporary unavailability of the site for users. Please ensure the necessity of this action.",
+            "InternalBlockTitle": "Potential consequences:",
+            "InternalBlockFirstMessage": "Temporary restriction of access to specific features or the entire site",
+            "InternalBlockSecondMessage": "Possible disruption of ongoing processes and activities of other users",
+            "AdviseMessage": "If performing this operation in the production environment is unavoidable, we strongly recommend scheduling it during a designated maintenance window to minimize its impact on users.",
+            "ProceedActionQuestion": "Do you want to proceed with this operation now?",
+            "ExecuteOperationCaption": "Execute operation",
+            "GenerateAllSchemasSourcesAction": "Generate source code for all schemas",
+            "GenerateRequiredSchemasSourcesAction": "Generate source code where it is needed",
+            "GenerateModifiedSchemasSourcesAction": "Generate source code for modified schemas",
+            "DeleteAction": {
+                "WithConnectedApplications": {
+                    "Message": "The package will also be removed from the following apps:\n{0}",
+                    "InternalBlockMessage": "Package removal can make these apps lose functionality or become inoperative."
+                }
+            },
+            "DeactivateAction": {
+                "WithConnectedApplications": {
+                    "Message": "The package will also be deactivated in the following apps:\n{0}",
+                    "InternalBlockMessage": "Package deactivation can make these apps lose functionality or become inoperative."
+                }
+            }
+        }
+    },
+    "TableDialog": {
+        "Close": "أغلق",
+        "Cancel": "إلغاء"
+    },
+    "ErrorListDialogService": {
+        "CodeErrorListDialogCaption": "نتائج التجميع",
+        "FileNameColumn": "اسم الملف",
+        "ErrorTextColumn": "الوصف",
+        "ErrorNumberColumn": "شفرة",
+        "LineColumn": "خط",
+        "CodeValidationErrorListDialogCaption": "Cyclic dependencies detected",
+        "SourceColumn": "Element that references",
+        "ReferenceColumn": "Element being referenced",
+        "PackageColumn": "حزمة",
+        "AcademyHelpUrlCaption": " تعرف على المزيد في الأكاديمية",
+        "PackagePropertiesErrorDialogCaption": "Package dependency validation error",
+        "PackagePropertiesErrorMessage": "One or more validation issues prevent modifying the dependency list for this package. Review the list of issues below and resolve them before making changes.",
+        "ItemTypeColumn": "النوع",
+        "ItemNameColumn": "الاسم",
+        "DescriptionColumn": "الوصف",
+        "PackageNameColumn": "الحزمة",
+        "TypeColumn": "نوع العنصر"
+    },
+    "SchemaDesigners": {
+        "BaseDesignerPage": {
+            "SaveSuccessMessage": "تم حفظ السجل بنجاح",
+            "PublishSuccessMessage": "تم نشر السجل بنجاح",
+            "ChangeParentSchemaMessage": "هل تريد استخدام \"{0}\" كعنصر أصلي للكائن الحالي؟",
+            "DeleteParentSchemaMessage": "حذف العنصر الأصلي للكائن الحالي؟"
+        },
+        "BaseDesignerStructureService": {
+            "MiniPage": {
+                "NameTitle": "شفرة",
+                "PackageTitle": "حزمة",
+                "Apply": "تطبيق",
+                "Cancel": "إلغاء",
+                "Ok": "موافق",
+                "Caption": "العنوان",
+                "Description": "الوصف",
+                "Validations": {
+                    "RequiredNameCaption": "ادخل قيمة",
+                    "PatternNameCaption": "قيمة غير صالحة. استعمل الرموز: a-z، A-Z، 0-9.لا تبدأ بالرمز: 0-9",
+                    "PatternPrefixTemplate": "يجب أن يبدأ الرمز ببادئة \"{0}\""
+                }
+            }
+        },
+        "SchemaParameterMiniPage": {
+            "CardTitle": "معلمة",
+            "Title": "شفرة",
+            "Caption": "العنوان",
+            "Lookup": "عملية البحث",
+            "Value": "قيمة",
+            "Schema": "المخطط",
+            "Create": "إنشاء",
+            "Cancel": "إلغاء",
+            "Resulting": "النتيجة",
+            "Required": "مطلوب",
+            "ContainsPerformerId": "تحتوي على معرف الأداء",
+            "LazyLoad": "تحميل بطيء",
+            "Serializable": "حفظ حالة الكائن الحالية (Serializable)",
+            "CopyValue": "نسخ القيمة",
+            "Type": "نوع",
+            "Save": "حفظ",
+            "ProperyExistMessage": "تم التحقق من هذه الخاصية بالفعل في معلمة أخرى. يمكن استخدامها فقط في معلمة واحدة.",
+            "Validations": {
+                "RequiredNameCaption": "ادخل قيمة",
+                "PatternNameCaption": "قيمة غير صالحة. استعمل الرموز: a-z، A-Z، 0-9.لا تبدأ بالرمز: 0-9",
+                "DataValueTypeListContainsMessage": "الرجاء اختيار قيمة من القائمة"
+            }
+        },
+        "SqlSchemaDesignerPage": {
+            "Caption": "SQL",
+            "DependentScriptsCaption": "سكريبتات SQL المعتمدة",
+            "DependsOnScriptCaption": "يعتمد على سكريبتات SQL",
+            "SqlScriptValidateCaption": "تم التحقق من سكريبت SQL",
+            "Install": "تثبيت",
+            "ShouldSaveFirstTitle": "Save the script before installing",
+            "InstallSqlScriptsConfirmMessage": "This will install SQL script to the database. Do you wish to proceed?",
+            "InstallSuccessMessage": "تمت العملية بنجاح"
+        },
+        "SqlSchemaDesignerMiniPage": {
+            "Title": "سكريبت SQL",
+            "DbmsType": "نوع DBMS",
+            "InstallationType": "نوع التثبيت",
+            "BackwardCompatibilityConfirmed": "متوافق مع الخلفية",
+            "BackwardCompatibilityConfirmedLabelBeforeLink": "نصوص SQL المتوافقة مع الخلفية هي تلك التي تمتثل للتوصيات ",
+            "BackwardCompatibilityConfirmedLabelAfterLink": ". حدد مربع الاختيار هذا فقط إذا كان البرنامج النصي الخاص بك يمتثل لكل توصية",
+            "AcademyHelpUrlCaption": "محدد في مقالة منفصلة"
+        },
+        "MultiSelectSqlSchemasMiniPage": {
+            "Title": "اختر سكريبت SQL",
+            "TableColumn": {
+                "Name": "شفرة",
+                "Package": "حزمة"
+            }
+        },
+        "EntitySchemaDesigner": {
+            "EntitySchemaDesignerStructure": {
+                "InheritedColumnsCaption": "الأعمدة الموروثة",
+                "ColumnsCaption": "الأعمدة",
+                "IndexesCaption": "الفهارس",
+                "EventsCaption": "أحداث",
+                "SourceCodeCaption": "شفرة المصدر"
+            },
+            "Actions": {
+                "OpenEmbeddedProcess": "فتح العملية"
+            },
+            "EntityEditor": {
+                "GeneralGroup": {
+                    "Caption": "عام",
+                    "NameCaption": "شفرة",
+                    "TitleCaption": "العنوان",
+                    "PackageCaption": "حزمة",
+                    "DescriptionCaption": "الوصف",
+                    "NameTooltip": "Unique system name of the object schema.",
+                    "TitleTooltip": "Localizable object title displayed in the UI.",
+                    "PackageTooltip": "Package containing the object schema.",
+                    "DescriptionTooltip": "Localizable description of the object."
+                },
+                "ObjectSettings": {
+                    "Caption": "إعدادات الكائنات",
+                    "IdCaption": "رقم التعريف",
+                    "DisplayedValueCaption": "القيمة المعروضة",
+                    "ParentInHierarchyCaption": "الأصل في التسلسل الهرمي",
+                    "ChangeLogObjectNameCaption": "تغيير اسم كائن السجل",
+                    "LocalizationObjectNameCaption": "اسم كائن التعريب",
+                    "ImageCaption": "صورة",
+                    "SortingInListsCaption": "الفرز في القوائم",
+                    "OwnerCaption": "المالك",
+                    "PermissionObjectNameCaption": "اسم الكائن ذو الصلة بالأذونات",
+                    "ColorCaption": "اللون",
+                    "IdTooltip": "Primary key column that uniquely identifies object records.",
+                    "ImageTooltip": "Column that stores an image or icon for object records.",
+                    "DisplayedValueTooltip": "Column used as a record title when other objects reference the record.",
+                    "ParentInHierarchyTooltip": "Column that references the parent record for hierarchical structures.",
+                    "ChangeLogObjectNameTooltip": "Name of the object that stores the change log for this entity.",
+                    "LocalizationObjectNameTooltip": "Name of the object that stores localized values for this entity.",
+                    "OwnerTooltip": "Column used to automatically grant access rights to a record.",
+                    "PermissionObjectNameTooltip": "Name of the object that stores permission settings for this entity.",
+                    "ColorTooltip": "Column that stores the color for object records."
+                },
+                "InheritanceGroup": {
+                    "Caption": "التوارث",
+                    "ParentObjectCaption": "الكائن الأصل",
+                    "ExtendParent": "استبدال الأصل",
+                    "ParentObjectTooltip": "Parent object whose structure and behavior the current object inherits.",
+                    "ExtendParentTooltip": "Marks the schema as a replacing object that overrides the parent on the current inheritance level."
+                },
+                "BehaviorGroup": {
+                    "Caption": "السلوك",
+                    "isDBViewCaption": "يمثل بنية عرض قاعدة البيانات",
+                    "isVirtualCaption": "الافتراضي",
+                    "isTrackChangesInDBCaption": "تحديث سجل التغيير",
+                    "isSSPAvailable": "الكائن متاح كقسم على SSP",
+                    "useRecordDeactivationCaption": "السماح بتعطيل السجلات",
+                    "useLiveEditingCaption": "تفعيل تحديث البيانات المباشرة",
+                    "showInAdvancedModeCaption": "العرض في الوضع المتقدم فقط",
+                    "isDBViewTooltip": "Indicates that the object is based on a database view instead of a regular table.",
+                    "isVirtualTooltip": "Indicates that the object does not store data in a physical database table and is dynamically obtained from some alternative data sources.",
+                    "isSSPAvailableTooltip": "Makes the object accessible as a section for portal (SSP) users.",
+                    "useLiveEditingTooltip": "The record change automatically generates signals to all currently opened pages of the record, and they auto-refresh.",
+                    "useRecordDeactivationTooltip": "Lets users deactivate records without deleting them.",
+                    "isTrackChangesInDBTooltip": "Enables logging of object record changes.",
+                    "showInAdvancedModeTooltip": "Hides rarely used objects from the standard Studio view."
+                },
+                "AccessRights": {
+                    "Caption": "صلاحيات الوصول",
+                    "OperationsCaption": "عمليات",
+                    "ColumnsCaption": "الأعمدة",
+                    "RecordsCaption": "السجلات",
+                    "MasterRecordCaption": "كائن يقوم بتوريث أذونات الوصول من",
+                    "OperationsTooltip": "Enables access rights restrictions for record operations.",
+                    "ColumnsTooltip": "Enables access rights restrictions at the column level.",
+                    "RecordsTooltip": "Enables access rights restrictions at the individual record level.",
+                    "MasterRecordTooltip": "Object whose access permissions are inherited."
+                },
+                "HistoryColumns": {
+                    "Caption": "أعمدة السجل",
+                    "CreatedByCaption": "أنشأه",
+                    "CreatedOnCaption": "تم إنشاؤه على",
+                    "ModifiedByCaption": "معدل من طرف",
+                    "ModifiedOnCaption": "تعديل في",
+                    "CreatedByTooltip": "Column that stores the user who created the record.",
+                    "CreatedOnTooltip": "Column that stores the record creation date and time.",
+                    "ModifiedByTooltip": "Column that stores the user who last modified the record.",
+                    "ModifiedOnTooltip": "Column that stores the date and time of the last modification."
+                },
+                "Validations": {
+                    "RequiredNameCaption": "ادخل قيمة",
+                    "PatternNameCaption": "قيمة غير صالحة. استعمل الرموز: a-z، A-Z، 0-9.لا تبدأ بالرمز: 0-9.",
+                    "PatternPrefixTemplate": "يجب أن يبدأ الرمز ببادئة \"{0}\"",
+                    "DuplicateNameCaption": "الكائن ذو الرمز ذاته موجود مسبقاً"
+                },
+                "EntityBusinessRules": {
+                    "OpenBusinessRulesButtonCaption": "فتح قواعد العمل",
+                    "BusinessRulesDialogTitle": "قواعد العمل",
+                    "BusinessRulesDialogCancelButton": "إلغاء",
+                    "BusinessRulesDialogApplyButton": "تطبيق"
+                }
+            },
+            "ColumnEditor": {
+                "GeneralGroup": {
+                    "Caption": "عام",
+                    "NameCaption": "شفرة",
+                    "EnglishNameCaption": "شفرة",
+                    "TitleCaption": "العنوان",
+                    "DataTypeCaption": "نوع البيانات",
+                    "FormatCaption": "شكل",
+                    "ReferenceSchemaCaption": "عملية البحث",
+                    "DescriptionCaption": "الوصف",
+                    "RequiredCaption": "مطلوب",
+                    "DefaultValueCaption": "قيمة افتراضية",
+                    "CanMakeCopyCaption": "نسخ هذه القيمة عند نسخ السجلات",
+                    "IsMultiLineTextCaption": "نص متعدد الأسطر",
+                    "IsLocalizableTextCaption": "نص قابل للتعريب",
+                    "IsCascadeCaption": "عند حذف قيمة البحث:",
+                    "IsMaskedCaption": "عرض قناع الإدخال",
+                    "IsFormatValidationCaption": "التحقق من التنسيق",
+                    "isAutonumber": "الترقيم التلقائي",
+                    "EditCodeInfoIconCaption": "قد يتسبب تغيير الرمز في سلوك غير صحيح للمكونات ذات الصلة. يرجى استخدامه بحذر",
+                    "MaskTypeCaption": "Mask type",
+                    "MaskOperationCaption": "تصريح العملية",
+                    "UseSecondsCaption": "Show seconds",
+                    "IsAccentInsensitiveCaption": "Accent insensitive search (PostgreSQL only)",
+                    "NameTooltip": "Unique system name of the column.",
+                    "TitleTooltip": "Localizable column title shown in the UI.",
+                    "DataTypeTooltip": "Type of data stored in the column.",
+                    "DescriptionTooltip": "Localizable description of the column.",
+                    "RequiredTooltip": "Specifies that the column must not be empty.",
+                    "DefaultValueTooltip": "Value assigned automatically if no value is provided.",
+                    "CanMakeCopyTooltip": "Copies the column value when a record is copied.",
+                    "IsMultiLineTextTooltip": "Allows entering and displaying text in multiple lines.",
+                    "IsAccentInsensitiveTooltip": "Enables search without considering accent marks.",
+                    "IsLocalizableTextTooltip": "Lets the column store values in multiple languages.",
+                    "IsMaskedTooltip": "Shows an input mask for guided value entry.",
+                    "IsFormatValidationTooltip": "Validates the entered value against the expected format.",
+                    "IsCascadeTooltip": "Defines what happens to records in the current object when the referenced lookup value is deleted.",
+                    "UseSecondsTooltip": "Displays seconds in time values.",
+                    "ReferenceSchemaTooltip": "Object that provides values for the lookup column."
+                },
+                "BehaviorGroup": {
+                    "Caption": "السلوك",
+                    "UsageModeCaption": "وضع الاستخدام",
+                    "UpdateChangeLogCaption": "تحديث سجل التغيير",
+                    "IndexedCaption": "مفهرس",
+                    "SensitiveDataCaption": "يحتوي بيانات شخصية",
+                    "IndexedTooltip": "Creates an index for the column to improve search and filtering performance.",
+                    "SensitiveDataTooltip": "Marks the column as containing personal data.",
+                    "UpdateChangeLogTooltip": "Enables logging of changes for this column.",
+                    "UsageModeTooltip": "Controls the column availability mode in the application."
+                },
+                "RequirementType": {
+                    "NoCaption": "لا",
+                    "YesCaption": "نعم"
+                },
+                "UsageType": {
+                    "GeneralCaption": "عام",
+                    "AdvancedCaption": "متقدّم",
+                    "NoneCaption": "لا يوجد"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "ادخل قيمة",
+                    "PatternNameCaption": "قيمة غير صالحة. استعمل الرموز: a-z، A-Z، 0-9.لا تبدأ بالرمز: 0-9",
+                    "DuplicateNameCaption": "العمود ذو الرمز ذاته موجود مسبقاً",
+                    "PatternPrefixTemplate": "يجب أن يبدأ الرمز ببادئة \"{0}\""
+                },
+                "DataSourceGroup": {
+                    "DoNotControlIntegrityCaption": "عدم التحكم في التكامل",
+                    "DoNotControlIntegrityTooltip": "Disables integrity control for the lookup relationship."
+                },
+                "DefaultValueTypes": {
+                    "None": "لا يوجد",
+                    "Const": "ثابتًا",
+                    "Settings": "إعداد النظام",
+                    "SystemValue": "متغير النظام",
+                    "Sequence": "الترقيم التلقائي"
+                },
+                "DefaultValueDialog": {
+                    "Title": "قيمة افتراضية",
+                    "ValueTypeCaption": "نوع القيمة الافتراضية",
+                    "ValueCaption": "قيمة",
+                    "LookupValueRecordDeletedCaption": "تم حذف قيمة البحث",
+                    "Cancel": "إلغاء",
+                    "Ok": "موافق",
+                    "sequencePrefix": "البادئة",
+                    "sequenceNumberOfChars": "عدد الأرقام"
+                }
+            },
+            "IndexEditor": {
+                "GeneralGroup": {
+                    "Caption": "عام",
+                    "NameCaption": "شفرة",
+                    "UniqueCaption": "مميز",
+                    "GenerateNameAutomaticallyCaption": "إنشاء الاسم تلقائيًا",
+                    "NameTooltip": "Unique name of the index.",
+                    "UniqueTooltip": "Prevents duplicate combinations of values in indexed columns."
+                },
+                "IndexColumns": {
+                    "Caption": "أعمدة الفهرس",
+                    "AddIndexColumnsDialogCaption": "حدد عمود",
+                    "TitleCaption": "العنوان",
+                    "ColumnName": "شفرة",
+                    "SortingOrder": "فرز الطلب",
+                    "Blankslate": "لا توجد أعمدة في الفهرس"
+                },
+                "Validations": {
+                    "RequiredNameCaption": "ادخل قيمة",
+                    "PatternNameCaption": "قيمة غير صالحة. استعمل الرموز: a-z، A-Z، 0-9.لا تبدأ بالرمز: 0-9",
+                    "DuplicateNameCaption": "توجد صورة بنفس الرمز بالفعل"
+                }
+            },
+            "EntityColumnTypes": {
+                "TextCaption": "نص",
+                "NumberCaption": "الرقم",
+                "OtherCaption": "آخر",
+                "DateTimeCaption": "التاريخ/الوقت"
+            },
+            "EventsEditor": {
+                "EventGroupType": {
+                    "Add": "إضافة",
+                    "Saving": "حفظ",
+                    "Updating": "تحديث",
+                    "Delete": "الحذف",
+                    "Loading": "تحميل",
+                    "ColumnValues": "قيم الأعمدة"
+                },
+                "Events": {
+                    "Inserting": "قبل إضافة السجل",
+                    "Inserted": "بعد إضافة السجل",
+                    "Validating": "المصادقة",
+                    "Saving": "قبل حفظ السجل",
+                    "Saved": "بعد حفظ السجل",
+                    "SaveError": "خطأ في حفظ السجل",
+                    "Updating": "قبل تحديث السجل",
+                    "Updated": "بعد تحديث السجل",
+                    "Deleting": "قبل حذف السجل",
+                    "Deleted": "بعد حذف السجل",
+                    "DefColumnValuesSet": "حقل القيم الافتراضية",
+                    "Loading": "قبل تحميل البيانات",
+                    "Loaded": "بعد تحميل البيانات",
+                    "ColumnValueChanging": "قبل تغيير قيمة العمود",
+                    "ColumnValueChanged": "بعد تغيير قيمة العمود",
+                    "ColumnBinaryValuePackageLoading": "تحميل البث الثنائي للقيمة",
+                    "InsertingTooltip": "Triggered before a new record is added to the database.",
+                    "InsertedTooltip": "Triggered after a new record is successfully added to the database.",
+                    "ValidatingTooltip": "Triggered when record data is being validated before saving.",
+                    "SavingTooltip": "Triggered before any record changes are saved to the database.",
+                    "SavedTooltip": "Triggered after record changes are successfully saved to the database.",
+                    "SaveErrorTooltip": "Triggered when an error occurs while saving a record.",
+                    "UpdatingTooltip": "Triggered before an existing record is updated in the database.",
+                    "UpdatedTooltip": "Triggered after an existing record is successfully updated in the database.",
+                    "DeletingTooltip": "Triggered before a record is deleted from the database.",
+                    "DeletedTooltip": "Triggered after a record is successfully deleted from the database.",
+                    "DefColumnValuesSetTooltip": "Triggered when default values are assigned to record columns.",
+                    "LoadingTooltip": "Triggered before record data is loaded from the database.",
+                    "LoadedTooltip": "Triggered after record data is successfully loaded from the database."
+                }
+            },
+            "Addons": {
+                "BusinessRule": "قواعد العمل",
+                "RelatedPage": "Web pages",
+                "TimelineEntity": "الجدول الزمني",
+                "UseSchemaInTimelineCheckbox": "إظهار في الجدول الزمني بشكل افتراضي",
+                "RelatedPagesCaption": "إعداد الصفحات",
+                "Timeline": {
+                    "NoDisplayColumnNotify": "يجب تحديد قيمة العرض لعرض الكائن في الجدول الزمني"
+                },
+                "MobileRelatedPage": "Mobile app pages",
+                "PredefinedFilters": "Pre-defined filters",
+                "UseSchemaInTimelineCheckboxTooltip": "Displays records of this object in the Timeline component on related pages by default."
+            },
+            "SaveConfirmationDialog": {
+                "Save": "حفظ",
+                "DoNotSave": "لا تقم بالحفظ",
+                "Cancel": "إلغاء",
+                "Message": "سيتم حفظ جميع التغييرات. هل ترغب في الإستمرار؟?"
+            },
+            "DeleteConfirmationDialog": {
+                "BusinessRule": "هل تريد حذف قاعدة العمل؟"
+            },
+            "DisableAddonEditBeforeSchemaSaveTooltipText": "ستكون الإعدادات متاحة بعد حفظ الكائن الجديد"
+        },
+        "ClientUnitSchemaDesigner": {
+            "ClientUnitSchemaDesignerPage": {
+                "JsCaption": "جافا سكريبت JavaScript",
+                "LessCaption": "LESS",
+                "LocalizableStringsCaption": "المقاطع القابلة للتوطين",
+                "MessagesCaption": "رسائل",
+                "ImagesCaption": "الصور",
+                "ParametersCaption": "معلمات",
+                "Addons": {
+                    "BusinessRule": "قواعد العمل"
+                },
+                "OpenInterfaceDesigner": "فتح مصمم الواجهة",
+                "CantSaveSchemaWithErrors": "Unable to save due to a syntax error."
+            },
+            "ClientUnitDesignerMiniPage": {
+                "Title": "وحدة",
+                "CaptionTitle": "تعليق",
+                "ParentCaption": "الكائن الأصل",
+                "Validations": {
+                    "RequiredNameCaption": "ادخل قيمة"
+                },
+                "OpenDesigner": "فتح المصمم"
+            },
+            "ClientUnitCaptionsMiniPage": {
+                "Title": "التعليقات",
+                "Apply": "تطبيق",
+                "Cancel": "إلغاء"
+            },
+            "ClientUnitMessagesMiniPage": {
+                "Title": "رسالة",
+                "NameCaption": "شفرة",
+                "DirectionCaption": "الاتجاه",
+                "BroadcastCaption": "البث",
+                "AddressCaption": "العنوان",
+                "ModeCaption": "الوضع",
+                "SubscribeCaption": "الاشتراك",
+                "PublishCaption": "نشر",
+                "Add": "إضافة",
+                "Apply": "تطبيق",
+                "Cancel": "إلغاء",
+                "Validations": {
+                    "RequiredNameCaption": "ادخل قيمة",
+                    "PatternNameCaption": "قيمة غير صالحة. استعمل الرموز: a-z، A-Z، 0-9.لا تبدأ بالرمز: 0-9",
+                    "DuplicateNameCaption": "توجد بالفعل رسالة بنفس الرمز"
+                }
+            },
+            "ClientUnitImagesMiniPage": {
+                "Title": "صورة",
+                "NameTitle": "شفرة",
+                "CaptionTitle": "تعليق",
+                "ImageTitle": "صورة",
+                "UidTitle": "رقم التعريف",
+                "Add": "إضافة",
+                "Apply": "تطبيق",
+                "Cancel": "إلغاء",
+                "Validations": {
+                    "RequiredNameCaption": "ادخل قيمة",
+                    "PatternNameCaption": "قيمة غير صالحة. استعمل الرموز: a-z، A-Z، 0-9.لا تبدأ بالرمز: 0-9",
+                    "DuplicateNameCaption": "توجد بالفعل صورة بنفس الرمز"
+                }
+            }
+        },
+        "SourceCodeSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "المقاطع القابلة للتوطين",
+            "MetadataCaption": "واصفات البيانات",
+            "MetadataReadCaption": "البيانات الوصفية (قراءة)",
+            "ModifiedPackageCaption": "الحزمة المعدلة",
+            "RunButtonCaption": "تشغيل البرنامج النصي للتثبيت",
+            "RunSourceCodeCaption": "تمت العملية بنجاح"
+        },
+        "SourceCodeDesignerMiniPage": {
+            "Title": "شفرة المصدر",
+            "Description": "الوصف"
+        },
+        "SourceCodeCaptionsMiniPage": {
+            "Title": "التعليقات",
+            "Apply": "تطبيق",
+            "Cancel": "إلغاء"
+        },
+        "UserTaskCaptionsMiniPage": {
+            "Title": "التعليقات",
+            "Apply": "تطبيق",
+            "Cancel": "إلغاء",
+            "UserTask": "مهمة المستخدم",
+            "WithCustomEventHandler": "مع المعالجين المخصصين للأحداث",
+            "Partial": "جزئي",
+            "Serialize": "تسلسل في قاعدة البيانات",
+            "ParametersEditPage": "صفحة تعديل المعلمات",
+            "DcmParametersEditPage": "معلمات Dcm لتحرير الصفحة",
+            "Color": "اللون",
+            "SmallSvgImage": "صورة ناقلة صغيرة",
+            "LargeSvgImage": "صورة ناقلة كبيرة",
+            "TitleSvgImage": "الصورة الناقلة للعنوان",
+            "DcmSmallSvgImage": "صورة ناقلة صغيرة لـ DCM",
+            "PageInaccessibleFromPackageInfo": "الصفحة المحددة لا يمكن الوصول إليها من حزمة مهام المستخدم الحالية. يرجى إكمال تبعيات الحزمة أو تحديد الصفحة الأخرى لضمان تنفيذ مهمة المستخدم بشكل صحيح"
+        },
+        "UserTaskDesignerMiniPage": {
+            "Title": "مهمة المستخدم"
+        },
+        "UserTaskSchemaDesignerPage": {
+            "CsharpCaption": "C#",
+            "LocalizableStringsCaption": "المقاطع القابلة للتوطين",
+            "ParametersCaption": "معلمات",
+            "MetadataCaption": "واصفات البيانات",
+            "MetadataReadCaption": "البيانات الوصفية (قراءة)",
+            "ModifiedPackageCaption": "الحزمة المعدلة",
+            "InvalidClassNameConfirmationMessage": "خاصية مهمة المستخدم \"الكود\" لا تتطابق مع اسم التصنيف في رمز المصدر، ولا يمكن تنفيذ مهمة المستخدم من خلال الإعدادات الحالية. هل تريد متابعة الحفظ؟"
+        },
+        "MetaDataSchemaDesigner": {
+            "MetaDataCaption": "واصفات البيانات",
+            "HumanReadableMetaDataCaption": "البيانات الوصفية (قراءة فقط)",
+            "PackageDifferenceMetaDataCaption": "حزمة التعديلات"
+        },
+        "RelatedPagesDesigner": {
+            "RelatedPageLabel": "الصفحة الافتراضية",
+            "AddPageLabel": "أضف صفحة",
+            "ExternalPageCaption": "إعداد الصفحات للمستخدمين الخارجيين",
+            "RelatedPagesCaption": "إعداد الصفحات",
+            "DefaultPageSelectionTooltip": "حدد أو انشئ صفحة افتراضية للتحرير والقراءة وإنشاء السجلات.\nنوصي باستخدام صفحة واجهة المستخدم الحرة بالإضافة إلى الكائن الحالي المستخدم كمصدر للبيانات.",
+            "AddPageTooltip": "حدد أو أنشئ صفحة محددة ليتم استخدامها فقط لإضافة سجل جديد.",
+            "RelatedPageCombobox": {
+                "AddNewPage": "إضافة صفحة جديدة",
+                "OpenPageInDesignerTitle": "فتح مصمم الواجهة"
+            },
+            "DefaultPagePlaceholder": "الصفحة المخصصة للاستخدام في حال لم يتم تحديد صفحة أخرى",
+            "AddPagePlaceholder": "الصفحة المخصصة للاستخدام لإضافة السجلات"
+        }
+    },
+    "Tracking": {
+        "ValidationMessage": {
+            "InvalidValue": "قيمة غير صالحة",
+            "RequiredFieldValue": "ادخل قيمة",
+            "LongFieldValue": "تجاوز الحد الأقصى لطول النص (255)",
+            "InvalidNumberValue": "تنسيق الرقم غير صحيح"
+        },
+        "BaseItemMenuComponent": {
+            "Delete": "حذف",
+            "Edit": "تحرير"
+        },
+        "ConnectionDescription": {
+            "Checking": "تحقق",
+            "Connected": "متصل",
+            "Disconnected": "قطع الاتصال",
+            "Warning": "تحذير"
+        },
+        "ProjectsSection": {
+            "Add": "مشروع جديد",
+            "Title": "إعدادات تتبع الأحداث (المشاريع)",
+            "Columns": {
+                "Name": "اسم المشروع",
+                "Owner": "المالك",
+                "Description": "الوصف",
+                "CreatedOn": "تم الإنشاء",
+                "ModifiedOn": "آخر تحديث"
+            },
+            "BlankSlate": {
+                "Title": "هذا القطاع ليس له اي سجل.",
+                "Description": "إضافة سجل جديد لجعله يبدو أجمل."
+            }
+        },
+        "ProjectPage": {
+            "Detail": {
+                "Name": "اسم المشروع",
+                "Owner": "المالك",
+                "Description": "الوصف",
+                "CreatedOn": "تم الإنشاء",
+                "ModifiedOn": "آخر تحديث",
+                "TotalEvents": "مجموع الأحداث",
+                "ConversionRate": "نسبة التحويل",
+                "DefaultValues": {
+                    "Name": "مشروع جديد",
+                    "Description": "الوصف الجديد"
+                }
+            },
+            "ResourceDetail": {
+                "Header": "تتبع المصادر",
+                "Columns": {
+                    "Name": "اسم المصدر",
+                    "Status": {
+                        "Caption": "الحالة",
+                        "Active": "نشط",
+                        "Inactive": "غير نشط"
+                    },
+                    "Source": "المصدر",
+                    "CreatedOn": "تم الإنشاء",
+                    "ModifiedOn": "آخر تحديث"
+                }
+            }
+        },
+        "ResourcePage": {
+            "CreatedOn": "تم إنشاؤه على",
+            "ModifiedOn": "تعديل في",
+            "Name": "الاسم",
+            "Source": "رقم التعريف (رابط موقع الويب)",
+            "Active": "نشط",
+            "DefaultName": "مصدر جديد",
+            "DefaultSource": "https://example.com",
+            "Tabs": {
+                "TrackingCode": "رمز التتبع",
+                "GoalSettings": "إعدادات الهدف"
+            },
+            "BasicCodeTitle": "رمز التتبع الأساسي",
+            "CustomEventTab": "حدث مخصص",
+            "GoalDetail": {
+                "Header": "تتبع الأهداف",
+                "Columns": {
+                    "Name": "اسم الهدف",
+                    "EventTypeFilter": "فلتر نوع الحدث",
+                    "Status": {
+                        "Caption": "الحالة",
+                        "Active": "نشط",
+                        "Inactive": "غير نشط"
+                    },
+                    "Cost": "تكلفة الهدف"
+                }
+            },
+            "GoalEditiDialog": {
+                "Header": "إعدادات الهدف",
+                "Name": "اسم الهدف",
+                "UseEventCost": "استخدام تكلفة الحدث",
+                "Cost": "تكلفة الهدف",
+                "Active": "نشط",
+                "FilterSettings": "إعدادات فلتر الهدف",
+                "EventTypeFilter": "فلتر نوع الحدث",
+                "EventNameFilter": "فلتر اسم الحدث",
+                "EventValueFilter": "فلتر قيمة الحدث",
+                "EventCostFilter": "فلتر تكلفة الحدث",
+                "Actions": {
+                    "Save": "حفظ",
+                    "Cancel": "إلغاء"
+                },
+                "StringCondition": {
+                    "Equal": "يساوي",
+                    "Contains": "يحتوي",
+                    "BeginWith": "ابدأ بـ",
+                    "EndWith": "ينتهي بـ"
+                },
+                "NumberCondition": {
+                    "Equal": "يساوي",
+                    "LessOrEqual": "أقل أو يساوي",
+                    "MoreOrEqual": "أكثر أو يساوي"
+                }
+            }
+        },
+        "CodePane": {
+            "CopyToClipboard": "نسخ إلى الحافظة",
+            "OnCopiedToClipboard": "تم النسخ بنجاح"
+        },
+        "BaseTrackingCode": {
+            "Header": "رمز التتبع الأساسي",
+            "Loading": "تحميل...",
+            "InfoBlock": {
+                "Title": "مهم",
+                "Content": "يجب وضع رمز التتبع الأساسي لهذا المصدر على جميع صفحات الموقع.",
+                "LinkText": "تفاصيل حول إعداد رمز التتبع الأساسي"
+            },
+            "NotReady": "حفظ المصدر قبل الحصول على رمز التتبع."
+        },
+        "EventCodeGenerator": {
+            "Header": "رمز تتبع الحدث",
+            "Form": {
+                "EventType": "نوع الحدث",
+                "EventName": "اسم الحدث",
+                "EventValue": "قيمة الحدث",
+                "EventCost": "تكلفة الحدث"
+            },
+            "FormValidators": {
+                "EmptyForm": "فارغ...",
+                "InvalidForm": "التحقق من النموذج لكشف أي أخطاء..."
+            }
+        }
+    },
+    "SocialLeadgen": {
+        "ValidationMessage": {
+            "InvalidValue": "قيمة غير صالحة",
+            "RequiredFieldValue": "ادخل قيمة",
+            "LongFieldValue": "تجاوز الحد الأقصى لطول النص (255)",
+            "InvalidNumberValue": "تنسيق الرقم غير صحيح"
+        },
+        "IntegrationTypes": {
+            "LinkedIn": "LinkedIn",
+            "Facebook": "فيسبوك / إنستجرام",
+            "Undefined": "غير محددة"
+        },
+        "IntegrationSettings": {
+            "Header": {
+                "Title": "إعدادات"
+            },
+            "Detail": {
+                "Url": "الرابط للحصول على العملاء المحتملين",
+                "Group": "دور استلام الإشعارات"
+            },
+            "Notes": {
+                "Header": "ملاحظة",
+                "Text": "<p>عنوان URL للحصول على العملاء المحتملين - رابط الكرياتيو الذي سيتلقى العملاء المحتملين من حسابات الإعلانات المتصلة. يجب أن يكون موقع الكرياتيو متاحًا ليتمكن من تلقي الطلبات الواردة. إذا كنت تستخدم خادم البروكسي، قم بتحديد الرابط الوكيل بدلاً من رابط Creatio. إذا كان مثيل Creatio الخاص بك جزء من شبكة وصول مقيدة، ضع قائمة بيضاء بعناوين IP لخدمة الحصول على العملاء المحتملين.</p><p>دور لتلقي الإشعارات - الكرياتيو Creatio سيخطر المستخدمين ضمن هذا الدور في حالة أي فشل، مثل الأخطاء عند ربط حسابات الإعلانات أو إنشاء العملاء المحتملين.</p><p>تعرض علامة التبويب \"الاتصال\" قائمة حسابات الإعلانات والصفحات المتصلة بالكرياتيو Creatio. تتضمن القائمة حالات الاتصال الحالية على الصفحة والحساب ومستويات الرموز. يمكنك إدارة الاتصالات، على سبيل المثال، حذفها أو إعادة تعيينها.</p><p>تعرض علامة التبويب \"السجلات\" سجل التغيير الوظيفي لجذب العملاء المحتملين.</p>"
+            },
+            "Tabs": {
+                "Connection": "الاتصال",
+                "Logs": "السجلات"
+            },
+            "AutorouteMessage": "للمتابعة في العمل، يجب عليك ملء حقل \"رابط الحصول على العميل المحتمل\". تم ملء الحقل بشكل افتراضي بالعنوان الحالي للتطبيق من المتصفح. تأكد من إدخال عنوان التطبيق الصحيح وحفظ الإعدادات. يتم إنشاء هذه الإعدادات مرة واحدة عند فتح القسم لأول مرة.",
+            "Error": {
+                "FormValidation": "حدث خطأ أثناء محاولة حفظ الإعدادات. يرجى التحقق من جميع الحقول لمعرفة الخطأ.",
+                "Save": "فشل حفظ القيمة المدخلة في حقل \"رابط الحصول على العميل المحتمل\". يرجى التأكد من إدخال العنوان الصحيح والمتاح الوصول إليه خارجيًا للتطبيق."
+            },
+            "Logs": {
+                "IntegrationFilter": {
+                    "PlaceholderCaption": "التكامل",
+                    "EmptyOptionCaption": "جميع العناصر"
+                },
+                "DateColumnCaption": "التاريخ",
+                "IntegrationColumnCaption": "التكامل",
+                "DetailsColumnCaption": "تفاصيل",
+                "IntegrationNotFound": "غير موجود",
+                "GetIntegrationListError": "حدث فشل أثناء تحميل قائمة التكامل وتم إلغاء التحميل.",
+                "NoLogsMessage": "لا يوجد أي سجلات لعرضها حاليًا"
+            },
+            "FacebookPagesConnections": {
+                "Header": "صفحات منصة الفيسبوك",
+                "Blankslate": "لم يتم تكوين الاتصالات بالصفحات بعد."
+            },
+            "LinkedInAdAccountsConnections": {
+                "Header": "حسابات إعلانات Linkedin",
+                "Blankslate": "لم يتم تكوين الاتصالات بحسابات الإعلانات بعد.",
+                "AdAccountsTable": {
+                    "DeleteConfirmation": "هل أنت متأكد من رغبتك في حذف حساب الإعلان؟",
+                    "DeleteError": "هذا الحساب الإعلاني مرتبط بالتكامل. احذف التكامل وحاول مرة أخرى",
+                    "Headers": {
+                        "Name": "اسم الحساب",
+                        "Link": "الرابط",
+                        "ConnectionStatus": "حالة الاتصال",
+                        "ExpirationDate": "تاريخ الانتهاء"
+                    },
+                    "ConnectionStatuses": {
+                        "Active": "نشط",
+                        "Inactive": "غير نشط"
+                    },
+                    "ConnectionStatusErrorMessage": {
+                        "Inactive": "تعذر الوصول إلى حساب الإعلان. قم بتسجيل الدخول إلى Linkedin وقم بإعداد أذونات إلى الحسابات التي تحتاج إلى تكامل."
+                    },
+                    "UsersTable": {
+                        "DeleteConfirmation": "هل أنت متأكد من أنك تريد حذف الرمز المميز؟ قد يسبب ذلك مشاكل في الوصول إلى الحساب الإعلاني واسترجاع العملاء المحتملين",
+                        "Headers": {
+                            "UserName": "مستخدم الشبكة",
+                            "TokenStatus": "حالة الرمز",
+                            "ExpirationDate": "تاريخ الانتهاء",
+                            "HasAdAccountAccess": "توفير الوصول إلى الحساب"
+                        },
+                        "TokenStatuses": {
+                            "Active": "نشط",
+                            "Expired": "منتهي",
+                            "Revoked": "تم إنهاؤه",
+                            "Unknown": "غير معروف"
+                        },
+                        "HasAdAccountAccess": {
+                            "Yes": "نعم",
+                            "No": "لا"
+                        },
+                        "TokenStatusErrorMessage": {
+                            "Expired": "قم بتسجيل الدخول إلى LinkedIn ومنح أذونات حسابات الإعلان نيابة عن المستخدم الذي انتهت صلاحية الرمز المميز الخاص به.",
+                            "Revoked": "تم إنهاء الرمز المميز.\nالأسباب المحتملة: \n- تم استخدام هذا الحساب لتسجيل الدخول في حساب Creatio مختلف.\n- تم إلغاء الاتصال بتطبيق جذب العملاء المحتملين على LinkedIn.\nلحل هذه المشكلة، يرجى تسجيل الدخول إلى LinkedIn مرة أخرى والحصول على الأذونات لحسابات الإعلان نيابة عن المستخدم الذي تم إنهاء الرمز المميز الخاص به.",
+                            "Unknown": "تعذّر استرداد حالة الرمز المميز بسبب حدوث خطأ واحد أو أكثر أثناء الطلب. الرجاء تحديث الصفحة."
+                        },
+                        "MenuCell": {
+                            "Delete": "حذف",
+                            "Reconnect": "إعادة الاتصال"
+                        }
+                    }
+                }
+            }
+        },
+        "IntegrationSection": {
+            "DeleteConfirmation": "هل أنت متأكد من أنك تريد حذف هذا التكامل؟ لم يستطع Creatio استرداد العملاء المحتملين الجدد منه",
+            "DeleteError": "تعذّر حذف التكامل والوصول إلى حساب الإعلان. يرجى منح الوصول إلى حساب الإعلان ذو الصلة وإعادة المحاولة",
+            "Header": {
+                "Title": "التكامل بين القيادات الاجتماعية",
+                "Buttons": {
+                    "New": "جديد",
+                    "Logs": "السجلات",
+                    "Settings": "إعدادات"
+                }
+            },
+            "Columns": {
+                "Name": "الاسم",
+                "Type": "نوع",
+                "IsActive": "نشط",
+                "IntegrationSectionItemMenu": {
+                    "Delete": "حذف",
+                    "Activate": "تنشيط",
+                    "Deactivate": "تعطيل"
+                }
+            },
+            "BlankSlate": {
+                "Description": "لا يوجد لديك أي تكامل."
+            }
+        },
+        "IntegrationPage": {
+            "ToggleStateCaptions": {
+                "Active": "نشط",
+                "Inactive": "غير نشط"
+            },
+            "Header": {
+                "Buttons": {
+                    "Logs": "السجلات",
+                    "Settings": "إعدادات"
+                }
+            },
+            "Error": {
+                "Save": "غير قادر على تعديل الإعدادات. تأكد من تعيين حقول الكائن المطلوبة وتحديد الإعدادات الكليّة \"حقول النموذج غير المخطط\".",
+                "FormSelection": "غير قادر على تعديل الإعدادات. تأكد من تعيين حقول الكائن المطلوبة وتحديد الإعدادات الكليّة \"حقول النموذج غير المخطط\"."
+            },
+            "BlankSlate": {
+                "Title": "لم نتمكن من العثور على النماذج النشطة في حساب الإعلان المحدد.",
+                "Description": "يرجى إنشاء نموذج أساسي أو اختيار حساب آخر لإعداده."
+            },
+            "BlankSlateError": {
+                "Title": "تعذّر الوصول للحساب.",
+                "Description": "حاول تسجيل الدخول ومنح حق الوصول مرة أخرى."
+            },
+            "Detail": {
+                "Name": "الاسم",
+                "FacebookPage": "صفحة الفيسبوك",
+                "LinkedinAdAccount": "حساب لينكد إن",
+                "DeactivateConfirmationQuestion": "هل أنت متأكد من رغبتك في إلغاء تنشيط اشتراكك؟ سيتوقف نقل العملاء المحتملين من جميع النماذج. وسيصبح الوضع الجديد ساري المفعول بعد حفظ التغييرات على مستوى بطاقة التكامل."
+            },
+            "IntegrationSettings": {
+                "FacebookIsNotSet": "لم يتم دمج فيسبوك.",
+                "LinkedInIsNotSet": "لم يتم تعيين تكامل Linkedin.",
+                "Create": "إعداد التكامل",
+                "DefaultIntegrationRecordName": "الدمج الجديد لجذب العميل المحتمل"
+            },
+            "InfoBlock": {
+                "Title": "ملاحظة",
+                "Text": "جميع النماذج للصفحة المحددة مرتبطة بالكرياتيو Creatio. عدّل الإعدادات الافتراضية لجميع النماذج على علامة التبويب لتكون \"الإعدادات الافتراضية\". يمكن إعداد الإعدادات المميزة لكل نموذج على علامة التبويب \"النماذج\"."
+            },
+            "ColumnMapping": {
+                "ExpansionPanelCaption": "التخطيط الافتراضي",
+                "Object": "الكائن",
+                "AddMapping": "إضافة",
+                "Hint": "تطبق الكرياتيو Creatio التخطيط الافتراضي على جميع نماذج حسابات الإعلانات.\nتطبق الإعدادات فقط على أعمدة النماذج من خلال معلومات ملف المستخدم.\nيمكنك تحديد الأسئلة المخصصة وصناديق الاختيار المخصصة والحقول المخفية على نموذج صفحة السجل. اختر صندوق الاختيار \"التحديد المخصص\" لتفعيل هذه الخاصية.\nوحدات ماكرو الخاصة بـ\"الحقول غير المحددة\" تمكنك من تخطي قيم جميع الأعمدة وصولاً إلى عمود الكائن الفردي.",
+                "DataTypes": {
+                    "Lookup": "عملية البحث",
+                    "Text": "نص",
+                    "Boolean": "قيمة منطقية",
+                    "DateTime": "التاريخ",
+                    "Date": "التاريخ",
+                    "Time": "الوقت",
+                    "Number": "الرقم",
+                    "Macro": "وحدات الماكرو"
+                },
+                "FieldMenuCaptions": {
+                    "FormField": "حقل النموذج",
+                    "Text": "قيمة النص",
+                    "Boolean": "القيمة المنطقية",
+                    "Lookup": "قيمة البحث",
+                    "Other": "آخر"
+                },
+                "LinkedIn": "LinkedIn",
+                "BooleanValue": {
+                    "True": "صحيح",
+                    "False": "خاطئ"
+                },
+                "UnmappedMacroValue": "حقول النموذج غير المحددة",
+                "LookupValueUnknown": "<not found>",
+                "ModalBox": {
+                    "SetButtonCaption": "حدد",
+                    "CancelButtonCaption": "إلغاء",
+                    "SelectFormCaption": "التحديد من الحقل",
+                    "EnterTextValueCaption": "أدخل القيمة"
+                }
+            },
+            "Logs": {
+                "ExpansionPanelCaption": "السجلات",
+                "NoLogsForIntegrationMessage": "لا توجد سجلات لهذا الدمج",
+                "ShowMoreButtonCaption": "إظهار المزيد",
+                "Types": {
+                    "Info": "المعلومات",
+                    "Warning": "تحذير",
+                    "Error": "خطأ"
+                }
+            },
+            "FormsList": {
+                "Header": "النماذج",
+                "LinkedInStatus": "حالة لينكد إن",
+                "Hint": "تتخطى إعدادات التحديد المخصص إعدادات التحديد الافتراضي. حدد كل نموذج على حدة. في حال قمت بإلغاء تفعيل التحديد المخصص، ستقوم الكرياتيو Creatio بتطبيق إعدادات التحديد الافتراضي على النموذج.",
+                "FormStatus": {
+                    "Archived": "مؤرشف",
+                    "Pending": "معلق",
+                    "Approved": "موافق عليه",
+                    "Preapproved": "موافق عليه مسبقا",
+                    "Rejected": "مرفوض",
+                    "NeedsReview": "يحتاج إلى المراجعة والعرض",
+                    "AutoApproved": "تمت الموافقة تلقائياً",
+                    "AutoRejected": "تم الرفض التلقائي",
+                    "Undefined": "غير محددة",
+                    "NotActive": "غير نشط"
+                },
+                "MappingType": {
+                    "DefaultMapping": "التحديد الافتراضي",
+                    "CustomMapping": "التحديد المخصص"
+                },
+                "BlankSlate": {
+                    "Description": "يتم تطبيق إعدادات التحديد الافتراضية لهذا النموذج."
+                },
+                "DeactivateFormConfirmationQuestion": "هل أنت متأكد من أنك تريد إلغاء الاشتراك من تلقي العملاء المحتملين من هذا النموذج في الكرياتيو Creatio؟ وسيصبح الوضع الجديد ساري بعد أن يتم حفظ التغييرات على مستوى بطاقة التكامل.",
+                "ObjectsTitle": {
+                    "Lead": "قيادة"
+                }
+            },
+            "IntegrationSyncInfo": {
+                "Header": "معلومات المزامنة المحتملة",
+                "UnableToAdAccountAccess": "تعذر الوصول إلى الحساب. توقف المزامنة المحتملة.",
+                "SaveIntegration": "الرجاء حفظ التكامل وتحديث الصفحة لتلقي الإشعارات عن حالة المزامنة المحتملة.",
+                "SubscriptionInactive": "اشتراك العميل المحتمل غير نشط لحساب الإعلان المحدد. تم إيقاف المزامنة المحتملة. سوف يستعيد تفعيل الاشتراك استلام العملاء المحتملين في الكرياتيو Creatio.",
+                "SubscriptionActive": "اشتراك العميل المحتمل نشط لحساب الإعلان المحدد. سيتم نقل العملاء المحتملين الذين تم إنشاؤهم على LinkedIn إلى الكرياتيو."
+            },
+            "DownloadLeads": {
+                "ForForm": {
+                    "ButtonCaption": "مزامنة العملاء المحتملين",
+                    "ModalBoxTitle": "انقر فوق \"مزامنة\" لتحميل العملاء المحتملين للنموذج لهذه الفترة. يتم حساب الفترة بغض النظر عن حالة الاشتراك الرئيسي للنموذج في ذلك الوقت."
+                },
+                "ForAdAccount": {
+                    "ButtonCaption": "مزامنة جميع العملاء المحتملين",
+                    "ModalBoxTitle": "انقر فوق \"مزامنة\" لتحميل العملاء المحتملين للحساب الإعلاني لهذه الفترة. يتم حساب الفترة بصرف النظر عن حالة الاشتراك المحتمل للحساب في ذلك الوقت. لن تعيد الكرياتيو Creatio تحميل العملاء المحتملين الذين قمت بمزامنتهم بالفعل."
+                },
+                "ModalBox": {
+                    "InformationText": "عملاء متجر لينكيدين المحتملين لفترة 90 يومًا.",
+                    "CancelButtonCaption": "إلغاء",
+                    "DownloadButtonCaption": "المزامنة",
+                    "SuccessRunBusinessProcessInfoText": "بدأت عملية تحميل العميل المحتمل. قد يستغرق الأمر بعض الوقت حتى تنتهي العملية.",
+                    "UnknownFailedRunBusinessProcessInfoText": "فشل في بدء عملية تحميل العميل المحتمل. الرجاء المحاولة مرة أخرى لاحقاً. إذا استمر خطأ بدء التشغيل، يمكنك الاتصال بالدعم الفني."
+                }
+            }
+        },
+        "SocialMediaProvider": {
+            "New": "تكامل جديد",
+            "RestoreAccess": "استعادة إمكانية الوصول"
+        },
+        "IntegrationError": {
+            "InvalidScope": "غير قادر على الاتصال بخدمة جذب العميل المحتمل. ليس لدى حساب المستخدم في خدمة جذب العميل المحتمل أي أذونات أساسية. يرجى الاتصال بفريق الدعم الخاص بـ Creatio لإصلاح هذه المشكلة.",
+            "InvalidClient": "غير قادر على الاتصال بخدمة جذب العميل المحتمل. هناك قيم غير متوقعة في إعدادات نظام \"معرف عميل خادم الهوية\" و \"الرقم السري لعميل خادم الهوية\". يرجى الاتصال بفريق الدعم الخاص بـ Creatio لإصلاح هذه المشكلة.",
+            "InvalidSettings": "غير قادر على الاتصال بخدمة جذب العميل المحتمل: إعدادات النظام التالية فارغة: \"رابط خادم الهوية\"، \"رقم تعريف عميل خادم الهوية\"، \"الرقم السري لعميل خادم الهوية\".",
+            "GeneralError": "غير قادر على الاتصال بخدمة جذب العميل المحتمل. يرجى تحديث الصفحة أو التواصل مع فريق الدعم الخاص بـ Creatio في حال ظلت المشكلة كما هي ولم يتم حلّها."
+        }
+    },
+    "QueueSorting": {
+        "QueueSectionHeader": "إعدادات الفرز في قائمة الانتظار",
+        "AddQueueObjectCaption": "إضافة كائن قائمة الانتظار",
+        "QueueObjectCaption": "كائن قائمة الانتظار",
+        "QueueTypeCaption": "نوع قائمة الانتظار",
+        "BlindQueue": "قائمة الانتظار غير الواضحة",
+        "RegularQueue": "قائمة الانتظار العادية",
+        "AddQueueSortObjectCaption": "إضافة كائن فرز",
+        "Empty": "فارغ",
+        "RequiredFieldValue": "حدد كائن قائمة الانتظار",
+        "QueueObjectLookup": {
+            "NameColumnCaption": "العنوان",
+            "Title": "البحث عن كائن قائمة الانتظار"
+        },
+        "QueueObjectColumnLookup": {
+            "NameColumnCaption": "العنوان",
+            "Title": "البحث عن عمود تصنيف كائن الفرز"
+        },
+        "QueueObjectColumnPage": {
+            "AddQueueObjectColumn": "إضافة عمود",
+            "SortDirection": "فرز الطلب",
+            "SelectColumn": "العمود",
+            "RequiredFieldValue": "لم يتم ملء الحقول المطلوبة"
+        },
+        "QueueObjectTable": {
+            "Actions": {
+                "Delete": "حذف",
+                "Edit": "إعدادات"
+            },
+            "RemoveToolTip": "لا يمكن للـ Creatio حذف كائن الفرز لأن قوائم الانتظار الموجودة تستخدمه"
+        },
+        "QueueObjectColumnTable": {
+            "Caption": "ترتيب الأعمدة",
+            "ColumnCaption": "تعليق",
+            "SortDirection": "اتجاه الترتيب",
+            "Position": "الأولوية",
+            "Empty": "لم تتم إضافة ترتيب الأعمدة",
+            "Actions": {
+                "Delete": "حذف",
+                "Edit": "تحرير"
+            }
+        },
+        "OrderDirection": {
+            "Ascending": "تصاعدي",
+            "Descending": "منحدر",
+            "None": "لا يوجد"
+        }
+    },
+    "ChatSettings": {
+        "ChatSettingsPageHeader": "الدردشات",
+        "ChannelDetail": {
+            "DeleteAction": "حذف",
+            "DeleteRecordErrorMessage": "تعذر حذف السجلات المحددة",
+            "Title": "قنوات",
+            "Columns": {
+                "Name": "الاسم",
+                "Status": {
+                    "Caption": "نشط"
+                },
+                "Queue": "قائمة الانتظار",
+                "Provider": "المزود"
+            },
+            "FacebookSettings": {
+                "InvalidSettings": {
+                    "Message": "تعذر إضافة قناة. يمكنك العثور على متطلبات الإعداد في",
+                    "Link": {
+                        "Text": "المادة."
+                    }
+                }
+            }
+        },
+        "ChannelPage": {
+            "Name": "الاسم",
+            "Token": "الرمز",
+            "WebhookUrl": "الرابط",
+            "Status": "الحالة",
+            "Queue": "قائمة الانتظار",
+            "Language": "اللغة",
+            "ChannelProcessingGroup": "معالجة القناة",
+            "NewChannelCaption": "{0} قناة جديدة",
+            "InactiveChannelMessage": "لاستلام الرسائل، يجب عليك تنشيط القناة وتحديد قائمة الانتظار للمعالجة. هل أنت متأكد من أنك تريد إضافة قناة غير نشطة؟",
+            "FacebookPageLinkCaption": "صفحة الفيسبوك",
+            "ActiveChannelCaption": "نشط",
+            "Telegram": {
+                "TelegramPageLinkCaption": "قناة تيليجرام",
+                "InvalidTelegramToken": "أدخل الرمز المميز الصحيح لإنشاء قناة",
+                "TelegramTokenAlreadyExists": "القناة موجودة بالفعل للرمز المميز الذي تم إدخاله",
+                "ActiveWebhookErrorMessageForCreating": "Unable to create the channel because a webhook integration is set up for the Telegram bot. Please delete the webhook integration to add the channel."
+            },
+            "Tips": {
+                "Language": "تختار Creatio اللغة المختارة كلغة مفضلة من جهات الاتصال التي تم إنشاؤها من خلال هذه القناة. يمكنك فقط تحديد اللغات النشطة. انتقل إلى البحث عن اللغات للتنشيط أو التعطيل",
+                "WhatsAppToken": "أدخل رمز المحرر الخاص بحساب تويليو Twilio الخاص بك.",
+                "WhatsAppId": "أدخل حساب تويليو الخاص بك SID.",
+                "WhatsAppTestPhoneNumber": "رقم الهاتف الذي سيتم إرسال رسالة اختبار إليه لتأكيد القناة."
+            },
+            "WhatsApp": {
+                "PageLinkCaption": "قناة واتساب",
+                "ApplicationId": "رقم تعريف التطبيق",
+                "ChannelPhoneNumber": "رقم الهاتف",
+                "IntegrationPhoneNumber": "رقم الهاتف للتحقق",
+                "Connect": "الاتصال",
+                "InvalidPhoneNumber": "السماح بالأرقام فقط",
+                "ChannelDuplicatedErrorMessage": "القناة موجودة بالفعل لرقم الهاتف الذي تم إدخاله",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "لقد قمت بإدخال حساب تويليو Twilio غير صحيح",
+                    "InvalidAccountPhoneNumberException": "لقد أدخلت رقم هاتف الواتساب غير الصحيح",
+                    "AuthenticateException": "لقد أدخلت زمرًا غير صحيح"
+                }
+            },
+            "ValidationMessage": {
+                "required": "أدخل القيمة",
+                "wrongValue": "قيمة خاطئة"
+            },
+            "ErrorCodes": {
+                "ActiveWebhook": "The “{{channelName}}” chat channel is not receiving messages because a webhook integration is set up for the Telegram bot. Please delete the webhook integration and activate this channel to enable message reception.",
+                "PollingConflict": "The “{{channelName}}” chat channel is not receiving messages because another Telegram bot instance is configured. Please delete the duplicate instance to enable message reception."
+            },
+            "Sms": {
+                "ChannelDuplicatedErrorMessage": "القناة موجودة بالفعل لرقم الهاتف الذي تم إدخاله",
+                "ErrorMessages": {
+                    "InvalidAppSidException": "لقد قمت بإدخال حساب تويليو Twilio غير صحيح",
+                    "InvalidAccountPhoneNumberException": "You entered an invalid phone number",
+                    "AuthenticateException": "لقد أدخلت زمرًا غير صحيح"
+                }
+            },
+            "Twilio": {
+                "ErrorMessages": {
+                    "ValidationException": "Unable to connect to Twilio. Please check that your account SID and token are correct and try again."
+                }
+            }
+        },
+        "ChatQueueDetail": {
+            "Title": "قوائم انتظار الدردشة",
+            "Columns": {
+                "Name": "الاسم",
+                "Routing": {
+                    "Caption": "قاعدة توجيه"
+                },
+                "Simultaneous": "الدردشات المتزامنة",
+                "Timeout": "انتهاء مهلة الدردشة، دقائق"
+            }
+        },
+        "ChatActionsDetail": {
+            "Title": "إجراءات الدردشة",
+            "Columns": {
+                "Caption": "تعليق",
+                "Process": "العملية",
+                "Queue": "قائمة الانتظار"
+            },
+            "Actions": {
+                "Delete": "حذف"
+            }
+        },
+        "ChatQueuePage": {
+            "Title": "قائمة الانتظار",
+            "Name": "الاسم",
+            "OperatorRoutingRule": "قاعدة توجيه",
+            "SimultaneousChats": "الدردشات المتزامنة",
+            "TimeToWaitInQueue": "وقت الانتظار في قائمة الانتظار",
+            "Timeout": "مهلة إكمال الدردشة، دقائق",
+            "Tips": {
+                "SimultaneousChats": "الحد الأقصى لعدد الدردشات لكل مشغل",
+                "Timeout": "الحد الأقصى لوقت الانتظار قبل أن تكتمل المحادثة تلقائياً"
+            },
+            "ValidationMessage": {
+                "required": "أدخل القيمة",
+                "wrongValue": "قيمة خاطئة",
+                "nonNegativeValue": "لا يمكن توفير قيمة سالبة",
+                "nonNumericValue": "لا يمكن توفير قيمة غير رقمية"
+            }
+        },
+        "ChatActionPage": {
+            "Title": "إجراء الدردشة",
+            "Caption": "تعليق",
+            "Process": "العملية",
+            "ChatQueue": "قائمة انتظار الدردشة",
+            "ValidationMessage": {
+                "required": "ادخل القيمة"
+            }
+        },
+        "ChatQueueOperatorDetail": {
+            "Title": "وكلاء قائمة الانتظار",
+            "Columns": {
+                "Operator": {
+                    "Caption": "المستخدم / الدور"
+                }
+            },
+            "DuplicationMessage": "يوجد دور مسبقاً. الرجاء اختيار مشغل آخر / دور آخر للمتابعة"
+        }
+    },
+    "IntegrationDiagnostics": {
+        "EmailListener": {
+            "Header": "تشخيص خدمة مستمع البريد الإلكتروني",
+            "MailBoxAvailabilityCheck": "التحقق من صحة صندوق البريد",
+            "ExchangeListenerAvaibilityCheck": "التحقق من توافر الخدمة",
+            "GetSubscriberInfo": "استلام معلومات الاشتراك",
+            "StartDiagnosticButtonCaption": "تفعيل التشخيصات",
+            "StartFullDiagnosticButtonCaption": "تفعيل التشخيصات الكاملة",
+            "MailBoxLookupCaption": "علبة البريد",
+            "SuccessfulOperation": "عملية ناجحة",
+            "UnSuccessfulOperation": "خطأ",
+            "ELAvailabilityDescription": "خدمة مستمع البريد الإلكتروني متاحة لهذا الموقع",
+            "ELNotAvailabilityDescription": "خدمة مستمع البريد الإلكتروني غير متاحة لهذا الموقع في الوقت الحالي",
+            "ValidateCreatioExchangeEndpoint": "التحقق من صحة ملء إعدادات النظام BpmonlineExchangeEventsEndpointUrl",
+            "CreatioExchangeEndpontErrorValidationInfoTemplate": "نقطة النهاية غير صالحة\nالقيمة المتوقعة: {0}/NewEmail\nالقيمة الفعلية: {1}\nتحقق من إعداد النظام BpmonlineExchangeEventsEndpointUrl ممتلئ!",
+            "CreatioExchangeEndpontSuccessValidationInfoTemplate": "نقطة النهاية {0} صحيحة",
+            "SendTestEmail": "اختبار بريد الارسال",
+            "MailboxAvailabilityDiagnosticTooltip": "الحاجة إلى ملء صندوق البريد",
+            "MailboxDiagnosticSuccessDescriptor": "تم التحقق من صندوق البريد بنجاح",
+            "NameCaption": "الاسم",
+            "FeaturesStateLabel": "حالة الخصائص",
+            "ExchangeListenerEnabledFeatureCaption": "تبادل مزامنة صندوق البريد (تمكين تبادل الاستماع ExchangeListenerEnabled)",
+            "EmailIntegrationV2FeatureCaption": "تبادل ومزامنة صناديق البريد الخاصة ببروتوكول الوصول إلى رسائل الإنترنت (IMAP) (EmailIntegrationV2)",
+            "SendEmailsV2FeatureCaption": "إرسال رسائل البريد الإلكتروني (SendEmailsV2)",
+            "OldEmailIntegrationFeatureCaption": "تكامل البريد الإلكتروني القديم (OldEmailIntegrationFeature, الحالة معطلة)",
+            "IsMailboxSyncSettingsCachedFeatureCaption": "التخزين المؤقت لإعدادات مزامنة صندوق البريد (IsMailboxSyncSettingsCach)",
+            "ExchangeListenerAvailabilityCheck": "التحقق من توافر الخدمة",
+            "ApplicationAvailabilityDescription": "استطاع مستمع البريد الإلكتروني الوصول إلى الكرياتيو Creatioي",
+            "DiagnosticWasNotStarted": "لم يتم البدء في التشخيص"
+        }
+    },
+    "StructureExplorerDialog": {
+        "NoData": "لا توجد بيانات",
+        "Title": "حدد الحقل",
+        "CancelButtonCaption": "إلغاء",
+        "SelectButtonCaption": "حدد",
+        "RelatedObjectsTabCaption": "الكائنات ذات الصلة {0}",
+        "FieldsTabCaption": "{0} حقول {1}",
+        "SearchPlaceHolder": "بحث",
+        "SearchClearIconTitle": "Clear search"
+    },
+    "EntityColumnValuePickerProvider": {
+        "ValueFromFieldCaption": "القيمة المدخلة من حقل آخر"
+    },
+    "FormulaValuePickerProvider": {
+        "ValueFromFieldCaption": "صيغة",
+        "CancelButtonCaption": "إلغاء",
+        "SelectButtonCaption": "حفظ",
+        "DialogTitleCaption": "تعبير الصيغة"
+    },
+    "RepositorySection": {
+        "Title": "قائمة مستودعات SVN",
+        "Actions": {
+            "Add": "إضافة",
+            "Edit": "تحرير",
+            "Authorize": "المصادقة",
+            "Delete": "حذف"
+        },
+        "Messages": {
+            "SuccessAuthorize": "تم المصادقة بنجاح في المستودع"
+        },
+        "Columns": {
+            "Name": "الاسم",
+            "Address": "عنوان التخزين SVN",
+            "IsActive": "نشط",
+            "Login": "تسجيل دخول",
+            "Password": "كلمة المرور"
+        },
+        "InfoBlock": {
+            "Title": "من المهم معرفة",
+            "TextPart1": "نقل التغييرات عبر SVN مخصص لبيئات التنمية فقط. استخدم ",
+            "TextPart2": " القسم لنقل التغييرات إلى بيئة إنتاجية.",
+            "InstallAppsLink": "https://academy.creatio.com/docs/user/no-code_customization/apps_and_extensions/install_applications_from_the_marketplace",
+            "InstallAppsLinkText": "التطبيق المثبت",
+            "LinksMessage": "تعرف على المزيد عن SVN في أكاديمية الكرياتيو (Creatio Academy):",
+            "DeploymentInCreatioIDEInfoLinkText": "النشر في بيئة التطوير المتكاملة للكرياتيو Creatio",
+            "SetupVersionControlInfoLinkText": "إعداد التحكم بالإصدار",
+            "DeploymentInCreatioIDEInfoLink": "https://academy.creatio.com/docs/developer/development_tools/deployment/transferring_solutions_in_creatio_ide",
+            "SetupVersionControlInfoLink": "https://academy.creatio.com/docs/node/1164"
+        },
+        "Page": {
+            "Title": "مساحة تخزين SVN",
+            "Actions": {
+                "Add": "إضافة",
+                "Apply": "تطبيق",
+                "Cancel": "إلغاء",
+                "Authorize": "المصادقة"
+            },
+            "Validation": {
+                "Required": "ادخل قيمة",
+                "MaxLength": "تجاوز الحد الأقصى لطول النص ({0}/{1})",
+                "NameField": {
+                    "Pattern": "تنسيق الاسم غير صحيح"
+                }
+            }
+        }
+    },
+    "dataSource": "مصدر البيانات",
+    "lookup": "عملية البحث",
+    "lookupValueDeletion": "عند حذف قيمة البحث:",
+    "blockDeletionCaption": "حظر الحذف إذا كانت هناك سجلات متصلة في الكائن الحالي بهذه القيمة",
+    "DeleteRecordsCaption": "حذف السجلات من الكائن الحالي بهذه القيمة",
+    "lookupView": "استعراض البحث",
+    "selectionWindow": "نافذة الاختيار",
+    "list": "قائمة",
+    "columnFormat": "نوع البيانات",
+    "columnNumberFormat": "نوع البيانات",
+    "selectValueCaption": "ادخل قيمة",
+    "DataValueType": {
+        "TextCaption": "نص",
+        "ShortTextCaption": "النص (50 حرفا)",
+        "PhoneTextCaption": "رقم الهاتف",
+        "MediumTextCaption": "نص (250 حرفاً)",
+        "LongTextCaption": "النص (500 حرف)",
+        "MaxSizeTextCaption": "نص ذو طول غير محدود",
+        "SecureTextCaption": "سلسلة حروف مشفرة",
+        "HashTextCaption": "اختبار التكرار الدوري",
+        "IntegerCaption": "عدد صحيح",
+        "FLOAT1Caption": "عشري (0.1)",
+        "FLOAT2Caption": "عشري (0.01)",
+        "FLOAT3Caption": "عشري (0.001)",
+        "FLOAT4Caption": "عشري (0.0001)",
+        "FLOAT8Caption": "عشري (0.00000001)",
+        "MoneyCaption": "Currency (0.01)",
+        "DateTimeCaption": "التاريخ/الوقت",
+        "DateCaption": "التاريخ",
+        "TimeCaption": "الوقت",
+        "BooleanCaption": "قيمة منطقية",
+        "ImageCaption": "صورة",
+        "ImageLookupCaption": "رابط الصورة",
+        "FileCaption": "الملف",
+        "ColorCaption": "اللون",
+        "GuidCaption": "المعرف الوحيد",
+        "BlobCaption": "كائن البيانات الثنائية BLOB",
+        "LookupCaption": "عملية البحث",
+        "Entity": "الكائن (الكيان)",
+        "EntityCollection": "مجموعة الكائنات (مجموعة الكيانات)",
+        "EntityColumnMappingCollection": "قيم عمود كائن",
+        "CustomObject": "الكائن",
+        "Collection": "الإحصاء",
+        "LocalizableString": "سلسلة الملفات القابلة للتعريب",
+        "MetaDataText": "سلسلة الملفات غير القابلة للتعريب",
+        "ObjectList": "قائمة القيم القابلة للتسلسل",
+        "CompositeObjectList": "قائمة القيم المركبة القابلة للتسلسل",
+        "FloatCaption": "عشري",
+        "RichCaption": "النص المنسق",
+        "PhoneTextShortenedCaption": "الهاتف",
+        "WebTextCaption": "رابط الويب",
+        "EmailTextCaption": "عناوين البريد الالكترونى",
+        "EmailTextShortenedCaption": "البريد الإلكتروني",
+        "TimerCaption": "المؤقت",
+        "LocalTimeCaption": "التوقيت المحلي",
+        "CompositeObject": "Composite value",
+        "FLOAT0Caption": "عشري (0)",
+        "Money0Caption": "Currency (0)",
+        "Money1Caption": "Currency (0.1)",
+        "Money3Caption": "Currency (0.001)"
+    },
+    "CodeMirror": {
+        "HotkeysDescription": "المفاتيح العاجلة:",
+        "SelectAll": "Ctrl-A حدد الكل",
+        "Undo": "Ctrl-Z تراجع",
+        "Redo": "Shift-Ctrl-Z التراجع عن الإجراء",
+        "Find": "Ctrl-F للبحث",
+        "FindNext": "F3 البحث عن التالي",
+        "FindPrev": "Shift-F3 العثور على السابق",
+        "Replace": "Shift-Ctrl-F استبدال",
+        "ReplaceAll": "Shift-Ctrl-R استبدال الكل",
+        "DeleteLine": "Ctrl-Y حذف سطر",
+        "GoLineStart": "Alt-Left الذهاب إلى بداية الخط",
+        "GoLineEnd": "Alt-Right للذهاب إلى نهاية الخط",
+        "JmpToLine": "Alt-G الانتقال إلى سطر محدد",
+        "Fullscreen": "F11 محرر رمز ملء الشاشة",
+        "FullscreenExit": "Esc - وضع الخروج من ملء الشاشة",
+        "Autocomplete": "Ctrl-Space التكملة التلقائية"
+    },
+    "CDK": {
+        "IndicatorWidget": {
+            "Caption": "مؤشر"
+        },
+        "ChartWidget": {
+            "Line": {
+                "Caption": "خط"
+            },
+            "Spline": {
+                "Caption": "محزز"
+            },
+            "Area": {
+                "Caption": "منطقة"
+            },
+            "Scatter": {
+                "Caption": "تبعثر"
+            },
+            "Bar": {
+                "Caption": "العمود"
+            },
+            "HorizontalBar": {
+                "Caption": "شريط"
+            },
+            "Pie": {
+                "Caption": "فطيرة"
+            },
+            "Doughnut": {
+                "Caption": "دائرية"
+            },
+            "Tsfunnel": {
+                "Caption": "خط امداد"
+            },
+            "Common": {
+                "EmptyValue": "لم يتم تعريف القيمة",
+                "ShowSeriesDataCaption": "عرض البيانات حسب السلسلة",
+                "ShowDataCaption": "عرض البيانات",
+                "DrillDownCaption": "انتقل لأسفل هذا العنصر",
+                "ExportDataBtnCaption": "تصدير إلى إكسل",
+                "HideSeries": "إخفاء",
+                "ShowDataForSelectedSeriesCaption": "عرض البيانات لهذه السلسلة",
+                "ShowSeries": "عرض",
+                "BooleanTrueValue": "نعم",
+                "BooleanFalseValue": "لا",
+                "ShowDataAsTableCaption": "Show data as table"
+            },
+            "ChangeChartType": {
+                "Caption": "تغيير نوع الخريطة"
+            },
+            "With": {
+                "Caption": "مع"
+            },
+            "Series": {
+                "Caption": "سلاسل"
+            },
+            "ScreenReader": {
+                "AnnounceChartTypeChange": "Chart type changed to {{chartType}}"
+            }
+        },
+        "FunnelWidget": {
+            "OpportunityFunnel": {
+                "Caption": "خط أنابيب المبيعات",
+                "ByCountLabelTemplate": "{0}",
+                "StageConversionLabelTemplate": "{0}%",
+                "ToFirstStageLabelTemplate": "{0}%",
+                "ByCountBtnLabel": "عدد الفرص",
+                "StageConversionBtnLabel": "تقييم تحويل المرحلة",
+                "ToFirstStageBtnLabel": "تحويل خط انابيب",
+                "DefaultTitle": "خط أنابيب البيانات الجديد"
+            },
+            "FullPipelineFunnel": {
+                "Caption": "خط أنابيب كامل",
+                "ByCountBtnLabel": "عدد السجلات",
+                "StageConversionBtnLabel": "تقييم تحويل المرحلة",
+                "ToFirstStageBtnLabel": "تحويل خط انابيب",
+                "DefaultTitle": "خط أنابيب البيانات الجديد"
+            },
+            "Tooltip": {
+                "CountInStage": "إحصاء",
+                "CountInStageValue": "{0}",
+                "Amount": "القيمة",
+                "AmountValue": "{0} {1}",
+                "ConversionToStage": "التحويل",
+                "ConversionToStageValue": "{0}%",
+                "ConversionToFirstStage": "التحويل",
+                "ConversionToFirstStageValue": "{0}%",
+                "ConversionToStageCount": "إحصاء",
+                "ConversionToStageCountValue": "{0}",
+                "ConversionToFirstStageCount": "إحصاء",
+                "ConversionToFirstStageCountValue": "{0}"
+            }
+        },
+        "GaugeWidget": {
+            "Caption": "عداد السرعة"
+        },
+        "HeaderWidget": {
+            "Fullscreen": {
+                "ExpandLabel": "تمديد ملء الشاشة",
+                "CollapseLabel": "إغلاق ملء الشاشة"
+            },
+            "Direction": {
+                "Menu": {
+                    "Caption": "موضع الرسم البياني"
+                },
+                "Column": {
+                    "Caption": "فوق"
+                },
+                "Row": {
+                    "Caption": "يسار"
+                },
+                "RowReverse": {
+                    "Caption": "صلاحية"
+                }
+            }
+        },
+        "ByCaption": "بواسطة",
+        "ByColumnCaption": "حسب العمود",
+        "WhereColumnCaption": "المكان",
+        "IsColumnCaption": "هو",
+        "ListWidget": {
+            "Caption": "List widget",
+            "Hint": "A component that combines a fully functional list with a customizable colored frame, ensuring visual consistency when placed alongside other analytics widgets"
+        },
+        "WaterfallWidget": {
+            "Caption": "Waterfall pipeline",
+            "DefaultTitle": "New waterfall pipeline"
+        },
+        "SalesWaterfallWidget": {
+            "Caption": "Sales waterfall pipeline",
+            "DefaultTitle": "New sales waterfall pipeline"
+        }
+    },
+    "Components": {
+        "Input": {
+            "Caption": "نص"
+        },
+        "NumberInput": {
+            "Caption": "الرقم"
+        },
+        "Button": {
+            "Caption": "الزر",
+            "DefaultActionNotificationMessageText": "Data saved successfully"
+        },
+        "Checkbox": {
+            "Caption": "مربع الإختيار"
+        },
+        "Combobox": {
+            "Caption": "المنسدلة",
+            "AddNewRecord": "إضافة جديد",
+            "IsGoToSourceAllowedTooltip": "الذهاب لقائمة السجلات"
+        },
+        "DataGrid": {
+            "Caption": "قائمة",
+            "Hint": "A customizable data display component that allows users to view and interact with structured information"
+        },
+        "DateTimePicker": {
+            "Caption": "التاريخ/الوقت"
+        },
+        "Gallery": {
+            "Caption": "المعرض"
+        },
+        "ColorPicker": {
+            "Caption": "اختيار الألوان"
+        },
+        "Label": {
+            "Caption": "التسمية"
+        },
+        "ExpansionPanel": {
+            "Caption": "لوحة التوسّع"
+        },
+        "TabPanel": {
+            "Caption": "النوافذ",
+            "AddTab": "إضافة علامة تبويب",
+            "DeleteTab": "حذف علامة التبويب",
+            "DefaultTab1Name": "النافذة 1",
+            "DefaultTab2Name": "النافذة 2",
+            "NewTabName": "علامة تبويب جديدة",
+            "DeleteTabConfirmation": "حذف علامة التبويب \"{0}\" وجميع العناصر داخلها؟",
+            "DefaultLabel1Name": "التسمية 1",
+            "DefaultLabel2Name": "التسمية 2",
+            "NewLabelName": "تسمية جديدة"
+        },
+        "Slider": {
+            "Caption": "الشريط"
+        },
+        "ExpandedList": {
+            "Caption": "القائمة الموسعة",
+            "Hint": "تتضمن القائمة الموسعة قائمة ومجموعة قابلة للتوسع وزر إضافة إدخال. يوصى باستخدامها على الصفحات لعرض المعلومات ذات الصلة.",
+            "AddBtnCaption": "جديد",
+            "RefreshBtnCaption": "تحديث",
+            "SettingsBtnCaption": "الإجراءات",
+            "ExportDataBtnCaption": "تصدير إلى إكسل",
+            "ImportDataBtnCaption": "استيراد البيانات"
+        },
+        "ActionDashboard": {
+            "Caption": "لوحة التحكم",
+            "Hint": "يعرض معلومات حول الحالة الحالية للسجل باستخدام شريط سير العمل ولوحة الإجراءات. ويوصى باستخدام هذا المكوّن في صفحة النموذج."
+        },
+        "MenuItem": {
+            "Caption": "عنصر القائمة"
+        },
+        "FileInput": {
+            "Caption": "الملف",
+            "LabelCaption": "ملف للتحميل",
+            "Placeholder": "اختر الملف"
+        },
+        "Breadcrumbs": {
+            "Back": "عودة"
+        },
+        "File": {
+            "Caption": "الملف",
+            "Label": "ملف للتحميل",
+            "Placeholder": "اختر الملف"
+        },
+        "Attachment": {
+            "Caption": "مرفقات",
+            "Hint": "يتضمن مكون المرفقات قائمة ملفات ومجموعة قابلة للتوسع وزر رفع الملف وزر التحديث. يوصى باستخدامها في صفحة نموذج لعرض المرفقات ذات الصلة.",
+            "AddBtnCaption": "رفع",
+            "RefreshBtnCaption": "تحديث"
+        },
+        "RichTextEditor": {
+            "Caption": "النص المنسق"
+        },
+        "TogglePanel": {
+            "Caption": "تبديل لوحة التحكم",
+            "Hint": "يحتوي الملف على ملف علامة تبويب قابلة للتصغير والزر الذي يسمح بالتحكم في عرض علامات التبويب. يمكنك وضع الملفات والأزرار في أجزاء مختلفة من الصفحة بمعزل عن بعضها البعض."
+        },
+        "Timeline": {
+            "Caption": "الجدول الزمني",
+            "AddObject": "+ إضافة عنصر جديد",
+            "ProvideDataSource": "توفير مصدر البيانات قبل استخدام الجدول الزمني",
+            "Tile": {
+                "TileObjectTitle": "الكائن: "
+            },
+            "DesignerCustomEntities": {
+                "Email": {
+                    "Caption": "البريد الإلكتروني"
+                },
+                "Feed": {
+                    "Caption": "تغذية"
+                },
+                "Task": {
+                    "Caption": "مهمة"
+                },
+                "SysFile": {
+                    "Caption": "الملف"
+                }
+            },
+            "Hint": "The component displays communication history and related records in chronological order"
+        },
+        "ImageInput": {
+            "Caption": "صورة",
+            "LabelCaption": "صورة للتحميل"
+        },
+        "SearchFilter": {
+            "Caption": "بحث",
+            "Placeholder": "بحث",
+            "Tooltip": "يسمح مكون البحث بالبحث فقط عن طريق النص والرقم وأعمدة البحث مع اتصالات مباشرة لقائمة الكائن.",
+            "ComparisonType": {
+                "StartsWith": "Search matches values that start with your input.",
+                "Contains": "Search matches values that contain your input."
+            }
+        },
+        "Approval": {
+            "Caption": "الموافقات"
+        },
+        "ApprovalList": {
+            "Caption": "قائمة الموافقات",
+            "RefreshCaption": "تحديث",
+            "ProvideDataSource": "توفير مصدر البيانات قبل استخدام الموافقات"
+        },
+        "ProgressBar": {
+            "Caption": "شريط التقدّم",
+            "Hint": "مؤشر تنفيذ المراحل",
+            "ProvideDataSource": "توفير مصدر البيانات قبل استخدام شريط التقدم"
+        },
+        "CommunicationOptions": {
+            "Caption": "خيارات التواصل",
+            "Hint": "يعرض المكون خيارات الاتصال أو خيارات التواصل الخاصة بالحساب",
+            "AddBtnCaption": "إضافة خيار الاتصال"
+        },
+        "CampaignViewer": {
+            "Caption": "عارض الحملة الإعلانية",
+            "Hint": "عرض مخطط الحملة الإعلانية"
+        },
+        "TagSelect": {
+            "Caption": "العلامات"
+        },
+        "Summaries": {
+            "Caption": "الملخصات"
+        },
+        "CalendarCaption": "التقويم",
+        "EntityHierarchyFilter": {
+            "Caption": "التسلسل الهرمي",
+            "AllCaption": "الكل",
+            "Hint": "يتيح عرض التسلسل الهرمي تكوين هيكل التسلسل الهرمي عن طريق البحث عن الأعمدة لتنظيم السجلات. للتأكد من أن المكون يعمل على النحو المنشود، قم بتوصيل هذا المكون في قائمة الصفحات أو إعدادات مصدر البيانات"
+        },
+        "IndicatorWidget": {
+            "Caption": "المقياس الجديد"
+        },
+        "Chat": {
+            "Caption": "الدردشة",
+            "Hint": "The component for real-time chatting and displaying previous conversations"
+        },
+        "ChartWidget": {
+            "Caption": "مخطط جديد"
+        },
+        "GaugeWidget": {
+            "Caption": "عداد سرعة جديد"
+        },
+        "Dashboards": {
+            "Caption": "لوحات التحكم",
+            "Hint": "The Dashboards component lets you configure the data source, connect the component to the page where the component is placed, and create a new or change an existing dashboard"
+        },
+        "Toggle": {
+            "Caption": "Switcher"
+        },
+        "DataGridHierarchical": {
+            "Caption": "Hierarchical list",
+            "Hint": "A data display component that allows users to view and interact with structured information organized in a multi-level hierarchy"
+        },
+        "Feed": {
+            "Caption": "تغذية"
+        },
+        "Divider": {
+            "Caption": "المقسّم"
+        },
+        "Switch": {
+            "Caption": "Switch"
+        }
+    },
+    "LayoutElements": {
+        "GridArea1": {
+            "Caption": "منطقة"
+        },
+        "GridColumn1": {
+            "Caption": "عمود"
+        },
+        "GridColumn2": {
+            "Caption": "عمودين"
+        },
+        "GridColumn3": {
+            "Caption": "3 أعمدة"
+        },
+        "GridColumn4": {
+            "Caption": "4 أعمدة"
+        },
+        "FlexRow": {
+            "Caption": "صف Flex",
+            "Hint": "تحديد وترتيب عدة عناصر أفقيًا. قد يغير الكرياتيو Creatio حجم العناصر تبعًا للمحتوى. على سبيل المثال، ضع زرين أو حقلًا وزرًا بجانب بعضهما البعض. تعرف على المزيد من خلال الأكاديمية."
+        },
+        "FlexColumn": {
+            "Caption": "عمود Flex",
+            "Hint": "تحديد وترتيب عدة عناصر عموديًا. قد يغيّر الكرياتيو Creatio حجم العناصر تبعًا للمحتوى. على سبيل المثال، قم بإنشاء عمود به مجموعتين. تعرف على المزيد من خلال الأكاديمية."
+        }
+    },
+    "HomePage": {
+        "DialogMessages": {
+            "RequiredFieldsAreNotFilled": "الحقول المطلوبة لم يتم ملؤها، أو تحتوي الصفحة على أخطاء في التحقق من الصحة"
+        }
+    },
+    "DesignerSettingsComponent": {
+        "HeaderCaption": "إعداد المخطط"
+    },
+    "InterfaceDesigner": {
+        "AddMenu": {
+            "NewDataSource": "مصدر البيانات الجديد",
+            "ExistingDataSource": "مصدر البيانات القائم",
+            "AddDataSource": "إضافة مصدر البيانات"
+        },
+        "DataSourceActions": {
+            "Edit": "تحرير",
+            "RemoveAttribute": "حذف",
+            "Remove": "حذف",
+            "RemoveExistingDataSourceMessage": "Are you sure you want to remove the data source? Any unsaved changes to its object will be lost.",
+            "RemoveNewDataSourceMessage": "Are you sure you want to remove the data source? This will permanently delete the new object as it hasn’t been saved yet.",
+            "RemoveDataSourceWithReferencesMessage": "Remove the referenced elements before deleting the data source",
+            "RemoveDataSourceSuccessMessage": "The data source has been deleted"
+        },
+        "SetupDataSourceDialog": {
+            "SetupDataSourceTitle": "إعداد مصدر البيانات",
+            "CancelButtonDialog": "إلغاء",
+            "SelectButtonDialog": "حدد",
+            "Object": "الكائن",
+            "SelectDataSource": "حدد مصدر البيانات"
+        },
+        "SetupEntityProperties": {
+            "NameColumnCaption": "الاسم"
+        },
+        "SetupEntityPropertiesDialog": {
+            "Name": "الاسم",
+            "Description": "الوصف",
+            "SaveButton": "حفظ",
+            "CancelButton": "إلغاء",
+            "Code": "الرمز",
+            "Validations": {
+                "RequiredNameCaption": "أدخل قيمة"
+            }
+        },
+        "CopyPostfixCaption": "نسخ",
+        "DesignElementSetting": {
+            "SettingsTitle": "إعدادات",
+            "DuplicateTitle": "نسخ",
+            "DeleteTitle": "حذف"
+        },
+        "Messages": {
+            "SuccessfullySaved": "تم الحفظ بنجاح"
+        },
+        "PropertiesPages": {
+            "EntityDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "عام"
+            },
+            "EntityDataSourcePropertiesPanel": {
+                "GeneralGroup": "عام",
+                "PrimaryDataSource": "مصدر البيانات الرئيسي",
+                "PrimaryDataSourceChangeConfirm": "سيتم تغيير مصدر البيانات الأساسي لهذه الصفحة. هل تريد حفظ التغييرات؟",
+                "BusinessRulesGroup": "قواعد العمل",
+                "Relations": "Relations setup",
+                "FiltersAndSorting": "Filters and sorting",
+                "isIndependentDataSource": "Independent data source",
+                "isIndependentDataSourceTooltip": "If enabled, this data source will always load data based only on its static filter and sorting criteria, regardless of the main record",
+                "ApplyStaticFilter": "تطبيق فلتر ثابت",
+                "EditStaticFilterAction": "تعديل الفلتر",
+                "SetupStaticFilterAction": "إعداد المرشح",
+                "FiltersDialogCaption": "فلتر محدد يدويًا",
+                "DoNotCreateEmptyRecordsLabel": "Do not create empty records",
+                "DoNotCreateEmptyRecordsTooltip": "If enabled, empty records will not be generated when the user has not changed any fields (including the default values set on object level) of this data source",
+                "KeepValuesOnCopy": "Keep values on copy",
+                "KeepValuesOnCopyTooltip": "If enabled, the record of this data source will be copied when copying the record of the main data source using this page",
+                "SchemaHasChanged": "Cannot set up a static filter if the new data source is not saved yet. Save the page and try again"
+            },
+            "ExpansionPanelPropertiesPage": {
+                "PageCaption": "إعدادات لوحة التوسّع",
+                "GeneralCaption": "عام",
+                "TitleLabel": "العنوان",
+                "ToggleTypeLabel": "نمط",
+                "TogglePositionLabel": "موضع الزر",
+                "ColorLabel": "لون العنوان",
+                "DefaultToggleTypeLabel": "افتراضي",
+                "MaterialToggleTypeLabel": "أكورديون",
+                "BeforeTogglePositionLabel": "يسار",
+                "AfterTogglePositionLabel": "صلاحية",
+                "FullWidthHeaderCaption": "ترويسة العرض الكامل",
+                "TitleWidthCaption": "عرض العنوان",
+                "PaddingGroup": "المسافة",
+                "Padding": {
+                    "Top": "الأعلى",
+                    "Bottom": "الأسفل",
+                    "Left": "يسار",
+                    "Right": "صلاحية"
+                }
+            },
+            "LabelPropertiesPage": {
+                "PageCaption": "إعدادات التسمية",
+                "GeneralCaption": "عام",
+                "TitleLabel": "نص",
+                "TypeLabel": "نمط",
+                "TextAlignLabel": "المواءمة",
+                "ThicknessLabel": "شكل",
+                "FontSizeLabel": "الحجم، بكسل",
+                "FontColorLabel": "لون النص",
+                "BackgroundColorLabel": "لون الخلفية",
+                "AlignLeftCaption": "يسار",
+                "AlignCenterCaption": "المركز",
+                "AlignRightCaption": "صلاحية",
+                "AlignJustifyCaption": "التعديل",
+                "TypeH1Caption": "H1",
+                "TypeH2Caption": "H2",
+                "TypeH3Caption": "H3",
+                "TypeH4Caption": "H4",
+                "TypeH5Caption": "H5",
+                "TypeBody1Caption": "النص الأساسي",
+                "TypeCaptionCaption": "تعليق",
+                "TypeBlankslateCaption": "صفحة خالية",
+                "ThicknessLightCaption": "خفيف",
+                "ThicknessNormalCaption": "عادي",
+                "ThicknessSemiboldCaption": "شبه داكن",
+                "ThicknessBoldCaption": "داكن",
+                "ThicknessDefaultCaption": "افتراضي",
+                "TypeLarge1Caption": "كبير 1",
+                "TypeLarge2Caption": "كبير 2",
+                "TypeLarge3Caption": "كبير 3",
+                "TypeLarge4Caption": "كبير 4",
+                "TypeHeadline1Caption": "العنوان 1",
+                "TypeHeadline1SmallCaption": "العنوان 1 صغير",
+                "TypeHeadline2Caption": "العنوان 2",
+                "TypeHeadline3Caption": "العنوان 3",
+                "TypeHeadline4Caption": "العنوان 4",
+                "TypeBodyLargeCaption": "النص الأساسي - كبير",
+                "TypeBodyCaption": "المحتوى",
+                "TypeCaptionLargeCaption": "النص الوصفي - كبير",
+                "TypePlaceholderLargeCaption": "العنصر النائب - كبير",
+                "TypePlaceholderCaption": "العنصر النائب",
+                "TypeButtonCaption": "الزر",
+                "TypeButtonSmallCaption": "الزر الصغير",
+                "AttributeBindingCaption": "يحتوي العنصر على منطق عرض البيانات المكونة مسبقًا. إذا كنت بحاجة إلى تنفيذ المنطق البديل، فأزل قيمة العنصر.",
+                "ClearAttributeBinding": "مسح القيمة",
+                "HeadingLevelCaption": "Heading level",
+                "HeadingLevelInfo": "The heading level helps better organize content on the page and improves its accessibility"
+            },
+            "DataGridPropertiesPage": {
+                "PageCaption": "إعدادات القائمة",
+                "GeneralCaption": "عام",
+                "DataSourceCaption": "الكائن",
+                "ChangeFilters": "تغيير الفلتر",
+                "AttributeBindingUsage": "قيمة السمة المستخدمة",
+                "MassActions": "الإجراءات الشاملة",
+                "ApplyStaticFilter": "تطبيق فلتر ثابت",
+                "SetupStaticFilterAction": "إعداد المرشح",
+                "EditStaticFilterAction": "تعديل الفلتر",
+                "Appearance": {
+                    "AppearanceGroup": "الظهور",
+                    "Editable": "تحرير ضمني",
+                    "ItemsCreation": "إضافة السجلات الضمنية",
+                    "FloatingEditPanel": "لوحة التحرير العائمة",
+                    "FloatingEditPanelHint": "Enables users to use the floating edit panel to save or cancel changes in the editable list. When cleared, users can still use Save and Cancel page buttons for that purpose",
+                    "RowsNumeration": "أرقام الصفوف",
+                    "RowsMultiSelection": "تحديد متعدد",
+                    "RowsLimit": "Limit number of rows",
+                    "RowsLimitPlaceholder": "Enter maximum number of rows",
+                    "RowsLimitTooltip": "Set a maximum number of records to display in the list. This is useful when you want to show a specific number of items — for example, \"Top 5 customers\".</br>When a limit is set, the “Select all” option is not available.",
+                    "Header": "List header",
+                    "ColumnsSorting": "الفرز",
+                    "ColumnsResizing": "Resizable columns",
+                    "ColumnsDragAndDrop": "Draggable columns"
+                },
+                "RowsNumeration": "أرقام الصفوف",
+                "StyleLabel": "النمط",
+                "Styles": {
+                    "PlainWhite": "أبيض سادة",
+                    "Glassmorphism": "تأثير الزجاج"
+                }
+            },
+            "ViewElementEventPropertiesPanel": {
+                "EventFieldLabel": "إجراء",
+                "Requests": {
+                    "RunBusinessProcessRequest": "تشغيل العملية",
+                    "ClosePageRequest": "إغلاق الصفحة",
+                    "SaveRecordRequest": "حفظ البيانات",
+                    "CancelRecordChangesRequest": "إلغاء التغييرات",
+                    "OpenPageRequest": "فتح صفحة محددة",
+                    "CreateRecordRequest": "فتح سجل جديد",
+                    "UpdateRecordRequest": "فتح السجل الموجود",
+                    "LoadDataRequest": "تحديث البيانات",
+                    "ExportDataGridToExcelRequest": "تصدير إلى إكسل",
+                    "ImportDataRequest": "استيراد البيانات",
+                    "UploadFileRequest": "تحميل الملف",
+                    "SetRecordRightsRequest": "إعداد حقوق الوصول",
+                    "ShowRelationshipsRequest": "إظهار علاقات السجل",
+                    "OpenDuplicatesPageRequest": "فتح صفحة التكرارات",
+                    "AddСommunicationOptionsRequest": "إضافة خيار الاتصال",
+                    "DeleteRecordsRequest": "حذف البيانات",
+                    "ContinueInOtherPageRequest": "المتابعة في صفحة أخرى",
+                    "SelectLookupPageRequest": "اختر البيانات",
+                    "AddTagsInRecordsRequest": "إضافة العلامات",
+                    "RemoveTagsInRecordsRequest": "إزالة العلامات",
+                    "PrintablesRequest": "طباعة التقرير",
+                    "SetCalendarTimeScaleRequest": "تحديد الجدول الزمني على التقويم",
+                    "AddCalendarSyncAccountRequest": "إضافة حساب مزامنة التقويم",
+                    "AddRecordsInStaticFoldersRequest": "إضافة سجلات إلى المجلد الثابت",
+                    "RemoveRecordsInStaticFoldersRequest": "إزالة السجلات من المجلد الثابت",
+                    "CreateEmailRequest": "إنشاء بريد إلكتروني",
+                    "SendInvitesForActivityRequest": "إرسال دعوة",
+                    "MoveSelectedItemsRequest": "نقل السجلات المحددة",
+                    "CopilotActionRequest": "Creatio.ai action",
+                    "OpenChangeLogRequest": "Open change log",
+                    "SetupCalendarSyncAccountRequest": "Set up calendar synchronization account",
+                    "ToggleFollowFeedRequest": "Follow/Unfollow Feed",
+                    "DeleteRecordRequest": "حذف السجل",
+                    "SetAttributeFromBarcodeRequest": "Open Barcode scanner",
+                    "SetAttributeFromNfcRequest": "Open NFC reader",
+                    "UpdateQuickFilterGroupRequest": "إعدادات الفلاتر"
+                },
+                "RunBusinessProcessRequest": {
+                    "WhichProcessRunQuestion": "ما هي العملية التي تريد تشغيلها؟",
+                    "AddNewBusinessProcessButton": "إضافة عملية جديدة",
+                    "SelectBusinessProcessButton": "فتح مصمم عملية",
+                    "HowProcessRunQuestion": "كيف يتم تشغيل العملية؟",
+                    "HowProcessRunLabel": "معلمة العملية حيث يتم تمرير السجل",
+                    "HowRunProcessOptions": {
+                        "ForTheSelectedPage": "للصفحة المحددة",
+                        "RegardlessOfThePage": "بصرف النظر عن الصفحة",
+                        "ForTheSelectedRecords": "للسجلات المحددة في القائمة"
+                    },
+                    "DataSourceFieldCaption": "أي قائمة سيتم تشغيلها لهذا الغرض؟",
+                    "SaveAtProcessStart": "Save data before process start",
+                    "AnnounceProcessStart": "Show notification for process start",
+                    "NotificationTextFieldName": "Notification text",
+                    "DefaultNotificationText": "تم بدء العملية"
+                },
+                "OpenPageRequest": {
+                    "Title": "ما الصفحة التي تريد فتحها؟?",
+                    "OpenPageInDesignerTitle": "فتح مصمم الواجهة",
+                    "AddNewPage": "إضافة صفحة جديدة",
+                    "PageParameters": "معلمات الصفحة"
+                },
+                "CreateRecordRequest": {
+                    "WhichRecordToCreateLabel": "ما هو السجل المراد إنشاؤه؟",
+                    "DefaultAttributeValuesLabel": "اية قيم اعمدة تريد اعدادها؟?"
+                },
+                "UpdateRecordRequest": {
+                    "WhichObjectToOpenRecordOfLabel": "أي كائن يتم فتح السجل الخاص به؟",
+                    "WhichRecordToOpenLabel": "ما هو السجل المراد فتحه؟"
+                },
+                "LoadDataRequest": {
+                    "DataRefreshModeLabel": "Data refresh mode",
+                    "DataRefreshModeOptions": {
+                        "RefreshAll": "Refresh all",
+                        "RefreshSpecific": "Refresh specific data sources"
+                    },
+                    "DataSourcesSelection": {
+                        "DataSourceLabel": "مصدر البيانات",
+                        "RefreshAll": {
+                            "Title": "Which data sources to exclude?",
+                            "Tooltip": "In “Refresh all” mode, all page data sources will be refreshed — including those added after this action is configured. Use this list to exclude specific data sources from being refreshed."
+                        },
+                        "RefreshSpecific": {
+                            "Title": "Which data sources to refresh?",
+                            "Tooltip": "Select the data sources that should be refreshed when the button is clicked."
+                        }
+                    }
+                },
+                "ExecuteCustomCode": "تنفيذ الرمز المخصص",
+                "OpenDuplicatesPageRequest": {
+                    "WhichObjectToOpenDuplicatesOfLabel": "أي تطبيقات مكررة يجب فتحها؟"
+                },
+                "ShowRelationshipsRequest": {
+                    "SelectEntityLabel": "أي كائن يجب استخدامه؟",
+                    "SelectRecordIdLabel": "أي عمود يمكن الاتصال به؟"
+                },
+                "SetCalendarTimeScaleRequest": {
+                    "Calendar": "مكون التحكم",
+                    "TimeScale": "الجدول الزمني",
+                    "FiveMinutes": "5 دقائق",
+                    "TenMinutes": "10 دقائق",
+                    "FifteenMinutes": "15 دقيقة",
+                    "ThirtyMinutes": "30 دقيقة",
+                    "OneHour": "ساعة واحدة"
+                },
+                "SendInvitesForActivityRequest": {
+                    "ActivityColumn": "العمود الخاص بالأنشطة",
+                    "RequiredFieldError": "هذا الحقل مطلوب"
+                },
+                "MoveSelectedItemsRequest": {
+                    "SourceDataGridComboBoxLabel": "نقل البيانات من",
+                    "TargetDataGridComboBoxLabel": "نقل البيانات إلى",
+                    "DefaultValuesLabel": "حدد الأعمدة التي يجب نقلها",
+                    "DefaultValuesHint": "حدد الأعمدة التي يجب نقلها من مصدر البيانات الأولي إلى مصدر البيانات المستهدف."
+                },
+                "OpenChangeLogRequest": {
+                    "LogDisplaySettings": "Log display settings",
+                    "OpenLogForRecord": "Open the log for a selected record",
+                    "OpenLogForObject": "Open the log for an object",
+                    "WhichDataSourceOpenLog": "Which data source to open the log with?",
+                    "WhichObjectOpenLog": "Which object to open the log for?"
+                },
+                "SetFollowFeedRequest": {
+                    "Feed": "Feed component to control"
+                },
+                "SetAttributeFromBarcodeRequest": {
+                    "ColumnNameControl": {
+                        "Label": "Which column to set result to?",
+                        "RequiredFieldError": "هذا الحقل مطلوب"
+                    },
+                    "LookupFilterColumn": {
+                        "Label": "Search column name"
+                    }
+                }
+            },
+            "DefaultAttributeValues": {
+                "AddAttribute": "قم بإضافة حقل"
+            },
+            "ActionDashboardPropertiesPage": {
+                "PageCaption": "إعدادات لوحة التحكم",
+                "GeneralCaption": "عام",
+                "DataSource": "مصدر البيانات",
+                "GoToCasesButtonCaption": "إعداد الحالات",
+                "EmptyDataSourceHint": "لم يتم إضافة مصدر البيانات إلى الصفحة. الرجاء إضافة مصدر البيانات الموجود لإعداد المكون",
+                "ChannelsCaption": "قنوات",
+                "CallAction": "مكالمة",
+                "EmailAction": "البريد الإلكتروني",
+                "FeedAction": "رسالة التحديث",
+                "ActivityAction": "مهمة",
+                "CasesDisabledTitle": "لا يمكن تحديد الحالات لمصدر البيانات"
+            },
+            "PropertiesPanelIconSettings": {
+                "UseIcon": "استخدام الأيقونة",
+                "IconPositionLabel": "الموقع",
+                "IconPosition": {
+                    "LeftIcon": "الأيقونة اليسرى",
+                    "RightIcon": "الأيقونة اليمنى",
+                    "OnlyIcon": "الأيقونة فقط",
+                    "OnlyText": "النص فقط"
+                },
+                "IconLabel": "ايقونة"
+            },
+            "TabItemPropertiesPage": {
+                "GeneralGroup": "عام",
+                "CaptionLabel": "العنوان",
+                "AppearanceGroup": "الظهور",
+                "IconPosition": {
+                    "LeftIcon": "الأيقونة اليسرى",
+                    "OnlyIcon": "الأيقونة فقط",
+                    "OnlyText": "النص فقط"
+                },
+                "PaddingGroup": "الفراغ",
+                "Padding": {
+                    "Top": "أعلى",
+                    "Bottom": "أسفل",
+                    "Left": "الأيسر",
+                    "Right": "صلاحية"
+                }
+            },
+            "MenuItemPropertiesPanel": {
+                "GeneralGroup": "عام",
+                "CaptionLabel": "العنوان",
+                "ActionLabel": "إجراء",
+                "AppearanceGroup": "الظهور"
+            },
+            "GalleryPropertiesPanel": {
+                "PageCaption": "إعدادات المعرض",
+                "GeneralCaption": "عام",
+                "AdditionalCaption": "إضافي",
+                "DataSourceCaption": "الكائن",
+                "CaptionColumnField": "تعليق",
+                "DescriptionColumnField": "الوصف",
+                "ImageColumnField": "صورة",
+                "SelectableConfigField": "قابل للاختيار",
+                "AppearanceGroup": "الظهور",
+                "MultiselectConfigField": "تحديد متعدد",
+                "UseSpecificPageField": "Open specific page by clicking on the caption",
+                "SpecificPageLookupField": "ما الصفحة التي تريد فتحها؟?",
+                "DefaultSizeFieldLabel": "حجم عنصر المعرض",
+                "Sizes": {
+                    "Small": "صغير",
+                    "Medium": "متوسط",
+                    "Large": "كبير",
+                    "ExtraLarge": "كبير جدًا"
+                },
+                "MassActions": "الإجراءات الشاملة"
+            },
+            "FilePropertiesPage": {
+                "General": "عام",
+                "AllowedExtensions": "ملحقات الملف",
+                "AllowedExtensionsEmptyMessage": "إذا لم يتم تعيينه، جميع أنواع الملفات من ملحقات الملفات يسمح إعداد نظام القائمة",
+                "MaxSize": "الحد الأقصى لحجم الملف، ميغابايت",
+                "MaxSizeEmptyMessage": "إذا لم يتم تعيين، يتم تطبيق القيمة الافتراضية من إعدادات الحد الأقصى لحجم نظام المرفق",
+                "LabelPosition": "موضع العنوان",
+                "LabelPositionVariants": {
+                    "Auto": "تلقائي",
+                    "Left": "يسار",
+                    "Right": "صلاحية",
+                    "Above": "أعلى",
+                    "Hidden": "مخفي"
+                },
+                "Placeholder": "العنصر النائب",
+                "DataSource": "مصدر البيانات",
+                "Editability": "قابلية التعديل",
+                "TitleOnPage": "العنوان في الصفحة",
+                "EditabilityControls": {
+                    "Readonly": "القراءة فقط"
+                },
+                "AppearanceGroup": "الظهور"
+            },
+            "FileListPropertiesPage": {
+                "PageCaption": "إعدادات قائمة المرفقات",
+                "GeneralGroup": "عام",
+                "FileGroupLabel": "مجموعة الملفات",
+                "FileGroups": {
+                    "Attachments": "مرفقات"
+                },
+                "AttributeToAttachFiles": "سجل إرفاق الملفات",
+                "EmptyDataSourceHint": "لم يتم إضافة مصدر البيانات إلى الصفحة. الرجاء إضافة مصدر البيانات الموجود لإعداد المكون",
+                "TagLabel": "علامة الملف",
+                "TagPlaceholder": "عرض جميع ملفات السجل بشكل افتراضي",
+                "TagHint": "استخدام العلامة لتصفية ملفات السجلات، مثل \"مستندات التطبيق\"",
+                "FileEntitySchemaLabel": "موقع تخزين الملف",
+                "AppearanceGroup": "الظهور",
+                "ViewTypeLabel": "عرض",
+                "TileSizeFieldLabel": "حجم عنصر المعرض",
+                "Sizes": {
+                    "Small": "صغير",
+                    "Medium": "متوسط",
+                    "Large": "واسع",
+                    "ExtraLarge": "كبير جدًا"
+                },
+                "ViewTypeOption": {
+                    "List": "قائمة",
+                    "Gallery": "المعرض"
+                }
+            },
+            "BaseCustomPropertiesPanel": {
+                "PageCaption": "إعدادات العنصر المخصص",
+                "GeneralCaption": "عام",
+                "Description": "يمكنك إعداد هذا العنصر في رمز مصدر الصفحة",
+                "OpenSourceCodeButtonCaption": "رمز مفتوح المصدر"
+            },
+            "ImportDataRequestPropertiesPanel": {
+                "EntitySchemaSelectCaption": "ما البيانات المراد استيرادها"
+            },
+            "ExportDataGridToExcelRequestPropertiesPanel": {
+                "ViewSelectCaption": "ما البيانات المراد تصديرها؟"
+            },
+            "UploadFileRequestPropertiesPanel": {
+                "ViewSelectCaption": "أين يتم تحميل الملفات؟",
+                "AllowedExtensions": "ما هي ملحقات الملف المسموح بتحميلها؟",
+                "AllowedExtensionsEmptyMessage": "إذا لم يتم تعيينه، جميع أنواع الملفات من ملحقات الملفات يسمح إعداد نظام القائمة",
+                "MaxSize": "ما الحد الأقصى المسموح به لحجم الملف في ميغابايت؟",
+                "MaxSizeEmptyMessage": "إذا لم يتم تعيين، يتم تطبيق القيمة الافتراضية من إعدادات الحد الأقصى لحجم نظام المرفق",
+                "FileTypesPlaceholder": "على سبيل المثال .pdf, .png",
+                "MaxSizePlaceholder": "{0} MB افتراضيًا",
+                "UploadFileSourceCaption": "Upload a file from source",
+                "Camera": "Camera",
+                "Gallery": "المعرض",
+                "Files": "الملفات"
+            },
+            "PropertiesPanelVisibilitySettings": {
+                "VisibilityGroup": "الظهور",
+                "Visible": "مرئي",
+                "NotVisible": "غير مرئي",
+                "SetupConditions": "Set up conditions",
+                "DefaultValueNotSupported": "هذا العنصر لا يدعم القيم الافتراضية للظهور"
+            },
+            "ApprovalPropertiesPage": {
+                "HeaderLabel": "إعدادات الموافقات",
+                "SchemaNameLabel": "ما السجلات التي تريد الموافقة عليها؟",
+                "GeneralGroup": "عام",
+                "AppearanceGroup": "الظهور",
+                "HiddenWhenNoData": "يتم إخفاؤه في حال عدم وجود بيانات"
+            },
+            "ImageInputPropertiesPage": {
+                "SizeFieldLabel": "الحجم",
+                "Sizes": {
+                    "None": "لا يوجد",
+                    "Small": "صغير",
+                    "Medium": "متوسط",
+                    "Large": "واسع",
+                    "ExtraLarge": "كبير جدًا"
+                },
+                "BorderRadiusLabel": "نصف قطر الحدود",
+                "PositioningLabel": "موضع الصورة",
+                "Positioning": {
+                    "Cover": "ملئ",
+                    "ScaleDown": "مناسب"
+                },
+                "MaxSize": "الحد الأقصى لحجم الملف، ميغابايت",
+                "MaxSizeEmptyMessage": "في حال عدم التعيين، يتم تطبيق القيمة الافتراضية من إعدادات نظام \"حجم الصورة الأقصى\"",
+                "MaxSizePlaceholder": "{0} MB افتراضيًا",
+                "TooltipLabel": "نصائح عن الأدوات",
+                "AppearanceGroup": "الظهور",
+                "Editability": "قابلية التعديل",
+                "EditabilityControls": {
+                    "Readonly": "القراءة فقط"
+                },
+                "TooltipHint": "The tooltip supports both plain text and HTML content. Please ensure that your HTML content is concise and adaptive to the tooltip's size."
+            },
+            "TimerPropertiesPage": {
+                "PageCaption": "إعدادات المؤقت",
+                "TimerType": "وضع",
+                "TargetDateTimeColumn": "الهدف من حيث عمود التاريخ/الوقت",
+                "StartDateTimeColumn": "بدء عمود التاريخ/الوقت",
+                "FromDateTimerType": "عد المؤقت",
+                "CountdownToSpecificDateTimerType": "العد التنازلي إلى تاريخ محدد",
+                "ShowNegativeCountDownValue": "إظهار قيمة العد التنازلي السالبة",
+                "TextColorForNegativeValues": "لون النص للقيم السالبة",
+                "TextForPositiveValues": "نص القيم الإيجابية",
+                "TextForNegativeValues": "نص القيم السالبة",
+                "ValueTextTooltip": "الرجاء استخدام [#timer#] ماكرو ومقاطع نصية لإنشاء تسميات مؤقتة مفصلة. على سبيل المثال، القيمة الإيجابية - [#timer#] المتبقية لإكمال المهمة؛ القيمة السلبية - [#timer#] متأخرة عن موعدها."
+            },
+            "ApprovalListPropertiesPage": {
+                "HeaderLabel": "إعدادات قائمة الموافقات",
+                "GeneralGroup": "عام",
+                "SchemaNameLabel": "الكائن"
+            },
+            "SearchFilterPropertiesPanel": {
+                "PageCaption": "إعدادات البحث",
+                "GeneralCaption": "عام",
+                "ChooseTargetsCaption": "اختر المكون للفلترة",
+                "ChooseTargetsTooltip": "حدد القائمة حيث يتم إجراء البحث. القائمة المنسدلة تعرض القوائم الموجودة في الصفحة الحالية والتي تحتوي على كائن محدد",
+                "Placeholder": "العنصر النائب",
+                "DirectConnection": "يسمح مكون البحث بالبحث فقط عن طريق النص والرقم وأعمدة البحث مع اتصالات مباشرة لقائمة الكائن.",
+                "AppearanceGroup": "الظهور",
+                "IconOnlyCaption": "أيقونة فقط"
+            },
+            "DataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "عام",
+                "RequirementType": {
+                    "NoCaption": "لايوجد",
+                    "YesCaption": "نعم"
+                },
+                "Validators": {
+                    "UniqueName": "الاسم \"{0}\" موجود بالفعل",
+                    "InvalidCharacter": "قيمة غير صحيحة. استخدم الرموز:, a-z, A-z، 0-9 رمز: 0-9 لا يمكن أن يكون الأول",
+                    "InvalidPrefix": "يجب أن تبدأ القيمة ببادئة \"{0}\""
+                }
+            },
+            "PageParametersDataSourceAttributePropertiesPanel": {
+                "GeneralGroup": "عام",
+                "TitleCaption": "العنوان",
+                "NameCaption": "رمز"
+            },
+            "LocalTimePropertiesPage": {
+                "PageCaption": "إعدادات التوقيت المحلي",
+                "TimeZoneColumn": "عمود النطاق الزمني"
+            },
+            "EntityStagePropertiesPanel": {
+                "HeaderLabel": "شريط التقدّم",
+                "GeneralGroup": "عام",
+                "SchemaNameLabel": "مصدر البيانات",
+                "CasesCaption": "إعداد الحالات",
+                "EmptyDataSourceHint": "لم يتم إضافة مصدر البيانات إلى الصفحة. الرجاء إضافة مصدر البيانات الموجود لإعداد المكون",
+                "SaveOnChange": "حفظ السجل عند تغيير المرحلة",
+                "AskUserToChangeSchema": "إظهار إشعار شريط ملخص الإشعارات لتحديث الحالة",
+                "SaveEntityConfirmationDialog": {
+                    "Save": "Save entity",
+                    "Message": "{0} entity was modified, and saving the entity is required to continue."
+                }
+            },
+            "AddCommunicationOptionsRequestPropertiesPanel": {
+                "ViewSelectCaption": "أين يمكن إضافة خيار الاتصال؟"
+            },
+            "AllowedResultsPropertiesPage": {
+                "PageCaption": "النتائج المسموح بها"
+            },
+            "AppearanceSettingsPropertyPanel": {
+                "ButtonSizeFieldLabel": "حجم النافذة العادية"
+            },
+            "DeleteRecordsRequestPropertiesPanel": {
+                "SelectDataToDelete": "ما هي البيانات المراد حذفها؟"
+            },
+            "TagSelectPropertiesPanelComponent": {
+                "PageCaption": "إعدادات العلامات",
+                "GeneralCaption": "عام",
+                "AppearanceCaption": "الظهور",
+                "CaptionLabel": "العنوان",
+                "CaptionPlaceholder": "العلامات",
+                "RecordLabel": "تسجيل لعنصر العلامة",
+                "TagInRecordSourceSchemaName": "موقع تخزين العلامات",
+                "LabelPosition": "موضع العنوان",
+                "LabelPositionVariants": {
+                    "Auto": "تلقائي",
+                    "Left": "الأيسر",
+                    "Above": "أعلى",
+                    "Hidden": "مخفي"
+                }
+            },
+            "SchemaOutletPropertiesPage": {
+                "PageCaption": "إعدادات ملف المخطط"
+            },
+            "ActivityColumnsMapingComponent": {
+                "EmailLinksCaption": "روابط البريد الإلكتروني",
+                "ActivityColumn": "العمود الخاص بالأنشطة",
+                "PageColumn": "سمة البيانات",
+                "EmailLinksBlankSlate": "سيتم ربط البريد الإلكتروني بـ PDS فقط. الرجاء استخدام الزر زائد لإعداد الربط مع الكيانات الأخرى."
+            },
+            "SelectLookupPageRequestPropertiesPanel": {
+                "ViewSelectCaption": "ما البيانات التي تريد تحديدها؟",
+                "InfoMessage": "يتم معالجة السجلات المحددة في رمز مخصص."
+            },
+            "SetRecordRightsRequestPropertiesPanel": {
+                "OpenInModalWindowCaption": "فتح في نافذة المشروط"
+            },
+            "BaseTagsInRecordsRequestPropertiesPanel": {
+                "TagInRecordSourceSchemaName": "موقع تخزين العلامات"
+            },
+            "AddTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToAddTagsCaption": "ما هي البيانات التي تريد إضافة علامات لها؟"
+            },
+            "RemoveTagsInRecordsRequestPropertiesPanel": {
+                "SelectDataToRemoveTagsCaption": "ما هي البيانات التي تريد إزالة العلامات من عليها؟"
+            },
+            "AddRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToAddInStaticFoldersCaption": "ما هي السجلات التي تريد إضافتها في المجلد الثابت؟"
+            },
+            "RemoveRecordsInStaticFoldersRequestPropertiesPanel": {
+                "SelectRecordsToRemoveInStaticFoldersCaption": "ما هي السجلات التي تريد إزالتها من المجلد الثابت؟"
+            },
+            "EntityHierarchyFilterPropertiesPanel": {
+                "HeaderLabel": "فلتر التسلسل الهرمي للكيانات",
+                "GeneralCaption": "عام",
+                "SchemaNameCaption": "حدد كائن لبناء التسلسل الهرمي",
+                "HierarchySetup": "إعدادات التسلسل الهرمي",
+                "SchemaNameSelectTooltip": "حدد كائن لبناء التسلسل الهرمي على ذلك. يتم عرض جميع كائنات النظام في القائمة المنسدلة. بعد تكوين التسلسل الهرمي، قم بربطه بعنصر القائمة عن طريق تحديده كعامل تصفية مكون مسبقا.",
+                "ApplyStaticFilter": "تطبيق فلتر ثابت",
+                "EditStaticFilterAction": "تعديل الفلتر",
+                "FiltersDialogCaption": "فلتر محدد يدويًا",
+                "SetupStaticFilterAction": "إعداد المرشح"
+            },
+            "EntityHierarchySetupContainerPropertiesPanel": {
+                "AddNewItem": "إضافة عمود تسلسل هرمي جديد",
+                "ContextMenu": {
+                    "AddToSubmenu": "إضافة تسلسل هرمي فرعي",
+                    "Edit": "تعديل",
+                    "Delete": "حذف"
+                }
+            },
+            "PlaybookPropertiesPage": {
+                "PageCaption": "إعدادات Playbook",
+                "GeneralGroup": {
+                    "Caption": "عام",
+                    "EmptyDataSourceHint": "لم يتم إضافة مصدر البيانات إلى الصفحة. الرجاء إضافة مصدر البيانات الموجود لإعداد المكون",
+                    "Tooltip": "ويعرض هذا المكون تلميحات وتعليمات للمستخدمين للوصول إلى المعلومات من قاعدة المعرفة من أجل مراحل محددة من الحالات الحركية. يمكنك إعداد المقالات ذات الصلة في قسم Playbooks. اقرأ المزيد على ",
+                    "AcademyLink": "<a href=\"https://academy.creatio.com/docs/8.x/\" target=\"_blank\">academy</a>.",
+                    "OpenPlaybookButton": "فتح playbook"
+                },
+                "SelectDataSource": "مصدر البيانات"
+            },
+            "CopilotActionRequestPropertiesPanelComponent": {
+                "PromptLabel": "Creatio.ai prompt",
+                "PromptTooltip": "Enter the Creatio.ai prompt that will be executed when the button is clicked. The response will be sent in the Creatio.ai sidebar."
+            },
+            "LookupAttributePropertiesPanel": {
+                "RefSchemaNoDisplayValueValidationMessage": "Objects with no display value cannot be used as a lookup. Please set the object display value in configuration."
+            },
+            "SaveRecordRequestPropertiesPanel": {
+                "PreventCardCloseInNewRecord": "Stay on page after record is created",
+                "ReloadSavedRecord": "Reload saved record",
+                "ReloadSavedRecordHint": "After saving, reloads the record from the server so any server-side changes (e.g., legacy autonumbering) appear instantly. Not needed for the new Autonumber field."
+            },
+            "ActionNotificationPropertiesPanel": {
+                "MessageText": "نص الرسالة",
+                "ShowSuccessMessage": "Show success message after completion"
+            },
+            "DataGridHierarchicalPropertiesPage": {
+                "PageCaption": "Hierarchical list settings",
+                "ParentColumnLabel": "Parent defining column",
+                "MaxRecordsLabel": "Maximum number of records",
+                "MaxRecordsTooltip": "Specifies the maximum number of records to load into the hierarchical list. If available records exceed this limit, only the specified number of records is loaded. If not specified, the value is taken from the \"Maximum number of records in hierarchical list\" (HierarchicalListMaxRecordsCount code) system setting, or 5,000 records by default when that setting is not configured.",
+                "InfoHint": "This component is designed for small data sets. Limit maximum number of records using the \"Maximum number of records\" field and narrow the data scope using the \"Apply filter by page data\" block."
+            }
+        },
+        "SaveMessage": "سيتم حفظ جميع التغييرات. هل ترغب في الإستمرار؟?",
+        "MainHeader": {
+            "Title": "العنوان",
+            "CommandLinePlaceholder": "ما الذي يمكنني أن أفعله من أجلك؟?"
+        },
+        "LookupEntityDialog": {
+            "CancelButtonDialog": "إلغاء",
+            "SelectButtonDialog": "حفظ",
+            "TitleControl": "العنوان",
+            "NameControl": "شفرة",
+            "Validations": {
+                "RequiredNameCaption": "ادخل قيمة",
+                "DuplicateNameCaption": "الكائن بنفس الرمز موجود مسبقاً",
+                "PatternPrefixTemplate": "يجب أن يبدأ الرمز ببادئة \"{0}\"",
+                "PatternNameCaption": "قيمة غير صالحة. استعمل الرموز: a-z، A-Z، 0-9.لا تبدأ بالرمز: 0-9."
+            },
+            "CreateOrEditLookupEntityTitle": "عملية بحث جديدة"
+        },
+        "SaveConfirmationDialog": {
+            "Message": "تحتوي هذه الصفحة على تغييرات غير محفوظة، وستُفقد إذا أغلقتها. هل تريد حفظ التغييرات؟",
+            "Save": "حفظ",
+            "DoNotSave": "لا تقم بالحفظ",
+            "Cancel": "إلغاء"
+        },
+        "SetupEntityDialog": {
+            "Title": "كائن جديد"
+        },
+        "Caption": "مصمم",
+        "ModelDependencyCycleDetectedError": "تم الكشف عن تبعيات دائرية بين النماذج {0}",
+        "Commands": {
+            "RemoveDataSourceItem": {
+                "SuccessfullyRemoved": "تم حذف المعلمة \"{{parameterCaption}}\""
+            }
+        },
+        "Components": {
+            "DataSourceAttributeCommonPropertiesComponent": {
+                "TitleCaption": "العنوان",
+                "NameCaption": "الرمز",
+                "FormatCaption": "التنسيق",
+                "ReferenceSchemaCaption": "عملية البحث",
+                "RequiredCaption": "مطلوب",
+                "Validations": {
+                    "RequiredNameMessage": "أدخل قيمة"
+                }
+            },
+            "CollectionSortingComponent": {
+                "SortAscendingTitle": "Sort ascending",
+                "SortDescendingTitle": "Sort descending",
+                "SortingColumnLabel": "Sort by column"
+            },
+            "StaticFilterSelectComponent": {
+                "ApplyStaticFilter": "تطبيق فلتر ثابت",
+                "EditStaticFilterAction": "تعديل الفلتر",
+                "FiltersDialogCaption": "فلتر محدد يدويًا",
+                "SetupStaticFilterAction": "إعداد المرشح"
+            }
+        },
+        "NotFoundDataSourceObject": {
+            "GroupObjectCaption": "خطأ في مصدر البيانات",
+            "ErrorMessage": "الكائن '{0}' المشار إليه في '{1}' مصدر البيانات إما أعيد تسميته أو تمت إزالته. الرجاء تغيير رمز الكائن إلى '{0}' أو تحديث رمز مصدر الصفحة (بيانات التعريف) قبل مواصلة العمل مع مصمم الصفحة.",
+            "BusinessRulesOpenDialogMessage": "الكائن '{0}' المشار إليه في '{1}' مصدر البيانات إما أعيد تسميته أو تمت إزالته. الرجاء تغيير رمز الكائن إلى '{0}' أو تحديث رمز مصدر الصفحة (بيانات التعريف) لاستخدام مصمم قواعد العمل"
+        },
+        "UnableCopySchemaError": "Unable to copy schema. It is either created by third-party publisher or installed from the file archive",
+        "Operation": {
+            "Copy": "نسخ"
+        },
+        "ModelDependencyNotFoundError": "The relation criteria for the {{names}} data source are not set",
+        "ModelDependencyNotFoundErrorMultiple": "The relation criteria for the {{names}} data sources are not set",
+        "MissingDependenciesDialog": {
+            "Title": "Missing dependencies detected",
+            "Intro": "This page includes elements from packages that are not listed as dependencies of the current package.",
+            "Reason": "Such configurations are no longer supported to prevent circular dependencies and ensure a maintainable application structure.",
+            "InstructionTemplate": {
+                "Prefix": "الرجاء",
+                "ActionLink": "add dependencies",
+                "PackageContext": "in the '{{ missedPackageName }}' package",
+                "Suffix": "to the following packages before editing this page"
+            }
+        },
+        "MissingDependenciesNotification": {
+            "Description": "Cannot save the page. Please add the required dependencies before making further changes to page.",
+            "Action": {
+                "Caption": "استعراض التفاصيل"
+            }
+        },
+        "SaveOutdatedConfirmation": {
+            "Header": "Newer version available",
+            "Message": "{0} saved changes to this page {1} ago. Saving now will replace their version with yours.",
+            "CancelButton": "إلغاء",
+            "SaveButton": "حفظ"
+        },
+        "SaveOverwriteConfirmation": {
+            "Header": "Replace a newer version?",
+            "Message": "You're about to replace {0}'s recent changes with your version.",
+            "CancelButton": "إلغاء",
+            "ConfirmButton": "Overwrite anyway"
+        }
+    },
+    "ApplicationManagement": {
+        "CreateApplicationComponent": {
+            "WaitTitle": "إضافة المحتوى الافتراضي إلى التطبيق الخاص بك",
+            "WaitTitleGenAI": "إنشاء التطبيق الخاص بك"
+        },
+        "ApplicationInfoDialogComponent": {
+            "HeaderCaption": "تطبيق جديد",
+            "InputNameCaption": "اسم التطبيق",
+            "InputDescriptionCaption": "وصف ما هو عليه (اختياري)",
+            "InputDescriptionPlaceholder": "اكتب بضع كلمات حول التطبيق الخاص بك",
+            "CancelButtonCaption": "إلغاء",
+            "CreateButtonCaption": "إنشاء",
+            "HeaderEditCaption": "تعديل التطبيق",
+            "ApplicationCodeCaption": "رمز التطبيق",
+            "SaveButtonCaption": "حفظ",
+            "DisclaimerCaption": "بالنقر على زر \"توليد باستخدام AI\"، فإنك توافق على أن طلبك سيتم التعامل معه بواسطة نموذج OpenAI. عرض الشروط والسياسات <a class=\"document-link\" href=\"https://openai.com/policies\" target=\"_blank\">هنا</a>. يعمل الكرياتيو Creatio كوكيل ولا يمكن تحميله المسؤولية عن أي نتائج تتسبب فيها مؤسسة OpenAI.",
+            "HeaderCarouselCaption": "حدد الأيقونة واللون",
+            "InputAIDescriptionCaption": "اذكر ما هو الغرض منه",
+            "InputAIDescriptionPlaceholder": "صف التطبيق الخاص بك وسنقوم بإنشاؤه تلقائيًا.",
+            "GenerateWithAIButtonCaption": "إنشاء من خلال الذكاء الاصطناعي",
+            "UseExistingObjectTooltip": "يرجى التحديد لربط القسم بعنصر موجود بدلًا من إنشاء عنصر جديد",
+            "AdvancedModeButtonCaption": "معلّمات متقدمة",
+            "NamePlaceholder": "ضع اسمًا للتطبيق الخاص بك",
+            "CodePlaceholder": "انشئ رقم تعريفي مميز للتطبيق الخاص بك",
+            "CodeTooltip": "يستخدم رمز التطبيق للمعرف المميز عندما يتم تثبيت التطبيق في بيئة مختلفة. إضافة إلى ذلك، يمكن أن يستخدم الرمز في إنشاء رموز العناصر في حال كان هناك مخططات في النموذج",
+            "HeaderViewCaption": "معلومات عن التطبيق",
+            "CloseButtonCaption": "إغلاق",
+            "VersionInputCaption": "النسخة",
+            "VersionInputPlaceholder": "0.0.0",
+            "AppStartPageCaption": "الصفحة الافتراضية للتطبيق",
+            "AppStartPageTooltip": "فتح صفحة التطبيق منخلال النقر على زر فتح التطبيق وتشغيله. يمكن أن يكون ذلك بمثابة الصفحة الرئيسية للتطبيق أو قائمة قسم الصفحة.",
+            "AppStartPageAutoItem": "تلقائي",
+            "CreateMobilePagesTooltip": "Clear this option to create a web-only app"
+        },
+        "ApplicationValidatorService": {
+            "InvalidCharactersForName": "الرموز المسموح بها فقط في الاسم \"-_\"",
+            "FirstSymbolIsNotLetterAndNotDigit": "يجب أن يبدأ الاسم بحرف أو رقم",
+            "InvalidCharactersForCode": "يسمح فقط باستخدام الحروف اللاتينية والأرقام في الرمز ولا يسمح باستخدام الأرقام من 0 إلى 9 في بداية الرمز",
+            "ApplicationNameAlreadyExists": "يوجد تطبيق بالفعل باسم \"{0}\"",
+            "ApplicationCodeAlreadyExists": "تم استخدام اسم رمز التطبيق أو الحزمة بالفعل مسبقًا",
+            "InvalidApplicationCodePrefix": "يجب أن يبدأ الرمز ببادئة \"{0}\"",
+            "EntityNameAlreadyExists": "الكائن بنفس الرمز موجود مسبقاً",
+            "InvalidVersion": "أدخل رقم النسخة بتنسيق X.Y أو X.Y.Z. على سبيل المثال 1.0, 1.2, 1.0.0, 1.2.0 وغيره.",
+            "InvalidRequiredPlatformVersion": "Enter a valid Creatio version in the X.Y.Z format or version range X.Y.Z - X.Y.Z. For example, 8.3.0 or 8.3.0 - 8.4.3.",
+            "InvalidRequiredPlatformVersionRange": "The maximum version must be greater than the minimum version.",
+            "InvalidAppDependencyVersion": "Please use one of the following formats:\n- Minimal required version: X.Y or X.Y.Z\n- Version range: X.Y - X.Y or X.Y.Z - X.Y.Z",
+            "InvalidAppDependencyVersionRange": "The maximum version must be greater than the minimum version."
+        },
+        "ApplicationManagementDialogComponent": {
+            "DialogHeaderCaption": "App properties",
+            "PropertiesTabCaption": "عام",
+            "DependenciesTabCaption": "التبعيات",
+            "Properties": {
+                "IconCaption": "ايقونة",
+                "ColorCaption": "اللون",
+                "InputNameCaption": "اسم التطبيق",
+                "NamePlaceholder": "ضع اسمًا للتطبيق الخاص بك",
+                "DefaultAppPageCaption": "Default app page",
+                "AppStartPageTooltip": "فتح صفحة التطبيق منخلال النقر على زر فتح التطبيق وتشغيله. يمكن أن يكون ذلك بمثابة الصفحة الرئيسية للتطبيق أو قائمة قسم الصفحة.",
+                "ApplicationCodeCaption": "رمز التطبيق",
+                "Developer": "مطور",
+                "InputDescriptionCaption": "وصف ما هو عليه (اختياري)",
+                "InputDescriptionPlaceholder": "اكتب بضع كلمات حول التطبيق الخاص بك",
+                "CreatedOn": "تم إنشاؤه على",
+                "LastUpdate": "آخر تحديث",
+                "Created": "أنشئ"
+            },
+            "Dependencies": {
+                "AddDependencyCaption": "Add dependency",
+                "ApplicationNameCaption": "الاسم",
+                "DeleteCaption": "حذف",
+                "RequiredPlatformVersionCaption": "Required Creatio version",
+                "RequiredPlatformVersionTooltip": "If you specify only one required version, the application can be installed on that version and later versions of Creatio. You can also specify a compatible version range using a hyphen, for example: \"8.3.0 - 8.4.3\".",
+                "RequiredPlatformVersionSubCaption": "Minimum required Creatio version or compatible version range for the \"{0}\" application. The current Creatio version is {1}.",
+                "RequiredDependenciesCaption": "Required dependencies",
+                "RequiredDependenciesSubCaption": "Configure dependencies to extend the application using elements from other applications or packages. The application cannot be installed in environments where required dependencies are missing, their versions are lower than the minimum required, or do not fall within the supported version range. The \"{0}\" application depends on the following applications or packages:",
+                "AddCaption": "إضافة",
+                "TypeCaption": "النوع",
+                "DeveloperCaption": "مطور",
+                "VersionCaption": "Required version",
+                "ApplicationVersionTooltip": "If you specify a single version, the application \"{0}\" can be installed only if the environment has the dependent application installed with that version or a newer one.\nYou can also specify a version range using a hyphen, for example: 1.0 - 2.0 or 1.0.0 - 2.0.0.",
+                "PackageVersionTooltip": "Version can be specified only for dependencies with type \"Application\""
+            },
+            "CancelButtonCaption": "إلغاء",
+            "SaveButtonCaption": "حفظ",
+            "CloseButtonCaption": "إغلاق",
+            "DependenciesValidationError": "Error while saving application dependencies",
+            "VersionTabCaption": "النسخة",
+            "Version": {
+                "VersionInputCaption": "Application Version",
+                "VersionInputPlaceholder": "0.0.0",
+                "VersionInputTooltip": "A version number follows the format <b>Major.Minor.Patch</b>, where each component has the following meaning:<ul><li><b>Major</b> – breaking changes</li><li><b>Minor</b> – new features that are backward compatible</li><li><b>Patch</b> – backward-compatible bug fixes only</li></ul>For example: 2.1.4. <a href='https://academy.creatio.com/documents?id=2584' target='_blank' rel='noopener noreferrer'>Learn more in the Academy</a>.",
+                "VersionInputHint1": "We recommend releasing any changes to the application using a new version number. Based on your current version {0}, consider using one of the following versioning options, depending on the significance of the changes: ",
+                "VersionInputHint2": " or ",
+                "VersionInputHint3": ", depending on the significance of the changes.",
+                "VersionMajorPart": "Major {0}",
+                "VersionMinorPart": "Minor {0}",
+                "VersionPatchPart": "Patch {0}"
+            }
+        }
+    },
+    "Validators": {
+        "Autocomplete": {
+            "Message": "الرجاء اختيار قيمة من القائمة"
+        },
+        "Required": {
+            "Message": "ادخل قيمة"
+        },
+        "MaxLength": {
+            "Message": "تجاوز الحد الأقصى لطول النص ({{actualLength}}/{{maxLength}})"
+        },
+        "MinLength": {
+            "Message": "لم يتم بلوغ الحد الأدنى لطول النص ({{actualLength}}/{{minLength}})"
+        },
+        "Min": {
+            "Message": "الحد الأدنى لرقم القيمة هو {{min}}"
+        },
+        "Max": {
+            "Message": "الحد الأقصى لرقم القيمة هو {{max}}"
+        },
+        "GridColumnsCount": {
+            "Message": "لا يمكن حذف الأعمدة التي تحتوي على العناصر. لتقليل عدد الأعمدة، قم بحذف العناصر أو نقلها إلى أعمدة أخرى."
+        },
+        "Email": {
+            "Message": "شكل البريد الإلكتروني غير صالح"
+        },
+        "ColorPicker": {
+            "Message": "خطأ في الإجراء. تنسيق HEX الخاطئ تم اختياره"
+        },
+        "Link": {
+            "Message": "تنسيق الرابط غير صحيح"
+        }
+    },
+    "UserProfile": {
+        "Profile": "ملف تعريف المستخدم",
+        "FirstLastName": "الاسم الكامل",
+        "Organization": "تنظيم",
+        "Language": "اللغة",
+        "TimeZone": "منطقة زمنية",
+        "DateTimeFormat": "تنسيق التاريخ والوقت",
+        "Email": "البريد الإلكتروني",
+        "ChangeEmail": "تغيير البريد الإلكتروني",
+        "EmailChanged": "تم تغيير البريد الإلكتروني الخاص بك بنجاح",
+        "ResendConfirmEmailSuccess": "تم إرسال البريد الإلكتروني الخاص بالتأكيد",
+        "ResendConfirmEmailError": "لم يتم إرسال البريد الإلكتروني الخاص بالتأكيد",
+        "NotConfirmedEmail": "يرجى التحقق من بريدك الإلكتروني لتأكيد التسجيل",
+        "Password": "كلمة المرور",
+        "ChangePassword": "تغيير كلمة المرور",
+        "ChangePasswordError": "حدث خطأ أثناء تغيير كلمة المرور",
+        "ResetPasswordValidationError": "لا يوجد مستخدمين يستخدمون هذا البريد الإلكتروني",
+        "ConnectedAccounts": "الحسابات المتصلة",
+        "DeleteProfile": "حذف الملف",
+        "ChangesSaved": "تم حفظ التغييرات",
+        "SavingError": "حدث خطأ أثناء حفظ البيانات",
+        "ApplyChanges": "حفظ",
+        "ReloginError": "لم يتم تطبيق التغييرات. الرجاء إعادة تسجيل الدخول لتطبيق التغييرات",
+        "NewEmail": "بريد إلكتروني جديد",
+        "CurrentPassword": "كلمة المرور الحالية",
+        "WrongPassword": "كلمة المرور خاطئة",
+        "ExistsEmailError": "هذا البريد الإلكتروني مستخدم مسبقاً",
+        "ChangeEmailError": "حدث خطأ داخلي، لم يتم تغيير البريد الإلكتروني، حاول لاحقًا",
+        "EmailNotConfirmed": "لم يتم التأكيد على البريد الإلكتروني",
+        "ResendConfirm": "إعادة إرسال التأكيد",
+        "ConnectedAccountsSectionCaption": "حسابات الطرف الثالث المتصلة",
+        "Logins": {
+            "AddNewLogin": "إضافة",
+            "LoginAlreadyAssociated": "الحساب متصل بمستخدم آخر",
+            "DefaultConnectionErrorMessage": "تعذر الاتصال بالشبكة الاجتماعية",
+            "DisconnectAccount": "قطع الاتصال"
+        },
+        "Photo": "صورة",
+        "Role": "دور",
+        "Active": "نشط",
+        "Status": "الحالة",
+        "Invited": "تم الدعوة",
+        "Back": "عودة",
+        "ChangeEmailButton": "التغيير وتسجيل الخروج",
+        "DisconnectAccountError": "تعذّر قطع الاتصال بالحساب المحدد",
+        "FirstName": "الاسم الأول",
+        "LastName": "الاسم الأخير",
+        "OrganizationWebsite": "الموقع",
+        "PasswordResetIsNotAllowed": "Password reset for this account was requested lately. Please wait few minutes to try again."
+    },
+    "UserProfileActionComponent": {
+        "YourProfileActionCaption": "ملف التعريف الخاص بك",
+        "LogoutActionCaption": "تسجيل الخروج"
+    },
+    "EnvironmentManagement": {
+        "WaitTrialPage": {
+            "DemoDataToggleCaption": "ملء النظام ببيانات تجريبية",
+            "Description": "سيتم استخدام هذا الحساب لتسجيل الدخول",
+            "Continue": "استمر",
+            "ConfirmRegistration": {
+                "RegistrationSuccessful": "تم التسجيل بنجاح!",
+                "CreateFirstApp": "هل تريد إنشاء التطبيق الأول الخاص بك الآن؟",
+                "GuideMeButtonCaption": "نعم، قم بإنشاء تطبيق جديد",
+                "ManageButtonCaption": "لا، سأفعل ذلك لاحقاً"
+            },
+            "WaitPage": {
+                "StudioEnterpriseMessage": "ستتمكن من إنشاء<br />التطبيق <strong>أول</strong> في بضع لحظات!",
+                "CRMMessage": "ستتمكن من تجربة منتجات كاملةformat@@0 <strong>والتسويق والمبيعات والخدمات</strong> مدمجة في منصة واحدة بدون رمز في بضع لحظات!",
+                "CreatioIsHotMessage": "الكرياتيوCreatio <br /> نظام سريع!",
+                "TrialTimeoutMessage": "جاري العمل عليه، وكن بسبب زيادة الطلب، <br /> قد يكون هناك بعض التأخير في تقديم النسخة التجريبية.",
+                "SendTrialEmail": "نحن نقدر وقتك وسوف نرسل بريد إلكتروني<br />عندما تكون النسخة التجريبية جاهزة.",
+                "GoToApplications": "الذهاب إلى مركز التطبيقات"
+            }
+        }
+    },
+    "OrganizationUserSection": {
+        "GridColumns": {
+            "id": "رقم التعريف",
+            "fullName": "الاسم الأول والأخير",
+            "email": "البريد الإلكتروني",
+            "status": "الحالة",
+            "role": "دور",
+            "lastActivity": "آخر نشاط"
+        },
+        "GridActions": {
+            "Activate": "تنشيط",
+            "Deactivate": "تعطيل",
+            "Edit": "تحرير",
+            "Resend": "إعادة إرسال الدعوة",
+            "Cancel": "إلغاء الدعوة"
+        },
+        "UserStatus": {
+            "Active": "نشط",
+            "Inactive": "غير نشط",
+            "Invited": "تم إرسال الدعوة"
+        },
+        "AddUser": "+ إضافة مستخدم",
+        "ChangeStatusMessage": {
+            "activate": "تم تنشيط المستخدم",
+            "deactivate": "تم إلغاء تنشيط المستخدم"
+        },
+        "InvitationSent": "تم إرسال الدعوة",
+        "InviteUsersPage": {
+            "NewUser": "مستخدم جديد",
+            "Back": "عودة",
+            "Role": "دور",
+            "Email": "البريد الإلكتروني الخاص بالأعمال",
+            "Collaborators": "المستخدمون المدعوون",
+            "SendInvite": "دعوة",
+            "InviteSuccess": "تم إرسال الدعوة",
+            "EmailExists": "تم دعوة المستخدم {0} بالفعل إلى المنظمة",
+            "GoToProfile": "الذهاب إلى الملف الشخصي"
+        }
+    },
+    "DataSourceAttributeValuePickerProvider": {
+        "ValueFromFieldCaption": "القيمة المدخلة من حقل آخر"
+    },
+    "OperationPermissionsErrorDialog": {
+        "ErrorTemplate": "ليس لديك الصاحية للقيام بهذه العملية، يرجى التواصل مع إدارة النظام وتقديم طلب الحصول على إذن القيام بعمليات النظام الآتية من خلال الرمز: «{0}». يتم إدارة أذونات عمليات النظام من خلال قسم \"أذونات العمليات\" لدى مصمم النظام."
+    },
+    "ViewElementGroup": {
+        "ChartsGroupCaption": "المخطط",
+        "ComponentsGroupCaption": "المكون",
+        "LayoutElementsGroupCaption": "عناصر التصميم",
+        "InputsGroupCaption": "إدخال",
+        "CustomElementsGroupCaption": "العناصر المخصصة"
+    },
+    "AggregationNames": {
+        "Count": "عدد السجلات",
+        "Sum": "مجموع القيم",
+        "Avg": "متوسط ​​القيمة",
+        "MinValue": "الحد الأدنى للقيمة",
+        "MaxValue": "الحد الأقصى للقيمة",
+        "MinDate": "الحد الأدنى للتاريخ",
+        "MaxDate": "الحد الأقصى للتاريخ",
+        "TopOne": "قيمة السجل الأول",
+        "AtLeastOneRecord": "At least one record",
+        "NoRecords": "No records"
+    },
+    "TypeCaptions": {
+        "GridContainer": "حاوية الشبكة",
+        "FlexContainer": "حاوية Flex",
+        "TabContainer": "نافذة",
+        "MenuItem": "عنصر القائمة",
+        "ChartWidget": "المخطط",
+        "TimelineTile": "الجدول الزمني"
+    },
+    "DialogComponent": {
+        "CancelButtonDialog": "إلغاء",
+        "SaveButtonDialog": "حفظ",
+        "CloseButtonDialog": "إغلاق"
+    },
+    "SsoSettings": {
+        "Validators": {
+            "AdfsTenant": {
+                "Message": "لا ينبغي أن تكون القيمة فارغة أو أن تبدأ بـ http:// أو https://"
+            },
+            "StringUrl": {
+                "Message": "يجب أن تكون القيمة عبارة عن رابط URL صحيح وساري"
+            },
+            "IsJsonValidator": {
+                "Message": "القيمة يجب أن تكون JSON صحيحة"
+            }
+        },
+        "SsoIdentityProvider": {
+            "DuplicationError": "هذا المزود موجود بالفعل. الرجاء التحقق من المعلومات التي تم إدخالها.",
+            "SigningSettingsError": "إعدادات الدخول SAML غير صحيحة. الرجاء التحقق من المعلومات التي تم إدخالها."
+        }
+    },
+    "BusinessRuleAction": {
+        "StructureExplorer": {
+            "Title": "حدد العناصر",
+            "ElementsTab": "{0}Elements{1}"
+        }
+    },
+    "FileSizeUnit": {
+        "Byte": "بايت",
+        "Bytes": "بايت",
+        "Kilobyte": "كيلوبايت",
+        "Megabyte": "ميغابايت",
+        "Gigabyte": "جيجابايت"
+    },
+    "Approvals": {
+        "ComponentHeaderLabel": "الموافقة مطلوبة"
+    },
+    "pageParametersDataSource": "معلمات الصفحة",
+    "RelationshipDesignerModal": {
+        "Caption": "علاقات {{schemaName}}"
+    },
+    "RelationshipDesigner": {
+        "DeleteItemMessage": "هل أنت متأكد من أنك تريد حذف العنصر؟",
+        "RequiredControlErrorMessage": "الرجاء إدخال القيمة"
+    },
+    "RelationshipDiagram": {
+        "NoAccess": "لا توجد إمكانية لتغيير العلاقة",
+        "Tools": {
+            "FitToView": "مناسب للعرض",
+            "ResetView": "إعادة تعيين العرض",
+            "ZoomIn": "تكبير في",
+            "ZoomOut": "التصغير",
+            "MiniMapClose": "إغلاق خريطة مصغرة",
+            "MiniMapOpen": "فتح خريطة مصغرة"
+        }
+    },
+    "GroupsPropertiesPage": {
+        "Title": "المجموعات",
+        "Search": "بحث"
+    },
+    "GroupPropertiesDialog": {
+        "Cancel": "إلغاء",
+        "Comment": "تعليق",
+        "EditGroup": "تحرير المجموعة",
+        "Name": "الاسم",
+        "NewGroup": "مجموعة جديدة",
+        "Save": "حفظ"
+    },
+    "EntityInGroupPropertiesDialog": {
+        "AddToGroup": "إضافة إلى المجموعة",
+        "Cancel": "إلغاء",
+        "Comment": "تعليق",
+        "Edit": "تحرير",
+        "Group": "مجموعة",
+        "Save": "حفظ"
+    },
+    "ConnectionPropertiesPage": {
+        "Comment": "تعليق",
+        "Relations": "العلاقات",
+        "RelationshipType": "نوع العلاقة",
+        "Title": "العلاقة"
+    },
+    "ContainerPropertiesPage": {
+        "Address": "العنوان",
+        "Email": "البريد الإلكتروني",
+        "GeneralInformation": "معلومات عامة",
+        "Groups": "المجموعات",
+        "Phone": "الهاتف",
+        "RelationshipsWith": "إدخالات ذات صلة ({0})",
+        "Type": "نوع",
+        "Web": "شبكة"
+    },
+    "ObjectPermissions": {
+        "Warning": "تنبيه! ",
+        "OperationsPoint": "العناصر المستخدمة في حقول البحث في هذه الصفحة القسم لم يتم تكوينها. وفقا لأذونات الدخول الحالية، الكائنات المدرجة أدناه غير متوفرة للمستخدمين الخارجيين:",
+        "RecordsPoint": "العناصر المستخدمة في حقول البحث في هذه الصفحة القسم ليست آمنة. وفقا لأذونات الوصول الحالية، جميع السجلات من الكائنات المدرجة أدناه متاحة بالكامل لأي مستخدم خارجي:",
+        "SetProperPermissionsBegin": "لتعيين أذونات الوصول الصحيحة، قم بتشغيل وتسجيل أذونات هذه الكائنات في \"",
+        "ObjectPermissions": "أذونات الكائن",
+        "SetProperPermissionsEnd": "قسم من مصمم النظام.",
+        "Link": "تحديث أذونات الكائن الآن",
+        "End": "ملاحظة: قد تحتاج إلى تعيين أذونات الوصول للسجلات الموجودة بشكل فردي، حتى يمكن للمستخدمين الآخرين العمل معهم.",
+        "UpdateObjectPermissionsMessage": "سيتم تعديل إعدادات الأذونات الحالية. قد يؤثر هذا على أداء النظام لجميع المستخدمين. هل ترغب في تحديث أذونات الكائن الآن؟"
+    },
+    "LocalizableTextInput": {
+        "ButtonTitle": "Multilanguage configuration"
+    },
+    "ExpansionButton": {
+        "ExpandTooltip": "Expand panel",
+        "CollapseTooltip": "لوحة هابطة"
+    },
+    "MultilanguageEmailTemplates": {
+        "TranslateHeadersTitle": "Set headers for multilingual templates",
+        "TranslateDescription": "Add language-specific headers for your multilingual template. To include more languages, update the template settings.",
+        "AcademyUrl": "https://academy.creatio.com/documents?id=2571"
+    },
+    "isValueMaskedCaption": "Mask displayed value",
+    "maskTypeCaption": "Mask type",
+    "maskOperationCaption": "تصريح العملية",
+    "ValueMaskingSettings": {
+        "HideAllMaskTitle": "Hide All Characters",
+        "ShowOnlyLast4CharsMaskTitle": "Show Only Last 4 Characters",
+        "BankCardMaskTitle": "Bank Card",
+        "SSNMaskTitle": "SSN",
+        "SINMaskTitle": "SIN"
+    },
+    "blockDeletionTooltip": "Prevents deleting the lookup value if it is referenced by records in the current object.",
+    "DeleteRecordsTooltip": "Deletes related records in the current object when the lookup value is deleted.",
+    "selectionWindowTooltip": "Opens a separate selection window to choose a lookup value.",
+    "listTooltip": "Lets users select a lookup value directly from a dropdown list."
+}

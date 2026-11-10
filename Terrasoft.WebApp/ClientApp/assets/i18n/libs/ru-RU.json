@@ -1,0 +1,4429 @@
+{
+  "ExpressionDesigner": {
+    "Title": "Редактор формул",
+    "EmptyExpressionForbidden": "Невозможно сохранить пустую формулу",
+    "EmptyExpressionValidation": "Формула пуста",
+    "ValidationSuccess": "Валидация успешна",
+    "ExpressionIsNotValid": "Не удалось сохранить формулу. Исправьте ошибки валидации и попробуйте ещё раз",
+    "ExpressionDesignerError": "Произошла ошибка. Пожалуйста, попробуйте ещё раз или обратитесь к администратору",
+    "Add": "Добавить",
+    "Validation": {
+      "DivisionByZero": "Делить на 0 запрещено",
+      "ExpressionTypeNotValid": "Строки нельзя использовать в этом выражении",
+      "ColumnRemoved": "Колонка удалена"
+    }
+  },
+  "ExpressionDialog": {
+    "Validate": "Валидировать",
+    "ValidateMessage": "Валидационные уведомления ({{count}})",
+    "Placeholder": "Выберите элемент данных из списка либо начните печатать формулу. Поддерживаются базовые арифметические операции и скобки",
+    "MaxExpressionLength": "Достигнуто максимальное рекомендованное количество символов",
+    "AggregationFormulaPlaceholder": "Настройте формулу с помощью функций агрегации и атрибутов данных. При необходимости настройте фильтры и объедините результаты с помощью базовых арифметических операций"
+  },
+  "Components": {
+    "SearchFilter": {
+      "Caption": "Поиск",
+      "Placeholder": "Поиск",
+      "Tooltip": "Компонент поиска ищет только по текстовым, числовым и справочным колонкам с прямой связью."
+    },
+    "EncryptedInput": {
+      "Caption": "Зашифрованная строка",
+      "EyeButtonShowValueCaption": "Показать значение",
+      "EyeButtonHideValueCaption": "Скрыть значение",
+      "EyeButtonDisabledCaption": "Невозможно показать/скрыть значение",
+      "ToggleMaskedValueHandler": {
+        "ErrorMessage": "Произошла ошибка. Пожалуйста, попробуйте ещё раз или обратитесь к администратору."
+      },
+      "UnmaskRecordParametersBuilder": {
+        "UnsupportedAttributeTypeError": "Этот тип атрибута не поддерживается для данной операции. Пожалуйста, проверьте конфигурацию поля или попробуйте использовать другой тип данных.",
+        "CurrentRecordIdNotFoundError": "Не удалось найти ID текущей записи. Это может происходить, если текущая запись ещё не сохранена. Пожалуйста, сохраните запись перед выполнением этого действия.",
+        "ReferenceRecordIdNotFoundError": "Отсутствует ID связанной записи. Это может происходить, если ссылка указывает на новую запись, которая ещё не сохранена в базе данных. Пожалуйста, сначала сохраните связанную запись.",
+        "ReferenceColumnSchemaNameNotFoundError": "Не найдено имя схемы связанной колонки. Пожалуйста, проверьте настройки поля со ссылкой."
+      }
+    },
+    "FolderTree": {
+      "Caption": "Группы",
+      "Hint": "Позволяет настроить структуру групп для сегментации записей по заданным фильтрам. Для корректной работы компонента необходимо установить с ним связь в настройках Списка или Источника данных на странице."
+    },
+    "FolderTreeActions": {
+      "Caption": "Меню управление группами",
+      "Hint": "Используется вместе с компонентом \"Группы\". Позволяет отобразить группы на странице, если они скрыты."
+    },
+    "QuickFilter": {
+      "Caption": "Быстрый фильтр",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "Вчера",
+          "Today": "Сегодня",
+          "Tomorrow": "Завтра",
+          "PreviousWeek": "Прошлая неделя",
+          "CurrentWeek": "Текущая неделя",
+          "NextWeek": "Следующая неделя",
+          "PreviousMonth": "Прошлый месяц",
+          "CurrentMonth": "Текущий месяц",
+          "NextMonth": "Следующий месяц",
+          "PreviousQuarter": "Предыдущий квартал",
+          "CurrentQuarter": "Текущий квартал",
+          "NextQuarter": "Следующий квартал",
+          "PreviousFiscalWeek": "Предыдущая финансовая неделя",
+          "CurrentFiscalWeek": "Текущая финансовая неделя",
+          "NextFiscalWeek": "Следующая финансовая неделя",
+          "FiscalQuarter1": "К1",
+          "FiscalQuarter2": "К2",
+          "FiscalQuarter3": "К3",
+          "FiscalQuarter4": "К4",
+          "FiscalHalfYear1": "Первое полугодие",
+          "FiscalHalfYear2": "Второе полугодие",
+          "PreviousFiscalYear": "Предыдущий год",
+          "CurrentFiscalYear": "Текущий год",
+          "NextFiscalYear": "Следующий год"
+        }
+      }
+    },
+    "MessageComposer": {
+      "Caption": "Сообщения",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "Email адрес"
+        },
+        "Feed": {
+          "Caption": "Лента"
+        },
+        "SelectChannelsCaption": "Выберете каналы",
+        "Telegram": {
+          "Caption": "Telegram"
+        },
+        "FacebookMessenger": {
+          "Caption": "Facebook мессенджер"
+        },
+        "WhatsApp": {
+          "Caption": "Произошла ошибка при генерации кодов восстановления. Свяжитесь с системным администратором"
+        },
+        "SMS": {
+          "Caption": "СМС"
+        }
+      }
+    },
+    "ColorPicker": {
+      "SelectedColor": "Выбранный цвет",
+      "Readonly": "Нередактируемое поле"
+    },
+    "Switch": {
+      "Caption": "Изменить"
+    },
+    "NextBestOfferDT": {
+      "Caption": "Next Best Offers"
+    },
+    "NextBestOffer": {
+      "Caption": "Лучшие предложения",
+      "EmptyValue": "Н/Д",
+      "Next": "Следующий",
+      "Previous": "Предыдущий"
+    },
+    "Approval": {
+      "Caption": "Визирование"
+    },
+    "ApprovalList": {
+      "Caption": "История визирования",
+      "RefreshCaption": "Обновить",
+      "ProvideDataSource": "Перед использованием Визирования необходимо указать источник данных"
+    },
+    "MultiSelect": {
+      "Caption": "Справочник с мультивыбором",
+      "CreateRecordButtonCaption": "Создать запись",
+      "Label": "Мульти выбор",
+      "ExpanderIcon": "Развернуть выпадающий список",
+      "OpenModalIcon": "Открыть модальное окно",
+      "TooltipInfoIcon": "Информационная подсказка",
+      "ReadonlyIcon": "Нередактируемое поле"
+    },
+    "BarcodeScanner": {
+      "Caption": "Сканер штрих-кода"
+    },
+    "Sort": {
+      "Caption": "Сортировать"
+    }
+  },
+  "DesktopSelector": {
+    "ShowDesktopSelector": "Выбрать рабочий стол",
+    "EditDesktop": "Редактировать рабочий стол",
+    "UseHotkeys": "Используйте Ctrl+Shift+E для редактирования рабочего стола"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "Недопустимые параметры",
+    "ServiceResult": {
+      "ErrorMessage": "Произошла ошибка. Пожалуйста, свяжитесь с системным администратором"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "Выбранным {{ count }} записям были проставлены теги",
+      "RemoveTagsMessage": "Выбранным {{ count }} записям были удалены теги",
+      "AddTagsSuccessfulRunProcess": "Процесс массового тегирования запущен для выбранных записей. Это может занять несколько минут",
+      "RemoveTagsSuccessfulRunProcess": "Процесс массового удаления тегов запущен для выбранных записей. Это может занять несколько минут"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "Добавлено {{ count }} записей в выбранные группы",
+      "RemoveRecordsMessage": "Удалено {{ count }} записей из выбранных групп"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "Действие успешно запущено",
+    "StartingProcessAnnounceMessage": "Запуск процесса, пожалуйста, подождите...",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "Для выполнения этого действия необходимо выбрать хотя бы одну запись. Пожалуйста, выберите записи и повторите попытку"
+    },
+    "ProcessStarted": "Процесс запущен"
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "Вы действительно хотите удалить выделенную запись?",
+    "DeleteRecordsConfirmation": "Вы действительно хотите удалить выделенные записи?",
+    "SaveSummariesForAll": "Сохранить настройки итогов для всех пользователей?",
+    "ResetSummaries": "Вернуть для итогов настройки по умолчанию?"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "Недостаточно прав для удаления записи в объекте '{0}'",
+    "UnableToDeleteSelectedRecord": "Выделенную запись не получилось удалить",
+    "SelectRecordsToDelete": "Выберите записи для удаления",
+    "SettingsErrorMessage": "Ошибка выполнения действия.\n\nСистемному администратору необходимо проверить настройки кнопки в  дизайнере Freedom UI.",
+    "ExportToExcel": {
+      "FileGenerationMessage": "Формируем файл для экспорта",
+      "PermissionsErrorMessage": "У вас нет разрешения на выполнение этой операции.\nОбратитесь к системному администратору. Проверьте доступ к объекту экспорта и разрешение выполнения системной операции."
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "Недостаточно прав для работы с журналом изменений. Обратитесь к администратору системы. ",
+      "SourceIsNotSpecifiedMessage": "Для действия \"Открыть журнал изменений\" не указан объект или источник данных. Обратитесь к администратору системы.",
+      "RecordIsNotSelectedMessage": "Выберите запись для просмотра истории изменений.",
+      "ChangeLogIsNotTurnedOnTitle": "Включить логирование",
+      "ChangeLogIsNotTurnedOnMessage": "Логирование изменений для объекта {0} не включено. Хотите включить логирование?",
+      "ChangeLogIsTurnedOffMessage": "Логирование изменений для объекта {0} не включено. Обратитесь к администратору системы. ",
+      "RecordIsNotSavedMessage": "Cохраните запись, чтобы для нее была доступна история изменений."
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "Превышен максимальный размер файла: {0} МБ.\n\n\n Файлы:\n- {1}",
+      "NoConnectedFileList": "Список, куда загружать файлы, не указан.\n\nПожалуйста, выберите список для загрузки файлов в настройках этой кнопки.",
+      "InvalidRequestParams": "Не удалось загрузить файл(ы), так как данный компонент страницы еще не настроен. Администратор системы может завершить настройку компонента в дизайнере Freedom UI.",
+      "ChangeFileSizeInfoMessage": "Увеличить это значение можно в системной настройке «Максимальный размер файла».",
+      "FileListHeader": "Файлы",
+      "MaxFileSizeExceededExceptionMessage": "Превышен максимальный размер файла {0} МБ.",
+      "UnknownServerError": "Что-то пошло не так.\n\nПожалуйста, попробуйте загрузить изображение еще раз.",
+      "EmptyFileMessage": "Вы пытаетесь загрузить пустые файлы.\n\nПожалуйста, выберите файлы с содержимым.",
+      "AttachedToUnsavedRecord": "Невозможно прикрепить файлы к еще не созданной записи. Пожалуйста, создайте запись перед загрузкой файлов",
+      "InvalidExtension": {
+        "Deny": "Файлы с расширением [{0}] запрещены настройками безопасности. Если вам необходимо работать с файлами такого типа, пожалуйста обратитесь к администратору системы, для того чтобы убрать данное расширение из системной настройки [Список запрещенных расширений файлов] (FileExtensionsDenyList)",
+        "Allow": "Файлы с расширением [{0}] запрещены настройками безопасности. Если вам необходимо работать с файлами такого типа, пожалуйста обратитесь к администратору системы, для того чтобы добавить данное расширение в системную настройку [Список разрешенных расширений файлов] (FileExtensionsAllowList)",
+        "NotSupported": "Некоторые выбранные файлы не поддерживаются для загрузки. Выберите файлы поддерживаемых типов."
+      },
+      "SingleUploadInProgress": "Файл {0} все еще загружается. Дождитесь завершения загрузки.",
+      "MultipleUploadsInProgress": "Некоторые файлы все еще загружаются. Дождитесь завершения загрузок ({0} и еще {1})."
+    },
+    "FileAnnouncement": {
+      "Uploaded": "{0} файл загружен",
+      "Deleted": "{0} файл удален"
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "Превышен максимальный размер файла {0} МБ.",
+      "UnknownUploadError": "Неизвестная ошибка загрузки изображения. Пожалуйста, обратитесь к администратору системы.",
+      "Announcement": {
+        "Uploaded": "Изображение загружено",
+        "Deleted": "Изображение удалено"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "Ошибка выполнения действия.\nОбратитесь к системному администратору. Необходима проверка настроек действия в System Designer."
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "Ошибка выполнения действия.\nОбратитесь к системному администратору. Необходима проверка настроек действия в System Designer."
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "Выберите записи для добавления тега",
+      "SelectRecordsToRemoveRecordsMessage": "Выберите записи для удаления тега"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "Выберите записи для добавления в статическую группу",
+      "SelectRecordsToRemoveRecordsMessage": "Выберите записи для удаления из статической группы"
+    },
+    "FileDownload": {
+      "FileMismatchErrorMessage": "Файл «{0}» загружен не полностью",
+      "FileDownloadErrorMessage": "Не удалось загрузить файл '{0}'. Возможно, он был удалён, повреждён или у вас нет доступа к нему."
+    },
+    "OK": "ОК"
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "Добавить тег",
+    "RemoveTagCaption": "Убрать тег"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "Невозможно сформировать отчет пока запись не сохранена.",
+    "InvalidRequestCaption": "Действие невалидно. Пожалуйста, проверьте настройку печати.",
+    "SelectRecord": "Выберите запись для печати отчета"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "Невозможно переместить все выбранные записи этим действием, пожалуйста, выберите столько записей, сколько необходимо, по одной"
+  },
+  "CancelRecordsChangesRequest": {
+    "SuccessMessage": "Изменения успешно отменены"
+  },
+  "RecordDeletedRequest": {
+    "SuccessMessage": "Запись успешно удалена"
+  },
+  "RecordsDeletedRequest": {
+    "SuccessMessage": "Записи успешно удалены"
+  },
+  "SchemaOutlet": {
+    "BeforeSchemaChangeAnnounceMessage": "Загрузка, пожалуйста подождите...",
+    "AfterSchemaChangeAnnounceMessage": "Загрузка завершена",
+    "Caption": "Контейнер схемы",
+    "Hint": "Контейнер для отображения схемы",
+    "SchemaNotFound": "<not found>"
+  },
+  "SaveRecordRequest": {
+    "SavingRecordAnnounceMessage": "Сохранение, пожалуйста, подождите..."
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "Отсутствуют отчеты доступные для печати",
+    "GoToPrintablesSetupCaption": "Перейти к настройке отчетов"
+  },
+  "Deduplication": {
+    "RecordNotCreatedMessage": "Запись не была создана",
+    "MergeStartedMessage": "Система начала объединение данных. Вы получите уведомление на панели коммуникаций, когда процесс завершится. После этого перезагрузите запись, чтобы получить обновленные данные."
+  },
+  "HierarchyCopy": {
+    "RecordIdRequiredMessage": "Требуется ID записи.",
+    "SchemaNameRequiredMessage": "Требуется имя схемы.",
+    "CopyingErrorMessage": "Непредвиденная ошибка при копировании записи."
+  },
+  "SchemaContextPart": {
+    "RecordTitle": "{{caption}}: {{value}}",
+    "ListTitle": "Получено новое уведомление о задаче бизнес-процесса"
+  },
+  "DataGroupColumnsSubGroups": {
+    "NewColumn": "Добавить новое поле",
+    "ExistingColumns": "Существующие колонки"
+  },
+  "DataGroupParametersSubGroups": {
+    "NewParameter": "Добавить новый параметр",
+    "ExistingParameters": "Существующие параметры"
+  },
+  "NewParameterSubGroup": {
+    "MEDIUM_TEXTParameter": "Строка",
+    "IntegerParameter": "Число",
+    "BooleanParameter": "Логическое",
+    "DateTimeParameter": "Date/Time",
+    "LookupParameter": "Выпадающий список",
+    "RICH_TEXTParameter": "Форматированный текст",
+    "PhoneParameter": "Телефон",
+    "LongPhoneParameter": "Телефонный номер",
+    "WebParameter": "Поле Web",
+    "EmailParameter": "Email-сообщениe",
+    "LongEmailParameter": "Email-адрес"
+  },
+  "ColumnAddedOnPage": "Колонка добавлена на страницу",
+  "ColumnValidators": {
+    "ErrorMessages": {
+      "LookupReferenceSchemaNotSetError": "Не указан источник данных для справочника"
+    }
+  },
+  "NewColumnSubGroup": {
+    "MEDIUM_TEXTColumn": "Строка",
+    "IntegerColumn": "Число",
+    "BooleanColumn": "Логическое",
+    "ColorColumn": "Цвет",
+    "DateTimeColumn": "Date/Time",
+    "LookupColumn": "Выпадающий список",
+    "RICH_TEXTColumn": "Форматированный текст",
+    "AutonumberColumn": "Автонумерация",
+    "IMAGELOOKUPColumn": "Изображение",
+    "PhoneColumn": "Телефон",
+    "WebColumn": "Поле Web",
+    "EmailColumn": "Email-сообщениe",
+    "SECURE_TEXTColumn": "Зашифрованная строка",
+    "ToggleColumn": "Переключатель",
+    "LongPhoneColumn": "Телефонный номер",
+    "LongEmailColumn": "Email-адрес",
+    "SwitchColumn": "Изменить"
+  },
+  "CDK": {
+    "ChartsGroupCaption": "Виджеты",
+    "DataGroupCaption": "Данные",
+    "PageParametersDataGroupCaption": "Параметры страницы",
+    "ComponentsGroupCaption": "Компоненты",
+    "LayoutElementsGroupCaption": "Элементы разметки",
+    "CustomElementsGroupCaption": "Пользовательские компоненты",
+    "InputsGroupCaption": "Поля ввода"
+  },
+  "CanvasPlaceholder": {
+    "Caption": "Здесь пока ничего нет",
+    "Description": "Перетащите элементы из \n левой панели",
+    "LinkDescription": "Узнайте больше о дизайнере в",
+    "LinkCaption": "Академии",
+    "LinkUrl": "https://academy.creatio.com/docs/8.x/no-code-customization/category/ui-and-business-logic-customization"
+  },
+  "DesignerTools": {
+    "SearchPlaceholder": "Искать компонент",
+    "PlaceholderTitleWithFilters": "При установленном фильтре в разделе нет ни одной записи",
+    "PlaceholderDescriptionWithFilters": "Очистите фильтр или измените условия фильтрации"
+  },
+  "LeftPanel": {
+    "ComponentsTabLabel": "Компоненты",
+    "StructureTabLabel": "Структура"
+  },
+  "InfoPanel": {
+    "SafariInfoPanelMessage": "Рекомендуем использовать браузер Chrome для работы в дизайнере интерфейсов, т.к. Safari не поддерживает все необходимые функции дизайнера. Спасибо!",
+    "UserLevelSchemaInfoPanelMessage": "Дашборд доступен только на текущей среде. Чтобы перенести дашборд на другую среду, включите его в пакет.",
+    "OpenInPackageButton": "Открыть в пакете"
+  },
+  "Structure": {
+    "NodeMenu": {
+      "Settings": "Настроить",
+      "Copy": "Копия",
+      "Delete": "Удаление",
+      "AddComponent": "Добавить компонент",
+      "MoveTo": "Переместить в"
+    },
+    "Search": {
+      "PreviousMatch": "Предыдущее совпадение",
+      "NextMatch": "Следующее совпадение",
+      "Clear": "Очистить поиск"
+    }
+  },
+  "AddItemDialog": {
+    "Title": "Добавить компонент",
+    "Placeholder": "Имя компонента",
+    "AddButton": "Добавить",
+    "CancelButton": "Отменить"
+  },
+  "MoveToDialog": {
+    "Title": "Переместить в",
+    "Placeholder": "Название элемента",
+    "MoveToButton": "Переместить",
+    "CancelButton": "Отменить"
+  },
+  "ModalPageDesigner": {
+    "Defaults": {
+      "Caption": "Новая модальная страница",
+      "CaptionTemplate": "{{0}} новая модальная страница",
+      "CaptionWithEntityTemplate": "Модальная страница записи {{0}}"
+    }
+  },
+  "InterfaceDesignerHeaderComponent": {
+    "SaveButtonCaption": "Сохранить",
+    "CancelButtonCaption": "Отменить",
+    "CloseButtonCaption": "Закрыть",
+    "UndoButtonTooltip": "Отменить",
+    "OpenSourceCodeTooltip": "Открыть исходный код",
+    "SourceCodeCaption": "Исходный код",
+    "OpenPropertyTooltip": "Настройки страницы",
+    "ChangeParentTooltip": "Изменить родительский объект",
+    "ActionsTooltip": "Действия",
+    "CopyCaption": "Копировать",
+    "ExportCaption": "Экспортировать",
+    "OnlineHelpCaption": "Онлайн справка",
+    "OnlineHelpUrl": "https://academy.creatio.com/docs/8.x/no-code-customization/category/ui-and-business-logic-customization",
+    "SchemaOutdatedSaveButtonTooltip": "Схема устарела",
+    "RedoButtonTooltip": "Повторить",
+    "FaviconButtonTooltip": "Открыть интерфейс управления приложениями",
+    "BusinessRulesButtonTitle": "Открыть бизнес правила",
+    "BusinessRulesButtonCaption": "Бизнес правила",
+    "PreviewButtonCaption": "Настройка прав",
+    "PreviewButtonTitle": "Предварительный просмотр страницы",
+    "PreviewActiveLabel": "Предпросмотр активен"
+  },
+  "InterfaceDesigner": {
+    "ExportSuccessMessage": "Схема успешно экспортирована",
+    "ExportErrorMessage": "Не удалось экспортировать схему",
+    "ExportMessage": "Вы хотите сохранить изменения перед экспортом? Если нет, то вы получите локальную версию экспорта.",
+    "ExportSuccess": "Схема успешно экспортирована",
+    "PreviewOpenError": "Не удалось открыть предпросмотр страницы.",
+    "PropertiesPages": {
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "Зашифрованная строка"
+      },
+      "DividerPropertiesPanel": {
+        "LayoutGroup": "Макет",
+        "PaddingGroup": "Отступы",
+        "Padding": {
+          "Top": "Верхний",
+          "Bottom": "Нижний",
+          "Left": "Левый",
+          "Right": "Справа"
+        },
+        "Thickness": {
+          "Label": "Толщина"
+        },
+        "Sizes": {
+          "None": "Нет",
+          "ExtraSmall": "Очень маленький",
+          "Small": "Маленький",
+          "Medium": "Средний",
+          "Large": "Большой"
+        },
+        "PageCaption": "Конфигурация восстановлена из резервной копии"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "Настройка итогов",
+        "GeneralGroup": {
+          "Caption": "Общие",
+          "SelectDataSource": "Источник данных"
+        }
+      },
+      "FolderTreePropertiesPage": {
+        "AppearanceGroup": "Вид на странице",
+        "BorderRadiusLabel": "Радиус скругления углов",
+        "GeneralLabel": "Общие",
+        "HeaderLabel": "Настройки групп",
+        "Sizes": {
+          "None": "Нет",
+          "Small": "Маленький",
+          "Medium": "Средний",
+          "Large": "Большой",
+          "ExtraLarge": "Очень большой",
+          "2XLarge": "2XL",
+          "3XLarge": "3XL"
+        },
+        "SourceSchemaLabel": "Хранилище групп",
+        "RootSchemaLabel": "Источник данных для фильтра групп",
+        "ButtonSizeFieldLabel": "Размеры",
+        "ColorFieldLabel": "Стиль",
+        "Colors": {
+          "Primary": "Основная",
+          "Accent": "Акцент",
+          "Warn": "Важно",
+          "Default": "Простой",
+          "Secondary": "Вторичный"
+        },
+        "IconPositionLabel": "Порядковый номер",
+        "IconPosition": {
+          "LeftIcon": "Иконка слева",
+          "OnlyIcon": "Только иконка",
+          "RightIcon": "Иконка справа"
+        }
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "Настройки меню управления группами",
+        "FolderTreeLabel": "Выбор дерева групп",
+        "GeneralCaption": "Общие"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "Настройки быстрого фильтра",
+        "GeneralCaption": "Общие",
+        "AppearanceCaption": "Вид на странице",
+        "ChooseFilterTypeLabel": "Выберите тип фильтра",
+        "CaptionLabel": "Заголовок",
+        "HintLabel": "Подсказка",
+        "CustomType": "Фильтр по условию",
+        "DateRangeType": "Date/Time",
+        "LookupType": "Фильтр по справочному полю"
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Настройки хронологии",
+        "GeneralGroup": "Общие",
+        "ObjectsCaption": "Объекты",
+        "AddObject": "Добавить объект",
+        "EmptyDataSourceHint": "На страницу не добавлен источник данных. Пожалуйста, добавьте существующий источник данных, чтобы настроить компонент",
+        "BindToDataSourceCaption": "Источник данных",
+        "FiltrationCaption": "Настройки фильтрации",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "По типу записи",
+          "TimelineFilter_Owner": "По ответственному",
+          "TimelineFilter_Date": "По дате",
+          "TimelineFilter_SystemMessages": "По системным сообщениям"
+        },
+        "ContextMenu": {
+          "Edit": "Редактировать",
+          "Delete": "Удалить"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "Общие",
+        "FiltrationGroup": "Возможности фильтрации",
+        "CaptionLabel": "Заголовок",
+        "AppearanceGroup": "Вид на странице",
+        "LinkedColumn": "Колонка связи",
+        "SortedByColumn": "Сортировать по",
+        "OwnerColumn": "Колонка для фильтрации ответственного",
+        "IconPosition": {
+          "OnlyIcon": "Только иконка"
+        },
+        "Feed": {
+          "ExternalUsersGroupCaption": "Внешние пользователи",
+          "AllowExternalPostCaption": "Разрешить сообщения для внешних пользователей"
+        }
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Режим отображения панели инструментов",
+        "Inline": "При фокусе на поле",
+        "Classic": "Классический",
+        "AlwaysShowToolbar": "Всегда показывать панель форматирования"
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "Настройки средств связи",
+        "GeneralGroup": "Общие",
+        "MasterRecordCaption": "Запись, к которой привязать средства связи",
+        "DataSourceEntityColumn": "Источник данных",
+        "Editability": "Доступность редактирования",
+        "EditabilityControls": {
+          "Readonly": "Только чтение"
+        },
+        "LabelPositionCaption": "Положение заголовка",
+        "LabelPosition": {
+          "Auto": "Автоматически",
+          "Left": "Слева",
+          "Above": "Сверху",
+          "Hidden": "Скрыт"
+        },
+        "ShowNoDataPlaceholder": "Отображать плейсхолдер когда нет данных",
+        "AppearanceGroup": "Вид на странице",
+        "ColumnsCountLabel": "Количество колонок",
+        "ContactEntitySchemaName": "Средство связи контакта",
+        "AccountEntitySchemaName": "Средство связи контрагента",
+        "EmptyDataSourceHint": "На страницу не добавлен источник данных. Пожалуйста, добавьте существующий источник данных, чтобы настроить компонент"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "Настройки профиля контрагента",
+        "GeneralGroup": "Общие",
+        "AttributeForReferenceColumn": "Источник данных",
+        "Editability": "Доступность редактирования",
+        "EmptyAccountDataSourceHint": "На страницу не добавлен источник данных. Пожалуйста, добавьте существующий источник данных, чтобы настроить компонент",
+        "EditabilityControls": {
+          "Readonly": "Только чтение"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "Настройки профиля контакта",
+        "GeneralGroup": "Общие",
+        "AttributeForReferenceColumn": "Источник данных",
+        "Editability": "Доступность редактирования",
+        "EmptyContactDataSourceHint": "На страницу не добавлен источник данных. Пожалуйста, добавьте существующий источник данных, чтобы настроить компонент",
+        "EditabilityControls": {
+          "Readonly": "Только чтение"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "Настройки профиля пользователя",
+        "GeneralGroup": "Общие",
+        "AttributeForReferenceColumn": "Источник данных",
+        "Editability": "Доступность редактирования",
+        "EmptyUserProfileDataSourceHint": "На страницу не добавлен источник данных. Пожалуйста, добавьте существующий источник данных, чтобы настроить компонент",
+        "EditabilityControls": {
+          "Readonly": "Только чтение"
+        }
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "Настройка чата",
+        "GeneralCaption": "Общие",
+        "TooltipCaption": "Вы можете выполнить настройку этого элемента в исходном коде страницы",
+        "OpenSourceCodeButtonCaption": "Открыть исходный код"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "Настройка диалога",
+        "GeneralCaption": "Общие"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "Настройка редактора сообщений",
+        "GeneralCaption": "Общие"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Настройки ленты",
+        "GeneralCaption": "Общие",
+        "FeedTypeCaption": "Как фильтровать записи?",
+        "FeedChannel": "Канал",
+        "FeedTypeGeneral": "Все каналы",
+        "FeedTypeUser": "Относящиеся к пользователю",
+        "FeedTypeChannel": "Канал",
+        "FeedTypeRecord": "Относящиеся к записи",
+        "FeedDataSourceCaption": "Источник данных",
+        "FeedTypeRecordTooltipCaption": "Будут отображаться сообщения ленты, связанные с коммуникацией по выбранному объекту.",
+        "FeedTypeGeneralTooltipCaption": "Все уведомления и упоминания по текущему пользователю. В этом режиме лента будет отображать посты и комментарии где упоминали текущего пользователя или на которые он подписан. Например, ленту в этом режиме можно добавить на домашнюю страницу чтобы не пропустить важную информацию.",
+        "ExternalUsersGroupCaption": "Внешние пользователи",
+        "AllowExternalPostCaption": "Разрешить сообщения для внешних пользователей",
+        "ShowBlankSlateCaption": "Отображать blank slate"
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "Редактировать",
+          "Delete": "Удалить"
+        },
+        "ChannelsCaption": "Каналы",
+        "AddNewItem": "Добавить канал",
+        "PageCaption": "Сообщения",
+        "DefaultChannelCaption": "Канал по умолчанию"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "Сообщения",
+        "GeneralCaption": "Общие",
+        "DefaultSenderType": "Отправитель по умолчанию",
+        "DefaultMailbox": "Использовать ящик по умолчанию",
+        "CaseMailbox": "Использовать ящик из обращения"
+      },
+      "ChatComposerPropertiesPage": {
+        "PageCaption": "Конструктор сообщений чата",
+        "GeneralCaption": "Основное",
+        "ProviderIdCaption": "Провайдер канала"
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "Настройки следующих шагов"
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Мини карточка для просмотра",
+        "TitleColumn": "Первичная колонка для отображения",
+        "StartDateColumn": "Колонка с датой начала",
+        "EndDateColumn": "Колонка с датой завершения",
+        "NotesColumn": "Поле с информацией об онлайн встрече",
+        "PageCaption": "Настройки календаря",
+        "RequiredFieldError": "Это поле обязательное для заполнения",
+        "SecondaryTileFields": "Дополнительные поля для плитки",
+        "AddSecondaryFieldCaption": "Добавить дополнительное поле",
+        "DisabledAddSecondaryFieldCaption": "Вы можете добавить максимум 4 вторичных поля",
+        "AutoScrollToCurrentTime": "Автоматически прокручивать до текущего времени",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Удалить"
+        },
+        "ColorizationType": {
+          "Default": "По умолчанию",
+          "ByField": "Автоматически",
+          "ByOwner": "По пользователю"
+        },
+        "ColorizationTypeCaption": "Режим колоризации",
+        "ColorizationColumnCaption": "Справочник"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "Настройки лучших предложений",
+        "GeneralCaption": "Общие",
+        "DataSourceCaption": "Объект",
+        "CaptionColumnField": "Заголовок",
+        "DescriptionColumnField": "Описание",
+        "InfoLabelColumnField": "Дополнительная информация",
+        "ImageColumnField": "Изображение",
+        "NumberTagColumnField": "Метка",
+        "SortingFieldTooltip": "Элементы будут отсортированы по значению из этого поля в порядке убывания.",
+        "AdditionalCaption": "Дополнительно",
+        "SpecificPageLookupField": "Какую страницу открыть?",
+        "UseSpecificPageField": "Открыть произвольную страницу",
+        "SpecificPageRecordIdField": "Идентификатор записи",
+        "ViewModeCaption": "Режим отображения",
+        "CarouselViewMode": "Карусель",
+        "GalleryViewMode": "Галерея"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Настройка визирования",
+        "GeneralGroup": "Общие",
+        "SchemaNameLabel": "Какие записи визировать?",
+        "AppearanceGroup": "Вид на странице",
+        "HiddenWhenNoData": "Прятать, если нет данных"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Настройка истории визирования",
+        "GeneralGroup": "Общие",
+        "SchemaNameLabel": "Объект"
+      },
+      "MultiSelectPropertiesPage": {
+        "AppearanceCaption": "Вид на странице",
+        "Editability": "Доступность редактирования",
+        "EditabilityControls": {
+          "Readonly": "Только чтение"
+        },
+        "EnableAddRecordCaption": "Разрешить добавление новых значений",
+        "GeneralGroup": {
+          "General": "Общие",
+          "MultiselectValueStorage": "Хранилище значений мультивыбора",
+          "Required": "Обязательное",
+          "RequirementTypeItems": {
+            "No": "Нет",
+            "Yes": "Да"
+          },
+          "SelectColumn": "Колонка к отображению",
+          "SelectLookup": "Выберите справочник"
+        },
+        "HeaderLabel": "Настройки cправочника с мультивыбором",
+        "LabelPosition": "Положение заголовка",
+        "LabelPositionVariants": {
+          "Above": "Сверху",
+          "Auto": "Автоматически",
+          "Hidden": "Скрыт",
+          "Left": "Слева"
+        },
+        "LookupStaticFilterLabel": "Применить статический фильтр для справочника",
+        "Placeholder": "Отображаемый текст в поле",
+        "TitleOnPage": "Заголовок на странице",
+        "Tooltip": "Подсказка",
+        "WrapCaption": "Перенос элементов на следующую строку"
+      },
+      "MergeRecordsRequest": {
+        "Caption": "Объединить данные"
+      },
+      "MergeRecordsRequestPropertiesPanel": {
+        "SelectData": "Какие данные объединить?"
+      },
+      "MobileListPropertiesPanel": {
+        "PageCaption": "Реестр",
+        "GeneralCaption": "Общие",
+        "DataSourceCaption": "Объект выборки",
+        "TitleColumnField": "Колонка заголовка",
+        "ImageColumnField": "Изображение",
+        "AppearanceGroup": "Вид на странице",
+        "Columns": {
+          "ColumnsGroup": "По колонкам",
+          "AddNewItem": "Добавить поле",
+          "ContextMenu": {
+            "Edit": "Редактировать",
+            "Delete": "Удаление",
+            "MoveUp": "Переместить вверх (Ctrl + ↑)",
+            "MoveDown": "Переместить вниз (Ctrl + ↓)"
+          }
+        },
+        "Scrollable": "Подогнать под доступное пространство"
+      }
+    }
+  },
+  "CanvasToolbar": {
+    "Rotate": "Повернуть"
+  },
+  "SkeletonLoader": {
+    "Loading": "Загрузка..."
+  },
+  "CopyClipboard": {
+    "Copied": "Скопировано"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Здесь еще ничего нет",
+      "Subhead": "Добавьте данные и начинайте работу"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Загрузка"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Ошибка",
+      "Default": "Подсказка"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Чат начат: {0}, ",
+        "EndDate": "Чат завершен: {0}, "
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Канал не может быть удален, пока есть активные чаты или чаты на распределении. Пожалуйста завершите чаты и попробуйте снова."
+    }
+  },
+  "Input": {
+    "Readonly": "Нередактируемое поле",
+    "ShowPassword": "Показать пароль",
+    "HidePassword": "Скрыть пароль"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "c уведомлениями"
+    }
+  },
+  "Carousel": {
+    "NoData": "Нет данных",
+    "PrevButtonCaption": "Предыдущий элемент",
+    "NextButtonCaption": "Следующий элемент"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "CloseButtonTitle": "Закрыть",
+      "NoData": "Нет данных"
+    },
+    "AriaLabel": "Выбранные значения",
+    "AriaLabelFor": "Выбранные значения для",
+    "Chip": {
+      "RemoveButtonCaption": "Удалить"
+    }
+  },
+  "ComboBox": {
+    "Readonly": "Нередактируемое поле",
+    "NoData": "Нет данных",
+    "EmptyDisplayValue": "Нет отображаемого значения",
+    "AddNewRecord": "Добавить",
+    "InvalidValueSyntax": "Выберите значение из списка",
+    "IsGoToSourceAllowedTooltip": "Перейти к списку записей",
+    "OpenSection": "Открыть секцию",
+    "CheckAll": "Выбрать всё",
+    "ClearAll": "Скинуть всё",
+    "SelectValue": "Выбрать значение",
+    "ClearValue": "Очистить значение"
+  },
+  "DataGrid": {
+    "AddColumns": "Добавить колонки",
+    "AddColumnsTo": "Добавить колонки в",
+    "Title": "Реестр {0}",
+    "ColumnToolbar": {
+      "Hide": "Спрятать",
+      "Freeze": "Закрепить",
+      "Unfreeze": "Открепить",
+      "Rename": "Переименовать",
+      "Edit": "Свойства",
+      "Title": "Меню колонки",
+      "SortAscending": "Сортировать по возрастанию",
+      "SortDescending": "Сортировать по убыванию",
+      "ClearSorting": "Очистить сортировку",
+      "AriaLabel": "Меню колонки"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Меню списка",
+      "Title": "Меню списка",
+      "DataGridSettingsLabel": "Общие настройки реестра",
+      "SaveDataGridSettings": {
+        "Label": "Сохранить как новые настройки по умолчанию",
+        "Confirmation": "Новые настройки списка по умолчанию будут сохранены для всех пользователей. Продолжить?",
+        "SuccessStatus": "Настройки списка успешно сохранены"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Перезаписать текущие настройки для всех пользователей",
+        "Confirmation": "Новые настройки списка по умолчанию будут сохранены и заменят текущие настройки для всех пользователей. Продолжить?",
+        "SuccessStatus": "Настройки списка успешно сохранены"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Восстановить настройки по умолчанию",
+        "Confirmation": "Настройки списка по умолчанию будут восстановлены. Продолжить?",
+        "SuccessStatus": "Настройки списка по умолчанию успешно восстановлены"
+      },
+      "MultilineViewLabel": "Многострочный вид",
+      "RowHeightSettings": {
+        "Label": "Высота строки",
+        "Options": {
+          "Small": "Маленький",
+          "Medium": "Средняя",
+          "Large": "Большой",
+          "ExtraLarge": "Очень большой"
+        }
+      }
+    },
+    "RowToolbar": {
+      "Open": "Открыть",
+      "Copy": "Копировать",
+      "Delete": "Удалить",
+      "Title": "Меню строки",
+      "RunBusinessProcess": "Запустить бизнес процесс"
+    },
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Колонка успешно добавлена",
+      "ColumnsAddedSuccessfully": "Колонки успешно добавлены",
+      "ColumnHiddenSuccessfully": "Колонка успешно спрятана",
+      "ColumnFrozenSuccessfully": "Колонка успешно закреплена",
+      "ColumnUnfrozenSuccessfully": "Колонка успешно откреплена",
+      "ColumnChangedSuccessfully": "Колонка успешно изменена"
+    }
+  },
+  "BulkActions": {
+    "Delete": "Удалить",
+    "Export": "Экспорт в Excel",
+    "AddTag": "Добавить тег",
+    "RemoveTag": "Удалить тег",
+    "Merge": "Объединить",
+    "RowsSelection": {
+      "Selected": "выбрано",
+      "SelectAll": "Выбрать все",
+      "ClearSelection": "Отменить выбор"
+    }
+  },
+  "DataTable": {
+    "BulkActions": {
+      "MoreActions": "Больше действий",
+      "AriaLabel": "Массовые действия для {0}"
+    },
+    "StatusBar": {
+      "AriaLabel": "Действия редактирования для {0}"
+    },
+    "NoData": "Нет данных",
+    "NoColumns": "Нет добавленных колонок",
+    "NotFoundColumn": "Колонка не найдена",
+    "ColumnSticky": "Закрепленная колонка",
+    "Columns": {
+      "ChangeWidth": "Изменить ширину",
+      "ChangeWidthOf": "Изменить ширину {0}"
+    },
+    "Hints": {
+      "Sort": "Сортировать",
+      "SortWithCaption": "Сортировать {0}",
+      "NotSorted": "сейчас без сортировки",
+      "SortedAscending": "сейчас отсортировано по возрастанию",
+      "SortedDescending": "сейчас отсортировано по убыванию",
+      "SortAscending": "Сортировать по возрастанию",
+      "SortDescending": "Сортировать по убыванию",
+      "StartEditing": "Изменить",
+      "ReadonlyCell": "Нередактируемое поле",
+      "CancelChanges": "Отменить",
+      "AddItem": "Добавить новую запись",
+      "RowControls": "Управление строкой"
+    },
+    "AddItem": "Добавить",
+    "SaveItemsChanges": "Сохранить все",
+    "CancelItemsChanges": "Отменить",
+    "RowsSelection": {
+      "Selected": "выбрано",
+      "SelectAll": "Выбрать все",
+      "SelectRow": "Выбрать строку",
+      "ClearSelection": "Отменить выбор",
+      "RowsSelected": "Строк выбрано: {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Развернуть все",
+      "CollapseAll": "Свернуть все",
+      "ExpandRow": "Развернуть вложенные строки",
+      "CollapseRow": "Свернуть вложенные строки"
+    }
+  },
+  "Dialog": {
+    "Ok": "ОК",
+    "Yes": "Да",
+    "No": "Нет",
+    "Save": "Сохранить",
+    "DoNotSave": "Не сохранять",
+    "Close": "Закрыть",
+    "Cancel": "Отмена",
+    "Delete": "Удалить",
+    "Notification": "Уведомление",
+    "Overwrite": "Перезаписать",
+    "Clear": "Очистить",
+    "Restore": "Восстановить",
+    "ProcessSchemaSavedWithValidationError": "Схема процесса успешно сохранена, однако ошибки валидации препятствуют его запуску."
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "У вас есть несохраненные изменения, которые будут утеряны. Продолжить?"
+    },
+    "List": {
+      "Message": "Реестр содержит несохраненные изменения. Они будут утеряны, если вы продолжите. Сохранить изменения?"
+    },
+    "Page": {
+      "Message": "Страница содержит несохраненные изменения. Они будут утеряны, если вы продолжите. Сохранить изменения?"
+    }
+  },
+  "Gallery": {
+    "NoData": "Нет данных",
+    "MenuActions": "Действия",
+    "DateAdded": "Добавлен",
+    "SelectItem": "Выберите элемент",
+    "Item": {
+      "ActionsButtonCaption": "Действия для элемента"
+    }
+  },
+  "WebInput": {
+    "LinkButtonHint": "Открыть ссылку"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Отправить email"
+  },
+  "FileInput": {
+    "Delete": "Удалить",
+    "Cancel": "Отмена",
+    "Attach": "Прикрепить",
+    "FileIcon": "Иконка файла",
+    "EmptyFileName": "Файл без имени",
+    "MaxFileSizeLimitReached": "Размер файла не должен превышать {0}MB"
+  },
+  "FileList": {
+    "RowToolbar": {
+      "Download": "Загрузить"
+    },
+    "Placeholder": {
+      "Title": "Перетащите файлы сюда",
+      "Description": "или нажмите",
+      "Upload": "Загрузить"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Число"
+  },
+  "ImageInput": {
+    "Alt": "Поле изображения",
+    "Upload": "Загрузить",
+    "Change": "Сменить",
+    "Clear": "Удалить",
+    "AltAbbreviation": "Аббревиатура",
+    "AltIcon": "Пустое значение поля изображения"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Сохранить",
+    "CancelButton": "Отмена",
+    "ColumnProperties": "Свойства колонки",
+    "Title": "Заголовок",
+    "FilterHeader": "Как отфильтровать записи",
+    "SortingHeader": "Сотрировать записи",
+    "SortColumn": "Сортировать по",
+    "WhatToDisplay": "Что отобразить",
+    "AggregationColumn": "Колонка",
+    "SortOrder": "Направление сортировки",
+    "SetupFilters": "Настроить фильтры",
+    "EditFilters": "Изменить фильтры"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Да",
+      "False": "Нет"
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Не удалось авторизоваться. Попробуйте еще раз позже или обратитесь к администратору системы.",
+      "FormatError": "Неверный формат запроса. Проверьте правильность структуры исходных данных и выходных параметров ваших действий.",
+      "LimitError": "Достигнут лимит токенов. Работа с Creatio.ai временно приостановлена. Обратитесь к администратору для пополнения токенов.",
+      "ServiceAvailabilityError": "Сервис временно недоступен. Попробуйте снова позже.",
+      "ExecutionError": "Возникла ошибка при обработке запроса. Повторите попытку позже или обратитесь к администратору.",
+      "ConfigurationError": "Обнаружена проблема конфигурации. Проверьте настройки системы или обратитесь к администратору.",
+      "InsufficientPermissions": "У вас нет прав доступа к этому агенту или скиллу. Обратитесь к администратору для настройки.",
+      "UnknownError": "Возникла неизвестная ошибка. Попробуйте снова позже или обратитесь к администратору.",
+      "CharacterLimitExceededError": "Достигнут лимит символов в запросе пользователя. Проверьте настройки системы или обратитесь к администратору за помощью.",
+      "ToolCallsInvokesLimitExceeded": "Превышен лимит вызовов функции: слишком много последовательных автоматических вызовов без ввода от пользователя или повторного выполнения одной и той же функции.",
+      "ActionLimitError": "Достигнут лимит действий. Работа с Creatio.ai временно заблокирована. Обратитесь к администратору для пополнения лимита действий Creatio.ai."
+    },
+    "InputPlaceholder": "Введите сообщение",
+    "SendButtonHint": "Отправить сообщение (Enter)",
+    "Caption": "Редактор сообщений",
+    "ReadonlyInputPlaceholder": {
+      "ChatCompleted": "Чат завершен",
+      "ChatTransferred": "Чат передан"
+    },
+    "MaxFilesExceeded": "Максимальное количество файлов, которые можно добавить за одну итерацию: {{maxCount}}",
+    "SendMessageError": "Не удалось отправить сообщение. Пожалуйста, попробуйте ещё раз",
+    "SmsSplitWarning": "Это сообщение превышает стандартную длину SMS и будет тарифицировано как несколько SMS-сообщений. Текущее использование: {{segments}}/{{maxSegments}} сообщений ({{current}}/{{target}} символов)",
+    "SmsMaxLengthExceeded": "Превышена допустимая длина текста ({{current}}/{{target}})"
+  },
+  "SmartDateTimeFormat": {
+    "At": "в",
+    "TodayAt": "Сегодня в {0}",
+    "YesterdayAt": "Вчера в {0}",
+    "DayBeforeYesterdayAt": "Позавчера в {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Нет отображаемого значения"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "мес",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "ч",
+    "MinutesAbbreviation": "м"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Закрыть вкладку"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "Перейти к рабочему столу"
+    },
+    "QuickRunProcess": {
+      "Title": "Запустить процесс",
+      "SuccessMessage": "Процесс успешно запущен",
+      "NotConfiguredQuickProcessesMessage": "Быстрое создание записей еще не настроено",
+      "OtherProcessesCaption": "Остальные процессы"
+    },
+    "Settings": {
+      "Title": "Настройки"
+    },
+    "UserProfile": {
+      "Title": "Профиль пользователя",
+      "MenuItems": {
+        "Profile": "Профиль пользователя",
+        "Logout": "Выйти",
+        "OrganizationProfile": "Профиль организации"
+      }
+    },
+    "New": {
+      "Title": "Добавить",
+      "NoItemTitle": "Быстрое создание записей еще не настроено"
+    },
+    "Help": {
+      "Title": "Помощь",
+      "MenuItems": {
+        "OnlineHelp": "Перейти к справке",
+        "NeedHelp": "Задать вопрос в поддержку",
+        "ReleaseNotes": "Описание релизов",
+        "ExternalAccess": "Предоставить доступ поддержке"
+      },
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "SupportSubject": "Вопрос по",
+      "AccessGrantedMessage": "Доступ предоставлен"
+    },
+    "NavigationPanelButton": {
+      "Title": "Панель навигации"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Панель дополнений"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Коммуникационная панель"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Панель уведомлений"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Конфигурация"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Ошибки компиляции",
+      "WorkspaceExplorerTemplate": "Чтобы просмотреть список ошибок и исправить их перейдите в раздел <a href ='{0}' target='_blank'>Управление конфигурацией</a>."
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Подробности ошибки:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Ограниченный режим конфигурации",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "Система перенаправила вас на обычный узел приложения. Не рекомендуется выполнять доработки в этом режиме, так как изменения могут не быть распространены на другие узлы. Дизайнерский узел может быть недоступен по разным причинам. Подробнее можно узнать в логах Creatio и/или оркестратора. Обычное использование может быть продолжено."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Небезопасные настройки трассировки",
+      "SysSettingsTemplate": "Перейдите в <a href ='{0}' target='_blank'>раздел SysSetting</a>."
+    }
+  },
+  "NavigationPanel": {
+    "CollapseButton": {
+      "CollapseCaption": "Свернуть навигационную панель",
+      "ExpandCaption": "Развернуть навигационную панель"
+    },
+    "SearchFilter": {
+      "PlaceholderCaption": "Поиск приложения..."
+    },
+    "SearchResultsCaption": "Результаты поиска",
+    "EmptySearchResult": {
+      "Title": "Не найдено элементов, соответствующих критериям поиска.",
+      "Subhead": "Очистите или измените критерии поиска."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Показать больше"
+  },
+  "Timer": {
+    "timePassedTpl": "Прошло {0}",
+    "timeBeforeCountStartTpl": "До даты начала отсчета осталось {0}",
+    "overdueTpl": "Просрочено на {0}",
+    "timeLeftTpl": "Осталось {0}",
+    "timeIsUpTpl": "Время истекло",
+    "waitingForStartDateTpl": "Дата начала отсчета не наступила",
+    "dateNotSet": "0ч 0м"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "Поиск по колонке",
+      "AllOption": "Все",
+      "Title": "Выберите колонку фильтрации"
+    },
+    "ClearIconTitle": "Очистить поиск"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Изменения успешно сохранены",
+      "ErrorOnSave": "Ошибка при попытке применить изменения"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Вы уверенны, что хотите удалить рабочий стол \"{0}\"?",
+        "Error": {
+          "Deletion": "Ошибка удаления рабочего стола",
+          "Configuration": "Ошибка конфигурации"
+        },
+        "Success": "Рабочий стол \"{0}\" был успешно удален"
+      },
+      "DeleteMobileHomePage": {
+        "ConfirmationDialogTitle": "Вы уверены, что хотите удалить домашнюю страницу «{0}»?",
+        "Error": {
+          "Deletion": "Ошибка при удалении домашней страницы",
+          "Configuration": "Ошибка конфигурации"
+        },
+        "Success": "Домашняя страница «{0}» успешно удалена"
+      }
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Нет данных",
+    "Boolean": {
+      "Yes": "Да",
+      "No": "Нет"
+    },
+    "String": {
+      "Placeholder": "Введите текст"
+    },
+    "Numeric": {
+      "Placeholder": "Введите число",
+      "To": "до",
+      "MaxValueError": "Значение выше максимального",
+      "MinValueError": "Значение ниже минимального"
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Поиск..."
+  },
+  "AllowedResults": {
+    "Caption": "Возможные результаты",
+    "TaskCompleted": "Задача завершена."
+  },
+  "LicenseIndicator": {
+    "Title": "Требуется лицензия"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Добавить тег",
+    "CreateNewTagButtonCaption": "Создать новый тег"
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Редактировать запись",
+    "DeleteItemActionButtonCaption": "Удалить запись",
+    "NoData": "Нет данных"
+  },
+  "Playbook": {
+    "Caption": "Плейбук",
+    "Hint": "Компонент отображает подсказки и инструкции пользователям для получения информации из базы знаний на каждом шаге работы по динамическому кейсу",
+    "Placeholder": {
+      "Title": "Нет связанных статей базы знаний",
+      "Description": "Пожалуйста, настройте связанные статьи для текущей стадии динамического кейса в разделе Playbooks"
+    },
+    "Actions": {
+      "Back": "Назад",
+      "OpenInDialog": "Открыть в модальном окне"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Закрыть",
+        "OpenPage": "Открыть в новой вкладке"
+      }
+    }
+  },
+  "Conversation": {
+    "Caption": "Диалог",
+    "Copilot": {
+      "TypingMessage": "Подготовка ответа",
+      "Action": {
+        "Replace": "Заменить выделенное",
+        "InsertAbove": "Вставить выше",
+        "InsertBelow": "Вставить ниже"
+      }
+    },
+    "LoadPreviousChat": "Загрузить предыдущий чат",
+    "ChatIsCompleted": "Чат завершен: {datePart}",
+    "ChatIsTransferred": "Чат передан: {datePart} от {operatorPart} на {targetOperatorPart}",
+    "ChatTransferredToQueue": "Чат передан: {datePart} от {operatorPart} в очередь {queuePart}",
+    "ChatCompletedByAgent": "Чат завершен: {datePart} оператором {operatorPart}"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Навигационная цепочка"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Свернуть",
+    "Expand": "Развернуть"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Индикатор выполнения"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Статус чата",
+    "CtiStatesMenuCaption": "Статус телефонии"
+  },
+  "MultiList": {
+    "NoDataMessage": "Пока нет недавних элементов",
+    "NoDataBySearchFilter": "При установленном фильтре нет записей, соответствующих критериям поиска.",
+    "NoDataBySearchFilterSubtitle": "Очистите фильтр или измените условия фильтрации"
+  },
+  "DataSource": {
+    "Hierarchical": {
+      "RowsLimitNotification": "Не все записи загружены в иерархический список из-за настроенного лимита"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Выберите значение из списка",
+      "SelectionWindowMessage": "Выберите значение из списка или окна выбора"
+    },
+    "Required": {
+      "Message": "Необходимо указать значение"
+    },
+    "MaxLength": {
+      "Message": "Превышена допустимая длина текста ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Не достигнута допустимая длина текста ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Неправильный формат даты и времени"
+    },
+    "DatePickerSyntax": {
+      "Message": "Неправильный формат даты"
+    },
+    "TimePickerSyntax": {
+      "Message": "Неправильный формат времени"
+    },
+    "RegExp": {
+      "Message": "Неправильный формат значения"
+    },
+    "PhoneNumber": {
+      "Message": "Неправильный номер телефона"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Код должен начинаться с префикса {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Введите хотя бы еще один символ."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Используйте a-z, A-Z, 0-9, нижнее подчеркивание или тире. Только буквы могут быть первыми."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Значение '{{controlValue}}' уже существует в колонке 'Код'."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Колонка удалена",
+    "ValidationErrorMessageSingleErrorField": "Поле: {0}. Ошибка: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Поля: {0}. Ошибка: {1}",
+    "RefreshModelDataConflict": "В системе есть обновленные данные для текущей страницы. Чтобы их отобразить. сохраните или отмените внесенные изменения и обновите страницу.",
+    "WarningModelsWithCircularDependencies": "Некоторые модели имеют циклические зависимости и не были загружены",
+    "LoadingModelErrorMessage": "Произошла ошибка при выполнении запроса",
+    "ErrorMessageOnEmptyRelationColumn": "Невозможно сохранить страницу. Заполните значение поля  {{caption}} или удалите значения связанных полей."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Данные обновлены"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Четко и кратко опишите цель пользователя. Подробно изложите шаги, необходимые для достижения цели пользователя. Опишите ожидаемый результат от LLM. Это должно включать любую необходимую информацию или контекст, который необходимо знать LLM.\n\n## Общие правила\n1. Вы не можете создавать новые объекты без явного подтверждения от пользователя.\n2. Правило 2: ...\n3. ...\n\n## Общие ограничения\n1. Избегайте предположений о намерениях пользователя; уточняйте запросы, когда это необходимо.\n2. Ограничение 2: ...\n3. ...\n\n## Требования к выводу\n1. Вывод должен быть менее 300 символов и не более 2-3 предложений.\n2. Требование 2: ...\n3. ...\n\n## Процесс\n1. Используйте контекст текущей страницы для чтения данных и полей страницы. На основе этой информации ...\n2. Шаг 2: ...\n3. ..."
+    }
+  },
+  "DigitalAdsContent": {
+    "PlatformInputCaption": "Платформа",
+    "AppInputCaption": "Приложение",
+    "AdPlatformLoginRequestTitle": "Подключить рекламную платформу",
+    "NotEnoughPermissionsMessage": "Не удалось подключить ваш рекламный аккаунт. Пожалуйста, попробуйте еще раз и предоставьте Creatio максимальные права.",
+    "PlatformUndefinedMessage": "Значение платформы не заданно в настройке кнопки",
+    "ApplicationUndefinedMessage": "Значение приложения не заданно в настройке кнопки",
+    "ImportFromAdPlatformStartedMessage": "Выполняется импорт данных из рекламных аккаунтов",
+    "NoConnectedAdAccountsFoundMessage": "Нет подключенных рекламных аккаунтов для импорта",
+    "NoActiveAdAccountsFoundMessage": "К сожалению, мы не нашли доступные вам рекламные аккаунты. Проверьте наличие доступа к требуемым аккаунтам на стороне платформы. Подключить можно только активные аккаунты."
+  },
+  "GoogleAnalytics": {
+    "PlatformCaption": "Платформа",
+    "ApplicationCaption": "Приложение",
+    "LoginRequestTitle": "Подключить рекламную платформу",
+    "NotEnoughPermissionsMessage": "Не удалось подключить ваш аккаунт. Пожалуйста, попробуйте еще раз и предоставьте Creatio максимальные права.",
+    "PlatformUndefinedMessage": "Значение платформы не заданно в настройке кнопки",
+    "ApplicationUndefinedMessage": "Значение приложения не заданно в настройке кнопки",
+    "RefreshStreamSuccessMessage": "Потоки Google Analytics успешно обновлены",
+    "RefreshStreamErrorMessage": "Не удалось обновить потоки Google Analytics. Попробуйте позже.",
+    "RefreshStreamConfirmationTitle": "Обновить список потоков данных?",
+    "RefreshStreamConfirmationMessage": "Процесс может занять некоторое время — система будет недоступна до завершения операции",
+    "RefreshStreamConfirmationCancel": "Отмена",
+    "RefreshStreamConfirmationOk": "Обновить"
+  },
+  "EnvironmentManagement": {
+    "PageTitle": "Creatio",
+    "WaitPageTitle": "Попробовать Creatio",
+    "IdentityServiceNotConfigured": "Сервис идентификации не настроен. Свяжитесь с администратором.",
+    "Users": {
+      "Profile": {
+        "InvalidValue": {
+          "Message": "Недопустимое значение. Значение не должно содержать <br><b>{0}</b> и должно содержать до <br><b>{1}</b> символов"
+        }
+      }
+    }
+  },
+  "EnvironmentLoader": {
+    "PreparingEnvironment": "Подготовка среды",
+    "ThisMayTakeMoments": "Это может занять несколько минут",
+    "EnvironmentNotUsed": "Эта среда не использовалась некоторое время — нам нужно повторно её активировать"
+  },
+  "EnvironmentToolbar": {
+    "Applications": "Центр приложений",
+    "Users": "Роль/пользователь",
+    "Subscriptions": "Подписка на рассылки",
+    "HealthCenterCaption": "Центр состояния системы"
+  },
+  "EnvironmentListItem": {
+    "SelectEnvironment": "Выбрать среду",
+    "Site": "Сайт:",
+    "Action": {
+      "EnvironmentDetails": "Детали среды",
+      "ManageApplications": "Управлять приложениями",
+      "ManageEnvironment": "Управлять средой",
+      "OpenConfiguration": "Открыть конфигурацию",
+      "OpenEnvironment": "Открыть среду",
+      "CopyLink": "Копировать ссылку",
+      "LinkCopied": "Ссылка скопирована",
+      "Restart": {
+        "ProcessResponseSuccess": "Процесс перезапуска успешно запущен",
+        "ProcessResponseFailure": "Процесс перезапуска завершился неудачей"
+      }
+    },
+    "SiteIsNotRegisteredCaption": "Сайт не зарегистрирован на портале, свяжитесь с технической поддержкой."
+  },
+  "EnvironmentErrorPage": {
+    "HaveNotActiveSites": "У вас нет активных сайтов",
+    "GetFreeTrial": "Получить бесплатную пробную версию",
+    "ExtendTrial": "Продлить пробный период",
+    "ExtendTrialDisabledHint": "Пробную среду больше нельзя восстановить — период восстановления истёк.",
+    "ExtendTrialUnavailableHint": "Продление пробного периода сейчас недоступно.",
+    "TrialExpiredCaption": "Срок действия вашей пробной среды истёк",
+    "CreateNewCaption": "Новая среда",
+    "Oops": "Ой...",
+    "Description": "Произошла ошибка при попытке подключения к сайту:",
+    "Proposition": "Вы можете попробовать",
+    "ErrorByTimeoutLoadingProposition": "Обновите страницу. Если проблема сохраняется,",
+    "RestartSite": "Перезапустить",
+    "ContactSupport": "Связаться с поддержкой Creatio",
+    "TryLaterMessage": "В данный момент все бесплатные пробные версии заняты, пожалуйста, попробуйте ещё раз через несколько минут."
+  },
+  "EnvironmentsExceeded": {
+    "Header": "Пробные версии продукта {0} ждут вас в Application Hub",
+    "Description": "Вы достигли лимита пробных версий. Вы сможете заказать новую пробную версию после истечения срока действия активной.",
+    "ButtonCaption": "Перейти в Центр Приложений"
+  },
+  "AppDeploymentDialogComponent": {
+    "DialogTitle": "Перейти в Application Hub",
+    "DestinationEnvironmentTitle": "Развернуть приложение",
+    "DestinationEnvironmentPlaceholder": "Целевой сайт",
+    "NoDestinationEnvironmentsAvailablePlaceholder": "Выберите среду для развёртывания приложения",
+    "NoDestinationEnvironmentsAvailableTooltip": "Не удалось найти ни одного сайта, готового к развёртыванию",
+    "DeployButtonCaption": "Поставить",
+    "CancelButtonCaption": "Отменить поиск",
+    "HealthCheckErrorMessage": "Для развёртывания приложения требуется более одного активного сайта",
+    "AttentionText": "Убедитесь, что поставляемое приложение совместимо с версией и продуктом целового сайта. Приложения, разработанные на основе продукта Studio, совместимы с любым другим продуктом Creatio. Приложения, разработанные на продуктах Marketing, Sales или Service, рекомендуем устанавливать на сайты, содержащие данный продукт."
+  },
+  "AppDeploymentStatus": {
+    "DeploymentCaption": {
+      "Line11": "Целевой сайт {0} в данный момент недоступен. Попробуйте позже",
+      "Line12": "",
+      "Line13": "Развёртывание",
+      "From": "отправитель ",
+      "To": "получатель "
+    }
+  },
+  "Subscriptions": {
+    "NoPermissionMessage": "приложения"
+  },
+  "PageTools": {
+    "DesignButtonHint": "Редактировать страницу",
+    "ExpandButtonTitle": "Развернуть",
+    "CollapseButtonTitle": "Свернуть"
+  },
+  "IndicatorWidget": {
+    "AriaDescription": "{{chartTitle}}. Тип графика: метрика. Текущее значение: {{ariaValue}}.",
+    "NoData": "Н/Д",
+    "NotClickableAriaDescription": "{{chartTitle}}. Тип графика: метрика. Текущее значение: {{ariaValue}}.",
+    "Caption": "Виджет метрики",
+    "Hint": "Метрика позволяет отобразить одно ключевое значение, например KPI, агрегированный результат или значение, вычисленное по формуле, чтобы выделить производительность.",
+    "AriaDrilldownInstruction": "Используйте клавишу Enter или пробел, чтобы детализировать элемент.",
+    "AriaFullscreenInstruction": "Используйте клавишу Escape, чтобы свернуть полноэкранный режим.",
+    "NoChanges": "Без изменений",
+    "ComparisonSuffix": "(сравнение)",
+    "WithComparison": {
+      "Caption": "Метрика со сравнением",
+      "Hint": "Компонент метрики со сравнением позволяет отобразить основное значение рядом со сравнительным значением (напр., предыдущий период), чтобы показать тренды или различия."
+    }
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. Тип диаграммы — Шкала. Диапазон данных — от {{ariaMin}} до {{ariaMax}}. Текущее значение — {{ariaValue}}. Используйте клавишу Ввода или Пробела чтобы углубиться в элемент."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "Диаграмма {{chartType}} для \"{{chartTitle}}\" с {{groupsCount}} группами. Диаграмма, показывающая \"{{groupsNames}}\". X - это \"{{xLabel}}\" от {{xMin}} до {{xMax}}. Y - это \"{{yLabel}}\" от {{yMin}} до {{yMax}}. Для навигации используйте клавиши со стрелками.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Используйте клавишу Ввод для открытия контекстного меню."
+  },
+  "ChartLegend": {
+    "Title": "Легенда для диаграммы {{chartTitle}}: используйте клавиши со стрелками для навигации и клавишу Ввод для открытия контекстного меню."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Развернуть в полноэкранный режим для диаграммы \"{{title}}\".",
+      "CollapseLabel": "Свернуть с полноэкранного режима для диаграммы \"{{title}}\"."
+    },
+    "Menu": {
+      "Caption": "Меню для диаграммы \"{{title}}\".",
+      "CreateDashboard": {
+        "UnableCreateMessage": "⚠️ Не удалось создать дашборд. На этой странице нет компонента Дашборд.\nВы можете открыть другую страницу, где доступен компонент Дашборд.\n📘 Узнайте больше о работе с дашбордами в <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Академии</a>",
+        "Caption": "Создать дашборд"
+      }
+    }
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {
+      "LoadErrorMessage": "Неподдерживаемый тип файла. Предварительный просмотр этого файла невозможен."
+    }
+  },
+  "Summaries": {
+    "Caption": "Итоги",
+    "Actions": {
+      "Title": "Меню итогов",
+      "CreateCount": "Отобразить количество записей"
+    },
+    "ProfileActions": {
+      "SaveForAll": "Сохранить настройки для всех",
+      "SaveForAllSuccessfully": "Настройки итогов успешно сохранены для всех пользователей",
+      "ResetToDefault": "Вернуть исходные настройки",
+      "ResetToDefaultSuccessfully": "Настройки итогов по умолчанию успешно восстановлены"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "Быстрые настройки",
+      "Count": "Количество",
+      "Minimum": "Минимум",
+      "Maximum": "Максимум",
+      "Sum": "Сумма",
+      "Average": "Среднее"
+    },
+    "AdvancedSetup": {
+      "Title": "Расширенные настройки",
+      "Actions": {
+        "AddCustomSummary": "Добавить новый итог"
+      }
+    },
+    "Hints": {
+      "NoDataSource": "Не выбран источник данных",
+      "Collapse": "Свернуть итоги",
+      "Expand": "Развернуть итоги"
+    }
+  },
+  "SummaryItem": {
+    "AriaLabel": "Елемент итогов",
+    "Actions": {
+      "Delete": "Удалить",
+      "Edit": "Изменить"
+    },
+    "Statuses": {
+      "Added": "Элемент итогов успешно добавлен",
+      "Deleted": "Элемент итогов успешно удален",
+      "Edited": "Элемент итогов успешно изменен",
+      "Error": "Ошибка"
+    }
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "Итог",
+    "Title": "Заголовок",
+    "Column": "Колонка",
+    "Function": "Функция",
+    "CustomSummaryLabelTooltip": "Элемент содержит преднастроенную логику отображения данных. Если вам необходимо реализовать альтернативную логику, удалите установленное значение."
+  },
+  "FolderTree": {
+    "AddFilter": "Добавить",
+    "AddFilterHint": "Добавить новую группу",
+    "BlankslateMessage": "Нет групп",
+    "CloseFolderTree": "Скрыть группы",
+    "CopyFolderSuffix": "Копия",
+    "CopyRightsQuestion": "Копировать настройки прав доступа группы \"{0}\"?",
+    "DefaultFolderName": "Новая группа",
+    "DeleteConfirmation": "Вы действительно хотите удалить выделенную группу?",
+    "FavoritesNodeCaption": "Избранные",
+    "HasNotPermission": "У Вас нет прав на данную операцию.",
+    "MenuActions": {
+      "AddFolder": "Добавить группу",
+      "AddStaticFolder": "Добавить статическую группу",
+      "AddToFavorite": "Добавить в избранные",
+      "ChangeFolderRights": "Настройка прав",
+      "ConvertToStaticFolder": "Конвертировать в статическую группу",
+      "CopyFolder": "Скопировать",
+      "DeleteFolder": "Удалить",
+      "MoveFolder": "Переместить",
+      "RemoveFromFavorite": "Исключить из избранных",
+      "RenameFolder": "Переименовать"
+    },
+    "RootNodeCaption": "Все",
+    "SetUpFilter": "Настроить фильтр",
+    "ShowMenuActions": "Показать действия"
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "Сохранить",
+    "CancelButton": "Отмена",
+    "DialogTitle": "Установить фильтры"
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "Отмена",
+    "SelectFolderButtonCaption": "Выбрать",
+    "SelectFolderCaption": "Выберите папку"
+  },
+  "FolderTreeActions": {
+    "ClearButtonCaption": "Снять выбор",
+    "FavoriteItemsMenuButtonAriaLabel": "Меню избраних групп",
+    "FolderButtonAriaLabel": "Открыть/Закрыть дерево групп",
+    "MenuButton": "Группы"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "Мы сообщим вам, когда конвертация будет завершена."
+  },
+  "HtmlEditor": {
+    "EditorAriaLabel": "HTML-редактор",
+    "Placeholder": "Составьте сообщение...",
+    "CharactersCount": "{{count}} символов",
+    "Toolbar": {
+      "SelectMacro": "Выбрать макрос",
+      "SelectFieldMacro": "Выбрать макрос поля",
+      "Preview": "Настройка прав",
+      "Templates": "Шаблоны",
+      "Variables": "Переменные"
+    },
+    "TemplateReplacement": {
+      "Title": "Заменить текущее содержимое?",
+      "Message": "Вставка шаблона заменит текущее содержимое редактора. Продолжить?"
+    },
+    "DefaultMacros": {
+      "SequenceActivityCategory": "Активность последовательности",
+      "SenderName": "Имя отправителя",
+      "SenderNameDescription": "Полное имя текущего отправителя",
+      "SenderEmail": "Email отправителя",
+      "SenderEmailDescription": "Email текущего отправителя",
+      "SenderPhone": "Телефон отправителя",
+      "SenderPhoneDescription": "Номер телефона текущего отправителя",
+      "ContactLinkedInUrl": "URL LinkedIn",
+      "ContactLinkedInUrlDescription": "Вставляет URL профиля LinkedIn контакта-получателя"
+    },
+    "PreviewDialog": {
+      "Title": "Предпросмотр HTML",
+      "ClosePreview": "Закрыть предпросмотр",
+      "OriginalContent": "Оригинальное содержимое",
+      "ResolvedContent": "Разрешённое содержимое",
+      "CopyHtml": "Копировать HTML",
+      "CopySuccess": "HTML скопирован в буфер обмена",
+      "CopyError": "Не удалось скопировать HTML в буфер обмена",
+      "Close": "Отмена"
+    }
+  },
+  "TemplateGalleryItem": {
+    "RecommendationText": "Список: {{captions}}"
+  },
+  "TemplateGallery": {
+    "Placeholder": {
+      "Title": "Здесь пока ничего нет",
+      "Description": "В этой среде пока не сохранено ни одного шаблона кампании. Будьте первыми, кто это исправит",
+      "ActionButtonText": "Разработать с нуля"
+    }
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "Добавьте компонент",
+    "Tooltip": "Пожалуйста, добавьте компонент"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "Значение по умолчанию",
+    "FilterColumnLabel": "Фильтрующая колонка",
+    "ViewAttributeLabel": "Компонент для фильтрации"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "Отредактировать фильтр",
+    "SetupFilterCaption": "Настроить фильтр",
+    "FiltersDialogCaption": "Фильтры",
+    "DefaultCheckBoxState": {
+      "Label": "Состояние переключателя по умолчанию",
+      "CheckedCaption": "Включен",
+      "UncheckedCaption": "Выключен"
+    },
+    "FilteringApproachState": {
+      "Label": "Подход к фильтрации",
+      "OnCheckedCaption": "Применять фильтр когда переключатель включен",
+      "OnUncheckedCaption": "Применять фильтр когда переключатель выключен"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "Период по умолчанию",
+    "ChooseFilteringMethodCaption": "Выберите метод фильтрации",
+    "ChooseFilteringMethodTooltip": "Фильтр позволяет отобразить данные, которые имеют отношение к указанному периоду. \nИспользуйте условие \"Настроить фильтр по одной дате\", чтобы отобразить записи, которые были созданы или изменены в заданный день. Такой фильтр можно настроить, например, для отображения лидов по дате создания, продаж по дате закрытя или обращений по дате решения.\n\nИспользуйте условие \"Настроить фильтр по диапазону дат\", чтобы отобразить записи, для которых существенным является диапазон дат. Такой фильтр можно настроить, например, для договоров, у которых дата начала и дата завершения попадают в указанный диапазон дат.",
+    "SetUpByOneColumnTitle": "Настроить фильтр по одной дате",
+    "SetUpByTwoColumnsTitle": "Настроить фильтр по диапазону дат",
+    "FilterColumnStartCaption": "Колонка начала периода",
+    "FilterColumnEndCaption": "Колонка конца периода",
+    "ShowTimeLabel": "Включить время",
+    "ShowFiscalPeriodsLabel": "Показывать финансовые периоды"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "Текущий контакт пользователя",
+    "CurrentUserAccountName": "Текущий контрагент пользователя",
+    "EditFilterCaption": "Отредактировать фильтр",
+    "SetupFilterCaption": "Настроить фильтр",
+    "FiltersDialogCaption": "Фильтры",
+    "TagVirtualColumnCaption": "Тег"
+  },
+  "QuickFilter": {
+    "MainTitle": "Быстрый фильтр",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "Вчера",
+        "Today": "Сегодня",
+        "Tomorrow": "Завтра",
+        "PreviousWeek": "Прошлая неделя",
+        "CurrentWeek": "Текущая неделя",
+        "NextWeek": "Следующая неделя",
+        "PreviousMonth": "Прошлый месяц",
+        "CurrentMonth": "Текущий месяц",
+        "NextMonth": "Следующий месяц",
+        "PreviousQuarter": "Предыдущий квартал",
+        "CurrentQuarter": "Текущий квартал",
+        "NextQuarter": "Следующий квартал",
+        "PreviousFiscalWeek": "Прошлая неделя",
+        "CurrentFiscalWeek": "Текущая неделя",
+        "NextFiscalWeek": "Следующая неделя",
+        "FiscalQuarter1": "К1",
+        "FiscalQuarter2": "К2",
+        "FiscalQuarter3": "К3",
+        "FiscalQuarter4": "К4",
+        "FiscalHalfYear1": "Первое полугодие",
+        "FiscalHalfYear2": "Второе полугодие",
+        "PreviousFiscalYear": "Предыдущий год",
+        "CurrentFiscalYear": "Текущий год",
+        "NextFiscalYear": "Следующий год"
+      },
+      "Header": {
+        "ArrowRight": "Следующий месяц",
+        "ArrowLeft": "Предыдущий месяц"
+      },
+      "RangeSelectedFrom": "Выбрано с",
+      "RangeSeparator": "по",
+      "ClearIcon": "Очистить выбранный диапазон",
+      "SelectDatePlaceholder": "Выберите дату",
+      "ClearStartDatePlaceholder": "Очистить дату начала",
+      "ClearEndDatePlaceholder": "Очистить дату окончания",
+      "EmptyDateRangeStartLabel": "<Дата начала>",
+      "EmptyDateRangeEndLabel": "<Дата окончания>",
+      "EmptyDateRangeStartAriaLabel": "[Дата начала не выбрана]",
+      "EmptyDateRangeEndAriaLabel": "[Дата окончания не выбрана]",
+      "CalendarMode": "Календарь",
+      "FiscalMode": "Финансовый",
+      "Fiscal": {
+        "PeriodNotFound": "Не удалось загрузить диапазоны дат финансовых периодов. Проверьте, что финансовые периоды настроены, или обратитесь за помощью к администратору.",
+        "LoadError": "Ошибка загрузки данных финансового периода. Обратитесь за помощью к администратору."
+      },
+      "SelectTimePlaceholder": "Выберите время"
+    },
+    "Lookup": {
+      "NoData": "Нет данных"
+    }
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "Позвонил(а)",
+        "Sec": "сек",
+        "DetailsLinkCaption": "Детали звонка"
+      },
+      "Chat": {
+        "ChatWith": "общался(ась) в чате с",
+        "Show": "Показать чат",
+        "Hide": "Скрыть чат",
+        "DetailsLinkCaption": "Детали чата"
+      },
+      "Email": {
+        "MailedTo": "Отправил(а) письмо",
+        "From": "От кого:",
+        "To": "Кому:",
+        "CC": "CC:",
+        "Details": "Детали",
+        "Hide": "Скрыть"
+      },
+      "File": {
+        "AddedFile": "Добавил(а) файл"
+      }
+    },
+    "NoDataMessage": "Прошлого не существует",
+    "FillActionMessage": "Нет связанных записей для отображения в хронологии",
+    "NoDataByFilterMessage": "При установленном фильтре в Хронологии нет ни одной записи",
+    "FillActionByFilterMessage": "Очистите фильтр или измените условия фильтрации",
+    "EntityFilterCaption": "Все",
+    "OwnerFilterCaption": "Ответственный",
+    "DateFilterCaption": "Выберите период",
+    "HideSystemMessagesCaption": "Скрыть системные сообщения",
+    "EntityFilterHint": "Выберите тип записей, которые необходимо отобразить",
+    "OwnerFilterHint": "Выберите, для какого ответственного отобразить записи",
+    "DateFilterHint": "Выберите, за какой период отобразить записи",
+    "HideSystemMessagesHint": "Скрыть письма-автоответы",
+    "DateSort": "Дата",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "Email адрес"
+      },
+      "Feed": {
+        "Caption": "Лента"
+      },
+      "Task": {
+        "Caption": "Задача"
+      },
+      "SysFile": {
+        "Caption": "Файл"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "Кнопка сортировать по дате, сейчас отсортировано по {0}",
+        "Descending": "убыванию",
+        "Ascending": "возрастанию"
+      }
+    }
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Форматирование (Alt+F10)",
+    "UploadAttachments": "Добавить вложение",
+    "SelectTemplate": "Вставить шаблон",
+    "SelectionActions": {
+      "AskCopilot": "Спросить Copilot",
+      "Friendly": "Дружелюбный",
+      "Formal": "Формальный",
+      "Shorten": "Сократи",
+      "Extend": "Расширь",
+      "Rephrase": "Перефразируй",
+      "RewriteCaption": "Переписать текст"
+    },
+    "TableOfContents": {
+      "Title": "Оглавление",
+      "Placeholder": "Оглавление, созданное на основе заголовков на этой странице, появится здесь после публикации."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Сохранить",
+    "OpenLinkButtonCaption": "Открыть в новой вкладке",
+    "CloseLinkButtonCaption": "Закрыть",
+    "UnlinkLinkButtonCaption": "Открепить",
+    "LinkLabelCaption": "Адрес ссылки",
+    "TextLabelCaption": "Текст для отображения"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Вставить видео",
+    "PasteUrlTab": "Вставить ссылку",
+    "UploadFileTab": "Загрузить файл",
+    "EmbedCodeTab": "Вставить код",
+    "DialogDescription": "Это видео будет встроено с шириной 640 пикселей.<br>Встроенное видео будет включать текстовую ссылку.",
+    "SaveButton": "Вставить видео",
+    "CancelButton": "Отмена",
+    "UploadButton": "Загрузить файл",
+    "InputPlaceholder": "Вставьте сюда",
+    "DragAndDropPlaceholder": "Перетащите файл сюда или",
+    "NotVideoFile": "Вставленный файл не является видео. Пожалуйста, выберите файл с видеоформатом.",
+    "ConfirmMessage": "На этой странице есть несохраненные изменения. Они будут потеряны, если вы закроете страницу. Сохранить изменения?"
+  },
+  "CommunicationOptions": {
+    "DesignerPhoneLabel": "Номер телефона",
+    "DesignerEmailLabel": "Email адрес",
+    "DesignerWebLabel": "Web ссылка",
+    "Caption": "Средства связи",
+    "DeleteOption": "Удалить",
+    "Primary": "основной",
+    "Invalid": "неактуальный",
+    "MarkAsPrimary": "Сделать основным",
+    "MarkAsValid": "Актуальный",
+    "MarkAsInvalid": "Неактуальный",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} уже существует",
+      "ReadOnlyStateMessage": "Невозможно добавить средство связи, так как компонент находится в режиме “Только чтение”",
+      "IncorrectSetupComponentMessage": "Не удалось добавить средство связи, так как данный компонент страницы еще не настроен. Администратор системы может завершить настройку компонента в дизайнере Freedom UI",
+      "EmptyMasterRecordColumnNameInRequestMessage": "Невозможно добавить средство связи к пустой записи. Сначала добавьте значение этой записи"
+    },
+    "Announcement": {
+      "Option": {
+        "Added": "{0} добавлен",
+        "Deleted": "{0} {1} удален",
+        "SetAsPrimary": "{0} {1}  сделан основным",
+        "MarkedAsValid": "{0} {1}  отмечен актуальным",
+        "MarkedAsInvalid": "{0} {1} отмечен неактуальным"
+      }
+    },
+    "NoDataPlaceholderText": "Нет данных",
+    "ToolsAriaLabel": "Действия"
+  },
+  "AccountCompactProfileDT": {
+    "DesignerNamePlaceholder": "Название контрагента",
+    "AlternativeNamePlaceholder": "Альтернативные названия",
+    "CountryPlaceholder": "Страна"
+  },
+  "ContactCompactProfileDT": {
+    "DesignerNamePlaceholder": "Имя контакта",
+    "DesignerBirthDatePlaceholder": "Дата рождения",
+    "CountryPlaceholder": "Страна"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "Закрыть"
+  },
+  "AccountCompactProfile": {
+    "Caption": "Краткий профиль контрагента",
+    "DialogTitle": "Редактировать контрагента",
+    "AlternativeNameFieldLabel": "Альтернативные названия",
+    "EmptyDisplayValue": "Нет отображаемого значения",
+    "NamePlaceholder": "Добавьте название контрагента",
+    "EmptyRecord": {
+      "NamePlaceholder": "Название контрагента",
+      "AlternativeNamePlaceholder": "Альтернативные названия",
+      "CountryPlaceholder": "Страна"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "Краткий профиль контакта",
+    "DialogTitle": "Редактировать контакт",
+    "EmptyDisplayValue": "Нет отображаемого значения",
+    "NamePlaceholder": "Добавьте имя контакта",
+    "BirthDatePlaceholder": "и дату рождения",
+    "EmptyRecord": {
+      "NamePlaceholder": "Имя контакта",
+      "BirthDatePlaceholder": "Дата рождения",
+      "CountryPlaceholder": "Страна"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "Краткий профиль пользователя",
+    "DialogTitle": "Редактировать имя",
+    "EmptyDisplayValue": "Нет отображаемого значения",
+    "NamePlaceholder": "Добавьте имя пользователя"
+  },
+  "WebchatPreview": {
+    "LoadError": {
+      "Title": "Предпросмотр недоступен",
+      "Subhead": "Не удалось загрузить виджет из сервиса."
+    }
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "Принять"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "Скачать файл"
+    },
+    "System": {
+      "ChatStartedMessage": "Чат начат: {chatStartedAt} контактом {chatStartedBy}"
+    },
+    "Feedback": {
+      "Like": "Мне нравится",
+      "Dislike": "Не нравится",
+      "HelpfulQuestion": "Было ли это полезно?",
+      "CommentPlaceholder": "Необязательный комментарий…",
+      "Send": "Отправлено",
+      "Thanks": "Спасибо!"
+    }
+  },
+  "ChatList": {
+    "NoDataMessage": "Пока нет недавних чатов",
+    "CreateChatButton": "Начать новый чат",
+    "DraftPreview": "<span class='draft-preview'>Draft: </span>",
+    "YourPreview": "Вы: ",
+    "NoDataBySearchFilter": "Нет записей, соответствующих установленному фильтру",
+    "NoDataBySearchFilterSubtitle": "Очистите фильтр или измените условия фильтрации",
+    "RenameChat": {
+      "LabelTitle": "Переименовать чат",
+      "InputTitle": "Заголовок",
+      "SaveButton": "Сохранить",
+      "CancelButton": "Отмена"
+    },
+    "ChatItem": {
+      "ActionsMenuCaption": "Действия"
+    },
+    "ARIA": {
+      "Label": "Чат",
+      "ChatItem": "Чат: {0}. Последнее сообщение: {1}",
+      "LoadMoreTrigger": "Загрузить еще"
+    },
+    "AlreadyAssignedChat": "Чат был назначен на другого оператора"
+  },
+  "ChatTransfer": {
+    "ButtonCaption": "Передать чат",
+    "AgentTab": "Агент",
+    "QueueTab": "Очередь",
+    "NoOperatorsAvailable": "Нет доступных агентов",
+    "NoData": "Нет данных",
+    "OperatorStatus": {
+      "0": "Неактивен",
+      "1": "Активен",
+      "2": "Исчерпан лимит чатов"
+    },
+    "InputPlaceholder": "Чат передан",
+    "NoQueuesAvailable": "Нет доступных очередей",
+    "ActiveAgentsCount": "{{count}} активный агент"
+  },
+  "ChatAttachmentTile": {
+    "AttachedFile": "Прикрепленный файл: {{fileName}}",
+    "DeleteFile": "Удалить {{fileName}}"
+  },
+  "ChatQuickActions": {
+    "ButtonCaption": "Выполнить действие",
+    "NoActionsTemplate": "Нет доступных действий. Добавьте действия чата на странице ${link}.",
+    "ChatSettingsPage": "Страница настроек чата",
+    "ProcessExecutedSuccessfully": "Процесс успешно выполнен",
+    "ProcessExecutionFailed": "Ошибка выполнения процесса. Пожалуйста, попробуйте еще раз."
+  },
+  "MessageTemplates": {
+    "ButtonCaption": "Открыть шаблоны (нажмите или введите //)",
+    "NotFound": "Шаблоны не найдены",
+    "NoAvailable": "Нет доступных шаблонов",
+    "Group": {
+      "RecentlyUsed": "Недавно использованные",
+      "Others": "Другие"
+    }
+  },
+  "EmojiSelect": {
+    "ButtonCaption": "Добавить эмодзи",
+    "ButtonAriaLabel": "Открыть выбор эмодзи",
+    "PickerAriaLabel": "Выбор эмодзи"
+  },
+  "LinkChatToContact": {
+    "SelectContactCaption": "Выбор: Контакт",
+    "ConfirmLinkMessage": "Все чаты текущего контакта будут связаны с выбранным контактом, а текущий контакт будет удален. Продолжить?"
+  },
+  "Translations": {
+    "TargetLanguage": "целевой язык",
+    "TranslatingTo": "Перевод на {{language}}...",
+    "TranslatedTo": "Переведено на {{language}}",
+    "TranslationFailedDialog": "Не удалось выполнить перевод. Пожалуйста, повторите попытку."
+  },
+  "MessageComposer": {
+    "Chat": {
+      "ActiveChatExists": "С выбранным контактом уже есть активный чат.",
+      "WhatsAppWindowExpired": "Сообщение нельзя отправить за пределами 24-часового окна обмена сообщениями.",
+      "WhatsAppWindowExpiredTooltip": "Узнайте больше в <a href='https://academy.creatio.com/documents?id=2355' target='_blank' rel='noopener noreferrer'>статье</a> Academy",
+      "FacebookWindowExpired": "Сообщение нельзя отправить за пределами 24-часового окна обмена сообщениями. Facebook Messenger разрешает ответы только в течение 24 часов после последнего сообщения пользователя.",
+      "ChannelRestrictionError": "Сообщение нельзя отправить для выбранного канала. Проверьте настройки канала и попробуйте ещё раз.",
+      "Caption": "Конструктор сообщений чата",
+      "From": "Отправитель",
+      "To": "Получатель",
+      "BodyPlaceholder": "Введите сообщение",
+      "FromValidation": "Поле «От» не может быть пустым. Выберите канал.",
+      "ToValidation": "Поле «Кому» не может быть пустым. Выберите контакт.",
+      "EmptyMessageValidation": "Сообщение не может быть пустым. Введите сообщение или прикрепите файл.",
+      "ChatSent": "Сообщение чата отправлено",
+      "SendError": "Не удалось отправить сообщение чата. Попробуйте позже."
+    },
+    "CancelButtonHint": "Отменить",
+    "CancelButtonText": "Отменить",
+    "SaveDraftButtonText": "Сохранить черновик",
+    "SendButtonHint": "Отправить сообщение (Ctrl + Enter)",
+    "SendButtonText": "Отправить",
+    "MessageSent": "Сообщение отправлено",
+    "RemoveAttachmentHint": "Удалить вложение",
+    "AttachmentPreview": "Предварительный просмотр вложения",
+    "ComposerAreaLabel": "Область ввода сообщения",
+    "Caption": "Сообщения",
+    "Email": {
+      "Caption": "Форма отправки Email",
+      "From": "От кого",
+      "To": "Кому",
+      "CC": "Копия",
+      "BCC": "Скрытая копия",
+      "Subject": "Тема",
+      "PublishError": "Сообщение не отправлено. При отправке возникла ошибка: {0}",
+      "SaveDraftError": "Возникла проблема с сохранением черновика. Пожалуйста, попробуйте позже",
+      "TemplateInsertError": "Возникла проблема со вставкой шаблона. Пожалуйста, попробуйте позже",
+      "AttachmentsSizeLimitReached": "Общий размер вложений превышает допустимый {0} МБ. Пожалуйста, удалите некоторые вложения.",
+      "FromValidationErrorMessage": "Поле «От» должно быть заполнено. Выберите почтовый ящик для отправки сообщения.",
+      "ToValidationErrorMessage": "Поле «Кому» должно быть заполнено. Укажите получателей сообщения.",
+      "SubjectValidationErrorMessage": "Поле «Тема» должно быть заполнено. Укажите кратко тему вашего письма.",
+      "Draft": "Черновик",
+      "BodyPlaceholder": "Введите сообщение",
+      "Reply": "Ответить",
+      "ReplyAll": "Ответить всем",
+      "Forward": "Переслать",
+      "SentOn": "Дата отправки",
+      "SubjectToggleCaption": "Тема",
+      "CcToggleCaption": "Копия",
+      "BccToggleCaption": "Скрытая копия",
+      "NotContainsEmail": "не содержит емейл",
+      "ChangeReplyAction": "Изменить режим ответа",
+      "ShowTrimmedEmailTitle": "Показать обрезаное сообщение",
+      "EmailTemplatesLookupCaption": "Выберите шаблон",
+      "EmailTemplatesDisplayColumnCaption": "Название шаблона",
+      "ContinueEditing": "Продолжить редактирование",
+      "SaveDraft": "Сохранить черновик",
+      "DraftSaved": "Черновик сохранен",
+      "EmailSent": "Письмо отправлено",
+      "RemoveRecipientLabel": "Удалить получателя",
+      "ValidateUnhandledMacrosMessage": "Для некоторых макросов, используемых в этом письме, нет доступных значений. Рекомендуем удалить выделенные макросы перед отправкой. Отправить письмо сейчас?",
+      "RemoveUnhandledMacros": "Удалить необработанные макросы",
+      "UnhandledMacrosRemovedConfirmation": "Необработанные макросы удалены из письма. Отправить письмо сейчас?",
+      "UnhandledMacrosRemoved": "Необработанные макросы успешно удалены"
+    },
+    "Feed": {
+      "Caption": "Сообщения ленты"
+    },
+    "Selector": {
+      "Caption": "Сообщения"
+    },
+    "Attachment": {
+      "Added": "Файл был успешно прикреплен к сообщению.",
+      "Removed": "Прикрепленный файл был удален."
+    },
+    "SendEmailErrorMessage": "Произошла непредвиденная ошибка при отправке email. Пожалуйста, попробуйте еще раз позже."
+  },
+  "Chat": {
+    "UnknownContact": "Неизвестный контакт"
+  },
+  "ChannelChatPreview": {
+    "EmptyChannel": "Сохраните канал, чтобы начать тестовый разговор.",
+    "StartTyping": "Отправьте сообщение, чтобы начать разговор.",
+    "ComposerAriaLabel": "Тестовое сообщение",
+    "ComposerPlaceholder": "Введите сообщение",
+    "Send": "Отправлено",
+    "SendError": "Не удалось отправить сообщение. Попробуйте ещё раз.",
+    "StartError": "Не удалось начать сеанс предпросмотра. Попробуйте ещё раз."
+  },
+  "MessageDeliveryStatus": {
+    "Sending": "Идет отправка",
+    "Sent": "Выполнены",
+    "Delivered": "Поставлен полностью",
+    "Read": "Чтение",
+    "Failed": "Сообщение не удалось отправить из-за непредвиденной ошибки. Попробуйте позже или обратитесь в поддержку, если проблема сохраняется."
+  },
+  "MessageDeliveryError": {
+    "Unknown": "Сообщение не удалось отправить из-за непредвиденной ошибки. Попробуйте позже или обратитесь в поддержку, если проблема сохраняется.",
+    "FileSizeExceeded": "Сообщение превышает максимальную длину, разрешённую для этого канала. Сократите сообщение или отправьте его несколькими частями.",
+    "UnsupportedFileType": "Этот канал не поддерживает вложение, использованное в сообщении. Удалите вложение или отправьте поддерживаемый тип файла.",
+    "InvalidRecipient": "Адрес получателя выглядит недействительным. Проверьте контактные данные и попробуйте ещё раз.",
+    "AuthenticationFailed": "Аутентификация канала сообщений недействительна или истёк срок действия. Повторно подключите интеграцию, чтобы продолжить отправку сообщений.",
+    "RateLimitExceeded": "Отправка сообщений временно ограничена из-за высокой активности. Подождите немного и попробуйте ещё раз.",
+    "NetworkError": "Сервис сообщений временно недоступен. Попробуйте отправить сообщение позже.",
+    "BotBlocked": "Пользователь заблокировал этот аккаунт, поэтому сообщения не могут быть доставлены. Попросите пользователя разблокировать аккаунт и отправить сообщение первым.",
+    "ChatNotFound": "Пользователь ещё не начал разговор с этим аккаунтом. Попросите пользователя отправить первое сообщение, чтобы начать чат.",
+    "MessageTooLong": "Сообщение превышает максимальную длину, разрешённую для этого канала. Сократите сообщение или отправьте его несколькими частями.",
+    "ProviderError": "Сервис сообщений временно недоступен. Попробуйте отправить сообщение позже.",
+    "AttachmentError": "Этот канал не поддерживает вложение, использованное в сообщении. Удалите вложение или отправьте поддерживаемый тип файла."
+  },
+  "Feed": {
+    "Caption": "Лента",
+    "SortButtonCaption": "Сортировать ленту",
+    "SortByCreatedOn": "Сортировать по дате сообщения",
+    "SortByLastAction": "Сортировать по дате последнего действия",
+    "ShowMoreThanOneNewSocialMessages": "Показать {0} новых сообщений",
+    "ShowNewSocialMessage": "Показать 1 новое сообщение",
+    "ExternalUserTagCaption": "Внешний",
+    "DraftItemTagCaption": "Черновик",
+    "ExternalUserTagTooltip": "Написать для external пользователей",
+    "ActionsButtonCaption": "Действия",
+    "Following": {
+      "ButtonCaption": {
+        "Follow": "Подписаться на обновление ленты",
+        "Unfollow": "Отписаться от обновлений ленты"
+      },
+      "NotificationTemplate": {
+        "Follow": "Вы подписались на обновления ленты: {0}",
+        "Unfollow": "Вы отписались от обновлений ленты: {0}"
+      }
+    },
+    "Item": {
+      "Edit": "Редактировать",
+      "Delete": "Удалить",
+      "DeletionConfirmation": "Вы уверены что хотите удалить запись? Это необратимое действие.",
+      "DeletionErrorMsg": "Произошла ошибка при удалении записи. Пожалуйста повторите попытку позже.",
+      "DownloadFile": "Загрузить"
+    },
+    "Publisher": {
+      "DefaultInputPlaceholder": "Напишите сообщение…",
+      "DisabledInputPlaceholder": "Вы не можете создавать публикации на странице новой записи.",
+      "UserFeedInputPlaceholder": "Лента находится в режиме пользователя. Вы не можете создавать новые записи в этом режиме.",
+      "CommentInputPlaceholder": "Напишите комментарий…",
+      "ShareWithPortal": "Поделиться с портальными пользователями",
+      "PostingErrorMsg": "Произошла ошибка при сохранении сообщения ленты",
+      "PostingEmptyMsg": "Пожалуйста введите текст сообщения.",
+      "SendButtonHint": "Отправить сообщение (Ctrl + Enter)",
+      "CancelButtonHint": "Отменить",
+      "ExternalMessagesDisabled": "Обратите внимание, external пользователь не сможет прочитать сообщение, потому что  такая возможность отключена в настройках компонента.",
+      "ConfirmMessageAccessLevelChange": "Вы уверены что хотите изменить уровень видимости поста? Этот пост, комментарии и приложенные файлы станут доступны для external пользователей.",
+      "ConfirmCommentAccessLevelChange": "Вы уверены что хотите изменить уровень комментария? Это изменение будет применено к комментарию и приложенным файлам."
+    },
+    "Post": {
+      "AddCommentButtonCaption": "Комментировать",
+      "CommentsButtonCaption": "Комментарии",
+      "CommentsButtonHint": "Показать комментарии",
+      "ExpandedCommentsButtonHint": "Скрыть комментарии",
+      "PostedInLabel": "опубликовал(а) сообщение в"
+    },
+    "Reactions": {
+      "Like": "Нравится",
+      "ExtraReactionsTemplate": "и еще {0}...",
+      "PostLiked": "Сообщению в ленте был поставлен лайк.",
+      "LikeRemoved": "Лайк был убран с сообщения в ленте."
+    },
+    "NoDataContainerLabel": "Так тихо!",
+    "FollowButtonCaption": "Подписаться на обновление ленты",
+    "UnfollowButtonCaption": "Отписаться от обновлений ленты",
+    "FollowNotificationTemplate": "Вы подписались на обновления ленты: {0}",
+    "UnfollowNotificationTemplate": "Вы отписались от обновлений ленты: {0}",
+    "AiGeneratedItemTagCaption": "Сгенерировано AI"
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "Настройки дашбордов",
+    "GeneralGroup": {
+      "Caption": "Общие",
+      "DataSource": "Иточник Данных",
+      "DataSourceTooltip": "Источник данных будет установлен как основной для всех дашбордов, созданных в этом компоненте",
+      "DataSourceDependenciesSettingTooltip": "Фильтр по данным страницы позволяет отображать связанные данные на дашборде",
+      "DataSourceFilterElementsGroupTooltip": "Данная настройка позволяет использовать на странице преднастроенные условия из групп или других компонентов фильтрации данных"
+    },
+    "DashboardsGroup": {
+      "Caption": "Дашборды",
+      "AddDashboard": "Добавить дашборд",
+      "InfoTooltip": "В списке дашбордов отображаются только те элементы, которые являются конфигурационными схемами",
+      "ContextMenu": {
+        "Copy": "Копировать",
+        "Delete": "Удалить",
+        "Edit": "Редактировать"
+      },
+      "DialogMessages": {
+        "DeleteDashboard": {
+          "Confirmation": {
+            "Default": "Вы уверены, что хотите удалить дашборд \"{{caption}}\"?",
+            "WithUserLevelSchema": "Дашборд, который вы хотите удалить, имеет зависимый дашборд \"{{caption}}\" (схема конечного пользователя). Если вы продолжите, будут удалены оба дашборда. Продолжить?"
+          },
+          "UnableToDelete": {
+            "InReadOnlyPackage": "Невозможно удалить дашборд \"{{caption}}\", поскольку он создан сторонним издателем или установлен из файла",
+            "DependsOnSchema": "Невозможно удалить дашборд \"{{caption}}\", поскольку есть зависимые от него конфигурационные схемы"
+          }
+        }
+      }
+    },
+    "AdvancedSettingsGroup": {
+      "CannotRenameElementInfoTooltip": "Невозможно переименовать элемент, так как существуют привязанные к нему дашборды"
+    }
+  },
+  "Dashboards": {
+    "SelectDashboard": "Выберете дашборд",
+    "NoData": "Здесь пока ничего нет",
+    "NoData2": "Добавьте новую панель итогов, и здесь не будет так одиноко",
+    "CreateNewDashboardButton": "Добавить новую панель итогов",
+    "AccessDenied": "У вас нет прав для редактирования этого элемента",
+    "DialogWindow": {
+      "DeleteDashboard": {
+        "ConfirmationMessage": "Вы уверены, что хотите удалить выбранный дашборд?",
+        "FailMessage": "К сожалению, вы не можете удалить выбранный дашборд"
+      }
+    },
+    "ActionsToolbar": {
+      "Title": "Действия",
+      "Edit": "Редактировать",
+      "Copy": "Копировать",
+      "Delete": "Удалить",
+      "Rights": "Настроить права доступа"
+    },
+    "All": "Все",
+    "Favorites": "Избранные",
+    "AddToFavoritesButton": "Добавить в избранные",
+    "RemoveFromFavoritesButton": "Исключить из избранных"
+  },
+  "Icon": {
+    "PropertiesPanel": {
+      "Caption": "Иконка",
+      "General": {
+        "Caption": "Основное",
+        "Icon": {
+          "Label": "Иконка"
+        },
+        "Color": {
+          "Label": "Цвет\n\nЦвет\n\nЦвет\n\nЦвет"
+        },
+        "Size": {
+          "Label": "Размеры",
+          "Options": {
+            "Small": "Маленький",
+            "Medium": "Средняя",
+            "Large": "Большой",
+            "ExtraLarge": "Очень большой"
+          }
+        },
+        "Spacing": {
+          "Label": "Отступы",
+          "Tooltip": "Контролирует расстояние между иконкой и краями компонента",
+          "Options": {
+            "None": "Не установлено",
+            "ExtraSmall": "Очень маленький",
+            "Small": "Маленький",
+            "Medium": "Средний",
+            "Large": "Большой",
+            "ExtraLarge": "Очень большой",
+            "ExtraExtraLarge": "Очень-очень большой"
+          }
+        },
+        "Background": {
+          "TypeLabel": "Тип фона",
+          "ColorLabel": "Цвет фона",
+          "Options": {
+            "None": "Нет",
+            "Square": "Квадрат",
+            "Circle": "Круг"
+          }
+        },
+        "Accessibility": {
+          "NameLabel": "Доступное название",
+          "NameTooltip": "Текст, который читают программы чтения с экрана, чтобы описать иконку",
+          "TooltipLabel": "Подсказка"
+        }
+      }
+    },
+    "Caption": "Иконка",
+    "Hint": "Визуальный компонент, который позволяет представить действия и состояния понятным и интуитивным способом"
+  },
+  "IFrame": {
+    "PropertiesPanel": {
+      "Caption": "Настройки iFrame",
+      "GeneralSettings": {
+        "Caption": "Общие",
+        "ContentTypeLabel": "Тип контента",
+        "ContentValueLabel": "Содержимое для отображения",
+        "UrlContentPlaceholder": "https://mysitename.com",
+        "UrlContentTooltip": "Чтобы контент отображался корректно, убедитесь, что выполнены следующие условия: <ul><li>Источник разрешает встраивание в iframe</li><li>Ссылка использует протокол HTTPS</li><li>Домен источника включён в список доверенных источников вашей политики безопасности контента (Content Security Policy). Рекомендуем добавить в неё как минимум два разрешённых директивы: connect-src и frame-src</li></ul>"
+      },
+      "PermissionsSettings": {
+        "Caption": "Permissions",
+        "AllowLabel": "Разрешенные возможности",
+        "AllowTooltip": "Указывает, какие возможности браузера разрешено использовать встроенному содержимому, например камеру, микрофон, полноэкранный режим. <br/>Дополнительную информацию см. в <a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy' target='_blank' rel='noopener noreferrer'>документации MDN</a>.",
+        "SandboxLabel": "Разрешения sandbox",
+        "SandboxTooltip": "Указывает, какие ограничения sandbox сняты для встроенного содержимого. Предоставляйте только необходимые разрешения. <br/>Дополнительную информацию см. в <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox' target='_blank' rel='noopener noreferrer'>документации MDN</a>."
+      }
+    },
+    "Caption": "iFrame",
+    "Hint": "компонент IFrame позволяет встраивать и отображать содержимое в формате HTML или URL",
+    "Placeholder": {
+      "NothingToShow": "Нет данных для отображения",
+      "NoContent": "В этом разделе нет контента"
+    },
+    "ContentUnavailable": {
+      "Title": "Контент недоступен",
+      "SubTitle": "Из-за настроек сети, политик безопасности браузера или ограничений контента",
+      "LinkTitle": "Узнайте больше в Академии"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Следующий месяц",
+    "AriaPrevMonthLabel": "Предыдущий месяц",
+    "AriaNextYearLabel": "Следующий год",
+    "AriaPrevYearLabel": "Предыдущий год",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Календарь",
+    "TimePickerIconTitle": "Время",
+    "Readonly": "Нередактируемое поле",
+    "AriaTimeListLabel": "Рекомендовано AI"
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Иерархия",
+    "GeneralCaption": "Общие",
+    "SchemaNameCaption": "Выберите объект для построения иерархии",
+    "HierarchySetup": "Настройка иерархии",
+    "SchemaNameSelectTooltip": "Выберите объект, по которому будет построена иерархия. В выпадающем меню отображаются все системные объекты. После настройки иерархии свяжите его с компонентом Список, указав в качестве преднастроенного фильтра.",
+    "DisplayModeCaption": "Тип иерархии",
+    "ManualDisplayMode": "Вручную",
+    "ByParentDisplayMode": "По родителю",
+    "ApplyStaticFilter": "Установить статический фильтр",
+    "EditStaticFilterAction": "Отредактировать фильтр",
+    "FiltersDialogCaption": "Фильтры",
+    "SetupStaticFilterAction": "Настроить фильтр"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Добавить новую колонку",
+    "ContextMenu": {
+      "AddToSubmenu": "Добавить под-уровень",
+      "Edit": "Редактировать",
+      "Delete": "Удалить"
+    }
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "Все",
+    "NotFilledNode": "Не заполнено",
+    "SpecificationFilterCaption": "Открыть дополнительную фильтрацию",
+    "BackButtonCaption": "Назад",
+    "ClearAllFiltersButtonCaption": "Скинуть всё",
+    "NoDataCaption": "Нет данных"
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "Изменить DCM. Существует более актуальная конфигурация для данной записи.",
+    "ConfirmChangeCaseDialogMessage": "Вы хотите заменить текущую версию DCM?",
+    "SnackbarActualFilterCaseMessage": "Существует более подходящая конфигурация \"{0}\". Заменить существующую?",
+    "SnackbarIgnoreButtonCaption": "Игнорировать",
+    "SnackbarReplaceButtonCaption": "Заменить",
+    "SnackbarEntityProcessChangedMessage": "DCM конфигурация была успешно изменена."
+  },
+  "NextSteps": {
+    "Caption": "Следующие шаги",
+    "CompleteButtonCaption": "Завершить",
+    "AddNewStepMenuCaption": "Добавить новый шаг",
+    "CreateActivityButtonCaption": "Создать задачу",
+    "CreateEmailButtonCaption": "Создать email",
+    "NoDataContainerLabel": "Тут еще ничего нет!",
+    "NoDataContainerDescription": "Нет добавленных шагов для этой стадии",
+    "OwnerHint": "Ответственный",
+    "OwnerRoleHint": "Группа ответственных",
+    "RequiredStepHint": "Обязательный шаг",
+    "ApprovalApprovedSnackbarCaption": "Заявка подтверждена",
+    "ApprovalRejectedSnackbarCaption": "Заявка отклонена",
+    "TypeFilterCaption": "Тип данных",
+    "TypeFilterHint": "Тип данных"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Палитра цветов",
+        "AppearanceGroup": "Вид на странице",
+        "PickerModeRadioButtonCaption": "Палитра",
+        "PickerMode": {
+          "Basic": "Простая палитра",
+          "Extended": "Расширенная палитра"
+        }
+      },
+      "AppearanceGroup": "Вид на странице",
+      "BindToDataSourceCaption": "Источник данных",
+      "SelectDataSource": "Выбрать источник данных",
+      "DataSourceAttributeNotFoundErrorMessage": "Элемент по пути \"{0}\" не найден",
+      "Editability": "Доступность редактирования",
+      "EditabilityControls": {
+        "Readonly": "Только чтение",
+        "Disabled": "Не активный"
+      },
+      "TitleOnPage": "Заголовок на странице",
+      "Multiline": "Многострочный текст",
+      "LabelPosition": "Положение заголовка",
+      "LabelPositionVariants": {
+        "Auto": "Автоматически",
+        "Left": "Слева",
+        "Right": "Справа",
+        "Above": "Сверху",
+        "Hidden": "Скрыт"
+      },
+      "Placeholder": "Отображаемый текст в поле",
+      "Combobox": {
+        "IsAddAllowed": "Разрешить добавление новых значений",
+        "ShowValueAsLink": "Отображать значение как ссылку",
+        "IsGoToSourceAllowed": "Разрешить переход к списку записей",
+        "SecondaryDisplayValueLabel": "Дополнительное отображаемое значение",
+        "SecondaryDisplayValueTooltip": "Дополнительная информация, которая будет отображаться в выпадающем списке",
+        "ValueDetailsLabel": "Отображать дополнительные данные",
+        "ValueDetailsTooltip": "Дополнительные данные будут отображаться в зависимости от выбранной записи справочника"
+      },
+      "Tooltip": "Подсказка",
+      "TooltipHint": "Подсказка поддерживает простой текст и HTML-контент. Пожалуйста, убедитесь, что ваш HTML-контент является лаконичным и адаптируется к размеру подсказки.",
+      "DisplayPhoneMask": "Отображать телефонную маску",
+      "FileEntitySchemaLabel": "Хранилище файлов"
+    },
+    "WidgetPropertiesPanel": {
+      "HeaderLabel": "Настройки графика",
+      "GeneralLabel": "Общие",
+      "AppearanceGroup": {
+        "Caption": "Вид на странице"
+      },
+      "TitleLabel": "Заголовок",
+      "HideTitleLabel": "Скрыть заголовок",
+      "ColorLabel": "Цвет",
+      "HideBorderLabel": "Убрать рамку",
+      "StyleLabel": "Стиль",
+      "SizeLabel": "Размер",
+      "Styles": {
+        "FullyColored": "Полноцветный",
+        "PlainWhite": "Простой белый",
+        "PartiallyColored": "Частично окрашенный",
+        "Glassmorphism": "Эффект стекла",
+        "Transparent": "Прозрачный"
+      },
+      "Sizes": {
+        "ExtraSmall": "Очень маленький",
+        "Small": "Маленький",
+        "Medium": "Средний",
+        "Large": "Большой",
+        "ExtraLarge": "Очень большой"
+      },
+      "ContextMenu": {
+        "Edit": "Редактировать"
+      },
+      "ChartSeries": "Серии графика",
+      "SeriesControlLabel": "Заголовок",
+      "SetupBlockCaption": "Настроить график",
+      "SetupButtonLabel": "Параметры графика",
+      "FilterByActiveItemTooltip": "Установите признак, чтобы пользователи могли фильтровать данные этого графика по активной строке связанного источника данных",
+      "ProvidingSettings": {
+        "AggregationFunctions": {
+          "Sum": "Сумма",
+          "Avg": "Среднее",
+          "Min": "Минимум",
+          "Max": "Максимум",
+          "Count": "Количество",
+          "Label": "Функцию",
+          "Formula": "Формула",
+          "SetupFormula": "Настроить формулу",
+          "ChangeFormula": "Изменить формулу"
+        },
+        "Formula": {
+          "AggregationSetupDialog": {
+            "Title": "Настройка элемента формулы",
+            "TitlePlaceholder": "Введите название, чтобы идентифицировать этот элемент в формуле.",
+            "ObjectLabel": "Объект выборки",
+            "ColumnLabel": "Колонка",
+            "TitleLabel": "Название",
+            "StaticFilterTab": "Статический фильтр",
+            "DynamicFilterTab": "Динамический фильтр",
+            "Save": "Изменить",
+            "Cancel": "Отменить"
+          },
+          "Toolbar": {
+            "Count": "Количество",
+            "Sum": "Сумма",
+            "Avg": "Ср.",
+            "Min": "Мин",
+            "Max": "Максимальный"
+          },
+          "Editor": {
+            "Count": "COUNT",
+            "Sum": "SUM",
+            "Avg": "AVG",
+            "Min": "MIN",
+            "Max": "MAX"
+          }
+        },
+        "ObjectLabel": "Объект выборки",
+        "ColumnLabel": "Колонка"
+      },
+      "FormatSettings": {
+        "Format": "Формат",
+        "Template": {
+          "Label": "Текстовое значение",
+          "Hint": "Укажите текст, которым должен сопровождаться значение. Например, \"{0} шт.\" или \"$ {0}\""
+        },
+        "LabelPosition": {
+          "Label": "Положение текста",
+          "AboveAndUnder": "Выше и ниже показателя",
+          "BeforeAndAfter": "Перед и после показателя"
+        },
+        "NumberOfDigits": {
+          "Label": "Точность десятичной части"
+        },
+        "ShowTime": "Показать время"
+      },
+      "ComparisonSettings": {
+        "Title": "Сравнение",
+        "CompareWithAnotherValue": "Сравнить с другим значением",
+        "InvalidDateMetric": "Сравнение недоступно для выбранной метрики даты/времени. Измените функцию агрегации и столбец.",
+        "ConfigureHint": "Настройте значение для сравнения, чтобы показать разницу с основной метрикой",
+        "SetupComparison": "Настроить сравнение",
+        "EnableComparison": "Включить сравнение",
+        "CopySettingsHint": "Повторно использовать конфигурацию из значений метрики и при необходимости скорректировать её.",
+        "CopySettingsLink": "Копировать настройки значений",
+        "ApplyStaticFilter": "Установить статический фильтр",
+        "SetupFilterButton": "Установить фильтр",
+        "TrendIndicatorLabel": "Индикатор тренда",
+        "TrendVisualizationLabel": "Визуализация тренда",
+        "UpTrendColorLabel": "Цвет восходящего тренда",
+        "DownTrendColorLabel": "Цвет нисходящего тренда",
+        "FormatSectionTitle": "Формат",
+        "ComparisonTextLabel": "Текст значения сравнения",
+        "ComparisonTextPlaceholder": "напр., по сравнению с предыдущим месяцем",
+        "ChangeFormatLabel": "Формат изменения",
+        "ComparisonTypes": {
+          "Absolute": "Абсолютное",
+          "Percent": "%"
+        },
+        "TrendIndicators": {
+          "Arrow": "Стрелка",
+          "Triangle": "Треугольник",
+          "Circle": "Круг"
+        }
+      }
+    },
+    "SliderPropertiesPage": {
+      "ColorLabel": "Стиль",
+      "Colors": {
+        "Accent": "Акцент",
+        "Primary": "Основной",
+        "Warn": "Предупреждение",
+        "Default": "По умолчанию"
+      },
+      "ReadonlyLabel": "Только чтение",
+      "StepLabel": "Размер шага",
+      "MinValueLabel": "Минимальное значение",
+      "MaxValueLabel": "Максимальное значение",
+      "Validations": {
+        "GreaterThanZeroCaption": "Значение должно быть больше 0",
+        "MinValueLessThanMaxValueCaption": "Минимальное значение не должно превышать максимальное",
+        "MaxValueGreaterMinValueCaption": "Максимальное значение не должно быть меньше минимального",
+        "StyleIsInvalidCaption": "Стиль указан неверно"
+      }
+    },
+    "ContainerPropertiesPage": {
+      "GeneralGroup": "Общие",
+      "AppearanceGroup": "Вид на странице",
+      "ColorLabel": "Цвет",
+      "BorderRadiusLabel": "Радиус скругления углов",
+      "Sizes": {
+        "None": "Нет",
+        "ExtraSmall": "Очень маленький",
+        "Small": "Маленький",
+        "Medium": "Средний",
+        "Large": "Большой"
+      },
+      "PaddingGroup": "Отступы",
+      "Padding": {
+        "Top": "Верхний",
+        "Bottom": "Нижний",
+        "Left": "Левый",
+        "Right": "Правый"
+      },
+      "StretchLabel": "Растянуть по родительскому контейнеру",
+      "FitContentLabel": "Размер соответствует контенту",
+      "AlignItemsLabel": "Выравнивание элементов",
+      "AlignItems": {
+        "Stretch": "Растягивать",
+        "Start": "В начале",
+        "Center": "По центру",
+        "End": "В конце"
+      },
+      "Grid": {
+        "PageCaption": "Настройки сетки",
+        "ColumnsLabel": "Количество колонок",
+        "ColumnGapFieldLabel": "Отступ между колонками",
+        "RowGapFieldLabel": "Отступ между строками"
+      },
+      "Flex": {
+        "PageCaption": "Настройки гибкого контейнера",
+        "Direction": "Направление",
+        "Row": "Строка",
+        "Column": "Колонка",
+        "Gap": "Отступ между элементами",
+        "WrapLabel": "Переносить элементы по строкам",
+        "JustifyContentLabel": "Расположение элементов",
+        "JustifyContent": {
+          "Start": "В начале",
+          "Center": "По центру",
+          "End": "В конце",
+          "SpaceBetween": "Равномерно"
+        }
+      },
+      "MobileGrid": {
+        "LayoutSetup": "Настройка макета",
+        "UseAdaptiveLayout": "Использовать адаптивный макет",
+        "ColumnsSmall": "Количество колонок для телефона",
+        "ColumnsMedium": "Количество колонок для планшета (портретная ориентация)",
+        "ColumnsLarge": "Количество колонок для планшета (альбомная ориентация)",
+        "DisableAdaptiveConfirmation": "Отключение адаптивного макета удалит конфигурации для конкретных точек перелома. Текущий макет будет использоваться для всех размеров экрана. Продолжить?"
+      }
+    },
+    "PrintablesRequestPropertiesPanel": {
+      "ViewSelectCaption": "Какие данные печатать?",
+      "PrintablesSettingsCaption": "Настройка печати",
+      "PrintOnRecord": "Печать отчета по текущей записи",
+      "PrintOnList": "Печать отчета по списку записей"
+    },
+    "PageAddonsPropertiesPanel": {
+      "UseSidebar": "Использовать как сайдбар",
+      "UseSidebarTooltip": "Сайдбар - это особый тип страницы, который используется в панелях Creatio. Например, в панели уведомлений. <a href ='{0}' target='_blank'>Узнайте больше в Академии</a>",
+      "ManageSidebarParameters": "Настроить сайдбар",
+      "SidebarDesignDialog": {
+        "Title": "Настройки сайдбара",
+        "Fields": {
+          "Title": "Заголовок",
+          "Code": "Код",
+          "Icon": "Иконка сайдбара",
+          "Group": "Размещение",
+          "Index": "Номер сайдбара",
+          "Enabled": "Активно",
+          "OperationPermission": "Код системной операции",
+          "AutoHideNotificationMark": "Снимать индикатор новых событий автоматически",
+          "AllowSizeAdjustment": "Разрешить изменение ширины сайдбара",
+          "Container": "Положение панели"
+        },
+        "Placeholders": {
+          "OperationPermission": "Сайдбар доступен для всех сотрудников",
+          "Group": "Отобразить сайдбар как отдельную панель",
+          "Container": "Выберите положение панели"
+        },
+        "Tooltips": {
+          "Group": "Чтобы сайдбар отобразился как отдельная панель в верхней части рабочей области, оставьте это поле незаполненным.",
+          "Index": "Номер сайдбара определяет его место в панели. Стандартным сайдбарам присвоены номера 1000, 2000, 3000 и т. д. Используйте номер меньше 1000 чтобы разместить ваш сайдбар выше, или больше 1000, 2000, 3000 - чтобы разместить ваш сайдбар между существующих.",
+          "IndexWhenEmptyGroup": "Номер определяет место панели в верхней части рабочей области. Стандартным панелям присвоены номера 9000, 10000. Используйте номер меньше 9000 чтобы разместить вашу панель левее, или больше 9000 чтобы разместить вашу панель между cуществующих.",
+          "OperationPermission": "Оставьте поле пустым, чтобы отобразить сайдбар для всех сотрудников. Укажите код системной операции и настройте права доступа по этой операции, чтобы предоставить доступ к сайдбару отдельным сотрудникам, группам пользователей или внешним пользователям.",
+          "AutoHideNotificationMark": "Установите ползунок вправо, чтобы индикатор новых событий исчезал при открытии сайдбара. Установите ползунок влево, чтобы разработать пользовательскую логику поведения индикатора.",
+          "AllowSizeAdjustment": "Позволяет пользователю вручную изменять ширину сайдбара. Эта функция доступна только для сайдбаров,  добавленных как отдельные панели.",
+          "Container": "Этот параметр определяет, с какой стороны экрана будет отображаться боковая панель. По умолчанию панель показывается справа, но при необходимости вы можете переместить её влево."
+        },
+        "PredefinedGroups": {
+          "CommunicationPanel": "Коммуникационная панель",
+          "NotificationsPanel": "Панель уведомлений"
+        },
+        "Validations": {
+          "CodePrefixTemplate": "Код должен начинаться с префикса \"{0}\"",
+          "CodePattern": "Невалидное или пустое значение. Используйте символы (a-z), (A-Z), (0-9), ( _ ). Код должен начинатся с символа a-z, A-Z.",
+          "SidebarCodeAlreadyExists": "Данный код сайдбара уже используется"
+        },
+        "PredefinedContainers": {
+          "LeftContainer": "Левая сторона экрана",
+          "RightContainer": "Правая сторона экрана"
+        }
+      }
+    },
+    "RunBusinessProcessRequestPropertiesPanel": {
+      "Validators": {
+        "SelectProcessWithParameters": "Выберите процесс и установите  хотя бы один параметр"
+      }
+    },
+    "PropertiesPanelAdvancedSettings": {
+      "AdvancedGroup": "Дополнительные параметры",
+      "CodeLabel": "Код элемента",
+      "DuplicateNameMessage": "Элемент с таким кодом уже существует",
+      "SaveButtonTitle": "Сохранить",
+      "CancelButtonTitle": "Отмена",
+      "NameValidationMsg": "Невалидное или пустое значение. Используйте символы (a-z), (A-Z), (0-9), ( _ ). Код должен начинатся с символа a-z, A-Z.",
+      "CodeChangeForbiddenText": "Код элемента нельзя изменить, поскольку он был сформирован на родительской странице"
+    },
+    "TogglePanelAppearanceSettings": {
+      "ToggleViewModeLabel": "Режим отображения",
+      "ToggleViewMode": {
+        "Dropdown": "Выпадающий список",
+        "Button": "Кнопки"
+      },
+      "DefaultTabLabel": "Вкладка по умолчанию"
+    },
+    "TabPanelAppearanceSettings": {
+      "DefaultTabLabel": "Вкладка по умолчанию",
+      "TabPanelColorSubGroup": "Цвета панели вкладок",
+      "StyleTypeLabel": "Стиль",
+      "BodyBackgroundColor": "Тело",
+      "SelectedTabCaptionColor": "Выбранной",
+      "TabCaptionColor": "Невыбранной",
+      "HeaderBackgroundColor": "Шапка",
+      "UnderlineSelectedTabColor": "Подчеркивание",
+      "TabCaptionColorSubGroup": "Цвет заголовка вкладки"
+    },
+    "TabPanelPropertiesPage": {
+      "GeneralCaption": "Общие",
+      "TabsPageCaption": "Настройки вкладок",
+      "TogglePageCaption": "Настройки тогл-контейнера",
+      "ItemsLabel": "Вкладки",
+      "AddNewItem": "Добавить вкладку",
+      "AppearanceGroup": "Вид на странице",
+      "TabStyleDefaultCaption": "Простой белый",
+      "TabStylePartiallyColoredCaption": "Частично окрашенный",
+      "TabStyleFullyColoredCaption": "Полноцветный",
+      "ContextMenu": {
+        "Edit": "Редактировать",
+        "Copy": "Копировать",
+        "Remove": "Удалить"
+      },
+      "ModeLabel": "Режим",
+      "ModeTab": "Вкладки",
+      "ModeToggle": "Переключатели",
+      "Scrollable": "Подогнать под доступное пространство"
+    },
+    "PagePropertiesPage": {
+      "BusinessRulesGroup": "Бизнес правила",
+      "PageCaption": "Настройки страницы",
+      "GeneralLabel": "Общие",
+      "AppearanceGroup": "Вид на странице",
+      "NameLabel": "Код страницы",
+      "PackageLabel": "Пакет",
+      "ParentPageLabel": "Родительская страница",
+      "OpenInterfaceDesigner": "Открыть дизайнер страницы",
+      "ExtendParentPageLabel": "Замещает родительскую страницу",
+      "DescriptionLabel": "Описание",
+      "CaptionLabel": "Заголовок",
+      "BackToSettings": "Вернуться к настройкам \"{{name}}\"",
+      "AdvancedPanel": "Дополнительные параметры",
+      "Validations": {
+        "RequiredNameMessage": "Необходимо указать значение",
+        "PatternNameMessage": "Используйте a-z, A-Z, 0-9. Имя не должно начинатся с цифры",
+        "PrefixNameMessage": "Код должен начинаться с префикса \"{0}\"",
+        "DuplicateNameMessage": "Элемент с таким именем уже существует",
+        "RequiredCaptionMessage": "Необходимо указать значение"
+      },
+      "EntitySchemaNameLabel": "Источник данных"
+    },
+    "DashboardPagePropertiesPanel": {
+      "NoAccessToChangeNameTooltip": "У вас нет прав на изменение кода схемы"
+    },
+    "ButtonPropertiesPage": {
+      "GeneralGroup": "Общие",
+      "CaptionLabel": "Заголовок",
+      "ColorFieldLabel": "Стиль",
+      "Colors": {
+        "Primary": "Основное",
+        "Accent": "Акцент",
+        "Warn": "Важно",
+        "Default": "Простой",
+        "Outline": "Контур",
+        "PlainWhite": "Простой белый",
+        "OutlineWhite": "Белый контур",
+        "Secondary": "Вторичный"
+      },
+      "ActionLabel": "Действия",
+      "MenuItemsLabel": "Пункты меню",
+      "AppearanceGroup": "Вид на странице",
+      "AddNewItem": "Добавить новый пункт меню",
+      "ButtonSizeFieldLabel": "Размер",
+      "Sizes": {
+        "Small": "Маленький",
+        "Medium": "Средняя",
+        "Large": "Большой",
+        "ExtraLarge": "Очень большой",
+        "2XLarge": "2XL",
+        "3XLarge": "3XL"
+      }
+    },
+    "MenuItemsContainerPropertiesPanel": {
+      "MenuItemsLabel": "Пункты меню",
+      "AddNewItem": "Добавить новый элемент",
+      "ContextMenu": {
+        "AddToSubmenu": "Добавить подпункт",
+        "Copy": "Копировать",
+        "Edit": "Редактировать",
+        "Delete": "Удалить"
+      },
+      "CopyPostfix": " - Скопировать"
+    },
+    "ReorderContextMenu": {
+      "MoveUp": "Переместить вверх (Ctrl + ↑)",
+      "MoveDown": "Переместить вниз (Ctrl + ↓)"
+    },
+    "ExecuteIntentUserTaskPropertiesPanel": {
+      "PageCaption": "Субагент",
+      "GeneralGroup": "Основное",
+      "CaptionLabel": "Заголовок",
+      "IntentSchemaLabel": "Какой субагент вызвать?",
+      "ChangeSchemaWarningMessage": "Вы действительно хотите изменить схему элемента? Все параметры элемента будут потеряны.",
+      "OpenDesignerButtonTitle": "Открыть субагент",
+      "SkillParametersGroup": "Параметры субагента",
+      "NoParameters": "Без параметров",
+      "NoFiles": "Без файлов",
+      "ParameterValueSource": {
+        "ProcessParameter": "Параметр процесса",
+        "SystemSetting": "Системная настройка",
+        "Formula": "Формула"
+      },
+      "AdvancedGroup": "Дополнительные параметры",
+      "CodeLabel": "Код элемента",
+      "AddFilesGroup": "Добавить файлы",
+      "CreateFile": "Добавить файл",
+      "ParameterTitleLabel": "Заголовок",
+      "ParameterDescriptionLabel": "Описание",
+      "ParameterCodeLabel": "Код страницы",
+      "ParameterDataTypeLabel": "Тип данных",
+      "ParameterValueLabel": "Содержание"
+    },
+    "DrilldownConfigPropertiesPanel": {
+      "HeaderLabel": "Конфигурация детализации",
+      "TitleLabel": "Колонка заголовка",
+      "Columns": {
+        "ColumnsLabel": "Колонки",
+        "AddColumn": "Добавить поле",
+        "EmptyState": "Столбцы не выбраны. Нажмите +, чтобы добавить столбцы для таблицы детализации на мобильном.",
+        "ContextMenu": {
+          "MoveUp": "Переместить вверх (Ctrl + ↑)",
+          "MoveDown": "Переместить вниз (Ctrl + ↓)",
+          "Delete": "Удаление"
+        }
+      }
+    },
+    "BarcodeScannerPropertiesPanel": {
+      "PageCaption": "Настройки сканера штрихкодов",
+      "GeneralCaption": "Основные параметры",
+      "FeaturesCaption": "Характеристики",
+      "SizeCaption": "Размеры",
+      "SizeSmall": "Маленький",
+      "SizeMedium": "Средний",
+      "SizeLarge": "Большой",
+      "SizeMax": "Максимальный",
+      "ScannedRequestCaption": "В какой столбец записать результат?",
+      "CustomScannedRequestCaption": "Выполнить произвольный код"
+    },
+    "MobileQuickFilterGroupPropertiesPanel": {
+      "PageCaption": "Настройки фильтров",
+      "GeneralCaption": "Основные параметры",
+      "ListComponentLabel": "Выберите компонент для фильтрации"
+    },
+    "UpdateQuickFilterGroupRequestPropertiesPanel": {
+      "QuickFilterGroupLabel": "Выберите компонент для фильтрации",
+      "FilterItemsCaption": "Элементы фильтра",
+      "FilterItemsPlaceholder": "Нажмите +, чтобы добавить элементы фильтра"
+    },
+    "SortPropertiesPanel": {
+      "GeneralGroup": {
+        "Caption": "Общие",
+        "SelectDataSource": "Источник данных"
+      },
+      "PageCaption": "Настройки сортировки",
+      "ChooseTargetsCaption": "Выберите компонент для сортировки",
+      "ChooseTargetsTooltip": "Выберите список, в котором будет выполнена сортировка. В выпадающем меню отображаются списки, присутствующие на текущей странице и имеющие указанный объект",
+      "ColorFieldLabel": "Стиль",
+      "ButtonSizeFieldLabel": "Размеры",
+      "AppearanceGroup": "Вид на странице",
+      "IconPositionLabel": "Позиция",
+      "Colors": {
+        "Primary": "Основная",
+        "Accent": "Акцент",
+        "Warn": "Важно",
+        "Default": "Простой",
+        "Secondary": "Вторичный"
+      },
+      "Sizes": {
+        "Small": "Маленький",
+        "Medium": "Средняя",
+        "Large": "Большой",
+        "ExtraLarge": "Очень большой",
+        "2XLarge": "2XL",
+        "3XLarge": "3XL"
+      },
+      "IconPosition": {
+        "LeftIcon": "Иконка слева",
+        "RightIcon": "Иконка справа",
+        "OnlyIcon": "Только иконка"
+      }
+    }
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "Здесь нечего показать!",
+    "NoDataDescription": "Ваша очередь пуста",
+    "AcceptButtonLabel": "Принять"
+  },
+  "AgentInbox": {
+    "NewItems": "Новые задачи ({{number}})",
+    "InProgress": "В работе ({{number}})",
+    "RealTime": "Текущие обращения",
+    "QueuedTasks": "Обращения в очереди",
+    "WrappedUpCallTickTpl": "Завершение звонка (осталось {{sec}} с)",
+    "WrappedUpCallStoppedTpl": "Завершение вручную",
+    "IncomingCallDescription": "Входящий вызов:",
+    "OutgoingCallDescription": "Исходящий вызов:"
+  },
+  "CallConversation": {
+    "Call": "Позвонить",
+    "Duration": "Длительность:",
+    "Search": "Обновить",
+    "JobTitle": "Должность",
+    "Account": "Контрагент",
+    "ClearIdentity": "Удалить выделенную запись",
+    "OutboundLine": {
+      "From": "Отправитель",
+      "Type": "Исходящая линия"
+    },
+    "Buttons": {
+      "Hints": {
+        "Accept": "Принять звонок",
+        "CompleteTransfer": "Нажмите, для соединения абонентов",
+        "Hold": "Поставить на удержание",
+        "Unhold": "Снять с удержания",
+        "StartTransfer": "Передача вызова",
+        "Mute": "Приглушить звонок",
+        "CancelTransfer": "Отменить перевод",
+        "Drop": "Завершить звонок",
+        "OpenDialPanel": "Открыть панель набора номера"
+      },
+      "Captions": {
+        "Accept": "Принять",
+        "Drop": "Отклонить",
+        "Cancel": "Отменить",
+        "CancelTransfer": "Назад",
+        "CompleteTransfer": "Объединить",
+        "EndMainCall": "В конце"
+      }
+    },
+    "OnHold": "На удержании:"
+  },
+  "SaveCallDetailsHandler": {
+    "UpdateSuccessMessage": "Звонок был обновлён"
+  },
+  "CallIdentityMenu": {
+    "ClearSelectedRecord": "Удалить выделенную запись",
+    "CallIdentityOptions": "Изменить/установить контакт"
+  },
+  "RequeueQueueItemHandler": {
+    "SuccessfullyRequeued": "Элемент успешно возвращен в очередь"
+  },
+  "CallAiContextService": {
+    "IncomingCallTitle": "Варианты времени",
+    "OutgoingCallTitle": "Входящий звонок: {{counterparty}}",
+    "UnknownCounterparty": "неизвестно"
+  },
+  "ForecastGrid": {
+    "PropertiesPanel": {
+      "HeaderLabel": "Сетка прогноза",
+      "GeneralGroup": {
+        "Caption": "Основное",
+        "ForecastSheetLabel": "Лист планирования",
+        "BindingTooltip": "Привязано к атрибуту. Очистите, чтобы выбрать лист прогноза напрямую.",
+        "ClearBinding": "Очистить привязку к атрибуту",
+        "InactiveSheetSuffix": "(не предоставляется)"
+      }
+    },
+    "FilterableOption": {
+      "Period": "Период",
+      "Hierarchy": "Иерархический фильтр"
+    },
+    "Caption": "Сетка прогноза",
+    "Hint": "Иерархическая сетка прогноза",
+    "DefaultTitle": "Новая сетка прогноза",
+    "EmptyState": "Нет данных прогноза для этого листа.",
+    "PrimaryColumnCaption": "Лид",
+    "SelfRowSuffix": "(сам)",
+    "CellSaveFailed": "Не удалось сохранить значение ячейки. Попробуйте ещё раз.",
+    "CellSaveError": {
+      "PermissionDenied": "У вас нет разрешения редактировать эту ячейку."
+    },
+    "LoadFailed": "Не удалось загрузить данные прогноза.",
+    "NoResponse": "Нет ответа от сервиса прогноза.",
+    "Placeholder": {
+      "NotConfigured": {
+        "Title": "Сетка прогноза не настроена.",
+        "Description": "В настройках компонента должен быть выбран объект, прежде чем эта сетка сможет отображать данные."
+      },
+      "Inactive": {
+        "Title": "Прогноз неактивен.",
+        "Description": "Администратор должен активировать его в конфигурации прогноза, прежде чем данные прогноза можно будет отобразить."
+      },
+      "Error": {
+        "Title": "Что-то пошло не так...",
+        "Description": "Свяжитесь с вашим системным администратором."
+      }
+    },
+    "CalculateCaption": "Не имеют",
+    "CalculationInProgressCaption": "Обновить метрики",
+    "CalculationStartedMessage": "Выполняется обновление",
+    "CalculationFailedMessage": "Не удалось запустить расчёт прогноза. Попробуйте ещё раз.",
+    "LastCalculationCaption": "Дата последнего обновления",
+    "NextCalculationCaption": "Выполняется обновление. Вы можете продолжать пользоваться дашбордом, пока готовятся новые метрики.",
+    "NextCalculationDueCaption": "Следующее обновление",
+    "SubmissionStatus": {
+      "SubmittedBy": "вскоре",
+      "Submitted": "Подано {{name}}",
+      "LastSubmittedBy": "Подано",
+      "LastSubmitted": "Последний раз подано {{name}}",
+      "NotSubmitted": "Последний раз подано",
+      "UpdateRequired": "Не подано"
+    }
+  },
+  "ListWidget": {
+    "DefaultTitle": "Новый виджет списка",
+    "PropertiesPanel": {
+      "HeaderLabel": "Настройки графика",
+      "TitleLabel": "Заголовок",
+      "Styles": {
+        "FullyColored": "Полноцветный",
+        "PlainWhite": "Простой белый",
+        "PartiallyColored": "Частично окрашенный",
+        "Glassmorphism": "Эффект стекла"
+      }
+    },
+    "Caption": "Виджет списка",
+    "Hint": "Компонент, совмещающий в себе список со всеми его возможностями, а также настраиваемую рамку для визуальной согласованности с другими аналитическими виджетами"
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} записей было загружено. Продолжить загрузку?",
+    "ConfirmResendMeetingInvitationsQuestion": "При изменении этой встречи будут отправлены обновленные приглашения всем участникам. Продолжить?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Для сохранения некоторых из измененных встреч требуется отправить участникам уведомление об изменениях после сохранения. Вы хотите продолжить? Список встреч: ",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "Эта встреча в прошлом. Вы уверены что хотите отослать приглашение участникам?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "Вы хотите изменить встречу в прошлом. Все участники получат обновленную информацию о встрече. Продолжить?",
+    "CanNotChangeMeetingMessage": "Только организатор встречи может вносить изменения в описание, дату проведения или состав участников.",
+    "CanNotChangeMultipleMeetingsMessage": "Часть из измененных встреч может быть изменена только организатором встречи. Список встреч: ",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "Вы можете удалить встречи только если выберете записи вручную.",
+    "ErrorSendingInvitationMessage": "Возникли трудности при отправке приглашений. Пожалуйста попробуйте позже.",
+    "SuccessSendingInvitationMessage": "Приглашения были успешно отправлены.",
+    "JoinBtnCaption": "Присоединиться к online встрече",
+    "UserAlreadyHasActiveCalendarAccount": "У вас уже есть активный календарь",
+    "LackOfLicenseMessage": "Синхронизация календарей не включена в вашу текущую лицензию. Пожалуйста обратитесь к вашему администратору за дополнительной информацией.",
+    "DateRangeError": "Выбранный диапазон дат слишком большой. Пожалуйста измените даты в фильтре."
+  },
+  "FilterBuilder": {
+    "EmptyValue": "Исходящий звонок: {{counterparty}}",
+    "EnterValuePlaceholder": "Введите значение",
+    "Is": "это",
+    "Menu": {
+      "FiltersBadgeTooltip": "любое",
+      "CustomFiltersLabel": "Предустановленные фильтры",
+      "ColumnsLabel": "по колонкам",
+      "Caption": {
+        "AddCondition": "Добавить условие",
+        "AddConditionManual": "Фильтры применены",
+        "AddGroup": "Добавить новый фильтр",
+        "AddFilterGroup": "Добавить группу",
+        "AddRelatedObject": "Добавить группу фильтров",
+        "AddRelatedObjectManual": "Исследовать связанные данные"
+      },
+      "Tooltip": {
+        "AddCondition": "Добавить новый фильтр связанного объекта",
+        "AddGroup": "Добавить новое условие фильтра",
+        "AddRelatedObject": "Добавить новую группу условий фильтра"
+      }
+    },
+    "Group": {
+      "Caption": "Группу",
+      "ShowAllRecordsThatMatch": "Добавить новое условие фильтра по связанным объектам",
+      "OfTheseConditions": "Показать все записи, соответствующие",
+      "DefaultHeaderTemplate": "этим условиям"
+    },
+    "Lookup": {
+      "SelectPlaceholder": "Показать все записи, соответствующие {menuOperator} из этих условий"
+    },
+    "Segment": {
+      "SelectPlaceholder": "Выберите {{caption}}",
+      "Caption": {
+        "In": "Выберите сегменты",
+        "NotIn": "В сегменте"
+      }
+    },
+    "Preset": {
+      "ChangedWarning": "Не в сегменте"
+    },
+    "ColumnPath": {
+      "ButtonCaption": "Путь",
+      "DialogTitle": "Фильтр ссылается на пресет, который был изменён. Загружена актуальная версия пресета",
+      "PathLabel": "Свойства фильтра",
+      "AttributeLabel": "Атрибут"
+    },
+    "LogicalOperator": {
+      "And": "все",
+      "Or": "Исходящий звонок: {{counterparty}}"
+    },
+    "Toggler": {
+      "Caption": "Фильтрация",
+      "Tooltip": "Путь атрибута"
+    },
+    "TextOperators": {
+      "Is": "Открыть/закрыть панель фильтров",
+      "IsNot": "Равно",
+      "Contains": "Содержит",
+      "DoesNotContain": "Не равно",
+      "StartsWith": "Начинается",
+      "DoesNotStartWith": "Не содержит",
+      "EndsWith": "Не начинается с",
+      "DoesNotEndWith": "Заканчивается на",
+      "IsFilledIn": "Не заканчивается на",
+      "IsNotFilledIn": "Заполнено"
+    },
+    "NumericOperators": {
+      "Is": "Не заполнено",
+      "IsNot": "Равно",
+      "GreaterThan": "Не равно",
+      "LessThan": "Больше чем",
+      "GreaterThanOrEqualTo": "Меньше чем",
+      "LessThanOrEqualTo": "Не менее",
+      "IsFilledIn": "Не заканчивается на",
+      "IsNotFilledIn": "Заполнено"
+    },
+    "AggregationNumericOperators": {
+      "Is": "Не более",
+      "IsNot": "Точно",
+      "GreaterThan": "Точно не",
+      "LessThan": "Больше чем",
+      "GreaterThanOrEqualTo": "Меньше чем",
+      "LessThanOrEqualTo": "Не менее"
+    },
+    "LookupOperators": {
+      "Is": "Открыть/закрыть панель фильтров",
+      "IsNot": "Равно",
+      "IsFilledIn": "Не заканчивается на",
+      "IsNotFilledIn": "Заполнено",
+      "Macros": {
+        "CurrentUser": "Текущий пользователь",
+        "CurrentUserContact": "Больше чем",
+        "SelectContact": "Текущий контакт",
+        "SelectValue": "Конкретный контакт"
+      }
+    },
+    "BooleanOperators": {
+      "Yes": "Да",
+      "No": "нет"
+    },
+    "DateTimeOperators": {
+      "Is": "Открыть/закрыть панель фильтров",
+      "IsNot": "Равно",
+      "After": "Через",
+      "Before": "Конкретное значение",
+      "OnOrAfter": "Отправитель",
+      "OnOrBefore": "До",
+      "Between": "До и включительно",
+      "And": "контента изображений",
+      "IsFilledIn": "Не заканчивается на",
+      "IsNotFilledIn": "Заполнено",
+      "PlaceholderStart": "В начале",
+      "PlaceholderEnd": "Конец",
+      "Placeholder": "Нажмите",
+      "PlaceholderDate": "Выберите дату",
+      "PlaceholderDateTime": "Выбрать дату и время",
+      "PlaceholderTime": "Выберите время",
+      "InputModes": {
+        "ExactDate": "Между",
+        "ExactDateTime": "Точная дата",
+        "ExactTime": "В точное время",
+        "Hour": "Час",
+        "Day": "День",
+        "Week": "Неделя",
+        "Month": "Месяца",
+        "Quarter": "Квартал",
+        "HalfYear": "Полугодие",
+        "Year": "Год",
+        "EveryYear": "Точная дата и время"
+      },
+      "Macros": {
+        "PreviousHour": "Каждый год",
+        "CurrentHour": "Предыдущий час",
+        "NextHour": "Текущий час",
+        "ExactTime": "Следующий час",
+        "PreviousNHours": "Точное время ...",
+        "NextNHours": "Предыдущие часы ...",
+        "Yesterday": "Вчера",
+        "Today": "Сегодня",
+        "Tomorrow": "Завтра",
+        "DayOfMonth": "День месяца ...",
+        "DayOfWeek": "День недели ...",
+        "PreviousNDays": "Следующие часы ...",
+        "NextNDays": "Предыдущие дни ...",
+        "PreviousWeek": "Прошлая неделя",
+        "CurrentWeek": "Текущая неделя",
+        "NextWeek": "Следующая неделя",
+        "PreviousMonth": "Предыдущий месяц",
+        "CurrentMonth": "Текущий месяц",
+        "NextMonth": "Следующий месяц",
+        "Month": "Месяц ...",
+        "PreviousQuarter": "Предыдущий квартал",
+        "CurrentQuarter": "Текущий квартал",
+        "NextQuarter": "Следующий квартал",
+        "PreviousHalfYear": "Следующие дни ...",
+        "CurrentHalfYear": "Предыдущее полугодие",
+        "NextHalfYear": "Текущее полугодие",
+        "PreviousYear": "Предыдущий год",
+        "CurrentYear": "Текущий год",
+        "NextYear": "Следующий год",
+        "Year": "Следующее полугодие",
+        "DayOfYearToday": "Сегодня",
+        "DayOfYearTodayPlusDaysOffset": "Год ...",
+        "NextNDaysOfYear": "Каждый год, точно в ...",
+        "NextNDaysOfYearSuffix": "Каждый год, в течение ... следующих дней",
+        "PreviousNDaysOfYear": "следующих дней",
+        "PreviousNDaysOfYearSuffix": "Каждый год, в течение ... предыдущих дней",
+        "WeekDays": {
+          "Sunday": "предыдущих дней",
+          "Monday": "Вс",
+          "Tuesday": "Пн",
+          "Wednesday": "Вт",
+          "Thursday": "Ср",
+          "Friday": "Чт",
+          "Saturday": "Пт"
+        },
+        "Months": {
+          "January": "Январь",
+          "February": "Февраль",
+          "March": "Март",
+          "April": "Апрель",
+          "May": "Май",
+          "June": "Июнь",
+          "July": "Июль",
+          "August": "Август",
+          "September": "Сентябрь",
+          "October": "Октябрь",
+          "November": "Ноябрь",
+          "December": "Декабрь"
+        }
+      }
+    },
+    "Action": {
+      "Apply": "Применить",
+      "ApplyDisabledTooltip": "Сб",
+      "ClearAll": "Очистить все",
+      "Close": "Отмена"
+    },
+    "EmptyState": {
+      "Title": "Нет данных для отображения",
+      "Subhead": "Фильтр уже применён. Измените условия фильтра, чтобы применить его снова"
+    },
+    "OfTheBelowConditionsShouldMatch": "Добавьте первый фильтр, чтобы начать",
+    "Records": "записей",
+    "Where": "где",
+    "And": "контента изображений",
+    "Aggregation": {
+      "Type": {
+        "Count": "Количество",
+        "Sum": "Сумма",
+        "Avg": "Среднее",
+        "Min": "Минимум",
+        "Max": "Максимум"
+      },
+      "Caption": {
+        "Count": "По количеству",
+        "Sum": "из приведённых ниже условий должны совпадать",
+        "Avg": "Сумма {{value}}",
+        "Min": "Среднее значение {{value}}",
+        "Max": "Минимум {{value}}",
+        "None": "{{value}}",
+        "TopOne": "Максимум {{value}}"
+      },
+      "Have": "Наибольшее значение {{value}}",
+      "HaveRelated": "Имеют",
+      "Related": "Имеют связанные",
+      "Of": "из"
+    },
+    "Exists": {
+      "Have": "Наибольшее значение {{value}}",
+      "HaveNo": "связанные",
+      "Related": "Имеют связанные"
+    },
+    "AggregationOperators": {
+      "Sum": "Сумма",
+      "Avg": "Среднее",
+      "Min": "Минимум",
+      "Max": "Максимум",
+      "TopOne": "TopOne",
+      "None": "Нет"
+    }
+  },
+  "FilterBuilderDesigner": {
+    "TogglerCaption": "Меню расширенных фильтров",
+    "TogglerHint": "Требует компонент «Расширенные фильтры». Позволяет показывать и скрывать фильтры страницы.",
+    "SourceCaption": "Расширенные фильтры",
+    "SourceHint": "Добавить панель расширенных фильтров",
+    "Properties": {
+      "Source": {
+        "HeaderLabel": "Настройки расширенных фильтров",
+        "GeneralCaption": "Основные параметры",
+        "SchemaLabel": "Что фильтровать?",
+        "HeaderTemplateLabel": "Шаблон заголовка"
+      },
+      "Toggler": {
+        "HeaderLabel": "Меню расширенных фильтров",
+        "GeneralCaption": "Основные параметры",
+        "ViewElementLabel": "Расширенные фильтры"
+      }
+    }
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "Визирование",
+    "ComponentHeaderInactiveLabel": "Все визирования завершены",
+    "RejectDialogHeaderLabel": "Вы уверенны что хотите отклонить визу?",
+    "ApproveDialogHeaderLabel": "Утвердить визу?",
+    "RejectInputLabel": "Комментарий",
+    "RejectButtonLabel": "Отклонить",
+    "ApproveButtonLabel": "Утвердить",
+    "DelegateButtonLabel": "Делегировать",
+    "CancelButtonLabel": "Отмена",
+    "PositiveMetricLabel": "Утверждено",
+    "NegativeMetricLabel": "Отклонено",
+    "PendingMetricLabel": "В ожидании",
+    "ComponentHeaderActiveLabel": "Ожидает визирования",
+    "ApprovalPurposeLabel": "Цель визирования",
+    "ApprovedPlaceholderLabel": "ЗАВИЗИРОВАНО",
+    "DesignTime": {
+      "ApprovalObjective": "Требуется утверждение"
+    },
+    "RejectedPlaceholderLabel": "ОТКЛОНЕНО"
+  },
+  "ApprovalList": {
+    "ApproveButtonLabel": "Утвердить",
+    "RejectButtonLabel": "Отклонить"
+  },
+  "MultiSelectSaveRecordHandler": {
+    "ErrorMessageTemplate": "Необходимо выбрать хотя бы одно значение в: {0}"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "DataGridSettingsForFolderLabel": "Настройки реестра для группы",
+      "CreateDataGridSettingsForFolder": {
+        "SuccessStatus": "Настройки реестра успешно сохранены. Они применяются только когда группа \"{0}\" активна",
+        "Label": "Создать пользовательские настройки для \"{0}\""
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "Сохранить как новые настройки по умолчанию для \"{0}\"",
+        "Confirmation": "Новые настройки списка по умолчанию для папки «{0}» будут сохранены для всех пользователей. Продолжить?",
+        "SuccessStatus": "Настройки реестра успешно сохранены. Они применяются только когда группа \"{0}\" активна"
+      },
+      "ClearDataGridSettingsForFolder": {
+        "Label": "Очистить пользовательские настройки для \"{0}\"",
+        "Confirmation": "Пользовательские настройки реестра для группы «{0}» будут сброшены для всех пользователей, и будут применены общие настройки реестра. Продолжить?",
+        "SuccessStatus": "Настройки реестра для группы «{0}» успешно очищены"
+      },
+      "OverwriteDataGridSettingsForFolder": {
+        "Label": "Перезаписать текущие настройки для всех пользователей для \"{0}\"",
+        "Confirmation": "Новые настройки реестра по умолчанию будут сохранены для группы \"{0}\" и заменят текущие настройки для всех пользователей. Продолжить?",
+        "SuccessStatus": "Настройки реестра успешно сохранены. Они применяются только когда группа \"{0}\" активна"
+      },
+      "ResetDataGridSettingsForFolder": {
+        "Label": "Восстановить настройки по умолчанию для \"{0}\"",
+        "Confirmation": "Будут восстановлены настройки реестра по умолчанию для группы «{0}». Продолжить?",
+        "SuccessStatus": "Настройки реестра по умолчанию для группы \"{0}\" успешно восстановлены."
+      }
+    }
+  },
+  "MergingRecords": {
+    "ConflictsResolveDialog": {
+      "TitleTemplate": "Объединение дублей ({0})",
+      "Actions": {
+        "Merge": "Объединить"
+      }
+    },
+    "Handler": {
+      "Errors": {
+        "General": "Не удалось объединить выбранные записи",
+        "NoRights": "Недостаточно прав для объединения данных",
+        "MinSelectedRecordsViolation": "Для объединения требуется как минимум две записи",
+        "SelectionAllModeUsingViolation": "Невозможно выполнить объединение при использовании действия \"Выбрать все\". Выберите записи для объединения вручную."
+      },
+      "SuccessfulCompletionStatus": "Начато объединение данных. Уведомление о его завершении появится в коммуникационной панели."
+    }
+  },
+  "ForecastHierarchyBuilder": {
+    "AddChildTitle": "Недостаточно прав для открытия раздела. Свяжитесь с администратором вашей организации.",
+    "RemoveTitle": "Отозвать",
+    "AddChildAriaLabel": "Добавить дочерний",
+    "RemoveAriaLabel": "Добавить дочерний к {{caption}}",
+    "DraggableAriaLabel": "Удалить {{caption}}",
+    "EmptyStateWithEntity": "{{caption}}. Можно перетаскивать. Используйте Alt+стрелки для изменения порядка.",
+    "EmptyStateNoEntity": "Пока нет узлов иерархии.",
+    "LoadingAriaLabel": "Выберите объект, чтобы начать построение иерархии.",
+    "ConfirmationTitle": "Подтверждение",
+    "ConfirmationMessage": "Загрузка иерархии…",
+    "RemoveConfirmationMessage": "Хотите автоматически перестроить иерархию на основе выбранного поля?",
+    "RemoveConfirmButton": "Удалить",
+    "CancelButton": "Отменить",
+    "ContinueButton": "Продолжить",
+    "EnsureForecastEntityInCell": {
+      "NewObjectCaption": "Прогноз по {{entityName}}",
+      "DialogTitle": "Новый объект: {{entityName}}",
+      "DialogOk": "ОК",
+      "DialogGenericMessage": "Не удалось создать объект прогноза",
+      "SchemaSaveFailed": "Не удалось создать схему объекта прогноза."
+    }
+  },
+  "ChangeTracking": {
+    "EntitySchemaNotFoundMessage": "Схема сущности '{{entitySchemaName}}' не найдена",
+    "UnselectedColumnsWillBeDeletedMessage": "Неотмеченные столбцы будут удалены. Продолжить?"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Для записи нет страницы редактирования. Системному администратору необходимо проверить настройку параметров кнопки в дизайнере Freedom UI",
+    "GoToEntityDesignerMessage": "Для настройки страниц перейдите по ссылке: {0}"
+  },
+  "Applications": "Центр приложений",
+  "ApplicationExplorer": {
+    "RunAppButton": "Запустить приложение",
+    "UpdateButton": "Обновить",
+    "Structure": {
+      "NavigationItems": "Разделы и навигация",
+      "GeneralInformation": "Общая информация",
+      "Pages": "Страницы",
+      "ObjectModels": "Модели данных",
+      "BusinessProcesses": "Бизнес-процессы",
+      "AdvancedSettings": "Настройки пакетов",
+      "WebService": "Интеграции",
+      "RestService": "REST-сервис",
+      "SoapService": "SOAP-сервис",
+      "CreatioAi": "Creatio.ai"
+    },
+    "AdvancedSettingsActions": {
+      "Activate": "Активировать",
+      "Delete": "Удалить",
+      "Deactivate": "Деактивировать",
+      "Exclude": "Исключить из приложения",
+      "Current": "Установить текущим пакетом",
+      "ExcludeDialog": "Вы уверены что хотите исключить пакет \"{0}\" из приложения?",
+      "PackageExcluded": "Пакет {0} успешно исключен из приложения",
+      "SetCurrentPackage": "Пакет \"{0}\" успешно установлен текущим пакетом приложения",
+      "CurrentPackageTooltip": "Текущий пакет приложения",
+      "PackageCreated": "Пакет {0} успешно добавлен",
+      "OnePackageAdded": "Пакет {0} успешно добавлен в приложение",
+      "PackagesAdded": "Пакеты {0} успешно добавлены в приложение",
+      "Create": "Создать новый пакет",
+      "AddExistingPackages": "Добавить существующие пакеты",
+      "PackageProperties": "Свойства",
+      "AddExistingPackagesDialog": {
+        "Caption": "Выберите существующие пакеты",
+        "PackageNameColumn": "Название пакета",
+        "ErrorInfoAllPackagesNotAdded": "Не удалось включить пакеты в приложение: {0}",
+        "ErrorInfoSomePackagesNotAdded": "Пакеты успешно добавлены в приложение: {0}\nНе удалось включить пакеты в приложение: {1}"
+      }
+    },
+    "GeneralInformation": {
+      "CreatedOn": "Дата создания",
+      "LastUpdate": "Дата последнего обновления",
+      "Developer": "Разработчик",
+      "CreateNewObjectCaption": "Создать новый объект",
+      "UseExistingObjectCaption": "Использовать существующий объект",
+      "SelectObject": "Объект",
+      "SelectObjectPlaceholder": "Выберете существующий объект",
+      "CreateMobilePages": "Создать страницы для мобильного приложения"
+    },
+    "BackTooltip": "Назад",
+    "PenTooltip": "Редактировать приложение",
+    "EyeTooltip": "Посмотреть информацию о приложении"
+  },
+  "ApplicationSections": {
+    "ApplicationSectionItem": {
+      "FreedomUI": "Freedom UI"
+    },
+    "Menu": {
+      "Trigger": "Добавить",
+      "CreateFreedomUiSection": "Новый раздел Freedom UI"
+    },
+    "ApplicationSectionEditDialog": {
+      "Title": {
+        "Create": "Новый раздел",
+        "Update": "Изменение раздела"
+      },
+      "HeaderCarouselCaption": "Выберите иконку и цвет",
+      "Fields": {
+        "Name": "Заголовок",
+        "NamePlaceholder": "Назовите новый раздел",
+        "Code": "Код секции",
+        "CodePlaceholder": "Сформируйте код раздела",
+        "CodeTooltip": "Значение, которое будет использовано для формирования кодов элементов нового раздела, например, объект, клиентские схемы",
+        "UseExistingObjectTooltip": "Установите признак, чтобы использовать для раздела существующий объект, а не создавать новый",
+        "CreateMobilePagesTooltip": "Снимите этот флажок, чтобы создать только веб-приложение"
+      },
+      "Buttons": {
+        "Create": "Создать",
+        "Update": "Изменить",
+        "Cancel": "Отменить"
+      },
+      "ColorPickerCaption": "Цвет",
+      "AdvancedModeButtonCaption": "Дополнительные параметры"
+    }
+  },
+  "AppGetStarted": {
+    "CancelButtonCaption": "Пропустить",
+    "SelectButtonCaption": "Выбрать",
+    "HeaderCaption": "Готовы создать приложение?",
+    "SubHeaderCaption": "Раскройте свой потенциал с помощью наших популярных шаблонов для удобной и эффективной разработки"
+  },
+  "ApplicationManagementComponent": {
+    "NewAppButton": "Новое приложение",
+    "DeleteAppConfirmationMessage": "Вы уверены, что хотите удалить это приложение?",
+    "UpdateAppButton": "Обновить",
+    "DeployAppButton": "Поставить",
+    "ExportAppButton": "Экспортировать",
+    "DeleteAppButton": "Удалить",
+    "OpenAppButton": "Открыть",
+    "SuccessfullyDeleted": "Приложение удалено",
+    "NoAppsTitle": "У вас нет ни одного приложения",
+    "NoAppsText": "Добавьте новое приложение, и в разделе будет не так одиноко",
+    "Update": "Обновить",
+    "UpdateAvailableMessage": "У нас отличные новости! Новейшая версия приложения уже доступна на Marketplace. Скачать ее можно прямо сейчас!"
+  },
+  "ApplicationTemplateLookupComponent": {
+    "CancelButtonCaption": "Отмена",
+    "HeaderCaption": "Выберите приложение",
+    "SelectButtonCaption": "Выбрать"
+  },
+  "ApplicationBusinessProcesses": {
+    "Active": "Активный",
+    "NotActive": "Не активный",
+    "NewButtonCaption": "Новый процесс",
+    "NotActual": "(Не актуальный)",
+    "Version": "Версия:",
+    "VersionsDialog": {
+      "ProcessVersions": "Версии процесса",
+      "Title": "Имя",
+      "ModifiedOn": "Дата модификации",
+      "Application": "Приложение",
+      "Package": "Пакет",
+      "Version": "Версия",
+      "ActualVersion": "Актуальная версия",
+      "IsActualValue": "Да",
+      "IsNotActualValue": "Нет",
+      "SharedPackageValue": "Общий пакет",
+      "CloseButtonCaption": "Закрыть"
+    }
+  },
+  "ApplicationEntities": {
+    "NewButtonCaption": "Новая модель данных"
+  },
+  "ApplicationWebServices": {
+    "NewButtonCaption": "Новая интеграция"
+  },
+  "ApplicationExplorerToolbar": {
+    "ShowRelatedElementsCaption": "Показать унаследованные элементы",
+    "ShowRelatedElementsTooltip": "Отобразить все элементы, унаследованные от связанных приложений. Если вы измените любой из этих элементов, то его обновленная версия будет cохранена в вашем приложении"
+  },
+  "GalleryToolbar": {
+    "NewPageButtonCaption": "Новая страница",
+    "SortByCaption": "По заголовку",
+    "SortByName": "По названию",
+    "SortByStatus": "По статусу",
+    "SortByType": "По типу",
+    "SortByUri": "По URI сервиса",
+    "SortByModifiedOn": "По дате изменения",
+    "SearchError": "Заголовок, используемый для настроек поиска, не указан для столбца ",
+    "SpecifyMessage": "Укажите его в дескрипторе столбцов поиска или в схеме данных таблицы.",
+    "NewButtonCaption": "Новый"
+  },
+  "ApplicationUploadPage": {
+    "SelectDropFileText": "пожалуйста, выберите файл",
+    "FileExtensionsRow1": "Выберите файл, из которого будет установлено приложение.",
+    "FileExtensionsRow2": "Это может быть архив *.zip или *.gz",
+    "SelectFileButtonCaption": "выбрать файл",
+    "InvalidFileSize": "Невозможно установить приложение. Превышен максимально допустимый размер файла ({0} МБ)",
+    "ChangeMaxSize1": "Вы можете управлять допустимым размером файла при помощи системной настройки",
+    "ChangeMaxSize2": "\"Максимальный размер приложений для установки\" (код \"ApplicationInstallationMaxFileSize\")",
+    "CorruptedFileMessage1": "Невозможно открыть \"{0}\". Файл недействителен или поврежден.",
+    "CorruptedFileMessage2": "Проверьте целостность файла или скачайте и повторите загрузку."
+  },
+  "ApplicationInstallationStatus": {
+    "InstallationCaption": {
+      "Line1": "Устанавливаем приложение",
+      "Line2": "Это может занять несколько минут"
+    },
+    "LicenseLoaded": "Пробная версия приложения активна в течение 14 дней. Для работы с приложением после пробного периода вам потребуется приобрести лицензии.",
+    "NeedRequestLicense": "Для использования бесплатной 14-дневной версии приложения",
+    "NeedRequestLicenseMailTo": "необходимо связаться со службой поддержки и заказать его лицензию.",
+    "MailToText": "Запрос trial-лицензий для приложения Creatio marketplace - {0}.",
+    "LicenseLoadedInDemoMode": "Вы можете пользоваться его функционалом с учетом ограничений демо-версии."
+  },
+  "AppInstallInfoDialog": {
+    "ApplicationInstallation": "Установка приложения",
+    "ApplicationsInstallation": "Установка приложений",
+    "ApplicationUpdate": "Обновление приложения",
+    "Trial": "Платно",
+    "Free": "Бесплатно",
+    "Cancel": "Отменить",
+    "Close": "Закрыть",
+    "Install": "Установить",
+    "InstallAll": "Установить все",
+    "Update": "Обновить",
+    "ErrorCodeText": "Не удается найти приложение на Marketplace.\nПохоже, вы пытаетесь установить несуществующее приложение.\nНажмите кнопку ОК, и вы вернетесь в Application Hub.",
+    "OutOfSyncNames": "Имя вашего *.gz архива не совпадает с именем указанном в файле descriptor.json.",
+    "UnableLoadAppDetailsTitle": "Не удалось загрузить данные приложения",
+    "UnableLoadAppDetailsMessage": "Не удалось получить информацию о приложении с Marketplace. Повторите попытку позже или обратитесь в службу поддержки, если проблема сохраняется.",
+    "UnableLoadAppDetailsOkButtonCaption": "Вернуться в Marketplace",
+    "Type": {
+      "Application": "Приложение",
+      "Package": "Пакет"
+    },
+    "Licensing": {
+      "free": "Бесплатно",
+      "trial": "Платно"
+    },
+    "Columns": {
+      "Name": "Название",
+      "Type": "Тип",
+      "Version": "Версия",
+      "Developer": "Разработчик",
+      "Licensing": "Лизенцирование",
+      "RequiredVersion": "Требуемая версия",
+      "InstalledVersion": "Установленная версия"
+    },
+    "DownloadLog": "Журнал проверки загрузки",
+    "GoToMarketplaceTooltip": "Перейти в Creatio Marketplace",
+    "InstallAnyway": "Всё равно установить",
+    "InstallAllAnyway": "Всё равно установить",
+    "UpdateAnyway": "Все равно обновить"
+  },
+  "AppInstallAttentionInfo": {
+    "SingleAppFromMarketplaceMessage": "Убедитесь, что устанавливаемое приложение совместимо с вашей версией Creatio. В описании приложения в Marketplace приведен список продуктов Creatio, совместимость с которыми гарантируется разработчиком. Не следует устанавливать приложение, если вашей версии Creatio в списке нет. Если вы устанавливаете приложение Marketplace, чтобы ознакомиться с его возможностями, лучше всего установить его на тестовую среду или на бесплатную 14-дневную версию Creatio. Только после этого рекомендуем устанавливать приложение на продуктивную среду Creatio.",
+    "MultipleAppsFromMarketplaceMessage": "Убедитесь, что устанавливаемые приложения совместимы с вашей версией Creatio. В описании приложения в Marketplace приведен список продуктов Creatio, совместимость с которыми гарантируется разработчиком. Не следует устанавливать приложение, если вашей версии Creatio в списке нет. Если вы устанавливаете приложение Marketplace, чтобы ознакомиться с его возможностями, лучше всего установить его на тестовую среду или на бесплатную 14-дневную версию Creatio. Только после этого рекомендуем устанавливать приложение на продуктивную среду Creatio.",
+    "SingleAppFromZipMessage": "Убедитесь, что поставляемое приложение совместимо с версией и продуктом целового сайта. Приложения, разработанные на основе продукта Studio, совместимы с любым другим продуктом Creatio. Приложения, разработанные на продуктах Marketing, Sales или Service, рекомендуем устанавливать на сайты, содержащие данный продукт.",
+    "MultipleAppsFromZipMessage": "Убедитесь, что поставляемые приложения совместимы с версией и продуктом целового сайта. Приложения, разработанные на основе продукта Studio, совместимы с любым другим продуктом Creatio. Приложения, разработанные на продуктах Marketing, Sales или Service, рекомендуем устанавливать на сайты, содержащие данный продукт."
+  },
+  "AppInstallErrorInfo": {
+    "RequiredPlatformVersionErrorInfo": {
+      "Title": "Несовместимая версия Creatio",
+      "ConflictingVersionsTitle": "Конфликтующие версии Creatio",
+      "ApplicationsCaption": "Следующие приложения несовместимы с версией вашей среды:",
+      "ConflictingVersionsCaption": "Следующие приложения не могут использоваться вместе, так как требуют конфликтующие версии Creatio:",
+      "SingleAppMessage": "Приложение <b>\"{0}\"</b> несовместимо с вашей средой. <b>Чтобы установить приложение, обновите Creatio до версии {1}.</b>",
+      "MultipleAppsMessage": "<b>Чтобы установить приложения, обновите Creatio до версии {0}.</b>",
+      "SingleAppMessageForVersionRange": "Приложение <b>\"{0}\"</b> несовместимо с вашей средой. <b>Чтобы установить приложение, обновите Creatio до поддерживаемой версии из диапазона: {1}.</b>",
+      "MultipleAppsMessageForVersionRange": "<b>Чтобы установить приложения, обновите Creatio до поддерживаемой версии из диапазона: {0}.</b>",
+      "ConflictingVersionsMessage": "<b>Чтобы устранить проблему, обратитесь к разработчику конфликтующих приложений.</b>",
+      "RequiredPlatformVersion": "требуемая версия Creatio:"
+    },
+    "MissedRequiredDependenciesErrorInfo": {
+      "Title": "Не удалось получить необходимые зависимости",
+      "SingleAppMessage": "Приложение <b>\"{0}\"</b> не может быть установлено в этой среде.<br />Отсутствуют необходимые зависимости, которые не удалось автоматически получить из каталога приложений.<br /><b>Чтобы установить приложение, вручную установите указанные ниже приложения или пакеты и повторите попытку.</b>",
+      "MultipleAppsMessage": "Некоторые приложения из установочного файла не могут быть установлены в этой среде.<br />Отсутствуют необходимые зависимости, которые не удалось автоматически получить из каталога приложений.<br /><b>Чтобы установить приложения, вручную установите указанные ниже приложения или пакеты и повторите попытку.</b>",
+      "SinglePackageMessage": "Пакет <b>\"{0}\"</b> не может быть установлен в этой среде.<br />Отсутствуют необходимые зависимости, которые не удалось автоматически получить из каталога приложений.<br /><b>Чтобы установить пакет, вручную установите указанные ниже пакеты и повторите попытку.</b>",
+      "MultiplePackagesMessage": "Некоторые пакеты из установочного файла не могут быть установлены в этой среде.<br />Отсутствуют необходимые зависимости, которые не удалось автоматически получить из каталога приложений.<br /><b>Чтобы установить пакеты, вручную установите указанные ниже пакеты и повторите попытку.</b>",
+      "PlatformVersionErrorInfo": {
+        "SingleAppTitle": "Несовместимая версия Creatio",
+        "SingleAppMessage": "Чтобы установить приложение <b>\"{0}\"</b>, Creatio также должно установить необходимые зависимые приложения. Однако некоторые из этих приложений несовместимы с вашей текущей версией Creatio. <br/>Несовместимые приложения: {1} <br/>",
+        "SingleAppUpdateCreatio": "<b>Чтобы установить приложение, обновите Creatio до версии {0}.</b>",
+        "MultipleAppsTitle": "Несовместимые версии платформы",
+        "MultipleAppsMessage": "Для установки выбранных приложений Creatio также необходимо установить требуемые зависимые приложения. Однако некоторые из этих приложений несовместимы с текущей версией Creatio. <br/>Несовместимые приложения: {0} <br/>",
+        "MultipleAppsUpdateCreatio": "<b>Чтобы установить приложения, обновите Creatio до версии {0}.</b>",
+        "SingleRequiredPlatformVersion": " (требуется версия Creatio: {0} или новее)",
+        "RangeRequiredPlatformVersion": " (требуется версия Creatio: {0})"
+      },
+      "ConflictVersionsErrorInfo": {
+        "Title": "Конфликтующие версии Creatio",
+        "AppSingleVersionCaption": "<b>{0}</b> (версия <b>{1}</b>)",
+        "AppRequiresVersionOrLaterCaption": "<b>{0}</b> требует <b>{1}</b> версии <b>{2} или выше</b>",
+        "AppRequiresVersionInRangeCaption": "<b>{0}</b> требует <b>{1}</b> версии <b>{2}</b>",
+        "BundleVersionsErrorInfo": {
+          "Message": "Следующие приложения из файла установки несовместимы друг с другом из-за конфликтов версий: <br/>{0}<br/>",
+          "InstalledAppsCaption": "Установленная версия <b>{0}</b> не соответствует требованиям версии <b>{1}</b>.<br/>",
+          "ResolveAppsCaption": "Чтобы решить проблему, обновите конфликтующие приложения в пакете или свяжитесь с разработчиком."
+        },
+        "DepsVersionErrorInfo": {
+          "Message": "Следующие приложения из установочного файла не могут быть использованы вместе из-за конфликта требований к версиям одного или нескольких зависимых приложений: <br/>{0}<br/>",
+          "InstalledAppsCaption": "Данные версии несовместимы друг с другом.<br/>",
+          "ResolveAppsCaption": "Чтобы устранить проблему, обратитесь к разработчику конфликтующих приложений."
+        }
+      },
+      "ConflictPlatformVersionErrorInfo": {
+        "Title": "Конфликтующие требования платформы",
+        "SingleAppMessage": "Чтобы установить приложение <b>«{0}»</b>, Creatio также должно установить необходимые зависимые приложения. Однако некоторые из этих приложений требуют других, несовместимых между собой версий платформы Creatio и не могут использоваться вместе в одной среде.<br/><br/>Конфликтующие приложения: {1}",
+        "MultipleAppMessage": "Для установки выбранных приложений Creatio также необходимо установить требуемые зависимые приложения. Однако некоторые из приложений требуют несовместимых версий платформы Creatio и не могут использоваться вместе в одной среде.<br/><br/>Конфликтующие приложения: {0}",
+        "AppRequiresVersionOrLaterCaption": "{0} (требуется версия Creatio {1} или новее)",
+        "AppRequiresVersionInRangeCaption": "{0} (требует версии Creatio {1})",
+        "ResolveConflictCaption": "Просмотрите список приложений ниже или свяжитесь с разработчиком для разрешения конфликта."
+      }
+    },
+    "InvalidPackageContentErrorInfo": {
+      "InvalidPackageContentTitle": "Ошибка предварительной проверки установки приложения.",
+      "SingleInvalidPackageContentMessage": "Приложение <b>\"{0}\"</b> не может быть установлено, так как во время предварительной проверки были обнаружены ошибки валидации.\nПросмотрите список проблем ниже и устраните их в среде перед продолжением установки.",
+      "MultiInvalidPackageContentMessage": "Приложения не могут быть установлены, так как во время предварительной проверки были обнаружены ошибки валидации.\nПросмотрите список проблем ниже и устраните их в среде перед продолжением установки."
+    },
+    "CompilationErrorsErrorInfo": {
+      "CompilationErrorsTitle": "Обнаружены ошибки компиляции",
+      "CompilationErrorsMessage": "<b>Предыдущая компиляция системы завершилась с ошибками.</b> Ошибки компиляции могут помешать успешной установке.<br/>Чтобы их исправить, откройте <a href ='{0}' target='_blank'>раздел \"Конфигурация\"</a>, исправьте ошибки и перекомпилируйте систему."
+    },
+    "DependentAppsReqVersionConflictErrorInfo": {
+      "Title": "Конфликт зависимостей установленного приложения",
+      "ApplicationsCaption": "Установленные приложения, вызывающие конфликт:",
+      "AppWithRequiredVersion": "<b>{0}</b> требует <b>{1}</b> версии <b>{2}</b>",
+      "NotCompatibleMessage": "Эти требования несовместимы с устанавливаемыми приложениями. <b>Разрешите конфликт, чтобы продолжить установку.</b>"
+    },
+    "DowngradeVersionConflictErrorInfo": {
+      "Title": "Предупреждение о понижении версии",
+      "SingleAppMessage": "Проверьте версию перед продолжением: более новая версия <b>«{0}»</b> уже установлена в этой среде.",
+      "MultipleAppsMessage": "Проверьте версии перед продолжением: более новые версии некоторых приложений из файла установки уже установлены в этой среде.",
+      "AppVersionsInfo": "<b>{0}</b>: установленная версия <b>{1}</b>, версия в файле установки <b>{2}</b>",
+      "ResolveConflictMessage": "<b>Если вы продолжите, установленные приложения могут быть понижены.</b>"
+    },
+    "SkipDueToDowngradeVersionErrorInfo": {
+      "Title": "Приложения пропущены",
+      "SingleAppMessage": "Некоторые приложения не будут установлены, поскольку более новые версии уже доступны в этой среде.",
+      "MultipleAppsMessage": "Некоторые приложения не будут установлены, поскольку более новые версии уже доступны в этой среде.",
+      "AppVersionsInfo": "<b>{0}</b> - установленная версия: <b>{1}</b>, версия в этом файле: <b>{2}</b>",
+      "ResolveConflictMessage": ""
+    }
+  },
+  "AppInstallWithDependenciesInfo": {
+    "Title": "Обнаружены отсутствующие зависимости приложения",
+    "SingleMessage": "Приложение \"{0}\" требует дополнительные приложения, которые не установлены в среде или имеют неподдерживаемую версию.<br><b>Зависимости, указанные ниже, будут автоматически установлены или обновлены из каталога приложений.</b>",
+    "MultipleMessage": "Некоторые приложения из установочного файла требуют дополнительные приложения, которые не установлены в среде или имеют неподдерживаемую версию.<br><b>Зависимости, указанные ниже, будут автоматически установлены или обновлены из каталога приложений.</b>"
+  },
+  "MarketplaceInstallationService": {
+    "NoAppIdErrorCodeText": "Не удалось найти приложение на Marketplace с таким идентификатором",
+    "ErrorCodeText": " Не удалось получить данные из Marketplace"
+  },
+  "AppInstallationGridInfoBlock": {
+    "PackagesTitleName": "Пакеты",
+    "Fields": {
+      "ApplicationName": "Название"
+    }
+  },
+  "ActionItem": {
+    "LoadingTitle": "Загрузка файла..."
+  },
+  "ApplicationCreatioAi": {
+    "ModelCaption": "Модель",
+    "NewButtonCaption": "Новый",
+    "AiAgentCaption": "Агент промптов",
+    "AiSkillCaption": "Субагент",
+    "AiWorkflowAgentCaption": "Агент рабочего процесса"
+  },
+  "Printables": {
+    "Caption": "Название отчета",
+    "ModuleName": "Раздел",
+    "EntityName": "Объект",
+    "TypeName": "Тип",
+    "ShowInSection": "Отображать в списке",
+    "ShowInCard": "Отображать на странице записи",
+    "ShowInAnalytics": "Отображать в аналитике раздела",
+    "FilterPage": "Страница фильтрации",
+    "Section": {
+      "Title": "Настройка отчетов",
+      "BlankslateTitle": "При установленном фильтре в разделе нет ни одной записи.",
+      "BlankslateDescription": "Очистите фильтр или измените условия фильтрации",
+      "Delete": "Удалить",
+      "Add": "Добавить отчет",
+      "Copy": "Копировать",
+      "AddFastReport": "FastReport",
+      "AddMSWord": "MS Word"
+    },
+    "Page": {
+      "NewReportCaption": "Новый отчет",
+      "CopyPostfixCaption": " - Копия",
+      "InfoBlock": {
+        "Title": "Важно знать",
+        "StepsTitle": "Чтобы настроить отчет:",
+        "AcademyLink": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview",
+        "AcademyLinkCaption": "Академии",
+        "Steps": {
+          "Step1": "Установите дизайнер отчетов FastReport (дизайнер можно скачать из раздела \"Документация\" в <a href='{{academyLink}}' target='_blank'>{{academyLinkCaption}}</a>).",
+          "Step2": "Укажите источники данных.",
+          "Step3": "Реализуйте логику обработки данных отчета в конфигурации Creatio.",
+          "Step4": "Скачайте файл с источниками данных и откройте его в дизайнере отчетов.",
+          "Step5": "Настройте шаблон отчета в дизайнере отчетов.",
+          "Step6": "Загрузите настроенный шаблон отчета в Creatio."
+        }
+      },
+      "DataSource": {
+        "Caption": "Источник данных",
+        "Custom": {
+          "Caption": "Укажите источники данных для отчета",
+          "Description": {
+            "Text": "Настройте источники данных, чтобы отобразить в вашем отчете данные из Creatio. Укажите перечень объектов, их колонки, связи в формате json. Примеры описания источников данных вы найдете в {parameter:AcademyLink}.",
+            "Parameters": {
+              "AcademyLink": {
+                "Caption": "Академии",
+                "Value": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview"
+              }
+            }
+          }
+        }
+      },
+      "Template": {
+        "Download": {
+          "Caption": "Скачайте файл с источниками данных и сформируйте шаблон отчета",
+          "Description": "Скачайте файл по кнопке ниже. Затем откройте его в дизайнере отчетов FastReport и настройте внешний вид вашего отчета. В файле сохраняется структура источников данных, которую использует дизайнер отчетов.",
+          "ButtonCaption": "Скачать файл"
+        },
+        "Upload": {
+          "Caption": "Загрузите настроенный шаблон отчета в Creatio",
+          "Description": "Загрузите подготовленный шаблон отчета в формате .frx в Creatio по кнопке ниже. После загрузки готовый отчет появится в меню \"Печать\" раздела или страницы записи — в зависимости от выбранных настроек.",
+          "ButtonCaption": "Загрузить файл",
+          "Error": {
+            "MessageBoxCaption": "Не удалось загрузить шаблон отчета"
+          },
+          "ReportUploadedMessage": "Шаблон отчета успешно сохранен"
+        }
+      },
+      "Validation": {
+        "required": "Введите значение",
+        "noWhitespaces": "Введите значение",
+        "isJson": "Введите корректный JSON",
+        "maxLength": "Превышена допустимая длина текста ({0}/{1})",
+        "dataSourceAbsentProviderNameProperty": "Источник данных должен содержать свойство \"ProviderName\"",
+        "dataSourceAbsentSchemasProperty": "Источник данных должен содержать свойство \"Schemas\"",
+        "dataSourceSchemasIsEmpty": "Источник данных не содержит схем",
+        "dataSourceSchemasHasNoColumns": "Схема \"{schemaName}\" не содержит определения колонок",
+        "dataSourceAbsentDataValueTypeProperty": "В колонке \"{columnName}\" схемы \"{schemaName}\" не определено свойство \"DataValueType\""
+      }
+    }
+  },
+  "MobilePageDesigner": {
+    "Defaults": {
+      "Caption": "Новая страница редактирования (для мобильного)",
+      "CaptionTemplate": "Новая страница редактирования (для мобильного) {{0}}",
+      "CaptionWithEntityTemplate": "Новая страница редактирования (для мобильного) {{0}}"
+    }
+  },
+  "DashboardPageDesigner": {
+    "Defaults": {
+      "Caption": "Новый дашборд",
+      "CaptionTemplate": "Новый дашборд {{0}}",
+      "CaptionWithEntityTemplate": "Новый дашборд {{0}}"
+    }
+  },
+  "DesktopPageDesigner": {
+    "Defaults": {
+      "Caption": "Рабочий стол",
+      "CaptionTemplate": "Рабочий стол {{0}}"
+    }
+  },
+  "PageDesigner": {
+    "Defaults": {
+      "Caption": "Новая страница редактирования",
+      "CaptionTemplate": "Новая страница редактирования {{0}}",
+      "CaptionWithEntityTemplate": "Страница записи {{0}}"
+    }
+  },
+  "SidebarDesigner": {
+    "Defaults": {
+      "Caption": "Новый сайдбар",
+      "CaptionTemplate": "{{0}} новый сайдбар",
+      "CaptionWithEntityTemplate": "Сайдбар {{0}}"
+    }
+  },
+  "HomePageDesigner": {
+    "Defaults": {
+      "Caption": "Домашняя страница",
+      "CaptionTemplate": "Домашняя страница {{0}}"
+    }
+  },
+  "DesignerPresenceNotificationHandler": {
+    "SchemaUpdated": "{0} только что обновил(а) {1}. Пожалуйста, обновите страницу, чтобы увидеть изменения.",
+    "Connections": "{0} подключений",
+    "Reload": "Перезагрузить",
+    "Download": "Скачать"
+  },
+  "DesignerPresenceDisplay": {
+    "UserStartedEditing": "{0} начал редактировать текущий {1}",
+    "ModeEditing": "Редактирование",
+    "TooltipFormat": "{0} ({1})",
+    "ModeViewing": "Просмотр",
+    "ModeSaved": "Сохранено",
+    "ModeSavedTime": "Сохранено ({0} назад)",
+    "ModeSavedRecently": "Сохранено недавно",
+    "ShowAllUsers": "Показать всех пользователей",
+    "AllUsersDialog": {
+      "Title": "Активные пользователи",
+      "Close": "Отмена",
+      "Columns": {
+        "ContactName": "Контакт",
+        "Email": "Email адрес",
+        "SchemaName": "Область редактирования",
+        "Mode": "Режим"
+      }
+    }
+  },
+  "SchemaTypeCaption": {
+    "Page": "страница",
+    "Entity": "сущность",
+    "Addon": "дополнение"
+  },
+  "AppInstallationInfoBlock": {
+    "Fields": {
+      "Name": "Имя",
+      "LastUpdate": "Дата последнего обновления",
+      "Developer": "Разработчик",
+      "Version": "Версия"
+    },
+    "AttentionCaption": "Внимание",
+    "WhatsNewCaption": "Источник \"{{source}}\" уже добавлен в доверенные источники для директивы \"{{directive}}\"",
+    "PublicOfferAgreementForSingleInstallation": "Что нового",
+    "PublicOfferAgreementForBundleInstallation": "Продолжая установку приложения, вы подтверждаете, что принимаете соответствующие условия, опубликованные на странице приложения в Creatio Marketplace.",
+    "GoToMarketplaceTitle": "Продолжая установку приложения, вы подтверждаете, что принимаете соответствующие условия, опубликованные в Creatio Marketplace для всех приложений, которые вы устанавливаете."
+  },
+  "AppProcessingStatus": {
+    "Stages": {
+      "InProgressCaptions": {
+        "Pending": "Перейти на страницу приложения",
+        "DownloadAppFromMarketPlace": "Запуск установки приложения",
+        "DownloadAppFromAppInstaller": "Загрузка приложения из Marketplace",
+        "Validate": "Загрузка приложения",
+        "CreateBackup": "Проверка требований приложения перед установкой",
+        "Install": "Резервное копирование конфигурации. На всякий случай!",
+        "OrderAppLicense": "Установка приложения в вашу среду Creatio",
+        "RestartApp": "Добавление лицензии приложения",
+        "RestoreFromBackup": "Перезапуск вашей среды Creatio"
+      },
+      "ErrorTitles": {
+        "Pending": "Подождите, пока операция завершится, и не закрывайте страницу",
+        "DownloadAppFromMarketPlace": "Ошибка подготовки приложения",
+        "Validate": "Ошибка загрузки приложения",
+        "CreateBackup": "Ошибка валидации приложения",
+        "Install": "Ошибка резервного копирования",
+        "RestoreFromBackup": "Ошибка установки приложения",
+        "DownloadAppFromAppInstaller": "Подождите, пока операция завершится, и не закрывайте страницу"
+      },
+      "ErrorDescriptions": {
+        "Pending": "Ошибка восстановления из резервной копии",
+        "DownloadAppFromMarketPlace": "Произошла ошибка при подготовке приложения, развёртывание прервано, конфигурация не изменена. Попробуйте позже, свяжитесь с поддержкой, если проблема сохраняется",
+        "Validate": "Не удалось получить файлы приложения из Marketplace. Чтобы просмотреть детали ошибки, скачайте лог операции",
+        "CreateBackup": "Валидация пакета завершилась неудачей. Установка прервана. Конфигурация не изменена. Чтобы просмотреть детали ошибки, скачайте лог операции",
+        "Install": "Резервное копирование конфигурации завершилось неудачей. Установка прервана. Конфигурация не изменена. Чтобы просмотреть детали ошибки, скачайте лог операции",
+        "RestoreFromBackup": "Произошла ошибка при установке приложения. Чтобы просмотреть детали ошибки, скачайте лог операции",
+        "DownloadAppFromAppInstaller": "Не удалось восстановить конфигурацию из резервной копии"
+      }
+    },
+    "Buttons": {
+      "GoToAppHub": "Произошла ошибка при подготовке приложения к установке. Не удалось загрузить или обработать файл установки из-за проблемы соединения или подготовки. <br/><br/>Попробуйте запустить установку снова. Если проблема сохраняется, скачайте лог установки для получения деталей и свяжитесь с поддержкой Creatio.",
+      "DownloadLogs": "Открыть Application Hub",
+      "RestoreFromBackup": "Скачать лог установки"
+    },
+    "RestoringFromBackupCaption": "Восстановить из резервной копии",
+    "SuccessStatusCaption": "Выполнено",
+    "SuccessfullyRestoredFromBackupCaption": "Восстановление конфигурации из резервной копии"
+  },
+  "SessionEndDialog": {
+    "StayLoggedIn": "Остаться в системе",
+    "Exit": "Выйти",
+    "LogIn": "Войти"
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Позвонить"
+  },
+  "CrtIconSelectorComponent": {
+    "Tooltip": "Выбрать иконку"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "Бизнес-правило деактивировано"
+  },
+  "SalesEngagement": {
+    "StepBuilder": {
+      "EmptyState": {
+        "Title": "Нет данных для отображения",
+        "Subtitle": "Добавьте данные и начинайте работу"
+      },
+      "UnexpectedReorderErrorMessage": "Непредвиденная ошибка при изменении порядка шагов.",
+      "Actions": {
+        "AddStep": "Добавьте шаг",
+        "CollapseAll": "Свернуть все",
+        "ExpandAll": "Развернуть все",
+        "Expand": "Развернуть шаг",
+        "Collapse": "Свернуть шаг",
+        "Copy": "Копировать",
+        "Edit": "Изменение",
+        "Delete": "Удаление",
+        "More": "Больше действий"
+      }
+    },
+    "BaseStepTile": {
+      "Name": "Название",
+      "Description": "Описание",
+      "Priority": "Приоритет",
+      "Postpone": "Отложить",
+      "Measurement": "Измерение",
+      "Activity": "Активность",
+      "Step": "Шаг",
+      "PostponeMinZeroValidationMessage": "Значение должно быть больше или равно нулю"
+    },
+    "AddSequenceParticipants": {
+      "SuccessMessage": "Добавлено {{count}} участников.",
+      "NoRecordsAddedMessage": "Участников не добавлено.",
+      "PartialResultTitle": "Некоторых участников не удалось добавить",
+      "PartialResultMessage": "Добавлено: {{count}} Проблемы: {{errors}}",
+      "ErrorResultTitle": "Участников не добавлено",
+      "ErrorResultMessage": "Проблемы: {{errors}}",
+      "DialogOkCaption": "ОК",
+      "UnexpectedErrorMessage": "Непредвиденная ошибка при добавлении участников."
+    },
+    "ActivateSequenceParticipants": {
+      "SuccessMessage": "Активировано {{count}} участников.",
+      "NoRecordsActivatedMessage": "Участников не активировано."
+    },
+    "ReassignSequenceParticipants": {
+      "SuccessMessage": "Переназначено {{count}} участников.",
+      "NoRecordsReassignedMessage": "Участников не переназначено.",
+      "PickerTitle": "Выберите новый sequencer"
+    },
+    "EmailStepTile": {
+      "Subject": "Название",
+      "Body": "Основной текст"
+    },
+    "StepMetrics": {
+      "Total": {
+        "Label": "Всего",
+        "Hint": "Настройки разделителя"
+      },
+      "Delivered": {
+        "Label": "Выполнены",
+        "Hint": "Все активности, созданные для этого шага"
+      },
+      "Replies": {
+        "Label": "Письма, успешно отправленные для этого шага",
+        "Hint": "Ответы"
+      },
+      "ReplyRate": {
+        "Label": "Ответы, полученные для этого шага",
+        "Hint": "Частота ответов"
+      },
+      "NotStarted": {
+        "Label": "Не начата",
+        "Hint": "Доля отправленных писем, на которые получен ответ (ответы / отправленные)"
+      },
+      "Completed": {
+        "Label": "Выполнен",
+        "Hint": "Активности, ещё не начатые"
+      },
+      "Answered": {
+        "Label": "Завершённые активности",
+        "Hint": "Ответили"
+      },
+      "BadContact": {
+        "Label": "Звонки, достигшие контакта (встреча запланирована, не заинтересован или перезвонить позже)",
+        "Hint": "Неверный контакт"
+      },
+      "NoAnswer": {
+        "Label": "Недозвон",
+        "Hint": "Звонки с неверным номером или неправильным контактом"
+      }
+    },
+    "SequenceStepName": {
+      "StepLabel": "Шаг",
+      "DayLabel": "День"
+    }
+  },
+  "ClientUnitSchemaDesignerApi": {
+    "EntitySchemasCircularReferenceError": "Ошибка циклической зависимости. Новые источники данных ссылаются друг на друга через колонки-справочники. Удалите одну из ссылок и попробуйте ещё раз.",
+    "PackageDependenciesIsAbsentError": "Невозможно сохранить страницу. {{schemaError}}",
+    "SchemaPackageDependencyIsAbsentError": "Добавьте зависимость от пакета '{{missedPackageName}}' в пакет '{{currentPackageName}}'."
+  },
+  "DataSourceDependenciesSetting": {
+    "Title": "Настроить фильтр по данным страницы",
+    "Tooltip": "Фильтр на основании данных страницы позволяет отобразить в дополнительном реестре записи, связанные с выбранной, или данные детали.",
+    "RelationsAndFilters": {
+      "Title": "Добавить критерий связи",
+      "Tooltip": "Настройте критерии связи, которые будут использоваться для определения, какую запись этого источника данных показывать в полях страницы."
+    }
+  },
+  "DataSourceDependency": {
+    "PageData": "Источник данных",
+    "PageDataSourceRelationTitle": "Зависит от",
+    "MatchDataSourceAttributes": "Атрибут источника данных",
+    "FilterByActiveItemLabel": "Фильтровать по активной строке",
+    "FilterByActiveItemTooltip": "Установите признак, чтобы пользователи могли фильтровать данные этого списка по активной строке связанного источника данных"
+  },
+  "DataSourceFilterElementsGroup": {
+    "Title": "Применить преднастроенный фильтр",
+    "Tooltip": "Данная настройка позволяет использовать на странице преднастроенные условия из групп или других компонентов фильтрации данных."
+  },
+  "DataSourceSortElementsGroup": {
+    "SortLabelCaption": "Атрибут",
+    "Title": "Сортировать по",
+    "Tooltip": "Определите правила сортировки, чтобы выбрать запись из %current DS%, если несколько записей {{dataSourceName}} соответствуют вышеуказанным критериям",
+    "Ascending": "По возрастанию",
+    "Descending": "По убыванию"
+  },
+  "DataSourceFilterElement": {
+    "Caption": "Компонент фильтрации"
+  },
+  "EntitySchemaSelectComponent": {
+    "AddNewEntity": "Добавить новый объект",
+    "CreatePageLabel": "У {0} еще нет страницы записи.",
+    "CreatePageLink": "Добавить страницу",
+    "EditPageLabel": "У {0} есть 1 страница записи.",
+    "EditPagesLabel": "У {0} есть несколько страниц.",
+    "EditPageLink": "Редактировать страницу",
+    "OpenPagesSetup": "Открыть настройки страниц",
+    "SaveConfirmationDialog": {
+      "Message": "Чтобы создать страницу, необходимо сохранить объект. Продолжить?"
+    },
+    "RelatedPagesCaptionWithEntityName": "Настройки страниц для {0}"
+  },
+  "LookupSchemaSelectComponent": {
+    "CreateLookupEntityButtonLabel": "Cоздать справочник",
+    "EditLookupEntityButtonLabel": "Редактировать справочник"
+  },
+  "CrtLookupViewPropertiesComponent": {
+    "SelectionWindow": "Всплывающее окно",
+    "List": "Выпадающий список",
+    "Label": "Вид справочника"
+  },
+  "CrtPropertiesPanelHeaderComponent": {
+    "CloseButtonTitle": "Отмена"
+  },
+  "DataValueType": {
+    "DateCaption": "Значение даты",
+    "TimeCaption": "Значение времени.",
+    "DateTimeCaption": "Дата/Время",
+    "GuidCaption": "Уникальный идентификатор",
+    "BooleanCaption": "Логическое значение",
+    "LongTextCaption": "Строка (500 символов)",
+    "MaxSizeTextCaption": "Строка неограниченной длины",
+    "IntegerCaption": "Целочисленное значение",
+    "FLOAT2Caption": "Десятичное (0.01)",
+    "MoneyCaption": "Валюта (0.01)"
+  },
+  "BusinessRule": {
+    "GenerateCaption": {
+      "EmptyActionsTranslation": "Бизнес правило"
+    },
+    "EditProperties": {
+      "Applicabilities": {
+        "DataSource": "Для источника данных",
+        "Page": "Для страницы"
+      },
+      "Name": "Имя",
+      "Applicability": "Область применения",
+      "DataSource": "Объект",
+      "Enabled": "Активно",
+      "Caption": "Заголовок",
+      "Validators": {
+        "RequiredCaptionField": "Необходимо указать значение"
+      },
+      "Code": "Код страницы"
+    },
+    "PropertiesPanel": {
+      "Header": {
+        "Title": "Настройки бизнес-правила"
+      },
+      "GeneralGroup": "Общие",
+      "AdvancedGroup": "Дополнительные параметры"
+    },
+    "Mode": {
+      "Title": "Режим настройки правила",
+      "ShowDesigner": "Отобразить дизайнер",
+      "ShowCodeEditor": "Отобразить метаданные"
+    },
+    "BlankSlate": {
+      "AddNewRule": "Добавить новое правило",
+      "NoBusinessRules": "Правила не добавлены"
+    }
+  },
+  "BusinessRules": {
+    "CancelChangesConfirmationDialog": {
+      "Message": "У вас есть несохраненные изменения. При закрытии страницы они будут потеряны. Сохранить?"
+    },
+    "PanelTitle": "Настройка бизнес правил",
+    "List": {
+      "GroupName": "{{name}} Бизнес правила",
+      "PageBusinessRules": "Бизнес правила страницы",
+      "AddRule": "Добавить правило",
+      "RemoveRule": "Удалить",
+      "CopyRule": "Скопировать"
+    },
+    "Buttons": {
+      "SaveButtonCaption": "Сохранить",
+      "CancelButtonCaption": "Отменить",
+      "OpenPropertiesPanelButtonTooltip": "Настройки бизнес-правила"
+    },
+    "Errors": {
+      "BusinessRulesAddonsError": "Ошибка аддонов бизнес правил!",
+      "InvalidRuleMessage": "Настройка правила не завершена. Проверьте заголовок правила, параметры его условий и действий. В правиле не должно быть пустого заголовка или пустых действий.",
+      "NotValidRules": "Правила не сохранены. Проверьте заголовок, настройки условий и действий в правилах, которые не прошли валидацию.",
+      "MaxSizeInConditionLimitedWarningMessage": "Обратите внимание, что использование текстового поля неограниченной длины в условиях 'равно' и 'не равно' ограничено только первыми 500 символами.",
+      "NotSupportedInConditionTypesWarningMessage": "Типы 'Форматированный текст' и 'Изображение' не поддерживаются для бизнес-правил с условиями 'равно' и 'не равно'."
+    },
+    "TooltipMessage": {
+      "DisabledRuleMessage": "Бизнес-правило деактивировано"
+    }
+  },
+  "DataSourceElementTypes": {
+    "Text": "Строка",
+    "Number": "Число",
+    "Boolean": "Логическое",
+    "Lookup": "Справочник",
+    "ColorPicker": "Цвет",
+    "DateTime": "Дата/Время",
+    "ImageLink": "Ссылка на изображение",
+    "EncryptedInput": "Зашифрованная строка"
+  },
+  "BusinessRuleDesigner": {
+    "Delete": "Удалить",
+    "DeleteConfirm": "Вы хотите удалить бизнес правило?",
+    "NoBusinessRules": "Бизнес правила не добавлены",
+    "TriggerCaptionDefault": "Открыта страница или изменено значение одного из атрибутов, использованных в условиях",
+    "TriggerCaptionForDynamicFilter": "Открыта страница или изменено значение одного из атрибутов, использованных в условиях или действиях",
+    "TriggerCaptionForSetValueConst": "Открыта страница добавления записи или изменено значение одного из атрибутов, использованных в условиях",
+    "TriggerCaptionForSetValueFormula": "Открыта страница добавления записи или изменено значение одного из атрибутов, использованных в условиях или действиях",
+    "TriggerTooltipText": "Данное бизнес-правило содержит несколько разных действий, которые могут иметь разные триггеры. Узнайте больше о триггерах на Академии.",
+    "SetValueAction": {
+      "TypeCaption": "Установить значение"
+    },
+    "SetValuesAction": {
+      "TypeCaption": "Установить значения",
+      "Groups": {
+        "Inputs": "Поле",
+        "DataSource": "Источник данных"
+      }
+    },
+    "FilterLookupAction": {
+      "TypeCaption": "Применить фильтр",
+      "FilterFieldCaption": "Фильтровать",
+      "ByFieldCaption": "по",
+      "WhereFieldCaption": "Где",
+      "SpecifyValuePlaceholder": "Укажите значение",
+      "PopulateValue": "Заполнить значение",
+      "PopulateRightExpressionPathElement": "Заполнить поле {0} если поле {1} заполнено",
+      "ClearValue": "Очистить значение",
+      "ClearLeftExpressionPathElement": "Очистить поле {0} если поле {1} изменено"
+    },
+    "SetFilterAction": {
+      "TypeCaption": "Установить статический фильтр",
+      "FilterFieldCaption": "Фильтровать",
+      "SpecifyValuePlaceholder": "Укажите значение",
+      "SetupStaticFilterAction": "Настроить фильтр",
+      "EditStaticFilterAction": "Отредактировать фильтр",
+      "FiltersDialogCaption": "Настройка фильтра"
+    },
+    "HideElementAction": {
+      "TypeCaption": "Скрыть элементы"
+    },
+    "ShowElementAction": {
+      "TypeCaption": "Показать элементы"
+    },
+    "EditableElementAction": {
+      "TypeCaption": "Сделать элементы редактируемыми"
+    },
+    "ReadOnlyElementAction": {
+      "TypeCaption": "Сделать элементы только для чтения"
+    },
+    "OptionalElementAction": {
+      "TypeCaption": "Сделать элементы необязательными"
+    },
+    "RequiredElementAction": {
+      "TypeCaption": "Сделать элементы обязательными"
+    },
+    "Action": "Действие",
+    "AddAction": "Добавить действие",
+    "DeleteAction": "Удалить действие",
+    "AddElement": "Добавить элемент",
+    "DeleteElement": "Удалить элемент",
+    "CollapseConditionButton": "Свернуть",
+    "ShowCodeEditor": "Показать редактор кода",
+    "HideCodeEditor": "Скрыть редактор кода",
+    "ElementCode": "код:",
+    "Formula": {
+      "ValuePicker": {
+        "SourceCaption": "Формула",
+        "SetUpFormulaBtnCaption": "Настроить формулу",
+        "ChangeFormulaBtnCaption": "Изменить формулу"
+      },
+      "EntityDataSourceExpressionValidator": {
+        "ColumnDoesNotExist": "Колонка {{column}} не существует"
+      }
+    }
+  },
+  "SysAdminUnits": {
+    "AllEmployees": "Сотрудники компании",
+    "ExternalUsers": "Внешние пользователи"
+  },
+  "SchemaDesigners": {
+    "EntityPagesDesigner": {
+      "HasTypeColumnLabel": "Использовать различные страницы, которые зависят от значения поля объекта",
+      "ClearTypedPagesConfirmation": {
+        "Message": "Настройки типизированных страниц будут утеряны",
+        "Buttons": {
+          "Continue": "Продолжить",
+          "Cancel": "Отмена"
+        }
+      },
+      "TypeColumnLabel": "Поле, от значения которого зависит вид страницы",
+      "TypeColumnRemoved": "Колонка удалена",
+      "PageRemoved": "Страница удалена",
+      "Columns": {
+        "Role": "Роль",
+        "Type": "Тип",
+        "DefaultPage": "Страница по умолчанию",
+        "AddPage": "Страница для создания записей"
+      },
+      "ToolsPanel": {
+        "Caption": "Страницы",
+        "AddPageButtonTooltip": "Добавить страницу"
+      },
+      "RowMenuItems": {
+        "Open": "Открыть",
+        "Copy": "Копировать",
+        "Delete": "Удалить"
+      }
+    }
+  },
+  "EntityPagesDesignerDialog": {
+    "Caption": "Настройка страниц"
+  },
+  "RelatedPageCombobox": {
+    "RelatedPageLabel": "Страница по умолчанию",
+    "AddPageLabel": "Страница для создания записей",
+    "RelatedPagesCaption": "Настройки страниц",
+    "DefaultPagePlaceholder": "Страница, которая используется по умолчанию",
+    "AddPagePlaceholder": "Страница, которая используется для создания записей",
+    "DefaultPageSelectionTooltip": "Выберите или создайте страницу, которая будет использоваться по умолчанию для добавления, просмотра и редактирования записей.\nРекомендуем выбирать страницу Freedom UI, для которой источником данных является данный объект.",
+    "AddPageTooltip": "Выберите или создайте страницу, которая будет использоваться только для добавления записей."
+  },
+  "PagesGroupDialog": {
+    "RoleCaption": "Роль",
+    "TypeCaption": "Тип",
+    "NewRecord": "Новая настройка страниц",
+    "EditRecord": "Настройка страниц",
+    "EmptyTypeColumnTooltip": "Укажите поле, от значения которого зависит вид страницы."
+  },
+  "Tooltips": {
+    "TypeColumn": {
+      "Message": "Поле, от значения которого зависил вид страницы, было удалено."
+    }
+  },
+  "QuickFilterGroup": {
+    "Caption": "Фильтры"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Показать оригинал",
+      "Original": "Перевод",
+      "Retry": "Повторить"
+    },
+    "AutoCaption": {
+      "On": "Включить автоперевод",
+      "Off": "Отключить автоперевод"
+    }
+  },
+  "Sidebar": {
+    "PredefinedSidebarGroups": {
+      "CommunicationPanel": "Коммуникационная панель",
+      "NotificationsPanel": "Панель уведомлений"
+    }
+  },
+  "ConstValuePickerProvider": {
+    "Caption": "Константное значение",
+    "SourceCaption": "Константа",
+    "ValuePickerComponent": {
+      "Placeholder": "Укажите значение"
+    },
+    "ConstValuePickerDialogComponent": {
+      "Title": "Укажите значение",
+      "Label": "Значение",
+      "Actions": {
+        "OkButtonCaption": "Oк",
+        "CancelButtonCaption": "Отмена"
+      }
+    }
+  }
+}

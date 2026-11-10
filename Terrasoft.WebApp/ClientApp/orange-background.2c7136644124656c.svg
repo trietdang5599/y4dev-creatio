@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="416" height="255" viewBox="0 0 416 255">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0" cy="1.041" r="1.492" gradientTransform="translate(-0.654 0.413) rotate(-49.36)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#09f"/>
+      <stop offset="0.584" stop-color="#a033ff"/>
+      <stop offset="0.894" stop-color="#ff5280"/>
+      <stop offset="1" stop-color="#ff7061"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" y1="-0.007" x2="0.987" y2="1.014" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff6f00"/>
+      <stop offset="1" stop-color="#cf2300"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_20986" data-name="Rectangle 20986" width="416" height="255" transform="translate(7 -2)" fill="url(#radial-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_9516" data-name="Group 9516" transform="translate(-767 -998)">
+    <rect id="Rectangle_20905" data-name="Rectangle 20905" width="416" height="128" transform="translate(767 998)" fill="url(#linear-gradient)"/>
+    <g id="Mask_Group_167" data-name="Mask Group 167" transform="translate(760 1000)" opacity="0.51" clip-path="url(#clip-path)">
+      <g id="Rectangle_20985" data-name="Rectangle 20985" transform="translate(303 -223)" fill="none" stroke="#fff" stroke-width="105" opacity="0.27">
+        <rect width="459" height="452" stroke="none"/>
+        <rect x="52.5" y="52.5" width="354" height="347" fill="none"/>
+      </g>
+      <g id="Ellipse_1759" data-name="Ellipse 1759" transform="translate(-211 -255)" fill="none" stroke="#fff" stroke-width="105" opacity="0.23">
+        <ellipse cx="232" cy="228" rx="232" ry="228" stroke="none"/>
+        <ellipse cx="232" cy="228" rx="179.5" ry="175.5" fill="none"/>
+      </g>
+      <g id="Polygon_52" data-name="Polygon 52" transform="translate(616.523 -130.35) rotate(90)" fill="none" opacity="0.27">
+        <path d="M200.675,0,401.349,348.072H0Z" stroke="none"/>
+        <path d="M 200.6747131347656 210.2236785888672 L 181.7364349365234 243.0722961425781 L 219.6129913330078 243.0722961425781 L 200.6747131347656 210.2236785888672 M 200.6747131347656 0 L 401.3494873046875 348.0722961425781 L -6.103515625e-05 348.0722961425781 L 200.6747131347656 0 Z" stroke="none" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

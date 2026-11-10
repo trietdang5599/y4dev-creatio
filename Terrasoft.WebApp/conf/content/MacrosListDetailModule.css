@@ -1,0 +1,113 @@
+﻿body[OldUI=false] .center-main-container .table-macros .ts-controlgroup.macros-list .macros-ct .macros-row-main-info .macros-link {
+  width: 0;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list {
+  line-height: 31px;
+  max-width: none;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .ts-controlgroup-tools .info-button {
+  margin: 0;
+  padding-top: 4px;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .ts-controlgroup-tools .add-macros {
+  padding-top: 8px;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .ts-controlgroup-container {
+  margin-top: 6px;
+  margin-left: 24px;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .container-list-header {
+  display: flex;
+  flex-direction: row;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .container-list-header label {
+  flex-basis: 35%;
+  font-size: 1.3em;
+  color: #999999;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .container-list {
+  border-top: 1px solid;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #e0e0e0;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .container-list.container-list-empty {
+  border: none;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 31px;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct:nth-child(even) {
+  background-color: #f7f7f7;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct .macros-row-main-info {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 70%;
+  min-width: 0;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct .macros-row-main-info .macros-link {
+  padding-right: 5px;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct .macros-row-main-info .macros-link-with-sorting {
+  flex-basis: 50%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct .macros-row-main-info .macros-sorting-edit-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct .macros-row-main-info .macros-sorting-edit-wrapper .base-edit {
+  flex-basis: 0;
+  border: none;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct .macros-row-main-info .macros-sorting-edit-wrapper .base-edit-input {
+  display: none;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct .macros-row-main-info .macros-sorting-edit-wrapper .base-edit-right-icon {
+  display: block;
+  margin-left: 9px;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct .macros-row-main-info .macros-sorting-edit-wrapper .base-edit-left-icon {
+  margin-left: 0;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct .macros-row-settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-basis: 30%;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct .macros-item.caption {
+  flex-basis: 100%;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct .macros-item.action-item {
+  flex-shrink: 0;
+  width: 31px;
+  height: 31px;
+  align-self: stretch;
+  cursor: pointer;
+  display: none;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct .macros-item:last-child {
+  margin-right: 15px;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .macros-ct:hover .macros-item.action-item {
+  display: inline-block;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .empty-message-ct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup.macros-list .empty-message-ct .empty-message {
+  color: #999999;
+  font-family: "Bpmonline Open Sans";
+  vertical-align: middle;
+  width: auto;
+}

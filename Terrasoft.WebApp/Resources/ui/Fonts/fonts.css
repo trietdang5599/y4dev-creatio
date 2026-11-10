@@ -1,0 +1,245 @@
+﻿@font-face {
+	font-family: 'Segoe UI';
+	src: url('./BpmonlineOpenSans/BpmonlineOpenSans.woff') format('woff'),
+	local('Bpmonline Open Sans'),
+	url('./BpmonlineOpenSans/BpmonlineOpenSans.ttf') format('truetype'),
+	url('./BpmonlineOpenSans/BpmonlineOpenSans.svg#BpmonlineOpenSans') format('svg');
+}
+
+@font-face {
+	font-family: 'Segoe UI Light';
+	src: url('./BpmonlineOpenSans Light/BpmonlineOpenSans-Light.woff') format('woff'),
+	local('Bpmonline Open Sans Light'),
+	url('./BpmonlineOpenSans Light/BpmonlineOpenSans-Light.ttf') format('truetype'),
+	url('./BpmonlineOpenSans Light/BpmonlineOpenSans-Light.svg#BpmonlineOpenSans-Light') format('svg');
+}
+
+@font-face {
+	font-family: 'bpmonline UI';
+	src: url('./BpmonlineOpenSans/BpmonlineOpenSans.woff') format('woff'),
+	local('Bpmonline Open Sans'),
+	url('./BpmonlineOpenSans/BpmonlineOpenSans.ttf') format('truetype'),
+	url('./BpmonlineOpenSans/BpmonlineOpenSans.svg#BpmonlineOpenSans') format('svg');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./Open Sans/OpenSans-Regular.eot');
+	src: local('Open Sans Regular'), local('OpenSans-Regular'),
+		url('./Open Sans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('./Open Sans/OpenSans-Regular.woff2') format('woff2'),
+		url('./Open Sans/OpenSans-Regular.woff') format('woff'),
+		url('./Open Sans/OpenSans-Regular.ttf') format('truetype'),
+		url('./Open Sans/OpenSans-Regular.svg#svgFontName') format('svg');
+}
+
+@font-face {
+	font-family: 'Open Sans Light';
+	font-style: normal;
+	font-weight: 300;
+	src: url('./Open Sans Light/OpenSans-Light.eot');
+	src: local('Open Sans Light'), local('OpenSans-Light'),
+		url('./Open Sans Light/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('./Open Sans Light/OpenSans-Light.woff2') format('woff2'),
+		url('./Open Sans Light/OpenSans-Light.woff') format('woff'),
+		url('./Open Sans Light/OpenSans-Light.ttf') format('truetype'),
+		url('./Open Sans Light/OpenSans-Light.svg#OpenSans') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Open Sans';
+	src: url('./BpmonlineOpenSans/BpmonlineOpenSans.woff') format('woff'),
+	local('Bpmonline Open Sans'),
+	url('./BpmonlineOpenSans/BpmonlineOpenSans.ttf') format('truetype'),
+	url('./BpmonlineOpenSans/BpmonlineOpenSans.svg#BpmonlineOpenSans') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Open Sans Bold';
+	src: url('./BpmonlineOpenSans Bold/BpmonlineOpenSans-Bold.woff') format('woff'),
+	local('Bpmonline Open Sans Bold'),
+	url('./BpmonlineOpenSans Bold/BpmonlineOpenSans-Bold.ttf') format('truetype'),
+	url('./BpmonlineOpenSans Bold/BpmonlineOpenSans-Bold.svg#BpmonlineOpenSansBold') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Open Sans Light';
+	src: url('./BpmonlineOpenSans Light/BpmonlineOpenSans-Light.woff') format('woff'),
+	local('Bpmonline Open Sans Light'),
+	url('./BpmonlineOpenSans Light/BpmonlineOpenSans-Light.ttf') format('truetype'),
+	url('./BpmonlineOpenSans Light/BpmonlineOpenSans-Light.svg#BpmonlineOpenSans-Light') format('svg');
+}
+
+@font-face {
+	font-family: 'HelveticaNeueCyr Ultra Light';
+	src: url('./HelveticaNeueCyr/HelveticaNeueCyr-Thin.otf') format('opentype'),
+	url('./HelveticaNeueCyr/HelveticaNeueCyr-Thin-webfont.woff') format('woff'),
+	local('HelveticaNeueCyr'),
+	url('./HelveticaNeueCyr/HelveticaNeueCyr-Thin-webfont.ttf') format('truetype'),
+	url('./HelveticaNeueCyr/HelveticaNeueCyr-Thin-webfont.svg#helveticaneuecyrthin') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Cairo';
+	src: url('./Bpmonline Cairo/BpmonlineCairo-Regular.woff') format('woff'),
+	local('Bpmonline Cairo'),
+	url('./Bpmonline Cairo/BpmonlineCairo-Regular.woff2') format('woff2'),
+	url('./Bpmonline Cairo/BpmonlineCairo-Regular.ttf') format('truetype'),
+	url('./Bpmonline Cairo/BpmonlineCairo-Regular.svg#BpmonlineCairo-Regular') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Cairo Bold';
+	src: url('./Bpmonline Cairo Bold/BpmonlineCairo-Bold.woff') format('woff'),
+	local('Bpmonline Cairo Bold'),
+	url('./Bpmonline Cairo Bold/BpmonlineCairo-Bold.woff2') format('woff2'),
+	url('./Bpmonline Cairo Bold/BpmonlineCairo-Bold.ttf') format('truetype'),
+	url('./Bpmonline Cairo Bold/BpmonlineCairo-Bold.svg#BpmonlineCairo-Bold') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Cairo Light';
+	src: url('./Bpmonline Cairo Light/BpmonlineCairo-Light.woff') format('woff'),
+	local('Bpmonline Cairo Light'),
+	url('./Bpmonline Cairo Light/BpmonlineCairo-Light.woff2') format('woff2'),
+	url('./Bpmonline Cairo Light/BpmonlineCairo-Light.ttf') format('truetype'),
+	url('./Bpmonline Cairo Light/BpmonlineCairo-Light.svg#BpmonlineCairo-Light') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Rubik';
+	src: url('./Bpmonline Rubik/BpmonlineRubik-Regular.woff') format('woff'),
+	local('Bpmonline Rubik'),
+	url('./Bpmonline Rubik/BpmonlineRubik-Regular.woff2') format('woff2'),
+	url('./Bpmonline Rubik/BpmonlineRubik-Regular.ttf') format('truetype'),
+	url('./Bpmonline Rubik/BpmonlineRubik-Regular.svg#BpmonlineRubik-Regular') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Rubik Bold';
+	src: url('./Bpmonline Rubik Bold/BpmonlineRubik-Bold.woff') format('woff'),
+	local('Bpmonline Rubik Bold'),
+	url('./Bpmonline Rubik Bold/BpmonlineRubik-Bold.woff2') format('woff2'),
+	url('./Bpmonline Rubik Bold/BpmonlineRubik-Bold.ttf') format('truetype'),
+	url('./Bpmonline Rubik Bold/BpmonlineRubik-Bold.svg#BpmonlineRubik-Bold') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Rubik Light';
+	src: url('./Bpmonline Rubik Light/BpmonlineRubik-Light.woff') format('woff'),
+	local('Bpmonline Rubik Light'),
+	url('./Bpmonline Rubik Light/BpmonlineRubik-Light.woff2') format('woff2'),
+	url('./Bpmonline Rubik Light/BpmonlineRubik-Light.ttf') format('truetype'),
+	url('./Bpmonline Rubik Light/BpmonlineRubik-Light.svg#BpmonlineRubik-Light') format('svg');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 100;
+	src: local('Montserrat-Thin'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-100.woff2') format('woff2'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-100.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 200;
+	src: local('Montserrat-ExtraLight'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-200.woff2') format('woff2'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-200.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Montserrat-Light'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-300.woff2') format('woff2'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-300.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Montserrat-Regular'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2') format('woff2'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Montserrat-Medium'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-500.woff2') format('woff2'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-500.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Montserrat-SemiBold'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-600.woff2') format('woff2'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-600.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Montserrat-Bold'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-700.woff2') format('woff2'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-700.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	src: local('Montserrat-ExtraBold'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-800.woff2') format('woff2'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-800.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	src: local('Montserrat-Black'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-900.woff2') format('woff2'),
+	url('./Montserrat/montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-900.woff') format('woff');
+}
+
+/*
+	IRAN Sans-serif fonts are considered a proprietary software.
+	To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+	---------------------------------------------------------------------
+	This set of fonts are used in this project under the license: LAXSN
+	---------------------------------------------------------------------
+*/
+@font-face {
+	font-family: 'IranSans';
+	src: url('./IRANSans/woff/IRANSansWeb.woff') format('woff'),
+	url('./IRANSans/woff2/IRANSansWeb.woff2') format('woff2'),
+	url('./IRANSans/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'IranSans Light';
+	src: url('./IRANSans/woff/IRANSansWeb_Light.woff') format('woff'),
+	url('./IRANSans/woff2/IRANSansWeb_Light.woff2') format('woff2'),
+	url('./IRANSans/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'IranSans Bold';
+	src: url('./IRANSans/woff/IRANSansWeb_Bold.woff') format('woff'),
+	url('./IRANSans/woff2/IRANSansWeb_Bold.woff2') format('woff2'),
+	url('./IRANSans/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}

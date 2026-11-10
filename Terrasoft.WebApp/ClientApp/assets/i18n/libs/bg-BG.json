@@ -1,0 +1,4386 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Зареждане..."
+  },
+  "CopyClipboard": {
+    "Copied": "Копирано"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Още няма нищо за показване ",
+      "Subhead": "Моля, първо добави данни"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Чатът започна: {0} от",
+        "EndDate": "Чатът е завършен: {0} от"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Каналът не може да бъде изтрит, има активни чатове или чатове за разпространение. Моля, първо завърши чатовете и опитай отново."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Зареждане"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Грешка",
+      "Default": "Подсказка"
+    }
+  },
+  "ExpressionDesigner": {
+    "Title": "Дизайнер на формули",
+    "EmptyExpressionForbidden": "Не може да се запише празна формула",
+    "Add": "Добави",
+    "ExpressionIsNotValid": "Не е възможно да се запази формулата. Моля, обърни внимание на грешките при валидиране и опитай отново",
+    "Validation": {
+      "DivisionByZero": "Делението на нула не е разрешено",
+      "ExpressionTypeNotValid": "Литерален низ не може да се използва в този израз",
+      "ColumnRemoved": "Колоната е премахната"
+    },
+    "EmptyExpressionValidation": "Формулата е празна",
+    "ValidationSuccess": "Валидацията е успешна",
+    "ExpressionDesignerError": "Нещо се обърка. Моля опитай отново или се свържи с твоя системен администратор"
+  },
+  "Components": {
+    "SearchFilter": {
+      "Caption": "Търси",
+      "Placeholder": "Търси",
+      "Tooltip": "Компонентът за търсене позволява да се търси само по текст, номер и колони за търсене с директни връзки към списък обект."
+    },
+    "EncryptedInput": {
+      "Caption": "Криптиран низ от символи",
+      "EyeButtonShowValueCaption": "Покажи стойността",
+      "ToggleMaskedValueHandler": {
+        "ErrorMessage": "Нещо се обърка. Моля опитай отново или се свържи с твоя системен администратор."
+      },
+      "EyeButtonHideValueCaption": "Скрий стойността",
+      "EyeButtonDisabledCaption": "Не може да се покаже/скрие стойност",
+      "UnmaskRecordParametersBuilder": {
+        "UnsupportedAttributeTypeError": "Този тип атрибут не се поддържа за тази операция. Моля провери конфигурацията на полето или опитай с друг тип данни.",
+        "CurrentRecordIdNotFoundError": "Не може да се намери текущият идентификатор на записа. Това може да се случи, ако текущият запис все още не е запазен. Моля увери се, че записът е запазен преди да извършиш това действие.",
+        "ReferenceRecordIdNotFoundError": "Липсва посочения идентификатор на записа. Това може да се случи, ако препратката сочи към новосъздаден запис, който все още не е запазен в базата данни. Моля първо запази посочения запис.",
+        "ReferenceColumnSchemaNameNotFoundError": "Името на посочената схема на колоните не е намерено. Моля провери конфигурацията на полето за препратка."
+      }
+    },
+    "FolderTree": {
+      "Caption": "Папки",
+      "Hint": "Позволява ти да конфигурираш структурата на папките, за да организираш записите по определени филтри. За да си сигурен, че компонентът работи по предназначение, свържи го в страницата Списък или настройките на източник на данни."
+    },
+    "FolderTreeActions": {
+      "Caption": "Меню за управление на папки",
+      "Hint": "Изисква компонента Папки. Позволява ти да разкриваш папките на страницата."
+    },
+    "QuickFilter": {
+      "Caption": "Бърз филтър",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "Вчера",
+          "Today": "Днес",
+          "Tomorrow": "Утре",
+          "PreviousWeek": "Предишна седмица",
+          "CurrentWeek": "Текуща седмица",
+          "NextWeek": "Следваща седмица",
+          "PreviousMonth": "Предишен месец",
+          "CurrentMonth": "Текущ месец",
+          "NextMonth": "Следващ месец",
+          "PreviousQuarter": "Предишно тримесечие",
+          "CurrentQuarter": "Текущо тримесечие",
+          "NextQuarter": "Следващо тримесечие",
+          "PreviousFiscalWeek": "Предишна фискална седмица",
+          "CurrentFiscalWeek": "Текуща фискална седмица",
+          "NextFiscalWeek": "Следваща фискална седмица",
+          "FiscalQuarter1": "Първо тримесечие",
+          "FiscalQuarter2": "Второ тримесечие",
+          "FiscalQuarter3": "Трето тримесечие",
+          "FiscalQuarter4": "Четвърто тримесечие",
+          "FiscalHalfYear1": "Първото полугодие",
+          "FiscalHalfYear2": "Второто полугодие",
+          "PreviousFiscalYear": "Предходната година",
+          "CurrentFiscalYear": "Текуща година",
+          "NextFiscalYear": "Следващата година"
+        }
+      }
+    },
+    "MessageComposer": {
+      "Caption": "Композитор на съобщение",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "Имейл"
+        },
+        "Feed": {
+          "Caption": "Публикация"
+        },
+        "SelectChannelsCaption": "Избери канали",
+        "Telegram": {
+          "Caption": "Telegram"
+        },
+        "FacebookMessenger": {
+          "Caption": "Facebook Messenger"
+        },
+        "WhatsApp": {
+          "Caption": "WhatsApp"
+        },
+        "SMS": {
+          "Caption": "СМС"
+        }
+      }
+    },
+    "ColorPicker": {
+      "SelectedColor": "Избран цвят",
+      "Readonly": "Поле без възможност за редакция"
+    },
+    "Switch": {
+      "Caption": "Превключи"
+    },
+    "NextBestOfferDT": {
+      "Caption": "Следващи най-добри оферти"
+    },
+    "NextBestOffer": {
+      "Caption": "Следващи най-добри оферти",
+      "EmptyValue": "Няма данни",
+      "Next": "Следващ",
+      "Previous": "Предишен"
+    },
+    "Approval": {
+      "Caption": "Одобрения"
+    },
+    "ApprovalList": {
+      "Caption": "Списък с одобрения",
+      "RefreshCaption": "Опресни",
+      "ProvideDataSource": "Предостави източник на данни, преди да използваш одобренията"
+    },
+    "MultiSelect": {
+      "Caption": "Търсене с множествен избор",
+      "Label": "Множествен избор",
+      "CreateRecordButtonCaption": "Създай запис",
+      "ExpanderIcon": "Разшири падащото меню",
+      "OpenModalIcon": "Отвори в модален прозорец",
+      "TooltipInfoIcon": "Информационна подсказка",
+      "ReadonlyIcon": "Поле без възможност за редакция"
+    },
+    "BarcodeScanner": {
+      "Caption": "Скенер за баркодове"
+    },
+    "Sort": {
+      "Caption": "Сортирай"
+    }
+  },
+  "ExpressionDialog": {
+    "Validate": "Валидирай",
+    "ValidateMessage": "Съобщения за валидация ({{count}})",
+    "Placeholder": "Избери атрибут на данни от списъка или започни да въвеждаш твоята формула. Поддържат се основни аритметични операции и скоби",
+    "MaxExpressionLength": "Максималният препоръчителен брой символи е достигнат",
+    "AggregationFormulaPlaceholder": "Създай формула използвайки функции за агрегиране и атрибути на данни. Конфигурирай филтри, ако е необходимо и комбинирай резултатите използвайки основни аритметични операции."
+  },
+  "DesktopSelector": {
+    "ShowDesktopSelector": "Избери работен плот",
+    "EditDesktop": "Редактирай работния плот",
+    "UseHotkeys": "Използвай Ctrl+Shift+E за редакция на работния плот"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "Невалидни параметри",
+    "ServiceResult": {
+      "ErrorMessage": "Възникна грешка. Моля свържи се със системния администратор"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "Маркирани {{ count }} елемент(и)",
+      "RemoveTagsMessage": "Немаркирани {{ count }} елемент(и)",
+      "AddTagsSuccessfulRunProcess": "Процесът на групово маркиране стартира за избрания(те) артикул(и). Това може да отнеме известно време",
+      "RemoveTagsSuccessfulRunProcess": "Процесът на групово премахване на тагове е стартиран за избрания елемент(и). Това може да отнеме известно време"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "Добавени са {{ count }} запис(и) в папката(ите)",
+      "RemoveRecordsMessage": "Премахнат(и) {{ count }} запис(и) от папката(ите)"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "Акцията стартира успешно",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "Това действие се нуждае от поне един запис, за да се изпълни. Моля, изберете записите, към които искате да го приложите, и опитайте отново"
+    },
+    "ProcessStarted": "Процесът стартира",
+    "StartingProcessAnnounceMessage": "Стартира се процеса, моля изчакай..."
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "Сигурен ли си, че искаш да изтриеш избрания запис?",
+    "DeleteRecordsConfirmation": "Сигурен ли си, че искаш да изтриеш избраните записи?",
+    "SaveSummariesForAll": "Да се запазят ли настройките за обобщения за всички потребители?",
+    "ResetSummaries": "Да се възстановят ли настройките за обобщения по подразбиране?"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "Недостатъчни права за изтриване на записи в обекта '{0}'",
+    "UnableToDeleteSelectedRecord": "Избраният запис не може да бъде изтрит",
+    "SelectRecordsToDelete": "Избери записи за изтриване",
+    "SettingsErrorMessage": "Не може да се изпълни действието.",
+    "ExportToExcel": {
+      "PermissionsErrorMessage": "Нямаш разрешение да извършиш тази операция.\nМоля свържи се с твоя системен администратор. Провери достъпа до експортирания обект и разрешението за извършване на системната операция.",
+      "FileGenerationMessage": "Генериране на експортен файл"
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "Недостатъчни разрешения за достъп до регистъра на промените. Свържи се с твоя системен администратор.",
+      "SourceIsNotSpecifiedMessage": "Обект или източник на данни не е посочен за действието „Отваряне на регистъра на промените“. Свържи се с твоя системен администратор.",
+      "RecordIsNotSelectedMessage": "Избери запис, за да отвориш неговия регистър на промените.",
+      "ChangeLogIsNotTurnedOnTitle": "Включи регистрирането",
+      "ChangeLogIsNotTurnedOnMessage": "Регистрирането в момента е изключено за {0}. Искаш ли да включиш регистрирането?",
+      "ChangeLogIsTurnedOffMessage": "Регистрирането в момента е изключено за {0}. Свържи се с твоя системен администратор.",
+      "RecordIsNotSavedMessage": "Първо запиши записа, за да отвориш неговия дневник на промените."
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "Максималният размер на файла от {0} MB е надвишен.\n\n\n Файлове:\n- {1}",
+      "NoConnectedFileList": "Дестинацията за качване на файл не е зададена.\n\nМоля избери дестинацията в настройките на бутона.",
+      "InvalidRequestParams": "Не може да се качи файл(ове), тъй като компонентът на страницата все още не е настроен. Системният администратор може да завърши настройката във Freedom UI дизайнера.",
+      "ChangeFileSizeInfoMessage": "Може да увеличите максималния размер на файла в системната настройка „Максимален размер на прикачения файл“.",
+      "FileListHeader": "Файлове",
+      "MaxFileSizeExceededExceptionMessage": "Максималният размер на файла от {0} MB е надвишен.",
+      "UnknownServerError": "Нещо се обърка.\n\nМоля опитай да качиш файла отново.",
+      "AttachedToUnsavedRecord": "Не могат да се прикачат файловете към записа, който все още не е създаден. Моля създай записа, преди да качиш файловете",
+      "InvalidExtension": {
+        "Deny": "Файловото разширение [{0}] е забранено от настройките за сигурност. Ако трябва да работиш с такива файлове, моля свържи се с твоя системен администратор, за да премахне разширението от системната настройка [File extensions DenyList] (FileExtensionsDenyList)",
+        "Allow": "Файловото разширение [{0}] е забранено от настройките за сигурност. Ако трябва да работиш с такива файлове, моля свържи се с твоя системен администратор, за да добавиш разширението към системната настройка [File extensions AllowList] (FileExtensionsAllowList)",
+        "NotSupported": "Some selected files are not supported for upload. Please choose files of supported types."
+      },
+      "EmptyFileMessage": "Опитваш се да качиш празни файлове.\n\nМоля избери файлове със съдържание.",
+      "SingleUploadInProgress": "Файлът {0} все още се качва. Моля изчакай качването да завърши.",
+      "MultipleUploadsInProgress": "Някои файлове все още се качват. Моля изчакай качването да завърши ({0} и още {1})."
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "Максималният размер на файла от {0} MB е надвишен.",
+      "UnknownUploadError": "Неизвестна грешка при качване. Моля свържи се със системния администратор.",
+      "Announcement": {
+        "Uploaded": "Качено изображение",
+        "Deleted": "Изображението е изтрито"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "Грешка в действието.\nСвържи се с твоя системен администратор. Провери настройките за действие в Системния Дизайнер."
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "Грешка в действието.\nСвържи се с твоя системен администратор. Провери настройките за действие в Системния Дизайнер."
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "Избери записи, за да добавиш етикети",
+      "SelectRecordsToRemoveRecordsMessage": "Избери записи за премахване на етикети"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "Избери записи, които да добавиш към статичната папка",
+      "SelectRecordsToRemoveRecordsMessage": "Избери записи за премахване от статичната папка"
+    },
+    "FileAnnouncement": {
+      "Uploaded": "Качен е {0} файл",
+      "Deleted": "{0} файл е изтрит"
+    },
+    "FileDownload": {
+      "FileMismatchErrorMessage": "Файл '{0}' не е напълно качен",
+      "FileDownloadErrorMessage": "Файлът '{0}' не можа да бъде изтеглен. Възможно е да е изтрит, да е повреден или да нямаш разрешение за достъп до него."
+    },
+    "OK": "ОК"
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "Добави етикет",
+    "RemoveTagCaption": "Премахни етикет"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "Отчетът не може да бъде отпечатан за незаписан запис.",
+    "InvalidRequestCaption": "Действието не е валидно. Моля провери настройките за печат!",
+    "SelectRecord": "Избери запис за отпечатване на отчета"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "Не е възможно да преместите всички избрани записи с това действие, моля избери толкова записи, колкото е необходимо, един по един"
+  },
+  "CancelRecordsChangesRequest": {
+    "SuccessMessage": "Промените бяха успешно отхвърлени"
+  },
+  "RecordDeletedRequest": {
+    "SuccessMessage": "Записът е успешно изтрит"
+  },
+  "RecordsDeletedRequest": {
+    "SuccessMessage": "Записите бяха изтрити успешно"
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "Няма налични отчети",
+    "GoToPrintablesSetupCaption": "Отиди в настройка на отчета"
+  },
+  "SchemaOutlet": {
+    "BeforeSchemaChangeAnnounceMessage": "Зареждане, моля изчакай...",
+    "AfterSchemaChangeAnnounceMessage": "Зареждането е завършено",
+    "Caption": "Контейнер за схема",
+    "Hint": "Контейнерът показва схема",
+    "SchemaNotFound": "<not found>"
+  },
+  "SaveRecordRequest": {
+    "SavingRecordAnnounceMessage": "Запазване, моля изчакай..."
+  },
+  "Deduplication": {
+    "RecordNotCreatedMessage": "Записът не беше създаден",
+    "MergeStartedMessage": "Системата започна обединяването на данни. Ще получиш известие в панела за комуникация, когато процесът приключи. Моля презареди записа след това, за да извлечеш обновените данни."
+  },
+  "HierarchyCopy": {
+    "RecordIdRequiredMessage": "Record ID is required.",
+    "SchemaNameRequiredMessage": "Schema name is required.",
+    "CopyingErrorMessage": "Unexpected error while copying record."
+  },
+  "SchemaContextPart": {
+    "RecordTitle": "{{caption}}: {{value}}",
+    "ListTitle": "List: {{captions}}"
+  },
+  "DataGroupColumnsSubGroups": {
+    "NewColumn": "Добави ново поле",
+    "ExistingColumns": "Атрибути на модела на данните"
+  },
+  "ColumnAddedOnPage": "Колоната вече е добавена на страницата",
+  "ColumnValidators": {
+    "ErrorMessages": {
+      "LookupReferenceSchemaNotSetError": "Източникът на данни не е зададен за колоната за търсене"
+    }
+  },
+  "NewColumnSubGroup": {
+    "MEDIUM_TEXTColumn": "Текст",
+    "IntegerColumn": "Номер",
+    "BooleanColumn": "Квадратче за отметка",
+    "ColorColumn": "Цвят",
+    "DateTimeColumn": "Date/Time",
+    "LookupColumn": "Падащо меню",
+    "RICH_TEXTColumn": "Богат текст",
+    "AutonumberColumn": "Автономериране",
+    "IMAGELOOKUPColumn": "Изображение",
+    "PhoneColumn": "Телефон",
+    "LongPhoneColumn": "Телефонен номер",
+    "WebColumn": "Уеб линк",
+    "EmailColumn": "Имейл",
+    "LongEmailColumn": "Имейл адрес",
+    "SECURE_TEXTColumn": "Криптиран низ от символи",
+    "ToggleColumn": "Превключвател",
+    "SwitchColumn": "Превключи"
+  },
+  "ModalPageDesigner": {
+    "Defaults": {
+      "Caption": "Нова модална страница",
+      "CaptionTemplate": "{{0}} нова модална страница",
+      "CaptionWithEntityTemplate": "{{0}} модална страница"
+    }
+  },
+  "DataGroupParametersSubGroups": {
+    "NewParameter": "Добави нов параметър",
+    "ExistingParameters": "Съществуващи параметри"
+  },
+  "NewParameterSubGroup": {
+    "MEDIUM_TEXTParameter": "Текст",
+    "IntegerParameter": "Номер",
+    "BooleanParameter": "Квадратче за отметка",
+    "DateTimeParameter": "Date/Time",
+    "LookupParameter": "Падащо меню",
+    "RICH_TEXTParameter": "Богат текст",
+    "PhoneParameter": "Телефон",
+    "LongPhoneParameter": "Телефонен номер",
+    "WebParameter": "Уеб линк",
+    "EmailParameter": "Имейл",
+    "LongEmailParameter": "Имейл адрес"
+  },
+  "CDK": {
+    "ChartsGroupCaption": "Уиджети",
+    "DataGroupCaption": "Данни",
+    "PageParametersDataGroupCaption": "Параметри на страницата",
+    "ComponentsGroupCaption": "Kомпоненти",
+    "LayoutElementsGroupCaption": "Елементи на оформлението",
+    "InputsGroupCaption": "Входящи данни",
+    "CustomElementsGroupCaption": "Персонализирани компоненти"
+  },
+  "CanvasPlaceholder": {
+    "Caption": "Още нищо тук",
+    "Description": "Плъзгане и пускане на елементи от левия панел",
+    "LinkDescription": "Научете още за дизайнера в",
+    "LinkCaption": "Академия",
+    "LinkUrl": "https://academy.creatio.com/docs/8.x/no-code-customization/category/ui-and-business-logic-customization"
+  },
+  "DesignerTools": {
+    "SearchPlaceholder": "Компонент за търсене",
+    "PlaceholderTitleWithFilters": "Няма записи, отговарящи на критериите на филтъра",
+    "PlaceholderDescriptionWithFilters": "Изчисти филтъра или промени условията му"
+  },
+  "LeftPanel": {
+    "ComponentsTabLabel": "Kомпоненти",
+    "StructureTabLabel": "Структура"
+  },
+  "InfoPanel": {
+    "SafariInfoPanelMessage": "Моля използвай Chrome за най-добро изживяване, тъй като Safari може да не поддържа всички функции на дизайнера. Благодаря!",
+    "UserLevelSchemaInfoPanelMessage": "Информационното табло ще бъде достъпно само в тази среда. Ако е необходимо да го мигрираш в друга среда го включи в пакет.",
+    "OpenInPackageButton": "Отвори в пакета"
+  },
+  "Structure": {
+    "NodeMenu": {
+      "Settings": "Настройки",
+      "Copy": "Копирай",
+      "Delete": "Изтрий",
+      "AddComponent": "Добави компонент",
+      "MoveTo": "Премести в"
+    },
+    "Search": {
+      "PreviousMatch": "Предишно съвпадение",
+      "NextMatch": "Следващо съвпадение",
+      "Clear": "Изчисти търсенето"
+    }
+  },
+  "AddItemDialog": {
+    "Title": "Добави компонент",
+    "Placeholder": "Име на компонента",
+    "AddButton": "Добави",
+    "CancelButton": "Анулирай"
+  },
+  "MoveToDialog": {
+    "Title": "Премести в",
+    "Placeholder": "Име на елемента",
+    "MoveToButton": "Премести",
+    "CancelButton": "Анулирай"
+  },
+  "InterfaceDesignerHeaderComponent": {
+    "SaveButtonCaption": "Запази",
+    "CancelButtonCaption": "Анулирай",
+    "CloseButtonCaption": "Затвори",
+    "UndoButtonTooltip": "Отмени",
+    "OpenSourceCodeTooltip": "Отвори сорс кода",
+    "SourceCodeCaption": "Сорс код",
+    "OpenPropertyTooltip": "Настройки на страницата",
+    "ChangeParentTooltip": "Смени родителя",
+    "ActionsTooltip": "Действия",
+    "CopyCaption": "Копирай",
+    "ExportCaption": "Експортирай",
+    "OnlineHelpCaption": "Онлайн помощ",
+    "OnlineHelpUrl": "https://academy.creatio.com/docs/8.x/no-code-customization/category/ui-and-business-logic-customization",
+    "SchemaOutdatedSaveButtonTooltip": "Схемата е остаряла",
+    "RedoButtonTooltip": "Преработи",
+    "FaviconButtonTooltip": "Отвори управление на приложенията",
+    "BusinessRulesButtonTitle": "Отворени бизнес правила",
+    "BusinessRulesButtonCaption": "Бизнес правила",
+    "PreviewButtonCaption": "Преглед",
+    "PreviewButtonTitle": "Предварителен преглед на страницата",
+    "PreviewActiveLabel": "Preview active"
+  },
+  "InterfaceDesigner": {
+    "ExportSuccessMessage": "Схемата беше експортирана успешно",
+    "ExportErrorMessage": "Неуспешен експорт на схемата",
+    "ExportMessage": "Искаш ли да запазиш промените преди експортиране? Ако не, ще получиш локална версия на експорта.",
+    "ExportSuccess": "Схемата беше експортирана успешно",
+    "PreviewOpenError": "Failed to open page preview.",
+    "PropertiesPages": {
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "Криптиран низ от символи"
+      },
+      "DividerPropertiesPanel": {
+        "LayoutGroup": "Оформление",
+        "PaddingGroup": "Разстояние",
+        "Padding": {
+          "Top": "Отгоре",
+          "Bottom": "Долу",
+          "Left": "Ляво",
+          "Right": "Дясно"
+        },
+        "Thickness": {
+          "Label": "Thickness"
+        },
+        "Sizes": {
+          "None": "Липсва стойност",
+          "ExtraSmall": "Много малко",
+          "Small": "Малко",
+          "Medium": "Средно",
+          "Large": "Голям"
+        },
+        "PageCaption": "Divider settings"
+      },
+      "FolderTreePropertiesPage": {
+        "GeneralLabel": "Общо",
+        "HeaderLabel": "Настройки на папката",
+        "SourceSchemaLabel": "Място за съхранение на папка",
+        "RootSchemaLabel": "Какво ще филтрират папките?",
+        "AppearanceGroup": "Външен вид",
+        "BorderRadiusLabel": "Радиус на границата",
+        "Sizes": {
+          "None": "Лисва стойност",
+          "Small": "Малко",
+          "Medium": "Средно",
+          "Large": "Голямо",
+          "ExtraLarge": "Много голям",
+          "2XLarge": "Двойно екстра голямо",
+          "3XLarge": "Тройно екстра голямо"
+        },
+        "ButtonSizeFieldLabel": "Размер",
+        "ColorFieldLabel": "Стил",
+        "Colors": {
+          "Primary": "Основен",
+          "Accent": "Фокус",
+          "Warn": "Внимание",
+          "Default": "Обикновен",
+          "Secondary": "Вторично"
+        },
+        "IconPositionLabel": "Позиция",
+        "IconPosition": {
+          "LeftIcon": "Икона в ляво",
+          "OnlyIcon": "Само икона",
+          "RightIcon": "Икона вдясно"
+        }
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "Настройки на менюто за управление на папки",
+        "FolderTreeLabel": "Избор на дърво на папки",
+        "GeneralCaption": "Общо"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "Настройки на резюметата",
+        "GeneralGroup": {
+          "Caption": "Общо",
+          "SelectDataSource": "Източник на данни"
+        }
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Настройки на времевата линия",
+        "ObjectsCaption": "Обекти",
+        "AddObject": "Добави обект",
+        "ContextMenu": {
+          "Edit": "Редактирай",
+          "Delete": "Изтрий"
+        },
+        "GeneralGroup": "Общо",
+        "EmptyDataSourceHint": "Източникът на данни не се добавя към страницата. Моля добави съществуващ източник на данни, за да настроиш компонента",
+        "BindToDataSourceCaption": "Източник на данни",
+        "FiltrationCaption": "Опции за филтриране",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "По вид запис",
+          "TimelineFilter_Owner": "По собственик",
+          "TimelineFilter_Date": "По дата",
+          "TimelineFilter_SystemMessages": "По системни съобщения"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "Общо",
+        "CaptionLabel": "Заглавие",
+        "AppearanceGroup": "Външен вид",
+        "LinkedColumn": "Свързана колона",
+        "SortedByColumn": "Сортирай по",
+        "IconPosition": {
+          "OnlyIcon": "Само икона"
+        },
+        "FiltrationGroup": "Опции за филтриране",
+        "OwnerColumn": "Колона за филтриране на собственика",
+        "Feed": {
+          "ExternalUsersGroupCaption": "Външни потребители",
+          "AllowExternalPostCaption": "Разреши публикуване за външни потребители"
+        }
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Режим на показване на лентата с инструменти",
+        "Inline": "В редица",
+        "Classic": "Класическо",
+        "AlwaysShowToolbar": "Винаги показвай опциите за форматиране"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "Бързи настройки на филтъра",
+        "GeneralCaption": "Общо",
+        "AppearanceCaption": "Външен вид",
+        "ChooseFilterTypeLabel": "Избери тип филтър",
+        "CaptionLabel": "Заглавие",
+        "HintLabel": "Подсказка",
+        "CustomType": "Персонализирано",
+        "DateRangeType": "Date/Time",
+        "LookupType": "Търсене"
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "Настройки на опциите за комуникация",
+        "GeneralGroup": "Общо",
+        "MasterRecordCaption": "Запис за обвързване на опциите за комуникация",
+        "DataSourceEntityColumn": "Източник на данни",
+        "Editability": "Редактивност",
+        "EditabilityControls": {
+          "Readonly": "Само четене"
+        },
+        "LabelPositionCaption": "Позиция на заглавието",
+        "LabelPosition": {
+          "Auto": "Автоматично",
+          "Left": "Ляво",
+          "Above": "Над",
+          "Hidden": "Скрито"
+        },
+        "ShowNoDataPlaceholder": "Показване на контейнер, когато няма данни",
+        "AppearanceGroup": "Външен вид",
+        "ColumnsCountLabel": "Брой колони",
+        "ContactEntitySchemaName": "Опции за комуникация на контакта",
+        "AccountEntitySchemaName": "Опции за комуникация с Юридическото Лице",
+        "EmptyDataSourceHint": "Източникът на данни не се добавя към страницата. Моля добави съществуващ източник на данни, за да настроиш компонента"
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "Настройки на чата",
+        "GeneralCaption": "Общо",
+        "TooltipCaption": "Може да настроиш този елемент в сорс кода на страницата",
+        "OpenSourceCodeButtonCaption": "Отвори сорс кода"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "Настройки на разговорите",
+        "GeneralCaption": "Общо"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "Настройки на редактора на съобщения",
+        "GeneralCaption": "Общо"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Настройки на публикациите",
+        "GeneralCaption": "Общо",
+        "FeedTypeCaption": "Как да филтрира записите",
+        "FeedChannel": "Канал",
+        "FeedTypeGeneral": "Общо",
+        "FeedTypeUser": "Свързано с потребителя",
+        "FeedTypeChannel": "Канал",
+        "FeedTypeRecord": "Свързано със записа",
+        "FeedDataSourceCaption": "Източник на данни",
+        "FeedTypeRecordTooltipCaption": "Съобщенията в публикации, ще се показват въз основа на конкретна комуникация свързана със записа.",
+        "FeedTypeGeneralTooltipCaption": "Всички известия и споменавания, свързани с текущия потребител. В този режим публикацията ще показва публикациите и коментарите, където текущият потребител е бил маркиран или темите, които той следва. Например, публикацията в този режим може да се добави към началната страница, за да не пропуснеш важна информация.",
+        "ExternalUsersGroupCaption": "Външни потребители",
+        "AllowExternalPostCaption": "Разреши публикуване за външни потребители",
+        "ShowBlankSlateCaption": "Покажи празен лист"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "Настройки на компактния профил на акаунта",
+        "GeneralGroup": "Общо",
+        "AttributeForReferenceColumn": "Източник на данни",
+        "Editability": "Редактивност",
+        "EmptyAccountDataSourceHint": "Източникът на данни не се добавя към страницата. Моля добави съществуващ източник на данни, за да настроиш компонента",
+        "EditabilityControls": {
+          "Readonly": "Само четене"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "Компактни настройки на профила на контакта",
+        "GeneralGroup": "Общо",
+        "AttributeForReferenceColumn": "Източник на данни",
+        "Editability": "Редактивност",
+        "EmptyContactDataSourceHint": "Източникът на данни не се добавя към страницата. Моля добави съществуващ източник на данни, за да настроиш компонента",
+        "EditabilityControls": {
+          "Readonly": "Само четене"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "Настройки на потребителския профил",
+        "GeneralGroup": "Общо",
+        "AttributeForReferenceColumn": "Източник на данни",
+        "Editability": "Редактивност",
+        "EmptyUserProfileDataSourceHint": "Източникът на данни не се добавя към страницата. Моля добави съществуващ източник на данни, за да настроиш компонента",
+        "EditabilityControls": {
+          "Readonly": "Само четене"
+        }
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "Редактирай",
+          "Delete": "Изтрий"
+        },
+        "ChannelsCaption": "Канали",
+        "AddNewItem": "Добави канал",
+        "PageCaption": "Композитор на съобщение",
+        "DefaultChannelCaption": "Канал по подразбиране"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "Композитор на имейл",
+        "GeneralCaption": "Общо",
+        "DefaultSenderType": "Подател по подразбиране",
+        "DefaultMailbox": "Използвай пощенска кутия по подразбиране",
+        "CaseMailbox": "Използвай случай за източник на пощенската кутия"
+      },
+      "ChatComposerPropertiesPage": {
+        "PageCaption": "Chat composer",
+        "GeneralCaption": "Общо",
+        "ProviderIdCaption": "Доставчик на канала"
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "Настройки за следващите стъпки"
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Мини страница за преглед",
+        "TitleColumn": "Основно поле за показване",
+        "StartDateColumn": "Колона за начална дата",
+        "EndDateColumn": "Колона с крайна дата",
+        "NotesColumn": "Поле с информация за онлайн среща",
+        "PageCaption": "Настройки на календара",
+        "RequiredFieldError": "Това поле е задължително",
+        "SecondaryTileFields": "Вторични полета за плочки",
+        "AddSecondaryFieldCaption": "Добави вторично поле",
+        "DisabledAddSecondaryFieldCaption": "Може да добавиш максимум 4 вторични полета",
+        "AutoScrollToCurrentTime": "Превърти автоматично до текущия час",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Изтрий"
+        },
+        "ColorizationType": {
+          "Default": "По подразбиране",
+          "ByField": "Автоматичен",
+          "ByOwner": "По потребител"
+        },
+        "ColorizationTypeCaption": "Режим на оцветяване на плочки",
+        "ColorizationColumnCaption": "Търсене"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "Настройки на следващите най-добри оферти",
+        "GeneralCaption": "Общо",
+        "DataSourceCaption": "Обект",
+        "CaptionColumnField": "Надпис",
+        "DescriptionColumnField": "Описание",
+        "InfoLabelColumnField": "Информация за търсене",
+        "ImageColumnField": "Изображение",
+        "NumberTagColumnField": "Етикет",
+        "SortingFieldTooltip": "Елементите ще бъдат сортирани по стойността от това поле в низходящ ред.",
+        "AdditionalCaption": "Допълнително",
+        "SpecificPageLookupField": "Коя страница да се отвори?",
+        "UseSpecificPageField": "Отвори конкретна страница, като кликнеш върху надписа",
+        "SpecificPageRecordIdField": "Идентификатор на записа",
+        "ViewModeCaption": "Режим на показване",
+        "CarouselViewMode": "Въртележка",
+        "GalleryViewMode": "Галерия"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Настройки одобрения",
+        "GeneralGroup": "Общо",
+        "SchemaNameLabel": "Кои записи да се одобрят?",
+        "AppearanceGroup": "Външен вид",
+        "HiddenWhenNoData": "Скрито, когато няма данни"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Настройки на списъка с одобрения",
+        "GeneralGroup": "Общо",
+        "SchemaNameLabel": "Обект"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "Настройки за търсене с множествен избор",
+        "GeneralGroup": {
+          "General": "Общо",
+          "SelectLookup": "Избери от търсене",
+          "MultiselectValueStorage": "Съхранение на стойност с множествен избор",
+          "SelectColumn": "Колоната за показване",
+          "Required": "Задължително",
+          "RequirementTypeItems": {
+            "No": "Не",
+            "Yes": "Да"
+          }
+        },
+        "AppearanceCaption": "Външен вид",
+        "LabelPositionVariants": {
+          "Auto": "Автоматично",
+          "Left": "Ляво",
+          "Above": "Над",
+          "Hidden": "Скрито"
+        },
+        "TitleOnPage": "Заглавие на страницата",
+        "Placeholder": "Заместител",
+        "Tooltip": "Подсказка",
+        "LabelPosition": "Позиция на заглавието",
+        "EnableAddRecordCaption": "Разреши добавянето на нови стойности",
+        "WrapCaption": "Увиване на елементите на следващия ред",
+        "Editability": "Редактивност",
+        "EditabilityControls": {
+          "Readonly": "Само четене"
+        },
+        "LookupStaticFilterLabel": "Приложи статичен филтър за търсене"
+      },
+      "MergeRecordsRequest": {
+        "Caption": "Обедини данните"
+      },
+      "MergeRecordsRequestPropertiesPanel": {
+        "SelectData": "Кои данни да се обединят?"
+      },
+      "MobileListPropertiesPanel": {
+        "PageCaption": "Списък",
+        "GeneralCaption": "Общо",
+        "DataSourceCaption": "Обект",
+        "TitleColumnField": "Заглавна колона",
+        "ImageColumnField": "Изображение",
+        "AppearanceGroup": "Външен вид",
+        "Columns": {
+          "ColumnsGroup": "Колони",
+          "AddNewItem": "Добави колона",
+          "ContextMenu": {
+            "Edit": "Редактирай",
+            "MoveUp": "Премести нагоре (Ctrl+Up)",
+            "MoveDown": "Премести надолу (Ctrl+Down)",
+            "Delete": "Изтрий"
+          }
+        },
+        "Scrollable": "Побери според наличното пространство"
+      }
+    }
+  },
+  "CanvasToolbar": {
+    "Rotate": "Завърти"
+  },
+  "Input": {
+    "Readonly": "Поле без възможност за редакция",
+    "ShowPassword": "Покажи паролата",
+    "HidePassword": "Скрий паролата"
+  },
+  "Carousel": {
+    "NoData": "Няма данни",
+    "PrevButtonCaption": "Предишен елемент",
+    "NextButtonCaption": "Следващ елемент"
+  },
+  "ComboBox": {
+    "Readonly": "Поле без възможност за редакция",
+    "NoData": "Няма данни",
+    "EmptyDisplayValue": "Няма показана стойност",
+    "AddNewRecord": "Добави нов",
+    "InvalidValueSyntax": "Моля, избери стойност от списъка",
+    "IsGoToSourceAllowedTooltip": "Отиди при списъка със записите",
+    "CheckAll": "Провери всичко",
+    "ClearAll": "Изчисти всичко",
+    "SelectValue": "Избери стойност",
+    "ClearValue": "Изчисти стойноста",
+    "OpenSection": "Отвори секция"
+  },
+  "DataGrid": {
+    "AddColumns": "Добави колони",
+    "ColumnToolbar": {
+      "Hide": "Скрий",
+      "Freeze": "Замрази",
+      "Unfreeze": "Размрази",
+      "Rename": "Преименувай",
+      "Edit": "Характеристики",
+      "Title": "Действия с колони",
+      "SortAscending": "Сортирай нарастващо",
+      "SortDescending": "Сортирай низходящо",
+      "ClearSorting": "Изчисти сортирането",
+      "AriaLabel": "Действия на колона за"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Списък с действия за",
+      "Title": "Списък с действия",
+      "DataGridSettingsLabel": "Общи настройки на списъка",
+      "SaveDataGridSettings": {
+        "Label": "Запази като нови настройки по подразбиране",
+        "Confirmation": "Новите настройки на списъка по подразбиране ще бъдат запазени за всички потребители. Искаш ли да продължиш?",
+        "SuccessStatus": "Настройката на списъка е запазена успешно"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Презапиши текущите настройки за всички потребители",
+        "Confirmation": "Новите настройки на списъка по подразбиране ще бъдат запазени и ще заменят сегашните настройки за всички потребители. Да се продължи ли?",
+        "SuccessStatus": "Настройката на списъка е запазена успешно"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Възстанови настройките по подразбиране ",
+        "Confirmation": "Настройките на списъка по подразбиране ще бъдат възстановени. Да се продължи ли?",
+        "SuccessStatus": "Настройките на списъка по подразбиране бяха успешно възстановени"
+      },
+      "MultilineViewLabel": "Multiline view",
+      "RowHeightSettings": {
+        "Label": "Row height",
+        "Options": {
+          "Small": "Малко",
+          "Medium": "Средно",
+          "Large": "Голям",
+          "ExtraLarge": "Много голямо"
+        }
+      }
+    },
+    "RowToolbar": {
+      "Open": "Отвори",
+      "Copy": "Копирай",
+      "Delete": "Изтрий",
+      "RunBusinessProcess": "Изпълни бизнес процеса",
+      "Title": "Действия по редове"
+    },
+    "AddColumnsTo": "Добави колони за",
+    "Title": "Списък: {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Колоната е добавена успешно",
+      "ColumnsAddedSuccessfully": "Колоните бяха добавени успешно",
+      "ColumnHiddenSuccessfully": "Колоната е скрита успешно",
+      "ColumnFrozenSuccessfully": "Колоната е замразена успешно",
+      "ColumnUnfrozenSuccessfully": "Колоната е успешно размразена",
+      "ColumnChangedSuccessfully": "Колоната е променена успешно"
+    }
+  },
+  "DataTable": {
+    "NoData": "Няма данни",
+    "NoColumns": "Няма добавени колони",
+    "Hints": {
+      "Sort": "Подреди",
+      "StartEditing": "Редактирай",
+      "ReadonlyCell": "Поле без възможност за редакция",
+      "CancelChanges": "Отхвърли",
+      "AddItem": "Добави нов запис",
+      "SortWithCaption": "Сортирай {0}",
+      "NotSorted": "в момента не сортирано",
+      "SortedAscending": "в момента сортирано възходящо",
+      "SortedDescending": "в момента сортирано низходящо",
+      "SortAscending": "Сортирай нарастващо",
+      "SortDescending": "Сортирай низходящо",
+      "RowControls": "Контроли за редовете"
+    },
+    "AddItem": "Нова",
+    "SaveItemsChanges": "Запази всичко",
+    "CancelItemsChanges": "Отхвърли",
+    "BulkActions": {
+      "MoreActions": "Повече действия",
+      "AriaLabel": "Групови действия за {0}"
+    },
+    "RowsSelection": {
+      "Selected": "избрано",
+      "SelectAll": "Избери всички",
+      "ClearSelection": "Изчисти селекцията",
+      "SelectRow": "Избери ред",
+      "RowsSelected": "Избрани редове: {0}"
+    },
+    "NotFoundColumn": "Колоната не е намерена",
+    "ColumnSticky": "Замразена колона",
+    "StatusBar": {
+      "AriaLabel": "Редактирай действията за {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Промени ширината",
+      "ChangeWidthOf": "Промени ширината на {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Разшири всички",
+      "CollapseAll": "Свий всички",
+      "ExpandRow": "Разшири вложените редове",
+      "CollapseRow": "Свий вложените редове"
+    }
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Да",
+    "No": "Не",
+    "Save": "Запази",
+    "DoNotSave": "Не запазвай",
+    "Cancel": "Анулирай",
+    "Delete": "Изтрий",
+    "Close": "Затвори",
+    "Notification": "Уведомление",
+    "Overwrite": "Презапиши",
+    "Clear": "Изчисти",
+    "Restore": "Възстанови",
+    "ProcessSchemaSavedWithValidationError": "Схемата на процеса е запазена успешно, но грешки при проверката не позволяват изпълнението й."
+  },
+  "Gallery": {
+    "NoData": "Няма данни",
+    "MenuActions": "Действия",
+    "DateAdded": "Дата на добавяне",
+    "SelectItem": "Избери елемент",
+    "Item": {
+      "ActionsButtonCaption": "Действия на елемента"
+    }
+  },
+  "WebInput": {
+    "LinkButtonHint": "Отвори линка"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Изпрати имейл"
+  },
+  "FileInput": {
+    "Delete": "Изтрий",
+    "Cancel": "Анулирай",
+    "Attach": "Прикачи",
+    "FileIcon": "Икона на файла",
+    "EmptyFileName": "Празно име на файл",
+    "MaxFileSizeLimitReached": "Максималният размер на файла е достигнат ({0}MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Постави тук файловете",
+      "Description": "или използвай",
+      "Upload": "Качи"
+    },
+    "RowToolbar": {
+      "Download": "Изтегли"
+    }
+  },
+  "ImageInput": {
+    "Alt": "Изображение на полето",
+    "Upload": "Качи",
+    "Change": "Промени",
+    "Clear": "Изтрий",
+    "AltAbbreviation": "Изображение на съкращение",
+    "AltIcon": "Празно място в полето"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Запази",
+    "CancelButton": "Анулирай",
+    "ColumnProperties": "Свойства на колоната",
+    "Title": "Заглавие",
+    "FilterHeader": "Как да филтрирате записи",
+    "SortingHeader": "Сортирай записите",
+    "SortColumn": "Сортирай по",
+    "WhatToDisplay": "Какво да се покаже",
+    "AggregationColumn": "Колона",
+    "SortOrder": "Ред на сортиране",
+    "SetupFilters": "Настройка на филтри",
+    "EditFilters": "Редактирай филтрите"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Да",
+      "False": "Не"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "в",
+    "TodayAt": "Днес в {0}",
+    "YesterdayAt": "Вчера на {0}",
+    "DayBeforeYesterdayAt": "Денят преди вчера в {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Няма показана стойност"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "месец",
+    "DaysAbbreviation": "ден",
+    "HoursAbbreviation": "час",
+    "MinutesAbbreviation": "минути"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Затвори раздела"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "Отиди в работния плот"
+    },
+    "QuickRunProcess": {
+      "Title": "Изпълни процеса",
+      "SuccessMessage": "Процесът е стартиран успешно",
+      "NotConfiguredQuickProcessesMessage": "Изпълнението на бързи процеси все още не е конфигурирано",
+      "OtherProcessesCaption": "Други процеси"
+    },
+    "Settings": {
+      "Title": "Настройки"
+    },
+    "UserProfile": {
+      "Title": "Твоят профил",
+      "MenuItems": {
+        "Profile": "Твоят профил",
+        "Logout": "Изход",
+        "OrganizationProfile": "Профил на организацията"
+      }
+    },
+    "New": {
+      "Title": "Ново",
+      "NoItemTitle": "Бързото създаване на записи все още не е конфигурирано"
+    },
+    "Help": {
+      "Title": "Помощ",
+      "MenuItems": {
+        "OnlineHelp": "Онлайн помощ",
+        "NeedHelp": "Нужда от помощ",
+        "ExternalAccess": "Разреши достъп до поддръжката",
+        "ReleaseNotes": "Бележки към изданието"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "SupportSubject": "Въпрос за",
+      "AccessGrantedMessage": "Достъпът е предоставен",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Комуникационен панел"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Панел за известия"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Конфигурация"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Панел с добавки"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Грешка при компилиране",
+      "WorkspaceExplorerTemplate": "За да видиш списъка с грешки при компилиране и да ги коригираш, посети <a href ='{0}' target='_blank'>секция за конфигурация</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Навигационен панел"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Детайли на грешката:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Режим на ограничена конфигурация",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "Системата те пренасочи към обикновен елемент на приложението. Не се препоръчва да правиш персонализации в този режим, тъй като промените може да не бъдат разпространени към други елементи. Елементът за проектиране може да не е наличен по различни причини. Може да научиш повече в лог файловете на Creatio и/или Orchestrator. Рутинната употреба може да продължи."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Небезопасни настройки за проследяване",
+      "SysSettingsTemplate": "Посети <a href ='{0}' target='_blank'>секцията Системни настройки</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Търси в приложението..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Свий навигационния панел",
+      "ExpandCaption": "Разшири навигационния панел"
+    },
+    "SearchResultsCaption": "Търси резултати",
+    "EmptySearchResult": {
+      "Title": "Няма артикули, отговарящи на критериите за търсене.",
+      "Subhead": "Изчисти или промени критериите за търсене."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Прочети още"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} премина",
+    "timeBeforeCountStartTpl": "{0} преди да започне обратното броене",
+    "overdueTpl": "{0} просрочени",
+    "timeLeftTpl": "{0} остава",
+    "timeIsUpTpl": "Времето изтече",
+    "waitingForStartDateTpl": "Изчакване на начална дата",
+    "dateNotSet": "0 часа 0 минути"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "Търси по колона",
+      "AllOption": "Всичко",
+      "Title": "Избери филтърна колона"
+    },
+    "ClearIconTitle": "Изчисти търсенето"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Успешно запазени",
+      "ErrorOnSave": "Грешка при опит за прилагане на промените"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Сигурен ли си, че искаш да изтриеш работния плот на „{0}“?",
+        "Error": {
+          "Deletion": "Грешка при изтриването на работния плот",
+          "Configuration": "Грешка по време на изграждането на конфигурацията"
+        },
+        "Success": "Работният плот „{0}“ бе изтрит успешно"
+      },
+      "DeleteMobileHomePage": {
+        "ConfirmationDialogTitle": "Are you sure you want to delete \"{0}\" home page?",
+        "Error": {
+          "Deletion": "Error during home page deletion",
+          "Configuration": "Грешка по време на изграждането на конфигурацията"
+        },
+        "Success": "Home page \"{0}\" was successfully deleted"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Търси..."
+  },
+  "AllowedResults": {
+    "Caption": "Позволени резултати",
+    "TaskCompleted": "Задачата беше завършена."
+  },
+  "LicenseIndicator": {
+    "Title": "Изисква се лиценз"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Всички незапазени промени ще бъдат загубени. Да се продължи ли?"
+    },
+    "List": {
+      "Message": "Списъкът съдържа незапазени промени. Те ще бъдат загубени, ако продължиш. Да се запазят ли промените?"
+    },
+    "Page": {
+      "Message": "Страницата съдържа незапазени промени. Те ще бъдат загубени, ако продължиш. Да се запазят ли промените?"
+    }
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Добави етикет",
+    "CreateNewTagButtonCaption": "Създай нов етикет"
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Редактирай запис",
+    "DeleteItemActionButtonCaption": "Изтрий запис",
+    "NoData": "Няма данни"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Няма данни",
+      "CloseButtonTitle": "Затвори"
+    },
+    "AriaLabel": "Избрани елементи",
+    "Chip": {
+      "RemoveButtonCaption": "Премахни"
+    },
+    "AriaLabelFor": "Избраните елементи за"
+  },
+  "Playbook": {
+    "Caption": "Книга с разиграни сценарии",
+    "Hint": "Компонентът показва подсказки и инструкции за потребителите за достъп до информация от базата знания за конкретни етапи на динамичен случай",
+    "Placeholder": {
+      "Title": "Не са намерени уместни статии в книгата",
+      "Description": "Моля, създай подходяща статия за текущия етап на динамичен случай в секцията Книга с разиграни сценарии"
+    },
+    "Actions": {
+      "Back": "Назад",
+      "OpenInDialog": "Отвори в модален прозорец"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Затвори",
+        "OpenPage": "Отвори в нов раздел"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Упълномощаването е неуспешно. Опитай отново по-късно или помолi администратора за помощ.",
+      "FormatError": "Невалиден формат в заявката. Увери се, че входът е структуриран правилно и провери изходните параметри на твоите действия.",
+      "LimitError": "Лимитът на токените е достигнат, по-нататъшната работа с Creatio.ai е заключена. Свържи се с твоя администратор, за да попълни Creatio.ai токени.",
+      "ServiceAvailabilityError": "Услугата е временно недостъпна. Опитай отново по-късно.",
+      "ExecutionError": "Възникна грешка при обработката на твоята заявка. Опитай отново или помоли администратора за помощ.",
+      "ConfigurationError": "Открит е проблем с конфигурацията. Провери системните настройки или помоли администратора за помощ.",
+      "UnknownError": "Възникна неизвестна грешка. Опитай отново по-късно или помоли администратора за помощ.",
+      "CharacterLimitExceededError": "Достигнат е ограничението за брой знаци в заявката на потребителя. Провери системните настройки или помоли администратора за помощ.",
+      "ToolCallsInvokesLimitExceeded": "Превишен е лимитът за извикване на функции: твърде много последователни автоматизирани извиквания без потребителски вход или многократно изпълнение на една и съща функция.",
+      "InsufficientPermissions": "Нямаш разрешение да използваш този агент или умение. Моля свържи се с твоя администратор, за да настрои достъпа.",
+      "ActionLimitError": "Достигнат е лимитът на действията, по-нататъшната работа с Creatio.ai е блокирана. Свържи се с твоя администратор, за да попълни действията на Creatio.ai."
+    },
+    "InputPlaceholder": "Въведи съобщение",
+    "SendButtonHint": "Изпрати съобщение (Enter)",
+    "Caption": "Редактор на съобщения",
+    "ReadonlyInputPlaceholder": {
+      "ChatCompleted": "Чатът е завършен",
+      "ChatTransferred": "Чатът е прехвърлен"
+    },
+    "MaxFilesExceeded": "Максимален брой файлове, които може да добавиш в една итерация: {{maxCount}}",
+    "SendMessageError": "Неуспешно изпращане на съобщението. Моля опитай отново",
+    "SmsSplitWarning": "This message exceeds the standard SMS length and will be charged as multiple SMS messages. Current usage: {{segments}}/{{maxSegments}} messages ({{current}}/{{target}} characters)",
+    "SmsMaxLengthExceeded": "Превишена е максималната дължина на текста ({{current}}/{{target}})"
+  },
+  "SpecificationFilter": {
+    "NoData": "Няма данни",
+    "Boolean": {
+      "Yes": "Да",
+      "No": "Не"
+    },
+    "String": {
+      "Placeholder": "Въведи текст"
+    },
+    "Numeric": {
+      "Placeholder": "Въведи номер",
+      "To": "до",
+      "MaxValueError": "Стойността е над максималната стойност",
+      "MinValueError": "Стойността е под минималната стойност"
+    }
+  },
+  "Conversation": {
+    "Caption": "Разговор",
+    "Copilot": {
+      "TypingMessage": "Генериране на отговор",
+      "Action": {
+        "Replace": "Подмени селекцията",
+        "InsertAbove": "Вмъкни над",
+        "InsertBelow": "Вмъкни отдолу"
+      }
+    },
+    "LoadPreviousChat": "Зареди предишния чат",
+    "ChatIsCompleted": "Чатът е завършен: {datePart}",
+    "ChatIsTransferred": "Чатът е прехвърлен на: {datePart} от {operatorPart} към {targetOperatorPart}",
+    "ChatTransferredToQueue": "Чатът е прехвърлен: {datePart} от {operatorPart} към опашката {queuePart}",
+    "ChatCompletedByAgent": "Чатът е завършен на: {datePart} от {operatorPart}"
+  },
+  "BulkActions": {
+    "Delete": "Изтрий",
+    "Export": "Експортирай към Excel",
+    "AddTag": "Добави етикет",
+    "RemoveTag": "Премахни етикет",
+    "RowsSelection": {
+      "Selected": "избрано",
+      "SelectAll": "Избери всичко",
+      "ClearSelection": "Изчисти селекцията"
+    },
+    "Merge": "Обедини"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Път на обратно"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "с известия"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Номер"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Свий",
+    "Expand": "Разшири"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Лента за напредъка"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Статус на чата",
+    "CtiStatesMenuCaption": "Статус на телефонията"
+  },
+  "MultiList": {
+    "NoDataMessage": "Все още няма скорошни елементи",
+    "NoDataBySearchFilter": "Няма записи, отговарящи на критериите на филтъра",
+    "NoDataBySearchFilterSubtitle": "Изчисти филтъра или промени условията му "
+  },
+  "DataSource": {
+    "Hierarchical": {
+      "RowsLimitNotification": "Not all records are loaded in the hierarchical list due to the configured limit"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Моля, избери стойност от списъка",
+      "SelectionWindowMessage": "Моля, избери стойност от списъка или потърси с помощта на прозореца за справка"
+    },
+    "Required": {
+      "Message": "Въведи стойност"
+    },
+    "MaxLength": {
+      "Message": "Превишена е максималната дължина на текста ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Минималната дължина на текста не е достигната ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Невалиден формат за дата и час"
+    },
+    "DatePickerSyntax": {
+      "Message": "Невалиден формат на датата"
+    },
+    "TimePickerSyntax": {
+      "Message": "Невалиден формат на часа"
+    },
+    "RegExp": {
+      "Message": "Невалиден формат на стойността"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Кодът трябва да започва с префикса {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Въведи поне още един символ."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Използвай символи: a-z, A-Z, 0-9, долна черта или тире. Първи могат да бъдат само букви."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Стойността '{{controlValue}}' вече съществува в колоната 'Код'."
+    },
+    "PhoneNumber": {
+      "Message": "Невалиден телефонен номер"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Колоната е премахната",
+    "ValidationErrorMessageSingleErrorField": "Поле: {0}. Грешка: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Полета: {0}. Грешка: {1}",
+    "RefreshModelDataConflict": "Creatio има нови данни за текущата страница. За да го видиш, запази или анулирай промените си и опресни страницата.",
+    "WarningModelsWithCircularDependencies": "Някои модели имат кръгови зависимости и не са заредени",
+    "LoadingModelErrorMessage": "Възникна грешка по време на изпълнение на заявката",
+    "ErrorMessageOnEmptyRelationColumn": "Страницата не може да бъде запазена. Попълни полето {{caption}} или изчисти данните в съответните полета, за да го запазиш на страницата."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Данните бяха опреснени"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Опиши целта на потребителя ясно и сбито. Опиши подробно стъпките, необходими за постигане на целта на потребителя. Очертай очаквания резултат от LLM. Това трябва да включва всеки необходим контекст или информация, която LLM трябва да знае.\n\n## Общи правила\n1. Не може да създаваш нови обекти без изрично потвърждение от потребителя.\n2. Правило 2: ...\n\n3. ...\n\n## Общи ограничения\n1. Избягвай да правиш предположения за намерението на потребителя; изяснявай заявките, когато е необходимо.\n2. Ограничение 2: ...\n\n3. ...\n\n## Изисквания за изхода\n1. Изходът трябва да бъде по-малък от 300 символа и не повече от 2-3 изречения.\n2. Изискване 2: ...\n\n3. ...\n\n## Процес\n1. Използвай контекста на текущата страница за прочит на данни и полета на страницата. Въз основа на тази информация ...\n2. Стъпка 2: ...\n\n3. ..."
+    }
+  },
+  "DigitalAdsContent": {
+    "PlatformInputCaption": "Платформа",
+    "AppInputCaption": "Предложение",
+    "AdPlatformLoginRequestTitle": "Свържете рекламната платформа",
+    "NotEnoughPermissionsMessage": "За съжаление не мога да свържа вашия рекламен акаунт. Моля, дайте максимални разрешения на Creatio и опитайте отново.",
+    "PlatformUndefinedMessage": "Платформата е недефинирана, не забравяйте да конфигурирате платформата за бутона",
+    "ApplicationUndefinedMessage": "Приложението е недефинирано, не забравяйте да конфигурирате платформата за бутона",
+    "ImportFromAdPlatformStartedMessage": "Започна импортирането на данни от рекламни акаунти",
+    "NoConnectedAdAccountsFoundMessage": "Няма свързани рекламни акаунти за импортиране",
+    "NoActiveAdAccountsFoundMessage": "Съжаляваме, но не можахме да намерим рекламни акаунти, налични за вас. Уверете се, че имате достъп до необходимите акаунти в платформата. Само активни акаунти могат да бъдат свързани."
+  },
+  "GoogleAnalytics": {
+    "LoginRequestTitle": "Свържи Google Analytics",
+    "NotEnoughPermissionsMessage": "За съжаление не може да се свърже твоят акаунт в Google Analytics. Моля дай максимални разрешения на Creatio и опитай отново!",
+    "PlatformUndefinedMessage": "Платформата е недефинирана, не забравяйте да конфигурирате платформата за бутона",
+    "ApplicationUndefinedMessage": "Приложението е недефинирано, не забравяйте да конфигурирате платформата за бутона",
+    "RefreshStreamSuccessMessage": "Потоците в Google Analytics бяха обновени успешно",
+    "RefreshStreamErrorMessage": "Неуспешно обновяване на потоците от Google Analytics. Моля опитай отново по-късно.",
+    "RefreshStreamConfirmationTitle": "Да се ​​опресни ли списъкът с потоци от данни?",
+    "RefreshStreamConfirmationMessage": "Обновяването може да отнеме известно време — системата няма да е налична, докато се обновява списъкът",
+    "RefreshStreamConfirmationCancel": "Анулирай",
+    "RefreshStreamConfirmationOk": "Опресни",
+    "PlatformCaption": "Платформа",
+    "ApplicationCaption": "Предложение"
+  },
+  "EnvironmentManagement": {
+    "PageTitle": "Creatio",
+    "WaitPageTitle": "Try Creatio",
+    "IdentityServiceNotConfigured": "Identity service is not configured. Please contact your administrator.",
+    "Users": {
+      "Profile": {
+        "InvalidValue": {
+          "Message": "Invalid value. Value must not contain <br><b>{0}</b> and must contain up to <br><b>{1}</b> characters"
+        }
+      }
+    }
+  },
+  "EnvironmentLoader": {
+    "PreparingEnvironment": "Preparing the environment",
+    "ThisMayTakeMoments": "This may take a few moments",
+    "EnvironmentNotUsed": "This environment was not used for a while - we need to re-enable it"
+  },
+  "EnvironmentToolbar": {
+    "Applications": "Хъб за приложения",
+    "Users": "Потребители",
+    "Subscriptions": "Абонаменти",
+    "HealthCenterCaption": "Health center"
+  },
+  "EnvironmentListItem": {
+    "SelectEnvironment": "Select environment",
+    "Site": "Сайт:",
+    "Action": {
+      "EnvironmentDetails": "Environment details",
+      "ManageApplications": "Manage applications",
+      "ManageEnvironment": "Manage environment",
+      "OpenConfiguration": "Open configuration",
+      "OpenEnvironment": "Open environment",
+      "CopyLink": "Copy link",
+      "LinkCopied": "Link copied",
+      "Restart": {
+        "ProcessResponseSuccess": "Restart process successfully started",
+        "ProcessResponseFailure": "Restart process failed"
+      }
+    },
+    "SiteIsNotRegisteredCaption": "The site is not registered on the portal, contact technical support."
+  },
+  "EnvironmentErrorPage": {
+    "HaveNotActiveSites": "You have no active sites",
+    "GetFreeTrial": "Get a free trial",
+    "TrialExpiredCaption": "Your trial environment has expired",
+    "CreateNewCaption": "New environment",
+    "Oops": "Ooops...",
+    "Description": "There was an error while trying to connect to the site:",
+    "Proposition": "You can try to",
+    "ErrorByTimeoutLoadingProposition": "Refresh the page. If problem persists, please",
+    "RestartSite": "Рестартирай",
+    "ContactSupport": "Contact Creatio support",
+    "TryLaterMessage": "At the moment, all free trials are taken, please, try again in a few minutes."
+  },
+  "EnvironmentsExceeded": {
+    "Header": "The {0} product trials are waiting for you in the Application Hub",
+    "Description": "You have reached the trial limit.\nYou will be able to order a new trial after an active trial expires.",
+    "ButtonCaption": "Отиди в Application Hub"
+  },
+  "AppDeploymentDialogComponent": {
+    "DialogTitle": "Deploy app",
+    "DestinationEnvironmentTitle": "Destination site",
+    "DestinationEnvironmentPlaceholder": "Choose an environment for app deploy",
+    "NoDestinationEnvironmentsAvailablePlaceholder": "Unable to find any websites ready for deployment",
+    "NoDestinationEnvironmentsAvailableTooltip": "More than one active website is required to deploy the app",
+    "DeployButtonCaption": "Внедри",
+    "CancelButtonCaption": "Анулирай",
+    "HealthCheckErrorMessage": "{0} destination website is currently unavailable. Try again later",
+    "AttentionText": "Увери се, че приложението е съвместимо с версията и продукта на целевия уебсайт. Приложенията базирани на продукта Studio, са съвместими с всички продукти на Creatio. Препоръчваме да инсталираш приложения, базирани на продукти за маркетинг, продажби или услуги в уебсайтове, които съдържат съответния продукт."
+  },
+  "AppDeploymentStatus": {
+    "DeploymentCaption": {
+      "Line11": "Deploying",
+      "Line12": "",
+      "Line13": "app",
+      "From": "от ",
+      "To": "към "
+    }
+  },
+  "Subscriptions": {
+    "NoPermissionMessage": "Insufficient permissions to open the section. Contact the administrator of your organization."
+  },
+  "PageTools": {
+    "DesignButtonHint": "Редактирай страницата",
+    "ExpandButtonTitle": "Разшири",
+    "CollapseButtonTitle": "Свий"
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {
+      "LoadErrorMessage": "Неподдържан файлов тип. Този файл не може да бъде визуализиран."
+    }
+  },
+  "IndicatorWidget": {
+    "NoData": "Няма данни",
+    "AriaDescription": "{{chartTitle}}. Типът на диаграмата е Метрична. Текущата стойност е {{ariaValue}}.",
+    "NotClickableAriaDescription": "{{chartTitle}}. Типът на диаграмата е Метрична. Текущата стойност е {{ariaValue}}.",
+    "Caption": "Metric widget",
+    "Hint": "Metric allows you to display a single key value, such as a KPI, aggregated result, or formula-calculated value, to highlight performance.",
+    "AriaDrilldownInstruction": "Use the enter or white space keys to drill down the element.",
+    "AriaFullscreenInstruction": "Use the Escape key to collapse fullscreen.",
+    "NoChanges": "No changes",
+    "ComparisonSuffix": "(сравнение)",
+    "WithComparison": {
+      "Caption": "Metric with comparison",
+      "Hint": "Comparison metric component allows you to display a primary value alongside a comparative value (e.g., previous period) to show trends or differences."
+    }
+  },
+  "ChartLegend": {
+    "Title": "Легенда за графиката {{chartTitle}}: използвай стрелките, за да навигираш и клавиша Въведи, за да отвориш контекстното меню."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} диаграма за „{{chartTitle}}“ с {{groupsCount}} групи. Диаграмата, показваща „{{groupsNames}}“. X е \"{{xLabel}}\" от {{xMin}} до {{xMax}}. Y е \"{{yLabel}}\" от {{yMin}} до {{yMax}}. Използвай клавишите със стрелки за навигация.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Използвай клавиша Enter, за да отвориш контекстното меню."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. Типът диаграма е Gauge. Данните варират от {{ariaMin}} до {{ariaMax}}. Текущата стойност е {{ariaValue}}. Използвай клавишите за въвеждане или интервал, за да разбиеш елемента."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Разшири на цял екран за диаграмата „{{title}}“.",
+      "CollapseLabel": "Свий целия екран за диаграмата „{{title}}“."
+    },
+    "Menu": {
+      "Caption": "Меню за диаграма \"{{title}}\".",
+      "CreateDashboard": {
+        "Caption": "Създай информационно табло",
+        "UnableCreateMessage": "⚠️ Не може да се създаде информационно табло. Тази страница няма компонент Информационно табло.\n\nМоже да отидеш на друга страница, където компонентът Информационно табло вече е наличен.\n\n📘 Научи още за работата с информационни табла в <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Академията</a>"
+      }
+    }
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "Резюме",
+    "Title": "Заглавие",
+    "Column": "Колона",
+    "Function": "Функция",
+    "CustomSummaryLabelTooltip": "Елементът съдържа предварително конфигурирана логика за показване на данни. Ако трябва да приложиш алтернативна логика, премахни стойността на елемента."
+  },
+  "Summaries": {
+    "Caption": "Резюмета",
+    "Actions": {
+      "CreateCount": "Покажи броя на записите",
+      "Title": "Обобщени действия"
+    },
+    "ProfileActions": {
+      "SaveForAll": "Запази настройката за всички потребители",
+      "ResetToDefault": "Нулирай настройките по подразбиране",
+      "SaveForAllSuccessfully": "Обобщените настройки са запазени успешно за всички потребители",
+      "ResetToDefaultSuccessfully": "Обобщените настройки по подразбиране са възстановени успешно"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "Бърза настройка",
+      "Count": "Брой",
+      "Minimum": "Минимум",
+      "Maximum": "Максимум",
+      "Sum": "Сума",
+      "Average": "Средна стойност"
+    },
+    "AdvancedSetup": {
+      "Title": "Разширена настройка",
+      "Actions": {
+        "AddCustomSummary": "Добави ново резюме"
+      }
+    },
+    "Hints": {
+      "NoDataSource": "Няма избран източник на данни",
+      "Collapse": "Свиване на обобщенията",
+      "Expand": "Разширяване на обобщенията"
+    }
+  },
+  "SummaryItem": {
+    "Actions": {
+      "Delete": "Изтрий",
+      "Edit": "Редактирай"
+    },
+    "AriaLabel": "Обобщен елемент",
+    "Statuses": {
+      "Added": "Обобщеният елемент е добавен успешно",
+      "Deleted": "Обобщеният елемент е изтрит успешно",
+      "Edited": "Обобщеният елемент е променен успешно",
+      "Error": "Грешка"
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "Добави",
+    "AddFilterHint": "Добави нова папка",
+    "BlankslateMessage": "Няма папки",
+    "CloseFolderTree": "Скрий папките",
+    "SetUpFilter": "Настрой филтъра",
+    "DefaultFolderName": "Нова папка",
+    "CopyFolderSuffix": "Копирай",
+    "DeleteConfirmation": "Сигурен ли си, че искаш да изтриеш избраната папка?",
+    "MenuActions": {
+      "AddFolder": "Добави папка",
+      "RenameFolder": "Преименувай",
+      "CopyFolder": "Копирай",
+      "DeleteFolder": "Изтрий",
+      "AddToFavorite": "Добави в любими",
+      "RemoveFromFavorite": "Премахни от любими",
+      "ChangeFolderRights": "Настрой права за достъп",
+      "AddStaticFolder": "Добави статична папка",
+      "ConvertToStaticFolder": "Конвертирай в статична папка",
+      "MoveFolder": "Премести"
+    },
+    "ShowMenuActions": "Покажи действията",
+    "FavoritesNodeCaption": "Любими",
+    "RootNodeCaption": "Всичко",
+    "CopyRightsQuestion": "Да копира ли, разрешенията за достъп до папката \"{0}\"?",
+    "HasNotPermission": "Нямаш разрешение за достъп за тази операция."
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "Запази",
+    "CancelButton": "Анулирай",
+    "DialogTitle": "Настройка на филтри"
+  },
+  "FolderTreeActions": {
+    "ClearButtonCaption": "Изчисти селекцията",
+    "FavoriteItemsMenuButtonAriaLabel": "Меню с любими папки",
+    "FolderButtonAriaLabel": "Отвори\\Затвори дървото на папките",
+    "MenuButton": "Папки"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "Ще те уведомим, когато конвентирането приключи."
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "Анулирай",
+    "SelectFolderButtonCaption": "Избери",
+    "SelectFolderCaption": "Избери папка"
+  },
+  "TemplateGalleryItem": {
+    "RecommendationText": "AI-recommended"
+  },
+  "TemplateGallery": {
+    "Placeholder": {
+      "Title": "Още нищо тук",
+      "Description": "Тази среда досега не е запазила шаблони за кампании. Бъди първият, който ще поправи това",
+      "ActionButtonText": "Дизайн от нулата"
+    }
+  },
+  "HtmlEditor": {
+    "EditorAriaLabel": "HTML editor",
+    "Placeholder": "Compose your message...",
+    "CharactersCount": "{{count}} characters",
+    "Toolbar": {
+      "SelectMacro": "Select macro",
+      "SelectFieldMacro": "Select field macro",
+      "Preview": "Преглед",
+      "Templates": "Шаблони",
+      "Variables": "Variables"
+    },
+    "TemplateReplacement": {
+      "Title": "Replace current content?",
+      "Message": "Inserting a template will replace the current editor content. Continue?"
+    },
+    "DefaultMacros": {
+      "SequenceActivityCategory": "Sequence activity",
+      "SenderName": "Име на изпращача",
+      "SenderNameDescription": "Current sender full name",
+      "SenderEmail": "Имейл на подателя",
+      "SenderEmailDescription": "Current sender email",
+      "SenderPhone": "Sender phone",
+      "SenderPhoneDescription": "Current sender phone number",
+      "ContactLinkedInUrl": "LinkedIn URL",
+      "ContactLinkedInUrlDescription": "Inserts the recipient contact's LinkedIn profile URL"
+    },
+    "PreviewDialog": {
+      "Title": "HTML preview",
+      "ClosePreview": "Close preview",
+      "OriginalContent": "Original content",
+      "ResolvedContent": "Resolved content",
+      "CopyHtml": "Copy HTML",
+      "CopySuccess": "HTML copied to clipboard",
+      "CopyError": "Could not copy HTML to clipboard",
+      "Close": "Затвори"
+    }
+  },
+  "QuickFilter": {
+    "MainTitle": "Бърз филтър",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "Вчера",
+        "Today": "Днес",
+        "Tomorrow": "Утре",
+        "PreviousWeek": "Предишна седмица",
+        "CurrentWeek": "Текуща седмица",
+        "NextWeek": "Следваща седмица",
+        "PreviousMonth": "Предишен месец",
+        "CurrentMonth": "Текущ месец",
+        "NextMonth": "Следващ месец",
+        "PreviousQuarter": "Предишно тримесечие",
+        "CurrentQuarter": "Текущо тримесечие",
+        "NextQuarter": "Следващо тримесечие",
+        "PreviousFiscalWeek": "Предишна седмица",
+        "CurrentFiscalWeek": "Текуща седмица",
+        "NextFiscalWeek": "Следваща седмица",
+        "FiscalQuarter1": "Първо тримесечие",
+        "FiscalQuarter2": "Второ тримесечие",
+        "FiscalQuarter3": "Трето тримесечие",
+        "FiscalQuarter4": "Четвърто тримесечие",
+        "FiscalHalfYear1": "Първото полугодие",
+        "FiscalHalfYear2": "Второто полугодие",
+        "PreviousFiscalYear": "Предходната година",
+        "CurrentFiscalYear": "Текуща година",
+        "NextFiscalYear": "Следващата година"
+      },
+      "RangeSeparator": "до",
+      "SelectDatePlaceholder": "Избери дата",
+      "EmptyDateRangeStartLabel": "<Start date>",
+      "EmptyDateRangeEndLabel": "<Due date>",
+      "Header": {
+        "ArrowRight": "Следващ месец",
+        "ArrowLeft": "Предишен месец"
+      },
+      "RangeSelectedFrom": "Избрано от",
+      "ClearIcon": "Изчисти избрания диапазон",
+      "ClearStartDatePlaceholder": "Изчисти избраната начална дата",
+      "ClearEndDatePlaceholder": "Изчисти избраната крайна дата",
+      "EmptyDateRangeStartAriaLabel": "[Няма избрана дата за начало]",
+      "EmptyDateRangeEndAriaLabel": "[Няма избрана крайна дата]",
+      "CalendarMode": "Календар",
+      "FiscalMode": "Фискален",
+      "Fiscal": {
+        "PeriodNotFound": "Не успяхме да заредим диапазоните от дати за фискалните периоди. Моля провери дали фискалните периоди са настроени или се свържи с твоя администратор за съдействие.",
+        "LoadError": "Грешка при зареждане на данни от фискалния период. Свържи се с твоя администратор за съдействие."
+      },
+      "SelectTimePlaceholder": "Избери време"
+    },
+    "Lookup": {
+      "NoData": "Няма данни"
+    }
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "Позвъняно",
+        "Sec": "секунда",
+        "DetailsLinkCaption": "Детайли за обаждането"
+      },
+      "Email": {
+        "MailedTo": "Имейл до",
+        "From": "От:",
+        "To": "Към:",
+        "CC": "CC:",
+        "Details": "Детайли",
+        "Hide": "Скрий"
+      },
+      "File": {
+        "AddedFile": "Добавен файл"
+      },
+      "Chat": {
+        "ChatWith": "разговаряно с",
+        "Show": "Покажи чата",
+        "Hide": "Скрий чата",
+        "DetailsLinkCaption": "Детайли на чата"
+      }
+    },
+    "NoDataMessage": "Миналото не съществува",
+    "FillActionMessage": "Няма свързани записи за показване във времевата линия",
+    "NoDataByFilterMessage": "Няма записи, отговарящи на критериите на филтъра",
+    "FillActionByFilterMessage": "Изчисти филтъра или промени условията му",
+    "EntityFilterCaption": "Всичко",
+    "OwnerFilterCaption": "Собственик",
+    "DateFilterCaption": "Избери период",
+    "HideSystemMessagesCaption": "Скрий системните съобщения",
+    "EntityFilterHint": "Избери тип запис",
+    "OwnerFilterHint": "Избери собственик на запис",
+    "DateFilterHint": "Избери период на запис",
+    "HideSystemMessagesHint": "Скрий автоматизираните имейли",
+    "DateSort": "Дата",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "Имейл"
+      },
+      "Feed": {
+        "Caption": "Публикация"
+      },
+      "Task": {
+        "Caption": "Задача"
+      },
+      "SysFile": {
+        "Caption": "Файл"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "Бутон за сортиране по дата, в момента сортирано {0}",
+        "Descending": "низходящо",
+        "Ascending": "възходящo"
+      }
+    }
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "Добави компоненти",
+    "Tooltip": "Моля, добави компоненти"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "Стойност по подразбиране",
+    "FilterColumnLabel": "Филтърна колона",
+    "ViewAttributeLabel": "Компонент за филтриране"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "Редактирай филтъра",
+    "SetupFilterCaption": "Настрой филтъра",
+    "FiltersDialogCaption": "Ръчно определен филтър",
+    "DefaultCheckBoxState": {
+      "Label": "Състояние на квадратчето за отметка по подразбиране",
+      "CheckedCaption": "Проверено",
+      "UncheckedCaption": "Отбелязано без отметка"
+    },
+    "FilteringApproachState": {
+      "Label": "Подход за филтриране",
+      "OnCheckedCaption": "Приложи условието за филтър, когато има отметка в квадратчето",
+      "OnUncheckedCaption": "Приложи условие за филтър, когато отметката в квадратчето е премахната"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "Период по подразбиране",
+    "ChooseFilteringMethodCaption": "Избери метод на филтриране",
+    "ChooseFilteringMethodTooltip": "Филтърът може да показва данни, свързани с посочения период.\nИзползвайте условието „Настройване на филтър по една дата“, за да покажете записи, които са създадени или променени на посочения ден. Например, можете да настроите този филтър да показва потенциални клиенти по дата на създаване, възможности по дата на приключване или случаи по дата на решение.\n\nИзползвайте условието „Настройване на филтър по диапазон от дати“, за да покажете записи, за които периодът от време е особено подходящ. Например, можете да настроите този филтър за договори, чиито начални и крайни дати са в посочения период от време.",
+    "SetUpByOneColumnTitle": "Настрой филтър по една дата",
+    "SetUpByTwoColumnsTitle": "Настрой филтър по период от време",
+    "FilterColumnStartCaption": "Филтрирай колона От",
+    "FilterColumnEndCaption": "Филтрирай колона До",
+    "ShowTimeLabel": "Разреши часa",
+    "ShowFiscalPeriodsLabel": "Покажи фискални периоди"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "Текущ потребителски контакт",
+    "CurrentUserAccountName": "Текущ потребителски акаунт",
+    "EditFilterCaption": "Редактирай филтъра",
+    "SetupFilterCaption": "Настрой филтъра",
+    "FiltersDialogCaption": "Ръчно определен филтър",
+    "TagVirtualColumnCaption": "Етикет"
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Опции за форматиране (Alt+F10)",
+    "UploadAttachments": "Избери прикачени файлове",
+    "SelectTemplate": "Вмъкни шаблона",
+    "SelectionActions": {
+      "AskCopilot": "Попитай Creatio.ai",
+      "Friendly": "Приятелски",
+      "Formal": "Официална",
+      "Shorten": "Съкрати",
+      "Extend": "Разшири",
+      "Rephrase": "Преформулирай",
+      "RewriteCaption": "Пренапиши текста"
+    },
+    "TableOfContents": {
+      "Title": "Таблица на съдържанието",
+      "Placeholder": "След като бъде публикувана, тук ще се появи съдържание, базирано на заглавията на тази страница."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Запази",
+    "OpenLinkButtonCaption": "Отвори в нов раздел",
+    "CloseLinkButtonCaption": "Затвори",
+    "UnlinkLinkButtonCaption": "Прекрати връзката",
+    "LinkLabelCaption": "Адрес на линка",
+    "TextLabelCaption": "Текст за показване"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Вмъкни видео",
+    "PasteUrlTab": "Постави url",
+    "UploadFileTab": "Качи файл",
+    "EmbedCodeTab": "Вграден код",
+    "DialogDescription": "Този видеоклип ще бъде вграден с ширина 640 пиксела.<br>Този вграден видеоклип ще включва текстови линк.",
+    "SaveButton": "Вмъкни видео",
+    "CancelButton": "Анулирай",
+    "UploadButton": "Качи файл",
+    "InputPlaceholder": "Постави тук",
+    "DragAndDropPlaceholder": "Влачи и пусни файла тук или",
+    "NotVideoFile": "Вмъкнатият файл не е видео, моля избери файл от тип видео.",
+    "ConfirmMessage": "Тази страница съдържа незапазени промени. Те ще бъдат загубени, ако затвориш страницата. Да се запазят ли промените?"
+  },
+  "CommunicationOptions": {
+    "DesignerPhoneLabel": "Телефонен номер",
+    "DesignerEmailLabel": "Имейл адрес",
+    "DesignerWebLabel": "Уеб линк",
+    "Caption": "Опции за комуникация",
+    "DeleteOption": "Изтрий",
+    "Primary": "основен",
+    "Invalid": "невалидно",
+    "MarkAsPrimary": "Задай като основен",
+    "MarkAsValid": "Маркирай като валиден",
+    "MarkAsInvalid": "Маркирай като невалидно",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} вече съществува",
+      "ReadOnlyStateMessage": "Опцията за комуникация не може да бъде добавена, тъй като компонентът е в режим само за четене",
+      "IncorrectSetupComponentMessage": "Не може да се добави опцията за комуникация, тъй като компонентът на страницата все още не е настроен. Системният администратор може да завърши настройката в Freedom UI дизайнера",
+      "EmptyMasterRecordColumnNameInRequestMessage": "Опцията за комуникация не може да се добави към празен запис. Моля, първо добави стойността на записа"
+    },
+    "NoDataPlaceholderText": "Няма данни",
+    "Announcement": {
+      "Option": {
+        "Added": "{0} добавен",
+        "Deleted": "{0} {1} изтрито",
+        "SetAsPrimary": "{0} {1} задай като основна",
+        "MarkedAsValid": "{0} {1} маркирано като валидно",
+        "MarkedAsInvalid": "{0} {1} маркирано като невалидно"
+      }
+    },
+    "ToolsAriaLabel": "Действия"
+  },
+  "AccountCompactProfile": {
+    "Caption": "Компактен профил на юридическото лице",
+    "DialogTitle": "Редактирай юридическото лице",
+    "AlternativeNameFieldLabel": "Известен също като",
+    "EmptyDisplayValue": "Няма показана стойност",
+    "NamePlaceholder": "Добави име на юридическото лице",
+    "EmptyRecord": {
+      "NamePlaceholder": "Име на Юридическото Лице",
+      "AlternativeNamePlaceholder": "Известен също като",
+      "CountryPlaceholder": "Държава"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "Компактен профил на контакта",
+    "DialogTitle": "Редактирай контакта",
+    "EmptyDisplayValue": "Няма показана стойност",
+    "NamePlaceholder": "Добави име на контакт",
+    "BirthDatePlaceholder": "и дата на раждане",
+    "EmptyRecord": {
+      "NamePlaceholder": "Име на контакта",
+      "BirthDatePlaceholder": "Рождена дата",
+      "CountryPlaceholder": "Държава"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "Компактен потребителски профил",
+    "DialogTitle": "Редактирай името",
+    "EmptyDisplayValue": "Няма показана стойност",
+    "NamePlaceholder": "Добави потребителско име"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "Затвори"
+  },
+  "WebchatPreview": {
+    "LoadError": {
+      "Title": "Preview unavailable",
+      "Subhead": "The widget could not be loaded from the service."
+    }
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "Съгласен"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "Изтегли файла"
+    },
+    "System": {
+      "ChatStartedMessage": "Чатът започна в: {chatStartedAt} от {chatStartedBy}"
+    },
+    "Feedback": {
+      "Like": "Харесай",
+      "Dislike": "Dislike",
+      "HelpfulQuestion": "Was this helpful?",
+      "CommentPlaceholder": "Optional comment…",
+      "Send": "Изпрати",
+      "Thanks": "Thanks!"
+    }
+  },
+  "ChatList": {
+    "NoDataMessage": "Все още няма скорошни чатове",
+    "CreateChatButton": "Започни нов чат",
+    "DraftPreview": "<span class='draft-preview'>Чернова: </span>",
+    "YourPreview": "Вие: ",
+    "RenameChat": {
+      "LabelTitle": "Преименувай чата",
+      "InputTitle": "Заглавие",
+      "SaveButton": "Запази",
+      "CancelButton": "Анулирай"
+    },
+    "ChatItem": {
+      "ActionsMenuCaption": "Действия"
+    },
+    "NoDataBySearchFilter": "Няма записи, отговарящи на критериите на филтъра",
+    "NoDataBySearchFilterSubtitle": "Изчисти филтъра или промени условията му ",
+    "ARIA": {
+      "Label": "Чат",
+      "ChatItem": "Чат: {0}. Последно съобщение: {1}",
+      "LoadMoreTrigger": "Зареди още"
+    },
+    "AlreadyAssignedChat": "Чатът беше възложен на друг агент"
+  },
+  "ChatTransfer": {
+    "ButtonCaption": "Прехвърляне на чата",
+    "AgentTab": "Агент",
+    "QueueTab": "Опашка",
+    "NoOperatorsAvailable": "Няма налични агенти",
+    "NoData": "Няма данни",
+    "OperatorStatus": {
+      "0": "Неактивно",
+      "1": "Активно",
+      "2": "Разговорите са превишени"
+    },
+    "InputPlaceholder": "Чатът е прехвърлен",
+    "NoQueuesAvailable": "Няма налични опашки",
+    "ActiveAgentsCount": "{{count}} активен агент(и)"
+  },
+  "ChatAttachmentTile": {
+    "AttachedFile": "Прикачен файл: {{fileName}}",
+    "DeleteFile": "Изтрий {{fileName}}"
+  },
+  "ChatQuickActions": {
+    "ButtonCaption": "Изпълни действие",
+    "NoActionsTemplate": "Няма налични действия. Моля добави действия в чата на ${link}.",
+    "ChatSettingsPage": "Страница с настройки за чат",
+    "ProcessExecutedSuccessfully": "Процесът е изпълнен успешно",
+    "ProcessExecutionFailed": "Изпълнението на процеса не бе успешно. Моля опитай отново."
+  },
+  "MessageTemplates": {
+    "ButtonCaption": "Отвори шаблони (кликни или напиши //)",
+    "NotFound": "Няма намерени шаблони",
+    "NoAvailable": "Няма налични шаблони",
+    "Group": {
+      "RecentlyUsed": "Последно използвани",
+      "Others": "Други"
+    }
+  },
+  "EmojiSelect": {
+    "ButtonCaption": "Добави емоджи",
+    "ButtonAriaLabel": "Отвори избиране на емоджи",
+    "PickerAriaLabel": "Избиране на емоджи"
+  },
+  "LinkChatToContact": {
+    "SelectContactCaption": "Избери: Контакт",
+    "ConfirmLinkMessage": "Всички чатове на текущия контакт ще бъдат свързани с избрания контакт и текущият контакт ще бъде изтрит. Искаш ли да продължиш?"
+  },
+  "Translations": {
+    "TargetLanguage": "целеви език",
+    "TranslatingTo": "Превеждане на {{language}}...",
+    "TranslatedTo": "Преведено на {{language}}",
+    "TranslationFailedDialog": "Преводът не бе успешен. Моля опитай отново."
+  },
+  "MessageComposer": {
+    "Chat": {
+      "ActiveChatExists": "There is already an active chat with the selected contact.",
+      "WhatsAppWindowExpired": "The message can't be sent outside the 24-hour messaging window.",
+      "WhatsAppWindowExpiredTooltip": "Learn more in the Academy <a href='https://academy.creatio.com/documents?id=2355' target='_blank' rel='noopener noreferrer'>article</a>",
+      "FacebookWindowExpired": "The message can't be sent outside the 24-hour messaging window. Facebook messenger only allows responses within 24 hours of the user's last message.",
+      "ChannelRestrictionError": "The message cannot be sent for the selected channel. Please check channel settings and try again.",
+      "Caption": "Chat composer",
+      "From": "От",
+      "To": "Да се",
+      "BodyPlaceholder": "Въведи съобщение",
+      "FromValidation": "“From” field cannot be blank. Please select a channel.",
+      "ToValidation": "“To” field cannot be blank. Please select a contact.",
+      "EmptyMessageValidation": "Message cannot be blank. Please type a message or attach a file.",
+      "ChatSent": "Chat message sent",
+      "SendError": "Failed to send a chat message. Please try again later."
+    },
+    "CancelButtonHint": "Отхвърли",
+    "CancelButtonText": "Отхвърли",
+    "SaveDraftButtonText": "Запази чернова",
+    "SendButtonHint": "Изпрати съобщение (Ctrl + Enter)",
+    "MessageSent": "Съобщението е изпратено",
+    "SendButtonText": "Изпрати",
+    "RemoveAttachmentHint": "Премахни прикачения файл",
+    "Caption": "Композитор на съобщение",
+    "Email": {
+      "Caption": "Композитор на имейл",
+      "From": "От",
+      "To": "Към",
+      "CC": "CC",
+      "BCC": "BCC",
+      "Subject": "Тема",
+      "PublishError": "Неуспешно изпращане на съобщение. Получена е следната грешка: {0}",
+      "SaveDraftError": "Черновата не може да бъде запазена. Моля, опитай отново по-късно",
+      "TemplateInsertError": "Не може да се добави шаблонът. Моля, опитай отново по-късно.",
+      "AttachmentsSizeLimitReached": "Общият размер на прикачените файлове е повече от разрешените {0} MB. Моля, премахни някои прикачени файлове.",
+      "FromValidationErrorMessage": "Полето „От“ не може да бъде празно. Моля, избери пощенска кутия.",
+      "ToValidationErrorMessage": "Полето „До“ не може да бъде празно. Моля, въведи поне един получател.",
+      "SubjectValidationErrorMessage": "Полето „Тема“ не може да бъде празно. Моля, въведи темата на имейла.",
+      "Draft": "Чернова",
+      "BodyPlaceholder": "Въведи съобщение",
+      "Reply": "Отговори",
+      "ReplyAll": "Отговори на всичко",
+      "Forward": "Напред",
+      "SentOn": "Изпратено на",
+      "SubjectToggleCaption": "Тема",
+      "CcToggleCaption": "CC",
+      "BccToggleCaption": "BCC",
+      "NotContainsEmail": "не съдържа имейл в него",
+      "ChangeReplyAction": "Промени действието за отговор",
+      "ShowTrimmedEmailTitle": "Покажи изрязания имейл",
+      "EmailTemplatesLookupCaption": "Избери шаблон",
+      "EmailTemplatesDisplayColumnCaption": "Име на шаблона",
+      "ContinueEditing": "Продължи редактирането",
+      "SaveDraft": "Запази чернова",
+      "DraftSaved": "Черновата е запазена",
+      "EmailSent": "Имейлът е изпратен",
+      "RemoveRecipientLabel": "Премахни получателя",
+      "ValidateUnhandledMacrosMessage": "There are no available values for some macros used in this email. We recommend removing the highlighted macros before sending. Send email now?",
+      "RemoveUnhandledMacros": "Remove unhandled macros",
+      "UnhandledMacrosRemovedConfirmation": "Unresolved macros were removed from the email. Send email now?",
+      "UnhandledMacrosRemoved": "Unhandled macros deleted successfully"
+    },
+    "Feed": {
+      "Caption": "Композитор на публикации"
+    },
+    "Selector": {
+      "Caption": "Композитор на съобщение"
+    },
+    "ComposerAreaLabel": "Област за въвеждане на съставител на съобщения",
+    "AttachmentPreview": "Преглед на прикачения файл",
+    "Attachment": {
+      "Added": "Прикаченият файл беше добавен.",
+      "Removed": "Прикаченият файл беше премахнат."
+    },
+    "SendEmailErrorMessage": "Възникна неочаквана грешка при изпращането на имейла. Моля опитай отново по-късно."
+  },
+  "Chat": {
+    "UnknownContact": "Unknown contact"
+  },
+  "ChannelChatPreview": {
+    "EmptyChannel": "Save the channel to start a preview conversation.",
+    "StartTyping": "Send a message to start the conversation.",
+    "ComposerAriaLabel": "Preview message",
+    "ComposerPlaceholder": "Въведи съобщение",
+    "Send": "Изпрати",
+    "SendError": "Failed to send the message. Please try again.",
+    "StartError": "Could not start the preview session. Please try again."
+  },
+  "MessageDeliveryStatus": {
+    "Sending": "Изпращане",
+    "Sent": "Изпратено",
+    "Delivered": "Доставено",
+    "Read": "Прочети",
+    "Failed": "The message could not be sent due to an unexpected error. Try again later or contact support if the issue continues."
+  },
+  "MessageDeliveryError": {
+    "Unknown": "The message could not be sent due to an unexpected error. Try again later or contact support if the issue continues.",
+    "FileSizeExceeded": "The message exceeds the maximum length allowed by this channel. Shorten the message or send it in multiple parts.",
+    "UnsupportedFileType": "This channel does not support the attachment used in the message. Remove the attachment or send a supported file type.",
+    "InvalidRecipient": "The recipient address appears to be invalid. Please check the contact details and try again.",
+    "AuthenticationFailed": "The messaging channel authentication is invalid or expired. Reconnect the integration to continue sending messages.",
+    "RateLimitExceeded": "Message sending is temporarily limited due to high activity. Please wait a moment and try again.",
+    "NetworkError": "The messaging service is temporarily unavailable. Try sending the message again later.",
+    "BotBlocked": "The user has blocked this account, so messages cannot be delivered. Ask the user to unblock the account and send a message first.",
+    "ChatNotFound": "The user has not started a conversation with this account yet. Ask the user to send the first message to begin the chat.",
+    "MessageTooLong": "The message exceeds the maximum length allowed by this channel. Shorten the message or send it in multiple parts.",
+    "ProviderError": "The messaging service is temporarily unavailable. Try sending the message again later.",
+    "AttachmentError": "This channel does not support the attachment used in the message. Remove the attachment or send a supported file type."
+  },
+  "AccountCompactProfileDT": {
+    "DesignerNamePlaceholder": "Име на Юридическото Лице",
+    "AlternativeNamePlaceholder": "Известен също като",
+    "CountryPlaceholder": "Държава"
+  },
+  "ContactCompactProfileDT": {
+    "DesignerNamePlaceholder": "Име на контакта",
+    "DesignerBirthDatePlaceholder": "Рождена дата",
+    "CountryPlaceholder": "Държава"
+  },
+  "Feed": {
+    "Caption": "Публикация",
+    "SortByCreatedOn": "Сортирай по дата на съобщение",
+    "SortByLastAction": "Сортирай по дата на последната дейност",
+    "ShowMoreThanOneNewSocialMessages": "Покажи {0} нови съобщения",
+    "ShowNewSocialMessage": "Покажи 1 ново съобщение",
+    "Item": {
+      "Edit": "Редактирай",
+      "Delete": "Изтрий",
+      "DeletionConfirmation": "Сигурен ли си, че искаш да изтриеш записа? Това действие не може да бъде отменено.",
+      "DeletionErrorMsg": "Записът не беше изтрит. Моля, опитай отново по-късно.",
+      "DownloadFile": "Изтегли"
+    },
+    "Publisher": {
+      "DefaultInputPlaceholder": "Публикувай съобщението…",
+      "DisabledInputPlaceholder": "Не може да създаваш нови публикации на страницата за нов запис.",
+      "UserFeedInputPlaceholder": "Публикацията е в потребителски режим. Не може да създаваш нови публикации в този режим.",
+      "CommentInputPlaceholder": "Напиши коментар…",
+      "ShareWithPortal": "Сподели с потребител на портала",
+      "PostingErrorMsg": "Грешка при записването на публикацията",
+      "PostingEmptyMsg": "Моля напиши съобщение, за да продължиш.",
+      "SendButtonHint": "Изпрати съобщение (Ctrl + Enter)",
+      "CancelButtonHint": "Анулирай",
+      "ExternalMessagesDisabled": "Моля, имай предвид, че външният потребител няма да може да прочете съобщението, тъй като тази опция е деактивирана във времето за проектиране на компонента.",
+      "ConfirmMessageAccessLevelChange": "Моля потвърди, че искаш да промениш нивото на видимост на публикацията. Моля, обърни внимание: публикацията, свързаните коментари и прикачени файлове ще станат видими за външни потребители.",
+      "ConfirmCommentAccessLevelChange": "Моля потвърди, че искаш да промениш нивото на видимост на коментара. Моля имай предвид, че коментарът и свързаните с него прикачени файлове ще станат видими за външни потребители."
+    },
+    "Post": {
+      "AddCommentButtonCaption": "Добави коментар",
+      "CommentsButtonCaption": "Коментари",
+      "CommentsButtonHint": "Покажи коментарите",
+      "ExpandedCommentsButtonHint": "Скрий коментарите",
+      "PostedInLabel": "публикувано в"
+    },
+    "Reactions": {
+      "Like": "Харесай",
+      "ExtraReactionsTemplate": "и {0} още...",
+      "PostLiked": "Публикацията беше харесана.",
+      "LikeRemoved": "Харесано беше премахнато от публикацията."
+    },
+    "NoDataContainerLabel": "Толкова тихо!",
+    "ExternalUserTagCaption": "Външен",
+    "DraftItemTagCaption": "Чернова",
+    "ExternalUserTagTooltip": "Публикация за външни потребители",
+    "SortButtonCaption": "Сортирай публикациите",
+    "ActionsButtonCaption": "Действия",
+    "FollowButtonCaption": "Следвай публикацията",
+    "UnfollowButtonCaption": "Отследвай публикацията",
+    "Following": {
+      "ButtonCaption": {
+        "Follow": "Следвай публикацията",
+        "Unfollow": "Отследвай публикацията"
+      },
+      "NotificationTemplate": {
+        "Follow": "Ти следваш обновяванията на публикация: {0}",
+        "Unfollow": "Прекратил си следването на обновяванията на публикация: {0}"
+      }
+    },
+    "FollowNotificationTemplate": "Вы подписались на обновления ленты: {0}",
+    "UnfollowNotificationTemplate": "Вы отписались от обновлений ленты: {0}",
+    "AiGeneratedItemTagCaption": "AI-generated"
+  },
+  "Dashboards": {
+    "SelectDashboard": "Избери информационно табло",
+    "NoData": "Няма свързани информационни табла за показване",
+    "NoData2": "Добави информационно табло, за да изглежда по-хубаво",
+    "CreateNewDashboardButton": "Добави ново информационно табло",
+    "AccessDenied": "Нямаш разрешение за редакция на този елемент",
+    "DialogWindow": {
+      "DeleteDashboard": {
+        "ConfirmationMessage": "Сигурен ли си, че искаш да изтриеш избраното информационно табло?",
+        "FailMessage": "За съжаление не може да изтриеш избраното информационно табло"
+      }
+    },
+    "ActionsToolbar": {
+      "Title": "Действия",
+      "Edit": "Редактирай",
+      "Copy": "Копирай",
+      "Delete": "Изтрий",
+      "Rights": "Настрой права за достъп"
+    },
+    "All": "Всичко",
+    "Favorites": "Любими",
+    "AddToFavoritesButton": "Добави в любими",
+    "RemoveFromFavoritesButton": "Премахни от любими"
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "Настройки на информационното табло",
+    "GeneralGroup": {
+      "Caption": "Общо",
+      "DataSource": "Източник на данни",
+      "DataSourceTooltip": "Източникът на данни ще бъде зададен като основен източник на данни за всяко информационно табло, създадено в този компонент",
+      "DataSourceDependenciesSettingTooltip": "Филтрирането по данни на страница ти позволява да показваш свързаните данни в информационното табло",
+      "DataSourceFilterElementsGroupTooltip": "Настройката ти позволява да използваш предварително конфигурирани филтри от папки или други елементи за филтриране на данни като филтри на страници"
+    },
+    "DashboardsGroup": {
+      "Caption": "Информационни табла",
+      "AddDashboard": "Добави ново информационно табло",
+      "InfoTooltip": "Списъкът с информационни табла показва само онези елементи, които са схеми в конфигурацията",
+      "ContextMenu": {
+        "Copy": "Копирай",
+        "Delete": "Изтрий",
+        "Edit": "Редактирай"
+      },
+      "DialogMessages": {
+        "DeleteDashboard": {
+          "Confirmation": {
+            "Default": "Сигурен ли си, че искаш да изтриеш информационното табло \"{{caption}}\"?",
+            "WithUserLevelSchema": "Таблото за управление, което искаш да изтриеш има зависимо табло: схема за краен потребител \"{{caption}}\". Ако продължиш и двете табла ще бъдат изтрити. Да се продължи ли?"
+          },
+          "UnableToDelete": {
+            "InReadOnlyPackage": "Информационното табло \"{{caption}}\" не може да бъде изтрито, защото е създадено от издател на трета страна или е инсталирано от файла.",
+            "DependsOnSchema": "Не може да се изтрие информационното табло \"{{caption}}\" , защото има зависими схеми за конфигурация"
+          }
+        }
+      }
+    },
+    "AdvancedSettingsGroup": {
+      "CannotRenameElementInfoTooltip": "Не може да преименуваш елемента, защото има обвързани информационни табла"
+    }
+  },
+  "Icon": {
+    "PropertiesPanel": {
+      "Caption": "Икона",
+      "General": {
+        "Caption": "Общо",
+        "Icon": {
+          "Label": "Икона"
+        },
+        "Color": {
+          "Label": "Цвят"
+        },
+        "Size": {
+          "Label": "Размер",
+          "Options": {
+            "Small": "Малко",
+            "Medium": "Среден",
+            "Large": "Голям",
+            "ExtraLarge": "Много голям"
+          }
+        },
+        "Spacing": {
+          "Label": "Padding",
+          "Tooltip": "Controls the space between the icon and the edges of the component",
+          "Options": {
+            "None": "Лисва стойност",
+            "ExtraSmall": "Extra Small",
+            "Small": "Малко",
+            "Medium": "Средно",
+            "Large": "Голям",
+            "ExtraLarge": "Много голям",
+            "ExtraExtraLarge": "Extra Extra Large"
+          }
+        },
+        "Background": {
+          "TypeLabel": "Background type",
+          "ColorLabel": "Цвят на задния фон",
+          "Options": {
+            "None": "Липсва стойност",
+            "Square": "Square",
+            "Circle": "Circle"
+          }
+        },
+        "Accessibility": {
+          "NameLabel": "Accessible name",
+          "NameTooltip": "The text read by screen readers to describe the icon",
+          "TooltipLabel": "Подсказка"
+        }
+      }
+    },
+    "Caption": "Икона",
+    "Hint": "A visual component that allows you to represent actions and states in a clear and intuitive way"
+  },
+  "IFrame": {
+    "Caption": "iFrame",
+    "Hint": "iFrame компонентът позволява вграждане и показване на съдържание в HTML или URL формат",
+    "Placeholder": {
+      "NothingToShow": "Още няма нищо за показване",
+      "NoContent": "Няма налично съдържание в тази секция"
+    },
+    "ContentUnavailable": {
+      "Title": "Съдържанието не е налично",
+      "SubTitle": "Поради твоите мрежови настройки, правила за сигурност на браузъра или ограничения на съдържанието",
+      "LinkTitle": "Научи повече в нашата Академия"
+    },
+    "PropertiesPanel": {
+      "Caption": "Настройки на iFrame",
+      "GeneralSettings": {
+        "Caption": "Общо",
+        "ContentTypeLabel": "Тип съдържание",
+        "ContentValueLabel": "Съдържание за показване",
+        "UrlContentPlaceholder": "https://mysitename.com",
+        "UrlContentTooltip": "За да се гарантира правилното показване на съдържанието увери се, че е вярно следното: <ul><li>Източникът позволява вграждане във iframe</li><li>Връзката използва HTTPS протокола</li><li>Домейнът на източника е включен в списъка с надеждни източници на твоята Политика за сигурност на съдържанието. Препоръчваме да добавиш поне две разрешени директиви към него: connect-src и frame-src</li></ul>"
+      },
+      "PermissionsSettings": {
+        "Caption": "Permissions",
+        "AllowLabel": "Позволени характеристики",
+        "AllowTooltip": "Указва кои функции на браузъра е разрешено да използва вграденото съдържание, например камера, микрофон, цял екран. <br/>Обърни се към <a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy' target='_blank' rel='noopener noreferrer'>документацията на MDN</a> за повече информация.",
+        "SandboxLabel": "Разрешения на пясъчник",
+        "SandboxTooltip": "Указва кои ограничения за пясъчната среда се премахват за вграденото съдържание. Предоставяй само необходимите разрешения. <br/>Обърни се към <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox' target='_blank' rel='noopener noreferrer'>документацията на MDN</a> за повече информация."
+      }
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Следващ месец",
+    "AriaPrevMonthLabel": "Предишен месец",
+    "AriaNextYearLabel": "Следващата година",
+    "AriaPrevYearLabel": "Предходната година",
+    "Readonly": "Поле без възможност за редакция",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Календар",
+    "TimePickerIconTitle": "Време",
+    "AriaTimeListLabel": "Time options"
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Филтър за йерархия на обекти",
+    "GeneralCaption": "Общо",
+    "SchemaNameCaption": "Избери обект за изграждане на йерархия",
+    "HierarchySetup": "Настройка на йерархията",
+    "SchemaNameSelectTooltip": "Избери обект, върху който да се изгради йерархията. Всички системни обекти се показват в падащото меню. След като конфигурираш йерархията, свържи я с компонента Списък, като я посочиш като предварително конфигуриран филтър.",
+    "ApplyStaticFilter": "Приложи статичен филтър",
+    "EditStaticFilterAction": "Редактирай филтъра",
+    "FiltersDialogCaption": "Ръчно определен филтър",
+    "SetupStaticFilterAction": "Настрой филтъра",
+    "DisplayModeCaption": "Тип йерархия",
+    "ManualDisplayMode": "Ръчно",
+    "ByParentDisplayMode": "По родител"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Добави нова йерархична колона",
+    "ContextMenu": {
+      "AddToSubmenu": "Добави подйерархия",
+      "Edit": "Редактирай",
+      "Delete": "Изтрий"
+    }
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "Всичко",
+    "NotFilledNode": "Не е попълнено",
+    "SpecificationFilterCaption": "Отвори допълнително филтриране",
+    "BackButtonCaption": "Назад",
+    "ClearAllFiltersButtonCaption": "Изчисти всичко",
+    "NoDataCaption": "Няма данни"
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "Промяна на регистъра на DCM. Има по-подходяща конфигурация за този обект.",
+    "ConfirmChangeCaseDialogMessage": "Искаш ли да замениш текущата версия на случая?",
+    "SnackbarActualFilterCaseMessage": "Има по-подходящ случай „{{caption}}“. Да се подмени ли?",
+    "SnackbarIgnoreButtonCaption": "Игнорирай",
+    "SnackbarReplaceButtonCaption": "Смени",
+    "SnackbarEntityProcessChangedMessage": "Случаят е променен успешно."
+  },
+  "NextSteps": {
+    "Caption": "Следващи стъпки",
+    "CompleteButtonCaption": "Завърши",
+    "AddNewStepMenuCaption": "Добави нова стъпка",
+    "CreateActivityButtonCaption": "Създай задача",
+    "CreateEmailButtonCaption": "Създай имейл",
+    "NoDataContainerLabel": "Няма нищо за показване тук!",
+    "NoDataContainerDescription": "Няма добавени стъпки за този етап",
+    "OwnerHint": "Присвоен потребител",
+    "OwnerRoleHint": "Назначена група",
+    "RequiredStepHint": "Необходима стъпка",
+    "ApprovalApprovedSnackbarCaption": "Заявката беше одобрена",
+    "ApprovalRejectedSnackbarCaption": "Искането беше отхвърлено",
+    "TypeFilterCaption": "Тип",
+    "TypeFilterHint": "Тип"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Средство за избиране на цвят",
+        "AppearanceGroup": "Външен вид",
+        "PickerModeRadioButtonCaption": "Палитра",
+        "PickerMode": {
+          "Basic": "Основна палитра",
+          "Extended": "Разширена палитра"
+        }
+      },
+      "AppearanceGroup": "Външен вид",
+      "BindToDataSourceCaption": "Източник на данни",
+      "DataSourceAttributeNotFoundErrorMessage": "Елементът с пътя „{0}“ не е намерен",
+      "Editability": "Редактируемост",
+      "EditabilityControls": {
+        "Readonly": "Само за четене",
+        "Disabled": "Изключено"
+      },
+      "TitleOnPage": "Заглавие на страница",
+      "Multiline": "Многоредов текст",
+      "LabelPosition": "Позиция на заглавието",
+      "LabelPositionVariants": {
+        "Auto": "Автоматично",
+        "Left": "Ляво",
+        "Right": "Дясно",
+        "Above": "Отгоре",
+        "Hidden": "Скрити"
+      },
+      "Placeholder": "Заместител",
+      "Combobox": {
+        "IsAddAllowed": "Разреши добавянето на нови стойности",
+        "ShowValueAsLink": "Показване на стойност като линк",
+        "IsGoToSourceAllowed": "Разреши отварянето на списъка със записи",
+        "ValueDetailsLabel": "Подробности за стойността на полето",
+        "ValueDetailsTooltip": "Подробностите за стойността на полето ще бъдат показани въз основа на конкретния запис за справка",
+        "SecondaryDisplayValueLabel": "Допълнителна стойност на дисплея",
+        "SecondaryDisplayValueTooltip": "Допълнителна информация, която трябва да се покаже в падащия списък"
+      },
+      "Tooltip": "Подсказка",
+      "DisplayPhoneMask": "Покажи маска на телефона",
+      "FileEntitySchemaLabel": "Място за съхранение на файлове",
+      "TooltipHint": "Подсказката поддържа както обикновен текст, така и HTML съдържание. Моля увери се, че твоето HTML съдържание е стегнато и адаптивно към размера на подсказката.",
+      "SelectDataSource": "Избери източник на данни"
+    },
+    "WidgetPropertiesPanel": {
+      "HeaderLabel": "Настройки на уиджета",
+      "GeneralLabel": "Общо",
+      "TitleLabel": "Заглавие",
+      "ColorLabel": "Цвят",
+      "StyleLabel": "Стил",
+      "SizeLabel": "Размер",
+      "Styles": {
+        "FullyColored": "Напълно оцветен",
+        "PlainWhite": "Обикновен бял",
+        "PartiallyColored": "Частично оцветен",
+        "Glassmorphism": "Стъклен ефект",
+        "Transparent": "Прозрачно"
+      },
+      "Sizes": {
+        "ExtraSmall": "Много малко",
+        "Small": "Малко",
+        "Medium": "Средно",
+        "Large": "Голямо",
+        "ExtraLarge": "Много голямо"
+      },
+      "ContextMenu": {
+        "Edit": "Редактирай"
+      },
+      "ChartSeries": "Серия от графики",
+      "SeriesControlLabel": "Заглавие",
+      "SetupBlockCaption": "Настрой диаграмата",
+      "SetupButtonLabel": "Настройки на диаграмата",
+      "FilterByActiveItemTooltip": "Избери, за да позволите на потребителите да филтрират данните от диаграмата по активния ред на свързания източник на данни",
+      "AppearanceGroup": {
+        "Caption": "Външен вид"
+      },
+      "HideBorderLabel": "Скрий границата",
+      "HideTitleLabel": "Скрий заглавието",
+      "ProvidingSettings": {
+        "AggregationFunctions": {
+          "Sum": "Сума",
+          "Avg": "Средна стойност",
+          "Min": "Минимум",
+          "Max": "Максимум",
+          "Count": "Брой",
+          "Label": "Функция",
+          "Formula": "Формула",
+          "SetupFormula": "Настрой формулата",
+          "ChangeFormula": "Промени формулата"
+        },
+        "Formula": {
+          "AggregationSetupDialog": {
+            "Title": "Настройка на елемент от формулата",
+            "TitlePlaceholder": "Въведи заглавие, за да идентифицираш този елемент във формулата.",
+            "ObjectLabel": "Обект",
+            "ColumnLabel": "Колона",
+            "TitleLabel": "Заглавие",
+            "StaticFilterTab": "Статичен филтър",
+            "DynamicFilterTab": "Динамичен филтър",
+            "Save": "Запази",
+            "Cancel": "Анулирай"
+          },
+          "Toolbar": {
+            "Count": "Брой",
+            "Sum": "Сума",
+            "Avg": "Средно",
+            "Min": "Мин",
+            "Max": "Макс"
+          },
+          "Editor": {
+            "Count": "БРОЙКА",
+            "Sum": "СУМА",
+            "Avg": "СРЕДНО",
+            "Min": "МИН",
+            "Max": "МАКС"
+          }
+        },
+        "ObjectLabel": "Обект",
+        "ColumnLabel": "Име"
+      },
+      "FormatSettings": {
+        "Format": "Формат",
+        "Template": {
+          "Label": "Текст",
+          "Hint": "Въведи текста съпътстващ стойността. Например \"{0} артикула“ или \"$ {0}“"
+        },
+        "LabelPosition": {
+          "Label": "Позиция на текста",
+          "AboveAndUnder": "Над и под стойността",
+          "BeforeAndAfter": "Стойност преди и след"
+        },
+        "NumberOfDigits": {
+          "Label": "Брой цифри след десетична запетая"
+        },
+        "ShowTime": "Show time"
+      },
+      "ComparisonSettings": {
+        "Title": "Сравнение",
+        "CompareWithAnotherValue": "Compare with another value",
+        "InvalidDateMetric": "Comparison is not available for the selected date/time metric. Please change the aggregation function and column.",
+        "ConfigureHint": "Configure the comparison value to show the difference from the main metric",
+        "SetupComparison": "Set up comparison",
+        "EnableComparison": "Enable comparison",
+        "CopySettingsHint": "Reuse the configuration from Metric values and adjust it if needed.",
+        "CopySettingsLink": "Copy value settings",
+        "ApplyStaticFilter": "Приложи статичен филтър",
+        "SetupFilterButton": "Настрой филтъра",
+        "TrendIndicatorLabel": "Trend indicator",
+        "TrendVisualizationLabel": "Trend visualization",
+        "UpTrendColorLabel": "Up trend color",
+        "DownTrendColorLabel": "Down trend color",
+        "FormatSectionTitle": "Формат",
+        "ComparisonTextLabel": "Comparison value text",
+        "ComparisonTextPlaceholder": "e.g., vs previous month",
+        "ChangeFormatLabel": "Change format",
+        "ComparisonTypes": {
+          "Absolute": "Absolute",
+          "Percent": "%"
+        },
+        "TrendIndicators": {
+          "Arrow": "Стрелка",
+          "Triangle": "Triangle",
+          "Circle": "Circle"
+        }
+      }
+    },
+    "SliderPropertiesPage": {
+      "ColorLabel": "Стил",
+      "Colors": {
+        "Accent": "Фокус",
+        "Primary": "Основен",
+        "Warn": "Внимание",
+        "Default": "По подразбиране"
+      },
+      "ReadonlyLabel": "Само за четене",
+      "StepLabel": "Стойност на стъпката",
+      "MinValueLabel": "Минимална стойност",
+      "MaxValueLabel": "Максимална стойност",
+      "Validations": {
+        "GreaterThanZeroCaption": "Стойността трябва да е по-голяма от 0",
+        "MinValueLessThanMaxValueCaption": "Минималната стойност трябва да е по-малка от максималната стойност",
+        "MaxValueGreaterMinValueCaption": "Минималната стойност трябва да е по-малка от максималната стойност",
+        "StyleIsInvalidCaption": "Стилът е неправилен"
+      }
+    },
+    "ContainerPropertiesPage": {
+      "GeneralGroup": "Общо",
+      "AppearanceGroup": "Външен вид",
+      "ColorLabel": "Цвят",
+      "BorderRadiusLabel": "Радиус на границата",
+      "Sizes": {
+        "None": "Липсва стойност",
+        "Small": "Малък",
+        "Medium": "Среден",
+        "Large": "Голям",
+        "ExtraSmall": "Много малко"
+      },
+      "PaddingGroup": "Разстояние",
+      "Padding": {
+        "Top": "Горна част",
+        "Bottom": "Долу",
+        "Left": "Ляво",
+        "Right": "Дясно"
+      },
+      "StretchLabel": "Разтегни до родителския контейнер",
+      "FitContentLabel": "Вмести съдържанието",
+      "AlignItemsLabel": "Подравнете елементите",
+      "AlignItems": {
+        "Stretch": "Разшири",
+        "Start": "Старт",
+        "Center": "Центрирай",
+        "End": "Край"
+      },
+      "Grid": {
+        "PageCaption": "Настройки на мрежовия контейнер",
+        "ColumnsLabel": "Брой колони",
+        "ColumnGapFieldLabel": "Разстояние между колоните",
+        "RowGapFieldLabel": "Разстояние между редовете"
+      },
+      "Flex": {
+        "PageCaption": "Настройки на Flex контейнер",
+        "Direction": "Посока",
+        "Row": "Ред",
+        "Column": "Колона",
+        "Gap": "Празнина",
+        "WrapLabel": "Обвиване на елементи",
+        "JustifyContentLabel": "Подравни съдържанието",
+        "JustifyContent": {
+          "Start": "Старт",
+          "Center": "Центрирай",
+          "End": "Край",
+          "SpaceBetween": "Разстояние между"
+        }
+      },
+      "MobileGrid": {
+        "LayoutSetup": "Настройка на оформлението",
+        "UseAdaptiveLayout": "Използвай адаптивно оформление",
+        "ColumnsSmall": "Брой колони за телефон",
+        "ColumnsMedium": "Брой колони за таблет (портрет)",
+        "ColumnsLarge": "Брой колони за таблет (пейзаж)",
+        "DisableAdaptiveConfirmation": "Деактивирането на адаптивното оформление ще премахне конфигурациите, специфични за точките на прекъсване. Текущото оформление ще се използва за всички размери на екрана. Искаш ли да продължиш?"
+      }
+    },
+    "PrintablesRequestPropertiesPanel": {
+      "ViewSelectCaption": "Кои данни да се отпечатат?",
+      "PrintablesSettingsCaption": "Настройки за печат",
+      "PrintOnRecord": "Отпечатай отчета за текущия запис",
+      "PrintOnList": "Отпечатай отчета за списъка със записи"
+    },
+    "PageAddonsPropertiesPanel": {
+      "SidebarDesignDialog": {
+        "Title": "Параметри на страничната лента",
+        "Fields": {
+          "Title": "Заглавие",
+          "Code": "Код",
+          "Icon": "Икона на страничната лента",
+          "Group": "Локация",
+          "Index": "Позиция на страничната лента",
+          "Enabled": "Разрешено",
+          "OperationPermission": "Код за разрешение за работа",
+          "AutoHideNotificationMark": "Скрий автоматично знака за известия",
+          "AllowSizeAdjustment": "Позволи регулирането на ширината на страничната лента",
+          "Container": "Позиция на панела"
+        },
+        "PredefinedGroups": {
+          "CommunicationPanel": "Комуникационен панел",
+          "NotificationsPanel": "Панел за известия"
+        },
+        "Validations": {
+          "CodePrefixTemplate": "Кодът трябва да започва с префикса \"{0}\"",
+          "CodePattern": "Невалидна или празна стойност. Използвай символи: (a-z), (A-Z), (0-9), ( _ ). Символи: a-z, A-Z трябва да са първи.",
+          "SidebarCodeAlreadyExists": "Този код на страничната лента вече се използва"
+        },
+        "Placeholders": {
+          "OperationPermission": "Страничната лента е достъпна за всички служители",
+          "Group": "Ако е празна, страничната лента става самостоятелен панел",
+          "Container": "Избери позиция на панела"
+        },
+        "Tooltips": {
+          "Group": "За да направиш страничната лента самостоятелен панел в горната част на работната зона, остави полето празно.",
+          "Index": "Номерът на страничната лента определя нейната позиция в панела. Стандартното номериране на страничната лента е 1000, 2000, 3000 и т. н. Използвай числото, по-ниско от 1000, за да поставиш страничната лента по-високо, или повече от 1000, 2000, 3000, за да поставиш страничната лента между съществуващите странични ленти.",
+          "IndexWhenEmptyGroup": "Номерът на страничната лента определя нейната позиция в горната част на работната зона. Номерирането на панелите извън кутията е 9000, 10000. Използвай числото, по-малко от 9000, за да поставиш панела си отляво или повече от 9000, за да поставиш панела между съществуващите панели.",
+          "OperationPermission": "Остави полето празно, за да се покаже страничната лента за всички служители. Посочи кода на системната операция и настрой разрешения за достъп чрез операцията, за да предоставиш достъп до страничната лента на конкретни служители, потребителски групи или външни потребители.",
+          "AutoHideNotificationMark": "Включи, за да скриеш знака за известяване, когато потребител кликне върху страничната лента, изключи, за да кодираш персонализирано поведение.",
+          "AllowSizeAdjustment": "Позволява ръчно регулиране на ширината на страничната лента. Тази функция е налична само за странични ленти, добавени като самостоятелни панели.",
+          "Container": "Тази настройка контролира от коя страна на екрана се показва страничната лента. Панелът се показва отдясно по подразбиране, но може да го превключиш наляво ако е необходимо."
+        },
+        "PredefinedContainers": {
+          "LeftContainer": "Лявата страна на екрана",
+          "RightContainer": "Дясната страна на екрана"
+        }
+      },
+      "UseSidebar": "Използвай страницата като странична лента",
+      "UseSidebarTooltip": "Страничните ленти са специални страници, които може да видиш, като кликнеш върху бутоните в горния десен ъгъл на потребителския интерфейс на Creatio, например публикации или чатове. <a href ='{0}' target='_blank'>Научи повече в Академията</a>",
+      "ManageSidebarParameters": "Управление на параметрите на страничната лента"
+    },
+    "RunBusinessProcessRequestPropertiesPanel": {
+      "Validators": {
+        "SelectProcessWithParameters": "Избери процеса и задай поне един параметър"
+      }
+    },
+    "PropertiesPanelAdvancedSettings": {
+      "AdvancedGroup": "Разширено",
+      "CodeLabel": "Код на елемента",
+      "DuplicateNameMessage": "Елемент със същия код вече съществува",
+      "SaveButtonTitle": "Запази",
+      "CancelButtonTitle": "Анулирай",
+      "NameValidationMsg": "Невалидна или празна стойност. Използвай символи: (a-z), (A-Z), (0-9), ( _ ). Символи: a-z, A-Z трябва да са първи.",
+      "CodeChangeForbiddenText": "Кодът на елемента не може да бъде променен, защото е добавен в родителската страница"
+    },
+    "TogglePanelAppearanceSettings": {
+      "ToggleViewModeLabel": "Превключи режима на преглед",
+      "ToggleViewMode": {
+        "Dropdown": "Падащо меню",
+        "Button": "Бутон"
+      },
+      "DefaultTabLabel": "Раздел по подразбиране"
+    },
+    "DashboardPagePropertiesPanel": {
+      "NoAccessToChangeNameTooltip": "Нямаш разрешение да променяш кода на схемата"
+    },
+    "TabPanelAppearanceSettings": {
+      "DefaultTabLabel": "Раздел по подразбиране",
+      "TabPanelColorSubGroup": "Цветове на панела с раздели",
+      "StyleTypeLabel": "Стилове",
+      "BodyBackgroundColor": "Тяло",
+      "SelectedTabCaptionColor": "Избрано",
+      "TabCaptionColor": "Неизбрано",
+      "HeaderBackgroundColor": "Хедър",
+      "UnderlineSelectedTabColor": "Подчертан раздел",
+      "TabCaptionColorSubGroup": "Цвят на заглавието на раздела"
+    },
+    "TabPanelPropertiesPage": {
+      "GeneralCaption": "Общо",
+      "TabsPageCaption": "Настройки на разделите",
+      "TogglePageCaption": "Настройки на панела за превключване",
+      "ItemsLabel": "Раздели",
+      "AddNewItem": "Добави раздел",
+      "AppearanceGroup": "Външен вид",
+      "TabStyleDefaultCaption": "Обикновено бяло",
+      "TabStylePartiallyColoredCaption": "Частично оцветено",
+      "TabStyleFullyColoredCaption": "Напълно оцветено",
+      "ContextMenu": {
+        "Edit": "Редактирай",
+        "Copy": "Копирай",
+        "Remove": "Изтрий"
+      },
+      "ModeLabel": "Режим",
+      "ModeTab": "Раздели",
+      "ModeToggle": "Превключва",
+      "Scrollable": "Побери според наличното пространство"
+    },
+    "PagePropertiesPage": {
+      "BusinessRulesGroup": "Бизнес правила",
+      "PageCaption": "Настройки на страницата",
+      "GeneralLabel": "Общо",
+      "AppearanceGroup": "Външен вид",
+      "NameLabel": "Код",
+      "PackageLabel": "Пакет",
+      "ParentPageLabel": "Родителска страница",
+      "OpenInterfaceDesigner": "Отвори интерфейс дизайнера",
+      "ExtendParentPageLabel": "Замени родителската страница",
+      "DescriptionLabel": "Описание",
+      "CaptionLabel": "Заглавие",
+      "BackToSettings": "Назад към настройките на \"{{name}}\"",
+      "AdvancedPanel": "Разширено",
+      "Validations": {
+        "RequiredNameMessage": "Въведи стойност",
+        "PatternNameMessage": "Невалидна стойност. Използвай символи: a-z, A-Z, 0-9. Символи: 0-9 не могат да бъдат първи",
+        "PrefixNameMessage": "Кодът трябва да започва с префикса \"{0}\"",
+        "DuplicateNameMessage": "Елемент с това име вече съществува",
+        "RequiredCaptionMessage": "Въведи стойност"
+      },
+      "EntitySchemaNameLabel": "Източник на данни"
+    },
+    "ButtonPropertiesPage": {
+      "GeneralGroup": "Общо",
+      "CaptionLabel": "Заглавие",
+      "ColorFieldLabel": "Стилове",
+      "Colors": {
+        "Accent": "Фокус",
+        "Primary": "Основен",
+        "Warn": "Предупреждение",
+        "Default": "Обикновен",
+        "Outline": "Очертание",
+        "PlainWhite": "Обикновено бяло",
+        "OutlineWhite": "Бяло с контур",
+        "Secondary": "Вторично"
+      },
+      "ActionLabel": "Действие",
+      "MenuItemsLabel": "Меню елементи",
+      "AppearanceGroup": "Външен вид",
+      "AddNewItem": "Добави нов елемент",
+      "ButtonSizeFieldLabel": "Размер",
+      "Sizes": {
+        "Small": "Малко",
+        "Medium": "Средно",
+        "Large": "Голямо",
+        "ExtraLarge": "Много голям",
+        "2XLarge": "Двойно екстра голямо",
+        "3XLarge": "Тройно екстра голямо"
+      }
+    },
+    "ReorderContextMenu": {
+      "MoveUp": "Премести нагоре (Ctrl+Up)",
+      "MoveDown": "Премести надолу (Ctrl+Down)"
+    },
+    "MenuItemsContainerPropertiesPanel": {
+      "AddNewItem": "Добави нов елемент",
+      "MenuItemsLabel": "Меню елементи",
+      "ContextMenu": {
+        "AddToSubmenu": "Добави към подменю",
+        "Copy": "Копирай",
+        "Edit": "Редактирай",
+        "Delete": "Изтрий"
+      },
+      "CopyPostfix": " - Копирай"
+    },
+    "ExecuteIntentUserTaskPropertiesPanel": {
+      "PageCaption": "Подагент",
+      "GeneralGroup": "Общо",
+      "CaptionLabel": "Заглавие",
+      "IntentSchemaLabel": "На кой подагент да се обадя?",
+      "ChangeSchemaWarningMessage": "Сигурен ли си, че искаш да промениш схемата на елементи? Всички параметри ще бъдат загубени.",
+      "OpenDesignerButtonTitle": "Open sub-agent",
+      "SkillParametersGroup": "Параметри на подагент",
+      "NoParameters": "No parameters",
+      "NoFiles": "No files",
+      "ParameterValueSource": {
+        "ProcessParameter": "Параметър на процеса",
+        "SystemSetting": "Системна настройка",
+        "Formula": "Формула"
+      },
+      "AdvancedGroup": "Разширено",
+      "CodeLabel": "Код на елемента",
+      "AddFilesGroup": "Добави файлове",
+      "CreateFile": "Добави файл",
+      "ParameterTitleLabel": "Заглавие",
+      "ParameterDescriptionLabel": "Описание",
+      "ParameterCodeLabel": "Код",
+      "ParameterDataTypeLabel": "Тип данни",
+      "ParameterValueLabel": "Стойност"
+    },
+    "DrilldownConfigPropertiesPanel": {
+      "HeaderLabel": "Drilldown config",
+      "TitleLabel": "Заглавна колона",
+      "Columns": {
+        "ColumnsLabel": "Колони",
+        "AddColumn": "Добави колона",
+        "EmptyState": "No columns selected. Use + to add columns shown in the mobile drilldown table.",
+        "ContextMenu": {
+          "MoveUp": "Премести нагоре (Ctrl+Up)",
+          "MoveDown": "Премести надолу (Ctrl+Down)",
+          "Delete": "Изтрий"
+        }
+      }
+    },
+    "BarcodeScannerPropertiesPanel": {
+      "PageCaption": "Настройки за скенер на баркодове",
+      "GeneralCaption": "Общо",
+      "FeaturesCaption": "Характеристики",
+      "SizeCaption": "Размер",
+      "SizeSmall": "Малко",
+      "SizeMedium": "Средно",
+      "SizeLarge": "Голямо",
+      "SizeMax": "Макс",
+      "ScannedRequestCaption": "В коя колона да се зададе резултата?",
+      "CustomScannedRequestCaption": "Изпълни персонализирания код"
+    },
+    "SortPropertiesPanel": {
+      "GeneralGroup": {
+        "Caption": "Общо",
+        "SelectDataSource": "Източник на данни"
+      },
+      "PageCaption": "Настройки за сортиране",
+      "ChooseTargetsCaption": "Избери компонент за сортиране",
+      "ChooseTargetsTooltip": "Избери списъка, в който да се извърши сортирането. Падащото меню показва списъци, които се намират на сегашната страница и имат посочен обект.",
+      "ColorFieldLabel": "Стил",
+      "ButtonSizeFieldLabel": "Размер",
+      "AppearanceGroup": "Външен вид",
+      "IconPositionLabel": "Позиция",
+      "Colors": {
+        "Primary": "Основен",
+        "Accent": "Фокус",
+        "Warn": "Внимание",
+        "Default": "Обикновен",
+        "Secondary": "Вторично"
+      },
+      "Sizes": {
+        "Small": "Малко",
+        "Medium": "Средно",
+        "Large": "Голям",
+        "ExtraLarge": "Много голям",
+        "2XLarge": "Двойно екстра голямо",
+        "3XLarge": "Тройно екстра голямо"
+      },
+      "IconPosition": {
+        "LeftIcon": "Икона в ляво",
+        "RightIcon": "Икона вдясно",
+        "OnlyIcon": "Само икона"
+      }
+    },
+    "MobileQuickFilterGroupPropertiesPanel": {
+      "PageCaption": "Настройки на филтрите",
+      "GeneralCaption": "Общо",
+      "ListComponentLabel": "Избери компонент за филтриране"
+    },
+    "UpdateQuickFilterGroupRequestPropertiesPanel": {
+      "QuickFilterGroupLabel": "Избери компонент за филтриране",
+      "FilterItemsCaption": "Филтрирай елементи",
+      "FilterItemsPlaceholder": "Кликни +, за да добавиш елементи от филтъра"
+    }
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "Няма нищо за показване тук!",
+    "NoDataDescription": "В момента няма елементи в твоята опашка",
+    "AcceptButtonLabel": "Приеми"
+  },
+  "AgentInbox": {
+    "NewItems": "Нови артикули ({{number}})",
+    "InProgress": "В процес ({{number}})",
+    "RealTime": "В реално време",
+    "QueuedTasks": "Задачи в опашката",
+    "WrappedUpCallTickTpl": "Приключване на разговора (остават {{sec}})",
+    "WrappedUpCallStoppedTpl": "Ръчно приключване на разговор",
+    "IncomingCallDescription": "Входящо обаждане:",
+    "OutgoingCallDescription": "Изходящо повикване:"
+  },
+  "CallConversation": {
+    "Call": "Направи обаждане",
+    "Duration": "Продължителност:",
+    "Search": "Търси",
+    "JobTitle": "Длъжност",
+    "Account": "Юридическо Лице",
+    "ClearIdentity": "Изчисти избрания запис",
+    "OutboundLine": {
+      "From": "От",
+      "Type": "Outbound line"
+    },
+    "Buttons": {
+      "Hints": {
+        "Accept": "Приеми обаждането",
+        "CompleteTransfer": "Кликни, за да прехвърлиш",
+        "Hold": "Постави в изчакване",
+        "Unhold": "Отключи",
+        "StartTransfer": "Прехвърли обаждането",
+        "Mute": "Заглуши обаждането",
+        "CancelTransfer": "Анулирай трансфера",
+        "Drop": "Завърши обаждането",
+        "OpenDialPanel": "Отвори панела за набиране"
+      },
+      "Captions": {
+        "Accept": "Приеми",
+        "Drop": "Отхвърли",
+        "Cancel": "Анулирай",
+        "CancelTransfer": "Назад",
+        "CompleteTransfer": "Обедини",
+        "EndMainCall": "Край"
+      }
+    },
+    "OnHold": "В режим на задържане:"
+  },
+  "SaveCallDetailsHandler": {
+    "UpdateSuccessMessage": "Обаждането беше обновено"
+  },
+  "CallIdentityMenu": {
+    "ClearSelectedRecord": "Изчисти избрания запис",
+    "CallIdentityOptions": "Промени/Задай контакт"
+  },
+  "RequeueQueueItemHandler": {
+    "SuccessfullyRequeued": "Успешно поставен отново на опашката"
+  },
+  "CallAiContextService": {
+    "IncomingCallTitle": "Incoming call: {{counterparty}}",
+    "OutgoingCallTitle": "Outgoing call: {{counterparty}}",
+    "UnknownCounterparty": "неизвестно"
+  },
+  "ForecastGrid": {
+    "PropertiesPanel": {
+      "HeaderLabel": "Forecast grid",
+      "GeneralGroup": {
+        "Caption": "Общо",
+        "ForecastSheetLabel": "Прогнозен лист",
+        "BindingTooltip": "Bound to an attribute. Clear to pick a forecast sheet directly.",
+        "ClearBinding": "Clear attribute binding",
+        "InactiveSheetSuffix": "(неактивен)"
+      }
+    },
+    "FilterableOption": {
+      "Period": "Период",
+      "Hierarchy": "Йерархия"
+    },
+    "Caption": "Forecast grid",
+    "Hint": "Hierarchical forecast grid",
+    "DefaultTitle": "New forecast grid",
+    "EmptyState": "No forecast data for this sheet.",
+    "PrimaryColumnCaption": "Име",
+    "SelfRowSuffix": "(self)",
+    "CellSaveFailed": "Couldn't save the cell value. Please try again.",
+    "CellSaveError": {
+      "PermissionDenied": "You don't have permission to edit this cell."
+    },
+    "LoadFailed": "Failed to load forecast data.",
+    "NoResponse": "No response from forecast service.",
+    "Placeholder": {
+      "NotConfigured": {
+        "Title": "Forecast grid is not configured.",
+        "Description": "An object must be selected in the component settings before this grid can display data."
+      },
+      "Inactive": {
+        "Title": "Forecast is not active.",
+        "Description": "An administrator needs to activate it in forecast configuration, before forecast data can be displayed."
+      },
+      "Error": {
+        "Title": "Нещо се обърка...",
+        "Description": "Please contact your system administrator."
+      }
+    },
+    "CalculateCaption": "Update metrics",
+    "CalculationInProgressCaption": "Update in progress",
+    "CalculationStartedMessage": "Update in progress. You can continue using the dashboard while new metrics are being prepared.",
+    "CalculationFailedMessage": "Couldn't start forecast calculation. Please try again.",
+    "LastCalculationCaption": "Последно обновяване",
+    "NextCalculationCaption": "Next update",
+    "NextCalculationDueCaption": "shortly",
+    "SubmissionStatus": {
+      "SubmittedBy": "Submitted by {{name}}",
+      "Submitted": "Submitted",
+      "LastSubmittedBy": "Last submitted by {{name}}",
+      "LastSubmitted": "Last submitted",
+      "NotSubmitted": "Not submitted",
+      "UpdateRequired": "update required"
+    }
+  },
+  "ListWidget": {
+    "Caption": "Уиджет за списък",
+    "Hint": "Компонент, който комбинира напълно функционален списък с персонализируема цветна рамка, осигурявайки визуална последователност, когато е поставен редом с други аналитични уиджети.",
+    "DefaultTitle": "Нов списъчен уиджет",
+    "PropertiesPanel": {
+      "HeaderLabel": "Настройки на уиджета",
+      "TitleLabel": "Заглавие",
+      "Styles": {
+        "FullyColored": "Напълно оцветено",
+        "PlainWhite": "Обикновено бяло",
+        "PartiallyColored": "Частично оцветено",
+        "Glassmorphism": "Стъклен ефект"
+      }
+    }
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} записа бяха заредени. Да се заредят ли още записи?",
+    "ConfirmResendMeetingInvitationsQuestion": "Когато срещата бъде запазена, всички участници ще получат актуализация за срещата. Искаш ли да продължиш?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Запазването на някои от тези срещи изисква да изпратите известие за промяна до всички участници след запазване. Искаш ли да продължиш? Списък на срещите:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "Срещата се случва в миналото. Сигурен ли си, че искаш да изпратиш покана до участниците?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "Срещата се случва в миналото. Всички участници ще получат актуална информация за срещата. Искаш ли да продължиш?",
+    "CanNotChangeMeetingMessage": "Само организаторът на срещата може да променя описанието, датата и списъка на участниците в срещата.",
+    "CanNotChangeMultipleMeetingsMessage": "Някои от променените срещи могат да бъдат променяни само от организатора на срещата. Списък на срещите: ",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "Можете да изтриете срещи само ако изберете записи ръчно.",
+    "ErrorSendingInvitationMessage": "Поканите не са изпратени. Възможно е това да е временен проблем, моля, опитайте отново по-късно.",
+    "SuccessSendingInvitationMessage": "Поканите бяха изпратени успешно.",
+    "JoinBtnCaption": "Присъединете се към онлайн срещата",
+    "UserAlreadyHasActiveCalendarAccount": "Вече имаш активен календар",
+    "LackOfLicenseMessage": "Синхронизирането на календара не е включено в текущия ти лиценз. Моля, свържи се с твоя системен администратор за допълнителна информация.",
+    "DateRangeError": "Диапазонът от дати във филтъра е твърде дълъг. Моля намали диапазона във филтъра."
+  },
+  "FilterBuilder": {
+    "EmptyValue": "всякакви",
+    "EnterValuePlaceholder": "Въведи стойност",
+    "Is": "е",
+    "Menu": {
+      "FiltersBadgeTooltip": "The filters are applied",
+      "CustomFiltersLabel": "Предефинирани филтри",
+      "ColumnsLabel": "колони",
+      "Caption": {
+        "AddCondition": "Добави филтър",
+        "AddConditionManual": "Add new filter",
+        "AddGroup": "Add group",
+        "AddFilterGroup": "Add filter group",
+        "AddRelatedObject": "Explore related data",
+        "AddRelatedObjectManual": "Add new related object filter"
+      },
+      "Tooltip": {
+        "AddCondition": "Add a new filter condition",
+        "AddGroup": "Add a new group of filter conditions",
+        "AddRelatedObject": "Add a new filter condition by related objects"
+      }
+    },
+    "Group": {
+      "Caption": "Група",
+      "ShowAllRecordsThatMatch": "Show all records that match",
+      "OfTheseConditions": "of these conditions",
+      "DefaultHeaderTemplate": "Show all records that match {menuOperator} of these conditions"
+    },
+    "Lookup": {
+      "SelectPlaceholder": "Select {{caption}}"
+    },
+    "Segment": {
+      "SelectPlaceholder": "Select segments",
+      "Caption": {
+        "In": "Are in segment",
+        "NotIn": "Are not in segment"
+      }
+    },
+    "Preset": {
+      "ChangedWarning": "The filter references a preset that has been changed. The up-to-date version of the preset has been loaded"
+    },
+    "ColumnPath": {
+      "ButtonCaption": "Пътека",
+      "DialogTitle": "Filter properties",
+      "PathLabel": "Attribute path",
+      "AttributeLabel": "Атрибут"
+    },
+    "LogicalOperator": {
+      "And": "всичко",
+      "Or": "всякакви"
+    },
+    "Toggler": {
+      "Caption": "Филтри",
+      "Tooltip": "Open/Close filters panel"
+    },
+    "TextOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "Contains": "Съдържа",
+      "DoesNotContain": "Does not contain",
+      "StartsWith": "Започва с",
+      "DoesNotStartWith": "Does not start with",
+      "EndsWith": "Ends with",
+      "DoesNotEndWith": "Does not end with",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in"
+    },
+    "NumericOperators": {
+      "Is": "Равно на",
+      "IsNot": "Does not equal",
+      "GreaterThan": "Greater than",
+      "LessThan": "Less than",
+      "GreaterThanOrEqualTo": "At least",
+      "LessThanOrEqualTo": "At most",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in"
+    },
+    "AggregationNumericOperators": {
+      "Is": "Exactly",
+      "IsNot": "Exactly not",
+      "GreaterThan": "More than",
+      "LessThan": "Less than",
+      "GreaterThanOrEqualTo": "At least",
+      "LessThanOrEqualTo": "At most"
+    },
+    "LookupOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in",
+      "Macros": {
+        "CurrentUser": "Текущ потребител",
+        "CurrentUserContact": "Текущ контакт",
+        "SelectContact": "Specific contact",
+        "SelectValue": "Specific value"
+      }
+    },
+    "BooleanOperators": {
+      "Yes": "Да",
+      "No": "Не"
+    },
+    "DateTimeOperators": {
+      "Is": "Is",
+      "IsNot": "Is not",
+      "After": "След",
+      "Before": "Before",
+      "OnOrAfter": "От",
+      "OnOrBefore": "Until",
+      "Between": "Between",
+      "And": "и",
+      "IsFilledIn": "Is filled in",
+      "IsNotFilledIn": "Is not filled in",
+      "PlaceholderStart": "Старт ",
+      "PlaceholderEnd": "Край",
+      "Placeholder": "Избери",
+      "PlaceholderDate": "Избери дата",
+      "PlaceholderDateTime": "Избери дата и час",
+      "PlaceholderTime": "Избери време",
+      "InputModes": {
+        "ExactDate": "Exact date",
+        "ExactDateTime": "Exact date & time",
+        "ExactTime": "Точно време",
+        "Hour": "Час",
+        "Day": "Ден",
+        "Week": "Седмица",
+        "Month": "Месец",
+        "Quarter": "Тримесечие",
+        "HalfYear": "Half-year",
+        "Year": "Година",
+        "EveryYear": "Всяка година"
+      },
+      "Macros": {
+        "PreviousHour": "Предишния час",
+        "CurrentHour": "Текущ час",
+        "NextHour": "Следващия час",
+        "ExactTime": "Exact time ...",
+        "PreviousNHours": "Предишни часове ...",
+        "NextNHours": "Следващи часове ...",
+        "Yesterday": "Вчера",
+        "Today": "Днес",
+        "Tomorrow": "Утре",
+        "DayOfMonth": "Ден от месеца ...",
+        "DayOfWeek": "Ден от седмицата ...",
+        "PreviousNDays": "Предишни дни ...",
+        "NextNDays": "Следващите дни ...",
+        "PreviousWeek": "Предишна седмица",
+        "CurrentWeek": "Текуща седмица",
+        "NextWeek": "Следващата седмица",
+        "PreviousMonth": "Предишен месец",
+        "CurrentMonth": "Текущ месец",
+        "NextMonth": "Следващият месец",
+        "Month": "Месец ...",
+        "PreviousQuarter": "Предишно тримесечие",
+        "CurrentQuarter": "Текущо тримесечие",
+        "NextQuarter": "Следващо тримесечие",
+        "PreviousHalfYear": "Предходно полугодие",
+        "CurrentHalfYear": "Текущо полугодие",
+        "NextHalfYear": "Следващата половин година",
+        "PreviousYear": "Предходна година",
+        "CurrentYear": "Текуща година",
+        "NextYear": "Следващата година",
+        "Year": "Year ...",
+        "DayOfYearToday": "Днес",
+        "DayOfYearTodayPlusDaysOffset": "Всяка година точно в ...",
+        "NextNDaysOfYear": "Every year, within ... next days",
+        "NextNDaysOfYearSuffix": "next days",
+        "PreviousNDaysOfYear": "Every year, within ... previous days",
+        "PreviousNDaysOfYearSuffix": "предишни дни",
+        "WeekDays": {
+          "Sunday": "Su",
+          "Monday": "Mo",
+          "Tuesday": "Tu",
+          "Wednesday": "We",
+          "Thursday": "Th",
+          "Friday": "Fr",
+          "Saturday": "Sa"
+        },
+        "Months": {
+          "January": "January",
+          "February": "February",
+          "March": "March",
+          "April": "April",
+          "May": "May",
+          "June": "June",
+          "July": "July",
+          "August": "August",
+          "September": "September",
+          "October": "October",
+          "November": "November",
+          "December": "December"
+        }
+      }
+    },
+    "Action": {
+      "Apply": "Приложи",
+      "ApplyDisabledTooltip": "The filter has already been applied. Change the filter conditions to apply the filter again",
+      "ClearAll": "Изчисти всичко",
+      "Close": "Затвори"
+    },
+    "EmptyState": {
+      "Title": "Още няма нищо за показване",
+      "Subhead": "Add your first filter to begin"
+    },
+    "OfTheBelowConditionsShouldMatch": "of the below conditions should match",
+    "Records": "записи",
+    "Where": "къде",
+    "And": "и",
+    "Aggregation": {
+      "Type": {
+        "Count": "Брой",
+        "Sum": "Сума",
+        "Avg": "Средно аритметично",
+        "Min": "Минимум",
+        "Max": "Максимум"
+      },
+      "Caption": {
+        "Count": "Брой записи",
+        "Sum": "Sum of {{value}}",
+        "Avg": "Average of {{value}}",
+        "Min": "Minimum of {{value}}",
+        "Max": "Maximum of {{value}}",
+        "None": "{{value}}",
+        "TopOne": "Top one of {{value}}"
+      },
+      "Have": "Have",
+      "HaveRelated": "Have related",
+      "Related": "related",
+      "Of": "на"
+    },
+    "Exists": {
+      "Have": "Have",
+      "HaveNo": "Have no",
+      "Related": "related"
+    },
+    "AggregationOperators": {
+      "Sum": "Сума",
+      "Avg": "Средно аритметично",
+      "Min": "Минимум",
+      "Max": "Максимум",
+      "TopOne": "TopOne",
+      "None": "Липсва стойност"
+    }
+  },
+  "FilterBuilderDesigner": {
+    "TogglerCaption": "Advanced filters menu",
+    "TogglerHint": "Requires the Advanced filters component. Lets you show and hide page filters.",
+    "SourceCaption": "Advanced filters",
+    "SourceHint": "Add advanced filters panel",
+    "Properties": {
+      "Source": {
+        "HeaderLabel": "Advanced filters settings",
+        "GeneralCaption": "Общо",
+        "SchemaLabel": "What to filter?",
+        "HeaderTemplateLabel": "Header template"
+      },
+      "Toggler": {
+        "HeaderLabel": "Advanced filters menu",
+        "GeneralCaption": "Общо",
+        "ViewElementLabel": "Advanced filters"
+      }
+    }
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "Одобрения",
+    "ComponentHeaderInactiveLabel": "Не се изисква одобрение",
+    "RejectDialogHeaderLabel": "Сигурен ли си, че искаш да отхвърлиш одобрението?",
+    "ApproveDialogHeaderLabel": "Да се ​​даде ли одобрението?",
+    "RejectInputLabel": "Коментар относно одобрението",
+    "RejectButtonLabel": "Отхвърли",
+    "DelegateButtonLabel": "Делегирай",
+    "ApproveButtonLabel": "Одобри",
+    "CancelButtonLabel": "Анулирай",
+    "PositiveMetricLabel": "Положително",
+    "NegativeMetricLabel": "Негативнo",
+    "PendingMetricLabel": "В очакване",
+    "ComponentHeaderActiveLabel": "Очаквам вашето одобрение",
+    "ApprovalPurposeLabel": "Цел на одобрението",
+    "ApprovedPlaceholderLabel": "ОДОБРЕНО",
+    "DesignTime": {
+      "ApprovalObjective": "Изисква се одобрение"
+    },
+    "RejectedPlaceholderLabel": "ОТХВЪРЛЕНО"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "Отхвърли",
+    "ApproveButtonLabel": "Одобри"
+  },
+  "MultiSelectSaveRecordHandler": {
+    "ErrorMessageTemplate": "Трябва да бъде избрана поне една стойност в: {0}"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "DataGridSettingsForFolderLabel": "Списък с настройки за папка",
+      "CreateDataGridSettingsForFolder": {
+        "SuccessStatus": "Настройките на списъка са запазени успешно. Те се прилагат само когато папката \"{0}\" е активна.",
+        "Label": "Създай персонализирани настройки за \"{0}\""
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "Запази като нови настройки по подразбиране за \"{0}\"",
+        "Confirmation": "Новите настройки на списъка по подразбиране за папката \"{0}\" ще бъдат запазени за всички потребители. Искаш ли да продължиш?",
+        "SuccessStatus": "Настройките на списъка са запазени успешно. Те се прилагат само когато папката \"{0}\" е активна."
+      },
+      "ClearDataGridSettingsForFolder": {
+        "Label": "Изчисти персонализираните настройки за \"{0}\"",
+        "Confirmation": "Настройките на персонализирания списък за папката \"{0}\" ще бъдат изчистени за всички потребители и ще бъдат приложени общите настройки на списъка. Искаш ли да продължиш?",
+        "SuccessStatus": "Настройките на списъка за папката \"{0}\" са изчистени успешно"
+      },
+      "OverwriteDataGridSettingsForFolder": {
+        "Label": "Презапиши текущите настройки за всички потребители за \"{0}\"",
+        "Confirmation": "Новите настройки на списъка по подразбиране ще бъдат запазени за папката \"{0}\" и ще заменят текущите настройки за всички потребители. Искаш ли да продължиш?",
+        "SuccessStatus": "Настройките на списъка са запазени успешно. Те се прилагат само когато папката \"{0}\" е активна."
+      },
+      "ResetDataGridSettingsForFolder": {
+        "Label": "Възстанови настройките по подразбиране за \"{0}\"",
+        "Confirmation": "Настройките по подразбиране в списъка ще бъдат възстановени за папката \"{0}\". Да се ​​продължи ли?",
+        "SuccessStatus": "Настройките по подразбиране за списъка с папката \"{0}\" са възстановени успешно"
+      }
+    }
+  },
+  "ForecastHierarchyBuilder": {
+    "AddChildTitle": "Add child",
+    "RemoveTitle": "Премахни",
+    "AddChildAriaLabel": "Add child to {{caption}}",
+    "RemoveAriaLabel": "Remove {{caption}}",
+    "DraggableAriaLabel": "{{caption}}. Draggable. Use Alt+Arrow keys to reorder.",
+    "EmptyStateWithEntity": "No hierarchy nodes yet.",
+    "EmptyStateNoEntity": "Select an object to start building the hierarchy.",
+    "LoadingAriaLabel": "Loading hierarchy…",
+    "ConfirmationTitle": "Потвърждение",
+    "ConfirmationMessage": "Do you want to rebuild the hierarchy automatically based on the selected field?",
+    "RemoveConfirmationMessage": "Do you want to remove this node and all its child nodes from the hierarchy?",
+    "RemoveConfirmButton": "Премахни",
+    "CancelButton": "Анулирай",
+    "ContinueButton": "Продължи",
+    "EnsureForecastEntityInCell": {
+      "NewObjectCaption": "Forecast by {{entityName}}",
+      "DialogTitle": "Forecast object creation failed",
+      "DialogOk": "ОК",
+      "DialogGenericMessage": "Failed to create the forecast object schema.",
+      "SchemaSaveFailed": "Failed to save the forecast object schema."
+    }
+  },
+  "ChangeTracking": {
+    "EntitySchemaNotFoundMessage": "Схемата на обекта \"{{entitySchemaName}}\" не е намерена",
+    "UnselectedColumnsWillBeDeletedMessage": "Неизбраните колони ще бъдат изтрити. Да се продължи ли?"
+  },
+  "MergingRecords": {
+    "ConflictsResolveDialog": {
+      "TitleTemplate": "Обедини дубликати ({0})",
+      "Actions": {
+        "Merge": "Обедини"
+      }
+    },
+    "Handler": {
+      "Errors": {
+        "General": "Невъзможно е обединяването на избраните записи",
+        "NoRights": "Недостатъчни разрешения за обединяване на данни",
+        "MinSelectedRecordsViolation": "Избери поне два записа за обединяване",
+        "SelectionAllModeUsingViolation": "Сливането не е възможно, когато използваш „Избери всички“. Избери записите, които искаш да слееш ръчно."
+      },
+      "SuccessfulCompletionStatus": "Системата започна обединяването на данни. Ще получиш известие в панела за комуникация, когато процесът приключи."
+    }
+  },
+  "Applications": "Хъб за приложения",
+  "ApplicationExplorer": {
+    "RunAppButton": "Стартирай приложението",
+    "UpdateButton": "Обнови",
+    "Structure": {
+      "NavigationItems": "Навигация и секции",
+      "GeneralInformation": "Обща информация",
+      "Pages": "Страници",
+      "ObjectModels": "Информационни модели",
+      "BusinessProcesses": "Бизнес процеси",
+      "AdvancedSettings": "Настройки на пакета",
+      "WebService": "Интеграции",
+      "RestService": "REST услуга",
+      "SoapService": "SOAP услуга",
+      "CreatioAi": "Creatio.ai"
+    },
+    "AdvancedSettingsActions": {
+      "Activate": "Активно",
+      "Delete": "Изтрий",
+      "Deactivate": "Деактивирай",
+      "Exclude": "Изключи от приложението",
+      "Current": "Задай като текущ пакет",
+      "ExcludeDialog": "Сигурен ли си, че искаш да изключиш пакета „{0}“ от приложението?",
+      "PackageExcluded": "Пакетът {0} е изключен от приложението",
+      "SetCurrentPackage": "Задай пакета „{0}“ като текущия пакет на приложението успешно",
+      "CurrentPackageTooltip": "Текущ пакет на приложението",
+      "PackageCreated": "Пакет {0} е добавен",
+      "OnePackageAdded": "Пакет {0} е добавен в приложението",
+      "PackagesAdded": "Пакет {0} е добавен в приложението",
+      "Create": "Създай нов пакет",
+      "AddExistingPackages": "Добави съществуващи пакети",
+      "PackageProperties": "Характеристики",
+      "AddExistingPackagesDialog": {
+        "Caption": "Избери съществуващи пакети",
+        "PackageNameColumn": "Име на пакета",
+        "ErrorInfoAllPackagesNotAdded": "Не е възможно да се добави пакета в приложението: {0}",
+        "ErrorInfoSomePackagesNotAdded": "Добавени са пакетите към приложението: {0}\nНе могат да се включат пакетите към приложението: {1}"
+      }
+    },
+    "GeneralInformation": {
+      "CreatedOn": "Създадено",
+      "LastUpdate": "Последно обновяване",
+      "Developer": "Разработчик",
+      "CreateNewObjectCaption": "Създай един нов обект",
+      "UseExistingObjectCaption": "Свържи към съществуващ обект",
+      "SelectObject": "Обект",
+      "SelectObjectPlaceholder": "Избери същестуващ обект",
+      "CreateMobilePages": "Създай страници за мобилното приложение"
+    },
+    "BackTooltip": "Назад",
+    "PenTooltip": "Редактирай приложението",
+    "EyeTooltip": "Изглед на информацията в приложението"
+  },
+  "ApplicationSections": {
+    "ApplicationSectionItem": {
+      "FreedomUI": "Freedom UI"
+    },
+    "Menu": {
+      "Trigger": "Ново",
+      "CreateFreedomUiSection": "Нова секция във Freedom UI"
+    },
+    "ApplicationSectionEditDialog": {
+      "Title": {
+        "Create": "Нова Секция",
+        "Update": "Редактирай секцията"
+      },
+      "HeaderCarouselCaption": "Избери икона и цвят",
+      "Fields": {
+        "Name": "Заглавие",
+        "NamePlaceholder": "Задай име на новата секция на приложението",
+        "Code": "Код на секцията",
+        "CodePlaceholder": "Задай код на секцията",
+        "CodeTooltip": "Стойност, която да се използва при генериране на кодове на елементи в нова секция. Например обект, клиентски схеми",
+        "UseExistingObjectTooltip": "Избери, за да свържете секцията към съществуващ обект, вместо да създавате нов такъв",
+        "CreateMobilePagesTooltip": "Изчисти тази опция, за да създадеш приложение само за уеб"
+      },
+      "Buttons": {
+        "Create": "Създай",
+        "Update": "Запази",
+        "Cancel": "Анулирай"
+      },
+      "ColorPickerCaption": "Цвят",
+      "AdvancedModeButtonCaption": "Разширени параметри"
+    }
+  },
+  "AppGetStarted": {
+    "CancelButtonCaption": "Пропусни",
+    "SelectButtonCaption": "Избери",
+    "HeaderCaption": "Готов ли си да създадеш приложение?",
+    "SubHeaderCaption": "Отключи потенциала си с нашите популярни шаблони за безпроблемно и ефективно изживяване при разработка"
+  },
+  "ApplicationManagementComponent": {
+    "NewAppButton": "Ново приложение",
+    "DeleteAppConfirmationMessage": "Сигурен ли си, че искаш да изтриеш приложението?",
+    "UpdateAppButton": "Обнови",
+    "DeployAppButton": "Внедри",
+    "ExportAppButton": "Експорт",
+    "DeleteAppButton": "Изтрий",
+    "SuccessfullyDeleted": "Приложението е изтрито",
+    "NoAppsTitle": "Към момента няма приложения в секцията",
+    "NoAppsText": "Създай приложение или инсталирай готово решение на Marketplace, за да изглежда тоза секция по-красива",
+    "Update": "Обнови",
+    "UpdateAvailableMessage": "Имаме вълнуващи новини! Най-новата версия на приложението вече е достъпна в Marketplace - грабни я сега!",
+    "OpenAppButton": "Отвори"
+  },
+  "ApplicationTemplateLookupComponent": {
+    "CancelButtonCaption": "Анулирай",
+    "HeaderCaption": "Избери приложението",
+    "SelectButtonCaption": "Избери"
+  },
+  "ApplicationBusinessProcesses": {
+    "Active": "Активно",
+    "NotActive": "Неактивно",
+    "NewButtonCaption": "Нов процес",
+    "NotActual": "(Не действително)",
+    "Version": "Версия:",
+    "VersionsDialog": {
+      "ProcessVersions": "Версии на процеса",
+      "Title": "Име",
+      "ModifiedOn": "Модифицирано на",
+      "Version": "Версия",
+      "ActualVersion": "Актуална версия",
+      "IsActualValue": "Да",
+      "IsNotActualValue": "Не",
+      "SharedPackageValue": "Споделен пакет",
+      "CloseButtonCaption": "Затвори",
+      "Application": "Приложение",
+      "Package": "Пакет"
+    }
+  },
+  "ApplicationEntities": {
+    "NewButtonCaption": "Нов модел на данни"
+  },
+  "ApplicationWebServices": {
+    "NewButtonCaption": "Нова интеграция"
+  },
+  "GalleryToolbar": {
+    "NewPageButtonCaption": "Нова страница",
+    "SortByCaption": "По надпис",
+    "SortByName": "По име",
+    "SortByModifiedOn": "По дата на промяна",
+    "SortByStatus": "По статус",
+    "SortByType": "По тип",
+    "SortByUri": "По URI на уеб услугата",
+    "SearchError": "Надписът използван за настройките за търсене не е посочен за колона ",
+    "SpecifyMessage": "Моля, посочи го в описателя на колони за търсене или схема на данни в таблица.",
+    "NewButtonCaption": "Ново"
+  },
+  "ApplicationUploadPage": {
+    "SelectDropFileText": "моля избери файл",
+    "FileExtensionsRow1": "Избери файл, от който да инсталираш приложението. То може",
+    "FileExtensionsRow2": "бъди *.zip или *.gz архиф",
+    "SelectFileButtonCaption": "избери файл",
+    "InvalidFileSize": "Приложението не може да се качи. Максималният размер на файла ({0} MB) е надвишен",
+    "ChangeMaxSize1": "Може да промениш този параметър в „Максимален размер на файла за инсталирано приложение“",
+    "ChangeMaxSize2": "системна настройка (код \"ApplicationInstallationMaxFileSize\")",
+    "CorruptedFileMessage1": "Не може да се отвори \"{0}\". Файлът е невалиден или повреден.",
+    "CorruptedFileMessage2": "Провери целостта на файла или го изтегли и качи отново."
+  },
+  "ApplicationInstallationStatus": {
+    "InstallationCaption": {
+      "Line1": "Инсталиране на приложението",
+      "Line2": "Това може да отнеме няколко минути"
+    },
+    "LicenseLoaded": "Пробният период на приложението е активен за 14 дни. Купи лицензи, за да продължиш да използваш приложението след този период. ",
+    "NeedRequestLicense": "За да започнеш да използваш 14-дневната пробна версия на приложението,",
+    "NeedRequestLicenseMailTo": "свържи се с поддръжката и поръчай лиценз за приложението.",
+    "MailToText": "Вземи пробен лиценз за приложението Creatio marketplace - {0}.",
+    "LicenseLoadedInDemoMode": "Вече може да го използваш с ограничения за демо версията."
+  },
+  "MarketplaceInstallationService": {
+    "NoAppIdErrorCodeText": "Не може да се намери приложение в Marketplace с този идентификатор",
+    "ErrorCodeText": "Неуспешно зареждане на данни за приложението от Marketplace"
+  },
+  "ApplicationExplorerToolbar": {
+    "ShowRelatedElementsCaption": "Покажи наследени елементи",
+    "ShowRelatedElementsTooltip": "Показване на всички елементи от наследени приложения, за да можете да разшириш всеки заключен елемент и да го съхраниш в текущото приложение"
+  },
+  "AppInstallInfoDialog": {
+    "ApplicationInstallation": "Инсталиране на приложение",
+    "ApplicationsInstallation": "Инсталиране на приложения",
+    "ApplicationUpdate": "Обновяване на приложението",
+    "Trial": "Платено",
+    "Free": "Безплатно",
+    "Close": "Затвори",
+    "Cancel": "Анулирай",
+    "Install": "Инсталирай",
+    "InstallAll": "Инсталирай всичко",
+    "Update": "Обнови",
+    "ErrorCodeText": "Не може да се намери приложение на Marketplace.\nИзглежда, че се опитваш да инсталираш несъществуващо приложение.\nКликни върху бутона OK, той ще те върне в центъра за приложения.",
+    "OutOfSyncNames": "Името на вашия *.gz архив не съвпада с името, посочено във файла descriptor.json.",
+    "Type": {
+      "Application": "Приложение",
+      "Package": "Пакет"
+    },
+    "Licensing": {
+      "free": "Безплатно",
+      "trial": "Платено"
+    },
+    "Columns": {
+      "Name": "Име",
+      "Type": "Тип",
+      "Version": "Версия",
+      "Developer": "Разработчик",
+      "Licensing": "Лицензиране",
+      "RequiredVersion": "Необходима версия",
+      "InstalledVersion": "Инсталирана версия"
+    },
+    "UnableLoadAppDetailsTitle": "Не могат да се заредят детайли за приложението",
+    "UnableLoadAppDetailsMessage": "Не можа да се извлече информация за приложението от Marketplace. Моля опитай отново по-късно или се свържи с екипа за поддръжка, ако проблемът продължава.",
+    "UnableLoadAppDetailsOkButtonCaption": "Връщане към Marketplace",
+    "DownloadLog": "Изтегли дневника на валидацията",
+    "GoToMarketplaceTooltip": "Отиди в Creatio Marketplace",
+    "InstallAnyway": "Инсталирай въпреки това",
+    "InstallAllAnyway": "Инсталирай всичко въпреки това",
+    "UpdateAnyway": "Обнови въпреки това"
+  },
+  "AppInstallAttentionInfo": {
+    "SingleAppFromMarketplaceMessage": "Увери се, че приложението е съвместимо с твоята версия на Creatio. Провери описанието в Marketplace за списък със съвместими продукти на Creatio, гарантирани от доставчика. Избягвай да инсталираш приложението, ако твоята версия на Creatio не е в списъка. За да получиш личен опит с приложението, помисли за инсталирането му на sandbox система или 14-дневна пробна версия от уебсайта на Creatio. Препоръчваме да преминеш към производствената среда на Creatio само след щателно тестване.",
+    "MultipleAppsFromMarketplaceMessage": "Увери се, че приложенията са съвместими с твоята версия на Creatio. Провери описанието в Marketplace за списък със съвместими продукти на Creatio, гарантирани от доставчика. Избягвай да инсталираш приложението, ако твоята версия на Creatio не е в списъка. За да получиш личен опит с приложението, помисли за инсталирането му на sandbox система или 14-дневна пробна версия от уебсайта на Creatio. Препоръчваме да преминеш към производствената среда на Creatio само след щателно тестване.",
+    "SingleAppFromZipMessage": "Увери се, че приложението е съвместимо с версията и продукта на целевия уебсайт. Приложенията базирани на продукта Studio, са съвместими с всички продукти на Creatio. Препоръчваме да инсталираш приложения, базирани на продукти за маркетинг, продажби или услуги в уебсайтове, които съдържат съответния продукт.",
+    "MultipleAppsFromZipMessage": "Увери се, че приложенията са съвместими с версията и продукта на целевия уебсайт. Приложенията базирани на продукта Studio, са съвместими с всички продукти на Creatio. Препоръчваме да инсталирате приложения, базирани на продукти за маркетинг, продажби или услуги в уебсайтове, които съдържат съответния продукт."
+  },
+  "AppInstallErrorInfo": {
+    "RequiredPlatformVersionErrorInfo": {
+      "Title": "Несъвместима версия на платформата",
+      "ApplicationsCaption": "Следните приложения не са съвместими с твоята среда:",
+      "SingleAppMessage": "Приложението <b>\"{0}\"</b> не е съвместимо с твоята среда. <b>За да инсталираш приложението, обнови Creatio до версия {1}.</b>",
+      "MultipleAppsMessage": "<b>За да инсталираш приложения, обнови Creatio до версия {0}.</b>",
+      "ConflictingVersionsTitle": "Конфликтни версии на Creatio",
+      "ConflictingVersionsCaption": "Следните приложения не могат да се използват заедно, защото изискват конфликтуващи версии на Creatio:",
+      "SingleAppMessageForVersionRange": "Приложението <b>\"{0}\"</b> не е съвместимо с твоята среда. <b>За да инсталираш приложението, обнови Creatio до версия {1}.</b>",
+      "MultipleAppsMessageForVersionRange": "<b>За да инсталираш приложения, обнови Creatio до поддържана версия от диапазона: {0}.</b>",
+      "ConflictingVersionsMessage": "<b>За да разрешиш проблема, свържи се с разработчика на конфликтните приложения.</b>",
+      "RequiredPlatformVersion": "необходима версия на Creatio:"
+    },
+    "MissedRequiredDependenciesErrorInfo": {
+      "Title": "Не могат да се извлекат необходимите зависимости",
+      "SingleAppMessage": "Приложението <b>\"{0}\"</b> не може да бъде инсталирано в тази среда.<br />Някои необходими зависимости липсват и не могат да бъдат извлечени автоматично от каталога на приложенията.<br /><b>За да инсталираш приложението, инсталирай ръчно необходимите приложения или пакети, изброени по-долу и опитай отново.</b>",
+      "MultipleAppsMessage": "Някои приложения в инсталационния файл не могат да бъдат инсталирани в тази среда.<br />Липсват необходимите зависимости и не могат да бъдат извлечени автоматично от каталога с приложения.<br /><b>За да инсталираш приложенията, инсталирай ръчно необходимите приложения или пакети изброени по-долу и опитай отново.</b>",
+      "SinglePackageMessage": "Пакетът <b>\"{0}\"</b> не може да бъде инсталиран в тази среда.<br />Някои задължителни зависимости липсват и не могат да бъдат извлечени автоматично от каталога на приложенията.<br /><b>За да инсталираш пакета, инсталирай ръчно необходимите пакети, изброени по-долу и опитай отново.</b>",
+      "MultiplePackagesMessage": "Някои пакети в инсталационния файл не могат да бъдат инсталирани в тази среда.<br />Липсват необходимите зависимости и не могат да бъдат извлечени автоматично от каталога на приложенията.<br /><b>За да инсталираш пакетите, инсталирай ръчно необходимите пакети изброени по-долу и опитай отново.</b>",
+      "PlatformVersionErrorInfo": {
+        "SingleAppTitle": "Несъвместима версия на платформата",
+        "SingleAppMessage": "За да инсталира приложението <b>\"{0}\"</b>, Creatio трябва да инсталира и необходимите зависими приложения. Някои от тези приложения обаче не са съвместими със сегашната ти версия на Creatio. <br/>Несъвместими приложения: {1} <br/>",
+        "SingleAppUpdateCreatio": "<b>За да инсталираш приложението, обнови Creatio до версия {0}.</b>",
+        "MultipleAppsTitle": "Несъвместими версии на платформата",
+        "MultipleAppsMessage": "За да инсталира избраните приложения, Creatio трябва да инсталира и необходимите зависими приложения. Някои от тези приложения обаче не са съвместими със сегашната ти версия на Creatio. <br/>Несъвместими приложения: {0} <br/>",
+        "MultipleAppsUpdateCreatio": "<b>За да инсталираш приложенията, обнови Creatio до версия {0}.</b>",
+        "SingleRequiredPlatformVersion": "(изисква версия на Creation: {0} или по-нова)",
+        "RangeRequiredPlatformVersion": "(изисква Creatio версия: {0})"
+      },
+      "ConflictVersionsErrorInfo": {
+        "Title": "Конфликтни версии на приложенията",
+        "AppSingleVersionCaption": "<b>{0}<b> (версия <b>{1}<b>)",
+        "AppRequiresVersionOrLaterCaption": "<b>0</b> изисква <b>{1</b> версия <b>{2} или по-нова</b>",
+        "AppRequiresVersionInRangeCaption": "<b>{0}<b> изисква <b>{1}<b> версия <b>{2}<b>",
+        "BundleVersionsErrorInfo": {
+          "Message": "Следните приложения от инсталационния файл са несъвместими помежду си поради конфликти на версии: <br/>{0}<br/>",
+          "InstalledAppsCaption": "Инсталираната версия на <b>{0}<b> не отговаря на изискването за версия на <b>{1}<b>.<br/>",
+          "ResolveAppsCaption": "За да разрешиш проблема, обнови конфликтните приложения в пакета или се свържи с разработчика."
+        },
+        "DepsVersionErrorInfo": {
+          "Message": "Следните приложения от инсталационния файл не могат да се използват заедно поради противоречиви изисквания за версии на едно или повече зависими приложения: <br/>{0}<br/>",
+          "InstalledAppsCaption": "Тези изисквания за версии са несъвместими помежду си.<br/>",
+          "ResolveAppsCaption": "За да разрешиш проблема, свържи се с разработчика на конфликтните приложения."
+        }
+      },
+      "ConflictPlatformVersionErrorInfo": {
+        "Title": "Конфликтни изисквания към платформата",
+        "SingleAppMessage": "За да инсталираш приложението <b>\"{0}\"</b>, Creatio трябва да инсталира и необходимите зависими приложения. Някои от тези приложения обаче изискват различни и несъвместими версии на платформата Creatio и не могат да се използват заедно в една и съща среда.<br/><br/>Конфликтни приложения: {1}",
+        "MultipleAppMessage": "За да инсталираш избраните приложения, Creatio трябва да инсталира и необходимите зависими приложения. Някои от приложенията обаче изискват несъвместими версии на платформата Creatio и не могат да се използват заедно в една и съща среда.<br/><br/>Конфликтни приложения: {0}",
+        "AppRequiresVersionOrLaterCaption": "{0} (изисква Creatio версия {1} или по-нова)",
+        "AppRequiresVersionInRangeCaption": "{0} (изисква Creatio версия {1})",
+        "ResolveConflictCaption": "Прегледай списъка с приложения по-долу или се свържи с разработчика, за да разрешите конфликта."
+      }
+    },
+    "InvalidPackageContentErrorInfo": {
+      "InvalidPackageContentTitle": "Проверката преди инсталацията не бе успешна",
+      "SingleInvalidPackageContentMessage": "Приложението <b>\"{0}\"</b> не може да бъде инсталирано, защото по време на проверката преди инсталацията са открити една или повече грешки при валидирането.\nПрегледай списъка с проблеми по-долу и ги отстрани в средата, преди да продължиш с инсталацията.",
+      "MultiInvalidPackageContentMessage": "Приложенията не могат да бъдат инсталирани, защото по време на проверката преди инсталацията са открити една или повече грешки при валидирането.\nПрегледай списъка с проблеми по-долу и ги отстрани в средата, преди да продължиш с инсталацията."
+    },
+    "CompilationErrorsErrorInfo": {
+      "CompilationErrorsTitle": "Открити грешки при компилация",
+      "CompilationErrorsMessage": "<b>Предишната компилация на системата завърши с грешки.</b> Грешките при компилацията може да попречат на успешната инсталация.<br/>За да ги поправиш отвори <a href ='{0}' target='_blank'>раздела Конфигурация</a>, коригирай проблемите и прекомпилирай системата."
+    },
+    "DependentAppsReqVersionConflictErrorInfo": {
+      "Title": "Installed application dependency conflict",
+      "ApplicationsCaption": "Installed applications causing the conflict:",
+      "AppWithRequiredVersion": "<b>{0}<b> изисква <b>{1}<b> версия <b>{2}<b>",
+      "NotCompatibleMessage": "These requirements are incompatible with the applications being installed. <b>Resolve the conflict to continue installation.</b>"
+    },
+    "DowngradeVersionConflictErrorInfo": {
+      "Title": "Version downgrade warning",
+      "SingleAppMessage": "Please review the version before continuing: a newer version of <b>\"{0}\"</b> is already installed in this environment.",
+      "MultipleAppsMessage": "Please review the versions before continuing: newer versions of some applications from the installation file are already installed in this environment.",
+      "AppVersionsInfo": "<b>{0}</b>: installed version <b>{1}</b>, version in the installation file <b>{2}</b>",
+      "ResolveConflictMessage": "<b>If you continue, the installed applications may be downgraded.</b>"
+    },
+    "SkipDueToDowngradeVersionErrorInfo": {
+      "Title": "Applications skipped",
+      "SingleAppMessage": "Some applications won't be installed because newer versions are already available in this environment.",
+      "MultipleAppsMessage": "Some applications won't be installed because newer versions are already available in this environment.",
+      "AppVersionsInfo": "<b>{0}</b> - installed version: <b>{1}</b>, version in this file: <b>{2}</b>",
+      "ResolveConflictMessage": ""
+    }
+  },
+  "AppInstallationGridInfoBlock": {
+    "PackagesTitleName": "Пакети",
+    "Fields": {
+      "ApplicationName": "Име"
+    }
+  },
+  "ActionItem": {
+    "LoadingTitle": "Зареждане на файл..."
+  },
+  "AppInstallWithDependenciesInfo": {
+    "Title": "Открити са липсващи зависимости на приложенията",
+    "SingleMessage": "Приложението \"{0}\" изисква допълнителни приложения, които или не са инсталирани или имат неподдържани версии в средата.<br><b>Зависимостите изброени по-долу, ще бъдат автоматично инсталирани или обновени от каталога на приложенията.</b>",
+    "MultipleMessage": "Някои приложения в инсталационния файл изискват допълнителни приложения, които или не са инсталирани или имат неподдържани версии в средата.<br><b>Зависимостите изброени по-долу, ще бъдат автоматично инсталирани или обновени от каталога на приложенията.</b>"
+  },
+  "ApplicationCreatioAi": {
+    "ModelCaption": "Модел",
+    "NewButtonCaption": "Новo",
+    "AiAgentCaption": "Агент за инструкции",
+    "AiSkillCaption": "Подагент",
+    "AiWorkflowAgentCaption": "Агент на работния процес"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Няма страница за нов или съществуващ запис. Системният администратор трябва да провери настройките на бутоните в потребителския интерфейс на Freedom",
+    "GoToEntityDesignerMessage": "За да настроиш страници, отиди на URL: {0}"
+  },
+  "DesignerPresenceNotificationHandler": {
+    "SchemaUpdated": "{0} току-що обновено {1}. Моля опресни страницата, за да видиш промените.",
+    "Connections": "{0} връзки",
+    "Reload": "Презареди",
+    "Download": "Изтегли"
+  },
+  "DesignerPresenceDisplay": {
+    "UserStartedEditing": "{0} започна да редактира текущия {1}",
+    "ModeEditing": "Редакция",
+    "TooltipFormat": "{0} ({1})",
+    "ModeViewing": "Преглед",
+    "ModeSaved": "Запазено",
+    "ModeSavedTime": "Запазено (преди {0})",
+    "ModeSavedRecently": "Запазено наскоро",
+    "ShowAllUsers": "Покажи всички потребители",
+    "AllUsersDialog": {
+      "Title": "Активни потребители",
+      "Close": "Затвори",
+      "Columns": {
+        "ContactName": "Контакт",
+        "Email": "Имейл",
+        "SchemaName": "Зона за редакция",
+        "Mode": "Режим"
+      }
+    }
+  },
+  "SchemaTypeCaption": {
+    "Page": "страница",
+    "Entity": "обект",
+    "Addon": "добавка"
+  },
+  "AppInstallationInfoBlock": {
+    "Fields": {
+      "Name": "Име",
+      "LastUpdate": "Последно обновяване",
+      "Developer": "Разработчик",
+      "Version": "Версия"
+    },
+    "AttentionCaption": "Внимание",
+    "WhatsNewCaption": "What`s new",
+    "PublicOfferAgreementForSingleInstallation": "By continuing the app installation, you confirm that you accept the relevant T&C published on the App’s Creatio Marketplace page.",
+    "PublicOfferAgreementForBundleInstallation": "By continuing the app installation, you confirm that you accept the relevant T&C published on the Creatio Marketplace for all the apps you are installing.",
+    "GoToMarketplaceTitle": "Go to application page"
+  },
+  "AppProcessingStatus": {
+    "Stages": {
+      "InProgressCaptions": {
+        "Pending": "Starting app installation",
+        "DownloadAppFromMarketPlace": "Downloading the app from Marketplace",
+        "DownloadAppFromAppInstaller": "Downloading the app",
+        "Validate": "Checking app requirements before installation",
+        "CreateBackup": "Backing up the configuration. Just in case!",
+        "Install": "Installing the app to your Creatio environment",
+        "OrderAppLicense": "Adding the app license",
+        "RestartApp": "Restarting your Creatio environment",
+        "RestoreFromBackup": "Please wait until the operation is complete and do not close the page"
+      },
+      "ErrorTitles": {
+        "Pending": "App preparation error",
+        "DownloadAppFromMarketPlace": "App download error",
+        "Validate": "App validation error",
+        "CreateBackup": "Backup error",
+        "Install": "App installation error",
+        "RestoreFromBackup": "Backup restoration error",
+        "DownloadAppFromAppInstaller": "App preparation error"
+      },
+      "ErrorDescriptions": {
+        "Pending": "An error occurred while preparing the app, deployment aborted, configuration was not changed. Try again later, contact support if the issue persists",
+        "DownloadAppFromMarketPlace": "Unable to retrieve app files from the Marketplace. To view error details, download the operation log",
+        "Validate": "Package validation failed. Installation aborted. Configuration was not changed. To view error details, download the operation log",
+        "CreateBackup": "Configuration backup failed. Installation aborted. Configuration was not changed. To view error details, download the operation log",
+        "Install": "An error occurred while installing the app. To view error details, download the operation log",
+        "RestoreFromBackup": "Unable to restore the configuration from backup",
+        "DownloadAppFromAppInstaller": "An error occurred while preparing the application for installation. The installation file could not be downloaded or processed due to a connection or preparation issue. <br/><br/>Try to start the installation again. If the problem persists, download the installation log for more details and contact Creatio Support."
+      }
+    },
+    "Buttons": {
+      "GoToAppHub": "Open Application Hub",
+      "DownloadLogs": "Изтегли инсталационния дневник",
+      "RestoreFromBackup": "Restore from backup"
+    },
+    "RestoringFromBackupCaption": "Restoring configuration from backup",
+    "SuccessStatusCaption": "Успех",
+    "SuccessfullyRestoredFromBackupCaption": "The configuration has been restored from backup"
+  },
+  "Printables": {
+    "Caption": "Име на отчета",
+    "ModuleName": "Секция",
+    "EntityName": "Обект",
+    "TypeName": "Тип",
+    "ShowInSection": "Покажи в списъчен изглед",
+    "ShowInCard": "Покажи в страницата за запис",
+    "ShowInAnalytics": "Покажи в изгледа за анализ на секцията",
+    "FilterPage": "Филтърна страница",
+    "Section": {
+      "Title": "Настройка на отчета",
+      "BlankslateTitle": "Няма записи, отговарящи на текущите критерии за търсене.",
+      "BlankslateDescription": "Изчисти или промени параметрите за търсене",
+      "Delete": "Изтрий",
+      "Add": "Нов отчет",
+      "Copy": "Копирай",
+      "AddFastReport": "FastReport",
+      "AddMSWord": "MS Word"
+    },
+    "Page": {
+      "NewReportCaption": "Нов отчет",
+      "CopyPostfixCaption": " - Копирай",
+      "InfoBlock": {
+        "Title": "Бележка",
+        "StepsTitle": "За да настроиш отчета:",
+        "Steps": {
+          "Step1": "Инсталирай дизайнера на FastReport (дизайнерът може да бъде изтеглен от секцията \"Документация\" в <a href='{{academyLink}}' target='_blank'>{{academyLinkCaption}}<a>).",
+          "Step2": "Посочи източника на данни за отчета.",
+          "Step3": "Приложи логиката за обработка на отчетни данни в конфигурацията на Creatio.",
+          "Step4": "Изтегли файла с източника на данни и го отворете в FastReport Designer.",
+          "Step5": "Проектирай отчета в FastReport Designer.",
+          "Step6": "Запази файла с отчета и го качете в Creatio."
+        },
+        "AcademyLink": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview",
+        "AcademyLinkCaption": "Академия"
+      },
+      "DataSource": {
+        "Caption": "Източник на данни",
+        "Custom": {
+          "Caption": "Посочи източници на данни за отчета",
+          "Description": {
+            "Text": "Настрой отчетните данни, за да добавите Creatio данни към вашия отчет. Посочете списъка с обекти, техните колони, връзки във формат json. Примери за описания на източници на данни са налични в {parameter:AcademyLink}.",
+            "Parameters": {
+              "AcademyLink": {
+                "Caption": "Академия",
+                "Value": "https://academy.creatio.com/docs/developer/application_components/reports/fastreport/overview"
+              }
+            }
+          }
+        }
+      },
+      "Template": {
+        "Download": {
+          "Caption": "Изтегли файл с източници на данни, за да проектирате отчет в FastReport Designer",
+          "Description": "Отвори изтегления файл в FastReport Designer и настройте оформлението на отчета. Изтегленият файл ще съдържа структурата на източника на данни, която можете да използвате в FastReport Designer.",
+          "ButtonCaption": "Изтегли файла"
+        },
+        "Upload": {
+          "Caption": "Импортирай файл с шаблона за отчет",
+          "Description": "След като импортираш .frx файла, отчетът ще се появи в менюто „Печат“ на секция или на страницата за запис според настройките на отчета.",
+          "ButtonCaption": "Качи файл",
+          "Error": {
+            "MessageBoxCaption": "Шаблон за отчет за неуспешно качване"
+          },
+          "ReportUploadedMessage": "Шаблонът за отчет е запазен успешно"
+        }
+      },
+      "Validation": {
+        "required": "Въведи стойност",
+        "noWhitespaces": "Въведи стойност",
+        "isJson": "Въведи валидна JSON стойност",
+        "maxLength": "Превишена е максималната дължина на текста ({0}/{1})",
+        "dataSourceAbsentProviderNameProperty": "Източникът на данни трябва да има характеристика „Име на доставчик“",
+        "dataSourceAbsentSchemasProperty": "Източникът на данни трябва да има характеристика „Схеми“",
+        "dataSourceSchemasIsEmpty": "Източникът на данни няма схеми",
+        "dataSourceSchemasHasNoColumns": "Схемата на източник на данни „{schemaName}“ трябва да има дефиниция на колони",
+        "dataSourceAbsentDataValueTypeProperty": "Дефиницията на колона „{columnName}“ за схема „{schemaName}“ трябва да има свойството „DataValueType“"
+      }
+    }
+  },
+  "SessionEndDialog": {
+    "StayLoggedIn": "Остани Вписан",
+    "Exit": "Излез от профила си",
+    "LogIn": "Влез"
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Звънни"
+  },
+  "CrtIconSelectorComponent": {
+    "Tooltip": "Избери икона"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "Бизнес правилото е деактивирано"
+  },
+  "SalesEngagement": {
+    "StepBuilder": {
+      "EmptyState": {
+        "Title": "Още няма нищо за показване",
+        "Subtitle": "Моля, първо добави данни"
+      },
+      "UnexpectedReorderErrorMessage": "Unexpected error while reordering steps.",
+      "Actions": {
+        "AddStep": "Добави стъпка",
+        "CollapseAll": "Свий всички",
+        "ExpandAll": "Разшири всички",
+        "Expand": "Expand step",
+        "Collapse": "Collapse step",
+        "Copy": "Копирай",
+        "Edit": "Редактирай",
+        "Delete": "Изтрий",
+        "More": "Повече действия"
+      }
+    },
+    "BaseStepTile": {
+      "Name": "Заглавие",
+      "Description": "Описание",
+      "Priority": "Приоритет",
+      "Postpone": "Отложи",
+      "Measurement": "Measurement",
+      "Activity": "Дейност",
+      "Step": "Стъпка",
+      "PostponeMinZeroValidationMessage": "Value must be greater than or equal to zero"
+    },
+    "AddSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were added.",
+      "NoRecordsAddedMessage": "No participants were added.",
+      "PartialResultTitle": "Some participants were not added",
+      "PartialResultMessage": "Added: {{count}}\n\nIssues:\n{{errors}}",
+      "ErrorResultTitle": "Participants were not added",
+      "ErrorResultMessage": "Issues:\n{{errors}}",
+      "DialogOkCaption": "OK",
+      "UnexpectedErrorMessage": "Unexpected error while adding participants."
+    },
+    "ActivateSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were activated.",
+      "NoRecordsActivatedMessage": "No participants were activated."
+    },
+    "ReassignSequenceParticipants": {
+      "SuccessMessage": "{{count}} participants were reassigned.",
+      "NoRecordsReassignedMessage": "No participants were reassigned.",
+      "PickerTitle": "Select new sequencer"
+    },
+    "EmailStepTile": {
+      "Subject": "Тема",
+      "Body": "Тяло"
+    },
+    "StepMetrics": {
+      "Total": {
+        "Label": "Обща сума",
+        "Hint": "All activities created for this step"
+      },
+      "Delivered": {
+        "Label": "Изпратено",
+        "Hint": "Emails successfully sent for this step"
+      },
+      "Replies": {
+        "Label": "Replies",
+        "Hint": "Replies received for this step"
+      },
+      "ReplyRate": {
+        "Label": "Reply rate",
+        "Hint": "Share of sent emails that received a reply (replies / sent)"
+      },
+      "NotStarted": {
+        "Label": "Не е стартирано",
+        "Hint": "Activities not started yet"
+      },
+      "Completed": {
+        "Label": "Завършенo",
+        "Hint": "Activities completed"
+      },
+      "Answered": {
+        "Label": "Answered",
+        "Hint": "Calls that reached the contact (meeting scheduled, not interested, or call later)"
+      },
+      "BadContact": {
+        "Label": "Bad contact",
+        "Hint": "Calls with a bad number or wrong contact"
+      },
+      "NoAnswer": {
+        "Label": "Без отговор",
+        "Hint": "Calls that were not answered"
+      }
+    },
+    "SequenceStepName": {
+      "StepLabel": "Стъпка",
+      "DayLabel": "Ден"
+    }
+  },
+  "ClientUnitSchemaDesignerApi": {
+    "EntitySchemasCircularReferenceError": "Cyclic dependency error. New data sources reference each other through lookup columns. Remove one of the references and try again.",
+    "PackageDependenciesIsAbsentError": "Страницата не може да бъде запазена. {{schemaError}}",
+    "SchemaPackageDependencyIsAbsentError": "Моля добави зависимост към пакета '{{missedPackageName}}' за пакета '{{currentPackageName}}' ."
+  },
+  "DataSourceDependenciesSetting": {
+    "Title": "Приложи филтър по данни на страницата",
+    "Tooltip": "Филтрирането по данни за страници ти позволява да показваш свързани записи или подробни данни в допълнителен списък.",
+    "RelationsAndFilters": {
+      "Title": "Добави критерии за връзка",
+      "Tooltip": "Задай критериите за връзка, които ще се използват за определяне кой запис от този източник на данни да се показва в полетата на страницата."
+    }
+  },
+  "DataSourceDependency": {
+    "PageData": "Източник на данни",
+    "MatchDataSourceAttributes": "Съвпадение на атрибутите на източника на данни",
+    "FilterByActiveItemLabel": "Филтрирай по активен ред",
+    "FilterByActiveItemTooltip": "Избери, за да позволиш на потребителите да филтрират данните от списъка по активния ред на свързания източник на данни",
+    "PageDataSourceRelationTitle": "Отнася се до"
+  },
+  "DataSourceFilterElementsGroup": {
+    "Title": "Приложи предварително конфигуриран филтър",
+    "Tooltip": "Настройката ти позволява да използваш предварително конфигурирани филтри от папки или други елементи за филтриране на данни като филтри на страници."
+  },
+  "DataSourceFilterElement": {
+    "Caption": "Филтърен елемент"
+  },
+  "EntitySchemaSelectComponent": {
+    "AddNewEntity": "Добави нов обект",
+    "CreatePageLabel": "Моля създай страница, защото няма такава, която да изпълни това действие.",
+    "CreatePageLink": "Създай страница",
+    "EditPageLabel": "{0} има 1 страница с формуляр.",
+    "EditPagesLabel": "{0} има няколко страници.",
+    "EditPageLink": "Редактирай страницата",
+    "OpenPagesSetup": "Изглед на настройките на страниците",
+    "SaveConfirmationDialog": {
+      "Message": "Запази обекта, преди да създадеш страница. Да се продължи ли?"
+    },
+    "RelatedPagesCaptionWithEntityName": "Настройка на {0} страници"
+  },
+  "CrtLookupViewPropertiesComponent": {
+    "SelectionWindow": "Прозорец за избор",
+    "List": "Падащо меню",
+    "Label": "Изглед на търсене"
+  },
+  "LookupSchemaSelectComponent": {
+    "CreateLookupEntityButtonLabel": "Създаване на обект за търсене",
+    "EditLookupEntityButtonLabel": "Редактиране на обект за търсене"
+  },
+  "DataSourceSortElementsGroup": {
+    "SortLabelCaption": "Атрибут",
+    "Title": "Сортирай по",
+    "Tooltip": "Дефинирай правила за сортиране, за да определиш кой запис да избереш, когато няколко записа в {{dataSourceName}} отговарят на горните критерии.",
+    "Ascending": "Възходящo",
+    "Descending": "Низходящо"
+  },
+  "CrtPropertiesPanelHeaderComponent": {
+    "CloseButtonTitle": "Затвори"
+  },
+  "DataValueType": {
+    "DateCaption": "Дата",
+    "TimeCaption": "Време",
+    "DateTimeCaption": "Дата/Час",
+    "GuidCaption": "Уникален идентификатор",
+    "BooleanCaption": "Булева стойност",
+    "LongTextCaption": "Текст (500 символа)",
+    "MaxSizeTextCaption": "Текст с неограничена дължина",
+    "IntegerCaption": "Цяло число",
+    "FLOAT2Caption": "Десетично число (0.01)",
+    "MoneyCaption": "Валута (0.01)"
+  },
+  "BusinessRule": {
+    "GenerateCaption": {
+      "EmptyActionsTranslation": "Бизнес правило"
+    },
+    "EditProperties": {
+      "Applicabilities": {
+        "DataSource": "Към обекта с данни",
+        "Page": "Към страницата"
+      },
+      "Name": "Име",
+      "Applicability": "Приложи правилото",
+      "DataSource": "Обект",
+      "Enabled": "Разрешено",
+      "Caption": "Заглавие",
+      "Validators": {
+        "RequiredCaptionField": "Въведи стойност"
+      },
+      "Code": "Код"
+    },
+    "PropertiesPanel": {
+      "Header": {
+        "Title": "Настройки на бизнес правило"
+      },
+      "GeneralGroup": "Общо",
+      "AdvancedGroup": "Разширено"
+    },
+    "Mode": {
+      "Title": "Режим на конфигуриране на правило",
+      "ShowDesigner": "Покажи дизайнер",
+      "ShowCodeEditor": "Покажи метаданните"
+    },
+    "BlankSlate": {
+      "AddNewRule": "Добави ново правило",
+      "NoBusinessRules": "Без правила"
+    }
+  },
+  "BusinessRules": {
+    "CancelChangesConfirmationDialog": {
+      "Message": "Тази страница съдържа незапазени промени. Те ще бъдат загубени, ако затвориш страницата. Да се запазят ли промените?"
+    },
+    "PanelTitle": "Настройка на бизнес правила",
+    "List": {
+      "GroupName": "{{name}} Бизнес правила",
+      "PageBusinessRules": "Бизнес правила на страницата",
+      "AddRule": "Добави правило",
+      "RemoveRule": "Изтрий",
+      "CopyRule": "Копирай"
+    },
+    "Buttons": {
+      "SaveButtonCaption": "Запази",
+      "CancelButtonCaption": "Анулирай",
+      "OpenPropertiesPanelButtonTooltip": "Настройки на бизнес правило"
+    },
+    "Errors": {
+      "BusinessRulesAddonsError": "Грешка в добавките за бизнес правила!",
+      "InvalidRuleMessage": "Настройката на правилото е незавършена. Провери неговото заглавие, състояние и параметри за действие. Заглавието на правилото или действията не трябва да са празни.",
+      "NotValidRules": "Правилата не могат да бъдат запазени. Провери настройките за заглавие, действие и условие на невалидни правила.",
+      "MaxSizeInConditionLimitedWarningMessage": "Моля, имай предвид, че използването на текстово поле с неограничена дължина при условия „равно“ и „не равно“ е ограничено само до първите 500 знака.",
+      "NotSupportedInConditionTypesWarningMessage": "Типовете „обогатен текст“ и „изображение“ не се поддържат за бизнес правилата с условия „равно“ и „не равно“"
+    },
+    "TooltipMessage": {
+      "DisabledRuleMessage": "Бизнес правилото е деактивирано"
+    }
+  },
+  "DataSourceElementTypes": {
+    "Text": "Текст",
+    "Number": "Номер",
+    "Boolean": "Булева стойност",
+    "Lookup": "Търсене",
+    "ColorPicker": "Цвят",
+    "DateTime": "Date/Time",
+    "ImageLink": "Линк към изображение",
+    "EncryptedInput": "Криптиран низ от символи"
+  },
+  "BusinessRuleDesigner": {
+    "Delete": "Изтрий",
+    "DeleteConfirm": "Искаш ли да изтриеш бизнес правило?",
+    "NoBusinessRules": "Няма бизнес правила",
+    "TriggerCaptionDefault": "Страницата е отворена или един от атрибутите в условията е променен",
+    "SetValueAction": {
+      "TypeCaption": "Задай стойност"
+    },
+    "SetValuesAction": {
+      "TypeCaption": "Задай стойности",
+      "Groups": {
+        "Inputs": "Въвеждане",
+        "DataSource": "Източник на данни"
+      }
+    },
+    "SetFilterAction": {
+      "TypeCaption": "Приложи статичен филтър",
+      "FilterFieldCaption": "Филтър",
+      "SpecifyValuePlaceholder": "Посочи стойност",
+      "SetupStaticFilterAction": "Настрой филтъра",
+      "EditStaticFilterAction": "Редактирай филтъра",
+      "FiltersDialogCaption": "Настройка на филтъра"
+    },
+    "FilterLookupAction": {
+      "TypeCaption": "Приложи филтъра",
+      "FilterFieldCaption": "Филтър",
+      "ByFieldCaption": "по",
+      "WhereFieldCaption": "Къде",
+      "SpecifyValuePlaceholder": "Посочи стойност",
+      "PopulateValue": "Попълни стойността",
+      "PopulateRightExpressionPathElement": "Попълни полето {0}, ако полето {1} е попълнено",
+      "ClearValue": "Изчисти стойноста",
+      "ClearLeftExpressionPathElement": "Изчисти поле {0}, ако поле {1} е променено"
+    },
+    "HideElementAction": {
+      "TypeCaption": "Скрий елементите"
+    },
+    "ShowElementAction": {
+      "TypeCaption": "Покажи елементите"
+    },
+    "EditableElementAction": {
+      "TypeCaption": "Направи елементите редактируеми"
+    },
+    "ReadOnlyElementAction": {
+      "TypeCaption": "Направи елементите само да се четат"
+    },
+    "OptionalElementAction": {
+      "TypeCaption": "Направи елементите да не са задължителни"
+    },
+    "RequiredElementAction": {
+      "TypeCaption": "Направи елементите задължителни"
+    },
+    "Action": "Действие",
+    "AddAction": "Добави действие",
+    "DeleteAction": "Изтрий действието",
+    "AddElement": "Добави елемент",
+    "DeleteElement": "Изтрий елемент",
+    "CollapseConditionButton": "Свий",
+    "ShowCodeEditor": "Покажи редактора на кода",
+    "HideCodeEditor": "Скрий редактора на кода",
+    "ElementCode": "код:",
+    "Formula": {
+      "ValuePicker": {
+        "SourceCaption": "Формула",
+        "SetUpFormulaBtnCaption": "Настрой формулата",
+        "ChangeFormulaBtnCaption": "Промени формулата"
+      },
+      "EntityDataSourceExpressionValidator": {
+        "ColumnDoesNotExist": "Колона {{column}} не съществува"
+      }
+    },
+    "TriggerCaptionForDynamicFilter": "Страницата е отворена или някой от атрибутите в условията или действията е променен",
+    "TriggerCaptionForSetValueConst": "Отваря се страницата за създаване на запис или се променя един от атрибутите в условията",
+    "TriggerCaptionForSetValueFormula": "Отваря се страницата за създаване на запис или се променя един от атрибутите в условия или действия",
+    "TriggerTooltipText": "Бизнес правилото съдържа множество различни действия, които може да имат различни тригери. Научи повече за тригерите в Creatio Академията."
+  },
+  "SysAdminUnits": {
+    "AllEmployees": "Всички служители",
+    "ExternalUsers": "Външни потребители"
+  },
+  "SchemaDesigners": {
+    "EntityPagesDesigner": {
+      "HasTypeColumnLabel": "Използвай няколко страници въз основа на конкретна стойност на полето",
+      "ClearTypedPagesConfirmation": {
+        "Message": "Настройките на типизираните страници ще бъдат изчистени.",
+        "Buttons": {
+          "Continue": "Продължи",
+          "Cancel": "Анулирай"
+        }
+      },
+      "TypeColumnLabel": "Поле, което определя оформлението на страницата",
+      "TypeColumnRemoved": "Колоната е премахната",
+      "PageRemoved": "Страницата е премахната",
+      "Columns": {
+        "Role": "Роля",
+        "Type": "Тип",
+        "DefaultPage": "Страница по подразбиране",
+        "AddPage": "Страница за добавяне на запис"
+      },
+      "ToolsPanel": {
+        "Caption": "Списък със страници",
+        "AddPageButtonTooltip": "Добави страница"
+      },
+      "RowMenuItems": {
+        "Open": "Отвори",
+        "Copy": "Копирай",
+        "Delete": "Изтрий"
+      }
+    }
+  },
+  "EntityPagesDesignerDialog": {
+    "Caption": "Настройка на страниците"
+  },
+  "RelatedPageCombobox": {
+    "RelatedPageLabel": "Страница по подразбиране",
+    "AddPageLabel": "Страница за добавяне на запис",
+    "RelatedPagesCaption": "Настройка на страниците",
+    "DefaultPagePlaceholder": "Страница, която да се използва, ако не е посочена друга страница",
+    "AddPagePlaceholder": "Страница за използване за добавяне на записи",
+    "DefaultPageSelectionTooltip": "Избери или създай страница по подразбиране за редактиране, четене и създаване на записи.\nПрепоръчваме да използвате страница на потребителския интерфейс на Freedom с текущия обект, използван като източник на данни.",
+    "AddPageTooltip": "Избери или създай конкретна страница, която ще се използва само за добавяне на нов запис."
+  },
+  "PagesGroupDialog": {
+    "RoleCaption": "Роля",
+    "TypeCaption": "Тип",
+    "NewRecord": "Настройки на новата страница",
+    "EditRecord": "Настройки на страницата",
+    "EmptyTypeColumnTooltip": "Моля избери поле, което да се използва за определяне на страницата."
+  },
+  "Tooltips": {
+    "TypeColumn": {
+      "Message": "Полето, което определяше оформлението на страницата беше премахнато."
+    }
+  },
+  "QuickFilterGroup": {
+    "Caption": "Филтри"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Покажи оригинала",
+      "Original": "Преведи",
+      "Retry": "Опитай отново"
+    },
+    "AutoCaption": {
+      "On": "Разреши автоматичния превод",
+      "Off": "Забрани автоматичния превод"
+    }
+  },
+  "Sidebar": {
+    "PredefinedSidebarGroups": {
+      "CommunicationPanel": "Комуникационен панел",
+      "NotificationsPanel": "Панел за известия"
+    }
+  },
+  "ConstValuePickerProvider": {
+    "Caption": "Постоянна стойност",
+    "SourceCaption": "Константа",
+    "ValuePickerComponent": {
+      "Placeholder": "Посочи стойност"
+    },
+    "ConstValuePickerDialogComponent": {
+      "Title": "Избери стойност",
+      "Label": "Стойност",
+      "Actions": {
+        "OkButtonCaption": "Ок",
+        "CancelButtonCaption": "Анулирай"
+      }
+    }
+  }
+}

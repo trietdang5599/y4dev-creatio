@@ -1,0 +1,40 @@
+﻿define("Activities_dashboardResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		ChartWidget_ActivitiesPerContact_name: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438",
+		ChartWidget_ActivitiesPerAccount_name: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438",
+		ChartWidget_ActivitiesPerUser_name: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438",
+		ChartWidget_ActivitiesByDate_name: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438",
+		ActivitiesPerContactChart_label: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C",
+		ActivitiesPerContactChart_title: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438 \u043D\u0430 \u043A\u043E\u043D\u0442\u0430\u043A\u0442",
+		ActivitiesPerAccountChart_label: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C",
+		ActivitiesPerAccountChart_title: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438 \u043D\u0430 \u043A\u043E\u043D\u0442\u0440\u0430\u0433\u0435\u043D\u0442\u0430",
+		ActivitiesPerUserChart_label: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C",
+		ActivitiesPerUserChart_title: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438 \u043D\u0430 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044F",
+		ActivitiesByDateChart_label: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C",
+		ActivitiesByDateChart_title: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438 \u043F\u043E \u0434\u0430\u0442\u0435",
+		ActivitiesByResultChart_label: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C",
+		ActivitiesByResultChart_title: "\u0412\u0441\u0435\u0433\u043E \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0435\u0439 \u043F\u043E \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u0443",
+		ActivitiesByStatusChart_label: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C",
+		ActivitiesByStatusChart_title: "\u0412\u0441\u0435\u0433\u043E \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0435\u0439 \u043F\u043E \u0441\u0442\u0430\u0442\u0443\u0441\u0443",
+		ActivitiesByTypeChart_label: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C",
+		ActivitiesByTypeChart_title: "\u0412\u0441\u0435\u0433\u043E \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0435\u0439 \u043F\u043E \u0442\u0438\u043F\u0443",
+		ActivitiesCanceledWidget_template: "{0}",
+		ActivitiesCanceledWidget_title: "\u0412\u0441\u0435\u0433\u043E \u043E\u0442\u043C\u0435\u043D\u0435\u043D\u043D\u044B\u0445 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0435\u0439",
+		ActivitiesCompletedWidget_template: "{0}",
+		ActivitiesCompletedWidget_title: "\u0412\u0441\u0435\u0433\u043E \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u043D\u044B\u0445 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0435\u0439",
+		ActivitiesInProgressWidget_template: "{0}",
+		ActivitiesInProgressWidget_title: "\u0412\u0441\u0435\u0433\u043E \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0435\u0439 \u0432 \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0435",
+		ActivitiesTotalWidget_template: "{0}",
+		ActivitiesTotalWidget_title: "\u0412\u0441\u0435\u0433\u043E \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0435\u0439",
+		ActivitiesByDateChart_yAxis: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438",
+		ActivitiesByDateChart_xAxis: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438",
+		ActivitiesByDateChart_series_0: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C",
+		ActivitiesByResultChart_series_0: "\u0410\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C"
+	};
+	var parametersLocalizableStrings = {};
+	var propertiesLocalizableStrings = {
+		Caption: "\u0410\u043D\u0430\u043B\u0438\u0442\u0438\u043A\u0430 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0435\u0439"
+	};
+	var localizableImages = {};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages, parametersLocalizableStrings: parametersLocalizableStrings, propertiesLocalizableStrings: propertiesLocalizableStrings};
+});

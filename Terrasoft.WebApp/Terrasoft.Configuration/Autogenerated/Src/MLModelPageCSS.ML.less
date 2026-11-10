@@ -1,0 +1,201 @@
+﻿.ml-model-card-content-container {
+	.faq-header {
+		font-size: 15px;
+		text-transform: uppercase;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+
+	.label-green-color {
+		color: #8ecb60;
+	}
+
+	.t-btn-wrapper.ml-model-page-info-button-control-group {
+		border: 0 !important;
+		margin: 0;
+	}
+
+	.t-btn-wrapper.faq-button {
+		padding: 0;
+		text-decoration: none;
+		color: #4e7bd8;
+		outline: none;
+		overflow: hidden;
+		font-size: 1.4em;
+		text-align: left;
+		margin-bottom: 6px;
+	}
+
+	.t-btn-wrapper.faq-button:hover {
+		text-decoration: underline;
+	}
+
+	.root-schema-control-container, .prediction-enabled-control-container {
+		.tip-label-wrap {
+			text-align: left;
+		}
+	}
+
+	#MLModelPageAdvancedModelParametersGroupControlGroup {
+		.base-edit {
+			width: 50%;
+		}
+	}
+	
+	#ModelSettingsTab, #AdvancedModelSettingsTab {
+		#MetaData-wrap {
+			height: 300px;
+			margin-bottom: 10px;
+		}
+
+		#TrainingSetQuery-wrap, #BatchPredictionQuery-wrap {
+			height: 200px;
+		}
+
+		.memo-label {
+			color: #999999;
+			font-size: 1.3em;
+			margin: 4px 0 0 4px;
+		}
+
+		.add-columns-menu-button {
+			.t-btn-menu {
+				display: none;
+			}
+		}
+
+		.target-column.base-edit-focus, .predicted-result-column.base-edit-focus {
+			border-top: 0;
+			border-left: 0;
+			border-right: 0;
+		}
+
+		@columnListRowHeight: 31px;
+
+		.placeholder-label {
+			color: #999999;
+			text-align: center;
+			margin-top: 10px;
+		}
+		.toggle-edit {
+			display: inline-block;
+		}
+		.toggle-edit-label {
+			display: inline;
+			vertical-align: middle;
+			margin-left: 10px;
+		}
+		.ts-controlgroup-caption-wrap {
+			height: auto;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+
+			.ts-controlgroup-tools {
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				position: relative;
+			}
+			>span {
+				min-height: 2.5em;
+				height: auto;
+			}
+		}
+		.ts-controlgroup-container, .batch-prediction-filters-container, .batch-prediction-filters-label {
+			margin-left: 24px;
+		}
+		.training-settings-control-group {
+			.toggle-edit {
+				margin-bottom: 10px;
+			}
+		}
+		.batch-prediction-filters-label {
+			margin-top: 10px;
+		}
+		.t-information-btn.t-btn-image {
+			width: 26px;
+			height: 26px;
+		}
+	}
+
+	.ml-explanation-widget {
+		height: 320px;
+
+		.empty-training-data-message {
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: #999999;
+			text-align: center;
+
+			.ts-image-edit-wrap {
+				margin-right: 0;
+				margin-bottom: 14px;
+			}
+		}
+	}
+	
+	#MLConsultationBannerContainer {
+		padding: 0 0 0 0;
+		height: 128px;
+		position: relative;
+		
+		.ml-consultation-banner {
+			position: absolute;
+			z-index: 10;
+			width: 296px;
+			height: 100%;
+			margin: 0 0 0 0;
+			display: flex;
+			justify-content: flex-end;
+			background: transparent linear-gradient(81deg, #22AC14 0%, #8BCF00 100%) 0 0 no-repeat padding-box;
+			border: 1px solid #E6E6E6;
+			opacity: 1;
+			border-radius: 3px;
+			
+			img {
+				opacity: 0.7;
+				mix-blend-mode: darken;
+			}
+		}
+
+		label, span {
+			position: absolute;
+			z-index: 15;
+			left: 24px;
+		}
+
+		.ml-consultation-banner-text {
+			top: 24px;
+			width: 90%;
+			color: white;
+			opacity: 1;
+		}
+
+		.ml-consultation-banner-button {
+			top: 74px;
+			color: white;
+			border: solid 1px;
+			text-transform: uppercase;
+			opacity: 1;
+			line-height: 19px;
+		}
+	}
+
+	#MLFilterForTrainingGroup {
+		display: flex;
+		
+		#TrainErrorText {
+			flex-basis: 30%;
+			overflow-wrap: break-word;
+			text-align: justify;
+			padding-left: 5px;
+
+			h3 {
+				color: #EA7356;
+			}
+		}
+	}
+}

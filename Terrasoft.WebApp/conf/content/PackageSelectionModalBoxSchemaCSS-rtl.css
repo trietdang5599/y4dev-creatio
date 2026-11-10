@@ -1,0 +1,39 @@
+﻿.package-selection-edit-container {
+  padding: 20px 35px 24px 35px;
+  max-width: 409px;
+  min-height: 165px;
+}
+.package-selection-edit-container .package-selection-edit-caption {
+  font-size: 21px;
+  font-family: "Bpmonline Open Sans Light";
+  color: #006CE0;
+  line-height: 28px;
+}
+.package-selection-edit-container .control-width-15 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.package-selection-edit-container .control-width-15 .control-wrap {
+  flex-basis: auto;
+  margin: 0;
+  padding: 0;
+  max-width: 339px;
+}
+.package-selection-edit-container .control-width-15 .label-wrap {
+  justify-content: flex-start;
+  max-width: none;
+}
+.package-selection-edit-container .control-width-15 .label-wrap .t-label {
+  text-align: right;
+  margin-bottom: 0;
+}
+html[dir="rtl"] .package-selection-edit-caption {
+  direction: rtl;
+}
+.package-selection-edit-button-container {
+  padding: 0 35px;
+  max-width: 409px;
+  display: flex;
+  flex-direction: row-reverse;
+}

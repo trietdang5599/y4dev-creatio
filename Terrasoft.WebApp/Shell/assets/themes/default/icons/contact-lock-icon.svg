@@ -1,0 +1,14 @@
+<svg id="Component_149_1" data-name="Component 149 – 1" xmlns="http://www.w3.org/2000/svg" width="16.05" height="16.05" viewBox="0 0 16.05 16.05">
+	<g id="Group_7481" data-name="Group 7481" transform="translate(459.548 -471.435)">
+		<g id="Group_7479" data-name="Group 7479">
+			<path id="Path_6934" data-name="Path 6934" d="M-452.048,484.935h-6.5a5.993,5.993,0,0,1,6.25-4.881" fill="none" stroke="currentColor" stroke-width="1"/>
+			<circle id="Ellipse_1351" data-name="Ellipse 1351" cx="3" cy="3" r="3" transform="translate(-455.548 471.935)" fill="none" stroke="currentColor" stroke-width="1"/>
+		</g>
+		<g id="Group_7485" data-name="Group 7485" transform="translate(-26 1)">
+			<rect id="Rectangle_6495" data-name="Rectangle 6495" width="6" height="5" rx="1.225" transform="translate(-424.048 480.935)" fill="none" stroke="currentColor" stroke-width="1.1"/>
+			<path id="Path_6937" data-name="Path 6937" d="M-238.546,480.935v-2c0-.552.6-1,1.333-1h1.334c.736,0,1.333.448,1.333,1v2" transform="translate(-184.502)" fill="none" stroke="currentColor" stroke-width="1.1"/>
+			<rect id="Rectangle_6496" data-name="Rectangle 6496" width="1" height="2" transform="translate(-421.548 482.435)" fill="currentColor"/>
+		</g>
+	</g>
+	<rect id="Rectangle_6491" data-name="Rectangle 6491" width="16" height="16" fill="none"/>
+</svg>

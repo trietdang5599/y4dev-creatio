@@ -1,0 +1,152 @@
+﻿body[OldUI=false] .center-main-container {
+	.table-macros {
+		.ts-controlgroup.macros-list .macros-ct .macros-row-main-info .macros-link {
+			width: 0;
+		}
+	}
+
+	.ts-controlgroup {
+		&.macros-list {
+			line-height: 31px;
+			max-width: none;
+
+			.ts-controlgroup-tools {
+				.info-button {
+					margin: 0;
+					padding-top: 4px;
+				}
+
+				.add-macros {
+					padding-top: 8px;
+				}
+			}
+
+			.ts-controlgroup-container {
+				margin-top: 6px;
+				margin-left: 24px;
+			}
+
+			.container-list-header {
+				display: flex;
+				flex-direction: row;
+
+				label {
+					flex-basis: 35%;
+					font-size: 1.3em;
+					color: #999999;
+				}
+			}
+
+			.container-list {
+				border-top: 1px solid;
+				border-top-width: 1px;
+				border-top-style: solid;
+				border-top-color: #e0e0e0;
+			}
+
+			.container-list.container-list-empty {
+				border: none;
+			}
+
+			.macros-ct {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				height: 31px;
+
+				&:nth-child(even) {
+					background-color: #f7f7f7;
+				}
+
+				.macros-row-main-info {
+					display: flex;
+					flex-direction: row;
+					flex-basis: 70%;
+					min-width: 0;
+
+					.macros-link {
+						padding-right: 5px;
+					}
+
+					.macros-link-with-sorting {
+						flex-basis: 50%;
+						white-space: nowrap;
+						text-overflow: ellipsis;
+					}
+
+					.macros-sorting-edit-wrapper {
+						display: flex;
+						flex-direction: row;
+						flex-basis: 50%;
+
+						.base-edit {
+							flex-basis: 0;
+							border: none;
+						}
+
+						.base-edit-input {
+							display: none;
+						}
+
+						.base-edit-right-icon {
+							display: block;
+							margin-left: 9px;
+						}
+
+						.base-edit-left-icon {
+							margin-left: 0;
+						}
+					}
+				}
+
+				.macros-row-settings {
+					display: flex;
+					flex-direction: row;
+					justify-content: flex-end;
+					flex-basis: 30%;
+				}
+
+				.macros-item {
+					&.caption {
+						flex-basis: 100%;
+					}
+
+					&.action-item {
+						flex-shrink: 0;
+						width: 31px;
+						height: 31px;
+						align-self: stretch;
+						cursor: pointer;
+						display: none;
+					}
+				}
+
+				.macros-item:last-child {
+					margin-right: 15px;
+				}
+
+				&:hover {
+					.macros-item {
+						&.action-item {
+							display: inline-block;
+						}
+					}
+				}
+			}
+
+			.empty-message-ct {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+
+				.empty-message {
+					color: #999999;
+					font-family: "Bpmonline Open Sans";
+					vertical-align: middle;
+					width: auto;
+				}
+			}
+		}
+	}
+}

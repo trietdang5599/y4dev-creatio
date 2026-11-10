@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "Uporabi drugo metodo",
+    "TwoFactorSubmitButton": "Preveri",
+    "TwoFactorBackButton": "Nazaj",
+    "SmsProvider": {
+        "SendSms": "Pošlji drugo kodo",
+        "ResendSms": "Ponovno pošlji SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Pošlji drugo kodo"
+    },
+    "TwoFactor.AdditionalVerification": "Dodatna verifikacija",
+    "TwoFactor.CancelButton.Caption": "Prekliči",
+    "TwoFactor.SmsProviderNotAvailable": "Vnesi kodo za preverjanje, ki je bila poslana prek SMS na telefonsko številko",
+    "TwoFactor.EnterSmsCode.Caption": "Vnesi kodo za preverjanje, ki je bila poslana prek SMS na telefonsko številko",
+    "TwoFactor.EnterEmailCode.Caption": "Vnesi kodo za potrditev, ki je bila poslana na e-poštni naslov",
+    "TwoFactor.EnterTOTPCode.Caption": "Vnesi kodo za preverjanje iz aplikacije za overitev",
+    "TwoFactor.VerificationCode.Caption": "Koda za preverjanje",
+    "TwoFactor.TOTPUnavailable.Caption": "Za uporabo metode aplikacije za overjanje je potrebno najprej izvesti nastavitev. Nastavitev je mogoče izvesti na strani profila.",
+    "TwoFactor.UseAnotherMethod.Caption": "Uporabi drugo metodo",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Neveljavna verifikacijska koda. Preveriti je potrebno pravilnosti vnesenih podatkov ali se obrniti na svojega sistemskega skrbnika",
+    "TwoFactor.ValidationCanceled": "Preverjanje drugega dejavnika je bilo preklicano",
+    "TwoFactor.EnterRecoveryCode.Caption": "Vnesi kodo za obnovitev",
+    "TwoFactor.RecoveryCodesNotAvailable": "Za uporabo obnovitvenih kod je potrebno najprej izvesti nastavitev. Nastavitev je mogoče izvesti na strani profila."
+}

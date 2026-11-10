@@ -1,0 +1,13 @@
+﻿define("SysSchemaAdminUnitResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		SysSchemaAdminUnitCaption: "Schema admin unit operation",
+		IdCaption: "Id",
+		CreatedOnCaption: "Created on",
+		CreatedByCaption: "Created by",
+		ModifiedOnCaption: "Modified on",
+		ModifiedByCaption: "Modified by",
+		ProcessListenersCaption: "Active processes"
+	};
+	var localizableImages = {};
+	return {localizableStrings: localizableStrings, localizableImages: localizableImages};
+});

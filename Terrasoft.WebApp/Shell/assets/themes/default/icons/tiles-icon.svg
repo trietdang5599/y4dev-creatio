@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g transform="translate(-8 -8)">
+    <path d="M876,50v4h-3V50h3m1-1h-5v6h5Z" transform="translate(-863 -33)" fill="currentColor"/>
+    <path d="M885,44v5h-3V44h3m1-1h-5v7h5Z" transform="translate(-863 -33)" fill="currentColor"/>
+    <path d="M879,44v3h-6V44h6m1-1h-8v5h8Z" transform="translate(-863 -33)" fill="currentColor"/>
+    <path d="M885,52v2h-6V52h6m1-1h-8v4h8Z" transform="translate(-863 -33)" fill="currentColor"/>
+  </g>
+  <rect width="16" height="16" fill="none"/>
+</svg>

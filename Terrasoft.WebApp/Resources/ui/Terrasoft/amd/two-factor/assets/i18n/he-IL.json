@@ -1,0 +1,25 @@
+{
+    "UseAnotherMethod": "השתמש בשיטה אחרת",
+    "TwoFactorSubmitButton": "אמת",
+    "TwoFactorBackButton": "חזור",
+    "SmsProvider": {
+        "SendSms": "שלח קוד אחר",
+        "ResendSms": "שלח מחדש SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "שלח קוד אחר"
+    },
+    "TwoFactor.AdditionalVerification": "אימות נוסף",
+    "TwoFactor.CancelButton.Caption": "בטל",
+    "TwoFactor.SmsProviderNotAvailable": "הזן את קוד האימות שנשלח בהודעת SMS למספר הטלפון שלך",
+    "TwoFactor.EnterSmsCode.Caption": "הזן את קוד האימות שנשלח בהודעת SMS למספר הטלפון שלך",
+    "TwoFactor.EnterEmailCode.Caption": "הזן את קוד האימות שנשלח לכתובת הדוא\"ל שלך",
+    "TwoFactor.EnterTOTPCode.Caption": "הזינו את קוד האימות שנוצר על ידי אפליקציית האותנטיקציה שלך",
+    "TwoFactor.VerificationCode.Caption": "קוד אימות",
+    "TwoFactor.TOTPUnavailable.Caption": "כדי להשתמש בשיטת אפליקציית האותנטיקציה, עליך קודם כל להגדירה. אתה יכול לעשות זאת בעמוד הפרופיל שלך.",
+    "TwoFactor.UseAnotherMethod.Caption": "השתמש בשיטה אחרת",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "קוד אימות לא תקף. ודא שהזנת נתונים נכונים או צור קשר עם מנהל המערכת שלך",
+    "TwoFactor.ValidationCanceled": "האימות של גורם שני בוטל",
+    "TwoFactor.EnterRecoveryCode.Caption": "הזן את קוד השחזור",
+    "TwoFactor.RecoveryCodesNotAvailable": "כדי להשתמש בקודי השחזור, עליך קודם כל להגדיר אותם. אתה יכול לעשות זאת בעמוד הפרופיל שלך"
+}

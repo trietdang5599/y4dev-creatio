@@ -1,0 +1,125 @@
+{
+    "Input": {
+        "HidePassword": "Cacher le mot de passe",
+        "ShowPassword": "Afficher le mot de passe"
+    },
+    "PasswordChangedSuccessfully": "Le mot de passe a été modifié avec succès",
+    "PasswordChangeError": "Une erreur est survenue lors du changement de mot de passe",
+    "PasswordAndConfirmationDoNotMatch": "Le mot de passe et la confirmation ne correspondent pas",
+    "TotpSetupPage": {
+        "VerificationCode": "Code de vérification",
+        "Secret": "Secret",
+        "SubmitButton": "Connecter",
+        "Success": "Application d'authentification connectée",
+        "TokenExpired": "Votre jeton a expiré.",
+        "InvalidTotp": "Code de vérification invalide. Assurez-vous d'avoir entré des données correctes ou contactez votre administrateur système.",
+        "Error": "Une erreur est survenue lors de la configuration du TOTP. Veuillez réessayer ou contacter votre administrateur système",
+        "Header": "Connecter une application d'authentification à votre compte",
+        "Step1": "1. Installez une application d'authentification, telle que Google Authenticator, sur votre appareil mobile.",
+        "Step2": "2. Scannez ce code QR avec l'app :",
+        "Step2SecretDescription": "Ou renseignez la clé manuellement :",
+        "Step3": "3. Saisissez le code de vérification à 6 chiffres généré par votre application d'authentification.",
+        "CancelButton": "Annuler"
+    },
+    "ResetPasswordPage": {
+        "NewPassword": "Nouveau mot de passe",
+        "NewPasswordConfirm": "Confirmer le nouveau mot de passe",
+        "SecondFactor": "Code de confirmation",
+        "SendCodeViaSMS": "Envoyer le code par SMS",
+        "ResetPasswordButtonCaption": "Réinitialiser le mot de passe",
+        "Error": "Une erreur est survenue lors de la récupération du mot de passe. Veuillez réessayer ou contacter votre administrateur système"
+    },
+    "PasswordComplexity": {
+        "MinPasswordLength": {
+            "Message": "Caractères - {{minLength}}"
+        },
+        "MinPasswordUppercaseCharCount": {
+            "Message": "Lettres majuscules - {{minCount}}"
+        },
+        "MinPasswordLowercaseCharCount": {
+            "Message": "Lettre minuscule - {{minCount}}"
+        },
+        "MinPasswordNumericCharCount": {
+            "Message": "Chiffres - {{minCount}}"
+        },
+        "MinPasswordSpecialCharCount": {
+            "Message": "Caractères spéciaux - {{minCount}}"
+        },
+        "PasswordStrength": {
+            "Message": "Le mot de passe ne respecte pas les exigences"
+        },
+        "PasswordsDoNotMatch": {
+            "Message": "Les mots de passe ne concordent pas"
+        },
+        "MfaEmpty": {
+            "Message": "Merci de renseigner le champ"
+        }
+    },
+    "PasswordValidationTooltipCaption": "Exigences minimales de mot de passe",
+    "BeginPasswordRecoveryPage": {
+        "Email": "Renseignez un email ou un identifiant utilisateur",
+        "EmailSent": "Si un compte existe, vous recevrez un email contenant des instructions de récupération de mot de passe. Si l'email n'arrive pas, vérifiez votre dossier spam et contactez votre administrateur système",
+        "Error": "Une erreur s'est produite lors de l'envoi de l'email",
+        "SendButtonCaption": "Envoyer un email",
+        "ResendButtonCaption": "Renvoyer l'email",
+        "OpenLoginPageButtonCaption": "Ouvrir la page de connexion",
+        "ResetLinkExpired": "Le lien de réinitialisation a expiré ou a déjà été utilisé"
+    },
+    "UseAnotherMethod": "Utiliser une autre méthode",
+    "TwoFactorSubmitButton": "Vérifier",
+    "TwoFactorBackButton": "Précédent",
+    "SmsProvider": {
+        "SendSms": "Envoyer un autre code",
+        "ResendSms": "Renvoyer le SMS"
+    },
+    "EmailProvider": {
+        "SendEmail": "Envoyer un autre code"
+    },
+    "TwoFactor.SmsProviderNotAvailable": "Saisissez le code de vérification qui vous a été envoyé par SMS",
+    "TwoFactor.EnterSmsCode.Caption": "Entrez le code de vérification qui a été envoyé par SMS à votre numéro de téléphone",
+    "TwoFactor.EnterEmailCode.Caption": "Saisissez le code de vérification qui a été envoyé à votre adresse email",
+    "TwoFactor.EnterTOTPCode.Caption": "Saisissez le code de vérification généré par votre application d'authentification",
+    "TwoFactor.VerificationCode.Caption": "Code de vérification",
+    "TwoFactor.TOTPUnavailable.Caption": "Pour utiliser la méthode de l'application d'authentification, vous devez d'abord la configurer. Vous pouvez le faire sur votre page de profil.",
+    "TwoFactor.UseAnotherMethod.Caption": "Utiliser une autre méthode",
+    "TwoFactor.InvalidTotpCode.ErrorMessage": "Code de vérification invalide. Assurez-vous d'avoir entré des données correctes ou contactez votre administrateur système",
+    "TwoFactor.ValidationCanceled": "La validation du deuxième facteur a été annulée",
+    "ConsentPage": {
+        "AcceptButtonCaption": "Accepter",
+        "DiscardButtonCaption": "Ignorer",
+        "SwitchButton": "Echanger",
+        "DescriptionTextStart": "L'application {{oauthApplicationName}} demande l'accès à votre ",
+        "DescriptionTextEnd": "Compte Creatio. Après votre accord, il aura accès aux opérations suivantes :",
+        "CommonScopeText": "Capacité d'effectuer toutes les opérations sur les données et d'utiliser toutes les fonctionnalités disponibles pour votre compte",
+        "Footer1": "Vous pourrez révoquer l'accès à tout moment dans votre profil utilisateur.",
+        "Footer2": "En savoir plus dans ",
+        "Footer3": "Pour les applications fournies par Creatio, vous pouvez trouver la documentation pertinente dans l'Académie. Notez que Creatio ne passe pas en revue les intégrations avec des applications tierces. Votre utilisation de cette application et de cette intégration est soumise aux Conditions d'utilisation, à la Politique de confidentialité et à la Documentation du tiers.",
+        "AcademyLink": "Académie",
+        "ConsentErrorInvalidRequest": {
+            "Title": "Erreur de configuration de l'intégration",
+            "Message": "Impossible de démarrer le processus d'autorisation car la demande n'est pas configurée correctement. Un ou plusieurs paramètres requis sont incorrects ou manquants.",
+            "Suggestion": "Contactez votre administrateur système ou le support de Creatio pour vérifier les paramètres d'intégration et vous assurer que tous les paramètres nécessaires sont fournis."
+        },
+        "ConsentErrorInvalidClient": {
+            "Title": "Intégration non trouvée",
+            "Message": "Impossible de démarrer le processus d'autorisation car aucune intégration active n'est configurée avec l'ID client et l'URI de redirection autorisé fournis.",
+            "Suggestion": "Contactez votre administrateur système ou le support de Creatio pour vérifier les paramètres d'intégration et vous assurer que l'ID client correct et l'URI de redirection appropriée sont utilisés."
+        },
+        "ConsentErrorInvalidUser": {
+            "Title": "L'accès à l'intégration n'est pas autorisé",
+            "Message": "Impossible de continuer car votre compte utilisateur n'est pas autorisé à utiliser cette intégration.",
+            "Suggestion": "Contactez votre administrateur système pour mettre à jour la liste des utilisateurs autorisés à utiliser cette intégration."
+        },
+        "ConsentErrorInvalidConsentId": {
+            "Title": "La demande d'autorisation a expiré",
+            "Message": "Impossible de terminer l'autorisation car la demande a expiré.",
+            "Suggestion": "Redémarrez le processus d'autorisation d'intégration depuis le début pour continuer."
+        },
+        "ConsentErrorServerError": {
+            "Title": "Erreur lors du paramétrage de l'intégration",
+            "Message": "Une erreur s'est produite lors du traitement de la demande. Veuillez réessayer plus tard.",
+            "Suggestion": "Veuillez contacter votre administrateur système pour demander les droits d'accès nécessaires et réessayer après cela."
+        },
+        "ErrorFooter": "En savoir plus sur les paramètres d'intégration OAuth dans Creatio sur le "
+    }
+}
