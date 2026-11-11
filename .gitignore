@@ -52,6 +52,8 @@ bld/
 # Creatio local runtime database and database backups
 /Terrasoft.WebApp/conf/runtime-data/db.sqlite
 /db/*.backup
+[Aa]uto[Gg]enerated/
+
 
 # Environment-specific credentials and local database files
 ConnectionStrings.config
