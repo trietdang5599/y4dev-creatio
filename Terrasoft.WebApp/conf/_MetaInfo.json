@@ -1,6 +1,6 @@
 ﻿{
-	"ConfigurationAssemblyVersion": 4,
-	"ConfigurationHash": "4da91cd5bb6c42248c2c778c6a07f2e2",
+	"ConfigurationAssemblyVersion": 7,
+	"ConfigurationHash": "aae47bcaa075405192e01a0465712045",
 	"IsStaticContentGenerated": true,
 	"SchemasPublishInfo": [
 		{
@@ -18105,6 +18105,11 @@
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrTrafficLight",
+			"Hash": "3277c49efc8b0ae3b8b194f9cbc8be671c3b11da8c49569e36c52f8a686367a4"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "VideoHelp",
 			"Hash": "962f52dc95599508e1e61a34ccd7848a"
 		},
@@ -20542,6 +20547,11 @@
 			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "UserSessionProcess",
 			"Hash": "9129e1053fdccbe71057b7325ca0cf14"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "UsrDummyProcess",
+			"Hash": "e67dbb91d8e872c99592b0046a7366ab564aa2dc078f86978071ec7bc8e1b7fc"
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
