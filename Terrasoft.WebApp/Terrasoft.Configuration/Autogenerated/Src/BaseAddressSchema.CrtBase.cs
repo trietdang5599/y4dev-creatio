@@ -26,24 +26,24 @@
 	using Terrasoft.UI.WebControls.Controls;
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 
-	#region Class: BaseAddressSchema
+	#region Class: BaseAddress_CrtBase_CreatioSchema
 
 	/// <exclude/>
 	[IsVirtual]
-	public class BaseAddressSchema : Terrasoft.Configuration.BaseEntitySchema
+	public class BaseAddress_CrtBase_CreatioSchema : Terrasoft.Configuration.BaseEntitySchema
 	{
 
 		#region Constructors: Public
 
-		public BaseAddressSchema(EntitySchemaManager entitySchemaManager)
+		public BaseAddress_CrtBase_CreatioSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public BaseAddressSchema(BaseAddressSchema source, bool isShallowClone)
+		public BaseAddress_CrtBase_CreatioSchema(BaseAddress_CrtBase_CreatioSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public BaseAddressSchema(BaseAddressSchema source)
+		public BaseAddress_CrtBase_CreatioSchema(BaseAddress_CrtBase_CreatioSchema source)
 			: base(source) {
 		}
 
@@ -55,7 +55,7 @@
 			base.InitializeProperties();
 			UId = new Guid("400e8687-9616-480d-9d81-61de0235cc86");
 			RealUId = new Guid("400e8687-9616-480d-9d81-61de0235cc86");
-			Name = "BaseAddress";
+			Name = "BaseAddress_CrtBase_Creatio";
 			ParentSchemaUId = new Guid("1bab9dcf-17d5-49f8-9536-8e0064f1dce0");
 			ExtendParent = false;
 			CreatedInPackageId = new Guid("66e9e705-64b4-4dda-925e-d1e05a389eb6");
@@ -184,7 +184,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new BaseAddress(userConnection) {Schema = this};
+			return new BaseAddress_CrtBase_Creatio(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -192,11 +192,11 @@
 		}
 
 		public override object Clone() {
-			return new BaseAddressSchema(this);
+			return new BaseAddress_CrtBase_CreatioSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new BaseAddressSchema(this, true);
+			return new BaseAddress_CrtBase_CreatioSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -210,22 +210,22 @@
 
 	#endregion
 
-	#region Class: BaseAddress
+	#region Class: BaseAddress_CrtBase_Creatio
 
 	/// <summary>
 	/// Base address.
 	/// </summary>
-	public class BaseAddress : Terrasoft.Configuration.BaseEntity
+	public class BaseAddress_CrtBase_Creatio : Terrasoft.Configuration.BaseEntity
 	{
 
 		#region Constructors: Public
 
-		public BaseAddress(UserConnection userConnection)
+		public BaseAddress_CrtBase_Creatio(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "BaseAddress";
+			SchemaName = "BaseAddress_CrtBase_Creatio";
 		}
 
-		public BaseAddress(BaseAddress source)
+		public BaseAddress_CrtBase_Creatio(BaseAddress_CrtBase_Creatio source)
 			: base(source) {
 		}
 
@@ -424,13 +424,13 @@
 		#region Methods: Protected
 
 		protected override void InitializeThrowEvents() {
-			Deleted += (s, e) => ThrowEvent("BaseAddressDeleted", e);
-			Deleting += (s, e) => ThrowEvent("BaseAddressDeleting", e);
-			Inserted += (s, e) => ThrowEvent("BaseAddressInserted", e);
-			Inserting += (s, e) => ThrowEvent("BaseAddressInserting", e);
-			Saved += (s, e) => ThrowEvent("BaseAddressSaved", e);
-			Saving += (s, e) => ThrowEvent("BaseAddressSaving", e);
-			Validating += (s, e) => ThrowEvent("BaseAddressValidating", e);
+			Deleted += (s, e) => ThrowEvent("BaseAddress_CrtBase_CreatioDeleted", e);
+			Deleting += (s, e) => ThrowEvent("BaseAddress_CrtBase_CreatioDeleting", e);
+			Inserted += (s, e) => ThrowEvent("BaseAddress_CrtBase_CreatioInserted", e);
+			Inserting += (s, e) => ThrowEvent("BaseAddress_CrtBase_CreatioInserting", e);
+			Saved += (s, e) => ThrowEvent("BaseAddress_CrtBase_CreatioSaved", e);
+			Saving += (s, e) => ThrowEvent("BaseAddress_CrtBase_CreatioSaving", e);
+			Validating += (s, e) => ThrowEvent("BaseAddress_CrtBase_CreatioValidating", e);
 			base.InitializeThrowEvents();
 		}
 
@@ -439,7 +439,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new BaseAddress(this);
+			return new BaseAddress_CrtBase_Creatio(this);
 		}
 
 		#endregion
@@ -451,7 +451,7 @@
 	#region Class: BaseAddress_CrtBaseEventsProcess
 
 	/// <exclude/>
-	public partial class BaseAddress_CrtBaseEventsProcess<TEntity> : Terrasoft.Configuration.BaseEntity_CrtCoreBaseEventsProcess<TEntity> where TEntity : BaseAddress
+	public partial class BaseAddress_CrtBaseEventsProcess<TEntity> : Terrasoft.Configuration.BaseEntity_CrtCoreBaseEventsProcess<TEntity> where TEntity : BaseAddress_CrtBase_Creatio
 	{
 
 		public BaseAddress_CrtBaseEventsProcess(UserConnection userConnection)
@@ -533,7 +533,7 @@
 	#region Class: BaseAddress_CrtBaseEventsProcess
 
 	/// <exclude/>
-	public class BaseAddress_CrtBaseEventsProcess : BaseAddress_CrtBaseEventsProcess<BaseAddress>
+	public class BaseAddress_CrtBaseEventsProcess : BaseAddress_CrtBaseEventsProcess<BaseAddress_CrtBase_Creatio>
 	{
 
 		public BaseAddress_CrtBaseEventsProcess(UserConnection userConnection)
@@ -552,21 +552,6 @@
 		#region Methods: Public
 
 		#endregion
-
-	}
-
-	#endregion
-
-
-	#region Class: BaseAddressEventsProcess
-
-	/// <exclude/>
-	public class BaseAddressEventsProcess : BaseAddress_CrtBaseEventsProcess
-	{
-
-		public BaseAddressEventsProcess(UserConnection userConnection)
-			: base(userConnection) {
-		}
 
 	}
 

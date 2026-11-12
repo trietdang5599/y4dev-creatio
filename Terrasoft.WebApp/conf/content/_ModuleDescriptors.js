@@ -1,34 +1,114 @@
 ﻿var Terrasoft = Terrasoft || {};
 Terrasoft.configuration = Terrasoft.configuration || {};
 Terrasoft.configuration.RootSchemaDescriptors = {
-	AccountMiniPageCSS: {
-		css: ["AccountMiniPageCSS"]
-	},
-	AccountRelationshipDetailCss: {
-		css: ["AccountRelationshipDetailCss"]
-	},
-	ActionButtonHelper: {
-		css: ["ActionButtonHelper"]
-	},
-	ActionDashboardComponent: {
-		css: ["ActionDashboardComponent"]
-	},
-	ActionDashboardPlaybookCSS: {
-		css: ["ActionDashboardPlaybookCSS"]
-	},
-	ActionsDashboardCSS: {
-		css: ["ActionsDashboardCSS"]
-	},
-	ActivityMiniPageCSS: {
-		css: ["ActivityMiniPageCSS"]
-	},
-	ActivityParticipantGridViewModel: {
-		css: ["ActivityParticipantGridViewModel"]
-	},
-	ActivityTimezoneMixin: {
-		css: ["ActivityTimezoneMixin"]
-	},
-	AddTagModule: {
+	AbstractChartJsConfigBuilder: {path: "configuration/aef80f757a8892389d29a54c6c49bd61en-US"},
+	AbstractChartProvider: {path: "configuration/471b6fda73d127fc45f7997b417a62c4en-US"},
+	AcademyUtilities: {path: "configuration/e4679a2f0331a10fb872a55c9674a19ben-US"},
+	AccessControlWhitelistEditPage: {path: "configuration/cb6003b3e4ae217f123dec87dd264718en-US"},
+	AccessControlWhitelistLookupSection: {path: "configuration/8e7b85c9893e7afb5be1305e30a03a74en-US"},
+	AccessRightsDetail: {path: "configuration/6434c464f3b132006b150e88413b3d8cen-US"},
+	AccessRightsDetailComponent: {path: "configuration/8dd6e6aa377cb6334ba57b17fbccb456en-US"},
+	Account_MobileFormPage: {path: "configuration/288ed6cdd9c30142a5aa37f4a49c89been-US"},
+	Account_MobileListPage: {path: "configuration/e0b2074894ec1b769a5c72b9c3d94720en-US"},
+	AccountAddressDetailV2: {path: "configuration/05d8228b44218ff00393f2b333d6b34aen-US"},
+	AccountAddressPageV2: {path: "configuration/9abbc4b9d4ec869dafb78d7094b8c629en-US"},
+	AccountAnniversaryDetailV2: {path: "configuration/111022abc94172403b5c6161a24acfb1en-US"},
+	AccountAnniversaryPageV2: {path: "configuration/04efd33cb738a20e64b6cbbe4a24394een-US"},
+	AccountBillingInfoDetail: {path: "configuration/68524e047a8fd799289fd78ef7be7d8aen-US"},
+	AccountBillingInfoDetailV2: {path: "configuration/6e993fae42226d5aae4d471bad72ccc9en-US"},
+	AccountBillingInfoPage: {path: "configuration/31bbb60fa955ee24069bb3410ad21435en-US"},
+	AccountBillingInfoPageV2: {path: "configuration/fb38daee2e9cb1e4e5efd4f347eff613en-US"},
+	AccountCommunicationDetail: {path: "configuration/fda357ed5c49a5112c6438da1520c4bden-US"},
+	AccountContactsDetailV2: {path: "configuration/8efb94ca68e4a770af9e9da90df3fb53en-US"},
+	AccountEnrichmentSchema: {path: "configuration/8acb0bbb6a7a63fc87a9ca4be992040een-US"},
+	AccountEnrichmentViewModel: {path: "configuration/30c21c7fc996b0566e65226a85b99f1cen-US"},
+	AccountFacebookSearchSchema: {path: "configuration/237d0a31926b138aa6785609ad5212ecen-US"},
+	AccountMiniPage: {path: "configuration/c37d04095e3864f4bd03e44b14d40258en-US"},
+	AccountMiniPageCSS: {path: "configuration/6d79ea16c0f6b760387619d5a60e097fen-US", 
+		css: ["AccountMiniPageCSS"]},
+	AccountOrganizationChartDetail: {path: "configuration/10496d780c685fca0f4e6565ebb6a3a1en-US"},
+	AccountOrganizationChartDetailV2: {path: "configuration/d68fab992c6a3bc703bd0785ae53ffaben-US"},
+	AccountOrganizationChartPage: {path: "configuration/5e963130a146a9d786c69f0afadbadefen-US"},
+	AccountOrganizationChartPageV2: {path: "configuration/e082e7f32810bd3aa10b04374c67a338en-US"},
+	AccountPageMixin: {path: "configuration/0fb08ddfc2dfd15fea3353c2c8bd1f91en-US"},
+	AccountPageV2: {path: "configuration/8013e4144f2cd83d36a381d1ce531313en-US"},
+	AccountProfileSchema: {path: "configuration/494bbfd6f8aeb38e5df0fcf1c1bc79c0en-US"},
+	AccountRelationshipDetailCss: {path: "configuration/c519edce82e322c7241a52dbafdc9cbcen-US", 
+		css: ["AccountRelationshipDetailCss"]},
+	AccountRelationshipDetailPageV2: {path: "configuration/30956e0c2397e36bd84761ff505d21a6en-US"},
+	AccountRelationshipDetailV2: {path: "configuration/36e158f0fcff5722b8a17af0382f77c4en-US"},
+	Accounts_FormPage: {path: "configuration/ab9a6b785c04a2bdcf8488181ff7a3eben-US"},
+	Accounts_ListPage: {path: "configuration/1118b76e86b53b3acc9e72d7fb6d0479en-US"},
+	Accounts_MiniPage: {path: "configuration/266b72d09aaffda8a34025ee7a5a5fc3en-US"},
+	AccountsAnalyticsDashboard: {path: "configuration/2838c5f80c7799db5fc7dd164bc69a4een-US"},
+	AccountSearchRowSchema: {path: "configuration/ff3ac33c32436376b82e41cbcb01160den-US"},
+	AccountSection: {path: "configuration/55a6b5790512e52de3e7c554923f46f9en-US"},
+	AccountSectionV2: {path: "configuration/fa00cbbbd36c46141e4d50e2c576a853en-US"},
+	AccountSocialAddressDetail: {path: "configuration/8575717a1adebc8692bacbb349bc21fben-US"},
+	AccountSocialAnniversaryDetail: {path: "configuration/a77f1ee6c77fd8c28931efc087bcd0c3en-US"},
+	AccountSocialCommunicationDetail: {path: "configuration/bc8215d105a41b3adb8206aa82157ca9en-US"},
+	AceEdit: {path: "configuration/5baa8acb0a895df793f22c5936562af2en-US"},
+	ActionButtonHelper: {path: "configuration/d5ddf9bef91a5465a0b9efc6638b960cen-US", 
+		css: ["ActionButtonHelper"]},
+	ActionDashboardComponent: {path: "configuration/6de9faecefdd9c286dbad0dbc3f265f7en-US", 
+		css: ["ActionDashboardComponent"]},
+	ActionDashboardComponentPage: {path: "configuration/dc0a6682d83f0bf64c53e161bd601cf2en-US"},
+	ActionDashboardPlaybookCSS: {path: "configuration/8fe7aac460e7178cdba1ac70ce69b18ben-US", 
+		css: ["ActionDashboardPlaybookCSS"]},
+	ActionsDashboardCSS: {path: "configuration/e27f9cc24f49a059defddbfce2501beden-US", 
+		css: ["ActionsDashboardCSS"]},
+	ActionsDashboardItemContainer: {path: "configuration/d328e81da2044d3dfa529f883a13318een-US"},
+	ActionsDashboardUtils: {path: "configuration/3ebde528990ccbd75f676019704eb558en-US"},
+	ActionUtilitiesModule: {path: "configuration/1b6964048b1d344b07bd7d81d7b92023en-US"},
+	Activities_dashboard: {path: "configuration/781d4bda35024250399dc612060000c5en-US"},
+	ActivityCategoryResultEntryDetailV2: {path: "configuration/dae398c6413c2db3d04bb87d47c2db4aen-US"},
+	ActivityConditionalSequenceFlowEditPage: {path: "configuration/56d2ba66d22eef4fd1ddae0c8fe3afd1en-US"},
+	ActivityConnectionsEditMixin: {path: "configuration/71dcdcf1812e65f3361c958f8ce5ec0aen-US"},
+	ActivityDashboardItemViewModel: {path: "configuration/86073f3663d437ee8ee86796e1a7482fen-US"},
+	ActivityDatesMixin: {path: "configuration/7be63b0ad6a1d8a12c90cab11d55fa00en-US"},
+	ActivityDetail: {path: "configuration/4841318c2d75337f342f4a38a30a65daen-US"},
+	ActivityDetailV2: {path: "configuration/099969336c64c7286250b90d9667f6e6en-US"},
+	ActivityMiniPage: {path: "configuration/5a95db8c63c1ce0482ff72b47e7f8220en-US"},
+	ActivityMiniPageCSS: {path: "configuration/20d5cdd0bf2b0fc0e5ddf1d89d79f522en-US", 
+		css: ["ActivityMiniPageCSS"]},
+	ActivityPage: {path: "configuration/670d1f97d7390f7fbdbf2b4cfb300b9den-US"},
+	ActivityPageV2: {path: "configuration/f5a694dd08a0babc5854b7d4cbb83979en-US"},
+	ActivityPageV2Utilities: {path: "configuration/20f4232377ddbddbed333f4db8617eb7en-US"},
+	ActivityParticipantDetail: {path: "configuration/e1caa8366546ba7a5d29003976dd0a03en-US"},
+	ActivityParticipantDetailGridGenerator: {path: "configuration/a824cf0cec7cf58296d3998d52277b76en-US"},
+	ActivityParticipantDetailV2: {path: "configuration/4783c0e1638f1a34dfe3b498c55e0147en-US"},
+	ActivityParticipantGridViewModel: {path: "configuration/e69f06e272a9c54f4b735572090b8346en-US", 
+		css: ["ActivityParticipantGridViewModel"]},
+	ActivityResultPageV2: {path: "configuration/c8aa8de158f82af7e258081d4e6d386een-US"},
+	ActivitySearchRowSchema: {path: "configuration/c98fa56e4cfb15f8d918e91cfd669564en-US"},
+	ActivitySection: {path: "configuration/b175f1ff17f01ffa0d6c7c98681b6a31en-US"},
+	ActivitySectionCSS: {path: "configuration/9553c1a38e4de26008089f399ff58584en-US"},
+	ActivitySectionGridRowViewModel: {path: "configuration/41d798c81aa8772082a71966a253e3d7en-US"},
+	ActivitySectionSchedulerViewModel: {path: "configuration/7779f492f154845b23fa601a658a4663en-US"},
+	ActivitySectionV2: {path: "configuration/6309bf9be44916103ba0717e684d98d7en-US"},
+	ActivitySyncSettingsEdit: {path: "configuration/c3883ae1c5d7957f482f31190bc3c8faen-US"},
+	ActivitySyncSettingsMiniPage: {path: "configuration/7e84772e0cdc84b349598c5e9900c7d9en-US"},
+	ActivitySyncSettingsTab: {path: "configuration/d6ca0b2220035d7fa1a0373df5666eceen-US"},
+	ActivityTimelineItemView: {path: "configuration/10ac82ce25cbd077fd4290a0db3e751een-US"},
+	ActivityTimelineItemViewModel: {path: "configuration/c375084a2f0c3bd16dfa1bd6ccf37d0cen-US"},
+	ActivityTimezoneMixin: {path: "configuration/6df0aad40d644fa78da57f33660fc641en-US", 
+		css: ["ActivityTimezoneMixin"]},
+	ActivityUserTaskPropertiesPage: {path: "configuration/26736edce977c0d2ab84a404c8bf5a4fen-US"},
+	ActivityUtilities: {path: "configuration/54b9d6acda1b0c88ee8edb33e29aae69en-US"},
+	ActivityWorkDoneReportFilter: {path: "configuration/98e32fde525428ac9b08f9ebcbd2bb9den-US"},
+	ActualizationUtilities: {path: "configuration/7a88493cb6ea5e84861352803ecedfcden-US"},
+	ActualProcessSchemasByFilterRequest: {path: "configuration/2e2a2bbf30d312eaf2c53f5b07ef8890en-US"},
+	ActualProcessSchemasByFilterResponse: {path: "configuration/b9b4ffab70c1dbbdc116c88c1df3463den-US"},
+	AddDataUserTaskItemInitializer: {path: "configuration/92c05c51703a17db11b4993f7f9c1ab5en-US"},
+	AddDataUserTaskPropertiesPage: {path: "configuration/94f833022cfa764339e97e203dd4a527en-US"},
+	AdditionalDiffUtilities: {path: "configuration/946c9c3778ea358d5fcae45330ed2a70en-US"},
+	AddPostModule: {path: "configuration/368aa81070899fa02ef9848a5c25fe98en-US"},
+	AddressDestinationViewModel: {path: "configuration/6199aac485be61c21aebf075d6ce29ccen-US"},
+	AddressDetail: {path: "configuration/f0ae31d3bda16c49a068c9c43421ce81en-US"},
+	AddressHelper: {path: "configuration/6d6a8ed24ed446461a0331ab125c7b77en-US"},
+	AddressHelperV2: {path: "configuration/e5e733c69ae88bbbe626a5652ce4f234en-US"},
+	AddRolesSelectionPage: {path: "configuration/97fc5a70b80229ecc1436a139ca65aafen-US"},
+	AddTagModule: {path: "configuration/5ee18618ab4f8547d73251df3ad93396en-US", 
 		css: ["AddTagModule"], 
 		messages: {
 			"GetRecordInfo": { "direction": "publish", "mode": "ptp" },
@@ -40,23 +120,41 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ReRenderTagModule": { "direction": "subscribe", "mode": "ptp" },
 			"ChangeTags": { "direction": "publish", "mode": "ptp" },
 			"AddTagModuleDataReload": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	AddTagViewModule: {
+		}},
+	AddTagView: {path: "configuration/e783e7db87c598ec90ab0be6dcba7739en-US"},
+	AddTagViewModule: {path: "configuration/a72dcd77c6b087fb66d547422af8bce7en-US", 
 		messages: {
 			"ChangeTags": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	AdministrationCSSV2: {
-		css: ["AdministrationCSSV2"]
-	},
-	AIEmbeddedPanelStyles: {
-		css: ["AIEmbeddedPanelStyles"]
-	},
-	AlignableContainer: {
-		css: ["AlignableContainer"]
-	},
-	AnalyticsModule: {
+		}},
+	AddTaskMiniPage: {path: "configuration/70ccdd75d037e09dfee2ca180eea28ffen-US"},
+	AdfsSettingsForm: {path: "configuration/3406ae2ca964b58a56cdc87b052fa0efen-US"},
+	AdministrationCSSV2: {path: "configuration/430d2e37d21125ea347a482fad2fe93cen-US", 
+		css: ["AdministrationCSSV2"]},
+	AdministrationSystemDesignerSectionV2: {path: "configuration/5b88a43de8f74f405ddbe4159b15a6b1en-US"},
+	AfterDcmSchemaElementTransition: {path: "configuration/4c8d55d7742d558e9307d92226122533en-US"},
+	AgeActualizationModalTimeEditModuleSchema: {path: "configuration/90847317dc2df3721a3fa87ca6d0e318en-US"},
+	AIAgents_FormPage: {path: "configuration/b1b5c30cbbb9eae3f70e3622119255d9en-US"},
+	AIAgents_ListPage: {path: "configuration/fb90ab6692d83870484c199a54eaeb99en-US"},
+	AIAgentsBase_FormPage: {path: "configuration/2917a0d7e68690310d5e14a6de563bbben-US"},
+	AIDebugInfo: {path: "configuration/0821b58d043e23804b97abd4f581ae15en-US"},
+	AIEmbeddedPanel: {path: "configuration/72ff5f0fbe3b98727bfd9bcf3c837707en-US"},
+	AIEmbeddedPanelStyles: {path: "configuration/558985f31a82e9061355962015329fb4en-US", 
+		css: ["AIEmbeddedPanelStyles"]},
+	AIPlatformEntityEvents_Detail: {path: "configuration/8a318402e5dfec288a44729ecd6f4b3den-US"},
+	AIPlatformEntityEvents_FormPage: {path: "configuration/43f41d3bd97a2fd909894285ddea17aeen-US"},
+	AIPlatformEntityEvents_ListPage: {path: "configuration/88f1a0f4ab7894e8d0395757726d036aen-US"},
+	AIProcessActions_FormPage: {path: "configuration/3af9527af4cf7fd2e1ae22b48980547een-US"},
+	AISkills_FormPage: {path: "configuration/b291be884a05d8fe3c94fbc865c2c464en-US"},
+	AISkills_ListPage: {path: "configuration/a511f53870597073b7c205ac7ba7687cen-US"},
+	AISkillsDashboards: {path: "configuration/b39c8fd00fa91011f70e149156f2ebd4en-US"},
+	AIWorkflowAgents_FormPage: {path: "configuration/e45aeb1ada74b22a6155552317a724e8en-US"},
+	AlignableContainer: {path: "configuration/49b8acc6968eb96f2032bf91fc1c1a67en-US", 
+		css: ["AlignableContainer"]},
+	AlignPropertyModule: {path: "configuration/2e21dd697d84d48a088f3b5483dfccceen-US"},
+	AnalyticsGridRowViewModel: {path: "configuration/bc9de54d16e8739dcd457553f2b21349en-US"},
+	AnalyticsManager: {path: "configuration/c7d8eddec1dbec36f93fbf5f9639930den-US"},
+	AnalyticsManagerItem: {path: "configuration/6dc36f24fa4fa2bbdb6d6e3cabf40cb6en-US"},
+	AnalyticsModule: {path: "configuration/f2682d38edc82e2b951eca9a3cc3d994en-US", 
 		css: ["AnalyticsModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -64,9 +162,24 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PushHistoryState": { "direction": "subscribe", "mode": "broadcast" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "ptp" },
 			"GenerateChart": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ApplicationStructureItemWizard: {
+		}},
+	AnalyticsUtilities: {path: "configuration/47cc3a3e716e78f71cffbcd290234e85en-US"},
+	Angular7xDetailModule: {path: "configuration/a9ac4b449ff3e0aaad79e276831bc76cen-US"},
+	AngularAdapterModule: {path: "configuration/2231b5be84c8eb3307e5c09c59dfaac8en-US"},
+	AngularPageUtilitiesMixin: {path: "configuration/af3bc326b4548f421a409e958fc5b205en-US"},
+	AngularPostMessageConnector: {path: "configuration/8fcd3122f55270bf6e22630ab8339038en-US"},
+	AngularStructureExplorerUtilities: {path: "configuration/0599116094923acff567ddc2508b7b5cen-US"},
+	AngularStructureExplorerViewModel: {path: "configuration/4a244f7aaaa4959ab6eab2ea0ce29740en-US"},
+	AngularWidgetConfigConverter: {path: "configuration/64bac3f7251824d1b05e864e9faee1aeen-US"},
+	AnniversaryDetail: {path: "configuration/ecb899c7c9724ab1c65f673c82772152en-US"},
+	AnniversaryNotificationsSchema: {path: "configuration/9c8d59c85a24a0bcaec479addee24ff1en-US"},
+	AppFeature_Detail: {path: "configuration/07cfb2d7dcb0530a8022f07fb67d3d6den-US"},
+	AppFeature_FormPage: {path: "configuration/dd426071e6f93ec6064e1130b5180a52en-US"},
+	AppFeature_ListPage: {path: "configuration/e29b95ef3c6529a478020fb5a7df005cen-US"},
+	AppFeatureState_Detail: {path: "configuration/338ae0319b65b86050c3f9192ee2d54aen-US"},
+	AppFeatureState_FormPage: {path: "configuration/fa8a620a613050deb16d527a864bb578en-US"},
+	AppFeatureState_ListPage: {path: "configuration/3c4ca4e165e6441f9685f8c984bc6b60en-US"},
+	ApplicationStructureItemWizard: {path: "configuration/2baabce2bcf26ca25cb06f10e285ab18en-US", 
 		css: ["ApplicationStructureItemWizard"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -79,21 +192,78 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"RefreshCacheHash": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateStepsConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	AutosizeModule: {
-		css: ["AutosizeModule"]
-	},
-	BaseContentItemStructurePageCSS: {
-		css: ["BaseContentItemStructurePageCSS"]
-	},
-	BaseEditWithButtonGenerator: {
-		css: ["BaseEditWithButtonGenerator"]
-	},
-	BaseEnrichmentSchemaCSS: {
-		css: ["BaseEnrichmentSchemaCSS"]
-	},
-	BaseFolderManager: {
+		}},
+	ApplicationStructureWizardUtils: {path: "configuration/1046e7f01a099f1ba168066b2632fd33en-US"},
+	AppLoadWatcherSchema: {path: "configuration/ff8e179498f3ffbc21fa8b3378fb9aecen-US"},
+	ApplyTranslationsSettingsMiniPage: {path: "configuration/cd2fa772594c09a2a98f206ed40da238en-US"},
+	ApprovalDashboardItemViewConfig: {path: "configuration/4aa40a55d377b15cf3f73a4eb854ac55en-US"},
+	ApprovalDashboardItemViewModel: {path: "configuration/82e3c7afa572536d4ab91a9c3b4d889den-US"},
+	ApprovalUserTaskPropertiesPage: {path: "configuration/8da935923284964a7fa7c6bd638b5beaen-US"},
+	AreaSplineChartJsConfigBuilder: {path: "configuration/bae1da565665f49ec3584052ef3123f6en-US"},
+	AsyncReportNotifier: {path: "configuration/d380444b14e7a01560ece7ec3a2272ceen-US"},
+	AudioPlayer: {path: "configuration/60723214912bf794d6c5cd1dc7a08fb6en-US"},
+	AuthInfoParameterValuePage: {path: "configuration/0da529fdd917463f878d94c3a15b53a4en-US"},
+	AuthInfoPasswordValuePage: {path: "configuration/20c38ae9198b0e7d129e298c842f64e9en-US"},
+	AuthInfoUsernameValuePage: {path: "configuration/89caf3ae89c7e68fd4cb1fbf5d97f9e9en-US"},
+	AutoGeneratedPageUserTaskButtonMiniEditPage: {path: "configuration/4e1cdd8af91a7e09da05930aaf255147en-US"},
+	AutoGeneratedPageUserTaskButtonViewModel: {path: "configuration/a70722eb8166b22e8a891413b9a4bc03en-US"},
+	AutoGeneratedPageUserTaskElementMiniEditPage: {path: "configuration/cffd5edd350917c856fda117049f5779en-US"},
+	AutoGeneratedPageUserTaskElementViewModel: {path: "configuration/dc2bcebaa47ec8fc30dba3b992be1bb1en-US"},
+	AutoGeneratedPageUserTaskPropertiesPage: {path: "configuration/0bdede097e9aecc9fc02a18aa958eeb0en-US"},
+	AutoGeneratedPageV2: {path: "configuration/4fe110b7329e8c71fffcd8b060804d55en-US"},
+	AutoGeneratedPageV2Utilities: {path: "configuration/0ced76090e8ca2cf1d979c0fc8997d37en-US"},
+	AutosizeModule: {path: "configuration/cb71dd70d3b40234726ac41bbcb4eab6en-US", 
+		css: ["AutosizeModule"]},
+	AzureModel_FormPage: {path: "configuration/35867efd35c18b47b0f2ed0f6b66f118en-US"},
+	AzureSettingsForm: {path: "configuration/bf24da3302f2144fe24ecc823ca5b704en-US"},
+	BackgroundPropertyModule: {path: "configuration/a677481b0d8c2c42d031ccfc670094b6en-US"},
+	BarChartJsConfigBuilder: {path: "configuration/e07cde761ac4f430c2034ef9b33427a0en-US"},
+	Base7xViewElement: {path: "configuration/2d3bd68982f04573a99ed76f1568fa8ben-US"},
+	BaseActionsDashboard: {path: "configuration/dda60154a38faea29547058d6696c6cfen-US"},
+	BaseActivityUserTaskPropertiesPage: {path: "configuration/567d5fd451a334848e53c978ad482dd2en-US"},
+	BaseAddressDetailV2: {path: "configuration/b15bcf6a9d036aae79156cf2c617db15en-US"},
+	BaseAddressPageV2: {path: "configuration/5e27e38c312f9efacf53341318158dd3en-US"},
+	BaseAggregationWidgetDesigner: {path: "configuration/9b059f0601bb87e7de8ec21b7537c5c0en-US"},
+	BaseAjaxTimelineDataProvider: {path: "configuration/d267b1cf06704cba98a2c43b6442411een-US"},
+	BaseAnniversaryDetailV2: {path: "configuration/025f2216f62733e0ab0b000a80885c97en-US"},
+	BaseAnniversaryPageV2: {path: "configuration/7e5d5dd0a431e6eab4cef04c85624066en-US"},
+	BaseAsyncStageControl: {path: "configuration/a8a0ff17f153ebb9f09a98efc549f0f8en-US"},
+	BaseClientConnector: {path: "configuration/9e99c3f43175d29d8e471c8f32d9e345en-US"},
+	BaseCommunicationDetail: {path: "configuration/5ce9876bf64ceaa71f3f67c79e50a903en-US"},
+	BaseCommunicationViewModel: {path: "configuration/c2c09edb4b032bb9f1fa283973c3a149en-US"},
+	BaseConfigurationGridRow: {path: "configuration/04aaac613883dbd5f54f2ed230d32178en-US"},
+	BaseContentBlockViewModel: {path: "configuration/d9956c2b2833856e9dafb963aee675a4en-US"},
+	BaseContentItemStructurePage: {path: "configuration/22a9637604b4f85da4f083f910aea606en-US"},
+	BaseContentItemStructurePageCSS: {path: "configuration/156632666ecc2d98435000bd46ea8a3aen-US", 
+		css: ["BaseContentItemStructurePageCSS"]},
+	BaseContentItemViewModel: {path: "configuration/e1d4c028bacb7e27857dc663d2f9687ben-US"},
+	BaseContentSerializableViewModelMixin: {path: "configuration/a77b47cda8379642e455b0dfe52822eben-US"},
+	BaseContentStructureItemViewModel: {path: "configuration/ea98bddb85519069d4975bc4d9850993en-US"},
+	BaseCronExpressionPage: {path: "configuration/68ce7351a8d805248d533b60214d3b14en-US"},
+	BaseDashboardItemViewConfig: {path: "configuration/0d3ab6cfc51f9895c33688f8ebe0b026en-US"},
+	BaseDashboardItemViewModel: {path: "configuration/e8ba5b844a365e3b6f1462cd12372412en-US"},
+	BaseDashboardManager: {path: "configuration/59609ba5d9de67b5936b2b4826232557en-US"},
+	BaseDashboardTemplate: {path: "configuration/f11d55ab103433d02ddbb3a3e7ef4b86en-US"},
+	BaseDataModificationUserTaskPropertiesPage: {path: "configuration/69a2e93bab53eef13e60d40923655865en-US"},
+	BaseDataView: {path: "configuration/43198a2129500e15769ee3a0ace64dbfen-US"},
+	BaseDcmSchemaElementPropertiesPage: {path: "configuration/fda431e9cd5a7d88f44d25a01e7f7f8cen-US"},
+	BaseDesigner: {path: "configuration/678cf1592bbbba0d077a558f7b2d8006en-US"},
+	BaseDesktop: {path: "configuration/0075df72824a0a53f24ee61a1bc1eebcen-US"},
+	BaseDetailV2: {path: "configuration/8cc1c17676c3a90379d992693d44fdb4en-US"},
+	BaseEditWithButtonGenerator: {path: "configuration/55c902f625e82fc42c5b8b6bbd1b32d8en-US", 
+		css: ["BaseEditWithButtonGenerator"]},
+	BaseElementPropertiesPage: {path: "configuration/09e723139f1f86c779975efac762f433en-US"},
+	BaseEnrichmentSchema: {path: "configuration/5df88c43d723a8fd2d5dcc9a6eb76746en-US"},
+	BaseEnrichmentSchemaCSS: {path: "configuration/91e9068150ad634a281640b8ee9427b9en-US", 
+		css: ["BaseEnrichmentSchemaCSS"]},
+	BaseEnrichmentViewModel: {path: "configuration/4466966066d9a57f845c05d33bf4807aen-US"},
+	BaseEntityCatalogPage: {path: "configuration/0979087d1294295b5b15d9e5ee4fed2fen-US"},
+	BaseEntityPage: {path: "configuration/67ad2dfcf1948da1f9cf56a8e1d3302den-US"},
+	BaseExtendedMenu: {path: "configuration/1a203d0eb38187763fecbea99b2baa45en-US"},
+	BaseFileProcessingUserTaskPropertiesPage: {path: "configuration/04dec4206f8de1391ca0620514f87fc7en-US"},
+	BaseFiltersGenerateModule: {path: "configuration/1de763fd12bdd0890493e854b406e268en-US"},
+	BaseFilterViewModel: {path: "configuration/c10b5bfd6069f9b9ada7cca7bb805b19en-US"},
+	BaseFolderManager: {path: "configuration/c7ef01b9edbe4e574d956890140af05cen-US", 
 		css: ["BaseFolderManager"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -125,96 +295,166 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"UpdateFavoritesMenu": { "direction": "publish", "mode": "broadcast" },
 			"CustomFilterExtendedMode": { "direction": "publish", "mode": "broadcast" },
 			"GetSectionFilterModuleId": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	BaseFontsCSS: {
-		css: ["BaseFontsCSS"]
-	},
-	BaseGeneratedWebFormPageV2CSS: {
-		css: ["BaseGeneratedWebFormPageV2CSS"]
-	},
-	BaseGridSectionTemplateCSS: {
-		css: ["BaseGridSectionTemplateCSS"]
-	},
-	BaseLookupSectionCSS: {
-		css: ["BaseLookupSectionCSS"]
-	},
-	BaseMessagePublisherModule: {
+		}},
+	BaseFolderManagerViewModel: {path: "configuration/30c4929765f0f2c8bae24330afd586afen-US"},
+	BaseFontsCSS: {path: "configuration/85a09bb767d6657b7940449de55524d7en-US", 
+		css: ["BaseFontsCSS"]},
+	BaseGeneratedWebFormPageV2: {path: "configuration/567279dcf3daad0cc38ce78ff1bc5ce3en-US"},
+	BaseGeneratedWebFormPageV2CSS: {path: "configuration/64b67fcbd0809925cbb8e2dce20523f0en-US", 
+		css: ["BaseGeneratedWebFormPageV2CSS"]},
+	BaseGeneratorV2: {path: "configuration/3595dfef8f289641197673b21c66ccfben-US"},
+	BaseGridDetailV2: {path: "configuration/d3bf402d13e0ceaaea08e84e1e6538ccen-US"},
+	BaseGridRowViewModel: {path: "configuration/ae2389b01a2860342d57dcb891470b08en-US"},
+	BaseGridSectionTemplate: {path: "configuration/28494e45ed2bf7ad2f7ac054025a19d1en-US"},
+	BaseGridSectionTemplateCSS: {path: "configuration/688c45fdac567c1722267e7ccccb2478en-US", 
+		css: ["BaseGridSectionTemplateCSS"]},
+	BaseHistoryDetailV2: {path: "configuration/33d1fd7a271603c0690df0be1dcaea79en-US"},
+	BaseHomePage: {path: "configuration/d75026ddc1b417b8daa7f1cccf637249en-US"},
+	BaseIntroPageSchema: {path: "configuration/2e63ce8db67511c7a1ee6463239a7d24en-US"},
+	BaseLocalNotificationManager: {path: "configuration/413fcaee26420460146bbb9ccdea1ecaen-US"},
+	BaseLookupConfigurationSection: {path: "configuration/f6b92c25b9f274d9da86e2dcf700af3aen-US"},
+	BaseLookupEditPage: {path: "configuration/c8034b604331a7f04da246f145104ae5en-US"},
+	BaseLookupPage: {path: "configuration/92fe7dcf768e4e1e189e269c15368b85en-US"},
+	BaseLookupPageTemplate: {path: "configuration/a9bc34990651b787cc155aca19408b3een-US"},
+	BaseLookupPageV2: {path: "configuration/0494740a3b0776c08ecb63203da83fa6en-US"},
+	BaseLookupSection: {path: "configuration/eb27f52f7db7b46023cfca3f0cf4d48fen-US"},
+	BaseLookupSectionCSS: {path: "configuration/cf9b3818410b148ceb934fa68b97df89en-US", 
+		css: ["BaseLookupSectionCSS"]},
+	BaseMacroListItemViewModel: {path: "configuration/2369506bbf721f000a4d6c164ce96e1den-US"},
+	BaseMessageBridge: {path: "configuration/46d902592315e1e0843f5c43df8239b1en-US"},
+	BaseMessageEventPropertiesPage: {path: "configuration/5133b7ab6ec753a43d90273efbc8a31aen-US"},
+	BaseMessageHistoryItemPage: {path: "configuration/6222f7d99e22735270fd15c28b85286aen-US"},
+	BaseMessageHistoryUtility: {path: "configuration/3bab59b6b74e6dffaa7c88e94a5563ffen-US"},
+	BaseMessagePublisherModule: {path: "configuration/3b066d69a62f306ddef6134b00fe0762en-US", 
 		css: ["BaseMessagePublisherModule"], 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"RerenderPublisherModule": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	BaseMiniPageCSS: {
-		css: ["BaseMiniPageCSS"]
-	},
-	BaseModalBoxPageCss: {
-		css: ["BaseModalBoxPageCss"]
-	},
-	BaseModalTimeEditModuleSchemaCSS: {
-		css: ["BaseModalTimeEditModuleSchemaCSS"]
-	},
-	BaseMultilingualEntityLookupPageStyles: {
-		css: ["BaseMultilingualEntityLookupPageStyles"]
-	},
-	BaseNotificationTargetLoader: {
+		}},
+	BaseMessagePublisherPage: {path: "configuration/bf080919b659bbc4307fbcc7d21b9725en-US"},
+	BaseMiniPage: {path: "configuration/8054c6f3abc5edb9153a3347ba8ec3acen-US"},
+	BaseMiniPageCSS: {path: "configuration/3c8d11bc207c3d004178221c50ed98e6en-US", 
+		css: ["BaseMiniPageCSS"]},
+	BaseMiniPageTemplate: {path: "configuration/2f9f2e9ccdbd60c3c13df6f24de00ea2en-US"},
+	BaseMLangContentEditSchema: {path: "configuration/48e37a56fe97bc642437640205c2ea44en-US"},
+	BaseMobileHomePage: {path: "configuration/c29fedde8e15151d7e75b83b2e8fb231en-US"},
+	BaseMobileListTemplate: {path: "configuration/d4a9b74079b65c00efbc39587da603b7en-US"},
+	BaseMobilePageTemplate: {path: "configuration/b83c03c63ebbfcfa4885b25b4d0086bfen-US"},
+	BaseMobileTemplate: {path: "configuration/8cb7ef83a9e9947fd6a802fe4c6b0a76en-US"},
+	BaseModalBoxPage: {path: "configuration/c05c1308c72e84e5ea34566a1659fd4een-US"},
+	BaseModalBoxPageCss: {path: "configuration/0127b0a02382c12cc194a8dcd70a31c8en-US", 
+		css: ["BaseModalBoxPageCss"]},
+	BaseModalTimeEditModuleSchema: {path: "configuration/6dbbbc1b04fe4feda88662fc409d8860en-US"},
+	BaseModalTimeEditModuleSchemaCSS: {path: "configuration/c7e1d624b9d3203af7d7cb1b82667c48en-US", 
+		css: ["BaseModalTimeEditModuleSchemaCSS"]},
+	BaseModule: {path: "configuration/7c6744e21ec56066d89c2787d0f491e0en-US"},
+	BaseModulePageV2: {path: "configuration/7652955ceb4939178efa2c6d823abc7fen-US"},
+	BaseMultilingualEntityLookupPage: {path: "configuration/cffa7162c39a070bac71544f987a4083en-US"},
+	BaseMultilingualEntityLookupPageStyles: {path: "configuration/26b12985483dad6b13d9a3d9eb70ef85en-US", 
+		css: ["BaseMultilingualEntityLookupPageStyles"]},
+	BaseMultipleProfileSchema: {path: "configuration/8edb432cd581bba3b79f67c8c8d08d86en-US"},
+	BaseNestedModule: {path: "configuration/aeccbc9dccaf7b5900827cc53a2e5a42en-US"},
+	BaseNotificationsSchema: {path: "configuration/6c5f49ca5eec5c15cc2771ccf33fca00en-US"},
+	BaseNotificationTargetLoader: {path: "configuration/bc7dbe6025cc2c95fb09c20b727ce38een-US", 
 		messages: {
 			"GetNotificationInfo": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	BasePageRightContainerProcessTemplateCSS: {
-		css: ["BasePageRightContainerProcessTemplateCSS"]
-	},
-	BasePageV2CSS: {
-		css: ["BasePageV2CSS"]
-	},
-	BaseProcessExecutingDetailCSS: {
-		css: ["BaseProcessExecutingDetailCSS"]
-	},
-	BaseProcessLibSectionCSS: {
-		css: ["BaseProcessLibSectionCSS"]
-	},
-	BaseProcessLogSectionCSS: {
-		css: ["BaseProcessLogSectionCSS"]
-	},
-	BaseProcessParametersEditModule: {
+		}},
+	BaseOperationGranteeDetail: {path: "configuration/02e398cffea6c932a9b0b6a0c5311d10en-US"},
+	BasePageFreedomTemplate: {path: "configuration/3b0cbedefc73643f0859bd7cbeef51a8en-US"},
+	BasePageLeftContainerProcessTemplate: {path: "configuration/25629e445cec97b5f4a9debdb64ad3b7en-US"},
+	BasePageProcessTemplate: {path: "configuration/aa7e5457288cf3c58c413d7e6f93c2b6en-US"},
+	BasePageRightContainerProcessTemplate: {path: "configuration/fc45c4ee5ab332626235bfaa81747766en-US"},
+	BasePageRightContainerProcessTemplateCSS: {path: "configuration/237ea03032b78e546dcc9c036fe57675en-US", 
+		css: ["BasePageRightContainerProcessTemplateCSS"]},
+	BasePageSimpleProcessTemplate: {path: "configuration/1a9931503b6d9c02770ae67d22359ff7en-US"},
+	BasePageTemplate: {path: "configuration/5acb691db91f8f589862f3b353c85c9aen-US"},
+	BasePageV2: {path: "configuration/b50f7e87fe5c0ab31beb2c5228793c86en-US"},
+	BasePageV2CSS: {path: "configuration/1cbde8262782a642868d64321d9ebd13en-US", 
+		css: ["BasePageV2CSS"]},
+	BaseParametersMappingModule: {path: "configuration/594c13ec8ffc4e440b1eb2ea73aa7944en-US"},
+	BaseParametersMappingPage: {path: "configuration/f039185572504f6aa5810aa84774a2cben-US"},
+	BaseProcessExecutingDetail: {path: "configuration/d6f15ef41cb4f478f667e4f452369614en-US"},
+	BaseProcessExecutingDetailCSS: {path: "configuration/d62b43b20cfb65ae5a21e6a4e60d39b1en-US", 
+		css: ["BaseProcessExecutingDetailCSS"]},
+	BaseProcessFlowElementSchemaItemInitializer: {path: "configuration/7b2077685c0bcc32abe92450bcb858a5en-US"},
+	BaseProcessLibSection: {path: "configuration/9d6367a3e97c5a251817e91133f2a625en-US"},
+	BaseProcessLibSectionCSS: {path: "configuration/422f66d72f94969dd2e34b96c12ba135en-US", 
+		css: ["BaseProcessLibSectionCSS"]},
+	BaseProcessLogSectionCSS: {path: "configuration/1758e7ebf2c3c7a53c22a5543e04f89aen-US", 
+		css: ["BaseProcessLogSectionCSS"]},
+	BaseProcessMiniEditPage: {path: "configuration/374b0e86df9f734e9b632279c4b45a5cen-US"},
+	BaseProcessParametersEditModule: {path: "configuration/f1720a166f66ad546a85e361b6c6eee0en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetParametersInfo": { "direction": "publish", "mode": "ptp" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	BaseProcessSettingsCSS: {
-		css: ["BaseProcessSettingsCSS"]
-	},
-	BaseProfileSchemaCSS: {
-		css: ["BaseProfileSchemaCSS"]
-	},
-	BaseProgressBarModule: {
-		css: ["BaseProgressBarModule"]
-	},
-	BaseSchemaModuleV2: {
+		}},
+	BaseProcessSchemaElementPropertiesPage: {path: "configuration/9a95f420a84572f78b6fc6b71b464e91en-US"},
+	BaseProcessSchemaPropertiesPage: {path: "configuration/5004b5a98abbe7bc0594f80945dadaf0en-US"},
+	BaseProcessSettingDetailV2: {path: "configuration/7ea83d5e1bf101b095889ffa419f4133en-US"},
+	BaseProcessSettings: {path: "configuration/b0e9a46c19cdf604eeba4eb842e8593aen-US"},
+	BaseProcessSettingsCSS: {path: "configuration/7272a7f668b98b72f40ca055876b66daen-US", 
+		css: ["BaseProcessSettingsCSS"]},
+	BaseProcessSettingsManager: {path: "configuration/3149a66c2b1af94b5eb8712a413e85baen-US"},
+	BaseProcessSettingsManagerItem: {path: "configuration/43075c8bc8ed356118525b8a33cc44b3en-US"},
+	BaseProcessViewModelClass: {path: "configuration/49377fa658d47c377158106f61be0806en-US"},
+	BaseProductDetailPageV2: {path: "configuration/2b7f27736b8fe762defd31a5d8b92b42en-US"},
+	BaseProfileSchema: {path: "configuration/a5397f3622fdc8106eec7eb4223fc725en-US"},
+	BaseProfileSchemaCSS: {path: "configuration/13d8de0e5e639f92275688b9338d6ff7en-US", 
+		css: ["BaseProfileSchemaCSS"]},
+	BaseProgressBarIndicator: {path: "configuration/6170c07d31ca42316e6490e23d5d528een-US"},
+	BaseProgressBarModule: {path: "configuration/86b097391d1337f78b38be3dd247faffen-US", 
+		css: ["BaseProgressBarModule"]},
+	BasePropertiesPageModule: {path: "configuration/759bdc5e095623d6556f98a779ae3302en-US"},
+	BasePublisherAttachmentPage: {path: "configuration/1b9f44fd4d3de50854a3ca30d9d44b23en-US"},
+	BaseRelatedProfileSchema: {path: "configuration/55139b3c6d97eddc5228df9a2f97ebdfen-US"},
+	BaseRelationshipDetailPageV2: {path: "configuration/ae291aec88e777283e8aa27f49178ee6en-US"},
+	BaseRelationshipDetailV2: {path: "configuration/4a3e7da763de6d4b41ba5855b60f195ben-US"},
+	BaseReportParameterInModulePageFilter: {path: "configuration/f7c1fe0434888964e7446f6d66beae24en-US"},
+	BaseSchemaModuleV2: {path: "configuration/f39c31451d0a013dc276af766f1b7f26en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	BaseSchemaViewModule: {
-		css: ["BaseSchemaViewModule"]
-	},
-	BaseSectionV2CSS: {
-		css: ["BaseSectionV2CSS"]
-	},
-	BaseStageControl: {
-		css: ["BaseStageControl"]
-	},
-	BaseStageControlItem: {
-		css: ["BaseStageControlItem"]
-	},
-	BaseViewModule: {
+		}},
+	BaseSchemaViewModel: {path: "configuration/801d937c120e936a54f64a5a0698baeaen-US"},
+	BaseSchemaViewModule: {path: "configuration/312f5cd7ea349ac43d49b794cb6e7672en-US", 
+		css: ["BaseSchemaViewModule"]},
+	BaseSearchEdit: {path: "configuration/d39a28358f50c4b0236c6a3a90b9e364en-US"},
+	BaseSearchRowSchema: {path: "configuration/dd71df9d1c59b8d6abc088eef414cf99en-US"},
+	BaseSectionGridRowViewModel: {path: "configuration/5b148b34a8b5170b5fb6e635011cd683en-US"},
+	BaseSectionMainSettings: {path: "configuration/696d7b25bb39fbb53dd1101a1a2f4f7fen-US"},
+	BaseSectionPage: {path: "configuration/6acc51e9490023cb53ad4ca0a3af8251en-US"},
+	BaseSectionPageSettings: {path: "configuration/01eb512f614ee39bbb5d31932dd0d857en-US"},
+	BaseSectionTemplate: {path: "configuration/8b098b967206db47d828e9ec5aa01751en-US"},
+	BaseSectionV2: {path: "configuration/2e81a76d77a9a5551f470fd01eefd569en-US"},
+	BaseSectionV2CSS: {path: "configuration/0ace6c35db5774a6eb1a7bb9c900e863en-US", 
+		css: ["BaseSectionV2CSS"]},
+	BaseServiceParameterGrid: {path: "configuration/922cb7ec3124f361d59b07955a823df3en-US"},
+	BaseServiceParameterValuePage: {path: "configuration/986de48517762b532ce0612c46fe466cen-US"},
+	BaseSetupTelephonyParametersPage: {path: "configuration/20826743e6bb4d13746f6c0373913060en-US"},
+	BaseShell: {path: "configuration/c37f84027cb17bc7d97f78c1b91647d1en-US"},
+	BaseSidebarTemplate: {path: "configuration/ea041ee95bbd6663ec9c11064e49c267en-US"},
+	BaseSignalEventPropertiesPage: {path: "configuration/c82e80e2d22a5a9e6287a37daa509514en-US"},
+	BaseSocialPage: {path: "configuration/ee767528397f59bdacea58d0e5a3d61cen-US"},
+	BaseStageControl: {path: "configuration/18ad8284194aa0bbe6e8e0ecb8f4207fen-US", 
+		css: ["BaseStageControl"]},
+	BaseStageControlItem: {path: "configuration/f2c1469bf12737a67804e89be4ddaa3cen-US", 
+		css: ["BaseStageControlItem"]},
+	BaseStylePropertyModule: {path: "configuration/40a50d16614fe1e323913dfc31e214daen-US"},
+	BaseSyncSettingsEdit: {path: "configuration/db8272a4daf5ba60f0b09503f05c650cen-US"},
+	BaseSyncSettingsTab: {path: "configuration/cc81da80921b8c163feabef7c8a7d523en-US"},
+	BaseSystemDesignerSectionV2: {path: "configuration/971e8f4acb697b0e507df5894c303bd1en-US"},
+	BaseSysUserInRoleDetailV2: {path: "configuration/2327daa99c7eec4e7b2ed6ad4d37c5c3en-US"},
+	BaseTagModuleSchema: {path: "configuration/24550055c362437cb7e503ed6afe8f96en-US"},
+	BaseTemplate: {path: "configuration/222fb1a427ad2d622fb1d9933a65c2faen-US"},
+	BaseTimelineDataProvider: {path: "configuration/0b4618df0b51fceff165acbd8534fe35en-US"},
+	BaseTimelineItemView: {path: "configuration/20b589ad1ddcff45d430a02a74427f21en-US"},
+	BaseTimelineItemViewModel: {path: "configuration/96ba96a76ac54d3700e74c25b5786283en-US"},
+	BaseTimelineSearchProvider: {path: "configuration/19813672beaf126087c22c2bb514437den-US"},
+	BaseUserTaskPropertiesPage: {path: "configuration/68fb533bc967f686edd01de4be1750aaen-US"},
+	BaseViewModule: {path: "configuration/cb382e700a1cdb25288c241892b6e223en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"HistoryStateChanged": { "direction": "subscribe", "mode": "broadcast" },
@@ -222,18 +462,21 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"NavigationModuleLoaded": { "direction": "subscribe", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"RefreshCacheHash": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	BaseVwProcessLibPageV2CSS: {
-		css: ["BaseVwProcessLibPageV2CSS"]
-	},
-	BaseWidgetDesignerCSS: {
-		css: ["BaseWidgetDesignerCSS"]
-	},
-	BaseWidgetModule: {
-		css: ["BaseWidgetModule"]
-	},
-	BaseWizardModule: {
+		}},
+	BaseVisaProvider: {path: "configuration/e593e7b6bdc25a99c8a13502970e04e0en-US"},
+	BaseVwProcessLibPageV2: {path: "configuration/9a7f699270b286b60292a9e431817848en-US"},
+	BaseVwProcessLibPageV2CSS: {path: "configuration/31d35c4430e07c94e42bea336beca0d3en-US", 
+		css: ["BaseVwProcessLibPageV2CSS"]},
+	BaseWidgetComponent: {path: "configuration/adc241d60bdceeb9658d0a7330d3b8bben-US"},
+	BaseWidgetDesigner: {path: "configuration/413068d21e50029543428b018c5ad4b7en-US"},
+	BaseWidgetDesignerCSS: {path: "configuration/f51a7bd8b5da1c6ab4a84b0d257f22deen-US", 
+		css: ["BaseWidgetDesignerCSS"]},
+	BaseWidgetModule: {path: "configuration/6975e8a8a9a185d42bcceddbd93b2239en-US", 
+		css: ["BaseWidgetModule"]},
+	BaseWidgetPreviewDesigner: {path: "configuration/2f43716d605f384e6347d4cf8a3ce14cen-US"},
+	BaseWidgetViewModel: {path: "configuration/54fe9b29ef8447f35154be3936df5db1en-US"},
+	BaseWidgetViewModelClass: {path: "configuration/49de52cf82682f6e2af43ec6dbc5bbf9en-US"},
+	BaseWizardModule: {path: "configuration/24fe528431475dd7612db8e6a607ffbfen-US", 
 		css: ["BaseWizardModule"], 
 		messages: {
 			"LoadModule": { "direction": "subscribe", "mode": "ptp" },
@@ -256,64 +499,111 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"SaveWizard": { "direction": "subscribe", "mode": "ptp" },
 			"GetPackageUId": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateStepsConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	BaseWorkplaceLoader: {
+		}},
+	BaseWizardStepPage: {path: "configuration/f42e889b09f6cf0de87ab947a4260fd1en-US"},
+	BaseWizardStepSchemaMixin: {path: "configuration/805b1f5e4f94309fef6caac666854d97en-US"},
+	BaseWorkplaceLoader: {path: "configuration/c6639d40c234b8fe7c179504241c58c1en-US", 
 		messages: {
 			"PostSectionMenuConfig": { "direction": "publish", "mode": "ptp" },
 			"GetWorkplaceInfo": { "direction": "publish", "mode": "ptp" },
 			"GetSectionMenuInfo": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	BpmonlineCloudIntegrationPageV2CSS: {
-		css: ["BpmonlineCloudIntegrationPageV2CSS"]
-	},
-	BR7xConditionGroupDesignerContainer: {
-		css: ["BR7xConditionGroupDesignerContainer"]
-	},
-	BR7xConditionModuleLoader: {
-		css: ["BR7xConditionModuleLoader"]
-	},
-	BR7xExpressionEdit: {
-		css: ["BR7xExpressionEdit"]
-	},
-	BR7xSchemaDesignerCSS: {
-		css: ["BR7xSchemaDesignerCSS"]
-	},
-	BusinessRuleActionDesignerContainer: {
-		css: ["BusinessRuleActionDesignerContainer"]
-	},
-	BusinessRuleBindParameterActionDesignerContainer: {
-		css: ["BusinessRuleBindParameterActionDesignerContainer"]
-	},
-	BusinessRuleConditionGroupDesignerContainer: {
-		css: ["BusinessRuleConditionGroupDesignerContainer"]
-	},
-	BusinessRuleFilterActionConditionDesignerViewModel: {
-		css: ["BusinessRuleFilterActionConditionDesignerViewModel"]
-	},
-	BusinessRuleFilterActionDesignerContainer: {
-		css: ["BusinessRuleFilterActionDesignerContainer"]
-	},
-	BusinessRulePopulateItemActionDesignerContainer: {
-		css: ["BusinessRulePopulateItemActionDesignerContainer"]
-	},
-	BusinessRuleSchemaDesignerCSS: {
-		css: ["BusinessRuleSchemaDesignerCSS"]
-	},
-	BusinessRuleSectionCSS: {
-		css: ["BusinessRuleSectionCSS"]
-	},
-	CallMessagePublisherModule: {
+		}},
+	BasicServiceAuthInfoValuesPage: {path: "configuration/1da2c9248a82d57a83d73150d5d874aaen-US"},
+	BlankMobilePageTemplate: {path: "configuration/53c8fd5bd409acb747bc439ec9c34bf5en-US"},
+	BlankPageTemplate: {path: "configuration/5f59429f30c2131c638bb7341d018e6aen-US"},
+	BlockContentBuilder: {path: "configuration/d9a7227b7b567291f3d45ca495df41been-US"},
+	BootstrapModules: {path: "configuration/77bdd81c271a4d625444f6efcc95e5d2en-US"},
+	BootstrapModulesV2: {path: "configuration/d4c98f583b1b7b48439755fa56e81024en-US"},
+	BpmonlineCloudIntegrationEnums: {path: "configuration/cb678e40172cf5d72cb23a74ed4e1798en-US"},
+	BpmonlineCloudIntegrationPageV2: {path: "configuration/5a015c0109a52cd57c0151cf0efa5fcfen-US"},
+	BpmonlineCloudIntegrationPageV2CSS: {path: "configuration/f746167691f876ed3f0f56ef5472bbd9en-US", 
+		css: ["BpmonlineCloudIntegrationPageV2CSS"]},
+	BpmonlineCloudServiceApi: {path: "configuration/d19b80636e9108d60134475af28a3baeen-US"},
+	BR7xCaseDesignerCollectionContainer: {path: "configuration/b02a407727bbd83c09a37aa06bb4a08ben-US"},
+	BR7xCaseDesignerContainer: {path: "configuration/1c6161c724fc42e8d81e339bf03ea8c9en-US"},
+	BR7xCaseDesignerViewModel: {path: "configuration/d4f69cbacae3d7c01cebdef42646cd69en-US"},
+	BR7xConditionDesigner: {path: "configuration/e8e27732aab13bb40fab300207f4f986en-US"},
+	BR7xConditionGroupDesignerContainer: {path: "configuration/04ed3fbb79971d0594a13861cb87e03fen-US", 
+		css: ["BR7xConditionGroupDesignerContainer"]},
+	BR7xConditionGroupDesignerViewModel: {path: "configuration/f5bfc0da446f1bebceb743d417719816en-US"},
+	BR7xConditionModuleLoader: {path: "configuration/621a4ce4756876a288d51d8cfe10bfcden-US", 
+		css: ["BR7xConditionModuleLoader"]},
+	BR7xConverter: {path: "configuration/41ea7d4ac3d23641b1d0ea5c91931947en-US"},
+	BR7xElementDesignerViewModel: {path: "configuration/df0012e40a2cb1bad5d2c52ae0b0b435en-US"},
+	BR7xExpressionEdit: {path: "configuration/8297e2d46e8a7bb0e4bcd5efea6d1f7cen-US", 
+		css: ["BR7xExpressionEdit"]},
+	BR7xSchemaDesignerCSS: {path: "configuration/45ce9def5859d8d26df81859586ab92cen-US", 
+		css: ["BR7xSchemaDesignerCSS"]},
+	BreadcrumbsItemViewModel: {path: "configuration/72df5a8a7ceb9a45a2d9d054d6dddb35en-US"},
+	BusinessRule7xConditionDesignerViewModel: {path: "configuration/103f6e2e482b3b16c67aa8a6990741e6en-US"},
+	BusinessRuleActionDesignerCollectionContainer: {path: "configuration/b00fbf7157692205e49541c653177953en-US"},
+	BusinessRuleActionDesignerContainer: {path: "configuration/66b67f37f1375c7c8a2a595851da273cen-US", 
+		css: ["BusinessRuleActionDesignerContainer"]},
+	BusinessRuleActionDesignerViewModel: {path: "configuration/89852f5aa3d5deb32b13ca6d184ef813en-US"},
+	BusinessRuleBindParameterActionDesignerContainer: {path: "configuration/b5bd0a759d9e9cf9fcdf9654b7d78b64en-US", 
+		css: ["BusinessRuleBindParameterActionDesignerContainer"]},
+	BusinessRuleBindParameterActionDesignerViewModel: {path: "configuration/0dfca66283fa226a77268b6ee9fb1946en-US"},
+	BusinessRuleCaptionGenerator: {path: "configuration/471576ac0cbd94478123a68db143e104en-US"},
+	BusinessRuleCaseDesignerCollectionContainer: {path: "configuration/adffbdd326dbfe055169d22d4b074d4ben-US"},
+	BusinessRuleCaseDesignerContainer: {path: "configuration/8c54eeefb0e55bb3b44ed01a8eca6dd7en-US"},
+	BusinessRuleCaseDesignerViewModel: {path: "configuration/c1b8fd74c76eca69a77f6b4ba0d8695aen-US"},
+	BusinessRuleConditionDesignerViewModel: {path: "configuration/10f36389ad2fc91246f343d309ad659een-US"},
+	BusinessRuleConditionGroupDesignerContainer: {path: "configuration/576f8bd204677825a0d602f43bb6826een-US", 
+		css: ["BusinessRuleConditionGroupDesignerContainer"]},
+	BusinessRuleConditionGroupDesignerViewModel: {path: "configuration/9afce53ea1502fcf1d35cce91e78c342en-US"},
+	BusinessRuleConverter: {path: "configuration/54431b492d9e3f1803ee425086aa192cen-US"},
+	BusinessRuleElementDesignerViewModel: {path: "configuration/c4a67c95ce2189560b508ae5545a6f1cen-US"},
+	BusinessRuleExpressionDataQueryBuilder: {path: "configuration/ed3aec3e7647d9509680cb116454305aen-US"},
+	BusinessRuleFilterActionConditionDesignerViewModel: {path: "configuration/abe45a0b49ffad2beda6de6fa62494acen-US", 
+		css: ["BusinessRuleFilterActionConditionDesignerViewModel"]},
+	BusinessRuleFilterActionDesignerContainer: {path: "configuration/2d8f879886317e1c2939419455672adcen-US", 
+		css: ["BusinessRuleFilterActionDesignerContainer"]},
+	BusinessRuleFilterActionDesignerViewModel: {path: "configuration/ca9ea0d401d361f6a3af3d1280bf90efen-US"},
+	BusinessRuleModule: {path: "configuration/aed2523ebc226006030748e0db790c48en-US"},
+	BusinessRulePopulateItemActionDesignerContainer: {path: "configuration/b299c69bc545c7b377cd16a50b6620c6en-US", 
+		css: ["BusinessRulePopulateItemActionDesignerContainer"]},
+	BusinessRulePopulateItemActionDesignerViewModel: {path: "configuration/bc33002a6bf106d316dfa4781550e4f6en-US"},
+	BusinessRulePopulateItemActionWebComponent: {path: "configuration/d374f1b9c99c3dcd66cfbbb4414e927den-US"},
+	BusinessRulesApplierV2: {path: "configuration/fa8eb0212b6864c9126d98183fdf1adden-US"},
+	BusinessRuleSchemaDesigner: {path: "configuration/331c179cb4e79a316c88797edb866a83en-US"},
+	BusinessRuleSchemaDesignerCSS: {path: "configuration/23125adbedac3b5b4d3131fa4f5ff52den-US", 
+		css: ["BusinessRuleSchemaDesignerCSS"]},
+	BusinessRuleSchemaManager: {path: "configuration/3f88eedb254e5f636ec4823f96a5ccafen-US"},
+	BusinessRuleSchemaManagerItem: {path: "configuration/704851e698b3fed50b48bd4fb3413ee8en-US"},
+	BusinessRuleSection: {path: "configuration/d5a2ec451b17d5c7cdb61227632499a2en-US"},
+	BusinessRuleSectionCSS: {path: "configuration/ffd455228018c64bb85f4540572e5f9cen-US", 
+		css: ["BusinessRuleSectionCSS"]},
+	BusinessRuleVisibleItemActionWebComponent: {path: "configuration/4ababf563b1b2ea771ae0af940b98b56en-US"},
+	ButtonPropertiesPage: {path: "configuration/b8b85beae7743e3a0614e3043126263fen-US"},
+	ButtonPropertiesPageModule: {path: "configuration/72bea99f470626eac4d49011b70545f7en-US"},
+	Calendar_Detail: {path: "configuration/696d75b92319e192c8c2fe5476c5d0bden-US"},
+	Calendar_ListPage: {path: "configuration/f21402b013b0e9272dd98dee48e491d9en-US"},
+	CalendarLookupSection: {path: "configuration/c703b5c6da45e3c4755c02024511a34fen-US"},
+	CalendarPage: {path: "configuration/b1c1e1d71011520190597d613c0e343een-US"},
+	CalendarSyncSettingsErrors: {path: "configuration/7fbea89f90625d8926ac1b7ec90476d5en-US"},
+	CalendarWorkingTimeUtility: {path: "configuration/a6405e550c00ad6d0c8545a428d4b3dben-US"},
+	CallDetail: {path: "configuration/be9d7bc290dd8ba1b3dc85e9201dece9en-US"},
+	CallExtendedMenu: {path: "configuration/5b5a6aa424c99eb1a735f547cc6b6578en-US"},
+	CallMessagePublisherModule: {path: "configuration/3ce43c75503bf7ad3769401c728e2bc9en-US", 
 		css: ["CallMessagePublisherModule"], 
 		messages: {
 			"RerenderPublisherModule": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	CallSectionGridRowViewModel: {
-		css: ["CallSectionGridRowViewModel"]
-	},
-	CardModule: {
+		}},
+	CallMessagePublisherPage: {path: "configuration/da9361c1c885710961ca7ec7149a56b8en-US"},
+	CallPageV2: {path: "configuration/d9190110b8a03743a2beb7152e3ea873en-US"},
+	CallRecordUtilities: {path: "configuration/6d2ca7cec589a696be6a87055d1f12faen-US"},
+	Calls_dashboard: {path: "configuration/03a4e34163aaf2f372a0fd7d6a52152een-US"},
+	Calls_Detail: {path: "configuration/41814fe906f1f5a5a3e6d1784eb4c233en-US"},
+	Calls_FormPage: {path: "configuration/92ad4f23d1cb2a39af8cc86fe7bc40cben-US"},
+	Calls_ListPage: {path: "configuration/f606da70a4e0accc8cb7a8e02877f89den-US"},
+	CallSectionGridRowViewModel: {path: "configuration/16d9355b5d783c56f716a01a70377278en-US", 
+		css: ["CallSectionGridRowViewModel"]},
+	CallSectionV2: {path: "configuration/4d13ed7fd6f789377ee970a2aba0f29ben-US"},
+	CallTimelineItemView: {path: "configuration/60bfa7f9811adf8819ef0c0c70d533d8en-US"},
+	CallTimelineItemViewModel: {path: "configuration/faf7a2f44658fdc101430818989fda59en-US"},
+	CallUserTaskPropertiesPage: {path: "configuration/7349e244a123c500da6a676a622b85b9en-US"},
+	CardControlGeneratorHelper: {path: "configuration/577c865bde2f206f4c862aa6f740f7c4en-US"},
+	CardModule: {path: "configuration/f6f2752ba85996d3936a5c294c656bc7en-US", 
 		css: ["CardModule"], 
 		messages: {
 			"LoadData": { "direction": "publish", "mode": "broadcast" },
@@ -376,9 +666,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetWidgetParameters": { "direction": "publish", "mode": "ptp" },
 			"PushWidgetParameters": { "direction": "publish", "mode": "ptp" },
 			"CardProccessModuleInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	CardModuleV2: {
+		}},
+	CardModuleV2: {path: "configuration/28d6bf851e1dfa5c7189b1a9ae920f3aen-US", 
 		css: ["CardModuleV2"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -393,9 +682,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"RerenderDetail": { "direction": "publish", "mode": "ptp" },
 			"ResultSelectedRows": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	CardProcessModule: {
+		}},
+	CardProcessModule: {path: "configuration/5edee6dc37c116f1d94b9252cc811774en-US", 
 		css: ["CardProcessModule"], 
 		messages: {
 			"LoadData": { "direction": "publish", "mode": "broadcast" },
@@ -452,39 +740,52 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"CustomSideBarDefInfo": { "direction": "subscribe", "mode": "ptp" },
 			"GetWidgetParameters": { "direction": "publish", "mode": "ptp" },
 			"PushWidgetParameters": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	CardProcessViewModelGenerator: {
+		}},
+	CardProcessViewGenerator: {path: "configuration/417508a6934dc01237028103d4292cbeen-US"},
+	CardProcessViewModelGenerator: {path: "configuration/cae198263b1e0086d558ce8e8091cb69en-US", 
 		messages: {
 			"OpenDelayExecutionModule": { "direction": "subscribe", "mode": "broadcast" },
 			"UpdateCardModule": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	CardSchemaViewModule: {
-		css: ["CardSchemaViewModule"]
-	},
-	CardViewModelGenerator: {
+		}},
+	CardSchemaViewModule: {path: "configuration/b4534aee50faea2cee11b120f0c45960en-US", 
+		css: ["CardSchemaViewModule"]},
+	CardUtilities: {path: "configuration/df97024377bb61314c8478870dc99b04en-US"},
+	CardViewGenerator: {path: "configuration/b0a9de43320a8183ee1b2089628127e7en-US"},
+	CardViewModelGenerator: {path: "configuration/2d78d252bab3fb12a2de2e76b86ee515en-US", 
 		messages: {
 			"OpenDelayExecutionModule": { "direction": "subscribe", "mode": "broadcast" },
 			"UpdateCardModule": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	CardWidgetModule: {
+		}},
+	CardWidgetModule: {path: "configuration/875eaa214dbcce6c8f3817b34f5aab0den-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"EntityInitialized": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	CenterNotificationModule: {
+		}},
+	CardWidgetModuleViewConfig: {path: "configuration/571d69e8c8b3de322139ab7380617af0en-US"},
+	CaseDeadlineCalcSchemasLookupSection: {path: "configuration/ac75adbbab34a433f413aaa81e698df4en-US"},
+	CaseDeadlineCalculationSchemasEditPage: {path: "configuration/fb62ce1f6194b2d9859440bfd0f8d82aen-US"},
+	CaseSearchRowSchema: {path: "configuration/21e83355284311a6710b9a79ae066f69en-US"},
+	CenterNotificationModule: {path: "configuration/eb49d82aee1e37d7c73cfb709f222924en-US", 
 		css: ["CenterNotificationModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"GetNotificationInfo": { "direction": "subscribe", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	ChangePasswordModule: {
+		}},
+	CenterNotificationSchema: {path: "configuration/e9af1f5c5553c8511dd5092167f4c324en-US"},
+	CentralAreaDesktopTemplate: {path: "configuration/cb1c40054c3a05cd720ff103d4c3be3ben-US"},
+	ChainModuleStub: {path: "configuration/dadd7bb69f0d48727e401763c09b512den-US"},
+	ChangeAdminRightsUserTaskAddRightsViewModel: {path: "configuration/fded276dd6c53cf548f3378bcb4c718ben-US"},
+	ChangeAdminRightsUserTaskBaseItemViewModel: {path: "configuration/17bd4e8f9656f44fdda4d37e5c8e49fcen-US"},
+	ChangeAdminRightsUserTaskDeleteRightsViewModel: {path: "configuration/cfdb0f6bf7f82d1536d01961ad5ad355en-US"},
+	ChangeAdminRightsUserTaskItemInitializer: {path: "configuration/f9ae73ccd74ef171c406da011c5d9534en-US"},
+	ChangeAdminRightsUserTaskMiniEditPage: {path: "configuration/e051cddade9c34ccc2ae0ec2f710badeen-US"},
+	ChangeAdminRightsUserTaskPropertiesPage: {path: "configuration/a4b1fb69b111e4753659b8f2bd241aa7en-US"},
+	ChangeDataUserTaskItemInitializer: {path: "configuration/9ce5ab234f116905ebc18dc6c8fded5den-US"},
+	ChangeDataUserTaskPropertiesPage: {path: "configuration/4adda558c274ab71bc9f3b8b2ae8faa1en-US"},
+	ChangeLogUtilities: {path: "configuration/1b86a92eee6fd7b8ac6a7a5f9a80dd42en-US"},
+	ChangePasswordModule: {path: "configuration/2744ea91e42b41b7c80ac6c40ffb462cen-US", 
 		css: ["ChangePasswordModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -494,21 +795,25 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"InitDataViews": { "direction": "publish", "mode": "ptp" },
 			"ChangeHeaderCaption": { "direction": "publish", "mode": "ptp" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	ChartDashboardSection: {
+		}},
+	ChangePasswordModuleSchema: {path: "configuration/028538a7a2d6ab37ee997c6023fdb776en-US"},
+	ChannelBase_MiniPage: {path: "configuration/c24bd23bbf7452e41ddcc889ba439c6een-US"},
+	ChartCompatibilityValidator: {path: "configuration/4313a78df502ce8af3bfb836a3a13f65en-US"},
+	ChartDashboardSection: {path: "configuration/f568d434959534115f639303edca65f2en-US", 
 		messages: {
 			"ReplaceHistoryState": { "direction": "publish", "mode": "ptp" },
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ChartDesignerLess: {
-		css: ["ChartDesignerLess"]
-	},
-	ChartjsProvider: {
-		css: ["ChartjsProvider"]
-	},
-	ChartModule: {
+		}},
+	ChartDesigner: {path: "configuration/bee333cf0713840a1845faddad5a72c1en-US"},
+	ChartDesignerLess: {path: "configuration/4127dec9ddc4255da769d1acddb3da34en-US", 
+		css: ["ChartDesignerLess"]},
+	ChartDrillDownProvider: {path: "configuration/4ef6ad9df321e96c1134ce3a186a5d7den-US"},
+	ChartDrillDownProviderUtils: {path: "configuration/c4629395c9bfd924a130b72107651f8ben-US"},
+	ChartjsConfigAdapter: {path: "configuration/dc3715a474c311d48a7df4856e5eb31fen-US"},
+	ChartJsCustomTooltip: {path: "configuration/8a517fc0e5d43820045a83a37b0a621den-US"},
+	ChartjsProvider: {path: "configuration/07e88e094e30e042c5ab51002fa1b3d0en-US", 
+		css: ["ChartjsProvider"]},
+	ChartModule: {path: "configuration/007c9136b46603b7e410bf8064dc1bdfen-US", 
 		css: ["ChartModule"], 
 		messages: {
 			"GenerateChart": { "direction": "subscribe", "mode": "ptp" },
@@ -527,27 +832,54 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"UpdateFilter": { "direction": "subscribe", "mode": "broadcast" },
 			"SectionUpdateFilter": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	ChatContactDuplicatesDetailViewModel: {
-		css: ["ChatContactDuplicatesDetailViewModel"]
-	},
-	Chats_FormPageCSS: {
-		css: ["Chats_FormPageCSS"]
-	},
-	ChatTimelineItemView: {
-		css: ["ChatTimelineItemView"]
-	},
-	CheckBoxDateBlockGeneratorV2: {
-		css: ["CheckBoxDateBlockGeneratorV2"]
-	},
-	ckeditor: {
-		css: ["ckeditor"]
-	},
-	CollapsibleContainer: {
-		css: ["CollapsibleContainer"]
-	},
-	ColumnPage: {
+		}},
+	ChartModuleHelper: {path: "configuration/efc715d775567d04136a3070eff14d44en-US"},
+	ChartProviderFactory: {path: "configuration/a9358172d76d405b8f0be02bc2b8b2f4en-US"},
+	ChartWidgetComponent: {path: "configuration/18efc159b867ef85a74737dc85fbcd52en-US"},
+	ChatContactDuplicatesDetailViewConfig: {path: "configuration/b3fbbcd83f0d73c9c78e5b0dd03c6022en-US"},
+	ChatContactDuplicatesDetailViewModel: {path: "configuration/104d1a4941d820b0e831578c48fc2f8fen-US", 
+		css: ["ChatContactDuplicatesDetailViewModel"]},
+	ChatContactDuplicatesPage: {path: "configuration/58a46e788edbd16d579d396dea409fe4en-US"},
+	ChatQueues_FormPage: {path: "configuration/e2dff998ce376659b70306bc3d30d20ben-US"},
+	Chats_FormPage: {path: "configuration/860965d7e1e1fb006f2a6969122e9113en-US"},
+	Chats_FormPageCSS: {path: "configuration/c4a80a3dbe3f396b592a7061c2acfeacen-US", 
+		css: ["Chats_FormPageCSS"]},
+	Chats_ListPage: {path: "configuration/ccfc4cb6518f71f5b2d3458cde2b8e7een-US"},
+	ChatServiceMonitorDashboard: {path: "configuration/bfb7e499de251a58d52a54a916440bcfen-US"},
+	ChatSettingsPage: {path: "configuration/836e566cf4efa4c6c3c90a4e263075b3en-US"},
+	ChatTemplateContentEditSchema: {path: "configuration/00e5f59e76fa53f556d974b71b8fdcaden-US"},
+	ChatTemplatePage: {path: "configuration/de1ff39e308977e5ede56caa2f50132een-US"},
+	ChatTimelineItemView: {path: "configuration/f741bac0a7924729325dffec1925cd5een-US", 
+		css: ["ChatTimelineItemView"]},
+	ChatTimelineItemViewModel: {path: "configuration/bd6c3a34ae02c8922310f18c5ff6e237en-US"},
+	CheckBoxDateBlockGeneratorV2: {path: "configuration/40f1258cdf841fa034435fcfac224366en-US", 
+		css: ["CheckBoxDateBlockGeneratorV2"]},
+	CheckModuleDestroyMixin: {path: "configuration/34bff39e964e1bc842c2f994b620aa05en-US"},
+	CheckWSConnectionMixin: {path: "configuration/e9ce39b27e18f72327b2de51ce08d557en-US"},
+	ChiefsDetailV2: {path: "configuration/cee7129176ac45b892736f2bef719e36en-US"},
+	CityPage: {path: "configuration/a641e2fa46852dd00155dc69a71d6db3en-US"},
+	CityPageV2: {path: "configuration/fbfb1f7f22947df62f3db41bd1451caden-US"},
+	ckeditor: {path: "configuration/ceb5ddffeaa53eecb3130395246bb122en-US", 
+		css: ["ckeditor"]},
+	ClassicUIToClassicPagesDialog: {path: "configuration/c2e86c0b43ef8673c00d7b0a51a09abden-US"},
+	ClassicUIToFreedomPagesDialog: {path: "configuration/bf0bf80d15f910990830b8a61d537fcden-US"},
+	ClearConfActivityLogConfirmationModalPage: {path: "configuration/246459a948ab007fa5368533176cbddcen-US"},
+	ClientAccountProfileSchema: {path: "configuration/c15209fe66fad89004e49feca87f5aa4en-US"},
+	ClientContactProfileSchema: {path: "configuration/28230c48e1359e485035fbf10bb94e19en-US"},
+	ClientMessageBridge: {path: "configuration/eb6ae7ea9405c9d6fa51a17084328ba0en-US"},
+	ClientProfileSchema: {path: "configuration/9d71e9b6e4dd6bd109a8b460b96e2b19en-US"},
+	ClientUnitParameterPropertiesPageModule: {path: "configuration/9e62fbda094acb8be007a5d0fd220855en-US"},
+	ClientUnitSchemaModelItemDesigner: {path: "configuration/ed7ea3ccf94c96de0e9943534cdbc3b1en-US"},
+	CollapsibleContainer: {path: "configuration/49218437e0b8cd01be3462eade77f1e2en-US", 
+		css: ["CollapsibleContainer"]},
+	ColorMacroListItemViewModel: {path: "configuration/a8cd6584c9eb1851197475415b501408en-US"},
+	ColumnDestinationViewModel: {path: "configuration/b1563fcf2c6c9f280ebf52a85a20a6d2en-US"},
+	ColumnEditGenerator: {path: "configuration/1961a2028d6f0d2d19524d795aa07aaaen-US"},
+	ColumnEditMixin: {path: "configuration/3130452800081b1a13da214aa8fdb1e1en-US"},
+	ColumnGridLayoutEditItemModel: {path: "configuration/670837222509522ceecc5607617ae43den-US"},
+	ColumnHelper: {path: "configuration/3db6f0980ba64e9bd48d8fc2cdfc6d2cen-US"},
+	ColumnMappingViewModel: {path: "configuration/0fcaab4ad4321a51ce88af08434d0893en-US"},
+	ColumnPage: {path: "configuration/f96f5c80f76ebd18e30a8c00c2fa4f6ben-US", 
 		css: ["ColumnPage"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -559,9 +891,10 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"OpenLookupPage": { "direction": "subscribe", "mode": "broadcast" },
 			"GetColumnInfo": { "direction": "publish", "mode": "ptp" },
 			"PushColumnInfo": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ColumnSettings: {
+		}},
+	ColumnPageView: {path: "configuration/aaa4ea37ca1a4074cab1a955865c62deen-US"},
+	ColumnPageViewModel: {path: "configuration/f2c7f73d7c9b5303b512fbba3a66b488en-US"},
+	ColumnSettings: {path: "configuration/b35e9640bb52a4dc071dca50de6e7b07en-US", 
 		css: ["ColumnSettings"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -577,14 +910,15 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ResultSelectedRows": { "direction": "subscribe", "mode": "ptp" },
 			"StructureExplorerInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	ColumnSettingsUtilities: {
+		}},
+	ColumnSettingsUtilities: {path: "configuration/06f4d5e255e355fe68250b8469b8757aen-US", 
 		messages: {
 			"ColumnSettingsInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	CommandLineModule: {
+		}},
+	ColumnSettingsViewModel: {path: "configuration/b54d3d0ca66a330b6bb4b44da0821494en-US"},
+	ColumnTypedDestinationViewModel: {path: "configuration/2464ca76d80f1c2f7c90d8c25de4e6fben-US"},
+	ColumnUtilities: {path: "configuration/ac7e9ffa6d335ab641e4cb85ab07d906en-US"},
+	CommandLineModule: {path: "configuration/eb7b86c509611ebf5db2c14b0b37877een-US", 
 		css: ["CommandLineModule"], 
 		messages: {
 			"ChangeCommandList": { "direction": "subscribe", "mode": "broadcast" },
@@ -597,9 +931,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"SetCommandLineValue": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	CommentsModule: {
+		}},
+	CommentsModule: {path: "configuration/b28612a80cf2ae2642ba0109140a332den-US", 
 		messages: {
 			"GetRecordInfo": { "direction": "publish", "mode": "ptp" },
 			"GetDetailItems": { "direction": "publish", "mode": "ptp" },
@@ -607,49 +940,91 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"SaveRecord": { "direction": "publish", "mode": "broadcast" },
 			"UpdateDetail": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	CommentsWithFilesModulesHelper: {
-		css: ["CommentsWithFilesModulesHelper"]
-	},
-	CommonCSSV2: {
-		css: ["CommonCSSV2"]
-	},
-	CommonFilterUtils: {
-		css: ["CommonFilterUtils"]
-	},
-	CommunicationPanelModule: {
+		}},
+	CommentsWithFilesModulesHelper: {path: "configuration/8281e91428f2f0049924304a6097e73cen-US", 
+		css: ["CommentsWithFilesModulesHelper"]},
+	CommonCSSV2: {path: "configuration/723bd4d642004fe21038d8f985647085en-US", 
+		css: ["CommonCSSV2"]},
+	CommonFilterUtils: {path: "configuration/f27ed0073769bc66ad61cbab905dffccen-US", 
+		css: ["CommonFilterUtils"]},
+	CommunicationDestinationViewModel: {path: "configuration/466a62630f13f294866e868f6b3b0daden-US"},
+	CommunicationDetail: {path: "configuration/b670787634ca9885ed6118c43513dc6een-US"},
+	CommunicationHistoryItem: {path: "configuration/8d2aac52667c303d0108d41e36bc1544en-US"},
+	CommunicationOptionsMixin: {path: "configuration/da55f36101233f97a66f4e0003d463ceen-US"},
+	CommunicationPanel: {path: "configuration/d74918a7d2af68a43767106861865547en-US"},
+	CommunicationPanelEmailSchema: {path: "configuration/514775550afa2af9b89bf85f86425a69en-US"},
+	CommunicationPanelHelper: {path: "configuration/4104fdb6ecad585136fbaa5f53c6abaeen-US"},
+	CommunicationPanelModule: {path: "configuration/15a521378ea87d4f32446416ff320702en-US", 
 		css: ["CommunicationPanelModule"], 
 		messages: {
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"CommunicationPanelItemSelected": { "direction": "publish", "mode": "broadcast" },
 			"ShowHideRightSidePanel": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	CompaniesListCSS: {
-		css: ["CompaniesListCSS"]
-	},
-	CompletenessCSSV2: {
-		css: ["CompletenessCSSV2"]
-	},
-	CompletenessIndicator: {
-		css: ["CompletenessIndicator"]
-	},
-	CompletenessMenuItem: {
-		css: ["CompletenessMenuItem"]
-	},
-	ConfigurationGrid: {
-		css: ["ConfigurationGrid"]
-	},
-	ConfigurationModuleV2: {
+		}},
+	CommunicationsPanel_CtiTab: {path: "configuration/d33d812160e3df1b4532adaea499b9eden-US"},
+	CommunicationsPanel_EmailTab: {path: "configuration/96f429e3cc5199a3b19008ff7196093den-US"},
+	CommunicationsPanel_FeedsTab: {path: "configuration/dad13e42c460fca01bf46f6f79acd951en-US"},
+	CommunicationsPanel_OmniChatTab: {path: "configuration/1454821f713dcd55c311a0e7550cb643en-US"},
+	CommunicationSynchronizerMixin: {path: "configuration/b86845d26d07d2fed5181cc36dc7b8d3en-US"},
+	CommunicationTypeByCommunicationDetailV2: {path: "configuration/7f4b1735550f0643cf3eccd8cb63b087en-US"},
+	CommunicationTypePageV2: {path: "configuration/7350bb38287d0b98ffaf0bb21cdd8ac2en-US"},
+	CommunicationUtils: {path: "configuration/aef8deb38063395e8149d9c046415816en-US"},
+	CompaniesListCSS: {path: "configuration/3984a73c15b8149c839c3b539a6260c0en-US", 
+		css: ["CompaniesListCSS"]},
+	CompaniesListHelper: {path: "configuration/e6eef8d201562741c9baa4d6488ce084en-US"},
+	CompetitorProductPage: {path: "configuration/c1585a05ecba6be09e9debd96f6fd21ben-US"},
+	CompilationHistoryModalPage: {path: "configuration/49de6649e06849609cb403bcc3e7d81aen-US"},
+	CompletenessCSSV2: {path: "configuration/5020f2bf6539c108b438471a725b89caen-US", 
+		css: ["CompletenessCSSV2"]},
+	CompletenessIndicator: {path: "configuration/68a834cfd81c78ca16d15eb7ca8306aben-US", 
+		css: ["CompletenessIndicator"]},
+	CompletenessLookupSectionV2: {path: "configuration/7f9d0e159a2dccf3faee18198a66abc8en-US"},
+	CompletenessMenu: {path: "configuration/6ede7e5c7b3aa5a605c5e1c832d146aben-US"},
+	CompletenessMenuItem: {path: "configuration/9c777c9c8a59277a54c47ee797d23268en-US", 
+		css: ["CompletenessMenuItem"]},
+	CompletenessMixin: {path: "configuration/1590a2b165ac28b0eeb9005894739feden-US"},
+	CompletenessPageV2: {path: "configuration/a31cfd8bb2b8ed70a408cf9547b4c3ccen-US"},
+	CompletenessParameterDetailV2: {path: "configuration/b4706dc36483951fe015fcdc2f1d40cben-US"},
+	CompositeCronExpressionPage: {path: "configuration/c5a58b9c78ec87e79b990597b8ccddbden-US"},
+	CompositeObjectConfigurationPage: {path: "configuration/1f8c1275d49c19083f3ecc64870844a1en-US"},
+	ConditionalSequenceFlowPropertiesPage: {path: "configuration/e810a280f38a790bf69058d81cfe1042en-US"},
+	ConfActivityLog_FormPage: {path: "configuration/9546909c05c38e704e5109be3f826c37en-US"},
+	ConfActivityLog_ListPage: {path: "configuration/15197c52137b4909a4c63d57fbb011e1en-US"},
+	ConfActivityLogDiffBuilder: {path: "configuration/b95abd7edcef6ace1e85458c9b0cde82en-US"},
+	ConfActivityLogDiffMapper: {path: "configuration/aec18d1d3ad488df55620dead4ec05cben-US"},
+	ConfActivityLogDiffRuntime: {path: "configuration/86c482ce79da64f96b1dc82485b7485ben-US"},
+	ConfActivityLogDiffTemplate: {path: "configuration/e4070c737aed849a9f13c79205499c1aen-US"},
+	ConfigurationBaseProgressBarGenerator: {path: "configuration/098ffbf493b732a576625097a601c0c9en-US"},
+	ConfigurationBootstrap: {path: "configuration/d069f8efb61b839765682bcdcdac550den-US"},
+	ConfigurationBuildWatcher: {path: "configuration/8a5b8b1416b4a9936b53b538533d8693en-US"},
+	ConfigurationCompletenessIndicatorGenerator: {path: "configuration/1b3950bcba9b1854d32b959120ae05c3en-US"},
+	ConfigurationConstants: {path: "configuration/5b74ffa1517625c28b8abb6bb99d917den-US"},
+	ConfigurationConstantsV2: {path: "configuration/51715e33b13bebde89f6bdd101b66a4een-US"},
+	ConfigurationDiagramGenerator: {path: "configuration/826ab940b46fad0ed2a3483302fa07afen-US"},
+	ConfigurationEnums: {path: "configuration/2f04101b79335a7a7d17822ccf226c99en-US"},
+	ConfigurationEnumsV2: {path: "configuration/7d2bfa57ad9b85bacd0bbf1ad5300874en-US"},
+	ConfigurationFileApi: {path: "configuration/928dc06947700557b89d9b890c053372en-US"},
+	ConfigurationGrid: {path: "configuration/8b3dffa966399b05be26a4e8bd0828cden-US", 
+		css: ["ConfigurationGrid"]},
+	ConfigurationGridGenerator: {path: "configuration/f589344a987e777534683dbdff978465en-US"},
+	ConfigurationGridLookupUtilities: {path: "configuration/e938d9e851a4bb4528843000041bd5d3en-US"},
+	ConfigurationGridUtilities: {path: "configuration/7b1b35fa53533c740cc8b65b6a47c973en-US"},
+	ConfigurationGridUtilitiesV2: {path: "configuration/04f2d37f9535a26a1392dea7bf78ceceen-US"},
+	ConfigurationItemGenerator: {path: "configuration/58ef38421b22ca1921a97a3ead325f1een-US"},
+	ConfigurationModuleV2: {path: "configuration/08fb51ddcd7a72b7f9f9a2cb7c4b4735en-US", 
 		css: ["ConfigurationModuleV2"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"InitContextHelp": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ConfigurationViewModule: {
+		}},
+	ConfigurationRectProgressBarGenerator: {path: "configuration/5d4b5639fd0ce103674cb5138d266e4fen-US"},
+	ConfigurationRoundProgressBarGenerator: {path: "configuration/5cb8728c7403aa528195467972ea2f51en-US"},
+	ConfigurationServiceProvider: {path: "configuration/cec2d729cf94c3b7046c5cb8fc52a336en-US"},
+	ConfigurationServiceRequest: {path: "configuration/f2a58cff43b23742c34c2c2c7ffdf04ben-US"},
+	ConfigurationSystemDesignerSectionV2: {path: "configuration/044fd2080e7edc7d88cbc1cec3fd335fen-US"},
+	ConfigurationVerticalGridGenerator: {path: "configuration/1ebf9c1266c4a442924b00e3185dcde7en-US"},
+	ConfigurationViewModule: {path: "configuration/d1f94c6751dfc1d277de8596a30b0d1den-US", 
 		css: ["ConfigurationViewModule"], 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -669,121 +1044,288 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ShowHideRightSidePanel": { "direction": "subscribe", "mode": "broadcast" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ChangeGridUtilitiesContainerSize": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	ContactEnrichmentSchemaCSS: {
-		css: ["ContactEnrichmentSchemaCSS"]
-	},
-	ContactMiniPageCSS: {
-		css: ["ContactMiniPageCSS"]
-	},
-	ContactPageV2CSS: {
-		css: ["ContactPageV2CSS"]
-	},
-	ContactSectionV2CSS: {
-		css: ["ContactSectionV2CSS"]
-	},
-	ContentBlockCSS: {
-		css: ["ContentBlockCSS"]
-	},
-	ContentBlockDesignerCSS: {
-		css: ["ContentBlockDesignerCSS"]
-	},
-	ContentBuilderCSS: {
-		css: ["ContentBuilderCSS"]
-	},
-	ContentBuilderElement: {
-		css: ["ContentBuilderElement"]
-	},
-	ContentBuilderUserBlock: {
-		css: ["ContentBuilderUserBlock"]
-	},
-	ContentItemPropertiesPageCSS: {
-		css: ["ContentItemPropertiesPageCSS"]
-	},
-	ContentItemStylesPageCSS: {
-		css: ["ContentItemStylesPageCSS"]
-	},
-	ContentMjButtonPropertiesPageCSS: {
-		css: ["ContentMjButtonPropertiesPageCSS"]
-	},
-	ContentMjDividerPropertiesPageCSS: {
-		css: ["ContentMjDividerPropertiesPageCSS"]
-	},
-	ContentMjHeroPropertiesPageCSS: {
-		css: ["ContentMjHeroPropertiesPageCSS"]
-	},
-	ContentMjmlImagePropertiesPageCSS: {
-		css: ["ContentMjmlImagePropertiesPageCSS"]
-	},
-	ContentMjRawPropertiesPageCSS: {
-		css: ["ContentMjRawPropertiesPageCSS"]
-	},
-	ContentNavbarLinkPropertiesPageCSS: {
-		css: ["ContentNavbarLinkPropertiesPageCSS"]
-	},
-	ContentNavbarPropertiesPageCSS: {
-		css: ["ContentNavbarPropertiesPageCSS"]
-	},
-	ContentPreviewBlock: {
-		css: ["ContentPreviewBlock"]
-	},
-	ContentSmartHtmlEditPageCSS: {
-		css: ["ContentSmartHtmlEditPageCSS"]
-	},
-	ContentSmartHtmlPropertiesPageCSS: {
-		css: ["ContentSmartHtmlPropertiesPageCSS"]
-	},
-	ContentSpacerPropertiesPageCSS: {
-		css: ["ContentSpacerPropertiesPageCSS"]
-	},
-	ContentUserBlockEditPageCSS: {
-		css: ["ContentUserBlockEditPageCSS"]
-	},
-	ContextHelpModule: {
+		}},
+	ConfItemSearchRowSchema: {path: "configuration/18aba30220815a1db513f2191e9100cfen-US"},
+	Contact_MobileFormPage: {path: "configuration/7e7f473782c5219ee731b10c2d49e55den-US"},
+	Contact_MobileListPage: {path: "configuration/7487527fb55f4cb9bdfa6f825970afb1en-US"},
+	ContactAddressDetailV2: {path: "configuration/fa724a8c75ddf97ea5e3dbe52d8b08cden-US"},
+	ContactAddressPageV2: {path: "configuration/863ae691b3560254277987dcc5db10d9en-US"},
+	ContactAnniversariesReportFilter: {path: "configuration/8a07ca0aa57c1fc5fe668a46c7feb8e4en-US"},
+	ContactAnniversaryDetailV2: {path: "configuration/76d0f38598e94084282895d66a236fd6en-US"},
+	ContactAnniversaryPageV2: {path: "configuration/85d86399bb674c517c4747130d2867a8en-US"},
+	ContactCareerDetail: {path: "configuration/30520561e110da7484d89439b26500a0en-US"},
+	ContactCareerDetailV2: {path: "configuration/8fee231b5229cd0c9fcc23338848de65en-US"},
+	ContactCareerPageInAccount: {path: "configuration/523f4fad978c098688d885cdee829f91en-US"},
+	ContactCareerPageInAccountV2: {path: "configuration/f2e50b6a319bdbed429aa48afa431efeen-US"},
+	ContactCareerPageInContact: {path: "configuration/80c777d9c29da86dcf5a71984c92f99een-US"},
+	ContactCareerPageInContactV2: {path: "configuration/7ab3f4c0cd120a79ed4a41837f2416dden-US"},
+	ContactCommunicationDetail: {path: "configuration/a3a23024e1686fa4ab8060bd775878fden-US"},
+	ContactCommunicationDetailV2: {path: "configuration/f5b6bfff01b65fb3ad46da62b238b02den-US"},
+	ContactDuplicateSearchMixin: {path: "configuration/8c233ff42af89b8f3f1705b7a3f6dfaeen-US"},
+	ContactEnrichmentSchema: {path: "configuration/e54034bc2429fe1c3a6ef6982eb84042en-US"},
+	ContactEnrichmentSchemaCSS: {path: "configuration/2b60fe8a3320a53c5c669b23d2eeed93en-US", 
+		css: ["ContactEnrichmentSchemaCSS"]},
+	ContactMiniPage: {path: "configuration/92dfab389248f7cdf96bfae75e958110en-US"},
+	ContactMiniPageCSS: {path: "configuration/05503208658d3cef3d100c4653c9ca3ben-US", 
+		css: ["ContactMiniPageCSS"]},
+	ContactPageV2: {path: "configuration/865e9e37bceb7acfb4cc3b64e6670cdben-US"},
+	ContactPageV2CSS: {path: "configuration/1fea8b6880806b16a430fb83a94de632en-US", 
+		css: ["ContactPageV2CSS"]},
+	ContactProfileSchema: {path: "configuration/a9304ac9861b9ab9cd5d8c3fdd96faceen-US"},
+	ContactRelationshipDetailPageV2: {path: "configuration/f023ed1daed9acbb21c53507b47e2174en-US"},
+	ContactRelationshipDetailV2: {path: "configuration/de37d1dfd129bf3d30227f4e186b18fcen-US"},
+	Contacts_FormPage: {path: "configuration/88a6bf5fc327c6d65a7fd10092619d3ben-US"},
+	Contacts_ListPage: {path: "configuration/6ae794c416f82d706c6976d3310b7b1een-US"},
+	Contacts_MiniPage: {path: "configuration/e136fa2dc080bbd6a6a648c2f8763b60en-US"},
+	ContactsAnalyticsDashboard: {path: "configuration/912bde7f3f1ce1b575906830e3d74a9ben-US"},
+	ContactSearchRowSchema: {path: "configuration/19c0a0514874196bc010d88ff28f98cfen-US"},
+	ContactSection: {path: "configuration/0688a9558a139d5eb1c043a3944bfbcaen-US"},
+	ContactSectionV2: {path: "configuration/195e4ad20c18ef1c76c7f4b777af7eafen-US"},
+	ContactSectionV2CSS: {path: "configuration/5044a4c9ea71bc304bda02584d7b3a42en-US", 
+		css: ["ContactSectionV2CSS"]},
+	ContactSocialAddressDetail: {path: "configuration/26058d6f50493a665bdbe631645605c6en-US"},
+	ContactSocialAnniversaryDetail: {path: "configuration/54e1b4385b3d7974a163efbbe8b08416en-US"},
+	ContactSocialCommunicationDetail: {path: "configuration/69b32f33655155fe998c6b64fa0e804den-US"},
+	ContactSyncSettingsEdit: {path: "configuration/b87ef7ce8158689dd73f0b3e691d46c4en-US"},
+	ContactSyncSettingsTab: {path: "configuration/32884a9379d32fd78a86366f71454a3fen-US"},
+	ContainerList: {path: "configuration/baf94af869e82f49ec16ec743acb76d1en-US"},
+	ContainerListEx: {path: "configuration/44e5ae5fb5166125d6968f1afda3952aen-US"},
+	ContainerListGenerator: {path: "configuration/3c8652e25b45b67bb355926e67c4488aen-US"},
+	ContainerListPagination: {path: "configuration/90b6bf2fd8cbad6554abd017745e663aen-US"},
+	ContainerListPaginationGenerator: {path: "configuration/16b01ccf3f0a16286fb406a983d1dc8aen-US"},
+	ContentBlockCSS: {path: "configuration/adbcd7895ddf23e6aa5b22664f19835ben-US", 
+		css: ["ContentBlockCSS"]},
+	ContentBlockDesigner: {path: "configuration/d09a646f0b33b73be98873a0ec468fe8en-US"},
+	ContentBlockDesignerCSS: {path: "configuration/8c4d92df167bdf76404b3815cfd77e8fen-US", 
+		css: ["ContentBlockDesignerCSS"]},
+	ContentBlockElementGroupsHelper: {path: "configuration/5cd29dc77d66403178d8970e975c544cen-US"},
+	ContentBlockElementItemViewModel: {path: "configuration/7316e29f616900ef05a3d41fed5a61e3en-US"},
+	ContentBlockGroupViewModel: {path: "configuration/5cc0f8d78653f72ecc0f1bb25eb947c7en-US"},
+	ContentBlockPage: {path: "configuration/3b8ebda145774bbf7972a3616c0571b2en-US"},
+	ContentBlockPropertiesPage: {path: "configuration/7e133fc32a8bfb2c47fef93bf94cb3aben-US"},
+	ContentBlockSection: {path: "configuration/e81dbcfe5c3f17e1443cd8154878df1aen-US"},
+	ContentBlockSectionGridRowViewModel: {path: "configuration/c3083a47bc1a4115976e0ce0d39c74a5en-US"},
+	ContentBlockStructurePage: {path: "configuration/f57fcc28e155520090b44cc87c759dd4en-US"},
+	ContentBlockToolItemViewModel: {path: "configuration/73bedc9f1d386a8eff27ff90c6ef7c4een-US"},
+	ContentBlockViewModel: {path: "configuration/49e99486de5513ca54e47cf182fa5859en-US"},
+	ContentBuilder: {path: "configuration/b3145c630d5914273b10b598f2a03cdcen-US"},
+	ContentBuilderBlock: {path: "configuration/2ea2fcb10be69f48f82c2f12fb43f5faen-US"},
+	ContentBuilderBlockViewModel: {path: "configuration/780ce8e58e2c5f13f3c28d4e155b205fen-US"},
+	ContentBuilderButtonElementViewModel: {path: "configuration/fed97a92e741c35f04ba944d0f45a3cfen-US"},
+	ContentBuilderConfigToMjmlConverter: {path: "configuration/7dd0c7c738022bd46a73b47411d33dd7en-US"},
+	ContentBuilderConstants: {path: "configuration/fc62f548ea5c207f1f7127db05a665ceen-US"},
+	ContentBuilderCSS: {path: "configuration/f45c767047e7d8143d83b1809dea2e30en-US", 
+		css: ["ContentBuilderCSS"]},
+	ContentBuilderElement: {path: "configuration/aecdcee260f9db642cfb9778f0a41b2een-US", 
+		css: ["ContentBuilderElement"]},
+	ContentBuilderElementViewModel: {path: "configuration/d43402f39257adcd77e7f8f5014ef344en-US"},
+	ContentBuilderElementViewModelFactory: {path: "configuration/70fc64ab10f9a34ccc7bbdaaa5fd39d3en-US"},
+	ContentBuilderEnumsModule: {path: "configuration/605f51ea764c89349e78501ce5eb7f08en-US"},
+	ContentBuilderHelper: {path: "configuration/e36e654d7b5779c7a97ebe13628254daen-US"},
+	ContentBuilderHtmlElementViewModel: {path: "configuration/efbb4ebe2f2ca5dd2f31cf0dd8b5aa43en-US"},
+	ContentBuilderImageElementViewModel: {path: "configuration/e4af241973ecb7fa0199ba20227dc9b0en-US"},
+	ContentBuilderItemGenerator: {path: "configuration/773d07b3b647cd9c0d73a89493fbea3cen-US"},
+	ContentBuilderNavbarElementViewModel: {path: "configuration/5e7e6b72e1e60a22016b23340d863604en-US"},
+	ContentBuilderSeparatorElementViewModel: {path: "configuration/aa1c034859353cc0bba8b2e18eb92130en-US"},
+	ContentBuilderSpacerElementViewModel: {path: "configuration/77326a730a8b0c17f38c69a5ef7045a2en-US"},
+	ContentBuilderTextElementViewModel: {path: "configuration/f415d90fc99d84af325a26f9a21d4c8fen-US"},
+	ContentBuilderUserBlock: {path: "configuration/8e2db46fbd0e39687f2972af65e69098en-US", 
+		css: ["ContentBuilderUserBlock"]},
+	ContentBuilderUserBlockViewModel: {path: "configuration/805ead95f86fb478aa0a6ca3f7988c02en-US"},
+	ContentButtonElementViewModel: {path: "configuration/f615349b8d799433b7f6e9a58fbf129fen-US"},
+	ContentButtonPropertiesPage: {path: "configuration/83c060a8c29a754763d02f539ebad1ecen-US"},
+	ContentColumnPropertiesPage: {path: "configuration/c1ea35c383982860f80920759e47c15fen-US"},
+	ContentColumnViewModel: {path: "configuration/de0d4aa745957b53efe9c4c0f5dd3e39en-US"},
+	ContentElementBaseViewModel: {path: "configuration/b31e1b98a4aa5fc9969de8bcd03d7db8en-US"},
+	ContentElementManager: {path: "configuration/523e041bb384e0565d6dd20053fd0253en-US"},
+	ContentElementPanel: {path: "configuration/292aa3ea2efd755bb4b043f34b438357en-US"},
+	ContentExporterFactory: {path: "configuration/d85782dd057bb3d8b969b906df324d68en-US"},
+	ContentHtmlBlock: {path: "configuration/0ebaa7cfc5938a852e0a644fd7187564en-US"},
+	ContentHtmlBlockViewModel: {path: "configuration/f217028bf4ecf1206e287f96c4d463a6en-US"},
+	ContentHTMLElementViewModel: {path: "configuration/ca50054cebb840dc6271b04920199566en-US"},
+	ContentImageElementViewModel: {path: "configuration/0445fa7cca4d9279eccda7eceb45e06ben-US"},
+	ContentImagePropertiesPage: {path: "configuration/88f43fb06562706c5448d433e13a66f8en-US"},
+	ContentImageUtilitiesV2: {path: "configuration/5949c45d43f49968127746dc2818f4f0en-US"},
+	ContentItemPanel: {path: "configuration/3b000a505804e0bcfa0330621bdccdd3en-US"},
+	ContentItemPropertiesPage: {path: "configuration/c6c704432aba41903be8b0b6f851ecb2en-US"},
+	ContentItemPropertiesPageCSS: {path: "configuration/1a064cd5dc32c8a7a1b8d212e9800b5een-US", 
+		css: ["ContentItemPropertiesPageCSS"]},
+	ContentItemStylesPage: {path: "configuration/188327b78d29455a2e866d319bb22ef6en-US"},
+	ContentItemStylesPageCSS: {path: "configuration/bfca9cff4fe308d3274843af9b8411dben-US", 
+		css: ["ContentItemStylesPageCSS"]},
+	ContentMjBlockViewModel: {path: "configuration/b0b43b2c7f26424d89a4771dc3a0901aen-US"},
+	ContentMjButtonElementViewModel: {path: "configuration/f2b798b7e88cd0b53a2dbc50dc21ed31en-US"},
+	ContentMjButtonPropertiesPage: {path: "configuration/5c149bcc0482f328c1676be099f413deen-US"},
+	ContentMjButtonPropertiesPageCSS: {path: "configuration/c3bcf048791abe0d45007e926b4f65eben-US", 
+		css: ["ContentMjButtonPropertiesPageCSS"]},
+	ContentMjColumnViewModel: {path: "configuration/43a809cc92877054f8259052926dee39en-US"},
+	ContentMjDividerElementViewModel: {path: "configuration/51dbc9d7f543eace601aa6d5bb98365fen-US"},
+	ContentMjDividerPropertiesPage: {path: "configuration/ad98928d351f59fb7985eb63a5bff6d4en-US"},
+	ContentMjDividerPropertiesPageCSS: {path: "configuration/39082bfe3dc7cc3d28dfd4f7b247d806en-US", 
+		css: ["ContentMjDividerPropertiesPageCSS"]},
+	ContentMjGroupStructureItemViewModel: {path: "configuration/32d0640e995bb75879387200b8e68002en-US"},
+	ContentMjGroupViewModel: {path: "configuration/26746d593e546aeb7c4f073cdaf4aea8en-US"},
+	ContentMjHeroItemViewModel: {path: "configuration/b2c3a77e3d40cb9537ce5af4b03ef5f2en-US"},
+	ContentMjHeroPropertiesPage: {path: "configuration/7051e7284a938d47189baddd3f935c6den-US"},
+	ContentMjHeroPropertiesPageCSS: {path: "configuration/09cdf99c4f635b50f1cf539a1ff5a2f2en-US", 
+		css: ["ContentMjHeroPropertiesPageCSS"]},
+	ContentMjHeroViewModel: {path: "configuration/63b47308ac55393b33a2a89284548fb0en-US"},
+	ContentMjImageElementViewModel: {path: "configuration/bf82da7b209ef94f7527335a7f51e276en-US"},
+	ContentMjmlImagePropertiesPage: {path: "configuration/cd7c8450524f05ecd74e016c1f38a944en-US"},
+	ContentMjmlImagePropertiesPageCSS: {path: "configuration/e802680315dbb61c43549799713404feen-US", 
+		css: ["ContentMjmlImagePropertiesPageCSS"]},
+	ContentMjRawElementViewModel: {path: "configuration/9dbc2a9976cf3e5a66af9036bec47098en-US"},
+	ContentMjRawPropertiesPage: {path: "configuration/e4cfc96ee0a8a45831c23b355c8e3100en-US"},
+	ContentMjRawPropertiesPageCSS: {path: "configuration/d7880220d14b9ec31cb73c94f8d4b543en-US", 
+		css: ["ContentMjRawPropertiesPageCSS"]},
+	ContentMjTextElementViewModel: {path: "configuration/9dca0c5c56582e32d2a650291b0265d9en-US"},
+	ContentMjTextPropertiesPage: {path: "configuration/0baf463ef20aadbc70ef6ceabfe69bf8en-US"},
+	ContentNavbarElementViewModel: {path: "configuration/c6ac1ee13cbcc96e625a5e2ddde5099den-US"},
+	ContentNavbarLinkPropertiesPage: {path: "configuration/41d4485c645d0951f4abffbee97adbbben-US"},
+	ContentNavbarLinkPropertiesPageCSS: {path: "configuration/452ecb93850a16d62a39cbc989469cecen-US", 
+		css: ["ContentNavbarLinkPropertiesPageCSS"]},
+	ContentNavbarLinkViewModel: {path: "configuration/138a934426eb9eb32d7eaee3ea4bb87ben-US"},
+	ContentNavbarPropertiesPage: {path: "configuration/df28f6df935b3324ee5389b41e13ebcaen-US"},
+	ContentNavbarPropertiesPageCSS: {path: "configuration/ef989a75ae3a31204fe47f2b06206a21en-US", 
+		css: ["ContentNavbarPropertiesPageCSS"]},
+	ContentNavbarStructureItemViewModel: {path: "configuration/e08e58aef60e65a73817d9b918f58c93en-US"},
+	ContentPanelLoader: {path: "configuration/49120a313db5bd12427acf4685bb1baeen-US"},
+	ContentPanelModule: {path: "configuration/5c7f6dd765e7f16e3f996675a757251den-US"},
+	ContentPreviewBlock: {path: "configuration/48b44ab375bc68b3b1f6eec0b4159df5en-US", 
+		css: ["ContentPreviewBlock"]},
+	ContentPreviewSchema: {path: "configuration/e10c2cd3e22003b02bee6ee802c48241en-US"},
+	ContentSectionItemViewModel: {path: "configuration/74f8e3e33a02473bba319fe9cabd3652en-US"},
+	ContentSectionPropertiesPage: {path: "configuration/402ad13f90fdf1f1ced7223273971691en-US"},
+	ContentSectionStructureItemViewModel: {path: "configuration/d7964f607812364f31458443b8609ef1en-US"},
+	ContentSectionViewModel: {path: "configuration/8f120be647de9d8dd9a7676e8463dd0aen-US"},
+	ContentSecurityPolicy_ListPage: {path: "configuration/677502665f25fd2b254ebb027011354een-US"},
+	ContentSeparatorElementViewModel: {path: "configuration/1e96ed16b0985503b5cce55c22eb81dben-US"},
+	ContentSeparatorPropertiesPage: {path: "configuration/0e12831f9d702ee8e992a21642c2af8een-US"},
+	ContentSmartHtmlEditModule: {path: "configuration/e8d49d57cf11d957fdb51425b64fdfb6en-US"},
+	ContentSmartHtmlEditPage: {path: "configuration/5e128c5f2919e5a0806b86bcee0826d5en-US"},
+	ContentSmartHtmlEditPageCSS: {path: "configuration/0e95e7b937531af0e9baa173f54cbe92en-US", 
+		css: ["ContentSmartHtmlEditPageCSS"]},
+	ContentSmartHtmlElementViewModel: {path: "configuration/b80c151dc4575d264047740e041a2ef5en-US"},
+	ContentSmartHtmlMacroListItemViewModel: {path: "configuration/f6dd23bbe3d6dc5498fcf1d171a2a475en-US"},
+	ContentSmartHtmlPropertiesPage: {path: "configuration/c0bed12199620b01a8882e861cd9dc8den-US"},
+	ContentSmartHtmlPropertiesPageCSS: {path: "configuration/95df151b839dcb9dd9950483af60a4eden-US", 
+		css: ["ContentSmartHtmlPropertiesPageCSS"]},
+	ContentSpacerElementViewModel: {path: "configuration/672880707a8984096aa40ba6383ddfe2en-US"},
+	ContentSpacerPropertiesPage: {path: "configuration/ac01ffd56e547db829bb605025f7fcc5en-US"},
+	ContentSpacerPropertiesPageCSS: {path: "configuration/cc2cfd0206af16f16116401b1668c80een-US", 
+		css: ["ContentSpacerPropertiesPageCSS"]},
+	ContentStructureMixin: {path: "configuration/38c03f5e908e3288219b6a4e2fe86a6ben-US"},
+	ContentTextElementViewModel: {path: "configuration/64420b4ed38b6c4ce3e8c3874bacb4aben-US"},
+	ContentTextPropertiesPage: {path: "configuration/d9272974a25bcafdb1940ef05630c08ben-US"},
+	ContentUserBlockEditModule: {path: "configuration/5a4013fb830c40607d938bff227adb0aen-US"},
+	ContentUserBlockEditPage: {path: "configuration/4f190eb33d13182736f28d6f9f7f0d15en-US"},
+	ContentUserBlockEditPageCSS: {path: "configuration/9c2ed7d4a0a2b5b1026099006ed59d21en-US", 
+		css: ["ContentUserBlockEditPageCSS"]},
+	ContextCallUtilities: {path: "configuration/cedb4369af077f4d35e053d0692dac8den-US"},
+	ContextHelpMixin: {path: "configuration/b3a9a04b770686735f7f6c7c14ce4bf0en-US"},
+	ContextHelpModule: {path: "configuration/19bfdc10300de8104d9c75da3f898210en-US", 
 		css: ["ContextHelpModule"], 
 		messages: {
 			"GetContextHelpId": { "direction": "publish", "mode": "ptp" },
 			"ChangeContextHelpId": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	ContextHelpProfileSchemaCSS: {
-		css: ["ContextHelpProfileSchemaCSS"]
-	},
-	ContextTipManager: {
-		css: ["ContextTipManager"]
-	},
-	CopilotPanelStyles: {
-		css: ["CopilotPanelStyles"]
-	},
-	CredentialsSyncSettingsEdit: {
+		}},
+	ContextHelpPage: {path: "configuration/e0ffe9369b9acc474ccf7b58ac8c9e7cen-US"},
+	ContextHelpProfileSchema: {path: "configuration/994a1b30752c7a9b9cb16294e0f74254en-US"},
+	ContextHelpProfileSchemaCSS: {path: "configuration/aec8bba9950a70ff0e2c8392259b1ff7en-US", 
+		css: ["ContextHelpProfileSchemaCSS"]},
+	ContextHelpSchema: {path: "configuration/b79d5a32963784b78e235ef168a725aden-US"},
+	ContextHelpSection: {path: "configuration/f061c8142f2592542257f8c1cdddacc3en-US"},
+	ContextTip: {path: "configuration/d3a3f102c5a6eeb77596432b0f17ce1cen-US"},
+	ContextTipManager: {path: "configuration/b3efd3e04aee7e18ac44712e4825b7a0en-US", 
+		css: ["ContextTipManager"]},
+	ControlGridLayoutEditItemModel: {path: "configuration/3256f3256a072194e23b11c2d9f40978en-US"},
+	ControlGridModule: {path: "configuration/b5d1fa923c386d4d290bb4eee70c6f08en-US"},
+	ControlGroupPropertiesPageModule: {path: "configuration/6e863db1af4b77996608c757df412911en-US"},
+	ConvertToStaticFolderUtilities: {path: "configuration/99e9af82bceb8a43b682c6ab42aba4e2en-US"},
+	CopilotActions_FormPage: {path: "configuration/a12f15cac847f247e7fc689640e39d21en-US"},
+	CopilotAgentSchema: {path: "configuration/895e16b94328f1a2ea3d33767df4bea6en-US"},
+	CopilotAgentSchemaCreateRequest: {path: "configuration/e593dc5e186b9cc93fa8663c351ff8d2en-US"},
+	CopilotAgentSchemaRequest: {path: "configuration/18e66fc99060a2a089fbf9794cb0653den-US"},
+	CopilotAgentSchemaResponse: {path: "configuration/be4dc56a95ab740c149c05d0d8e42974en-US"},
+	CopilotAgentSchemaUpdateRequest: {path: "configuration/45126cbbb9690e2734aeae41278815d2en-US"},
+	CopilotConsoleChat: {path: "configuration/8c9b390480754be0d94109cffabfb91aen-US"},
+	CopilotIntents_Detail: {path: "configuration/a0f4fbc5bec17eb87d3ab6ed7df1f94aen-US"},
+	CopilotPanel: {path: "configuration/14b3d333add2448a009474199ae18faaen-US"},
+	CopilotPanelStyles: {path: "configuration/543f24ed7d6ea96e60a307efd88e2b60en-US", 
+		css: ["CopilotPanelStyles"]},
+	CopilotSelectExistingCapabilityForSkillPage: {path: "configuration/6583699a2b79e098c27b4782d0d226f4en-US"},
+	CopilotSelectExistingProcessForActionPage: {path: "configuration/ed8a71e09071a1b4466909f4f64ffe4aen-US"},
+	CopilotSelectExistingSkillForAgentPage: {path: "configuration/96f1ff9eed52dfdcca988f654e877adaen-US"},
+	CountryPageV2: {path: "configuration/23eea6419da8724f3237ee1d220be310en-US"},
+	CreatioAIModels_FormPage: {path: "configuration/8b8ba6f5262e02deb9391587bc8a5f6aen-US"},
+	CreatioAIModels_ListPage: {path: "configuration/cbef15f3288292428a32e86fec41bf07en-US"},
+	CreatioModel_FormPage: {path: "configuration/2e5df8323ec3d5751069da071f714707en-US"},
+	CredentialsSyncSettingsEdit: {path: "configuration/c4cec036b4ca7edab2a8b3115e3d2f90en-US", 
 		css: ["CredentialsSyncSettingsEdit"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	CrtAiTwinStyles: {
-		css: ["CrtAiTwinStyles"]
-	},
-	CtiPanelModule: {
-		css: ["CtiPanelModule"]
-	},
-	CurrencyCommonCSS: {
-		css: ["CurrencyCommonCSS"]
-	},
-	CustomerAccessLookupPageCSS: {
-		css: ["CustomerAccessLookupPageCSS"]
-	},
-	CustomFilterViewModelV2: {
+		}},
+	CredentialsSyncSettingsMixin: {path: "configuration/35a537c11be9a61699920c90d28c394fen-US"},
+	CronExpressionPageMixin: {path: "configuration/7feee0ecbebd5031f5e6250aee38dbe4en-US"},
+	CrtActivityMiniPage: {path: "configuration/6ce9a4acdc10abac44627d240bb03306en-US"},
+	CrtAiTwinStyles: {path: "configuration/cfb93bcd30f012ee93cad2a5948bf9eden-US", 
+		css: ["CrtAiTwinStyles"]},
+	CrtZoneModule: {path: "configuration/5042eee32d69287c0c52f1733ad54aa2en-US"},
+	CspDirective_FormPage: {path: "configuration/d6af77f7075ab55a2ff7ae2053a1f51fen-US"},
+	CspTrustedSource_FormPage: {path: "configuration/3a1d2cdcb75ddad4ba797c53c9d2a19cen-US"},
+	CtiAgentStateMixin: {path: "configuration/9f12bc72df21877b88ff693c76e6bc63en-US"},
+	CTIBaseCommunicationViewModel: {path: "configuration/6cd9a9c119d5d405aa5f30f577953351en-US"},
+	CtiBaseHelper: {path: "configuration/c5fa154e0ff4f5c2f647c8db0009fa57en-US"},
+	CtiConstants: {path: "configuration/ae578a8fad88a4055562f53ee49216d3en-US"},
+	CtiContainerList: {path: "configuration/e069e2932eb110acc8be1cbe3dc83b54en-US"},
+	CtiContainerListGenerator: {path: "configuration/31423fe55e9b3d3d391f435fbcf83c73en-US"},
+	CtiLinkColumnUtility: {path: "configuration/34bc86b6df27533ba4d5774fd7122e2fen-US"},
+	CtiNotificationUtilities: {path: "configuration/202d471db83c19229ef12b723cfa0cc4en-US"},
+	CtiPanel: {path: "configuration/fe0114881fb8eea206d71cfabfc45c18en-US"},
+	CtiPanelCommunicationHistoryUtilities: {path: "configuration/0f2c2cff0e7ee510fc06a5fdb29102a3en-US"},
+	CtiPanelIdentificationUtilities: {path: "configuration/921e919f284b08ce2cd3dd580e0dd841en-US"},
+	CtiPanelLazyLoaderModule: {path: "configuration/8671f02d74853c49f6ffce3eb470af67en-US"},
+	CtiPanelLazyStub: {path: "configuration/8dae1f80184971cca7c019ccb984fa7fen-US"},
+	CtiPanelModelUtilities: {path: "configuration/15baf6c3f8370bf1a91e85f074391746en-US"},
+	CtiPanelModule: {path: "configuration/c013b70fd59e8b20cd0ed6d6a22bd463en-US", 
+		css: ["CtiPanelModule"]},
+	CtiPanelUtils: {path: "configuration/88b7b88d085ee32d01388fb780c35839en-US"},
+	CtiProviderInitializer: {path: "configuration/17e83d4fbb9f2ebd546eef06c960519cen-US"},
+	CurlJsonConverter: {path: "configuration/22be64daac759c297733b43fc12cb08cen-US"},
+	CurlRequestBuilder: {path: "configuration/87da4401cacee929895a6cca8cdc47a0en-US"},
+	CurrencyCommonCSS: {path: "configuration/78f72e46e2fca719b4a684d34fcb6cb5en-US", 
+		css: ["CurrencyCommonCSS"]},
+	CurrencyEditUtilities: {path: "configuration/2c7393b3f63822b99c13f44b71f5648den-US"},
+	CurrencyPage: {path: "configuration/a79fb06a5860365347a1db90c940bea8en-US"},
+	CurrencyRateDetail: {path: "configuration/5735e1573889e2efdf6ffebac1b7f559en-US"},
+	CurrencyRatePage: {path: "configuration/fd81356f1ddae6a08d15d550ece8db75en-US"},
+	CurrencyRateServiceRequest: {path: "configuration/ccf2e305609dbc8a32e376a5fe2f9abben-US"},
+	CurrencySection: {path: "configuration/93219fb95ab487a3123a0c4cf4e05551en-US"},
+	CustomCronExpressionPage: {path: "configuration/2e4203e0ec9abe03984f62690733d741en-US"},
+	CustomerAccessListMixin: {path: "configuration/4f15f54f737f25a3d573d55311213171en-US"},
+	CustomerAccessLookupPage: {path: "configuration/6702128da39861bae761c1aeab1b2ed8en-US"},
+	CustomerAccessLookupPageCSS: {path: "configuration/43c0bd893ec26bc4ea828aefc57a877fen-US", 
+		css: ["CustomerAccessLookupPageCSS"]},
+	CustomerFontMixin: {path: "configuration/badb212f5852915700fcfb952ab1ba6fen-US"},
+	CustomerLanguagesLookupSection: {path: "configuration/9067f0f24b12c9b2929cdfec1599b421en-US"},
+	CustomFilterView: {path: "configuration/62c1b718be6f02b7e09040af1078bb3een-US"},
+	CustomFilterViewModel: {path: "configuration/fe1cb14e3880b675e4c4a2b4543a0dbaen-US"},
+	CustomFilterViewModelV2: {path: "configuration/3b4960abe87e2c1a1b5c747b78b39a3cen-US", 
 		messages: {
 			"UpdateFavoritesMenu": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	DashboardBuilder: {
-		css: ["DashboardBuilder"]
-	},
-	DashboardDesigner: {
+		}},
+	CustomFilterViewV2: {path: "configuration/b265fea122bfb991c4b0d85392369036en-US"},
+	CustomIdpSettingsForm: {path: "configuration/efd4ef0985c7f9f2e80cdd16bfaac4d5en-US"},
+	CustomModel_FormPage: {path: "configuration/051d2301814587abfdc2156476f565e5en-US"},
+	CustomProcessPageV2: {path: "configuration/b9bd3e6a3a2b42cadea043d85fe16527en-US"},
+	CustomProcessPageV2Utilities: {path: "configuration/f00a3b1cb27bb215a2ed0ef2420740bden-US"},
+	CustomViewGeneratorModuleV2: {path: "configuration/747f9fc9cf2285056fc2087a7afcb46een-US"},
+	CustomViewGeneratorUtilsV2: {path: "configuration/1654d3bbadd977587af93c06f48d0af4en-US"},
+	DailyCronExpressionPage: {path: "configuration/e964d557e9aaba5f1316685505e704f0en-US"},
+	DashboardBuilder: {path: "configuration/5ca1e24aa89dcc3700aecbc5c16e8ceeen-US", 
+		css: ["DashboardBuilder"]},
+	DashboardDesigner: {path: "configuration/709f1ac350edb4583f74050e4e1553fben-US", 
 		css: ["DashboardDesigner"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -794,15 +1336,17 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetDashboardInfo": { "direction": "publish", "mode": "ptp" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"SetDesignerResult": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	DashboardDesignerV2CSS: {
-		css: ["DashboardDesignerV2CSS"]
-	},
-	DashboardGridDesignerCSS: {
-		css: ["DashboardGridDesignerCSS"]
-	},
-	DashboardGridModule: {
+		}},
+	DashboardDesignerV2: {path: "configuration/b305abd513bc3f8fa0f3787d54ba64ffen-US"},
+	DashboardDesignerV2CSS: {path: "configuration/0a9182ce58bbbe9b9f6d70420fa24296en-US", 
+		css: ["DashboardDesignerV2CSS"]},
+	DashboardDesignerViewGenerator: {path: "configuration/af4d440fe72207a1519595b4a413f6baen-US"},
+	DashboardDesignViewGeneratorV2: {path: "configuration/8f2e7cba71b9563c636a6a691721061cen-US"},
+	DashboardEnums: {path: "configuration/417cd51c669b61a2e2c704529ca175deen-US"},
+	DashboardGridDesigner: {path: "configuration/8ecece86c8e822c0b0be61bf946c5cb0en-US"},
+	DashboardGridDesignerCSS: {path: "configuration/8f7d901f095233c6ba472dd387304d4cen-US", 
+		css: ["DashboardGridDesignerCSS"]},
+	DashboardGridModule: {path: "configuration/04f5c216adca89d3dded70fd5d4593f5en-US", 
 		css: ["DashboardGridModule"], 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -812,19 +1356,21 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetFiltersCollection": { "direction": "publish", "mode": "ptp" },
 			"GetSectionFilterModuleId": { "direction": "publish", "mode": "ptp" },
 			"ProcessExecDataChanged": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	DashboardManagerItem: {
-		css: ["DashboardManagerItem"]
-	},
-	DashboardModule: {
+		}},
+	DashboardGridViewConfig: {path: "configuration/5308df1a835ea596f28f182ff72f826fen-US"},
+	DashboardGridViewModel: {path: "configuration/9b813042c6a5dbd710791e23f94cc9a9en-US"},
+	DashboardListedGridViewConfig: {path: "configuration/f6b8f87995b2330b14bffc2ea8e63805en-US"},
+	DashboardListedGridViewModel: {path: "configuration/215fb60404a548b8e363af841d906c61en-US"},
+	DashboardManager: {path: "configuration/e88ed343af6793a96c63a814f6153c8ben-US"},
+	DashboardManagerItem: {path: "configuration/2115422a04a3e24f954e3d767455da55en-US", 
+		css: ["DashboardManagerItem"]},
+	DashboardModule: {path: "configuration/a77fe79a500209ba100fd95af2cabd5fen-US", 
 		css: ["DashboardModule"], 
 		messages: {
 			"GetDashboardInfo": { "direction": "publish", "mode": "ptp" },
 			"ReloadDashboard": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	DashboardSection: {
+		}},
+	DashboardSection: {path: "configuration/a151588935dcb1fd4b188cfc27a98d4den-US", 
 		css: ["DashboardSection"], 
 		messages: {
 			"ReplaceHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -834,9 +1380,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetChartFilter": { "direction": "subscribe", "mode": "ptp" },
 			"GetChartParameters": { "direction": "publish", "mode": "ptp" },
 			"GetContextHelpId": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	DashboardSectionV2: {
+		}},
+	DashboardSectionV2: {path: "configuration/3495e98ad8bbbd1702d68d46e9b2ca83en-US", 
 		css: ["DashboardSectionV2"], 
 		messages: {
 			"GenerateChart": { "direction": "publish", "mode": "ptp" },
@@ -845,9 +1390,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetChartParameters": { "direction": "publish", "mode": "ptp" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" },
 			"InitContextHelp": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	DashboardsModule: {
+		}},
+	DashboardsModule: {path: "configuration/7a3c62f598422c385318b19f5b3a4a07en-US", 
 		css: ["DashboardsModule"], 
 		messages: {
 			"GetDashboardInfo": { "direction": "subscribe", "mode": "ptp" },
@@ -859,9 +1403,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ReloadDashboard": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"SetDesignerResult": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	DashboardsSectionModule: {
+		}},
+	DashboardsSectionModule: {path: "configuration/47f7b1d72a3ca3c7114b04da24aaffcden-US", 
 		css: ["DashboardsSectionModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -873,21 +1416,33 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"SetDesignerResult": { "direction": "subscribe", "mode": "ptp" },
 			"ReloadDashboard": { "direction": "publish", "mode": "ptp" },
 			"GetRecordInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	DataSourcePropertiesPageCss: {
-		css: ["DataSourcePropertiesPageCss"]
-	},
-	DateTimeMappingModule: {
+		}},
+	DataGridFilterPage: {path: "configuration/0e7c493e4dba31f337f203eabe3fe7c4en-US"},
+	DataManager: {path: "configuration/4ca44389e7ebaf206ac4f302dc6061eaen-US"},
+	DataManagerGridUtilities: {path: "configuration/7c25212e3fb91869f4e882ad8853435cen-US"},
+	DataSourcePropertiesPage: {path: "configuration/c2c6f1486f7dab039d02dd59ac8ed752en-US"},
+	DataSourcePropertiesPageCss: {path: "configuration/7e98833e49a2d8d00ce6367f189f9c82en-US", 
+		css: ["DataSourcePropertiesPageCss"]},
+	DataSourceViewModel: {path: "configuration/68d7af93cd43c29d72e0b2368dd80390en-US"},
+	DataUtilities: {path: "configuration/7256e472e1de4b579b17f4ed57f726cben-US"},
+	DateTimeMappingModule: {path: "configuration/358ef8c756f80ac3664c7dee9cf378aden-US", 
 		css: ["DateTimeMappingModule"], 
 		messages: {
 			"GetParametersInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	DayInCalendarMiniPageCSS: {
-		css: ["DayInCalendarMiniPageCSS"]
-	},
-	DcmDesigner: {
+		}},
+	DateTimeMappingPage: {path: "configuration/7ee768afad5fca653076972097b63dc4en-US"},
+	DayInCalendarMiniPage: {path: "configuration/9681dd33de48ba3a80f2df1263e619bben-US"},
+	DayInCalendarMiniPageCSS: {path: "configuration/3d122ef60d46fe276cf1d399a8bf338fen-US", 
+		css: ["DayInCalendarMiniPageCSS"]},
+	DayOffMiniPage: {path: "configuration/618884a1169a9c8ee0810511345976d8en-US"},
+	DayOffsDetail: {path: "configuration/bcfe37da4a6599a12a1757eddae21710en-US"},
+	DayOffsDetailEditPage: {path: "configuration/d70d56dc25acc308808ee9c3474c133den-US"},
+	DcmActivityUserTaskPropertiesPage: {path: "configuration/04aee2275d0b07b8f7418953e68881b5en-US"},
+	DcmApprovalUserTaskPropertiesPage: {path: "configuration/a742dfe95c21362f4e44952c189d0945en-US"},
+	DcmChangeAdminRightsUserTaskPropertiesPage: {path: "configuration/bc1861f0fc1db37c64920ea4ec3ad4b5en-US"},
+	DcmConditionItemViewModel: {path: "configuration/f0d205956b10f516a8b4471e8b909c2aen-US"},
+	DcmConstants: {path: "configuration/dd838a7c174eeb89b5c91d36f6c33692en-US"},
+	DcmDesigner: {path: "configuration/ab14280b9fd248e0735381bdbb20daf7en-US", 
 		css: ["DcmDesigner"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -895,37 +1450,82 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"HistoryStateChanged": { "direction": "subscribe", "mode": "broadcast" },
 			"RefreshCacheHash": { "direction": "subscribe", "mode": "ptp" },
 			"NavigationModuleLoaded": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	DcmElementParametersMappingModule: {
+		}},
+	DcmDesignerFilterEditFilter: {path: "configuration/31e6edbd23d3a5537ba39625cd9e73c1en-US"},
+	DcmElementParametersMappingModule: {path: "configuration/f94bfd173ce91a818740a03ee0c1a2b7en-US", 
 		messages: {
 			"GetProcessSchema": { "direction": "publish", "mode": "ptp" },
 			"GetSelectedData": { "direction": "subscribe", "mode": "ptp" },
 			"ResultSelectedRows": { "direction": "publish", "mode": "ptp" },
 			"GetSelectedProcessParameter": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	DcmMappingModule: {
+		}},
+	DcmElementParametersMappingPage: {path: "configuration/65de431e28ee524b50e6e3ae6c64b306en-US"},
+	DcmElementSchemaManager: {path: "configuration/b418619adbc864be34b79d80c8321bdben-US"},
+	DcmEmailTemplateUserTaskPropertiesPage: {path: "configuration/82decdaa12c7cb2aa8d13560b9db242ben-US"},
+	DcmExecutionDataRequest: {path: "configuration/1fd6df4df5b4c8dce3e7276a256b61acen-US"},
+	DcmMappingModule: {path: "configuration/e3051e6e5c9634ac518158f49b4ce649en-US", 
 		messages: {
 			"GetParametersInfo": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	DcmSchemaDesigner: {
-		css: ["DcmSchemaDesigner"]
-	},
-	DcmSchemaStagePropertiesPageCSS: {
-		css: ["DcmSchemaStagePropertiesPageCSS"]
-	},
-	DcmStage: {
-		css: ["DcmStage"]
-	},
-	DcmStageElement: {
-		css: ["DcmStageElement"]
-	},
-	DeduplicationModuleCSS: {
-		css: ["DeduplicationModuleCSS"]
-	},
-	DelayExecutionModule: {
+		}},
+	DcmMappingPage: {path: "configuration/55bf8ca9d94210b814fb4a883fba692fen-US"},
+	DcmMixin: {path: "configuration/15a8bbfe31e7d7c76a9a478f55dc7278en-US"},
+	DcmOpenEditPageUserTaskPropertiesPage: {path: "configuration/b5f7de98a28c2fbd1a8a4986a82233c3en-US"},
+	DcmPageMixin: {path: "configuration/afcce866d0e3f03ec2100c332c8505caen-US"},
+	DcmParameterSelectionPage: {path: "configuration/9ce5a06cd8dfae2e94b5e4cbc0eb3e84en-US"},
+	DcmProcessSubprocessSchema: {path: "configuration/3f5885df6e344494d7d5d487c95c6f40en-US"},
+	DcmProcessUserTaskSchema: {path: "configuration/6a14e80549197c19434dad4e348e964cen-US"},
+	DcmReorderableContainer: {path: "configuration/24a20494eed15d60697ebfe7e6c4004fen-US"},
+	DcmSchema: {path: "configuration/87d849c6f10db7f0ce655b881d0b2296en-US"},
+	DcmSchemaDesigner: {path: "configuration/bb4ab8268a8eecfdbef106aa80979515en-US", 
+		css: ["DcmSchemaDesigner"]},
+	DcmSchemaDesignerViewModel: {path: "configuration/aef206ce5ddbe61471a5604f1aace2e2en-US"},
+	DcmSchemaElement: {path: "configuration/475ba5db01705ceadd42682344327ec8en-US"},
+	DcmSchemaElementPropertiesEdit: {path: "configuration/802a7393e931ecc275b6c85f79badc10en-US"},
+	DcmSchemaElementPropertiesPageBuilder: {path: "configuration/c14203bed2ba84327a8c57027ebcc858en-US"},
+	DcmSchemaElementTransitionFactory: {path: "configuration/509e473b97e8f6f5d755fb6518bcb1d8en-US"},
+	DcmSchemaFilterProviderModule: {path: "configuration/1972ff028e14caf57648cb3ca899c458en-US"},
+	DcmSchemaInfo: {path: "configuration/a3b81a7ceadfe76ec1b71887f1238016en-US"},
+	DcmSchemaInfoRequest: {path: "configuration/1d240ddf2974c3774aec811a37885564en-US"},
+	DcmSchemaManager: {path: "configuration/a23ef20687ac48d9896b03805172c543en-US"},
+	DcmSchemaManagerItem: {path: "configuration/1cd95fea952208e5ee03477a40fea004en-US"},
+	DcmSchemaPropertiesPage: {path: "configuration/79cf246430f7f6d0edffe6b4651f3cfben-US"},
+	DcmSchemaRemoveRequest: {path: "configuration/85c1185cf70b580a7b5f236772fd6f03en-US"},
+	DcmSchemaRequest: {path: "configuration/c687e7cc2557c9c48ae3f3c9a0e21b56en-US"},
+	DcmSchemaResponse: {path: "configuration/2522d069e41c543cb21251318322f860en-US"},
+	DcmSchemaStage: {path: "configuration/d3a1c39afa933ef0cf7302a37164f262en-US"},
+	DcmSchemaStageConnection: {path: "configuration/48cdd9f3890aa9e53b4001d70931459fen-US"},
+	DcmSchemaStageConnections: {path: "configuration/0772eeb5bd622c5ca6518f2e09f4ab53en-US"},
+	DcmSchemaStagePermission: {path: "configuration/0560836d26ca2b048b7a364a257add5ben-US"},
+	DcmSchemaStagePropertiesPage: {path: "configuration/572f1009583ac7da8b562fa582dc0985en-US"},
+	DcmSchemaStagePropertiesPageCSS: {path: "configuration/a608ec2a10dc6c9cc2bec07e206b65b9en-US", 
+		css: ["DcmSchemaStagePropertiesPageCSS"]},
+	DcmSchemaStageTarget: {path: "configuration/2d4a8cebad450636956a64770d4dac1een-US"},
+	DcmSchemaUpdateRequest: {path: "configuration/a2eef4202acb0d48d7f6fe8d7f4fd984en-US"},
+	DcmSectionActionsDashboardMixin: {path: "configuration/e2ca2008de63b240b5ff3683d10dcb21en-US"},
+	DcmStage: {path: "configuration/02e0465c3ab8ee7ca1ce1d5e86dc2979en-US", 
+		css: ["DcmStage"]},
+	DcmStageContainer: {path: "configuration/c0b717f9dc56f4c969862a775db610bden-US"},
+	DcmStageElement: {path: "configuration/3d2d907b126c9423dad5f86974b9de49en-US", 
+		css: ["DcmStageElement"]},
+	DcmStageElementViewModel: {path: "configuration/ffd04195a6ea6bdc4e0db45dcfec4478en-US"},
+	DcmStageViewConfigBuilder: {path: "configuration/1f6fa97191430e5f8ce24e425020179cen-US"},
+	DcmStageViewModel: {path: "configuration/4ff3d27133ba9a287767e9fbbd97fdbfen-US"},
+	DcmSubProcessPropertiesPage: {path: "configuration/8bdad19b34678ce10f1703724f13eed4en-US"},
+	DcmUserTaskSchema: {path: "configuration/2b435a3023bf5b400e6657588976640den-US"},
+	DcmUserTaskSchemaManager: {path: "configuration/5a6aec9284b64f8d5d57cc8c07709e0cen-US"},
+	DcmUserTaskSchemaManagerItem: {path: "configuration/11f63c6cc0cfe2a5f4456dd5842d7319en-US"},
+	DcmUtilities: {path: "configuration/c1a12c1248fce33a8cb0e30fd1655bc6en-US"},
+	DcmVersionsDetail: {path: "configuration/f45ee6d3bce82278f5ccf9e8c564b40een-US"},
+	DcmWizardStep: {path: "configuration/fa8403b6c28cdce68a318a5ccec08b8een-US"},
+	DecimalUtils: {path: "configuration/c0054056ee83b911be49bb454a233013en-US"},
+	DeduplicationConstants: {path: "configuration/db5e39db4eb514cde551330303b22c0aen-US"},
+	DeduplicationModuleCSS: {path: "configuration/979d6a736043cdcbccb99902c1027de8en-US", 
+		css: ["DeduplicationModuleCSS"]},
+	DeduplicationStorage: {path: "configuration/681879648ff592d6f1a7acea9cf1d1c5en-US"},
+	DefaultChartConfig: {path: "configuration/929f68eefd38c38e3e64ac7de56b836een-US"},
+	DefaultDcmSchemaElementTransition: {path: "configuration/61dc11ac3eeabb8477071cc0da79d5e4en-US"},
+	DefaultProfileHelper: {path: "configuration/8adfad71b9ced6dd34ffc1c68517cfbcen-US"},
+	DelayExecutionModule: {path: "configuration/e1adf19fadcac6e6a57e7740bc28ac9ben-US", 
 		css: ["DelayExecutionModule"], 
 		messages: {
 			"OpenDelayExecutionModule": { "direction": "subscribe", "mode": "broadcast" },
@@ -937,9 +1537,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ResultSelectedRows": { "direction": "subscribe", "mode": "ptp" },
 			"ShowLookupPage": { "direction": "publish", "mode": "ptp" },
 			"LookupResultSelected": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	DelayExecutionModuleV2: {
+		}},
+	DelayExecutionModuleV2: {path: "configuration/39d21f9fc9a5ce3754926a0ce4b639fcen-US", 
 		css: ["DelayExecutionModuleV2"], 
 		messages: {
 			"OpenDelayExecutionModuleV2": { "direction": "subscribe", "mode": "broadcast" },
@@ -956,18 +1555,30 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ChangeNextProcExecDataHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	DesignerGridLayoutItem: {
-		css: ["DesignerGridLayoutItem"]
-	},
-	DesignerToolsCSS: {
-		css: ["DesignerToolsCSS"]
-	},
-	DesignTimeTabPanel: {
-		css: ["DesignTimeTabPanel"]
-	},
-	DetailModule: {
+		}},
+	DelayExecutionUtilities: {path: "configuration/5f89ba6e1577589de851ad4371d95aa6en-US"},
+	DeleteDataUserTaskItemInitializer: {path: "configuration/ce6267524530c75ec45e43be77695004en-US"},
+	DeleteDataUserTaskPropertiesPage: {path: "configuration/213e81b6d5dbb1f14b0dc594014f9f86en-US"},
+	DesignerGridLayoutItem: {path: "configuration/c22a12d8c68a0d36f06ebd58bcd6f4fcen-US", 
+		css: ["DesignerGridLayoutItem"]},
+	DesignerToolsCSS: {path: "configuration/0ec2022cb4747f6be036dc8d0923e754en-US", 
+		css: ["DesignerToolsCSS"]},
+	DesignSchemaBuilder: {path: "configuration/bfbce6fd2a502590a3d48dd5f68e1150en-US"},
+	DesignTimeEnums: {path: "configuration/e5f1206d3c0642d3099f55e016ab28d0en-US"},
+	DesignTimeItemModel: {path: "configuration/d56da21e01fadf115600809981586ae9en-US"},
+	DesignTimeReorderableContainer: {path: "configuration/8322b5e0dd3a0b807ac1ccff9e0db1afen-US"},
+	DesignTimeReorderableItem: {path: "configuration/7d47f29786e45e5786f457a547027360en-US"},
+	DesignTimeReorderableItemModel: {path: "configuration/e4bcfc88e2639ad2f7597b707a3d980ben-US"},
+	DesignTimeTabPanel: {path: "configuration/9d0dbf3700691091587c42ae631d2491en-US", 
+		css: ["DesignTimeTabPanel"]},
+	DesignViewGeneratorV2: {path: "configuration/d887dbc4bf60255888894340da0a74e1en-US"},
+	DesignViewModelV2: {path: "configuration/e4e469c28845b7ffbe360358d8fe3c62en-US"},
+	DesktopPopupNotification: {path: "configuration/bb147c9d7b23cee3797b83be824e31c9en-US"},
+	DetailDesignerUtils: {path: "configuration/04bf77ec81e0f336b81280b66c5959aeen-US"},
+	DetailMainSettings: {path: "configuration/ef6e11f5bda05b4d39e285f6a820a860en-US"},
+	DetailManager: {path: "configuration/f1bad5557847906c2a21481e9638271aen-US"},
+	DetailManagerItem: {path: "configuration/966e25869b7c802a622b1662554a59d7en-US"},
+	DetailModule: {path: "configuration/077d776a5b1262cca865dd921b4de9eeen-US", 
 		css: ["DetailModule"], 
 		messages: {
 			"DetailInfo": { "direction": "publish", "mode": "broadcast" },
@@ -1000,9 +1611,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"SetDetailReadOnly": { "direction": "subscribe", "mode": "ptp" },
 			"GetIsDetailReadonly": { "direction": "publish", "mode": "ptp" },
 			"DetailSaved": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	DetailModuleV2: {
+		}},
+	DetailModuleV2: {path: "configuration/37ace6d7fc65a4cc98635042228bc8d7en-US", 
 		css: ["DetailModuleV2"], 
 		messages: {
 			"GetDetailInfo": { "direction": "publish", "mode": "ptp" },
@@ -1012,17 +1622,22 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GridSettingsChanged": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	DetailViewModelGenerator: {
+		}},
+	DetailProcessExecutingDetail: {path: "configuration/f5d30732f14909b29fc335da600695f3en-US"},
+	DetailProcessSettings: {path: "configuration/cc3cd737b416fa36dd6c658387e6d28cen-US"},
+	DetailProcessSettingsManager: {path: "configuration/69460454cf5cbf78d0f9ef68b3cee061en-US"},
+	DetailProcessSettingsManagerItem: {path: "configuration/8459bfa5a9474420d5e9a32c7615cd05en-US"},
+	DetailPropertiesPageModule: {path: "configuration/595983eb935ef64f4dbc5e772babc803en-US"},
+	DetailRuleColumnsMixin: {path: "configuration/32a763754cec124b6cfa72e149565c8ben-US"},
+	DetailViewGenerator: {path: "configuration/7660a8bccf89490b858398dc8108ba98en-US"},
+	DetailViewModelGenerator: {path: "configuration/1a37e562e2c38544112c411fc7577a4een-US", 
 		messages: {
 			"SaveRecord": { "direction": "publish", "mode": "broadcast" },
 			"CardModuleEntityInfo": { "direction": "subscribe", "mode": "ptp" },
 			"OpenCardModule": { "direction": "publish", "mode": "ptp" },
 			"UpdateDetail": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	DetailWizard: {
+		}},
+	DetailWizard: {path: "configuration/f0c786042745ee96798bcef4c5a01bfben-US", 
 		css: ["DetailWizard"], 
 		messages: {
 			"LoadModule": { "direction": "subscribe", "mode": "ptp" },
@@ -1035,32 +1650,36 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetPageDesignerConfig": { "direction": "subscribe", "mode": "ptp" },
 			"PostPageDesignerConfig": { "direction": "publish", "mode": "broadcast" },
 			"UpdateStepsConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	DuplicateRulesSettingsCSS: {
-		css: ["DuplicateRulesSettingsCSS"]
-	},
-	DuplicatesDetailModuleV2: {
+		}},
+	DisableControlsGenerator: {path: "configuration/337ae0ec92628adb2b28451eb9927ef7en-US"},
+	DiscountUtils: {path: "configuration/9d41d06c0b96def830ce4f0bc07a30b0en-US"},
+	DuplicateNotificationPage: {path: "configuration/798d2cd6f4bcdbeb2f85a5d2ff781495en-US"},
+	DuplicateRulesSettings: {path: "configuration/52bbfe5a3f3b057deb13d7ea891b9daben-US"},
+	DuplicateRulesSettingsCSS: {path: "configuration/79cd8d7ce4231222d33fd6f9e4382c86en-US", 
+		css: ["DuplicateRulesSettingsCSS"]},
+	DuplicatesDetailModuleV2: {path: "configuration/f2457863b96bac7831d9f0c5d1f625b7en-US", 
 		messages: {
 			"GetGridData": { "direction": "publish", "mode": "ptp" },
 			"GetConfig": { "direction": "publish", "mode": "ptp" },
 			"CallCustomer": { "direction": "publish", "mode": "ptp" },
 			"Merge": { "direction": "subscribe", "mode": "ptp" },
 			"HideDetail": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	DuplicatesMergeModuleV2: {
+		}},
+	DuplicatesDetailViewConfigV2: {path: "configuration/85fbb69f7c7f4963ff72446ed61e2bd2en-US"},
+	DuplicatesDetailViewModelV2: {path: "configuration/51ad78aa062ade4118958e9d14784a19en-US"},
+	DuplicatesMergeFreedomUIModule: {path: "configuration/a66c95c37750cea57addfe1bfb307a2aen-US"},
+	DuplicatesMergeHelper: {path: "configuration/665a2c45d9d608fc5e7b640de26bf164en-US"},
+	DuplicatesMergeModuleV2: {path: "configuration/60bec750f2b4e186fe952b005bd2c0f2en-US", 
 		messages: {
 			"Merge": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	DuplicatesMergeViewConfigFreedomUI: {
-		css: ["DuplicatesMergeViewConfigFreedomUI"]
-	},
-	DuplicatesMergeViewConfigV2: {
-		css: ["DuplicatesMergeViewConfigV2"]
-	},
-	DuplicatesModule: {
+		}},
+	DuplicatesMergeViewConfigFreedomUI: {path: "configuration/8d30f902f66dafaf4f6dab0dfb9cea4aen-US", 
+		css: ["DuplicatesMergeViewConfigFreedomUI"]},
+	DuplicatesMergeViewConfigV2: {path: "configuration/7bf4e6e95b24831de939b89b05375bc6en-US", 
+		css: ["DuplicatesMergeViewConfigV2"]},
+	DuplicatesMergeViewModelFreedomUI: {path: "configuration/c2950a0ada50e07ce6efd9f4977b2f67en-US"},
+	DuplicatesMergeViewModelV2: {path: "configuration/75cfaf788d1b3b39d30536b21957f57aen-US"},
+	DuplicatesModule: {path: "configuration/0f5e2a07158267468f8933e3f5afbfceen-US", 
 		css: ["DuplicatesModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -1069,9 +1688,13 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetContextHelpId": { "direction": "subscribe", "mode": "ptp" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	DuplicatesSearchNotificationTargetLoader: {
+		}},
+	DuplicatesModuleView: {path: "configuration/0ae05bbda806d8c0679091d38dd6e3bcen-US"},
+	DuplicatesModuleViewModel: {path: "configuration/13b857a6764ceff5d49b0c812ac99c9fen-US"},
+	DuplicatesPageV2: {path: "configuration/7bbd17ce04d526c95cbb510bf512702cen-US"},
+	DuplicatesRulePageV2: {path: "configuration/0788f85fa43aaa9c6cab338f59ad04b2en-US"},
+	DuplicatesRuleSectionV2: {path: "configuration/7e7b34a690222098fe1762a93a332006en-US"},
+	DuplicatesSearchNotificationTargetLoader: {path: "configuration/a6a4dc055852764e9879c568773c864fen-US", 
 		messages: {
 			"GetNotificationInfo": { "direction": "publish", "mode": "ptp" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -1079,12 +1702,19 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ReloadCard": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	DuplicatesWidgetModule: {
-		css: ["DuplicatesWidgetModule"]
-	},
-	EditPageDesigner: {
+		}},
+	DuplicatesSearchUtilitiesV2: {path: "configuration/6ed7242d4c31dd969b3780d91589d94fen-US"},
+	DuplicatesWidget: {path: "configuration/ad62d3a8d158fd160fc875edbdf9f15een-US"},
+	DuplicatesWidgetModule: {path: "configuration/954f6de0da2eda885d5ab5ecd78080bfen-US", 
+		css: ["DuplicatesWidgetModule"]},
+	DuplicatesWidgetViewModel: {path: "configuration/c8ab3a25904c83cf4a1a43aa4ceb7393en-US"},
+	DynamicViewContainer: {path: "configuration/cbdaf7acf242135895c3bfd791f76791en-US"},
+	EditableContainerList: {path: "configuration/e41d8fc8891d37382d9a13fdc8956a43en-US"},
+	EditableContainerListItemViewModel: {path: "configuration/e0624dc90434187ffe1d32f781264676en-US"},
+	EditableContainerListMixin: {path: "configuration/42bc5751cf81ae75bab023c324b7c384en-US"},
+	EditDetailViewGenerator: {path: "configuration/0e35ae1e68ca6531e16125ce02b69f14en-US"},
+	EditEntitySchemaPagesModule: {path: "configuration/dd0ac1e40dcdc4f2a0b82544623539f0en-US"},
+	EditPageDesigner: {path: "configuration/e4c79a1544feee01aaf63a51056a5af5en-US", 
 		css: ["EditPageDesigner"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -1099,9 +1729,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetColumnInfo": { "direction": "subscribe", "mode": "ptp" },
 			"PushColumnInfo": { "direction": "subscribe", "mode": "ptp" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	EditPageDesignerGroupEdit: {
+		}},
+	EditPageDesignerGroupEdit: {path: "configuration/c69891a471cf0076a696956f1af6a3a4en-US", 
 		css: ["EditPageDesignerGroupEdit"], 
 		messages: {
 			"GetGroupConfig": { "direction": "publish", "mode": "ptp" },
@@ -1109,69 +1738,129 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ElementPropertiesModule: {
-		css: ["ElementPropertiesModule"]
-	},
-	EmailItemSchemaCSS: {
-		css: ["EmailItemSchemaCSS"]
-	},
-	EmailMessagePublisherModule: {
+		}},
+	EditPageDesignerHelper: {path: "configuration/2861891e756b5bdb1815607ce05f12bfen-US"},
+	EditPageDesignerViewGenerator: {path: "configuration/a3f6a1b5d364081d29a5278b877101d6en-US"},
+	EditPageDesignerViewModelGenerator: {path: "configuration/de22327a7131c1f23c17677bf0548035en-US"},
+	ElementDataSourceViewModel: {path: "configuration/de140c184c3bf4418a07fe9459ebf5d9en-US"},
+	ElementPropertiesModule: {path: "configuration/8fb9ab5f2bce1c5f2f5d08179afc9356en-US", 
+		css: ["ElementPropertiesModule"]},
+	EmailActionsMixin: {path: "configuration/7d75192f8b3e8353741fe1a01b674db9en-US"},
+	EmailConstants: {path: "configuration/a5785c3835329ca913b57fdacc7966daen-US"},
+	EmailContentBuilder: {path: "configuration/b89bba0ab7c0fa36bacca816a78c437ben-US"},
+	EmailDetailV2: {path: "configuration/2754931307e1f6f4f89878ef88a47c19en-US"},
+	EmailEnrichmentMixin: {path: "configuration/872a93077dd9fccbfb1e8d59f05c54been-US"},
+	EmailEntityConnectionsDetailV2: {path: "configuration/dad270243a4e42659c4b86b982444420en-US"},
+	EmailExtendedMenu: {path: "configuration/202f95754e084f120369b647e4576b1cen-US"},
+	EmailFileDetailV2: {path: "configuration/eb88b2e9579ff68f413b56d0aeed397ben-US"},
+	EmailFormPage: {path: "configuration/0962ef005cd9c309e80a8a1acdd389e6en-US"},
+	EmailHelper: {path: "configuration/764f751dfbc690593e44154b42212f25en-US"},
+	EmailHelperModule: {path: "configuration/c0dfa4f1c9d7bc110dddc39b62eb0170en-US"},
+	EmailImageMixin: {path: "configuration/077bf7b60791147987b0a9559a007112en-US"},
+	EmailItemSchema: {path: "configuration/0ca6021e253f1c55537f5b8c5b0da6a3en-US"},
+	EmailItemSchemaCSS: {path: "configuration/9561ee64118e37db7b4b59e6f8c83335en-US", 
+		css: ["EmailItemSchemaCSS"]},
+	EmailLinksMixin: {path: "configuration/4d59f62004047a59fb45185783ec289aen-US"},
+	EmailMessagePublisherModule: {path: "configuration/43ea2880086c62db5106f612ea5f058cen-US", 
 		css: ["EmailMessagePublisherModule"], 
 		messages: {
 			"RerenderPublisherModule": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	EmailMLangContentEditSchemaStyles: {
-		css: ["EmailMLangContentEditSchemaStyles"]
-	},
-	EmailModule: {
-		css: ["EmailModule"]
-	},
-	EmailTemplatePageV2V2Styles: {
-		css: ["EmailTemplatePageV2V2Styles"]
-	},
-	EmailUtilities: {
+		}},
+	EmailMessagePublisherPage: {path: "configuration/f7396e79712849e2f06f3794a1fbcf26en-US"},
+	EmailMiningEnums: {path: "configuration/ae764307e50fda7fd04dd93c926d3a52en-US"},
+	EmailMiniPage: {path: "configuration/a7e9b34b79c280ed00da55e3b1074d40en-US"},
+	EmailMLangContentBuilder: {path: "configuration/d46114bfcb01428d1d10091622f473e0en-US"},
+	EmailMLangContentEditSchema: {path: "configuration/9bda1bbcd01230532c6a8074c7f9e3b2en-US"},
+	EmailMLangContentEditSchemaStyles: {path: "configuration/dfa533e0f141841f0529ccb9a7677545en-US", 
+		css: ["EmailMLangContentEditSchemaStyles"]},
+	EmailModule: {path: "configuration/4555fde65a07839e49100c6b20c2954aen-US", 
+		css: ["EmailModule"]},
+	EmailPageV2: {path: "configuration/f3ad45c99e9b01ea6e49db8f941bd9d7en-US"},
+	EmailPropertiesPageMixin: {path: "configuration/eee8bba4ad07371304cd01450061abffen-US"},
+	EmailPublisherAttachmentPage: {path: "configuration/839cfe7c7d1c5d770b77866be7457652en-US"},
+	EmailRelationsMixin: {path: "configuration/d1eded29360161bcc23ce8171ef9b324en-US"},
+	EmailsSearchMixin: {path: "configuration/4661d1d25d58d3e11f784b61a658546een-US"},
+	EmailSyncSettings: {path: "configuration/4446cc379b58525410e455d22e3460a2en-US"},
+	EmailSyncSettingsEdit: {path: "configuration/9b1a54e1e9f2b4af69440615f520eaecen-US"},
+	EmailTemplateContentBuilder: {path: "configuration/dabbe5a621d632a17ce5fb364eb1f177en-US"},
+	EmailTemplateMLangContentBuilderEnumsModule: {path: "configuration/76cc6cd90aa7cf543685dfdd8873e23een-US"},
+	EmailTemplatePageMultilingual: {path: "configuration/a476e1b4ddbf3f81ddbb2b2eb5a8d834en-US"},
+	EmailTemplatePageV2: {path: "configuration/cf52dc208cc0f647c99ac88ba865fdf2en-US"},
+	EmailTemplatePageV2V2Styles: {path: "configuration/899f8bcf28e8b858c359034124de209een-US", 
+		css: ["EmailTemplatePageV2V2Styles"]},
+	EmailTemplateSectionV2: {path: "configuration/68f47cb3b25f26fb3dc76c5085785e1den-US"},
+	EmailTemplatesLookupPage: {path: "configuration/b29293baf0fc3b5ffa1c9aec5cfda0d7en-US"},
+	EmailTemplateUserTaskPropertiesPage: {path: "configuration/0445ba09f4e7349c65f29d82a52676c3en-US"},
+	EmailTimelineItemView: {path: "configuration/b8006b617b0dbc1d0fa91e18ec4563a8en-US"},
+	EmailTimelineItemViewModel: {path: "configuration/fdc99a93e9ffcbcabf60621811948cacen-US"},
+	EmailUserTaskPropertiesPage: {path: "configuration/3c59f5ec2c273988602af23f0c3dbc4cen-US"},
+	EmailUtilities: {path: "configuration/c52bfe67d30eb2f19b7092f66e315af1en-US", 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	EmailUtilitiesV2: {
-		css: ["EmailUtilitiesV2"]
-	},
-	EmailWithSubjectContentBuilderCSS: {
-		css: ["EmailWithSubjectContentBuilderCSS"]
-	},
-	EmployeeMiniPageCSS: {
-		css: ["EmployeeMiniPageCSS"]
-	},
-	EmployeeSectionCSS: {
-		css: ["EmployeeSectionCSS"]
-	},
-	EmptyGridMessageConfigBuilder: {
-		css: ["EmptyGridMessageConfigBuilder"]
-	},
-	EntityColumnLookupPageCSS: {
-		css: ["EntityColumnLookupPageCSS"]
-	},
-	EntityColumnsModule: {
+		}},
+	EmailUtilitiesV2: {path: "configuration/0cafffc2b4ebb5a2a60e4adcced895c1en-US", 
+		css: ["EmailUtilitiesV2"]},
+	EmailWithSubjectContentBuilder: {path: "configuration/54b06211437f8ce0a5154c7d29c37cc2en-US"},
+	EmailWithSubjectContentBuilderCSS: {path: "configuration/16011f04898c20cfd99fb3849c905569en-US", 
+		css: ["EmailWithSubjectContentBuilderCSS"]},
+	EmailWithSubjectMLangContentBuilderEnumsModule: {path: "configuration/e3bca6ff7e47844716a827865d5b134aen-US"},
+	EmbeddedProcessSchemaPropertiesPage: {path: "configuration/80a09b4dd21db24ed99a942eeb14d046en-US"},
+	EmployeeCareerDetail: {path: "configuration/5175d9f1e357e7227c50334643c0abd1en-US"},
+	EmployeeCareerPage: {path: "configuration/99f2557f499118f4eaf46bf6b9c9036aen-US"},
+	EmployeeMiniPage: {path: "configuration/a24238bd36327e126f5994171c37931een-US"},
+	EmployeeMiniPageCSS: {path: "configuration/5cd5b601a076bfd7d214e4b024f2fb02en-US", 
+		css: ["EmployeeMiniPageCSS"]},
+	EmployeePage: {path: "configuration/4d64c589d4ef6a4dabb6b6fe44bc97ffen-US"},
+	EmployeePageMixin: {path: "configuration/a4ed91e2abfe288dd2a0b92c5dbd1bcben-US"},
+	EmployeeProfileSchema: {path: "configuration/dbaa71c26a007c92562fe61034cd3fdfen-US"},
+	EmployeeSection: {path: "configuration/748e39959348e2783caa6331161edc5een-US"},
+	EmployeeSectionCSS: {path: "configuration/5b9ee76d7dbba196e0ef971117c05316en-US", 
+		css: ["EmployeeSectionCSS"]},
+	EmptyEmailPanelSchema: {path: "configuration/3a0ddef76dad94b736a0f7486cf24ab9en-US"},
+	EmptyGridMessageConfigBuilder: {path: "configuration/b09d3dc0795413c3c6fb6ab174787ecben-US", 
+		css: ["EmptyGridMessageConfigBuilder"]},
+	EmptyPropertiesPage: {path: "configuration/b2bdd8a0687fd3822b4ab38214fed5e9en-US"},
+	EnrichmentConsts: {path: "configuration/f6d1fecb9187313cb32f9efff1721998en-US"},
+	EnrichmentDataModuleMixin: {path: "configuration/c41069f08bf26d14a483b86a3fc29561en-US"},
+	EntityColumnLookupMixin: {path: "configuration/6d57f3184eaa60c82e24e8f56baea74den-US"},
+	EntityColumnLookupPage: {path: "configuration/fd75bc30f6ee596a40500e36eb0e8973en-US"},
+	EntityColumnLookupPageCSS: {path: "configuration/83e8517f1d480162d6e47b57092f0f2aen-US", 
+		css: ["EntityColumnLookupPageCSS"]},
+	EntityColumnMappingMixin: {path: "configuration/008bd8c2286a15da0721d418bb949118en-US"},
+	EntityColumnMappingViewModel: {path: "configuration/3ff52744d20ba57a9b9e59061061fdceen-US"},
+	EntityColumnPropertiesPageModule: {path: "configuration/4379bc79036ffe951f410ec6ff1e43eben-US"},
+	EntityColumnsModule: {path: "configuration/e8ad04183d8c04089b282766a9430f69en-US", 
 		messages: {
 			"GetColumnsLookupInfo": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	EntityConnectionLinksUtilities: {
-		css: ["EntityConnectionLinksUtilities"]
-	},
-	EntityStructureHelper: {
+		}},
+	EntityConnectionLinksPanelItemUtilities: {path: "configuration/40c868045c740a7e3a446c88774eb9b5en-US"},
+	EntityConnectionLinksResourceUtilities: {path: "configuration/ba158a7b6465fa340c2243606f8274f3en-US"},
+	EntityConnectionLinksUtilities: {path: "configuration/cb22057e1e0ffea5d455fe9a5ec05640en-US", 
+		css: ["EntityConnectionLinksUtilities"]},
+	EntityConnectionManager: {path: "configuration/e95fab597326e23fb340e0b4082b90b0en-US"},
+	EntityConnectionManagerItem: {path: "configuration/448756dace47f01f2aaf504ecade747den-US"},
+	EntityConnectionsDetailV2: {path: "configuration/b8a899071fbc4ccbcf70e08c5b56f218en-US"},
+	EntityConnectionViewModel: {path: "configuration/b0bf7c1a9fe35cdce4ff9892af06b878en-US"},
+	EntityDashboardItemViewModel: {path: "configuration/88efc43b4654be94040e3d9689151027en-US"},
+	EntityDataSourceViewModel: {path: "configuration/23076257d68fdc3ea07f3da54e4fe9b5en-US"},
+	EntityRelatedColumnsMixin: {path: "configuration/6ebe0c9e5e26190cf56c154a06d191afen-US"},
+	EntityResponseValidationMixin: {path: "configuration/58f73db24fad53f91826c32d81123cd3en-US"},
+	EntitySchemaColumnDesigner: {path: "configuration/9b4376e326c66ad4246a12e7fd9efb2een-US"},
+	EntitySchemaDesignerUtilities: {path: "configuration/284c9679671d2381dff4b7f44af14ff8en-US"},
+	EntitySchemaFilterProviderModule: {path: "configuration/38c029bd08802e9f9067ea81bfff49c7en-US"},
+	EntitySchemaSelectMixin: {path: "configuration/5b4b153e5db8c05dacf94926c2730298en-US"},
+	EntityStructureHelper: {path: "configuration/d62799359e9ec962c37388a7c40aac69en-US", 
 		messages: {
 			"getItems": { "direction": "subscribe", "mode": "ptp" },
 			"getChildren": { "direction": "subscribe", "mode": "ptp" },
 			"getItemCaption": { "direction": "subscribe", "mode": "ptp" },
 			"setOperationType": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	ESNFeedModule: {
+		}},
+	EntityStructureHelperMixin: {path: "configuration/04c47a6f10412f7dfb09b29a563a9ea8en-US"},
+	ESNConstants: {path: "configuration/eb7efd2b95acbbdbfe68ebb984a88fdeen-US"},
+	EsnFeedComponent: {path: "configuration/69d7deb2a30bf5aa88bd15914234081cen-US"},
+	ESNFeedConfig: {path: "configuration/033c1f328d120a7593462ba650e0d01cen-US"},
+	ESNFeedModule: {path: "configuration/63dca36b93bc927283d41fdc15c060f5en-US", 
 		messages: {
 			"LookupInfo": { "direction": "subscribe", "mode": "ptp" },
 			"ResultSelectedRows": { "direction": "subscribe", "mode": "ptp" },
@@ -1190,38 +1879,53 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetActiveViewName": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateSubscribeAction": { "direction": "publish", "mode": "ptp" },
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ESNFeedStyle: {
-		css: ["ESNFeedStyle"]
-	},
-	ESNNotificationModule: {
+		}},
+	ESNFeedSectionV2: {path: "configuration/3dc4ad4820e9478c5f6d4b68a7afd001en-US"},
+	ESNFeedStyle: {path: "configuration/d6c4af2914003ec9fdf0f99706bfdcb5en-US", 
+		css: ["ESNFeedStyle"]},
+	ESNFeedUtils: {path: "configuration/b389c0df847046ee1e64c81e5ab8a4e1en-US"},
+	ESNHtmlEditModule: {path: "configuration/59b3c3122f36dc7394405285aed0f7bden-US"},
+	ESNNotificationModule: {path: "configuration/49bb9af65df8303065fe9acbf3577e36en-US", 
 		css: ["ESNNotificationModule"], 
 		messages: {
 			"UpdateCounters": { "direction": "publish", "mode": "broadcast" },
 			"ReloadCard": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ESNNotificationSchemaCSS: {
-		css: ["ESNNotificationSchemaCSS"]
-	},
-	EventsDashboardSection: {
+		}},
+	ESNNotificationSchema: {path: "configuration/790ba6d4f6e411310b4e45138ecbe78den-US"},
+	ESNNotificationSchemaCSS: {path: "configuration/1585d386a9d7b1c539a286298b0d8afcen-US", 
+		css: ["ESNNotificationSchemaCSS"]},
+	EsnSubscriptionMixin: {path: "configuration/8e269fc321d68eb7346f1e75cdaa1e0aen-US"},
+	EsnTimelineDataProvider: {path: "configuration/aeefd6d517c28a519c15a650993e1fd0en-US"},
+	EsnTimelineSearchProvider: {path: "configuration/d8542f5fec33d94f0770135874b35f02en-US"},
+	ESQMetadataConverter: {path: "configuration/8dcee9c2462a6a5437c26f925ee74487en-US"},
+	EsqTimelineDataProvider: {path: "configuration/22bbe4cadedd9e094f891118ef553c31en-US"},
+	EsqTimelineSearchProvider: {path: "configuration/c93cabdcb4a7907a20ae90f2ae5e12efen-US"},
+	EventsDashboardSection: {path: "configuration/ec8ee88560e5a3906741e3f9f4bcf4e1en-US", 
 		css: ["EventsDashboardSection"], 
 		messages: {
 			"ReplaceHistoryState": { "direction": "publish", "mode": "ptp" },
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ExecuteIntentUserTaskAngularModule: {
-		css: ["ExecuteIntentUserTaskAngularModule"]
-	},
-	ExpressionEdit: {
-		css: ["ExpressionEdit"]
-	},
-	ExpressionEditDemo: {
-		css: ["ExpressionEditDemo"]
-	},
-	ExtendedFilterEditModule: {
+		}},
+	EventSubProcessPropertiesPage: {path: "configuration/91cd3e5c99cea8903acfbc6511246173en-US"},
+	ExchangeNUIConstants: {path: "configuration/0b81bc064f62d3bec0c8870b5d2f3fbeen-US"},
+	ExecuteBatchRequest: {path: "configuration/93d638eafbb9d09e4b34dd519a183527en-US"},
+	ExecuteCommandRequest: {path: "configuration/fea3d8998f2867ffce0040570aed440den-US"},
+	ExecuteIntentUserTaskAngularModule: {path: "configuration/a6e4dbff2981ebb31d3d89e0926e8164en-US", 
+		css: ["ExecuteIntentUserTaskAngularModule"]},
+	ExecuteIntentUserTaskPropertiesPage: {path: "configuration/73f5677132d18fbf16ff2ae483f7ba93en-US"},
+	ExecuteIntentUserTaskPropertiesPageV2: {path: "configuration/25cbbabf67c32bade0ad61352baef85ben-US"},
+	ExistingColumnGridLayoutEditItemModel: {path: "configuration/38000702809d4aacd80c6c0fc3907a32en-US"},
+	ExpPage: {path: "configuration/e80c8fdd0ecfe97e5a7fb13295bc94ccen-US"},
+	ExpressionEdit: {path: "configuration/5b8dd0c8c5c93895882ef37d84449e41en-US", 
+		css: ["ExpressionEdit"]},
+	ExpressionEditDemo: {path: "configuration/fe6cd6a7c4cd55ee377f46a1df313ea2en-US", 
+		css: ["ExpressionEditDemo"]},
+	ExpressionEditViewGenerator: {path: "configuration/280285bd8e425f5015eef74a1122a7c0en-US"},
+	ExpressionEditVMMixin: {path: "configuration/22d6a60f0ad37775b18eb549251ed226en-US"},
+	ExpressionEnums: {path: "configuration/23d527a658c940c96d593c3a4d717cbcen-US"},
+	ExtendedFilterEditModel: {path: "configuration/872463d4b5b114301e555272ba2b4ab8en-US"},
+	ExtendedFilterEditModelV2: {path: "configuration/9b49f7836acfe01556c55957f01cb0dben-US"},
+	ExtendedFilterEditModule: {path: "configuration/fb61cf3c240220089eb12f1646a80473en-US", 
 		css: ["ExtendedFilterEditModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -1237,9 +1941,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetSectionSchemaName": { "direction": "publish", "mode": "ptp" },
 			"GetStructureExplorerSchemaName": { "direction": "subscribe", "mode": "ptp" },
 			"GetModuleSchema": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ExtendedFilterEditModuleV2: {
+		}},
+	ExtendedFilterEditModuleV2: {path: "configuration/a1c2773a04c0ed105ac891a59b51df44en-US", 
 		css: ["ExtendedFilterEditModuleV2"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -1264,43 +1967,74 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetSectionFilterModuleId": { "direction": "publish", "mode": "ptp" },
 			"GetSectionFiltersInfo": { "direction": "publish", "mode": "ptp" },
 			"ChangeGridUtilitiesContainerSize": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	ExtendedHtmlEditModule: {
-		css: ["ExtendedHtmlEditModule"]
-	},
-	ExternalAccessMiniPageCSS: {
-		css: ["ExternalAccessMiniPageCSS"]
-	},
-	FacebookSearch: {
-		css: ["FacebookSearch"]
-	},
-	FeaturesPageCSS: {
-		css: ["FeaturesPageCSS"]
-	},
-	FeedbackModule: {
+		}},
+	ExtendedFilterEditView: {path: "configuration/49e173a0e80ee253e73158ddb86429a4en-US"},
+	ExtendedFilterEditViewV2: {path: "configuration/41974358eac363c52575c28cd453dc3den-US"},
+	ExtendedHtmlEditModule: {path: "configuration/90fb1656bcb1c52fe6552db98b9f7b10en-US", 
+		css: ["ExtendedHtmlEditModule"]},
+	ExtendedHtmlEditModuleUtilities: {path: "configuration/3f6ca09a54a55dcc599e2153cff7c1a1en-US"},
+	ExternalAccessMiniPage: {path: "configuration/76f9ca4bee1c95b6e7daeedc0d949780en-US"},
+	ExternalAccessMiniPageCSS: {path: "configuration/f9aded398ea0b88a98cb3f1e6eb18ab8en-US", 
+		css: ["ExternalAccessMiniPageCSS"]},
+	ExternalAccessPage: {path: "configuration/e159ab8ec20b644b0df3473466ae64b5en-US"},
+	ExternalAccessRequestLogDetail: {path: "configuration/f7f99f5decb781edcbb8435671c40d7een-US"},
+	ExternalAccessSection: {path: "configuration/f8c91db2916b657265ee38dafc5a4a85en-US"},
+	ExternalAccessServiceWrapper: {path: "configuration/11efdf93182a60678022809fca625a0fen-US"},
+	ExternalAccessUtilities: {path: "configuration/91bb77e6a5b51828246ecf34a3f7940den-US"},
+	ExtWidgetConfigConverter: {path: "configuration/2345de7b67a9eca343625f4f4c0e7795en-US"},
+	FacebookClientConnector: {path: "configuration/0bb121fe9489f9304776e8cc5bffccf5en-US"},
+	FacebookClientUtilities: {path: "configuration/46cc4e18430508fd7562e97088a2ca16en-US"},
+	FacebookCommunicationViewModel: {path: "configuration/2a3707fda90cd342e4326d76daa57eb4en-US"},
+	FacebookSearch: {path: "configuration/2a3656b662d93a3ea43cc8cd25ccd4f7en-US", 
+		css: ["FacebookSearch"]},
+	FacebookSearchSchema: {path: "configuration/0ac17a81aa07b13bed74551dc68a226den-US"},
+	FacebookServiceRequest: {path: "configuration/d36dfa52e2f9c1b166d5b48e56b8f757en-US"},
+	FacebookSocialCommunicationViewModel: {path: "configuration/59d3215ef1e5780c5cb389f139d1c7d6en-US"},
+	FavoriteTabsDecorator: {path: "configuration/87f56448c1d9b9b23041cd665bfae678en-US"},
+	FBMessengerChannel_EditPage: {path: "configuration/dfdb762ba6244d17fa75293ab48fcbb3en-US"},
+	FeatureItemSchema: {path: "configuration/8d96c63a57f027f28b33591a0eaac862en-US"},
+	FeatureItemViewModel: {path: "configuration/ff921961edeae99ffcd27ce16206cbdben-US"},
+	Features: {path: "configuration/c3df7f55f0c8ecb7965909d2848f0182en-US"},
+	FeatureServiceRequest: {path: "configuration/76e83e5a26a5a1d265841b8e479f8bc6en-US"},
+	FeaturesPage: {path: "configuration/a56254f90c35dbd29553299a23b2d763en-US"},
+	FeaturesPageCSS: {path: "configuration/a97120ac03652dbfaa4b5772bb78da47en-US", 
+		css: ["FeaturesPageCSS"]},
+	FeedbackModule: {path: "configuration/c4bb0c8240a21925fa05124c48b24efben-US", 
 		messages: {
 			"LoadModule": { "direction": "subscribe", "mode": "broadcast" },
 			"HistoryStateChanged": { "direction": "subscribe", "mode": "broadcast" },
 			"RefreshCacheHash": { "direction": "subscribe", "mode": "broadcast" },
 			"NavigationModuleLoaded": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	FileDetailCssModule: {
-		css: ["FileDetailCssModule"]
-	},
-	FileHelper: {
-		css: ["FileHelper"]
-	},
-	FileImportModule: {
+		}},
+	FileDetail: {path: "configuration/e27e2f3faf93af7bb4e3e48c3ce3bdf9en-US"},
+	FileDetailCssModule: {path: "configuration/be39f04af89e19ef095947557b38e156en-US", 
+		css: ["FileDetailCssModule"]},
+	FileDetailReadOnly: {path: "configuration/536836ae18a483ac0db4dc64b5637158en-US"},
+	FileDetailV2: {path: "configuration/ca422afbf467292541c3f71038e0e78aen-US"},
+	FileDownloader: {path: "configuration/9707dc47195e4cabc7818803fe0d3a34en-US"},
+	FileHelper: {path: "configuration/f74fdc3185c8d0076590b78c5d800624en-US", 
+		css: ["FileHelper"]},
+	FileImportColumnMappingMixin: {path: "configuration/5b39340c46750e4388cf6c74ae4bd2c4en-US"},
+	FileImportColumnsMappingPage: {path: "configuration/e33c549cca230a9685a46113872a662cen-US"},
+	FileImportConstants: {path: "configuration/a340f19959f1cba13e64ff7e42e1ab93en-US"},
+	FileImportDuplicateManagementPage: {path: "configuration/e37294ef1daa047892c9723665154c4ben-US"},
+	FileImportLookupSection: {path: "configuration/b0635911d19c7e6e06aa6f650086ee35en-US"},
+	FileImportMixin: {path: "configuration/ca8090f6ed7fb6dfed5270fef0dbe300en-US"},
+	FileImportModule: {path: "configuration/be31db7c8c0c4643d40fe9fc15daeb35en-US", 
 		css: ["FileImportModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	FileImportWizard: {
+		}},
+	FileImportProcessingPage: {path: "configuration/ad34e99e2cafbfaee3137eae48696e87en-US"},
+	FileImportResultPage: {path: "configuration/c8f972fd2b723474e3462e2347534fbeen-US"},
+	FileImportServerChannelResponse: {path: "configuration/f146ad4b1a65be57e9f43e85973cacc3en-US"},
+	FileImportServiceRequest: {path: "configuration/f43d7c5379f9b163b9965ab57c8492eeen-US"},
+	FileImportStartPage: {path: "configuration/e812aa09597f8d553e77ebb4009d50b8en-US"},
+	FileImportTemplateLookupSection: {path: "configuration/f7e71eb7c2496d0dcb5d5ccc76bafa11en-US"},
+	FileImportTemplateMixin: {path: "configuration/45a370e521f37b59d986439c58511c80en-US"},
+	FileImportWizard: {path: "configuration/cd6a38ed3d83117e6c684f6bfc22950cen-US", 
 		css: ["FileImportWizard"], 
 		messages: {
 			"LoadModule": { "direction": "subscribe", "mode": "ptp" },
@@ -1323,20 +2057,31 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"SaveWizard": { "direction": "subscribe", "mode": "ptp" },
 			"GetPackageUId": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateStepsConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	FileListModule: {
+		}},
+	FileImportWizardBundle: {path: "configuration/aaf2f7f0f77aeb1a50473bcdaa3bddc5en-US"},
+	FileImportWizardHeaderModule: {path: "configuration/881ee0b147c0a5154509e9cd6bbfa5e1en-US"},
+	FileImportWizardHeaderViewConfig: {path: "configuration/a8f57bbb2c0eed3bdc415f2930330012en-US"},
+	FileImportWizardHeaderViewModel: {path: "configuration/a8cf56fdc34cbd6a4617d2f64f0abac1en-US"},
+	FileImportWizardStep: {path: "configuration/ae2c9dd4faf31c895cb5c01fabb157d1en-US"},
+	FileImportWizardStepPage: {path: "configuration/c084886c4260d7095a72d3a8386eafc7en-US"},
+	FileKnwSourceProviderSettingsPage: {path: "configuration/9c58d27405cbe9ef2697bb69587eae58en-US"},
+	FileListModule: {path: "configuration/1174999ff980548dffdc56a2e88fd65cen-US", 
 		messages: {
 			"GetRecordInfo": { "direction": "publish", "mode": "ptp" },
 			"DestroyFilesModule": { "direction": "subscribe", "mode": "ptp" },
 			"RefreshFiles": { "direction": "subscribe", "mode": "broadcast" },
 			"FileDeleted": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	FilePreviewPageCSS: {
-		css: ["FilePreviewPageCSS"]
-	},
-	FillContactWithSocialAccountDataModule: {
+		}},
+	FileListViewGenerator: {path: "configuration/435df7ff13a862cab4f843636ed2cab5en-US"},
+	FileListViewModelGenerator: {path: "configuration/964e74e0c136c4b4c56b928162c2f062en-US"},
+	FilePreviewPage: {path: "configuration/d5fb74a3dd032dc018c187b9fc32a9eeen-US"},
+	FilePreviewPageCSS: {path: "configuration/836e38cc7969a594c3336ca258b2f873en-US", 
+		css: ["FilePreviewPageCSS"]},
+	FileSearchRowSchema: {path: "configuration/d535ad29391efdd631475a78abd16955en-US"},
+	FileTimelineItemView: {path: "configuration/6f78955015ecafb3794eb5f898554478en-US"},
+	FileTimelineItemViewModel: {path: "configuration/56eedd20f57e43cfdeca19a524065ca0en-US"},
+	FileUploadErrorHandlers: {path: "configuration/dc860a9b61550fefd283595438a7a412en-US"},
+	FillContactWithSocialAccountDataModule: {path: "configuration/a181cf79c109d9cb326055820c475acben-US", 
 		css: ["FillContactWithSocialAccountDataModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -1345,12 +2090,12 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ChangeHeaderCaption": { "direction": "publish", "mode": "ptp" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	FilterableList: {
-		css: ["FilterableList"]
-	},
-	FilterEditModule: {
+		}},
+	FilterableList: {path: "configuration/a3373a3ce2353be84008a3a5d943b836en-US", 
+		css: ["FilterableList"]},
+	FilterConverter: {path: "configuration/a535c9e9e7fe6a37f9b0960c0dfafb04en-US"},
+	FilterConverterConnector: {path: "configuration/2e344579708776608c8cdbc4cd6e422aen-US"},
+	FilterEditModule: {path: "configuration/f84c3a4c6edcedc4cb48fcf23c74f5b7en-US", 
 		messages: {
 			"GetFilterModuleConfig": { "direction": "publish", "mode": "ptp" },
 			"SetFilterModuleConfig": { "direction": "subscribe", "mode": "broadcast" },
@@ -1365,12 +2110,13 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ResultSelectedRows": { "direction": "subscribe", "mode": "ptp" },
 			"OpenMappingEditWindow": { "direction": "publish", "mode": "ptp" },
 			"OpenMacrosPage": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	FilterEditModuleLoader: {
-		css: ["FilterEditModuleLoader"]
-	},
-	FindContactsInSocialNetworksModule: {
+		}},
+	FilterEditModuleLoader: {path: "configuration/cc50696b0fcb6134178497e7190efd3den-US", 
+		css: ["FilterEditModuleLoader"]},
+	FilterModuleMixin: {path: "configuration/2bc4f7dce1a05b3fea89b6d6c39c0874en-US"},
+	FiltersContainerViewModel: {path: "configuration/0c9915559709711a22b8745faba91142en-US"},
+	FilterUtilities: {path: "configuration/2c7a28228ea66f6af71da55f3c417056en-US"},
+	FindContactsInSocialNetworksModule: {path: "configuration/361ce5e5f06a470ba174d7d54f857ff0en-US", 
 		css: ["FindContactsInSocialNetworksModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -1384,9 +2130,21 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ChangeHeaderCaption": { "direction": "publish", "mode": "ptp" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	FolderLookupPage: {
+		}},
+	FinesseBoshCtiProvider: {path: "configuration/34151c56ebb6d2f3a89cfd9b152b9b0aen-US"},
+	FinesseCtiProviderV2: {path: "configuration/c536bef38a3b7dee982e39a889e97e38en-US"},
+	FixedFilterView: {path: "configuration/e5df0f7b25e1b413d0f14cd10df5905aen-US"},
+	FixedFilterViewModel: {path: "configuration/4ea3556e186dbe5a9b3e5c3c6665c52ben-US"},
+	FixedFilterViewModelV2: {path: "configuration/39f20d2c35b9aabf751d8abb91f8edf1en-US"},
+	FixedFilterViewV2: {path: "configuration/fafa8b0677e825c922826e16ea930970en-US"},
+	FixedSectionGridCaptionsPlugin: {path: "configuration/2d4d5e3027fabe064a22f0556304bd53en-US"},
+	FolderFilterItemViewModel: {path: "configuration/be3992593bd1bf5cce5aa7bfb8fde774en-US"},
+	FolderFilterView: {path: "configuration/60aad35de6fe47bd69cbc5c754840cf9en-US"},
+	FolderFilterViewModel: {path: "configuration/2be52d7f1373fcb3ea36d21e22965268en-US"},
+	FolderFilterViewModelV2: {path: "configuration/798bcbed26911cdbcb64269bce7e6ab6en-US"},
+	FolderFilterViewV2: {path: "configuration/fd3731108b75bdfda6e5d89f922593bben-US"},
+	FolderGridRowViewModel: {path: "configuration/cdd9e313ec28845f4144967dda0b7272en-US"},
+	FolderLookupPage: {path: "configuration/1bcb95e00d7ea4b178643152ba15e5deen-US", 
 		css: ["FolderLookupPage"], 
 		messages: {
 			"ResultSelectedFolders": { "direction": "publish", "mode": "broadcast" },
@@ -1401,9 +2159,10 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ResultSelectedRows": { "direction": "subscribe", "mode": "ptp" },
 			"GetStructureExplorerSchemaName": { "direction": "subscribe", "mode": "ptp" },
 			"GetRecordInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	FolderManager: {
+		}},
+	FolderLookupPageView: {path: "configuration/28f609aa62f6b5f1cdf6f23844dac74ben-US"},
+	FolderLookupPageViewModel: {path: "configuration/748d3b82121d64bdefee741d5aee84d3en-US"},
+	FolderManager: {path: "configuration/bf09358731eb22e889162b0cbe91ad8cen-US", 
 		css: ["FolderManager"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -1435,9 +2194,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"UpdateFavoritesMenu": { "direction": "publish", "mode": "broadcast" },
 			"CustomFilterExtendedMode": { "direction": "publish", "mode": "broadcast" },
 			"GetSectionFilterModuleId": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	FolderManagerModule: {
+		}},
+	FolderManagerModule: {path: "configuration/5c489fc9c079eb3e2dc4e6d884e9e9f6en-US", 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -1468,23 +2226,41 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"UpdateFavoritesMenu": { "direction": "publish", "mode": "broadcast" },
 			"CustomFilterExtendedMode": { "direction": "publish", "mode": "broadcast" },
 			"GetSectionFilterModuleId": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	FolderManagerViewModel: {
+		}},
+	FolderManagerView: {path: "configuration/f8447229e8b014115a4adba09d028b6een-US"},
+	FolderManagerViewConfigGenerator: {path: "configuration/41ece2365af81dece392f8f4e7ebe0eeen-US"},
+	FolderManagerViewModel: {path: "configuration/ee1821b782b09ebb5cfd08c7a3fa0692en-US", 
 		messages: {
 			"GetSectionFilterModuleId": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ForLookupPage: {
+		}},
+	FolderManagerViewModelConfigGenerator: {path: "configuration/9e8487a27ceb2de53b6803fc2fb90ef9en-US"},
+	FontFamilyPropertyModule: {path: "configuration/7102f66e31fb0cf2a39afc5dfaced42een-US"},
+	FontPropertyModule: {path: "configuration/b84126acfb525787d3ecb67390fffb7een-US"},
+	ForLookupPage: {path: "configuration/3d96c492b0fc4c30a531021556f427e3en-US", 
 		messages: {
 			"getLookupInfo": { "direction": "subscribe", "mode": "ptp" },
 			"resultSelectedRows": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	FullPageShellCSS: {
-		css: ["FullPageShellCSS"]
-	},
-	FullPipelineModule: {
+		}},
+	FormatUtils: {path: "configuration/8d00383345fb63109ab6d567462619daen-US"},
+	FormulaColumnExtractor: {path: "configuration/6e7eb807c148209167c6a30811f43b33en-US"},
+	FormulaDesignerResources: {path: "configuration/adfe367b125253ba507e8be59930bc28en-US"},
+	FormulaRequest: {path: "configuration/54034214e4c81c2805c0adf3b6156de3en-US"},
+	FormulaTaskPropertiesPage: {path: "configuration/2d566d598688907b44ec97d5cfc44944en-US"},
+	FreedomDashboards: {path: "configuration/9ec072bd1627bea2c7cca5172e0e9f05en-US"},
+	FreedomUIToClassicPagesDialog: {path: "configuration/dcfea19512d995f7b949e36c899c41a0en-US"},
+	FreedomUIToFreedomPagesDialog: {path: "configuration/0d651495110fd2538441db1682333498en-US"},
+	FromMetaItemBR7xConverter: {path: "configuration/eb65d7bf8764e3fa6c3c9780702ec2a6en-US"},
+	FromMetaItemBusinessRuleConverter: {path: "configuration/98d642463deefa27695eec72d4ca8535en-US"},
+	FullPageShell: {path: "configuration/9835f4c7a41f644c8f16cd600843b576en-US"},
+	FullPageShellCSS: {path: "configuration/388d2ebfc73b41d32e3b505a47e9a828en-US", 
+		css: ["FullPageShellCSS"]},
+	FullPipelineChart: {path: "configuration/bc11168f9bfa7733a72f86a34aea8c30en-US"},
+	FullPipelineChartJsConfigBuilder: {path: "configuration/663675c170a5ddb713632aa4d0fb63bfen-US"},
+	FullPipelineChartProviderFactory: {path: "configuration/81cdca66664aa75f30d3633757e644b2en-US"},
+	FullPipelineChartSchema: {path: "configuration/6f377bfff04bdd8153da0d526201e9cfen-US"},
+	FullPipelineDesigner: {path: "configuration/90053a9eb0caced0bd5a7ead1d9d40c8en-US"},
+	FullPipelineDesignerPropertiesItem: {path: "configuration/9b5a9bcd765d381e7e23f7a71d3f5284en-US"},
+	FullPipelineModule: {path: "configuration/bd5b8a7d1fe36208d1bca5ae99af7ca7en-US", 
 		messages: {
 			"GenerateChart": { "direction": "subscribe", "mode": "ptp" },
 			"GetQuickFilter": { "direction": "publish", "mode": "ptp" },
@@ -1503,24 +2279,23 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetFixedFilterConfig": { "direction": "subscribe", "mode": "ptp" },
 			"GetExtendedFilterConfig": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateFilter": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	FullPipelinePropertiesItemModule: {
-		css: ["FullPipelinePropertiesItemModule"]
-	},
-	FullPipelineViewConfig: {
-		css: ["FullPipelineViewConfig"]
-	},
-	FullscreenHeaderModule: {
+		}},
+	FullPipelinePropertiesItemModule: {path: "configuration/e56242787a75690b2607c2dbd9e59a44en-US", 
+		css: ["FullPipelinePropertiesItemModule"]},
+	FullPipelineServiceRequest: {path: "configuration/77fe533d8c883ece2179c3b373fb2c70en-US"},
+	FullPipelineViewConfig: {path: "configuration/eae70ae155ac0326e1a604fab35ef0e8en-US", 
+		css: ["FullPipelineViewConfig"]},
+	FullPipelineWidgetComponent: {path: "configuration/7e124d3cc26183d91b30aaa9acdf213ben-US"},
+	FullscreenHeaderModule: {path: "configuration/91bb3e389941cfea21ac60e5aef60f25en-US", 
 		css: ["FullscreenHeaderModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"UpdatePageHeaderCaption": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	FullscreenViewModule: {
+		}},
+	FullscreenHeaderSchema: {path: "configuration/a649a0c241660067cab45243710d5dccen-US"},
+	FullscreenViewModule: {path: "configuration/ec7d27720581c1bf0820d47e5af5e8f7en-US", 
 		css: ["FullscreenViewModule"], 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -1529,36 +2304,44 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"LoadModule": { "direction": "subscribe", "mode": "ptp" },
 			"NavigationModuleLoaded": { "direction": "subscribe", "mode": "broadcast" },
 			"RefreshCacheHash": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	FullWidthLabelViewGenerator: {
-		css: ["FullWidthLabelViewGenerator"]
-	},
-	GaugeModule: {
+		}},
+	FullWidthLabelViewGenerator: {path: "configuration/7984d2ee9dc8cca942037f423e73e07cen-US", 
+		css: ["FullWidthLabelViewGenerator"]},
+	FunnelChartJsConfigBuilder: {path: "configuration/bd3668b8999a5d2f8b59404d55abdccfen-US"},
+	FunnelWidgetComponent: {path: "configuration/0e8e331471bae3f9a68cf3f8372dcb90en-US"},
+	GaugeChartJsConfigBuilder: {path: "configuration/2a1459b0a95d02db49e58df345c93570en-US"},
+	GaugeDesigner: {path: "configuration/59c875fcc35bf5e584dbf168097aa4cfen-US"},
+	GaugeModule: {path: "configuration/f1f0c7c5654d6a42e447acfe3d09d1d2en-US", 
 		messages: {
 			"GetGaugeConfig": { "direction": "publish", "mode": "ptp" },
 			"GenerateGauge": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateFilter": { "direction": "subscribe", "mode": "broadcast" },
 			"GetFiltersCollection": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	GeneralDetails: {
-		css: ["GeneralDetails"]
-	},
-	GlobalDuplicateModule: {
-		css: ["GlobalDuplicateModule"]
-	},
-	GlobalSearchModule: {
+		}},
+	GaugeWidgetComponent: {path: "configuration/32bfcec7caf67f7069a2531e826b2b74en-US"},
+	GeneralDetails: {path: "configuration/a8fc467a19350f253810dfc3af65b0a2en-US", 
+		css: ["GeneralDetails"]},
+	GeneratedWebFormDetailV2: {path: "configuration/38809e7f99f9434276afebab59b09097en-US"},
+	GeneratedWebFormSectionV2: {path: "configuration/85a3387192bc8df9fd6251648c80caaben-US"},
+	GlobalDuplicateModule: {path: "configuration/91343df51ee77af4a90ce7326cdc75fden-US", 
+		css: ["GlobalDuplicateModule"]},
+	GlobalDuplicateModuleView: {path: "configuration/c62b53f67b1f53c626176d559dcb6110en-US"},
+	GlobalSearchFilter: {path: "configuration/57fa6577a29c78cde7990d149abccd42en-US"},
+	GlobalSearchModule: {path: "configuration/e34385ac63c9cea2da7ff124e2c06711en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"SetCommandLineValue": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	GlobalSearchResultPageCSS: {
-		css: ["GlobalSearchResultPageCSS"]
-	},
-	GoogleIntegrationSettingsModule: {
+		}},
+	GlobalSearchResultPage: {path: "configuration/d2f6bd75a9d44e74ec3725225495862aen-US"},
+	GlobalSearchResultPageCSS: {path: "configuration/8e9d1bd4db2616d42f32751763eddc36en-US", 
+		css: ["GlobalSearchResultPageCSS"]},
+	GlobalSearchStorage: {path: "configuration/2d2683f82a6807c130f8c589c0ec656fen-US"},
+	GlobalSearchViewGenerator: {path: "configuration/ccf281f962ca7e6a96a7b9e4a2b387f8en-US"},
+	GoogleActivitySyncSettingsTab: {path: "configuration/e1f433bbf1385a25d031fe9c3c59121een-US"},
+	GoogleClientConnector: {path: "configuration/fab13aa7d5dd6dd9898f34de52fab3f7en-US"},
+	GoogleIntegrationEnums: {path: "configuration/289dac432bffce62d18eab9647944849en-US"},
+	GoogleIntegrationSettingsModule: {path: "configuration/e12f028a60d09116bb6154855ca6397een-US", 
 		css: ["GoogleIntegrationSettingsModule"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -1567,14 +2350,25 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ChangeHeaderCaption": { "direction": "publish", "mode": "ptp" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	GoogleMapWidgetPage: {
+		}},
+	GoogleIntegrationSettingsPageV2: {path: "configuration/80033e55a6606f836212cd92dab132e8en-US"},
+	GoogleIntegrationUtilities: {path: "configuration/7ed3ad436190edbebc732e8c9ddc6421en-US"},
+	GoogleIntegrationUtilitiesV2: {path: "configuration/758543ba2d2013e93a77b97f6b6c55b5en-US"},
+	GoogleMapWidgetPage: {path: "configuration/b24e0711321cccb7e2df225b32f35602en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	GridSettings: {
+		}},
+	GoogleServiceRequest: {path: "configuration/f9beef7c86a981cc8414bb0342770e0aen-US"},
+	GoogleTagManagerMeasurementsUtilities: {path: "configuration/045d5dcd31efdac7e13790e4aa848860en-US"},
+	GoogleTagManagerMixin: {path: "configuration/501e185e6076d935d6a4df58d6e478a9en-US"},
+	GoogleTagManagerUtilities: {path: "configuration/56532ae28a8cddc1f6342faa125e5e9fen-US"},
+	GridDesignerEnums: {path: "configuration/9eb92673929a6e126f1bc478e40193c7en-US"},
+	GridDesignerTestModule: {path: "configuration/7d67dd5541b73870a2e88ca4ff644e46en-US"},
+	GridLayoutEditItemModel: {path: "configuration/8d531386abb21db98a1336db0f26b408en-US"},
+	GridLayoutUtils: {path: "configuration/0faec7f00fad7375596ef6446c0eda0den-US"},
+	GridProfileColumnsMixin: {path: "configuration/89d7511d1ce51b7b1bbd5e16f9e19f2den-US"},
+	GridProfileHelper: {path: "configuration/3f5cf0e825a2328f0ca643ad22b880d7en-US"},
+	GridSettings: {path: "configuration/20d66c6ea29e4cddaf1ebb5aaa65b1e6en-US", 
 		css: ["GridSettings"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -1592,12 +2386,13 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetEntitySchema": { "direction": "publish", "mode": "ptp" },
 			"OpenStructureExplorer": { "direction": "publish", "mode": "broadcast" },
 			"OpenColumnSettings": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	GridSettingsPageCSS: {
-		css: ["GridSettingsPageCSS"]
-	},
-	GridSettingsV2: {
+		}},
+	GridSettingsDesignerContainer: {path: "configuration/9046952fe8b7edae3636ad2e9ab344f3en-US"},
+	GridSettingsDesignerItem: {path: "configuration/3a83262869b023676e1629f468a3995ben-US"},
+	GridSettingsPage: {path: "configuration/95d2d56b316018e0ac976ab36d3e950cen-US"},
+	GridSettingsPageCSS: {path: "configuration/39b7971e3753f6f33e607b1578223c93en-US", 
+		css: ["GridSettingsPageCSS"]},
+	GridSettingsV2: {path: "configuration/09f7710e13c835bbf96dd5a44526ea72en-US", 
 		css: ["GridSettingsV2"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -1618,84 +2413,118 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"InitDataViews": { "direction": "publish", "mode": "ptp" },
 			"GridSettingsChanged": { "direction": "publish", "mode": "ptp" },
 			"SaveGridSettings": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	GridUtilities: {
-		css: ["GridUtilities"]
-	},
-	HistoryMessageFilesDetailCSS: {
-		css: ["HistoryMessageFilesDetailCSS"]
-	},
-	HistoryStateUtilities: {
+		}},
+	GridSettingsViewGenerator: {path: "configuration/491e36c39dafedadef3286467f4de9afen-US"},
+	GridSettingsViewGeneratorV2: {path: "configuration/67a515438d6471375391aa12bd7b3880en-US"},
+	GridSettingsViewModelGenerator: {path: "configuration/9ffce9047dc05c77afedce724163baf6en-US"},
+	GridSettingsViewModelGeneratorV2: {path: "configuration/c4e7935144a831d16e3ffc4495e3dd96en-US"},
+	GridUtilities: {path: "configuration/563496a205942ff600e33a8beee93b52en-US", 
+		css: ["GridUtilities"]},
+	GridUtilitiesV2: {path: "configuration/65f921ca6d13168a72e62132fc4affacen-US"},
+	HierarchicalContainerList: {path: "configuration/85f120f1f306f43b4fb668663475225den-US"},
+	HighchartProvider: {path: "configuration/ad5887b4efef1dabbb78b05cee46052fen-US"},
+	HighchartsWrapper: {path: "configuration/9a91c584f3417ee44a61ed235baba67fen-US"},
+	HistoryMessageFilesDetail: {path: "configuration/51c53fecbde10f4fa90494a9fcd3b787en-US"},
+	HistoryMessageFilesDetailCSS: {path: "configuration/045521fdf9d2b7d140f83fb60d72bfe3en-US", 
+		css: ["HistoryMessageFilesDetailCSS"]},
+	HistoryStateUtilities: {path: "configuration/1b28cb2aa1657a6d58aac49d0ab36b50en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	HomePage: {
-		css: ["HomePage"]
-	},
-	HomePageDesignerCSS: {
-		css: ["HomePageDesignerCSS"]
-	},
-	HotkeyItemsModule: {
+		}},
+	HomePage: {path: "configuration/2eb691603bac328de97e2c93798d88e8en-US", 
+		css: ["HomePage"]},
+	HomePageChartDesigner: {path: "configuration/6e7f6a32a25ddf1f89f47f9ae86ea806en-US"},
+	HomePageDesignerCSS: {path: "configuration/e78028fd30a531dbe8412cfd7d260335en-US", 
+		css: ["HomePageDesignerCSS"]},
+	HomePageFullPipelineDesigner: {path: "configuration/c89dfefe438dd8c4d291cb15c64727daen-US"},
+	HomePageFunnelDesigner: {path: "configuration/e7cebbfd4dc0902e832532191c7605eben-US"},
+	HomePageGaugeDesigner: {path: "configuration/cd6c0fbb04ca73927e98a8d886be8111en-US"},
+	HomePageIndicatorDesigner: {path: "configuration/d27efc2da0bf034bf2cf22a0f05fa86ben-US"},
+	HomePageInWorkplaceUtils: {path: "configuration/d1ba502314c3056b22be8c542ebbc480en-US"},
+	HomePageWidgetDesignerMixin: {path: "configuration/f7a2a603b0f35b5ca81bddefcd52027fen-US"},
+	HorizontalAlignContainer: {path: "configuration/b2f4a679925a6f0b6ea03d7519ba6c3fen-US"},
+	HorizontalBarChartJsConfigBuilder: {path: "configuration/118325cd2acc6038da868b4928566df5en-US"},
+	HotkeyItemsModule: {path: "configuration/66021973607720bf3996ca495d44aab4en-US", 
 		messages: {
 			"GetEventsConfig": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	HotkeysModule: {
+		}},
+	HotkeysModule: {path: "configuration/fa23c00d691c6d168122bd8bfa6b0450en-US", 
 		messages: {
 			"GetEventsConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	HTMLCodeEditModalBoxCss: {
-		css: ["HTMLCodeEditModalBoxCss"]
-	},
-	HtmlEditModule: {
-		css: ["HtmlEditModule"]
-	},
-	IconizedProgressBar: {
-		css: ["IconizedProgressBar"]
-	},
-	ImageList: {
-		css: ["ImageList"]
-	},
-	ImageListViewModel: {
+		}},
+	HoverMenuButton: {path: "configuration/ca12858e9ba66a1be4ce16c1c54bf38ben-US"},
+	HTMLCodeEditModalBox: {path: "configuration/3a36160deac9bd9396b60658f0ab0383en-US"},
+	HTMLCodeEditModalBoxCss: {path: "configuration/259ec97dac5cae0d0fd81b52a750471fen-US", 
+		css: ["HTMLCodeEditModalBoxCss"]},
+	HtmlContentExporter: {path: "configuration/23f774921471c4f731b48486ddaa2c43en-US"},
+	HtmlControlGeneratorV2: {path: "configuration/ad2713006336aaf6295e7bea03c6f662en-US"},
+	HtmlEditMappingValueMixin: {path: "configuration/a7dfe92db77c8fa077d35b1591ade114en-US"},
+	HtmlEditModule: {path: "configuration/d339fcbb2c9d0ccd993aed071b418c83en-US", 
+		css: ["HtmlEditModule"]},
+	IconHelper: {path: "configuration/65d88cc4e851b828b3902943114cad26en-US"},
+	IconizedProgressBar: {path: "configuration/53574e063071ae27438252763c7d4446en-US", 
+		css: ["IconizedProgressBar"]},
+	IconizedProgressBarGenerator: {path: "configuration/b305d9d556f0cacef129aff472583e82en-US"},
+	IdentifiedSubscriberItem: {path: "configuration/39008edd3e04d1644d8b6dac0cf00b70en-US"},
+	IdentityProviderSettings_Modal: {path: "configuration/34342284a6e97aab79292cd56e624a99en-US"},
+	IdentityProvidersManagement_Page: {path: "configuration/7f9df4220e3d84e92182a5615ff71fd3en-US"},
+	IFramePageLoader: {path: "configuration/35f2f275e93298035d9e55287408fa1den-US"},
+	ImageCustomGeneratorV2: {path: "configuration/d142f5e3ccde9e2a778e7c8ffad5f1c0en-US"},
+	ImageList: {path: "configuration/bb5cd9179bdce91e1d148f4bb2d82e6aen-US", 
+		css: ["ImageList"]},
+	ImageListConfigurationGenerator: {path: "configuration/19152f9606a675905d8ce8061e03af71en-US"},
+	ImageListGenerator: {path: "configuration/9ce5200a701e980354dcb7f701a53e5ben-US"},
+	ImageListViewModel: {path: "configuration/634dbb99ae72257a8c7fa220503d56ecen-US", 
 		messages: {
 			"GetKnowledgeBaseLink": { "direction": "publish", "mode": "ptp" },
 			"ItemSelected": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ImportNotifierClientModule: {
+		}},
+	ImageMacroListItemViewModel: {path: "configuration/254c255c068b404853267cea330fa215en-US"},
+	ImageSectionWizardCustomGenerator: {path: "configuration/0c41b463850c1e58df1a17444f016720en-US"},
+	ImageView: {path: "configuration/1290936417484d7fb55367ee08799e5fen-US"},
+	ImportAndIntegrationSystemDesignerSectionV2: {path: "configuration/e8db746725d8fea7cad900d4180cf719en-US"},
+	ImportNotifierClientModule: {path: "configuration/84304644f722cf1377d6e98730d447d4en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	IndicatorModule: {
+		}},
+	IndicatorDesigner: {path: "configuration/ea3ec830b728ac137034ee8406f62ae8en-US"},
+	IndicatorModule: {path: "configuration/773dc1618eef4abecb7b57284568f5c5en-US", 
 		css: ["IndicatorModule"], 
 		messages: {
 			"GetIndicatorConfig": { "direction": "publish", "mode": "ptp" },
 			"GenerateIndicator": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateFilter": { "direction": "subscribe", "mode": "broadcast" },
 			"GetFiltersCollection": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	InformationButton: {
-		css: ["InformationButton"]
-	},
-	InlineTextEditViewGenerator: {
-		css: ["InlineTextEditViewGenerator"]
-	},
-	InnerListedGridHtmlGeneratorCSS: {
-		css: ["InnerListedGridHtmlGeneratorCSS"]
-	},
-	InplaceProcessSchemaDesignerComponent: {
-		css: ["InplaceProcessSchemaDesignerComponent"]
-	},
-	Intro: {
-		css: ["Intro"]
-	},
-	IntroPage: {
+		}},
+	IndicatorWidgetComponent: {path: "configuration/ec590be17472b270e99b1a48988d773aen-US"},
+	InFolderDetail: {path: "configuration/81988a844377959f212cb58bef82dd1fen-US"},
+	InFolderDetailV2: {path: "configuration/733d93fc8f1d0d68de5e16366da4143aen-US"},
+	InformationButton: {path: "configuration/1570ce2cfd663cde088429642a4df545en-US", 
+		css: ["InformationButton"]},
+	InformationDialogMiniPage: {path: "configuration/3ac4e450fd723869a8159773007d3292en-US"},
+	InheritanceFixModule: {path: "configuration/53f12628634139afe33802d9e6c436cden-US"},
+	InlineCodeTextEdit: {path: "configuration/167bfdb9b5b901053f4c7ed4560beb3fen-US"},
+	InlineParameterTextEdit: {path: "configuration/409412ec029fefbb0266deea166d6010en-US"},
+	InlineTextEditViewGenerator: {path: "configuration/e3f942c6ad9bfe6f7d7f9e161fd06d85en-US", 
+		css: ["InlineTextEditViewGenerator"]},
+	InnerListedGridHtmlGenerator: {path: "configuration/79c738ca1a7810f80d4390dcc5eb5cbfen-US"},
+	InnerListedGridHtmlGeneratorCSS: {path: "configuration/95156434b090251d93ddf655ace0ac6ben-US", 
+		css: ["InnerListedGridHtmlGeneratorCSS"]},
+	InplaceProcessSchemaDesigner: {path: "configuration/8897ceb55968c7294e8a76a9154951bden-US"},
+	InplaceProcessSchemaDesignerComponent: {path: "configuration/51b74b0f282401e41454d38e102cc09ben-US", 
+		css: ["InplaceProcessSchemaDesignerComponent"]},
+	InplaceProcessSchemaDesignerViewModel: {path: "configuration/d21358ab693698f198f562faf482245fen-US"},
+	InstalledAppSection: {path: "configuration/5771b3039994fef1aef6bfe0a3d80a98en-US"},
+	IntegrationLogLookupSection: {path: "configuration/3ae8a475f60e028cfdf783044a8dc3bden-US"},
+	IntermediateCatchMessagePropertiesPage: {path: "configuration/08226d584b0db650fd8aa659a665d146en-US"},
+	IntermediateCatchSignalPropertiesPage: {path: "configuration/480fc819d61c6524c89da4b44cf51876en-US"},
+	IntermediateCatchTimerPropertiesPage: {path: "configuration/f9179513750d6aea70e8d3d516c160f5en-US"},
+	IntermediateThrowMessagePropertiesPage: {path: "configuration/90eb1278b08607db2a6ff75ba2986626en-US"},
+	IntermediateThrowSignalPropertiesPage: {path: "configuration/44ba20bb0a1c73b8c43b2ad6639a3196en-US"},
+	Intro: {path: "configuration/9c8d86c999208382c29a126476b21f49en-US", 
+		css: ["Intro"]},
+	IntroPage: {path: "configuration/24d92bf0b9c467b29bc0a2161aa4f3c3en-US", 
 		css: ["IntroPage"], 
 		messages: {
 			"ChangeHeaderCaption": { "direction": "publish", "mode": "ptp" },
@@ -1705,41 +2534,62 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	JoinLinkGenerationMixin: {
-		css: ["JoinLinkGenerationMixin"]
-	},
-	KnowledgeBaseArticleViewModule: {
+		}},
+	IntroPageUtilities: {path: "configuration/455ece2e2b766a4aa31da28cbbe5b166en-US"},
+	InvoiceSearchRowSchema: {path: "configuration/ee18bf92f8e4426069329efd577363eben-US"},
+	IsolatedRecordDetail: {path: "configuration/b09cf3d4013c2d7fd8f760280a3508b2en-US"},
+	jabberwerx: {path: "configuration/e170fc19e16a386c99672a10e81e6286en-US"},
+	JoinLinkGenerationMixin: {path: "configuration/9063187fe76a61b4c6917a6e0ea2f97den-US", 
+		css: ["JoinLinkGenerationMixin"]},
+	jqueryMigrate: {path: "configuration/c7c6048a5d59d2cf6e884f5277c5b2caen-US"},
+	JsonRequestBuilder: {path: "configuration/06bce1775e3164ad49501d73a2189ee3en-US"},
+	JsonResponseBuilder: {path: "configuration/b30042b3dc74a9047d1d8ed2807f7ea1en-US"},
+	JsonServiceMetaDataConverter: {path: "configuration/12e206cef39c377874174354095772dden-US"},
+	KnowledgeBaseArticleViewModule: {path: "configuration/10e91815dc201d021572b16ab19855e7en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	KnowledgeBasePageCSS: {
-		css: ["KnowledgeBasePageCSS"]
-	},
-	KnowledgeBaseSearchModule: {
+		}},
+	KnowledgeBaseHtmlEditModule: {path: "configuration/3cb05d516184e4318703977a76c57d17en-US"},
+	KnowledgeBasePage: {path: "configuration/19cc86ac600f112202ebfa0a52e92fcfen-US"},
+	KnowledgeBasePageCSS: {path: "configuration/8cd2d240f9d0be06461bfac1829d2127en-US", 
+		css: ["KnowledgeBasePageCSS"]},
+	KnowledgeBasePageV2: {path: "configuration/1b25706453942e0f2fabad7a7949cc54en-US"},
+	KnowledgeBaseSearchModule: {path: "configuration/8fed31139215b1179447d48fa380b445en-US", 
 		css: ["KnowledgeBaseSearchModule"], 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"FilterCurrentSection": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	KnowledgeBaseSectionCssModule: {
-		css: ["KnowledgeBaseSectionCssModule"]
-	},
-	LazyDuplicatesDetailViewConfig: {
-		css: ["LazyDuplicatesDetailViewConfig"]
-	},
-	LazyDuplicatesPageCSS: {
-		css: ["LazyDuplicatesPageCSS"]
-	},
-	Leaflet: {
-		css: ["Leaflet"]
-	},
-	LeftPanelClientWorkplaceMenu: {
+		}},
+	KnowledgeBaseSearchRowSchema: {path: "configuration/590eed03a0e1487f0ea70d3b3984f28aen-US"},
+	KnowledgeBaseSection: {path: "configuration/93c974c541df31186fad3a9571b4d21den-US"},
+	KnowledgeBaseSectionCssModule: {path: "configuration/9fd48939c61f817973dfc8024ae12984en-US", 
+		css: ["KnowledgeBaseSectionCssModule"]},
+	KnowledgeBaseSectionV2: {path: "configuration/e6cfab5c6aef293752fe21a5f070e928en-US"},
+	KnwLib_Detail: {path: "configuration/2fcc0c223072e63a1668bb5abe7b4ee7en-US"},
+	KnwLib_FormPage: {path: "configuration/0951f02580ccc9e9dfc3010702dc3ed0en-US"},
+	KnwLib_ListPage: {path: "configuration/f2ab02c34c1d2cee3e09d323c322f3c1en-US"},
+	KnwSourceProviderSettingsPage: {path: "configuration/17168c5253f37343dc4c3872e6e7b1a6en-US"},
+	LabelDateEdit: {path: "configuration/fcadb179aa3b517a3eab6f61518df823en-US"},
+	LandingiDesigner_Page: {path: "configuration/a63468231640fcad80a06196c49b93e5en-US"},
+	LandingObjectDefaultsDetailV2: {path: "configuration/46be89bb150878aeb7f186e9107bb53een-US"},
+	LandingObjectDefaultsPageV2: {path: "configuration/a2081ebf916bf9808e83c03256412a33en-US"},
+	LanguagePage: {path: "configuration/a9db8cae1f9b529a6b3fd34d0b562aa4en-US"},
+	LanguageSection: {path: "configuration/da336317cafa9b51030053e3414a3b44en-US"},
+	LanguageTabMixin: {path: "configuration/e3f9009c48cb8c10d4e9b99b5cd57e0fen-US"},
+	LazyDuplicatesDetailViewConfig: {path: "configuration/e73f53416400166af3d5493dd50dc6b5en-US", 
+		css: ["LazyDuplicatesDetailViewConfig"]},
+	LazyDuplicatesDetailViewModel: {path: "configuration/afb1fc1ff5f62d44eadf4a805c132c42en-US"},
+	LazyDuplicatesPageCSS: {path: "configuration/9a296bd9cec540c65ebed6b0f9dbb36den-US", 
+		css: ["LazyDuplicatesPageCSS"]},
+	LazyDuplicatesPageV2: {path: "configuration/c57c26ab6386c392d544e6b5fbb090aaen-US"},
+	LDAPServerSettings: {path: "configuration/5f91d446851455497a0036a3a9b878a8en-US"},
+	LDAPStyle: {path: "configuration/e52bfb08138fef1dee467f2e1972487ben-US"},
+	LeadSearchRowSchema: {path: "configuration/f9fbac280b893d7166d7ff6f56051833en-US"},
+	Leaflet: {path: "configuration/9354625b72895bed28c6e0fd95ff1cc3en-US", 
+		css: ["Leaflet"]},
+	LeftPanelClientWorkplaceMenu: {path: "configuration/7934ceeda8e48decc63963f230517113en-US", 
 		css: ["LeftPanelClientWorkplaceMenu"], 
 		messages: {
 			"ChangeCurrentWorkplace": { "direction": "subscribe", "mode": "ptp" },
@@ -1748,12 +2598,10 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetWorkplaceInfo": { "direction": "subscribe", "mode": "ptp" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"RefreshWorkplace": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	LeftPanelCSS: {
-		css: ["LeftPanelCSS"]
-	},
-	LeftPanelTopMenuModule: {
+		}},
+	LeftPanelCSS: {path: "configuration/6ec9c6ec1ff56422b6920678df72cb3aen-US", 
+		css: ["LeftPanelCSS"]},
+	LeftPanelTopMenuModule: {path: "configuration/efb5539796105657ec71fc12d70f8a26en-US", 
 		css: ["LeftPanelTopMenuModule"], 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -1770,17 +2618,28 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ResetStartProcessMenuItems": { "direction": "subscribe", "mode": "broadcast" },
 			"LoadedItemsStartProcessMenu": { "direction": "publish", "mode": "broadcast" },
 			"ChangeGridUtilitiesContainerSize": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	LinkPreview: {
-		css: ["LinkPreview"]
-	},
-	LoadProcessModules: {
+		}},
+	LeftPanelUtilitiesV2: {path: "configuration/0d8e3f1399537fd2f49c76fd5ac6ad7aen-US"},
+	LineChartJsConfigBuilder: {path: "configuration/f7fbad9429d8b58cef50fcbb7d2af903en-US"},
+	LinkColumnHelper: {path: "configuration/b2fe514f4abeff731a94e15a897442a6en-US"},
+	LinkedEntitiesExtendedMenu: {path: "configuration/9ca86c1da421bca71063ffa92cfbb18den-US"},
+	LinkEntityToProcessUserTaskItemInitializer: {path: "configuration/5e6752f5e700a34c3dc0e9104c60ef24en-US"},
+	LinkEntityToProcessUserTaskPropertiesPage: {path: "configuration/e72491997813a699bb7ea123ceeea816en-US"},
+	LinkPage: {path: "configuration/b8f87481316f933a20248016c1589f52en-US"},
+	LinkPageV2: {path: "configuration/746956375306996280ff0ec85d97a5a2en-US"},
+	LinkPreview: {path: "configuration/85a5379789b8f4954b0863ea511af60cen-US", 
+		css: ["LinkPreview"]},
+	LinkTimelineItemView: {path: "configuration/f7ff45ac3a440730868bb95c97011b1een-US"},
+	LinkTimelineItemViewModel: {path: "configuration/40b19d95bc453a74782e1aa109194951en-US"},
+	ListFreedomTemplate: {path: "configuration/e6de3f41b130e9daf04e05e1d828b670en-US"},
+	ListPageV2Template: {path: "configuration/a59c075e2e95b34b17d227e5a8109570en-US"},
+	ListPageV3Template: {path: "configuration/4854be82fb1c7f06bb6686a31f395aaben-US"},
+	LoadProcessModules: {path: "configuration/b69711d0734c5239908a449b986c0b89en-US", 
 		messages: {
 			"GetProcessExecData": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	LocalDuplicateSearchPage: {
+		}},
+	LoadRightsModuleMixin: {path: "configuration/37e706ea2374ba4f881834b9a840ae7een-US"},
+	LocalDuplicateSearchPage: {path: "configuration/d5e595142e6f45c4404051dec75d663den-US", 
 		css: ["LocalDuplicateSearchPage"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -1788,15 +2647,25 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"FindDuplicatesResult": { "direction": "publish", "mode": "broadcast" },
 			"GetDuplicateSearchConfig": { "direction": "publish", "mode": "ptp" },
 			"ChangeHeaderCaption": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	LocalDuplicateSearchPageV2CSS: {
-		css: ["LocalDuplicateSearchPageV2CSS"]
-	},
-	LookupPageCSS: {
-		css: ["LookupPageCSS"]
-	},
-	LookupPageV2: {
+		}},
+	LocalDuplicateSearchPageV2: {path: "configuration/2649cb3ab41b182659b944a84e64f61cen-US"},
+	LocalDuplicateSearchPageV2CSS: {path: "configuration/05a3c15d244c235bde2a3f7eba246d98en-US", 
+		css: ["LocalDuplicateSearchPageV2CSS"]},
+	LocalDuplicateSearchPageView: {path: "configuration/4f12ce5044f499f86bf44801a78950d0en-US"},
+	LocalDuplicateSearchPageViewModel: {path: "configuration/718fb3859a0564d3a93c06ffb5db6428en-US"},
+	LocalizableHelper: {path: "configuration/e3f2ffdc1318ba4e31d801a9c2a06201en-US"},
+	LocalizationChangeLogModalPage: {path: "configuration/713d6ca0001a341c5fb56b3bb73eac8den-US"},
+	LocalizationDesigner_FormPage: {path: "configuration/ebfb2b9091a60d8b1bce79ad642cdf76en-US"},
+	LocalizationUtilities: {path: "configuration/4de68cb457aabc2fd90e23118a3c5e46en-US"},
+	LookupColumnDestinationViewModel: {path: "configuration/1b9e30261e4e6cd9b6281bf5e4893f8cen-US"},
+	LookupEditPage: {path: "configuration/3c9c3e11c780259ee4f5b81d8e6d2afben-US"},
+	LookupManager: {path: "configuration/54567b0a1d12c4aea72942c4b79b5b68en-US"},
+	LookupManagerItem: {path: "configuration/688a292dd90eb65db01efc974c980134en-US"},
+	LookupMultiAddMixin: {path: "configuration/c49e71df5d5d4ccfa943ce214936afa6en-US"},
+	LookupPage: {path: "configuration/9e38bfd14809d7e092cdc11ca81b8e8fen-US"},
+	LookupPageCSS: {path: "configuration/72d90180e4b5c71aa078477f0b124cdcen-US", 
+		css: ["LookupPageCSS"]},
+	LookupPageV2: {path: "configuration/bea6afbe681c85b8478f019e8fbc0ae3en-US", 
 		css: ["LookupPageV2"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -1805,14 +2674,17 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ResultSelectedRows": { "direction": "publish", "mode": "ptp" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	LookupPageViewModelGenerator: {
+		}},
+	LookupPageViewGenerator: {path: "configuration/8c7f366d4c1c9ee45a2b6aa8326208cben-US"},
+	LookupPageViewModel: {path: "configuration/49f0ebb98cc270696d2adcfb3adb053cen-US"},
+	LookupPageViewModelGenerator: {path: "configuration/9fc8e2f931e941fde71faa0535d52ef4en-US", 
 		messages: {
 			"GetGridSettingsInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	LookupSectionModule: {
+		}},
+	LookupQuickAddMixin: {path: "configuration/e5c8a271eeafa3af432cdd6325a2caf2en-US"},
+	LookupSection: {path: "configuration/322c96a4ab516747f2ba4cb6ab3bc1ffen-US"},
+	LookupSectionGridRowViewModel: {path: "configuration/b4787bda0a87723b5e6d2a7057f728fden-US"},
+	LookupSectionModule: {path: "configuration/464f31d88d2e1dd6b289d84276e5cb26en-US", 
 		css: ["LookupSectionModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -1842,22 +2714,22 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetActiveViewName": { "direction": "subscribe", "mode": "ptp" },
 			"GetSectionFilterModuleId": { "direction": "subscribe", "mode": "ptp" },
 			"UpdatePageHeaderCaption": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	LookupUtilities: {
+		}},
+	LookupUtilities: {path: "configuration/5c57a40198d8fcc9c717947d129717b9en-US", 
 		messages: {
 			"OpenLookupPage": { "direction": "publish", "mode": "broadcast" },
 			"OpenFolderPage": { "direction": "publish", "mode": "broadcast" },
 			"LookupInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	MacrosListDetailModule: {
-		css: ["MacrosListDetailModule"]
-	},
-	MacrosModule: {
-		css: ["MacrosModule"]
-	},
-	MacrosPageModule: {
+		}},
+	LookupUtilitiesV2: {path: "configuration/d2e7c123795ed263bd77d2d8e9d9c6d9en-US"},
+	MacrosHelperServiceRequest: {path: "configuration/aa7502887f5a9509a1dc7d867f73692cen-US"},
+	MacrosListDetailModule: {path: "configuration/7b78f94882a2a865e27d7deae5c02582en-US", 
+		css: ["MacrosListDetailModule"]},
+	MacrosMenuItemsMappingUtilities: {path: "configuration/3cd84b1f0f86880ac41d81f12e6ae0a7en-US"},
+	MacrosModule: {path: "configuration/0bb8149dc0e993ee914c6f8b7eaf3296en-US", 
+		css: ["MacrosModule"]},
+	MacrosPage: {path: "configuration/4eb0a34d4ce05682fe2450ee48469f2ben-US"},
+	MacrosPageModule: {path: "configuration/361ef7ed202a8ed56c0001e867c942aaen-US", 
 		css: ["MacrosPageModule"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -1871,9 +2743,10 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ChangeCommandList": { "direction": "publish", "mode": "broadcast" },
 			"ChangeHeaderCaption": { "direction": "publish", "mode": "ptp" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	MailboxFolderSyncSettingsModule: {
+		}},
+	MacrosUtilities: {path: "configuration/40b6bd305c8292e205d4e7737f255008en-US"},
+	MacroUtils: {path: "configuration/3b426e18ed7f26293acbf4516b8ee446en-US"},
+	MailboxFolderSyncSettingsModule: {path: "configuration/7a647c63a57cfd5cc91d11909b39c563en-US", 
 		css: ["MailboxFolderSyncSettingsModule"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -1882,9 +2755,11 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ResultSelectedRows": { "direction": "publish", "mode": "ptp" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	MailboxSynchronizationSettingsModule: {
+		}},
+	MailBoxGridModule: {path: "configuration/bd5a4f3ab11625bc85bb5c1c0251ea27en-US"},
+	MailboxList: {path: "configuration/3fd67e6c9adb106917d4cc188c419b38en-US"},
+	MailboxRightsDetailRow: {path: "configuration/3ae85a604bcd678d62dfe97f07d217f9en-US"},
+	MailboxSynchronizationSettingsModule: {path: "configuration/deb0a2c283318f0faff305febed6b529en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -1894,9 +2769,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" },
 			"LoadModule": { "direction": "publish", "mode": "ptp" },
 			"MultiDeleteStateChange": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	MailboxSynchronizationSettingsPageModule: {
+		}},
+	MailboxSynchronizationSettingsPageModule: {path: "configuration/9f14586646f621de99f28fe91bbbb859en-US", 
 		css: ["MailboxSynchronizationSettingsPageModule"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -1908,9 +2782,11 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"InitDataViews": { "direction": "publish", "mode": "ptp" },
 			"ChangeHeaderCaption": { "direction": "publish", "mode": "ptp" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	MainHeader8xModule: {
+		}},
+	MailboxSyncSettingsViewModel: {path: "configuration/3ecad5a919e1b3b26deb1f017ff172f7en-US"},
+	MailingProvidersDetail: {path: "configuration/dd2fbcae34c101ce618517078e1dd185en-US"},
+	MailServerViewModel: {path: "configuration/8bbf3616b9e6dee0bdbee60135baba7den-US"},
+	MainHeader8xModule: {path: "configuration/7076e9dff0547fba60f7dbaf69e5e071en-US", 
 		css: ["MainHeader8xModule"], 
 		messages: {
 			"NeedHeaderCaption": { "direction": "publish", "mode": "broadcast" },
@@ -1930,18 +2806,16 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"SectionChanged": { "direction": "subscribe", "mode": "broadcast" },
 			"UpdatePageHeaderCaption": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateSection": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	MainHeaderCSS: {
-		css: ["MainHeaderCSS"]
-	},
-	MainHeaderExtensions: {
+		}},
+	MainHeader8xSchema: {path: "configuration/7445ad0d1545f6c105967f471176de68en-US"},
+	MainHeaderCSS: {path: "configuration/1640521e07306f30cd5dc84022404810en-US", 
+		css: ["MainHeaderCSS"]},
+	MainHeaderExtensions: {path: "configuration/705db7f0500afab738f1202b1368cffben-US", 
 		css: ["MainHeaderExtensions"], 
 		messages: {
 			"AgentStateChanged": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	MainHeaderModule: {
+		}},
+	MainHeaderModule: {path: "configuration/f953f50dab0a0a678e129503d6f93318en-US", 
 		css: ["MainHeaderModule"], 
 		messages: {
 			"SectionChanged": { "direction": "subscribe", "mode": "broadcast" },
@@ -1961,9 +2835,9 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"AgentStateChanged": { "direction": "subscribe", "mode": "ptp" },
 			"CtiPanelConnected": { "direction": "subscribe", "mode": "ptp" },
 			"UpdatePageHeaderCaption": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	MainMenu: {
+		}},
+	MainHeaderSchema: {path: "configuration/75c30e3f877db5959682e98f0ea691a2en-US"},
+	MainMenu: {path: "configuration/f303c91e9e5b7b884377f0024c16c558en-US", 
 		css: ["MainMenu"], 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -1973,29 +2847,44 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	MainShellCSS: {
-		css: ["MainShellCSS"]
-	},
-	MapsModule: {
+		}},
+	MainMenuTileGenerator: {path: "configuration/fb307b4faf4c62cc1d360cef419cfb38en-US"},
+	MainMenuUtilities: {path: "configuration/e15a1b9a008c624c2ee492d239bc9597en-US"},
+	MainShell: {path: "configuration/03f137ca13ef8d70447c181a5de259c3en-US"},
+	MainShellCSS: {path: "configuration/dc098287b088a48bbd14cc237080df71en-US", 
+		css: ["MainShellCSS"]},
+	ManageApplicationRouter: {path: "configuration/e08d9d4ab13904ca6d064d64e699550ben-US"},
+	ManyToManyRelationsDetail: {path: "configuration/981b248a74b06514c97cb5ab67f114a9en-US"},
+	MappingEditMixin: {path: "configuration/e69d01cfa9c1c4b0e1e85557aff8e1dcen-US"},
+	MappingEnums: {path: "configuration/40208eed316f155362588959cbcc7b12en-US"},
+	MappingMenuBuilder: {path: "configuration/778eb55633ec42d8bfe63ce893295735en-US"},
+	MappingMenuItemConfigBuilder: {path: "configuration/e0fe4f2b5cd29565c548426917a68aa6en-US"},
+	MappingPageTabUtilities: {path: "configuration/36b7e07a922f14fe120638d91571bc5ben-US"},
+	Maps_Nearby: {path: "configuration/374b526bd8b22645f5a80bfbb2f76362en-US"},
+	MapsHelper: {path: "configuration/9fd0f7287ee566c1b69a98425f10ab02en-US"},
+	MapsModule: {path: "configuration/547a2da1dda59bbe952053361258dfd4en-US", 
 		css: ["MapsModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetMapsConfig": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	MapsUtilities: {
+		}},
+	MapsUtilities: {path: "configuration/38ecd87ca90c1456d862d066c62bdafben-US", 
 		messages: {
 			"GetMapsConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	MenuItemsMappingMixin: {
-		css: ["MenuItemsMappingMixin"]
-	},
-	MergeDuplicatesPage: {
+		}},
+	MaskHelper: {path: "configuration/129e8d53bcc598e460d8235c94b13d07en-US"},
+	McpProcessSelectionPage: {path: "configuration/0df1700f53da04246ee1e49cf28596f2en-US"},
+	McpServer_FormPage: {path: "configuration/b4bd151693632ff931444b5db63c3ceeen-US"},
+	McpServer_ListPage: {path: "configuration/fb02292edac2ca14910d5ffffd886bdaen-US"},
+	McpSourceActionSelectionPage: {path: "configuration/6a00151632b1f17167b00c211b328b5cen-US"},
+	McpTool_FormPage: {path: "configuration/860ca4dc6bdbd63b4a571e5ee558fdfcen-US"},
+	MeetingInvitationsMixin: {path: "configuration/59ce7c3b6bbdfea6bc87f7180f87edecen-US"},
+	MenuItemsMappingMixin: {path: "configuration/a6c2ffe369ef98da1b3bd65efcf7071fen-US", 
+		css: ["MenuItemsMappingMixin"]},
+	MenuUtilities: {path: "configuration/a2a5df7b536b3fb30581d451422c98b8en-US"},
+	MergeDuplicatesPage: {path: "configuration/6e1bec6f71e3e70b78ae20beb52a42cden-US", 
 		css: ["MergeDuplicatesPage"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -2010,9 +2899,12 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"RequestDetailItems": { "direction": "publish", "mode": "ptp" },
 			"GetContextHelpId": { "direction": "subscribe", "mode": "ptp" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	MessageHistoryModule: {
+		}},
+	MergeDuplicatesPageView: {path: "configuration/dba56a866307cef475385ffe91d03b9cen-US"},
+	MergeDuplicatesPageViewModel: {path: "configuration/151c8715deff703e8dc5e8c559f6f8bcen-US"},
+	MergeRecordsResolveConflictsModuleLoader: {path: "configuration/f645a49744cb2f3bcbc2d4f39972005cen-US"},
+	MessageConstants: {path: "configuration/639a3cf6fb93396da5d687e600d6cfeden-US"},
+	MessageHistoryModule: {path: "configuration/23eae373c4ce526091e002ba7d06755aen-US", 
 		messages: {
 			"RerenderModule": { "direction": "subscribe", "mode": "ptp" },
 			"GetRecordInfo": { "direction": "publish", "mode": "ptp" },
@@ -2020,21 +2912,19 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetCardState": { "direction": "publish", "mode": "ptp" },
 			"InitModuleViewModel": { "direction": "subscribe", "mode": "ptp" },
 			"UpdatePageHeaderCaption": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	MessageHistoryMultilineLabel: {
-		css: ["MessageHistoryMultilineLabel"]
-	},
-	MessageHistoryPageCSS: {
-		css: ["MessageHistoryPageCSS"]
-	},
-	MessageHistorySelectionHandler: {
-		css: ["MessageHistorySelectionHandler"]
-	},
-	MessageHistoryStyle: {
-		css: ["MessageHistoryStyle"]
-	},
-	MessagePublishersModule: {
+		}},
+	MessageHistoryMultilineLabel: {path: "configuration/f8c0c04a99ae1f21463c03ad46fa8a4ben-US", 
+		css: ["MessageHistoryMultilineLabel"]},
+	MessageHistoryPage: {path: "configuration/9b856cc88a46226f61e17f467cec517aen-US"},
+	MessageHistoryPageCSS: {path: "configuration/ff59ac7569e7e29015018b7165bfdbdben-US", 
+		css: ["MessageHistoryPageCSS"]},
+	MessageHistorySelectionHandler: {path: "configuration/18033889431168d18717a8f79c0ff522en-US", 
+		css: ["MessageHistorySelectionHandler"]},
+	MessageHistoryStyle: {path: "configuration/997f5af92298ab21a442217d8005bccben-US", 
+		css: ["MessageHistoryStyle"]},
+	MessageHistoryUtilities: {path: "configuration/df62275c071e9e17265e354a02ca7a8aen-US"},
+	MessagePublisherAttachmentUtilities: {path: "configuration/f8c012c35d3d74f05feba5fe441a062ben-US"},
+	MessagePublishersModule: {path: "configuration/470ed3c5ed4fd098be32967f9545bdaaen-US", 
 		css: ["MessagePublishersModule"], 
 		messages: {
 			"RerenderModule": { "direction": "subscribe", "mode": "ptp" },
@@ -2043,45 +2933,106 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"InitModuleViewModel": { "direction": "subscribe", "mode": "ptp" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"RerenderPublisherModule": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	MiniPageDatePeriodGenerator: {
-		css: ["MiniPageDatePeriodGenerator"]
-	},
-	MiniPageDesignerModule: {
-		css: ["MiniPageDesignerModule"]
-	},
-	MiniPageViewGeneratorCSS: {
-		css: ["MiniPageViewGeneratorCSS"]
-	},
-	MLColumnSelectionModule: {
-		css: ["MLColumnSelectionModule"]
-	},
-	MLModelPageCSS: {
-		css: ["MLModelPageCSS"]
-	},
-	MLModelSectionCSS: {
-		css: ["MLModelSectionCSS"]
-	},
-	MLModelStateProgressBarUtils: {
-		css: ["MLModelStateProgressBarUtils"]
-	},
-	MLPredictionExplanationCSS: {
-		css: ["MLPredictionExplanationCSS"]
-	},
-	MobileActionShareLink: {
-		css: ["MobileActionShareLink"]
-	},
-	MobileActivityFreedomUIStyles: {
-		css: ["MobileActivityFreedomUIStyles"]
-	},
-	MobileActivityGridPageViewV2: {
-		css: ["MobileActivityGridPageViewV2"]
-	},
-	MobileBaseDashboardItem: {
-		css: ["MobileBaseDashboardItem"]
-	},
-	MobileBaseDesignerModule: {
+		}},
+	MessagePublishersPage: {path: "configuration/70310f21b0414e4a20d8c4e05fc09095en-US"},
+	MiniPage_ClearConfActivityLog: {path: "configuration/2a7ceaa19482ac682a4c7ce390567706en-US"},
+	MiniPageContainerViewModel: {path: "configuration/49dafc1299357eb3766613ef523ba9daen-US"},
+	MiniPageDatePeriodGenerator: {path: "configuration/74c43730c201f6b0f7d30d53bf164465en-US", 
+		css: ["MiniPageDatePeriodGenerator"]},
+	MiniPageDesignerBuilder: {path: "configuration/6fcbfcfe26bf0402b6e864b6268601ffen-US"},
+	MiniPageDesignerModule: {path: "configuration/54e2fe0303c72022517a26a2b7efb0b3en-US", 
+		css: ["MiniPageDesignerModule"]},
+	MiniPageDesignerSchema: {path: "configuration/4bf5e42f6b984615ef0b43ea87d0d63een-US"},
+	MiniPageDesignerViewGenerator: {path: "configuration/c69acd1e0538e63fabdedf5197fb8425en-US"},
+	MiniPageDesignerViewModelGenerator: {path: "configuration/2aecfa8859011bfaa15c5420b6e8488fen-US"},
+	MiniPageEditControlsGenerator: {path: "configuration/8d64537563bd5caaba18d31a77186099en-US"},
+	MiniPageEntityConnectionsUtils: {path: "configuration/9a2119ca596a29666dda4e34dfe63ba5en-US"},
+	MiniPageListener: {path: "configuration/2a3bf74913ec0e2644e1b7a91dfdf75fen-US"},
+	MiniPageModule: {path: "configuration/11360f0b664517af1742bcec1fc6f633en-US"},
+	MiniPageResourceUtilities: {path: "configuration/53785f6b16fd5a115fce5b4658a943dfen-US"},
+	MiniPageUtilities: {path: "configuration/b70fdb2e2093b1b7617e183b0b75b0c9en-US"},
+	MiniPageViewGenerator: {path: "configuration/c8d125e9898b85d30454f9bb9a1afbc8en-US"},
+	MiniPageViewGeneratorCSS: {path: "configuration/454fe619190579b56d85763f0214ab29en-US", 
+		css: ["MiniPageViewGeneratorCSS"]},
+	MinuteHourCronExpressionPage: {path: "configuration/5f220affa2649a88c169e879998c9877en-US"},
+	MjmlContentExporter: {path: "configuration/0d84bfbcee374dc7a57748d7c9919d96en-US"},
+	MLangContentContainerModule: {path: "configuration/a06744db1ebbc5fb3fc4caa969fec7fben-US"},
+	MLClassificationModelPage: {path: "configuration/d4bde2787e790466f058178062d3905een-US"},
+	MLColumnSelectionModule: {path: "configuration/d5db6cb180a51ebebae3e4eaee1c1db2en-US", 
+		css: ["MLColumnSelectionModule"]},
+	MLColumnSelectionSchema: {path: "configuration/75cd21fad4ee8f89fc5b69eebe58e640en-US"},
+	MLConfigurationConsts: {path: "configuration/b3694712a722a83f390df2134c7100f8en-US"},
+	MLDataPredictionUserTaskPropertiesPage: {path: "configuration/b854055b8e6c1b67c68ad7cab0748b07en-US"},
+	MLListPredictionMixin: {path: "configuration/33515fe516425799aced5ebd71028b64en-US"},
+	MLModelColumnViewModel: {path: "configuration/aefaa699302555935936af35ccaf0a22en-US"},
+	MLModelMiniPage: {path: "configuration/00f5e1e2213ac99627216f0e5b6c981cen-US"},
+	MLModelPage: {path: "configuration/290ed606783f4133fefaa6475bbddfaeen-US"},
+	MLModelPageCSS: {path: "configuration/270a624fdee18937cc3c051dab14c81ben-US", 
+		css: ["MLModelPageCSS"]},
+	MLModelPageFiltersMixin: {path: "configuration/730c5c715f7e6005e9cf9a86e5aba7eben-US"},
+	MLModelSection: {path: "configuration/9bf3268ec18da7830d91391d105443ccen-US"},
+	MLModelSectionCSS: {path: "configuration/cc5bb78499003db11358cd93ecbfce3den-US", 
+		css: ["MLModelSectionCSS"]},
+	MLModelStateProgressBarUtils: {path: "configuration/bfe8564e565dea8236dfcad1867e19d8en-US", 
+		css: ["MLModelStateProgressBarUtils"]},
+	MLModelTrainSessionDetailV2: {path: "configuration/b23ee8a7c14ef5b0217ba042f9f65f59en-US"},
+	MLPredictionExplanation: {path: "configuration/12bc5e86bae02d4ee1acf571489f8fbben-US"},
+	MLPredictionExplanationCSS: {path: "configuration/c47012d0372cb352e85177d7fb1c5d59en-US", 
+		css: ["MLPredictionExplanationCSS"]},
+	MLPredictionPageMixin: {path: "configuration/32265d9ebe2155262e684e4ffc1bb896en-US"},
+	MLPredictor: {path: "configuration/bb3480e74371c323839f18ce1d5d9169en-US"},
+	MLRecommendationModelPage: {path: "configuration/390738ef5d2b72c454eeb3ebe454d8d7en-US"},
+	MLRegressionModelPage: {path: "configuration/2ac4eacf9bb8c8e1f1d70f2bab99d3a7en-US"},
+	MLScoringModelPage: {path: "configuration/aa61bacbcd1f5d06335d41c88383c0f5en-US"},
+	MLSequencePredictionModelPage: {path: "configuration/b6d94856d31a4061b670e64518a8f040en-US"},
+	MLTextSimilarityModelPage: {path: "configuration/05e6c0ba7fef3f3a2aa56fd387c2f38een-US"},
+	MobileAccountActionsSettingsDefaultWorkplace: {path: "configuration/1f369dcba4eb1aa1a0e5376c9735f5bcen-US"},
+	MobileAccountAddressModelConfig: {path: "configuration/515ea920316df1aba9e5b11899c3a9ecen-US"},
+	MobileAccountAnniversaryModelConfig: {path: "configuration/7fa3ca2a05eea998cd1180f1a49cd0f1en-US"},
+	MobileAccountCommunicationModelConfig: {path: "configuration/ed4b0e41768d4c652a1c4c8677858e89en-US"},
+	MobileAccountGridPage: {path: "configuration/1676e2f7f8a3de334feaf642598be7b1en-US"},
+	MobileAccountGridPageSettingsDefaultWorkplace: {path: "configuration/5fe61dac64cd5570efb6d3fd43264403en-US"},
+	MobileAccountModelConfig: {path: "configuration/37e588c116a318b3cae3c04a62db3d07en-US"},
+	MobileAccountModuleConfig: {path: "configuration/99eb67af03143c2d62adc787af8c404den-US"},
+	MobileAccountPreviewPage: {path: "configuration/f33aab7a88b39e4fd8ce6b1a6f71a048en-US"},
+	MobileAccountRecordPageSettingsDefaultWorkplace: {path: "configuration/89e2c9870056cbe47f91b1b7cc0250d5en-US"},
+	MobileActionAddFileAndLinks: {path: "configuration/2213320a6ea49e3685d76bbaa305f47ben-US"},
+	MobileActionCheckIn: {path: "configuration/c45b3aa4562bb1ebf7ed95361499f4c6en-US"},
+	MobileActionsDesignerSettings: {path: "configuration/8bc2d9f763429f1c5ab77469d2a75f87en-US"},
+	MobileActionShareLink: {path: "configuration/4cdf2f1021563baf0b9c6cb18a2c8c72en-US", 
+		css: ["MobileActionShareLink"]},
+	MobileActivityActionsSettingsDefaultWorkplace: {path: "configuration/b190c69b2e78530b5fffdbed48e43abaen-US"},
+	MobileActivityActionsUtilities: {path: "configuration/2bb3460d46acf275c9a92d71ca5ee263en-US"},
+	MobileActivityCacheManager: {path: "configuration/c305bfa219e9a86b9e67a3039a9b3a27en-US"},
+	MobileActivityEditPage: {path: "configuration/a8eb8637a463c08f3ef39d56020fafccen-US"},
+	MobileActivityFreedomUIStyles: {path: "configuration/faba99756c105408197e06e8e844754fen-US", 
+		css: ["MobileActivityFreedomUIStyles"]},
+	MobileActivityGridPage: {path: "configuration/4f866ad0fb8fb6dac011dba7b8492a7fen-US"},
+	MobileActivityGridPageControllerV2: {path: "configuration/96751c3fae5b2e0c27f9a0393d0eeaa2en-US"},
+	MobileActivityGridPageDataV2: {path: "configuration/222459192aa0df55ac263891e8ba2551en-US"},
+	MobileActivityGridPageSettingsDefaultWorkplace: {path: "configuration/4ae076126d15487d5151540552647029en-US"},
+	MobileActivityGridPageViewV2: {path: "configuration/804d267860de05ea0f2ff0cdfa877781en-US", 
+		css: ["MobileActivityGridPageViewV2"]},
+	MobileActivityImportHelper: {path: "configuration/5eccddcca307a7225a8e38dff4c7649aen-US"},
+	MobileActivityModelConfig: {path: "configuration/0411cd3db1477723fdad8dddac65ed0aen-US"},
+	MobileActivityModuleConfig: {path: "configuration/6458e2feae1487f0654e1185b04a1b20en-US"},
+	MobileActivityParticipantGridPage: {path: "configuration/ad333fd4101bb394b7124a1779f57ef7en-US"},
+	MobileActivityParticipantGridPageController: {path: "configuration/b5d3f92b4520bd7db5279efe9a6abc54en-US"},
+	MobileActivityParticipantGridPageView: {path: "configuration/4fd7c0185b9319262de090c6a3e3458een-US"},
+	MobileActivityParticipantModelConfig: {path: "configuration/96f8f191e78e078711cc44709e0f1386en-US"},
+	MobileActivityParticipantModuleConfig: {path: "configuration/9bc3e45418e9c7ae1598fd64cc9aec0den-US"},
+	MobileActivityPreviewPage: {path: "configuration/5f40a7fad4af223d174f5f7b399725eeen-US"},
+	MobileActivityRecordPageSettingsDefaultWorkplace: {path: "configuration/d9165f5dfe523491d6df2888b46f5330en-US"},
+	MobileAnalyticsService: {path: "configuration/c82cc138081f34e012b2feb15fb4a3c7en-US"},
+	MobileAnalyticsServiceGridDataProxy: {path: "configuration/663adc8c2f6241087c3d7c11db075ac9en-US"},
+	MobileAnalyticsServiceResponseParser: {path: "configuration/fb4fc83e6a2b943a59083bbd72c489b5en-US"},
+	MobileApplicationBaseManifest: {path: "configuration/4bd2b436e186d63bf277f045e6553f93en-US"},
+	MobileApplicationManifestDefaultWorkplace: {path: "configuration/4ddf7228a26ffaa6dfb401babc352aa5en-US"},
+	MobileApplicationManifestPortal: {path: "configuration/2c55e6aebe978caff6da4b3887cc7447en-US"},
+	MobileBaseDashboardItem: {path: "configuration/a3c953e761034d56f7b6ed1e632ccb76en-US", 
+		css: ["MobileBaseDashboardItem"]},
+	MobileBaseDashboardItemConfigGenerator: {path: "configuration/679c49796131e051233ed6d1e4acf782en-US"},
+	MobileBaseDesignerModule: {path: "configuration/52d4b1b26b8be85b8e951308c219f1b0en-US", 
 		css: ["MobileBaseDesignerModule"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -2091,39 +3042,54 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PostDesignerSettings": { "direction": "subscribe", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"StructureExplorerInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	MobileCacheSyncStateControllerMixin: {
-		css: ["MobileCacheSyncStateControllerMixin"]
-	},
-	MobileChartDashboardItem: {
-		css: ["MobileChartDashboardItem"]
-	},
-	MobileCommonFreedomUIStyles: {
-		css: ["MobileCommonFreedomUIStyles"]
-	},
-	MobileCss: {
-		css: ["MobileCss"]
-	},
-	MobileDashboardContainer: {
-		css: ["MobileDashboardContainer"]
-	},
-	MobileDashboardFreedomUIStyles: {
-		css: ["MobileDashboardFreedomUIStyles"]
-	},
-	MobileDashboardItemPageView: {
-		css: ["MobileDashboardItemPageView"]
-	},
-	MobileDashboardPageController: {
-		css: ["MobileDashboardPageController"]
-	},
-	MobileDashboardPageView: {
-		css: ["MobileDashboardPageView"]
-	},
-	MobileDashboardViewGenerator: {
-		css: ["MobileDashboardViewGenerator"]
-	},
-	MobileDesignerModule: {
+		}},
+	MobileBaseDesignerSettings: {path: "configuration/9a2c4bd4d4cb44f0c543647be4f222f8en-US"},
+	MobileCacheSyncStateControllerMixin: {path: "configuration/ae33302d1461857531a607bd6a2f8316en-US", 
+		css: ["MobileCacheSyncStateControllerMixin"]},
+	MobileCalendar_ListPage: {path: "configuration/0d636125daab2858a4565609a9165bf3en-US"},
+	MobileCallerIdDataLoader: {path: "configuration/b0050f766fa65774eaaefec2ba811bffen-US"},
+	MobileChartDashboardItem: {path: "configuration/0e36cabafb0364245e1ee660fcb40ea6en-US", 
+		css: ["MobileChartDashboardItem"]},
+	MobileChartDashboardItemConfigGenerator: {path: "configuration/7ca75ccfc29776300426ba9edbae3ea3en-US"},
+	MobileChartDashboardItemPageController: {path: "configuration/f000a509ea12561524829e9b1b08b488en-US"},
+	MobileChartDashboardItemPageView: {path: "configuration/f522d2a0c2b6150714af2a1004aa5562en-US"},
+	MobileCommonFreedomUIStyles: {path: "configuration/49608854445d8bc64bf8b698aaf07a39en-US", 
+		css: ["MobileCommonFreedomUIStyles"]},
+	MobileConstants: {path: "configuration/920c84adc00f5b81685014d9fcc7741een-US"},
+	MobileContactActionsSettingsDefaultWorkplace: {path: "configuration/e9e20e5045dbb0f04f013e6c49a7acdcen-US"},
+	MobileContactAddressModelConfig: {path: "configuration/04480934cd7f65e29b14e939916c0653en-US"},
+	MobileContactAnniversaryModelConfig: {path: "configuration/24806cfd9854cb07338cfbf6d5d74ae7en-US"},
+	MobileContactCommunicationModelConfig: {path: "configuration/76b716ee136a23a0d2d9b5d2825c43afen-US"},
+	MobileContactGridPageSettingsDefaultWorkplace: {path: "configuration/7bf47dc66f0659c081d8e2e9b1babae0en-US"},
+	MobileContactModuleConfig: {path: "configuration/341eba3316af241760071d46509128acen-US"},
+	MobileContactPreviewPage: {path: "configuration/64e35ba93d268e04ce719412633dc236en-US"},
+	MobileContactRecordPageSettingsDefaultWorkplace: {path: "configuration/4b29e809a388faf24f361156d189e4daen-US"},
+	MobileCss: {path: "configuration/e5f0277bb04f6611ba7110cebf4d3deaen-US", 
+		css: ["MobileCss"]},
+	MobileDashboardContainer: {path: "configuration/5cfc91fe8c2bb692aede14729322bfc7en-US", 
+		css: ["MobileDashboardContainer"]},
+	MobileDashboardDataManager: {path: "configuration/36270bdf05894e88e6eef94063b4cc51en-US"},
+	MobileDashboardEnums: {path: "configuration/4ed458092863f34a76c2738fb4e3e676en-US"},
+	MobileDashboardFreedomUIStyles: {path: "configuration/a1ce56a73823ecd616405bd91d59700cen-US", 
+		css: ["MobileDashboardFreedomUIStyles"]},
+	MobileDashboardItemPageController: {path: "configuration/a25728c021714dbadbb66d9bdb5b2013en-US"},
+	MobileDashboardItemPageView: {path: "configuration/ef16e94e397759b4dc66ad9c1291a5bcen-US", 
+		css: ["MobileDashboardItemPageView"]},
+	MobileDashboardPage: {path: "configuration/186a4bedd9e4fed2e8599e5344855842en-US"},
+	MobileDashboardPageController: {path: "configuration/50e1dd7ae0862d1cb7c3c06324ae7604en-US", 
+		css: ["MobileDashboardPageController"]},
+	MobileDashboardPageView: {path: "configuration/e1fb8b2d879b85f54fd0ac5f39b0e90een-US", 
+		css: ["MobileDashboardPageView"]},
+	MobileDashboardUtils: {path: "configuration/bd1b065f3e91b1e615b396d16a6ff221en-US"},
+	MobileDashboardViewGenerator: {path: "configuration/aa19abf1609908d6101008b40c322de7en-US", 
+		css: ["MobileDashboardViewGenerator"]},
+	MobileDesignerApplicationManifest: {path: "configuration/23ae4ddfb7954b24b749bbe03b76d6b6en-US"},
+	MobileDesignerConfigManager: {path: "configuration/571e49df27355c1bb095b67cb65c1100en-US"},
+	MobileDesignerConverter: {path: "configuration/9fb6f442494e00d214edf6228197524aen-US"},
+	MobileDesignerEnums: {path: "configuration/172c46cc36424ccde951375d80fd53a9en-US"},
+	MobileDesignerManifestColumnResolver: {path: "configuration/f6f46aa3877e4504806c4eca39d3e3b1en-US"},
+	MobileDesignerMetadataToManifestConverter: {path: "configuration/afd95545d1ed01a34bfc33172035c83aen-US"},
+	MobileDesignerModule: {path: "configuration/3ee7e5bc8739393e59e3722b61712dc8en-US", 
 		css: ["MobileDesignerModule"], 
 		messages: {
 			"BackHistoryState": { "direction": "subscribe", "mode": "broadcast" },
@@ -2135,12 +3101,13 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"RefreshCacheHash": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateHeader": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	MobileDesignerUtils: {
-		css: ["MobileDesignerUtils"]
-	},
-	MobileDetailDesignerModule: {
+		}},
+	MobileDesignerModulePage: {path: "configuration/b397269134ae9fb626177b423518c35een-US"},
+	MobileDesignerSchemaManager: {path: "configuration/936bcee02c83d0bdfa9b2694010b4b10en-US"},
+	MobileDesignerUtils: {path: "configuration/6668c72f5d8e6a288981a1b6abf7d257en-US", 
+		css: ["MobileDesignerUtils"]},
+	MobileDesignerViewGenerator: {path: "configuration/30b34c461e67f1805492e373ac7dd4dben-US"},
+	MobileDetailDesignerModule: {path: "configuration/90022ded61811703f49db8fb7c715c98en-US", 
 		css: ["MobileDetailDesignerModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -2150,27 +3117,35 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ColumnSelected": { "direction": "subscribe", "mode": "ptp" },
 			"GetDesignerSettings": { "direction": "publish", "mode": "ptp" },
 			"PostDesignerSettings": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	MobileFeedCommentsList: {
-		css: ["MobileFeedCommentsList"]
-	},
-	MobileFeedFreedomUIStyles: {
-		css: ["MobileFeedFreedomUIStyles"]
-	},
-	MobileFeedList: {
-		css: ["MobileFeedList"]
-	},
-	MobileFieldForceFreedomUIStyles: {
-		css: ["MobileFieldForceFreedomUIStyles"]
-	},
-	MobileFileAndLinksEditControllerV2: {
-		css: ["MobileFileAndLinksEditControllerV2"]
-	},
-	MobileGridDashboardItem: {
-		css: ["MobileGridDashboardItem"]
-	},
-	MobileGridDesignerModule: {
+		}},
+	MobileDynamicLinkReceiver: {path: "configuration/a3c7abb37147239fa5c84a98179eb4ccen-US"},
+	MobileEditPageController: {path: "configuration/c1e4d1065f32d8f38e6bce4a1fd99cbeen-US"},
+	MobileFeedCommentsList: {path: "configuration/4b847897b3aa45b7f68fad69b9f75ccaen-US", 
+		css: ["MobileFeedCommentsList"]},
+	MobileFeedFreedomUIStyles: {path: "configuration/f7432a810f7afbaafd1180ea57a280f3en-US", 
+		css: ["MobileFeedFreedomUIStyles"]},
+	MobileFeedList: {path: "configuration/0702cc129f56366deba1751900d1655cen-US", 
+		css: ["MobileFeedList"]},
+	MobileFieldForceFreedomUIStyles: {path: "configuration/e043afd631597d02dfc2be1aabd5226aen-US", 
+		css: ["MobileFieldForceFreedomUIStyles"]},
+	MobileFileAndLinksBusinessRule: {path: "configuration/0e3a0cd57e47a82dca6a4993b2340982en-US"},
+	MobileFileAndLinksEditControllerV2: {path: "configuration/3b07a3ed15695907efda08ecb9d0d5a0en-US", 
+		css: ["MobileFileAndLinksEditControllerV2"]},
+	MobileFileAndLinksEmbeddedDetailGenerator: {path: "configuration/d118dc019ddc82df4afeaa9a9dfe092cen-US"},
+	MobileFileAndLinksPreviewControllerV2: {path: "configuration/35de203c5aeb8900d2ee33f2af568bf0en-US"},
+	MobileFileService: {path: "configuration/b5ecef6bd0ba2365d0231febeb31f23den-US"},
+	MobileFileServiceProvider: {path: "configuration/37dd7dc8da313069f5f44961cce10f8fen-US"},
+	MobileFoldersData: {path: "configuration/da1f1c8158602757e54def247f8d8ae2en-US"},
+	MobileFoldersStore: {path: "configuration/88819bf69cd69e647ffca149f421e76cen-US"},
+	MobileFreedomUIStylesUtils: {path: "configuration/f4c6bac6e70becfd13d940ea99589254en-US"},
+	MobileFUIAccountGridPageSettingsDefaultWorkplace: {path: "configuration/fce99280133da781c25e314f8d0c8410en-US"},
+	MobileFUIAccountRecordPageSettingsDefaultWorkplace: {path: "configuration/3c0f5e0bfce6591c66c1ba853125804een-US"},
+	MobileFUIActivityRecordPageSettingsDefaultWorkplace: {path: "configuration/254f226a4be2069878884213887c6bd3en-US"},
+	MobileFUIContactGridPageSettingsDefaultWorkplace: {path: "configuration/cda4a73f92bc4e425c5bf2ff8792a555en-US"},
+	MobileFUIContactRecordPageSettingsDefaultWorkplace: {path: "configuration/348c22029c144e6cddbc7f787e4092bden-US"},
+	MobileGridDashboardItem: {path: "configuration/8cefd3459f51980885753557f77529e2en-US", 
+		css: ["MobileGridDashboardItem"]},
+	MobileGridDesignerModule: {path: "configuration/7f70c5ac2943aca68320581cea1d0545en-US", 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ColumnSelected": { "direction": "subscribe", "mode": "ptp" },
@@ -2179,18 +3154,25 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PostDesignerSettings": { "direction": "subscribe", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"StructureExplorerInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	MobileIndicatorDashboardComponent: {
-		css: ["MobileIndicatorDashboardComponent"]
-	},
-	MobileIndicatorDashboardItem: {
-		css: ["MobileIndicatorDashboardItem"]
-	},
-	MobileIndicatorDashboardItemPageView: {
-		css: ["MobileIndicatorDashboardItemPageView"]
-	},
-	MobilePageDesignerModule: {
+		}},
+	MobileGridDesignerSettings: {path: "configuration/53958ef3dfdd5fcbd0b392c60bfd08eeen-US"},
+	MobileImageList: {path: "configuration/0d3ac00d711ba788851720d0e45433f6en-US"},
+	MobileIndicatorDashboardComponent: {path: "configuration/c87e2f8983516f6a8143c5cd92eda278en-US", 
+		css: ["MobileIndicatorDashboardComponent"]},
+	MobileIndicatorDashboardConfigGenerator: {path: "configuration/ee75e80ec42a57ac0f22a9514b67750fen-US"},
+	MobileIndicatorDashboardItem: {path: "configuration/67b21db259e6f94733228da4c02404a4en-US", 
+		css: ["MobileIndicatorDashboardItem"]},
+	MobileIndicatorDashboardItemPageController: {path: "configuration/d7bfdabe94aa8db2860555705b191e94en-US"},
+	MobileIndicatorDashboardItemPageView: {path: "configuration/ef5a9d56897ea8d9d9f3cd23c31402e7en-US", 
+		css: ["MobileIndicatorDashboardItemPageView"]},
+	MobileKnowledgeBaseFileModelConfig: {path: "configuration/207d95cfc040ef688c8a274b68eecd11en-US"},
+	MobileKnowledgeBaseModuleConfig: {path: "configuration/44109f7bc93705f321d7a7a02e137a37en-US"},
+	MobileLocalNotificationManager: {path: "configuration/314c56c22c4089cfe3e9aac4a3821450en-US"},
+	MobileLookupGridPageConfig: {path: "configuration/23913599a5071aa41c603ac960526251en-US"},
+	MobileMapsPage: {path: "configuration/058b4e7e28f8dbd6bcc695e7ff1fabe3en-US"},
+	MobileOpenPortalMessagePublisherPageAction: {path: "configuration/4ee8b8c5340941782160bf637ab4c63aen-US"},
+	MobileOpenStandardDetailAction: {path: "configuration/ef36d4dea5d2ad94df7570ff33e17f70en-US"},
+	MobilePageDesignerModule: {path: "configuration/82b3c64cc93ebb85d049fce1d8270719en-US", 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ColumnSelected": { "direction": "subscribe", "mode": "ptp" },
@@ -2199,71 +3181,109 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PostDesignerSettings": { "direction": "subscribe", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"StructureExplorerInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	MobilePhoneCallLogPage: {
-		css: ["MobilePhoneCallLogPage"]
-	},
-	MobilePortalMessagePublisherPage: {
-		css: ["MobilePortalMessagePublisherPage"]
-	},
-	MobileSectionDesignerSchemaModule: {
+		}},
+	MobilePageWithTabsFreedomTemplate: {path: "configuration/16184e2a5993af7eee94492e39fb1e5den-US"},
+	MobilePhoneCallLogPage: {path: "configuration/0b4812cd2b5a15c2b6f353078b78e355en-US", 
+		css: ["MobilePhoneCallLogPage"]},
+	MobilePhoneCallLogUtils: {path: "configuration/c058cb2403350f3a797beac13823afaaen-US"},
+	MobilePortalMessagePublisherPage: {path: "configuration/dc8a79256ac44cdfec05d39ef202753ben-US", 
+		css: ["MobilePortalMessagePublisherPage"]},
+	MobilePushNotificationReceiver: {path: "configuration/2a0e7b82446ed31231e16d26266ac37den-US"},
+	MobileRecordDesignerSettings: {path: "configuration/7b08d33ce2adcb041f9621d5005ef4f4en-US"},
+	MobileSectionDesignerEnums: {path: "configuration/e078ce8b8d8c9a3b09f70bb7f1b9a179en-US"},
+	MobileSectionDesignerModule: {path: "configuration/dccaf53bb0910663ff8dba656abb02acen-US"},
+	MobileSectionDesignerSchemaModule: {path: "configuration/830ee267a8c6ebd66d68c07a0b5ea145en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	MobileSocialMessageEditPage: {
-		css: ["MobileSocialMessageEditPage"]
-	},
-	MobileSocialMessageGridPageView: {
-		css: ["MobileSocialMessageGridPageView"]
-	},
-	MobileSocialMessageHtmlField: {
-		css: ["MobileSocialMessageHtmlField"]
-	},
-	MobileSocialMessagePreviewPage: {
-		css: ["MobileSocialMessagePreviewPage"]
-	},
-	MobileSocialMessageUtilities: {
-		css: ["MobileSocialMessageUtilities"]
-	},
-	MobileVisaEmbeddedDetailItem: {
-		css: ["MobileVisaEmbeddedDetailItem"]
-	},
-	ModalBox: {
-		css: ["ModalBox"]
-	},
-	ModalBoxSchemaModule: {
+		}},
+	MobileServiceHelper: {path: "configuration/a80245bec56cb1622f69454c13a3b3a2en-US"},
+	MobileSha3: {path: "configuration/49c257721d98e935f437bfdc90b51fc3en-US"},
+	MobileSocialMentionModelConfig: {path: "configuration/3ca749cb46156d666bca5e2752c57d4den-US"},
+	MobileSocialMessageActionsSettingsDefaultWorkplace: {path: "configuration/8abc7bb446f967fb5635a11175fd4e15en-US"},
+	MobileSocialMessageAssociateModelCacheManager: {path: "configuration/f218f0bb339af631f9ba63138b3fce39en-US"},
+	MobileSocialMessageEditPage: {path: "configuration/287f35ce2d22881507afe7c4c857e6afen-US", 
+		css: ["MobileSocialMessageEditPage"]},
+	MobileSocialMessageEntityLoader: {path: "configuration/574ac409ad7b7f849b5a13154aedab58en-US"},
+	MobileSocialMessageGridPage: {path: "configuration/47c2b36359846911fdf1e427bb52d93fen-US"},
+	MobileSocialMessageGridPageController: {path: "configuration/9cbfee8214d7c6f683a2ddb8aac62fa5en-US"},
+	MobileSocialMessageGridPageSettingsDefaultWorkplace: {path: "configuration/d5de4bc7093e1996e9b52f16999ad2dfen-US"},
+	MobileSocialMessageGridPageStore: {path: "configuration/7d09a802f6b41663e6fb22d2b6ab8e55en-US"},
+	MobileSocialMessageGridPageView: {path: "configuration/f30991e7b66ea5a6f26f5088d92c1dd3en-US", 
+		css: ["MobileSocialMessageGridPageView"]},
+	MobileSocialMessageHtmlField: {path: "configuration/06d4ebeb0e2bd52ada812087b572ebe4en-US", 
+		css: ["MobileSocialMessageHtmlField"]},
+	MobileSocialMessageLikeManager: {path: "configuration/a70e5b134e8f83ac167d3cc97c38519een-US"},
+	MobileSocialMessageModelConfig: {path: "configuration/707dd5022b2d391a312f03aad41a7b3cen-US"},
+	MobileSocialMessageModuleConfig: {path: "configuration/707a763f59a116b226e2ec2d20150331en-US"},
+	MobileSocialMessagePreviewPage: {path: "configuration/ca65bacb54fcf71f97345cfd5e9afc29en-US", 
+		css: ["MobileSocialMessagePreviewPage"]},
+	MobileSocialMessageRecordPageSettingsDefaultWorkplace: {path: "configuration/12ca9021721daa2f862a8170c1889594en-US"},
+	MobileSocialMessageUtilities: {path: "configuration/25b2c81cd310ef8c7420bf55e1209810en-US", 
+		css: ["MobileSocialMessageUtilities"]},
+	MobileSummariesData: {path: "configuration/04fde8f74972e868ba6fc925150e2453en-US"},
+	MobileSyncSett_Detail: {path: "configuration/b1f375dbced9e7c86d800a785a86521aen-US"},
+	MobileSyncSettings_FormPage: {path: "configuration/8069635d399ff1081645b0fad061eb41en-US"},
+	MobileSyncSettings_ListPage: {path: "configuration/5a3afa21ee26b7b19d7a68cd03155b9aen-US"},
+	MobileSysAdminUnitCacheManager: {path: "configuration/e2cbb0684a99a658216ed01c1729b9f9en-US"},
+	MobileUtilities: {path: "configuration/512810f9e51b495292304689af1ae25aen-US"},
+	MobileVisaActions: {path: "configuration/0119948aa5c67897cadf203ec4e90845en-US"},
+	MobileVisaEmbeddedDetailGenerator: {path: "configuration/e9fa0265b1c3efe877b40d106b7ed856en-US"},
+	MobileVisaEmbeddedDetailItem: {path: "configuration/6cf1ff006659a1da8fc4ccb0424ba9cfen-US", 
+		css: ["MobileVisaEmbeddedDetailItem"]},
+	ModalBox: {path: "configuration/ee7dfaf40b37ec6e7a42577444983657en-US", 
+		css: ["ModalBox"]},
+	ModalBoxSchemaModule: {path: "configuration/6366dedc1ee8395286b5d29fc34073dben-US", 
 		css: ["ModalBoxSchemaModule"], 
 		messages: {
 			"GetModuleInfo": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	MultiCurrencyEdit: {
-		css: ["MultiCurrencyEdit"]
-	},
-	MultiDeleteDetailModuleV2: {
+		}},
+	ModalUtils: {path: "configuration/ce4b381c722c6974b8b85a72421c52f3en-US"},
+	ModuleConfigEdit: {path: "configuration/cf4fec409674fb05503cd00d1d7dc2e6en-US"},
+	ModuleSectionEnums: {path: "configuration/510e31aa795d009fb619d07864c70d2een-US"},
+	ModuleUtils: {path: "configuration/a6c093bbcb330b4130bb02b7a30f780ben-US"},
+	MoneyEdit: {path: "configuration/a5bc9581dff4c87f8d4e37b87daaa501en-US"},
+	MoneyModule: {path: "configuration/2edeb2cf0014dfe076ef836f2e78dc78en-US"},
+	MoneyUtilsMixin: {path: "configuration/ef0b4f5843898b14355d8857f5b5f568en-US"},
+	MonthlyCronExpressionPage: {path: "configuration/7a2faa8959bae69b963a69a2945862fben-US"},
+	MultiCurrencyEdit: {path: "configuration/4aad7b532aedd44e8f13bc0cacea6426en-US", 
+		css: ["MultiCurrencyEdit"]},
+	MultiCurrencyEditUtilities: {path: "configuration/efa3cc5809824e74ef0ce0a3f29b1f0een-US"},
+	MultiCurrencyEditViewGenerator: {path: "configuration/a17c859ba8db373ddc98b2ebdab71d1cen-US"},
+	MultiDeleteDependencies: {path: "configuration/fdc30cda15f52001be6076ae5ffc6944en-US"},
+	MultiDeleteDependenciesSchema: {path: "configuration/106d8dce27fe28db3cc120ef86413019en-US"},
+	MultiDeleteDetailModuleV2: {path: "configuration/820b3b347827941c9e7701f2444159d3en-US", 
 		messages: {
 			"GetConfig": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	MultiDeleteResultHelper: {
-		css: ["MultiDeleteResultHelper"]
-	},
-	MultilineFileLabel: {
-		css: ["MultilineFileLabel"]
-	},
-	MultilineLabel: {
-		css: ["MultilineLabel"]
-	},
-	MultiLookupModule: {
-		css: ["MultiLookupModule"]
-	},
-	MultipleInput: {
-		css: ["MultipleInput"]
-	},
-	NavigationModule: {
+		}},
+	MultiDeleteDetailViewConfigV2: {path: "configuration/52b81ceb21e388b49022a4cd1613bf8aen-US"},
+	MultiDeleteDetailViewModelV2: {path: "configuration/3b44b6f9168a77a1b01385ac99add603en-US"},
+	MultiDeleteMessageBridge: {path: "configuration/3a9fe102dc8ec2f0061b8bf4353413d1en-US"},
+	MultiDeleteResultHelper: {path: "configuration/971a24ad8f5f23d261a138ae93691574en-US", 
+		css: ["MultiDeleteResultHelper"]},
+	MultiDeleteResultPageV2: {path: "configuration/ff950df071f35bd678cecd8e02afd6f7en-US"},
+	MultiDeleteResultSchema: {path: "configuration/feaee84c7a431a769838ead643f77e0den-US"},
+	MultiLanguageEmailContentBuilder: {path: "configuration/6512fce1c6fbe6950010a5afe40008aben-US"},
+	MultilineFileLabel: {path: "configuration/df3763a50f2d7e707c5e46479bfe5646en-US", 
+		css: ["MultilineFileLabel"]},
+	MultilineLabel: {path: "configuration/e1206995962c9b9780b0715150af09eden-US", 
+		css: ["MultilineLabel"]},
+	MultiLookupModule: {path: "configuration/a0267d5711fd8fb19d0fd1ebceb7ce5ben-US", 
+		css: ["MultiLookupModule"]},
+	MultiLookupUtilitiesMixin: {path: "configuration/63ece5aa4d47fa49b26e58d29d4658e5en-US"},
+	MultipleInput: {path: "configuration/c14505287c7b99fffe292ea188245072en-US", 
+		css: ["MultipleInput"]},
+	NavigateToConfigurationSettingsTile: {path: "configuration/fd0340fd83c80fd1aad9b9c11ac12bacen-US"},
+	NavigateToImportFromExcelTile: {path: "configuration/d22aa13d237f90113ddbd12d4a8d357den-US"},
+	NavigateToLDAPServerConfigurationTile: {path: "configuration/60bdcaed2090e262450a45600c373f91en-US"},
+	NavigateToProcessLibSectionTile: {path: "configuration/fddbff40ebca0a6b159ae01a37bdf739en-US"},
+	NavigateToSysLogoSettingsTile: {path: "configuration/2148734cd52452aed017c1ee779d2bb5en-US"},
+	NavigateToSysOperationAuditSectionTile: {path: "configuration/8929c27334464a0fe08fa15aedc2f12ben-US"},
+	NavigateToSysProcessLogSectionTile: {path: "configuration/f6521ea03bfd5241775905b01569709ben-US"},
+	NavigateToSysSectionPanelSettingsTile: {path: "configuration/ce110b9d8c44ddf4aa491be074193b0ben-US"},
+	NavigateToSysWorkplaceSectionTile: {path: "configuration/1e9af5819c45aa90e3fe9402c0cebb50en-US"},
+	NavigationHelper: {path: "configuration/bee3be7db2c11473ac7667e37f3bec0den-US"},
+	NavigationModule: {path: "configuration/07815bc2dff791b16065ede208819352en-US", 
 		messages: {
 			"BackHistoryState": { "direction": "subscribe", "mode": "broadcast" },
 			"BeforeHistoryChanging": { "direction": "publish", "mode": "ptp" },
@@ -2275,9 +3295,20 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PushHistoryState": { "direction": "subscribe", "mode": "broadcast" },
 			"RefreshCacheHash": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	NotificationsSettingsModule: {
+		}},
+	NavigationServiceUtility: {path: "configuration/a0b3a334c087b032a8536ebf0971bc2fen-US"},
+	NetworkUtilities: {path: "configuration/c06964c35173a8a70e3dd1310350c0f3en-US"},
+	NewColumnGridLayoutEditItemModel: {path: "configuration/c580277c51782f5986b352622a153493en-US"},
+	NewImportTemplateModalBox: {path: "configuration/5dc17b20edafdb3989cf23e74f839c2ben-US"},
+	NotesUtilities: {path: "configuration/7b4a7b517e3db26aeb86726f98f82e5een-US"},
+	NotificationCountersServiceRequest: {path: "configuration/dff8bef7b24f0e628a54458885caf637en-US"},
+	NotificationsPanel_AnniversaryNotificationsTab: {path: "configuration/8dff2b5eebfa70c08a59debb751943d0en-US"},
+	NotificationsPanel_BusinessProcessTab: {path: "configuration/fcb03efb34ffd164f590b5c32df1e061en-US"},
+	NotificationsPanel_EsnNotificationsTab: {path: "configuration/7d764d178747832e4de4023daaee0a14en-US"},
+	NotificationsPanel_ReminderTab: {path: "configuration/c104bedfef5ab61c8c59013771e2f0b2en-US"},
+	NotificationsPanel_SystemNotificationsTab: {path: "configuration/3e290216eb3a9a012efe9e9298b70aa7en-US"},
+	NotificationsPanel_VisaNotificationsTab: {path: "configuration/67cd7f26cea9c9492c96e6f86e1404faen-US"},
+	NotificationsSettingsModule: {path: "configuration/2ed57720be281fc8d4458f0b59a586f4en-US", 
 		css: ["NotificationsSettingsModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -2288,9 +3319,9 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"InitContextHelp": { "direction": "publish", "mode": "ptp" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	NUIBaseLookupEditPage: {
+		}},
+	NotificationsSettingsSchema: {path: "configuration/22ce0954e2f81f783e5aa8aa974269a1en-US"},
+	NUIBaseLookupEditPage: {path: "configuration/c37c00d71de0630ff22251822289f293en-US", 
 		css: ["NUIBaseLookupEditPage"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -2301,42 +3332,77 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ChangeHeaderCaption": { "direction": "publish", "mode": "ptp" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	OAuth20AppModule: {
-		css: ["OAuth20AppModule"]
-	},
-	OAuth20AppStyles: {
-		css: ["OAuth20AppStyles"]
-	},
-	ObjectAccessByOperationDetailCSS: {
-		css: ["ObjectAccessByOperationDetailCSS"]
-	},
-	OmnichannelSectionActionsDashboardCSS: {
-		css: ["OmnichannelSectionActionsDashboardCSS"]
-	},
-	OmniChatCommunicationPanelCSS: {
-		css: ["OmniChatCommunicationPanelCSS"]
-	},
-	OmniChatModule: {
-		css: ["OmniChatModule"]
-	},
-	OperatorSingleWindowWidgetModule: {
+		}},
+	OAuth20AppModalPage: {path: "configuration/0e51d50d8e093887dc1bcd5bd5589f4fen-US"},
+	OAuth20AppModule: {path: "configuration/09f57e2bd36cf1f5b1695b38985cc2e6en-US", 
+		css: ["OAuth20AppModule"]},
+	OAuth20AppPage: {path: "configuration/53c87ab2890a6b438ddcbb5fc2ddcdb0en-US"},
+	OAuth20AppSection: {path: "configuration/0812a8979cb41e0213ba0e96248406dben-US"},
+	OAuth20AppStyles: {path: "configuration/ace0ea91a7c52b9e77e0bd58832a24fden-US", 
+		css: ["OAuth20AppStyles"]},
+	OAuth20ServiceAuthInfoValuesPage: {path: "configuration/57c775817a2f522d1f634dc484c1e813en-US"},
+	OAuth20Utilities: {path: "configuration/d6a877bd9616fae6476f3c053051893aen-US"},
+	OAuthAppExtraParamsDetail: {path: "configuration/9501fabddf15565cceef5cb00991d849en-US"},
+	OAuthAppScopeDetail: {path: "configuration/b1ce09173ae45e9edc23c5a4cdd5278cen-US"},
+	OAuthAppScopePage: {path: "configuration/241fef5c6d15c77e75aef0b3608781b7en-US"},
+	OAuthAppUserDetail: {path: "configuration/e1eda98f2b8f9c9a0cfa823ebc35956fen-US"},
+	OAuthAuthenticationMixin: {path: "configuration/055521ce3b3104ddc1d5a4efc34ea24een-US"},
+	OAuthAuthenticationModule: {path: "configuration/579f5ab7b34c6b531b2587f722d2fe43en-US"},
+	OAuthAuthorization_Detail: {path: "configuration/39d1233c0513c8ac01a25c9458b68cc7en-US"},
+	OAuthAuthorization_ListPage: {path: "configuration/17a1b61af71289442ddcf28c89a49f8een-US"},
+	OAuthAuthorizationEditPage: {path: "configuration/0ba53151e8e0e19494e77d125f2a9350en-US"},
+	OAuthClientAppAuthCodeMiniPage: {path: "configuration/bb6c231decb923aa7b4b2de5b7887f6een-US"},
+	OAuthClientAppEditPage: {path: "configuration/0e8624c21b7c5b2b22c728d03703d7dfen-US"},
+	OAuthClientAppMiniPage: {path: "configuration/8205d4a0ceb4de076fb8907bfb223ce3en-US"},
+	OAuthClientAppPage: {path: "configuration/d33c3b877ae23d36b74db2e3e0e1fad9en-US"},
+	OAuthClientAppSection: {path: "configuration/6b020c391c9d77b2f0bb66b647fac2e4en-US"},
+	OAuthClientUsersSelectionPage: {path: "configuration/88664e4c152686f357a5b61c81252c2ben-US"},
+	OAuthSettingsMiniPage: {path: "configuration/41c835089bc6dc3bbd2fe844f8e80d58en-US"},
+	OauthSettingsModule: {path: "configuration/14ed28c9f04bfe2687f3a34f0727041fen-US"},
+	ObjectAccessByOperationDetail: {path: "configuration/bb9fec60d77521016969c9165ffb6137en-US"},
+	ObjectAccessByOperationDetailCSS: {path: "configuration/bfdecdbe970d583c99ec9acddb9d001een-US", 
+		css: ["ObjectAccessByOperationDetailCSS"]},
+	ObjectFileProcessingUserTaskPropertiesPage: {path: "configuration/88520364f3cf64300a98063a780d738cen-US"},
+	ObjectLinkStructureExplorerView: {path: "configuration/a66cd0734c4c7ac3b11bd770b7ae3b36en-US"},
+	ObjectLinkStructureExplorerViewModel: {path: "configuration/1e4a86089e20d8cd217f2f02f5cceb9cen-US"},
+	ObservableContainerList: {path: "configuration/ed1aa7ebfce46622b9093fb3049ec97den-US"},
+	OktaSettingsForm: {path: "configuration/15254201d335f03a7d5b17dbcd0ebf54en-US"},
+	OldTagMiniPage: {path: "configuration/53127390628f8c5da25fbd4ae93d149een-US"},
+	OmnichannelConsts: {path: "configuration/8f719012ae772d944ae7b7884e2e957een-US"},
+	OmnichannelContactsMenu: {path: "configuration/f9ca0e7576ad45d170df7f3d86ae24bcen-US"},
+	OmnichannelSectionActionsDashboardCSS: {path: "configuration/45378014607ef22cb911e2743166d662en-US", 
+		css: ["OmnichannelSectionActionsDashboardCSS"]},
+	OmniChatCommunicationPanelCSS: {path: "configuration/e7d4c651f2d7244ae342cc88a66a8ea3en-US", 
+		css: ["OmniChatCommunicationPanelCSS"]},
+	OmniChatComponent: {path: "configuration/f831393f2ba87b754c3ec428b81375b2en-US"},
+	OmniChatModule: {path: "configuration/e2215ce7636194efc9351dfa2f99eb01en-US", 
+		css: ["OmniChatModule"]},
+	OmniChatPage: {path: "configuration/9e12d6a17e6273b17fd2c9ec388df3aaen-US"},
+	OmniChatSchema: {path: "configuration/eed9e49e1a52312431b98a2a71a309eben-US"},
+	OmniChatSection: {path: "configuration/862e4fe293481809b53810604fef59b5en-US"},
+	OmniChatUtilities: {path: "configuration/caf5101624b806bce37dc7c75221bea5en-US"},
+	OpenAIModel_FormPage: {path: "configuration/e84840c6903aa30ea11f6077d7add968en-US"},
+	OpenEditPageUserTaskPropertiesPage: {path: "configuration/51bbbb6f8e19f208c5590d20e4fc05b6en-US"},
+	OperatorSingleWindowWidgetModule: {path: "configuration/77aa87daac283d911b858ff2272d01fcen-US", 
 		messages: {
 			"UpdateFilter": { "direction": "subscribe", "mode": "broadcast" },
 			"GetFiltersCollection": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	OsmMapsModule: {
+		}},
+	OpportunitySearchRowSchema: {path: "configuration/5d80e77fff88bb97568e6cabb4367cd9en-US"},
+	OptionalFuncSspRolesDetail: {path: "configuration/d69d975fc34641b602520b1e4bb94ec1en-US"},
+	OrderSearchRowSchema: {path: "configuration/734e08c751949bbfcc2b5e62826b546den-US"},
+	OrganizationDetail: {path: "configuration/c8405dd9a333b020ee3a1b107aece6bben-US"},
+	OrganizationDetailPage: {path: "configuration/5bb7ac279b50929fdf7be14412f19c83en-US"},
+	OsmMapsModule: {path: "configuration/5ca0f12b17ebe12ab448a27b1c87ca12en-US", 
 		css: ["OsmMapsModule"], 
 		messages: {
 			"GetMapsConfig": { "direction": "publish", "mode": "ptp" },
 			"SetMapsConfig": { "direction": "subscribe", "mode": "ptp" },
 			"GetCoordinates": { "direction": "publish", "mode": "ptp" },
 			"AfterRenderMap": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	OverdueActivitiesDashboardSection: {
+		}},
+	OutdatedModuleWatcher: {path: "configuration/f3ae500607eb7dec7f7a648f83fcb91den-US"},
+	OverdueActivitiesDashboardSection: {path: "configuration/93fc5f00860134a6e4caefae8494af07en-US", 
 		messages: {
 			"ReplaceHistoryState": { "direction": "publish", "mode": "ptp" },
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -2344,12 +3410,12 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetChartId": { "direction": "subscribe", "mode": "ptp" },
 			"GetChartFilter": { "direction": "subscribe", "mode": "ptp" },
 			"GetChartParameters": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	PackageDependenciesDiagramModule: {
-		css: ["PackageDependenciesDiagramModule"]
-	},
-	PackageMarketModule: {
+		}},
+	PackageAwareEntitySchemaDesignerUtilities: {path: "configuration/be6ebe25522324b28fa02272ab3249b0en-US"},
+	PackageDependenciesDiagramModule: {path: "configuration/cbea3ee3617231d54e711352d1fe5aeben-US", 
+		css: ["PackageDependenciesDiagramModule"]},
+	PackageHelper: {path: "configuration/566a221d35a88ed1393cc9a423a612e4en-US"},
+	PackageMarketModule: {path: "configuration/5dd1369cc60aa9094168450b85251d3aen-US", 
 		messages: {
 			"LoadModule": { "direction": "subscribe", "mode": "ptp" },
 			"HistoryStateChanged": { "direction": "subscribe", "mode": "broadcast" },
@@ -2357,12 +3423,14 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"NavigationModuleLoaded": { "direction": "subscribe", "mode": "broadcast" },
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"PushHistoryState": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	PackageSelectionModalBoxSchemaCSS: {
-		css: ["PackageSelectionModalBoxSchemaCSS"]
-	},
-	PageDesigner: {
+		}},
+	PackageSchemaBuilder: {path: "configuration/17c2dfbcd315e923cc9b0d61e55debcfen-US"},
+	PackageSelectionModalBoxSchema: {path: "configuration/db65c692b97290c6476cc8fe51d4ee12en-US"},
+	PackageSelectionModalBoxSchemaCSS: {path: "configuration/eadd3d1147eb85af154b1cc3cc01e7e0en-US", 
+		css: ["PackageSelectionModalBoxSchemaCSS"]},
+	PackageUtilities: {path: "configuration/7ecde98a26532bc18eb88fdda7645201en-US"},
+	PaddingPropertyModule: {path: "configuration/b72388a0b3c6c8adc8a492b0589c6a6cen-US"},
+	PageDesigner: {path: "configuration/66320fd56c12e105b593b36b0959ebeeen-US", 
 		css: ["PageDesigner"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -2376,39 +3444,61 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"IsStepReady": { "direction": "subscribe", "mode": "ptp" },
 			"ModuleLoaded": { "direction": "publish", "mode": "ptp" },
 			"GetHeaderConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	PageDesignerButtonsContainer: {
-		css: ["PageDesignerButtonsContainer"]
-	},
-	PageDesignerModule: {
+		}},
+	PageDesignerBuilder: {path: "configuration/e48b5c3fd5f4e3508aa79bbe85567974en-US"},
+	PageDesignerButton: {path: "configuration/4764dc0f0502dd2849f6705a32fb3f75en-US"},
+	PageDesignerButtonItemModel: {path: "configuration/77ebec2e16a5f9e32cc037fc30a6d009en-US"},
+	PageDesignerButtonsContainer: {path: "configuration/972d7a796b75b72e893188ac3064ee47en-US", 
+		css: ["PageDesignerButtonsContainer"]},
+	PageDesignerHeaderModule: {path: "configuration/19d96ec352b57d9e3f9400db9150dc55en-US"},
+	PageDesignerHeaderViewConfig: {path: "configuration/177573c4da8b6fad5a39762a319359d0en-US"},
+	PageDesignerHeaderViewModel: {path: "configuration/0a409e1fa16d2e4476ec8fb9401edbfaen-US"},
+	PageDesignerModule: {path: "configuration/ad1ff7d2aede581a4763bac45c915c3den-US", 
 		css: ["PageDesignerModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	PageDesignerUtilities: {
-		css: ["PageDesignerUtilities"]
-	},
-	PageSchemaViewModule: {
-		css: ["PageSchemaViewModule"]
-	},
-	PageTemplateModule: {
+		}},
+	PageDesignerPropertyPage: {path: "configuration/ed0dee7bcb1332651c0e91f7454f5b0een-US"},
+	PageDesignerSchema: {path: "configuration/3b3d85d7eea273231d6eeaf96144088aen-US"},
+	PageDesignerUtilities: {path: "configuration/bb4b4c51647af184cbd949d582fd7e6een-US", 
+		css: ["PageDesignerUtilities"]},
+	PageDesignerViewGenerator: {path: "configuration/85aad657c092d190ce9633d374590c0den-US"},
+	PageDesignerViewModelGenerator: {path: "configuration/155bb56eda2d4eebbd00588b13eab6ffen-US"},
+	PageFreedomTemplate: {path: "configuration/fd361a2cbc72f135c8ca4f40ad12a4dcen-US"},
+	PageItemPropertiesPageModule: {path: "configuration/5b379933fa9e58d6ef7a067f556daf3fen-US"},
+	PageSchemaViewModule: {path: "configuration/a73aa2b74eb05186ae5af6545f33024den-US", 
+		css: ["PageSchemaViewModule"]},
+	PageTemplateLookupPage: {path: "configuration/cf18ac2f29c5f263540ac6ab45f94937en-US"},
+	PageTemplateModule: {path: "configuration/3d3e5a8c4c1f155b0e81207890a6a881en-US", 
 		css: ["PageTemplateModule"], 
 		messages: {
 			"LoadModule": { "direction": "subscribe", "mode": "ptp" },
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	PageTemplatePageCSS: {
-		css: ["PageTemplatePageCSS"]
-	},
-	PageTypeSettingsPageCss: {
-		css: ["PageTypeSettingsPageCss"]
-	},
-	PageWizard: {
+		}},
+	PageTemplatePage: {path: "configuration/72f32631616aa5e99fc3f3cac369fb8aen-US"},
+	PageTemplatePageCSS: {path: "configuration/3f8d502b68ba8b40b087c886fc4e7741en-US", 
+		css: ["PageTemplatePageCSS"]},
+	PageTemplateSection: {path: "configuration/fe4def149964bb79e2e7d9d869e877fden-US"},
+	PageTemplateViewModel: {path: "configuration/f3a7b7a4a85f858ec53252b4ce6d5897en-US"},
+	PageTypeSettingsPage: {path: "configuration/5ced3dab8651209e9cff4a136b6e80d6en-US"},
+	PageTypeSettingsPageCss: {path: "configuration/de1affd1e93f846dcf08a55c42edf678en-US", 
+		css: ["PageTypeSettingsPageCss"]},
+	PageUtilities: {path: "configuration/a647b2f39b8cd6059eeadf3d6f19cb31en-US"},
+	PageWithAreaFreedomTemplate: {path: "configuration/46849d03b02610e43f0516f2be622d78en-US"},
+	PageWithAreaTemplate: {path: "configuration/8faa90304afbbe41c5743bc3e87aeedaen-US"},
+	PageWithLeftAreaTemplate: {path: "configuration/293daa71f6a5d2d142977856db27336een-US"},
+	PageWithRightAreaAndTabsFreedomTemplate: {path: "configuration/4a930b674471b43b5d00470d3812db77en-US"},
+	PageWithRightAreaAndTabsTemplate: {path: "configuration/2871772547e287a4458d6dd3443b9a1een-US"},
+	PageWithTabsAndActionDashboardFreedomTemplate: {path: "configuration/40d1af776f7b8860287be9f7212a4d5aen-US"},
+	PageWithTabsAndActionDashboardTemplate: {path: "configuration/bf67e2a343ef7a849f2a3336ac5980c5en-US"},
+	PageWithTabsAndProgressBarTemplate: {path: "configuration/c509bdf2b563e32fb1aa6eabedaf39c9en-US"},
+	PageWithTabsFreedomTemplate: {path: "configuration/eee63893bd4be67095542310261b1e97en-US"},
+	PageWithTabsTemplate: {path: "configuration/42d504f38b01ab6fa4e843719611661cen-US"},
+	PageWithTopAreaAndTabsFreedomTemplate: {path: "configuration/7148c9df435caee1b74284d7bde5067fen-US"},
+	PageWithTopAreaAndTabsTemplate: {path: "configuration/bcab277778311a26ca94896c99c4e1a2en-US"},
+	PageWizard: {path: "configuration/619e0b598cbcc839c2d228a3498ec454en-US", 
 		css: ["PageWizard"], 
 		messages: {
 			"LoadModule": { "direction": "subscribe", "mode": "ptp" },
@@ -2431,18 +3521,30 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"SaveWizard": { "direction": "subscribe", "mode": "ptp" },
 			"GetPackageUId": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateStepsConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	PivotTable: {
-		css: ["PivotTable"]
-	},
-	PivotTableDesignerCSS: {
-		css: ["PivotTableDesignerCSS"]
-	},
-	PlaybookSectionActionDashboardCSS: {
-		css: ["PlaybookSectionActionDashboardCSS"]
-	},
-	PopularKnowledgeBaseArticlesListModule: {
+		}},
+	PanelEmptyListMixin: {path: "configuration/d16bc41597113b2c0b4a7c9a545d8cfden-US"},
+	ParameterDataSourceViewModel: {path: "configuration/e6aaaeada0e5b786c3d680e09dc6c612en-US"},
+	ParametrizedServiceMethodBuilder: {path: "configuration/904309ee72a82cf7ee33290e440ee265en-US"},
+	PerformerAssignmentOptionsEditSchema: {path: "configuration/2554d20da5d604458754f624cff3c0f8en-US"},
+	PieChartJsConfigBuilder: {path: "configuration/f07554be23b56decd4ad8f13b1b87b17en-US"},
+	PivotDashboardGridModule: {path: "configuration/89fcb13b50977a482ffb2feea527804fen-US"},
+	PivotTable: {path: "configuration/7d5291f5d3fd27a27df211a32ac89151en-US", 
+		css: ["PivotTable"]},
+	PivotTableDesigner: {path: "configuration/44c3faa5e49e8e4fe0a21ddfcf1a95f3en-US"},
+	PivotTableDesignerCSS: {path: "configuration/69c2a26d3d6e055644620aea6491ea24en-US", 
+		css: ["PivotTableDesignerCSS"]},
+	PivotTableUtilities: {path: "configuration/365dd3f9ae280025434b03f966cefeceen-US"},
+	PivotTableViewConfig: {path: "configuration/fd1b09d5d41de18a8747ac9125b0df99en-US"},
+	PivotTableViewModel: {path: "configuration/888e164e15b12de6ab9894f919bbced5en-US"},
+	PlanningEntityDetailV2: {path: "configuration/a1dedb0fae2d54bc607bc6cc0d371278en-US"},
+	PlanningLoadModule: {path: "configuration/0ec86e39e1ac70e61ed28a623ee5854cen-US"},
+	PlaybookDetail: {path: "configuration/e77d4a964357c7b7c7b4f39bdda076fben-US"},
+	PlaybookIframeControl: {path: "configuration/ba2ec4b4db5aeef472315d2e15c418eden-US"},
+	PlaybookMiniPage: {path: "configuration/32017bec2cfe064b2c06ba6da564f083en-US"},
+	PlaybookPage: {path: "configuration/127413ebdc978699225cfd324da0d34den-US"},
+	PlaybookSectionActionDashboardCSS: {path: "configuration/00e27d9871a365e79186b1f5a4746d1ben-US", 
+		css: ["PlaybookSectionActionDashboardCSS"]},
+	PopularKnowledgeBaseArticlesListModule: {path: "configuration/b5bb9dee560ff5305f294d991ecc09bfen-US", 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetDashboardGridConfig": { "direction": "publish", "mode": "ptp" },
@@ -2451,12 +3553,23 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetFiltersCollection": { "direction": "publish", "mode": "ptp" },
 			"GetSectionFilterModuleId": { "direction": "publish", "mode": "ptp" },
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	PortalContactMiniPageCSS: {
-		css: ["PortalContactMiniPageCSS"]
-	},
-	PortalMainPageModule: {
+		}},
+	PortalAccountMiniPage: {path: "configuration/bf2cf664bb53befafae453afd96b6de7en-US"},
+	PortalClientAccountProfileSchema: {path: "configuration/c65f4ab5531d9fcefddca886037bd12aen-US"},
+	PortalClientConstants: {path: "configuration/72493474c7c2f962e4a67a41fce78fb5en-US"},
+	PortalClientProfileSchema: {path: "configuration/8230ab969f5e6ecd4d8d46fbd3e61502en-US"},
+	PortalColumnAccessListManager: {path: "configuration/4276ce32ccb162c1d714daa8b64ecccaen-US"},
+	PortalColumnAccessListManagerItem: {path: "configuration/e4470981e4615c7d8c69566ddcde9465en-US"},
+	PortalContactMiniPage: {path: "configuration/a29a6b89b04018398f132574ef42ba9ben-US"},
+	PortalContactMiniPageCSS: {path: "configuration/d8207336799648f2d6ab1c4bf43a8bdfen-US", 
+		css: ["PortalContactMiniPageCSS"]},
+	PortalEntitySchemaFilterProviderModule: {path: "configuration/682680b3492d85779caccf39e9608864en-US"},
+	PortalFolderManagerViewModel: {path: "configuration/1f848ad38ff9cb9e5fbc904cc7038da7en-US"},
+	PortalKnowledgeBasePage: {path: "configuration/a94e716cf8eea5dd5fb262107a35e87aen-US"},
+	PortalKnowledgeBaseSearchRowSchema: {path: "configuration/327df366bc7ad7f3dd6fa34e7215c433en-US"},
+	PortalKnowledgeBaseSection: {path: "configuration/8ae6f38536538cc58fdfd99bad385875en-US"},
+	PortalMainPageBuilder: {path: "configuration/ee1c7e5b8e8f5781dab84357e9128ba3en-US"},
+	PortalMainPageModule: {path: "configuration/023824347aade2b6966b022727814764en-US", 
 		css: ["PortalMainPageModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -2469,28 +3582,49 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ReloadDashboard": { "direction": "publish", "mode": "ptp" },
 			"GetRecordInfo": { "direction": "subscribe", "mode": "ptp" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	PortalModulesCSS: {
-		css: ["PortalModulesCSS"]
-	},
-	PortalUserInvitationModuleSchemaCSS: {
-		css: ["PortalUserInvitationModuleSchemaCSS"]
-	},
-	PredefinedFilterViewModel: {
-		css: ["PredefinedFilterViewModel"]
-	},
-	PreviewableGridLayoutEditItem: {
-		css: ["PreviewableGridLayoutEditItem"]
-	},
-	PrintableProcessModule: {
+		}},
+	PortalModulesCSS: {path: "configuration/d97030397a6dbbffb96bace3f8f7c258en-US", 
+		css: ["PortalModulesCSS"]},
+	PortalRoleFilterUtilities: {path: "configuration/62fae092f2a193bd2ba038a0e06f5545en-US"},
+	PortalSchemaAccessListDetail: {path: "configuration/6b468e07ca2bc0fc3f8c6a838e707b27en-US"},
+	PortalSchemaAccessListEditPage: {path: "configuration/b32b5f7c56e91c5269393229ed71236cen-US"},
+	PortalSchemaAccessListLookupSection: {path: "configuration/c4754381bcfdea41c10adb04e030b506en-US"},
+	PortalSchemaAccessListManager: {path: "configuration/3eea18a5ceb1f0a111ac737fae5941a6en-US"},
+	PortalSchemaAccessListManagerItem: {path: "configuration/0cc3ff2c0b91941efef6dc5a2e788271en-US"},
+	PortalUserInOrganizationDetail: {path: "configuration/2e4aa1632c404accf4f3848d42e7853een-US"},
+	PortalUserInvitationMixin: {path: "configuration/d135269fe2b8b39e8f02894029d6c549en-US"},
+	PortalUserInvitationModule: {path: "configuration/1ada8c19fae4ab4f9798637e8b74a225en-US"},
+	PortalUserInvitationModuleSchema: {path: "configuration/6123ccb7dd2bf4b0e92353e0105100caen-US"},
+	PortalUserInvitationModuleSchemaCSS: {path: "configuration/f4b231767c636df5dbff6ab0caf066fcen-US", 
+		css: ["PortalUserInvitationModuleSchemaCSS"]},
+	PortalUsersAdministrationUtilities: {path: "configuration/40467e7dff9c284d68dfa1beedc9c237en-US"},
+	PreconfiguredApprovalPage: {path: "configuration/341643dd94e60b08e83cdb1272e53c01en-US"},
+	PreconfiguredEntityPageV2: {path: "configuration/ea1346c5c878f2aafb286d8514fdb0deen-US"},
+	PreconfiguredPageUserTaskButtonMiniEditPage: {path: "configuration/2003d4fef0685be94c4cebba1546c9dfen-US"},
+	PreconfiguredPageUserTaskButtonViewModel: {path: "configuration/c2bcd41172904f7c1047d9bf9d43ec39en-US"},
+	PreconfiguredPageUserTaskPropertiesPage: {path: "configuration/d8d2d4bd84a72d1c54708783155cdae1en-US"},
+	PreconfiguredPageV2: {path: "configuration/d6265ba56ebf09267ddb1982576dee4een-US"},
+	PredefinedFilterItemViewModel: {path: "configuration/f8e540b95f22c18004c6ee683dbb68f4en-US"},
+	PredefinedFiltersModule: {path: "configuration/5e9f21fe3319ffe2ef8cf76b996fc523en-US"},
+	PredefinedFiltersSchema: {path: "configuration/6370086f5f1048a989fcc12c88c83feden-US"},
+	PredefinedFilterViewModel: {path: "configuration/1dec4c6578ab6a8a0cff0e95cbd830aden-US", 
+		css: ["PredefinedFilterViewModel"]},
+	PreviewableGridLayoutEdit: {path: "configuration/e9c8a15598b2b5f3bd4979b3dc6a731aen-US"},
+	PreviewableGridLayoutEditItem: {path: "configuration/c12ca595db0971db72c4a9f5472ce864en-US", 
+		css: ["PreviewableGridLayoutEditItem"]},
+	PreviewContentBuilder: {path: "configuration/b8897f785bd81b3b0840bcea5b21e1b1en-US"},
+	PrintableProcessModule: {path: "configuration/5d317cf1b877e0acec4e4eac436aea91en-US", 
 		css: ["PrintableProcessModule"], 
 		messages: {
 			"GetProcessExecData": { "direction": "publish", "mode": "ptp" },
 			"ProcessExecDataChanged": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessCardModuleV2: {
+		}},
+	PrintReportUtilities: {path: "configuration/73fe62110d99c70f3a4bb4a46b2a55b5en-US"},
+	ProcessBaseEventPropertiesPage: {path: "configuration/dc90457af9f6da2f69d0545788379665en-US"},
+	ProcessBaseGatewayPropertiesPage: {path: "configuration/c5ea2ab46a5a1c1e63707fe59e4c92d0en-US"},
+	ProcessBoundaryEventPropertiesPage: {path: "configuration/d477a26bc09d8c520ccf3f27affa97b8en-US"},
+	ProcessCardModuleMixin: {path: "configuration/67af47c0d026ab3087d2ba1368d62e01en-US"},
+	ProcessCardModuleV2: {path: "configuration/654a99d288ce6fe026f6904a75a22829en-US", 
 		css: ["ProcessCardModuleV2"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -2508,66 +3642,78 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetProcessExecData": { "direction": "publish", "mode": "ptp" },
 			"ProcessExecDataChanged": { "direction": "publish", "mode": "ptp" },
 			"UpdatePageHeaderCaption": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessDashboardModule: {
+		}},
+	ProcessDashboardItemViewModel: {path: "configuration/20258765c415cd5da9c2e42dadbb3d1den-US"},
+	ProcessDashboardModule: {path: "configuration/ef6a19857527ee76e882e6dc99db3ab9en-US", 
 		css: ["ProcessDashboardModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessDateTimeMappingModule: {
+		}},
+	ProcessDashboardSchema: {path: "configuration/15054594104e91a902f9330e9844dc1cen-US"},
+	ProcessDateTimeMappingModule: {path: "configuration/f9f21e468020e5542ec3aca5f7fb6f8ben-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetParametersInfo": { "direction": "publish", "mode": "ptp" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	ProcessElementParametersMappingModule: {
+		}},
+	ProcessDateTimeMappingPage: {path: "configuration/b6366f6d803eea9c6e56adb3c955757fen-US"},
+	ProcessDesignerESNFeedPropertiesPage: {path: "configuration/0c95db2f05b5b37e8d8d401cfc3aabf2en-US"},
+	ProcessDesignerFilterEditFilter: {path: "configuration/34508cefd78f9e2f7117516a5f8db0b0en-US"},
+	ProcessElementParametersMappingModule: {path: "configuration/1f24b27d290abeb9a9c3a20d91cd8a03en-US", 
 		messages: {
 			"GetProcessSchema": { "direction": "publish", "mode": "ptp" },
 			"GetSelectedData": { "direction": "subscribe", "mode": "ptp" },
 			"ResultSelectedRows": { "direction": "publish", "mode": "ptp" },
 			"GetSelectedProcessParameter": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	ProcessElementParametersMappingPageCSS: {
-		css: ["ProcessElementParametersMappingPageCSS"]
-	},
-	ProcessElementTraceDataPageCSS: {
-		css: ["ProcessElementTraceDataPageCSS"]
-	},
-	ProcessEntryPointModule: {
+		}},
+	ProcessElementParametersMappingPage: {path: "configuration/12bb2357a0e9b12a8b2ea7ed0573fdffen-US"},
+	ProcessElementParametersMappingPageCSS: {path: "configuration/1c39bf31e223d51a45390150f32f4f90en-US", 
+		css: ["ProcessElementParametersMappingPageCSS"]},
+	ProcessElementStatusRequest: {path: "configuration/1db31e78ae01afabbd9f0746213c3351en-US"},
+	ProcessElementStatusResponse: {path: "configuration/604df11eb4f05107e7e67a4b428ff123en-US"},
+	ProcessElementTraceDataPage: {path: "configuration/b961dc98d2d7b6b31b933d1cda3cf5d5en-US"},
+	ProcessElementTraceDataPageCSS: {path: "configuration/f21e452716b7be3922e8b0c38984aa0ben-US", 
+		css: ["ProcessElementTraceDataPageCSS"]},
+	ProcessEmailContentBuilder: {path: "configuration/612a4cc15c7e8576e6a0c30800dc2c6den-US"},
+	ProcessEmailContentBuilderHelper: {path: "configuration/9cf405c9d86f9376c0d63eebe0763606en-US"},
+	ProcessEmailContentMjButtonElementViewModel: {path: "configuration/6217c7a4bcaa3e12fd31a4c899ece655en-US"},
+	ProcessEmailContentMjTextElementViewModel: {path: "configuration/e73d5af35cd90351db32ef94dd4bebc7en-US"},
+	ProcessEmailContentTextElementViewModel: {path: "configuration/51d9dd403d4c7062a585f8971bc56856en-US"},
+	ProcessEntryPointModule: {path: "configuration/5de89bf073928094db8ec60a655514c0en-US", 
 		css: ["ProcessEntryPointModule"], 
 		messages: {
 			"GetProcessEntryPointInfo": { "direction": "publish", "mode": "ptp" },
 			"GetProcessEntryPointsData": { "direction": "publish", "mode": "ptp" },
 			"CloseProcessEntryPointModule": { "direction": "publish", "mode": "ptp" },
 			"ProcessExecDataChanged": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessEntryPointUtilities: {
+		}},
+	ProcessEntryPointPropertiesPageMixin: {path: "configuration/e7516285025121fc41ce7c6d0f6fd0a8en-US"},
+	ProcessEntryPointUtilities: {path: "configuration/08fa04d90123f6420cfe9cb232a8ee2den-US", 
 		messages: {
 			"GetProcessEntryPointInfo": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessExecutionContextModule: {
+		}},
+	ProcessExecutingDetailGridRowViewModel: {path: "configuration/bf300eb6902aac312cc50f2dcc948118en-US"},
+	ProcessExecutionContextModule: {path: "configuration/6099d986a4075bdb3dba545d2595d8c1en-US", 
 		messages: {
 			"GetProcessExecData": { "direction": "publish", "mode": "ptp" },
 			"DetailInfo": { "direction": "subscribe", "mode": "broadcast" },
 			"LoadData": { "direction": "publish", "mode": "broadcast" },
 			"GetCardModuleSandboxId": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessExecutionGranteeDetailCSS: {
-		css: ["ProcessExecutionGranteeDetailCSS"]
-	},
-	ProcessFlowElementPropertiesPageCSS: {
-		css: ["ProcessFlowElementPropertiesPageCSS"]
-	},
-	ProcessFunctionsMappingModule: {
+		}},
+	ProcessExecutionDataRequest: {path: "configuration/5d6a79f6eb1be62e990664f8b3b7b77ben-US"},
+	ProcessExecutionDataResponse: {path: "configuration/c8e86285cf5062cbde12d37f082e9ba2en-US"},
+	ProcessExecutionGranteeDetail: {path: "configuration/ec0806dc58f1716ebd5fbf7d66ce900aen-US"},
+	ProcessExecutionGranteeDetailCSS: {path: "configuration/d18a72fd5300093d23cdaa9c0a138819en-US", 
+		css: ["ProcessExecutionGranteeDetailCSS"]},
+	ProcessExecutionQueue: {path: "configuration/cbe135e7c1a4fc44cdd5602377820f82en-US"},
+	ProcessFileProcessingUserTaskPropertiesPage: {path: "configuration/8eb6f70e9a928cc7745883518d2072caen-US"},
+	ProcessFilesControlSchema: {path: "configuration/c8e1637f86b7cc214f6aef3d074a9e8fen-US"},
+	ProcessFlowElementPropertiesPage: {path: "configuration/7f10d90f0705c6ee3ad0d143304d4ec8en-US"},
+	ProcessFlowElementPropertiesPageCSS: {path: "configuration/23b777c91faa2703fe7c06cfd4b35a10en-US", 
+		css: ["ProcessFlowElementPropertiesPageCSS"]},
+	ProcessFunctionsMappingModule: {path: "configuration/8383e4b88c4eec499b393366b04d71d1en-US", 
 		messages: {
 			"GetSelectedData": { "direction": "subscribe", "mode": "ptp" },
 			"ResultSelectedRows": { "direction": "publish", "mode": "ptp" },
@@ -2577,9 +3723,14 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetParametersInfo": { "direction": "publish", "mode": "ptp" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	ProcessListener: {
+		}},
+	ProcessFunctionsMappingPage: {path: "configuration/6e180a18cf716c606b799651b5dd81b9en-US"},
+	ProcessHelper: {path: "configuration/4af289de02c5c320008a9eb5dc56e8bden-US"},
+	ProcessInDetailsDetailV2: {path: "configuration/491f9c348598af134317bc90e19ec2a4en-US"},
+	ProcessInModulesDetailV2: {path: "configuration/bac7bd37b137cccc9c47672ae1a17855en-US"},
+	ProcessLibraryConstants: {path: "configuration/c1006c1063992bd4ef3a9b0864fbe5a7en-US"},
+	ProcessLibraryFolderManagerViewModel: {path: "configuration/bfc68a920bdcad493f3ec2407d017282en-US"},
+	ProcessListener: {path: "configuration/92f5e9939fa450811e85a08316b1100aen-US", 
 		messages: {
 			"CallProcessServiceMethod": { "direction": "subscribe", "mode": "ptp" },
 			"CancelProcessExecution": { "direction": "subscribe", "mode": "ptp" },
@@ -2598,9 +3749,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ShowMiniPage": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessListenerV2: {
+		}},
+	ProcessListenerV2: {path: "configuration/30a781791a3ae2dd7efd26e65fb73da1en-US", 
 		messages: {
 			"ProcessExecDataChanged": { "direction": "subscribe", "mode": "ptp" },
 			"GetProcessExecData": { "direction": "subscribe", "mode": "ptp" },
@@ -2619,44 +3769,46 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ProcessExecutionCanceled": { "direction": "publish", "mode": "broadcast" },
 			"ProcessServiceMethodCalled": { "direction": "publish", "mode": "broadcast" },
 			"ShowMiniPage": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessLookupMappingModule: {
-		css: ["ProcessLookupMappingModule"]
-	},
-	ProcessLookupModule: {
+		}},
+	ProcessLogActions: {path: "configuration/f55aab7441e4081da8e72ed1b3f9e95den-US"},
+	ProcessLogDetail: {path: "configuration/c8aed5fc3cfd5a3b30283148d1842f11en-US"},
+	ProcessLogExtendedFilterEditModel: {path: "configuration/e403d4960c040b37b3ec9d8b4ff495c6en-US"},
+	ProcessLogExtendedFilterEditView: {path: "configuration/3584eb1323e094a2a2c32b0cb9541ac0en-US"},
+	ProcessLogFolderFilterView: {path: "configuration/ec95591023398cbda88d3cae5b31a949en-US"},
+	ProcessLogFolderFilterViewModel: {path: "configuration/87251c5f98e183c4c4be25b823ba5b0fen-US"},
+	ProcessLookupMappingModule: {path: "configuration/1b8b22097e1f9f45238e4c958a9a2007en-US", 
+		css: ["ProcessLookupMappingModule"]},
+	ProcessLookupModule: {path: "configuration/a7c874fd67086c3295094d9cb3e67104en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetParametersInfo": { "direction": "publish", "mode": "ptp" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	ProcessLookupModuleStyles: {
-		css: ["ProcessLookupModuleStyles"]
-	},
-	ProcessLookupPageCSS: {
-		css: ["ProcessLookupPageCSS"]
-	},
-	ProcessMappingModalBoxStyles: {
-		css: ["ProcessMappingModalBoxStyles"]
-	},
-	ProcessMappingModule: {
+		}},
+	ProcessLookupModuleStyles: {path: "configuration/31f9adfb37f7d954a334afbcc526222fen-US", 
+		css: ["ProcessLookupModuleStyles"]},
+	ProcessLookupPage: {path: "configuration/a5dfcdede67811e246964f86326fef4cen-US"},
+	ProcessLookupPageCSS: {path: "configuration/2440d5b67e54821ce29f142320e12399en-US", 
+		css: ["ProcessLookupPageCSS"]},
+	ProcessLookupPageMixin: {path: "configuration/07f6e1b618f1566487f7ad96e51164e5en-US"},
+	ProcessMappingModalBoxStyles: {path: "configuration/dc17fb11b60a943ab223c48f96f9c0e4en-US", 
+		css: ["ProcessMappingModalBoxStyles"]},
+	ProcessMappingModule: {path: "configuration/78c149256c35332bef359df102760c6cen-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetParametersInfo": { "direction": "publish", "mode": "ptp" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	ProcessMiniEditPageModule: {
+		}},
+	ProcessMappingPage: {path: "configuration/42fd76e0fd2fd9df4e2ec5044321e14fen-US"},
+	ProcessMiniEditPageMixin: {path: "configuration/811eae3b64f2fe7bc12d1351127daeb0en-US"},
+	ProcessMiniEditPageModule: {path: "configuration/e775b46d01caefabb8f82ffdd3408c9cen-US", 
 		messages: {
 			"GetProcessSchema": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessModule: {
+		}},
+	ProcessModule: {path: "configuration/cb3657d465098829f60a4809608b1425en-US", 
 		messages: {
 			"ProcessExecDataChanged": { "direction": "subscribe", "mode": "ptp" },
 			"GetProcessExecData": { "direction": "subscribe", "mode": "ptp" },
@@ -2666,9 +3818,9 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetProcessExecDataCollection": { "direction": "subscribe", "mode": "ptp" },
 			"GetProcessEntryPointsData": { "direction": "subscribe", "mode": "ptp" },
 			"SaveDetails": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessModuleV2: {
+		}},
+	ProcessModuleUtilities: {path: "configuration/8ba0d2223ae6f09365f82d0cf1d62a4aen-US"},
+	ProcessModuleV2: {path: "configuration/ba5d3807b82fc308db942cb144e3c788en-US", 
 		messages: {
 			"ProcessExecDataChanged": { "direction": "subscribe", "mode": "ptp" },
 			"GetProcessExecData": { "direction": "subscribe", "mode": "ptp" },
@@ -2689,9 +3841,11 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ProcessExecutionCompleted": { "direction": "subscribe", "mode": "broadcast" },
 			"ProcessExecutionCanceled": { "direction": "subscribe", "mode": "broadcast" },
 			"ProcessServiceMethodCalled": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	ProcessParameterSelectionModule: {
+		}},
+	ProcessNotifyDemoModule: {path: "configuration/cb2fcccd8f192e9997831e205a35ae09en-US"},
+	ProcessNotifyDemoView: {path: "configuration/c50de1c76bbc65d38d076966f5e2c7a5en-US"},
+	ProcessNotifyDemoViewModel: {path: "configuration/6b00ecaaae5cb8f560ff56bd6aced462en-US"},
+	ProcessParameterSelectionModule: {path: "configuration/91b5dbe9e98febfde23309a4b2c8907fen-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -2699,9 +3853,9 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetSelectedProcessParameter": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessParametersMappingModule: {
+		}},
+	ProcessParameterSelectionPage: {path: "configuration/dd4cb2533c9e4443b5f3c75464e9fe3aen-US"},
+	ProcessParametersMappingModule: {path: "configuration/e6951766b5682ba3beb646962375d16cen-US", 
 		css: ["ProcessParametersMappingModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -2710,51 +3864,72 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetSelectedProcessParameter": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	ProcessRemindModule: {
+		}},
+	ProcessParametersMappingPage: {path: "configuration/1299f005b3e9562e76a7cd49740926b7en-US"},
+	ProcessProgressSpinnerImage: {path: "configuration/244bfcc53bdd9eaa80bda87c5177f46aen-US"},
+	ProcessRemindModule: {path: "configuration/e0274c2d863e94a204027d95b44b832een-US", 
 		css: ["ProcessRemindModule"], 
 		messages: {
 			"GetProcessExecDataCollection": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessSchemaElementPropertiesEdit: {
+		}},
+	ProcessSchemaElementPropertiesEdit: {path: "configuration/a3abab3d8a2f5f49cb1f4cfac38a87b2en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"InitContextHelp": { "direction": "publish", "mode": "ptp" },
 			"PropertiesPageCaptionChanged": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessSchemaElementPropertiesEditCSS: {
-		css: ["ProcessSchemaElementPropertiesEditCSS"]
-	},
-	ProcessSchemaParameterEditModule: {
+		}},
+	ProcessSchemaElementPropertiesEditCSS: {path: "configuration/d30366bae85c3a7fad208a9cac4b2a9een-US", 
+		css: ["ProcessSchemaElementPropertiesEditCSS"]},
+	ProcessSchemaLocalizableStringMiniEditPage: {path: "configuration/6523044b7d5198d8902089ffa195c090en-US"},
+	ProcessSchemaLocalizableStringViewModel: {path: "configuration/a945c8d9094d2bb9acd696eb99a12f56en-US"},
+	ProcessSchemaParameterEditModule: {path: "configuration/9b00dafdac2be32bcb688879dcf2afd3en-US", 
 		css: ["ProcessSchemaParameterEditModule"], 
 		messages: {
 			"GetParameterEditInfo": { "direction": "publish", "mode": "ptp" },
 			"GetProcessSchema": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	ProcessSchemaParameterViewConfig: {
-		css: ["ProcessSchemaParameterViewConfig"]
-	},
-	ProcessSettingsModule: {
-		css: ["ProcessSettingsModule"]
-	},
-	ProcessSystemVariablesMappingModule: {
+		}},
+	ProcessSchemaParameterEditPage: {path: "configuration/916361b01f7d3285fa52f7ebcf36ed5ben-US"},
+	ProcessSchemaParametersEditMixin: {path: "configuration/6125345d30623c0f47bc68f90f747feeen-US"},
+	ProcessSchemaParameterViewConfig: {path: "configuration/afc3ca112fba71dedc4f2ee77a6304c1en-US", 
+		css: ["ProcessSchemaParameterViewConfig"]},
+	ProcessSchemaParameterViewModel: {path: "configuration/9346e6b97259eed2486a60cc3a9220e1en-US"},
+	ProcessSchemaPropertiesPage: {path: "configuration/719bcb17463a6906186b1037a77b6c89en-US"},
+	ProcessSchemaUserTaskUtilities: {path: "configuration/9eb4b3d93c8021f81cb077f7ea066169en-US"},
+	ProcessSchemaUsingMiniEditPage: {path: "configuration/05ec328e09ff27932c797dd9084308f2en-US"},
+	ProcessSchemaUsingViewModel: {path: "configuration/9fe53fd4a2f8a112fb591f97294ce695en-US"},
+	ProcessSettingsModule: {path: "configuration/1fd8ee836e21da161af0857784a55ddfen-US", 
+		css: ["ProcessSettingsModule"]},
+	ProcessSettingsPage: {path: "configuration/2614d131e6ec850c1f056aac6ddb79eben-US"},
+	ProcessStartEventDetail: {path: "configuration/f1a0164f582c1d9e456986d1a692e0d0en-US"},
+	ProcessStartEventPropertiesPage: {path: "configuration/d85854a825c979c686e1ffce1f0a7d73en-US"},
+	ProcessSystemDesignerSectionV2: {path: "configuration/5dc3dd580f5cbf97b0358604ae2c7589en-US"},
+	ProcessSystemVariablesMappingModule: {path: "configuration/8a2def79065aee904d59ac01e28f7a39en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetParametersInfo": { "direction": "publish", "mode": "ptp" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	ProcessTimerStartEventPropertiesPageCSS: {
-		css: ["ProcessTimerStartEventPropertiesPageCSS"]
-	},
-	ProfileModule: {
+		}},
+	ProcessSystemVariablesMappingPage: {path: "configuration/078b49d9318138265deafec0bfbbb954en-US"},
+	ProcessTaskExecutionDetailsActivityEditPage: {path: "configuration/9aaf12e721bc8ed10912bd99261d2cbben-US"},
+	ProcessTaskExecutionDetailsEditPage: {path: "configuration/bae886de425be8e5aa65d0adb22d3a1aen-US"},
+	ProcessTerminateEventPropertiesPage: {path: "configuration/8725bf3f052ca52da5b3a05f67356d45en-US"},
+	ProcessTimerScheduleDetail: {path: "configuration/fcfffb9792a3239a73a5469450fb34d4en-US"},
+	ProcessTimerStartEventPropertiesPage: {path: "configuration/a12f5a6262019c238aa3c15a2d4a9e18en-US"},
+	ProcessTimerStartEventPropertiesPageCSS: {path: "configuration/ff20e0192423766ed7f37250b00f3c7den-US", 
+		css: ["ProcessTimerStartEventPropertiesPageCSS"]},
+	ProcessTraceDataViewMixin: {path: "configuration/bd18f60619e2e226c7212630cf5e401den-US"},
+	ProcessUnsupportedElementPropertiesPage: {path: "configuration/662123bc9aa922e2617162c03207c5d9en-US"},
+	ProcessUserTaskActivityEditSchema: {path: "configuration/077b35e9586f4c90cce9eec180288e3fen-US"},
+	ProcessUserTaskConstants: {path: "configuration/95c905127818e4f169c4d2297f0fefe7en-US"},
+	ProcessValidationHelper: {path: "configuration/c0ba464e346d332fc40db5dcbd4c0f82en-US"},
+	ProcessVersionsDetail: {path: "configuration/2c6fc16221d669af7d36fa14497c7abben-US"},
+	ProductDetail: {path: "configuration/4c917a0af8ac5d555ae3ba9ddb393149en-US"},
+	ProductDetailV2: {path: "configuration/6c95dd4cbae0781e36a15f0bd02b5caeen-US"},
+	ProductEntryPageUtils: {path: "configuration/9cc98f5cbb639087cb702ca25d0aca5een-US"},
+	ProfileModule: {path: "configuration/e068a6c16ce89ca133f78d823a4163e2en-US", 
 		css: ["ProfileModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -2770,9 +3945,17 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ChangeHeaderCaption": { "direction": "publish", "mode": "ptp" },
 			"ChangeCommandList": { "direction": "publish", "mode": "broadcast" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	QuickFilterModule: {
+		}},
+	ProfileSchemaMixin: {path: "configuration/03051c07fe44297095674f2c01ce42a6en-US"},
+	ProfileUtilities: {path: "configuration/23a26668facd7c6873a5ff403918c000en-US"},
+	ProviderSenderDomainsDetail: {path: "configuration/dcedefe29daa5dfa1d83d85880ef560fen-US"},
+	PushTemplateContentEditSchema: {path: "configuration/645dc7ea956ee22cfdff56087b519079en-US"},
+	PushTemplatePage: {path: "configuration/2e4a2d6153951604efdb4bace05d9a44en-US"},
+	QueryCancellationMixin: {path: "configuration/d5faa4a89e237c14ac05f7d393af9635en-US"},
+	QuestionUserTaskPropertiesPage: {path: "configuration/5ef73b5f0f9650c3772d1f3258172f66en-US"},
+	QuickAddMixin: {path: "configuration/b44347ce9ef28a218764cce64ac4786cen-US"},
+	QuickFilterHelper: {path: "configuration/c4542ef98ab1dbfb0797ba7b77144cb4en-US"},
+	QuickFilterModule: {path: "configuration/bca81a4df1c39fd2f6b6d952bcd9bfc2en-US", 
 		css: ["QuickFilterModule"], 
 		messages: {
 			"QuickFilterChanged": { "direction": "publish", "mode": "broadcast" },
@@ -2800,9 +3983,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetTagFilter": { "direction": "subscribe", "mode": "ptp" },
 			"GetTagFilterConfig": { "direction": "publish", "mode": "ptp" },
 			"GetQuickFilterInfo": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	QuickFilterModuleV2: {
+		}},
+	QuickFilterModuleV2: {path: "configuration/c227ab8309817450f423ff6565e19865en-US", 
 		css: ["QuickFilterModuleV2"], 
 		messages: {
 			"AddCustomFilter": { "direction": "subscribe", "mode": "broadcast" },
@@ -2848,35 +4030,55 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"UpdateFavoritesMenu": { "direction": "subscribe", "mode": "broadcast" },
 			"UpdateFilter": { "direction": "publish", "mode": "broadcast" },
 			"UpdateFolderFilter": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	RecommendationModule: {
+		}},
+	QuickFilterView: {path: "configuration/6d8e65979462c172ff330d115b8645b3en-US"},
+	QuickFilterViewModel: {path: "configuration/ed3b1102d31e2b36f80eace045d59d89en-US"},
+	QuickFilterViewModelV2: {path: "configuration/7518fb4a45b19618ad66f365bceb2e0een-US"},
+	QuickFilterViewV2: {path: "configuration/6593ef816fb5d62fd64bb7a703ff6972en-US"},
+	RawBase64: {path: "configuration/c80cdbab29172304f7e1a1f704048169en-US"},
+	RawBuffer: {path: "configuration/d35345c1f4d81932c5620740b1c8248den-US"},
+	RawConverter: {path: "configuration/8d598242a43ad5b140168d4ce4fab080en-US"},
+	RawJsonConverter: {path: "configuration/a29bd7dbd18ab5c65ffc801878fbc591en-US"},
+	RawRequestBuilder: {path: "configuration/c6a90d3f55850825a50af4c44639f3a1en-US"},
+	RawResponseBuilder: {path: "configuration/1884fe97b042fdb1b8aa59a261bd8490en-US"},
+	RawResponseJsonConverter: {path: "configuration/556867067b26f01d46a3145c60554647en-US"},
+	ReadDataUserTaskItemInitializer: {path: "configuration/8f4a233062ffc4749a67c91bc1c79745en-US"},
+	ReadDataUserTaskPropertiesPage: {path: "configuration/45ed035aa8f17f89de320ea91fd818f6en-US"},
+	ReadDataUserTaskTraceDataTransformer: {path: "configuration/413d2b9f7eb77cf50bd30dde711f9731en-US"},
+	RecipientsSearchLookupEdit: {path: "configuration/f9f382f3a3c4ded644d8fd441a44a2e3en-US"},
+	RecommendationModule: {path: "configuration/cffc1a28708d81c4f073fa1681b04409en-US", 
 		css: ["RecommendationModule"], 
 		messages: {
 			"GetProcessExecData": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	RectProgressBar: {
-		css: ["RectProgressBar"]
-	},
-	Registration: {
+		}},
+	RecommendationModuleUtilities: {path: "configuration/216d0d1606ecaf7336b3bf93ca87c887en-US"},
+	RectProgressBar: {path: "configuration/a764c815ee0f16ae571449a07fa83d7cen-US", 
+		css: ["RectProgressBar"]},
+	RegionPage: {path: "configuration/2debe4a3b988eeabec9d079ab9c53458en-US"},
+	RegionPageV2: {path: "configuration/367830e1a647a4cc55101afbb4463beeen-US"},
+	Registration: {path: "configuration/89fdaf1a96d1d2ed07de7f37dabc64a9en-US", 
 		css: ["Registration"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"GetUserManagementToken": { "direction": "subscribe", "mode": "ptp" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	RelationshipChart: {
-		css: ["RelationshipChart"]
-	},
-	RelationshipDesignerMixin: {
-		css: ["RelationshipDesignerMixin"]
-	},
-	RelationshipDiagram: {
-		css: ["RelationshipDiagram"]
-	},
-	RelationshipDiagramModule: {
+		}},
+	RegistrationRes: {path: "configuration/d14b9979ff90684ca79bcd405c647966en-US"},
+	RelatedEmailsDetail: {path: "configuration/d8ee7e5091d1793aca649d4660c83e6fen-US"},
+	RelatedEmailsMixin: {path: "configuration/ff297df78bc005e1c72ed3f622a81450en-US"},
+	RelationshipChart: {path: "configuration/4c4d8e757fcf0a805393fbaa1e25b823en-US", 
+		css: ["RelationshipChart"]},
+	RelationshipChartGenerator: {path: "configuration/ac6e4b02c7703cfdf129a61b564a6b13en-US"},
+	RelationshipDesignerComponent: {path: "configuration/6284ca28b8a46712a66cc7d7bfce4946en-US"},
+	RelationshipDesignerConstants: {path: "configuration/9477ea333394f563b65667d686b836deen-US"},
+	RelationshipDesignerMixin: {path: "configuration/c94cca467d1f5b0fbb018a03c086555ben-US", 
+		css: ["RelationshipDesignerMixin"]},
+	RelationshipDesignerModule: {path: "configuration/7db829d64b29a1c7a24579da9b5f3c7den-US"},
+	RelationshipDetail: {path: "configuration/fa912dedb08ea7910838b393f8ef37eben-US"},
+	RelationshipDetailPage: {path: "configuration/4aecc1fb014d8f1bf6a80f28f1e1feffen-US"},
+	RelationshipDiagram: {path: "configuration/d15b81d2ba9131dfa8706e992b36f267en-US", 
+		css: ["RelationshipDiagram"]},
+	RelationshipDiagramModule: {path: "configuration/5af0130996ffbc64f3fd188ddc64b4aden-US", 
 		messages: {
 			"GetRelationshipDiagramInfo": { "direction": "publish", "mode": "ptp" },
 			"ReloadRelationshipDiagram": { "direction": "subscribe", "mode": "ptp" },
@@ -2884,9 +4086,11 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"LookupInfo": { "direction": "subscribe", "mode": "ptp" },
 			"ResultSelectedRows": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	RemindingsModule: {
+		}},
+	RelationshipDiagramViewModel: {path: "configuration/713cbc4d897509d3379d2d4a2f640fa7en-US"},
+	RelationTypePage: {path: "configuration/8f948be17c7c006c19ad2ba93cdaa976en-US"},
+	ReminderNotificationsSchema: {path: "configuration/69ffa29fcd5ced78b36c16068a1fac89en-US"},
+	RemindingsModule: {path: "configuration/57cfeca36d881054c78e0a087b793e7den-US", 
 		css: ["RemindingsModule"], 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -2899,12 +4103,18 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"LookupInfo": { "direction": "subscribe", "mode": "ptp" },
 			"ResultSelectedRows": { "direction": "subscribe", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	RemindPassword: {
-		css: ["RemindPassword"]
-	},
-	Rights: {
+		}},
+	RemindingsUtilities: {path: "configuration/441b8b566f5bbc2ee36fb760274200baen-US"},
+	RemindPassword: {path: "configuration/ff050d90d65839842714db107c74b92den-US", 
+		css: ["RemindPassword"]},
+	ReportEngineClient: {path: "configuration/fe3102e0e44719a84ee472a658b8ab33en-US"},
+	ReportFileProcessingUserTaskPropertiesPage: {path: "configuration/8b78ce30347e54e56e510210cd0e6e11en-US"},
+	ReportStorage: {path: "configuration/cb1a5cf35cc7080c0daa364a21c66dbfen-US"},
+	ReportUtilities: {path: "configuration/26ae4f1178b9dd03afdaae650c724ec9en-US"},
+	ResponseExceptionHelper: {path: "configuration/1474a47f4d8cf268434b3ef48733fe9cen-US"},
+	RestWebServiceMethodPage: {path: "configuration/15d0c7d3738ae9fb4f75006047bac71ben-US"},
+	RestWebServiceV2Page: {path: "configuration/7bc9bafffe6f7f2e61b3eab01ec7966ben-US"},
+	Rights: {path: "configuration/528df77a2a99878a324d5082f03661ffen-US", 
 		css: ["Rights"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -2921,30 +4131,42 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ResultSelectedRows": { "direction": "subscribe", "mode": "ptp" },
 			"UpdatePageHeaderCaption": { "direction": "publish", "mode": "ptp" },
 			"RecordRightsWereChanged": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	RightSideBarModule: {
+		}},
+	RightSideBarModule: {path: "configuration/ae19b0e20162e3c7498a2ccb4925fe92en-US", 
 		css: ["RightSideBarModule"], 
 		messages: {
 			"UpdateRemindingsCount": { "direction": "subscribe", "mode": "broadcast" },
 			"ShowHideRightSidePanel": { "direction": "publish", "mode": "broadcast" },
 			"UpdateRemindingMenuItemCaption": { "direction": "publish", "mode": "ptp" },
 			"CommunicationPanelItemSelected": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	RightsModuleLoader: {
-		css: ["RightsModuleLoader"]
-	},
-	RoundProgressBar: {
-		css: ["RoundProgressBar"]
-	},
-	RtlCSS: {
-		css: ["RtlCSS"]
-	},
-	ScheduledDuplicatesSearchSettingsPageCSS: {
-		css: ["ScheduledDuplicatesSearchSettingsPageCSS"]
-	},
-	SchemaDesigner: {
+		}},
+	RightsModuleLoader: {path: "configuration/e43e1831692b9b29b0f1ab547b43d7e6en-US", 
+		css: ["RightsModuleLoader"]},
+	RightsServiceHelper: {path: "configuration/d384c16fbbfcd6886c05d24ad9566f65en-US"},
+	RightUtilities: {path: "configuration/5673ec818a414e176bc5c8d1bf0cdd7ben-US"},
+	RootSchemaDescriptors: {path: "configuration/89e796555e66676f6703ed50541d0e5fen-US"},
+	RootSchemaLookupMixin: {path: "configuration/71c05ce4c8cf034c4140404dfdf66d7een-US"},
+	RootUserTaskPropertiesPage: {path: "configuration/106b322241034ccbc6d7a4edb9fee7afen-US"},
+	RoundProgressBar: {path: "configuration/6ee3bfdbe7738c8ec1066afb96453c7fen-US", 
+		css: ["RoundProgressBar"]},
+	RtlCSS: {path: "configuration/709a80e29fb508c26de2016334827dd7en-US", 
+		css: ["RtlCSS"]},
+	RuleRelationLookupEditPageV2: {path: "configuration/6973bb84557fbb82e35cd5b12dbf2cb6en-US"},
+	RuleRelationLookupSectionV2: {path: "configuration/11993eb89c492b47f78f7a0fbdcb6b75en-US"},
+	SAMLFieldNameConverterPage: {path: "configuration/255a7404c6b8d5be85d2f5b4f5cb4b42en-US"},
+	SAMLFieldNameConverterSection: {path: "configuration/9b321351f4825b8e9fadc61675167decen-US"},
+	SaveImportTemplateModalBox: {path: "configuration/acb907f4fb4e6e76e3f5074bf2775a43en-US"},
+	SaveSchemaVersionMessageBox: {path: "configuration/df33540434d12223a18140fec5110833en-US"},
+	ScatterChartJsConfigBuilder: {path: "configuration/f7547441e7ed2f82baa629f9a39d7356en-US"},
+	ScheduledDuplicatesSearchSettingsPage: {path: "configuration/f51dc4f6b4668de4de0f94b15eef024ben-US"},
+	ScheduledDuplicatesSearchSettingsPageCSS: {path: "configuration/69dd7ba3a07af306a55fea92513013d0en-US", 
+		css: ["ScheduledDuplicatesSearchSettingsPageCSS"]},
+	SchemaAccessControllerMixin: {path: "configuration/c5d741e7ae6dc15d73c434685817c952en-US"},
+	SchemaBuilderV2: {path: "configuration/82c8c8e154e4db057ca04d98ebd34291en-US"},
+	SchemaButtonDesignToolItem: {path: "configuration/0854386c3dc4b930855ff635b3a7aad3en-US"},
+	SchemaColumnDesignToolItem: {path: "configuration/0a2e6fcc46f0a9e433553bfbf1fef174en-US"},
+	SchemaDataBindingMixin: {path: "configuration/20bfab58ace9c9998d8af8031a2cc912en-US"},
+	SchemaDesigner: {path: "configuration/98829e4bc8a8e2a581c4a242d6d72146en-US", 
 		css: ["SchemaDesigner"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -2952,9 +4174,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"HistoryStateChanged": { "direction": "subscribe", "mode": "broadcast" },
 			"RefreshCacheHash": { "direction": "subscribe", "mode": "ptp" },
 			"NavigationModuleLoaded": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	SchemaDesignerModule: {
+		}},
+	SchemaDesignerModule: {path: "configuration/f39943709f2322faa2d2167d9c15c989en-US", 
 		css: ["SchemaDesignerModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -2962,26 +4183,41 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetColumnInfo": { "direction": "subscribe", "mode": "ptp" },
 			"PushColumnInfo": { "direction": "subscribe", "mode": "ptp" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	SchemaModelItemDesignerCss: {
-		css: ["SchemaModelItemDesignerCss"]
-	},
-	ScoringModuleCSS: {
-		css: ["ScoringModuleCSS"]
-	},
-	SearchDuplicatesSettingsPage: {
+		}},
+	SchemaDesignToolItem: {path: "configuration/1c8f2443b11cce8842bc94182d38b5bben-US"},
+	SchemaModelItemDesigner: {path: "configuration/ca3b0824c8bbd766b846fe0d5fdde574en-US"},
+	SchemaModelItemDesignerCss: {path: "configuration/818055aefb0c80a636714b8552625d99en-US", 
+		css: ["SchemaModelItemDesignerCss"]},
+	SchemaParameterDesignToolItem: {path: "configuration/cbb38622a0353662fcc20658c9d399d2en-US"},
+	SchemaWidgetDesignToolItem: {path: "configuration/160ec5ce1877a87600a923368b25cdf5en-US"},
+	ScoringModelPageV2: {path: "configuration/793f983ec978bceee57c2d2937722ee7en-US"},
+	ScoringModelSectionV2: {path: "configuration/0ef6a642dce1b47dbbf9b371ea1f32dden-US"},
+	ScoringModuleCSS: {path: "configuration/dcd9894ac0e9fa56c32b4bbb5e0ec98een-US", 
+		css: ["ScoringModuleCSS"]},
+	ScoringRuleDetailV2: {path: "configuration/87717d5a179812f3bde27cd34add460den-US"},
+	ScoringRuleFilterProvider: {path: "configuration/aa5c1c317cdca93cbf622c5a21b070ceen-US"},
+	ScoringRulePageV2: {path: "configuration/411910f70b9b176fb89533ccd7980967en-US"},
+	ScriptTaskPropertiesPage: {path: "configuration/9bd003c7f4dc31603cfd947dff3d5e09en-US"},
+	SearchableTextEdit: {path: "configuration/73f69b5512fe5ea44cdbf6fe2c818dd9en-US"},
+	SearchDuplicatesSettingsPage: {path: "configuration/ae8b0a4323afb345386be95905f12cd5en-US", 
 		css: ["SearchDuplicatesSettingsPage"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	SearchDuplicatesUserTaskPropertiesPageCSS: {
-		css: ["SearchDuplicatesUserTaskPropertiesPageCSS"]
-	},
-	SectionCasesWizard: {
+		}},
+	SearchDuplicatesSettingsPageView: {path: "configuration/7fc4454b23354b7982a5ba30e37ff328en-US"},
+	SearchDuplicatesSettingsPageViewModel: {path: "configuration/8f8ebde9529bafeaad0bf8947a541312en-US"},
+	SearchDuplicatesUserTaskPropertiesPage: {path: "configuration/5d91f84805767fd1ca46f486af0044b4en-US"},
+	SearchDuplicatesUserTaskPropertiesPageCSS: {path: "configuration/eb5bc491c81a5e5ea69dcdffd84f8787en-US", 
+		css: ["SearchDuplicatesUserTaskPropertiesPageCSS"]},
+	SearchEdit: {path: "configuration/1fba9a39fbf014075fbe27f5143b6f76en-US"},
+	SearchEditGenerator: {path: "configuration/9915959ad55727f4faefe2da8c8d6129en-US"},
+	SearchResultViewModel: {path: "configuration/91ed334a75fc319e82304e066045309cen-US"},
+	SectionActionsDashboard: {path: "configuration/b2dbbd60f1fb9072d23f34e11141de15en-US"},
+	SectionBindingColumnMixin: {path: "configuration/f24d6504504d1bd332bfcab28f1c2e64en-US"},
+	SectionBundleModule: {path: "configuration/f0e1e2e7729039d890c1ffc4b227ed92en-US"},
+	SectionCasesWizard: {path: "configuration/cb516ef3f4c8e983a35b5de1b4d07d10en-US", 
 		messages: {
 			"UpdateStepsConfig": { "direction": "subscribe", "mode": "ptp" },
 			"RefreshCacheHash": { "direction": "subscribe", "mode": "ptp" },
@@ -2993,9 +4229,9 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"HistoryStateChanged": { "direction": "subscribe", "mode": "broadcast" },
 			"LoadModule": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SectionDashboardsModule: {
+		}},
+	SectionDashboardBuilder: {path: "configuration/f4ae41128c5443f8bd9e373bc800c2bfen-US"},
+	SectionDashboardsModule: {path: "configuration/161e0bf9dc583bfb4e27ac01189a742ben-US", 
 		css: ["SectionDashboardsModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -3008,15 +4244,17 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ReloadDashboard": { "direction": "publish", "mode": "ptp" },
 			"GetRecordInfo": { "direction": "subscribe", "mode": "ptp" },
 			"NeedHeaderCaption": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	SectionDesignerFinishPageModule: {
+		}},
+	SectionDashboardsViewModel: {path: "configuration/a65b6a090b2f7c0f59d8cf199776944fen-US"},
+	SectionDcmSettings: {path: "configuration/a553ade1f3da3830289e8904348279ecen-US"},
+	SectionDesignDataModule: {path: "configuration/684fc34f774c4123cef2f790fb836646en-US"},
+	SectionDesignerEnums: {path: "configuration/a062b6e288b593ab9437af3525041f4fen-US"},
+	SectionDesignerFinishPageModule: {path: "configuration/aec475b374143fac32c38a4ce85127a9en-US", 
 		messages: {
 			"GoToStep": { "direction": "publish", "mode": "broadcast" },
 			"SectionChanged": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	SectionDesignerGridSettingsModule: {
+		}},
+	SectionDesignerGridSettingsModule: {path: "configuration/f2ff081d0771431a5b19e48c3cfa2003en-US", 
 		css: ["SectionDesignerGridSettingsModule"], 
 		messages: {
 			"GetGridSettingsInfo": { "direction": "subscribe", "mode": "ptp" },
@@ -3031,9 +4269,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"IsStepReady": { "direction": "subscribe", "mode": "ptp" },
 			"ModuleLoaded": { "direction": "publish", "mode": "ptp" },
 			"GetHeaderConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SectionDesignerHeaderModule: {
+		}},
+	SectionDesignerHeaderModule: {path: "configuration/b5dac8fec3d03f0bc7ebd7641aa5f1c7en-US", 
 		messages: {
 			"GetDesignerStructureConfig": { "direction": "publish", "mode": "ptp" },
 			"RefreshSteps": { "direction": "subscribe", "mode": "ptp" },
@@ -3042,15 +4279,13 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetSectionDesignerStructureItemKey": { "direction": "publish", "mode": "ptp" },
 			"SetPageHeaderInfo": { "direction": "subscribe", "mode": "broadcast" },
 			"GetHeaderConfig": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	SectionDesignerLogModule: {
+		}},
+	SectionDesignerLogModule: {path: "configuration/cd0247ef43abb90c71188d037c48d242en-US", 
 		css: ["SectionDesignerLogModule"], 
 		messages: {
 			"GetErrorsConfig": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	SectionDesignerMenuModule: {
+		}},
+	SectionDesignerMenuModule: {path: "configuration/6c33506c8d57b98089958cb88679fc42en-US", 
 		messages: {
 			"PostSectionMenuConfig": { "direction": "subscribe", "mode": "ptp" },
 			"GetSectionMenuInfo": { "direction": "publish", "mode": "broadcast" },
@@ -3061,18 +4296,16 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetSectionDesignerStructureItemKey": { "direction": "publish", "mode": "ptp" },
 			"SectionChanged": { "direction": "publish", "mode": "broadcast" },
 			"RefreshMenuPages": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SectionDesignerPageTypeModule: {
+		}},
+	SectionDesignerPageTypeModule: {path: "configuration/3729fde88a7e12b714430416b72ea8a3en-US", 
 		css: ["SectionDesignerPageTypeModule"], 
 		messages: {
 			"OnSectionSchemaChanged": { "direction": "subscribe", "mode": "broadcast" },
 			"OnMultiPageChanged": { "direction": "subscribe", "mode": "broadcast" },
 			"ValidateTypes": { "direction": "subscribe", "mode": "ptp" },
 			"RefreshPagesConfig": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	SectionDesignerStartPageModule: {
+		}},
+	SectionDesignerStartPageModule: {path: "configuration/0d2bc1bbad45d63f482ba9701b56e9a1en-US", 
 		css: ["SectionDesignerStartPageModule"], 
 		messages: {
 			"GoToStep": { "direction": "publish", "mode": "broadcast" },
@@ -3085,12 +4318,10 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"SetPageHeaderInfo": { "direction": "publish", "mode": "broadcast" },
 			"ModuleLoaded": { "direction": "publish", "mode": "ptp" },
 			"GetHeaderConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SectionDesignerUtils: {
-		css: ["SectionDesignerUtils"]
-	},
-	SectionDesignerViewModule: {
+		}},
+	SectionDesignerUtils: {path: "configuration/0144194897c212190fae6f58540328daen-US", 
+		css: ["SectionDesignerUtils"]},
+	SectionDesignerViewModule: {path: "configuration/682415ab8b326928be1c5c4400c1b15een-US", 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"HistoryStateChanged": { "direction": "subscribe", "mode": "broadcast" },
@@ -3114,12 +4345,17 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetSideBarConfig": { "direction": "publish", "mode": "ptp" },
 			"CardProccessModuleInfo": { "direction": "subscribe", "mode": "ptp" },
 			"ShowHideRightSidePanel": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	SectionInWorkplaceGridViewModel: {
-		css: ["SectionInWorkplaceGridViewModel"]
-	},
-	SectionMenuModule: {
+		}},
+	SectionEntitySelectMixin: {path: "configuration/ebfee6e0eafa145ff6e4f87dbf463044en-US"},
+	SectionInWorkplaceGridViewModel: {path: "configuration/4f531f95428ef9221015c97d0624086een-US", 
+		css: ["SectionInWorkplaceGridViewModel"]},
+	SectionInWorkplaceManager: {path: "configuration/427df97cb4717090cac66bd0bc03c616en-US"},
+	SectionInWorkplaceManagerItem: {path: "configuration/9e76a8ea589a6dbd5cf5a4895846dde1en-US"},
+	SectionKnwSourceProviderSettingsPage: {path: "configuration/ffc0f229413202960d91d635eeed2b29en-US"},
+	SectionMainSettings: {path: "configuration/0a54a6f7f879e84af62188e4edff0c70en-US"},
+	SectionManager: {path: "configuration/37d1cae5dc932de7cee2403066f75e6aen-US"},
+	SectionManagerItem: {path: "configuration/20d0242a7916d879e9ea719b9e1f8f51en-US"},
+	SectionMenuModule: {path: "configuration/09c936cd4e021e956887734e7801b39den-US", 
 		css: ["SectionMenuModule"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -3136,9 +4372,10 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"SelectedSideBarItemChanged": { "direction": "subscribe", "mode": "ptp" },
 			"SidebarItemUpdated": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateSideBarRemindings": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SectionMiniPageWizard: {
+		}},
+	SectionMergeHelper: {path: "configuration/30fd3b35291cea3d1662bde324f68c22en-US"},
+	SectionMiniPageSettings: {path: "configuration/f2f21d9e45095bd1ed032e5126eabd3een-US"},
+	SectionMiniPageWizard: {path: "configuration/ad92d57c9e875e2814f034fdacca240cen-US", 
 		messages: {
 			"LoadModule": { "direction": "subscribe", "mode": "ptp" },
 			"HistoryStateChanged": { "direction": "subscribe", "mode": "broadcast" },
@@ -3160,9 +4397,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"SaveWizard": { "direction": "subscribe", "mode": "ptp" },
 			"GetPackageUId": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateStepsConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SectionModule: {
+		}},
+	SectionModule: {path: "configuration/1314f8324e9744b22599388306494ba8en-US", 
 		css: ["SectionModule"], 
 		messages: {
 			"ShowHistoryState": { "direction": "subscribe", "mode": "broadcast" },
@@ -3221,9 +4457,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"InitDataViews": { "direction": "publish", "mode": "ptp" },
 			"ChangeDataView": { "direction": "subscribe", "mode": "ptp" },
 			"InitContextHelp": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	SectionModuleV2: {
+		}},
+	SectionModuleV2: {path: "configuration/713a627c427c6cb726e8c6bf3f723e79en-US", 
 		css: ["SectionModuleV2"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -3251,16 +4486,19 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"FilterCurrentSection": { "direction": "subscribe", "mode": "ptp" },
 			"GetSectionModuleId": { "direction": "subscribe", "mode": "ptp" },
 			"GetActiveViewName": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SectionPageDesignerModule: {
+		}},
+	SectionPageDesignerHeaderModule: {path: "configuration/ef266439f1f6a6e50549a45686b6982ben-US"},
+	SectionPageDesignerHeaderViewConfig: {path: "configuration/1f52f4b0f8316d5525ef402742254273en-US"},
+	SectionPageDesignerHeaderViewModel: {path: "configuration/89ecbd01e16725f23263b2deb78cf700en-US"},
+	SectionPageDesignerModule: {path: "configuration/6ed35d4ba9f62a293276ce7902164202en-US", 
 		css: ["SectionPageDesignerModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	SectionPageWizard: {
+		}},
+	SectionPageSettings: {path: "configuration/a0b46174580a3affcd03804d67b716b3en-US"},
+	SectionPageSettingsItemModel: {path: "configuration/f8a2854848cf4b61c68ee0c0c4ec312den-US"},
+	SectionPageWizard: {path: "configuration/de6f2647f4ee578d456e9215ec5a485aen-US", 
 		messages: {
 			"LoadModule": { "direction": "subscribe", "mode": "ptp" },
 			"HistoryStateChanged": { "direction": "subscribe", "mode": "broadcast" },
@@ -3282,18 +4520,24 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"SaveWizard": { "direction": "subscribe", "mode": "ptp" },
 			"GetPackageUId": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateStepsConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SectionViewGenerator: {
-		css: ["SectionViewGenerator"]
-	},
-	SectionViewModelGenerator: {
+		}},
+	SectionProcessExecutingDetail: {path: "configuration/07e1af740831fbaadd643a50ec5f5e7den-US"},
+	SectionProcessSettings: {path: "configuration/473a3b6baf26b0c7efd9de0d47fd4f0fen-US"},
+	SectionProcessSettingsManager: {path: "configuration/9a56acab4eb2fa02f6a5f9545070a5a1en-US"},
+	SectionProcessSettingsManagerItem: {path: "configuration/a663487a9b725b0bfd973c25e79c130een-US"},
+	SectionSchemaViewModule: {path: "configuration/c04d41c9cd8d3985af73e439e73874b5en-US"},
+	SectionServiceMixin: {path: "configuration/20b0e505a09fedadb7263a5614196279en-US"},
+	SectionSettingsMixin: {path: "configuration/a56915902f7b6fca130fedea94f1cd58en-US"},
+	SectionTabsSchema: {path: "configuration/411e9ecf26084697a1e021c8c8ee6b28en-US"},
+	SectionViewGenerator: {path: "configuration/df6f89f38e401b0627d178c96c8f384cen-US", 
+		css: ["SectionViewGenerator"]},
+	SectionViewModelGenerator: {path: "configuration/e5f43592151105a05e631bfdf28475bfen-US", 
 		messages: {
 			"PushHistoryState": { "direction": "subscribe", "mode": "broadcast" },
 			"CardModuleEntityInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SectionWizard: {
+		}},
+	SectionVisaSettings: {path: "configuration/ef3a6752e12713e9f600039bb0db781fen-US"},
+	SectionWizard: {path: "configuration/1b3211aaec07c545fc4418ebfa4ba111en-US", 
 		css: ["SectionWizard"], 
 		messages: {
 			"LoadModule": { "direction": "subscribe", "mode": "ptp" },
@@ -3306,21 +4550,59 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetPageDesignerConfig": { "direction": "subscribe", "mode": "ptp" },
 			"PostPageDesignerConfig": { "direction": "publish", "mode": "broadcast" },
 			"UpdateStepsConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SectionWizardCasesSettingsStyles: {
-		css: ["SectionWizardCasesSettingsStyles"]
-	},
-	SelectionHandlerMultilineLabel: {
-		css: ["SelectionHandlerMultilineLabel"]
-	},
-	ServiceDesignerStyles: {
-		css: ["ServiceDesignerStyles"]
-	},
-	SetupAppearanceCSS: {
-		css: ["SetupAppearanceCSS"]
-	},
-	SetupTelephonyParametersPageModule: {
+		}},
+	SectionWizardCasesSettings: {path: "configuration/0ac4c1068eda0dd0bfa36461acae28c4en-US"},
+	SectionWizardCasesSettingsStyles: {path: "configuration/3fe273e62a7a59e31505a376339c7a31en-US", 
+		css: ["SectionWizardCasesSettingsStyles"]},
+	SectionWizardEnums: {path: "configuration/ee5be38e2e6936e9f6ff002521e0f504en-US"},
+	SecurityUtilities: {path: "configuration/ece9dcf9c1baa56b90e67768daef3b2cen-US"},
+	SegmentActivationModalPage: {path: "configuration/8f4d9eff4de58dc583d46cb84fa5d0f0en-US"},
+	SegmentActivationValidationPage: {path: "configuration/3aa6aa51fabdcef93cf83c9eb2b4e6e9en-US"},
+	SegmentCalculationErrorPage: {path: "configuration/5ee20d79830ff2eebf1e4e2b009abf0een-US"},
+	SegmentDeactivationModalPage: {path: "configuration/d87c0b9ad6d59dbb3d964f220fec5a7aen-US"},
+	SegmentResumeModalPage: {path: "configuration/fcc8cc2499cf7ed549b4344f8fe3f092en-US"},
+	SelectionHandlerMultilineLabel: {path: "configuration/c4aaac00ae69a766e3b676b6d4278cf3en-US", 
+		css: ["SelectionHandlerMultilineLabel"]},
+	SendChatMessageUserTaskPropertiesPage: {path: "configuration/c03eea8132e6ad05f8fb4b644fce9541en-US"},
+	SendEmailUserTaskPropertiesPage: {path: "configuration/fda734c035f7864237cea70ec823185een-US"},
+	SendingDomainsDetailV2: {path: "configuration/8efb555780edf5917a530d3bed82c3f7en-US"},
+	SequenceFlowPropertiesPage: {path: "configuration/e5c9a43839bb5349b9a201bd189fb6a1en-US"},
+	ServiceAuthInfoSettingsPage: {path: "configuration/a3496864d88d9f9e90cc620e17dcd8c1en-US"},
+	ServiceBuilderParameterGrid: {path: "configuration/f7b2e39c48cf6a44636727c53392b23den-US"},
+	ServiceBuilderResponseParameterGrid: {path: "configuration/818569bdb8cef51b8fafb7168c74b93den-US"},
+	ServiceDesignerStyles: {path: "configuration/f19ef7f36be3e555c56c8b272df5b9ffen-US", 
+		css: ["ServiceDesignerStyles"]},
+	ServiceDesignerUtilities: {path: "configuration/9701ff3467d9b214c501174ee004d485en-US"},
+	ServiceEnums: {path: "configuration/dcb704a3dffa168dc019289c8ee1a785en-US"},
+	ServiceHelper: {path: "configuration/d75b93ca9427f38b6bfe4f9509aea488en-US"},
+	ServiceJsonConverter: {path: "configuration/ac81da1fe0bbacdff43d1f28098c1d6aen-US"},
+	ServiceMetaItemViewModelMixin: {path: "configuration/6d0851031137cfb2f8d51bfa3ebb2866en-US"},
+	ServiceMethodBuilder: {path: "configuration/1a3dbaee5498a61ad8dc29b13a8b6e08en-US"},
+	ServiceOAuthAuthenticatorEndpointHelper: {path: "configuration/aaf1338386175a7d8160f2fd1350a975en-US"},
+	ServiceParameterGrid: {path: "configuration/dd703997423c6372d039cbab59d86b1aen-US"},
+	ServiceParameterPage: {path: "configuration/657551214943d024ae986794c960a0bben-US"},
+	ServiceParameterValuePage: {path: "configuration/b09b25032fc7d94dd40d793b294d9ac8en-US"},
+	ServiceParameterViewModel: {path: "configuration/d2c0ac6b13acf4f1ad836f3530873ef2en-US"},
+	ServiceResponseParameterGrid: {path: "configuration/4136928f84362f2dee2356d10ebdda72en-US"},
+	ServiceResponseParameterPage: {path: "configuration/89e29260f41d6a84c44b403a88cc2cf6en-US"},
+	ServiceResponseParameterValuePage: {path: "configuration/8a21882c4d7fe12fa2784850df48fd91en-US"},
+	SessionDetailV2: {path: "configuration/863de86b26fd8c2598bd8a491096a889en-US"},
+	SetEnabledDcmSchemaRequest: {path: "configuration/4bb5e1142d126ac9a18a709f688679ecen-US"},
+	SetRightsInfoSchema: {path: "configuration/e565ac5ed71cab3c75677a1f3d846b2den-US"},
+	SetRuleForCleanerConfActivityLogModalPage: {path: "configuration/b4ebf2d76f0020e53786474d3c751340en-US"},
+	SetupAppearance: {path: "configuration/c5b6cd1896494b1875d4452d7f925276en-US"},
+	SetupAppearanceCSS: {path: "configuration/de4d46bce8693e71b288588d49e9bc05en-US", 
+		css: ["SetupAppearanceCSS"]},
+	SetupAsteriskParametersPage: {path: "configuration/f79f8d5285ab278aa2b9ba4dd64d4830en-US"},
+	SetupAvayaParametersPage: {path: "configuration/205bb7ddbe2749363036c8e2e17bbf09en-US"},
+	SetupCallCenterUtilities: {path: "configuration/e61ab4a4bf03f98862003cfbfb6a34fcen-US"},
+	SetupCallwayParametersPage: {path: "configuration/c71262d46833af6319c177f808c9b218en-US"},
+	SetupCiscoParametersPage: {path: "configuration/f5012568d8d378dfb52ae06743421cc5en-US"},
+	SetupFinesseParametersPage: {path: "configuration/c985e1b2baeed78821afee914cd13239en-US"},
+	SetupFinesseParametersPageV2: {path: "configuration/82e3b5d7eafb494c7f8454d815dddac1en-US"},
+	SetupTapiParametersPage: {path: "configuration/7ee40dbef4ff23675a8e69b466caaf85en-US"},
+	SetupTelephonyParametersLicenseDeniedPage: {path: "configuration/086ea7d3a6ce4c9d73a955c6bf40956ben-US"},
+	SetupTelephonyParametersPageModule: {path: "configuration/a296922dea87cc2e5534739eeb4705f3en-US", 
 		css: ["SetupTelephonyParametersPageModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -3328,9 +4610,9 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ChangeHeaderCaption": { "direction": "publish", "mode": "ptp" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	SideBarModule: {
+		}},
+	SetupVirtualParametersPage: {path: "configuration/be9f26b2bac06b2f1d1906a944f7756ben-US"},
+	SideBarModule: {path: "configuration/4aa291324671bd87385b60a9708e4533en-US", 
 		css: ["SideBarModule"], 
 		messages: {
 			"UpdateSideBarRemindings": { "direction": "subscribe", "mode": "ptp" },
@@ -3347,9 +4629,10 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"SideBarBack": { "direction": "subscribe", "mode": "ptp" },
 			"GetSideBarCurrentConfig": { "direction": "subscribe", "mode": "ptp" },
 			"PushSideBarModuleDefInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SimpleTaskAddModule: {
+		}},
+	SimpleIntro: {path: "configuration/dbe0eb6ad881bf9eaaaa1d86d7fe61baen-US"},
+	SimpleSourceCodeEditPage: {path: "configuration/2e46c91c9d686bef060356544d7901feen-US"},
+	SimpleTaskAddModule: {path: "configuration/24f122dd6d9e02d78e170282f31c35f3en-US", 
 		css: ["SimpleTaskAddModule"], 
 		messages: {
 			"GetSimpleTaskAddViewModel": { "direction": "subscribe", "mode": "ptp" },
@@ -3363,19 +4646,25 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetScheduleItemTitle": { "direction": "subscribe", "mode": "ptp" },
 			"OpenItem": { "direction": "publish", "mode": "ptp" },
 			"UpdatePageHeaderCaption": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	SmartHtmlSourceCodeEdit: {
-		css: ["SmartHtmlSourceCodeEdit"]
-	},
-	SocialAccountAuthModule: {
+		}},
+	SmartHtmlSourceCodeEdit: {path: "configuration/a1813ce05e006bc88382c9abf2941c58en-US", 
+		css: ["SmartHtmlSourceCodeEdit"]},
+	SmartHtmlSourceCodeEditGenerator: {path: "configuration/48f411570842835242df1fc28396e265en-US"},
+	SmsChannel_AddingPage: {path: "configuration/db69cd46ab58f81c9c928d06646e1b52en-US"},
+	SmsChannel_EditPage: {path: "configuration/f29bd1dfd0ba9516e46becc1cb1e24fden-US"},
+	SoapServiceMethodModule: {path: "configuration/308fe29bfb330b2bf2d6039fa0414821en-US"},
+	SoapServiceParameterPage: {path: "configuration/ec29069cfa7c7ae427b07eee0b4f10c3en-US"},
+	SoapServiceResponseParameterPage: {path: "configuration/2768cc4afa0658872cc232812787e435en-US"},
+	SoapWebServiceMethodPage: {path: "configuration/27be430bf7d9e497b3634f85ca96ef8fen-US"},
+	SoapWebServiceV2Page: {path: "configuration/38dab76ac90fcbd2589584ba77640965en-US"},
+	SocialAccountAuthModule: {path: "configuration/02c08699dbf2307e96ae65b7d670b91fen-US", 
 		css: ["SocialAccountAuthModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	SocialAccountModule: {
+		}},
+	SocialAccountAuthUtilities: {path: "configuration/82f31a5c55468f17b74552d6211137f3en-US"},
+	SocialAccountModule: {path: "configuration/5924e9436a5049510418adeef007fcfden-US", 
 		css: ["SocialAccountModule"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -3383,37 +4672,82 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	SocialFeedUtilities: {
-		css: ["SocialFeedUtilities"]
-	},
-	SocialMessagePublisherModule: {
+		}},
+	SocialAccountModuleSchema: {path: "configuration/30857361be0d933245d0c9a88e622a99en-US"},
+	SocialAccountPage: {path: "configuration/52ee5098d3ab9a9c7dcdfaa5c9a03ec4en-US"},
+	SocialAddressDetail: {path: "configuration/3a988e9f8e9a9056e85c5e446d472e90en-US"},
+	SocialAnniversaryDetail: {path: "configuration/64cd098be83a2b8bb9355a47d205dd4den-US"},
+	SocialChannelPage: {path: "configuration/f3bceab81bff4840bb874529914c6e5den-US"},
+	SocialChannelPageV2: {path: "configuration/0eb328309a8bfb380e535045150e70bden-US"},
+	SocialChannelSection: {path: "configuration/f4beb7022e5aad0af8279f08b9e0ef59en-US"},
+	SocialChannelSectionV2: {path: "configuration/c0325d1cd296c7b030367b53d1479f90en-US"},
+	SocialCommunicationDetail: {path: "configuration/394ade9b4b9faa32aaef1cbe54017a83en-US"},
+	SocialCommunicationViewModel: {path: "configuration/b59c8cdf272d5c88407786e181e71b52en-US"},
+	SocialContactPage: {path: "configuration/1c7ea785a4311f9173369295e8a988f8en-US"},
+	SocialFeed: {path: "configuration/ae793921a683bed2dcb3277c1b0bc81den-US"},
+	SocialFeedUtilities: {path: "configuration/89090d7f6e2229bdc96ceb052545286ben-US", 
+		css: ["SocialFeedUtilities"]},
+	SocialGridDetailUtilities: {path: "configuration/3a730e4c559d2e4170a9c04e4557adb6en-US"},
+	SocialMentionSearchRulePage: {path: "configuration/bcbbb997c02c0e817aa2346e136342been-US"},
+	SocialMentionSearchRuleSection: {path: "configuration/0c9f30d101777b27b0d1f5eb5032ea32en-US"},
+	SocialMentionUtilities: {path: "configuration/222ae6ed0458506011e66d21b7ba6520en-US"},
+	SocialMessagePublisherModule: {path: "configuration/dc654cf195b195387ee34e4f03c09620en-US", 
 		css: ["SocialMessagePublisherModule"], 
 		messages: {
 			"RerenderPublisherModule": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SocialSearch: {
+		}},
+	SocialMessagePublisherPage: {path: "configuration/c4e1a5b5f91b0b758e9334735f4dd92een-US"},
+	SocialMessageTimelineItemView: {path: "configuration/037c32d7da434929557e20d1cedd8aeeen-US"},
+	SocialMessageTimelineItemViewModel: {path: "configuration/375416261108d8a1bcf8fa02a7ea4e4fen-US"},
+	SocialMessageViewModel: {path: "configuration/30bde2fea183fef965f7349c574398a3en-US"},
+	SocialNetworkServiceRequest: {path: "configuration/e42935c907727ea76cd2d9e1e08bd484en-US"},
+	SocialSearch: {path: "configuration/930e92cf078aadf066bd888149e2511ben-US", 
 		css: ["SocialSearch"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	SourceCodeDesignerCSS: {
-		css: ["SourceCodeDesignerCSS"]
-	},
-	SourceCodeEdit: {
-		css: ["SourceCodeEdit"]
-	},
-	SourceCodeEditMixin: {
-		css: ["SourceCodeEditMixin"]
-	},
-	SspAdminUnitSectionCSS: {
-		css: ["SspAdminUnitSectionCSS"]
-	},
-	SspPageWizard: {
+		}},
+	SocialSearchSchema: {path: "configuration/7dea13cab7d9b5cd66819e19b514dd63en-US"},
+	SortableGridViewModelMixin: {path: "configuration/0e35dc8d9fa10a20c8e446a34c3eb8e1en-US"},
+	SortingOrderControlsMixin: {path: "configuration/9cdba41425a1ff3a096946aafcf0f7bfen-US"},
+	SourceCodeDesigner: {path: "configuration/e1e6d2ecc5ae305a84b01f825017db57en-US"},
+	SourceCodeDesignerCSS: {path: "configuration/5f65d2352001cd826c06701e78497b92en-US", 
+		css: ["SourceCodeDesignerCSS"]},
+	SourceCodeEdit: {path: "configuration/01de99e74a49936e7a7b906d5e567459en-US", 
+		css: ["SourceCodeEdit"]},
+	SourceCodeEditEnums: {path: "configuration/307d0534d0884d74ed2feb31c633ec40en-US"},
+	SourceCodeEditGenerator: {path: "configuration/97548c0f869fbc493f508824611f1a22en-US"},
+	SourceCodeEditMixin: {path: "configuration/0be33548c5496c441f6767bd36cc0924en-US", 
+		css: ["SourceCodeEditMixin"]},
+	SourceCodeEditPage: {path: "configuration/a01d5d6eb0ea18c0d68deed2a040b4f2en-US"},
+	SplineChartJsConfigBuilder: {path: "configuration/df69d6b31c490d463fdf4d099084a0f1en-US"},
+	SsoOpenId_FormPage: {path: "configuration/df60e785accd688b0401f13358411190en-US"},
+	SsoOpenIdBase_FormPage: {path: "configuration/9c1eeb2c6e4d7e04a10a5c3cd2a99107en-US"},
+	SsoOpenIdCognito_FormPage: {path: "configuration/bde6f8ce27f8710e86809e9f765ef9f0en-US"},
+	SsoSamlAdfs_FormPage: {path: "configuration/35f83efc9d21a63d4c11a80aab6ed7been-US"},
+	SsoSamlAzure_FormPage: {path: "configuration/226c62b8671124a7ae7c068de2004d7een-US"},
+	SsoSamlBase_FormPage: {path: "configuration/ddadc606f44e3f4f6bb76a7bf8b36d33en-US"},
+	SsoSamlOkta_FormPage: {path: "configuration/b59fde2988a5a372207a6b2ff0f74070en-US"},
+	SsoSettings: {path: "configuration/7b6cb3d3c821b8ddb674bcc6d3128677en-US"},
+	SsoSettingsV2: {path: "configuration/d7235ae19e58c37c67ab7ff69ce24926en-US"},
+	SspAccountProfilePage: {path: "configuration/0d96dc894f53acd2e7f65d32467405b4en-US"},
+	SspActivityDashboardItemViewModel: {path: "configuration/0c76a61b7935c9319ec0f21421b60235en-US"},
+	SspAdminUnitSectionCSS: {path: "configuration/13169f0899202f0b335baeddb8294ad6en-US", 
+		css: ["SspAdminUnitSectionCSS"]},
+	SspBusinessRuleSection: {path: "configuration/01eb6f70800f2aa72c96fc919ee5ff98en-US"},
+	SspContactCommunicationDetail: {path: "configuration/a69c1c17713322d9a3a1aa1611f184b9en-US"},
+	SspEntitySchemaAccessListEditPage: {path: "configuration/5190826a938edbe50f651b4e67b82203en-US"},
+	SspEntitySchemaAccessListLookupSection: {path: "configuration/42fbbc81b5fbea7093664901c93d1778en-US"},
+	SSPGridMixin: {path: "configuration/8d1fc497aa07db3be350888b89c1859aen-US"},
+	SspMiniPageContainerViewModel: {path: "configuration/84fbf6a7b6096b494e290f2c3072caa3en-US"},
+	SspMiniPageListener: {path: "configuration/c078a5ea4d540a013ef2d5c654585ea8en-US"},
+	SspMiniPageUtilities: {path: "configuration/fafce08707dc169efd55f932df6d907fen-US"},
+	SspPageDesignerBuilder: {path: "configuration/5f96c72a2c2e606c5e0931d9bd187898en-US"},
+	SspPageDesignerModule: {path: "configuration/16f61712f9e83d13e31f0d25cebe5c15en-US"},
+	SspPageDesignerSchema: {path: "configuration/9a9701651bdd540dc9feb322496cd66ben-US"},
+	SspPageDetailsManager: {path: "configuration/23fa44ee668a280504c2ef40e8c549c7en-US"},
+	SspPageDetailsManagerItem: {path: "configuration/c0e8ab6f388c42f96ec9c611f691691cen-US"},
+	SspPageWizard: {path: "configuration/1e7c39720ee360efeb0b1e63516913d8en-US", 
 		messages: {
 			"LoadModule": { "direction": "subscribe", "mode": "ptp" },
 			"HistoryStateChanged": { "direction": "subscribe", "mode": "broadcast" },
@@ -3435,12 +4769,20 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"SaveWizard": { "direction": "subscribe", "mode": "ptp" },
 			"GetPackageUId": { "direction": "subscribe", "mode": "ptp" },
 			"UpdateStepsConfig": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SspReadOnlyModeModuleCSS: {
-		css: ["SspReadOnlyModeModuleCSS"]
-	},
-	StructureExploreModule: {
+		}},
+	SspProfileContactPage: {path: "configuration/06a978c7b09f3a4dbb647e3685060353en-US"},
+	SspReadOnlyModeModule: {path: "configuration/6ff60802e96031bfee55cedbcc980a30en-US"},
+	SspReadOnlyModeModuleCSS: {path: "configuration/1f9626c776ebf6a5f3092bcec1c2c396en-US", 
+		css: ["SspReadOnlyModeModuleCSS"]},
+	SspSysAdminUnitFuncRolePage: {path: "configuration/7f2e7aa4912677ccc020e39a767adfcden-US"},
+	SspSysAdminUnitPage: {path: "configuration/3499f580266f0f1a90c2dd05c5d45d5den-US"},
+	SspSysAdminUnitSection: {path: "configuration/98e186ee861b97bb70398290630195e3en-US"},
+	SSPUsersSection: {path: "configuration/aab6570423f69d5e51ce11f3fdc49460en-US"},
+	StartMessageEventPropertiesPage: {path: "configuration/b34a27e8d5f1256fee05d006b3688953en-US"},
+	StartSignalPropertiesPage: {path: "configuration/7bc9f1f9d695986246b708bda0d1f108en-US"},
+	StorageUtilities: {path: "configuration/fa55c0392e53f1c181cb488db28383a4en-US"},
+	StropheModule: {path: "configuration/79eca9bd2b078e29edeccba21e188e41en-US"},
+	StructureExploreModule: {path: "configuration/4f884ed768476ee0d8269c791f9d80cfen-US", 
 		css: ["StructureExploreModule"], 
 		messages: {
 			"ColumnSelected": { "direction": "publish", "mode": "ptp" },
@@ -3452,9 +4794,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetStructureExplorerSchemaName": { "direction": "publish", "mode": "ptp" },
 			"GetEntitySchema": { "direction": "publish", "mode": "ptp" },
 			"StructureExploreOpening": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	StructureExploreModuleV2: {
+		}},
+	StructureExploreModuleV2: {path: "configuration/4f65b9df316e63b990ef2e7e92564fc4en-US", 
 		css: ["StructureExploreModuleV2"], 
 		messages: {
 			"ColumnSelected": { "direction": "publish", "mode": "ptp" },
@@ -3466,15 +4807,29 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetStructureExplorerSchemaName": { "direction": "publish", "mode": "ptp" },
 			"GetEntitySchema": { "direction": "publish", "mode": "ptp" },
 			"StructureExploreOpening": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	StructureExplorerUtilities: {
+		}},
+	StructureExplorer: {path: "configuration/fae6bd84f6a72b449d1674763357b37fen-US"},
+	StructureExplorerMainViewModel: {path: "configuration/e93ba941fca66b6cb9b1bd13919e61d4en-US"},
+	StructureExplorerParameterMainViewModel: {path: "configuration/df8d542af7c39435a22c6444e98fa702en-US"},
+	StructureExplorerUtilities: {path: "configuration/8bb364f99f2a3884cc42d3895b9e94aeen-US", 
 		messages: {
 			"ColumnSelected": { "direction": "subscribe", "mode": "ptp" },
 			"StructureExplorerInfo": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	SummaryModule: {
+		}},
+	StructureExplorerUtilitiesV2: {path: "configuration/3dda69422fba77fed36b279f26c1044ben-US"},
+	StructureExplorerView: {path: "configuration/886ebbb1e6229d535d46582f5133d416en-US"},
+	StructureExplorerViewConfig: {path: "configuration/30a445078d1356c20258ee855c15ca44en-US"},
+	StructureExplorerViewModel: {path: "configuration/1f53771692dc56c2db7db5c82339d2f7en-US"},
+	StructureExplorerViewModelItem: {path: "configuration/802feda221329446c59e0b2af9189f03en-US"},
+	StudioDesktop: {path: "configuration/358fece89ecf93185c0cbe8a3d55e8f6en-US"},
+	StudioHomePage: {path: "configuration/44c5790d3d70267d946f99a7435538a2en-US"},
+	StudioIntro: {path: "configuration/68f2bc86d5340a0a807e729df3c84ce8en-US"},
+	SubProcessDetail: {path: "configuration/6a345de5405f69119d38ab3515232581en-US"},
+	SubProcessPropertiesPage: {path: "configuration/55924a8173640928e032cfa4ef789d44en-US"},
+	SubscriberCommunicationItem: {path: "configuration/badf1e37bf510ae73ba95bfd0d5bbafben-US"},
+	SubscribersDetailV2: {path: "configuration/0cec23824bf22378d808226cafe66276en-US"},
+	SubscriberSearchResultItem: {path: "configuration/43060cd5f0f19058e70f3caa2d0ce449en-US"},
+	SummaryModule: {path: "configuration/430a44d33227ab9a796c6d799dae9d47en-US", 
 		css: ["SummaryModule"], 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -3482,9 +4837,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetQuickFilter": { "direction": "publish", "mode": "ptp" },
 			"QuickFilterChanged": { "direction": "subscribe", "mode": "broadcast" },
 			"GetQuickFilterModuleId": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	SummaryModuleV2: {
+		}},
+	SummaryModuleV2: {path: "configuration/1f1413aa0d9bacdc2d783b0936a5ea15en-US", 
 		css: ["SummaryModuleV2"], 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -3498,9 +4852,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"SummaryItemsUpdate": { "direction": "publish", "mode": "ptp" },
 			"ChangeGridUtilitiesContainerSize": { "direction": "publish", "mode": "broadcast" },
 			"ReloadSummaryModule": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	SummarySettingsModule: {
+		}},
+	SummarySettingsModule: {path: "configuration/efbc3b64d06388d02e8e93cf733ac9b5en-US", 
 		css: ["SummarySettingsModule"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -3510,22 +4863,63 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"StructureExplorerInfo": { "direction": "subscribe", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	SyncSettingsErrorsCSS: {
-		css: ["SyncSettingsErrorsCSS"]
-	},
-	SyncSettingsTabModule: {
+		}},
+	SummarySettingsViewGenerator: {path: "configuration/cc384454332fcf185b83a1fed3e26ca7en-US"},
+	SummarySettingsViewModelGenerator: {path: "configuration/4dce5d6c7eeec381e6626dcec07dd2f5en-US"},
+	SummaryView: {path: "configuration/46fb42376ac13cedcc031a5172b27ab9en-US"},
+	SummaryViewModel: {path: "configuration/e8c544e4fc2f990b6f411f98b02a7985en-US"},
+	SupportEmailHelper: {path: "configuration/4a4cc6b74267c7f1895ea0d9c9082eb3en-US"},
+	SwitchToClassicUIDialog: {path: "configuration/3c15da2360c915fc59e3d2ae0254d406en-US"},
+	SwitchToFreedomUIDialog: {path: "configuration/d9ceb2d59484695f3cb6564855245320en-US"},
+	SyncModule: {path: "configuration/8750f8462add4feda8a0d2ba9e74ecd6en-US"},
+	SyncSettings: {path: "configuration/17a2b8aa298987cb0e3977ca19e194bden-US"},
+	SyncSettingsEditMixin: {path: "configuration/1091c2e605314e5db9b4ac7b0472e780en-US"},
+	SyncSettingsErrorItem: {path: "configuration/d58c82593202ebe0fe732d412f2b0f45en-US"},
+	SyncSettingsErrors: {path: "configuration/2a56ec7ee8198aa2d0c956d0299719d6en-US"},
+	SyncSettingsErrorsCSS: {path: "configuration/16314ebd92e55c25dd6e4b8eeaf9266den-US", 
+		css: ["SyncSettingsErrorsCSS"]},
+	SyncSettingsErrorsMixin: {path: "configuration/5daa7cf11d0d724bf962f54a98d19614en-US"},
+	SyncSettingsLicenseUtils: {path: "configuration/2b4a7cc2183bc0126b3d451b5ebea626en-US"},
+	SyncSettingsMixin: {path: "configuration/a4d5bc9dc4352bf11179d76741cd7c08en-US"},
+	SyncSettingsTabModule: {path: "configuration/7a85d16c7873a93949f27d1a8ab626e5en-US", 
 		css: ["SyncSettingsTabModule"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	SysDataSegmentFormPageCustomCSS: {
-		css: ["SysDataSegmentFormPageCustomCSS"]
-	},
-	SysLogoSettingsModule: {
+		}},
+	SysAdminOperationGranteeDetailV2: {path: "configuration/2b160caacd0fa6dc7b57d8f41c4243aben-US"},
+	SysAdminOperationGranteePageV2: {path: "configuration/e40fa6823692e47d2d8529204ff2fa01en-US"},
+	SysAdminOperationPageV2: {path: "configuration/d4125ca508c4c97b3583dc0747dcfc42en-US"},
+	SysAdminOperationSectionV2: {path: "configuration/086c0456d7c0ae316bb2e4b977eebadaen-US"},
+	SysAdminUnitChiefIPRangeDetailV2: {path: "configuration/548d9dcb95880678511db3100e3516e1en-US"},
+	SysAdminUnitFuncRolePageV2: {path: "configuration/59077185f36f4bcbd52c554c02533e41en-US"},
+	SysAdminUnitGrantedRightDetailV2: {path: "configuration/d9e7f938121dbf837986f451b14be0b4en-US"},
+	SysAdminUnitInWorkplaceDetail: {path: "configuration/3fd67e6adac8cbfd2deadd60195bc283en-US"},
+	SysAdminUnitInWorkplaceDetailV2: {path: "configuration/46141af9291c754a5c095eea8bed458cen-US"},
+	SysAdminUnitIPRangeDetailV2: {path: "configuration/bdef482f9a0c33b6158f2ef9b8bf41c7en-US"},
+	SysAdminUnitIPRangePageV2: {path: "configuration/48471e5d0ca2c6aeb46262d699021493en-US"},
+	SysAdminUnitPageV2: {path: "configuration/797f3b572fd8c53183e28a2ce8d1a9b1en-US"},
+	SysAdminUnitRoleBasePageV2: {path: "configuration/4b50f1402733c4c70affe82306957d39en-US"},
+	SysAdminUnitSectionV2: {path: "configuration/b25e52b63f34d10b382be11db0563361en-US"},
+	SysDataSegment_Detail: {path: "configuration/8a373f6e5b9f813c59d0748cc7d87820en-US"},
+	SysDataSegment_FormPage: {path: "configuration/677c2c8bd87f61121681a4dcda45a052en-US"},
+	SysDataSegment_ListPage: {path: "configuration/9038fe9a8b37df26ee47d0bb15b49446en-US"},
+	SysDataSegment_ModalPage: {path: "configuration/c5812e363bd0109671a62f40b647eef0en-US"},
+	SysDataSegmentFormPageCustomCSS: {path: "configuration/9b5569256dfad519180a554b170db06een-US", 
+		css: ["SysDataSegmentFormPageCustomCSS"]},
+	SysDcmSchemaInSettingsManager: {path: "configuration/80377c2527062bdae7708a5ecd070d2cen-US"},
+	SysDcmSchemaInSettingsManagerItem: {path: "configuration/6bdaa1bdbdb3d69e640934c4fb08e302en-US"},
+	SysDcmSettingsManager: {path: "configuration/ece0f7a43c9b7e01d7ec307c25b505f2en-US"},
+	SysDcmSettingsManagerItem: {path: "configuration/727bff7af0ec7ac18ff251cb88a247ffen-US"},
+	SysFileSearchRowSchema: {path: "configuration/4e466ceefc70f13c871131e981941cbfen-US"},
+	SysFuncRoleChiefInOrgRoleDetailV2: {path: "configuration/16d1f828272a31c198559f2aba19b974en-US"},
+	SysFuncRoleInOrgRoleDetailV2: {path: "configuration/a298e937d1c8c2477407a8fc2c8aaf83en-US"},
+	SysFuncRoleInOrgRolePageV2: {path: "configuration/9d8a0eec1fa339051595a85e7bc8f70cen-US"},
+	SysFuncRoleInUserDetailV2: {path: "configuration/1d894c15ee9ff296ebd5e92822a8e2e3en-US"},
+	SysLanguageSectionGridRowViewModel: {path: "configuration/3f8fbe8ed513f9b2ef0c305d3d79cec9en-US"},
+	SysLicPackageInRoleDetail: {path: "configuration/24a5d39dabea3a975cde6289c238b030en-US"},
+	SysLicUserDetailV2: {path: "configuration/fd7f18919edc742cbe4aa7197650bd38en-US"},
+	SysLogoSettingsModule: {path: "configuration/f4905fa4e534c9bbba30e30c6a5ccf78en-US", 
 		css: ["SysLogoSettingsModule"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -3535,15 +4929,27 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"InitDataViews": { "direction": "publish", "mode": "ptp" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" }
-		}
-	},
-	SysMobileWorkplaceSectionStyles: {
-		css: ["SysMobileWorkplaceSectionStyles"]
-	},
-	SysModuleEntitySelectSinglePageModalBoxCSS: {
-		css: ["SysModuleEntitySelectSinglePageModalBoxCSS"]
-	},
-	SysOperationAuditMovingToArchiveModule: {
+		}},
+	SysMobileWorkplacePage: {path: "configuration/1e1b59bfa27d48b2bb28570b4fa9fcc3en-US"},
+	SysMobileWorkplaceSection: {path: "configuration/1c7c7960a5ae2ff46e3e3b79f48b0ce1en-US"},
+	SysMobileWorkplaceSectionStyles: {path: "configuration/14c93b276ef7340fd5b8d33753ba8a0ben-US", 
+		css: ["SysMobileWorkplaceSectionStyles"]},
+	SysModuleEditManageModule: {path: "configuration/dd17f788965fc95a82e5d989148144e4en-US"},
+	SysModuleEditManager: {path: "configuration/6cd22f468240c79f92835094e822cc13en-US"},
+	SysModuleEditManagerItem: {path: "configuration/75cac54209438a1ffa000a8f6eb85455en-US"},
+	SysModuleEntityManager: {path: "configuration/eaf3d19ec4b217d672c3979a6798e94ben-US"},
+	SysModuleEntityManagerItem: {path: "configuration/d7f751e40c6816b54694f56ca9123b38en-US"},
+	SysModuleEntitySelectSinglePageModalBox: {path: "configuration/c6579129e2baaa6ea506553712b7d834en-US"},
+	SysModuleEntitySelectSinglePageModalBoxCSS: {path: "configuration/42e550f724abe21bff9585ed2ca31bcben-US", 
+		css: ["SysModuleEntitySelectSinglePageModalBoxCSS"]},
+	SysModuleEntitySettings: {path: "configuration/c6defc88f339354a7ec1c7c2da197836en-US"},
+	SysModuleEntitySettingsItemModel: {path: "configuration/179f4a051d40b8540b8e95c178fbc89den-US"},
+	SysModuleInWorkplaceDetail: {path: "configuration/0431fa75df8a7015057109ccd61a8e46en-US"},
+	SysModuleInWorkplaceDetailV2: {path: "configuration/e344071d2f4a2221d13a53a37097e393en-US"},
+	SysModuleVisaManager: {path: "configuration/f5487e91cacd6cd539e3e7b1e4678e35en-US"},
+	SysModuleVisaManagerItem: {path: "configuration/f25697902a74152e6c49e80ab211d813en-US"},
+	SysOperationAuditArchiveSectionV2: {path: "configuration/f0ae51714b13ea0004c6721a49eef0f7en-US"},
+	SysOperationAuditMovingToArchiveModule: {path: "configuration/924d109cd8e85d8df562de48616008e9en-US", 
 		css: ["SysOperationAuditMovingToArchiveModule"], 
 		messages: {
 			"BackHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -3557,12 +4963,25 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"ChangeHeaderCaption": { "direction": "publish", "mode": "ptp" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" },
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	SysProcessLogPageV2CSS: {
-		css: ["SysProcessLogPageV2CSS"]
-	},
-	SysSectionPanelSettingsModule: {
+		}},
+	SysOperationAuditSection: {path: "configuration/533856f574b98bb8359aeb43dc4f5b68en-US"},
+	SysOperationAuditSectionV2: {path: "configuration/9e3a710316643a083d82d9b4e1f79e18en-US"},
+	SysOrgRoleInUserDetailV2: {path: "configuration/93580b6203d05ed484de3f8696da0d13en-US"},
+	SysProcessElementLogDetailV2: {path: "configuration/c396c429e46ced7f6c51aa1d96827401en-US"},
+	SysProcessEntityDetail: {path: "configuration/0d3c1e8386118f8f99070aa23592ced7en-US"},
+	SysProcessEntityDetailV2: {path: "configuration/713e63b7198ec4affa41fc0abd847e48en-US"},
+	SysProcessLogPageV2: {path: "configuration/4d3da4e4ba7fa01aea6d595b220ffb85en-US"},
+	SysProcessLogPageV2CSS: {path: "configuration/fc9f60a6e71ddd5452f412e4cedf369cen-US", 
+		css: ["SysProcessLogPageV2CSS"]},
+	SysProcessLogSectionV2: {path: "configuration/df7ec242762f882fc98b61ad760b9f57en-US"},
+	SysProcessLogSectionV2GridRowViewModel: {path: "configuration/d800e0aceadd2cb009ead81654bb8df6en-US"},
+	SysProcessMultiInstanceLogSection: {path: "configuration/6d5b0545a192f1a0659a924cbb5b5b5een-US"},
+	SysProcessUserTaskPage: {path: "configuration/1bff19a6ce6df4d3f2e0c7bba6922de6en-US"},
+	SysProcessUserTaskSection: {path: "configuration/266c2755bd8b0d070b7a543663d8303fen-US"},
+	SysQueryRuleApplyLogSection: {path: "configuration/c812ef7a53d8090cc5166ae4bc26ccf9en-US"},
+	SysRoleInMobWorkplaceDetail: {path: "configuration/7f8f6e95bd0089358acbbbe2e1abe305en-US"},
+	SysSchemaUIdEnums: {path: "configuration/6dcd427f604668f907967da155132b15en-US"},
+	SysSectionPanelSettingsModule: {path: "configuration/664044c63419b77fc3d239d2b0557321en-US", 
 		css: ["SysSectionPanelSettingsModule"], 
 		messages: {
 			"ChangeHeaderCaption": { "direction": "publish", "mode": "ptp" },
@@ -3572,12 +4991,14 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"NeedHeaderCaption": { "direction": "subscribe", "mode": "broadcast" },
 			"InitDataViews": { "direction": "publish", "mode": "ptp" },
 			"InitContextHelp": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	SysSettingPageCSS: {
-		css: ["SysSettingPageCSS"]
-	},
-	SystemDesignerDashboardsModule: {
+		}},
+	SysSettingPage: {path: "configuration/508a026e7c4312f2ff2b6765e09ca81den-US"},
+	SysSettingPageCSS: {path: "configuration/c75af8cc2b72a603ab5ca4d6f3fa7cfaen-US", 
+		css: ["SysSettingPageCSS"]},
+	SysSettingsSection: {path: "configuration/f21ea295748daba7122a66bc01fd0e6den-US"},
+	SystemDesigner: {path: "configuration/0993bcc44155f11450e528482369fd25en-US"},
+	SystemDesignerDashboardBuilder: {path: "configuration/73498228e9ae540aeaec6cad54422c65en-US"},
+	SystemDesignerDashboardsModule: {path: "configuration/58b84ce95c487cf681ebf818be176824en-US", 
 		css: ["SystemDesignerDashboardsModule"], 
 		messages: {
 			"GetDashboardInfo": { "direction": "subscribe", "mode": "ptp" },
@@ -3586,9 +5007,10 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetRecordInfo": { "direction": "subscribe", "mode": "ptp" },
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"PushHistoryState": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	SystemDesignerTileModule: {
+		}},
+	SystemDesignerDashboardsViewModel: {path: "configuration/3ede203da81b83b71d8ce47e0cc0c4been-US"},
+	SystemDesignerTileConfigEdit: {path: "configuration/ed6fe344ce0aa23c307ca926e61afc6cen-US"},
+	SystemDesignerTileModule: {path: "configuration/6be2f58e85c528183e0bc5344790a0c4en-US", 
 		css: ["SystemDesignerTileModule"], 
 		messages: {
 			"GetSystemDesignerTileConfig": { "direction": "publish", "mode": "ptp" },
@@ -3596,67 +5018,122 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	SystemNotificationsSchemaCSS: {
-		css: ["SystemNotificationsSchemaCSS"]
-	},
-	SysWorkplaceHelper: {
-		css: ["SysWorkplaceHelper"]
-	},
-	SysWorkplacePageV2Styles: {
-		css: ["SysWorkplacePageV2Styles"]
-	},
-	SysWorkplaceSettingsModule: {
-		css: ["SysWorkplaceSettingsModule"]
-	},
-	SysWorkplaceUtilitiesModuleV2: {
-		css: ["SysWorkplaceUtilitiesModuleV2"]
-	},
-	TagModule: {
+		}},
+	SystemManagenetSystemDesignerSectionV2: {path: "configuration/dc2abca7090ea7c99b854cc5a31fbf66en-US"},
+	SystemNotificationsSchema: {path: "configuration/e353347e6c2a96d51f795c8a8cbbc9e2en-US"},
+	SystemNotificationsSchemaCSS: {path: "configuration/a70b5471c224c1dd9cb1abebdf059a8aen-US", 
+		css: ["SystemNotificationsSchemaCSS"]},
+	SystemOperationsPermissionsMixin: {path: "configuration/0794e848b5faa96a05e55fb7a8c2b8d5en-US"},
+	SystemViewSystemDesignerSectionV2: {path: "configuration/0accd8bf86e617b58895940ef7cbe11ben-US"},
+	SysTranslationColumnsCaptionMixin: {path: "configuration/3d03840833f220683685d7290e6a53deen-US"},
+	SysTwoFactorAuthFlowLookupSection: {path: "configuration/9d3aab5eb8b21f5f875bfedcff7f8bf1en-US"},
+	SysUserInRoleInUserPageV2: {path: "configuration/a02598da1af9b528ab21aa417913cdd9en-US"},
+	SysUserProfilePage: {path: "configuration/151404fa6af1da86c3b6151400002587en-US"},
+	SysWorkplaceHelper: {path: "configuration/e1f1d3840c846f52e9b89d3f6c6fd88ben-US", 
+		css: ["SysWorkplaceHelper"]},
+	SysWorkplacePage: {path: "configuration/a3c4f0186e0c2413be240ede7c835d3ben-US"},
+	SysWorkplacePageV2: {path: "configuration/646201c27499ced6b975fabc3ee1db79en-US"},
+	SysWorkplacePageV2Styles: {path: "configuration/4dd5f1cf6d636e96dbb4723c8289182een-US", 
+		css: ["SysWorkplacePageV2Styles"]},
+	SysWorkplaceSection: {path: "configuration/1f0ff7feafeb1ade38a6c6be831b02bfen-US"},
+	SysWorkplaceSectionGridRowViewModel: {path: "configuration/f0e8ca829875f3c49675a42a1f9ac642en-US"},
+	SysWorkplaceSectionV2: {path: "configuration/4ad7ad113ef83793c68bd2e948c842b1en-US"},
+	SysWorkplaceSettingsModule: {path: "configuration/d55f88710bdb2b7893c48b3119bc9555en-US", 
+		css: ["SysWorkplaceSettingsModule"]},
+	SysWorkplaceUtilitiesModuleV2: {path: "configuration/e425110697ef85b21c93edadf521f579en-US", 
+		css: ["SysWorkplaceUtilitiesModuleV2"]},
+	TabLabelPanelContainer: {path: "configuration/81d581c6b7cf32085a10e3878f374173en-US"},
+	TabLabelPanelItem: {path: "configuration/7dc218cb9a2f94493748e215dc8e18d8en-US"},
+	TabLabelPanelItemModel: {path: "configuration/bf4c9c4e17ba5494565d5a47b58e0ed4en-US"},
+	TabLabelPanelModel: {path: "configuration/7b716f3f737c03b4cb8ef7ebb97689a7en-US"},
+	TabPropertiesPageModule: {path: "configuration/0ee624b20e0cf66f6b609c2b4592a95een-US"},
+	TagConstantsV2: {path: "configuration/402180a9bd41af17d753ac408a9923b6en-US"},
+	TagFilterViewGeneratorV2: {path: "configuration/b155c9df2571fdf0cca9de32b8bddc81en-US"},
+	TagFilterViewModelGeneratorV2: {path: "configuration/34ede2471ebcd31bf576a92dc4f5ecb8en-US"},
+	TagItemViewModel: {path: "configuration/e18530bac0ea917a8a8448cb81a8ceb7en-US"},
+	TagMiniPage: {path: "configuration/3df4932e57044b57452bee5370774241en-US"},
+	TagModule: {path: "configuration/49b62768d76cb7332255fd4ea18d017ben-US", 
 		messages: {
 			"DeleteItem": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	TagModuleSchemaStyles: {
-		css: ["TagModuleSchemaStyles"]
-	},
-	TimelineCSS: {
-		css: ["TimelineCSS"]
-	},
-	TimelineFilterMenu: {
-		css: ["TimelineFilterMenu"]
-	},
-	TimelineFilterMenuItem: {
-		css: ["TimelineFilterMenuItem"]
-	},
-	TimezoneGenerator: {
-		css: ["TimezoneGenerator"]
-	},
-	TooltipUtilities: {
-		css: ["TooltipUtilities"]
-	},
-	TranslationCSS: {
-		css: ["TranslationCSS"]
-	},
-	TranslationPageCss: {
-		css: ["TranslationPageCss"]
-	},
-	UserPageV2CSS: {
-		css: ["UserPageV2CSS"]
-	},
-	UserProfile: {
+		}},
+	TagModuleSchema: {path: "configuration/f6a9dde08e9537e8fe7de50110cde7d8en-US"},
+	TagModuleSchemaHelper: {path: "configuration/6ab40518bfc6a306834db3074c451250en-US"},
+	TagModuleSchemaStyles: {path: "configuration/8112b3a817af9432a44b86f58266c127en-US", 
+		css: ["TagModuleSchemaStyles"]},
+	TagUtilitiesV2: {path: "configuration/bd61f68a955dfa64530d40278fcc0228en-US"},
+	Tasks_Detail: {path: "configuration/f8ba8066f882a70dd07ea970d0897137en-US"},
+	Tasks_FormPage: {path: "configuration/62415be20fa597664a197c510f4e34a3en-US"},
+	Tasks_ListPage: {path: "configuration/ff2b3a51c31634fb1ced5c6e05aded9cen-US"},
+	TechnicalUsers_FormPage: {path: "configuration/ef484ee078deb08425d52ca80d236723en-US"},
+	TechnicalUsers_ListPage: {path: "configuration/636a3e35f9be29458ace7ad22df2edeeen-US"},
+	TelegramChannel_AddingPage: {path: "configuration/b8cfeaaa9ccb657f3a9cd0d601592d0ben-US"},
+	TelegramChannel_EditPage: {path: "configuration/3c70267494787964ffa78c41fe4fb5f2en-US"},
+	TemplatePropertiesPage: {path: "configuration/9c9493261b4be98fd98b6462c8e2041een-US"},
+	TextAlignPropertyModule: {path: "configuration/d522fda500fc7f36c4998348ef62f668en-US"},
+	TextMacroListItemViewModel: {path: "configuration/59e0b88d1a10c4e3cd2a4e30f77262c4en-US"},
+	TimelineColumnFiltersBuilder: {path: "configuration/7bf15dc56888c3db008dc45b024a3c20en-US"},
+	TimelineCSS: {path: "configuration/abe7c73cbb9620cde24b6a85bf4f1bd1en-US", 
+		css: ["TimelineCSS"]},
+	TimelineDataStorage: {path: "configuration/c61ff8d28c2d206ba32b18b617e5b152en-US"},
+	TimelineFilterMenu: {path: "configuration/631597bec52915019b880cd239f49697en-US", 
+		css: ["TimelineFilterMenu"]},
+	TimelineFilterMenuItem: {path: "configuration/237c5667d2e61c5b8cccd29563ad0054en-US", 
+		css: ["TimelineFilterMenuItem"]},
+	TimelineFiltersSchema: {path: "configuration/7e5a6a449808ac7f60cab00e795ae4eden-US"},
+	TimelineItemsViewGenerator: {path: "configuration/c744759df975c0a70fe0d010f1ef9f7den-US"},
+	TimelineManager: {path: "configuration/1eb368bdb3c581dc9d8c6be6b2ede149en-US"},
+	TimelineSchema: {path: "configuration/4642681f7f6d63aca513ec2101ff0107en-US"},
+	TimezoneGenerator: {path: "configuration/7f951a4aaee75641da9ee37e4805a50cen-US", 
+		css: ["TimezoneGenerator"]},
+	TimeZoneLookupPage: {path: "configuration/d2d041a18427ad7855bf832609332147en-US"},
+	TimezoneMixin: {path: "configuration/e3ff14ad6fee7bfe9dffa541b18dde2ben-US"},
+	TimezoneUtils: {path: "configuration/9f5fdf8a584defc8cee44548160f5ed8en-US"},
+	TitleNotificationUtilities: {path: "configuration/190a7fb12b19f4698b5af8277ceb6aaeen-US"},
+	ToMetaItemBR7xConverter: {path: "configuration/8f18b9aa01f91180105da2be8f419038en-US"},
+	ToMetaItemBusinessRuleConverter: {path: "configuration/cbfc058223643340f3bfdebf15cbd361en-US"},
+	TooltipUtilities: {path: "configuration/ff9c5447ba7d10741379d86edd00d4d0en-US", 
+		css: ["TooltipUtilities"]},
+	TranslationActualizationSettingsMiniPage: {path: "configuration/c2830547b30edca1b55b2d988ba07d3fen-US"},
+	TranslationCSS: {path: "configuration/174826ac81ae7c1a7966abaa46f53d6aen-US", 
+		css: ["TranslationCSS"]},
+	TranslationListViewGenerator: {path: "configuration/55b900800694ab3638e6ed0ce76e3881en-US"},
+	TranslationPage: {path: "configuration/f5550c2ed9e6abb2223da71d0b12133cen-US"},
+	TranslationPageCss: {path: "configuration/5a47535ff0bb8b8c17e13d0b46f0648fen-US", 
+		css: ["TranslationPageCss"]},
+	Translations: {path: "configuration/fe875998dbcf43ad14eaae36a30bf57cen-US"},
+	TranslationSection: {path: "configuration/63274cea6c54bcb89c51562af5e92c04en-US"},
+	TranslationStatusModule: {path: "configuration/8703105dfebb3e330f56e183ccb6d9e9en-US"},
+	TranslationStatusPage: {path: "configuration/937df9075447c499db483affd73aa179en-US"},
+	TurnOffAutoClenerConfirmationModalPage: {path: "configuration/095a7fc7880aaba90a969b3d17f1337cen-US"},
+	TwoFaRecoveryCodesPage: {path: "configuration/b19979ad3031c007c0bc266ae20bf65aen-US"},
+	UISwitcher_ListPage: {path: "configuration/8c196fa6ad879952473f52d2e59fb87fen-US"},
+	UISwitcherBaseConfirmationDialog: {path: "configuration/ef842b508a526b71fbed5bcefc55e6dben-US"},
+	UISwitcherBaseSwitchPageDialog: {path: "configuration/a3af3e61a1d3eaafe87b580de767aac4en-US"},
+	UISwitcherBaseSwitchUIDialog: {path: "configuration/cb1b0a6f8a5a59dbc241c4c910604e41en-US"},
+	UISwitcherLogoutDialog: {path: "configuration/5b6c3b3ace4f05b62bf6ad2a4227ed64en-US"},
+	UISwitcherUserGroupSelectionPage: {path: "configuration/dd1aa406c98f91107ec6c62e4e7941e6en-US"},
+	UndeliveredWebhooks_MiniPage: {path: "configuration/130a5f82b9f24458e451a33c95ede98fen-US"},
+	UntranslatedFilterViewModel: {path: "configuration/291b043bc50982c8bb138fc23f0d1441en-US"},
+	UriJsonConverter: {path: "configuration/85d16e655bb397a7ffbd19bb42a85ef9en-US"},
+	UriRequestBuilder: {path: "configuration/19544605d6475f1f98383894f477b932en-US"},
+	UserAttributesDetail: {path: "configuration/fbacaec4f05b8d40cb19bf7a1e92becaen-US"},
+	UserCalendarMixin: {path: "configuration/0094c856816389d11987f6d7437aa7c6en-US"},
+	UserConnectedAppPage: {path: "configuration/ee4658015c16dd3875a7168610efefe5en-US"},
+	UserManagementModule: {path: "configuration/e0f9908757b3b65c3f4c36c4a81004ffen-US"},
+	UserPageV2: {path: "configuration/848b1f78c0d9d0f68f65d3813e3a4365en-US"},
+	UserPageV2CSS: {path: "configuration/aee63dbf30ae552e88d73608000e662een-US", 
+		css: ["UserPageV2CSS"]},
+	UserProfile: {path: "configuration/27609774ab6099c933d17cea0226aa90en-US", 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
 			"ReplaceHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"InitContextHelp": { "direction": "publish", "mode": "ptp" }
-		}
-	},
-	UserProfileCSS: {
-		css: ["UserProfileCSS"]
-	},
-	UserQuestionProcessElementPage: {
+		}},
+	UserProfileCSS: {path: "configuration/08a99509c8b19b06a6bb581798c46e9ben-US", 
+		css: ["UserProfileCSS"]},
+	UserProfilePage: {path: "configuration/8af395a845b4ee2e97660b7b4650da8den-US"},
+	UserQuestionProcessElementPage: {path: "configuration/23cb79b8ea9fa9081b87ee5597646984en-US", 
 		css: ["UserQuestionProcessElementPage"], 
 		messages: {
 			"GetProcessExecData": { "direction": "publish", "mode": "ptp" },
@@ -3670,33 +5147,45 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"OpenCardModule": { "direction": "subscribe", "mode": "ptp" },
 			"GetCardModuleSandboxId": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	ViewModelCollectionGridSchemaV2CSS: {
-		css: ["ViewModelCollectionGridSchemaV2CSS"]
-	},
-	ViewModelSchemaDesignerControlGroupModalBoxCss: {
-		css: ["ViewModelSchemaDesignerControlGroupModalBoxCss"]
-	},
-	ViewModelSchemaDesignerDetailModalBoxCss: {
-		css: ["ViewModelSchemaDesignerDetailModalBoxCss"]
-	},
-	ViewModelSchemaDesignerItem: {
-		css: ["ViewModelSchemaDesignerItem"]
-	},
-	ViewModelSchemaDesignerModule: {
-		css: ["ViewModelSchemaDesignerModule"]
-	},
-	ViewModelSchemaDesignerTabItem: {
-		css: ["ViewModelSchemaDesignerTabItem"]
-	},
-	ViewModelSchemaDesignerTabModalBoxCss: {
-		css: ["ViewModelSchemaDesignerTabModalBoxCss"]
-	},
-	ViewModelSchemaDesignerViewGenerator: {
-		css: ["ViewModelSchemaDesignerViewGenerator"]
-	},
-	ViewModelWithMixins: {
+		}},
+	UserQuestionProcessPageV2: {path: "configuration/22334ce78a6d5de55aa6a1d5c16209f9en-US"},
+	UserQuestionProcessPageV2Utilities: {path: "configuration/991dc39185a6d422f6767c83b18c28acen-US"},
+	UsersDetailV2: {path: "configuration/799e39ff1cc385d29618855369aa035den-US"},
+	UsersSectionV2: {path: "configuration/82691007d8e1d9ed8f700db32a171c6den-US"},
+	UserTaskPropertiesPage: {path: "configuration/2b993c8c101b986b345e54236c040d0fen-US"},
+	VerticalAlignPropertyModule: {path: "configuration/e861f2a3db91553307419e1f90718ef0en-US"},
+	ViewConfigBuilderMixin: {path: "configuration/82daa78498f1b50e5da4ec95f674f409en-US"},
+	ViewGeneratorV2: {path: "configuration/aba4cc9a3503d3097cd865c81f2f39c5en-US"},
+	ViewModelCollectionGridSchemaV2: {path: "configuration/345a47b1863ada16b803d670733776faen-US"},
+	ViewModelCollectionGridSchemaV2CSS: {path: "configuration/409f3e32b019972d864c2f0359fa269fen-US", 
+		css: ["ViewModelCollectionGridSchemaV2CSS"]},
+	ViewModelColumnValidator: {path: "configuration/a33c0f76dfb507ea51a4eca85b34772een-US"},
+	ViewModelGeneratorV2: {path: "configuration/fd235ff5ad21aeecf800dcec7a6716b7en-US"},
+	ViewModelSchemaDesignerBuilder: {path: "configuration/14da74ce15082fc8c70c7c3fcd5dc07een-US"},
+	ViewModelSchemaDesignerControlGroup: {path: "configuration/8e65c1172823a34c4e64fba9b3d4d1e3en-US"},
+	ViewModelSchemaDesignerControlGroupModalBox: {path: "configuration/8d3400a50d99dd8df30dbaec538755a7en-US"},
+	ViewModelSchemaDesignerControlGroupModalBoxCss: {path: "configuration/bd794680ec89b005768176bc78869c19en-US", 
+		css: ["ViewModelSchemaDesignerControlGroupModalBoxCss"]},
+	ViewModelSchemaDesignerDetailModalBox: {path: "configuration/d9d31880ecd6f2efb9d69bce3b46ef66en-US"},
+	ViewModelSchemaDesignerDetailModalBoxCss: {path: "configuration/0979acf9816b108d449419e89c25ebe8en-US", 
+		css: ["ViewModelSchemaDesignerDetailModalBoxCss"]},
+	ViewModelSchemaDesignerItem: {path: "configuration/7adb86d1a799f9fea91944c209129709en-US", 
+		css: ["ViewModelSchemaDesignerItem"]},
+	ViewModelSchemaDesignerModule: {path: "configuration/aaac5088f5bbff5582037cdc6b68ce4aen-US", 
+		css: ["ViewModelSchemaDesignerModule"]},
+	ViewModelSchemaDesignerSchema: {path: "configuration/0f0ecf8b9d453920f24a1119a61d2840en-US"},
+	ViewModelSchemaDesignerTabContainer: {path: "configuration/15ce331bf6b8b6cffc45383ced5c25f2en-US"},
+	ViewModelSchemaDesignerTabItem: {path: "configuration/14b2ed52b8bf1d21ff6b81b34ca65619en-US", 
+		css: ["ViewModelSchemaDesignerTabItem"]},
+	ViewModelSchemaDesignerTabModalBox: {path: "configuration/0d2b7aec8bccdf6f4e8439fd9d3554b7en-US"},
+	ViewModelSchemaDesignerTabModalBoxCss: {path: "configuration/2de4ee5f61456d1657d58db24fc151d8en-US", 
+		css: ["ViewModelSchemaDesignerTabModalBoxCss"]},
+	ViewModelSchemaDesignerUtils: {path: "configuration/d63bb56f4a614b6bce2217f944c36284en-US"},
+	ViewModelSchemaDesignerViewGenerator: {path: "configuration/93261cef8f396dea00b0cca1f4595068en-US", 
+		css: ["ViewModelSchemaDesignerViewGenerator"]},
+	ViewModelSchemaDesignerViewModelGenerator: {path: "configuration/848fba98687a2e85a859aafe1653e56fen-US"},
+	ViewModelSchemaValidationMixin: {path: "configuration/35ef056d5c60b9872849c64f40b9cb16en-US"},
+	ViewModelWithMixins: {path: "configuration/b08bf8ef984d8e7da83a8b46b65ae717en-US", 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
 			"HistoryStateChanged": { "direction": "subscribe", "mode": "broadcast" },
@@ -3704,9 +5193,8 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"LoadModule": { "direction": "subscribe", "mode": "ptp" },
 			"NavigationModuleLoaded": { "direction": "subscribe", "mode": "broadcast" },
 			"RefreshCacheHash": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	ViewModule: {
+		}},
+	ViewModule: {path: "configuration/10eeb083646d4533e21cd75acb654369en-US", 
 		css: ["ViewModule"], 
 		messages: {
 			"PushHistoryState": { "direction": "publish", "mode": "broadcast" },
@@ -3731,52 +5219,97 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"GetSideBarConfig": { "direction": "publish", "mode": "ptp" },
 			"CardProccessModuleInfo": { "direction": "subscribe", "mode": "ptp" },
 			"ShowHideRightSidePanel": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	},
-	ViewModuleWrapper: {
+		}},
+	ViewModuleHelper: {path: "configuration/09bdf243cb48faa211b0b3d8d750c42fen-US"},
+	ViewModuleWrapper: {path: "configuration/0fb42c2c8545a8da06e8d1f135dda47aen-US", 
 		css: ["ViewModuleWrapper"], 
 		messages: {
 			"ReloadViewModule": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	VisaHelper: {
-		css: ["VisaHelper"]
-	},
-	WebPageModule: {
+		}},
+	ViewUtilities: {path: "configuration/f4bd722156e7ff21e2b1ea07dfe0d62cen-US"},
+	VirtualCtiProvider: {path: "configuration/1ef2259597677cc07176b3ff661f01e5en-US"},
+	VisaDetailV2: {path: "configuration/21410f2b55eec131c4c84b379c6fe7d7en-US"},
+	VisaHelper: {path: "configuration/d409233ac4d12c59ea78a6f05f390399en-US", 
+		css: ["VisaHelper"]},
+	VisaNotificationsSchema: {path: "configuration/954a7da54129ff704e2cec3d056716b6en-US"},
+	VisaPage: {path: "configuration/ef5275d7260985b7e628385a48c145b9en-US"},
+	VisaPageV2: {path: "configuration/cc546a47ae7d43eaa812c044fd34c75fen-US"},
+	VisaProviderFactory: {path: "configuration/23f078dcc2e642b026266ed049fbc4a8en-US"},
+	VwDcmLibPageV2: {path: "configuration/eb540743fc3d643565cd49d6a9f3348aen-US"},
+	VwDcmLibSection: {path: "configuration/cef61324abbe3bb3677be970bfe78d09en-US"},
+	VwDcmLibSectionGridRowViewModel: {path: "configuration/aa99c99c156ae6ff564787c2c52db2b9en-US"},
+	VwOAuthAppUserPage: {path: "configuration/8e7378b4517ac1d28be7fe12e4cde554en-US"},
+	VwProcessLibDetail: {path: "configuration/15f8cca9f87795721b2ec31eef5c478fen-US"},
+	VwProcessLibPageV2: {path: "configuration/8b73a19a74f40d43fb1831aa2ccc2dbden-US"},
+	VwProcessLibSection: {path: "configuration/2c88adae35b39626d0c7d1c208b3a0dden-US"},
+	VwProcessLibSectionGridRowViewModel: {path: "configuration/abb0f4cfb835e91cd8bfacdbfb7fe24aen-US"},
+	VwSysCspViolation_FormPage: {path: "configuration/74f73e515f2c742770426a31d7d62311en-US"},
+	Webhooks_FormPage: {path: "configuration/0733f06407e625e98b1fa279ba6ee21aen-US"},
+	Webhooks_ListPage: {path: "configuration/b70333a3ad4e15a4e2be802e5c8377dfen-US"},
+	WebhooksLog_ListPage: {path: "configuration/2a4031491b5d76a89c4db0e8812b157den-US"},
+	WebPageDesigner: {path: "configuration/4dbbc56412ebdecb5623e3aeca67fc07en-US"},
+	WebPageModule: {path: "configuration/86a4771d9af7dc7e0c80b16a805bddccen-US", 
 		css: ["WebPageModule"], 
 		messages: {
 			"GetWebPageConfig": { "direction": "publish", "mode": "ptp" },
 			"GenerateWebPage": { "direction": "subscribe", "mode": "ptp" }
-		}
-	},
-	WebServiceMethodModule: {
-		css: ["WebServiceMethodModule"]
-	},
-	WebServicesDesigner: {
-		css: ["WebServicesDesigner"]
-	},
-	WelcomeScreenModule: {
-		css: ["WelcomeScreenModule"]
-	},
-	WizardErrorModalBoxPageCss: {
-		css: ["WizardErrorModalBoxPageCss"]
-	},
-	WizardHeaderModule: {
-		css: ["WizardHeaderModule"]
-	},
-	WizardWarningModalBoxPageCss: {
-		css: ["WizardWarningModalBoxPageCss"]
-	},
-	WordPrintablePageCSS: {
-		css: ["WordPrintablePageCSS"]
-	},
-	WordPrintablePageLoader: {
-		css: ["WordPrintablePageLoader"]
-	},
-	WordPrintableTablePartPageCSS: {
-		css: ["WordPrintableTablePartPageCSS"]
-	},
-	WorkflowDesigner: {
+		}},
+	WebServiceMethodDetail: {path: "configuration/1c1bda38b8d1265a08d7a63d7278fd53en-US"},
+	WebServiceMethodModule: {path: "configuration/8e828c3f8c7b2e96b766b7ce9bdaafc3en-US", 
+		css: ["WebServiceMethodModule"]},
+	WebServiceMethodPage: {path: "configuration/7af40ee2ddc759e2cc30c62909efc829en-US"},
+	WebServicesDesigner: {path: "configuration/f2fe9b0fdf6ee4728774405fc84a5554en-US", 
+		css: ["WebServicesDesigner"]},
+	WebServiceUserTaskPropertiesPage: {path: "configuration/9ae12500b751f27c79e73cd4be17142aen-US"},
+	WebServiceV2Page: {path: "configuration/658099571a25c0f0fb45774b51acc4b0en-US"},
+	WebServiceV2Section: {path: "configuration/a71adf2e64fbc3890866d0d098120d41en-US"},
+	WebServiceWizardWebComponent: {path: "configuration/37934ce9402bc4a2e65d73406717bac6en-US"},
+	WeeklyCronExpressionPage: {path: "configuration/f17ffbb11439e5419b9cb25bbe2497d3en-US"},
+	WelcomeScreen: {path: "configuration/bed9142080fe97ae60c50dd501289f54en-US"},
+	WelcomeScreenModule: {path: "configuration/5e4b8aa1a448dde90947ede690c40ea2en-US", 
+		css: ["WelcomeScreenModule"]},
+	WhatsAppChannel_AddingPage: {path: "configuration/d3ed8164c234711a57a04c62dcb21f78en-US"},
+	WhatsAppChannel_EditPage: {path: "configuration/38d96b7729bdd571d22842779a5c1158en-US"},
+	WidgetConfigConverter: {path: "configuration/067b5ad457b2cfd75514ecb65143cac2en-US"},
+	WidgetDashboardManager: {path: "configuration/4e11ed17976178e6713c9cdb1de52c8een-US"},
+	WidgetDesignerLoader: {path: "configuration/ad1a4f9884237b49fb4d5ca1a919c178en-US"},
+	WidgetDuplicatesDetailViewModel: {path: "configuration/5f0a77b359bccd6c63e0ed875a9294aaen-US"},
+	WidgetDuplicatesPage: {path: "configuration/30ec35539b3f9f70827c03006002debcen-US"},
+	WidgetEnums: {path: "configuration/8ceaf15a2c4d32797248ccbec63991aaen-US"},
+	WidgetGridLayoutEditItemModel: {path: "configuration/6c5493fbda79e797b5d90e1cbcf7f37fen-US"},
+	WindowUnloadWatcher: {path: "configuration/48cccdb79e8303aec478a17d000c7f0fen-US"},
+	WizardErrorModalBoxPage: {path: "configuration/9a452ddf8d604114fd056f6ede5c5bf8en-US"},
+	WizardErrorModalBoxPageCss: {path: "configuration/b2255a3879f9d646c023cb9415fced9den-US", 
+		css: ["WizardErrorModalBoxPageCss"]},
+	WizardHeaderModule: {path: "configuration/e699faf1dd55cad513b9c74ec7b77ee4en-US", 
+		css: ["WizardHeaderModule"]},
+	WizardHeaderViewConfig: {path: "configuration/c21d23cd04a5942d7d54b64a932541a8en-US"},
+	WizardHeaderViewModel: {path: "configuration/297cfc017bf31dc05099bf1928f5d66een-US"},
+	WizardStep: {path: "configuration/4d6d50a6670ebc3cc5a704df5653354een-US"},
+	WizardStepCollection: {path: "configuration/97d8dac54ca09a1180549d96f4a82901en-US"},
+	WizardUtilities: {path: "configuration/1a5268cd2b124ffce8baa21f10bafb8fen-US"},
+	WizardWarningModalBoxPage: {path: "configuration/329b07afa510fe1d92abe8f22118bbe1en-US"},
+	WizardWarningModalBoxPageCss: {path: "configuration/f6818c600e70ff6ff5713829c59046bcen-US", 
+		css: ["WizardWarningModalBoxPageCss"]},
+	WordPrintableConverter: {path: "configuration/981686d3b3f1968f080213360a45613ben-US"},
+	WordPrintablePage: {path: "configuration/1f44e22e6ff891026f536e6b6e8a5543en-US"},
+	WordPrintablePageCSS: {path: "configuration/56e2011d80a06d88db030b2722859512en-US", 
+		css: ["WordPrintablePageCSS"]},
+	WordPrintablePageLoader: {path: "configuration/07786c61c35ecba570701a66dce29af6en-US", 
+		css: ["WordPrintablePageLoader"]},
+	WordPrintableTablePartPage: {path: "configuration/da2ea3ecae68424253199ef9044fa498en-US"},
+	WordPrintableTablePartPageCSS: {path: "configuration/d84103fe726f216c2e52fa98e7b4cd40en-US", 
+		css: ["WordPrintableTablePartPageCSS"]},
+	WorkflowAgentSchema: {path: "configuration/9cf88d1fbd77f99e118f64eb27bb58b0en-US"},
+	WorkflowAgentSchemaDesigner: {path: "configuration/3c80ccf2e1a0901b25b81595335e409een-US"},
+	WorkflowAgentSchemaDesignerViewModel: {path: "configuration/8722b4fe0edf1690bc99531ea662a4been-US"},
+	WorkflowAgentSchemaElementsInitializer: {path: "configuration/41b8bedef111b9e10731fff4849f7adben-US"},
+	WorkflowAgentSchemaManager: {path: "configuration/0bf15904e9204562951eb0e90e13cfc6en-US"},
+	WorkflowAgentSchemaManagerItem: {path: "configuration/6c897557024df9b08c145bb64dfb56aben-US"},
+	WorkflowAgentSchemaPropertiesPage: {path: "configuration/54cff3dab6274d86bd54efce75c4510een-US"},
+	WorkflowAgentSchemaRequest: {path: "configuration/455cfbec414b99c59b317ff05bf08d47en-US"},
+	WorkflowAgentSchemaResponse: {path: "configuration/51b99523e6af17f09d68eed72badc4ccen-US"},
+	WorkflowDesigner: {path: "configuration/6128b9cc1e43bf499a5641ec16daefdaen-US", 
 		css: ["WorkflowDesigner"], 
 		messages: {
 			"GetHistoryState": { "direction": "publish", "mode": "ptp" },
@@ -3784,6 +5317,996 @@ Terrasoft.configuration.RootSchemaDescriptors = {
 			"HistoryStateChanged": { "direction": "subscribe", "mode": "broadcast" },
 			"RefreshCacheHash": { "direction": "subscribe", "mode": "ptp" },
 			"NavigationModuleLoaded": { "direction": "subscribe", "mode": "broadcast" }
-		}
-	}
+		}},
+	WorkingWeekDetail: {path: "configuration/71da8114bb38e1205b015edde2b8e1a9en-US"},
+	WorkingWeekDetailPage: {path: "configuration/f7a6782d12a96fc6aaff3b61bfb402f0en-US"},
+	x2js: {path: "configuration/f161188039410c7325aeb83b1844edf9en-US"},
+	YearCronExpressionPage: {path: "configuration/582e91aa8669ba8a815a2e7b6cfea0b1en-US"},
+	AcademyURL: {path: "configuration/entityschema/4ca96179d68342bc33678fcdfc81b53ben-US"},
+	AcademyUrlData: {path: "configuration/entityschema/9c751bab3ee8f183830aeb13cab3e91den-US"},
+	AccessControlWhitelist: {path: "configuration/entityschema/81141a312c515b95868af93716d0caceen-US"},
+	Account: {path: "configuration/entityschema/927d2b8507c443e1c9776a3fea10be45en-US"},
+	AccountAddress: {path: "configuration/entityschema/1e3daa13b2482db625891f7cd98d16d8en-US"},
+	AccountAlternativeName: {path: "configuration/entityschema/9df51f682f53e7e51ff72b1d283872b0en-US"},
+	AccountAnniversary: {path: "configuration/entityschema/dcafe043d57ecc8c0d72a70da22672d2en-US"},
+	AccountAnnualRevenue: {path: "configuration/entityschema/7cd474c61d2755d39d5f19c7ea91a4f6en-US"},
+	AccountBillingInfo: {path: "configuration/entityschema/e6c3d4ca00fef89fa4647203817a6d6cen-US"},
+	AccountCategory: {path: "configuration/entityschema/1edb426748ed4f102aadfa23168dcc7fen-US"},
+	AccountCommunication: {path: "configuration/entityschema/a092eca683ada2a7e866cc25894539b2en-US"},
+	AccountCompetitor: {path: "configuration/entityschema/171fab6c5e24cca8f99dc9b3e65ab3bden-US"},
+	AccountDuplicate: {path: "configuration/entityschema/fe15ef8e9369fc16ceb1cbeeb9e90c57en-US"},
+	AccountEmployeesNumber: {path: "configuration/entityschema/df8512180562e0c9f4d49ff621e27444en-US"},
+	AccountEnrichedData: {path: "configuration/entityschema/1fd5072e0d82064945842f8010c8ce91en-US"},
+	AccountFile: {path: "configuration/entityschema/e089c02f95a15dfb41401ae4106b751ben-US"},
+	AccountFolder: {path: "configuration/entityschema/82831e703f9fcb802de299d768f2d23een-US"},
+	AccountIndustry: {path: "configuration/entityschema/5fddab2369bd6c0759f088ab8a5e3936en-US"},
+	AccountInFolder: {path: "configuration/entityschema/4306db77decf984674c19497ac6e7be8en-US"},
+	AccountInTag: {path: "configuration/entityschema/e8dc79f94d56147ab8dac4bed47782f8en-US"},
+	AccountOrganizationChart: {path: "configuration/entityschema/ae3d93f2ca36fb859e3bd4bb015e05d3en-US"},
+	AccountOwnership: {path: "configuration/entityschema/38a7c44d75b994d2b82e67ab3eff3bacen-US"},
+	AccountTag: {path: "configuration/entityschema/9ea249cf7563a2a816c15d55e96be897en-US"},
+	AccountType: {path: "configuration/entityschema/8dd0ea915b4f50c114e15c447641db68en-US"},
+	ActiveUsersStatistics: {path: "configuration/entityschema/95e25f57fa9f98601506395aa2a319b7en-US"},
+	Activity: {path: "configuration/entityschema/2e046240cf56494f01a06600f6376e04en-US"},
+	ActivityCategory: {path: "configuration/entityschema/edecd786683521a44c4de1b9548d2337en-US"},
+	ActivityCategoryResultEntry: {path: "configuration/entityschema/903247abd42f12b7060779b139799c75en-US"},
+	ActivityCorrespondence: {path: "configuration/entityschema/ea462b0dfae82223a5a23b73b5d8d11den-US"},
+	ActivityFile: {path: "configuration/entityschema/b3166b95a4b6bf8d13c057d4687714a1en-US"},
+	ActivityFolder: {path: "configuration/entityschema/b8202bb339aa5c464e780b3357894733en-US"},
+	ActivityInFolder: {path: "configuration/entityschema/f20f12bcc375d1852da38692ac83595een-US"},
+	ActivityInTag: {path: "configuration/entityschema/66b48b547be748957ade4657aa5006baen-US"},
+	ActivityParticipant: {path: "configuration/entityschema/361a5325a77719497346368b82bd69f5en-US"},
+	ActivityParticipantRole: {path: "configuration/entityschema/1a7a37afc6872551e3831bf543f2f258en-US"},
+	ActivityPriority: {path: "configuration/entityschema/ec57db2cefb676a4a7b5ed9d6fd43f54en-US"},
+	ActivityResult: {path: "configuration/entityschema/cf44a7498402998da79f4cc361ca2cdeen-US"},
+	ActivityResultCategory: {path: "configuration/entityschema/46b89220e07d3e0cd68be2c07b32eedden-US"},
+	ActivityStatus: {path: "configuration/entityschema/d0f5f524de234486fcd88aac054ef1dcen-US"},
+	ActivitySynchronizer: {path: "configuration/entityschema/bd49dc2193db9a121ecbd538321d946een-US"},
+	ActivitySyncSettings: {path: "configuration/entityschema/76dd968781975917b13f7da9885b88aeen-US"},
+	ActivityTag: {path: "configuration/entityschema/3e18bcb91e0ad82e8c9ad1033819d562en-US"},
+	ActivityType: {path: "configuration/entityschema/7805277d4f017926c71cab8da0c85be0en-US"},
+	ActivityTypeStatusEntry: {path: "configuration/entityschema/92e1deba99282597e110efe250f17670en-US"},
+	AdditionalParam: {path: "configuration/entityschema/c4d88d879eb68814d7bee7ac0a6ae965en-US"},
+	AddressType: {path: "configuration/entityschema/f316a136c1fb3d683cab83035096e961en-US"},
+	AdminUnitFeatureState: {path: "configuration/entityschema/7dba7287a9889f7a8017f61691362fe2en-US"},
+	AIInsight: {path: "configuration/entityschema/2c0bfd8323ce92ed53dcc15afdaa91d1en-US"},
+	AIManagement: {path: "configuration/entityschema/3f463ce774c045776e82e40df45c08cben-US"},
+	AIPlatformEntityEvents: {path: "configuration/entityschema/5fae7626c6b3f0adce0257ccf68c8236en-US"},
+	AnniversaryType: {path: "configuration/entityschema/171d31627a262c05afee433c91edcbaeen-US"},
+	AppFeature: {path: "configuration/entityschema/e21bade6d4b60d5686f4843e856193ecen-US"},
+	AppFeatureState: {path: "configuration/entityschema/095630c1c5321cf1a5370a60f75358b0en-US"},
+	ApplicationCreatioAi: {path: "configuration/entityschema/b7442d709db8888fc1dc1480f40364aaen-US"},
+	ApplicationEntity: {path: "configuration/entityschema/168ae32436e7c62a22bc47f58fdbd81ben-US"},
+	ApplicationMainMenu: {path: "configuration/entityschema/2f6f4accc1b7058b2da9f278d9441b27en-US"},
+	ApplicationPage: {path: "configuration/entityschema/0cb02d286412c853ada1d314973c77b0en-US"},
+	ApplicationProcess: {path: "configuration/entityschema/d05845ec0615fe80a97dacf2c47d7c1fen-US"},
+	ApplicationSchema: {path: "configuration/entityschema/782b8cb8704f9673b43ed4b9617a3e40en-US"},
+	ApplicationSection: {path: "configuration/entityschema/932fdcfa01e2274af22668df45788776en-US"},
+	ApplicationService: {path: "configuration/entityschema/f1cb96e1c2733fb2dbb1764b9b449bc3en-US"},
+	ApplySession: {path: "configuration/entityschema/5049a9a91ad02da55c83d8e3ad344c54en-US"},
+	ApplyTranslationParameters: {path: "configuration/entityschema/0e91b65bd3919e1231ed70e7b36d9033en-US"},
+	Attribute: {path: "configuration/entityschema/d5fb5834dd056c864afd092941d154cben-US"},
+	AttributeReferenceSchema: {path: "configuration/entityschema/76ae5dded442f352ea10d2cf97f41155en-US"},
+	AttributeValue: {path: "configuration/entityschema/82427bacc366652665e8967411ec9593en-US"},
+	AzureOpenAIModel: {path: "configuration/entityschema/34e95e5d89b5a93ea35355b660cb626fen-US"},
+	BaseAddress: {path: "configuration/entityschema/0ca5a085616db05431539ca05d555315en-US"},
+	BaseAnniversary: {path: "configuration/entityschema/9d3f52ba6746a9a5a4f1e592f94e6013en-US"},
+	BaseCodeImageLookup: {path: "configuration/entityschema/31d372590de4e004e8258fdf932ca24een-US"},
+	BaseCodeLookup: {path: "configuration/entityschema/81f6de7f62644d5adf0d9b48f204dab4en-US"},
+	BaseCommunication: {path: "configuration/entityschema/31c74450c582108fa4293f3bfee0be17en-US"},
+	BaseCopilotIntent: {path: "configuration/entityschema/9f8053bbd8a7e18f503a16f23b53dd47en-US"},
+	BaseEnrichedData: {path: "configuration/entityschema/6b8601e15e81b37e53d32f6f25b2d4f0en-US"},
+	BaseEntity: {path: "configuration/entityschema/b11dee3c0031bc9e85524129f2c6ba4fen-US"},
+	BaseEntityInStage: {path: "configuration/entityschema/d366fbb42fb9a217a4b384ce88b8044fen-US"},
+	BaseEntityInTag: {path: "configuration/entityschema/c0553fcfe3f9a749b2638c807e0f7c2ben-US"},
+	BaseEntityNotes: {path: "configuration/entityschema/f73612a60aba3de3e5682741c776b87fen-US"},
+	BaseEntityWithPosition: {path: "configuration/entityschema/b00a72a7238e0d61e8d2b6cbb58232b0en-US"},
+	BaseFolder: {path: "configuration/entityschema/0855877d6c64dd89d870458f179f63b8en-US"},
+	BaseHierarchicalLookup: {path: "configuration/entityschema/d52dd6c5442df223050433d1e58f72d6en-US"},
+	BaseImageLookup: {path: "configuration/entityschema/55d28bc6747840150625e9104a529a22en-US"},
+	BaseItemInFolder: {path: "configuration/entityschema/e5562fa921b010a1355fd09acf9e535een-US"},
+	BaseLczEntity: {path: "configuration/entityschema/1e2dd6b8dc9f47e7c010825e2c327115en-US"},
+	BaseLookup: {path: "configuration/entityschema/9e495a374533db6f75adec1f66c8543een-US"},
+	BaseMessageHistory: {path: "configuration/entityschema/f3709c0edf23acc45e340caa99bfbec7en-US"},
+	BaseProductEntry: {path: "configuration/entityschema/256d51efcace3d0625e05fd461b6d54ben-US"},
+	BaseProductInterest: {path: "configuration/entityschema/20861a6591cf5976df702fe44ce6ecf8en-US"},
+	BaseTag: {path: "configuration/entityschema/8a2965ee1bd2c478fbf62a026e8649e8en-US"},
+	BaseValueLookup: {path: "configuration/entityschema/d494e0a6578bd66b7ddf7b276fb5839cen-US"},
+	BaseVisa: {path: "configuration/entityschema/93c99804ce6296b7335cb51f6be6c77den-US"},
+	Brand: {path: "configuration/entityschema/30b618470fe3cbb7ed96a1f0ab7bf8a1en-US"},
+	BufferedImportEntity: {path: "configuration/entityschema/d1607e710981e9d0037f96106408d0c9en-US"},
+	BuildTypeEntity: {path: "configuration/entityschema/62aee26d38375780d4603bbbb0958c9cen-US"},
+	Calendar: {path: "configuration/entityschema/a7a7e4a9222abc862b4d1abe7ddbc6aeen-US"},
+	Call: {path: "configuration/entityschema/f9fe7048db03f3b3374e456e876760c1en-US"},
+	CallDirection: {path: "configuration/entityschema/d311ab23808a7bad2b805a05bcd0792ben-US"},
+	CallEventInbox: {path: "configuration/entityschema/6e7b3caa85c69135951d4c67ef5a9e98en-US"},
+	CallFile: {path: "configuration/entityschema/c9e24ae636c54a28fbda2bd43de1baccen-US"},
+	CallFolder: {path: "configuration/entityschema/36aa12dd931c8528fbedb9b153b0e754en-US"},
+	CallInFolder: {path: "configuration/entityschema/d68e7b66040fa865ac45f5c8568d1b85en-US"},
+	CallInTag: {path: "configuration/entityschema/12d55c3e14c0ae9ca44a668a49852cdden-US"},
+	CallTag: {path: "configuration/entityschema/d4d758534977d427a8b83d5eef4871a0en-US"},
+	CallTopic: {path: "configuration/entityschema/53f98f9bdd41b181a79f58f4fced7df6en-US"},
+	ChangeLogEntity: {path: "configuration/entityschema/242e2946c4f83b44dd47e8c13b00d897en-US"},
+	Channel: {path: "configuration/entityschema/b69c89b2cee561bfda8af20bf79b5893en-US"},
+	ChannelProvider: {path: "configuration/entityschema/b28de7f72f2e8b09f0f6d224ac63ea7aen-US"},
+	ChartAggregationType: {path: "configuration/entityschema/f37c9b056f573e92ae48bb29b22a218den-US"},
+	ChartProperty: {path: "configuration/entityschema/29429cb94482d7fb8559525423df9b18en-US"},
+	ChatClosureReason: {path: "configuration/entityschema/3f8e5288762766dd4d781424abae0422en-US"},
+	ChatMessages: {path: "configuration/entityschema/84c388b801ecf74d370b994cdd3767d6en-US"},
+	ChatQueue: {path: "configuration/entityschema/312f0b5138478a5c8aa951f3dcdc1781en-US"},
+	ChatQueueOperator: {path: "configuration/entityschema/bb689f41c97d002730ee91836a63fd29en-US"},
+	ChunkProcessResult: {path: "configuration/entityschema/3e69714ccad485d408d8f86073335b98en-US"},
+	City: {path: "configuration/entityschema/4642cdcb7b318d90d4601f78af89aaf3en-US"},
+	ClioSqlRequestLog: {path: "configuration/entityschema/be9581c1d2f26993541a082e4e08b02cen-US"},
+	Command: {path: "configuration/entityschema/7d9dc523947757db0dbb36ab17bcab09en-US"},
+	CommandParams: {path: "configuration/entityschema/3f01f5aa147d2cdc15c2509bbb3a98eaen-US"},
+	Comment: {path: "configuration/entityschema/6eb3f44fbd6151663b4e58094c69cce1en-US"},
+	Communication: {path: "configuration/entityschema/d96c3de7f65de9df7a3d9c510ff4cb81en-US"},
+	CommunicationType: {path: "configuration/entityschema/71c712a033accea65af2c1338cf0e965en-US"},
+	CompetitorProduct: {path: "configuration/entityschema/59289407cd3c085724bde9aca062dd50en-US"},
+	CompilationHistory: {path: "configuration/entityschema/0f8127329fcc96769479527987fe0e5een-US"},
+	Completeness: {path: "configuration/entityschema/3b904dc175bfccb683b325dbf63c8bfeen-US"},
+	CompletenessParameter: {path: "configuration/entityschema/bbd738150c686b19368823ea5d5505e8en-US"},
+	ComTypebyCommunication: {path: "configuration/entityschema/93072a6dedac0ed77fe319475165ded6en-US"},
+	ConfActivityLog: {path: "configuration/entityschema/90ce92b5c9972e29ef079837858ec692en-US"},
+	ConfActivityStatus: {path: "configuration/entityschema/e977689991eb7d734db19a9fbb9fdfdden-US"},
+	ConfElementType: {path: "configuration/entityschema/4f2dd6f0d0748e3f65508eed0fa3de88en-US"},
+	ConfOperation: {path: "configuration/entityschema/eb945cc1129eff82a542952e9db97b3een-US"},
+	ConnectedOAuthClientApp: {path: "configuration/entityschema/cbdfd46335d00ddd5b0798a6d3f26784en-US"},
+	ConnectionType: {path: "configuration/entityschema/366caf7708da1dd77dfa33a6b1636564en-US"},
+	Consent: {path: "configuration/entityschema/e71e6f99c7462e7e2ee8bb6f3a0e91e5en-US"},
+	Contact: {path: "configuration/entityschema/7fa4a47cf04875af7ff32d834816abccen-US"},
+	ContactAddress: {path: "configuration/entityschema/d6e2c6834d9d4d10bfce69f7ed8dc3a6en-US"},
+	ContactAnniversary: {path: "configuration/entityschema/8d501bc77e0d125d79e07eda36d40129en-US"},
+	ContactCareer: {path: "configuration/entityschema/e6ff2e8521eca704b7d984ed41fb1579en-US"},
+	ContactCommunication: {path: "configuration/entityschema/4eb405694366b8e3bb48b1bd5a99c735en-US"},
+	ContactCorrespondence: {path: "configuration/entityschema/78b2b592dea894cc03f0ee7481945c0aen-US"},
+	ContactDecisionRole: {path: "configuration/entityschema/8d74318268576720242a6e7ed98f00c0en-US"},
+	ContactDuplicate: {path: "configuration/entityschema/b1ab41ba0b4749a21aec173db4ce6f02en-US"},
+	ContactFile: {path: "configuration/entityschema/31e06b88eb6b838fb6fde43d0693c90aen-US"},
+	ContactFolder: {path: "configuration/entityschema/d727cbc909f1598520d3845492827420en-US"},
+	ContactIdentity: {path: "configuration/entityschema/6ccd7cb1abc990238187c7292d0fc767en-US"},
+	ContactInFolder: {path: "configuration/entityschema/53531af79c58929be9fcc29d4f81e27een-US"},
+	ContactInTag: {path: "configuration/entityschema/a4ec5291f9240890d0e28ff2e6874974en-US"},
+	ContactSalutationType: {path: "configuration/entityschema/21f77515b243bb3a9b7f6315e209d479en-US"},
+	ContactsProductInterest: {path: "configuration/entityschema/bd15aae41fd2920453856c3a1477b039en-US"},
+	ContactSyncSettings: {path: "configuration/entityschema/c4a3c67dc23628e16f3f9724174a2654en-US"},
+	ContactTag: {path: "configuration/entityschema/188de6594aee937e42879a3c1b3ff8aeen-US"},
+	ContactType: {path: "configuration/entityschema/c57bfd87761b684f63008928452ea4dben-US"},
+	ContentBlock: {path: "configuration/entityschema/b3cbb1b8b825236f5828aa62d74142efen-US"},
+	ContentBlockFile: {path: "configuration/entityschema/8ed6290abbba145be853f4d40c9ccfb6en-US"},
+	ContentBlockInTag: {path: "configuration/entityschema/78fc670b7dbf80bacf69334a940b8fa7en-US"},
+	ContentBlockTag: {path: "configuration/entityschema/78dddb9f356e547453840f426300cdf7en-US"},
+	ContentBuilderCustomerFont: {path: "configuration/entityschema/1242dc306d866d03491525402913a66den-US"},
+	ContentBuilderFontSet: {path: "configuration/entityschema/104d4360985b9e60358f1a506df61f2ben-US"},
+	ContentUserBlock: {path: "configuration/entityschema/0444bcf5e830f840fba2bd58c4516a94en-US"},
+	ContextElement: {path: "configuration/entityschema/a42bf4e7210719fc37ff7685baba90f4en-US"},
+	ContextHelp: {path: "configuration/entityschema/6828238d482bad7952fb7f7ffb89b4d6en-US"},
+	CopilotAction: {path: "configuration/entityschema/58a9ef0e7dcecf61acc860cc6e2696f4en-US"},
+	CopilotActionType: {path: "configuration/entityschema/756e0016e56df11ee178f4e9c6d80337en-US"},
+	CopilotAgent: {path: "configuration/entityschema/f6cde1e68f92e0ecd055103eb6439317en-US"},
+	CopilotAgentSubSkill: {path: "configuration/entityschema/5e9e0e091337fb6b88cda651ead22c1aen-US"},
+	CopilotClientQuota: {path: "configuration/entityschema/c62bd9dd1deeb136ff1e152598c4e2b7en-US"},
+	CopilotIntCapability: {path: "configuration/entityschema/a183bb809ff140a03315886360d938a5en-US"},
+	CopilotIntent: {path: "configuration/entityschema/705d6f6f4cf5ea23a20517d5196f9fd3en-US"},
+	CopilotIntentMode: {path: "configuration/entityschema/1616dabe75e97dda5c4a287b727ad08ben-US"},
+	CopilotIntentPageQuickLinks: {path: "configuration/entityschema/6fa434b33c33078dc862b145746497faen-US"},
+	CopilotIntentParameter: {path: "configuration/entityschema/4de55f0b0c9587beb6a229d8527e2f9cen-US"},
+	CopilotIntentStatus: {path: "configuration/entityschema/18151a0fcbc66d1815bdea910ab3f0d8en-US"},
+	CopilotIntentType: {path: "configuration/entityschema/c7624eff7cbb6ba7ad57896844455f63en-US"},
+	CopilotMessageEnt: {path: "configuration/entityschema/9d8efe2c45513068705f1f5d64207cc9en-US"},
+	CopilotMessageRoleEnt: {path: "configuration/entityschema/9598d020ee4b784ec954b0d13044b780en-US"},
+	CopilotPrompt: {path: "configuration/entityschema/e1ded93714013fe4f68f06d028477967en-US"},
+	CopilotRequestEnt: {path: "configuration/entityschema/d14f3e65426f7ba435c5ec66086ee3d4en-US"},
+	CopilotSessionEnt: {path: "configuration/entityschema/d90b9a7cf6a2db992d72d8b49d0c6459en-US"},
+	CopilotSessionStateEnt: {path: "configuration/entityschema/05027fb2cd36f6a943d4fb0b79685e15en-US"},
+	CopilotSysCapability: {path: "configuration/entityschema/38fd212d6805f889459ce3b147563c63en-US"},
+	CopilotToolCallEnt: {path: "configuration/entityschema/dce07cb3ff32ca43c911f1c1b20545ccen-US"},
+	Country: {path: "configuration/entityschema/84b068e2e34a0e4b43d2dbb7edacf9f9en-US"},
+	CreatioAIIntentFile: {path: "configuration/entityschema/f2b9620c4d5ff067491dbfb3c037076cen-US"},
+	CreatioAISessionFile: {path: "configuration/entityschema/2b3b31d3dd792e2e6d9f932cfc9463aden-US"},
+	CSPMode: {path: "configuration/entityschema/2c42a904bf40ab5d497ac146890d4fbeen-US"},
+	CTISearchResult: {path: "configuration/entityschema/34a8217cb04b9ee766a092b14fd3b9efen-US"},
+	Currency: {path: "configuration/entityschema/7438a933d131e9ca9f13262ff1af48f6en-US"},
+	CurrencyRate: {path: "configuration/entityschema/79ba30a2bf72204abd5f2721e23a2c32en-US"},
+	CustomLlmModel: {path: "configuration/entityschema/840901ae3e0ca70cf65c243e3d75fb41en-US"},
+	DashboardItemType: {path: "configuration/entityschema/7be6ac9da9f314f3a024bb98e967c77ben-US"},
+	DayInCalendar: {path: "configuration/entityschema/b4608dca039d409f0e16a0b78f1f1704en-US"},
+	DayOff: {path: "configuration/entityschema/3a39549487125e6aeaf7e91cec45c1a0en-US"},
+	DayOfWeek: {path: "configuration/entityschema/df95a2f2d565b770245ec540ad1921efen-US"},
+	DayType: {path: "configuration/entityschema/501b1f8fc3133bc0d6af8c4aeb3652f8en-US"},
+	DeadlineCalcSchemas: {path: "configuration/entityschema/8dd9c55985cac97f47c649fa7046fdbben-US"},
+	DeduplicateExecLocker: {path: "configuration/entityschema/354f4e0843d801d75bd354f715fa47acen-US"},
+	DeduplicateExecLog: {path: "configuration/entityschema/1b7175bd6af9bd6b81e4cf1cc3a0e972en-US"},
+	DeduplicateMergeRules: {path: "configuration/entityschema/90371b7ec903e0ace377de45b3247f6fen-US"},
+	DeduplicateOperation: {path: "configuration/entityschema/ccdc156b44a11d1b5c6375ef9100aa72en-US"},
+	DeduplicationFavoriteColumns: {path: "configuration/entityschema/9db427a499584b3a8b68e0e29d96aa13en-US"},
+	Department: {path: "configuration/entityschema/d4f570233df4705e3eb4508dfffffce1en-US"},
+	Desktop: {path: "configuration/entityschema/0c0cc0f9ecd80b890949424f01908a4aen-US"},
+	DFSyncExceptions: {path: "configuration/entityschema/9be884d7232f072b99ca71a824c3d745en-US"},
+	DFSyncUnlimited: {path: "configuration/entityschema/20d0f0b9a2c3ab08cb6fedf160d52e73en-US"},
+	Diagram: {path: "configuration/entityschema/0c0a2af54c1c1996709972cf806ce4f4en-US"},
+	DiagramElement: {path: "configuration/entityschema/77425febab2d3ea78946a0bc06554536en-US"},
+	DialingCode: {path: "configuration/entityschema/45176ad394215e82539c599fda7413b3en-US"},
+	DisableDefValue: {path: "configuration/entityschema/a80fe215df3e1a7fedb82e1c6720ebbfen-US"},
+	DisplayDateFormat: {path: "configuration/entityschema/9cc606807354df5200d85a1ba876c235en-US"},
+	DistributionType: {path: "configuration/entityschema/9ec2c340e1e24edd90049061755d3f95en-US"},
+	DomainInfo: {path: "configuration/entityschema/305eb887c9181b0149a87760c4842809en-US"},
+	DuplicatesHistory: {path: "configuration/entityschema/3c4b4f3057b044ee37e77838a48b6bf7en-US"},
+	DuplicatesReference: {path: "configuration/entityschema/f8819c52e849f46d4924192cfa0b01e4en-US"},
+	DuplicatesRule: {path: "configuration/entityschema/a6dd78879a37dc08ab7e4514e0ccdc95en-US"},
+	DuplicatesRuleFolder: {path: "configuration/entityschema/dc62cb8629d29637d4d1975affecfd40en-US"},
+	DuplicatesRuleInFolder: {path: "configuration/entityschema/fc1e65315fabfc7aaaa00d762894e2b5en-US"},
+	DuplicatesRuleInTag: {path: "configuration/entityschema/91067ceee63861d5746c823e0fd74231en-US"},
+	DuplicatesRuleTag: {path: "configuration/entityschema/5c5a1314ce7db26940347d92c0804a88en-US"},
+	DuplicatesSearchParameter: {path: "configuration/entityschema/b9b64cca172494c70297370be59d8169en-US"},
+	DuplicateStatus: {path: "configuration/entityschema/6b52f1a06689b91fc48a974fd5d04e65en-US"},
+	EditPageModification: {path: "configuration/entityschema/f74acad36cb5dfa76cbf996228c2b84fen-US"},
+	EmailDefRights: {path: "configuration/entityschema/24c7e22a43b469fbe8b3763395bceb38en-US"},
+	EmailFolderColumnValuesSetting: {path: "configuration/entityschema/618376b6abdaf9929d2a3563f5fca7f8en-US"},
+	EmailMessageData: {path: "configuration/entityschema/d19d46e40a6ae8565168ec3086b2d456en-US"},
+	EmailMetadata: {path: "configuration/entityschema/1951d0fbc4f7e0484e66a9d447e6e65ben-US"},
+	EmailProtocol: {path: "configuration/entityschema/45d5b84a3876a61825cb2cf96105bcfben-US"},
+	EmailRelation: {path: "configuration/entityschema/2c70dc2637de9dee18754d36658188b1en-US"},
+	EmailSendStatus: {path: "configuration/entityschema/e8f797af23200ec902e827625f866d81en-US"},
+	EmailSynchronizedKey: {path: "configuration/entityschema/2310e006f8f847af17c982dd1f75007ben-US"},
+	EmailSyncQueue: {path: "configuration/entityschema/1a52b63b54de9bf3018244c754962841en-US"},
+	EmailTemplate: {path: "configuration/entityschema/a63ad98141eb439743f9412805b612c5en-US"},
+	EmailTemplateActivity: {path: "configuration/entityschema/ccd8d5794059475b00895e029100c152en-US"},
+	EmailTemplateFile: {path: "configuration/entityschema/740708c4bf02dbd3d019e8a5428ad9deen-US"},
+	EmailTemplateFolder: {path: "configuration/entityschema/583cbccb007a13c3a240bde6bc39ae22en-US"},
+	EmailTemplateInFolder: {path: "configuration/entityschema/f99a57a5dfea5dee7c2d37a8454e245fen-US"},
+	EmailTemplateInTag: {path: "configuration/entityschema/0a3697aa0053690307c9f138b310cc1ben-US"},
+	EmailTemplateLang: {path: "configuration/entityschema/769fac9354b60eadab2c09636d687493en-US"},
+	EmailTemplateMacros: {path: "configuration/entityschema/96cf222d1ada6d9473ffe1132ded7f4fen-US"},
+	EmailTemplateRecipientType: {path: "configuration/entityschema/9d59421102f13f4fb90e670895e49ecaen-US"},
+	EmailTemplateSendFlag: {path: "configuration/entityschema/215090c1db2212aa034986270f007bf8en-US"},
+	EmailTemplateTag: {path: "configuration/entityschema/67b6238448826fd3506bcaaad67d3077en-US"},
+	EmailType: {path: "configuration/entityschema/b8082333ce3a83d6cac7573c1f4dba1een-US"},
+	Employee: {path: "configuration/entityschema/5c6236fcc7b47972640b4aeeae1701d8en-US"},
+	EmployeeCareer: {path: "configuration/entityschema/c5d27acd0877fe7cd289e76f33a48a6een-US"},
+	EmployeeFile: {path: "configuration/entityschema/3d2e18ed977291eff2fec9015a42bc05en-US"},
+	EmployeeFolder: {path: "configuration/entityschema/46f1007e2d79bf3a7294d26cac8211a1en-US"},
+	EmployeeInFolder: {path: "configuration/entityschema/3dfb8727db3c91a9f31337f5a69e1382en-US"},
+	EmployeeInTag: {path: "configuration/entityschema/60f0722b696193e5900fcb5e20dfb72ben-US"},
+	EmployeeJob: {path: "configuration/entityschema/cdd024dfaafeef5dadb9cca28a8fec8een-US"},
+	EmployeeTag: {path: "configuration/entityschema/8fe3bf801f625def75200e037ed79569en-US"},
+	EnrchEmailData: {path: "configuration/entityschema/e6865dfefc391289a0d34601967a1392en-US"},
+	EnrchFoundAccount: {path: "configuration/entityschema/5523bbc4f5b4bec1b11bd5cbf6011ee5en-US"},
+	EnrchFoundContact: {path: "configuration/entityschema/35606666cae9b704f0685c7d0df13a51en-US"},
+	EnrchProcessedData: {path: "configuration/entityschema/5c0557b89f3c2212bd4457dc94b10219en-US"},
+	EnrchRejectedData: {path: "configuration/entityschema/3e66ebcec2d9dea611696405a4ac33d5en-US"},
+	EnrchTextEntity: {path: "configuration/entityschema/20060400e77b97269d7bcf4b80bab9c9en-US"},
+	EnrchTypeMapping: {path: "configuration/entityschema/5616f4713c6df58bae2185625033f769en-US"},
+	EntityConnBinding: {path: "configuration/entityschema/169390318706277607d0b2a9b5497d92en-US"},
+	EntityConnection: {path: "configuration/entityschema/1eec31231166f81d6465030493c031f0en-US"},
+	EntityEditPagesUITypes: {path: "configuration/entityschema/8d538e52dc9c4a3f2d45ef9441cdab9den-US"},
+	EntitySchemaRecRightOperation: {path: "configuration/entityschema/02ad167a41b8f4f84d27d5f30b2eec54en-US"},
+	EntitySynchronizer: {path: "configuration/entityschema/2ef28e8fbfd42d33211d3c888619149ben-US"},
+	EntityTypeLookup: {path: "configuration/entityschema/26491574172e0a6f723ef3d7c1747714en-US"},
+	EntryPoint: {path: "configuration/entityschema/8aad048a1df10b94856e85179a0dae9aen-US"},
+	ESDuplicateEntity: {path: "configuration/entityschema/b6ca791a74b8bff2e05826a436b4fe88en-US"},
+	ESNNotification: {path: "configuration/entityschema/aa4430ac07ab97214d0c7c80701e1e05en-US"},
+	EsnNotificationSettings: {path: "configuration/entityschema/0832cd8ddbd76df65161e4598f4fa299en-US"},
+	ESNNotificationType: {path: "configuration/entityschema/a3d7d16f8db18a59046a2ac97cd2f482en-US"},
+	ExcelFileDataInLookups: {path: "configuration/entityschema/41246d78536a5102bd378dbf38490ef8en-US"},
+	ExcelImport: {path: "configuration/entityschema/2e0bb2ebf33452bfde7ec1ca509b3aa0en-US"},
+	ExcelImportLog: {path: "configuration/entityschema/4a003c43c3ebf8200e90c70a50ebffe6en-US"},
+	ExternalAccess: {path: "configuration/entityschema/556d9c73ce1a38189fb25297b72e2817en-US"},
+	ExternalAccessClient: {path: "configuration/entityschema/bcca2c64ae9a2d63ecbf193990dcffbeen-US"},
+	ExternalAccessFile: {path: "configuration/entityschema/e126ec75e4d8d5cc276fc154e532cd01en-US"},
+	ExternalAccessFolder: {path: "configuration/entityschema/9f2e384cb69a93f8ee9606ba3a527d6fen-US"},
+	ExternalAccessInFolder: {path: "configuration/entityschema/15eb5470abcb2a7e2da174b692c12f76en-US"},
+	ExternalAccessInTag: {path: "configuration/entityschema/3b4566043728f8c71ee1bb9448144452en-US"},
+	ExternalAccessRequestLog: {path: "configuration/entityschema/7639d6aa845ab3174e87dd3807525424en-US"},
+	ExternalAccessTag: {path: "configuration/entityschema/80b435b8e256570b24226f25a11cf945en-US"},
+	Favorites: {path: "configuration/entityschema/050b165d075155f36545289d9dbd807fen-US"},
+	Feature: {path: "configuration/entityschema/640c9dd0e8e8373bff33d69c7527f2c4en-US"},
+	FeedFile: {path: "configuration/entityschema/3bef48cccf7a1aeb9670b26a9ce6668cen-US"},
+	File: {path: "configuration/entityschema/3bf104c23eb38febd6939e5405c17daaen-US"},
+	FileExtension: {path: "configuration/entityschema/b5d7b90d1bf3c5bdadc4067c6d96755fen-US"},
+	FileFolder: {path: "configuration/entityschema/a6b347c3da57f8a551d30e9a866c0353en-US"},
+	FileGroup: {path: "configuration/entityschema/caf095312c41b8b9cafdccd7d77f4e6cen-US"},
+	FileImportParameters: {path: "configuration/entityschema/a8c52622fdca11a385d9db5abca53760en-US"},
+	FileImportTemplate: {path: "configuration/entityschema/0b1139702ebc6041489729c759829c09en-US"},
+	FileInFolder: {path: "configuration/entityschema/76e938ae7ede4b366be88c31653e83bden-US"},
+	FileLink: {path: "configuration/entityschema/7fd154e2c8fe0fef68ddc77c99f5e8a6en-US"},
+	FileSecurityExcludedUri: {path: "configuration/entityschema/7535f24d2aff6f3035445f3abd34f2c8en-US"},
+	FileSecurityMimeTypeExtension: {path: "configuration/entityschema/8499dacbbe19bb26424e953784392844en-US"},
+	FileSecurityMode: {path: "configuration/entityschema/5f9484e158a88644c3e0bc3b3e69e5b3en-US"},
+	FileSecuritySignatureExtension: {path: "configuration/entityschema/ab2f95444d0ff59b16fd2a19d7588b85en-US"},
+	FileType: {path: "configuration/entityschema/cba9062fea8a5883fa8321a36a0f3890en-US"},
+	FinishedSyncSession: {path: "configuration/entityschema/a7d0bbd1cf272cbbd3a835bb38731ac3en-US"},
+	FolderFavorite: {path: "configuration/entityschema/95fea3671c89cc5cdf92933e9086219fen-US"},
+	FolderRelatedElConfig: {path: "configuration/entityschema/0b712aea6a61024388bc3bb50b4fc9b8en-US"},
+	FolderTree: {path: "configuration/entityschema/9611db93ce68e3d2909e46d1a564c87ben-US"},
+	FolderTreeFavorite: {path: "configuration/entityschema/8527a2c221adfe00aac25bf9c2696fe9en-US"},
+	FolderTreeStaticFolderSchemas: {path: "configuration/entityschema/ecbd657d93f4fb934aca637c35ef8963en-US"},
+	FolderType: {path: "configuration/entityschema/0b9b753e2b1da5674ac8cc5794e426bben-US"},
+	Gender: {path: "configuration/entityschema/7d0143800032511a91f4ee71c582c28cen-US"},
+	GeneratedWebForm: {path: "configuration/entityschema/a75efda2a2ffdd0a56b6fc8f2766fe20en-US"},
+	GeneratedWebFormFile: {path: "configuration/entityschema/bffebc22a17fba3b62008f81a36e1086en-US"},
+	GeneratedWebFormFolder: {path: "configuration/entityschema/07a94fb4047b3a3e7ae25ac429b8e658en-US"},
+	GeneratedWebFormInFolder: {path: "configuration/entityschema/89b4fc4f371e7d6648c6f17dfb30f2b8en-US"},
+	GeneratedWebFormInTag: {path: "configuration/entityschema/7cac667e9b629ef4de87c6c4472b1582en-US"},
+	GeneratedWebFormTag: {path: "configuration/entityschema/7b4f9ad89e21fb6b04b9baf0030bd497en-US"},
+	GlobalDuplicateSearchState: {path: "configuration/entityschema/7cc8651ae9d63596243845d99b4969b4en-US"},
+	GlobalDuplicateSearchStatus: {path: "configuration/entityschema/4bde22cd1a0bf514ca4b005fa03cd08ben-US"},
+	GroupByTypeDateTime: {path: "configuration/entityschema/856b4fceca1c1d563e97c3ecd77d3561en-US"},
+	HtmlEditorMacros: {path: "configuration/entityschema/16efe4688bf49021ab08c87391dfeb8ben-US"},
+	HTTPAuthType: {path: "configuration/entityschema/6a4eb8da95afa7ef0b7f281d242fe87aen-US"},
+	ImportSession: {path: "configuration/entityschema/5ccd2c51c3043df9988627a5cddc449fen-US"},
+	ImportSessionChunk: {path: "configuration/entityschema/a8e719bdb3e7b6454b6242bf00491cb0en-US"},
+	InformationSource: {path: "configuration/entityschema/8283821cf46e1846eccd0ff7894739eaen-US"},
+	InstalledAppStartupOption: {path: "configuration/entityschema/a23c8003a5bc0f8a8cea9d2d6dc0c974en-US"},
+	IntegrationDirection: {path: "configuration/entityschema/d8686af71da62b97ccde014540c6a190en-US"},
+	IntegrationLog: {path: "configuration/entityschema/82195d5660463d3ffb82a76a9e06ce52en-US"},
+	IntegrationLogSettings: {path: "configuration/entityschema/0fb9b98696a85d12f927f27c3c9c07e2en-US"},
+	IntegrationOperation: {path: "configuration/entityschema/d155b0eeed2bdffc86d1c99435ec77c0en-US"},
+	IntegrationResult: {path: "configuration/entityschema/b79ba688c494cc93d4cfc0ec929f75a9en-US"},
+	IntegrationSystem: {path: "configuration/entityschema/54a8a6db8ea47a43acdd264a7726207ben-US"},
+	IntroPageLookup: {path: "configuration/entityschema/9c67a7a9b8b489675f1f0282ed0f9c4aen-US"},
+	Job: {path: "configuration/entityschema/3870826015980b0bbac1ccdbde8ba94ben-US"},
+	JobChangeReason: {path: "configuration/entityschema/c576602e1b59977770798e366164fb62en-US"},
+	KnowledgeBase: {path: "configuration/entityschema/35c541cf84b62c0adb6c56fe29c0e278en-US"},
+	KnowledgeBaseFile: {path: "configuration/entityschema/d9d75cd31e2889709b8eba76d2a12a59en-US"},
+	KnowledgeBaseFolder: {path: "configuration/entityschema/e095ff7f9bd23b2c5dd9636b0190eb76en-US"},
+	KnowledgeBaseInFolder: {path: "configuration/entityschema/c6561c1066e3d9a999ebeb850f6a27a8en-US"},
+	KnowledgeBaseInTagV2: {path: "configuration/entityschema/5924a06a99bd040160f9487e7cf94d78en-US"},
+	KnowledgeBaseTag: {path: "configuration/entityschema/911d5a318a2887991320152fa7ce6e89en-US"},
+	KnowledgeBaseTagDecoupling: {path: "configuration/entityschema/ed96e6daccd78d1c8f93061987649be1en-US"},
+	KnowledgeBaseTagV2: {path: "configuration/entityschema/23953713029acebc2e66d986ab1dbeeaen-US"},
+	KnowledgeBaseType: {path: "configuration/entityschema/a7e228017b7a18556b3bd5345ccc71bcen-US"},
+	KnwDeferredIndexationQueue: {path: "configuration/entityschema/78923b09d033375ec9731313e73c4b8een-US"},
+	KnwIndexingSession: {path: "configuration/entityschema/88d9af1bf95f316cd176091fb0f78b8fen-US"},
+	KnwIndexingStatus: {path: "configuration/entityschema/6019fe0c995877bec31fbe7789114328en-US"},
+	KnwProvider: {path: "configuration/entityschema/33f1c3fb728e3b60c47c05fdfb0929c4en-US"},
+	KnwProviderConnection: {path: "configuration/entityschema/f5f8abb4d60c7b12fcab5f60e421d919en-US"},
+	KnwSource: {path: "configuration/entityschema/888a60476f2e25b1a2e1d44dbc149596en-US"},
+	KnwSourceFile: {path: "configuration/entityschema/4539b2437bcecb20b4aa16c2099e80e0en-US"},
+	KnwSourceInSkill: {path: "configuration/entityschema/fef89b37553ad976ab1d3f7c34bd4560en-US"},
+	KnwSourceStatus: {path: "configuration/entityschema/822db5aee2fc6331f92139ba5ed37231en-US"},
+	KnwSrcEventsOutbox: {path: "configuration/entityschema/3e5c669a788e25c363ea9e1489863024en-US"},
+	LandingObjectDefaults: {path: "configuration/entityschema/5a4518b6f6f844dea0968a92739eed7een-US"},
+	LandingType: {path: "configuration/entityschema/57f58ef14b18c0534e6b4a11ed6d372cen-US"},
+	LDAPAuthType: {path: "configuration/entityschema/cf17af5dfe0c5fb31fd41a5e744695caen-US"},
+	LDAPElement: {path: "configuration/entityschema/13b0fd672cb2b57527bf5e9a2e348086en-US"},
+	LDAPUserInLDAPGroup: {path: "configuration/entityschema/7736dc5743485bee1b6166ae76874c0ben-US"},
+	LendingState: {path: "configuration/entityschema/d2892641b593517a7d48ec46dc183057en-US"},
+	Like: {path: "configuration/entityschema/7f6ba662082458c726b2509b91d1423fen-US"},
+	LinkContactToAccount: {path: "configuration/entityschema/640306321f40c5bb5c4cc240c346e45den-US"},
+	LinkPreviewData: {path: "configuration/entityschema/bfeb722fe73d132fa15b38f0beca6108en-US"},
+	ListenerByNotifier: {path: "configuration/entityschema/1f233ac012c986568e86ef48ba58faf2en-US"},
+	LlmModel: {path: "configuration/entityschema/258aebdb665729ec55310dd983f68529en-US"},
+	LlmModelCategory: {path: "configuration/entityschema/acd3e2af36f8f704570d90d70bd2f09een-US"},
+	LlmProvider: {path: "configuration/entityschema/d95c86f7fbae54b00850254a05ae6911en-US"},
+	LocalizationChangeLog: {path: "configuration/entityschema/69fc6c8d7b123b30767d3f958ec807d2en-US"},
+	LocationHistory: {path: "configuration/entityschema/5eeefc5f042edef00d5a7b485d164e00en-US"},
+	LoginPageCommunication: {path: "configuration/entityschema/a4dc23fd9cdfd117b9ca29f25071e486en-US"},
+	LoginPageLink: {path: "configuration/entityschema/0065421072703a38f4ab9871af4fc0f3en-US"},
+	Lookup: {path: "configuration/entityschema/398434ad828abafe3c8d03c184426f6den-US"},
+	LookupConflict: {path: "configuration/entityschema/8b6cc16fe2866378352ca8b3eb451e44en-US"},
+	LookupFolder: {path: "configuration/entityschema/eac2ed1cd742fdb0564007f4c6b6220cen-US"},
+	LookupInFolder: {path: "configuration/entityschema/a2a51c6862ff7c592690e1eb2ed7769cen-US"},
+	LookupInTag: {path: "configuration/entityschema/adc87b1d8d782670be067e5cd534ba16en-US"},
+	LookupTag: {path: "configuration/entityschema/5ff7e29a5a25bc491af7b4dda4144617en-US"},
+	Macros: {path: "configuration/entityschema/e5dd1fd0aa1ddf6018b3b28c6d4507faen-US"},
+	MailboxContactFolder: {path: "configuration/entityschema/a6fb831951e871b5ce44e12019edf762en-US"},
+	MailboxFoldersCorrespondence: {path: "configuration/entityschema/9eb7bf90c43a20e53f6fc1c5b17e86bben-US"},
+	MailboxSettingsFile: {path: "configuration/entityschema/a607e62038971d353bd469f33667f474en-US"},
+	MailboxSyncSettings: {path: "configuration/entityschema/ed31b6cb9ee328df6e2124e65a3da9b5en-US"},
+	MailingProviderInfo: {path: "configuration/entityschema/c9d470a9438d1a365f45bbf59e5f44faen-US"},
+	MailSecureOption: {path: "configuration/entityschema/b02c37e9367358b234af4cc7e041ec82en-US"},
+	MailServer: {path: "configuration/entityschema/1c428d005f5223e6babf4e7b3768387cen-US"},
+	MailServerDomain: {path: "configuration/entityschema/d0b430f682f2d67a313608d7f98d6b1fen-US"},
+	MailServerType: {path: "configuration/entityschema/b1a2b6ca8e4094f6d5f51d7072aaad25en-US"},
+	MailSyncPeriod: {path: "configuration/entityschema/15c1857b1f1df3f6909eeb61fdc7a239en-US"},
+	MainParam: {path: "configuration/entityschema/add34bd58414181b6106c4554b9aa6b4en-US"},
+	MainParamLczOld: {path: "configuration/entityschema/fadb4b19e1618d545a589c9a1ab01332en-US"},
+	MaintenanceWindow: {path: "configuration/entityschema/c7490960c57a37b02096f20a1244a548en-US"},
+	MapService: {path: "configuration/entityschema/076e8f4e18a1e50ddbb9b7c382c10daaen-US"},
+	McpServer: {path: "configuration/entityschema/22f23cd9417a09aebaffd44906cc79f9en-US"},
+	McpSourceCodeAction: {path: "configuration/entityschema/f760fac24cac16c43ad19b455a26f55fen-US"},
+	McpTool: {path: "configuration/entityschema/0ca60562e88f9f1439105e8787d7f65ben-US"},
+	McpToolSourceType: {path: "configuration/entityschema/12d468bfe51faee10ab3ecd47a972bb3en-US"},
+	MeetingPlatform: {path: "configuration/entityschema/80cdec8f8d506be157f1b0796d1f99b4en-US"},
+	MeetingServiceLink: {path: "configuration/entityschema/25bfb32ecc5676f119a61cd6691ef84fen-US"},
+	MeetingTranscript: {path: "configuration/entityschema/22786024e61dbcaebbbfc1aa4bbf9fbeen-US"},
+	MessageComposerChannel: {path: "configuration/entityschema/42844e642c8aaf2372ea44ca51366917en-US"},
+	MessageListener: {path: "configuration/entityschema/e5348702fe942258b245e0351ce1be79en-US"},
+	MessageNotifier: {path: "configuration/entityschema/6b61848548f08d024d7aa92cdd39072cen-US"},
+	MessageNotifierBySection: {path: "configuration/entityschema/5dded4b47c4b3310cb1ac389d666b460en-US"},
+	MessagePublisher: {path: "configuration/entityschema/adf0ee6d5f74e412c87a40ff5d2946d2en-US"},
+	MessagePublisherBySection: {path: "configuration/entityschema/3e2f16862c6062d2ba1c833226ddeb62en-US"},
+	MessageTemplateType: {path: "configuration/entityschema/1290c590dd30f37cb17e20e9a7a202fden-US"},
+	MLClassificationResult: {path: "configuration/entityschema/8c85f562107340ee25228f279a1d9d79en-US"},
+	MLConfidentValueMethod: {path: "configuration/entityschema/4a654975d9d0fb6c53359b2e580435feen-US"},
+	MLError: {path: "configuration/entityschema/651ca1cf306553e4275f2dffc7e365a8en-US"},
+	MLModel: {path: "configuration/entityschema/bed7992586000d481f86e6dcb95dc415en-US"},
+	MLModelColumn: {path: "configuration/entityschema/a783a6128dbec79b09389930d92fe1ceen-US"},
+	MLModelColumnType: {path: "configuration/entityschema/bc553bd266a125c528bb1bf292613eceen-US"},
+	MLModelFile: {path: "configuration/entityschema/e0b903f9702e5b6a6b357f60e4ac9c62en-US"},
+	MLModelFolder: {path: "configuration/entityschema/0ce5cc614805883c2bf2cc1e984ce6b9en-US"},
+	MLModelInFolder: {path: "configuration/entityschema/16a1c6aa27e1cac0de79df00f5adc4b3en-US"},
+	MLModelInTag: {path: "configuration/entityschema/b00d95c44cb37b0864b90f29e85ffaaben-US"},
+	MLModelState: {path: "configuration/entityschema/f3e9689217b9a35698f3ca7d640b0118en-US"},
+	MLModelTag: {path: "configuration/entityschema/8655929e1fe80ff97661cde60625114aen-US"},
+	MLPrediction: {path: "configuration/entityschema/a159b4e8b968411523c1393650c969aeen-US"},
+	MLProblemType: {path: "configuration/entityschema/9fc50421e7e57b4d8496964d164cfdeben-US"},
+	MLTaskStartMethod: {path: "configuration/entityschema/7e43c397e12a99ecb9b6fad610e7d9fcen-US"},
+	MLTrainSession: {path: "configuration/entityschema/94c97bd7a19137c57b19179451de9936en-US"},
+	MobileApplicationMode: {path: "configuration/entityschema/17e77a1921eb1a97a021aaaa8f809559en-US"},
+	MobileData: {path: "configuration/entityschema/0b5e88eb02327dbf86c7be6787883382en-US"},
+	MobileHomePage: {path: "configuration/entityschema/8ff6133c587a2bedb41c21c10cb42859en-US"},
+	MobileNotificationLog: {path: "configuration/entityschema/aa0a32dc5722c2d737dcd2be325df3dfen-US"},
+	MobilePhoneBlockList: {path: "configuration/entityschema/7fd9d619e700e7c3d166c2913a4d9936en-US"},
+	MobileRulesMode: {path: "configuration/entityschema/e0a3faf0f594df02735ec96e3b47dfc8en-US"},
+	MobileSyncSett: {path: "configuration/entityschema/78c8c1db9071d07c53e7ecfeb2c9e509en-US"},
+	MockableServiceUrl: {path: "configuration/entityschema/cea3ce7f33715830d6b8761f3435f8aeen-US"},
+	Month: {path: "configuration/entityschema/7608b000fe1b0a4717fc17eb4ec201b8en-US"},
+	MultiDeleteDenyReason: {path: "configuration/entityschema/50f878bdf53afff10510075be7346351en-US"},
+	MultiDeleteQueue: {path: "configuration/entityschema/f766c065f5e32fe934ce2b0f96547bd4en-US"},
+	MultiLookupImage: {path: "configuration/entityschema/3d45dd640eca08e131d91480bd8f93a3en-US"},
+	NewsInsightsSchedule: {path: "configuration/entityschema/8318f6c5bd9d9fc92b8f4fdcf57d67efen-US"},
+	NextStep: {path: "configuration/entityschema/cb4a512cc254cf4c3d55c3057a953023en-US"},
+	NextStepType: {path: "configuration/entityschema/8997cfc1f2af50ca34bd651d998160afen-US"},
+	NonActualReason: {path: "configuration/entityschema/384faf0ed2a424de6cfef6b5d1fa522aen-US"},
+	NotificationProvider: {path: "configuration/entityschema/6426c520c9a1c5915e8297ba09206c0fen-US"},
+	NotificationsSettings: {path: "configuration/entityschema/38caa342bd25682f1f37d8b0bb4e166ben-US"},
+	NotificationType: {path: "configuration/entityschema/389b492c90118bb9b3bc786aba0e04a0en-US"},
+	NotifySettingsByUser: {path: "configuration/entityschema/116c69c9666ed91066be67eb0517ba9ben-US"},
+	OAuth20AppFile: {path: "configuration/entityschema/1542dfe8c769832aa89b71db7b130071en-US"},
+	OAuth20AppFolder: {path: "configuration/entityschema/21efde9ff35032f0869389faa9bc105een-US"},
+	OAuth20AppInFolder: {path: "configuration/entityschema/a1c0b88581c392584bc78b02bdef3363en-US"},
+	OAuth20AppInTag: {path: "configuration/entityschema/150a89690313500db05f338b729b5dc9en-US"},
+	OAuth20AppTag: {path: "configuration/entityschema/7797204bca5ff8f6971795c88728d64den-US"},
+	OAuthAppAllowedUser: {path: "configuration/entityschema/cf5a310239624102fb291575c7168dc9en-US"},
+	OAuthAppExtraParams: {path: "configuration/entityschema/48fd1ec5b3e281b9ca0b29a4c515a131en-US"},
+	OAuthApplications: {path: "configuration/entityschema/05a22e772e51ca7c86d800e845588e36en-US"},
+	OAuthAppScope: {path: "configuration/entityschema/e13451e8dae8c0f9346d7032cf92bfe5en-US"},
+	OAuthClientApp: {path: "configuration/entityschema/5b521a02652ef0ad566fbaef5b8b7a2den-US"},
+	OAuthClientAppStatus: {path: "configuration/entityschema/2c7b17835d2c1d7038524594304f958een-US"},
+	OAuthConsentInfo: {path: "configuration/entityschema/40d880c5540c08290140f4594eaaaaecen-US"},
+	OAuthConsentMode: {path: "configuration/entityschema/4def5b14fcd55b8f12e543567d746617en-US"},
+	OAuthDelegationGrant: {path: "configuration/entityschema/d28d9bc7e765698829312ebfe9d1a262en-US"},
+	OAuthGrantType: {path: "configuration/entityschema/be64ef4a9574b2535a8af5a393a1c9bcen-US"},
+	OAuthGrantTypeInClient: {path: "configuration/entityschema/4134d34029ff6d3ddfcf7dbd84be50afen-US"},
+	OAuthResource: {path: "configuration/entityschema/2ab5593e19ec196cd5004641040c3b5den-US"},
+	OAuthResourceInClient: {path: "configuration/entityschema/2b2073ee851ac3474686e8cb4218dbbeen-US"},
+	OAuthTokenExchangeTrustedClientApp: {path: "configuration/entityschema/900bd5088510f4eb44ca3194e318818ben-US"},
+	OAuthTokenStorage: {path: "configuration/entityschema/6d234e530441c4b01ea838ddad6c3b12en-US"},
+	OidcUserIdentity: {path: "configuration/entityschema/646c3572a300a846bc7360867d964b27en-US"},
+	OidcUserMatchingRule: {path: "configuration/entityschema/548dc13668f8028381e2ffaa6e63a97ben-US"},
+	OmnichannelChatStatus: {path: "configuration/entityschema/b11452ed974ee3dd1a53554aa6dc1a22en-US"},
+	OmnichannelMessageFile: {path: "configuration/entityschema/b45d2ea7002088191c6697392981a97cen-US"},
+	OmniChat: {path: "configuration/entityschema/4d69ffed1be6450fac5b6510b900af08en-US"},
+	OmniChatAction: {path: "configuration/entityschema/348a342a1e49eeaa044d95cc4c3ddbb0en-US"},
+	OmniChatFile: {path: "configuration/entityschema/791a809d43027cd159480035f1327ee9en-US"},
+	OmniChatFolder: {path: "configuration/entityschema/510329a71ab7e074a1d89ef483f1f390en-US"},
+	OmniChatInFolder: {path: "configuration/entityschema/d029d3fd3a2aaa3d2b236b4376f2d0f7en-US"},
+	OmniChatInTag: {path: "configuration/entityschema/5463567632ece5e038b7dd02ed98bd4den-US"},
+	OmniChatTag: {path: "configuration/entityschema/a3b004dcbaa139c24c5e44ec479ef52aen-US"},
+	OmniMesMacrosDetails: {path: "configuration/entityschema/ee8d31507831b0e88f633530394ee83een-US"},
+	OmniMessageMacros: {path: "configuration/entityschema/6ca6ee367df5c2c1b47bfc3b325b03feen-US"},
+	OpenAIModel: {path: "configuration/entityschema/1a403a9dbd52c611cd6f5ce6f08bc09cen-US"},
+	OpenIdFieldNameMap: {path: "configuration/entityschema/28c06cf532ab9f19999494f83aca6b15en-US"},
+	OperatorRoutingRules: {path: "configuration/entityschema/15606c3a405580d282e2204add77e326en-US"},
+	OperatorSession: {path: "configuration/entityschema/708fe893063956247f0f3d89f9ac7ce0en-US"},
+	OperatorState: {path: "configuration/entityschema/fc552e82370035e339699a0cab087d5cen-US"},
+	OperatorTemplateUsage: {path: "configuration/entityschema/7d78b3b69370a72c2f74a32f21f13b33en-US"},
+	OptionalFuncSspRole: {path: "configuration/entityschema/4a26a870ae31f3770c7bcaa2485a3a35en-US"},
+	OrganizationProperty: {path: "configuration/entityschema/5ca59e494101f31b7bc46c0b8db48ad3en-US"},
+	OrgStructureUnit: {path: "configuration/entityschema/9ddeb852b511370981099e2c15306edben-US"},
+	PackageCompilationState: {path: "configuration/entityschema/0bc7efede43bbc2d0fd4ad34f9866418en-US"},
+	PageTemplate: {path: "configuration/entityschema/2c1c0109df8cdac9f069325077441024en-US"},
+	ParticipantResponse: {path: "configuration/entityschema/45acde3594cc624f496e95ed53ac3855en-US"},
+	Period: {path: "configuration/entityschema/013d35ae191f5968e617391a8467c81een-US"},
+	PeriodicitySettings: {path: "configuration/entityschema/cc11e76a09ab2329b3361409eb3a7a8den-US"},
+	PeriodType: {path: "configuration/entityschema/39a36265df7f24deddb7feb2e406e5faen-US"},
+	Playbook: {path: "configuration/entityschema/bae3469dca6ce4a83ef14c942f6a7388en-US"},
+	Portal_SysModule: {path: "configuration/entityschema/59ca6336397da2bf5fefb9399ec4c8e0en-US"},
+	PortalColumnAccessList: {path: "configuration/entityschema/8fc1e974974974ee8686467af8f49a94en-US"},
+	PortalSchemaAccessList: {path: "configuration/entityschema/d1e3386cf8f6243ef14fa0b83bbce07aen-US"},
+	ProcessInDetails: {path: "configuration/entityschema/b6cffef5f4a90265b3affc43b1302e56en-US"},
+	ProcessInModules: {path: "configuration/entityschema/443ea6deb4d6f2ab8e9b87bb5658ef55en-US"},
+	ProcessSchemaType: {path: "configuration/entityschema/3a0e7da4228a8bdb52be2a7106e842eben-US"},
+	ProcessSequenceElement: {path: "configuration/entityschema/dfe4c8c5bfe2c228896fd9e82d5a73d4en-US"},
+	Product: {path: "configuration/entityschema/4e85487abf8e91b727db5b9ade86069fen-US"},
+	ProductEntry: {path: "configuration/entityschema/2d91ee23851f1f70ce6a1dd8bdcd91b2en-US"},
+	ProductFile: {path: "configuration/entityschema/66a1a25e80281c90860ecd2068a5e113en-US"},
+	ProductFolder: {path: "configuration/entityschema/c310b964acb4f356f0fc04998bd64d65en-US"},
+	ProductInFolder: {path: "configuration/entityschema/0ff331449cac6ce4f172943bf3f00d00en-US"},
+	ProductInTag: {path: "configuration/entityschema/cc08e0a5789e89dbcc5c25636d20d6d4en-US"},
+	ProductSource: {path: "configuration/entityschema/ebb858004725f28ee3c20d0f0e187ce8en-US"},
+	ProductTag: {path: "configuration/entityschema/38ce8d7d938837829d266f09eb086ca6en-US"},
+	ProductType: {path: "configuration/entityschema/c924522749967247193be04bf9906d2den-US"},
+	PropositionResult: {path: "configuration/entityschema/684a64d9018b1bbc35ef198b1af59043en-US"},
+	PushNotificationHistory: {path: "configuration/entityschema/901fec88ca40709b52f0f5083ada9a64en-US"},
+	PushNotificationService: {path: "configuration/entityschema/159ace4fbae53e882c6925a35efc81efen-US"},
+	PushNotificationToken: {path: "configuration/entityschema/77ec86f6c37846e948412c55d5555555en-US"},
+	QuickAddItem: {path: "configuration/entityschema/e8d8cda72fb793ed01f349431d6e3c82en-US"},
+	QuickAddMenuItem: {path: "configuration/entityschema/1fdcf79cba2b2fdf79671fd7b5097892en-US"},
+	QuickAddMenuSettings: {path: "configuration/entityschema/5082ece68d7466b1668fb02d2ab4208den-US"},
+	QuickDialUserSettings: {path: "configuration/entityschema/48203627efa0633f2f0d909b51a38f5aen-US"},
+	ReasonForLeaving: {path: "configuration/entityschema/f961252cc233786cfbd4fb4b6f6077dcen-US"},
+	RedirectUrlInOAuthClientApp: {path: "configuration/entityschema/1578501a6caf70e13716e209c4243049en-US"},
+	ReferralChasingOptions: {path: "configuration/entityschema/b4ef87cf1c9ce087d2a97ac97c3ac301en-US"},
+	Region: {path: "configuration/entityschema/3e1e17ab41252273cc8371f22cfa8461en-US"},
+	RelationConnectionType: {path: "configuration/entityschema/102e0c310a60046b50c82c9d755e964cen-US"},
+	RelationEntInDiagram: {path: "configuration/entityschema/426f92f0b371e98a8a1d46c779127aaaen-US"},
+	RelationEntityInGroup: {path: "configuration/entityschema/1b1286f760f059ce7102326552349a6ben-US"},
+	Relationship: {path: "configuration/entityschema/d1c9a97eeb7d46adf65ab43de1fe56d8en-US"},
+	RelationshipConnection: {path: "configuration/entityschema/c4e4f3ccbb0216459005004e1bf86525en-US"},
+	RelationshipDiagram: {path: "configuration/entityschema/8b860b979019902d44cea3119fca8213en-US"},
+	RelationshipEntity: {path: "configuration/entityschema/49e80f89bf754f73e14ed83a02d6bdeben-US"},
+	RelationshipGroup: {path: "configuration/entityschema/54f04d08a15bf0be44609fbf3fdf0636en-US"},
+	RelationType: {path: "configuration/entityschema/44774f22ee70ca922afd37dffd972388en-US"},
+	RelationTypePosition: {path: "configuration/entityschema/27296ba5aadaafbbda884abd5061c61fen-US"},
+	Reminding: {path: "configuration/entityschema/29810d7adee67ff67bf00b27d69db97een-US"},
+	RemindingSource: {path: "configuration/entityschema/76319f9e9b19fff01ed54501e36da5f6en-US"},
+	RemindInterval: {path: "configuration/entityschema/4ee1a1bd6edfadd7f3d68fa2e2c13389en-US"},
+	Report: {path: "configuration/entityschema/c1f578ac9410f8c7b7991439a25d6606en-US"},
+	ReportFolder: {path: "configuration/entityschema/03f4d292b1acce8b3b4f96db08218378en-US"},
+	ReportInFolder: {path: "configuration/entityschema/d628ff57189959168cf6be17acae2236en-US"},
+	ResolvedLookupConflict: {path: "configuration/entityschema/a92a0defe089f1dc8227ae41df730cdeen-US"},
+	RuleRelation: {path: "configuration/entityschema/e9310da2dff98c850f647f8890da4a08en-US"},
+	RuleRelationSections: {path: "configuration/entityschema/78b8c1c3b76cd65ef6c5ec4d79c83efeen-US"},
+	RunButtonProcessList: {path: "configuration/entityschema/d917431a024fad3d1ff853f50bb9c410en-US"},
+	Salary: {path: "configuration/entityschema/8dc714e6399b202b6534bdbf6849d869en-US"},
+	SAMLFieldNameConverter: {path: "configuration/entityschema/1f5d8e27e013fdb61af92e476598d1dben-US"},
+	SamlIdpCertificate: {path: "configuration/entityschema/8a670e8bedc9f34e277718b6ac4d33e7en-US"},
+	SamlIdpCertificateView: {path: "configuration/entityschema/fe60522d20f03a3d44c37e4dd9058709en-US"},
+	SamlResponse: {path: "configuration/entityschema/d615665878195e75574c5e4285ae4e6aen-US"},
+	ScoringModel: {path: "configuration/entityschema/532529adb9192c5ef95c38dadb32538fen-US"},
+	ScoringRule: {path: "configuration/entityschema/a3d5bcca502861b2d77a814441d1179fen-US"},
+	SearchSetting: {path: "configuration/entityschema/ed8f534bda115bed1163c3270cf20723en-US"},
+	SecFolderTreeFavorite: {path: "configuration/entityschema/8ef07f348ed5b04ff5827079a530a279en-US"},
+	SectionUIType: {path: "configuration/entityschema/8746cbefc78493f8afeaaf20f9167ebeen-US"},
+	SecuredFolderFavorite: {path: "configuration/entityschema/43abf71a9aae77b51a58f63ca91ec0f0en-US"},
+	SegmentResumeMode: {path: "configuration/entityschema/efa37950665cee6a7fea0757b5d26bc3en-US"},
+	SenderDomain: {path: "configuration/entityschema/2fdba2a345252ecd8ee6932d5060f921en-US"},
+	SenderDomainsInfo: {path: "configuration/entityschema/0c285f8caf292959a925d9aa19139439en-US"},
+	SenderDomainStatus: {path: "configuration/entityschema/5718fd2d27d374dc0babf1771d097e3den-US"},
+	ShowNamesBy: {path: "configuration/entityschema/32d9e2ce597426e9287fe5ac708d17d6en-US"},
+	SocialAccount: {path: "configuration/entityschema/9db6da8c7c7ed319dca936d19ed9f3efen-US"},
+	SocialChannel: {path: "configuration/entityschema/51d212de5e5f3335edabf2680dba91c0en-US"},
+	SocialChannelFolder: {path: "configuration/entityschema/6ec7ac8d60bb1ac5230b8356924bc48den-US"},
+	SocialChannelInFolder: {path: "configuration/entityschema/2e018eb58e4486f761dbe9f549a957e1en-US"},
+	SocialChannelInTag: {path: "configuration/entityschema/8403e08b159398cbedeca47c3241fa0ben-US"},
+	SocialChannelPublisher: {path: "configuration/entityschema/d92b20d5018e40822563fa2cbdfa0e65en-US"},
+	SocialChannelTag: {path: "configuration/entityschema/bd3e85db6ca8e10616f9bdfa72beff22en-US"},
+	SocialFeedFavoriteTpl: {path: "configuration/entityschema/5f151be288f1a9c926619fe2e8ab1a84en-US"},
+	SocialLike: {path: "configuration/entityschema/c476ebec0e61547d864830bdbf2535daen-US"},
+	SocialMention: {path: "configuration/entityschema/acc894e7c325f2779e3831e7333eaef2en-US"},
+	SocialMentionSearchRule: {path: "configuration/entityschema/3cb8268e79f94309f329e48f898e05e1en-US"},
+	SocialMessage: {path: "configuration/entityschema/279b4ee7fcfc80cfc8621fef1fc962fben-US"},
+	SocialMessageEntity: {path: "configuration/entityschema/900c6393b7fa63d164884a1abe2f9780en-US"},
+	SocialSubscription: {path: "configuration/entityschema/4aaebbb84cf7d1e82942232b87784426en-US"},
+	SocialUnsubscription: {path: "configuration/entityschema/86309646ec803baec55dd5350bbb1861en-US"},
+	SsoBaseSettings: {path: "configuration/entityschema/a3ae3b6ce34244c940f1e6945c534476en-US"},
+	SsoIdentityProvider: {path: "configuration/entityschema/50668333c660f77a9540c59bb20c7bdden-US"},
+	SsoIdentityType: {path: "configuration/entityschema/9bbe6007a0c8360a0ee95b6e8b44c68aen-US"},
+	SsoOpenIdProvider: {path: "configuration/entityschema/6e8976d4e788f8edc4f25f42503592eeen-US"},
+	SsoOpenIdSettings: {path: "configuration/entityschema/7a51a59cef40ab015a73d410207f93aden-US"},
+	SsoProvider: {path: "configuration/entityschema/75383fdbaefbbc26359d4b3b0676b28ben-US"},
+	SsoProviderType: {path: "configuration/entityschema/be3a987b6bb2d23770cd0428a34afbf4en-US"},
+	SsoSamlProvider: {path: "configuration/entityschema/85e0eba25dfca57530a66d12a2bf8288en-US"},
+	SsoSamlSettings: {path: "configuration/entityschema/1072c851490ed1168492f5e9f30ea16een-US"},
+	SsoServiceProvider: {path: "configuration/entityschema/cff8ead0f5d4aaa19d66aeb34976c0cben-US"},
+	SsoSettingsTemplate: {path: "configuration/entityschema/e4781f4a82cd7a1232b9cee4ba12bad1en-US"},
+	SsoUserType: {path: "configuration/entityschema/51618e3d6afb1683950c719c3757157fen-US"},
+	SspPageDetail: {path: "configuration/entityschema/1e9a0884680fec9eb85818682c1535d8en-US"},
+	StageBase: {path: "configuration/entityschema/f728226fbf9b8a1e118890ddb56f069ben-US"},
+	StageLogBase: {path: "configuration/entityschema/05d08f3e3f718eb51ee7661b1de76cdeen-US"},
+	StoredReport: {path: "configuration/entityschema/1da76c47060723495c977dfc3f41af46en-US"},
+	StoredReportResources: {path: "configuration/entityschema/de45a8b06593d8fb3e617f2fef118e16en-US"},
+	SubjectResult: {path: "configuration/entityschema/e80449546462c36e3038a7b05826bbf5en-US"},
+	SyncErrorHandler: {path: "configuration/entityschema/fdb3264f5d3c13c7329c705a356eedb1en-US"},
+	SyncErrorMessage: {path: "configuration/entityschema/896ebf159ba75af111377baeae620318en-US"},
+	SynchronizationProcessState: {path: "configuration/entityschema/a1b63127a9f4794b01cb49d018ac6a04en-US"},
+	SysActiveCall: {path: "configuration/entityschema/c44d57f5dc7e78274afeff7c764d7492en-US"},
+	SysAdminOperation: {path: "configuration/entityschema/3a0861e827e5012bf706a854f9bba555en-US"},
+	SysAdminOperationFolder: {path: "configuration/entityschema/0b400a68940aba87ddc4e771fb25145cen-US"},
+	SysAdminOperationGrantee: {path: "configuration/entityschema/957ac1556b7fb821bc2e5ff5a9b610cden-US"},
+	SysAdminOperationInFolder: {path: "configuration/entityschema/8115fb7094b9e055f863c5faae1cbd7aen-US"},
+	SysAdminUnit: {path: "configuration/entityschema/3fc99881160ad90e8479a09839aaa55een-US"},
+	SysAdminUnitFolder: {path: "configuration/entityschema/61a3fb4485ac7f4c1a3e056bc58feb2cen-US"},
+	SysAdminUnitGrantedRight: {path: "configuration/entityschema/00054f64af8a806a64c835e45704d26een-US"},
+	SysAdminUnitInFolder: {path: "configuration/entityschema/2e419ca72b50401a7971de550f77454een-US"},
+	SysAdminUnitInRole: {path: "configuration/entityschema/72854a8cdd7b6256275fc384aa408a1een-US"},
+	SysAdminUnitInWorkplace: {path: "configuration/entityschema/076a05aa00c229bbe4e60c7e5e73ff26en-US"},
+	SysAdminUnitIPRange: {path: "configuration/entityschema/20c5d77e98563162078bc309778c8b69en-US"},
+	SysAdminUnitType: {path: "configuration/entityschema/4f083fa74d4ddb54249466b12a06fb98en-US"},
+	SysAggregationType: {path: "configuration/entityschema/4d46db059a6666c6473dda4fa15708c2en-US"},
+	SysAlmRole: {path: "configuration/entityschema/fce99201b69ec0f57809f88d2bf4c0ffen-US"},
+	SysAppDependency: {path: "configuration/entityschema/15a0b87c2db8107f8bba572d9775cd6den-US"},
+	SysAppIcons: {path: "configuration/entityschema/d6fc699cc9db36e29d8b7c9b2b4f33b3en-US"},
+	SysApplicationClientType: {path: "configuration/entityschema/5475f30aadd108a9d870eb4923aafe6een-US"},
+	SysApproval: {path: "configuration/entityschema/fe8b3fd1df353fe58210b0d3a09647cben-US"},
+	SysAppTemplate: {path: "configuration/entityschema/803268b7e0ef62b4fcd34951c519b658en-US"},
+	SysAppTemplateInfoItem: {path: "configuration/entityschema/c478e3bc257ab563cf427d724c27b041en-US"},
+	SysBasePrcElLog: {path: "configuration/entityschema/be8705677259c8d45790e864957b1dc3en-US"},
+	SysBaseProcessEntity: {path: "configuration/entityschema/42ff516cb30ef74e5dbfcf7221ac8984en-US"},
+	SysBaseSchemaOperationRight: {path: "configuration/entityschema/c84ee61f0fd6715f9b0438e210a4a6a5en-US"},
+	SysChartSeriesKind: {path: "configuration/entityschema/dd79b589956bd3ca155b4d49bd1b1267en-US"},
+	SysClientUnitSchemaDependency: {path: "configuration/entityschema/528c9a05fc829879e042ad2364e8157een-US"},
+	SysClientUnitSchemaSource: {path: "configuration/entityschema/4ffdb1c7ae6bbb51d50c517852ba978aen-US"},
+	SysCodeLookup: {path: "configuration/entityschema/8e317ea08ddd05a6373cfadd4ffbc8a9en-US"},
+	SysCronTriggerState: {path: "configuration/entityschema/35b647e5e9541ddfb0adb4e93d8e7c02en-US"},
+	SysCspDefaultSrc: {path: "configuration/entityschema/0d213000f1f85650c57fb4f3939e8e71en-US"},
+	SysCspDefSrcInDirectv: {path: "configuration/entityschema/1b2c05ab102f07d1c1942ced5a92c792en-US"},
+	SysCspDirectiveName: {path: "configuration/entityschema/0b7e11f61d2e3e77d5b0ef474c47e027en-US"},
+	SysCspUserTrustedSrc: {path: "configuration/entityschema/7dceb106dd49c49d75464df26342e885en-US"},
+	SysCspUsrSrcInDirectv: {path: "configuration/entityschema/8f216cd2df02b72e910146a99d582a89en-US"},
+	SysCspViolation: {path: "configuration/entityschema/ad36605c1371e951d1154f29f666dc8aen-US"},
+	SysCulture: {path: "configuration/entityschema/fea30ddde945a5e31659e8bbfe2fe6f9en-US"},
+	SysDashboard: {path: "configuration/entityschema/e5fa1d5af8137e87ed8d07d1aa08c282en-US"},
+	SysDataLocalizableValue: {path: "configuration/entityschema/20c00e56c4023d0890c5cfb8d85075bfen-US"},
+	SysDataLocalizableValueChecksum: {path: "configuration/entityschema/7afa54fa124cf02f364dc99fc89ccd51en-US"},
+	SysDataSegment: {path: "configuration/entityschema/cb0961d742faf1b51f8daf16255bc4f3en-US"},
+	SysDateTimeFormat: {path: "configuration/entityschema/75b235a87e1f3a3e778f3d96fa69a737en-US"},
+	SysDcmSchemaInSettings: {path: "configuration/entityschema/02e1f7565856a830655640e2622f7490en-US"},
+	SysDcmSettings: {path: "configuration/entityschema/f4f8f3ab698762b35644fab1aea30044en-US"},
+	SysDcmUserTask: {path: "configuration/entityschema/edcecdca82e96982d6b0009a69f5af51en-US"},
+	SysDetail: {path: "configuration/entityschema/7de52e2a4f81150f7023b3ed673f33d4en-US"},
+	SysEditPage: {path: "configuration/entityschema/3b72659b35c84de5c440eecd24ceedaaen-US"},
+	SysEntityChangeType: {path: "configuration/entityschema/f984748490479ce856ee1226c1a8a8deen-US"},
+	SysEntityCommonPrcEl: {path: "configuration/entityschema/ddc5324e5609e892dc03cb66a1f0f7a8en-US"},
+	SysEntityDeleteEventLog: {path: "configuration/entityschema/556a946fd4f06313b2fca17b14a5d838en-US"},
+	SysEntityDeleteEventLogConfig: {path: "configuration/entityschema/3c112c4caa748866555971733a0dd37cen-US"},
+	SysEntityOperation: {path: "configuration/entityschema/4f40c6a777e58daeef2609d7978960f0en-US"},
+	SysEntityOperationGrantee: {path: "configuration/entityschema/1d5ec166442dd4170d80fd610280f6c6en-US"},
+	SysEntityPrcStartEvent: {path: "configuration/entityschema/0dfaf70cdf0b767ff7b445e67b42fac9en-US"},
+	SysEntityRightByAdminOperation: {path: "configuration/entityschema/3560f078daafa0a52440fba0b4433e40en-US"},
+	SysEntitySchemaColRightLevel: {path: "configuration/entityschema/64ed1ce283aafb241e341b7ee7bb3b35en-US"},
+	SysEntitySchemaDbInfo: {path: "configuration/entityschema/9e72e4045fdae21239bfc9e95fdd8e9ben-US"},
+	SysEntitySchemaOperationRight: {path: "configuration/entityschema/a378a00cd9e7df56fc299583d728ddd7en-US"},
+	SysEntitySchemaParentAsscType: {path: "configuration/entityschema/6d675258c94a0e2b0db8149cf0b10a49en-US"},
+	SysEntitySchemaRecOprRightLvl: {path: "configuration/entityschema/4660883325d0ab36575e67e5a9df5d2fen-US"},
+	SysEntitySchemaRecordDefRight: {path: "configuration/entityschema/941095cc172dac903eefe3be68142f34en-US"},
+	SysEntitySchemaRecordRight: {path: "configuration/entityschema/4d67e51c12507180ccaed63dd8b371d5en-US"},
+	SysEntitySchemaRecRightSource: {path: "configuration/entityschema/c5048f833f7ad45a48040a7f1a6116b3en-US"},
+	SysEntitySchemaReference: {path: "configuration/entityschema/00313eb5ee7fc66012e78c420f2aa495en-US"},
+	SysEventStoreKeys: {path: "configuration/entityschema/cb5480fa61f08f3a2d523c4bdce56146en-US"},
+	SysExtensionCombinationMode: {path: "configuration/entityschema/63d6e2523ce2fd1a721ae376741cce1aen-US"},
+	SysExternalService: {path: "configuration/entityschema/6f70b0a5d4eb44128b9470e8032c27bben-US"},
+	SysExtServiceOperationRight: {path: "configuration/entityschema/77b63af635f25a21911d7265594a0476en-US"},
+	SysFile: {path: "configuration/entityschema/976f97dd551ed3a3665e06b7c2c1e9eaen-US"},
+	SysFileContentStorage: {path: "configuration/entityschema/fd5aa66abb16a9133a7ada54111b882den-US"},
+	SysFileMetadataStorage: {path: "configuration/entityschema/3d669387e601b6384840b3246d582953en-US"},
+	SysFreedomDashboard: {path: "configuration/entityschema/330d079530716fc87567f62d1a36ee9cen-US"},
+	SysFuncRoleInOrgRole: {path: "configuration/entityschema/1dc9dec8a45f7acc850b4a51bd00d152en-US"},
+	SysGridPage: {path: "configuration/entityschema/7743928a0c1892af81fabe235f003178en-US"},
+	SysGridPageView: {path: "configuration/entityschema/654322e20d273ddd2ce20d1ecd55f421en-US"},
+	SysHttpHeader: {path: "configuration/entityschema/2480101c0ae49dbd5b683787fc0ce504en-US"},
+	SysIdentityProvider: {path: "configuration/entityschema/6f95219a9010ea7969783beac83c26aeen-US"},
+	SysIdPToExtSvcMapping: {path: "configuration/entityschema/d7e5088e2d7d5a1aedabdae60882440fen-US"},
+	SysImage: {path: "configuration/entityschema/85250c80fd6802639270284a9176235den-US"},
+	SysImageInTag: {path: "configuration/entityschema/56d6c720e2acd1fd4ce6b64fa602b544en-US"},
+	SysImageTag: {path: "configuration/entityschema/7d33664dee1e95470c7e7c3510ea700fen-US"},
+	SysInactivePackage: {path: "configuration/entityschema/adf4dce6da0dcfb7aff9c0c341758791en-US"},
+	SysInactivePackageInApp: {path: "configuration/entityschema/9dee389617f9dc909bb28752ecc84a39en-US"},
+	SysInstalledApp: {path: "configuration/entityschema/b78dd49466e39dcfa4693fd25cb1f577en-US"},
+	SysInstalledAppRunType: {path: "configuration/entityschema/c786905b16005cd3067c70a5650bb634en-US"},
+	SysInstalledAppStatus: {path: "configuration/entityschema/c7374a3bb5c55007e705a86ecbf35940en-US"},
+	SysInstalledPackageData: {path: "configuration/entityschema/1568f7d48c43dfde673634dccd9495deen-US"},
+	SysIsolatedRecord: {path: "configuration/entityschema/96c4a48704653a7cc0c5389eb74199d6en-US"},
+	SysLanguage: {path: "configuration/entityschema/c0220f8475838638e681a84f624aa94ben-US"},
+	SysLastUserPassword: {path: "configuration/entityschema/5c1f6da813c2ec24089a465ee29263f7en-US"},
+	SysLDAPSynchGroup: {path: "configuration/entityschema/a9b28f27cd176779b7e38acf817ebcdcen-US"},
+	SysLDAPSynchUser: {path: "configuration/entityschema/8bc99d88dc690af0d1f5570a1eb543b6en-US"},
+	SysLic: {path: "configuration/entityschema/3904b2c149979748b507b99b572d5800en-US"},
+	SysLicPackage: {path: "configuration/entityschema/231fe3d86e5d1414be95067b250b84bden-US"},
+	SysLicPackageInRole: {path: "configuration/entityschema/8035ae16b7975a545e117209cbee9754en-US"},
+	SysLicPackageNames: {path: "configuration/entityschema/9b59a2731fa5796197c0525702a61f27en-US"},
+	SysLicUser: {path: "configuration/entityschema/d13d44c25d7c758eb2b5aa384653f857en-US"},
+	SysLocalizableValue: {path: "configuration/entityschema/c37f18ae371cefe392fcf89de6332550en-US"},
+	SysLookup: {path: "configuration/entityschema/5f43136d83d696e7caa7b36ddd676481en-US"},
+	SysLookupColumn: {path: "configuration/entityschema/118dc3e8a1fec541aa780f45ff2f7afeen-US"},
+	SysLookupFolder: {path: "configuration/entityschema/1827ba577e62b3fdef1ea80a48266787en-US"},
+	SysLookupSearchColumn: {path: "configuration/entityschema/3176355469d4019e0b09ae2961b92175en-US"},
+	SysMobileWorkplace: {path: "configuration/entityschema/2298a9a531d63f1e0dbfef047dec857fen-US"},
+	SysModule: {path: "configuration/entityschema/79732d885a001252a70d5c9e4d288883en-US"},
+	SysModuleAction: {path: "configuration/entityschema/cb01257dd1f4e29009755c30b0be9ff1en-US"},
+	SysModuleActionLczOld: {path: "configuration/entityschema/c461a1464f40efe1957925859430ddeaen-US"},
+	SysModuleActionType: {path: "configuration/entityschema/86dfc155c1625d075ff6d06be64e5961en-US"},
+	SysModuleAnalyticsReport: {path: "configuration/entityschema/6a3de36dcaaf45a1dfb757cd7d532962en-US"},
+	SysModuleAnalyticsReportLczOld: {path: "configuration/entityschema/c6adafe717010e0fbc14f614db8ef10aen-US"},
+	SysModuleByUIType: {path: "configuration/entityschema/cdc20ab096aec1678e675f16dc897263en-US"},
+	SysModuleDcmSettings: {path: "configuration/entityschema/831583f1674c9e4246fd38c4344e31b4en-US"},
+	SysModuleDetail: {path: "configuration/entityschema/95b156bc1c03d4f375abcfb4262d3c4den-US"},
+	SysModuleDetailLczOld: {path: "configuration/entityschema/8d0741387d884490dfac3f4e4ca6ea64en-US"},
+	SysModuleDetailParentAssc: {path: "configuration/entityschema/bce9497a5caca4e240a6f1ad84dcd59fen-US"},
+	SysModuleEdit: {path: "configuration/entityschema/f6ec29421ab4e4f7b16849773247938ben-US"},
+	SysModuleEditDetail: {path: "configuration/entityschema/452bbef2b35559c93f769327b094ac54en-US"},
+	SysModuleEditDetailParentAssc: {path: "configuration/entityschema/a9e1ac484c2862b98efd242f902aaef0en-US"},
+	SysModuleEditLczOld: {path: "configuration/entityschema/ee1d5647c88f1c38e957649f3dd5f7deen-US"},
+	SysModuleEntity: {path: "configuration/entityschema/83462404776459d3bd9c157d42f04bf2en-US"},
+	SysModuleEntityInPortal: {path: "configuration/entityschema/e4ab1ec12da4514453a6e75fbcb4f684en-US"},
+	SysModuleFolder: {path: "configuration/entityschema/35d79d1cc23ff96cb828467feefe9181en-US"},
+	SysModuleFolderLczOld: {path: "configuration/entityschema/4586bbac2dee997095e3daf0e152a26aen-US"},
+	SysModuleFolderMode: {path: "configuration/entityschema/36cb462d2940716d0a1672574f36c47aen-US"},
+	SysModuleGrid: {path: "configuration/entityschema/2b3db6e000a0c9327ca12c3c6f0d0c83en-US"},
+	SysModuleGridEditPage: {path: "configuration/entityschema/5bb18e651d9ab26f5ee829df12a80692en-US"},
+	SysModuleGridView: {path: "configuration/entityschema/d3ff995ef2aeb39acf246c91d8cda2e6en-US"},
+	SysModuleInSysModuleFolder: {path: "configuration/entityschema/b90931516aa293ed79b5b333676116c0en-US"},
+	SysModuleInWorkplace: {path: "configuration/entityschema/5c3deffc8393c078adf1f820adc12fd6en-US"},
+	SysModuleInWorkplaceByUIType: {path: "configuration/entityschema/f9272967c4c3d98da78ee4abf898c429en-US"},
+	SysModuleLczOld: {path: "configuration/entityschema/5927543aa08aa7db59c091c46a2ed501en-US"},
+	SysModulePrimaryGrid: {path: "configuration/entityschema/bfa56704cb427891920f46a38d032bbaen-US"},
+	SysModuleReport: {path: "configuration/entityschema/a84d8ed55b1bb80482368b300f123d4een-US"},
+	SysModuleReportInPackage: {path: "configuration/entityschema/c9ddbb17e37913b7a773e3e86a3aec21en-US"},
+	SysModuleReportLczOld: {path: "configuration/entityschema/1c7e4087f8b0bf358f1634416264fbbeen-US"},
+	SysModuleReportPackage: {path: "configuration/entityschema/3d8c746062a34576303e10f7eb2ef069en-US"},
+	SysModuleReportTable: {path: "configuration/entityschema/e2b14c38c318338e21e34f0ab9a24f6fen-US"},
+	SysModuleReportType: {path: "configuration/entityschema/48e4e3014f17fb916404d33684f1741cen-US"},
+	SysModuleStageHistory: {path: "configuration/entityschema/6a5e30bdd96899d5997c2e483bcaec87en-US"},
+	SysModuleVisa: {path: "configuration/entityschema/9585cf9f2fc172072bfa9d085620e02ben-US"},
+	SysMsgLib: {path: "configuration/entityschema/1e5e95d5d0ac06315a5314e826966f0ben-US"},
+	SysMsgUserSettings: {path: "configuration/entityschema/11fdcc0d2c65a5b76933bc45a61a96e7en-US"},
+	SysMsgUserState: {path: "configuration/entityschema/65d5c0bdf83b8f1c6631af65433358fcen-US"},
+	SysMsgUserStateIcon: {path: "configuration/entityschema/d5d5f78f50a6464b40da00504f772470en-US"},
+	SysMsgUserStateInLib: {path: "configuration/entityschema/2c4605628c5e770823221cf4cc6a9948en-US"},
+	SysMsgUserStateReason: {path: "configuration/entityschema/7239dddcf4b88d0c6cf44557422dc499en-US"},
+	SysNumberFormat: {path: "configuration/entityschema/2bbf7c6bd41221cc63cc8d40d0e87575en-US"},
+	SysOperationAudit: {path: "configuration/entityschema/9f0acf50ec533a009444c77309025aecen-US"},
+	SysOperationAuditArch: {path: "configuration/entityschema/a8df413a754132c27ad5e4dd42b12148en-US"},
+	SysOperationResult: {path: "configuration/entityschema/34ce076d05677a678d611a9ab0ac6665en-US"},
+	SysOperationType: {path: "configuration/entityschema/44fe1304609455da41401e9ba570f1e3en-US"},
+	SysOrderDirection: {path: "configuration/entityschema/b2559c914f1a4977278a6d0d72918b25en-US"},
+	SysPackage: {path: "configuration/entityschema/9c44e3260e80cfe83c77e685f8055cb9en-US"},
+	SysPackageDataLcz: {path: "configuration/entityschema/1ca3f3bcc4008db2722ecf783dc4a288en-US"},
+	SysPackageDependency: {path: "configuration/entityschema/a6bde073822808bec32bc1a862ffd26aen-US"},
+	SysPackageHierarchy: {path: "configuration/entityschema/70015b5d9c55d81292b380dd40ae043den-US"},
+	SysPackageHotfixInfo: {path: "configuration/entityschema/650bc3a5a38a9ed47da029322d074953en-US"},
+	SysPackageInInstalledApp: {path: "configuration/entityschema/58bb426b24545b7dc318a8979010e18ben-US"},
+	SysPackageReferenceAssembly: {path: "configuration/entityschema/456e2d309952b8183266214a6294ce9een-US"},
+	SysPackageResourceChecksum: {path: "configuration/entityschema/5557ce78c0c45154887e19aa5d981b33en-US"},
+	SysPackageSchemaData: {path: "configuration/entityschema/b8994d69b2666fda8d5fe4a47d206609en-US"},
+	SysPackageSchemaDataColumn: {path: "configuration/entityschema/0e215bee862168f1034a7e3cb619d0baen-US"},
+	SysPackageSqlScript: {path: "configuration/entityschema/32862121d367b36682e0ffc691dceb75en-US"},
+	SysParentAssociationType: {path: "configuration/entityschema/7bba8ef7a5ffe8b4f9797eb9d2e76119en-US"},
+	SysPersistentStore: {path: "configuration/entityschema/88c77832bfea8dfd983878128e6cf501en-US"},
+	SysPkgInstallScript: {path: "configuration/entityschema/4d15f3ee666bc0eb7edcfd4e4b2d0982en-US"},
+	SysPluginPackage: {path: "configuration/entityschema/24bdde1f55fff4155f922631d6d6f371en-US"},
+	SysPluginPackageDeps: {path: "configuration/entityschema/abee8418b864797c1fda7f65a34d02dfen-US"},
+	SysPluginPackageInApp: {path: "configuration/entityschema/16081786eff5d436ec0c20fa8ccbcb64en-US"},
+	SysPluginPackageStatus: {path: "configuration/entityschema/2d1bfc48fe8697b4f7aa91ce8d49395een-US"},
+	SysPortal: {path: "configuration/entityschema/b075160a2a2ad2a2c1089f69944e6476en-US"},
+	SysPrcActivityLinks: {path: "configuration/entityschema/b3d0bc5a6b3b4d1fca86e36d8cbac772en-US"},
+	SysPrcElementTraceLog: {path: "configuration/entityschema/548eead06399706837f684455659427ben-US"},
+	SysPrcElHistoryLog: {path: "configuration/entityschema/0e605a729af6ebdea20b873b56e0eea1en-US"},
+	SysPrcElMIHistoryLog: {path: "configuration/entityschema/db873a1f103361869b57b5a7289d24d9en-US"},
+	SysPrcElMILog: {path: "configuration/entityschema/85f8c03854ea29aa8c8b831c766e4b84en-US"},
+	SysPrcEntityHistory: {path: "configuration/entityschema/ef582400b1ab831f4c663c0f662d14a6en-US"},
+	SysPrcHistoryLog: {path: "configuration/entityschema/de7a7ee8f0aef2e2e1ddddb357c72dd4en-US"},
+	SysPrcHistoryLogBuffer: {path: "configuration/entityschema/68eb530fdad16c26595c1e9283a60670en-US"},
+	SysPrcPersistentStore: {path: "configuration/entityschema/260d0fe11648e856a77def2e943a1edben-US"},
+	SysPrcSchemaElement: {path: "configuration/entityschema/bb153248b268958bb494c3dcc59b7b4ben-US"},
+	SysProcessData: {path: "configuration/entityschema/07869770758f68455fc717fdaf9a0dbden-US"},
+	SysProcessDisabled: {path: "configuration/entityschema/fd09804d2d11870356d907018eaf24d1en-US"},
+	SysProcessElementData: {path: "configuration/entityschema/35e551fd589a902e75e1d678bf8350b4en-US"},
+	SysProcessElementLog: {path: "configuration/entityschema/903414ecbfaf0d9cca6bc6eeee4af34aen-US"},
+	SysProcessElementToDo: {path: "configuration/entityschema/d36e83357088f860b6552b6badf7de3een-US"},
+	SysProcessEntity: {path: "configuration/entityschema/87d7ffff9a9e5d161e0cd8b345c5875aen-US"},
+	SysProcessFile: {path: "configuration/entityschema/59fd43822f04c6650da1a15719ff10eaen-US"},
+	SysProcessIntermediateEvent: {path: "configuration/entityschema/8b279aaef516d0d03ff4334698e21a59en-US"},
+	SysProcessLog: {path: "configuration/entityschema/5acf8dfa7715d7eb2389093799acc635en-US"},
+	SysProcessLogFolder: {path: "configuration/entityschema/38d11a63e2b83163e72e14bb009d40been-US"},
+	SysProcessLogInFolder: {path: "configuration/entityschema/ce67a50fd41e1056cd488c6588633342en-US"},
+	SysProcessSchemaOperationRight: {path: "configuration/entityschema/5552b4f253efd1dc33305af434cf9514en-US"},
+	SysProcessStatus: {path: "configuration/entityschema/7c4e400161541f7c2b0e81a7c78352b6en-US"},
+	SysProcessUserTask: {path: "configuration/entityschema/33be3cd2c30b17a9b8710d7e25e96fcden-US"},
+	SysProcessUserTaskFolder: {path: "configuration/entityschema/0db67d8ae2513c373de887ac785ef48ben-US"},
+	SysProcessUserTaskInFolder: {path: "configuration/entityschema/ee5d8b4e6336a99976eac64eaaeadbbaen-US"},
+	SysProfileData: {path: "configuration/entityschema/e4b236b3ec5c66e24bdc2c7a09210bd6en-US"},
+	SysQueryAction: {path: "configuration/entityschema/be95fdae39b524196bd106776aa2d52cen-US"},
+	SysQueryDetector: {path: "configuration/entityschema/11e60387670e55b7cf316d522d2348b4en-US"},
+	SysQueryHandleRule: {path: "configuration/entityschema/82fdeb8e2e066faaf3be4bdd5430613ben-US"},
+	SysQueryRuleApplyLog: {path: "configuration/entityschema/33ed614c62f672d73509a57afd349eafen-US"},
+	SysQuerySqlText: {path: "configuration/entityschema/7e9ac6ae2a1e4181607debd0250f6a8een-US"},
+	SysQueryStackTrace: {path: "configuration/entityschema/290ab28068c422a7759d57037f7f6f09en-US"},
+	SysRecentEntity: {path: "configuration/entityschema/7db61cd5e72a7d6ca33607492cd03307en-US"},
+	SysRecordPermissionExtension: {path: "configuration/entityschema/452a34ca4adbb58de94f46d0dfcfa964en-US"},
+	SysRecoveryHashCode: {path: "configuration/entityschema/2b2bc31e00cf21925f47e20e9b723e64en-US"},
+	SysRegistrationData: {path: "configuration/entityschema/644e026bb0bf4c20ccbcecf7352ea32aen-US"},
+	SysReportTemplate: {path: "configuration/entityschema/674dd307cbe2a112116ff3620db70511en-US"},
+	SysRepository: {path: "configuration/entityschema/41d5438e0ee4ff1813643fa5da86afd6en-US"},
+	SysRepositoryUser: {path: "configuration/entityschema/889c379da575f996cb7f6edf3d7a233ben-US"},
+	SysRoleInMobWorkplace: {path: "configuration/entityschema/d7167b6da55fed71f6fdf69446b4ba6ben-US"},
+	SysSchema: {path: "configuration/entityschema/a0db3512acb1a8af1d861f326c75805fen-US"},
+	SysSchemaAdminUnit: {path: "configuration/entityschema/62e1395265774132f7bc32965ea3bd00en-US"},
+	SysSchemaAdminUnitRight: {path: "configuration/entityschema/6ae2be925b640cd25c4f747d8237498ben-US"},
+	SysSchemaContent: {path: "configuration/entityschema/5afe80524885a17b9d051d83f6214b2een-US"},
+	SysSchemaDefOperationRight: {path: "configuration/entityschema/491bef2341dc0638ff426463eb4f8322en-US"},
+	SysSchemaOperationRight: {path: "configuration/entityschema/45a41c0d13c4dce4b8c67d011eaacff4en-US"},
+	SysSchemaProperty: {path: "configuration/entityschema/4d180d27e0668508fa9177020e4bb92den-US"},
+	SysSegmentExitMode: {path: "configuration/entityschema/cbd65b1910fb45540496de84f74fa21ben-US"},
+	SysSegmentRefreshMode: {path: "configuration/entityschema/bc82d870bb654f81325253f2b7ad9b4fen-US"},
+	SysSegmentSystemStatus: {path: "configuration/entityschema/be4b49e7232a34e7580ac7fb0b2bb992en-US"},
+	SysSegmentUserStatus: {path: "configuration/entityschema/230380fc2eb54771cf633e2e991d361den-US"},
+	SysSettings: {path: "configuration/entityschema/a088fdd0d3f19f68de69fe3c1694def9en-US"},
+	SysSettingsFolder: {path: "configuration/entityschema/7b13d0d5a496db7645e106404d90216cen-US"},
+	SysSettingsInFolder: {path: "configuration/entityschema/a12dd7ece414417cca58eaf271970c63en-US"},
+	SysSettingsReferenceSchema: {path: "configuration/entityschema/c31efcee90eaa020863e0bf8bb68b315en-US"},
+	SysSettingsRights: {path: "configuration/entityschema/73cbddec178a27ca992c3a939b3dc4eeen-US"},
+	SysSettingsValue: {path: "configuration/entityschema/08d8b7aeb5dc7bcf8f732a637261f4eaen-US"},
+	SysSmsProvider: {path: "configuration/entityschema/37bb5dde95f29fff656b2b1a188a81f7en-US"},
+	SysSolution: {path: "configuration/entityschema/59d23c34b4d26075a04d1b1480d246f1en-US"},
+	SysSqlScriptDependency: {path: "configuration/entityschema/fe1d789e84cd25d3b18860f594053181en-US"},
+	SysSSPCustomerSchema: {path: "configuration/entityschema/bde968d844612a468abe16d6332e0575en-US"},
+	SysSSPEntitySchemaAccessList: {path: "configuration/entityschema/f39d4c5f8fc3ca02fb18bb81dab73dc8en-US"},
+	SysStartTimerInProcess: {path: "configuration/entityschema/ef5df3901dd58bedb1547024f0af1d78en-US"},
+	SysStartTimerType: {path: "configuration/entityschema/08b4e97e1e7984cd22266d346b3515d6en-US"},
+	SysStoringObjectState: {path: "configuration/entityschema/442f2dd1c897352619dd42f6663ff7a2en-US"},
+	SysSubProcessInProcess: {path: "configuration/entityschema/d9de340971cb617923983977a59c7b40en-US"},
+	SysSyncMetaData: {path: "configuration/entityschema/03fc5b77a869279aeed274a53464ccbeen-US"},
+	SysTranslation: {path: "configuration/entityschema/fd441dfe3c3fc5860646972918b04566en-US"},
+	SysTranslationFolder: {path: "configuration/entityschema/a14ab4bbc24ca07b720ea968f4cd61a3en-US"},
+	SysTranslationInFolder: {path: "configuration/entityschema/3a81900e4b0e8ae1e57decc03194d27fen-US"},
+	SysTranslationInTag: {path: "configuration/entityschema/a14f0c113e46917876778e7c272cece0en-US"},
+	SysTranslationRepository: {path: "configuration/entityschema/2b9e58d7be7312fd370152e3f56321d2en-US"},
+	SysTranslationTag: {path: "configuration/entityschema/476f587df44a71783698aacd180ce416en-US"},
+	SysTwoFactorAuthFlow: {path: "configuration/entityschema/a8acec9bbb0970c891ba70380295bf59en-US"},
+	SysTwoFactorCode: {path: "configuration/entityschema/3b084166a9b217a026b92fa0171ee63aen-US"},
+	SysUIElementVisibility: {path: "configuration/entityschema/018b9c3e9a8f8816dd4b51ffa5054ceeen-US"},
+	SysUserInRole: {path: "configuration/entityschema/3e3a787f2cf2e55fc75b5491b7d7701den-US"},
+	SysUserLevelLocalizableValue: {path: "configuration/entityschema/9b8e8f5e9d2a2730e7b8479229c26a37en-US"},
+	SysUserLevelSchema: {path: "configuration/entityschema/10f24c0c4053d59e5970f44f0f2c20b2en-US"},
+	SysUserLevelSchemaClientSource: {path: "configuration/entityschema/7cffac781386cd6196b91271831e54d8en-US"},
+	SysUserLevelSchemaContent: {path: "configuration/entityschema/4181b88a12ebcbc9e93fc6b0e1ac1914en-US"},
+	SysUserLevelSchemaProperty: {path: "configuration/entityschema/673933a740750ab8c2e7e040d368488aen-US"},
+	SysUserProfile: {path: "configuration/entityschema/82b6086100474f9ed58b5f47700e4fafen-US"},
+	SysUserRoleNotInhByMng: {path: "configuration/entityschema/6b4a60ead1660858141c4f83e9d73e7ben-US"},
+	SysUserSession: {path: "configuration/entityschema/8a2107c20f412b331fc0aca5c2c873b8en-US"},
+	SysWebFarmSettings: {path: "configuration/entityschema/048182ff1dfd0c01717b4eed5390670cen-US"},
+	SysWidgetDashboard: {path: "configuration/entityschema/16801136d98211965a9a05aac07dce88en-US"},
+	SysWorkplace: {path: "configuration/entityschema/ea534de70e255321133413aecc41855een-US"},
+	SysWorkplaceType: {path: "configuration/entityschema/0ff30f1cf56fe1365a56a187e21f9e9aen-US"},
+	SysWorkspace: {path: "configuration/entityschema/c4ad915125b6ed96e2c7f103faaec838en-US"},
+	SysXssProtectionRule: {path: "configuration/entityschema/5a0b9603f4d3fc096a49e291cabf0c35en-US"},
+	SysXssProtectionRuleExclusion: {path: "configuration/entityschema/d9244b67983baa17ae757bee13f63997en-US"},
+	SysXssProtectRuleExclType: {path: "configuration/entityschema/22555b91cdc3c81cb714fd75e57085faen-US"},
+	SysXssProtectRuleType: {path: "configuration/entityschema/40cfc8b30f23886c7880e6a08ddd8949en-US"},
+	SysXssProtectRuleViolation: {path: "configuration/entityschema/be2047ddefdaa0ada4a36807d18f8993en-US"},
+	Tag: {path: "configuration/entityschema/7b28925a628c29dacf4c5bb9975c233ben-US"},
+	TagAccess: {path: "configuration/entityschema/181decbdcbd52306f5db07a018e20a5den-US"},
+	TagAccessGrantee: {path: "configuration/entityschema/be89816a5eb9d6e8a04be88f66eed9afen-US"},
+	TagInRecord: {path: "configuration/entityschema/3e029a968f42554cdff8fcaba0067ef3en-US"},
+	TagInSchema: {path: "configuration/entityschema/48071f86a13eb24ecfba419eaee1b71den-US"},
+	TagType: {path: "configuration/entityschema/e6c9cb06efa7d0142141823475da1492en-US"},
+	Tax: {path: "configuration/entityschema/5bdf3c66d9bde82421585133a2a32d5cen-US"},
+	TechnicalUsersObjectPermissions: {path: "configuration/entityschema/13802aa7fe225fe75de0773b0e36789een-US"},
+	Territory: {path: "configuration/entityschema/94304f7f56952bd285fe5b7338e34d47en-US"},
+	TimelinePageSetting: {path: "configuration/entityschema/c16c0cabf2bf54fa791b0eff22281920en-US"},
+	TimelineTileSetting: {path: "configuration/entityschema/dbf057fb0529310dcf0b8b0a33e49ec9en-US"},
+	TimeUnit: {path: "configuration/entityschema/ed5f1f58baf0b7ac8417ef2b6918cfffen-US"},
+	TimeZone: {path: "configuration/entityschema/e73789eb2457e6a72b57d9d9eb2174a0en-US"},
+	TotpSecret: {path: "configuration/entityschema/74544a5d02c4bcc8e8a8fe6982328caaen-US"},
+	TotpSetupToken: {path: "configuration/entityschema/97376b69756e7bad591bdc58df072219en-US"},
+	TranslationColumnLengthExceededBehavior: {path: "configuration/entityschema/6bd2c607813dcc4669a9a4670e3f43f5en-US"},
+	TranslationStatus: {path: "configuration/entityschema/ae8a57991d905b0d8919d55a70ee3bb2en-US"},
+	UIRedirectBlacklist: {path: "configuration/entityschema/1bb2654c35db87fd6ddaa235b0b23a34en-US"},
+	UISwitcherAdminUnitUIType: {path: "configuration/entityschema/7ec228210d894d66484c17e6ddacdb8een-US"},
+	UIType: {path: "configuration/entityschema/5cfabbe161058b0652c6f76171ebf66cen-US"},
+	Unit: {path: "configuration/entityschema/4078099c4729917a89f63b07539b029den-US"},
+	UnitForCalculation: {path: "configuration/entityschema/b817a04d0800e9abc9855a891224ecceen-US"},
+	UserAttributes: {path: "configuration/entityschema/940e89190d7aded32fba47ef0491ad99en-US"},
+	UserConsentHistory: {path: "configuration/entityschema/155fe0c85e401e19e90cf7e66094fc28en-US"},
+	UserOAuthSharedAccess: {path: "configuration/entityschema/6598aa1b4e44a235c4c4da6beef8ba77en-US"},
+	UsrCustomer: {path: "configuration/entityschema/20a8313aca72ab8372113fabeb197d71en-US"},
+	UsrCustomerType: {path: "configuration/entityschema/296bf22df0aec80f2bdde3f95bc07284en-US"},
+	UsrTrafficLight: {path: "configuration/entityschema/347af865c58554b5aa18011d33ea0d91en-US"},
+	UsrVwContactAgeDays: {path: "configuration/entityschema/37540ea6bec4b8c8ddc1385e59db0966en-US"},
+	VideoHelp: {path: "configuration/entityschema/49350f0c52614e69ada6e916564169a0en-US"},
+	VirtualEmailTplContent: {path: "configuration/entityschema/36e10092508e9c0514f3c14a5c5f8636en-US"},
+	VisaStatus: {path: "configuration/entityschema/2050ced759b0b7f8bfd9b5226aca9772en-US"},
+	VwAccountDuplicate: {path: "configuration/entityschema/9ce3fd4adfc57763dc372e00961b571ben-US"},
+	VwAccountModuleHistory: {path: "configuration/entityschema/3c163fdd43e79ffc46861e3cbd9f7b97en-US"},
+	VwAccountRelationship: {path: "configuration/entityschema/0142affef44cd493cef218eaecbca6d9en-US"},
+	VwAdministrativeObjects: {path: "configuration/entityschema/7cf9a7bc5ac7fea24f4959ee9cd8e639en-US"},
+	VwAnniversary: {path: "configuration/entityschema/de303a2af5fdc165b8aa78d39f8beb0aen-US"},
+	VwCommandAction: {path: "configuration/entityschema/210bdd291235dd4df509a1ea5152b19ben-US"},
+	VwCompilationErrors: {path: "configuration/entityschema/373613d810c0ee90179dcc93b72861d5en-US"},
+	VwContactDuplicate: {path: "configuration/entityschema/ecee68861bf4c731f775ba6f6533f16fen-US"},
+	VwContactModuleHistory: {path: "configuration/entityschema/bb4ee9631d3a20a5ccba7f67583f9c3cen-US"},
+	VwContactRelationship: {path: "configuration/entityschema/18b5b9a05751da503522ffdf508de4dden-US"},
+	VwCopilotRequest: {path: "configuration/entityschema/d108f6ed88635ff71d7c9d9aaf1f7823en-US"},
+	VwCopilotSessionEx: {path: "configuration/entityschema/411001172f508978f17876550b09f51fen-US"},
+	VwCopilotSessionIntent: {path: "configuration/entityschema/39d9a32d6cf6e6b3e7e6aca503794400en-US"},
+	VwDuplicatesRuleType: {path: "configuration/entityschema/2e0ca245631a6a62ddc5bc44805105e6en-US"},
+	VwEmployeesHierarchy: {path: "configuration/entityschema/db4282e3bb5d724084c78ce69f8504a7en-US"},
+	VwEntityInProcess: {path: "configuration/entityschema/70eac1f459e75a5dae3562b903f06178en-US"},
+	VwEntityObjects: {path: "configuration/entityschema/640e064329bd494143f3e27368868c75en-US"},
+	VwExpiringLicense: {path: "configuration/entityschema/bca446613f4871658befc7d12ea55047en-US"},
+	VwIsolatedRecord: {path: "configuration/entityschema/eff431a792bb3fbb70a32fbe9a61a2eeen-US"},
+	VwLogObjects: {path: "configuration/entityschema/852bfe15797f5c0c20b8549dda98d70fen-US"},
+	VwMobileSysSchema: {path: "configuration/entityschema/983b7e293db3b2d0b4309da2ac11da3den-US"},
+	VwModuleEditInfo: {path: "configuration/entityschema/500e19eee76a14e90730408c4b503063en-US"},
+	VwModuleHistory: {path: "configuration/entityschema/9ef0579d1ff8553c02fc5cb03dd77fd7en-US"},
+	VwOAuthAppUser: {path: "configuration/entityschema/4a5b99a545a6cc0f767e173a67ae08d4en-US"},
+	VwPageTemplate: {path: "configuration/entityschema/488b071180ec1300165711d57d80c916en-US"},
+	VwProcessDashboard: {path: "configuration/entityschema/010c48f1686429e9937b2ac82509a9f1en-US"},
+	VwProcessLib: {path: "configuration/entityschema/e0a32ec00faefa8c1dd31b447f23dfa7en-US"},
+	VwProcessLibFile: {path: "configuration/entityschema/be93fa90d1d4de8982e3a0b66cc57643en-US"},
+	VwProcessLibFolder: {path: "configuration/entityschema/cd5e5b418922be1c30a0396a888c3018en-US"},
+	VwProcessLibInFolder: {path: "configuration/entityschema/f779df0bf38d125af0f94be66227574cen-US"},
+	VwProcessStartEvent: {path: "configuration/entityschema/c0619f28c61de4a0f8db81893e89e35een-US"},
+	VwRecentCall: {path: "configuration/entityschema/1c292803ca89692e1ad4f078ce018964en-US"},
+	VwRecepientEmail: {path: "configuration/entityschema/cb7fb5069bad5fb1f9f30bca5219d0c7en-US"},
+	VwRelationship: {path: "configuration/entityschema/9624f6dcc4dcd26d29e7e13fab1d08f7en-US"},
+	VwRemindings: {path: "configuration/entityschema/423cf8792e18dcbed26a95151c000e85en-US"},
+	VwRemindingsCount: {path: "configuration/entityschema/4cc1d75200af248f3df13accf029b954en-US"},
+	VwSectionDesignerModuleInfo: {path: "configuration/entityschema/47b873a35ea9b67e1d0ef8f82913b6e9en-US"},
+	VwSocialSubscription: {path: "configuration/entityschema/926ff6fcce2da11cad6397a2d4ed66bben-US"},
+	VwSocialUnsubscription: {path: "configuration/entityschema/a20eae567ce43bf5fefb4573c64dcaeden-US"},
+	VwSspAdminUnit: {path: "configuration/entityschema/31bd9b0c3033cd4e4b77cc98ad647ac8en-US"},
+	VwSSPSysAdminUnit: {path: "configuration/entityschema/f7bed96b548b238b9b51a2f0c0526a31en-US"},
+	VwSubProcessInProcess: {path: "configuration/entityschema/1d58aaf8062729dbd506e66ca160d344en-US"},
+	VwSysAdminOperationGrantee: {path: "configuration/entityschema/e9f11bfa8a2296d3784e50eb1c143961en-US"},
+	VwSysAdminUnit: {path: "configuration/entityschema/5cdb05f411ca8e8e922e1c23799ba4c0en-US"},
+	VwSysAdminUnitHierarchy: {path: "configuration/entityschema/c2c3b704f2d14bb114e5edd4cc1a8afeen-US"},
+	VwSysClientUnitSchema: {path: "configuration/entityschema/fec5dfb5a09f82215458e084eac572e0en-US"},
+	VwSysClientUnitSchemaInPackage: {path: "configuration/entityschema/008b9f4e0eda000bbe00caa84d006934en-US"},
+	VwSysCspViolation: {path: "configuration/entityschema/a40619a96066233ed664872536922605en-US"},
+	VwSysDcmLib: {path: "configuration/entityschema/a02bda05c27cc7fb93ffbf637efe9f21en-US"},
+	VwSysDcmLibFolder: {path: "configuration/entityschema/9a41501684bbe6b7b18748351cc487cben-US"},
+	VwSysDcmLibInFolder: {path: "configuration/entityschema/b24364f8bc54e48ba32b532d0b0b33f8en-US"},
+	VwSysEntitySchemaColumnRight: {path: "configuration/entityschema/6177b6b7f6b66891d3192f217fb21c8fen-US"},
+	VwSysEntitySchemaInPackage: {path: "configuration/entityschema/f5c9d59a3251b205d7e745351d159234en-US"},
+	VwSysEntitySchemaInWorkspace: {path: "configuration/entityschema/5558f89d06fb9e2770db39adeaafcf30en-US"},
+	VwSysLookup: {path: "configuration/entityschema/b3639b78b1a05b913e86ac9f19ef98e5en-US"},
+	VwSysLookupInFolder: {path: "configuration/entityschema/fa3ccd3fb1de143c6a7249793b720daaen-US"},
+	VwSysModuleEdit: {path: "configuration/entityschema/17b79c31cee6f96c6df6da34cf22a3a1en-US"},
+	VwSysModuleEntity: {path: "configuration/entityschema/94612b79a64f48201f07475c6bdcd000en-US"},
+	VwSysModuleEntityForEdit: {path: "configuration/entityschema/a0f19b6bb871044514091cd9ecb8ba30en-US"},
+	VwSysModuleSchemaEdit: {path: "configuration/entityschema/5c93a9dac42906d86ff8a01b2cc4cd7ben-US"},
+	VwSysPackages: {path: "configuration/entityschema/f523e9f9113a0f7f66e6c00131d00185en-US"},
+	VwSysPageSchemaInWorkspace: {path: "configuration/entityschema/a2c5bc918f026860796f75fb4cc3b741en-US"},
+	VwSysProcess: {path: "configuration/entityschema/68e74c82d0549e7b653e349e8c0542b3en-US"},
+	VwSysProcessElementLog: {path: "configuration/entityschema/fab47cb8e9722aa73fa2fe1f13e2f902en-US"},
+	VwSysProcessEntity: {path: "configuration/entityschema/b8acb45dfb2f1695cb96abf276ffac6aen-US"},
+	VwSysProcessFile: {path: "configuration/entityschema/9cd626a68854b5754801e001c797525den-US"},
+	VwSysProcessFolder: {path: "configuration/entityschema/3ebe74049691bd89f46ec4bc5c440aa3en-US"},
+	VwSysProcessInFolder: {path: "configuration/entityschema/761226e7190351e3ee32512a98f1031den-US"},
+	VwSysProcessLog: {path: "configuration/entityschema/959e80e31d537567d3f0ec3afcd11246en-US"},
+	VwSysProcessMILog: {path: "configuration/entityschema/901f4eccc5fa87f9f798ddf31cba7b5aen-US"},
+	VwSysProcessSchemaUserRight: {path: "configuration/entityschema/a86dc8b14a1dd2165bde7d58c8fb687ben-US"},
+	VwSysRole: {path: "configuration/entityschema/22be700de2c228b9482edb30d3c7ef39en-US"},
+	VwSysSchemaDataInPackage: {path: "configuration/entityschema/c7486f4e52bb9811d45ff2b05fad4426en-US"},
+	VwSysSchemaExtending: {path: "configuration/entityschema/2ca6d93718fc40be127eade74b2618e1en-US"},
+	VwSysSchemaInfo: {path: "configuration/entityschema/2d8e770457d7b211b646744c0215e984en-US"},
+	VwSysSchemaInPackage: {path: "configuration/entityschema/8d21a5ea35d98ae93eb91fa5be408877en-US"},
+	VwSysSchemaInWorkspace: {path: "configuration/entityschema/c72128e6b8ff0dbf1048e80c432dbd4cen-US"},
+	VwSysSetting: {path: "configuration/entityschema/689b6e7596b52179f39923c49c4ac287en-US"},
+	VwSysSqlScriptInPackage: {path: "configuration/entityschema/4f01d8f467080c85025703c39f2448a5en-US"},
+	VwSysSSPEntitySchemaAccessList: {path: "configuration/entityschema/9aa856abd81d2131cda592810716d3been-US"},
+	VwSystemUsers: {path: "configuration/entityschema/666ad1306e5a8b9ee5992177ce6fe7deen-US"},
+	VwSysUser: {path: "configuration/entityschema/e544a21455c80db076afd3dd532aacaeen-US"},
+	VwTechnicalUser: {path: "configuration/entityschema/9c3d3a1eca6aa15639924593b23e9443en-US"},
+	VwUserEmailsCount: {path: "configuration/entityschema/775c95bf30d2df9b9aff9a9217662856en-US"},
+	VwUserRemindingsCount: {path: "configuration/entityschema/2e5abc0605895a3f1cf4713493113106en-US"},
+	VwVisa: {path: "configuration/entityschema/d37ca101e63a6da8fc17aab6f57feca6en-US"},
+	VwWebServiceV2: {path: "configuration/entityschema/70d6ca029bcc13807a3bf2958c999257en-US"},
+	VwWorkspaceObjects: {path: "configuration/entityschema/b8fdf808118116f62a0791681c2d3ce4en-US"},
+	WeakPassword: {path: "configuration/entityschema/fa5f208d8752a5678b8b2c058adf08ceen-US"},
+	WebFormContactIdentifier: {path: "configuration/entityschema/2ebdff655f5a975a6ff59c273ec51c66en-US"},
+	WebFormData: {path: "configuration/entityschema/cf18af2cf339a19630b6af0f0dcba8bcen-US"},
+	WebFormProcessHandlers: {path: "configuration/entityschema/2746cda9048e8f79bda3a9de40f54070en-US"},
+	Webhook: {path: "configuration/entityschema/a4697780f980ff4673b13216ce125ed7en-US"},
+	WebhookEntity: {path: "configuration/entityschema/fa2008d93edabe4aebd41b70d38e4795en-US"},
+	WebhookLog: {path: "configuration/entityschema/e905ddabb43b6aaa1d9676d811c162d1en-US"},
+	WebhookStatus: {path: "configuration/entityschema/47e02d2dd1e906dccf69c01b9e39b58cen-US"},
+	WebPage: {path: "configuration/entityschema/e284114df181803adf74bcb083d57fc4en-US"},
+	WebService: {path: "configuration/entityschema/81eadc8efdbcd1d21712c789d5c17fffen-US"},
+	WebServiceRequestBuilder: {path: "configuration/entityschema/e25e0b1fc3317450b4b256dd599cb250en-US"},
+	WebServiceURL: {path: "configuration/entityschema/fb034f7f2fa7c4f8b60e61bb04024383en-US"},
+	WebServiceV2File: {path: "configuration/entityschema/86bcc78ee9e0d188101f3cac7afacd0een-US"},
+	WebServiceV2Folder: {path: "configuration/entityschema/2e1d862b7a85ed7f23b77a30f1c6f5afen-US"},
+	WebServiceV2InFolder: {path: "configuration/entityschema/99d989da26c63ea64791cb6d47ae32f9en-US"},
+	WebServiceV2InTag: {path: "configuration/entityschema/45ba12856eaf2bbfc88337dfb8d159d5en-US"},
+	WebServiceV2Tag: {path: "configuration/entityschema/90a938e5949133de3ca201ce01337f49en-US"},
+	WeekFirstDay: {path: "configuration/entityschema/86fe20a14abd1c4f9a90a5fe46991fa7en-US"},
+	WorkingTimeInterval: {path: "configuration/entityschema/16ba45d006ac6dab9785224ea84eff6een-US"},
+	XssProtectionMode: {path: "configuration/entityschema/c38ec82612afcaae09a437919f608bc3en-US"}
 };

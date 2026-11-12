@@ -26,23 +26,23 @@
 	using Terrasoft.UI.WebControls.Controls;
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 
-	#region Class: AccountBillingInfoSchema
+	#region Class: AccountBillingInfo_CrtBase_CreatioSchema
 
 	/// <exclude/>
-	public class AccountBillingInfoSchema : Terrasoft.Configuration.BaseLookupSchema
+	public class AccountBillingInfo_CrtBase_CreatioSchema : Terrasoft.Configuration.BaseLookupSchema
 	{
 
 		#region Constructors: Public
 
-		public AccountBillingInfoSchema(EntitySchemaManager entitySchemaManager)
+		public AccountBillingInfo_CrtBase_CreatioSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public AccountBillingInfoSchema(AccountBillingInfoSchema source, bool isShallowClone)
+		public AccountBillingInfo_CrtBase_CreatioSchema(AccountBillingInfo_CrtBase_CreatioSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public AccountBillingInfoSchema(AccountBillingInfoSchema source)
+		public AccountBillingInfo_CrtBase_CreatioSchema(AccountBillingInfo_CrtBase_CreatioSchema source)
 			: base(source) {
 		}
 
@@ -54,7 +54,7 @@
 			base.InitializeProperties();
 			UId = new Guid("4f0e44ce-343c-45b6-ae14-ff0533d4add9");
 			RealUId = new Guid("4f0e44ce-343c-45b6-ae14-ff0533d4add9");
-			Name = "AccountBillingInfo";
+			Name = "AccountBillingInfo_CrtBase_Creatio";
 			ParentSchemaUId = new Guid("11ab4bcb-9b23-4b6d-9c86-520fae925d75");
 			ExtendParent = false;
 			CreatedInPackageId = new Guid("66e9e705-64b4-4dda-925e-d1e05a389eb6");
@@ -184,7 +184,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new AccountBillingInfo(userConnection) {Schema = this};
+			return new AccountBillingInfo_CrtBase_Creatio(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -192,11 +192,11 @@
 		}
 
 		public override object Clone() {
-			return new AccountBillingInfoSchema(this);
+			return new AccountBillingInfo_CrtBase_CreatioSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new AccountBillingInfoSchema(this, true);
+			return new AccountBillingInfo_CrtBase_CreatioSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -210,22 +210,22 @@
 
 	#endregion
 
-	#region Class: AccountBillingInfo
+	#region Class: AccountBillingInfo_CrtBase_Creatio
 
 	/// <summary>
 	/// Banking details.
 	/// </summary>
-	public class AccountBillingInfo : Terrasoft.Configuration.BaseLookup
+	public class AccountBillingInfo_CrtBase_Creatio : Terrasoft.Configuration.BaseLookup
 	{
 
 		#region Constructors: Public
 
-		public AccountBillingInfo(UserConnection userConnection)
+		public AccountBillingInfo_CrtBase_Creatio(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "AccountBillingInfo";
+			SchemaName = "AccountBillingInfo_CrtBase_Creatio";
 		}
 
-		public AccountBillingInfo(AccountBillingInfo source)
+		public AccountBillingInfo_CrtBase_Creatio(AccountBillingInfo_CrtBase_Creatio source)
 			: base(source) {
 		}
 
@@ -412,13 +412,13 @@
 		#region Methods: Protected
 
 		protected override void InitializeThrowEvents() {
-			Deleted += (s, e) => ThrowEvent("AccountBillingInfoDeleted", e);
-			Deleting += (s, e) => ThrowEvent("AccountBillingInfoDeleting", e);
-			Inserted += (s, e) => ThrowEvent("AccountBillingInfoInserted", e);
-			Inserting += (s, e) => ThrowEvent("AccountBillingInfoInserting", e);
-			Saved += (s, e) => ThrowEvent("AccountBillingInfoSaved", e);
-			Saving += (s, e) => ThrowEvent("AccountBillingInfoSaving", e);
-			Validating += (s, e) => ThrowEvent("AccountBillingInfoValidating", e);
+			Deleted += (s, e) => ThrowEvent("AccountBillingInfo_CrtBase_CreatioDeleted", e);
+			Deleting += (s, e) => ThrowEvent("AccountBillingInfo_CrtBase_CreatioDeleting", e);
+			Inserted += (s, e) => ThrowEvent("AccountBillingInfo_CrtBase_CreatioInserted", e);
+			Inserting += (s, e) => ThrowEvent("AccountBillingInfo_CrtBase_CreatioInserting", e);
+			Saved += (s, e) => ThrowEvent("AccountBillingInfo_CrtBase_CreatioSaved", e);
+			Saving += (s, e) => ThrowEvent("AccountBillingInfo_CrtBase_CreatioSaving", e);
+			Validating += (s, e) => ThrowEvent("AccountBillingInfo_CrtBase_CreatioValidating", e);
 			base.InitializeThrowEvents();
 		}
 
@@ -427,7 +427,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new AccountBillingInfo(this);
+			return new AccountBillingInfo_CrtBase_Creatio(this);
 		}
 
 		#endregion
@@ -439,7 +439,7 @@
 	#region Class: AccountBillingInfo_CrtBaseEventsProcess
 
 	/// <exclude/>
-	public partial class AccountBillingInfo_CrtBaseEventsProcess<TEntity> : Terrasoft.Configuration.BaseLookup_CrtCoreBaseEventsProcess<TEntity> where TEntity : AccountBillingInfo
+	public partial class AccountBillingInfo_CrtBaseEventsProcess<TEntity> : Terrasoft.Configuration.BaseLookup_CrtCoreBaseEventsProcess<TEntity> where TEntity : AccountBillingInfo_CrtBase_Creatio
 	{
 
 		public AccountBillingInfo_CrtBaseEventsProcess(UserConnection userConnection)
@@ -521,7 +521,7 @@
 	#region Class: AccountBillingInfo_CrtBaseEventsProcess
 
 	/// <exclude/>
-	public class AccountBillingInfo_CrtBaseEventsProcess : AccountBillingInfo_CrtBaseEventsProcess<AccountBillingInfo>
+	public class AccountBillingInfo_CrtBaseEventsProcess : AccountBillingInfo_CrtBaseEventsProcess<AccountBillingInfo_CrtBase_Creatio>
 	{
 
 		public AccountBillingInfo_CrtBaseEventsProcess(UserConnection userConnection)
@@ -543,21 +543,6 @@
 		}
 
 		#endregion
-
-	}
-
-	#endregion
-
-
-	#region Class: AccountBillingInfoEventsProcess
-
-	/// <exclude/>
-	public class AccountBillingInfoEventsProcess : AccountBillingInfo_CrtBaseEventsProcess
-	{
-
-		public AccountBillingInfoEventsProcess(UserConnection userConnection)
-			: base(userConnection) {
-		}
 
 	}
 

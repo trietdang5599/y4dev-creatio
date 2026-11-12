@@ -54,6 +54,99 @@
 			}
 		}
 
+		/// <summary>
+		/// Modified on.
+		/// </summary>
+		public DateTime ModifiedOn {
+			get {
+				return GetTypedColumnValue<DateTime>("ModifiedOn");
+			}
+			set {
+				SetColumnValue("ModifiedOn", value);
+			}
+		}
+
+		/// <summary>
+		/// Address.
+		/// </summary>
+		public string Address {
+			get {
+				return GetTypedColumnValue<string>("Address");
+			}
+			set {
+				SetColumnValue("Address", value);
+			}
+		}
+
+		/// <summary>
+		/// ZIP/postal code.
+		/// </summary>
+		public string Zip {
+			get {
+				return GetTypedColumnValue<string>("Zip");
+			}
+			set {
+				SetColumnValue("Zip", value);
+			}
+		}
+
+		/// <summary>
+		/// Primary.
+		/// </summary>
+		public bool Primary {
+			get {
+				return GetTypedColumnValue<bool>("Primary");
+			}
+			set {
+				SetColumnValue("Primary", value);
+			}
+		}
+
+		/// <summary>
+		/// Active processes.
+		/// </summary>
+		public int ProcessListeners {
+			get {
+				return GetTypedColumnValue<int>("ProcessListeners");
+			}
+			set {
+				SetColumnValue("ProcessListeners", value);
+			}
+		}
+
+		/// <summary>
+		/// GPS N.
+		/// </summary>
+		public string GPSN {
+			get {
+				return GetTypedColumnValue<string>("GPSN");
+			}
+			set {
+				SetColumnValue("GPSN", value);
+			}
+		}
+
+		/// <summary>
+		/// GPS E.
+		/// </summary>
+		public string GPSE {
+			get {
+				return GetTypedColumnValue<string>("GPSE");
+			}
+			set {
+				SetColumnValue("GPSE", value);
+			}
+		}
+
+		public string FullAddress {
+			get {
+				return GetTypedColumnValue<string>("FullAddress");
+			}
+			set {
+				SetColumnValue("FullAddress", value);
+			}
+		}
+
 		/// <exclude/>
 		public Guid CreatedById {
 			get {
@@ -86,18 +179,6 @@
 			get {
 				return _createdBy ??
 					(_createdBy = new Contact(LookupColumnEntities.GetEntity("CreatedBy")));
-			}
-		}
-
-		/// <summary>
-		/// Modified on.
-		/// </summary>
-		public DateTime ModifiedOn {
-			get {
-				return GetTypedColumnValue<DateTime>("ModifiedOn");
-			}
-			set {
-				SetColumnValue("ModifiedOn", value);
 			}
 		}
 
@@ -276,42 +357,6 @@
 			}
 		}
 
-		/// <summary>
-		/// Address.
-		/// </summary>
-		public string Address {
-			get {
-				return GetTypedColumnValue<string>("Address");
-			}
-			set {
-				SetColumnValue("Address", value);
-			}
-		}
-
-		/// <summary>
-		/// ZIP/postal code.
-		/// </summary>
-		public string Zip {
-			get {
-				return GetTypedColumnValue<string>("Zip");
-			}
-			set {
-				SetColumnValue("Zip", value);
-			}
-		}
-
-		/// <summary>
-		/// Primary.
-		/// </summary>
-		public bool Primary {
-			get {
-				return GetTypedColumnValue<bool>("Primary");
-			}
-			set {
-				SetColumnValue("Primary", value);
-			}
-		}
-
 		/// <exclude/>
 		public Guid AccountId {
 			get {
@@ -344,42 +389,6 @@
 			get {
 				return _account ??
 					(_account = new Account(LookupColumnEntities.GetEntity("Account")));
-			}
-		}
-
-		/// <summary>
-		/// Active processes.
-		/// </summary>
-		public int ProcessListeners {
-			get {
-				return GetTypedColumnValue<int>("ProcessListeners");
-			}
-			set {
-				SetColumnValue("ProcessListeners", value);
-			}
-		}
-
-		/// <summary>
-		/// GPS N.
-		/// </summary>
-		public string GPSN {
-			get {
-				return GetTypedColumnValue<string>("GPSN");
-			}
-			set {
-				SetColumnValue("GPSN", value);
-			}
-		}
-
-		/// <summary>
-		/// GPS E.
-		/// </summary>
-		public string GPSE {
-			get {
-				return GetTypedColumnValue<string>("GPSE");
-			}
-			set {
-				SetColumnValue("GPSE", value);
 			}
 		}
 

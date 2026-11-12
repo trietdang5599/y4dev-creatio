@@ -26,23 +26,23 @@
 	using Terrasoft.UI.WebControls.Controls;
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 
-	#region Class: ContactTypeSchema
+	#region Class: ContactType_CrtCoreBase_CreatioSchema
 
 	/// <exclude/>
-	public class ContactTypeSchema : Terrasoft.Configuration.BaseLookupSchema
+	public class ContactType_CrtCoreBase_CreatioSchema : Terrasoft.Configuration.BaseLookupSchema
 	{
 
 		#region Constructors: Public
 
-		public ContactTypeSchema(EntitySchemaManager entitySchemaManager)
+		public ContactType_CrtCoreBase_CreatioSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public ContactTypeSchema(ContactTypeSchema source, bool isShallowClone)
+		public ContactType_CrtCoreBase_CreatioSchema(ContactType_CrtCoreBase_CreatioSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public ContactTypeSchema(ContactTypeSchema source)
+		public ContactType_CrtCoreBase_CreatioSchema(ContactType_CrtCoreBase_CreatioSchema source)
 			: base(source) {
 		}
 
@@ -54,7 +54,7 @@
 			base.InitializeProperties();
 			UId = new Guid("0b5ff414-e00a-4115-af0c-fe872e826f07");
 			RealUId = new Guid("0b5ff414-e00a-4115-af0c-fe872e826f07");
-			Name = "ContactType";
+			Name = "ContactType_CrtCoreBase_Creatio";
 			ParentSchemaUId = new Guid("11ab4bcb-9b23-4b6d-9c86-520fae925d75");
 			ExtendParent = false;
 			CreatedInPackageId = new Guid("66e9e705-64b4-4dda-925e-d1e05a389eb6");
@@ -99,7 +99,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new ContactType(userConnection) {Schema = this};
+			return new ContactType_CrtCoreBase_Creatio(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -107,11 +107,11 @@
 		}
 
 		public override object Clone() {
-			return new ContactTypeSchema(this);
+			return new ContactType_CrtCoreBase_CreatioSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new ContactTypeSchema(this, true);
+			return new ContactType_CrtCoreBase_CreatioSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -125,22 +125,22 @@
 
 	#endregion
 
-	#region Class: ContactType
+	#region Class: ContactType_CrtCoreBase_Creatio
 
 	/// <summary>
 	/// Contact type.
 	/// </summary>
-	public class ContactType : Terrasoft.Configuration.BaseLookup
+	public class ContactType_CrtCoreBase_Creatio : Terrasoft.Configuration.BaseLookup
 	{
 
 		#region Constructors: Public
 
-		public ContactType(UserConnection userConnection)
+		public ContactType_CrtCoreBase_Creatio(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "ContactType";
+			SchemaName = "ContactType_CrtCoreBase_Creatio";
 		}
 
-		public ContactType(ContactType source)
+		public ContactType_CrtCoreBase_Creatio(ContactType_CrtCoreBase_Creatio source)
 			: base(source) {
 		}
 
@@ -159,13 +159,13 @@
 		#region Methods: Protected
 
 		protected override void InitializeThrowEvents() {
-			Deleted += (s, e) => ThrowEvent("ContactTypeDeleted", e);
-			Deleting += (s, e) => ThrowEvent("ContactTypeDeleting", e);
-			Inserted += (s, e) => ThrowEvent("ContactTypeInserted", e);
-			Inserting += (s, e) => ThrowEvent("ContactTypeInserting", e);
-			Saved += (s, e) => ThrowEvent("ContactTypeSaved", e);
-			Saving += (s, e) => ThrowEvent("ContactTypeSaving", e);
-			Validating += (s, e) => ThrowEvent("ContactTypeValidating", e);
+			Deleted += (s, e) => ThrowEvent("ContactType_CrtCoreBase_CreatioDeleted", e);
+			Deleting += (s, e) => ThrowEvent("ContactType_CrtCoreBase_CreatioDeleting", e);
+			Inserted += (s, e) => ThrowEvent("ContactType_CrtCoreBase_CreatioInserted", e);
+			Inserting += (s, e) => ThrowEvent("ContactType_CrtCoreBase_CreatioInserting", e);
+			Saved += (s, e) => ThrowEvent("ContactType_CrtCoreBase_CreatioSaved", e);
+			Saving += (s, e) => ThrowEvent("ContactType_CrtCoreBase_CreatioSaving", e);
+			Validating += (s, e) => ThrowEvent("ContactType_CrtCoreBase_CreatioValidating", e);
 			base.InitializeThrowEvents();
 		}
 
@@ -174,7 +174,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new ContactType(this);
+			return new ContactType_CrtCoreBase_Creatio(this);
 		}
 
 		#endregion
@@ -186,7 +186,7 @@
 	#region Class: ContactType_CrtCoreBaseEventsProcess
 
 	/// <exclude/>
-	public partial class ContactType_CrtCoreBaseEventsProcess<TEntity> : Terrasoft.Configuration.BaseLookup_CrtCoreBaseEventsProcess<TEntity> where TEntity : ContactType
+	public partial class ContactType_CrtCoreBaseEventsProcess<TEntity> : Terrasoft.Configuration.BaseLookup_CrtCoreBaseEventsProcess<TEntity> where TEntity : ContactType_CrtCoreBase_Creatio
 	{
 
 		public ContactType_CrtCoreBaseEventsProcess(UserConnection userConnection)
@@ -268,7 +268,7 @@
 	#region Class: ContactType_CrtCoreBaseEventsProcess
 
 	/// <exclude/>
-	public class ContactType_CrtCoreBaseEventsProcess : ContactType_CrtCoreBaseEventsProcess<ContactType>
+	public class ContactType_CrtCoreBaseEventsProcess : ContactType_CrtCoreBaseEventsProcess<ContactType_CrtCoreBase_Creatio>
 	{
 
 		public ContactType_CrtCoreBaseEventsProcess(UserConnection userConnection)
@@ -287,21 +287,6 @@
 		#region Methods: Public
 
 		#endregion
-
-	}
-
-	#endregion
-
-
-	#region Class: ContactTypeEventsProcess
-
-	/// <exclude/>
-	public class ContactTypeEventsProcess : ContactType_CrtCoreBaseEventsProcess
-	{
-
-		public ContactTypeEventsProcess(UserConnection userConnection)
-			: base(userConnection) {
-		}
 
 	}
 

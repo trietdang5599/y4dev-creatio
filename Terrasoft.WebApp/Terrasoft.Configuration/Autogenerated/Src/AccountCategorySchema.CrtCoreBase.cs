@@ -26,23 +26,23 @@
 	using Terrasoft.UI.WebControls.Controls;
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 
-	#region Class: AccountCategorySchema
+	#region Class: AccountCategory_CrtCoreBase_CreatioSchema
 
 	/// <exclude/>
-	public class AccountCategorySchema : Terrasoft.Configuration.BaseLookupSchema
+	public class AccountCategory_CrtCoreBase_CreatioSchema : Terrasoft.Configuration.BaseLookupSchema
 	{
 
 		#region Constructors: Public
 
-		public AccountCategorySchema(EntitySchemaManager entitySchemaManager)
+		public AccountCategory_CrtCoreBase_CreatioSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public AccountCategorySchema(AccountCategorySchema source, bool isShallowClone)
+		public AccountCategory_CrtCoreBase_CreatioSchema(AccountCategory_CrtCoreBase_CreatioSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public AccountCategorySchema(AccountCategorySchema source)
+		public AccountCategory_CrtCoreBase_CreatioSchema(AccountCategory_CrtCoreBase_CreatioSchema source)
 			: base(source) {
 		}
 
@@ -54,7 +54,7 @@
 			base.InitializeProperties();
 			UId = new Guid("a6ff9860-2b37-4da2-9537-5cd6cedf9665");
 			RealUId = new Guid("a6ff9860-2b37-4da2-9537-5cd6cedf9665");
-			Name = "AccountCategory";
+			Name = "AccountCategory_CrtCoreBase_Creatio";
 			ParentSchemaUId = new Guid("11ab4bcb-9b23-4b6d-9c86-520fae925d75");
 			ExtendParent = false;
 			CreatedInPackageId = new Guid("66e9e705-64b4-4dda-925e-d1e05a389eb6");
@@ -85,7 +85,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new AccountCategory(userConnection) {Schema = this};
+			return new AccountCategory_CrtCoreBase_Creatio(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -93,11 +93,11 @@
 		}
 
 		public override object Clone() {
-			return new AccountCategorySchema(this);
+			return new AccountCategory_CrtCoreBase_CreatioSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new AccountCategorySchema(this, true);
+			return new AccountCategory_CrtCoreBase_CreatioSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -111,22 +111,22 @@
 
 	#endregion
 
-	#region Class: AccountCategory
+	#region Class: AccountCategory_CrtCoreBase_Creatio
 
 	/// <summary>
 	/// Category of Account.
 	/// </summary>
-	public class AccountCategory : Terrasoft.Configuration.BaseLookup
+	public class AccountCategory_CrtCoreBase_Creatio : Terrasoft.Configuration.BaseLookup
 	{
 
 		#region Constructors: Public
 
-		public AccountCategory(UserConnection userConnection)
+		public AccountCategory_CrtCoreBase_Creatio(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "AccountCategory";
+			SchemaName = "AccountCategory_CrtCoreBase_Creatio";
 		}
 
-		public AccountCategory(AccountCategory source)
+		public AccountCategory_CrtCoreBase_Creatio(AccountCategory_CrtCoreBase_Creatio source)
 			: base(source) {
 		}
 
@@ -145,13 +145,13 @@
 		#region Methods: Protected
 
 		protected override void InitializeThrowEvents() {
-			Deleted += (s, e) => ThrowEvent("AccountCategoryDeleted", e);
-			Deleting += (s, e) => ThrowEvent("AccountCategoryDeleting", e);
-			Inserted += (s, e) => ThrowEvent("AccountCategoryInserted", e);
-			Inserting += (s, e) => ThrowEvent("AccountCategoryInserting", e);
-			Saved += (s, e) => ThrowEvent("AccountCategorySaved", e);
-			Saving += (s, e) => ThrowEvent("AccountCategorySaving", e);
-			Validating += (s, e) => ThrowEvent("AccountCategoryValidating", e);
+			Deleted += (s, e) => ThrowEvent("AccountCategory_CrtCoreBase_CreatioDeleted", e);
+			Deleting += (s, e) => ThrowEvent("AccountCategory_CrtCoreBase_CreatioDeleting", e);
+			Inserted += (s, e) => ThrowEvent("AccountCategory_CrtCoreBase_CreatioInserted", e);
+			Inserting += (s, e) => ThrowEvent("AccountCategory_CrtCoreBase_CreatioInserting", e);
+			Saved += (s, e) => ThrowEvent("AccountCategory_CrtCoreBase_CreatioSaved", e);
+			Saving += (s, e) => ThrowEvent("AccountCategory_CrtCoreBase_CreatioSaving", e);
+			Validating += (s, e) => ThrowEvent("AccountCategory_CrtCoreBase_CreatioValidating", e);
 			base.InitializeThrowEvents();
 		}
 
@@ -160,7 +160,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new AccountCategory(this);
+			return new AccountCategory_CrtCoreBase_Creatio(this);
 		}
 
 		#endregion
@@ -172,7 +172,7 @@
 	#region Class: AccountCategory_CrtCoreBaseEventsProcess
 
 	/// <exclude/>
-	public partial class AccountCategory_CrtCoreBaseEventsProcess<TEntity> : Terrasoft.Configuration.BaseLookup_CrtCoreBaseEventsProcess<TEntity> where TEntity : AccountCategory
+	public partial class AccountCategory_CrtCoreBaseEventsProcess<TEntity> : Terrasoft.Configuration.BaseLookup_CrtCoreBaseEventsProcess<TEntity> where TEntity : AccountCategory_CrtCoreBase_Creatio
 	{
 
 		public AccountCategory_CrtCoreBaseEventsProcess(UserConnection userConnection)
@@ -254,7 +254,7 @@
 	#region Class: AccountCategory_CrtCoreBaseEventsProcess
 
 	/// <exclude/>
-	public class AccountCategory_CrtCoreBaseEventsProcess : AccountCategory_CrtCoreBaseEventsProcess<AccountCategory>
+	public class AccountCategory_CrtCoreBaseEventsProcess : AccountCategory_CrtCoreBaseEventsProcess<AccountCategory_CrtCoreBase_Creatio>
 	{
 
 		public AccountCategory_CrtCoreBaseEventsProcess(UserConnection userConnection)
@@ -273,21 +273,6 @@
 		#region Methods: Public
 
 		#endregion
-
-	}
-
-	#endregion
-
-
-	#region Class: AccountCategoryEventsProcess
-
-	/// <exclude/>
-	public class AccountCategoryEventsProcess : AccountCategory_CrtCoreBaseEventsProcess
-	{
-
-		public AccountCategoryEventsProcess(UserConnection userConnection)
-			: base(userConnection) {
-		}
 
 	}
 

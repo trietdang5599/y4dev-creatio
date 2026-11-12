@@ -60,6 +60,11 @@
 			set;
 		}
 
+		public IEnumerable<AccountCompetitor> AccountCompetitorCollectionByAccount {
+			get;
+			set;
+		}
+
 		public IEnumerable<AccountDuplicate> AccountDuplicateCollectionByEntity1 {
 			get;
 			set;
@@ -96,6 +101,11 @@
 		}
 
 		public IEnumerable<Activity> ActivityCollectionByAccount {
+			get;
+			set;
+		}
+
+		public IEnumerable<AIInsight> AIInsightCollectionByAccount {
 			get;
 			set;
 		}
@@ -141,6 +151,11 @@
 		}
 
 		public IEnumerable<EnrchFoundAccount> EnrchFoundAccountCollectionByAccount {
+			get;
+			set;
+		}
+
+		public IEnumerable<NewsInsightsSchedule> NewsInsightsScheduleCollectionByAccount {
 			get;
 			set;
 		}
@@ -453,6 +468,30 @@
 			}
 			set {
 				SetColumnValue("AUM", value);
+			}
+		}
+
+		/// <summary>
+		/// How they make money.
+		/// </summary>
+		public string HowTheyMakeMoney {
+			get {
+				return GetTypedColumnValue<string>("HowTheyMakeMoney");
+			}
+			set {
+				SetColumnValue("HowTheyMakeMoney", value);
+			}
+		}
+
+		/// <summary>
+		/// Products offered.
+		/// </summary>
+		public string ProductsOffered {
+			get {
+				return GetTypedColumnValue<string>("ProductsOffered");
+			}
+			set {
+				SetColumnValue("ProductsOffered", value);
 			}
 		}
 

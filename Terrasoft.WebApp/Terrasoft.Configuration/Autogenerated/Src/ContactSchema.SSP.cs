@@ -30,23 +30,23 @@
 	using Terrasoft.UI.WebControls.Controls;
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 
-	#region Class: ContactSchema
+	#region Class: Contact_SSP_CreatioSchema
 
 	/// <exclude/>
-	public class ContactSchema : Terrasoft.Configuration.Contact_Completeness_CreatioSchema
+	public class Contact_SSP_CreatioSchema : Terrasoft.Configuration.Contact_Completeness_CreatioSchema
 	{
 
 		#region Constructors: Public
 
-		public ContactSchema(EntitySchemaManager entitySchemaManager)
+		public Contact_SSP_CreatioSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public ContactSchema(ContactSchema source, bool isShallowClone)
+		public Contact_SSP_CreatioSchema(Contact_SSP_CreatioSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public ContactSchema(ContactSchema source)
+		public Contact_SSP_CreatioSchema(Contact_SSP_CreatioSchema source)
 			: base(source) {
 		}
 
@@ -57,7 +57,7 @@
 		protected override void InitializeProperties() {
 			base.InitializeProperties();
 			RealUId = new Guid("d1f9c4f6-45cc-40f6-b0df-65096814f6d6");
-			Name = "Contact";
+			Name = "Contact_SSP_Creatio";
 			ParentSchemaUId = new Guid("16be3651-8fe2-4159-8dd0-a803d4683dd3");
 			ExtendParent = true;
 			CreatedInPackageId = new Guid("d7352345-17a4-46e8-b32e-306ac0453d7a");
@@ -80,7 +80,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new Contact(userConnection) {Schema = this};
+			return new Contact_SSP_Creatio(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -88,11 +88,11 @@
 		}
 
 		public override object Clone() {
-			return new ContactSchema(this);
+			return new Contact_SSP_CreatioSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new ContactSchema(this, true);
+			return new Contact_SSP_CreatioSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -106,22 +106,22 @@
 
 	#endregion
 
-	#region Class: Contact
+	#region Class: Contact_SSP_Creatio
 
 	/// <summary>
 	/// Contact.
 	/// </summary>
-	public class Contact : Terrasoft.Configuration.Contact_Completeness_Creatio
+	public class Contact_SSP_Creatio : Terrasoft.Configuration.Contact_Completeness_Creatio
 	{
 
 		#region Constructors: Public
 
-		public Contact(UserConnection userConnection)
+		public Contact_SSP_Creatio(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "Contact";
+			SchemaName = "Contact_SSP_Creatio";
 		}
 
-		public Contact(Contact source)
+		public Contact_SSP_Creatio(Contact_SSP_Creatio source)
 			: base(source) {
 		}
 
@@ -148,7 +148,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new Contact(this);
+			return new Contact_SSP_Creatio(this);
 		}
 
 		#endregion
@@ -160,7 +160,7 @@
 	#region Class: Contact_SSPEventsProcess
 
 	/// <exclude/>
-	public partial class Contact_SSPEventsProcess<TEntity> : Terrasoft.Configuration.Contact_CompletenessEventsProcess<TEntity> where TEntity : Contact
+	public partial class Contact_SSPEventsProcess<TEntity> : Terrasoft.Configuration.Contact_CompletenessEventsProcess<TEntity> where TEntity : Contact_SSP_Creatio
 	{
 
 		public Contact_SSPEventsProcess(UserConnection userConnection)
@@ -241,7 +241,7 @@
 	#region Class: Contact_SSPEventsProcess
 
 	/// <exclude/>
-	public class Contact_SSPEventsProcess : Contact_SSPEventsProcess<Contact>
+	public class Contact_SSPEventsProcess : Contact_SSPEventsProcess<Contact_SSP_Creatio>
 	{
 
 		public Contact_SSPEventsProcess(UserConnection userConnection)
@@ -260,21 +260,6 @@
 		#region Methods: Public
 
 		#endregion
-
-	}
-
-	#endregion
-
-
-	#region Class: ContactEventsProcess
-
-	/// <exclude/>
-	public class ContactEventsProcess : Contact_SSPEventsProcess
-	{
-
-		public ContactEventsProcess(UserConnection userConnection)
-			: base(userConnection) {
-		}
 
 	}
 

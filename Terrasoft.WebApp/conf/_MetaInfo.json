@@ -1,12 +1,27 @@
 ﻿{
-	"ConfigurationAssemblyVersion": 7,
-	"ConfigurationHash": "aae47bcaa075405192e01a0465712045",
+	"ConfigurationAssemblyVersion": 28,
+	"ConfigurationHash": "8d576b14debd4ad8856bc8d1b6e60a8e",
 	"IsStaticContentGenerated": true,
 	"SchemasPublishInfo": [
 		{
 			"ManagerName": "AddonSchemaManager",
 			"SchemaName": "AccountAddressBusinessRule",
-			"Hash": "ebc9560247217a9812eab4ec2152e719"
+			"Hash": "1da0b397c19414397d91915a39eaeb14"
+		},
+		{
+			"ManagerName": "AddonSchemaManager",
+			"SchemaName": "AccountMobileRelatedPage",
+			"Hash": "7b8609ea09c72c463ab38bcc7364ed2e"
+		},
+		{
+			"ManagerName": "AddonSchemaManager",
+			"SchemaName": "AccountRelatedPage",
+			"Hash": "e4b8fce9b4826e5933516bdbc9906b38"
+		},
+		{
+			"ManagerName": "AddonSchemaManager",
+			"SchemaName": "Accounts_FormPageBusinessRule",
+			"Hash": "03ccd9916b0a8bb282bd66500e53ca3a"
 		},
 		{
 			"ManagerName": "AddonSchemaManager",
@@ -52,6 +67,11 @@
 			"ManagerName": "AddonSchemaManager",
 			"SchemaName": "AIDebugInfo_MiniPageAppearanceSettings",
 			"Hash": "0c156bc508c49b1c4ad6e5a13ff62789"
+		},
+		{
+			"ManagerName": "AddonSchemaManager",
+			"SchemaName": "AIInsightTimelineEntity",
+			"Hash": "cbde22e78c407cc663bee377ee9cbabd"
 		},
 		{
 			"ManagerName": "AddonSchemaManager",
@@ -161,12 +181,37 @@
 		{
 			"ManagerName": "AddonSchemaManager",
 			"SchemaName": "ContactAddressBusinessRule",
-			"Hash": "3f884cc8e29a8c1416e0123a3e066a5b"
+			"Hash": "918c5bf98d720273294b1cd1e3b5deac"
+		},
+		{
+			"ManagerName": "AddonSchemaManager",
+			"SchemaName": "ContactBusinessRule",
+			"Hash": "6c4a68222ed3d49a5741eb04d2b66e2e"
+		},
+		{
+			"ManagerName": "AddonSchemaManager",
+			"SchemaName": "ContactMobileRelatedPage",
+			"Hash": "555d1d35b5d0bdbcdaff6cc6f92810e7"
 		},
 		{
 			"ManagerName": "AddonSchemaManager",
 			"SchemaName": "ContactPredefinedFilters",
 			"Hash": "4016cd6a44e009297b2fe37e0aefa5ff"
+		},
+		{
+			"ManagerName": "AddonSchemaManager",
+			"SchemaName": "ContactRelatedPage",
+			"Hash": "f284a9f6d51883606ef0995083733da9"
+		},
+		{
+			"ManagerName": "AddonSchemaManager",
+			"SchemaName": "Contacts_FormPageBusinessRule",
+			"Hash": "045c265427ee98477431d9638be1a189"
+		},
+		{
+			"ManagerName": "AddonSchemaManager",
+			"SchemaName": "Contacts_MiniPageBusinessRule",
+			"Hash": "d3d6e5641d1728f98b8c200a17ba2e95"
 		},
 		{
 			"ManagerName": "AddonSchemaManager",
@@ -495,6 +540,16 @@
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "Account_MobileFormPage",
+			"Hash": "894e86ea114e4e43a27b7e10c46a7488"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "Account_MobileListPage",
+			"Hash": "f9bf565379e12b184fc9653c1d8ce785"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "AccountAddressDetailV2",
 			"Hash": "d25436605302cf50895bdf0fbf8af663"
 		},
@@ -617,6 +672,26 @@
 			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "AccountRelationshipDetailV2",
 			"Hash": "e675fdd6bbdd131eba035029b5dfd56c"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "Accounts_FormPage",
+			"Hash": "3dc5ccf4b28ede4c8bf1a9a6bb39ed37"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "Accounts_ListPage",
+			"Hash": "8ab969bdc60be32022cecc5be9346462"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "Accounts_MiniPage",
+			"Hash": "85c2d49f61d096081450a316edfe17c6"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "AccountsAnalyticsDashboard",
+			"Hash": "f1679c554de22377618e6d44f384f6fd"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
@@ -3315,6 +3390,16 @@
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "Contact_MobileFormPage",
+			"Hash": "7c24c559307ff41d0f013ec96fd85b0b"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "Contact_MobileListPage",
+			"Hash": "2679e29a96461a3ee2745660e2e1cd07"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "ContactAddressDetailV2",
 			"Hash": "c31fedde7c9f62af8d948a6a4ee2a98b"
 		},
@@ -3427,6 +3512,26 @@
 			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "ContactRelationshipDetailV2",
 			"Hash": "7437d7523c728df1b39923d26816eca7"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "Contacts_FormPage",
+			"Hash": "f75ffccf546e59196854ac8b3a0de0f166fc46b8cb665c0e0ba6ddf0b9a18c37"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "Contacts_ListPage",
+			"Hash": "e2fb627c48b3ee227a568dc5debb266b"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "Contacts_MiniPage",
+			"Hash": "ae6411507c202e49e5e66902ef3069a5"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "ContactsAnalyticsDashboard",
+			"Hash": "380779bd8e8a4bca4c264b48183879a7"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
@@ -7720,6 +7825,11 @@
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "Maps_Nearby",
+			"Hash": "07047043501a0b957094faa11ef1b982"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "MapsHelper",
 			"Hash": "809f488a9a7dcc4f0106b953aec02485"
 		},
@@ -8261,7 +8371,7 @@
 		{
 			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "MobileApplicationManifestDefaultWorkplace",
-			"Hash": "e07460389af5be165f23b8b103e616c6"
+			"Hash": "c3340d5935e5dc9c3f65526e017a3411"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
@@ -8570,8 +8680,28 @@
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "MobileFUIAccountGridPageSettingsDefaultWorkplace",
+			"Hash": "8e76593e5c817e4b0985f77a00d06a56"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "MobileFUIAccountRecordPageSettingsDefaultWorkplace",
+			"Hash": "f80b2405c02692382faf285d48ea7c3a"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "MobileFUIActivityRecordPageSettingsDefaultWorkplace",
 			"Hash": "57cd90e501ffa5c898d77dcb04b061bc"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "MobileFUIContactGridPageSettingsDefaultWorkplace",
+			"Hash": "ed5f05710a733fbd7d78a1a52ed9d5e7"
+		},
+		{
+			"ManagerName": "ClientUnitSchemaManager",
+			"SchemaName": "MobileFUIContactRecordPageSettingsDefaultWorkplace",
+			"Hash": "f1cbe26d874dc741dea416b8f4d4768d"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
@@ -12711,7 +12841,7 @@
 		{
 			"ManagerName": "ClientUnitSchemaManager",
 			"SchemaName": "Tasks_FormPage",
-			"Hash": "bb143824c6ae60f11e30483dd5012c5d"
+			"Hash": "979306c732f6007c092b265bc6811819"
 		},
 		{
 			"ManagerName": "ClientUnitSchemaManager",
@@ -13525,6 +13655,21 @@
 		},
 		{
 			"ManagerName": "CopilotIntentSchemaManager",
+			"SchemaName": "AccountNewsAndInsights",
+			"Hash": "50a77499040a5a278bd1e644d57e709f"
+		},
+		{
+			"ManagerName": "CopilotIntentSchemaManager",
+			"SchemaName": "AccountNewsAndInsightsFormatResult",
+			"Hash": "4d3f79d1beca0af5f8b76ef8fa3e52dc"
+		},
+		{
+			"ManagerName": "CopilotIntentSchemaManager",
+			"SchemaName": "AccountNewsAndInsightsPrepareQuery",
+			"Hash": "531f1ca4ffd80d5f5931534dab65269e"
+		},
+		{
+			"ManagerName": "CopilotIntentSchemaManager",
 			"SchemaName": "AgentFilterAgent",
 			"Hash": "c09da51d7519c65a18a2482f221001ae"
 		},
@@ -13600,6 +13745,11 @@
 		},
 		{
 			"ManagerName": "CopilotIntentSchemaManager",
+			"SchemaName": "EnrichAccountData",
+			"Hash": "d97888844d16850530a3575066423353"
+		},
+		{
+			"ManagerName": "CopilotIntentSchemaManager",
 			"SchemaName": "ExtendText",
 			"Hash": "9de9acb4c76d10b3ca8fa68a1f4d2c00"
 		},
@@ -13670,6 +13820,11 @@
 		},
 		{
 			"ManagerName": "CopilotIntentSchemaManager",
+			"SchemaName": "SalesAIAssistant",
+			"Hash": "b71b54c8d65862f4da9c1c659943dec7"
+		},
+		{
+			"ManagerName": "CopilotIntentSchemaManager",
 			"SchemaName": "SearchEntity",
 			"Hash": "038a7129ad786395c4b58297d23d7e76"
 		},
@@ -13692,6 +13847,11 @@
 			"ManagerName": "CopilotIntentSchemaManager",
 			"SchemaName": "ShortenText",
 			"Hash": "93d165ba4510ca72fc7b2bd8fa9715bd"
+		},
+		{
+			"ManagerName": "CopilotIntentSchemaManager",
+			"SchemaName": "SkillAddressSplitter",
+			"Hash": "e1facfd48a07658d2db31b2e924e1d5a"
 		},
 		{
 			"ManagerName": "CopilotIntentSchemaManager",
@@ -13722,6 +13882,11 @@
 			"ManagerName": "CopilotIntentSchemaManager",
 			"SchemaName": "SkillGenerateEmailReply",
 			"Hash": "179a611f17199af73651b5e019accc02"
+		},
+		{
+			"ManagerName": "CopilotIntentSchemaManager",
+			"SchemaName": "SkillIndustriesCollection",
+			"Hash": "cdede2d5077429a9b793eb7df12d5cdb"
 		},
 		{
 			"ManagerName": "CopilotIntentSchemaManager",
@@ -13776,12 +13941,12 @@
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "Account",
-			"Hash": "73386fcd648e67af9a44acb00d9378c2"
+			"Hash": "f0fc6915a30e0c75a8c0296d393e9a32"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "AccountAddress",
-			"Hash": "a25e189f41f06871bed9128e09dd6df3"
+			"Hash": "e51ff28edaf7a38d6342f3a6fd098cda"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
@@ -13801,17 +13966,22 @@
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "AccountBillingInfo",
-			"Hash": "5233d10de04937a766c38f0bea960466"
+			"Hash": "09f0c5a9b85e7c0d69bf6e75a8ffe16f"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "AccountCategory",
-			"Hash": "4af03038667fe41816a09885911733dc"
+			"Hash": "6e3f234921dcdb464325965b13a0ac19"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "AccountCommunication",
 			"Hash": "b3e69da4b361d91360cb9892d2197e7f"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "AccountCompetitor",
+			"Hash": "40c5dc3c7a85cf793452a6a273f7163e"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
@@ -13871,7 +14041,7 @@
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "AccountType",
-			"Hash": "dd664cfbc062129ced1a5a30748af5cb"
+			"Hash": "ccd50bf29fd2151ac18735d26ed7f469"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
@@ -13981,12 +14151,17 @@
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "AddressType",
-			"Hash": "a6dec408766b0feabd8b49361fb5a3d5"
+			"Hash": "1c5227a94b41b003bba6c9be89c363bc"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "AdminUnitFeatureState",
 			"Hash": "820b4cd07d43ff528dcabe02a209c7ba"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "AIInsight",
+			"Hash": "95720585442b71dd604034a3adf63af9"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
@@ -14086,7 +14261,7 @@
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "BaseAddress",
-			"Hash": "44951e595342cde82dd6a2c85bf11232"
+			"Hash": "9e33a7fd7c47e89c7478df2a9fb58001"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
@@ -14416,12 +14591,12 @@
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "Contact",
-			"Hash": "3a43d108847d81d247c8a9b9abdbf158"
+			"Hash": "9b58629acd6f98bd9f6282769c3f982639e4fb60af572f399b14e3b77028e3be"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "ContactAddress",
-			"Hash": "04286109d48897961e8afdeef4f3be97"
+			"Hash": "3e2f13cf0d93d28807dd5629340aa61b"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
@@ -14501,7 +14676,7 @@
 		{
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "ContactType",
-			"Hash": "317e2e3f6a0d80fbacc54494a59619bd"
+			"Hash": "bdb90357e0fef5ddbcc83921f9cd9c3e"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
@@ -15872,6 +16047,11 @@
 			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "MultiLookupImage",
 			"Hash": "5df0f3175900bb2d6dbac14eeafc5e0e"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "NewsInsightsSchedule",
+			"Hash": "ecd2cbb0fef36492a307fdb20f6e2f73"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
@@ -18105,8 +18285,23 @@
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrCustomer",
+			"Hash": "65a57db650f6ac7d8b465ac8991b23822f38ccc339615235df97166f669f6193"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrCustomerType",
+			"Hash": "0420511d7b33106e84ee2c1b12118247ce0b90bdb4c03e1ca85bfb2228275c6a"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
 			"SchemaName": "UsrTrafficLight",
-			"Hash": "3277c49efc8b0ae3b8b194f9cbc8be671c3b11da8c49569e36c52f8a686367a4"
+			"Hash": "3277c49efc8b0ae3b8b194f9cbc8be67929db64443179161be1766272718f2e0"
+		},
+		{
+			"ManagerName": "EntitySchemaManager",
+			"SchemaName": "UsrVwContactAgeDays",
+			"Hash": "43ed2d3c4df8b87266e6f573440573848ef9fcd494a63d683cd05c78ccba7eae"
 		},
 		{
 			"ManagerName": "EntitySchemaManager",
@@ -19655,6 +19850,11 @@
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "AccountNewsAndInsightsScheduleExecutor",
+			"Hash": "1236df83894eafdb1e9c865ae1f68bc0"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "ActionCheckGeminiApiKey",
 			"Hash": "fd29c94e575bf61ef5d6f7d844c73040"
 		},
@@ -19685,8 +19885,38 @@
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "AddContact",
+			"Hash": "44c2f7fe6ed2182c86352d9b96a5a8ee"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "AddContactsToAccount",
+			"Hash": "895d32e1025218efe6d976428a7efa57"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "AddInsights",
+			"Hash": "26bfef0846c3508146043cc1a62a1bc6"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "AddPrimaryContact",
+			"Hash": "9de545dee9f1f358c9128c208fe1d4b4"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "AgeActualizationC360",
+			"Hash": "8f363780affb1cca2c9ae9b7a7736629"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "ApplyTranslationProcess",
 			"Hash": "74124e00a18891e290a0f8d307622525"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "BingSearchProcess",
+			"Hash": "3582a206238e229febf06b178cb32c5f"
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
@@ -19695,8 +19925,38 @@
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "BusinessEntity",
+			"Hash": "cdc58af40d54e519bfc3364412e42354"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "CallAccountNewsAndInsightsSkill",
+			"Hash": "fa94c2ca6edd6cad6eb5c377e66d1b31"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "ChangeLogConfigurationProcess",
 			"Hash": "528778212901e42c4c571103182f3f36"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "CheckAccountHasWebLink",
+			"Hash": "3a920651df6d5299d558aa667051a520"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "CheckApolloZoominfoAvailableProcess",
+			"Hash": "db970074ce7f203e258f414e1ec7f9a8"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "CheckBingApiKey",
+			"Hash": "539cab544feb3adb9909bd865e20ab0e"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "CheckIfOperatorHasAccountOwnershipRights",
+			"Hash": "618e0108c7fe9ad4a7e1e28b142054a9"
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
@@ -19707,6 +19967,11 @@
 			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "CheckMarketplaceAppsNeedUpdateProcess",
 			"Hash": "875ed0805e39864b4662831d96d457ac"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "CheckPreferenceCount",
+			"Hash": "466ab19a56bebdc84eea26043fec7c4e"
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
@@ -19805,6 +20070,11 @@
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "Copilot_GetCurrentUserTimeZone",
+			"Hash": "c1942e39417809c0e134ac4e006a1a34"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "Copilot_GetEntityStructure",
 			"Hash": "a4fcd930751a3fde2bd1aa4d76003ce2"
 		},
@@ -19860,6 +20130,11 @@
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "CreateMessageFromAIChat",
+			"Hash": "d1dc07be7d467e369907ff8990878969"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "CreateRecordDefaultAction",
 			"Hash": "9ad383206b76a7ad79619f69213891ac"
 		},
@@ -19902,6 +20177,11 @@
 			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "DeleteAccessToTagRightsProcess",
 			"Hash": "001bc300e36c1356bd7d835e7dc71b9f"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "DeleteSchedulerPreferences",
+			"Hash": "c5b6ad0fb86ae4ee8fc943709b8069ee"
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
@@ -19977,6 +20257,11 @@
 			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "FillFromSocialModuleProcess",
 			"Hash": "a0d626f84333242ed7fd940671b92899"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "FindContactDuplicates",
+			"Hash": "31c4f8fd45b99f4d2b902ef5fe4cec9b"
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
@@ -20057,6 +20342,16 @@
 			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "GetRemindingCounters",
 			"Hash": "58fd31a5c5cac7226262d9112808eeaa"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "GetSavedPreference",
+			"Hash": "ed0308db0052aadf8b63522d952e5a9b"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "GetSystemTimezone",
+			"Hash": "e69f5a4462e0eee847fe025fde61673e"
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
@@ -20185,6 +20480,11 @@
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "ParseInsights",
+			"Hash": "f3335fee0f7ac15ad4d7a673646414cc"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "Process_3d0825b",
 			"Hash": "8ffd4245445eddbe3707895c6cd4a999"
 		},
@@ -20207,6 +20507,16 @@
 			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "QueryEntityData",
 			"Hash": "ea23b57b34329a882b3b7bc6511cb7cf"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "ReadAccountEmployeesNumber",
+			"Hash": "7810176d6f52faa5ea57ec61086b6113"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "ReadIndustries",
+			"Hash": "09dda4d344ed43b0cd203a66a57f0c89"
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
@@ -20292,6 +20602,16 @@
 			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "RunLDAPSync",
 			"Hash": "4100cdf957fa8a9329163143c54bf353"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "SaveNewApiKey",
+			"Hash": "4aaf57ed58fdcf7b8e79e5a21a8f8d76"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "SaveNewsInsightPreferences",
+			"Hash": "3ec7ec8c552e21cf93161611e1bac24e"
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
@@ -20512,6 +20832,11 @@
 			"ManagerName": "ProcessSchemaManager",
 			"SchemaName": "UISwitcherSetUseNewShellForGroup",
 			"Hash": "1471019594fc477d4b5df9de091f752a"
+		},
+		{
+			"ManagerName": "ProcessSchemaManager",
+			"SchemaName": "UpdateAccountData",
+			"Hash": "bf9f51656d8ba48cbf9a2dee39b78bff"
 		},
 		{
 			"ManagerName": "ProcessSchemaManager",
@@ -21095,6 +21420,11 @@
 		},
 		{
 			"ManagerName": "ServiceSchemaManager",
+			"SchemaName": "BingSearchApiCall",
+			"Hash": "f7e7e72d4028e1e087570c2ac4609ac9"
+		},
+		{
+			"ManagerName": "ServiceSchemaManager",
 			"SchemaName": "CreatioMarketplaceApi",
 			"Hash": "f58cb8fea7133a90ebb1b4167cc8fae8"
 		},
@@ -21127,6 +21457,11 @@
 			"ManagerName": "SourceCodeSchemaManager",
 			"SchemaName": "AccessTokenInfo",
 			"Hash": "e6e29fd2173dbddf2e99537534369f38"
+		},
+		{
+			"ManagerName": "SourceCodeSchemaManager",
+			"SchemaName": "AccountAddressEventListener",
+			"Hash": "9b2e4807cfe8cff71e7ebb2dbce4e755"
 		},
 		{
 			"ManagerName": "SourceCodeSchemaManager",
@@ -21677,6 +22012,11 @@
 			"ManagerName": "SourceCodeSchemaManager",
 			"SchemaName": "BaseActualizerAge",
 			"Hash": "df0bd9073aaf63ccc516fb76c75aa97f"
+		},
+		{
+			"ManagerName": "SourceCodeSchemaManager",
+			"SchemaName": "BaseAddressEventListener",
+			"Hash": "0af48d806ecfe95e193cbe08cc3e0356"
 		},
 		{
 			"ManagerName": "SourceCodeSchemaManager",
@@ -22772,6 +23112,11 @@
 			"ManagerName": "SourceCodeSchemaManager",
 			"SchemaName": "ContactActualizerAge",
 			"Hash": "b98f497de026b88d6873db0e3bcfeade"
+		},
+		{
+			"ManagerName": "SourceCodeSchemaManager",
+			"SchemaName": "ContactAddressEventListener",
+			"Hash": "ea9818c34307855c48b3086dd7af8085"
 		},
 		{
 			"ManagerName": "SourceCodeSchemaManager",
@@ -27175,6 +27520,11 @@
 		},
 		{
 			"ManagerName": "SourceCodeSchemaManager",
+			"SchemaName": "InsightsJobDispatcher",
+			"Hash": "bccf40c3effd5571acb98b76995fbe29"
+		},
+		{
+			"ManagerName": "SourceCodeSchemaManager",
 			"SchemaName": "InstallWebhookServiceUserInIdentityInstallScript",
 			"Hash": "e7a4365aef2cb033f66581887c5896d9"
 		},
@@ -31530,6 +31880,11 @@
 		},
 		{
 			"ManagerName": "SourceCodeSchemaManager",
+			"SchemaName": "UpdateAccountSectionLogoInstallScript",
+			"Hash": "72d221f6a654d126e10c1eb865bcdb09"
+		},
+		{
+			"ManagerName": "SourceCodeSchemaManager",
 			"SchemaName": "UpdateAppAndPackageMaintainerScriptExecutor",
 			"Hash": "f825a3f8b5ca1c4267aa323aa6d3d9c5"
 		},
@@ -31577,6 +31932,11 @@
 			"ManagerName": "SourceCodeSchemaManager",
 			"SchemaName": "UpdateMaxFunctionCallingCountPerCopilotReqInstallScriptExecutor",
 			"Hash": "ba8157c2bf82ce2a86c687c35dd6559f"
+		},
+		{
+			"ManagerName": "SourceCodeSchemaManager",
+			"SchemaName": "UpdateMobileSectionSchemaUIdsInstallScript",
+			"Hash": "67cfe5dd990bb1d8235c4f38de0d068b"
 		},
 		{
 			"ManagerName": "SourceCodeSchemaManager",

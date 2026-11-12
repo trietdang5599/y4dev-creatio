@@ -102,6 +102,9 @@
 			}
 		}
 
+		/// <summary>
+		/// Code.
+		/// </summary>
 		public string UsrCode {
 			get {
 				return GetTypedColumnValue<string>("UsrCode");

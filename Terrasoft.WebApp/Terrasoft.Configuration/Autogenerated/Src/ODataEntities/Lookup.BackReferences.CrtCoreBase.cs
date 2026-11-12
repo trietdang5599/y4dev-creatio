@@ -40,6 +40,11 @@
 			set;
 		}
 
+		public IEnumerable<UsrVwContactAgeDays> UsrVwContactAgeDaysCollectionByUsrContact {
+			get;
+			set;
+		}
+
 		/// <summary>
 		/// Id.
 		/// </summary>

@@ -26,23 +26,23 @@
 	using Terrasoft.UI.WebControls.Controls;
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 
-	#region Class: ContactAddressSchema
+	#region Class: ContactAddress_SSP_CreatioSchema
 
 	/// <exclude/>
-	public class ContactAddressSchema : Terrasoft.Configuration.ContactAddress_CrtBase_CreatioSchema
+	public class ContactAddress_SSP_CreatioSchema : Terrasoft.Configuration.ContactAddress_CrtBase_CreatioSchema
 	{
 
 		#region Constructors: Public
 
-		public ContactAddressSchema(EntitySchemaManager entitySchemaManager)
+		public ContactAddress_SSP_CreatioSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public ContactAddressSchema(ContactAddressSchema source, bool isShallowClone)
+		public ContactAddress_SSP_CreatioSchema(ContactAddress_SSP_CreatioSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public ContactAddressSchema(ContactAddressSchema source)
+		public ContactAddress_SSP_CreatioSchema(ContactAddress_SSP_CreatioSchema source)
 			: base(source) {
 		}
 
@@ -53,7 +53,7 @@
 		protected override void InitializeProperties() {
 			base.InitializeProperties();
 			RealUId = new Guid("0839a4b5-5677-40b2-a950-f0d55e2ce68b");
-			Name = "ContactAddress";
+			Name = "ContactAddress_SSP_Creatio";
 			ParentSchemaUId = new Guid("d54d2218-61c8-413a-a1b7-5748c7e25f56");
 			ExtendParent = true;
 			CreatedInPackageId = new Guid("d7352345-17a4-46e8-b32e-306ac0453d7a");
@@ -76,7 +76,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new ContactAddress(userConnection) {Schema = this};
+			return new ContactAddress_SSP_Creatio(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -84,11 +84,11 @@
 		}
 
 		public override object Clone() {
-			return new ContactAddressSchema(this);
+			return new ContactAddress_SSP_CreatioSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new ContactAddressSchema(this, true);
+			return new ContactAddress_SSP_CreatioSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -102,22 +102,22 @@
 
 	#endregion
 
-	#region Class: ContactAddress
+	#region Class: ContactAddress_SSP_Creatio
 
 	/// <summary>
 	/// Contact address.
 	/// </summary>
-	public class ContactAddress : Terrasoft.Configuration.ContactAddress_CrtBase_Creatio
+	public class ContactAddress_SSP_Creatio : Terrasoft.Configuration.ContactAddress_CrtBase_Creatio
 	{
 
 		#region Constructors: Public
 
-		public ContactAddress(UserConnection userConnection)
+		public ContactAddress_SSP_Creatio(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "ContactAddress";
+			SchemaName = "ContactAddress_SSP_Creatio";
 		}
 
-		public ContactAddress(ContactAddress source)
+		public ContactAddress_SSP_Creatio(ContactAddress_SSP_Creatio source)
 			: base(source) {
 		}
 
@@ -144,7 +144,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new ContactAddress(this);
+			return new ContactAddress_SSP_Creatio(this);
 		}
 
 		#endregion
@@ -156,7 +156,7 @@
 	#region Class: ContactAddress_SSPEventsProcess
 
 	/// <exclude/>
-	public partial class ContactAddress_SSPEventsProcess<TEntity> : Terrasoft.Configuration.ContactAddress_CrtBaseEventsProcess<TEntity> where TEntity : ContactAddress
+	public partial class ContactAddress_SSPEventsProcess<TEntity> : Terrasoft.Configuration.ContactAddress_CrtBaseEventsProcess<TEntity> where TEntity : ContactAddress_SSP_Creatio
 	{
 
 		public ContactAddress_SSPEventsProcess(UserConnection userConnection)
@@ -237,7 +237,7 @@
 	#region Class: ContactAddress_SSPEventsProcess
 
 	/// <exclude/>
-	public class ContactAddress_SSPEventsProcess : ContactAddress_SSPEventsProcess<ContactAddress>
+	public class ContactAddress_SSPEventsProcess : ContactAddress_SSPEventsProcess<ContactAddress_SSP_Creatio>
 	{
 
 		public ContactAddress_SSPEventsProcess(UserConnection userConnection)
@@ -256,21 +256,6 @@
 		#region Methods: Public
 
 		#endregion
-
-	}
-
-	#endregion
-
-
-	#region Class: ContactAddressEventsProcess
-
-	/// <exclude/>
-	public class ContactAddressEventsProcess : ContactAddress_SSPEventsProcess
-	{
-
-		public ContactAddressEventsProcess(UserConnection userConnection)
-			: base(userConnection) {
-		}
 
 	}
 

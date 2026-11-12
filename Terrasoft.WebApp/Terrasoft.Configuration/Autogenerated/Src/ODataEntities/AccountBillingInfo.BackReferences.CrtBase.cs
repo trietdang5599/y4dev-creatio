@@ -54,6 +54,78 @@
 			}
 		}
 
+		/// <summary>
+		/// Modified on.
+		/// </summary>
+		public DateTime ModifiedOn {
+			get {
+				return GetTypedColumnValue<DateTime>("ModifiedOn");
+			}
+			set {
+				SetColumnValue("ModifiedOn", value);
+			}
+		}
+
+		/// <summary>
+		/// Name.
+		/// </summary>
+		public string Name {
+			get {
+				return GetTypedColumnValue<string>("Name");
+			}
+			set {
+				SetColumnValue("Name", value);
+			}
+		}
+
+		/// <summary>
+		/// Description.
+		/// </summary>
+		public string Description {
+			get {
+				return GetTypedColumnValue<string>("Description");
+			}
+			set {
+				SetColumnValue("Description", value);
+			}
+		}
+
+		/// <summary>
+		/// Banking details.
+		/// </summary>
+		public string BillingInfo {
+			get {
+				return GetTypedColumnValue<string>("BillingInfo");
+			}
+			set {
+				SetColumnValue("BillingInfo", value);
+			}
+		}
+
+		/// <summary>
+		/// Active processes.
+		/// </summary>
+		public int ProcessListeners {
+			get {
+				return GetTypedColumnValue<int>("ProcessListeners");
+			}
+			set {
+				SetColumnValue("ProcessListeners", value);
+			}
+		}
+
+		/// <summary>
+		/// Legal entity.
+		/// </summary>
+		public string LegalUnit {
+			get {
+				return GetTypedColumnValue<string>("LegalUnit");
+			}
+			set {
+				SetColumnValue("LegalUnit", value);
+			}
+		}
+
 		/// <exclude/>
 		public Guid CreatedById {
 			get {
@@ -89,18 +161,6 @@
 			}
 		}
 
-		/// <summary>
-		/// Modified on.
-		/// </summary>
-		public DateTime ModifiedOn {
-			get {
-				return GetTypedColumnValue<DateTime>("ModifiedOn");
-			}
-			set {
-				SetColumnValue("ModifiedOn", value);
-			}
-		}
-
 		/// <exclude/>
 		public Guid ModifiedById {
 			get {
@@ -133,30 +193,6 @@
 			get {
 				return _modifiedBy ??
 					(_modifiedBy = new Contact(LookupColumnEntities.GetEntity("ModifiedBy")));
-			}
-		}
-
-		/// <summary>
-		/// Name.
-		/// </summary>
-		public string Name {
-			get {
-				return GetTypedColumnValue<string>("Name");
-			}
-			set {
-				SetColumnValue("Name", value);
-			}
-		}
-
-		/// <summary>
-		/// Description.
-		/// </summary>
-		public string Description {
-			get {
-				return GetTypedColumnValue<string>("Description");
-			}
-			set {
-				SetColumnValue("Description", value);
 			}
 		}
 
@@ -230,30 +266,6 @@
 			}
 		}
 
-		/// <summary>
-		/// Banking details.
-		/// </summary>
-		public string BillingInfo {
-			get {
-				return GetTypedColumnValue<string>("BillingInfo");
-			}
-			set {
-				SetColumnValue("BillingInfo", value);
-			}
-		}
-
-		/// <summary>
-		/// Active processes.
-		/// </summary>
-		public int ProcessListeners {
-			get {
-				return GetTypedColumnValue<int>("ProcessListeners");
-			}
-			set {
-				SetColumnValue("ProcessListeners", value);
-			}
-		}
-
 		/// <exclude/>
 		public Guid AccountManagerId {
 			get {
@@ -321,18 +333,6 @@
 			get {
 				return _chiefAccountant ??
 					(_chiefAccountant = new Contact(LookupColumnEntities.GetEntity("ChiefAccountant")));
-			}
-		}
-
-		/// <summary>
-		/// Legal entity.
-		/// </summary>
-		public string LegalUnit {
-			get {
-				return GetTypedColumnValue<string>("LegalUnit");
-			}
-			set {
-				SetColumnValue("LegalUnit", value);
 			}
 		}
 

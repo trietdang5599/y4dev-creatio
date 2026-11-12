@@ -205,6 +205,11 @@
 			set;
 		}
 
+		public IEnumerable<UsrVwContactAgeDays> UsrVwContactAgeDaysCollectionByUsrContact {
+			get;
+			set;
+		}
+
 		public IEnumerable<OAuth20AppFile> OAuth20AppFileCollectionByLockedBy {
 			get;
 			set;
@@ -301,6 +306,11 @@
 		}
 
 		public IEnumerable<CallFile> CallFileCollectionByLockedBy {
+			get;
+			set;
+		}
+
+		public IEnumerable<Contact> ContactCollectionByManager {
 			get;
 			set;
 		}
@@ -1050,6 +1060,18 @@
 			}
 		}
 
+		/// <summary>
+		/// YoE.
+		/// </summary>
+		public string UsrColumn58 {
+			get {
+				return GetTypedColumnValue<string>("UsrColumn58");
+			}
+			set {
+				SetColumnValue("UsrColumn58", value);
+			}
+		}
+
 		/// <exclude/>
 		public Guid OwnerId {
 			get {
@@ -1721,6 +1743,41 @@
 			get {
 				return _language ??
 					(_language = new SysLanguage(LookupColumnEntities.GetEntity("Language")));
+			}
+		}
+
+		/// <exclude/>
+		public Guid ManagerId {
+			get {
+				return GetTypedColumnValue<Guid>("ManagerId");
+			}
+			set {
+				SetColumnValue("ManagerId", value);
+				_manager = null;
+			}
+		}
+
+		/// <exclude/>
+		public string ManagerName {
+			get {
+				return GetTypedColumnValue<string>("ManagerName");
+			}
+			set {
+				SetColumnValue("ManagerName", value);
+				if (_manager != null) {
+					_manager.Name = value;
+				}
+			}
+		}
+
+		private Contact _manager;
+		/// <summary>
+		/// Manager.
+		/// </summary>
+		public Contact Manager {
+			get {
+				return _manager ??
+					(_manager = new Contact(LookupColumnEntities.GetEntity("Manager")));
 			}
 		}
 

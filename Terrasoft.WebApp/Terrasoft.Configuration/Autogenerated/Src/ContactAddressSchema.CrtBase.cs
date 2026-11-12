@@ -281,7 +281,7 @@
 	#region Class: ContactAddress_CrtBaseEventsProcess
 
 	/// <exclude/>
-	public partial class ContactAddress_CrtBaseEventsProcess<TEntity> : Terrasoft.Configuration.BaseAddress_CrtBaseEventsProcess<TEntity> where TEntity : ContactAddress_CrtBase_Creatio
+	public partial class ContactAddress_CrtBaseEventsProcess<TEntity> : Terrasoft.Configuration.BaseAddress_CrtCustomer360AppEventsProcess<TEntity> where TEntity : ContactAddress_CrtBase_Creatio
 	{
 
 		public ContactAddress_CrtBaseEventsProcess(UserConnection userConnection)

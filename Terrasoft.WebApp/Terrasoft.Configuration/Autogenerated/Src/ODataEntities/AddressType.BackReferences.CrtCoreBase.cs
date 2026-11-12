@@ -146,6 +146,18 @@
 			}
 		}
 
+		/// <summary>
+		/// Color.
+		/// </summary>
+		public Color Color {
+			get {
+				return GetTypedColumnValue<Color>("Color");
+			}
+			set {
+				SetColumnValue("Color", value);
+			}
+		}
+
 		/// <exclude/>
 		public Guid CreatedById {
 			get {

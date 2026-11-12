@@ -26,23 +26,23 @@
 	using Terrasoft.UI.WebControls.Controls;
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 
-	#region Class: AccountAddressSchema
+	#region Class: AccountAddress_CrtBase_CreatioSchema
 
 	/// <exclude/>
-	public class AccountAddressSchema : Terrasoft.Configuration.BaseAddressSchema
+	public class AccountAddress_CrtBase_CreatioSchema : Terrasoft.Configuration.BaseAddressSchema
 	{
 
 		#region Constructors: Public
 
-		public AccountAddressSchema(EntitySchemaManager entitySchemaManager)
+		public AccountAddress_CrtBase_CreatioSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public AccountAddressSchema(AccountAddressSchema source, bool isShallowClone)
+		public AccountAddress_CrtBase_CreatioSchema(AccountAddress_CrtBase_CreatioSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public AccountAddressSchema(AccountAddressSchema source)
+		public AccountAddress_CrtBase_CreatioSchema(AccountAddress_CrtBase_CreatioSchema source)
 			: base(source) {
 		}
 
@@ -54,7 +54,7 @@
 			base.InitializeProperties();
 			UId = new Guid("8ab0fe8a-0340-41ac-8b09-b11f65dd83da");
 			RealUId = new Guid("8ab0fe8a-0340-41ac-8b09-b11f65dd83da");
-			Name = "AccountAddress";
+			Name = "AccountAddress_CrtBase_Creatio";
 			ParentSchemaUId = new Guid("400e8687-9616-480d-9d81-61de0235cc86");
 			ExtendParent = false;
 			CreatedInPackageId = new Guid("66e9e705-64b4-4dda-925e-d1e05a389eb6");
@@ -133,7 +133,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new AccountAddress(userConnection) {Schema = this};
+			return new AccountAddress_CrtBase_Creatio(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -141,11 +141,11 @@
 		}
 
 		public override object Clone() {
-			return new AccountAddressSchema(this);
+			return new AccountAddress_CrtBase_CreatioSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new AccountAddressSchema(this, true);
+			return new AccountAddress_CrtBase_CreatioSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -159,22 +159,22 @@
 
 	#endregion
 
-	#region Class: AccountAddress
+	#region Class: AccountAddress_CrtBase_Creatio
 
 	/// <summary>
 	/// Account address.
 	/// </summary>
-	public class AccountAddress : Terrasoft.Configuration.BaseAddress
+	public class AccountAddress_CrtBase_Creatio : Terrasoft.Configuration.BaseAddress
 	{
 
 		#region Constructors: Public
 
-		public AccountAddress(UserConnection userConnection)
+		public AccountAddress_CrtBase_Creatio(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "AccountAddress";
+			SchemaName = "AccountAddress_CrtBase_Creatio";
 		}
 
-		public AccountAddress(AccountAddress source)
+		public AccountAddress_CrtBase_Creatio(AccountAddress_CrtBase_Creatio source)
 			: base(source) {
 		}
 
@@ -256,12 +256,12 @@
 		#region Methods: Protected
 
 		protected override void InitializeThrowEvents() {
-			Deleted += (s, e) => ThrowEvent("AccountAddressDeleted", e);
-			Inserted += (s, e) => ThrowEvent("AccountAddressInserted", e);
-			Inserting += (s, e) => ThrowEvent("AccountAddressInserting", e);
-			Saved += (s, e) => ThrowEvent("AccountAddressSaved", e);
-			Saving += (s, e) => ThrowEvent("AccountAddressSaving", e);
-			Validating += (s, e) => ThrowEvent("AccountAddressValidating", e);
+			Deleted += (s, e) => ThrowEvent("AccountAddress_CrtBase_CreatioDeleted", e);
+			Inserted += (s, e) => ThrowEvent("AccountAddress_CrtBase_CreatioInserted", e);
+			Inserting += (s, e) => ThrowEvent("AccountAddress_CrtBase_CreatioInserting", e);
+			Saved += (s, e) => ThrowEvent("AccountAddress_CrtBase_CreatioSaved", e);
+			Saving += (s, e) => ThrowEvent("AccountAddress_CrtBase_CreatioSaving", e);
+			Validating += (s, e) => ThrowEvent("AccountAddress_CrtBase_CreatioValidating", e);
 			base.InitializeThrowEvents();
 		}
 
@@ -270,7 +270,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new AccountAddress(this);
+			return new AccountAddress_CrtBase_Creatio(this);
 		}
 
 		#endregion
@@ -282,7 +282,7 @@
 	#region Class: AccountAddress_CrtBaseEventsProcess
 
 	/// <exclude/>
-	public partial class AccountAddress_CrtBaseEventsProcess<TEntity> : Terrasoft.Configuration.BaseAddress_CrtBaseEventsProcess<TEntity> where TEntity : AccountAddress
+	public partial class AccountAddress_CrtBaseEventsProcess<TEntity> : Terrasoft.Configuration.BaseAddress_CrtCustomer360AppEventsProcess<TEntity> where TEntity : AccountAddress_CrtBase_Creatio
 	{
 
 		public AccountAddress_CrtBaseEventsProcess(UserConnection userConnection)
@@ -619,17 +619,17 @@
 
 		public override void ThrowEvent(ProcessExecutingContext context, string message) {
 			switch(message) {
-					case "AccountAddressSaved":
+					case "AccountAddress_CrtBase_CreatioSaved":
 							if (ActivatedEventElements.Contains("AccountAddressSaved")) {
 							context.QueueTasks.Enqueue("AccountAddressSaved");
 						}
 						break;
-					case "AccountAddressDeleted":
+					case "AccountAddress_CrtBase_CreatioDeleted":
 							if (ActivatedEventElements.Contains("AccountAddressDeleted")) {
 							context.QueueTasks.Enqueue("AccountAddressDeleted");
 						}
 						break;
-					case "AccountAddressSaving":
+					case "AccountAddress_CrtBase_CreatioSaving":
 							if (ActivatedEventElements.Contains("AccountAddressSavingStartMessage")) {
 							context.QueueTasks.Enqueue("AccountAddressSavingStartMessage");
 						}
@@ -648,25 +648,10 @@
 	#region Class: AccountAddress_CrtBaseEventsProcess
 
 	/// <exclude/>
-	public class AccountAddress_CrtBaseEventsProcess : AccountAddress_CrtBaseEventsProcess<AccountAddress>
+	public class AccountAddress_CrtBaseEventsProcess : AccountAddress_CrtBaseEventsProcess<AccountAddress_CrtBase_Creatio>
 	{
 
 		public AccountAddress_CrtBaseEventsProcess(UserConnection userConnection)
-			: base(userConnection) {
-		}
-
-	}
-
-	#endregion
-
-
-	#region Class: AccountAddressEventsProcess
-
-	/// <exclude/>
-	public class AccountAddressEventsProcess : AccountAddress_CrtBaseEventsProcess
-	{
-
-		public AccountAddressEventsProcess(UserConnection userConnection)
 			: base(userConnection) {
 		}
 

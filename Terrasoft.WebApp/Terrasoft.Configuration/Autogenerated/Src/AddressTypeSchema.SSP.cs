@@ -26,23 +26,23 @@
 	using Terrasoft.UI.WebControls.Controls;
 	using Terrasoft.UI.WebControls.Utilities.Json.Converters;
 
-	#region Class: AddressTypeSchema
+	#region Class: AddressType_SSP_CreatioSchema
 
 	/// <exclude/>
-	public class AddressTypeSchema : Terrasoft.Configuration.AddressType_CrtCoreBase_CreatioSchema
+	public class AddressType_SSP_CreatioSchema : Terrasoft.Configuration.AddressType_CrtCoreBase_CreatioSchema
 	{
 
 		#region Constructors: Public
 
-		public AddressTypeSchema(EntitySchemaManager entitySchemaManager)
+		public AddressType_SSP_CreatioSchema(EntitySchemaManager entitySchemaManager)
 			: base(entitySchemaManager) {
 		}
 
-		public AddressTypeSchema(AddressTypeSchema source, bool isShallowClone)
+		public AddressType_SSP_CreatioSchema(AddressType_SSP_CreatioSchema source, bool isShallowClone)
 			: base(source, isShallowClone) {
 		}
 
-		public AddressTypeSchema(AddressTypeSchema source)
+		public AddressType_SSP_CreatioSchema(AddressType_SSP_CreatioSchema source)
 			: base(source) {
 		}
 
@@ -53,7 +53,7 @@
 		protected override void InitializeProperties() {
 			base.InitializeProperties();
 			RealUId = new Guid("797de413-d31b-43ae-b5fa-fd9f41059208");
-			Name = "AddressType";
+			Name = "AddressType_SSP_Creatio";
 			ParentSchemaUId = new Guid("50837bfc-43ff-466b-94bb-de0847eecd1b");
 			ExtendParent = true;
 			CreatedInPackageId = new Guid("d7352345-17a4-46e8-b32e-306ac0453d7a");
@@ -76,7 +76,7 @@
 		#region Methods: Public
 
 		public override Entity CreateEntity(UserConnection userConnection) {
-			return new AddressType(userConnection) {Schema = this};
+			return new AddressType_SSP_Creatio(userConnection) {Schema = this};
 		}
 
 		public override EmbeddedProcess CreateEventsProcess(UserConnection userConnection) {
@@ -84,11 +84,11 @@
 		}
 
 		public override object Clone() {
-			return new AddressTypeSchema(this);
+			return new AddressType_SSP_CreatioSchema(this);
 		}
 
 		public override EntitySchema CloneShallow() {
-			return new AddressTypeSchema(this, true);
+			return new AddressType_SSP_CreatioSchema(this, true);
 		}
 
 		public override void GetParentRealUIds(Collection<Guid> realUIds) {
@@ -102,22 +102,22 @@
 
 	#endregion
 
-	#region Class: AddressType
+	#region Class: AddressType_SSP_Creatio
 
 	/// <summary>
 	/// Address type.
 	/// </summary>
-	public class AddressType : Terrasoft.Configuration.AddressType_CrtCoreBase_Creatio
+	public class AddressType_SSP_Creatio : Terrasoft.Configuration.AddressType_CrtCoreBase_Creatio
 	{
 
 		#region Constructors: Public
 
-		public AddressType(UserConnection userConnection)
+		public AddressType_SSP_Creatio(UserConnection userConnection)
 			: base(userConnection) {
-			SchemaName = "AddressType";
+			SchemaName = "AddressType_SSP_Creatio";
 		}
 
-		public AddressType(AddressType source)
+		public AddressType_SSP_Creatio(AddressType_SSP_Creatio source)
 			: base(source) {
 		}
 
@@ -144,7 +144,7 @@
 		#region Methods: Public
 
 		public override object Clone() {
-			return new AddressType(this);
+			return new AddressType_SSP_Creatio(this);
 		}
 
 		#endregion
@@ -156,7 +156,7 @@
 	#region Class: AddressType_SSPEventsProcess
 
 	/// <exclude/>
-	public partial class AddressType_SSPEventsProcess<TEntity> : Terrasoft.Configuration.AddressType_CrtCoreBaseEventsProcess<TEntity> where TEntity : AddressType
+	public partial class AddressType_SSPEventsProcess<TEntity> : Terrasoft.Configuration.AddressType_CrtCoreBaseEventsProcess<TEntity> where TEntity : AddressType_SSP_Creatio
 	{
 
 		public AddressType_SSPEventsProcess(UserConnection userConnection)
@@ -237,7 +237,7 @@
 	#region Class: AddressType_SSPEventsProcess
 
 	/// <exclude/>
-	public class AddressType_SSPEventsProcess : AddressType_SSPEventsProcess<AddressType>
+	public class AddressType_SSPEventsProcess : AddressType_SSPEventsProcess<AddressType_SSP_Creatio>
 	{
 
 		public AddressType_SSPEventsProcess(UserConnection userConnection)
@@ -256,21 +256,6 @@
 		#region Methods: Public
 
 		#endregion
-
-	}
-
-	#endregion
-
-
-	#region Class: AddressTypeEventsProcess
-
-	/// <exclude/>
-	public class AddressTypeEventsProcess : AddressType_SSPEventsProcess
-	{
-
-		public AddressTypeEventsProcess(UserConnection userConnection)
-			: base(userConnection) {
-		}
 
 	}
 
